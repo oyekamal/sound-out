@@ -1,0 +1,52 @@
+# Critics round 1: claims auditor (plan-v1.md)
+
+Method: every number and every "(research-0X §Y)" citation in plan-v1.md was opened against research-01..05, DESIGN.md, course/level-0/placement-test.md, the level lesson files and bar/*.json. Lesson count verified by `ls`: L1 14, L2 14, L3 18, L4 16, L5 16, L6 16, L7 14 = **108 (correct)**. L1-L4 = 62 (correct). Sitting arithmetic (14x6=84, 14x3=42, 18x6=108, 16x6=96, 16x3=48, 14x3=42, 8-9 weeks at 5/wk) is correct. Reuse-line totals (449/2,702/391/313 = 3,855; 12/70/10/8%) are correct. Audio MB table sums (74.9 ceiling, 70.7 measured; 11,223 clips) are correct. Store numbers (4.80/131,337; 4.25/3,810; 4.47/29,802/$8.99; 4.70/7,369; 96/201/212 MB in MiB) match bar/*.json. Section-number citations resolve to the right sections in nearly all cases.
+
+## Findings (only rows that fail or need a flag)
+
+| # | Plan section | Claim | What the source says | Severity |
+|---|---|---|---|---|
+| 1 | §0 Summary | "no local model produced a teachable /s/ or /θ/ (research-02 §5)" | research-02 §5: Gemini Flash judge heard them wrong, "may be the judge as much as the model. I cannot tell without a human listening"; §9: "No human has listened to any of these wavs". Only Kokoro and Piper were run; Matcha, Kitten, Supertonic, Chatterbox untested. §8 says continuants /m n l r/ "may be acceptable from TTS". | unverified-presented-as-fact |
+| 2 | §2.3 rule 4 | Bar "from its lesson file (mini-checks 5/5, 7/8, 9/11; Checks 9/10)" while rule 4 = 90% | 9/11 is the L1.02 *Check* (not a mini-check) and is 81.8%, labelled "(approx >=90%)" in the lesson. L1.03-L1.13 use >=10/11; L3 uses 9/10. Plan copies the wrong figure without noticing its own "80% run must reteach" test would pass 82%. | arithmetic error (inherited, uncaught) |
+| 3 | §3.4 | Source line quoted: "Some words are made up. There is no pass or fail." from placement-test.md | The file says "Some of the 'words' aren't real words... There's no embarrassment here". The string "pass or fail" appears nowhere in level-0. (Inherited from research-04 §1.2.) | fabricated quote |
+| 4 | §3.4 step 5 | Stage 4 fluency runs "only after CVC and digraphs clear" | placement-test.md: "Stage 4 ... only if Tier 3+ cleared" (i.e. VCe/vowel teams). Stage 4 also has 3 passages (A/B/C), a discontinue rule, and DIBELS hesitation windows the plan omits. | contradicts source |
+| 5 | §1.1 Bilal | CVC tier 8/8 real, 5/8 pseudo (13/16) "placed at L1.13 with fast track" | placement-test.md: "If Tier 1 itself is below 90% place at Level 1 lesson 1.2". 13/16 = 81%. | contradicts source |
+| 6 | §3.4 step 2 / E1 | Stage 1 = "E1 items, no print" tap-the-picture games | Real Stage 1 is oral deletion/substitution items (PAST-informed), scored Correct AND Automatic (2-second cutoff), two outputs. Tap-the-picture drops the automaticity axis and changes the instrument; plan still says "Source: placement-test.md". | overstated fidelity |
+| 7 | §5.7, §11 C15 | "Grade 2+ and Hasbrouck-Tindal norms are not fetched"; C15 commissions them | placement-test.md lines 406-414 already holds the fetched HT 2017 table (grades 2/4/6, fall/winter/spring 50th percentile, ERIC ED594994). | contradicts source (gap does not exist) |
+| 8 | §11 C4 | "~50 heart words by hand" | DESIGN.md canonical schedule: L1 24 + L2 29 + L3 16 = **69**. research-05 said "11 of about 50 matter most"; plan turned that into "~50 by hand" for all. | fabricated / wrong count |
+| 9 | §1.2 Leo | 5-6 sittings/week, Track A: "finishes Level 2 digraphs and blends and starts the L2 mastery check" in a month | Plan's own ratio: Track A = 6 sittings/lesson. 5-6/wk x 4 wk = 20-26 sittings = ~4 lessons. L2.01-L2.12 = 72 sittings = ~13 weeks. | arithmetic error |
+| 10 | §4.3 Q4 | "all pseudowords (~1,360)" | §4.1 and C2 say ~1,000 pseudowords. 1,360 is never derived. | arithmetic error (internal) |
+| 11 | §4.6 | "44 phonemes" with the listed set | The list as written: 13 continuants + 8 stops + 3 (w j ŋ) + 6 short vowels + 9 long/diphthongs (incl. /juː/) + 5 r-controlled + schwa = **45**. Plan defers reconciliation to week 2 but states 44 (and 42/44 gate) as fact. | arithmetic error (off by 1) |
+| 12 | §4.1 | Stretched demos "~66 (22 lessons x 3)" | L1+L2 = 28 lessons; minus L1.01/.13/.14, L2.13/.14 = 23. Where 22 comes from is not stated. §8 week 1 says "10 blending demos" for the same item. | unverified |
+| 13 | §4.7 | Piper "lessac-derived voices research-only" | research-02 §2: lessac read via WebFetch summary only; amy/alba "legal grey area"; alba's own dataset is CC-BY-4.0. Not Piper-wide settled. (Voice decision survives: Kokoro is the choice anyway.) | overstated |
+| 14 | §0, §4.1 | "Install size is about 27 MB" (summary, no caveat) | research-05: ~26 MB "without ASR libs, plus the measured native delta"; onnxruntime .so "probably 15-20 MB per ABI" (check). v1 ships a native speech plugin; shell "about 8 MB" is itself an estimate. Base audio recomputed from the plan's own table (L1+L2 words/sentences 14.3 + pseudo 1 + L0 .5 + UI 1.8 + human .9 + Tier-2 ~2) is ~20.5 MB, not ~19, i.e. at the 20 MB build gate. Comparing an AAB download with iOS file sizes is not like-for-like. | overstated |
+| 15 | §4.1 pack table | Listening model "40-123 MB" | research-03: whisper.cpp base.en 142 MiB, tiny 75 MiB; 40 MB is Vosk/background; 123 MB is charsiu-js. The plan's own v1 candidate base.en (142) is outside its range. Plan does say "unverified until spike". | overstated (low) |
+| 16 | §6.8 heading | "Performance budgets (research-05 §5, measured on the 2 GB phone)" | They are budgets; research-05: "measure on a real 2 GB phone". Nothing was measured. | unverified-presented-as-fact (wording) |
+| 17 | §0 table, Duolingo row | "Store listing claims it (offline)" | Verified in bar JSON ("Enjoy playing and learning offline"). But §7.6 says nobody leads with offline (research-01 §3.5); Duolingo ABC's listing has an "Offline Learning" section. "Leads" is arguable. | fine-but-tension |
+| 18 | §0 table | "Common Sense counted 127 units, so the two [700 lessons vs 127 units] count different things" | Plausible; no source says so. | unverified |
+| 19 | §0 table | Competitor "No" for 90% mastery gate on real and pseudowords (all 5 apps) | Absence claims; research-01 "Not found" for most. TYM/Khan not first-party read (research-04 §1.1 admits). | unverified |
+| 20 | §3.9 | "canvas plan's 5-planted-error qualification (research-04 §2.3)" | research-04 §2.3 has the judge's card but not the qualification; it is in canvas v6-changes.md (5/5 classified, "recorded by Kamal"). "Helper rejected if misses 1 of 5" (week 5) is a plan invention. Mis-citation. | fine-but-uncited |
+| 21 | §3.1 | "do not add a fifth tab" | research-05 §1 learner.js row: "Add Speak tab entry points". | minor contradiction |
+| 22 | §2.2 | "From L5: morphology, fluency" | DESIGN.md: fluency "Strand from L2", morphology "L4-L7". | contradicts source |
+| 23 | §4.1 Tier-2 | "60 lessons x 2 words x 3 lines = 360 clips" | research-05 figure, but DESIGN.md puts Tier-2 words in every lesson (108), so 360 is a floor. | unverified |
+| 24 | §1.2 | Ayesha "can read 40+ words made from s a t p i n m d"; Bilal "312 words"; Rukhsana L1.4-L1.9 | No word count was computed from the lexicon; illustrative numbers shown as facts. | unverified |
+| 25 | §4.2 step 7, §8 wk 3 | "3-4 hours single-process"; "~3,000 clips for L0-L2" | research-02 gives 1.3-2 words/s and 1-1.5 s/sentence; my estimate ~2-3 h. research-05 says ~2,400 clips for L1-L2. Neither derived in the plan. | fine-but-uncited |
+| 26 | §3.7, §3.12 | Andika "SIL OFL" stated plainly in §3.7 | research-04 §6.1: "[memory]; check licence". §4.7 does say "verify". | fine-but-uncited (low) |
+| 27 | §6.3 gate 7 | "base audio <= 20 MB" | Plan's own recomputation (row 14) lands ~20.5 MB, so the gate would fail at the plan's own numbers. | arithmetic error (low) |
+
+## Checked and fine (not exhaustive)
+
+DESIGN.md level names, exit gates, 12 rule numbers/titles, "max 2 story words per text", heart-word examples (L1.02 a I, L1.06 said), Ayesha's 8 heart words after L1.05, 9-block template, 5 real + 5 pseudo + 1 dictated Check. Placement: Stage 0 four questions, Block A 26 items (<24 threshold), Block B 5, Block C 7, tiers of 8+8, "gan/nob/rob" defects, ~5 min early exit. research-02: 1,772 B/word (n=10, plan says "measured" and does not hide n), 55 MB earlier estimate, vop/chote/ship misses, af_heart 2/5 sentence, bf_emma letter names, espeak crash. research-03: thresholds 97/92/60/90, 60 items, p95<3 s, DIBELS 35/57/76 (verified PDF), SNR 10 dB, 150 ms, [B] labels preserved on sherpa Apache-2.0 and +-5-10 WCPM. research-04: Leitner 1/2/4/8/16 sittings, COPPA 22 Apr 2026, Wery & Diliberto, 300 UI strings, tag list, wave 1/2 languages (labelled memory). research-05: all line counts, 5,763 / 3,546 per-level table, 23 MB block waste, pack MBs 12.5/12/18/11, Urdu AAB 27.8 MB, minSdk 24, ABI split, 16 KB.
+
+## Verdict
+
+- Claims checked: ~135 (numbers, citations, DESIGN/lesson/store facts).
+- Failed or flagged: 27 rows above; of those 9 are hard errors (rows 2, 3, 4, 5, 7, 8, 9, 10, 11), 1 headline unverified-as-fact (row 1).
+- Good news: no fabricated competitor facts, no wrong store figures, evidence labels ([B], unverified) are mostly preserved, and the big arithmetic (108, sittings, MB, reuse lines) holds.
+- **Trustworthy enough to hand to Kamal as-is: NO.** Not because it is dishonest overall, but because the defects sit in the parts he is told to rely on (gate math, placement fidelity, phoneme rationale). One short fix pass is enough.
+
+### Three worst offenders
+
+1. **Row 1, the headline phoneme claim.** "No local model produced a teachable /s/ or /θ/" is the stated reason for the human-speaker blocker (D16). The source says no human listened, the only evidence is a Flash judge on sub-second audio, and most models were never run. Human recording is still a sound plan; the stated evidence is not.
+2. **Row 2, the 90% gate.** The plan's central rule (mastery >=90%) is paired with a "9/11" bar that is 82%, mislabelled as a mini-check, and its own 80% oracle test would not catch it. Also drops the real L1.03+ bar (10/11).
+3. **Rows 3-7, "Source: placement-test.md" misrepresented.** A quote that is not in the file, Stage 4 gated on the wrong tier, Bilal placed against the file's Tier-1 rule, Stage 1 converted to taps without saying the automaticity scoring is lost, and Hasbrouck-Tindal norms declared missing when the file already contains them.

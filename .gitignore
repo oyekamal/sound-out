@@ -1,0 +1,5 @@
+plan.html
+node_modules/
+.env
+*.aab
+*.apk
