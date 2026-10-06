@@ -149,38 +149,38 @@
 
 270 entries; unsegmentable (letters outside the L1 GPC set, skipped): qov (L1.13), qov (L1.13)
 
-## Isolated sounds sliced from Kokoro word renders (tools/slice_phonemes.py)
+## Isolated sounds sliced from ElevenLabs word renders (tools/gen_audio_el.py, voice River, eleven_v4)
 
-Kokoro's predicted durations run about 0.1 s late against its own audio, so raw duration slicing cut the wrong span (the /s/ of 'sat' came out as the vowel). Slices are re-anchored on the acoustic onset; voiceless sounds are then cut at the vowel onset (zero-crossing rate), vowels end at the closure (energy). Voiced consonants have no automatic boundary check. **Machine checks are heuristics; Kamal's ears on app/public/listen.html decide.**
+Each sound is cut from the voice saying a real word in the carrier "Say: <word>." The word is located by ElevenLabs word timestamps (character timestamps are interpolated, so the phoneme boundary is found acoustically): voiceless fricatives end at the vowel onset (zero-crossing rate), stops keep the burst only, vowels end at the closure (energy), voiced continuants/glides end at the steepest 1-4 kHz rise. Continuants whose slice is not clean play a sustained render ("Sssss.") in the app instead. **Machine checks are heuristics; Kamal's ears on listen.html decide.**
 
-- Slice cleanly (heuristic): s, a, t, p, i, o, k, e, u
-- Voiced, needs ears: n, m, d, g, r, b, l, j, v, w, y, z, kw
-- Do not slice cleanly: h, f, ks
+- Slice cleanly (heuristic): s, a, t, p, i, o, k, e, u, h, f, ks
+- App plays the sustained render: n, m, r, l, v, z
+- Sliced, needs ears: d, g, b, j, w, y, kw
 
-| Sound | Carrier | Slice ms | Method | Verdict |
-|---|---|---|---|---|
-| s | sat | 90 | cut at vowel onset (zero-crossing) | clean (heuristic) |
-| a | at | 212 | vowel ends at closure (energy) | clean (heuristic) |
-| t | tap | 46 | cut at vowel onset (zero-crossing) | clean (heuristic) |
-| p | pat | 40 | cut at vowel onset (zero-crossing) | clean (heuristic) |
-| i | it | 184 | vowel ends at closure (energy) | clean (heuristic) |
-| n | nap | 112 | durations re-anchored on onset | voiced: no automatic boundary check, needs ears |
-| m | map | 112 | durations re-anchored on onset | voiced: no automatic boundary check, needs ears |
-| d | dip | 50 | durations re-anchored on onset | voiced: no automatic boundary check, needs ears |
-| g | got | 50 | durations re-anchored on onset | voiced: no automatic boundary check, needs ears |
-| o | on | 335 | vowel ends at closure (energy) | clean (heuristic) |
-| k | kit | 58 | cut at vowel onset (zero-crossing) | clean (heuristic) |
-| e | egg | 230 | vowel ends at closure (energy) | clean (heuristic) |
-| u | up | 148 | vowel ends at closure (energy) | clean (heuristic) |
-| r | rat | 111 | durations re-anchored on onset | voiced: no automatic boundary check, needs ears |
-| h | hat | 40 | cut at vowel onset (zero-crossing) | vowel leak (tail is voiced) |
-| b | bat | 50 | durations re-anchored on onset | voiced: no automatic boundary check, needs ears |
-| f | fan | 45 | cut at vowel onset (zero-crossing) | too short (45 ms) |
-| l | lap | 112 | durations re-anchored on onset | voiced: no automatic boundary check, needs ears |
-| j | jam | 150 | durations re-anchored on onset | voiced: no automatic boundary check, needs ears |
-| v | van | 112 | durations re-anchored on onset | voiced: no automatic boundary check, needs ears |
-| w | wet | 100 | durations re-anchored on onset | voiced: no automatic boundary check, needs ears |
-| ks | box | 258 | durations re-anchored on onset | vowel leak (tail is voiced) |
-| y | yes | 120 | durations re-anchored on onset | voiced: no automatic boundary check, needs ears |
-| z | zip | 112 | durations re-anchored on onset | voiced: no automatic boundary check, needs ears |
-| kw | quit | 138 | durations re-anchored on onset | voiced: no automatic boundary check, needs ears |
+| Sound | Source word | Slice ms | Method | Verdict | App plays |
+|---|---|---|---|---|---|
+| s | sat | 140 | cut at vowel onset (ZCR) | clean (heuristic, 140 ms) | sliced |
+| a | at | 140 | vowel ends 10 ms before closure/friction (-20 dB) | clean (heuristic, 140 ms) | sliced |
+| t | tap | 70 | burst to vowel onset | burst only (70 ms) | sliced |
+| p | pat | 65 | burst to vowel onset | burst only (65 ms) | sliced |
+| i | if | 160 | vowel ends 10 ms before closure/friction (-20 dB) | clean (heuristic, 160 ms) | sliced |
+| n | nap | 90 | steepest 1-4 kHz rise | voiced: needs ears (90 ms) | sustained |
+| m | map | 80 | steepest 1-4 kHz rise | voiced: needs ears (80 ms) | sustained |
+| d | dip | 40 | burst to vowel onset | burst only (40 ms); voiced stop, needs ears | sliced |
+| g | got | 40 | burst to vowel onset | burst only (40 ms); voiced stop, needs ears | sliced |
+| o | ox | 140 | vowel ends 10 ms before closure/friction (-20 dB) | clean (heuristic, 140 ms) | sliced |
+| k | kit | 70 | burst to vowel onset | burst only (70 ms) | sliced |
+| e | egg | 240 | vowel ends 10 ms before closure/friction (-20 dB) | clean (heuristic, 240 ms) | sliced |
+| u | up | 120 | vowel ends 10 ms before closure/friction (-20 dB) | clean (heuristic, 120 ms) | sliced |
+| r | rat | 90 | steepest 1-4 kHz rise | voiced: needs ears (90 ms) | sustained |
+| h | hat | 80 | cut at vowel onset (ZCR) | clean (heuristic, 80 ms) | sliced |
+| b | bat | 40 | burst to vowel onset | burst only (40 ms); voiced stop, needs ears | sliced |
+| f | fan | 110 | cut at vowel onset (ZCR) | clean (heuristic, 110 ms) | sliced |
+| l | lap | 100 | steepest 1-4 kHz rise | voiced: needs ears (100 ms) | sustained |
+| j | jam | 60 | steepest 1-4 kHz rise | voiced: needs ears (60 ms) | sliced |
+| v | van | 120 | steepest 1-4 kHz rise | voiced: needs ears (120 ms) | sustained |
+| w | wet | 110 | steepest 1-4 kHz rise | voiced: needs ears (110 ms) | sliced |
+| ks | box | 246 | after the closure | clean (heuristic, 246 ms) | sliced |
+| y | yes | 60 | steepest 1-4 kHz rise | voiced: needs ears (60 ms) | sliced |
+| z | zip | 140 | steepest 1-4 kHz rise | voiced: needs ears (140 ms) | sustained |
+| kw | quit | 160 | steepest 1-4 kHz rise | voiced: needs ears (160 ms) | sliced |

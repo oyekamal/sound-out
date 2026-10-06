@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sound Out Voices</title>
+<style>
+ :root { --bg:#f6f1e7; --card:#fff; --ink:#24211d; --muted:#6f675c; --acc:#2f6f8f; --pick:#3f8a4f; --line:#e8e1d4; }
+ @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#1d1b18; --card:#2a2723; --ink:#f0ebe2; --muted:#b3aa9c; --acc:#5aa3c6; --pick:#6cc07c; --line:#3b3732; } }
+ :root[data-theme="dark"] { --bg:#1d1b18; --card:#2a2723; --ink:#f0ebe2; --muted:#b3aa9c; --acc:#5aa3c6; --pick:#6cc07c; --line:#3b3732; }
+ * { box-sizing: border-box; }
+ body { font: 16px/1.45 system-ui, sans-serif; margin: 0 auto; max-width: 960px; padding: 16px; background: var(--bg); color: var(--ink); }
+ h1 { font-size: 1.4rem; margin: .2em 0; } p { margin: .4em 0 1em; color: var(--muted); }
+ .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+ .col { background: var(--card); border: 2px solid var(--line); border-radius: 14px; padding: 10px; min-width: 0; }
+ .col.picked { border-color: var(--pick); }
+ .col h2 { font-size: 1.1rem; margin: 0 0 6px; display: flex; justify-content: space-between; align-items: center; gap: 6px; flex-wrap: wrap; }
+ .item { display: flex; justify-content: space-between; align-items: center; gap: 6px; border-top: 1px solid var(--line); padding: 6px 0; }
+ .item span { font-size: .9rem; overflow-wrap: anywhere; } .item small { color: var(--muted); }
+ button { font: inherit; border: 0; border-radius: 999px; padding: 6px 12px; min-height: 40px; background: var(--acc); color: #fff; cursor: pointer; }
+ button.pick { background: transparent; color: var(--pick); border: 2px solid var(--pick); min-height: 34px; padding: 2px 10px; font-size: .85rem; }
+ .picked button.pick { background: var(--pick); color: #fff; }
+ .row { margin: 12px 0; display: flex; gap: 8px; flex-wrap: wrap; }
+ .m { font-size: .8rem; color: var(--muted); margin-top: 6px; }
+ footer { margin-top: 18px; font-size: .9rem; color: var(--muted); background: var(--card); border-radius: 12px; padding: 12px; }
+ @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<h1>Pick the voice</h1>
+<p>Three ElevenLabs voices saying the same nine items. One voice will say everything in the app. Columns appear in a random order and names stay hidden until you reveal them. Play each row across, then pick.</p>
+<div class="row"><button id="reveal">Show names</button><button id="rowplay" class="alt">Play "sat" in all three</button></div>
+<div class="grid" id="grid"></div>
+<p id="choice" class="m"></p>
+<footer id="why"></footer>
+<script>
+const play = src => new Promise(r => { const a = new Audio(src); a.onended = r; a.onerror = r; a.play().catch(r); });
+const store = { get(k) { try { return localStorage.getItem(k); } catch { return null; } }, set(k, v) { try { localStorage.setItem(k, v); } catch {} } };
+fetch('voices-data.json').then(r => r.json()).then(d => {
+  const g = document.getElementById('grid');
+  const vs = d.voices.map((v, i) => ({ ...v, label: 'Voice ' + 'XYZ'[i] }));
+  for (let i = vs.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [vs[i], vs[j]] = [vs[j], vs[i]]; }
+  let user = store.get('so-voice'), picked = user || d.winner, shown = false;
+  const draw = () => {
+    g.innerHTML = '';
+    for (const v of vs) {
+      const c = document.createElement('div'); const on = v.name === picked && (shown || user); c.className = 'col' + (on ? ' picked' : '');
+      const m = v.metrics;
+      c.innerHTML = `<h2><span>${shown ? v.name : v.label}</span><button class="pick" data-n="${v.name}">${on ? 'Picked' : 'Pick'}</button></h2>` +
+        v.clips.map(x => `<div class="item"><span>${x.label} <small>${x.ms} ms</small></span><button data-s="${x.file}">Play</button></div>`).join('') +
+        (shown ? `<div class="m">sentence ${m.sentence_s} s · median pitch ${m.median_f0_hz} Hz · pitch range ${m.pitch_range_st} st · flatness ${m.flatness}</div>` : '');
+      g.append(c);
+    }
+    document.getElementById('choice').textContent = shown ? `Picked: ${picked}${picked === d.winner ? ' (default)' : ''}` : user ? 'Your pick is outlined in green.' : 'No pick yet. Show names to see the default.';
+  };
+  g.addEventListener('click', e => {
+    if (e.target.dataset.s) play(e.target.dataset.s);
+    if (e.target.dataset.n) { picked = user = e.target.dataset.n; store.set('so-voice', picked); draw(); }
+  });
+  document.getElementById('reveal').onclick = () => { shown = !shown; draw(); };
+  document.getElementById('rowplay').onclick = async () => { for (const v of vs) { await play(v.clips.find(x => x.label === 'sat').file); await new Promise(r => setTimeout(r, 400)); } };
+  document.getElementById('why').innerHTML = `<b>Default: ${d.winner}.</b> ${d.why} <br>Model ${d.model}. Your pick is remembered only in this browser; tell Kamil which one you chose.`;
+  draw();
+});
+</script>
+</body>
+</html>

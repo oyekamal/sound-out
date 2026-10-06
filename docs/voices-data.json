@@ -1,0 +1,192 @@
+{
+ "model": "eleven_v4",
+ "voices": [
+  {
+   "id": "hpp4J3VqNfWAUOO0d1Us",
+   "name": "Bella",
+   "clips": [
+    {
+     "label": "sss",
+     "file": "audition/bella_sss.ogg",
+     "ms": 973
+    },
+    {
+     "label": "mmm",
+     "file": "audition/bella_mmm.ogg",
+     "ms": 879
+    },
+    {
+     "label": "a (apple)",
+     "file": "audition/bella_a_apple.ogg",
+     "ms": 115
+    },
+    {
+     "label": "sat",
+     "file": "audition/bella_sat.ogg",
+     "ms": 570
+    },
+    {
+     "label": "pin",
+     "file": "audition/bella_pin.ogg",
+     "ms": 490
+    },
+    {
+     "label": "ship",
+     "file": "audition/bella_ship.ogg",
+     "ms": 597
+    },
+    {
+     "label": "garden",
+     "file": "audition/bella_garden.ogg",
+     "ms": 620
+    },
+    {
+     "label": "vop",
+     "file": "audition/bella_vop.ogg",
+     "ms": 609
+    },
+    {
+     "label": "The cat sat on the mat.",
+     "file": "audition/bella_the_cat_sat_on_the_mat.ogg",
+     "ms": 1455
+    }
+   ],
+   "metrics": {
+    "sentence_s": 1.45,
+    "median_f0_hz": 215.3,
+    "pitch_range_st": 8.06,
+    "flatness": 0.0101,
+    "periodicity": 0.829
+   }
+  },
+  {
+   "id": "XrExE9yKIg1WjnnlVkGX",
+   "name": "Matilda",
+   "clips": [
+    {
+     "label": "sss",
+     "file": "audition/matilda_sss.ogg",
+     "ms": 814
+    },
+    {
+     "label": "mmm",
+     "file": "audition/matilda_mmm.ogg",
+     "ms": 1161
+    },
+    {
+     "label": "a (apple)",
+     "file": "audition/matilda_a_apple.ogg",
+     "ms": 105
+    },
+    {
+     "label": "sat",
+     "file": "audition/matilda_sat.ogg",
+     "ms": 608
+    },
+    {
+     "label": "pin",
+     "file": "audition/matilda_pin.ogg",
+     "ms": 508
+    },
+    {
+     "label": "ship",
+     "file": "audition/matilda_ship.ogg",
+     "ms": 569
+    },
+    {
+     "label": "garden",
+     "file": "audition/matilda_garden.ogg",
+     "ms": 680
+    },
+    {
+     "label": "vop",
+     "file": "audition/matilda_vop.ogg",
+     "ms": 539
+    },
+    {
+     "label": "The cat sat on the mat.",
+     "file": "audition/matilda_the_cat_sat_on_the_mat.ogg",
+     "ms": 1699
+    }
+   ],
+   "metrics": {
+    "sentence_s": 1.7,
+    "median_f0_hz": 218.2,
+    "pitch_range_st": 8.32,
+    "flatness": 0.0078,
+    "periodicity": 0.79
+   }
+  },
+  {
+   "id": "SAz9YHcvj6GT2YYXdXww",
+   "name": "River",
+   "clips": [
+    {
+     "label": "sss",
+     "file": "audition/river_sss.ogg",
+     "ms": 898
+    },
+    {
+     "label": "mmm",
+     "file": "audition/river_mmm.ogg",
+     "ms": 1169
+    },
+    {
+     "label": "a (apple)",
+     "file": "audition/river_a_apple.ogg",
+     "ms": 115
+    },
+    {
+     "label": "sat",
+     "file": "audition/river_sat.ogg",
+     "ms": 553
+    },
+    {
+     "label": "pin",
+     "file": "audition/river_pin.ogg",
+     "ms": 453
+    },
+    {
+     "label": "ship",
+     "file": "audition/river_ship.ogg",
+     "ms": 517
+    },
+    {
+     "label": "garden",
+     "file": "audition/river_garden.ogg",
+     "ms": 588
+    },
+    {
+     "label": "vop",
+     "file": "audition/river_vop.ogg",
+     "ms": 433
+    },
+    {
+     "label": "The cat sat on the mat.",
+     "file": "audition/river_the_cat_sat_on_the_mat.ogg",
+     "ms": 1519
+    }
+   ],
+   "metrics": {
+    "sentence_s": 1.52,
+    "median_f0_hz": 240.0,
+    "pitch_range_st": 9.4,
+    "flatness": 0.012,
+    "periodicity": 0.784
+   }
+  }
+ ],
+ "items": [
+  "sss",
+  "mmm",
+  "a (apple)",
+  "sat",
+  "pin",
+  "ship",
+  "garden",
+  "vop",
+  "The cat sat on the mat."
+ ],
+ "winner": "River",
+ "why": "Trial 1 (blind, Gemini, 3 shuffled orders of the sentence): River 1st twice, 2nd once; Bella last 3/3 (breathy); Matilda called sing-song. Trial 2 could not run: every local Gemini key is now rejected (API_KEY_INVALID), so it was replaced by measured traits on the same 9 clips. Those are mixed and small: River has the tightest word endings (vop 0.55 s vs 0.66/0.73, pin 0.57 s) which matters most for blending, but slightly the widest sentence pitch range (9.4 vs 8.1-8.3 semitones) and highest spectral flatness (0.012 vs 0.008-0.010), so the measures do not confirm 'Bella breathy'. River stays the default on trial 1 plus tighter endings; your ears decide."
+}

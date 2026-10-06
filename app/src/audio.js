@@ -3,10 +3,9 @@ import { audioIndex } from './content.js';
 const so = (window.__so = window.__so || { trace: [], missing: [] });
 const fast = new URLSearchParams(location.search).has('fast');
 let current = null;
-// ?sliced = play isolated sounds cut from Kokoro word renders (tools/slice_phonemes.py) instead of IPA-direct renders
-const sliced = new URLSearchParams(location.search).has('sliced');
-let slices = {};
-if (sliced) fetch('/listen-data.json').then(r => r.json()).then(d => { slices = Object.fromEntries(d.rows.map(r => [r.id, r])); }).catch(() => {});
+// Isolated sounds (ph:*) already point at the sliced or sustained ElevenLabs clip chosen by tools/gen_audio_el.py.
+// Paths go through BASE_URL so the GitHub Pages build (/sound-out/) finds them.
+const BASE = import.meta.env.BASE_URL;
 
 export function mark(type, data = {}) { so.trace.push({ t: performance.now(), type, ...data }); }
 export const has = key => !!audioIndex.clips[key];
@@ -20,8 +19,7 @@ export function play(key, { rate = 1 } = {}) {
   if (!c) { so.missing.push(key); console.warn('missing clip', key); return Promise.resolve(); }
   stop();
   return new Promise(res => {
-    const sl = sliced && key.startsWith('ph:') && slices[key.slice(3)];
-    const a = new Audio(sl ? `/audio/sl_${key.slice(3)}.ogg` : `/audio/${c.id}.ogg`);
+    const a = new Audio(`${BASE}audio/${c.id}.ogg`);
     current = a;
     a.playbackRate = fast ? 4 : rate;
     let done = false;
