@@ -1,0 +1,20 @@
+{
+ "id": "L7.09",
+ "level": 7,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-7/lessons/L7.09-contracts-policy-tos.md",
+ "title": "Reading a Contract, Policy, or Terms of Service",
+ "goal": "Read a lease and an app's terms of service closely enough to state what you're actually agreeing to, what conditions apply, and what's buried in the fine print.",
+ "time": "40 min · **Materials:** notebook, highlighter (optional).",
+ "read": {
+  "questions": [
+   "If rent is due on the 1st, and a tenant mails a check on the 1st that arrives and is processed on the 4th, is that payment late under §4? Quote the exact phrase that answers this.",
+   "A tenant assumes \"normal wear and tear\" covers minor scuffed paint after a year of living there. Does §6 actually agree? Quote the clause and explain the gap between the tenant's assumption and the actual text.",
+   "A tenant wants to move out 90 days early because of a new job in another city. List, in order, every condition from §7 that must ALL be true before the lease is actually terminated — is giving 60 days' notice, by itself, enough?"
+  ]
+ },
+ "blocksFound": [
+  "read"
+ ],
+ "appSittings": null
+}

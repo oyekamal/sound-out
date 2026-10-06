@@ -1,0 +1,93 @@
+{
+ "id": "L2.04",
+ "level": 2,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-2/lessons/L2.04-wh.md",
+ "title": "wh",
+ "goal": "Read and spell words that start with `wh`.",
+ "newToday": "`wh` (usually the plain /w/ sound; a few speakers/dialects say a puff-of-air /hw/ — either is acceptable)",
+ "review": "`sh, ch, tch, th`; Level 1 letters",
+ "heartLine": "come, some",
+ "time": "20–25 min",
+ "blendList": {
+  "real": [
+   "when",
+   "which",
+   "whip",
+   "whiz",
+   "wham",
+   "whiff",
+   "whack",
+   "chip",
+   "shop",
+   "this",
+   "bath",
+   "whob",
+   "whass",
+   "whith",
+   "chesh",
+   "wathin"
+  ],
+  "pseudo": []
+ },
+ "heart": [
+  {
+   "word": "come",
+   "note": "heart part: the `o` says a short-u sound instead of the expected short o, and the final `e` is silent and doesn't make the vowel long (which will look odd once VCe is taught in Level 3 — flag that now: \"come\" is a real exception to the Level-3 silent-e rule, worth remembering). Mark only `o` + the silent `e` as heart."
+  },
+  {
+   "word": "some",
+   "note": "same heart pattern as \"come\": `s` is regular, `om` sounds like short-u + m, final `e` silent. Point out \"come\" and \"some\" rhyme and share the same irregular spelling pattern — one memory, two words."
+  }
+ ],
+ "read": {
+  "A": {
+   "text": "Min asks Mom, \"When will Dad come back?\" \"Dad will come back at six,\" Mom says. \"Which mug is for some milk?\" Min asks. \"This mug,\" Mom says, and fills it with milk. Min sits and grins. When Dad comes back, Min claps and grins.",
+   "title": null
+  },
+  "B": {
+   "text": "Sam asks his boss, \"When will the cash come in?\" \"The cash will come in at six,\" his boss says. \"Which bin is for some of the stock?\" Sam asks. \"This bin,\" his boss says, and fills it with stock. Sam sits and grins. When the cash comes in, Sam claps and grins.",
+   "title": null
+  }
+ },
+ "listen": {
+  "title": null,
+  "passage": "Little Ana loved puzzles more than anything, but one rainy afternoon she found herself completely **puzzled**. Her grandmother had given her a box with no picture on the lid and no instructions inside — just three hundred loose pieces. Ana sat there, puzzled, turning pieces over in her hands, unsure where to even begin. She tried the edges first, but she was still puzzled about which piece connected to which. Finally, her grandmother sat beside her and said, \"When you are puzzled, start with the corners — there are only four, and they always fit first.\" Ana found a corner, then another, and slowly her puzzled frown turned into a grin.",
+  "tier2": [],
+  "questions": []
+ },
+ "check": {
+  "real": [
+   "when",
+   "which",
+   "whip",
+   "whiz",
+   "whack"
+  ],
+  "pseudo": [
+   "whob",
+   "whass",
+   "whith",
+   "chesh",
+   "wathin"
+  ],
+  "dictation": [
+   "whiff"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "blocksFound": [
+  "blendList",
+  "heart",
+  "read",
+  "listen",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

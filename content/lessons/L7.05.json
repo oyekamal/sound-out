@@ -1,0 +1,20 @@
+{
+ "id": "L7.05",
+ "level": 7,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-7/lessons/L7.05-correlation-causation-data-in-text.md",
+ "title": "Reading a Science Article II: Correlation vs. Causation & Data in Text",
+ "goal": "Tell the difference between \"two things happen together\" and \"one causes the other\"; read a percentage, a described graph, or a statistic used inside an argument and judge whether it actually supports the claim built on top of it.",
+ "time": "40 min · **Materials:** notebook.",
+ "read": {
+  "questions": [
+   "Explain, in your own words, why ice cream sales and drowning deaths correlate without either one causing the other.",
+   "In the vitamin/heart-attack example, name the possible confounding variable(s).",
+   "Think question: the passage says this \"hides inside far less obvious... claims.\" Why is an obvious example like ice cream/drowning actually more useful for learning the pattern than a realistic-but-murky one would be on its own?"
+  ]
+ },
+ "blocksFound": [
+  "read"
+ ],
+ "appSittings": null
+}

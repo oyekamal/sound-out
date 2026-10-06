@@ -1,0 +1,28 @@
+{
+ "id": "L5.09",
+ "level": 5,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-5/lessons/L5.09-al-y-indus-valley-deeper.md",
+ "title": "Suffixes -al, -y · The Indus Valley, Deeper (cities & trade)",
+ "goal": "Read, spell, and use words with *-al* and *-y*; return to the Indus Valley topic from 5.04 with more depth (cities, trade networks).",
+ "newToday": "suffix *-al* (turns a noun into an adjective — \"relating to\") and suffix *-y* (turns a noun into an adjective — \"having the quality of, full of\"). Tier-2 words: *resource*, *widespread*.",
+ "review": "*inter-, fore-* — *interact, forecast*.",
+ "time": "30–45 min. **Materials:** paper, pencil, timer.",
+ "read": {
+  "questions": []
+ },
+ "check": {
+  "bar": {
+   "pass": 5,
+   "of": 8,
+   "source": "lesson",
+   "raw": "≥5/8"
+  },
+  "freeResponse": true
+ },
+ "blocksFound": [
+  "read",
+  "check"
+ ],
+ "appSittings": null
+}

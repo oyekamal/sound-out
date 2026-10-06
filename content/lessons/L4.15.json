@@ -1,0 +1,25 @@
+{
+ "id": "L4.15",
+ "level": 4,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-4/lessons/L4.15-reading-the-real-world.md",
+ "title": "Reading the Real World",
+ "goal": "Read the first fully authentic, non-controlled texts in the course — a real notice, a recipe, and a short news paragraph — and learn the exact, no-guessing protocol for handling a genuinely unknown word in real text.",
+ "newToday": "the off-ramp — authentic text + the \"stop, don't guess\" unknown-word protocol",
+ "review": "the full word-attack routine (4.14), all Level 4 patterns",
+ "heartLine": "none new — this lesson uses whatever heart words naturally appear in authentic text, flagged as met, not pre-taught",
+ "time": "30–35 min",
+ "check": {
+  "bar": {
+   "pass": 2,
+   "of": 3,
+   "source": "lesson",
+   "raw": "2 of 3"
+  },
+  "freeResponse": true
+ },
+ "blocksFound": [
+  "check"
+ ],
+ "appSittings": null
+}

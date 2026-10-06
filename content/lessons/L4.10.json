@@ -1,0 +1,64 @@
+{
+ "id": "L4.10",
+ "level": 4,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-4/lessons/L4.10-little-candle-little-table.md",
+ "title": "Little Candle, Little Table",
+ "goal": "Read and spell two-syllable words ending in **consonant + le** (the sixth and last syllable type: candle, table, little).",
+ "newToday": "consonant-le (the \"C-le\" syllable)",
+ "review": "ph, ch(/k/,/sh/), gh, and all earlier vowel-r/diphthong/aw teams",
+ "heartLine": "none new",
+ "time": "25 min",
+ "blendList": {
+  "real": [
+   "fottle",
+   "glimple",
+   "thandle",
+   "scaddle",
+   "zuddle"
+  ],
+  "pseudo": []
+ },
+ "check": {
+  "real": [
+   "candle",
+   "table",
+   "little",
+   "purple",
+   "handle"
+  ],
+  "pseudo": [
+   "fottle",
+   "glimple",
+   "thandle",
+   "scaddle",
+   "zuddle"
+  ],
+  "dictation": [
+   "apple"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "read": {
+  "A": {
+   "text": "Maya's uncle made her a little purple table for her room. It was simple but sturdy, with four short legs and a smooth top. \"You can put your candle, your puzzle, and your bottle of paint on it,\" her uncle said. Maya set a small candle in the middle, next to a puzzle piece shaped like an apple. Her little sister Zoe came in, saw the table, and let out a giggle. \"Can I have a table too, Uncle?\" Zoe asked. \"Maybe a purple one for you as well,\" he said with a smile. That night, Maya sat at her little table and worked on her puzzle until she could hardly keep her eyes open.",
+   "title": null
+  },
+  "B": {
+   "text": "At the repair shop, Bilal is asked to fix a wobbly table for a customer. One leg is a little shorter than the others, and the handle on the drawer has come loose. Bilal takes a sample of the wood to check the color match, then tightens the handle with a small tool. He turns the table upside down and adds a thin block under the short leg so it no longer wobbles. \"It was a simple fix,\" Bilal tells the customer when she comes to collect it, \"but I wanted to be sure it was sturdy before you took it home.\" The customer checks the table, gives it a gentle push, and smiles — no wobble at all.",
+   "title": null
+  }
+ },
+ "blocksFound": [
+  "blendList",
+  "read",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

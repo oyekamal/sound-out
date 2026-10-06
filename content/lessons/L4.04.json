@@ -1,0 +1,79 @@
+{
+ "id": "L4.04",
+ "level": 4,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-4/lessons/L4.04-fair-weather-rare-deer.md",
+ "title": "Fair Weather, Rare Deer",
+ "goal": "Read and spell words with **air, are, ear, eer** (all /air/ or /eer/ sounds); review the **war/wor** quirk (taught in 4.2) alongside them, since all of today's material is other vowel-r teams.",
+ "newToday": "air, are, ear (as /air/), eer",
+ "review": "ar, or, ore (Level 3.08/3.09); er, ir, ur (4.3); war/wor quirk (4.2)",
+ "heartLine": "none new — review *four, water, earth*",
+ "time": "30 min (slightly longer — two vowel-r families in one lesson)",
+ "blendList": {
+  "real": [
+   "air",
+   "fair",
+   "hair",
+   "pair",
+   "chair",
+   "stair",
+   "flair",
+   "care",
+   "dare",
+   "share",
+   "scare",
+   "stare",
+   "square",
+   "spare",
+   "bare",
+   "rare",
+   "flare",
+   "bear",
+   "wear",
+   "pear"
+  ],
+  "pseudo": []
+ },
+ "check": {
+  "real": [
+   "fair",
+   "care",
+   "deer",
+   "work",
+   "world"
+  ],
+  "pseudo": [
+   "blar",
+   "ferl",
+   "worg",
+   "stort",
+   "zare"
+  ],
+  "dictation": [
+   "near"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "read": {
+  "A": {
+   "text": "On a cold, clear day, Hina and her dad hike near the hills. Hina wears a warm coat and a hat, but no gloves — she likes to feel the crisp air. \"Look — a deer!\" Dad says, showing her. It is a rare deer with pale hair on its back. The deer does not run. It stares at Hina, its ears turning this way and that. Hina stands still and does not dare move. After a year of hiking with her dad, this is the closest she has come to a deer. \"I will never forget this,\" Hina says. On the walk back, they share a pear and talk of the deer the whole way home.",
+   "title": null
+  },
+  "B": {
+   "text": "Farah works at a tiny shop that sells chairs and tables. It is a warm day, and the work is hard. A pair of chairs must be moved to the back room, and Farah has to clear a path first. \"Be careful — that chair leg is not square,\" her boss warns. Farah takes care, but her arms still hurt by the end of her shift. By closing time, a man comes in to buy a rare, old chair worth a fair price. Farah helps him carry it to his car. \"That was the worst part of my day, but also the best sale,\" she tells her sister that night, and they share a laugh.",
+   "title": null
+  }
+ },
+ "blocksFound": [
+  "blendList",
+  "read",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

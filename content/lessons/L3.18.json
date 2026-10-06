@@ -1,0 +1,26 @@
+{
+ "id": "L3.18",
+ "level": 3,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-3/lessons/L3.18-mastery-check-lesson.md",
+ "title": "Level 3 Mastery Check",
+ "goal": "Administer the graded Level 3 exit assessment and decide: advance to Level 4, or return to a specific lesson for reteaching.",
+ "newToday": "none — this is the assessment session",
+ "review": "the full instrument is in `../mastery-check.md`; this file is the short tutor script for running it in one sitting.",
+ "heartLine": "all 16, tested",
+ "time": "25–30 min (assessment only — no new teaching)",
+ "heart": [
+  {
+   "word": "all",
+   "note": null
+  },
+  {
+   "word": "tested",
+   "note": null
+  }
+ ],
+ "blocksFound": [
+  "heart"
+ ],
+ "appSittings": null
+}

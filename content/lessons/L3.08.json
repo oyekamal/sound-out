@@ -1,0 +1,98 @@
+{
+ "id": "L3.08",
+ "level": 3,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-3/lessons/L3.08-ar.md",
+ "title": "ar",
+ "goal": "Read and spell words with r-controlled **ar** (/ar/, as in car, farm, start) — the first r-controlled vowel, taught here (matching UFLI/RWI sequencing) before any vowel team so common everyday words stop leaking into earlier lessons.",
+ "newToday": "ar",
+ "review": "VCe (all 5 vowels), drop-e, open syllables, y=/ē//ī/, soft c/g, -ce/-ge/-dge",
+ "heartLine": "whole, earth (last two of the 16 Level 3 heart words — all Level 3 heart words are now taught)",
+ "time": "25–30 min",
+ "blendList": {
+  "real": [
+   "car",
+   "far",
+   "star",
+   "park",
+   "yard",
+   "start",
+   "hard",
+   "farm",
+   "cart",
+   "shark",
+   "sharp",
+   "dark",
+   "part",
+   "smart",
+   "card",
+   "yarn",
+   "barn",
+   "harm",
+   "charm",
+   "market",
+   "garden",
+   "carpet"
+  ],
+  "pseudo": [
+   "blar",
+   "starj",
+   "trarf",
+   "sparn",
+   "flarn"
+  ]
+ },
+ "check": {
+  "real": [
+   "car",
+   "park",
+   "farm",
+   "start",
+   "yard"
+  ],
+  "pseudo": [
+   "blar",
+   "starj",
+   "trarf",
+   "sparn",
+   "flarn"
+  ],
+  "dictation": [
+   "Sam and his mom start the car"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "heart": [
+  {
+   "word": "whole",
+   "note": null
+  },
+  {
+   "word": "earth",
+   "note": null
+  }
+ ],
+ "read": {
+  "A": {
+   "text": "Sam and his mom go to the farm. / A big, red barn is at the farm. / Sam pets a cute pup and a fat pig. / \"A big cart!\" said Sam. / He rides in the cart with his mom, because he likes it a lot. / They spot a hen in the yard. / Once they are done, they have a snack of grapes. / Sam has a whole, fine time at the farm.",
+   "title": null
+  },
+  "B": {
+   "text": "Kate got a job at the market. / She helps at a cart that sells fresh grapes and plums. / At nine, she sets up the cart and starts her shift. / \"This job is hard, but I like it,\" said Kate. / She helps many people at the market, because she likes to help. / Once her shift is done, Kate has a snack and a cup of milk. / She has a whole, fine time at the market.",
+   "title": null
+  }
+ },
+ "blocksFound": [
+  "blendList",
+  "heart",
+  "read",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

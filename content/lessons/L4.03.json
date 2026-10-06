@@ -1,0 +1,79 @@
+{
+ "id": "L4.03",
+ "level": 4,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-4/lessons/L4.03-her-first-bird.md",
+ "title": "Her First Bird",
+ "goal": "Read and spell words with **er, ir, ur** — three spellings, one sound: /er/.",
+ "newToday": "er, ir, ur",
+ "review": "ar, or, ore",
+ "heartLine": "none new — review *were, there*",
+ "time": "25 min",
+ "blendList": {
+  "real": [
+   "her",
+   "term",
+   "herd",
+   "fern",
+   "perch",
+   "person",
+   "under",
+   "winter",
+   "summer",
+   "sister",
+   "bird",
+   "girl",
+   "dirt",
+   "first",
+   "third",
+   "shirt",
+   "stir",
+   "chirp",
+   "birth",
+   "thirst"
+  ],
+  "pseudo": []
+ },
+ "check": {
+  "real": [
+   "bird",
+   "turn",
+   "first",
+   "church",
+   "winter"
+  ],
+  "pseudo": [
+   "ferl",
+   "dirst",
+   "thurb",
+   "zern",
+   "sturk"
+  ],
+  "dictation": [
+   "her"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "read": {
+  "A": {
+   "text": "It was winter. Nadia's dad set up a bird perch by the porch. Nadia sat still, waiting for her first bird to land. First a big black bird sat on the fence. Then a tiny bird with a red chest came to perch. \"Look! Its chirp is so soft,\" Nadia said. Her sister ran to see too. \"Don't stir, or it will fly off,\" Nadia told her. The bird did not fly off — it stayed and had a drink, then flew off with a quick turn. Nadia and her sister sat under the tree until the sun went down.",
+   "title": null
+  },
+  "B": {
+   "text": "Bilal is a nurse. His shift starts at sunup. First, he checks each person's chart. Then he helps a girl with a hurt arm — she fell by the curb and needs a splint. \"Try not to stir it too much,\" Bilal tells her. Her mother sits with her, holding her purse. Later, an older man comes in with a bad thirst and a fever. Bilal checks his term of illness and rings the doctor. By the end of his shift, Bilal is tired, but glad he could help. \"Nursing is hard work,\" he tells his sister that night, \"but I would not turn back.\"",
+   "title": null
+  }
+ },
+ "blocksFound": [
+  "blendList",
+  "read",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

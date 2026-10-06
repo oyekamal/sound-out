@@ -1,0 +1,91 @@
+{
+ "id": "L3.02",
+ "level": 3,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-3/lessons/L3.02-i_e.md",
+ "title": "i_e (VCe with i)",
+ "goal": "Read and spell VCe words with **i** (long /ī/).",
+ "newToday": "i_e (time, bike)",
+ "review": "a_e; all Level 1–2 code",
+ "heartLine": "very, every (review: once, only)",
+ "time": "25–30 min",
+ "blendList": {
+  "real": [
+   "time",
+   "bike",
+   "like",
+   "five",
+   "hide",
+   "ride",
+   "side",
+   "wide",
+   "mile",
+   "smile",
+   "slide",
+   "prize",
+   "drive",
+   "white",
+   "while"
+  ],
+  "pseudo": [
+   "fripe",
+   "blite",
+   "stide",
+   "grine",
+   "quibe"
+  ]
+ },
+ "check": {
+  "real": [
+   "time",
+   "bike",
+   "smile",
+   "ride",
+   "five"
+  ],
+  "pseudo": [
+   "grine",
+   "fripe",
+   "stide",
+   "blite",
+   "quibe"
+  ],
+  "dictation": [
+   "I like my bike"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "heart": [
+  {
+   "word": "very",
+   "note": null
+  },
+  {
+   "word": "every",
+   "note": null
+  }
+ ],
+ "read": {
+  "A": {
+   "text": "Mike has a bike. / He likes to ride it. / Mike and his dog Spike go for a ride. / Once, Mike's bike went flat. / Mike did not stop. / He got off and did a quick fix. / Spike sat still. / \"Only a bit,\" said Mike, and they went back.",
+   "title": null
+  },
+  "B": {
+   "text": "Kate got a bike to save time. / She rides it to her job many times. / At nine, she locks the bike and clocks in. / Once, the bike would not go, and Kate had to get off and push it. / She was not glad, but she did not quit. / Only a quick fix did it, and the next ride was fine.",
+   "title": null
+  }
+ },
+ "blocksFound": [
+  "blendList",
+  "heart",
+  "read",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

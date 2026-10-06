@@ -1,0 +1,90 @@
+{
+ "id": "L2.10",
+ "level": 2,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-2/lessons/L2.10-ed.md",
+ "title": "Adding -ed (three sounds: /t/ /d/ /ɪd/)",
+ "goal": "Read and spell words with the `-ed` ending, in all three of its sounds.",
+ "newToday": "`-ed` says `/t/` (after an unvoiced sound: jump**ed**), `/d/` (after a voiced sound: grinn**ed**), or `/ɪd/` (after `t` or `d`: want**ed**, end**ed**) — one spelling, three sounds, and none of them is \"ed\" said as its own syllable except the `/ɪd/` case.",
+ "review": "`-s/-es`; all blends and digraphs so far",
+ "heartLine": "your, four",
+ "time": "25–30 min (three sounds for one spelling is a genuinely tricky idea — take the extra time)",
+ "blendList": {
+  "real": [
+   "jumped",
+   "wished",
+   "fixed",
+   "checked",
+   "jogged",
+   "grinned",
+   "hugged",
+   "filled",
+   "flisked",
+   "brammed",
+   "wanded",
+   "chosted",
+   "plemmed"
+  ],
+  "pseudo": []
+ },
+ "heart": [
+  {
+   "word": "your",
+   "note": "heart part: the whole word is irregular for a beginning reader (it needs the r-controlled vowel this course doesn't formally teach until Level 4); for now, mark it fully heart, note it means \"belonging to you.\""
+  },
+  {
+   "word": "four",
+   "note": "heart part: same story — irregular for now, taught properly in Level 4; mark it fully heart, note it's the number after three."
+  }
+ ],
+ "read": {
+  "A": {
+   "text": "Min jumped and jogged for fun. / \"Did you want your bag?\" / Mom asked. / \"I packed four mugs in it,\" / Min said. / Min packed four mugs in a bag, / and rested on the step. / \"You packed your bag fast,\" / Mom said, / and hugged Min. / Min grinned and rested, / glad the job was done.",
+   "title": null
+  },
+  "B": {
+   "text": "Sam checked and fixed the vans. / \"Did you want your list checked?\" / his boss asked. / \"I checked four vans,\" / Sam said. / Sam packed his bag, / and rested for ten. / \"You fixed your job fast,\" / his boss said, / and grinned. / Sam packed, / jogged off, / and rested, / glad the job was done.",
+   "title": null
+  }
+ },
+ "listen": {
+  "title": null,
+  "passage": "Uncle Hamid had asked his nephew, Bilal, to water the plants every single day while he was away — just that one job. When Hamid came home a week later and found every plant wilted and brown, he was **stubborn** about not letting it go. \"It's just water, once a day,\" he said, again and again, refusing to accept Bilal's excuses about being busy with exams. Bilal, just as stubborn, insisted exams mattered more than plants. Neither would budge for two whole days. Finally, Hamid's wife stepped in and pointed out that both of them were being equally stubborn over something they could fix together in ten minutes. They laughed, apologized, and replanted the garden side by side that weekend.",
+  "tier2": [],
+  "questions": []
+ },
+ "check": {
+  "real": [
+   "jumped",
+   "grinned",
+   "wanted",
+   "fixed",
+   "planted"
+  ],
+  "pseudo": [
+   "flisked",
+   "brammed",
+   "wanded",
+   "chosted",
+   "plemmed"
+  ],
+  "dictation": [
+   "checked"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "blocksFound": [
+  "blendList",
+  "heart",
+  "read",
+  "listen",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

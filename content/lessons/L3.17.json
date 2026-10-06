@@ -1,0 +1,101 @@
+{
+ "id": "L3.17",
+ "level": 3,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-3/lessons/L3.17-review.md",
+ "title": "Level 3 Review",
+ "goal": "Consolidate all Level 3 code (VCe for all 5 vowels, drop-e, open syllables, y-as-vowel, soft c/g, ai/ay, ee/ea, oa/ow/oe, igh/ie, ue/ew/ui, oo-flex, -ild/-ind/-old/-ost) and all 16 Level 3 heart words before the mastery check.",
+ "newToday": "none — cumulative practice only",
+ "review": "everything above",
+ "heartLine": "all 16 Level 3 words (once, only, very, every, great, eye, busy, people, water, laugh, walk, talk, buy, answer, whole, earth)",
+ "time": "30–35 min",
+ "blendList": {
+  "real": [
+   "flape",
+   "strine",
+   "glode",
+   "prute",
+   "fleeb",
+   "stroat",
+   "blight",
+   "snue",
+   "twoom"
+  ],
+  "pseudo": [
+   "flape",
+   "strine",
+   "glode",
+   "prute",
+   "fleeb",
+   "stroat",
+   "blight",
+   "snue",
+   "twoom"
+  ]
+ },
+ "check": {
+  "real": [
+   "cake",
+   "time",
+   "home",
+   "cute",
+   "city",
+   "cage",
+   "rain",
+   "tree",
+   "boat",
+   "night",
+   "blue",
+   "moon"
+  ],
+  "pseudo": [
+   "flape",
+   "strine",
+   "prute",
+   "fleeb",
+   "stroat",
+   "snue"
+  ],
+  "dictation": [
+   "The very busy people took a walk to see the great, cold moon"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "heart": [
+  {
+   "word": "all",
+   "note": null
+  },
+  {
+   "word": "Level",
+   "note": null
+  },
+  {
+   "word": "words",
+   "note": null
+  }
+ ],
+ "read": {
+  "A": {
+   "text": "Once, Sam and his family took a whole day just for fun. / At home, Sam ate a bowl of oats and a slice of toast. / Then they went to see a tiger and a robot at a big show. / Sam's eye spotted a huge, gold kite flying high in the sky. / \"How very great!\" said Sam, and his mom gave him a hug. / Next, they got a snack — a bag of fruit and a sweet, cold treat. / While busy people were there too, Sam felt happy and free. / They went home and read a good book close by the tree. / \"This was the best day,\" said Sam. / His mom said, \"I am very glad, too.\" / They ate a bite of pie, and Sam fell asleep, smiling, once his whole busy, great day was done.",
+   "title": null
+  },
+  "B": {
+   "text": "Once, Kate had a whole day off, and she made the most of it. / She woke up, made a cup of tea, and ate a slice of toast. / At nine, she met her team to help clean up the street — a job she likes since it feels like a great use of a free day. / By noon, the whole team had made the place look neat, and people walking by said, \"How nice!\" / Kate felt very glad and a bit sleepy, but in a good way. / She got a snack of fruit and a cold drink, then sat and read a good book. / \"Today was busy, but it was a great day,\" said Kate. / Once the sun set, she felt so glad she had spent her whole day well.",
+   "title": null
+  }
+ },
+ "blocksFound": [
+  "blendList",
+  "heart",
+  "read",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

@@ -1,0 +1,432 @@
+{
+ "id": "L1.03",
+ "level": 1,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-1/lessons/L1.03-p-i-n.md",
+ "title": "p i n",
+ "goal": "Read and spell p, i, n; blend the growing letter set into a full first wave of real CVC words.",
+ "newToday": "letters p, i, n (sounds /p/, /ɪ/, /n/) — **one new sound per sitting**.",
+ "review": "s, a, t; the words at, as, sat.",
+ "heartLine": "the, is (taught in the final combined sitting).",
+ "time": "four sittings — A (~15 min), B (~15 min), C (~15 min), D (~25–30 min).",
+ "read": {
+  "A": {
+   "text": "Tip sat. Pat sat. Tip sat in the pit. Pat sat in the pit. Is Tip in? Is Pat in? Tip is in! Pat is in!",
+   "title": null
+  },
+  "B": {
+   "text": "Pat sat. Nat sat. Pat is in the pit. Nat is in the pit. Is Pat in? Is Nat in? Pat is in. Nat is in.",
+   "title": null
+  },
+  "questions": [
+   "Who sat down first in the text?",
+   "Where did they end up — in or out of the pit?",
+   "Think: why might someone need to go \"in the pit\" — what job could that be, in Track B's world?"
+  ]
+ },
+ "listen": {
+  "title": "The Pit Stop",
+  "passage": "At the big race, cars zoom around the track faster than the eye can follow. But every few laps, a driver has to pull into a special lane called the pit. There, a whole team is waiting — not to rest, but to work at incredible speed. In under ten seconds, they can change all four tires, clean the windshield, and send the car roaring back onto the track. Everyone has one exact job, and they practice it over and over so nothing goes wrong when it really counts. A single second lost in the pit can cost a driver the whole race.",
+  "tier2": [
+   {
+    "word": "incredible",
+    "def": "so surprising or impressive that it's hard to believe.",
+    "full": "so surprising or impressive that it's hard to believe. \"That was an incredible jump!\" \"She has an incredible memory for names.\" Your turn: tell me about something you find incredible."
+   },
+   {
+    "word": "exact",
+    "def": "precise, correct down to the smallest detail, not approximate.",
+    "full": "precise, correct down to the smallest detail, not approximate. \"He gave the exact time the train would arrive.\" \"I need the exact number, not a guess.\" Your turn: when do you need to be exact instead of just close?"
+   }
+  ],
+  "questions": [
+   "Why does the team practice their jobs \"over and over,\" according to the passage?",
+   "What do you think would happen if the pit crew were slow?"
+  ]
+ },
+ "check": {
+  "real": [
+   "pit",
+   "sap",
+   "nap",
+   "sit",
+   "tan"
+  ],
+  "pseudo": [
+   "tas",
+   "nas",
+   "pas",
+   "tis",
+   "nis"
+  ],
+  "dictation": [
+   "pin"
+  ],
+  "bar": {
+   "pass": 10,
+   "of": 11,
+   "source": "lesson",
+   "raw": "≥10/11"
+  },
+  "firstAttemptOnly": true
+ },
+ "sittings": [
+  {
+   "id": "A",
+   "title": "p (~15 min)",
+   "new": [
+    "p"
+   ],
+   "warm": {
+    "text": "flash s, a, t. Read 3 review words: at, sat, as.",
+    "words": [
+     "at",
+     "sat",
+     "as"
+    ]
+   },
+   "hear": {
+    "text": "/p/ — lips pop apart, a tiny puff of air, like the start of \"pat.\""
+   },
+   "meet": {
+    "text": "\"This says /p/\" (p). **Mouth cue:** a stop-and-release with the lips; feel the tiny puff of air on the back of your hand.",
+    "mouthCue": "a stop-and-release with the lips; feel the tiny puff of air on the back of your hand."
+   },
+   "blend": {
+    "real": [
+     "pat",
+     "tap",
+     "sap",
+     "at",
+     "sat"
+    ],
+    "pseudo": []
+   },
+   "spell": {
+    "text": "say /p/ → write **p**. Segment and write \"tap.\"",
+    "words": [
+     "tap"
+    ]
+   },
+   "mini": {
+    "text": "p on sight 5/5; blend the 5 words above at ≥4/5.",
+    "bar": {
+     "pass": 4,
+     "of": 5,
+     "source": "lesson",
+     "raw": "≥4/5"
+    }
+   }
+  },
+  {
+   "id": "B",
+   "title": "i (~15 min)",
+   "new": [
+    "i"
+   ],
+   "warm": {
+    "text": "flash p. Read 3 review words: pat, tap, sap.",
+    "words": [
+     "pat",
+     "tap",
+     "sap"
+    ]
+   },
+   "hear": {
+    "text": "/i/ — short, wide smile shape, tongue high and forward, like the start of \"it.\""
+   },
+   "meet": {
+    "text": "\"This says /i/\" (i). **Mouth cue:** keeps the mouth almost smiling.",
+    "mouthCue": "keeps the mouth almost smiling."
+   },
+   "blend": {
+    "real": [
+     "pit",
+     "tip",
+     "sip",
+     "sit",
+     "pip"
+    ],
+    "pseudo": []
+   },
+   "spell": {
+    "text": "say /i/ → write **i**. Segment and write \"sit.\"",
+    "words": [
+     "sit"
+    ]
+   },
+   "mini": {
+    "text": "i on sight 5/5; blend the 5 words above at ≥4/5.",
+    "bar": {
+     "pass": 4,
+     "of": 5,
+     "source": "lesson",
+     "raw": "≥4/5"
+    }
+   }
+  },
+  {
+   "id": "C",
+   "title": "n (~15 min)",
+   "new": [
+    "n"
+   ],
+   "warm": {
+    "text": "flash i. Read 3 review words: pit, sip, tip.",
+    "words": [
+     "pit",
+     "sip",
+     "tip"
+    ]
+   },
+   "hear": {
+    "text": "/n/ — tongue behind top teeth, sound comes through the nose, like the start of \"net.\""
+   },
+   "meet": {
+    "text": "\"This says /n/\" (n). **Mouth cue:** the first sound so far that hums through the nose — put a finger lightly on the nose and feel it buzz.",
+    "mouthCue": "the first sound so far that hums through the nose — put a finger lightly on the nose and feel it buzz."
+   },
+   "blend": {
+    "real": [
+     "pin",
+     "nip",
+     "tan",
+     "pan",
+     "nap",
+     "in"
+    ],
+    "pseudo": []
+   },
+   "spell": {
+    "text": "say /n/ → write **n**. Segment and write \"pin,\" \"in.\"",
+    "words": [
+     "pin",
+     "in"
+    ]
+   },
+   "mini": {
+    "text": "n on sight 5/5; blend the 6 words above at ≥5/6.",
+    "bar": {
+     "pass": 5,
+     "of": 6,
+     "source": "lesson",
+     "raw": "≥5/6"
+    }
+   }
+  },
+  {
+   "id": "D",
+   "title": "p, i, n together: heart words, Read it, Check (~25–30 min)",
+   "new": [],
+   "warm": {
+    "text": "flash all six letters (s, a, t, p, i, n) in mixed order; blend 5 words spanning both older and newer sounds: sat, pit, nap, tan, pin.",
+    "words": [
+     "sat",
+     "pit",
+     "nap",
+     "tan",
+     "pin"
+    ]
+   },
+   "blend": {
+    "real": [
+     "at",
+     "sat",
+     "in",
+     "pit",
+     "pin",
+     "nip",
+     "sip",
+     "sit",
+     "pat",
+     "tap",
+     "tan",
+     "pan",
+     "nap",
+     "tip",
+     "pip"
+    ],
+    "pseudo": [
+     "tas",
+     "nas",
+     "pas",
+     "tis",
+     "nis"
+    ]
+   },
+   "spell": {
+    "text": "1. Say /p/ → write **p**. Say /i/ → write **i**. Say /n/ → write **n**. 2. Segment and write: \"pin,\" \"sit.\" 3. Sentence dictation: **\"Tip is in.\"** — segment each word (Tip: /t/ /i/ /p/; is: heart word,    map i + the \"s says /z/\" heart part; in: /i/ /n/), then write the whole sentence.",
+    "words": [
+     "pin",
+     "sit"
+    ],
+    "sentence": "Tip is in."
+   },
+   "heart": [
+    {
+     "word": "the",
+     "note": "none of its letters have a formal lesson yet that matches how it sounds here (the \"th\" digraph isn't taught until Level 2.3, and even the \"e\" isn't formally taught until L1.07). Treat the whole word as one memorized heart shape for now: \"the.\" Point out that it's one of the most common words in English, which is exactly why it's worth memorizing early."
+    },
+    {
+     "word": "is",
+     "note": "i (✓) + s. The letter s says /s/ everywhere else so far, but in \"is\" it actually says /z/. **Heart part: the s says /z/, not /s/.** The i is fully regular."
+    }
+   ]
+  }
+ ],
+ "heart": [
+  {
+   "word": "the",
+   "note": "none of its letters have a formal lesson yet that matches how it sounds here (the \"th\" digraph isn't taught until Level 2.3, and even the \"e\" isn't formally taught until L1.07). Treat the whole word as one memorized heart shape for now: \"the.\" Point out that it's one of the most common words in English, which is exactly why it's worth memorizing early."
+  },
+  {
+   "word": "is",
+   "note": "i (✓) + s. The letter s says /s/ everywhere else so far, but in \"is\" it actually says /z/. **Heart part: the s says /z/, not /s/.** The i is fully regular."
+  }
+ ],
+ "blendList": {
+  "real": [
+   "at",
+   "sat",
+   "in",
+   "pit",
+   "pin",
+   "nip",
+   "sip",
+   "sit",
+   "pat",
+   "tap",
+   "tan",
+   "pan",
+   "nap",
+   "tip",
+   "pip"
+  ],
+  "pseudo": [
+   "tas",
+   "nas",
+   "pas",
+   "tis",
+   "nis"
+  ]
+ },
+ "blocksFound": [
+  "sittings",
+  "blendList",
+  "heart",
+  "read",
+  "listen",
+  "check",
+  "trackB",
+  "tier2"
+ ],
+ "appSittings": {
+  "A": [
+   {
+    "id": "A",
+    "new": [
+     "p"
+    ],
+    "steps": [
+     "hear",
+     "meet",
+     "trace",
+     "blend",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "B",
+    "new": [
+     "i"
+    ],
+    "steps": [
+     "warm",
+     "hear",
+     "meet",
+     "trace",
+     "blend",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "C",
+    "new": [
+     "n"
+    ],
+    "steps": [
+     "warm",
+     "hear",
+     "meet",
+     "trace",
+     "blend",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "D",
+    "new": [],
+    "steps": [
+     "warm",
+     "blend",
+     "tricky",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "R",
+    "steps": [
+     "read"
+    ]
+   },
+   {
+    "id": "L",
+    "steps": [
+     "listen"
+    ]
+   },
+   {
+    "id": "X",
+    "steps": [
+     "check"
+    ]
+   }
+  ],
+  "B": [
+   {
+    "id": "ABC",
+    "new": [
+     "p",
+     "i",
+     "n"
+    ],
+    "steps": [
+     "hear",
+     "meet",
+     "blend",
+     "spell"
+    ],
+    "keepGoing": true
+   },
+   {
+    "id": "D",
+    "steps": [
+     "warm",
+     "tricky",
+     "read",
+     "listen"
+    ]
+   },
+   {
+    "id": "X",
+    "steps": [
+     "check"
+    ]
+   }
+  ]
+ }
+}

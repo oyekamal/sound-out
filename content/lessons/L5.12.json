@@ -1,0 +1,28 @@
+{
+ "id": "L5.12",
+ "level": 5,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-5/lessons/L5.12-super-semi-roots-electricity-RT3.md",
+ "title": "Prefixes super-, semi- · Roots spect, port, dict, struct · Electricity, Simply Explained · Readers Theatre #3",
+ "goal": "Read, spell, and use words with *super-* and *semi-*; learn the first four \"commonly useful\" roots (labelled that way deliberately — not research-ranked the way the prefix list is, research/05 §5f); run this level's third and final Readers Theatre script.",
+ "newToday": "*super-* (\"above\" / \"beyond\" / \"very\") and *semi-* (\"half\" / \"partly\"); roots *spect* (see), *port* (carry), *dict* (say), *struct* (build). Tier-2 words: *efficient*, *consume*.",
+ "review": "number roots — quick oral round (*bi-, tri-, oct-*).",
+ "time": "30–45 min — content-dense, fine to run slightly long. **Materials:** paper, pencil, timer; script below.",
+ "read": {
+  "questions": []
+ },
+ "check": {
+  "bar": {
+   "pass": 6,
+   "of": 9,
+   "source": "lesson",
+   "raw": "≥6/9"
+  },
+  "freeResponse": true
+ },
+ "blocksFound": [
+  "read",
+  "check"
+ ],
+ "appSittings": null
+}

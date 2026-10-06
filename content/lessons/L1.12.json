@@ -1,0 +1,486 @@
+{
+ "id": "L1.12",
+ "level": 1,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-1/lessons/L1.12-x-y-z-qu.md",
+ "title": "x y z qu",
+ "goal": "Read and spell x, y, z, and the qu spelling; the alphabet's sounds are now complete (all 26 letters covered across L1.02–L1.12).",
+ "newToday": "x (usually says /ks/, two sounds in one letter), y (as a consonant, /j/, at the start of a word — its vowel jobs come in Level 3), z, qu (always together, says /kw/) — **one new grapheme per sitting**.",
+ "review": "j, v, w; words jam, van, wet.",
+ "heartLine": "have, go (taught in the final combined sitting).",
+ "time": "five sittings — A (~12 min), B (~10 min), C (~10 min), D (~10 min), E (~25–30 min).",
+ "read": {
+  "A": {
+   "text": "Sam has a fox. Sam has a box. The fox naps in the box. Sam has six pups. Go, fox, go!",
+   "title": null
+  },
+  "B": {
+   "text": "Dan has a box. Nat has a box. Dan and Nat fix a van. Nat quits at six. Go, Nat, go!",
+   "title": null
+  },
+  "questions": [
+   "What did the main character have, and where did it end up?",
+   "What time does the action happen in Track B?",
+   "Think: \"has\" says its final s like /z/, just like \"is\" did back in L1.03 — can you think of another word ending in s that might say /z/ the same way?"
+  ]
+ },
+ "listen": {
+  "title": "All 26, At Last",
+  "passage": "Every single letter of the English alphabet has now had its own proper introduction — some of them, like c and k, even share a job. It took twelve lessons to get here, on purpose: rushing through all 26 letters in a week or two sounds efficient, but it means most of them never get practiced enough to become automatic. From here, nothing new needs to be \"discovered\" — the next lessons are about combining these same 26 letters in cleverer and cleverer ways: two letters making one sound, sounds joining into longer words, and patterns repeating across hundreds of different words once you know what to look for.",
+  "tier2": [
+   {
+    "word": "automatic",
+    "def": "happening without needing to think about it carefully each time, because it's been practiced so much.",
+    "full": "happening without needing to think about it carefully each time, because it's been practiced so much. \"Reading familiar words becomes automatic after enough practice.\" \"Braking for a red light should be automatic for a driver.\" Your turn: name something you do automatically now that used to take real effort."
+   },
+   {
+    "word": "combining",
+    "def": "putting two or more things together to make something new.",
+    "full": "putting two or more things together to make something new. \"Combining flour and water makes dough.\" \"This lesson is about combining letters in new ways.\" Your turn: what's something good that comes from combining two things?"
+   }
+  ],
+  "questions": [
+   "Why does the passage say rushing through all 26 letters quickly would actually be worse, not better?",
+   "What does the passage say comes next, now that all 26 letters are taught?"
+  ]
+ },
+ "check": {
+  "real": [
+   "box",
+   "six",
+   "zip",
+   "quiz",
+   "yes"
+  ],
+  "pseudo": [
+   "zox",
+   "quab",
+   "yig",
+   "fex",
+   "wux"
+  ],
+  "dictation": [
+   "fix"
+  ],
+  "bar": {
+   "pass": 10,
+   "of": 11,
+   "source": "lesson",
+   "raw": "≥10/11"
+  },
+  "firstAttemptOnly": true
+ },
+ "sittings": [
+  {
+   "id": "A",
+   "title": "x (~12 min)",
+   "new": [
+    "x"
+   ],
+   "warm": {
+    "text": "flash j, v, w. Read 3 review words: jam, van, wet.",
+    "words": [
+     "jam",
+     "van",
+     "wet"
+    ]
+   },
+   "hear": {
+    "text": "/ks/ — x is unusual: it's really two sounds squeezed into one letter, /k/ then /s/, like the end of \"box.\""
+   },
+   "meet": {
+    "text": "\"This says /ks/\" (x — usually at the *end* of a word). Demonstrate slowly: say /k/ then /s/ separately, then squeeze them together fast, so the learner hears it's genuinely two sounds, not a mystery third sound.",
+    "mouthCue": null
+   },
+   "blend": {
+    "real": [
+     "box",
+     "fox",
+     "fix",
+     "mix",
+     "six"
+    ],
+    "pseudo": []
+   },
+   "spell": {
+    "text": "say /ks/ → write **x**. Segment and write \"box\" (three sounds: /b/ /o/ /ks/ — note x counts as the last \"chunk\" even though it's two sounds).",
+    "words": [
+     "box",
+     "chunk"
+    ]
+   },
+   "mini": {
+    "text": "x on sight 5/5; blend the 5 words above at ≥4/5.",
+    "bar": {
+     "pass": 4,
+     "of": 5,
+     "source": "lesson",
+     "raw": "≥4/5"
+    }
+   }
+  },
+  {
+   "id": "B",
+   "title": "y (~10 min)",
+   "new": [
+    "y"
+   ],
+   "warm": {
+    "text": "flash x. Read 3 review words: box, fox, six.",
+    "words": [
+     "box",
+     "fox",
+     "six"
+    ]
+   },
+   "hear": {
+    "text": "/j/ (consonant y) — tongue humps up toward the roof of the mouth, like the start of \"yes.\""
+   },
+   "meet": {
+    "text": "\"This says /j/\" (y — at the *start* of a word only, for now; y's vowel jobs come in Level 3).",
+    "mouthCue": null
+   },
+   "blend": {
+    "real": [
+     "yes",
+     "yak",
+     "yum"
+    ],
+    "pseudo": []
+   },
+   "spell": {
+    "text": "say /j/ → write **y**. Segment and write \"yes.\"",
+    "words": [
+     "yes"
+    ]
+   },
+   "mini": {
+    "text": "y on sight 5/5; blend the 3 words above at ≥3/3 (a smaller set — consonant-y has few word-initial CVC partners, which is fine).",
+    "bar": {
+     "pass": 3,
+     "of": 3,
+     "source": "lesson",
+     "raw": "≥3/3"
+    }
+   }
+  },
+  {
+   "id": "C",
+   "title": "z (~10 min)",
+   "new": [
+    "z"
+   ],
+   "warm": {
+    "text": "flash y. Read 3 review words: yes, yak, yum.",
+    "words": [
+     "yes",
+     "yak",
+     "yum"
+    ]
+   },
+   "hear": {
+    "text": "/z/ — like /s/ but voiced (buzzing), the start of \"zip.\""
+   },
+   "meet": {
+    "text": "\"This says /z/\" (z).",
+    "mouthCue": null
+   },
+   "blend": {
+    "real": [
+     "zip",
+     "zap"
+    ],
+    "pseudo": []
+   },
+   "spell": {
+    "text": "say /z/ → write **z**. Segment and write \"zip.\"",
+    "words": [
+     "zip"
+    ]
+   },
+   "mini": {
+    "text": "z on sight 5/5; blend the 2 words above at ≥2/2.",
+    "bar": {
+     "pass": 2,
+     "of": 2,
+     "source": "lesson",
+     "raw": "≥2/2"
+    }
+   }
+  },
+  {
+   "id": "D",
+   "title": "qu (~10 min)",
+   "new": [
+    "qu"
+   ],
+   "warm": {
+    "text": "flash z. Read 2 review words: zip, zap.",
+    "words": [
+     "zip",
+     "zap"
+    ]
+   },
+   "hear": {
+    "text": "/kw/ — q is never alone in English; it always partners with u, and together they say /kw/, like the start of \"quiz.\""
+   },
+   "meet": {
+    "text": "\"These two always go together and say /kw/\" (qu). \"q never goes anywhere without u in English — they're a package.\"",
+    "mouthCue": null
+   },
+   "blend": {
+    "real": [
+     "quiz",
+     "quit"
+    ],
+    "pseudo": []
+   },
+   "spell": {
+    "text": "say /kw/ → write **qu**. Segment and write \"quiz.\"",
+    "words": [
+     "quiz"
+    ]
+   },
+   "mini": {
+    "text": "qu on sight 2/2; blend the 2 words above at ≥2/2.",
+    "bar": {
+     "pass": 2,
+     "of": 2,
+     "source": "lesson",
+     "raw": "≥2/2"
+    }
+   }
+  },
+  {
+   "id": "E",
+   "title": "x, y, z, qu together: heart words, Read it, Check (~25–30 min)",
+   "new": [],
+   "warm": {
+    "text": "flash x, y, z, qu; blend 5 mixed words spanning all four: box, yes, zip, quiz, fix.",
+    "words": [
+     "box",
+     "yes",
+     "zip",
+     "quiz",
+     "fix"
+    ]
+   },
+   "blend": {
+    "real": [
+     "box",
+     "fox",
+     "fix",
+     "mix",
+     "six",
+     "wax",
+     "yes",
+     "yak",
+     "zip",
+     "quiz",
+     "quit",
+     "jazz",
+     "yum",
+     "vex",
+     "fizz"
+    ],
+    "pseudo": [
+     "zox",
+     "quab",
+     "yig",
+     "fex",
+     "wux",
+     "zag"
+    ]
+   },
+   "spell": {
+    "text": "1. Segment and write: \"quiz.\" 2. Sentence dictation: **\"Go, fox, go!\"** (Go: heart word; fox: /f/ /o/ /ks/.)",
+    "words": [
+     "quiz"
+    ],
+    "sentence": "Go, fox, go!"
+   },
+   "heart": [
+    {
+     "word": "have",
+     "note": "h (✓), a (✓), v (✓) are all regular. The final e usually signals \"make the vowel before it say its long name\" (a pattern called silent-e, taught properly in Level 3) — if that rule applied here, \"have\" would say \"hayv.\" **It doesn't** — it stays short, /hæv/. **Heart part: the silent e breaks its own future rule in this one very common word.** Say: \"you'll learn the real silent-e rule soon; this word is the famous exception to it.\""
+    },
+    {
+     "word": "go",
+     "note": "g (✓) is regular. The o says a long /oʊ/ here (like \"go,\" \"so,\" \"no\" — a pattern called an open syllable, taught properly in Level 3, L3.5). **Heart part: the \"o\" says its long sound, not the short one you know.**"
+    }
+   ]
+  }
+ ],
+ "heart": [
+  {
+   "word": "have",
+   "note": "h (✓), a (✓), v (✓) are all regular. The final e usually signals \"make the vowel before it say its long name\" (a pattern called silent-e, taught properly in Level 3) — if that rule applied here, \"have\" would say \"hayv.\" **It doesn't** — it stays short, /hæv/. **Heart part: the silent e breaks its own future rule in this one very common word.** Say: \"you'll learn the real silent-e rule soon; this word is the famous exception to it.\""
+  },
+  {
+   "word": "go",
+   "note": "g (✓) is regular. The o says a long /oʊ/ here (like \"go,\" \"so,\" \"no\" — a pattern called an open syllable, taught properly in Level 3, L3.5). **Heart part: the \"o\" says its long sound, not the short one you know.**"
+  }
+ ],
+ "blendList": {
+  "real": [
+   "box",
+   "fox",
+   "fix",
+   "mix",
+   "six",
+   "wax",
+   "yes",
+   "yak",
+   "zip",
+   "quiz",
+   "quit",
+   "jazz",
+   "yum",
+   "vex",
+   "fizz"
+  ],
+  "pseudo": [
+   "zox",
+   "quab",
+   "yig",
+   "fex",
+   "wux",
+   "zag"
+  ]
+ },
+ "blocksFound": [
+  "sittings",
+  "blendList",
+  "heart",
+  "read",
+  "listen",
+  "check",
+  "trackB",
+  "tier2"
+ ],
+ "appSittings": {
+  "A": [
+   {
+    "id": "A",
+    "new": [
+     "x"
+    ],
+    "steps": [
+     "hear",
+     "meet",
+     "trace",
+     "blend",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "B",
+    "new": [
+     "y"
+    ],
+    "steps": [
+     "warm",
+     "hear",
+     "meet",
+     "trace",
+     "blend",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "C",
+    "new": [
+     "z"
+    ],
+    "steps": [
+     "warm",
+     "hear",
+     "meet",
+     "trace",
+     "blend",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "D",
+    "new": [
+     "qu"
+    ],
+    "steps": [
+     "warm",
+     "hear",
+     "meet",
+     "trace",
+     "blend",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "E",
+    "new": [],
+    "steps": [
+     "warm",
+     "blend",
+     "tricky",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "R",
+    "steps": [
+     "read"
+    ]
+   },
+   {
+    "id": "L",
+    "steps": [
+     "listen"
+    ]
+   },
+   {
+    "id": "X",
+    "steps": [
+     "check"
+    ]
+   }
+  ],
+  "B": [
+   {
+    "id": "ABCD",
+    "new": [
+     "x",
+     "y",
+     "z",
+     "qu"
+    ],
+    "steps": [
+     "hear",
+     "meet",
+     "blend",
+     "spell"
+    ],
+    "keepGoing": true
+   },
+   {
+    "id": "D",
+    "steps": [
+     "warm",
+     "tricky",
+     "read",
+     "listen"
+    ]
+   },
+   {
+    "id": "X",
+    "steps": [
+     "check"
+    ]
+   }
+  ]
+ }
+}

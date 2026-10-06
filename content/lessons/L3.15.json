@@ -1,0 +1,69 @@
+{
+ "id": "L3.15",
+ "level": 3,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-3/lessons/L3.15-oo-flex.md",
+ "title": "oo (Flex-Decoding Two Sounds)",
+ "goal": "Read words spelled with **oo**, which has two common sounds — /o͞o/ (moon) and /o͝o/ (book) — using an explicit flex-decode routine: try one sound, then the other, and check which gives a real word.",
+ "newToday": "oo — both sounds",
+ "review": "ue/ew/ui, u_e (same sound family as /o͞o/)",
+ "heartLine": "answer (review: buy, talk, walk)",
+ "time": "30 min (flex-decode routine needs full explanation time)",
+ "blendList": {
+  "real": [
+   "moon",
+   "food",
+   "room",
+   "soon",
+   "cool",
+   "pool",
+   "tool",
+   "zoo",
+   "boot",
+   "roof",
+   "book",
+   "look",
+   "took",
+   "foot",
+   "good",
+   "wood",
+   "hook",
+   "cook",
+   "stood",
+   "hood"
+  ],
+  "pseudo": []
+ },
+ "check": {
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "freeResponse": true
+ },
+ "heart": [
+  {
+   "word": "answer",
+   "note": null
+  }
+ ],
+ "read": {
+  "A": {
+   "text": "At night, Sam and his dad look up at the moon. / \"It is a good, cool night to look at the moon,\" said Dad. / They sit and look for as long as they can, because the moon is so bright. / Sam has a thing to think of: \"What is the moon made of?\" / Dad said, \"That is a good thing to think of — let's find the answer in a book.\" / They read a book and find the answer, glad they took the time to look.",
+   "title": null
+  },
+  "B": {
+   "text": "After her shift, Kate likes to sit in her room and read a good book. / When it is cool at night, she gets a hot cup and takes a look at her book. / She took a class once on this same topic, but a book gives her time to think it over. / \"I find the answer to a lot of things in a good book,\" she said. / Soon, she is deep in the pages, glad for a quiet night.",
+   "title": null
+  }
+ },
+ "blocksFound": [
+  "blendList",
+  "heart",
+  "read",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

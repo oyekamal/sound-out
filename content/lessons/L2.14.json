@@ -1,0 +1,14 @@
+{
+ "id": "L2.14",
+ "level": 2,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-2/lessons/L2.14-mastery-check.md",
+ "title": "Level 2 Mastery Check",
+ "goal": "Confirm the learner has met every Level 2 exit criterion before starting Level 3.",
+ "newToday": "nothing — this is the gate, not a teaching lesson.",
+ "review": "everything from L2.01–L2.13.",
+ "heartLine": "none new (all 29 already taught).",
+ "time": "25–35 min, can be split across two sittings if needed (DESIGN.md rule 10).",
+ "blocksFound": [],
+ "appSittings": null
+}

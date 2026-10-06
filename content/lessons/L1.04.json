@@ -1,0 +1,367 @@
+{
+ "id": "L1.04",
+ "level": 1,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-1/lessons/L1.04-m-d.md",
+ "title": "m d",
+ "goal": "Read and spell m, d; blend an 8-letter set into a richer bank of real CVC words, including the first simple family/scene sentences.",
+ "newToday": "letters m, d (sounds /m/, /d/) — **one new sound per sitting**.",
+ "review": "s, a, t, p, i, n.",
+ "heartLine": "to, of (taught in the final combined sitting).",
+ "time": "three sittings — A (~15 min), B (~15 min), C (~25–30 min).",
+ "read": {
+  "A": {
+   "text": "Sam sat. Dad sat. Sam is sad. Dad is mad at Sam. Sam pat Dad. Is Dad sad? Dad is sad.",
+   "title": null
+  },
+  "B": {
+   "text": "Pam sat. Dan sat. Pam is sad. Dan is mad at Pam. Pam pat Dan. Is Dan sad? Dan is sad.",
+   "title": null
+  },
+  "questions": [
+   "Who was mad, and who were they mad at?",
+   "What did the sad/mad character do at the end?",
+   "Think: why do you think Dad/Dan was mad — what might have happened just before this story starts?"
+  ]
+ },
+ "listen": {
+  "title": "The Missed Delivery",
+  "passage": "Every Tuesday, a truck brings fresh bread to Mr. Iqbal's small shop before sunrise. He counts on it — his whole morning depends on those loaves being on the shelf before the first customers arrive. But this Tuesday, seven o'clock came and went, and the truck never appeared. Mr. Iqbal called the bakery three times, growing more frustrated with each unanswered ring. Finally, his daughter suggested checking the neighborhood group chat — and there it was: the delivery driver's van had a flat tire two streets away. Mr. Iqbal grabbed his bicycle pump without a second thought and pedaled over to help.",
+  "tier2": [
+   {
+    "word": "frustrated",
+    "def": "annoyed and a little helpless because something isn't working the way you need it to.",
+    "full": "annoyed and a little helpless because something isn't working the way you need it to. \"She felt frustrated when the bus was late again.\" \"He was frustrated trying to fix the broken lock.\" Your turn: what's something that frustrates you?"
+   },
+   {
+    "word": "depends on",
+    "def": "needs something in order to work or succeed.",
+    "full": "needs something in order to work or succeed. \"The picnic depends on good weather.\" \"My whole morning depends on a strong cup of tea.\" Your turn: what does your morning depend on?"
+   }
+  ],
+  "questions": [
+   "What problem did Mr. Iqbal have, and how did he find out what caused it?",
+   "What does it tell you about Mr. Iqbal that he grabbed his bicycle pump to go help?"
+  ]
+ },
+ "check": {
+  "real": [
+   "mad",
+   "dip",
+   "sad",
+   "tan",
+   "pit"
+  ],
+  "pseudo": [
+   "mip",
+   "nad",
+   "dap",
+   "tid",
+   "nam"
+  ],
+  "dictation": [
+   "dam"
+  ],
+  "bar": {
+   "pass": 10,
+   "of": 11,
+   "source": "lesson",
+   "raw": "≥10/11"
+  },
+  "firstAttemptOnly": true
+ },
+ "sittings": [
+  {
+   "id": "A",
+   "title": "m (~15 min)",
+   "new": [
+    "m"
+   ],
+   "warm": {
+    "text": "flash s, a, t, p, i, n. Read 3 review words: sat, pit, tan.",
+    "words": [
+     "sat",
+     "pit",
+     "tan"
+    ]
+   },
+   "hear": {
+    "text": "/m/ — lips pressed together, sound hums out through the nose (like /n/, but lips closed instead of tongue on the ridge). Like the start of \"map.\""
+   },
+   "meet": {
+    "text": "\"This says /m/\" (m). **Mouth cue:** feel the hum on closed lips — the same nose-buzz feeling as /n/, but with the mouth shut instead of open. **Confusable pair to watch:** /m/ and /n/ are both nasal hums; the difference is lips-closed (m) vs. tongue-on-ridge (n).",
+    "mouthCue": "feel the hum on closed lips — the same nose-buzz feeling as /n/, but with the mouth shut instead of open."
+   },
+   "blend": {
+    "real": [
+     "am",
+     "Sam",
+     "map",
+     "mat",
+     "man"
+    ],
+    "pseudo": []
+   },
+   "spell": {
+    "text": "say /m/ → write **m**. Segment and write \"map.\"",
+    "words": [
+     "map"
+    ]
+   },
+   "mini": {
+    "text": "m on sight 5/5; blend the 5 words above at ≥4/5.",
+    "bar": {
+     "pass": 4,
+     "of": 5,
+     "source": "lesson",
+     "raw": "≥4/5"
+    }
+   }
+  },
+  {
+   "id": "B",
+   "title": "d (~15 min)",
+   "new": [
+    "d"
+   ],
+   "warm": {
+    "text": "flash m. Read 3 review words: am, map, man.",
+    "words": [
+     "am",
+     "map",
+     "man"
+    ]
+   },
+   "hear": {
+    "text": "/d/ — tongue taps the same ridge as /t/, but the voice buzzes (\"d\" is /t/'s \"voiced twin\"). Like the start of \"dog.\""
+   },
+   "meet": {
+    "text": "\"This says /d/\" (d). **Mouth cue:** put a hand on the throat for /d/ — feel the buzz that /t/ doesn't have.",
+    "mouthCue": "put a hand on the throat for /d/ — feel the buzz that /t/ doesn't have."
+   },
+   "blend": {
+    "real": [
+     "mad",
+     "dad",
+     "dip",
+     "dam",
+     "sad"
+    ],
+    "pseudo": []
+   },
+   "spell": {
+    "text": "say /d/ → write **d**. Segment and write \"mad.\"",
+    "words": [
+     "mad"
+    ]
+   },
+   "mini": {
+    "text": "d on sight 5/5; blend the 5 words above at ≥4/5.",
+    "bar": {
+     "pass": 4,
+     "of": 5,
+     "source": "lesson",
+     "raw": "≥4/5"
+    }
+   }
+  },
+  {
+   "id": "C",
+   "title": "m, d together: heart words, Read it, Check (~25–30 min)",
+   "new": [],
+   "warm": {
+    "text": "flash m, d, and 5 mixed review words: sat, mad, pit, dad, nap.",
+    "words": [
+     "sat",
+     "mad",
+     "pit",
+     "dad",
+     "nap"
+    ]
+   },
+   "blend": {
+    "real": [
+     "sat",
+     "pit",
+     "sip",
+     "tan",
+     "nap",
+     "it",
+     "mad",
+     "man",
+     "map",
+     "mat",
+     "dad",
+     "dip",
+     "dim",
+     "dam",
+     "sad"
+    ],
+    "pseudo": [
+     "mip",
+     "nad",
+     "dap",
+     "tid",
+     "nam"
+    ]
+   },
+   "spell": {
+    "text": "1. Say /m/, /d/ → write **m**, **d**. 2. Segment and write: \"mad,\" \"dip.\" 3. Sentence dictation: **\"Sam is sad.\"** (Sam: /s/ /a/ /m/; is: heart word; sad: /s/ /a/ /d/.)",
+    "words": [
+     "mad",
+     "dip"
+    ],
+    "sentence": "Sam is sad."
+   },
+   "heart": [
+    {
+     "word": "to",
+     "note": "t is regular (✓, taught). The **o** hasn't been formally taught yet (that's next lesson, L1.05) *and* even once it is, \"to\" doesn't use the short-o sound you'll learn there — it says a long /uː/. **Heart part: the whole \"o.\"** Note aloud: \"the letter o gets its own lesson tomorrow — this is a sneak preview of just one of its jobs.\""
+    },
+    {
+     "word": "of",
+     "note": "the trickiest heart word so far: o isn't taught yet, and **f says /v/ here, not /f/** — the only English word where \"f\" does that. Mark the entire word as heart for now; revisit once f is formally taught (L1.09) to show how unusual this one word really is."
+    }
+   ]
+  }
+ ],
+ "heart": [
+  {
+   "word": "to",
+   "note": "t is regular (✓, taught). The **o** hasn't been formally taught yet (that's next lesson, L1.05) *and* even once it is, \"to\" doesn't use the short-o sound you'll learn there — it says a long /uː/. **Heart part: the whole \"o.\"** Note aloud: \"the letter o gets its own lesson tomorrow — this is a sneak preview of just one of its jobs.\""
+  },
+  {
+   "word": "of",
+   "note": "the trickiest heart word so far: o isn't taught yet, and **f says /v/ here, not /f/** — the only English word where \"f\" does that. Mark the entire word as heart for now; revisit once f is formally taught (L1.09) to show how unusual this one word really is."
+  }
+ ],
+ "blendList": {
+  "real": [
+   "sat",
+   "pit",
+   "sip",
+   "tan",
+   "nap",
+   "it",
+   "mad",
+   "man",
+   "map",
+   "mat",
+   "dad",
+   "dip",
+   "dim",
+   "dam",
+   "sad"
+  ],
+  "pseudo": [
+   "mip",
+   "nad",
+   "dap",
+   "tid",
+   "nam"
+  ]
+ },
+ "blocksFound": [
+  "sittings",
+  "blendList",
+  "heart",
+  "read",
+  "listen",
+  "check",
+  "trackB",
+  "tier2"
+ ],
+ "appSittings": {
+  "A": [
+   {
+    "id": "A",
+    "new": [
+     "m"
+    ],
+    "steps": [
+     "hear",
+     "meet",
+     "trace",
+     "blend",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "B",
+    "new": [
+     "d"
+    ],
+    "steps": [
+     "warm",
+     "hear",
+     "meet",
+     "trace",
+     "blend",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "C",
+    "new": [],
+    "steps": [
+     "warm",
+     "blend",
+     "tricky",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "R",
+    "steps": [
+     "read"
+    ]
+   },
+   {
+    "id": "L",
+    "steps": [
+     "listen"
+    ]
+   },
+   {
+    "id": "X",
+    "steps": [
+     "check"
+    ]
+   }
+  ],
+  "B": [
+   {
+    "id": "AB",
+    "new": [
+     "m",
+     "d"
+    ],
+    "steps": [
+     "hear",
+     "meet",
+     "blend",
+     "spell"
+    ],
+    "keepGoing": true
+   },
+   {
+    "id": "D",
+    "steps": [
+     "warm",
+     "tricky",
+     "read",
+     "listen"
+    ]
+   },
+   {
+    "id": "X",
+    "steps": [
+     "check"
+    ]
+   }
+  ]
+ }
+}

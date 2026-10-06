@@ -1,0 +1,47 @@
+{
+ "id": "L3.04",
+ "level": 3,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-3/lessons/L3.04-vce-drop-e.md",
+ "title": "VCe + the Drop-e Rule",
+ "goal": "Apply the drop-e spelling rule when adding a vowel suffix (-ing, -ed, -er) to a VCe word: hope→hoping.",
+ "newToday": "drop-e rule (spelling rule, no new grapheme)",
+ "review": "a_e, i_e, o_e, u_e, e_e; -ing/-ed/-er suffixes (Level 2, no-base-change words)",
+ "heartLine": "busy, people (review: great, eye)",
+ "time": "25–30 min",
+ "check": {
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "freeResponse": true
+ },
+ "heart": [
+  {
+   "word": "busy",
+   "note": null
+  },
+  {
+   "word": "people",
+   "note": null
+  }
+ ],
+ "read": {
+  "A": {
+   "text": "Sam is making a kite. / He is using tape and a stick. / Every bit has to be just so. / Sam is smiling at his plan. / Once it is done, Sam is hoping for a fine time. / He is saving his kite for the big game. / \"I made this alone,\" said Sam, very glad.",
+   "title": null
+  },
+  "B": {
+   "text": "At the end of every shift, Kate is closing the shop at nine. / She is checking the till and saving the cash. / Once the till is closed, she is locking every gate. / Kate is not rushing — she likes taking her time. / \"I am making it safe,\" she said, smiling at her plan for a safe close.",
+   "title": null
+  }
+ },
+ "blocksFound": [
+  "heart",
+  "read",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

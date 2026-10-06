@@ -1,0 +1,79 @@
+{
+ "id": "L4.09",
+ "level": 4,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-4/lessons/L4.09-phones-photos-and-ghosts.md",
+ "title": "Phones, Photos, and Ghosts",
+ "goal": "Read and spell words with **ph** (/f/), **ch** saying /k/ or /sh/ (not just its usual /ch/), and **gh** (as /g/ in *ghost*, and as /f/ in *rough, tough, enough, cough*).",
+ "newToday": "ph, ch (/k/, /sh/), gh",
+ "review": "ea(/ĕ/), kn, wr, gn, mb, and all earlier vowel-r/diphthong/aw teams",
+ "heartLine": "none new — review *laugh* (already known — now explainable!)",
+ "time": "30 min",
+ "blendList": {
+  "real": [
+   "phone",
+   "photo",
+   "graph",
+   "phrase",
+   "dolphin",
+   "trophy",
+   "school",
+   "echo",
+   "chorus",
+   "stomach",
+   "ache",
+   "chef",
+   "machine",
+   "chute",
+   "ghost",
+   "ghastly",
+   "rough",
+   "tough",
+   "enough",
+   "cough"
+  ],
+  "pseudo": []
+ },
+ "check": {
+  "real": [
+   "phone",
+   "school",
+   "ghost",
+   "rough",
+   "laugh"
+  ],
+  "pseudo": [
+   "phin",
+   "chask",
+   "ghab",
+   "snough",
+   "phord"
+  ],
+  "dictation": [
+   "photo"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "read": {
+  "A": {
+   "text": "At school, Miss Amna told a ghost story before lunch. \"This school used to be a farmhouse,\" she said, \"and some say a ghost still walks the halls at night.\" Hamza's stomach did a quick flip. \"Is it true?\" he asked. \"Maybe,\" Miss Amna said with a grin, \"or maybe it's just an old tale.\" At recess, Hamza and his friends took a photo of the old, dusty hallway, hoping to catch something strange in the photo. They didn't see a ghost, but they did find an old graph pinned to a wall, showing how many students went to the school long ago. It was a rough, faded page, but Hamza's teacher said it was a real piece of history. Hamza laughed, his stomach finally calm again.",
+   "title": null
+  },
+  "B": {
+   "text": "Dr. Farid works at a small clinic. Today has been a tough day — the phone has not stopped ringing. A patient calls to ask if her cough is bad enough to come in. \"It sounds rough,\" Dr. Farid says, \"come in and I will check your chest with a stethoscope.\" Later, a machine in the clinic breaks down, and Dr. Farid must call for a repair. He takes a photo of the broken part to send to the repair shop. By the end of his shift, his stomach aches from stress, but he still has enough energy to smile at his last patient. \"Tough day,\" he tells his wife that night, \"but a good one.\"",
+   "title": null
+  }
+ },
+ "blocksFound": [
+  "blendList",
+  "read",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

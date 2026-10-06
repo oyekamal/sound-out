@@ -1,0 +1,94 @@
+{
+ "id": "L2.05",
+ "level": 2,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-2/lessons/L2.05-ng-nk.md",
+ "title": "ng, nk",
+ "goal": "Read and spell words ending in `ng` and `nk`.",
+ "newToday": "`ng` /ŋ/, `nk` /ŋk/ (both are single sound-units at the end of a syllable, right after a vowel)",
+ "review": "`sh, ch, tch, th, wh`; Level 1 letters",
+ "heartLine": "done, want",
+ "time": "20–25 min",
+ "blendList": {
+  "real": [
+   "sing",
+   "king",
+   "long",
+   "hang",
+   "rang",
+   "ring",
+   "song",
+   "wing",
+   "sink",
+   "pink",
+   "bank",
+   "tank",
+   "zang",
+   "hink",
+   "sonk",
+   "zung",
+   "yonk"
+  ],
+  "pseudo": []
+ },
+ "heart": [
+  {
+   "word": "done",
+   "note": "heart part: `o` says a short-u sound (as in \"come/some\" from L2.04) and the final `e` is silent; mark `o`+silent-e as heart, `d` and `n` are fully regular."
+  },
+  {
+   "word": "want",
+   "note": "heart part: `a` says an unexpected sound (closer to short o than short a); mark only the `a` as heart, `w`, `n`, and `t` are fully regular and already known."
+  }
+ ],
+ "read": {
+  "A": {
+   "text": "Min sings a song. \"I want a pink hat,\" Min says. \"When the song is done, you can have a pink hat,\" Dad says. Min sings and sings until the song is done. Dad claps, and hangs a pink hat on Min.",
+   "title": null
+  },
+  "B": {
+   "text": "Sam wants his job done fast. \"When is the job done?\" his boss asks. \"It is done at six,\" Sam says. Sam picks up his bag and a pink tin king from a bin. \"This king is done for,\" Sam says, and grins. Sam wants to fix it, but the king is just junk.",
+   "title": null
+  }
+ },
+ "listen": {
+  "title": null,
+  "passage": "After a full day at the farm, feeding the animals, mending fences, and carrying heavy buckets of water, farmer Iqbal was completely **exhausted**. His arms ached, his legs felt like stone, and he could barely climb the steps to his own porch. His son offered to finish the last chore, but Iqbal was too exhausted even to explain what needed doing — he just pointed and nodded. He sat down, closed his eyes, and within minutes he was fast asleep in his chair, still wearing his muddy boots. When he woke an hour later, he felt much better, though still a little exhausted, and very glad his son had taken care of the rest.",
+  "tier2": [],
+  "questions": []
+ },
+ "check": {
+  "real": [
+   "sing",
+   "king",
+   "sink",
+   "bank",
+   "ring"
+  ],
+  "pseudo": [
+   "zang",
+   "hink",
+   "sonk",
+   "zung",
+   "yonk"
+  ],
+  "dictation": [
+   "pink"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "blocksFound": [
+  "blendList",
+  "heart",
+  "read",
+  "listen",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

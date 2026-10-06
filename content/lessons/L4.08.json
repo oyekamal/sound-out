@@ -1,0 +1,79 @@
+{
+ "id": "L4.08",
+ "level": 4,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-4/lessons/L4.08-bread-and-silent-letters.md",
+ "title": "Bread and Silent Letters",
+ "goal": "Read and spell words with **ea saying /ĕ/** (as in *bread*), and four silent-letter patterns: **kn, wr, gn, mb**.",
+ "newToday": "ea (/ĕ/), kn, wr, gn, mb",
+ "review": "aw, au, al(l), and all vowel-r teams and diphthongs",
+ "heartLine": "none new — review *great, busy*",
+ "time": "30 min (two related but distinct topics — go at a comfortable pace, split into two sittings if needed)",
+ "blendList": {
+  "real": [
+   "bread",
+   "head",
+   "dead",
+   "instead",
+   "ready",
+   "heavy",
+   "weather",
+   "feather",
+   "thread",
+   "spread",
+   "meant",
+   "know",
+   "knee",
+   "knock",
+   "knot",
+   "knit",
+   "kneel",
+   "knuckle",
+   "write",
+   "wrist"
+  ],
+  "pseudo": []
+ },
+ "check": {
+  "real": [
+   "bread",
+   "know",
+   "write",
+   "sign",
+   "comb"
+  ],
+  "pseudo": [
+   "thead",
+   "knop",
+   "wrab",
+   "gnol",
+   "vomb"
+  ],
+  "dictation": [
+   "wrist"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "read": {
+  "A": {
+   "text": "\"Get ready — the weather is turning,\" Dad said, looking at the heavy gray clouds. Sana ran to get her coat. She had a small cut on her knee from playing outside, so Dad helped clean it first. \"Don't rub it with dirty hands,\" he said, wrapping a bandage around her knee. Sana took a deep breath and looked out the window. Wind began to shake the thread-thin branches of the old tree. \"I meant to bring in the washing before this,\" Mom said, dashing outside. By the time she got back, her hair was a mess, but the washing was safe and dry. That night, the family sat close, listening to the storm, glad to be warm and healthy inside.",
+   "title": null
+  },
+  "B": {
+   "text": "Rashid was driving to a job site when he took a wrong turn onto a bumpy road. His truck hit a deep rut, and his wrist twisted hard against the wheel. \"That's not good,\" he said, feeling a sharp pain. He pulled over, took a breath, and checked his wrist — it was already starting to swell. Rashid called his boss to explain he would be late. At the clinic, a nurse wrapped his wrist and told him to rest it. \"You're lucky it's not broken,\" she said. Rashid signed the form, thanked her, and called his boss again with an update. It was a hard start to the day, but he stayed calm and got past it.",
+   "title": null
+  }
+ },
+ "blocksFound": [
+  "blendList",
+  "read",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

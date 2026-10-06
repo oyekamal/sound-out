@@ -1,0 +1,119 @@
+{
+ "id": "L1.13",
+ "level": 1,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-1/lessons/L1.13-review.md",
+ "title": "Review: All Letters, Letter Names vs. Sounds, b/d/p/q",
+ "goal": "Consolidate all 26 letters and their sounds; explicitly separate letter *name* from letter *sound*; directly address the b/d/p/q mirror-confusion as its own short, dedicated lesson.",
+ "newToday": "no new letter-sounds — this is a consolidation lesson, plus one genuinely new skill: telling b/d/p/q apart reliably.",
+ "review": "everything, L1.02–L1.12.",
+ "heartLine": "no, so.",
+ "time": "25–30 minutes (slightly longer — this is a full review lesson), single sitting.",
+ "blendList": {
+  "real": [
+   "sat",
+   "cut",
+   "run",
+   "box",
+   "jam",
+   "bat",
+   "pat",
+   "dip",
+   "bag",
+   "dig",
+   "big",
+   "pig",
+   "dog",
+   "doll",
+   "mess"
+  ],
+  "pseudo": [
+   "dax",
+   "qov",
+   "zeb",
+   "wuk",
+   "tio"
+  ]
+ },
+ "heart": [
+  {
+   "word": "no",
+   "note": "n (✓) is regular. The **o** says its long /oʊ/ sound, same pattern as \"go\" (L1.12) and \"do\" (L1.10) — **heart part: the \"o.\"** Point out this is now the *third* heart word with exactly this same irregular-o pattern; naming the pattern itself is worth doing explicitly."
+  },
+  {
+   "word": "so",
+   "note": "s (✓) is regular. Same long-o pattern again — **heart part: the \"o.\"** By now the learner may start predicting this pattern in new words before being told; if so, say so — that's exactly the self-teaching mechanism this whole course is built on (`research/01`, Share's Self-Teaching Hypothesis)."
+  }
+ ],
+ "read": {
+  "A": {
+   "text": "Bob has a big dog. Pat has a big pig. The dog and the pig run. Did the dog win? Did the pig win? No, they did not win. It was a big mess.",
+   "title": null
+  },
+  "B": {
+   "text": "Dan has a big box. Pat has a big box. The tag said \"b.\" Dan said, \"d?\" No, it was \"b.\" It was a big mess at the dock.",
+   "title": null
+  },
+  "questions": [
+   "What raced, in Track A, and who won?",
+   "What letter did Dan misread in Track B, and for which letter?",
+   "Think: now that you know the b/d/p/q tricks from §3, which one would have helped Dan avoid his mistake?"
+  ]
+ },
+ "listen": {
+  "title": "Why Labels Matter",
+  "passage": "In busy warehouses, a single misread letter on a shipping label can send a package hundreds of miles in the wrong direction. That's why professional warehouse workers are trained to read labels a specific, careful way: never glance quickly at a whole word and guess, but check the exact letters, especially any that could be confused with another — b and d, or the number 0 and the letter O. Some warehouses even print certain confusable letters in a special typeface designed to make them look as different from each other as possible. It's a small design choice built entirely around a very human, very ordinary reading mistake.",
+  "tier2": [
+   {
+    "word": "typeface",
+    "def": "a particular style or design of printed letters.",
+    "full": "a particular style or design of printed letters. \"This typeface makes the numbers easier to tell apart.\" \"Formal documents often use a plain, clear typeface.\" Your turn: have you noticed a typeface that was especially easy or hard to read?"
+   },
+   {
+    "word": "professional",
+    "def": "trained and skilled at a particular job, doing it to a high standard.",
+    "full": "trained and skilled at a particular job, doing it to a high standard. \"A professional driver checks mirrors constantly.\" \"She gave a professional, careful answer.\" Your turn: what makes someone act \"professionally\" at a task?"
+   }
+  ],
+  "questions": [
+   "Why does the passage say warehouse workers are trained not to \"glance quickly and guess\" at labels?",
+   "What did some warehouses design specifically to solve the b/d mix-up problem?"
+  ]
+ },
+ "check": {
+  "real": [
+   "big",
+   "dig",
+   "pat",
+   "bag",
+   "dog"
+  ],
+  "pseudo": [
+   "dax",
+   "qov",
+   "zeb",
+   "wuk",
+   "tio"
+  ],
+  "dictation": [
+   "pig"
+  ],
+  "bar": {
+   "pass": 10,
+   "of": 11,
+   "source": "lesson",
+   "raw": "≥10/11"
+  },
+  "firstAttemptOnly": true
+ },
+ "blocksFound": [
+  "blendList",
+  "heart",
+  "read",
+  "listen",
+  "check",
+  "trackB",
+  "tier2"
+ ],
+ "appSittings": null
+}

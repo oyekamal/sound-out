@@ -1,0 +1,78 @@
+{
+ "id": "L4.01",
+ "level": 4,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-4/lessons/L4.01-cars-in-the-yard.md",
+ "title": "Cars in the Yard (ar extended)",
+ "goal": "Review **ar** (/ar/ as in *car*, taught in Level 3.08) and extend it to",
+ "newToday": "nothing brand-new at the grapheme level — this lesson's job is fluency and range: single-syllable ar review → confident multisyllabic ar words, both closed-first- syllable (gar-den) and ar-first-syllable (tar-get) shapes.",
+ "review": "ar (Level 3.08); all Level 1–3 patterns (closed syllables, VCe, open syllables, vowel teams, blends, digraphs)",
+ "heartLine": "none new — review *are, water, once, only*",
+ "time": "25 min",
+ "blendList": {
+  "real": [
+   "car",
+   "far",
+   "jar",
+   "bar",
+   "star",
+   "scar",
+   "art",
+   "cart",
+   "part",
+   "smart",
+   "start",
+   "chart",
+   "market",
+   "garden",
+   "sart",
+   "darm",
+   "plarn",
+   "farl",
+   "starb",
+   "clart"
+  ],
+  "pseudo": []
+ },
+ "check": {
+  "real": [
+   "car",
+   "dark",
+   "spark",
+   "market"
+  ],
+  "pseudo": [
+   "starn",
+   "farb",
+   "sarb",
+   "tarl",
+   "gartel"
+  ],
+  "dictation": [
+   "park"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "read": {
+  "A": {
+   "text": "Sam and his dad live on a farm. At dark, they walk to the yard. Sam can see a big, bright star. \"That star is so very far,\" Dad said. Sam runs to get his cart. He puts a jar, a hard hat, and a sharp pencil in the cart. He wants to make a star chart. Dad helps Sam mark each star on the chart. \"You are a smart artist,\" Dad said. Sam grins. The farm is still, and the stars spark and shine in the dark yard.",
+   "title": null
+  },
+  "B": {
+   "text": "Mr. Khan drives his car to the market. He must park in the car park at the back. It is hard to find a spot — the car park is full. At last, Mr. Khan spots a gap by the yard. He parks his car, locks it, and walks to the market. He needs a jar of jam, a sharp pencil, and a tiny chart for his garden. On the way back, a spark of light catches his eye — the sun is starting to sink behind the dark market roofs. Mr. Khan is glad he did not start so late.",
+   "title": null
+  }
+ },
+ "blocksFound": [
+  "blendList",
+  "read",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

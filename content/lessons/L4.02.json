@@ -1,0 +1,78 @@
+{
+ "id": "L4.02",
+ "level": 4,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-4/lessons/L4.02-fork-in-the-road.md",
+ "title": "The Fork in the Road (or/ore extended + the war/wor quirk)",
+ "goal": "Review **or** and **ore** (/or/ as in *for* and *more*, taught in Level 3.09), extend to multisyllabic or/ore words, and meet today's genuinely new content: the **war/wor quirk** — when w sits right before or, the vowel sound shifts (*war* → /wor/, *work* → /wer/), even though the spelling still uses the familiar \"or.\"",
+ "newToday": "the war/wor quirk (warm, war, work, word, world)",
+ "review": "or, ore (Level 3.09); ar (Level 3.08); closed syllables, VCe, open syllables",
+ "heartLine": "none new — review *four, your, they*",
+ "time": "25 min",
+ "blendList": {
+  "real": [
+   "for",
+   "fork",
+   "corn",
+   "horn",
+   "torn",
+   "sport",
+   "short",
+   "storm",
+   "form",
+   "fort",
+   "before",
+   "story",
+   "morning",
+   "forget",
+   "corner",
+   "war",
+   "warm",
+   "wart",
+   "ward",
+   "warn"
+  ],
+  "pseudo": []
+ },
+ "check": {
+  "real": [
+   "fork",
+   "store",
+   "before",
+   "work"
+  ],
+  "pseudo": [
+   "dorl",
+   "plort",
+   "storf",
+   "forn",
+   "worz"
+  ],
+  "dictation": [
+   "more"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "read": {
+  "A": {
+   "text": "It is harvest time on the farm. Dad and Sam load the cart before the storm starts. Sam picks corn from the yard. His dog Storm (yes, that is her name!) runs to the barn. \"A storm is coming, Storm!\" Sam yells. The wind is strong, and rain starts to come down fast. Dad and Sam sort the corn and put it in the fort — a tiny shed by the barn. Storm the dog barks at the wind. Soon the storm is gone, and the sun shows itself again from the north. \"That was a short storm,\" Sam says. \"More corn for us to sort tomorrow.\"",
+   "title": null
+  },
+  "B": {
+   "text": "Amina drives north for work. Before she starts the car, she checks the horn and the fuel. The road has a fork — one way goes north, one goes to the port. Amina picks the north road. A storm starts, and rain comes down hard and hits the window. Amina slows the car and clicks on the lights. At last, she spots the store where she must stop for parts for the fort's old gate. She picks four parts, pays, and starts the drive back. \"That was a short but hard trip,\" she tells her boss. \"I will need more time for the next one.\"",
+   "title": null
+  }
+ },
+ "blocksFound": [
+  "blendList",
+  "read",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

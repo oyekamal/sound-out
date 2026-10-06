@@ -1,0 +1,28 @@
+{
+ "id": "L5.06",
+ "level": 5,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-5/lessons/L5.06-ly-er-or-water-cycle-deeper.md",
+ "title": "Suffixes -ly, -er/-or · The Water Cycle, Deeper (states of matter)",
+ "goal": "Read, spell, and use words with *-ly* and *-er/-or*; return to the water cycle topic from 5.01 with more depth (states of matter, evaporation, condensation); last phrase-cued session — the markup fades starting next session.",
+ "newToday": "suffix *-ly* (turns a word into an adverb — \"in this way\") and suffix *-er/-or* (turns a verb into \"a person/thing that does it,\" or makes an adjective mean \"more\"). Tier-2 words: *transform*, *invisible*.",
+ "review": "*sub-, pre-* — *submarine, predict*.",
+ "time": "30–45 min. **Materials:** paper, pencil, timer.",
+ "read": {
+  "questions": []
+ },
+ "check": {
+  "bar": {
+   "pass": 5,
+   "of": 8,
+   "source": "lesson",
+   "raw": "≥5/8"
+  },
+  "freeResponse": true
+ },
+ "blocksFound": [
+  "read",
+  "check"
+ ],
+ "appSittings": null
+}

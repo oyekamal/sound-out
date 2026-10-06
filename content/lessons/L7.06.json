@@ -1,0 +1,20 @@
+{
+ "id": "L7.06",
+ "level": 7,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-7/lessons/L7.06-argumentative-essay-structure.md",
+ "title": "Reading an Argumentative Essay: Claim, Reasons, Evidence, Counterargument",
+ "goal": "Map an op-ed into its working parts — the claim, the reasons given, the evidence behind each reason, and whether it engages a real counterargument or dodges one.",
+ "time": "40 min · **Materials:** notebook, highlighter or two pens (optional).",
+ "read": {
+  "questions": [
+   "State the essay's claim in one sentence.",
+   "List the two main reasons given. For each, name the specific evidence offered.",
+   "What counterargument does the essay name, and does it actually answer it, or just acknowledge it and move on? Quote the sentence that does the actual answering."
+  ]
+ },
+ "blocksFound": [
+  "read"
+ ],
+ "appSittings": null
+}

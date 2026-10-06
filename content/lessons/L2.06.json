@@ -1,0 +1,93 @@
+{
+ "id": "L2.06",
+ "level": 2,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-2/lessons/L2.06-initial-blends.md",
+ "title": "Initial blends (st sp sn sm sl sw sk sc bl cl fl gl pl br cr dr fr gr pr tr tw)",
+ "goal": "Read and spell words that start with a two-consonant blend, keeping both consonant sounds distinct (unlike a digraph, both letters keep their own sound).",
+ "newToday": "initial blends `st sp sn sm sl sw sk sc` (s-blends) and `bl cl fl gl pl br cr dr fr gr pr tr tw` (l-blends and r-blends)",
+ "review": "`sh, ch, tch, th, wh, ng, nk`; Level 1 letters",
+ "heartLine": "put, push",
+ "time": "25–30 min (first fluency-routine lesson — allow extra time)",
+ "blendList": {
+  "real": [
+   "stop",
+   "spin",
+   "snap",
+   "smell",
+   "slip",
+   "swim",
+   "skin",
+   "scan",
+   "black",
+   "clap",
+   "flag",
+   "stad",
+   "blen",
+   "drin",
+   "spuff",
+   "glim"
+  ],
+  "pseudo": []
+ },
+ "heart": [
+  {
+   "word": "put",
+   "note": "heart part: the `u` says a short-oo sound (like \"push,\" not like \"cut\"); mark only the `u` as heart, `p` and `t` are fully regular."
+  },
+  {
+   "word": "push",
+   "note": "same `u` heart pattern as \"put\" — point out they rhyme in that one vowel sound; `p`, `sh` are fully regular (and `sh` review from L2.01)."
+  }
+ ],
+ "read": {
+  "A": {
+   "text": "Min and Dad go to the pond. / \"Can we swim?\" / Min asks. / \"Push the flip flops on fast,\" / Dad says. / A frog sits on a black rock. / Min wants to grab it, / but the frog can hop and skip fast! / \"Let's clap and stomp,\" / Min says, / \"then we can swim.\" / Dad and Min swim, / and Min wants to put the flip flops on the rock.",
+   "title": null
+  },
+  "B": {
+   "text": "Sam must push to get the shop's stock done. / He picks up a black pen / and jots the stock on a pad. / A big box hits the step, / and Sam has to dash and shut it fast. / \"I still must push to get this done,\" / Sam says, / \"but a big box will not stop me.\" / Sam sits, / and gets the job done. / Sam wants to put the pen back on the desk.",
+   "title": null
+  }
+ },
+ "listen": {
+  "title": null,
+  "passage": "Before crossing the busy market road, Aunt Rukhsana was always very **cautious**. She would stop at the edge, look left, then right, then left again, even if the road looked completely empty. Her nephew used to tease her about being so cautious, saying it took forever just to cross one small street. One evening, though, a bicycle came speeding around the corner at exactly the moment they stepped off the curb — and because Aunt Rukhsana had been cautious and was watching closely, she pulled her nephew back just in time. After that, her nephew never teased her again. \"Better cautious than sorry,\" she always says, and now he says it too.",
+  "tier2": [],
+  "questions": []
+ },
+ "check": {
+  "real": [
+   "stop",
+   "plan",
+   "drum",
+   "skin",
+   "frog"
+  ],
+  "pseudo": [
+   "stad",
+   "blen",
+   "drin",
+   "spuff",
+   "glim"
+  ],
+  "dictation": [
+   "snap"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "blocksFound": [
+  "blendList",
+  "heart",
+  "read",
+  "listen",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

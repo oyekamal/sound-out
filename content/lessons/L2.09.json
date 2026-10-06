@@ -1,0 +1,90 @@
+{
+ "id": "L2.09",
+ "level": 2,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-2/lessons/L2.09-s-es.md",
+ "title": "Adding -s and -es (plural and 3rd-person endings)",
+ "goal": "Read and spell words with the `-s` and `-es` endings, and know the rule for which one a word needs.",
+ "newToday": "the `-es` spelling rule (after `s, x, z, ch, sh`, add `-es` instead of plain `-s`, because you cannot say two hissing/buzzing sounds in a row without a vowel between them)",
+ "review": "all blends and digraphs so far; the plain `-s` ending (already taught in Level 1)",
+ "heartLine": "would, should",
+ "time": "20–25 min",
+ "blendList": {
+  "real": [
+   "wishes",
+   "dishes",
+   "boxes",
+   "buses",
+   "brushes",
+   "catches",
+   "fixes",
+   "crashes",
+   "florbes",
+   "vozzes",
+   "crings",
+   "shalps",
+   "twenns"
+  ],
+  "pseudo": []
+ },
+ "heart": [
+  {
+   "word": "would",
+   "note": "heart part: irregular vowel spelling and a silent `l`; only the final `d` is fully regular. Point out \"would\" rhymes with \"could\" (L2.08) and \"should.\""
+  },
+  {
+   "word": "should",
+   "note": "same heart pattern as \"would\"/\"could.\" Three rhyming heart words (could, would, should) taught across three lessons — point this out explicitly; one memory pattern covers all three."
+  }
+ ],
+ "read": {
+  "A": {
+   "text": "Min washes the dishes and stacks the boxes. / \"Would you help with the mugs?\" / Mom asks. / \"I would,\" / Min says, / and picks up the mugs. / \"Should I stack them fast?\" / Min asks. / \"You should stack them fast,\" / Mom says. / Min washes, / stacks, / and fixes the mugs / until the job is done.",
+   "title": null
+  },
+  "B": {
+   "text": "Sam fixes the vans and checks the boxes. / \"Would you help me?\" / his boss asks. / \"I would,\" / Sam says, / and picks up the boxes. / \"Should we stack them fast?\" / Sam asks. / \"You should stack them fast,\" / his boss says. / Sam checks, / stacks, / and fixes the vans / until the job is done.",
+   "title": null
+  }
+ },
+ "listen": {
+  "title": null,
+  "passage": "When the class hamster went missing from its cage on a Friday afternoon, every student was **delighted** to hear it had been found safe behind the bookshelf on Monday morning. The teacher was delighted too, and let the whole class take turns holding it gently, one by one. One boy, who had been especially worried all weekend, was so delighted that he asked if he could bring the hamster home just for one night, to make sure it was really okay. His teacher smiled at how delighted — and relieved — he looked, and said yes, as long as his parents agreed. That evening, the whole family took turns being delighted by the tiny hamster running on its wheel.",
+  "tier2": [],
+  "questions": []
+ },
+ "check": {
+  "real": [
+   "wishes",
+   "boxes",
+   "buses",
+   "cats",
+   "jumps"
+  ],
+  "pseudo": [
+   "florbes",
+   "vozzes",
+   "crings",
+   "shalps",
+   "twenns"
+  ],
+  "dictation": [
+   "catches"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "blocksFound": [
+  "blendList",
+  "heart",
+  "read",
+  "listen",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

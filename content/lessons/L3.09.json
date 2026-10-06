@@ -1,0 +1,85 @@
+{
+ "id": "L3.09",
+ "level": 3,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-3/lessons/L3.09-or-ore.md",
+ "title": "or, ore",
+ "goal": "Read and spell words with r-controlled **or** (for, corn, short) and **ore** (more, store, before).",
+ "newToday": "or, ore",
+ "review": "ar",
+ "heartLine": "none new — all 16 Level 3 heart words were completed at L3.08; today is decoding-only.",
+ "time": "25–30 min",
+ "blendList": {
+  "real": [
+   "for",
+   "corn",
+   "fork",
+   "horse",
+   "storm",
+   "short",
+   "sport",
+   "north",
+   "born",
+   "torn",
+   "more",
+   "store",
+   "before",
+   "wore",
+   "tore",
+   "core",
+   "snore",
+   "score",
+   "shore",
+   "chore"
+  ],
+  "pseudo": [
+   "florp",
+   "storn",
+   "blore",
+   "trork",
+   "snorm"
+  ]
+ },
+ "check": {
+  "real": [
+   "for",
+   "store",
+   "short",
+   "horse",
+   "corn"
+  ],
+  "pseudo": [
+   "florp",
+   "storn",
+   "blore",
+   "trork",
+   "snorm"
+  ],
+  "dictation": [
+   "I got corn at the store"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "read": {
+  "A": {
+   "text": "At the farm, Sam spots a horse. / The horse has a short, dark mane. / \"Can I ride the horse?\" asked Sam. / \"Yes, hold on well,\" said his mom. / Sam gets on, and the horse trots because he holds on well. / Sam has a fun, short ride. / Once he is done, Sam pets the horse and says, \"Thank you.\" / Sam has a whole, fine time at the farm.",
+   "title": null
+  },
+  "B": {
+   "text": "Kate has a list, so she goes to the store. / She gets corn, milk, and a snack from a stand. / Before she is done, she checks her list. / \"I got what I came for,\" said Kate. / She goes to the front and gets a short line. / She is glad she made a trip to the store, because she got what she came for.",
+   "title": null
+  }
+ },
+ "blocksFound": [
+  "blendList",
+  "read",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

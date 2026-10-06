@@ -1,0 +1,313 @@
+{
+ "id": "L1.07",
+ "level": 1,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-1/lessons/L1.07-e-u.md",
+ "title": "e u",
+ "goal": "Read and spell e, u; open up a large new set of CVC words (cut, ten, sun, den…).",
+ "newToday": "letters e, u (sounds /ɛ/ — short e, /ʌ/ — short u) — **one new sound per sitting**.",
+ "review": "c, k, ck; words cat, sick, sock.",
+ "heartLine": "are, he (taught in the final combined sitting).",
+ "time": "three sittings — A (~15 min), B (~15 min), C (~25–30 min).",
+ "read": {
+  "A": {
+   "text": "Sam got a cup. He got a nut. He sat. The nut is in the cup. Is the nut in the cup? The nut is in the cup.",
+   "title": null
+  },
+  "B": {
+   "text": "Dan got a cup. He got a mug. He sat at ten. The sun is up. Is Dan at the dock? Dan is not at the dock. Dan sat and sat.",
+   "title": null
+  },
+  "questions": [
+   "What two things did the main character get, one after the other?",
+   "Where did the story say the character was, or wasn't?",
+   "Think: why might someone take a short break at exactly the same time every day?"
+  ]
+ },
+ "listen": {
+  "title": "The Ten O'Clock Rule",
+  "passage": "On busy construction sites, supervisors learned something surprising: workers who took one proper ten-minute break mid-morning, every single day at the same time, made fewer mistakes in the afternoon than workers who pushed through without stopping. It seemed backwards at first — how could stopping work make people more productive? But the body and brain both need small pauses to reset concentration, especially doing careful, repetitive tasks in the heat. Now some companies build the \"ten o'clock rule\" right into the schedule: everyone stops together, drinks water, and stretches — no exceptions, not even for the boss.",
+  "tier2": [
+   {
+    "word": "productive",
+    "def": "getting a lot of useful work done, not just being busy.",
+    "full": "getting a lot of useful work done, not just being busy. \"She had a productive morning and finished three tasks.\" \"Short breaks can actually make you more productive.\" Your turn: what makes your day feel productive?"
+   },
+   {
+    "word": "concentration",
+    "def": "the ability to focus your attention on one thing without being distracted.",
+    "full": "the ability to focus your attention on one thing without being distracted. \"Loud noise breaks my concentration.\" \"He read for an hour with total concentration.\" Your turn: what helps you concentrate?"
+   }
+  ],
+  "questions": [
+   "What did supervisors notice about workers who took a proper break?",
+   "Why do you think the passage says \"no exceptions, not even for the boss\"?"
+  ]
+ },
+ "check": {
+  "real": [
+   "cut",
+   "ten",
+   "sun",
+   "mug",
+   "net"
+  ],
+  "pseudo": [
+   "gup",
+   "kec",
+   "nud",
+   "pem",
+   "dut"
+  ],
+  "dictation": [
+   "cup"
+  ],
+  "bar": {
+   "pass": 10,
+   "of": 11,
+   "source": "lesson",
+   "raw": "≥10/11"
+  },
+  "firstAttemptOnly": true
+ },
+ "sittings": [
+  {
+   "id": "A",
+   "title": "e (~15 min)",
+   "new": [
+    "e"
+   ],
+   "warm": {
+    "text": "flash c, k, ck. Read 3 review words: cat, kid, sock.",
+    "words": [
+     "cat",
+     "kid",
+     "sock"
+    ]
+   },
+   "hear": {
+    "text": "/ɛ/ (short e) — mouth slightly open, tongue mid-height, like the start of \"egg\" or \"get.\""
+   },
+   "meet": {
+    "text": "\"This says /ɛ/\" (e). **Mouth cue:** /ɛ/ and the /i/ from L1.03 are close neighbors in the mouth — say \"pit\" then \"pet\" back to back and notice the jaw drops slightly more for /ɛ/.",
+    "mouthCue": "/ɛ/ and the /i/ from L1.03 are close neighbors in the mouth — say \"pit\" then \"pet\" back to back and notice the jaw drops slightly more for /ɛ/."
+   }
+  },
+  {
+   "id": "B",
+   "title": "u (~15 min)",
+   "new": [
+    "u"
+   ],
+   "warm": {
+    "text": "flash e. Read 3 review words: get, ten, pet.",
+    "words": [
+     "get",
+     "ten",
+     "pet"
+    ]
+   },
+   "hear": {
+    "text": "/ʌ/ (short u) — mouth relaxed and slightly open, a quick, flat \"uh,\" like the start of \"up\" or \"cut.\""
+   },
+   "meet": {
+    "text": "\"This says /ʌ/\" (u). **Mouth cue:** /ʌ/ and the /o/ from L1.05 are also close neighbors — say \"cot\" then \"cut\" back to back.",
+    "mouthCue": "/ʌ/ and the /o/ from L1.05 are also close neighbors — say \"cot\" then \"cut\" back to back."
+   }
+  },
+  {
+   "id": "C",
+   "title": "e, u together: heart words, Read it, Check (~25–30 min)",
+   "new": [],
+   "warm": {
+    "text": "flash e, u; blend 5 mixed words spanning both: get, cut, ten, sun, pet.",
+    "words": [
+     "get",
+     "cut",
+     "ten",
+     "sun",
+     "pet"
+    ]
+   },
+   "blend": {
+    "real": [
+     "cut",
+     "cup",
+     "tug",
+     "dug",
+     "mug",
+     "gum",
+     "gut",
+     "nut",
+     "net",
+     "ten",
+     "men",
+     "pen",
+     "den",
+     "sun",
+     "ton"
+    ],
+    "pseudo": [
+     "gup",
+     "kec",
+     "nud",
+     "pem",
+     "dut"
+    ]
+   },
+   "spell": {
+    "text": "1. Segment and write: \"ten,\" \"cup.\" 2. Sentence dictation: **\"He got a nut.\"** (He: heart word; got: /g/ /o/ /t/; a: heart word;    nut: /n/ /u/ /t/.)",
+    "words": [
+     "ten",
+     "cup"
+    ],
+    "sentence": "He got a nut."
+   },
+   "heart": [
+    {
+     "word": "are",
+     "note": "none of its parts behave as taught: r hasn't been formally taught yet (that's **L1.08**, tomorrow), and even once it is, \"are\" doesn't sound like \"a-r-e\" blended the usual way — it says /ɑːr/. **Mark the whole word as heart for now**; note that r's formal lesson is next."
+    },
+    {
+     "word": "he",
+     "note": "h hasn't been formally taught yet either (also L1.08, tomorrow) — but once it is, \"he\" will become **fully decodable**: h + e, both regular sounds. **Heart part today: just the untaught letter h** — say explicitly, \"tomorrow this word graduates off the heart-word list in every way that matters.\""
+    }
+   ]
+  }
+ ],
+ "heart": [
+  {
+   "word": "are",
+   "note": "none of its parts behave as taught: r hasn't been formally taught yet (that's **L1.08**, tomorrow), and even once it is, \"are\" doesn't sound like \"a-r-e\" blended the usual way — it says /ɑːr/. **Mark the whole word as heart for now**; note that r's formal lesson is next."
+  },
+  {
+   "word": "he",
+   "note": "h hasn't been formally taught yet either (also L1.08, tomorrow) — but once it is, \"he\" will become **fully decodable**: h + e, both regular sounds. **Heart part today: just the untaught letter h** — say explicitly, \"tomorrow this word graduates off the heart-word list in every way that matters.\""
+  }
+ ],
+ "blendList": {
+  "real": [
+   "cut",
+   "cup",
+   "tug",
+   "dug",
+   "mug",
+   "gum",
+   "gut",
+   "nut",
+   "net",
+   "ten",
+   "men",
+   "pen",
+   "den",
+   "sun",
+   "ton"
+  ],
+  "pseudo": [
+   "gup",
+   "kec",
+   "nud",
+   "pem",
+   "dut"
+  ]
+ },
+ "blocksFound": [
+  "sittings",
+  "blendList",
+  "heart",
+  "read",
+  "listen",
+  "check",
+  "trackB",
+  "tier2"
+ ],
+ "appSittings": {
+  "A": [
+   {
+    "id": "A",
+    "new": [
+     "e"
+    ],
+    "steps": [
+     "hear",
+     "meet",
+     "trace"
+    ],
+    "mini": true
+   },
+   {
+    "id": "B",
+    "new": [
+     "u"
+    ],
+    "steps": [
+     "warm",
+     "hear",
+     "meet",
+     "trace"
+    ],
+    "mini": true
+   },
+   {
+    "id": "C",
+    "new": [],
+    "steps": [
+     "warm",
+     "blend",
+     "tricky",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "R",
+    "steps": [
+     "read"
+    ]
+   },
+   {
+    "id": "L",
+    "steps": [
+     "listen"
+    ]
+   },
+   {
+    "id": "X",
+    "steps": [
+     "check"
+    ]
+   }
+  ],
+  "B": [
+   {
+    "id": "AB",
+    "new": [
+     "e",
+     "u"
+    ],
+    "steps": [
+     "hear",
+     "meet",
+     "blend",
+     "spell"
+    ],
+    "keepGoing": true
+   },
+   {
+    "id": "D",
+    "steps": [
+     "warm",
+     "tricky",
+     "read",
+     "listen"
+    ]
+   },
+   {
+    "id": "X",
+    "steps": [
+     "check"
+    ]
+   }
+  ]
+ }
+}

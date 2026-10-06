@@ -1,0 +1,92 @@
+{
+ "id": "L3.11",
+ "level": 3,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-3/lessons/L3.11-ee-ea.md",
+ "title": "ee, ea",
+ "goal": "Read and spell the long-e vowel team spelled **ee** and **ea**.",
+ "newToday": "ee, ea (/ē/)",
+ "review": "ai, ay, open-syllable long e (he, we, me)",
+ "heartLine": "laugh (review: water, people, once)",
+ "time": "25–30 min",
+ "blendList": {
+  "real": [
+   "see",
+   "tree",
+   "need",
+   "feet",
+   "green",
+   "sleep",
+   "sweet",
+   "three",
+   "queen",
+   "street",
+   "eat",
+   "team",
+   "read",
+   "leaf",
+   "seat",
+   "meat",
+   "clean",
+   "speak",
+   "dream",
+   "beach"
+  ],
+  "pseudo": [
+   "freet",
+   "blean",
+   "sneed",
+   "chead",
+   "plee"
+  ]
+ },
+ "check": {
+  "real": [
+   "see",
+   "team",
+   "sleep",
+   "eat",
+   "green"
+  ],
+  "pseudo": [
+   "freet",
+   "blean",
+   "sneed",
+   "chead",
+   "plee"
+  ],
+  "dictation": [
+   "I see a green tree"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "heart": [
+  {
+   "word": "laugh",
+   "note": null
+  }
+ ],
+ "read": {
+  "A": {
+   "text": "Sam and his team go to the beach. / When they see a green kite, they find a sweet, clean spot to sit. / \"Let's eat lunch by the sea,\" said Sam. / They read a page and laugh at a funny bit. / A queen bee comes to see the sweet leaf, then goes home. / Sam and his team feel very happy after a fine day.",
+   "title": null
+  },
+  "B": {
+   "text": "Each week, Kate and her team clean the street by the shop. / When they meet at nine, each one has a task. / Kate likes to see the street stay neat when they are done. / \"We laugh a lot, but we get the job done,\" said Kate. / At the end, the team sits and has a sweet snack, glad for a job well done.",
+   "title": null
+  }
+ },
+ "blocksFound": [
+  "blendList",
+  "heart",
+  "read",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

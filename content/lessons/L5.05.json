@@ -1,0 +1,28 @@
+{
+ "id": "L5.05",
+ "level": 5,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-5/lessons/L5.05-sub-pre-weather-vs-climate.md",
+ "title": "Prefixes sub-, pre- · Weather vs. Climate",
+ "goal": "Read, spell, and use words with *sub-* and *pre-*; continue the fluency program (phrase-cued for the second-to-last time this level).",
+ "newToday": "*sub-* (\"under\" / \"below\") and *pre-* (\"before\"). Tier-2 words: *predict*, *typical*.",
+ "review": "*over-, mis-* — *overflow, misplace*.",
+ "time": "30–45 min. **Materials:** paper, pencil, timer.",
+ "read": {
+  "questions": []
+ },
+ "check": {
+  "bar": {
+   "pass": 5,
+   "of": 8,
+   "source": "lesson",
+   "raw": "≥5/8"
+  },
+  "freeResponse": true
+ },
+ "blocksFound": [
+  "read",
+  "check"
+ ],
+ "appSittings": null
+}

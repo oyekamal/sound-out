@@ -1,0 +1,20 @@
+{
+ "id": "L7.12",
+ "level": 7,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-7/lessons/L7.12-literary-figurative-tone-irony.md",
+ "title": "Literary Reading I: Figurative Language, Tone, and Irony",
+ "goal": "Read a short story for what it means beyond its literal events — figurative language, the writer's tone, and irony (when what happens is the opposite of what's expected, or what a character believes is the opposite of what's true).",
+ "time": "40 min · **Materials:** notebook.",
+ "read": {
+  "questions": [
+   "Find one metaphor or simile in the story and explain what it suggests that a plain literal sentence wouldn't (\"her heart performing something between a drumroll and a funeral march\" — or choose your own).",
+   "What is the story's tone toward Mrs. Aldana? Toward Renata? Are they the same, and what specific word choices tell you?",
+   "State the situational irony at the story's center: what did the spare key's use turn out to be for, versus what eleven years of keeping it had prepared Mrs. Aldana to expect?"
+  ]
+ },
+ "blocksFound": [
+  "read"
+ ],
+ "appSittings": null
+}

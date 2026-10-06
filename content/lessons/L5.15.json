@@ -1,0 +1,28 @@
+{
+ "id": "L5.15",
+ "level": 5,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-5/lessons/L5.15-ity-ist-roots-silk-road.md",
+ "title": "Suffixes -ity, -ist · Roots cred, duc/duct, ver, corp, gen, log/logy, phon, therm · Trade Routes: The Silk Road",
+ "goal": "Read, spell, and use words with *-ity* and *-ist*; learn the remaining eight commonly-useful roots (completing all 20); run a big heart-word review sweep (Fry 201–250); connect the trade theme back to the Indus Valley spiral (5.04, 5.09).",
+ "newToday": "suffix *-ity* (\"state/quality of\") and *-ist* (\"a person who does/ believes in\"); roots *cred* (believe), *duc/duct* (lead), *ver* (truth), *corp* (body), *gen* (birth/produce), *log/logy* (study/word), *phon* (sound), *therm* (heat). Tier-2 words: *route*, *exotic*.",
+ "review": "*aud, graph/gram, ject, mit/mis* — one example word each.",
+ "time": "30–45 min — the densest session in the level; it's fine to split the root table across two sittings if needed, reviewing the rest next session's warm-up instead of rushing. **Materials:** paper, pencil, timer.",
+ "read": {
+  "questions": []
+ },
+ "check": {
+  "bar": {
+   "pass": 6,
+   "of": 9,
+   "source": "lesson",
+   "raw": "≥6/9"
+  },
+  "freeResponse": true
+ },
+ "blocksFound": [
+  "read",
+  "check"
+ ],
+ "appSittings": null
+}

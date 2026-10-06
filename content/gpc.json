@@ -1,0 +1,276 @@
+{
+ "order": [
+  {
+   "g": "s",
+   "p": "s",
+   "ipa": "s",
+   "lesson": "L1.02",
+   "name": "ˈɛs"
+  },
+  {
+   "g": "a",
+   "p": "a",
+   "ipa": "æ",
+   "lesson": "L1.02",
+   "name": "ˈeɪ"
+  },
+  {
+   "g": "t",
+   "p": "t",
+   "ipa": "t",
+   "lesson": "L1.02",
+   "name": "tˈi"
+  },
+  {
+   "g": "p",
+   "p": "p",
+   "ipa": "p",
+   "lesson": "L1.03",
+   "name": "pˈi"
+  },
+  {
+   "g": "i",
+   "p": "i",
+   "ipa": "ɪ",
+   "lesson": "L1.03",
+   "name": "ˈaɪ"
+  },
+  {
+   "g": "n",
+   "p": "n",
+   "ipa": "n",
+   "lesson": "L1.03",
+   "name": "ˈɛn"
+  },
+  {
+   "g": "m",
+   "p": "m",
+   "ipa": "m",
+   "lesson": "L1.04",
+   "name": "ˈɛm"
+  },
+  {
+   "g": "d",
+   "p": "d",
+   "ipa": "d",
+   "lesson": "L1.04",
+   "name": "dˈi"
+  },
+  {
+   "g": "g",
+   "p": "g",
+   "ipa": "ɡ",
+   "lesson": "L1.05",
+   "name": "ʤˈi"
+  },
+  {
+   "g": "o",
+   "p": "o",
+   "ipa": "ɑ",
+   "lesson": "L1.05",
+   "name": "ˈoʊ"
+  },
+  {
+   "g": "c",
+   "p": "k",
+   "ipa": "k",
+   "lesson": "L1.06",
+   "name": "sˈi"
+  },
+  {
+   "g": "k",
+   "p": "k",
+   "ipa": "k",
+   "lesson": "L1.06",
+   "name": "kˈeɪ"
+  },
+  {
+   "g": "ck",
+   "p": "k",
+   "ipa": "k",
+   "lesson": "L1.06",
+   "name": null
+  },
+  {
+   "g": "e",
+   "p": "e",
+   "ipa": "ɛ",
+   "lesson": "L1.07",
+   "name": "ˈi"
+  },
+  {
+   "g": "u",
+   "p": "u",
+   "ipa": "ʌ",
+   "lesson": "L1.07",
+   "name": "jˈu"
+  },
+  {
+   "g": "r",
+   "p": "r",
+   "ipa": "ɹ",
+   "lesson": "L1.08",
+   "name": "ˈɑɹ"
+  },
+  {
+   "g": "h",
+   "p": "h",
+   "ipa": "h",
+   "lesson": "L1.08",
+   "name": "ˈeɪʧ"
+  },
+  {
+   "g": "b",
+   "p": "b",
+   "ipa": "b",
+   "lesson": "L1.09",
+   "name": "bˈi"
+  },
+  {
+   "g": "f",
+   "p": "f",
+   "ipa": "f",
+   "lesson": "L1.09",
+   "name": "ˈɛf"
+  },
+  {
+   "g": "l",
+   "p": "l",
+   "ipa": "l",
+   "lesson": "L1.09",
+   "name": "ˈɛl"
+  },
+  {
+   "g": "ff",
+   "p": "f",
+   "ipa": "f",
+   "lesson": "L1.10",
+   "name": null
+  },
+  {
+   "g": "ll",
+   "p": "l",
+   "ipa": "l",
+   "lesson": "L1.10",
+   "name": null
+  },
+  {
+   "g": "ss",
+   "p": "s",
+   "ipa": "s",
+   "lesson": "L1.10",
+   "name": null
+  },
+  {
+   "g": "zz",
+   "p": "z",
+   "ipa": "z",
+   "lesson": "L1.10",
+   "name": null
+  },
+  {
+   "g": "j",
+   "p": "j",
+   "ipa": "ʤ",
+   "lesson": "L1.11",
+   "name": "ʤˈeɪ"
+  },
+  {
+   "g": "v",
+   "p": "v",
+   "ipa": "v",
+   "lesson": "L1.11",
+   "name": "vˈi"
+  },
+  {
+   "g": "w",
+   "p": "w",
+   "ipa": "w",
+   "lesson": "L1.11",
+   "name": "dˈʌbəlju"
+  },
+  {
+   "g": "x",
+   "p": "ks",
+   "ipa": "ks",
+   "lesson": "L1.12",
+   "name": "ˈɛks"
+  },
+  {
+   "g": "y",
+   "p": "y",
+   "ipa": "j",
+   "lesson": "L1.12",
+   "name": "wˈaɪ"
+  },
+  {
+   "g": "z",
+   "p": "z",
+   "ipa": "z",
+   "lesson": "L1.12",
+   "name": "zˈi"
+  },
+  {
+   "g": "qu",
+   "p": "kw",
+   "ipa": "kw",
+   "lesson": "L1.12",
+   "name": null
+  }
+ ],
+ "phonemes": {
+  "s": "s",
+  "a": "æ",
+  "t": "t",
+  "p": "p",
+  "i": "ɪ",
+  "n": "n",
+  "m": "m",
+  "d": "d",
+  "g": "ɡ",
+  "o": "ɑ",
+  "k": "k",
+  "e": "ɛ",
+  "u": "ʌ",
+  "r": "ɹ",
+  "h": "h",
+  "b": "b",
+  "f": "f",
+  "l": "l",
+  "j": "ʤ",
+  "v": "v",
+  "w": "w",
+  "ks": "ks",
+  "y": "j",
+  "z": "z",
+  "kw": "kw"
+ },
+ "letterNames": {
+  "a": "ˈeɪ",
+  "b": "bˈi",
+  "c": "sˈi",
+  "d": "dˈi",
+  "e": "ˈi",
+  "f": "ˈɛf",
+  "g": "ʤˈi",
+  "h": "ˈeɪʧ",
+  "i": "ˈaɪ",
+  "j": "ʤˈeɪ",
+  "k": "kˈeɪ",
+  "l": "ˈɛl",
+  "m": "ˈɛm",
+  "n": "ˈɛn",
+  "o": "ˈoʊ",
+  "p": "pˈi",
+  "q": "kjˈu",
+  "r": "ˈɑɹ",
+  "s": "ˈɛs",
+  "t": "tˈi",
+  "u": "jˈu",
+  "v": "vˈi",
+  "w": "dˈʌbəlju",
+  "x": "ˈɛks",
+  "y": "wˈaɪ",
+  "z": "zˈi"
+ }
+}

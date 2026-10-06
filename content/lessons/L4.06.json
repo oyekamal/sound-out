@@ -1,0 +1,79 @@
+{
+ "id": "L4.06",
+ "level": 4,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-4/lessons/L4.06-loud-clouds-slow-cows.md",
+ "title": "Loud Clouds, Slow Cows",
+ "goal": "Read and spell words with the diphthong **ou** and **ow** (/ow/ as in *out* and *cow* — a different sound from the /ō/ ow the learner already knows from *snow*).",
+ "newToday": "ou, ow (/ow/)",
+ "review": "oi, oy, ar, or, ore, er, ir, ur, air, are, ear, eer, war, wor",
+ "heartLine": "none new — review *because, would*",
+ "time": "25 min",
+ "blendList": {
+  "real": [
+   "out",
+   "house",
+   "mouse",
+   "mouth",
+   "loud",
+   "cloud",
+   "round",
+   "found",
+   "sound",
+   "ground",
+   "count",
+   "south",
+   "shout",
+   "cow",
+   "how",
+   "now",
+   "down",
+   "town",
+   "brown",
+   "crown"
+  ],
+  "pseudo": []
+ },
+ "check": {
+  "real": [
+   "loud",
+   "town",
+   "house",
+   "cow",
+   "sound"
+  ],
+  "pseudo": [
+   "glout",
+   "throun",
+   "scrow",
+   "dround",
+   "plout"
+  ],
+  "dictation": [
+   "cloud"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "read": {
+  "A": {
+   "text": "It was a bright, loud day at the county fair. Bilal and his mom walked past a brown cow, a tiny mouse in a cage, and a fluffy owl blinking in the sun. Then a clown in a big gown and a bright crown came by, honking a horn. \"That is so loud!\" Bilal said, covering his mouth. The clown made a crowd of kids laugh out loud. A dog started to howl at the clown's honking horn, and an owl in a nearby cage let out a soft growl-like hoot. Bilal counted five clowns before he and his mom found their way to the food stand for a snack.",
+   "title": null
+  },
+  "B": {
+   "text": "It is a hot day, and Naveed is at work downtown when the power goes out. The whole office is dark, and a loud, low sound comes from the backup generator switching on. \"How long will this last?\" a coworker asks. Naveed checks his device — no signal, either. He walks down to the ground floor, where a tiny crowd has formed near the front doors. Someone found a radio and is counting down the minutes until the power comes back. After about an hour, the lights come back on, and a round of quiet cheers moves across the crowd. \"I am proud we stayed so calm,\" Naveed's boss says as everyone heads back to their desks.",
+   "title": null
+  }
+ },
+ "blocksFound": [
+  "blendList",
+  "read",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

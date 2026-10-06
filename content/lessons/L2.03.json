@@ -1,0 +1,86 @@
+{
+ "id": "L2.03",
+ "level": 2,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-2/lessons/L2.03-th.md",
+ "title": "th (voiced and unvoiced)",
+ "goal": "Read and spell words with `th`, in both its sounds: unvoiced /θ/ (think, bath) and voiced /ð/ (this, then).",
+ "newToday": "`th` — one spelling, two sounds",
+ "review": "`sh`, `ch`, `tch`; Level 1 letters",
+ "heartLine": "were, from",
+ "time": "25–30 min (this lesson carries the most important Urdu-speaker content in the level — don't rush it)",
+ "blendList": {
+  "real": [
+   "think",
+   "thin",
+   "thud",
+   "thick",
+   "thab",
+   "mith",
+   "thosh",
+   "vith",
+   "thon"
+  ],
+  "pseudo": []
+ },
+ "heart": [
+  {
+   "word": "were",
+   "note": "heart part: the whole word is irregular (sounds like \"her\" without the r-sound the spelling suggests); mark the entire word as heart for now, note it often follows \"we/you/they\" (we were, they were)."
+  },
+  {
+   "word": "from",
+   "note": "heart part: irregular for now (the `o` says an unexpected short-u-like sound, and it sits right after `fr`, a blend not formally taught until L2.06); mark the whole word as heart, note it pairs naturally with \"to\" (a Level 1 heart word) — \"from here to there.\""
+  }
+ ],
+ "read": {
+  "A": {
+   "text": "Min and Dad were at the bath. \"Where were you?\" Mom asks. \"I ran from the path to fetch this,\" Dad says. Min sits in the bath with a thin moth. \"Can a moth swim in a bath?\" Min asks. \"Not this moth,\" Dad says, \"but you can!\"",
+   "title": null
+  },
+  "B": {
+   "text": "Sam and his boss were at the shop. \"Where were you?\" his boss asks. \"I ran from the bus stop to fetch this,\" Sam says. Sam sits and acts fast. \"I can fix this fast,\" Sam says. His boss sits, then says, \"I will check on this and fix it fast.\"",
+   "title": null
+  }
+ },
+ "listen": {
+  "title": null,
+  "passage": "Grandpa was usually calm, but one afternoon he got absolutely **furious**. His favorite garden tools had gone missing from the shed, and he was sure someone had taken them without asking. He searched the whole yard, muttering to himself, getting more and more furious with every empty corner. Then his granddaughter walked out holding the tools. \"I borrowed them to fix my bike, Grandpa — I forgot to tell you!\" she said. Grandpa's furious face softened into a small smile. \"Next time,\" he said, \"just tell me first, and I won't have to get furious over nothing.\"",
+  "tier2": [],
+  "questions": []
+ },
+ "check": {
+  "real": [
+   "think",
+   "this",
+   "bath",
+   "that",
+   "moth"
+  ],
+  "pseudo": [
+   "thab",
+   "mith",
+   "vith",
+   "thon",
+   "thosh"
+  ],
+  "dictation": [
+   "path"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "blocksFound": [
+  "blendList",
+  "heart",
+  "read",
+  "listen",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

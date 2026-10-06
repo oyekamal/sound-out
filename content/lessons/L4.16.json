@@ -1,0 +1,26 @@
+{
+ "id": "L4.16",
+ "level": 4,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-4/lessons/L4.16-level-4-mastery-check.md",
+ "title": "Level 4 Mastery Check",
+ "goal": "Confirm the learner has mastered every Level 4 pattern and the word-attack routine well enough to move to Level 5 (Word Power & Fluency), which shifts from controlled decodable text to wide reading.",
+ "newToday": "nothing new — this is a consolidation + testing lesson",
+ "review": "every pattern taught in 4.1–4.15",
+ "heartLine": "full cumulative review (Levels 1–4)",
+ "time": "35–40 min (may be split across two sittings)",
+ "heart": [
+  {
+   "word": "full",
+   "note": null
+  },
+  {
+   "word": "cumulative",
+   "note": null
+  }
+ ],
+ "blocksFound": [
+  "heart"
+ ],
+ "appSittings": null
+}

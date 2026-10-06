@@ -1,0 +1,94 @@
+{
+ "id": "L2.12",
+ "level": 2,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-2/lessons/L2.12-compounds-2syllable.md",
+ "title": "Compound words and closed 2-syllable words",
+ "goal": "Read and spell compound words (two whole words stuck together: *sunset*) and closed-syllable 2-syllable words (*rabbit, napkin*) by splitting them into two readable chunks first.",
+ "newToday": "compound words; the VC/CV 2-syllable split (find the vowel in each half, split between the two middle consonants, read each closed syllable on its own, then blend the two chunks together)",
+ "review": "everything so far — this lesson is the first time all of it gets used inside a single longer word",
+ "heartLine": "does, goes, two",
+ "time": "25–30 min",
+ "blendList": {
+  "real": [
+   "sunset",
+   "catfish",
+   "backpack",
+   "bathtub",
+   "pigpen",
+   "rabbit",
+   "napkin",
+   "muffin",
+   "vantic",
+   "plemzen",
+   "brostup",
+   "chunnet",
+   "dravin"
+  ],
+  "pseudo": []
+ },
+ "heart": [
+  {
+   "word": "does",
+   "note": "heart part: the whole word is irregular for a beginning reader (`o` says a short-u sound, `es` says just /z/); mark it fully heart for now, note it's the \"he/she/it\" form of \"do\" (a Level 1 heart word)."
+  },
+  {
+   "word": "goes",
+   "note": "heart part: the whole word is irregular (`o` says its own name-ish sound via a silent-e-like pattern not yet taught, `es` says /z/); mark it fully heart, note it's the \"he/she/it\" form of \"go\" (a Level 1 heart word)."
+  },
+  {
+   "word": "two",
+   "note": "heart part: the whole word is irregular (the `w` is silent, and the spelling doesn't match the sound at all); mark it fully heart, note it's the number after one."
+  }
+ ],
+ "read": {
+  "A": {
+   "text": "Min packs a backpack / for a picnic. / Does Min pack a napkin? / Min packs a napkin / and a muffin. / Dad packs two bits of catfish. / Min spots a rabbit / and a magnet in the grass. / Dad and Min sit / and watch the sunset. / Min goes to get the picnic bag, / then goes back to sit with Dad. / \"Let's have a picnic,\" / Min says, / and Dad grins.",
+   "title": null
+  },
+  "B": {
+   "text": "Sam packs his backpack / for his shift. / Does Sam pack a magnet? / Sam packs a magnet / for fixing the bus panel. / Sam checks for an insect problem / in the back bin. / Sam fixes a dent with the magnet trick. / This shop had a contest / for the best fix. / Sam goes to get his kit, / then goes back to fix the last dent. / At sunset, / the job is done, / and Sam packs up, / glad and full.",
+   "title": null
+  }
+ },
+ "listen": {
+  "title": null,
+  "passage": "A wealthy trader in the old bazaar was known across the whole street for being unusually **generous**. Every evening, before he closed his stall, he would give away whatever fruit and bread had not sold that day — never selling it cheap at the last minute, always simply giving it to whoever needed it most. His neighbors thought he must be losing money, but the trader just smiled and said being generous had brought him more good luck and more loyal customers than any clever deal ever had. One winter, when his own stall caught fire, every single family he had once helped showed up the next morning with tools, wood, and cash to help him rebuild — proof, he said, that generous kindness always finds its way back.",
+  "tier2": [],
+  "questions": []
+ },
+ "check": {
+  "real": [
+   "napkin",
+   "sunset",
+   "rabbit",
+   "magnet",
+   "picnic"
+  ],
+  "pseudo": [
+   "vantic",
+   "plemzen",
+   "brostup",
+   "chunnet",
+   "dravin"
+  ],
+  "dictation": [
+   "catfish"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "blocksFound": [
+  "blendList",
+  "heart",
+  "read",
+  "listen",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

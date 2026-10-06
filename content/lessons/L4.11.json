@@ -1,0 +1,79 @@
+{
+ "id": "L4.11",
+ "level": 4,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-4/lessons/L4.11-a-nations-vision.md",
+ "title": "A Nation's Vision",
+ "goal": "Read words with five common Latin/French endings: **-tion, -sion, -ture, -ous, -cial/-tial** — the endings that show up constantly in longer, more grown-up words.",
+ "newToday": "-tion, -sion, -ture, -ous, -cial/-tial",
+ "review": "consonant-le, and all earlier vowel-r/diphthong/aw/silent-letter/ph-ch-gh patterns",
+ "heartLine": "none new",
+ "time": "30 min",
+ "blendList": {
+  "real": [
+   "action",
+   "nation",
+   "station",
+   "motion",
+   "lotion",
+   "attention",
+   "invention",
+   "direction",
+   "position",
+   "vision",
+   "decision",
+   "mission",
+   "session",
+   "explosion",
+   "division",
+   "confusion",
+   "picture",
+   "nature",
+   "future",
+   "adventure"
+  ],
+  "pseudo": []
+ },
+ "check": {
+  "real": [
+   "nation",
+   "vision",
+   "picture",
+   "famous",
+   "special"
+  ],
+  "pseudo": [
+   "gorsion",
+   "plection",
+   "thastial",
+   "frenture",
+   "blezious"
+  ],
+  "dictation": [
+   "action"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "read": {
+  "A": {
+   "text": "On a school trip to the nature center, Bina's class saw a strange creature in a tank. \"Pay attention,\" her teacher said, \"this fish is famous for its unusual motion — watch how it moves.\" Bina leaned in, curious, and took a picture with her class tablet. The creature was not dangerous, the guide explained, just shy. \"It hides when there's too much attention on it,\" the guide said. Bina made a decision: she would ask her question quietly. \"What does it eat?\" she whispered. The guide smiled at her care and gave a full explanation. Bina felt she had learned something special about nature that day, and she couldn't wait to share her picture with her family.",
+   "title": null
+  },
+  "B": {
+   "text": "Dr. Rehman starts a special session with a new patient today. \"I want to give you my full attention,\" she says, \"so let's talk about your question in detail.\" The patient explains a mixture of symptoms — some minor, some she's nervous about. Dr. Rehman takes note of each one with care, then explains her decision: a short series of tests, plus a change in diet. \"This plan should not cause any confusion,\" Dr. Rehman says, \"and I will check on you next session.\" The patient feels reassured by Dr. Rehman's calm, generous attention. \"Thank you for taking this so seriously,\" she says as she leaves. Dr. Rehman notes the session in the patient's official file before her next appointment.",
+   "title": null
+  }
+ },
+ "blocksFound": [
+  "blendList",
+  "read",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

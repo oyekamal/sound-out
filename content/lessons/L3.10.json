@@ -1,0 +1,92 @@
+{
+ "id": "L3.10",
+ "level": 3,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-3/lessons/L3.10-ai-ay.md",
+ "title": "ai, ay",
+ "goal": "Read and spell the long-a vowel team spelled **ai** (mid-word) and **ay** (end of word).",
+ "newToday": "ai, ay (both /ā/)",
+ "review": "a_e (same sound, different spelling)",
+ "heartLine": "water (review: people, busy, once)",
+ "time": "25–30 min",
+ "blendList": {
+  "real": [
+   "rain",
+   "paint",
+   "train",
+   "chain",
+   "wait",
+   "main",
+   "tail",
+   "snail",
+   "brain",
+   "faint",
+   "day",
+   "play",
+   "stay",
+   "way",
+   "say",
+   "tray",
+   "gray",
+   "spray",
+   "clay",
+   "stray"
+  ],
+  "pseudo": [
+   "fraim",
+   "snay",
+   "blain",
+   "gaint",
+   "chay"
+  ]
+ },
+ "check": {
+  "real": [
+   "rain",
+   "play",
+   "train",
+   "day",
+   "wait"
+  ],
+  "pseudo": [
+   "snay",
+   "blain",
+   "gaint",
+   "chay",
+   "fraim"
+  ],
+  "dictation": [
+   "We play in the rain"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "heart": [
+  {
+   "word": "water",
+   "note": null
+  }
+ ],
+ "read": {
+  "A": {
+   "text": "It is play day at the park. / When rain starts, the class does not stay in — they play in the rain, and get wet from top to tail! / A snail comes on the wet path. / \"There is a snail!\" said Sam. / They wait for the rain to stop, then drink cold water and play again.",
+   "title": null
+  },
+  "B": {
+   "text": "Every day, Kate takes the train to her job. / Today, because rain made the stop wet, the train came late. / She had to wait, so she got a cup of hot water and a snack from a stand. / \"I will just wait,\" she said to a man in line. / The train came, and Kate got a spot by chance.",
+   "title": null
+  }
+ },
+ "blocksFound": [
+  "blendList",
+  "heart",
+  "read",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

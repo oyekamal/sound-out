@@ -1,0 +1,96 @@
+{
+ "id": "L3.05",
+ "level": 3,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-3/lessons/L3.05-open-syllables.md",
+ "title": "Open Syllables",
+ "goal": "Read single-letter open syllables (he, go, hi, me — a single vowel at the end of a word/syllable says its long sound) and two-syllable open+closed words (ro-bot, mu-sic) using V/CV division.",
+ "newToday": "open syllable long vowels (a e i o u alone at a syllable's end = long)",
+ "review": "all VCe patterns",
+ "heartLine": "water, laugh (review: busy, people)",
+ "time": "30 min",
+ "blendList": {
+  "real": [
+   "he",
+   "we",
+   "me",
+   "be",
+   "she",
+   "go",
+   "so",
+   "no",
+   "hi",
+   "I",
+   "robot",
+   "music",
+   "pupil",
+   "frozen",
+   "bacon",
+   "tiger",
+   "spider",
+   "silent",
+   "program",
+   "item"
+  ],
+  "pseudo": [
+   "flobin",
+   "pademic",
+   "zoric",
+   "mubel",
+   "hitane"
+  ]
+ },
+ "check": {
+  "real": [
+   "go",
+   "robot",
+   "music",
+   "tiger",
+   "we"
+  ],
+  "pseudo": [
+   "zoric",
+   "hitane",
+   "flobin",
+   "mubel",
+   "pademic"
+  ],
+  "dictation": [
+   "We go to see a robot"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "heart": [
+  {
+   "word": "water",
+   "note": null
+  },
+  {
+   "word": "laugh",
+   "note": null
+  }
+ ],
+ "read": {
+  "A": {
+   "text": "We go to spot a tiger. / The tiger is silent as it moves. / Because he had a project, a pupil at his class made a robot tiger. / It has one eye that shines. / \"This is a great robot!\" said the pupil. / We are so glad we came. / We go home and hum a tune, glad for the tigers.",
+   "title": null
+  },
+  "B": {
+   "text": "Kate got a spot in a great program at her job site. / Because there were big tasks, she and the others made a robot to help. / The program runs a set of steps, silent and fast, no fuss. / \"We tested it with one eye on the clock,\" said Kate. / The robot has done every task well. / Kate is glad she got to do this.",
+   "title": null
+  }
+ },
+ "blocksFound": [
+  "blendList",
+  "heart",
+  "read",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

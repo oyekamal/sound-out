@@ -1,0 +1,28 @@
+{
+ "id": "L5.10",
+ "level": 5,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-5/lessons/L5.10-de-trans-weather-systems.md",
+ "title": "Prefixes de-, trans- · Weather Systems (monsoon, storms)",
+ "goal": "Read, spell, and use words with *de-* and *trans-*; return to the weather topic from 5.05, going deeper into how large weather systems (monsoons, storms) form.",
+ "newToday": "*de-* (\"down\" / \"away\" / \"reverse, undo\") and *trans-* (\"across\" / \"through\" / \"change\"). Tier-2 words: *intense*, *moisture*.",
+ "review": "*-al, -y* — *natural, healthy*.",
+ "time": "30–45 min. **Materials:** paper, pencil, timer.",
+ "read": {
+  "questions": []
+ },
+ "check": {
+  "bar": {
+   "pass": 5,
+   "of": 8,
+   "source": "lesson",
+   "raw": "≥5/8"
+  },
+  "freeResponse": true
+ },
+ "blocksFound": [
+  "read",
+  "check"
+ ],
+ "appSittings": null
+}

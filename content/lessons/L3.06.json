@@ -1,0 +1,96 @@
+{
+ "id": "L3.06",
+ "level": 3,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-3/lessons/L3.06-y-as-vowel.md",
+ "title": "Y as a Vowel",
+ "goal": "Read words where final **y** acts as a vowel: /ē/ in multisyllable words (happy, funny) and /ī/ in one-syllable words (my, fly, cry).",
+ "newToday": "y = /ē/ (end of longer words), y = /ī/ (end of one-syllable words)",
+ "review": "open syllables",
+ "heartLine": "walk, talk (review: water, laugh)",
+ "time": "25–30 min",
+ "blendList": {
+  "real": [
+   "my",
+   "by",
+   "fly",
+   "cry",
+   "try",
+   "sky",
+   "why",
+   "spry",
+   "shy",
+   "happy",
+   "funny",
+   "silly",
+   "baby",
+   "puppy",
+   "sunny",
+   "muddy",
+   "windy",
+   "sticky",
+   "dusty",
+   "flimy"
+  ],
+  "pseudo": [
+   "flimy",
+   "stry",
+   "plemmy",
+   "fladdy",
+   "sladdy"
+  ]
+ },
+ "check": {
+  "real": [
+   "my",
+   "happy",
+   "puppy",
+   "fly",
+   "funny"
+  ],
+  "pseudo": [
+   "stry",
+   "flimy",
+   "sladdy",
+   "fladdy",
+   "plemmy"
+  ],
+  "dictation": [
+   "My puppy is happy"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "heart": [
+  {
+   "word": "walk",
+   "note": null
+  },
+  {
+   "word": "talk",
+   "note": null
+  }
+ ],
+ "read": {
+  "A": {
+   "text": "My puppy is very busy. / He runs and hops in the sun by the shed. / My puppy is funny — when he digs in the mud, he gets sticky and muddy. / \"Silly puppy!\" I said, and gave him a rub. / We go home, and my puppy is happy because he is with me.",
+   "title": null
+  },
+  "B": {
+   "text": "My shift was very busy, because I ran from the front to the back and did not stop by lunch. / When I got back, there was a note from a happy person: \"Thank you, you made me very glad.\" / I am busy, but I am glad I had a busy, happy shift.",
+   "title": null
+  }
+ },
+ "blocksFound": [
+  "blendList",
+  "heart",
+  "read",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

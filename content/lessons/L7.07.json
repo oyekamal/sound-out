@@ -1,0 +1,30 @@
+{
+ "id": "L7.07",
+ "level": 7,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-7/lessons/L7.07-argument-evaluation-fallacies.md",
+ "title": "Argument Evaluation: Logical Fallacies & Evidence Strength",
+ "goal": "Name six common logical fallacies and spot them in a real-feeling argument; rank evidence from strong to weak inside one essay.",
+ "time": "40 min · **Materials:** notebook.",
+ "read": {
+  "questions": [
+   "Find the sentence that commits an ad hominem — it attacks people rather than their argument. Quote it.",
+   "Find the sentence that commits a straw man — it exaggerates the opposing position before knocking it down. Quote it.",
+   "Find the passage that commits a slippery slope — a chain of increasingly extreme consequences asserted without evidence for each step. Quote it."
+  ]
+ },
+ "check": {
+  "bar": {
+   "pass": 4,
+   "of": 6,
+   "source": "lesson",
+   "raw": "4 of 6"
+  },
+  "freeResponse": true
+ },
+ "blocksFound": [
+  "read",
+  "check"
+ ],
+ "appSittings": null
+}

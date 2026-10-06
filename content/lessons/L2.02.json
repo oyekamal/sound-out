@@ -1,0 +1,93 @@
+{
+ "id": "L2.02",
+ "level": 2,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-2/lessons/L2.02-ch-tch.md",
+ "title": "ch, tch",
+ "goal": "Read and spell words with `ch` (start, middle, or end) and `tch` (end of a one-syllable word, right after a short vowel).",
+ "newToday": "`ch` /tʃ/, `tch` /tʃ/ (same sound, two spellings, different jobs)",
+ "review": "`sh`; Level 1 letters",
+ "heartLine": "there, where",
+ "time": "20–25 min",
+ "blendList": {
+  "real": [
+   "chip",
+   "chat",
+   "chin",
+   "chop",
+   "chess",
+   "much",
+   "such",
+   "rich",
+   "catch",
+   "fetch",
+   "hutch",
+   "chob",
+   "votch",
+   "chiss",
+   "nach",
+   "wetch"
+  ],
+  "pseudo": []
+ },
+ "heart": [
+  {
+   "word": "there",
+   "note": "heart part: the whole word is irregular for a beginning reader (it contains `th`, not taught until next lesson, plus an irregular `ere`); mark it fully heart for now, note it points to a place (\"put it there\")."
+  },
+  {
+   "word": "where",
+   "note": "heart part: same story as \"there\" — contains `wh` (not taught until L2.04) plus the same irregular `ere` ending; mark it fully heart, and point out \"there\" and \"where\" rhyme and share a spelling chunk, which helps memory."
+  }
+ ],
+ "read": {
+  "A": {
+   "text": "Min and Dad chat on the step. \"Where did you go?\" Min asks. \"I ran to fetch the cat,\" Dad says. The cat sat in the hutch. Min and Dad catch the cat and shut the hutch. Min and Dad chat and chat. Min is rich in fun, if not in cash!",
+   "title": null
+  },
+  "B": {
+   "text": "Sam and his boss chat at the shop. \"Where did you go?\" the boss asks. \"I had to fetch cash for the shop,\" Sam says. Sam has a job at ten. Sam's boss is not rich, but the shop is a big shop. Sam and his boss chat, and Sam rushes to catch the bus.",
+   "title": null
+  }
+ },
+ "listen": {
+  "title": null,
+  "passage": "A little cat named Pip was very **curious**. Every single day, Pip wanted to know what was happening on the other side of the garden wall. One afternoon, Pip's curious nose led her straight into a bush, where she found a family of hedgehogs curled up asleep! Pip was so curious that she gently poked one with her paw. The hedgehog woke up, uncurled, and gave a tiny, surprised squeak. Pip jumped back, but she was still curious — she sat and watched the hedgehogs for the rest of the afternoon, learning something new about her garden.",
+  "tier2": [],
+  "questions": []
+ },
+ "check": {
+  "real": [
+   "chip",
+   "much",
+   "catch",
+   "fetch",
+   "chess"
+  ],
+  "pseudo": [
+   "chob",
+   "votch",
+   "wetch",
+   "nach",
+   "chiss"
+  ],
+  "dictation": [
+   "match"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "blocksFound": [
+  "blendList",
+  "heart",
+  "read",
+  "listen",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

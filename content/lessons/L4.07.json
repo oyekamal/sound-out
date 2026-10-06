@@ -1,0 +1,79 @@
+{
+ "id": "L4.07",
+ "level": 4,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-4/lessons/L4.07-paw-pause-and-the-mall.md",
+ "title": "Paw, Pause, and the Mall",
+ "goal": "Read and spell words with **aw, au, al(l)** — all spelling the same /aw/ sound.",
+ "newToday": "aw, au, al(l)",
+ "review": "ou, ow(/ow/), oi, oy, and all vowel-r teams",
+ "heartLine": "none new — review *walk, talk*",
+ "time": "25 min",
+ "blendList": {
+  "real": [
+   "saw",
+   "paw",
+   "jaw",
+   "law",
+   "raw",
+   "claw",
+   "draw",
+   "straw",
+   "lawn",
+   "dawn",
+   "crawl",
+   "yawn",
+   "hawk",
+   "shawl",
+   "haul",
+   "fault",
+   "sauce",
+   "launch",
+   "pause",
+   "cause"
+  ],
+  "pseudo": []
+ },
+ "check": {
+  "real": [
+   "saw",
+   "ball",
+   "pause",
+   "small",
+   "wall"
+  ],
+  "pseudo": [
+   "fraw",
+   "staul",
+   "glall",
+   "thraw",
+   "scall"
+  ],
+  "dictation": [
+   "lawn"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "read": {
+  "A": {
+   "text": "At dawn, Zara and her granddad walk to the small lawn behind their house. A hawk lands on the old wall, its claw gripping the stone. \"Don't move, or you'll cause it to fly off,\" her granddad whispers. Zara stands tall and still. The hawk turns its head, gives a small yawn, and looks right at her. Then it spreads its wings and flies over the mall down the road. \"That was worth the early start!\" Zara says. On the walk back, they talk about hawks and how they hunt. Zara makes a quick drawing of the hawk in her notebook before her meal.",
+   "title": null
+  },
+  "B": {
+   "text": "Mariam works at a small shop inside the mall. Business is slow, so she and her coworker take a pause to talk. \"I saw a hawk on my walk to work this morning,\" Mariam says. \"That's rare for downtown,\" her coworker replies. At noon, a small fault in the mall's power system causes all the lights to flicker, and a loud alarm sounds. \"Don't fall over anyone — stay calm and walk to the hall,\" a staff member calls out. After a short pause, the power comes back, and the alarm stops. \"Well, that was not part of the plan,\" Mariam laughs, and they get back to work.",
+   "title": null
+  }
+ },
+ "blocksFound": [
+  "blendList",
+  "read",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

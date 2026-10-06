@@ -1,0 +1,41 @@
+{
+ "id": "L1.14",
+ "level": 1,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-1/lessons/L1.14-mastery-check-lesson.md",
+ "title": "Level 1 Mastery Check",
+ "goal": "Confirm the learner reads and spells real CVC words and pseudowords at ≥90%, knows all 26 letter-sounds, all 24 heart words, and reliably tells apart b/d/p/q — the Level 1 exit gate.",
+ "newToday": "nothing new — this session administers the full instrument.",
+ "review": "everything, L1.01–L1.13.",
+ "heartLine": "cumulative review only (all 24, no new ones).",
+ "time": "20–30 minutes, can be split across two short sessions if needed (this is a test session, not a teaching one — fatigue affects the score, so don't push through if the learner is visibly tired).",
+ "listen": {
+  "title": "You Did Something Real",
+  "passage": "Fourteen lessons ago, this course started with three sounds and a handful of made-up \"alien words.\" Today's check uses every single letter in English, a spelling rule, a plural ending, and twenty-four words that don't even follow the normal rules — and asks for all of it back, cold, without any warm-up hints. That's not a small ask. Whatever the score turns out to be, getting through fourteen full lessons of new material, in order, each one building on the last, is real, durable progress — the kind that doesn't disappear the way a memorized page would. What comes next, in Level 2, isn't starting over; it's the exact same skill, aimed at bigger and bigger words.",
+  "tier2": [
+   {
+    "word": "durable",
+    "def": "lasting a long time without wearing out or disappearing.",
+    "full": "lasting a long time without wearing out or disappearing. \"A durable skill doesn't fade the way a memorized fact does.\" \"These boots are durable enough for years of work.\" Your turn: name something in your life that's durable."
+   }
+  ],
+  "questions": [
+   "What does the passage say is different about a \"durable\" skill compared to a memorized page?",
+   "How does the passage describe what Level 2 will be, compared to Level 1?"
+  ]
+ },
+ "check": {
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "freeResponse": true
+ },
+ "blocksFound": [
+  "listen",
+  "check",
+  "tier2"
+ ],
+ "appSittings": null
+}

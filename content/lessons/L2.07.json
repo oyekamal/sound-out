@@ -1,0 +1,94 @@
+{
+ "id": "L2.07",
+ "level": 2,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-2/lessons/L2.07-final-blends.md",
+ "title": "Final blends (-st -nd -nt -mp -sk -lt -ft -lk)",
+ "goal": "Read and spell words that end in a two-consonant blend.",
+ "newToday": "final blends `-st -nd -nt -mp -sk -lt -ft -lk`",
+ "review": "initial blends; `sh, ch, tch, th, wh, ng, nk`; Level 1 letters",
+ "heartLine": "pull, full",
+ "time": "20–25 min",
+ "blendList": {
+  "real": [
+   "nest",
+   "hand",
+   "sand",
+   "tent",
+   "hunt",
+   "jump",
+   "camp",
+   "desk",
+   "mask",
+   "belt",
+   "melt",
+   "gift",
+   "fand",
+   "jelt",
+   "nusk",
+   "thomp",
+   "vilk"
+  ],
+  "pseudo": []
+ },
+ "heart": [
+  {
+   "word": "pull",
+   "note": "heart part: same `u` sound as \"put/push\" from L2.06 (short-oo); point out the pattern repeats a third time; `p` and `ll` are fully regular."
+  },
+  {
+   "word": "full",
+   "note": "same `u` heart pattern as \"pull\"; `f` and `ll` are fully regular."
+  }
+ ],
+ "read": {
+  "A": {
+   "text": "Dad and Min set up a tent on the sand. / Min helps Dad pull the tent up. / \"Pull fast!\" / Dad says. / Min pulls and pulls until the tent is up. / Dad packs the milk and a gift in a bag. / Min helps hunt for the best spot to camp. / At dusk, / Min and Dad sit and rest, / full and glad.",
+   "title": null
+  },
+  "B": {
+   "text": "Sam must pull the stock bin to the desk. / \"Pull it fast,\" / his boss says. / Sam pulls and pulls until the bin is at the desk. / Sam checks the list, / packs the gift, / and gets it done. / The shop is full of stock, / and Sam is glad the job is done.",
+   "title": null
+  }
+ },
+ "listen": {
+  "title": null,
+  "passage": "When the school bake sale raised more money than anyone expected, the head teacher decided to give every extra rupee to the small clinic down the road. She was **grateful** — truly grateful — for how hard the students had worked, baking and selling from early morning until the last plate was empty. One student asked why she looked close to tears. \"I am just so grateful,\" she said. \"You worked all day, and now families who could not afford medicine will get help.\" The students felt proud too, and decided that being the reason someone else got help was better than any prize. They planned an even bigger, more grateful bake sale for next year.",
+  "tier2": [],
+  "questions": []
+ },
+ "check": {
+  "real": [
+   "nest",
+   "hand",
+   "jump",
+   "desk",
+   "gift"
+  ],
+  "pseudo": [
+   "fand",
+   "jelt",
+   "nusk",
+   "thomp",
+   "vilk"
+  ],
+  "dictation": [
+   "milk"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "blocksFound": [
+  "blendList",
+  "heart",
+  "read",
+  "listen",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

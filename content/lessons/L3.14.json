@@ -1,0 +1,92 @@
+{
+ "id": "L3.14",
+ "level": 3,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-3/lessons/L3.14-ue-ew-ui.md",
+ "title": "ue, ew, ui",
+ "goal": "Read and spell the vowel teams **ue**, **ew**, and **ui**, which usually say /o͞o/ (as in \"moon\") and sometimes /ū/ (as in \"cute\").",
+ "newToday": "ue, ew, ui",
+ "review": "u_e (same sound family, different spelling)",
+ "heartLine": "buy (review: talk, walk, laugh)",
+ "time": "25–30 min",
+ "blendList": {
+  "real": [
+   "blue",
+   "glue",
+   "true",
+   "clue",
+   "due",
+   "chew",
+   "new",
+   "grew",
+   "blew",
+   "flew",
+   "drew",
+   "crew",
+   "stew",
+   "fruit",
+   "suit",
+   "drue",
+   "sprew",
+   "fluit",
+   "glew",
+   "treu"
+  ],
+  "pseudo": [
+   "drue",
+   "sprew",
+   "fluit",
+   "glew",
+   "treu"
+  ]
+ },
+ "check": {
+  "real": [
+   "blue",
+   "new",
+   "fruit",
+   "chew",
+   "true"
+  ],
+  "pseudo": [
+   "glew",
+   "drue",
+   "sprew",
+   "fluit",
+   "treu"
+  ],
+  "dictation": [
+   "I will buy a new blue bag"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "heart": [
+  {
+   "word": "buy",
+   "note": null
+  }
+ ],
+ "read": {
+  "A": {
+   "text": "Sam and his mom go to buy a new bike. / \"I want the blue one,\" said Sam. / The shop has a big, blue bike that is true to what Sam likes. / Sam's mom said, \"Let's buy it, then get a snack.\" / They get a bag of fruit and chew on it as they walk home with the new bike.",
+   "title": null
+  },
+  "B": {
+   "text": "Because she had a big meeting, Kate had to buy a new suit. / She went to a shop and got a blue suit that fit true to size. / \"This one is right for you,\" said the person at the shop. / Kate said, \"That is true, I will buy this one.\" / She got a snack of fruit on her way home, glad to have a new suit for the big day.",
+   "title": null
+  }
+ },
+ "blocksFound": [
+  "blendList",
+  "heart",
+  "read",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

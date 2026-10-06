@@ -1,0 +1,77 @@
+{
+ "id": "L4.13",
+ "level": 4,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-4/lessons/L4.13-running-happier-hoping.md",
+ "title": "Running, Happier, Hoping",
+ "goal": "Learn three spelling rules for adding suffixes: the **1-1-1 doubling rule**, the",
+ "newToday": "1-1-1 doubling rule, change-y-to-i rule; drop-e reviewed",
+ "review": "syllable division + schwa, and all of Level 4's earlier patterns",
+ "heartLine": "none new",
+ "time": "30 min",
+ "blendList": {
+  "real": [
+   "running",
+   "hopped",
+   "bigger",
+   "sitting",
+   "swimming",
+   "stopped",
+   "planning",
+   "dropped",
+   "happier",
+   "happiest",
+   "carried",
+   "babies",
+   "funnier",
+   "tries",
+   "families",
+   "studied",
+   "crying",
+   "carrying",
+   "studying",
+   "trying"
+  ],
+  "pseudo": []
+ },
+ "check": {
+  "real": [
+   "running",
+   "happier",
+   "hoping",
+   "carried",
+   "stopped"
+  ],
+  "pseudo": [
+   "vopping",
+   "plopier",
+   "snaping"
+  ],
+  "dictation": [
+   "studying"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "read": {
+  "A": {
+   "text": "Iman's puppy, Buttons, was getting bigger every week. \"He's the funniest, wobbliest puppy on the street,\" Iman's dad said, laughing as Buttons went running and slipping across the kitchen floor. Iman had been hoping for a puppy for months, and now she was caring for Buttons every day — feeding him, walking him, and studying every trick in her puppy training book. \"He's not the smartest puppy,\" Iman admitted, \"but he's trying.\" One evening, Buttons started chasing his tail, spinning and tripping until he flopped down, dizzy. Iman and her family were all crying with laughter. \"That was the funniest thing I've seen all week,\" her mom said, still wiping tears from laughing so hard.",
+   "title": null
+  },
+  "B": {
+   "text": "Sarah has been studying at night, hoping for a bigger role at her company. She has been carrying a heavy load — working her regular shift, then studying for two hours before bed. \"It's the hardest I've ever tried at anything,\" she tells her sister, tapping her pencil, stopping only to stretch her tired hands. Her manager, impressed by how she's been performing, mentions she is planning to recommend Sarah for the new position. \"You've been working harder than anyone else on the team,\" her manager says. Sarah feels her effort paying off — she keeps studying, knowing the extra work is worth it for a chance at something bigger.",
+   "title": null
+  }
+ },
+ "blocksFound": [
+  "blendList",
+  "read",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

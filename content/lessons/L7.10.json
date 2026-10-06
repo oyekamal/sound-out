@@ -1,0 +1,20 @@
+{
+ "id": "L7.10",
+ "level": 7,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-7/lessons/L7.10-synthesis-two-sources.md",
+ "title": "Synthesis I: Two Sources, Contrasting Viewpoints",
+ "goal": "Combine two opposing op-eds into one written answer that represents both sides fairly and states, specifically, where they actually disagree — not just \"some people think X, others think Y.\"",
+ "time": "40 min · **Materials:** notebook, Session 6 notes (the phone-ban essay).",
+ "read": {
+  "questions": [
+   "What do both essays agree on? Quote the sentence(s) that show the agreement most clearly.",
+   "State the specific point of disagreement — not \"phones,\" but the precise scope question both essays are actually arguing about.",
+   "Is the disagreement mainly factual, values-based, or about priorities? Defend your answer using both texts' actual content."
+  ]
+ },
+ "blocksFound": [
+  "read"
+ ],
+ "appSittings": null
+}

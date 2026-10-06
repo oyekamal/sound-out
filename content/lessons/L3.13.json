@@ -1,0 +1,91 @@
+{
+ "id": "L3.13",
+ "level": 3,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-3/lessons/L3.13-igh-ie.md",
+ "title": "igh, ie",
+ "goal": "Read and spell the long-i vowel team spelled **igh** and **ie**.",
+ "newToday": "igh, ie (/ī/)",
+ "review": "i_e (same sound, different spelling), y=/ī/ (my, fly)",
+ "heartLine": "talk (review: walk, laugh, water)",
+ "time": "25–30 min",
+ "blendList": {
+  "real": [
+   "night",
+   "light",
+   "right",
+   "sight",
+   "high",
+   "sigh",
+   "might",
+   "tight",
+   "bright",
+   "fight",
+   "pie",
+   "tie",
+   "lie",
+   "die",
+   "stight",
+   "prigh",
+   "nie",
+   "plie",
+   "nighm"
+  ],
+  "pseudo": [
+   "stight",
+   "prigh",
+   "nie",
+   "plie",
+   "nighm"
+  ]
+ },
+ "check": {
+  "real": [
+   "night",
+   "light",
+   "pie",
+   "high",
+   "bright"
+  ],
+  "pseudo": [
+   "stight",
+   "prigh",
+   "nie",
+   "plie",
+   "nighm"
+  ],
+  "dictation": [
+   "The light is bright at night"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "heart": [
+  {
+   "word": "talk",
+   "note": null
+  }
+ ],
+ "read": {
+  "A": {
+   "text": "At night, Sam and his mom talk and gaze up at the sky. / Because the sky is bright, it glows white and high. / \"Let's stay up a bit,\" said Mom. / They eat a slice of pie and talk of the sky. / Sam feels glad for this quiet, bright night with his mom.",
+   "title": null
+  },
+  "B": {
+   "text": "After a long shift, Kate and her friend Jane talk it over at night. / When they sit and gaze up, the sky is bright. / \"I might take the job at another site,\" said Kate. / Jane said, \"That is a big thing — talk to your team, then decide.\" / They eat a slice of pie and talk until it gets late.",
+   "title": null
+  }
+ },
+ "blocksFound": [
+  "blendList",
+  "heart",
+  "read",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

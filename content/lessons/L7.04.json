@@ -1,0 +1,20 @@
+{
+ "id": "L7.04",
+ "level": 7,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-7/lessons/L7.04-science-claims-methods-sample.md",
+ "title": "Reading a Science Article I: Claim, Method, Sample Size",
+ "goal": "Learn to pull apart a science write-up into its actual claim, the method used to test it, and the sample size — and notice when a headline overstates what the study behind it found.",
+ "time": "40 min · **Materials:** notebook.",
+ "read": {
+  "questions": [
+   "State the article's actual claim (not the headline) in one sentence: what, precisely, changed, by how much, for whom?",
+   "What was the method? Name at least two things about the method that are weaker than they'd need to be to support \"proves\" in the company's own words.",
+   "What was the sample size, and name one specific reason (given in the article) that this sample might not represent \"teenagers today\" in general."
+  ]
+ },
+ "blocksFound": [
+  "read"
+ ],
+ "appSittings": null
+}

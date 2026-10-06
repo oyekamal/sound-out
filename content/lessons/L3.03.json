@@ -1,0 +1,96 @@
+{
+ "id": "L3.03",
+ "level": 3,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-3/lessons/L3.03-o_e-u_e-e_e.md",
+ "title": "o_e, u_e, e_e (VCe with o, u, e)",
+ "goal": "Complete the VCe set — read and spell words with o_e (/ō/), u_e (/o͞o/ or /ū/), and e_e (rare, /ē/).",
+ "newToday": "o_e (home, rope), u_e — two sounds: /o͞o/ (rule, June) and /ū/ (cute, mule); e_e (these, Steve — rare, flag it)",
+ "review": "a_e, i_e",
+ "heartLine": "great, eye (review: very, every)",
+ "time": "30 min (slightly longer — three patterns today)",
+ "blendList": {
+  "real": [
+   "home",
+   "rope",
+   "hope",
+   "nose",
+   "bone",
+   "hole",
+   "joke",
+   "note",
+   "code",
+   "close",
+   "stove",
+   "drove",
+   "smoke",
+   "cute",
+   "mule",
+   "fuse",
+   "June",
+   "flute",
+   "tube",
+   "prune"
+  ],
+  "pseudo": [
+   "slobe",
+   "prute",
+   "glupe",
+   "chete",
+   "zope"
+  ]
+ },
+ "check": {
+  "real": [
+   "home",
+   "cute",
+   "rule",
+   "note",
+   "June"
+  ],
+  "pseudo": [
+   "slobe",
+   "prute",
+   "drine",
+   "chete",
+   "glupe"
+  ],
+  "dictation": [
+   "Steve has a cute pet"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "heart": [
+  {
+   "word": "great",
+   "note": null
+  },
+  {
+   "word": "eye",
+   "note": null
+  }
+ ],
+ "read": {
+  "A": {
+   "text": "Steve moved to a home. / It is big, and it has a gate. / Steve rode his bike home and did a jig. / He is very glad. / At home, Steve has a cute pet mule named Duke. / Duke likes a plate of grass. / \"This home is very fine,\" said Steve, and he made a note to tell his pal.",
+   "title": null
+  },
+  "B": {
+   "text": "Steve got home very late from his shift. / His job is to help sick kids, and the shift ran long. / At home, he made a snack and sat next to the stove. / His wife left a note: \"I made a plate for you.\" / Steve smiled. / It was a very long shift, but home felt like a rest at last.",
+   "title": null
+  }
+ },
+ "blocksFound": [
+  "blendList",
+  "heart",
+  "read",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

@@ -1,0 +1,429 @@
+{
+ "id": "L1.06",
+ "level": 1,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-1/lessons/L1.06-c-k-ck.md",
+ "title": "c k ck",
+ "goal": "Read and spell the two spellings of /k/ (c and k) plus the digraph ck; unlock words like \"cat,\" \"sick,\" \"sack,\" \"dock.\"",
+ "newToday": "c, k (both say /k/), ck (also says /k/, used at the end of a word right after a short vowel) — **one new grapheme per sitting**, since all three spell the same sound.",
+ "review": "g, o; words got, dog, top.",
+ "heartLine": "said, you (taught in the final combined sitting).",
+ "time": "four sittings — A (~12 min), B (~12 min), C (~15 min), D (~25–30 min).",
+ "read": {
+  "A": {
+   "text": "Sam got a cat. The cat sat on a mat. Sam said, \"Is the cat sick?\" The cat is not sick. The cat sat and sat.",
+   "title": null
+  },
+  "B": {
+   "text": "Dan got a cap. Dan sat at the dock. Dan said, \"Is a sack on top?\" The sack is not on top. Dan got the sack.",
+   "title": null
+  },
+  "questions": [
+   "What did Sam/Dan get at the start of the text?",
+   "What did the main character say out loud, in quotation marks?",
+   "Think: \"Dan got the sack\" is a well-known expression — what do you think it means, beyond just a physical bag?"
+  ]
+ },
+ "listen": {
+  "title": "Getting the Sack",
+  "passage": "In everyday English, if someone says a person \"got the sack,\" they don't mean an actual bag — they mean the person lost their job. Nobody agrees exactly where the phrase came from, but one popular idea goes back hundreds of years, when tradesmen carried their own tools to work in a sack. If you were let go, you packed up your sack of tools and left — hence \"getting the sack.\" Whether or not that story is completely accurate, the phrase has stuck around for so long that most English speakers use it without ever thinking about actual sacks at all.",
+  "tier2": [
+   {
+    "word": "expression",
+    "def": "a phrase people commonly use that means something different from its exact words.",
+    "full": "a phrase people commonly use that means something different from its exact words. \"'Break a leg' is an expression that means good luck.\" \"'Piece of cake' is an expression for something easy.\" Your turn: do you know an expression in another language that doesn't translate word-for-word?"
+   },
+   {
+    "word": "accurate",
+    "def": "correct and matching the true facts exactly.",
+    "full": "correct and matching the true facts exactly. \"The weather report was accurate — it really did rain.\" \"Make sure your measurements are accurate before you cut the wood.\" Your turn: when does it matter a lot for something to be accurate?"
+   }
+  ],
+  "questions": [
+   "What does \"getting the sack\" actually mean?",
+   "Why does the passage say we might use an expression \"without ever thinking about\" what it originally meant?"
+  ]
+ },
+ "check": {
+  "real": [
+   "cat",
+   "kid",
+   "sock",
+   "tack",
+   "pack"
+  ],
+  "pseudo": [
+   "cak",
+   "gack",
+   "cid",
+   "sok",
+   "dack"
+  ],
+  "dictation": [
+   "sick"
+  ],
+  "bar": {
+   "pass": 10,
+   "of": 11,
+   "source": "lesson",
+   "raw": "≥10/11"
+  },
+  "firstAttemptOnly": true
+ },
+ "sittings": [
+  {
+   "id": "A",
+   "title": "c (~12 min)",
+   "new": [
+    "c"
+   ],
+   "warm": {
+    "text": "flash g, o. Read 3 review words: got, top, dot.",
+    "words": [
+     "got",
+     "top",
+     "dot"
+    ]
+   },
+   "hear": {
+    "text": "/k/ — back of the tongue taps the soft palate, no voice buzz (unlike its voiced twin /g/). Like the start of \"cat.\""
+   },
+   "meet": {
+    "text": "\"This says /k/\" (c). **Mouth cue:** same tongue-back placement as /g/, but no throat buzz — contrast the two by feeling the throat with a finger.",
+    "mouthCue": "same tongue-back placement as /g/, but no throat buzz — contrast the two by feeling the throat with a finger."
+   },
+   "blend": {
+    "real": [
+     "cat",
+     "cot",
+     "cop",
+     "cap",
+     "can"
+    ],
+    "pseudo": []
+   },
+   "spell": {
+    "text": "say /k/ → write **c**. Segment and write \"cat.\"",
+    "words": [
+     "cat"
+    ]
+   },
+   "mini": {
+    "text": "c on sight 5/5; blend the 5 words above at ≥4/5.",
+    "bar": {
+     "pass": 4,
+     "of": 5,
+     "source": "lesson",
+     "raw": "≥4/5"
+    }
+   }
+  },
+  {
+   "id": "B",
+   "title": "k (~12 min)",
+   "new": [
+    "k"
+   ],
+   "warm": {
+    "text": "flash c. Read 3 review words: cat, cot, cap.",
+    "words": [
+     "cat",
+     "cot",
+     "cap"
+    ]
+   },
+   "hear": {
+    "text": "/k/ again — same sound, different letter. \"c and k are like two people saying the exact same word.\""
+   },
+   "meet": {
+    "text": "\"This *also* says /k/\" (k). Note the light choice rule: \"c is usually used before a, o, u; k is usually used before i, e.\" This is a light touch, not a full spelling-rule lesson — the goal today is reading both correctly, not mastering the rule yet.",
+    "mouthCue": null
+   },
+   "blend": {
+    "real": [
+     "kid",
+     "kit",
+     "kin"
+    ],
+    "pseudo": []
+   },
+   "spell": {
+    "text": "say /k/ → ask \"which letter today, c or k?\" for \"kid\" vs. \"cat,\" so the choice, not just the sound, gets practiced.",
+    "words": [
+     "kid",
+     "cat"
+    ]
+   },
+   "mini": {
+    "text": "k on sight 5/5; blend the 3 words above at ≥3/3 (a smaller set than usual — k genuinely has fewer word-initial partners at this stage, which is fine).",
+    "bar": {
+     "pass": 3,
+     "of": 3,
+     "source": "lesson",
+     "raw": "≥3/3"
+    }
+   }
+  },
+  {
+   "id": "C",
+   "title": "ck (~15 min)",
+   "new": [
+    "ck"
+   ],
+   "warm": {
+    "text": "flash c, k. Read 3 review words: cat, kid, cot.",
+    "words": [
+     "cat",
+     "kid",
+     "cot"
+    ]
+   },
+   "hear": {
+    "text": "/k/ a third time — same sound again."
+   },
+   "meet": {
+    "text": "\"This *also* says /k/\" (ck — always two letters together, always right after a short vowel, always at the end of a word). \"ck is used at the end of a short word, right after the vowel says its short sound — like 'sock' or 'sick.'\"",
+    "mouthCue": null
+   },
+   "blend": {
+    "real": [
+     "sick",
+     "tack",
+     "sack",
+     "sock",
+     "dock"
+    ],
+    "pseudo": []
+   },
+   "spell": {
+    "text": "say /k/ at the end of a short word → write **ck**. Segment and write \"sick,\" noting the ck spelling explicitly.",
+    "words": [
+     "sick"
+    ]
+   },
+   "mini": {
+    "text": "ck on sight (in context, e.g. inside \"sick\") 5/5; blend the 5 words above at ≥4/5.",
+    "bar": {
+     "pass": 4,
+     "of": 5,
+     "source": "lesson",
+     "raw": "≥4/5"
+    }
+   }
+  },
+  {
+   "id": "D",
+   "title": "c, k, ck together: heart words, Read it, Check (~25–30 min)",
+   "new": [],
+   "warm": {
+    "text": "flash c, k, ck (in context) mixed; blend 5 words spanning all three spellings: cat, kid, sock, tack, cop.",
+    "words": [
+     "cat",
+     "kid",
+     "sock",
+     "tack",
+     "cop"
+    ]
+   },
+   "blend": {
+    "real": [
+     "cat",
+     "cot",
+     "cop",
+     "cap",
+     "can",
+     "cog",
+     "kid",
+     "kit",
+     "kin",
+     "sick",
+     "tack",
+     "pack",
+     "sock",
+     "dock",
+     "got"
+    ],
+    "pseudo": [
+     "cak",
+     "gack",
+     "cid",
+     "sok",
+     "dack"
+    ]
+   },
+   "spell": {
+    "text": "1. Segment and write: \"cat,\" \"sick\" (note the ck spelling explicitly). 2. Sentence dictation: **\"The cat sat.\"** (The: heart word; cat: /k/ /a/ /t/; sat: /s/ /a/    /t/.)",
+    "words": [
+     "cat",
+     "sick"
+    ],
+    "sentence": "The cat sat."
+   },
+   "heart": [
+    {
+     "word": "said",
+     "note": "s (✓) and d (✓) are both regular. The middle two letters, \"ai,\" normally say /eɪ/ (a sound not taught yet, coming in Level 3) — but in \"said\" they say a totally different, irregular /ɛ/ sound, like the e in \"bed.\" **Heart part: \"ai\" says /ɛ/, unlike anywhere else it will appear later.** This is one of English's most famous irregular spellings."
+    },
+    {
+     "word": "you",
+     "note": "none of its letters behave as expected: y isn't taught until L1.12, and o+u don't spell the /uː/ sound the way \"you\" is pronounced through any rule taught in this course. **Mark the whole word as heart.**"
+    }
+   ]
+  }
+ ],
+ "heart": [
+  {
+   "word": "said",
+   "note": "s (✓) and d (✓) are both regular. The middle two letters, \"ai,\" normally say /eɪ/ (a sound not taught yet, coming in Level 3) — but in \"said\" they say a totally different, irregular /ɛ/ sound, like the e in \"bed.\" **Heart part: \"ai\" says /ɛ/, unlike anywhere else it will appear later.** This is one of English's most famous irregular spellings."
+  },
+  {
+   "word": "you",
+   "note": "none of its letters behave as expected: y isn't taught until L1.12, and o+u don't spell the /uː/ sound the way \"you\" is pronounced through any rule taught in this course. **Mark the whole word as heart.**"
+  }
+ ],
+ "blendList": {
+  "real": [
+   "cat",
+   "cot",
+   "cop",
+   "cap",
+   "can",
+   "cog",
+   "kid",
+   "kit",
+   "kin",
+   "sick",
+   "tack",
+   "pack",
+   "sock",
+   "dock",
+   "got"
+  ],
+  "pseudo": [
+   "cak",
+   "gack",
+   "cid",
+   "sok",
+   "dack"
+  ]
+ },
+ "blocksFound": [
+  "sittings",
+  "blendList",
+  "heart",
+  "read",
+  "listen",
+  "check",
+  "trackB",
+  "tier2"
+ ],
+ "appSittings": {
+  "A": [
+   {
+    "id": "A",
+    "new": [
+     "c"
+    ],
+    "steps": [
+     "hear",
+     "meet",
+     "trace",
+     "blend",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "B",
+    "new": [
+     "k"
+    ],
+    "steps": [
+     "warm",
+     "hear",
+     "meet",
+     "trace",
+     "blend",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "C",
+    "new": [
+     "ck"
+    ],
+    "steps": [
+     "warm",
+     "hear",
+     "meet",
+     "trace",
+     "blend",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "D",
+    "new": [],
+    "steps": [
+     "warm",
+     "blend",
+     "tricky",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "R",
+    "steps": [
+     "read"
+    ]
+   },
+   {
+    "id": "L",
+    "steps": [
+     "listen"
+    ]
+   },
+   {
+    "id": "X",
+    "steps": [
+     "check"
+    ]
+   }
+  ],
+  "B": [
+   {
+    "id": "ABC",
+    "new": [
+     "c",
+     "k",
+     "ck"
+    ],
+    "steps": [
+     "hear",
+     "meet",
+     "blend",
+     "spell"
+    ],
+    "keepGoing": true
+   },
+   {
+    "id": "D",
+    "steps": [
+     "warm",
+     "tricky",
+     "read",
+     "listen"
+    ]
+   },
+   {
+    "id": "X",
+    "steps": [
+     "check"
+    ]
+   }
+  ]
+ }
+}

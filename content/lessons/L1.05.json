@@ -1,0 +1,367 @@
+{
+ "id": "L1.05",
+ "level": 1,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-1/lessons/L1.05-g-o.md",
+ "title": "g o",
+ "goal": "Read and spell g, o; unlock a full vocabulary of common CVC words (got, dog, mop, top…) and the first fully regular heart word, \"and.\"",
+ "newToday": "letters g, o (sounds /g/, /ɒ/ — short o) — **one new sound per sitting**.",
+ "review": "s, a, t, p, i, n, m, d.",
+ "heartLine": "and, was (taught in the final combined sitting).",
+ "time": "three sittings — A (~15 min), B (~15 min), C (~25–30 min).",
+ "read": {
+  "A": {
+   "text": "Sam got a dog. The dog sat. Sam pat the dog. The dog is mad. Is the dog sad? The dog sat and sat.",
+   "title": null
+  },
+  "B": {
+   "text": "Dan got a map. Pam got a pot. Dan and Pam sat. Is Dan mad? Is Pam mad? Dan and Pam got a tip.",
+   "title": null
+  },
+  "questions": [
+   "What did the main character get at the start?",
+   "What word tells you two people or things were joined together in the last sentence?",
+   "Think: in Track B, what do you think \"got a tip\" means here — money, or something else?"
+  ]
+ },
+ "listen": {
+  "title": "A Dog for the Whole Street",
+  "passage": "When old Mrs. Chaudhry got too tired to walk her dog Bruno every morning, the neighbors worried he'd be stuck inside all day. Instead, something wonderful happened: a rotation started. On Mondays, the twins next door took Bruno to the park. On Tuesdays, it was the teenager from the corner house, who said walking Bruno was the only exercise he actually enjoyed. By the weekend, half the street had a turn. Bruno, delighted, seemed to know exactly whose door to wait outside each morning, tail thumping the second the right person stepped out.",
+  "tier2": [
+   {
+    "word": "rotation",
+    "def": "a system where people take turns doing something, one after another in order.",
+    "full": "a system where people take turns doing something, one after another in order. \"We set up a rotation for who cooks dinner each night.\" \"The nurses work on a rotation, so someone is always on duty.\" Your turn: is there a rotation in your house or work?"
+   },
+   {
+    "word": "delighted",
+    "def": "extremely happy and pleased about something.",
+    "full": "extremely happy and pleased about something. \"She was delighted to see her old friend.\" \"He was delighted when the rain finally stopped.\" Your turn: tell me about a time something delighted you."
+   }
+  ],
+  "questions": [
+   "What problem did the street solve, and how?",
+   "How did Bruno seem to feel about the new arrangement — what in the story tells you that?"
+  ]
+ },
+ "check": {
+  "real": [
+   "got",
+   "top",
+   "gas",
+   "nag",
+   "dot"
+  ],
+  "pseudo": [
+   "dop",
+   "gid",
+   "pog",
+   "mig",
+   "sog"
+  ],
+  "dictation": [
+   "log"
+  ],
+  "bar": {
+   "pass": 10,
+   "of": 11,
+   "source": "lesson",
+   "raw": "≥10/11"
+  },
+  "firstAttemptOnly": true
+ },
+ "sittings": [
+  {
+   "id": "A",
+   "title": "g (~15 min)",
+   "new": [
+    "g"
+   ],
+   "warm": {
+    "text": "flash m, d (yesterday's letters). Read 3 review words: mad, dip, sad.",
+    "words": [
+     "mad",
+     "dip",
+     "sad"
+    ]
+   },
+   "hear": {
+    "text": "/g/ — back of the tongue taps the soft palate, voiced (like /k/'s \"voiced twin\"). Like the start of \"got.\""
+   },
+   "meet": {
+    "text": "\"This says /g/\" (g). **Mouth cue:** made at the very back of the mouth — put a finger gently on the throat and feel the buzz, further back than /d/'s tap.",
+    "mouthCue": "made at the very back of the mouth — put a finger gently on the throat and feel the buzz, further back than /d/'s tap."
+   },
+   "blend": {
+    "real": [
+     "gap",
+     "tag",
+     "nag",
+     "sag",
+     "gas"
+    ],
+    "pseudo": []
+   },
+   "spell": {
+    "text": "say /g/ → write **g**. Segment and write \"gap.\"",
+    "words": [
+     "gap"
+    ]
+   },
+   "mini": {
+    "text": "g on sight 5/5; blend the 5 words above at ≥4/5.",
+    "bar": {
+     "pass": 4,
+     "of": 5,
+     "source": "lesson",
+     "raw": "≥4/5"
+    }
+   }
+  },
+  {
+   "id": "B",
+   "title": "o (~15 min)",
+   "new": [
+    "o"
+   ],
+   "warm": {
+    "text": "flash g. Read 3 review words: gap, tag, sag.",
+    "words": [
+     "gap",
+     "tag",
+     "sag"
+    ]
+   },
+   "hear": {
+    "text": "/o/ — short, round, open mouth, like the start of \"on.\""
+   },
+   "meet": {
+    "text": "\"This says /o/\" (o). **Mouth cue:** rounds the lips slightly, unlike /a/'s flat-open shape — contrast \"at\" vs. \"ot\" side by side.",
+    "mouthCue": "rounds the lips slightly, unlike /a/'s flat-open shape — contrast \"at\" vs. \"ot\" side by side."
+   },
+   "blend": {
+    "real": [
+     "got",
+     "dog",
+     "top",
+     "pot",
+     "nod"
+    ],
+    "pseudo": []
+   },
+   "spell": {
+    "text": "say /o/ → write **o**. Segment and write \"dog.\"",
+    "words": [
+     "dog"
+    ]
+   },
+   "mini": {
+    "text": "o on sight 5/5; blend the 5 words above at ≥4/5.",
+    "bar": {
+     "pass": 4,
+     "of": 5,
+     "source": "lesson",
+     "raw": "≥4/5"
+    }
+   }
+  },
+  {
+   "id": "C",
+   "title": "g, o together: heart words, Read it, Check (~25–30 min)",
+   "new": [],
+   "warm": {
+    "text": "flash g, o, and 5 mixed review words: mad, dip, sad, pit, sat.",
+    "words": [
+     "mad",
+     "dip",
+     "sad",
+     "pit",
+     "sat"
+    ]
+   },
+   "blend": {
+    "real": [
+     "got",
+     "dog",
+     "log",
+     "mop",
+     "top",
+     "pot",
+     "dot",
+     "gap",
+     "tag",
+     "nag",
+     "sag",
+     "gas",
+     "mad",
+     "dip",
+     "sat"
+    ],
+    "pseudo": [
+     "dop",
+     "gid",
+     "pog",
+     "mig",
+     "sog"
+    ]
+   },
+   "spell": {
+    "text": "1. Say /g/, /o/ → write **g**, **o**. 2. Segment and write: \"got,\" \"dog.\" 3. Sentence dictation: **\"Sam got a dog.\"** (Sam: /s/ /a/ /m/; got: /g/ /o/ /t/; a: heart    word.)",
+    "words": [
+     "got",
+     "dog"
+    ],
+    "sentence": "Sam got a dog."
+   },
+   "heart": [
+    {
+     "word": "and",
+     "note": "a (✓), n (✓, L1.03), d (✓, L1.04) — this is the one word DESIGN's own schedule flags as **fully decodable, not actually irregular** at all: blend it exactly like any other word, /a/ /n/ /d/ → \"and.\" It stays on the \"heart word\" list purely because it's extremely high-frequency, not because any part of it is irregular. Say this explicitly: \"this one's a gift — nothing to memorize, just blend it.\""
+    },
+    {
+     "word": "was",
+     "note": "w hasn't been taught yet (that's L1.11); even once it is, the vowel here says /ɒ/ instead of the /æ/ you'd expect from \"wa-\", and the final s says /z/. **Mark the whole word as heart for now.** Revisit fully once w is taught."
+    }
+   ]
+  }
+ ],
+ "heart": [
+  {
+   "word": "and",
+   "note": "a (✓), n (✓, L1.03), d (✓, L1.04) — this is the one word DESIGN's own schedule flags as **fully decodable, not actually irregular** at all: blend it exactly like any other word, /a/ /n/ /d/ → \"and.\" It stays on the \"heart word\" list purely because it's extremely high-frequency, not because any part of it is irregular. Say this explicitly: \"this one's a gift — nothing to memorize, just blend it.\""
+  },
+  {
+   "word": "was",
+   "note": "w hasn't been taught yet (that's L1.11); even once it is, the vowel here says /ɒ/ instead of the /æ/ you'd expect from \"wa-\", and the final s says /z/. **Mark the whole word as heart for now.** Revisit fully once w is taught."
+  }
+ ],
+ "blendList": {
+  "real": [
+   "got",
+   "dog",
+   "log",
+   "mop",
+   "top",
+   "pot",
+   "dot",
+   "gap",
+   "tag",
+   "nag",
+   "sag",
+   "gas",
+   "mad",
+   "dip",
+   "sat"
+  ],
+  "pseudo": [
+   "dop",
+   "gid",
+   "pog",
+   "mig",
+   "sog"
+  ]
+ },
+ "blocksFound": [
+  "sittings",
+  "blendList",
+  "heart",
+  "read",
+  "listen",
+  "check",
+  "trackB",
+  "tier2"
+ ],
+ "appSittings": {
+  "A": [
+   {
+    "id": "A",
+    "new": [
+     "g"
+    ],
+    "steps": [
+     "hear",
+     "meet",
+     "trace",
+     "blend",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "B",
+    "new": [
+     "o"
+    ],
+    "steps": [
+     "warm",
+     "hear",
+     "meet",
+     "trace",
+     "blend",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "C",
+    "new": [],
+    "steps": [
+     "warm",
+     "blend",
+     "tricky",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "R",
+    "steps": [
+     "read"
+    ]
+   },
+   {
+    "id": "L",
+    "steps": [
+     "listen"
+    ]
+   },
+   {
+    "id": "X",
+    "steps": [
+     "check"
+    ]
+   }
+  ],
+  "B": [
+   {
+    "id": "AB",
+    "new": [
+     "g",
+     "o"
+    ],
+    "steps": [
+     "hear",
+     "meet",
+     "blend",
+     "spell"
+    ],
+    "keepGoing": true
+   },
+   {
+    "id": "D",
+    "steps": [
+     "warm",
+     "tricky",
+     "read",
+     "listen"
+    ]
+   },
+   {
+    "id": "X",
+    "steps": [
+     "check"
+    ]
+   }
+  ]
+ }
+}

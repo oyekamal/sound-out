@@ -1,0 +1,28 @@
+{
+ "id": "L5.07",
+ "level": 5,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-5/lessons/L5.07-tion-sion-able-ible-money-deeper.md",
+ "title": "Suffixes -tion/-sion, -able/-ible · How Money Works, Deeper (banks, saving, interest)",
+ "goal": "Read, spell, and use words with *-tion/-sion* and *-able/-ible*; return to the money topic from 5.02 with more depth; phrase-cue markup is gone — read at natural pace and see if the phrasing still comes through.",
+ "newToday": "suffix *-tion/-sion* (turns a verb into a noun — \"the act/result of doing it\") and *-able/-ible* (\"capable of being done\"). Tier-2 words: *interest*, *budget*.",
+ "review": "*-ly, -er/-or* — *quickly, teacher*.",
+ "time": "30–45 min. **Materials:** paper, pencil, timer.",
+ "read": {
+  "questions": []
+ },
+ "check": {
+  "bar": {
+   "pass": 5,
+   "of": 8,
+   "source": "lesson",
+   "raw": "≥5/8"
+  },
+  "freeResponse": true
+ },
+ "blocksFound": [
+  "read",
+  "check"
+ ],
+ "appSittings": null
+}

@@ -1,0 +1,96 @@
+{
+ "id": "L4.12",
+ "level": 4,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-4/lessons/L4.12-breaking-words-apart.md",
+ "title": "Breaking Words Apart",
+ "goal": "Learn to divide two-syllable words into chunks using three patterns — **VC/CV**,",
+ "newToday": "syllable division (VC/CV, V/CV, VC/V — the \"flex rule\"), schwa",
+ "review": "all six syllable types (closed, open, VCe, vowel team, r-controlled, consonant-le) and today's building blocks: -tion/-sion/-ture/-ous/-cial-tial",
+ "heartLine": "**money** becomes decodable-with-schwa; **people** re-explained",
+ "time": "30 min — this is the hinge lesson of Level 4; do not rush it",
+ "blendList": {
+  "real": [
+   "napkin",
+   "rabbit",
+   "sudden",
+   "magnet",
+   "picnic",
+   "muffin",
+   "kitten",
+   "basket",
+   "helmet",
+   "mitten",
+   "music",
+   "robot",
+   "tiger",
+   "paper",
+   "moment",
+   "spider",
+   "silent",
+   "pilot",
+   "focus",
+   "cabin"
+  ],
+  "pseudo": []
+ },
+ "check": {
+  "real": [
+   "napkin",
+   "spider",
+   "cabin",
+   "rainbow"
+  ],
+  "pseudo": [
+   "naptin",
+   "tazil",
+   "gorlin",
+   "plemat"
+  ],
+  "dictation": [
+   "basket"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "heart": [
+  {
+   "word": "money",
+   "note": null
+  },
+  {
+   "word": "becomes",
+   "note": null
+  },
+  {
+   "word": "decodable",
+   "note": null
+  },
+  {
+   "word": "with",
+   "note": null
+  }
+ ],
+ "read": {
+  "A": {
+   "text": "Layla found a small spider in her picnic basket. \"Don't be scared,\" her mother said, \"it's just a garden spider — it won't hurt you.\" Layla watched the spider a moment, then gently tipped the basket so it could climb onto a napkin and off into the garden. \"That spider has seven legs left — maybe it lost one,\" Layla noticed. Her mother explained that spiders often have eight legs, but this one must have had an accident. At the picnic, Layla ate a muffin and told everyone about the seven-legged spider. \"People at school won't believe this,\" she laughed, already planning how she'd tell the story tomorrow.",
+   "title": null
+  },
+  "B": {
+   "text": "Rukhsana and her husband rent a small cabin by the river for the weekend. It is a simple place — one room, a basket for firewood, and a helmet hanging by the door for the rental kayak. On the first evening, they spot a robin building a nest near the window. \"That's a good sign,\" Rukhsana's husband says. \"A robin near your cabin means good luck, my mother used to say.\" They spend the visit reading, cooking simple meals, and watching the river. Before they leave, Rukhsana notices the robin has finished its nest. \"I hope it's safe here,\" she says, already planning to visit again — maybe with enough money saved for a full week next time.",
+   "title": null
+  }
+ },
+ "blocksFound": [
+  "blendList",
+  "heart",
+  "read",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

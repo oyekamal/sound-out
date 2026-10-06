@@ -1,0 +1,28 @@
+{
+ "id": "L5.01",
+ "level": 5,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-5/lessons/L5.01-un-re-water-cycle.md",
+ "title": "Prefixes un-, re- · The Water Cycle (intro)",
+ "goal": "Read, spell, and use words with *un-* and *re-*; read a phrase-cued fluency passage on the water cycle at Model→Assisted→Independent; begin the Fry heart-word completion sequence.",
+ "newToday": "prefixes *un-* (\"not\"/\"opposite of\") and *re-* (\"again\"/\"back\") — the",
+ "review": "none (first session of the level) — if coming straight from Level 4, warm up with 5 multisyllable words from L4.16's mastery check instead.",
+ "time": "30–45 min. **Materials:** paper, pencil; a way to time a 1-minute read (phone timer); audio playback optional for the Model step.",
+ "read": {
+  "questions": []
+ },
+ "check": {
+  "bar": {
+   "pass": 5,
+   "of": 8,
+   "source": "lesson",
+   "raw": "≥5/8"
+  },
+  "freeResponse": true
+ },
+ "blocksFound": [
+  "read",
+  "check"
+ ],
+ "appSittings": null
+}

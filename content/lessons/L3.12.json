@@ -1,0 +1,92 @@
+{
+ "id": "L3.12",
+ "level": 3,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-3/lessons/L3.12-oa-ow-oe.md",
+ "title": "oa, ow, oe",
+ "goal": "Read and spell the long-o vowel team spelled **oa** (mid-word), **ow** (often end-word), and **oe** (rare, end-word).",
+ "newToday": "oa, ow (/ō/), oe",
+ "review": "ai/ay, ee/ea; open-syllable long o (go, so, no)",
+ "heartLine": "walk (review: laugh, water, once)",
+ "time": "25–30 min",
+ "blendList": {
+  "real": [
+   "boat",
+   "coat",
+   "road",
+   "soap",
+   "coach",
+   "toast",
+   "float",
+   "goat",
+   "foam",
+   "roast",
+   "snow",
+   "grow",
+   "show",
+   "slow",
+   "blow",
+   "glow",
+   "flow",
+   "low",
+   "own",
+   "know"
+  ],
+  "pseudo": [
+   "proat",
+   "snoat",
+   "droe",
+   "hoat",
+   "sloat"
+  ]
+ },
+ "check": {
+  "real": [
+   "boat",
+   "snow",
+   "toe",
+   "coat",
+   "road"
+  ],
+  "pseudo": [
+   "proat",
+   "snoat",
+   "droe",
+   "hoat",
+   "sloat"
+  ],
+  "dictation": [
+   "We walk on the road in the snow"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "heart": [
+  {
+   "word": "walk",
+   "note": null
+  }
+ ],
+ "read": {
+  "A": {
+   "text": "Sam and his dad walk to the pond with a fine boat. / When snow starts, the pond starts to glow white. / Because it is chilly, Sam puts on his coat and gets a snack of toast. / \"Let's float the boat and see if it can go,\" said Dad. / The boat does float, and Sam claps and laughs. / They walk home, glad they came to play.",
+   "title": null
+  },
+  "B": {
+   "text": "Kate had to walk home since the road was slow with traffic. / She put on her coat, since it was chilly, and got a snack of toast at a stand. / Another man said, \"This road is always slow at this time.\" / Kate did not mind — she got to see the snow glow as she walked. / By the time she got home, she felt glad.",
+   "title": null
+  }
+ },
+ "blocksFound": [
+  "blendList",
+  "heart",
+  "read",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

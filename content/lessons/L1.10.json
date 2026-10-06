@@ -1,0 +1,119 @@
+{
+ "id": "L1.10",
+ "level": 1,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-1/lessons/L1.10-floss-plural.md",
+ "title": "ff, ll, ss, zz (FLOSS) + the -s plural",
+ "goal": "Learn the doubling spelling rule (FLOSS) and the -s ending for \"more than one\" and for matching verbs to \"he/she/it\" — the first two spelling/grammar *rules* in the course, not just new sounds.",
+ "newToday": "the FLOSS rule (f, l, s, z double at the end of a short word right after one short vowel: doll, bell, kiss, buzz); the -s ending.",
+ "review": "b, f, l; words fan, big, bag.",
+ "heartLine": "do, what.",
+ "time": "20–25 minutes, single sitting.",
+ "blendList": {
+  "real": [
+   "doll",
+   "bell",
+   "fell",
+   "tell",
+   "sell",
+   "tall",
+   "hill",
+   "bill",
+   "fill",
+   "mill",
+   "kiss",
+   "buzz",
+   "cats",
+   "bugs",
+   "hats"
+  ],
+  "pseudo": [
+   "lodd",
+   "fess",
+   "nuzz",
+   "hiff",
+   "tull"
+  ]
+ },
+ "heart": [
+  {
+   "word": "do",
+   "note": "d (✓) is regular. The **o** says a long /uː/ sound here, not the short /ɒ/ just practiced for weeks — **heart part: the \"o.\"**"
+  },
+  {
+   "word": "what",
+   "note": "\"wh\" is a two-letter spelling that isn't formally taught until Level 2, Lesson 2.4 (and w itself isn't taught until L1.11, tomorrow). **Mark \"wh\" as heart for now.** The rest, \"at,\" is fully regular and already known as its own word."
+  }
+ ],
+ "read": {
+  "A": {
+   "text": "Sam got ten bells. Sam got a doll. The doll sits on the bed. Sam pats the doll. Sam hugs the doll. Is the doll a hit? The doll is a hit!",
+   "title": null
+  },
+  "B": {
+   "text": "Dan sells bells. Nat sells dolls. Dan fills a bag. Nat tells Dan, \"The bag is full.\"",
+   "title": null
+  },
+  "questions": [
+   "What did the main character get at the start of the text?",
+   "Find one word in the text that has a doubled letter at the end (FLOSS) — which letter is doubled?",
+   "Think: \"hit\" is used at the end of Track A to mean \"a success, something people love\" — not \"to strike something.\" Can you think of another sentence using each meaning of \"hit\"?"
+  ]
+ },
+ "listen": {
+  "title": "One Word, Two Meanings",
+  "passage": "English is full of words that look and sound exactly the same but mean completely different things depending on how they're used — linguists call these homonyms. \"Well\" can mean a deep hole dug for water, or it can mean feeling healthy, or it can mean \"okay, so...\" at the start of a sentence. \"Bill\" can be a person's name, a piece of paper telling you what you owe, or the beak of a bird. Context — the words around a word — is what tells a listener or reader which meaning is meant. This is exactly why understanding a whole sentence matters so much more than knowing single words in isolation.",
+  "tier2": [
+   {
+    "word": "context",
+    "def": "the words, situation, or information around something that helps explain what it means.",
+    "full": "the words, situation, or information around something that helps explain what it means. \"Without context, that sentence was confusing.\" \"Read the whole paragraph for context.\" Your turn: can you think of a word that changes meaning depending on context?"
+   },
+   {
+    "word": "isolation",
+    "def": "being separate or apart from everything else, on its own.",
+    "full": "being separate or apart from everything else, on its own. \"One word in isolation doesn't tell you much.\" \"She practiced the difficult passage in isolation before playing the whole song.\" Your turn: what's easier to understand with context than in isolation?"
+   }
+  ],
+  "questions": [
+   "What are two completely different meanings of the word \"bill,\" according to the passage?",
+   "Why does the passage say context matters more than knowing single words alone?"
+  ]
+ },
+ "check": {
+  "real": [
+   "bell",
+   "kiss",
+   "cats",
+   "hats",
+   "fill"
+  ],
+  "pseudo": [
+   "lodd",
+   "fess",
+   "nuzz",
+   "hiff",
+   "tull"
+  ],
+  "dictation": [
+   "doll"
+  ],
+  "bar": {
+   "pass": 10,
+   "of": 11,
+   "source": "lesson",
+   "raw": "≥10/11"
+  },
+  "firstAttemptOnly": true
+ },
+ "blocksFound": [
+  "blendList",
+  "heart",
+  "read",
+  "listen",
+  "check",
+  "trackB",
+  "tier2"
+ ],
+ "appSittings": null
+}

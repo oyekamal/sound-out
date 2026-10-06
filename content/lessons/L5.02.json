@@ -1,0 +1,28 @@
+{
+ "id": "L5.02",
+ "level": 5,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-5/lessons/L5.02-in-not-dis-how-money-works.md",
+ "title": "Prefixes in-/im-/ir-/il- (not), dis- · How Money Works (barter → currency)",
+ "goal": "Read, spell, and use words with the \"not\" prefix family (*in-, im-, ir-, il-*) and *dis-*; continue the fluency program on a new passage; keep clearing the Fry heart-word list.",
+ "newToday": "*in-/im-/ir-/il-* (\"not\") and *dis-* — together with *un-*, these are the **top 4 prefixes**, covering ~58% of all prefixed words in school reading material (White, Sowell & Yanagihara 1989 — research/05 §1). Tier-2 words: *valuable*, *convenient*.",
+ "review": "*un-, re-* — 3 quick words each (*unlock, uncertain, redo*) before moving on.",
+ "time": "30–45 min. **Materials:** paper, pencil, timer.",
+ "read": {
+  "questions": []
+ },
+ "check": {
+  "bar": {
+   "pass": 5,
+   "of": 8,
+   "source": "lesson",
+   "raw": "≥5/8"
+  },
+  "freeResponse": true
+ },
+ "blocksFound": [
+  "read",
+  "check"
+ ],
+ "appSittings": null
+}

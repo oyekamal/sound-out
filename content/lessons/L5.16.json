@@ -1,0 +1,18 @@
+{
+ "id": "L5.16",
+ "level": 5,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-5/lessons/L5.16-review-integration-capstone.md",
+ "title": "Review, Integration & Extensive Reading Capstone",
+ "goal": "Cumulative review of all 19 prefixes, 13 suffixes, 9 number roots, and 20 commonly-useful roots taught in this level; finish the Fry first-300 heart-word list (251–300); read a spiral-wrap knowledge text connecting all five topics; run an extensive-reading capstone activity; prepare for the Level 5 mastery check.",
+ "newToday": "nothing new — this is consolidation. Tier-2 review: all 30 words taught this level (list below).",
+ "review": "everything (see §2).",
+ "time": "45 min (longer than usual — this is a wrap-up session; split across two sittings if needed, doing §2–3 in one and §4–6 in another). **Materials:** paper, pencil, timer, and whatever graded reader/article the learner has been assigned or has chosen for the extensive-reading capstone (§4).",
+ "read": {
+  "questions": []
+ },
+ "blocksFound": [
+  "read"
+ ],
+ "appSittings": null
+}

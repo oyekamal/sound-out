@@ -1,0 +1,20 @@
+{
+ "id": "L7.13",
+ "level": 7,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-7/lessons/L7.13-literary-unreliable-narrator-poetry.md",
+ "title": "Literary Reading II: Unreliable Narrator & Poetry",
+ "goal": "Recognize when a first-person narrator's account of events can't be fully trusted, and read a short poem for figurative meaning, sound, and compression (saying a lot in very few words).",
+ "time": "40 min · **Materials:** notebook.",
+ "read": {
+  "questions": [
+   "List three specific phrases the narrator uses to insist they are \"calm\" or \"reasonable.\" Why does a narrator who is genuinely calm rarely need to say so this many times?",
+   "Name one detail reported almost in passing — something another character says or does — that directly contradicts the narrator's version of themselves.",
+   "Reconstruct, in your own words, what probably actually happened that Thursday, reading around the narrator's own framing rather than trusting it."
+  ]
+ },
+ "blocksFound": [
+  "read"
+ ],
+ "appSittings": null
+}

@@ -1,0 +1,83 @@
+{
+ "id": "L2.01",
+ "level": 2,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-2/lessons/L2.01-sh.md",
+ "title": "sh",
+ "goal": "Read and spell words with the digraph `sh` at the start and end of words.",
+ "newToday": "`sh` (one sound, /ʃ/, spelled with two letters)",
+ "review": "all Level 1 single letters, especially `s` and `h` (which combine to make this new sound)",
+ "heartLine": "says, for",
+ "time": "20–25 min",
+ "blendList": {
+  "real": [
+   "shap",
+   "shom",
+   "hesh",
+   "vosh",
+   "nash"
+  ],
+  "pseudo": []
+ },
+ "heart": [
+  {
+   "word": "says",
+   "note": "heart part: the whole word is irregular for a beginning reader — it is spelled like it should rhyme with \"days\" or \"plays,\" but it actually rhymes with \"fez\" (/sɛz/). Mark the whole word as heart for now. Point out it is the closest sibling of the Level 1 heart word \"said\" — both are the \"tell/ask\" word family and both break the same way."
+  },
+  {
+   "word": "for",
+   "note": "heart part: the whole word is irregular for now (it needs the r-controlled `or` sound this course doesn't formally teach until Level 4); mark it fully heart, and note it sits right beside \"of\" — a Level 1 heart word the learner already knows — as a small memory anchor."
+  }
+ ],
+ "read": {
+  "A": {
+   "text": "Dad and I go to the shop. Dad gets fish for us, and a dish for Mom. \"The shop is shut at six,\" Dad says. I wish for a big ship in the tub! Mom can put cash in a box for the shop. \"It is on the shelf,\" Mom says.",
+   "title": null
+  },
+  "B": {
+   "text": "Sam has a job at the fish shop. He gets cash for his boss, and fish for the shop. \"The shop is shut at six,\" Sam's boss says. Sam and his mom wish for ten fish. \"It is on the shelf, not in his bag,\" Sam says.",
+   "title": null
+  }
+ },
+ "listen": {
+  "title": null,
+  "passage": "A fisherman named Tom worked on a small boat every morning. One day, Tom caught a fish that was absolutely **enormous** — far bigger than any fish he had ever seen before. It was so large that he could barely lift it into the boat! Tom's friends at the harbor could not believe their eyes. \"That fish is enormous!\" they shouted. Tom laughed and said an enormous fish like that would feed the whole street for a week. He shared it with every family on his road, and everyone had a wonderful dinner that night.",
+  "tier2": [],
+  "questions": []
+ },
+ "check": {
+  "real": [
+   "ship",
+   "wish",
+   "cash",
+   "hush",
+   "dish"
+  ],
+  "pseudo": [
+   "shob",
+   "fesh",
+   "wosh",
+   "shig",
+   "dansh"
+  ],
+  "dictation": [
+   "shut"
+  ],
+  "bar": {
+   "pass": 10,
+   "of": 11,
+   "source": "lesson",
+   "raw": "10 of 11"
+  },
+  "firstAttemptOnly": true
+ },
+ "blocksFound": [
+  "blendList",
+  "heart",
+  "read",
+  "listen",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

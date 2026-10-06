@@ -1,0 +1,367 @@
+{
+ "id": "L1.08",
+ "level": 1,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-1/lessons/L1.08-r-h.md",
+ "title": "r h",
+ "goal": "Read and spell r, h; unlock \"rat,\" \"hat,\" \"run\" — and, since both letters are now taught, turn yesterday's two heart words (\"are,\" \"he\") fully or partly decodable.",
+ "newToday": "letters r, h (sounds /r/, /h/) — **one new sound per sitting**.",
+ "review": "e, u; words cut, ten, sun.",
+ "heartLine": "she, we (taught in the final combined sitting).",
+ "time": "three sittings — A (~15 min), B (~15 min), C (~25–30 min).",
+ "read": {
+  "A": {
+   "text": "Sam ran. Mom ran. The sun is hot. Is Sam hot? Is Mom hot? We are hot! She got a hat.",
+   "title": null
+  },
+  "B": {
+   "text": "Dan ran to the dock. Nat ran to the dock. The sun got hot. Is Dan hot? Is Nat hot? We are hot. She got a mug.",
+   "title": null
+  },
+  "questions": [
+   "What got hot in the text?",
+   "Who got a hat, or a mug, at the end?",
+   "Think: what are some other ways people cool down on a very hot day at work or at play?"
+  ]
+ },
+ "listen": {
+  "title": "The Morning Rotation",
+  "passage": "Before smartphones and ride-share apps existed, neighbors organized a shared morning school run with nothing more than a notebook taped inside someone's kitchen cabinet. Every family wrote down which mornings they could take the children, and everyone else simply trusted the schedule. It sounds old-fashioned, but the system worked because everyone had something to lose if they broke the trust — miss your turn, and you'd better believe your neighbors would remember. These days, apps handle the scheduling, but the core idea hasn't changed at all: a group of people agreeing to share both the effort and the waiting, so no single person carries the whole burden alone.",
+  "tier2": [
+   {
+    "word": "schedule",
+    "def": "a plan that says when things will happen, especially times and dates.",
+    "full": "a plan that says when things will happen, especially times and dates. \"Check the bus schedule before you leave.\" \"Our morning schedule is taped to the fridge.\" Your turn: what's on your schedule today?"
+   },
+   {
+    "word": "burden",
+    "def": "something heavy or difficult that a person has to carry or deal with, not always a physical weight.",
+    "full": "something heavy or difficult that a person has to carry or deal with, not always a physical weight. \"Sharing the school run took some of the burden off Mom.\" \"Debt can be a heavy burden.\" Your turn: what's one way people can share a burden?"
+   }
+  ],
+  "questions": [
+   "How did the old-fashioned rotation keep people honest, without any app?",
+   "What is the \"core idea\" the passage says hasn't changed, even with new technology?"
+  ]
+ },
+ "check": {
+  "real": [
+   "rat",
+   "hop",
+   "hat",
+   "rug",
+   "rid"
+  ],
+  "pseudo": [
+   "rup",
+   "hac",
+   "gir",
+   "kur",
+   "dor"
+  ],
+  "dictation": [
+   "run"
+  ],
+  "bar": {
+   "pass": 10,
+   "of": 11,
+   "source": "lesson",
+   "raw": "≥10/11"
+  },
+  "firstAttemptOnly": true
+ },
+ "sittings": [
+  {
+   "id": "A",
+   "title": "r (~15 min)",
+   "new": [
+    "r"
+   ],
+   "warm": {
+    "text": "flash e, u. Read 3 review words: cut, ten, sun.",
+    "words": [
+     "cut",
+     "ten",
+     "sun"
+    ]
+   },
+   "hear": {
+    "text": "/r/ — lips round slightly, tongue curls back without touching the roof of the mouth, like the start of \"run.\""
+   },
+   "meet": {
+    "text": "\"This says /r/\" (r). **Mouth cue:** /r/ is the first sound so far made with the tongue not touching anything — it just curls.",
+    "mouthCue": "/r/ is the first sound so far made with the tongue not touching anything — it just curls."
+   },
+   "blend": {
+    "real": [
+     "rat",
+     "ran",
+     "rug",
+     "run",
+     "rid"
+    ],
+    "pseudo": []
+   },
+   "spell": {
+    "text": "say /r/ → write **r**. Segment and write \"run.\"",
+    "words": [
+     "run"
+    ]
+   },
+   "mini": {
+    "text": "r on sight 5/5; blend the 5 words above at ≥4/5.",
+    "bar": {
+     "pass": 4,
+     "of": 5,
+     "source": "lesson",
+     "raw": "≥4/5"
+    }
+   }
+  },
+  {
+   "id": "B",
+   "title": "h (~15 min)",
+   "new": [
+    "h"
+   ],
+   "warm": {
+    "text": "flash r. Read 3 review words: rat, ran, run.",
+    "words": [
+     "rat",
+     "ran",
+     "run"
+    ]
+   },
+   "hear": {
+    "text": "/h/ — just breath, no tongue or lip shaping at all, like a soft sigh, the start of \"hat.\""
+   },
+   "meet": {
+    "text": "\"This says /h/\" (h). **Mouth cue:** the first sound made with pure breath and nothing else — put a hand in front of the mouth and feel the puff of air with no buzz.",
+    "mouthCue": "the first sound made with pure breath and nothing else — put a hand in front of the mouth and feel the puff of air with no buzz."
+   },
+   "blend": {
+    "real": [
+     "hut",
+     "hug",
+     "hat",
+     "hen",
+     "hop"
+    ],
+    "pseudo": []
+   },
+   "spell": {
+    "text": "say /h/ → write **h**. Segment and write \"hat.\"",
+    "words": [
+     "hat"
+    ]
+   },
+   "mini": {
+    "text": "h on sight 5/5; blend the 5 words above at ≥4/5.",
+    "bar": {
+     "pass": 4,
+     "of": 5,
+     "source": "lesson",
+     "raw": "≥4/5"
+    }
+   }
+  },
+  {
+   "id": "C",
+   "title": "r, h together: heart words, Read it, Check (~25–30 min)",
+   "new": [],
+   "warm": {
+    "text": "flash r, h; blend 5 mixed words spanning both: rat, hop, hat, run, hen. Also re-read yesterday's two heart words (\"are,\" \"he\") — point out that \"he\" is now fully decodable (h + e, both taught).",
+    "words": [
+     "rat",
+     "hop",
+     "hat",
+     "run",
+     "hen"
+    ]
+   },
+   "blend": {
+    "real": [
+     "rat",
+     "ran",
+     "rug",
+     "run",
+     "hut",
+     "hug",
+     "ham",
+     "hop",
+     "hat",
+     "hen",
+     "rot",
+     "rid",
+     "hog",
+     "rip",
+     "hid"
+    ],
+    "pseudo": [
+     "rup",
+     "hac",
+     "gir",
+     "kur",
+     "dor"
+    ]
+   },
+   "spell": {
+    "text": "1. Segment and write: \"run,\" \"hat.\" 2. Sentence dictation: **\"We ran and ran.\"** (We: heart word; ran: /r/ /a/ /n/; and: fully    decodable heart word.)",
+    "words": [
+     "run",
+     "hat"
+    ],
+    "sentence": "We ran and ran."
+   },
+   "heart": [
+    {
+     "word": "she",
+     "note": "\"sh\" is a two-letter spelling for one sound (a digraph) that isn't formally taught until Level 2, Lesson 2.1 — a little further ahead than most heart words reach back to. **Mark \"sh\" as heart for now**; the e is regular. Say: \"'sh' is its own sound, a bit like c/k or ck were their own — you'll get the full lesson on it soon.\""
+    },
+    {
+     "word": "we",
+     "note": "w isn't taught until **L1.11**. **Mark w as heart for now**; the e is regular. Like \"he\" was yesterday, this word will fully graduate off the heart-word list once w arrives."
+    }
+   ]
+  }
+ ],
+ "heart": [
+  {
+   "word": "she",
+   "note": "\"sh\" is a two-letter spelling for one sound (a digraph) that isn't formally taught until Level 2, Lesson 2.1 — a little further ahead than most heart words reach back to. **Mark \"sh\" as heart for now**; the e is regular. Say: \"'sh' is its own sound, a bit like c/k or ck were their own — you'll get the full lesson on it soon.\""
+  },
+  {
+   "word": "we",
+   "note": "w isn't taught until **L1.11**. **Mark w as heart for now**; the e is regular. Like \"he\" was yesterday, this word will fully graduate off the heart-word list once w arrives."
+  }
+ ],
+ "blendList": {
+  "real": [
+   "rat",
+   "ran",
+   "rug",
+   "run",
+   "hut",
+   "hug",
+   "ham",
+   "hop",
+   "hat",
+   "hen",
+   "rot",
+   "rid",
+   "hog",
+   "rip",
+   "hid"
+  ],
+  "pseudo": [
+   "rup",
+   "hac",
+   "gir",
+   "kur",
+   "dor"
+  ]
+ },
+ "blocksFound": [
+  "sittings",
+  "blendList",
+  "heart",
+  "read",
+  "listen",
+  "check",
+  "trackB",
+  "tier2"
+ ],
+ "appSittings": {
+  "A": [
+   {
+    "id": "A",
+    "new": [
+     "r"
+    ],
+    "steps": [
+     "hear",
+     "meet",
+     "trace",
+     "blend",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "B",
+    "new": [
+     "h"
+    ],
+    "steps": [
+     "warm",
+     "hear",
+     "meet",
+     "trace",
+     "blend",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "C",
+    "new": [],
+    "steps": [
+     "warm",
+     "blend",
+     "tricky",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "R",
+    "steps": [
+     "read"
+    ]
+   },
+   {
+    "id": "L",
+    "steps": [
+     "listen"
+    ]
+   },
+   {
+    "id": "X",
+    "steps": [
+     "check"
+    ]
+   }
+  ],
+  "B": [
+   {
+    "id": "AB",
+    "new": [
+     "r",
+     "h"
+    ],
+    "steps": [
+     "hear",
+     "meet",
+     "blend",
+     "spell"
+    ],
+    "keepGoing": true
+   },
+   {
+    "id": "D",
+    "steps": [
+     "warm",
+     "tricky",
+     "read",
+     "listen"
+    ]
+   },
+   {
+    "id": "X",
+    "steps": [
+     "check"
+    ]
+   }
+  ]
+ }
+}

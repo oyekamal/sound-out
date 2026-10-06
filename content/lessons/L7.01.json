@@ -1,0 +1,20 @@
+{
+ "id": "L7.01",
+ "level": 7,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-7/lessons/L7.01-orientation-and-baseline.md",
+ "title": "Orientation & Baseline: What \"Advanced Reader\" Means",
+ "goal": "Understand the Level 7 finish line in concrete terms; take a baseline stamina/speed reading; meet the academic-vocabulary routine that runs through the whole level.",
+ "time": "40 min · **Materials:** timer, notebook/paper, this lesson.",
+ "read": {
+  "questions": [
+   "According to the passage, what is the actual difference between how a historian reads a soldier's diary and how she reads a modern newspaper?",
+   "Name the \"trap\" the passage says catches almost everyone when they read a scientific study, and explain it in your own words using a different example than ice cream/drowning.",
+   "Think question: The passage claims specialists' reading habits reduce to \"largely the same handful of questions... asked inside four or five different rooms.\" List those questions in your own words. Do you think the same four questions really would work for reading a poem (Session 13)? Why or why not — answer before you've done that session; you'll revisit this."
+  ]
+ },
+ "blocksFound": [
+  "read"
+ ],
+ "appSittings": null
+}

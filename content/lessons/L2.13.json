@@ -1,0 +1,87 @@
+{
+ "id": "L2.13",
+ "level": 2,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-2/lessons/L2.13-review.md",
+ "title": "Review (everything from Level 2)",
+ "goal": "Consolidate every grapheme and ending taught in Level 2 before the mastery check — no new phonics content today, just cumulative retrieval practice at the hardest level the learner has reached.",
+ "newToday": "nothing new — pure review",
+ "review": "`sh, ch, tch, th, wh, ng, nk`; initial and final 2-letter blends; 3-letter blends; `-s/-es, -ed, -ing/-er`; compounds and closed 2-syllable words",
+ "heartLine": "again, friend, because (the last 3 of Level 2's 29)",
+ "time": "25–30 min",
+ "blendList": {
+  "real": [
+   "wish",
+   "catch",
+   "thin",
+   "strishing",
+   "flonked",
+   "chuffer"
+  ],
+  "pseudo": []
+ },
+ "heart": [
+  {
+   "word": "again",
+   "note": "heart part: contains the vowel team `ai` (a Level 3 topic, not yet taught) and doesn't say the sound the learner would expect from it anyway; mark it fully heart for now."
+  },
+  {
+   "word": "friend",
+   "note": "heart part: the whole word is irregular (the `ie` says a short-e sound, very unusual); mark it fully heart. Point out this is a word worth extra practice simply because it is used so often."
+  },
+  {
+   "word": "because",
+   "note": "heart part: the whole word is irregular (`au` says a short sound, final `se` says /z/); mark it fully heart. This is the last new heart word in Level 2 — all 29 are now taught (review the full list together once, aloud)."
+  }
+ ],
+ "read": {
+  "A": {
+   "text": "Min and Dad go to visit a friend. / They pack a backpack with a napkin / and a muffin. / \"I want to bring the pink rabbit,\" / Min says, / \"because it is fun.\" / Min and the friend run and jump in the grass. / When they get to the pond, / they sit still. / A fish splashes, / and Min spots an insect on a twig. / The friend is helping Min hunt for bugs. / \"Should we catch it?\" / the friend asks. / \"No, / let's just watch it,\" / Min says, / \"because it is not bad.\" / They pack up at sunset, / and hug the friend. / Min and Dad go back, / glad and full, / and plan to come again.",
+   "title": null
+  },
+  "B": {
+   "text": "Sam has a shift with a friend from a shop, / helping fix a big backlog of dents and checks. / \"This job is a lot, / but his friend can help,\" / Sam says, / \"because two friends finish fast.\" / They pack the kit, / check the list, / and split the job up. / Sam's friend fixes the dents, / and Sam checks the vans / and prints the list. / At dusk, / the shop has a full stock of fixed vans / and a strong stack of finished checks. / \"We should do this again,\" / Sam's friend says. / \"Yes, / because it went fast and we still got it done,\" / Sam says, / and they clap hands, / glad and calm.",
+   "title": null
+  }
+ },
+ "listen": {
+  "title": null,
+  "passage": "Retrieval passage: A stubborn old goat named Bella refused to leave the muddy field even when it started to rain hard. Her owner, cautious as always, did not want to drag a furious, wet goat across a slippery yard, so he waited, patient, under the barn roof. After an hour of stubborn standing in the rain, Bella finally got cold enough to trot inside on her own — no longer stubborn, just cautious about getting even wetter. Her owner laughed, dried her off, and said a stubborn goat always changes its mind eventually, as long as you stay cautious and let it happen in its own time.",
+  "tier2": [],
+  "questions": []
+ },
+ "check": {
+  "real": [
+   "wish",
+   "strap",
+   "desk",
+   "wishes",
+   "jumped"
+  ],
+  "pseudo": [
+   "strishing",
+   "flonked",
+   "chuffer",
+   "vandest",
+   "thramping"
+  ],
+  "dictation": [
+   "napkin"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "blocksFound": [
+  "blendList",
+  "heart",
+  "read",
+  "listen",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

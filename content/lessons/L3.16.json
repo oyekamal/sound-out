@@ -1,0 +1,85 @@
+{
+ "id": "L3.16",
+ "level": 3,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-3/lessons/L3.16-ild-ind-old-ost.md",
+ "title": "-ild, -ind, -old, -ost",
+ "goal": "Read words ending in **-ild, -ind, -old, -ost**, a small set of closed-syllable-*looking* words where the vowel is actually long, not short.",
+ "newToday": "-ild (wild, child), -ind (kind, find), -old (cold, gold), -ost (most, post)",
+ "review": "all Level 3 vowel teams so far",
+ "heartLine": "none new — all 16 Level 3 heart words were completed at L3.08; today is decoding-only.",
+ "time": "25–30 min",
+ "blendList": {
+  "real": [
+   "wild",
+   "child",
+   "mild",
+   "kind",
+   "find",
+   "mind",
+   "blind",
+   "behind",
+   "cold",
+   "gold",
+   "hold",
+   "fold",
+   "told",
+   "sold",
+   "bold",
+   "most",
+   "post",
+   "host",
+   "wind",
+   "cost"
+  ],
+  "pseudo": [
+   "grild",
+   "plind",
+   "snold",
+   "trost",
+   "flild"
+  ]
+ },
+ "check": {
+  "real": [
+   "cold",
+   "find",
+   "most",
+   "wild",
+   "gold"
+  ],
+  "pseudo": [
+   "grild",
+   "plind",
+   "snold",
+   "trost",
+   "flild"
+  ],
+  "dictation": [
+   "It is cold, so I will hold my whole coat"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "read": {
+  "A": {
+   "text": "It is a wild, cold day, and Sam and his mom go for a walk. / They see a child with a gold kite, and the wind is strong. / \"Hold my hand,\" said Mom, \"because the wind is wild today.\" / Sam is glad she told him to hold on. / They walk the whole way home, and Sam feels most glad once they are back and warm.",
+   "title": null
+  },
+  "B": {
+   "text": "Kate lost her old job when the shop closed, so she must find a new one. / Because she is bold, she does not quit — she sends her whole plan to ten shops. / One shop gets back to her and gives her a spot to start. / \"I am so glad I did not lose hope,\" said Kate, most glad to have a new start. / Kate holds on to the good news the whole day.",
+   "title": null
+  }
+ },
+ "blocksFound": [
+  "blendList",
+  "read",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

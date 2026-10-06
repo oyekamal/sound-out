@@ -1,0 +1,65 @@
+{
+ "id": "L4.14",
+ "level": 4,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-4/lessons/L4.14-the-word-attack-routine.md",
+ "title": "The Word-Attack Routine",
+ "goal": "Put every syllable-type, syllable-division, and morphology skill from Level 4 together into one repeatable routine for decoding ANY long, unfamiliar word — real or made-up.",
+ "newToday": "the five-step word-attack routine (mark → peel → chunk → blend → flex)",
+ "review": "all six syllable types, syllable division + schwa, suffix spelling rules, and -tion/-sion/-ture/-ous/-cial-tial",
+ "heartLine": "none new",
+ "time": "30–35 min — this lesson is the payoff of the whole level; give it room",
+ "blendList": {
+  "real": [
+   "reporting",
+   "unfriendly",
+   "misplaced",
+   "nonstop",
+   "rewriting",
+   "unbuttoned",
+   "disconnected"
+  ],
+  "pseudo": []
+ },
+ "check": {
+  "real": [
+   "reporting",
+   "unfriendly",
+   "disconnected",
+   "reconsider"
+  ],
+  "pseudo": [
+   "contramble",
+   "fenscription",
+   "unpladding",
+   "disflorted",
+   "remistion"
+  ],
+  "dictation": [
+   "restarting"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "read": {
+  "A": {
+   "text": "In her story, Amina wrote about a robot named Blip who was the unhappiest robot in the whole factory. Blip kept restarting himself, hoping a reboot would fix his mood, but nothing changed. One day, an engineer noticed Blip's wiring was disconnected in one small spot. After reconnecting it, Blip stopped feeling unfriendly toward the other robots and started reporting for his shift with a smile. \"Sometimes the unhappiest robot just needs the right person to notice the disconnection,\" Amina's teacher said when she read the story aloud. Amina's classmates loved it, especially the part where Blip went from unfriendly to the friendliest robot in the whole story.",
+   "title": null
+  },
+  "B": {
+   "text": "At the office, the internet has been nonstop unreliable all morning. Farah, the IT support worker, starts by reconsidering the whole network setup instead of just restarting each computer one by one. She finds that a cable was quietly disconnected behind a desk — someone had bumped it while unpacking a delivery. After reconnecting it, she spends an hour retesting every computer, reporting her findings to her manager as she goes. \"This was more than a quick fix,\" she tells her manager, \"it needed real troubleshooting, not just restarting things and hoping.\" Her manager thanks her for being so thorough, and by the afternoon, the whole office is back online, no longer disconnected.",
+   "title": null
+  }
+ },
+ "blocksFound": [
+  "blendList",
+  "read",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

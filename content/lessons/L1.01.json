@@ -1,0 +1,47 @@
+{
+ "id": "L1.01",
+ "level": 1,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-1/lessons/L1.01-sounds-in-words.md",
+ "title": "Sounds in Words",
+ "goal": "Hear that spoken words are made of separate sounds, and blend/segment 2–3-sound words *orally* — no letters yet, except a 60-second preview of two shapes at the very end.",
+ "newToday": "oral phonemic awareness (blending, segmenting), mouth-position awareness.",
+ "review": "none — this is lesson 1.",
+ "heartLine": "none yet.",
+ "time": "15–20 minutes (shorter than later lessons on purpose).",
+ "listen": {
+  "title": "A Big Noisy Day",
+  "passage": "Sam woke up to a loud bang. It was not thunder — it was the neighbor fixing his old truck again! Sam's little sister covered her ears and laughed. \"That truck is louder than a drum,\" she said. Their mother peeked out the window and shook her head. \"Every single morning,\" she sighed, but she was smiling. Outside, the truck coughed, sputtered, and finally started with a satisfying roar. Sam waved at the neighbor, who waved back, covered in oil and grinning proudly.",
+  "tier2": [
+   {
+    "word": "sputtered",
+    "def": "made short, uneven, coughing sounds (like an engine that won't start smoothly).",
+    "full": "made short, uneven, coughing sounds (like an engine that won't start smoothly). \"The old car sputtered before it finally started.\" \"The candle sputtered and went out.\" Your turn: can you think of something else that sputters?"
+   },
+   {
+    "word": "satisfying",
+    "def": "giving a feeling of pleasure because something worked out or finished well.",
+    "full": "giving a feeling of pleasure because something worked out or finished well. \"It was satisfying to finally fix the leaky tap.\" \"Eating a good meal after a long day feels satisfying.\" Your turn: tell me one thing that feels satisfying to you."
+   }
+  ],
+  "questions": [
+   "What was the loud noise, really?",
+   "How do you think the mother really felt about the noise — annoyed, amused, both? Why do you think that?"
+  ]
+ },
+ "check": {
+  "bar": {
+   "pass": 4,
+   "of": 5,
+   "source": "lesson",
+   "raw": "≥4/5"
+  },
+  "freeResponse": true
+ },
+ "blocksFound": [
+  "listen",
+  "check",
+  "tier2"
+ ],
+ "appSittings": null
+}

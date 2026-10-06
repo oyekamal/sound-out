@@ -1,0 +1,430 @@
+{
+ "id": "L1.09",
+ "level": 1,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-1/lessons/L1.09-b-f-l.md",
+ "title": "b f l",
+ "goal": "Read and spell b, f, l; add two more fully decodable \"heart\" words (me, be) now that b is taught.",
+ "newToday": "letters b, f, l (sounds /b/, /f/, /l/) — **one new sound per sitting**.",
+ "review": "r, h; words rat, hop, hat.",
+ "heartLine": "me, be (taught in the final combined sitting).",
+ "time": "four sittings — A (~12 min), B (~12 min), C (~12 min), D (~25–30 min).",
+ "read": {
+  "A": {
+   "text": "Let me get the big bug! The bug is on the bed. The bug ran. Sam ran. Sam got the bug. Sam let the bug run.",
+   "title": null
+  },
+  "B": {
+   "text": "Let me get the big bag. The bag is at the dock. Dan ran. Dan got the bag. Dan let Nat get the bag.",
+   "title": null
+  },
+  "questions": [
+   "What did the main character say at the very start (\"Let me...\")?",
+   "Who ran, and what did they end up doing with the bug/bag?",
+   "Think: in Track B, why do you think Dan let Nat have the bag instead of keeping it?"
+  ]
+ },
+ "listen": {
+  "title": "Whose Bag Is It?",
+  "passage": "When a stranger's bag turns up with no name on it, most people feel a small pull in two directions at once — curiosity about what's inside, and a clear sense that opening it isn't quite right. Workplaces that handle a lot of lost property usually have a simple rule for this: log it, store it somewhere safe, and hold it for a set number of days before deciding what happens next. It sounds almost too basic to matter, but that small bit of structure is exactly what stops an honest mistake from turning into an argument later about who touched what, and when.",
+  "tier2": [
+   {
+    "word": "curiosity",
+    "def": "a strong wish to know or learn something.",
+    "full": "a strong wish to know or learn something. \"Her curiosity got the better of her and she peeked inside.\" \"A good scientist starts with curiosity.\" Your turn: what makes you curious?"
+   },
+   {
+    "word": "structure",
+    "def": "an organized way of doing something, with clear steps or rules, instead of handling things randomly.",
+    "full": "an organized way of doing something, with clear steps or rules, instead of handling things randomly. \"The team added more structure to their morning routine.\" \"Without structure, the project fell apart.\" Your turn: where in your day do you rely on structure?"
+   }
+  ],
+  "questions": [
+   "What two feelings does the passage say people get when they find an unlabeled bag?",
+   "Why does having a simple rule (log it, store it, wait) help avoid arguments later?"
+  ]
+ },
+ "check": {
+  "real": [
+   "fan",
+   "big",
+   "bag",
+   "lip",
+   "bed"
+  ],
+  "pseudo": [
+   "fon",
+   "lir",
+   "bof",
+   "lut",
+   "fim"
+  ],
+  "dictation": [
+   "let"
+  ],
+  "bar": {
+   "pass": 10,
+   "of": 11,
+   "source": "lesson",
+   "raw": "≥10/11"
+  },
+  "firstAttemptOnly": true
+ },
+ "sittings": [
+  {
+   "id": "A",
+   "title": "b (~12 min)",
+   "new": [
+    "b"
+   ],
+   "warm": {
+    "text": "flash r, h. Read 3 review words: rat, hop, hat.",
+    "words": [
+     "rat",
+     "hop",
+     "hat"
+    ]
+   },
+   "hear": {
+    "text": "/b/ — lips press together then pop apart with voice buzzing (b is /p/'s \"voiced twin\"), like the start of \"bat.\""
+   },
+   "meet": {
+    "text": "\"This says /b/\" (b). **Mouth cue:** contrast b and p — say \"pat\" then \"bat,\" feeling the buzz on b that's missing on p.",
+    "mouthCue": "contrast b and p — say \"pat\" then \"bat,\" feeling the buzz on b that's missing on p."
+   },
+   "blend": {
+    "real": [
+     "bat",
+     "big",
+     "bit",
+     "bag",
+     "bed"
+    ],
+    "pseudo": []
+   },
+   "spell": {
+    "text": "say /b/ → write **b**. Segment and write \"big.\"",
+    "words": [
+     "big"
+    ]
+   },
+   "mini": {
+    "text": "b on sight 5/5; blend the 5 words above at ≥4/5.",
+    "bar": {
+     "pass": 4,
+     "of": 5,
+     "source": "lesson",
+     "raw": "≥4/5"
+    }
+   }
+  },
+  {
+   "id": "B",
+   "title": "f (~12 min)",
+   "new": [
+    "f"
+   ],
+   "warm": {
+    "text": "flash b. Read 3 review words: bat, big, bag.",
+    "words": [
+     "bat",
+     "big",
+     "bag"
+    ]
+   },
+   "hear": {
+    "text": "/f/ — top teeth rest gently on the bottom lip, air hisses through, no buzz, like the start of \"fan.\""
+   },
+   "meet": {
+    "text": "\"This says /f/\" (f). **Mouth cue:** show the teeth-on-lip position clearly.",
+    "mouthCue": "show the teeth-on-lip position clearly."
+   },
+   "blend": {
+    "real": [
+     "fan",
+     "fat",
+     "fig",
+     "fun",
+     "fog"
+    ],
+    "pseudo": []
+   },
+   "spell": {
+    "text": "say /f/ → write **f**. Segment and write \"fan.\"",
+    "words": [
+     "fan"
+    ]
+   },
+   "mini": {
+    "text": "f on sight 5/5; blend the 5 words above at ≥4/5.",
+    "bar": {
+     "pass": 4,
+     "of": 5,
+     "source": "lesson",
+     "raw": "≥4/5"
+    }
+   }
+  },
+  {
+   "id": "C",
+   "title": "l (~12 min)",
+   "new": [
+    "l"
+   ],
+   "warm": {
+    "text": "flash f. Read 3 review words: fan, fat, fig.",
+    "words": [
+     "fan",
+     "fat",
+     "fig"
+    ]
+   },
+   "hear": {
+    "text": "/l/ — tongue tip touches right behind the top front teeth, sound flows around the sides of the tongue, like the start of \"leg.\""
+   },
+   "meet": {
+    "text": "\"This says /l/\" (l). **Mouth cue:** the tongue tip stays up the whole time the sound continues — unlike every consonant so far, you can \"hold\" /l/ as long as you have breath.",
+    "mouthCue": "the tongue tip stays up the whole time the sound continues — unlike every consonant so far, you can \"hold\" /l/ as long as you have breath."
+   },
+   "blend": {
+    "real": [
+     "leg",
+     "lap",
+     "lip",
+     "let",
+     "lid"
+    ],
+    "pseudo": []
+   },
+   "spell": {
+    "text": "say /l/ → write **l**. Segment and write \"leg.\"",
+    "words": [
+     "leg"
+    ]
+   },
+   "mini": {
+    "text": "l on sight 5/5; blend the 5 words above at ≥4/5.",
+    "bar": {
+     "pass": 4,
+     "of": 5,
+     "source": "lesson",
+     "raw": "≥4/5"
+    }
+   }
+  },
+  {
+   "id": "D",
+   "title": "b, f, l together: heart words, Read it, Check (~25–30 min)",
+   "new": [],
+   "warm": {
+    "text": "flash b, f, l; blend 5 mixed words spanning all three: bat, fan, leg, big, fig.",
+    "words": [
+     "bat",
+     "fan",
+     "leg",
+     "big",
+     "fig"
+    ]
+   },
+   "blend": {
+    "real": [
+     "fan",
+     "fat",
+     "fig",
+     "leg",
+     "lap",
+     "lip",
+     "bat",
+     "big",
+     "bit",
+     "bag",
+     "bed",
+     "bud",
+     "bun",
+     "lid",
+     "lock"
+    ],
+    "pseudo": [
+     "fon",
+     "lir",
+     "bof",
+     "lut",
+     "fim"
+    ]
+   },
+   "spell": {
+    "text": "1. Segment and write: \"big,\" \"fan.\" 2. Sentence dictation: **\"Let me get the bag.\"** (Let: /l/ /e/ /t/; me: heart word, but fully    decodable — see below; get: /g/ /e/ /t/; the: heart word; bag: /b/ /a/ /g/.)",
+    "words": [
+     "big",
+     "fan"
+    ],
+    "sentence": "Let me get the bag."
+   },
+   "heart": [
+    {
+     "word": "me",
+     "note": "m (✓) + e (✓). **Fully decodable, no heart part at all.** Like \"and\" back in L1.05, this one's a gift: blend it normally."
+    },
+    {
+     "word": "be",
+     "note": "b (✓, taught today) + e (✓). **Also fully decodable.** Two free ones in one lesson — point this out; it's a nice confidence boost after several lessons of genuinely irregular words."
+    }
+   ]
+  }
+ ],
+ "heart": [
+  {
+   "word": "me",
+   "note": "m (✓) + e (✓). **Fully decodable, no heart part at all.** Like \"and\" back in L1.05, this one's a gift: blend it normally."
+  },
+  {
+   "word": "be",
+   "note": "b (✓, taught today) + e (✓). **Also fully decodable.** Two free ones in one lesson — point this out; it's a nice confidence boost after several lessons of genuinely irregular words."
+  }
+ ],
+ "blendList": {
+  "real": [
+   "fan",
+   "fat",
+   "fig",
+   "leg",
+   "lap",
+   "lip",
+   "bat",
+   "big",
+   "bit",
+   "bag",
+   "bed",
+   "bud",
+   "bun",
+   "lid",
+   "lock"
+  ],
+  "pseudo": [
+   "fon",
+   "lir",
+   "bof",
+   "lut",
+   "fim"
+  ]
+ },
+ "blocksFound": [
+  "sittings",
+  "blendList",
+  "heart",
+  "read",
+  "listen",
+  "check",
+  "trackB",
+  "tier2"
+ ],
+ "appSittings": {
+  "A": [
+   {
+    "id": "A",
+    "new": [
+     "b"
+    ],
+    "steps": [
+     "hear",
+     "meet",
+     "trace",
+     "blend",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "B",
+    "new": [
+     "f"
+    ],
+    "steps": [
+     "warm",
+     "hear",
+     "meet",
+     "trace",
+     "blend",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "C",
+    "new": [
+     "l"
+    ],
+    "steps": [
+     "warm",
+     "hear",
+     "meet",
+     "trace",
+     "blend",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "D",
+    "new": [],
+    "steps": [
+     "warm",
+     "blend",
+     "tricky",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "R",
+    "steps": [
+     "read"
+    ]
+   },
+   {
+    "id": "L",
+    "steps": [
+     "listen"
+    ]
+   },
+   {
+    "id": "X",
+    "steps": [
+     "check"
+    ]
+   }
+  ],
+  "B": [
+   {
+    "id": "ABC",
+    "new": [
+     "b",
+     "f",
+     "l"
+    ],
+    "steps": [
+     "hear",
+     "meet",
+     "blend",
+     "spell"
+    ],
+    "keepGoing": true
+   },
+   {
+    "id": "D",
+    "steps": [
+     "warm",
+     "tricky",
+     "read",
+     "listen"
+    ]
+   },
+   {
+    "id": "X",
+    "steps": [
+     "check"
+    ]
+   }
+  ]
+ }
+}

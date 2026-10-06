@@ -1,0 +1,401 @@
+{
+ "id": "L1.11",
+ "level": 1,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-1/lessons/L1.11-j-v-w.md",
+ "title": "j v w",
+ "goal": "Read and spell j, v, w — and, since w is now taught, retire \"was\" and \"we\" from fully-heart status.",
+ "newToday": "letters j, v, w (sounds /dʒ/, /v/, /w/) — **one new sound per sitting**.",
+ "review": "FLOSS + -s; words bell, kiss, cats.",
+ "heartLine": "they, one (taught in the final combined sitting).",
+ "time": "four sittings — A (~12 min), B (~12 min), C (~15 min), D (~25–30 min).",
+ "read": {
+  "A": {
+   "text": "Sam got jam. Sam got a jet. Sam ran. Sam is wet. They ran and ran. Sam had fun.",
+   "title": null
+  },
+  "B": {
+   "text": "Dan got a job. Dan got a van. Dan is wet. Nat got a job. Nat is a vet. They get a van at the dock.",
+   "title": null
+  },
+  "questions": [
+   "What got wet in the text, and how do you think that happened?",
+   "What did the two people in Track B each get?",
+   "Think: what job do you think a \"vet\" who also drives a delivery van might actually be doing — is this the same kind of vet as an animal doctor, or could \"vet\" mean something else here?"
+  ]
+ },
+ "listen": {
+  "title": "One Word, Many Jobs",
+  "passage": "The word \"vet\" hides a small trap: most people think first of an animal doctor, but \"vet\" is also short for \"veteran\" — someone who has served in the military — and it's a verb too, as in \"the company vetted every new driver before hiring them,\" meaning they checked the person's background carefully. Three different meanings, one small word, and only the sentence around it tells you which one is meant. Careful readers learn to slow down for a half-second whenever a short, familiar-looking word suddenly doesn't quite fit the sentence — that pause is often the first sign a word is doing a job you didn't expect.",
+  "tier2": [
+   {
+    "word": "veteran",
+    "def": "someone with a lot of experience, especially someone who has served in the armed forces.",
+    "full": "someone with a lot of experience, especially someone who has served in the armed forces. \"He's a veteran of twenty years in the fire service.\" \"A veteran teacher mentored the new hires.\" Your turn: who's a \"veteran\" in your life, in either sense?"
+   },
+   {
+    "word": "background",
+    "def": "a person's past experience, history, or where they come from.",
+    "full": "a person's past experience, history, or where they come from. \"The company checked her background before the interview.\" \"His background in cooking helped him open the restaurant.\" Your turn: how would you describe your own background in one sentence?"
+   }
+  ],
+  "questions": [
+   "Name the three different meanings of \"vet\" the passage describes.",
+   "What does the passage suggest a careful reader should do when a short word \"doesn't quite fit\"?"
+  ]
+ },
+ "check": {
+  "real": [
+   "jam",
+   "van",
+   "wet",
+   "wig",
+   "job"
+  ],
+  "pseudo": [
+   "jov",
+   "wab",
+   "vob",
+   "jum",
+   "wov"
+  ],
+  "dictation": [
+   "vet"
+  ],
+  "bar": {
+   "pass": 10,
+   "of": 11,
+   "source": "lesson",
+   "raw": "≥10/11"
+  },
+  "firstAttemptOnly": true
+ },
+ "sittings": [
+  {
+   "id": "A",
+   "title": "j (~12 min)",
+   "new": [
+    "j"
+   ],
+   "warm": {
+    "text": "flash the FLOSS rule and -s ending. Read 3 review words: bell, kiss, cats.",
+    "words": [
+     "bell",
+     "kiss",
+     "cats"
+    ]
+   },
+   "hear": {
+    "text": "/dʒ/ — tongue taps the ridge like /d/, then releases into a soft, buzzy \"zh\" — like the start of \"jam.\""
+   },
+   "meet": {
+    "text": "\"This says /dʒ/\" (j). **Mouth cue:** contrast against /g/ (both made toward the back/roof) — j is softer and further forward, with that buzzy release.",
+    "mouthCue": "contrast against /g/ (both made toward the back/roof) — j is softer and further forward, with that buzzy release."
+   },
+   "blend": {
+    "real": [
+     "jam",
+     "jog",
+     "jet",
+     "job",
+     "jab"
+    ],
+    "pseudo": []
+   },
+   "spell": {
+    "text": "say /dʒ/ → write **j**. Segment and write \"jog.\"",
+    "words": [
+     "jog"
+    ]
+   },
+   "mini": {
+    "text": "j on sight 5/5; blend the 5 words above at ≥4/5.",
+    "bar": {
+     "pass": 4,
+     "of": 5,
+     "source": "lesson",
+     "raw": "≥4/5"
+    }
+   }
+  },
+  {
+   "id": "B",
+   "title": "v (~12 min)",
+   "new": [
+    "v"
+   ],
+   "warm": {
+    "text": "flash j. Read 3 review words: jam, jog, job.",
+    "words": [
+     "jam",
+     "jog",
+     "job"
+    ]
+   },
+   "hear": {
+    "text": "/v/ — top teeth rest on bottom lip like /f/, but with voice buzzing — /v/ is /f/'s \"voiced twin.\" Like the start of \"van.\""
+   },
+   "meet": {
+    "text": "\"This says /v/\" (v). **Mouth cue:** feel the throat buzz on v, none on f — same contrast pattern as b/p, d/t, g/k.",
+    "mouthCue": "feel the throat buzz on v, none on f — same contrast pattern as b/p, d/t, g/k."
+   },
+   "blend": {
+    "real": [
+     "van",
+     "vet",
+     "vat"
+    ],
+    "pseudo": []
+   },
+   "spell": {
+    "text": "say /v/ → write **v**. Segment and write \"van.\"",
+    "words": [
+     "van"
+    ]
+   },
+   "mini": {
+    "text": "v on sight 5/5; blend the 3 words above at ≥3/3 (a smaller set — v has fewer word-initial CVC partners at this stage, which is fine).",
+    "bar": {
+     "pass": 3,
+     "of": 3,
+     "source": "lesson",
+     "raw": "≥3/3"
+    }
+   }
+  },
+  {
+   "id": "C",
+   "title": "w (~15 min)",
+   "new": [
+    "w"
+   ],
+   "warm": {
+    "text": "flash v. Read 3 review words: van, vet, vat.",
+    "words": [
+     "van",
+     "vet",
+     "vat"
+    ]
+   },
+   "hear": {
+    "text": "/w/ — lips round tightly then release, like blowing out a candle in slow motion, the start of \"wet.\""
+   },
+   "meet": {
+    "text": "\"This says /w/\" (w). **Mouth cue:** show the lip-rounding clearly; it's the second sound (after /r/) with almost no visible tongue placement to copy, so watch the lips instead.",
+    "mouthCue": "show the lip-rounding clearly; it's the second sound (after /r/) with almost no visible tongue placement to copy, so watch the lips instead."
+   }
+  },
+  {
+   "id": "D",
+   "title": "j, v, w together: heart words, Read it, Check (~25–30 min)",
+   "new": [],
+   "warm": {
+    "text": "flash j, v, w; blend 5 mixed words spanning all three: jam, van, wet, job, wig. Redo the v/w minimal-pair drill once more if Sitting C's mini check was close.",
+    "words": [
+     "jam",
+     "van",
+     "wet",
+     "job",
+     "wig"
+    ]
+   },
+   "blend": {
+    "real": [
+     "jam",
+     "jog",
+     "jet",
+     "job",
+     "van",
+     "vet",
+     "wag",
+     "wig",
+     "wet",
+     "win",
+     "web",
+     "well",
+     "jab",
+     "jot",
+     "vat"
+    ],
+    "pseudo": [
+     "jov",
+     "wab",
+     "vob",
+     "jum",
+     "wov"
+    ]
+   },
+   "spell": {
+    "text": "1. Segment and write: \"job,\" \"wet.\" 2. Sentence dictation: **\"Sam is wet.\"** (Sam: /s/ /a/ /m/; is: heart word; wet: /w/ /e/ /t/.)",
+    "words": [
+     "job",
+     "wet"
+    ],
+    "sentence": "Sam is wet."
+   },
+   "heart": [
+    {
+     "word": "they",
+     "note": "\"th\" isn't formally taught until Level 2, Lesson 2.3, and \"ey\" spells an irregular /eɪ/ sound here rather than anything taught yet. **Mark the whole word as heart.**"
+    },
+    {
+     "word": "one",
+     "note": "completely irregular (/wʌn/) — none of its letters behave as taught, even with w now known. **Mark the whole word as heart** — this is a genuine, permanent heart word, not a \"not taught yet\" placeholder like some of the earlier ones."
+    }
+   ]
+  }
+ ],
+ "heart": [
+  {
+   "word": "they",
+   "note": "\"th\" isn't formally taught until Level 2, Lesson 2.3, and \"ey\" spells an irregular /eɪ/ sound here rather than anything taught yet. **Mark the whole word as heart.**"
+  },
+  {
+   "word": "one",
+   "note": "completely irregular (/wʌn/) — none of its letters behave as taught, even with w now known. **Mark the whole word as heart** — this is a genuine, permanent heart word, not a \"not taught yet\" placeholder like some of the earlier ones."
+  }
+ ],
+ "blendList": {
+  "real": [
+   "jam",
+   "jog",
+   "jet",
+   "job",
+   "van",
+   "vet",
+   "wag",
+   "wig",
+   "wet",
+   "win",
+   "web",
+   "well",
+   "jab",
+   "jot",
+   "vat"
+  ],
+  "pseudo": [
+   "jov",
+   "wab",
+   "vob",
+   "jum",
+   "wov"
+  ]
+ },
+ "blocksFound": [
+  "sittings",
+  "blendList",
+  "heart",
+  "read",
+  "listen",
+  "check",
+  "trackB",
+  "tier2"
+ ],
+ "appSittings": {
+  "A": [
+   {
+    "id": "A",
+    "new": [
+     "j"
+    ],
+    "steps": [
+     "hear",
+     "meet",
+     "trace",
+     "blend",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "B",
+    "new": [
+     "v"
+    ],
+    "steps": [
+     "warm",
+     "hear",
+     "meet",
+     "trace",
+     "blend",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "C",
+    "new": [
+     "w"
+    ],
+    "steps": [
+     "warm",
+     "hear",
+     "meet",
+     "trace"
+    ],
+    "mini": true
+   },
+   {
+    "id": "D",
+    "new": [],
+    "steps": [
+     "warm",
+     "blend",
+     "tricky",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "R",
+    "steps": [
+     "read"
+    ]
+   },
+   {
+    "id": "L",
+    "steps": [
+     "listen"
+    ]
+   },
+   {
+    "id": "X",
+    "steps": [
+     "check"
+    ]
+   }
+  ],
+  "B": [
+   {
+    "id": "ABC",
+    "new": [
+     "j",
+     "v",
+     "w"
+    ],
+    "steps": [
+     "hear",
+     "meet",
+     "blend",
+     "spell"
+    ],
+    "keepGoing": true
+   },
+   {
+    "id": "D",
+    "steps": [
+     "warm",
+     "tricky",
+     "read",
+     "listen"
+    ]
+   },
+   {
+    "id": "X",
+    "steps": [
+     "check"
+    ]
+   }
+  ]
+ }
+}

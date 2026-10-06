@@ -1,0 +1,91 @@
+{
+ "id": "L2.08",
+ "level": 2,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-2/lessons/L2.08-three-letter-blends.md",
+ "title": "Three-letter blends (str spr scr spl squ shr thr)",
+ "goal": "Read and spell words that start with a three-consonant blend.",
+ "newToday": "`str spr scr spl squ shr thr`",
+ "review": "2-letter initial and final blends; `sh, ch, tch, th, wh, ng, nk`; Level 1 letters",
+ "heartLine": "who, could",
+ "time": "20–25 min",
+ "blendList": {
+  "real": [
+   "strap",
+   "string",
+   "strict",
+   "scrap",
+   "scrub",
+   "split",
+   "splash",
+   "squid",
+   "squint",
+   "strab",
+   "scrin",
+   "splob",
+   "shreck",
+   "thruv"
+  ],
+  "pseudo": []
+ },
+ "heart": [
+  {
+   "word": "who",
+   "note": "heart part: the whole word is irregular — `wh` here says /h/, not the usual /w/ from L2.04, and `o` says /oo/; mark the whole word as heart, but tell the learner explicitly it's the ONE exception to the `wh`=`/w/` rule they just learned, so they don't doubt the rule itself."
+  },
+  {
+   "word": "could",
+   "note": "heart part: irregular vowel spelling and a silent `l`; only the final `d` is fully regular. Point out \"could\" rhymes with \"would\" and \"should,\" coming in the next two lessons — same heart pattern, three words."
+  }
+ ],
+ "read": {
+  "A": {
+   "text": "\"Who has a shrimp and a squid?\" / Min asks. / \"Min has a shrimp and a squid,\" / Dad says. / \"Could we splash them in the sink?\" / Min asks. / \"You could splash them in the tub,\" / Dad says. / Min and Dad splash the shrimp and squid in the tub. / Min grabs a strap and helps scrub the tub. / \"This is a thrill!\" / Min says, / and grins.",
+   "title": null
+  },
+  "B": {
+   "text": "\"Who could help scrub the shop?\" / Sam's boss asks. / \"I could,\" / Sam says, / and grabs a strap to fix the bin. / Sam splits the job with a pal. / Sam scrubs the mats, / and checks the straps on the bin. / Sam thinks the shop is strict but fun. / At the end, / Sam is glad the job is done.",
+   "title": null
+  }
+ },
+ "listen": {
+  "title": null,
+  "passage": "A young dog named Bruno was usually eager to try anything new, but the first time his owner brought out a bicycle, Bruno was strangely **reluctant**. He backed away, tail low, refusing to go anywhere near the strange spinning wheels. His owner tried treats, gentle words, even a favorite toy — but Bruno stayed reluctant, watching from a safe distance. Then one afternoon, the owner simply sat beside the bicycle and let Bruno sniff it in his own time, with no pushing at all. Slowly, Bruno's reluctant ears perked up, and he stepped closer. By the end of the week, the once-reluctant Bruno was trotting happily alongside the bicycle on every walk.",
+  "tier2": [],
+  "questions": []
+ },
+ "check": {
+  "real": [
+   "strap",
+   "scrub",
+   "split",
+   "shrimp",
+   "thrill"
+  ],
+  "pseudo": [
+   "strab",
+   "scrin",
+   "splob",
+   "shreck",
+   "thruv"
+  ],
+  "dictation": [
+   "string"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "blocksFound": [
+  "blendList",
+  "heart",
+  "read",
+  "listen",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

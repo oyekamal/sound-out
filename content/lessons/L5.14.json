@@ -1,0 +1,28 @@
+{
+ "id": "L5.14",
+ "level": 5,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-5/lessons/L5.14-anti-mid-under-roots-internet.md",
+ "title": "Prefixes anti-, mid-, under- · Roots aud, graph/gram, ject, mit/mis · The Internet: How a Message Travels",
+ "goal": "Read, spell, and use words with *anti-, mid-, under-*; learn four more commonly-useful roots; apply both to a passage on how a message actually travels across the internet.",
+ "newToday": "*anti-* (\"against\"), *mid-* (\"middle\"), *under-* (\"below\" / \"not enough\"); roots *aud* (hear), *graph/gram* (write/draw), *ject* (throw), *mit/mis* (send). Tier-2 words: *network*, *instant*.",
+ "review": "*scrib/script, tract, rupt, vis/vid* — one example word each.",
+ "time": "30–45 min — content-dense, fine to run slightly long. **Materials:** paper, pencil, timer.",
+ "read": {
+  "questions": []
+ },
+ "check": {
+  "bar": {
+   "pass": 6,
+   "of": 9,
+   "source": "lesson",
+   "raw": "≥6/9"
+  },
+  "freeResponse": true
+ },
+ "blocksFound": [
+  "read",
+  "check"
+ ],
+ "appSittings": null
+}

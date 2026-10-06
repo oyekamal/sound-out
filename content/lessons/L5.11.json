@@ -1,0 +1,28 @@
+{
+ "id": "L5.11",
+ "level": 5,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-5/lessons/L5.11-ness-ment-number-roots-solar-system.md",
+ "title": "Suffixes -ness, -ment · Number Roots · The Solar System",
+ "goal": "Read, spell, and use words with *-ness* and *-ment*; learn the 9 number roots (a self-evidently transparent, motivating starting point for root study — research/05 §5f); apply both to a solar-system knowledge text.",
+ "newToday": "suffix *-ness* (\"the state/quality of,\" turns an adjective into a noun) and *-ment* (\"the act/result of,\" turns a verb into a noun); number roots *mono-, uni-, bi-, tri-, quad-, pent-, hex-, oct-, dec-*. Tier-2 words: *enormous*, *distant*.",
+ "review": "*de-, trans-* — *decrease, transport*.",
+ "time": "30–45 min (this session is content-dense — it's fine to run slightly long, or to split the number-roots section into a short extra 10-minute add-on if time is tight). **Materials:** paper, pencil, timer.",
+ "read": {
+  "questions": []
+ },
+ "check": {
+  "bar": {
+   "pass": 6,
+   "of": 9,
+   "source": "lesson",
+   "raw": "≥6/9"
+  },
+  "freeResponse": true
+ },
+ "blocksFound": [
+  "read",
+  "check"
+ ],
+ "appSittings": null
+}

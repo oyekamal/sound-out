@@ -1,0 +1,343 @@
+{
+ "id": "L1.02",
+ "level": 1,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-1/lessons/L1.02-s-a-t.md",
+ "title": "s a t",
+ "goal": "Read and spell the letters s, a, t by sound; blend them into the only real words they can currently make.",
+ "newToday": "letters s, a, t (sounds /s/, /æ/, /t/) — **one new sound per sitting** (see below), not all three in a single session.",
+ "review": "yesterday's oral blending games (2 min recap only).",
+ "heartLine": "a, I (taught in the final combined sitting, once s/a/t are all in).",
+ "time": "four short sittings — A (~10 min), B (~10 min), C (~15 min), D (~25–30 min). Run one sitting per session (research/01 §5 rule 2: cap new-GPC introduction, mastery-gated, not calendar-gated), or see the fast-track note below.",
+ "read": {
+  "A": {
+   "text": "Sat. A tat. At.",
+   "title": null
+  },
+  "B": {
+   "sameAsA": true
+  },
+  "questions": [
+   "Which word means someone sat down? (\"sat\")",
+   "Which word starts with the /a/ sound and has just two letters? (\"at\" or \"as\")",
+   "Think: can you say another word that has only the sounds /s/, /a/, /t/ in some order?"
+  ]
+ },
+ "listen": {
+  "title": "Sam's First Day",
+  "passage": "Sam felt nervous walking into the new classroom. Everyone else already seemed to know each other, chatting and laughing near the window. Sam picked a desk near the back and sat down quietly, hoping nobody would notice how fast their heart was beating. Then a girl named Mia turned around and smiled. \"Are you new? I sat exactly where you are on my first day too,\" she said. \"It gets easier by lunchtime, I promise.\" Sam felt a small knot of worry loosen. Maybe today wouldn't be so bad after all.",
+  "tier2": [
+   {
+    "word": "nervous",
+    "def": "feeling worried or a little scared about something that's about to happen.",
+    "full": "feeling worried or a little scared about something that's about to happen. \"I felt nervous before my first swimming lesson.\" \"She was nervous about the job interview.\" Your turn: tell me about a time you felt nervous."
+   },
+   {
+    "word": "loosen",
+    "def": "to become less tight or less tense.",
+    "full": "to become less tight or less tense. \"The worried knot in his stomach began to loosen.\" \"Loosen your grip on the rope a little.\" Your turn: what's something that can loosen?"
+   }
+  ],
+  "questions": [
+   "How did Sam feel at the very start of the story? How do you know?",
+   "Why do you think Mia's words helped Sam feel better?"
+  ]
+ },
+ "check": {
+  "real": [
+   "at",
+   "sat",
+   "as",
+   "at",
+   "sat"
+  ],
+  "pseudo": [
+   "tas",
+   "sta",
+   "ast",
+   "sas",
+   "att"
+  ],
+  "dictation": [
+   "at"
+  ],
+  "bar": {
+   "pass": 9,
+   "of": 11,
+   "source": "lesson",
+   "raw": "≥9/11"
+  },
+  "firstAttemptOnly": true
+ },
+ "sittings": [
+  {
+   "id": "A",
+   "title": "s (~10 min)",
+   "new": [
+    "s"
+   ],
+   "warm": {
+    "text": "none — this is the level's first letter after L1.01's oral-only lesson."
+   },
+   "hear": {
+    "text": "/s/ — hissing sound, like a snake. Say \"sun...s-s-s-un.\""
+   },
+   "meet": {
+    "text": "\"This says /s/.\" (letter **s**). **Mouth cue:** teeth close together, air hisses out. **Optional multisensory:** trace **s** in the air or in sand while saying /s/.",
+    "mouthCue": "teeth close together, air hisses out."
+   },
+   "blend": {
+    "real": [],
+    "pseudo": [],
+    "note": "not yet possible"
+   },
+   "spell": {
+    "text": "say /s/ → write **s**, several times.",
+    "words": []
+   },
+   "mini": {
+    "text": "can the learner produce /s/ instantly, on sight of the letter, 5/5 times? If not, repeat Hear it/Meet it once more before Sitting B.",
+    "bar": null
+   }
+  },
+  {
+   "id": "B",
+   "title": "a (~10 min)",
+   "new": [
+    "a"
+   ],
+   "warm": {
+    "text": "flash s — \"what does it say?\""
+   },
+   "hear": {
+    "text": "/a/ — short, open mouth, like the start of \"apple.\" Say \"at...a-a-at.\""
+   },
+   "meet": {
+    "text": "\"This says /a/.\" (letter **a**). **Mouth cue:** mouth drops open, jaw relaxed.",
+    "mouthCue": "mouth drops open, jaw relaxed."
+   },
+   "blend": {
+    "real": [],
+    "pseudo": [],
+    "syllable": "sa"
+   },
+   "spell": {
+    "text": "say /a/ → write **a**. Segment and write \"sa\" (a practice syllable, not scored as a real spelling).",
+    "words": [
+     "sa"
+    ]
+   },
+   "mini": {
+    "text": "s + a, both sounds on sight, 5/5, plus one blend of \"sa.\" If not solid, repeat before Sitting C.",
+    "bar": null
+   }
+  },
+  {
+   "id": "C",
+   "title": "t (~15 min)",
+   "new": [
+    "t"
+   ],
+   "warm": {
+    "text": "flash s, a. Blend \"sa\" once as a refresher."
+   },
+   "hear": {
+    "text": "/t/ — quick tap of the tongue behind the top teeth, like a tiny click. Say \"top...t-top.\""
+   },
+   "meet": {
+    "text": "\"This says /t/.\" (letter **t**). **Mouth cue:** tongue taps the ridge behind the top front teeth, then releases.",
+    "mouthCue": "tongue taps the ridge behind the top front teeth, then releases."
+   },
+   "blend": {
+    "real": [
+     "at",
+     "as",
+     "sat"
+    ],
+    "pseudo": [
+     "tas",
+     "ast",
+     "sta",
+     "sas",
+     "att"
+    ]
+   },
+   "spell": {
+    "text": "say /t/ → write **t**. Segment and write \"at,\" \"sat\" — these are the first two real, scored spellings of the lesson.",
+    "words": [
+     "at",
+     "sat"
+    ]
+   },
+   "mini": {
+    "text": "all three letter-sounds, 5/5 each; blend all 8 items above at ≥7/8.",
+    "bar": {
+     "pass": 7,
+     "of": 8,
+     "source": "lesson",
+     "raw": "≥7/8"
+    }
+   }
+  },
+  {
+   "id": "D",
+   "title": "s, a, t together: heart words, Read it, Check (~25–30 min)",
+   "new": [],
+   "warm": {
+    "text": "flash s, a, t in mixed order; blend all 8 items from Sitting C once more, faster this time."
+   },
+   "heart": [
+    {
+     "word": "a",
+     "note": "you already learned this letter says /a/ (like in \"at\") when it's *inside* a word. On its own, as its own tiny word, it usually says a quick \"uh\" sound instead (e.g., \"a cat\"). **Heart part: the \"uh\" pronunciation** — the letter shape is the one you just learned; only the sound-as-a-standalone-word is the irregular bit to remember."
+    },
+    {
+     "word": "I",
+     "note": "always a capital letter, always alone as a word, and it says its own letter *name*, \"eye.\" The lowercase letter i (which says /i/ inside words like \"pin\") isn't formally taught until **L1.03**, tomorrow. For now, treat the whole word **I** as one memorized shape — \"heart it\": I = \"eye,\" always capital, always by itself."
+    }
+   ]
+  }
+ ],
+ "heart": [
+  {
+   "word": "a",
+   "note": "you already learned this letter says /a/ (like in \"at\") when it's *inside* a word. On its own, as its own tiny word, it usually says a quick \"uh\" sound instead (e.g., \"a cat\"). **Heart part: the \"uh\" pronunciation** — the letter shape is the one you just learned; only the sound-as-a-standalone-word is the irregular bit to remember."
+  },
+  {
+   "word": "I",
+   "note": "always a capital letter, always alone as a word, and it says its own letter *name*, \"eye.\" The lowercase letter i (which says /i/ inside words like \"pin\") isn't formally taught until **L1.03**, tomorrow. For now, treat the whole word **I** as one memorized shape — \"heart it\": I = \"eye,\" always capital, always by itself."
+  }
+ ],
+ "blendList": {
+  "real": [
+   "at",
+   "as",
+   "sat"
+  ],
+  "pseudo": [
+   "tas",
+   "ast",
+   "sta",
+   "sas",
+   "att"
+  ]
+ },
+ "blocksFound": [
+  "sittings",
+  "blendList",
+  "heart",
+  "read",
+  "listen",
+  "check",
+  "trackB",
+  "tier2"
+ ],
+ "appSittings": {
+  "A": [
+   {
+    "id": "A",
+    "new": [
+     "s"
+    ],
+    "steps": [
+     "hear",
+     "meet",
+     "trace",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "B",
+    "new": [
+     "a"
+    ],
+    "steps": [
+     "warm",
+     "hear",
+     "meet",
+     "trace",
+     "blend",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "C",
+    "new": [
+     "t"
+    ],
+    "steps": [
+     "warm",
+     "hear",
+     "meet",
+     "trace",
+     "blend",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "D",
+    "new": [],
+    "steps": [
+     "warm",
+     "blend",
+     "tricky",
+     "spell"
+    ],
+    "mini": true
+   },
+   {
+    "id": "R",
+    "steps": [
+     "read"
+    ]
+   },
+   {
+    "id": "L",
+    "steps": [
+     "listen"
+    ]
+   },
+   {
+    "id": "X",
+    "steps": [
+     "check"
+    ]
+   }
+  ],
+  "B": [
+   {
+    "id": "ABC",
+    "new": [
+     "s",
+     "a",
+     "t"
+    ],
+    "steps": [
+     "hear",
+     "meet",
+     "blend",
+     "spell"
+    ],
+    "keepGoing": true
+   },
+   {
+    "id": "D",
+    "steps": [
+     "warm",
+     "tricky",
+     "read",
+     "listen"
+    ]
+   },
+   {
+    "id": "X",
+    "steps": [
+     "check"
+    ]
+   }
+  ]
+ }
+}

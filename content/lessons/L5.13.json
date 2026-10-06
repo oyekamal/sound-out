@@ -1,0 +1,28 @@
+{
+ "id": "L5.13",
+ "level": 5,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-5/lessons/L5.13-ful-less-ive-roots-simple-machines.md",
+ "title": "Suffixes -ful, -less, -ive · Roots scrib/script, tract, rupt, vis/vid · How Simple Machines Work",
+ "goal": "Read, spell, and use words with *-ful, -less, -ive*; learn four more commonly-useful roots; return to the standard single-passage fluency format (no more scripts or phrase-cues from here on — full independent pacing).",
+ "newToday": "suffixes *-ful* (\"full of\"), *-less* (\"without\"), *-ive* (\"having the quality/tendency of\"); roots *scrib/script* (write), *tract* (pull/drag), *rupt* (break), *vis/vid* (see). Tier-2 words: *assist*, *reduce*.",
+ "review": "*spect, port, dict, struct* — one example word each, quick oral round.",
+ "time": "30–45 min. **Materials:** paper, pencil, timer.",
+ "read": {
+  "questions": []
+ },
+ "check": {
+  "bar": {
+   "pass": 6,
+   "of": 9,
+   "source": "lesson",
+   "raw": "≥6/9"
+  },
+  "freeResponse": true
+ },
+ "blocksFound": [
+  "read",
+  "check"
+ ],
+ "appSittings": null
+}

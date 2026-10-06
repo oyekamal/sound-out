@@ -1,0 +1,79 @@
+{
+ "id": "L4.05",
+ "level": 4,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-4/lessons/L4.05-the-noisy-boy.md",
+ "title": "The Noisy Boy",
+ "goal": "Read and spell words with the diphthong **oi** and **oy** (one sound, two spellings).",
+ "newToday": "oi, oy",
+ "review": "ar, or, ore, er, ir, ur, air, are, ear, eer, war, wor",
+ "heartLine": "none new — review *once, boy(not a heart word — decodable now, see note)*",
+ "time": "25 min",
+ "blendList": {
+  "real": [
+   "oil",
+   "boil",
+   "coin",
+   "join",
+   "point",
+   "joint",
+   "spoil",
+   "moist",
+   "soil",
+   "void",
+   "noise",
+   "choice",
+   "boy",
+   "toy",
+   "joy",
+   "soy",
+   "enjoy",
+   "annoy",
+   "royal",
+   "destroy"
+  ],
+  "pseudo": []
+ },
+ "check": {
+  "real": [
+   "oil",
+   "point",
+   "coin",
+   "boy",
+   "enjoy"
+  ],
+  "pseudo": [
+   "floip",
+   "scoy",
+   "moin",
+   "throy",
+   "zoint"
+  ],
+  "dictation": [
+   "join"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "read": {
+  "A": {
+   "text": "Zayn is a boy who makes a lot of noise. In class, his choice seat is next to the window, and he likes to spot every bird, truck, and train he sees. \"Zayn, use a soft voice,\" his teacher says. At recess, Zayn and his friends toss a coin to pick a game. \"Heads, we play tag. Tails, we play with the toy trucks,\" Zayn says. The coin lands on tails. Zayn grins big and runs to get the toy box. His friend Roy joins in, and soon the whole class is enjoying the game. By the end of recess, Zayn's voice is quite tired from cheering.",
+   "title": null
+  },
+  "B": {
+   "text": "Tariq works at a shop that fixes engines. Today, he must make a choice: fix an old engine's oil leak, or help a customer who needs a new coin battery for her car key. His boss, Mr. Roy, tells him to help the customer first. Tariq checks the car key, finds the right coin battery, and fits it in. \"That should not annoy you again,\" he tells her. Then Tariq turns to the oil leak — it takes him a good while to find the moist patch under the engine and seal the joint. By the end of the day, Tariq feels the joy of a job done well, even when his voice is tired from talking to so many customers.",
+   "title": null
+  }
+ },
+ "blocksFound": [
+  "blendList",
+  "read",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

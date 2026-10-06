@@ -1,0 +1,93 @@
+{
+ "id": "L2.11",
+ "level": 2,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-2/lessons/L2.11-ing-er.md",
+ "title": "Adding -ing and -er (no base change)",
+ "goal": "Read and spell words with `-ing` (an action happening now) and `-er` (the person or thing that does it, or \"more\"), where the base word needs no spelling change at all.",
+ "newToday": "`-ing`, `-er` (added straight onto the end — no doubling, no dropping letters; those spelling rules are their own lesson later, in Level 4)",
+ "review": "`-ed`; `-s/-es`; all blends and digraphs so far",
+ "heartLine": "many, any, her",
+ "time": "20–25 min",
+ "blendList": {
+  "real": [
+   "jumping",
+   "wishing",
+   "fixing",
+   "checking",
+   "resting",
+   "packing",
+   "camping",
+   "florbing",
+   "vashing",
+   "plemter",
+   "stronker",
+   "drelling"
+  ],
+  "pseudo": []
+ },
+ "heart": [
+  {
+   "word": "many",
+   "note": "heart part: `a` says a short-e-like sound instead of the expected short a, and the final `y` acts as a vowel (a Level 3 topic) — mark the whole word as heart for now."
+  },
+  {
+   "word": "any",
+   "note": "same heart pattern as \"many\": `a` says an unexpected sound, final `y` as vowel; point out they share the same irregular chunk `an-`."
+  },
+  {
+   "word": "her",
+   "note": "heart part: the whole word is irregular for now (it needs the r-controlled vowel this course doesn't formally teach until Level 4); mark it fully heart, note it means \"belonging to her\" or \"that person,\" and it's the most common word so far that needs this specific r-controlled sound."
+  }
+ ],
+ "read": {
+  "A": {
+   "text": "Min is packing and stacking many bags. / \"Are you helping her?\" / Mom asks Dad. / \"I am helping her fast,\" / Dad says. / Min is filling and checking any bag Dad hands her. / \"You are a fast helper,\" / Dad says. / Min is still packing, / glad to help.",
+   "title": null
+  },
+  "B": {
+   "text": "Sam is checking and fixing many vans. / \"Are you helping her?\" / his boss asks. / \"I am helping her fast,\" / Sam says. / Sam is stacking and packing any bin his boss hands her. / \"You are a fast helper,\" / his boss says. / Sam is still checking, / glad to help.",
+   "title": null
+  }
+ },
+ "listen": {
+  "title": null,
+  "passage": "The night before her first big exam, Ayesha felt more **anxious** than she had ever felt before. Her stomach fluttered, her hands felt cold, and she kept checking the clock, worried she was somehow forgetting something important. Her older sister noticed how anxious she looked and sat down beside her. \"Being a little anxious means you care,\" her sister said, \"but let's make a short plan so the anxious feeling has less to hold onto.\" Together they wrote down exactly what Ayesha needed for the morning, checked it twice, and set two alarms. Ayesha still felt a bit anxious as she fell asleep, but far less than before — and in the morning, she walked into the exam room calm and ready.",
+  "tier2": [],
+  "questions": []
+ },
+ "check": {
+  "real": [
+   "jumping",
+   "fixing",
+   "helper",
+   "packing",
+   "checking"
+  ],
+  "pseudo": [
+   "florbing",
+   "vashing",
+   "plemter",
+   "stronker",
+   "drelling"
+  ],
+  "dictation": [
+   "resting"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "blocksFound": [
+  "blendList",
+  "heart",
+  "read",
+  "listen",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

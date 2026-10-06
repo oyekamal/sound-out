@@ -1,0 +1,96 @@
+{
+ "id": "L3.01",
+ "level": 3,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-3/lessons/L3.01-a_e.md",
+ "title": "a_e (VCe with a)",
+ "goal": "Read and spell words with the vowel-consonant-e pattern using **a**, where a silent final e makes the vowel \"say its name\" (/ā/).",
+ "newToday": "a_e (cake, name)",
+ "review": "all Level 1–2 letters, digraphs, blends, closed syllables, suffixes -s/-es/-ed/-ing/-er",
+ "heartLine": "once, only (first two of the 16 Level 3 heart words — canonical schedule teaches 2/lesson through L3.08)",
+ "time": "25–30 min",
+ "blendList": {
+  "real": [
+   "cake",
+   "name",
+   "same",
+   "made",
+   "gate",
+   "blame",
+   "plane",
+   "brave",
+   "shade",
+   "flame",
+   "grape",
+   "whale",
+   "skate",
+   "plate",
+   "snake",
+   "cane",
+   "cape",
+   "wave",
+   "cave",
+   "save"
+  ],
+  "pseudo": [
+   "mave",
+   "plake",
+   "snabe",
+   "trafe",
+   "zade"
+  ]
+ },
+ "check": {
+  "real": [
+   "cake",
+   "plane",
+   "same",
+   "gave",
+   "snake"
+  ],
+  "pseudo": [
+   "fape",
+   "trane",
+   "zabe",
+   "plome",
+   "snade"
+  ],
+  "dictation": [
+   "Jane made a cake"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "lesson",
+   "raw": "≥90%"
+  },
+  "firstAttemptOnly": true
+ },
+ "heart": [
+  {
+   "word": "once",
+   "note": null
+  },
+  {
+   "word": "only",
+   "note": null
+  }
+ ],
+ "read": {
+  "A": {
+   "text": "Jane and Kate are at the lake. / Jane has a cane. / Kate has a cape. / They skate on the lake. / Once, Kate got a cramp. / Jane came and gave Kate a hand. / Kate said, \"Thank you, Jane!\" / They made a plan to skate again.",
+   "title": null
+  },
+  "B": {
+   "text": "Jake has a case to take to the bank. / He made a plane trip. / At the gate, he got a snack and a cake. / Jake's plane was late, but he was not sad. / He said, \"I have cash.\" / Jake sat and had a nap. / Once the plane came, he got on fast.",
+   "title": null
+  }
+ },
+ "blocksFound": [
+  "blendList",
+  "heart",
+  "read",
+  "check",
+  "trackB"
+ ],
+ "appSittings": null
+}

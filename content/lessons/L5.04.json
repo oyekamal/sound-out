@@ -1,0 +1,28 @@
+{
+ "id": "L5.04",
+ "level": 5,
+ "contentVersion": "2026.10.proto",
+ "source": "course/level-5/lessons/L5.04-over-mis-indus-valley-RT1.md",
+ "title": "Prefixes over-, mis- · The Indus Valley (intro) · Readers Theatre #1",
+ "goal": "Read, spell, and use words with *over-* and *mis-*; run this level's first Readers Theatre script as the fluency vehicle instead of a solo passage.",
+ "newToday": "*over-* (\"too much\" / \"above\") and *mis-* (\"wrongly\" / \"badly\"). Tier-2 words: *ancient*, *evidence*.",
+ "review": "*en-/em-, non-* — *enable, nonstop*.",
+ "time": "30–45 min. **Materials:** paper, pencil, timer; the script below printed or copied out, one part per reader (or one reader taking all parts aloud, for a solo adult learner — see Tutor notes).",
+ "read": {
+  "questions": []
+ },
+ "check": {
+  "bar": {
+   "pass": 5,
+   "of": 8,
+   "source": "lesson",
+   "raw": "≥5/8"
+  },
+  "freeResponse": true
+ },
+ "blocksFound": [
+  "read",
+  "check"
+ ],
+ "appSittings": null
+}
