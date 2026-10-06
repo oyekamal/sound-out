@@ -63,7 +63,7 @@ Date: 2026-10-06. Owner: Kamal. Repo: `oyekamal/sound-out` (`/home/oye/Documents
 
 **The roadmap.**
 - **v1.1**: record and replay, self-compare only, labelled practice.
-- **v2**: a CTC phoneme verifier (§5).
+- **v1.1 verifier candidate: Whistle** with keyword biasing (research-06; child and accented speech unverified). A CTC verifier is the v2 fallback (§5).
 
 **The alternative.** Put the verifier on the v1 critical path. The engineer judged that this makes the ship date slip.
 
@@ -103,7 +103,7 @@ Sound Out's own sizes are in §4.1, in MB, given as both download and installed 
 
 **Two age paths, only through placement.** Track A has no age setting; an 8-year-old starts later only by passing quick-start.
 
-**Dropout.** A year of daily use will lose children. Counters: the Track A world, Stories, the mother's view. The pilot counts dropout.
+**Dropout.** Expected; countered by the Track A world, Stories and the mother's view; the pilot counts it.
 
 ### 1.1 Five archetypes, night one
 
@@ -449,7 +449,7 @@ The "mastered" label needs the 5-example classification. Children progress fully
 
 ### 3.12 Screens
 
-First launch (one screen) · Doors (when needed) · Arithmetic gate · PIN · Shape pattern · Sitting runner · Quick-start · Stop here · Track A village · Show your grown-up · Stories · Path/Lessons · Show what you know (with the Urdu intro) · Check result · Re-check · Level 3 "the Reader joins you" · Read · Listen & Talk · Practice · Me/Progress · Mother's view · Grown-up area · Helper session · Pack download (MB + minutes) · Missing pack · Comfort.
+All screens named in §3.1–3.11, plus: Level 3 "the Reader joins you", pack download (MB + minutes), missing pack, comfort.
 
 ---
 
@@ -632,22 +632,32 @@ The week-0 pilot replaces the 150/h assumption with a measured number.
 | Andika | SIL OFL per research-05 | verify |
 | Piper | not used: the Blizzard 2013 Lessac licence clause 3.2 restricts use to research (read by the lead 2026-10-05) | — |
 | OpenMoji | CC BY-SA, unconfirmed | check before use |
-| "Sound Out" name | trademark search not done (NAME-ASO) | **D37 before upload** |
+| "Sound Out" name | not searched (NAME-ASO) | **D37** |
 
 ---
 
 ## 5. Listening
 
-- **v1: none.** No microphone. Read-aloud checks happen only in optional helper sessions.
-- **v1.1:** record and replay, labelled practice, with the microphone behind the grown-up gate.
-- **v2: CTC phoneme verifier.**
-  - A wav2vec2-class model in ONNX, run through onnxruntime in a small native plugin. This is the first `.so` the app would ship; 16 KB alignment applies then.
-  - Our own CTC scoring compares the target against one-position changes (the E6d option rule), the letter name, an added schwa, and the regular-decoding reading of tricky words.
-  - 10–15 days of work.
-  - The children's gold set has ≥60 items **per class** (real, made-up, tricky, sentence, isolated sound), labelled by a **native General American speaker, not Kamal**, with Kamal as the second rater.
-  - Pass: precision ≥97% with a lower bound ≥92%. A class with too few items is "undecidable", which counts as no-go.
+- **v1: none.** No microphone. Read-aloud checks happen only in optional helper sessions. Unchanged by research-06.
+- **v1.1: record and replay** (labelled practice; microphone behind the grown-up gate), plus the **verifier candidate: Whistle** (research-06).
+  - **What it is.** On-device speech-to-text: one 16.9 MB model, CPU only, Apache-2.0; Android arm64/armv7 and WASM engine builds.
+  - **How it would judge.** Keyword biasing with the target plus the gate's three options (first sound / vowel / final sound), and a probability for each word.
+    - transcript = target and prob ≥ θ → `clear_yes`;
+    - transcript = an option → `clear_no`;
+    - anything else → `unsure`, never yes.
+    - "cake" was heard as "Take" at 0.83 with "take" missing from the keywords, so the keyword list must be the gate's options.
+  - **Lead's desktop test** (research-06, adult Kokoro clips): keyword words and pseudowords recognised; biasing fixed "ship" and "chote"; 0.1–0.25 s per clip after warm-up. **Isolated sounds and letter names failed**; they stay tap- or helper-judged.
+  - **Unverified** (research-06): child speech, Urdu-accented speech, latency and RAM on a cheap Android phone, beam settings, how strong the keyword biasing is, and the engine binary's licence.
+  - **Gate role:** only after the gold set passes; extra credit on top of E6d, never a replacement.
+- **Fallback (v2), if Whistle fails the kid test:** a CTC phoneme verifier, roughly 10–15 days of work.
+  - A wav2vec2-class model running in onnxruntime.
+  - Our own scoring of the target against the one-position options, the letter name, an added schwa, and the regular reading of tricky words.
+- **Gold set (for either engine).**
+  - ≥60 items **per class**, labelled by a **native General American speaker, not Kamal**, with Kamal as second rater.
+  - Pass: precision ≥97% with a lower bound of ≥92%. A class with too few items is "undecidable", which counts as no-go.
   - Urdu-accented vowel merges are practice, never wrong.
-  - It may add credit on top of E6d, never replace it.
+  - A native plugin brings the first `.so`, so 16 KB alignment applies.
+- **WCPM (v1.1, Level 5 passages):** Whistle word timestamps (test sentences exact in research-06), shown as "approximate"; child speech unverified.
 - This **reverses research-03's v1 stack and research-04's D6** (see D0b).
 
 ---
@@ -843,7 +853,7 @@ The week-0 pilot replaces the 150/h assumption with a measured number.
 | Week | Deliverables | Exit check |
 |---|---|---|
 | **0** | D0a/D0b confirmed; phone bought; **recruit lists for every human test and the pilot, with dates**; 3 speaker candidates sent the test file with the timed 200-clip pilot; engineer, reviewer, second listener and D16 fee agreed; `voice_studio.py` changes; Docker env | dated recruit list; measured clips/h per candidate |
-| **1** | Speaker chosen; **phoneme session** (47 × 3 takes, stop direction) + demos, partials, UI; parser coverage + **yield per level**; misaki OOV count; `ipa2misaki`; **audio-clock loopback test**; L0–L1 text frozen | coverage + yield committed; phonemes pass Q1 and the reviewer; gap p95 ≤15 ms |
+| **1** | **Parallel, does not gate v1:** 2-day Whistle spike (research-06): android-arm64 Needle in a Capacitor plugin; 30 CVC words × 3 speakers (Kamal's two kids + one adult) × 2 takes, with planted first-sound/vowel/final errors. **Go bar: ≥97% `clear_yes` precision and ≤1.5 s p95 latency on the test phone** (continues into week 2). Speaker chosen; **phoneme session** (47 × 3 takes, stop direction) + demos, partials, UI; parser coverage + **yield per level**; misaki OOV count; `ipa2misaki`; **audio-clock loopback test**; L0–L1 text frozen | coverage + yield committed; phonemes pass Q1 and the reviewer; gap p95 ≤15 ms |
 | 2 | Repo; strict parser + `app:` PRs; made-up-word and option generators; **review of L1 made-up words and options before they are recorded**; recount; sessions: L0–L1 words | `npm run content` exits 0 for L1–L2; the §6.2 sample passes the gates |
 | 3 | Shell: one-screen first launch, child night one (quick-start + A), adult fast-track night one, gates/PIN/shapes, DB ladder, backup round trip, audio-clock engine + core sprite; L1 audio QA; sessions: L1 sentences, options, slow takes | **G0** stopwatches; first installed-size reading; round trip passes |
 | 4 | E1–E12, E5, E6d, E22, E23, E4; gate reducer and repairs; Track A world; **Stories tab**; Listen & Talk; sessions: L2 words, made-up words | auto set green; oracles behave as stated |
@@ -870,7 +880,8 @@ The week-0 pilot replaces the 150/h assumption with a measured number.
 
 **Roadmap**
 - v1.1: L5 MCQ gates; L6–L7; E18, E20, E21; teacher mode; pack sharing; wave-1 languages.
-- v2: the verifier; ASR words-correct-per-minute; FSRS scheduling; iOS.
+- v1.1 also: the Whistle verifier and Whistle WCPM, if the spike and the gold set pass.
+- v2: the CTC fallback verifier if Whistle fails; FSRS scheduling; iOS.
 
 ---
 
@@ -886,6 +897,8 @@ The week-0 pilot replaces the 150/h assumption with a measured number.
 | Level 3 handover disliked | Medium | Medium | Pass bar; fallback: Sound Teacher records L3 words (estimate +10 h) | Week 6 |
 | Night-one adult runs over 20 min | Medium | Medium | Fallback to A+B with "sat" on night two | Week 3 |
 | A year of daily use loses children | High | High | Track A world, Stories, mother's view; measured in the pilot | Pilot |
+| Whistle fails on child or Urdu-accented speech (unverified, research-06) | Medium | Low for v1 (no speech gate) | 2-day spike + gold set; CTC fallback in v2 | Weeks 1–2 spike; gold set later |
+| Whistle engine binary licence (repo says Apache-2.0; the platform folder's LICENSE is unconfirmed, research-06) | Low | Medium | Confirm before the spike code is merged | Week 1 |
 | Trademark conflict on "Sound Out" | Unknown | High | D37 search | Before upload |
 
 ---
@@ -997,7 +1010,7 @@ Fresh critics, anonymised material, scored both ways round. G0 and G7 are pass/f
 ## Appendix: sources
 
 - **Repo:** `/home/oye/Documents/free_work/sound-out/`
-  - `plan/` (research/research-01…05, critics/, bar/, decisions.tsv, RESUME.md, plan-v1…v3, v2/v3-changes);
+  - `plan/` (research/research-01…06, critics/, bar/, decisions.tsv, RESUME.md, plan-v1…v3, v2/v3-changes);
   - `store/NAME-ASO.md`.
 - **Course:** `/home/oye/Documents/free_work/english-reading-course/` (DESIGN.md, course/level-0/placement-test.md, 108 lessons + 7 mastery checks, tools/decodable.py, issues #1–3).
 - **Urdu app:** `/home/oye/Documents/free_work/urdu-reading-course/`

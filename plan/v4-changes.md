@@ -100,3 +100,15 @@ Sources: plan-v3 addendum rows 6–10 (lead decisions) and the five `critics/cri
 - **Rupee figures:** still none, because data prices are unverified.
 - **Length:** v4 is 8,855 words before the appendix, against v3's 8,856. To fit, the "Retired decisions" line in §10 and one risk row (course bars, now covered by D27) were dropped.
 - **Critic round numbering:** the week-5 review is called "critic round 5". Round 4 is the next gauntlet pass on this document.
+
+## Patch: research-06 (Whistle spike, lead, 2026-10-06)
+
+| Input | Change | Where | Verify |
+|---|---|---|---|
+| research-06: Whistle (16.9 MB, Apache-2.0, keyword biasing, per-word probability, word timestamps) passed the lead's adult-TTS desktop test | The v1.1 verifier candidate is now Whistle + keyword biasing (target + the gate's three options) + per-word probability → `clear_yes` / `unsure` / `clear_no`; anything outside target + options is `unsure`. CTC moves to the v2 fallback if Whistle fails the kid test. **v1 is unchanged: no speech gate, no microphone** | §5, §0 D0b roadmap, §8 roadmap | Read §5; D0b still says no v1 speech gate |
+| research-06 spike plan | A 2-day Whistle spike in weeks 1–2, **parallel and explicitly not gating v1**. Go bar: ≥97% `clear_yes` precision, ≤1.5 s p95 on the test phone | §8 week 1 | Spike report against the go bar |
+| research-06 "unverified" list | New risks: child and Urdu-accented speech unverified for Whistle; engine-binary licence to confirm | §5, §9 | Risk rows cite research-06 |
+| research-06: sentence word timings usable | WCPM for Level 5 passages in v1.1 = Whistle word timestamps, labelled "approximate"; child speech unverified | §5 | Read §5 |
+| research-06: isolated sounds and letter names fail | They stay tap- or helper-judged | §5 | — |
+
+Word budget: +250 words. To make room, §3.12 screens was condensed to a pointer, and the §1 dropout line and the §4.6 trademark row were shortened.
