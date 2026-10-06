@@ -2,7 +2,7 @@
 
 Play title: **Sound Out: Read English** · package `com.oyekamal.soundout` · see `store/NAME-ASO.md`.
 
-A free, offline-first Android/PWA app that takes anyone (age 4 to 60, Urdu-first learners especially) from the first letter sound to reading real text. Built on the open course [english-reading-course](https://github.com/oyekamal/english-reading-course) (8 levels, synthetic phonics) and on the shell of the shipped [Urdu Qaida](https://github.com/oyekamal/urdu-reading-course) app.
+A free, offline-first Android/PWA app that takes anyone in the world (age 4 to 60, any home language or none) from the first letter sound to reading real English text. **Scope rule (Kamal, 2026-10-06): global first.** The core works with no home language at all; home-language help (UI voice, glosses, interference notes) is an optional downloadable helper pack, and Urdu is just one of them. Built on the open course [english-reading-course](https://github.com/oyekamal/english-reading-course) (8 levels, synthetic phonics) and on the shell of the shipped [Urdu Qaida](https://github.com/oyekamal/urdu-reading-course) app.
 
 ## Status (2026-10-05)
 Planning complete through three gauntlet-loop critic rounds. **No app code yet.** Next session: write `plan/plan-v4.md` from the addendum at the end of `plan/plan-v3.md`, run critic round 4, then start the build (week 1 spikes).
