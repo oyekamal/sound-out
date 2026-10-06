@@ -535,3 +535,9 @@ Unchanged: C3 placement forms B/C · C4 lexicon + `heartIdx` · C5 `pron.json` �
 - `sound-out/`: `plan/` (research, critics r1–r5, bar, decisions.tsv rows 1–17, plan-v1–v5), `store/NAME-ASO.md`, prototype `app/` and `tools/` (`slice_phonemes.py`, `gen_options.py`, `parse_course.py`, `app/public/listen.html`).
 - `english-reading-course/`: DESIGN.md, `placement-test.md`, 108 lessons + 7 mastery checks, `tools/decodable.py`, issues #1–3.
 - The Urdu Qaida repo is reference only and is not cited for code.
+
+---
+
+## Addendum — Decision D0 taken (2026-10-06)
+
+Kamal listened to the prototype's Kokoro audio (direct and sliced) and rejected it. **D0 = ElevenLabs.** One English voice for every clip in the app, rendered once at build time and shipped as files, so the app stays fully offline; the user never calls ElevenLabs. Isolated sounds are sliced from word renders using ElevenLabs character timestamps, so they are the same voice by construction. Kokoro is dropped; no human recording session is needed. Consequences for this plan: §4 column (a)/(b) collapses to one column; the recording chain, speaker audition, drift check and studio hours disappear from §8 and the risk table; the build gate "every clip carries the same voice id" stays; the cost line becomes ElevenLabs characters per level (Level 1 ≈ 900 clips; the exact character count and cost are logged in `decisions.tsv` phase `audio` once rendered). Open: the ElevenLabs pay-as-you-go commercial licence must be confirmed before store release (carried over from the Urdu project). Voice audition so far: River ahead of Bella and Matilda; Kamal picks on `/voices.html`.
