@@ -3,7 +3,7 @@ import { audioIndex } from './content.js';
 const so = (window.__so = window.__so || { trace: [], missing: [] });
 const fast = new URLSearchParams(location.search).has('fast');
 let current = null;
-// Isolated sounds (ph:*) already point at the sliced or sustained ElevenLabs clip chosen by tools/gen_audio_el.py.
+// Isolated sounds (ph:*) are direct ElevenLabs renders in the app voice, picked by tools/iso_sounds.py (no slicing).
 // Paths go through BASE_URL so the GitHub Pages build (/sound-out/) finds them.
 const BASE = import.meta.env.BASE_URL;
 

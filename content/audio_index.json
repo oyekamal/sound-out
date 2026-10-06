@@ -8,7 +8,7 @@
   "use_speaker_boost": true,
   "speed": 0.9
  },
- "note": "ElevenLabs, one voice for everything (decision 18); tools/gen_audio_el.py",
+ "note": "ElevenLabs, one voice for everything (decision 18); isolated sounds = direct renders (decision 19, tools/iso_sounds.py); tools/gen_audio_el.py",
  "clips": {
   "w:a": {
    "id": "3cdd3d5b7a56",
@@ -3235,104 +3235,104 @@
    "dur": 0.592
   },
   "ph:s": {
-   "id": "5dcd6fe28d4e",
-   "dur": 0.26
+   "id": "b0fa636ab32c",
+   "dur": 0.54
   },
   "ph:a": {
-   "id": "ca28ab6a37ca",
-   "dur": 0.26
+   "id": "fea1cdd8d548",
+   "dur": 0.5
   },
   "ph:t": {
-   "id": "f69f1596480b",
-   "dur": 0.19
+   "id": "7140a2bcce79",
+   "dur": 0.34
   },
   "ph:p": {
-   "id": "657615e382b1",
-   "dur": 0.185
+   "id": "a48512c0abf4",
+   "dur": 0.34
   },
   "ph:i": {
-   "id": "868f6d024fc9",
-   "dur": 0.28
+   "id": "cc8637db6ead",
+   "dur": 0.5
   },
   "ph:n": {
-   "id": "4d407824f540",
-   "dur": 1.29
+   "id": "41a0c12fd854",
+   "dur": 0.43
   },
   "ph:m": {
-   "id": "d918f8ad0f0f",
-   "dur": 1.289
+   "id": "b7e0003165bd",
+   "dur": 0.43
   },
   "ph:d": {
-   "id": "6a18e0a4e1a6",
-   "dur": 0.16
-  },
-  "ph:g": {
-   "id": "7a281cb525d7",
-   "dur": 0.16
-  },
-  "ph:o": {
-   "id": "ce429614b702",
-   "dur": 0.26
-  },
-  "ph:k": {
-   "id": "94b33c580796",
+   "id": "2d43ed042a70",
    "dur": 0.19
   },
+  "ph:g": {
+   "id": "6ee84c42063c",
+   "dur": 0.19
+  },
+  "ph:o": {
+   "id": "16c5cb115b95",
+   "dur": 0.5
+  },
+  "ph:k": {
+   "id": "8da0e6d72d11",
+   "dur": 0.34
+  },
   "ph:e": {
-   "id": "6fd772eb6a72",
-   "dur": 0.36
+   "id": "816ec7eabc98",
+   "dur": 0.48
   },
   "ph:u": {
-   "id": "2319f8fe898c",
-   "dur": 0.24
+   "id": "141441350897",
+   "dur": 0.5
   },
   "ph:r": {
-   "id": "a9092ac8790e",
-   "dur": 1.176
+   "id": "97a66ea83da9",
+   "dur": 0.43
   },
   "ph:h": {
-   "id": "8c58c5cb35b7",
-   "dur": 0.2
+   "id": "663153b9e476",
+   "dur": 0.54
   },
   "ph:b": {
-   "id": "b9f8db8a08d5",
-   "dur": 0.16
+   "id": "01402738c817",
+   "dur": 0.19
   },
   "ph:f": {
-   "id": "441173052868",
-   "dur": 0.23
+   "id": "2363d75598ed",
+   "dur": 0.54
   },
   "ph:l": {
-   "id": "3f9b613392f9",
-   "dur": 1.033
+   "id": "37d4a84e0aac",
+   "dur": 0.43
   },
   "ph:j": {
-   "id": "6ec34ae2e0d1",
-   "dur": 0.18
+   "id": "e31a64ce4e53",
+   "dur": 0.19
   },
   "ph:v": {
-   "id": "0a57177e3838",
-   "dur": 1.345
+   "id": "178a35f0a158",
+   "dur": 0.43
   },
   "ph:w": {
-   "id": "dd1c913d7c61",
-   "dur": 0.23
+   "id": "73ffaba21d1b",
+   "dur": 0.26
   },
   "ph:ks": {
-   "id": "63c093a8ffbd",
-   "dur": 0.366
+   "id": "082e1875f838",
+   "dur": 0.34
   },
   "ph:y": {
-   "id": "13ada6e02c40",
-   "dur": 0.18
+   "id": "6391338e032c",
+   "dur": 0.25
   },
   "ph:z": {
-   "id": "55b2481d5faa",
-   "dur": 1.563
+   "id": "3313f04cfb4a",
+   "dur": 0.43
   },
   "ph:kw": {
-   "id": "3f583bfc00ba",
-   "dur": 0.28
+   "id": "35dfa6ef5107",
+   "dur": 0.34
   },
   "name:a": {
    "id": "d127b4994196",
@@ -4641,6 +4641,30 @@
   "q:L1.14:1": {
    "id": "3ccdb89ee8c8",
    "dur": 4.245
+  },
+  "exw:apple": {
+   "id": "1a7c10d0eb7e",
+   "dur": 0.55
+  },
+  "exw:igloo": {
+   "id": "9bff73abe9cc",
+   "dur": 0.651
+  },
+  "exw:octopus": {
+   "id": "6836b4cf0d8b",
+   "dur": 0.915
+  },
+  "exw:egg": {
+   "id": "4e6a7282c444",
+   "dur": 0.563
+  },
+  "exw:umbrella": {
+   "id": "9707990ac9b3",
+   "dur": 0.758
+  },
+  "exw:off": {
+   "id": "e9ee143a008d",
+   "dur": 0.569
   }
  },
  "missing": [],

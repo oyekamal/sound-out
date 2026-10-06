@@ -1,0 +1,1523 @@
+{
+ "voice": "SAz9YHcvj6GT2YYXdXww",
+ "flat_settings": {
+  "stability": 1.0,
+  "similarity_boost": 0.75,
+  "style": 0.0,
+  "use_speaker_boost": false,
+  "speed": 0.9
+ },
+ "word_flatness_ref": 0.0081,
+ "chars_this_run": 0,
+ "sounds": {
+  "s": {
+   "class": "hiss",
+   "verdict": "pass",
+   "pick": 1,
+   "takes": [
+    {
+     "label": "'Ccccc.'",
+     "model": "eleven_v4",
+     "text": "Sssss.",
+     "flat_settings": false,
+     "measures": {
+      "hold_ms": 710,
+      "vowel_frames": 0,
+      "window_start_ms": 0,
+      "swell_db": 3.09,
+      "ms": 420
+     },
+     "fails": [
+      "swell 3.1 dB"
+     ],
+     "score": 3.09
+    },
+    {
+     "label": "flat 'Ccccc.'",
+     "model": "eleven_v4",
+     "text": "Sssss.",
+     "flat_settings": true,
+     "measures": {
+      "hold_ms": 730,
+      "vowel_frames": 0,
+      "window_start_ms": 0,
+      "swell_db": 2.01,
+      "ms": 420
+     },
+     "fails": [],
+     "score": 2.01
+    },
+    {
+     "label": "flat 'cccccc'",
+     "model": "eleven_v4",
+     "text": "ssssss",
+     "flat_settings": true,
+     "measures": {
+      "hold_ms": 790,
+      "vowel_frames": 0,
+      "window_start_ms": 240,
+      "swell_db": 2.04,
+      "ms": 420
+     },
+     "fails": [],
+     "score": 2.04
+    }
+   ]
+  },
+  "a": {
+   "class": "vowel",
+   "verdict": "pass",
+   "pick": 0,
+   "takes": [
+    {
+     "label": "'æ.'",
+     "model": "eleven_v4",
+     "text": "æ.",
+     "flat_settings": false,
+     "measures": {
+      "voiced_core_ms": 170,
+      "audible_ms": 430,
+      "F1F2": [
+       1050,
+       1940
+      ],
+      "ref_F1F2": [
+       1089,
+       2049
+      ],
+      "bark_dist": 0.43,
+      "ms": 380
+     },
+     "fails": [],
+     "score": 0.43
+    },
+    {
+     "label": "'æ...'",
+     "model": "eleven_v4",
+     "text": "æ...",
+     "flat_settings": false,
+     "measures": {
+      "voiced_core_ms": 170,
+      "audible_ms": 480,
+      "F1F2": [
+       1046,
+       1699
+      ],
+      "ref_F1F2": [
+       1089,
+       2049
+      ],
+      "bark_dist": 1.26,
+      "ms": 380
+     },
+     "fails": [],
+     "score": 1.26
+    },
+    {
+     "label": "'æ—'",
+     "model": "eleven_v4",
+     "text": "æ—",
+     "flat_settings": false,
+     "measures": {
+      "voiced_core_ms": 150,
+      "audible_ms": 410,
+      "F1F2": [
+       1042,
+       1779
+      ],
+      "ref_F1F2": [
+       1089,
+       2049
+      ],
+      "bark_dist": 0.96,
+      "ms": 380
+     },
+     "fails": [],
+     "score": 0.96
+    }
+   ]
+  },
+  "t": {
+   "class": "stop",
+   "verdict": "pass",
+   "pick": 2,
+   "takes": [
+    {
+     "label": "'t.'",
+     "model": "eleven_v4",
+     "text": "t.",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 110,
+      "natural_vowel_ms": 70,
+      "tail_ms": 60,
+      "ms": 170
+     },
+     "fails": [],
+     "score": 15.0
+    },
+    {
+     "label": "'tuh.'",
+     "model": "eleven_v4",
+     "text": "tuh.",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 130,
+      "natural_vowel_ms": 90,
+      "tail_ms": 60,
+      "ms": 190
+     },
+     "fails": [],
+     "score": 30.0
+    },
+    {
+     "label": "whispered",
+     "model": "eleven_v4",
+     "text": "[whispers] t.",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 380,
+      "natural_vowel_ms": 0,
+      "tail_ms": 0,
+      "ms": 220
+     },
+     "fails": [],
+     "score": -60.0
+    }
+   ]
+  },
+  "p": {
+   "class": "stop",
+   "verdict": "pass",
+   "pick": 0,
+   "takes": [
+    {
+     "label": "'p.'",
+     "model": "eleven_v4",
+     "text": "p.",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 340,
+      "natural_vowel_ms": 0,
+      "tail_ms": 0,
+      "ms": 220
+     },
+     "fails": [],
+     "score": -60.0
+    },
+    {
+     "label": "'puh.'",
+     "model": "eleven_v4",
+     "text": "puh.",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 120,
+      "natural_vowel_ms": 90,
+      "tail_ms": 60,
+      "ms": 180
+     },
+     "fails": [],
+     "score": 30.0
+    },
+    {
+     "label": "whispered",
+     "model": "eleven_v4",
+     "text": "[whispers] p.",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 420,
+      "natural_vowel_ms": 0,
+      "tail_ms": 0,
+      "ms": 220
+     },
+     "fails": [],
+     "score": -60.0
+    }
+   ]
+  },
+  "i": {
+   "class": "vowel",
+   "verdict": "pass",
+   "pick": 2,
+   "takes": [
+    {
+     "label": "'ɪ.'",
+     "model": "eleven_v4",
+     "text": "ɪ.",
+     "flat_settings": false,
+     "measures": {
+      "voiced_core_ms": 120,
+      "audible_ms": 320,
+      "F1F2": [
+       436,
+       2289
+      ],
+      "ref_F1F2": [
+       559,
+       2259
+      ],
+      "bark_dist": 1.07,
+      "ms": 320
+     },
+     "fails": [],
+     "score": 1.07
+    },
+    {
+     "label": "'ɪ—'",
+     "model": "eleven_v4",
+     "text": "ɪ—",
+     "flat_settings": false,
+     "measures": {
+      "voiced_core_ms": 170,
+      "audible_ms": 390,
+      "F1F2": [
+       390,
+       2392
+      ],
+      "ref_F1F2": [
+       559,
+       2259
+      ],
+      "bark_dist": 1.53,
+      "ms": 380
+     },
+     "fails": [
+      "vowel quality off (1.53 Bark)"
+     ],
+     "score": 1.53
+    },
+    {
+     "label": "'ɪ...'",
+     "model": "eleven_v4",
+     "text": "ɪ...",
+     "flat_settings": false,
+     "measures": {
+      "voiced_core_ms": 130,
+      "audible_ms": 380,
+      "F1F2": [
+       557,
+       2210
+      ],
+      "ref_F1F2": [
+       559,
+       2259
+      ],
+      "bark_dist": 0.14,
+      "ms": 380
+     },
+     "fails": [],
+     "score": 0.14
+    }
+   ]
+  },
+  "n": {
+   "class": "hum",
+   "verdict": "pass",
+   "pick": 2,
+   "takes": [
+    {
+     "label": "carrier 'The sound cc.'",
+     "model": "eleven_v4",
+     "text": "The sound nn.",
+     "flat_settings": true,
+     "measures": {
+      "hold_ms": 320,
+      "vowel_frames": 0,
+      "window_start_ms": 0,
+      "swell_db": 4.88,
+      "f0_range_st": 5.95,
+      "flatness": 0.0021,
+      "flat_ref": 0.0081,
+      "ms": 310
+     },
+     "fails": [
+      "swell 4.9 dB",
+      "F0 glide 6.0 st"
+     ],
+     "score": 10.83
+    },
+    {
+     "label": "flat 'ccc'",
+     "model": "eleven_multilingual_v2",
+     "text": "nnn",
+     "flat_settings": true,
+     "measures": {
+      "hold_ms": 390,
+      "vowel_frames": 0,
+      "window_start_ms": 0,
+      "swell_db": 1.24,
+      "f0_range_st": 0.88,
+      "flatness": 0.0066,
+      "flat_ref": 0.0081,
+      "ms": 310
+     },
+     "fails": [],
+     "score": 2.11
+    },
+    {
+     "label": "flat 'Ccccc'",
+     "model": "eleven_multilingual_v2",
+     "text": "Nnnnn",
+     "flat_settings": true,
+     "measures": {
+      "hold_ms": 410,
+      "vowel_frames": 0,
+      "window_start_ms": 40,
+      "swell_db": 0.46,
+      "f0_range_st": 1.02,
+      "flatness": 0.0062,
+      "flat_ref": 0.0081,
+      "ms": 310
+     },
+     "fails": [],
+     "score": 1.48
+    }
+   ]
+  },
+  "m": {
+   "class": "hum",
+   "verdict": "pass",
+   "pick": 2,
+   "takes": [
+    {
+     "label": "carrier 'The sound cc.'",
+     "model": "eleven_v4",
+     "text": "The sound mm.",
+     "flat_settings": true,
+     "measures": {
+      "hold_ms": 530,
+      "vowel_frames": 0,
+      "window_start_ms": 0,
+      "swell_db": 1.0,
+      "f0_range_st": 3.3,
+      "flatness": 0.0011,
+      "flat_ref": 0.0081,
+      "ms": 310
+     },
+     "fails": [
+      "F0 glide 3.3 st"
+     ],
+     "score": 4.3
+    },
+    {
+     "label": "flat 'ccc'",
+     "model": "eleven_multilingual_v2",
+     "text": "mmm",
+     "flat_settings": true,
+     "measures": {
+      "hold_ms": 150,
+      "vowel_frames": 0,
+      "window_start_ms": 0,
+      "swell_db": 9.22,
+      "f0_range_st": 1.62,
+      "flatness": 0.0084,
+      "flat_ref": 0.0081,
+      "ms": 198
+     },
+     "fails": [
+      "hold 150 ms < 300",
+      "swell 9.2 dB",
+      "breathy"
+     ],
+     "score": 10.84
+    },
+    {
+     "label": "flat 'Ccccc'",
+     "model": "eleven_multilingual_v2",
+     "text": "Mmmmm",
+     "flat_settings": true,
+     "measures": {
+      "hold_ms": 470,
+      "vowel_frames": 0,
+      "window_start_ms": 0,
+      "swell_db": 0.87,
+      "f0_range_st": 0.2,
+      "flatness": 0.0068,
+      "flat_ref": 0.0081,
+      "ms": 310
+     },
+     "fails": [],
+     "score": 1.07
+    }
+   ]
+  },
+  "d": {
+   "class": "stop",
+   "verdict": "pass",
+   "pick": 2,
+   "takes": [
+    {
+     "label": "'d.'",
+     "model": "eleven_v4",
+     "text": "d.",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 10,
+      "natural_vowel_ms": 180,
+      "tail_ms": 60,
+      "ms": 70
+     },
+     "fails": [],
+     "score": 175.0
+    },
+    {
+     "label": "'duh.'",
+     "model": "eleven_v4",
+     "text": "duh.",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 10,
+      "natural_vowel_ms": 350,
+      "tail_ms": 60,
+      "ms": 70
+     },
+     "fails": [
+      "long vowel 350 ms (letter name?)"
+     ],
+     "score": 345.0
+    },
+    {
+     "label": "'c'",
+     "model": "eleven_v4",
+     "text": "d",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 10,
+      "natural_vowel_ms": 160,
+      "tail_ms": 60,
+      "ms": 70
+     },
+     "fails": [],
+     "score": 155.0
+    }
+   ]
+  },
+  "g": {
+   "class": "stop",
+   "verdict": "pass",
+   "pick": 0,
+   "takes": [
+    {
+     "label": "'g.'",
+     "model": "eleven_v4",
+     "text": "g.",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 10,
+      "natural_vowel_ms": 190,
+      "tail_ms": 60,
+      "ms": 70
+     },
+     "fails": [],
+     "score": 185.0
+    },
+    {
+     "label": "'guh.'",
+     "model": "eleven_v4",
+     "text": "guh.",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 10,
+      "natural_vowel_ms": 240,
+      "tail_ms": 60,
+      "ms": 70
+     },
+     "fails": [],
+     "score": 235.0
+    },
+    {
+     "label": "'c'",
+     "model": "eleven_v4",
+     "text": "g",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 10,
+      "natural_vowel_ms": 210,
+      "tail_ms": 60,
+      "ms": 70
+     },
+     "fails": [],
+     "score": 205.0
+    }
+   ]
+  },
+  "o": {
+   "class": "vowel",
+   "verdict": "pass",
+   "pick": 0,
+   "takes": [
+    {
+     "label": "'ɑ.'",
+     "model": "eleven_v4",
+     "text": "ɑ.",
+     "flat_settings": false,
+     "measures": {
+      "voiced_core_ms": 150,
+      "audible_ms": 410,
+      "F1F2": [
+       784,
+       1265
+      ],
+      "ref_F1F2": [
+       782,
+       1062
+      ],
+      "bark_dist": 1.16,
+      "ms": 380
+     },
+     "fails": [],
+     "score": 1.16
+    },
+    {
+     "label": "'ɑː.'",
+     "model": "eleven_v4",
+     "text": "ɑː.",
+     "flat_settings": false,
+     "measures": {
+      "voiced_core_ms": 150,
+      "audible_ms": 370,
+      "F1F2": [
+       825,
+       1263
+      ],
+      "ref_F1F2": [
+       782,
+       1062
+      ],
+      "bark_dist": 1.19,
+      "ms": 370
+     },
+     "fails": [],
+     "score": 1.19
+    },
+    {
+     "label": "'/ɑ/'",
+     "model": "eleven_v4",
+     "text": "/ɑ/",
+     "flat_settings": false,
+     "measures": {
+      "voiced_core_ms": 190,
+      "audible_ms": 530,
+      "F1F2": [
+       1047,
+       1589
+      ],
+      "ref_F1F2": [
+       782,
+       1062
+      ],
+      "bark_dist": 3.24,
+      "ms": 380
+     },
+     "fails": [
+      "vowel quality off (3.24 Bark)"
+     ],
+     "score": 3.24
+    }
+   ]
+  },
+  "k": {
+   "class": "stop",
+   "verdict": "pass",
+   "pick": 2,
+   "takes": [
+    {
+     "label": "'k.'",
+     "model": "eleven_v4",
+     "text": "k.",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 110,
+      "natural_vowel_ms": 90,
+      "tail_ms": 60,
+      "ms": 170
+     },
+     "fails": [],
+     "score": 35.0
+    },
+    {
+     "label": "'kuh.'",
+     "model": "eleven_v4",
+     "text": "kuh.",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 130,
+      "natural_vowel_ms": 60,
+      "tail_ms": 60,
+      "ms": 190
+     },
+     "fails": [],
+     "score": 0.0
+    },
+    {
+     "label": "whispered",
+     "model": "eleven_v4",
+     "text": "[whispers] k.",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 430,
+      "natural_vowel_ms": 0,
+      "tail_ms": 0,
+      "ms": 220
+     },
+     "fails": [],
+     "score": -60.0
+    }
+   ]
+  },
+  "e": {
+   "class": "vowel",
+   "verdict": "pass",
+   "pick": 0,
+   "takes": [
+    {
+     "label": "'ɛ.'",
+     "model": "eleven_v4",
+     "text": "ɛ.",
+     "flat_settings": false,
+     "measures": {
+      "voiced_core_ms": 110,
+      "audible_ms": 360,
+      "F1F2": [
+       725,
+       2262
+      ],
+      "ref_F1F2": [
+       691,
+       2202
+      ],
+      "bark_dist": 0.32,
+      "ms": 360
+     },
+     "fails": [],
+     "score": 0.32
+    },
+    {
+     "label": "'ɛː.'",
+     "model": "eleven_v4",
+     "text": "ɛː.",
+     "flat_settings": false,
+     "measures": {
+      "voiced_core_ms": 180,
+      "audible_ms": 460,
+      "F1F2": [
+       773,
+       2192
+      ],
+      "ref_F1F2": [
+       691,
+       2202
+      ],
+      "bark_dist": 0.63,
+      "ms": 380
+     },
+     "fails": [],
+     "score": 0.63
+    },
+    {
+     "label": "'/ɛ/'",
+     "model": "eleven_v4",
+     "text": "/ɛ/",
+     "flat_settings": false,
+     "measures": {
+      "voiced_core_ms": 140,
+      "audible_ms": 450,
+      "F1F2": [
+       737,
+       2127
+      ],
+      "ref_F1F2": [
+       691,
+       2202
+      ],
+      "bark_dist": 0.42,
+      "ms": 380
+     },
+     "fails": [],
+     "score": 0.42
+    }
+   ]
+  },
+  "u": {
+   "class": "vowel",
+   "verdict": "pass",
+   "pick": 2,
+   "takes": [
+    {
+     "label": "'/ʌ/'",
+     "model": "eleven_v4",
+     "text": "/ʌ/",
+     "flat_settings": false,
+     "measures": {
+      "voiced_core_ms": 180,
+      "audible_ms": 420,
+      "F1F2": [
+       680,
+       1133
+      ],
+      "ref_F1F2": [
+       885,
+       1436
+      ],
+      "bark_dist": 2.19,
+      "ms": 380
+     },
+     "fails": [
+      "vowel quality off (2.19 Bark)"
+     ],
+     "score": 2.19
+    },
+    {
+     "label": "'uh.'",
+     "model": "eleven_v4",
+     "text": "uh.",
+     "flat_settings": false,
+     "measures": {
+      "voiced_core_ms": 140,
+      "audible_ms": 530,
+      "F1F2": [
+       765,
+       1729
+      ],
+      "ref_F1F2": [
+       885,
+       1436
+      ],
+      "bark_dist": 1.51,
+      "ms": 380
+     },
+     "fails": [
+      "vowel quality off (1.51 Bark)"
+     ],
+     "score": 1.51
+    },
+    {
+     "label": "'Uh!'",
+     "model": "eleven_v4",
+     "text": "Uh!",
+     "flat_settings": false,
+     "measures": {
+      "voiced_core_ms": 170,
+      "audible_ms": 510,
+      "F1F2": [
+       768,
+       1598
+      ],
+      "ref_F1F2": [
+       885,
+       1436
+      ],
+      "bark_dist": 1.11,
+      "ms": 380
+     },
+     "fails": [],
+     "score": 1.11
+    }
+   ]
+  },
+  "r": {
+   "class": "hum",
+   "verdict": "FAIL (least-bad take shipped)",
+   "pick": 2,
+   "takes": [
+    {
+     "label": "carrier 'The sound cc.'",
+     "model": "eleven_v4",
+     "text": "The sound rr.",
+     "flat_settings": true,
+     "measures": {
+      "hold_ms": 230,
+      "vowel_frames": 0,
+      "window_start_ms": 0,
+      "swell_db": 5.43,
+      "f0_range_st": 4.75,
+      "flatness": 0.1022,
+      "flat_ref": 0.0081,
+      "ms": 310
+     },
+     "fails": [
+      "hold 230 ms < 300",
+      "swell 5.4 dB",
+      "F0 glide 4.8 st",
+      "breathy"
+     ],
+     "score": 10.18
+    },
+    {
+     "label": "flat 'ccc'",
+     "model": "eleven_multilingual_v2",
+     "text": "rrr",
+     "flat_settings": true,
+     "measures": {
+      "hold_ms": 300,
+      "vowel_frames": 0,
+      "window_start_ms": 0,
+      "swell_db": 2.02,
+      "f0_range_st": 1.4,
+      "flatness": 0.0262,
+      "flat_ref": 0.0081,
+      "ms": 310
+     },
+     "fails": [
+      "breathy"
+     ],
+     "score": 3.42
+    },
+    {
+     "label": "flat 'Ccccc'",
+     "model": "eleven_multilingual_v2",
+     "text": "Rrrrr",
+     "flat_settings": true,
+     "measures": {
+      "hold_ms": 370,
+      "vowel_frames": 0,
+      "window_start_ms": 0,
+      "swell_db": 0.56,
+      "f0_range_st": 0.5,
+      "flatness": 0.0144,
+      "flat_ref": 0.0081,
+      "ms": 310
+     },
+     "fails": [
+      "breathy"
+     ],
+     "score": 1.06
+    },
+    {
+     "label": "IPA fallback",
+     "model": "eleven_turbo_v2",
+     "text": "<phoneme alphabet=\"ipa\" ph=\"ɹː\">rr</phoneme>",
+     "flat_settings": true,
+     "measures": {
+      "hold_ms": 270,
+      "vowel_frames": 0,
+      "window_start_ms": 0,
+      "swell_db": 5.56,
+      "f0_range_st": 2.26,
+      "flatness": 0.0946,
+      "flat_ref": 0.0081,
+      "ms": 310
+     },
+     "fails": [
+      "hold 270 ms < 300",
+      "swell 5.6 dB",
+      "F0 glide 2.3 st",
+      "breathy"
+     ],
+     "score": 7.82
+    }
+   ]
+  },
+  "h": {
+   "class": "hiss",
+   "verdict": "pass",
+   "pick": 1,
+   "takes": [
+    {
+     "label": "'Ccccc.'",
+     "model": "eleven_v4",
+     "text": "Hhhhh.",
+     "flat_settings": false,
+     "measures": {
+      "hold_ms": 490,
+      "vowel_frames": 0,
+      "window_start_ms": 0,
+      "swell_db": 3.72,
+      "ms": 420
+     },
+     "fails": [
+      "swell 3.7 dB"
+     ],
+     "score": 3.72
+    },
+    {
+     "label": "flat 'Ccccc.'",
+     "model": "eleven_v4",
+     "text": "Hhhhh.",
+     "flat_settings": true,
+     "measures": {
+      "hold_ms": 530,
+      "vowel_frames": 0,
+      "window_start_ms": 0,
+      "swell_db": 2.6,
+      "ms": 420
+     },
+     "fails": [],
+     "score": 2.6
+    },
+    {
+     "label": "flat 'cccccc'",
+     "model": "eleven_v4",
+     "text": "hhhhhh",
+     "flat_settings": true,
+     "measures": {
+      "hold_ms": 650,
+      "vowel_frames": 0,
+      "window_start_ms": 0,
+      "swell_db": 3.08,
+      "ms": 420
+     },
+     "fails": [
+      "swell 3.1 dB"
+     ],
+     "score": 3.08
+    }
+   ]
+  },
+  "b": {
+   "class": "stop",
+   "verdict": "pass",
+   "pick": 0,
+   "takes": [
+    {
+     "label": "'b.'",
+     "model": "eleven_v4",
+     "text": "b.",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 10,
+      "natural_vowel_ms": 190,
+      "tail_ms": 60,
+      "ms": 70
+     },
+     "fails": [],
+     "score": 185.0
+    },
+    {
+     "label": "'buh.'",
+     "model": "eleven_v4",
+     "text": "buh.",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 10,
+      "natural_vowel_ms": 280,
+      "tail_ms": 60,
+      "ms": 70
+     },
+     "fails": [
+      "long vowel 280 ms (letter name?)"
+     ],
+     "score": 275.0
+    },
+    {
+     "label": "'c'",
+     "model": "eleven_v4",
+     "text": "b",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 10,
+      "natural_vowel_ms": 190,
+      "tail_ms": 60,
+      "ms": 70
+     },
+     "fails": [],
+     "score": 185.0
+    }
+   ]
+  },
+  "f": {
+   "class": "hiss",
+   "verdict": "pass",
+   "pick": 1,
+   "takes": [
+    {
+     "label": "'Ccccc.'",
+     "model": "eleven_v4",
+     "text": "Fffff.",
+     "flat_settings": false,
+     "measures": {
+      "hold_ms": 530,
+      "vowel_frames": 0,
+      "window_start_ms": 0,
+      "swell_db": 3.56,
+      "ms": 420
+     },
+     "fails": [
+      "swell 3.6 dB"
+     ],
+     "score": 3.56
+    },
+    {
+     "label": "flat 'Ccccc.'",
+     "model": "eleven_v4",
+     "text": "Fffff.",
+     "flat_settings": true,
+     "measures": {
+      "hold_ms": 530,
+      "vowel_frames": 0,
+      "window_start_ms": 0,
+      "swell_db": 2.24,
+      "ms": 420
+     },
+     "fails": [],
+     "score": 2.24
+    },
+    {
+     "label": "flat 'cccccc'",
+     "model": "eleven_v4",
+     "text": "ffffff",
+     "flat_settings": true,
+     "measures": {
+      "hold_ms": 140,
+      "vowel_frames": 23,
+      "window_start_ms": 0,
+      "swell_db": 18.56,
+      "ms": 420
+     },
+     "fails": [
+      "hold 140 ms < 400",
+      "vowel 230 ms",
+      "swell 18.6 dB"
+     ],
+     "score": 41.56
+    }
+   ]
+  },
+  "l": {
+   "class": "hum",
+   "verdict": "pass",
+   "pick": 2,
+   "takes": [
+    {
+     "label": "carrier 'The sound cc.'",
+     "model": "eleven_v4",
+     "text": "The sound ll.",
+     "flat_settings": true,
+     "measures": {
+      "hold_ms": 320,
+      "vowel_frames": 0,
+      "window_start_ms": 0,
+      "swell_db": 3.99,
+      "f0_range_st": 4.96,
+      "flatness": 0.0008,
+      "flat_ref": 0.0081,
+      "ms": 310
+     },
+     "fails": [
+      "swell 4.0 dB",
+      "F0 glide 5.0 st"
+     ],
+     "score": 8.94
+    },
+    {
+     "label": "flat 'ccc'",
+     "model": "eleven_multilingual_v2",
+     "text": "lll",
+     "flat_settings": true,
+     "measures": {
+      "hold_ms": 330,
+      "vowel_frames": 0,
+      "window_start_ms": 0,
+      "swell_db": 4.57,
+      "f0_range_st": 1.97,
+      "flatness": 0.0127,
+      "flat_ref": 0.0081,
+      "ms": 310
+     },
+     "fails": [
+      "swell 4.6 dB",
+      "breathy"
+     ],
+     "score": 6.54
+    },
+    {
+     "label": "flat 'Ccccc'",
+     "model": "eleven_multilingual_v2",
+     "text": "Lllll",
+     "flat_settings": true,
+     "measures": {
+      "hold_ms": 470,
+      "vowel_frames": 0,
+      "window_start_ms": 80,
+      "swell_db": 0.47,
+      "f0_range_st": 0.25,
+      "flatness": 0.0021,
+      "flat_ref": 0.0081,
+      "ms": 310
+     },
+     "fails": [],
+     "score": 0.72
+    }
+   ]
+  },
+  "j": {
+   "class": "stop",
+   "verdict": "pass",
+   "pick": 0,
+   "takes": [
+    {
+     "label": "'j.'",
+     "model": "eleven_v4",
+     "text": "j.",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 10,
+      "natural_vowel_ms": 130,
+      "tail_ms": 60,
+      "ms": 70
+     },
+     "fails": [],
+     "score": 125.0
+    },
+    {
+     "label": "'juh.'",
+     "model": "eleven_v4",
+     "text": "juh.",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 10,
+      "natural_vowel_ms": 200,
+      "tail_ms": 60,
+      "ms": 70
+     },
+     "fails": [],
+     "score": 195.0
+    },
+    {
+     "label": "'c'",
+     "model": "eleven_v4",
+     "text": "j",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 10,
+      "natural_vowel_ms": 150,
+      "tail_ms": 60,
+      "ms": 70
+     },
+     "fails": [],
+     "score": 145.0
+    }
+   ]
+  },
+  "v": {
+   "class": "hum",
+   "verdict": "pass",
+   "pick": 0,
+   "takes": [
+    {
+     "label": "carrier 'The sound cc.'",
+     "model": "eleven_v4",
+     "text": "The sound vv.",
+     "flat_settings": true,
+     "measures": {
+      "hold_ms": 390,
+      "vowel_frames": 0,
+      "window_start_ms": 0,
+      "swell_db": 2.67,
+      "f0_range_st": 1.7,
+      "flatness": 0.007,
+      "flat_ref": 0.0081,
+      "ms": 310
+     },
+     "fails": [],
+     "score": 4.37
+    },
+    {
+     "label": "flat 'ccc'",
+     "model": "eleven_multilingual_v2",
+     "text": "vvv",
+     "flat_settings": true,
+     "measures": {
+      "hold_ms": 250,
+      "vowel_frames": 0,
+      "window_start_ms": 0,
+      "swell_db": 7.66,
+      "f0_range_st": 1.64,
+      "flatness": 0.0404,
+      "flat_ref": 0.0081,
+      "ms": 310
+     },
+     "fails": [
+      "hold 250 ms < 300",
+      "swell 7.7 dB",
+      "breathy"
+     ],
+     "score": 9.3
+    },
+    {
+     "label": "flat 'Ccccc'",
+     "model": "eleven_multilingual_v2",
+     "text": "Vvvvv",
+     "flat_settings": true,
+     "measures": {
+      "hold_ms": 120,
+      "vowel_frames": 0,
+      "window_start_ms": 0,
+      "swell_db": 6.82,
+      "f0_range_st": 1.28,
+      "flatness": 0.0184,
+      "flat_ref": 0.0081,
+      "ms": 248
+     },
+     "fails": [
+      "hold 120 ms < 300",
+      "swell 6.8 dB",
+      "breathy"
+     ],
+     "score": 8.1
+    }
+   ]
+  },
+  "w": {
+   "class": "glide",
+   "verdict": "pass",
+   "pick": 2,
+   "takes": [
+    {
+     "label": "'w.'",
+     "model": "eleven_v4",
+     "text": "w.",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 0,
+      "natural_vowel_ms": 210,
+      "tail_ms": 120,
+      "ms": 120
+     },
+     "fails": [],
+     "score": 210.0
+    },
+    {
+     "label": "'wuh.'",
+     "model": "eleven_v4",
+     "text": "wuh.",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 10,
+      "natural_vowel_ms": 240,
+      "tail_ms": 120,
+      "ms": 130
+     },
+     "fails": [],
+     "score": 235.0
+    },
+    {
+     "label": "'c'",
+     "model": "eleven_v4",
+     "text": "w",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 20,
+      "natural_vowel_ms": 180,
+      "tail_ms": 120,
+      "ms": 140
+     },
+     "fails": [],
+     "score": 170.0
+    }
+   ]
+  },
+  "ks": {
+   "class": "stop",
+   "verdict": "pass",
+   "pick": 2,
+   "takes": [
+    {
+     "label": "'ks.'",
+     "model": "eleven_v4",
+     "text": "ks.",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 70,
+      "natural_vowel_ms": 90,
+      "tail_ms": 60,
+      "ms": 130
+     },
+     "fails": [],
+     "score": 55.0
+    },
+    {
+     "label": "'ksuh.'",
+     "model": "eleven_v4",
+     "text": "ksuh.",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 90,
+      "natural_vowel_ms": 430,
+      "tail_ms": 60,
+      "ms": 150
+     },
+     "fails": [
+      "long vowel 430 ms (letter name?)"
+     ],
+     "score": 385.0
+    },
+    {
+     "label": "whispered",
+     "model": "eleven_v4",
+     "text": "[whispers] ks.",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 720,
+      "natural_vowel_ms": 0,
+      "tail_ms": 0,
+      "ms": 220
+     },
+     "fails": [],
+     "score": -60.0
+    }
+   ]
+  },
+  "y": {
+   "class": "glide",
+   "verdict": "pass",
+   "pick": 1,
+   "takes": [
+    {
+     "label": "'y.'",
+     "model": "eleven_v4",
+     "text": "y.",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 20,
+      "natural_vowel_ms": 250,
+      "tail_ms": 120,
+      "ms": 140
+     },
+     "fails": [],
+     "score": 240.0
+    },
+    {
+     "label": "'yuh.'",
+     "model": "eleven_v4",
+     "text": "yuh.",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 10,
+      "natural_vowel_ms": 230,
+      "tail_ms": 120,
+      "ms": 130
+     },
+     "fails": [],
+     "score": 225.0
+    },
+    {
+     "label": "'c'",
+     "model": "eleven_v4",
+     "text": "y",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 10,
+      "natural_vowel_ms": 240,
+      "tail_ms": 120,
+      "ms": 130
+     },
+     "fails": [],
+     "score": 235.0
+    }
+   ]
+  },
+  "z": {
+   "class": "hum",
+   "verdict": "pass",
+   "pick": 2,
+   "takes": [
+    {
+     "label": "carrier 'The sound cc.'",
+     "model": "eleven_v4",
+     "text": "The sound zz.",
+     "flat_settings": true,
+     "measures": {
+      "hold_ms": 430,
+      "vowel_frames": 0,
+      "window_start_ms": 20,
+      "swell_db": 1.07,
+      "f0_range_st": 1.4,
+      "flatness": 0.0034,
+      "flat_ref": 0.0081,
+      "ms": 310
+     },
+     "fails": [],
+     "score": 2.47
+    },
+    {
+     "label": "flat 'ccc'",
+     "model": "eleven_multilingual_v2",
+     "text": "zzz",
+     "flat_settings": true,
+     "measures": {
+      "hold_ms": 330,
+      "vowel_frames": 0,
+      "window_start_ms": 0,
+      "swell_db": 4.88,
+      "f0_range_st": 1.5,
+      "flatness": 0.003,
+      "flat_ref": 0.0081,
+      "ms": 310
+     },
+     "fails": [
+      "swell 4.9 dB"
+     ],
+     "score": 6.38
+    },
+    {
+     "label": "flat 'Ccccc'",
+     "model": "eleven_multilingual_v2",
+     "text": "Zzzzz",
+     "flat_settings": true,
+     "measures": {
+      "hold_ms": 600,
+      "vowel_frames": 0,
+      "window_start_ms": 40,
+      "swell_db": 0.47,
+      "f0_range_st": 1.65,
+      "flatness": 0.0002,
+      "flat_ref": 0.0081,
+      "ms": 310
+     },
+     "fails": [],
+     "score": 2.12
+    }
+   ]
+  },
+  "kw": {
+   "class": "stop",
+   "verdict": "pass",
+   "pick": 1,
+   "takes": [
+    {
+     "label": "'kw.'",
+     "model": "eleven_v4",
+     "text": "kw.",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 100,
+      "natural_vowel_ms": 190,
+      "tail_ms": 60,
+      "ms": 160
+     },
+     "fails": [],
+     "score": 140.0
+    },
+    {
+     "label": "'kwuh.'",
+     "model": "eleven_v4",
+     "text": "kwuh.",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 160,
+      "natural_vowel_ms": 150,
+      "tail_ms": 60,
+      "ms": 220
+     },
+     "fails": [],
+     "score": 90.0
+    },
+    {
+     "label": "'c'",
+     "model": "eleven_v4",
+     "text": "kw",
+     "flat_settings": false,
+     "measures": {
+      "burst_ms": 90,
+      "natural_vowel_ms": 170,
+      "tail_ms": 60,
+      "ms": 150
+     },
+     "fails": [],
+     "score": 125.0
+    }
+   ]
+  }
+ }
+}

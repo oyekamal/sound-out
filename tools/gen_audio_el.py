@@ -4,7 +4,7 @@
   python3 tools/gen_audio_el.py audition            # 3 candidate voices -> app/public/voices.html data
   python3 tools/gen_audio_el.py plan                # content/audio_plan.json (what each key renders, no API)
   python3 tools/gen_audio_el.py render              # every uncached request, 3 concurrent, with timestamps
-  python3 tools/gen_audio_el.py build               # cut + isolated sounds + loudness + encode -> app/public/audio,
+  python3 tools/gen_audio_el.py build               # cut words + isolated sounds (tools/iso_sounds.py picks) + loudness + encode -> app/public/audio,
                                                     # content/audio_index.json, listen-data.json, coverage.md
 Key: ELEVENLABS_API_KEY in env or ./.env (gitignored). Stdlib + numpy/scipy/soundfile + ffmpeg.
 
@@ -61,21 +61,21 @@ def api(path, body=None):
             raise RuntimeError(f"ElevenLabs {e.code}: {e.read()[:300].decode(errors='replace')}") from None
 
 
-def rkey(voice, text, model=None):
+def rkey(voice, text, model=None, settings=None):
     model = model or MODEL
-    return hashlib.sha1(f"{voice}|{model}|{json.dumps(SETTINGS, sort_keys=True)}|{text}".encode()).hexdigest()
+    return hashlib.sha1(f"{voice}|{model}|{json.dumps(settings or SETTINGS, sort_keys=True)}|{text}".encode()).hexdigest()
 
 
-def tts(voice, text, model=None):
+def tts(voice, text, model=None, settings=None):
     """Cached render with timestamps. Returns (float audio @24k, alignment dict)."""
-    model = model or MODEL
-    k = rkey(voice, text, model); wav, js = CACHE / f"{k}.wav", CACHE / f"{k}.json"
+    model = model or MODEL; settings = settings or SETTINGS
+    k = rkey(voice, text, model, settings); wav, js = CACHE / f"{k}.wav", CACHE / f"{k}.json"
     if not wav.exists():
-        body = {"text": text, "model_id": model, "voice_settings": SETTINGS, "seed": 18, "language_code": "en"}
+        body = {"text": text, "model_id": model, "voice_settings": settings, "seed": 18, "language_code": "en"}
         d = api(f"/v1/text-to-speech/{voice}/with-timestamps?output_format=pcm_24000", body)
         a = np.frombuffer(base64.b64decode(d["audio_base64"]), dtype="<i2").astype(np.float64) / 32768
         CACHE.mkdir(parents=True, exist_ok=True)
-        js.write_text(json.dumps({"voice": voice, "model": model, "settings": SETTINGS, "text": text,
+        js.write_text(json.dumps({"voice": voice, "model": model, "settings": settings, "text": text,
                                   "alignment": d.get("alignment"), "normalized_alignment": d.get("normalized_alignment")}))
         sf.write(wav, a, SR, subtype="PCM_16")
     a, _ = sf.read(wav)
@@ -300,80 +300,16 @@ def req_text(c):
     return None
 
 
-# isolated sounds: carrier word per sound (sliced) + sustained render for continuants
-SRC_WORD = {"s": "sat", "a": "at", "t": "tap", "p": "pat", "i": "if", "n": "nap", "m": "map", "d": "dip", "g": "got",
-            "o": "ox", "k": "kit", "e": "egg", "u": "up", "r": "rat", "h": "hat", "b": "bat", "f": "fan", "l": "lap",
-            "j": "jam", "v": "van", "w": "wet", "ks": "box", "y": "yes", "z": "zip", "kw": "quit"}
-SUSTAIN = {"s": "Sssss.", "m": "Mmmmm.", "n": "Nnnnn.", "f": "Fffff.", "l": "Lllll.", "v": "Vvvvv.", "z": "Zzzzz.", "r": "Rrrrr.",
-           "h": "Hhhhh."}
-STOPS = {"t", "p", "d", "g", "k", "b"}
-VOWELS = {"a", "i", "o", "e", "u"}
-VOICELESS_FRIC = {"s", "f", "h"}
-
-
 def requests(clips):
-    r = {req_text(c) for c in clips.values() if req_text(c)}
-    r |= {f"Say: {w}." for w in SRC_WORD.values()} | set(SUSTAIN.values())
-    return r
+    return {req_text(c) for c in clips.values() if req_text(c)}
 
 
-# ---------------------------------------------------------------- isolated-sound slicing
-def band_db(x, lo=1000, hi=4000):
-    sos = butter(4, [lo, hi], btype="band", fs=SR, output="sos")
-    return frames_db(sosfilt(sos, x))
-
-
-def vowel_onset(w, start=0):
-    """First 10 ms frame (from `start` s) that is voiced and loud: low ZCR, energy > -12 dB re word peak frame."""
-    db = frames_db(w); pk = db.max()
-    for i in range(int(start * 100), len(db)):
-        x = w[i * FR:(i + 1) * FR]
-        if db[i] > pk - 12 and zcr(x) < 0.12: return i / 100
-    return None
-
-
-def slice_sound(pid, w):
-    """w = trimmed carrier word. Returns (segment, method, verdict)."""
-    dur = len(w) / SR
-    if pid in VOICELESS_FRIC:
-        v = vowel_onset(w, 0.02)
-        if v is None: return w[:int(.12 * SR)], "first 120 ms", "no vowel onset found"
-        seg = w[:max(0, int((v - 0.01) * SR))]
-        tail = seg[-int(.02 * SR):]
-        ms = round(1000 * len(seg) / SR)
-        if periodicity(tail) > 0.5: return seg, "cut at vowel onset (ZCR)", f"vowel leak (voiced tail, {ms} ms)"
-        if ms < 60: return seg, "cut at vowel onset (ZCR)", f"too short ({ms} ms)"
-        return seg, "cut at vowel onset (ZCR)", f"clean (heuristic, {ms} ms)"
-    if pid in STOPS:
-        # burst only: from the burst to where the vowel starts, capped at 70 ms (voiceless) / 40 ms (voiced)
-        v = vowel_onset(w, 0.0)
-        cap = 0.07 if pid in {"t", "p", "k"} else 0.04
-        end = min(v - 0.005 if v and v > 0.01 else cap, cap)
-        seg = w[:max(int(.01 * SR), int(end * SR))]
-        ms = round(1000 * len(seg) / SR)
-        verdict = f"burst only ({ms} ms)" + ("" if 10 <= ms <= 80 else ", length off")
-        if pid not in {"t", "p", "k"}: verdict += "; voiced stop, needs ears"
-        return seg, "burst to vowel onset", verdict
-    if pid in VOWELS:
-        # vowel-initial VC word: vowel ends where energy falls into the closure (or friction starts)
-        db = frames_db(w); pk = db.max(); ipk = int(np.argmax(db))
-        end = next((i for i in range(ipk, len(db)) if db[i] < pk - 20 or zcr(w[i * FR:(i + 1) * FR]) > 0.3), len(db))
-        seg = w[:max(FR, end * FR - int(.01 * SR))]   # stop 10 ms short of the closure: keeps the transition out
-        ms = round(1000 * len(seg) / SR)
-        return seg, "vowel ends 10 ms before closure/friction (-20 dB)", f"clean (heuristic, {ms} ms)" if ms >= 100 else f"too short ({ms} ms)"
-    if pid == "ks":
-        g = [x for x in gaps(w, -45, 20) if x[0] > 0.1]   # closure before the /k/ burst
-        if not g: return w[-int(.2 * SR):], "last 200 ms", "no closure found"
-        seg = w[int(g[-1][1] * SR):]
-        return seg, "after the closure", f"clean (heuristic, {round(1000 * len(seg) / SR)} ms)"
-    # voiced continuants/glides/affricates: boundary = steepest rise in 1-4 kHz energy (consonant -> vowel)
-    win = {"w": 18, "y": 18, "j": 15, "kw": 24}.get(pid, 30)   # glides: the rise must come early or it is the vowel
-    b = band_db(w); d = np.diff(b[:min(len(b), win)])
-    lo = 4 if pid not in {"j", "kw"} else 3
-    i = int(np.argmax(d[lo:])) + lo + 1 if len(d) > lo else 8
-    seg = w[:i * FR]
-    ms = round(1000 * len(seg) / SR)
-    return seg, "steepest 1-4 kHz rise", f"voiced: needs ears ({ms} ms)" if ms >= 50 else f"too short ({ms} ms)"
+# Isolated sounds (ph:*) are DIRECT renders in the same voice, picked by tools/iso_sounds.py (decision 19: slicing
+# dropped after Kamal's listen). Example words for the listen page: lexicon words where they exist, else rendered here.
+EXAMPLE = {"s": "sat", "a": "apple", "t": "tap", "p": "pat", "i": "igloo", "n": "nap", "m": "map", "d": "dip", "g": "got",
+           "o": "octopus", "c": "cat", "k": "kit", "ck": "sock", "e": "egg", "u": "umbrella", "r": "rat", "h": "hat",
+           "b": "bat", "f": "fan", "l": "lap", "ff": "off", "ll": "bell", "ss": "kiss", "zz": "buzz", "j": "jam", "v": "van",
+           "w": "wet", "x": "box", "y": "yes", "z": "zip", "qu": "quit"}
 
 
 # ---------------------------------------------------------------- build
@@ -385,10 +321,12 @@ def get_voice():
 
 
 def build():
+    import iso_sounds
     voice = get_voice()
     clips = json.loads((C / "audio_plan.json").read_text())
+    gpc = json.loads((C / "gpc.json").read_text())
     OUT.mkdir(parents=True, exist_ok=True)
-    raw = {}   # key -> (audio, meta)
+    raw = {}
     for key, c in clips.items():
         t = req_text(c)
         if not t: continue
@@ -399,29 +337,34 @@ def build():
             a = open_cut(w)
         else: a = trim(a)
         raw[key] = a
-    # isolated sounds
-    def src(w):
-        a, al = tts(voice, f"Say: {w}.")
-        return cut_last(a, f"Say: {w}.", al, w)
-    words = {pid: src(w) for pid, w in SRC_WORD.items()}
-    rows = []
-    for pid, w in SRC_WORD.items():
-        seg, method, verdict = slice_sound(pid, words[pid])
-        sus = None
-        if pid in SUSTAIN: sus = trim(tts(voice, SUSTAIN[pid])[0])
-        use_sus = sus is not None and not verdict.startswith("clean")
-        rows.append({"id": pid, "word": w, "method": method, "verdict": verdict, "ms": round(1000 * len(seg) / SR),
-                     "sliced": fades(seg), "sustained": sus, "src": words[pid], "app": "sustained" if use_sus else "sliced"})
-        raw[f"ph:{pid}"] = sus if use_sus else fades(seg)
-    # loudness: words class RMS (after -18 LUFS on >=0.4 s words) is the target for short clips
-    normed = {}
+    # isolated sounds: the picked direct take per phoneme (no API call when every take is cached)
+    iso, res, _ = iso_sounds.pick_all(voice, do_render=False)
+    iso_key = {}
+    for pid, x in iso.items():
+        raw[f"ph:{pid}"] = x
+        t = res[pid]["takes"][res[pid]["pick"]]
+        iso_key[f"ph:{pid}"] = f"{t['model']}|{t['text']}|{t['flat_settings']}|{t['measures'].get('ms')}"
+    # example words not in the lexicon (listen page only)
+    for gph, w in EXAMPLE.items():
+        if f"w:{w}" not in clips:
+            t = f"Say: {w}."; a, al = tts(voice, t); raw[f"exw:{w}"] = cut_last(a, t, al, w)
+    # loudness: words class RMS (after -18 LUFS on >=0.4 s words) is the target for short clips AND isolated sounds
     word_keys = [k for k in raw if k.startswith(("w:", "ipa:"))]
     longw = [loudness(raw[k])[0] for k in word_keys if len(raw[k]) >= MIN_LUFS_DUR * SR]
     word_rms = float(np.median([rms_db(x) for x in longw])) if longw else -24.0
-    def enc(a, cid):
-        b, rule = loudness(a, word_rms)
+    def enc(a, cid, force_rms=False):
+        if force_rms:
+            b, rule = a * 10 ** ((word_rms - rms_db(a)) / 20), "rms"
+        else:
+            b, rule = loudness(a, word_rms)
         dst = OUT / f"{cid}.ogg"
         d = encode(b, dst)
+        if force_rms:   # Opus at 24 kb/s drops some fricative energy: measure the SHIPPED file, correct to the word RMS
+            gain = 0.0
+            for _ in range(3):
+                e = word_rms - rms_db(decode(dst))
+                if abs(e) <= 0.3: break
+                gain += e; encode(b * 10 ** (gain / 20), dst)
         if rule.startswith("lufs"):   # measure the SHIPPED file (padding + limiter + Opus) and correct once
             gain = 0.0
             for _ in range(4):   # the limiter eats loudness on peaky clips, so converge in a few passes
@@ -432,55 +375,58 @@ def build():
     old = {p.name for p in OUT.glob("*.ogg")}
     index, rules = {}, {}
     def cid_for(key):
+        if key in iso_key: return hashlib.sha1(f"iso|{voice}|{iso_key[key]}".encode()).hexdigest()[:12]
+        if key.startswith("exw:"): return hashlib.sha1(f"{rkey(voice, 'Say: ' + key[4:] + '.')}|last".encode()).hexdigest()[:12]
         c = clips[key]
-        return hashlib.sha1(f"{rkey(voice, req_text(c) or '')}|{c['cut']}|{c.get('pid', '')}|{json.dumps(rows_app(c, rows))}".encode()).hexdigest()[:12]
-    for key in clips:
+        return hashlib.sha1(f"{rkey(voice, req_text(c) or '')}|{c['cut']}|{c.get('pid', '')}|\"\"".encode()).hexdigest()[:12]
+    for key in list(clips) + [k for k in raw if k.startswith("exw:")]:
         if key not in raw or not len(raw[key]): continue
         cid = cid_for(key)
-        if cid not in rules: rules[cid] = enc(raw[key], cid)
+        if cid not in rules: rules[cid] = enc(raw[key], cid, force_rms=key.startswith("ph:"))
         d, rule = rules[cid]
         index[key] = {"id": cid, "dur": d}
-    # listen page extras: sliced / sustained / source word for every sound
-    for r in rows:
-        r["slicedId"] = f"sl_{r['id']}"; r["dur"] = enc(r.pop("sliced"), r["slicedId"])[0]
-        s = r.pop("sustained")
-        if s is not None: r["sustainedId"] = f"ss_{r['id']}"; enc(s, r["sustainedId"])
-        r["wordId"] = f"slw_{r['id']}"; enc(r.pop("src"), r["wordId"])
-    keep = {f"{v['id']}.ogg" for v in index.values()} | {f"{r[k]}.ogg" for r in rows for k in ("slicedId", "sustainedId", "wordId") if r.get(k)}
+    keep = {f"{v['id']}.ogg" for v in index.values()}
     for n in old - keep: (OUT / n).unlink()
+    # shipped isolated sounds: measure what the app actually plays
+    shipped = {}
+    for pid in iso:
+        x = decode(OUT / f"{index['ph:' + pid]['id']}.ogg")
+        shipped[pid] = {"rms_db": round(float(rms_db(x)), 1), "true_peak_db": round(float(true_peak_db(x)), 2), "file_s": index["ph:" + pid]["dur"]}
     names = json.loads((C / "voice.json").read_text())
     (C / "audio_index.json").write_text(json.dumps({"voice": f"ElevenLabs {names['name']} ({voice})", "model": MODEL, "settings": SETTINGS,
-        "note": "ElevenLabs, one voice for everything (decision 18); tools/gen_audio_el.py", "clips": index,
-        "missing": [k for k in clips if k not in index], "skipped": []}, indent=1, ensure_ascii=False))
-    (PUB / "listen-data.json").write_text(json.dumps({"voice": names["name"], "model": MODEL, "rows": rows, "sat": index["w:sat"]["id"]}, indent=1, ensure_ascii=False))
-    write_coverage(rows, names["name"])
+        "note": "ElevenLabs, one voice for everything (decision 18); isolated sounds = direct renders (decision 19, tools/iso_sounds.py); tools/gen_audio_el.py",
+        "clips": index, "missing": [k for k in clips if k not in index], "skipped": []}, indent=1, ensure_ascii=False))
+    # listen page: one row per Level 1 spelling
+    rows = []
+    for o in gpc["order"]:
+        gph, pid = o["g"], o["p"]
+        w = EXAMPLE[gph]; wk = f"w:{w}" if f"w:{w}" in index else f"exw:{w}"
+        letter = "q" if gph == "qu" else gph if len(gph) == 1 else None
+        rows.append({"g": gph, "pid": pid, "sound": index[f"ph:{pid}"]["id"], "name": index[f"name:{letter}"]["id"] if letter else None,
+                     "nameLabel": letter.upper() if letter else None, "word": w, "wordId": index[wk]["id"],
+                     "ms": res[pid]["takes"][res[pid]["pick"]]["measures"].get("ms")})
+    (PUB / "listen-data.json").write_text(json.dumps({"voice": names["name"], "rows": rows,
+        "blend": [index[k]["id"] for k in ("ph:s", "ph:a", "ph:t")], "sat": index["w:sat"]["id"]}, indent=1, ensure_ascii=False))
+    write_coverage(res, shipped, names["name"])
     size = sum(f.stat().st_size for f in OUT.glob("*.ogg"))
-    print(f"encoded {len(index)} keys / {len(rules)} clips + {len(rows)} listen rows, {size / 1e6:.1f} MB; word RMS {word_rms:.1f} dBFS; removed {len(old - keep)} old files")
-    return rows
+    print(f"encoded {len(index)} keys / {len(rules)} clips, {size / 1e6:.1f} MB; word RMS {word_rms:.1f} dBFS; removed {len(old - keep)} old files")
+    for pid, m in shipped.items(): print(f"  ph:{pid:3s} {m}")
+    return res, shipped
 
 
-def rows_app(c, rows):
-    if c["cut"] != "phone": return ""
-    r = next(x for x in rows if x["id"] == c["pid"]); return r["app"]
-
-
-def write_coverage(rows, vname):
+def write_coverage(res, shipped, vname):
     cov = C / "coverage.md"
     txt = cov.read_text().split("\n## Isolated sounds")[0].rstrip() + "\n\n"
-    clean = [r["id"] for r in rows if r["verdict"].startswith(("clean", "burst only")) and "ears" not in r["verdict"] and "off" not in r["verdict"]]
-    sus = [r["id"] for r in rows if r["app"] == "sustained"]
-    ears = [r["id"] for r in rows if r["id"] not in clean and r["id"] not in sus]
-    txt += (f"## Isolated sounds sliced from ElevenLabs word renders (tools/gen_audio_el.py, voice {vname}, {MODEL})\n\n"
-            "Each sound is cut from the voice saying a real word in the carrier \"Say: <word>.\" The word is located by "
-            "ElevenLabs word timestamps (character timestamps are interpolated, so the phoneme boundary is found acoustically): "
-            "voiceless fricatives end at the vowel onset (zero-crossing rate), stops keep the burst only, vowels end at the "
-            "closure (energy), voiced continuants/glides end at the steepest 1-4 kHz rise. Continuants whose slice is not "
-            "clean play a sustained render (\"Sssss.\") in the app instead. **Machine checks are heuristics; Kamal's ears on "
-            "listen.html decide.**\n\n"
-            f"- Slice cleanly (heuristic): {', '.join(clean) or 'none'}\n- App plays the sustained render: {', '.join(sus) or 'none'}\n"
-            f"- Sliced, needs ears: {', '.join(ears) or 'none'}\n\n"
-            "| Sound | Source word | Slice ms | Method | Verdict | App plays |\n|---|---|---|---|---|---|\n"
-            + "\n".join(f"| {r['id']} | {r['word']} | {r['ms']} | {r['method']} | {r['verdict']} | {r['app']} |" for r in rows) + "\n")
+    txt += (f"## Isolated sounds: direct renders in the app voice ({vname}; tools/iso_sounds.py, decision 19)\n\n"
+            "No slicing. Each sound is its own ElevenLabs render, three prompt forms per sound, picked by machine checks "
+            "(hums m n l r v z: 300-350 ms, F0 range <= 2 st, swell <= 3 dB, not breathier than the voice's words; "
+            "s f h: 400-600 ms, no vowel, swell <= 3 dB; vowels: 300-400 ms audible, F1/F2 within 1.5 Bark of the vowel in "
+            "River's own word; stops: <= 220 ms, vowel tail <= 60 ms; w y: <= 250 ms, tail <= 120 ms). RMS = the word class; "
+            "true peak <= -1.5 dBTP. **Kamal's ears decide.**\n\n"
+            "| Sound | Class | Picked take | Model | ms | RMS dBFS | TP dBTP | Verdict |\n|---|---|---|---|---|---|---|---|\n")
+    for pid, r in res.items():
+        t = r["takes"][r["pick"]]; sh = shipped[pid]
+        txt += f"| {pid} | {r['class']} | `{t['text'][-40:]}` | {t['model']} | {t['measures'].get('ms')} | {sh['rms_db']} | {sh['true_peak_db']} | {r['verdict']} |\n"
     cov.write_text(txt)
 
 
@@ -502,7 +448,7 @@ def audition():
         for label, kind, t in AUDITION:
             a, al = tts(v, t)
             if kind in ("word", "pseudo"): a = cut_last(a, t, al, t[5:-1])
-            elif kind == "slice": a, _, _ = slice_sound("a", cut_last(a, t, al, t[5:-1]))
+            elif kind == "slice": a = cut_last(a, t, al, t[5:-1])   # slicing dropped (decision 19); historical item
             else: a = trim(a)
             fn = f"{name.lower()}_{re.sub(r'[^a-z]+', '_', label.lower()).strip('_')}.ogg"
             b, _ = loudness(fades(a)); encode(b, dst / fn)

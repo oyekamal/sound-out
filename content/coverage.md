@@ -149,38 +149,34 @@
 
 270 entries; unsegmentable (letters outside the L1 GPC set, skipped): qov (L1.13), qov (L1.13)
 
-## Isolated sounds sliced from ElevenLabs word renders (tools/gen_audio_el.py, voice River, eleven_v4)
+## Isolated sounds: direct renders in the app voice (River; tools/iso_sounds.py, decision 19)
 
-Each sound is cut from the voice saying a real word in the carrier "Say: <word>." The word is located by ElevenLabs word timestamps (character timestamps are interpolated, so the phoneme boundary is found acoustically): voiceless fricatives end at the vowel onset (zero-crossing rate), stops keep the burst only, vowels end at the closure (energy), voiced continuants/glides end at the steepest 1-4 kHz rise. Continuants whose slice is not clean play a sustained render ("Sssss.") in the app instead. **Machine checks are heuristics; Kamal's ears on listen.html decide.**
+No slicing. Each sound is its own ElevenLabs render, three prompt forms per sound, picked by machine checks (hums m n l r v z: 300-350 ms, F0 range <= 2 st, swell <= 3 dB, not breathier than the voice's words; s f h: 400-600 ms, no vowel, swell <= 3 dB; vowels: 300-400 ms audible, F1/F2 within 1.5 Bark of the vowel in River's own word; stops: <= 220 ms, vowel tail <= 60 ms; w y: <= 250 ms, tail <= 120 ms). RMS = the word class; true peak <= -1.5 dBTP. **Kamal's ears decide.**
 
-- Slice cleanly (heuristic): s, a, t, p, i, o, k, e, u, h, f, ks
-- App plays the sustained render: n, m, r, l, v, z
-- Sliced, needs ears: d, g, b, j, w, y, kw
-
-| Sound | Source word | Slice ms | Method | Verdict | App plays |
-|---|---|---|---|---|---|
-| s | sat | 140 | cut at vowel onset (ZCR) | clean (heuristic, 140 ms) | sliced |
-| a | at | 140 | vowel ends 10 ms before closure/friction (-20 dB) | clean (heuristic, 140 ms) | sliced |
-| t | tap | 70 | burst to vowel onset | burst only (70 ms) | sliced |
-| p | pat | 65 | burst to vowel onset | burst only (65 ms) | sliced |
-| i | if | 160 | vowel ends 10 ms before closure/friction (-20 dB) | clean (heuristic, 160 ms) | sliced |
-| n | nap | 90 | steepest 1-4 kHz rise | voiced: needs ears (90 ms) | sustained |
-| m | map | 80 | steepest 1-4 kHz rise | voiced: needs ears (80 ms) | sustained |
-| d | dip | 40 | burst to vowel onset | burst only (40 ms); voiced stop, needs ears | sliced |
-| g | got | 40 | burst to vowel onset | burst only (40 ms); voiced stop, needs ears | sliced |
-| o | ox | 140 | vowel ends 10 ms before closure/friction (-20 dB) | clean (heuristic, 140 ms) | sliced |
-| k | kit | 70 | burst to vowel onset | burst only (70 ms) | sliced |
-| e | egg | 240 | vowel ends 10 ms before closure/friction (-20 dB) | clean (heuristic, 240 ms) | sliced |
-| u | up | 120 | vowel ends 10 ms before closure/friction (-20 dB) | clean (heuristic, 120 ms) | sliced |
-| r | rat | 90 | steepest 1-4 kHz rise | voiced: needs ears (90 ms) | sustained |
-| h | hat | 80 | cut at vowel onset (ZCR) | clean (heuristic, 80 ms) | sliced |
-| b | bat | 40 | burst to vowel onset | burst only (40 ms); voiced stop, needs ears | sliced |
-| f | fan | 110 | cut at vowel onset (ZCR) | clean (heuristic, 110 ms) | sliced |
-| l | lap | 100 | steepest 1-4 kHz rise | voiced: needs ears (100 ms) | sustained |
-| j | jam | 60 | steepest 1-4 kHz rise | voiced: needs ears (60 ms) | sliced |
-| v | van | 120 | steepest 1-4 kHz rise | voiced: needs ears (120 ms) | sustained |
-| w | wet | 110 | steepest 1-4 kHz rise | voiced: needs ears (110 ms) | sliced |
-| ks | box | 246 | after the closure | clean (heuristic, 246 ms) | sliced |
-| y | yes | 60 | steepest 1-4 kHz rise | voiced: needs ears (60 ms) | sliced |
-| z | zip | 140 | steepest 1-4 kHz rise | voiced: needs ears (140 ms) | sustained |
-| kw | quit | 160 | steepest 1-4 kHz rise | voiced: needs ears (160 ms) | sliced |
+| Sound | Class | Picked take | Model | ms | RMS dBFS | TP dBTP | Verdict |
+|---|---|---|---|---|---|---|---|
+| s | hiss | `Sssss.` | eleven_v4 | 420 | -19.1 | -6.27 | pass |
+| a | vowel | `æ.` | eleven_v4 | 380 | -19.2 | -2.96 | pass |
+| t | stop | `[whispers] t.` | eleven_v4 | 220 | -19.2 | -5.96 | pass |
+| p | stop | `p.` | eleven_v4 | 220 | -18.9 | -3.35 | pass |
+| i | vowel | `ɪ...` | eleven_v4 | 380 | -18.9 | -3.64 | pass |
+| n | hum | `Nnnnn` | eleven_multilingual_v2 | 310 | -19.0 | -7.99 | pass |
+| m | hum | `Mmmmm` | eleven_multilingual_v2 | 310 | -18.9 | -10.42 | pass |
+| d | stop | `d` | eleven_v4 | 70 | -18.9 | -13.23 | pass |
+| g | stop | `g.` | eleven_v4 | 70 | -19.3 | -12.23 | pass |
+| o | vowel | `ɑ.` | eleven_v4 | 380 | -19.2 | -5.88 | pass |
+| k | stop | `[whispers] k.` | eleven_v4 | 220 | -19.2 | -4.72 | pass |
+| e | vowel | `ɛ.` | eleven_v4 | 360 | -19.1 | -2.75 | pass |
+| u | vowel | `Uh!` | eleven_v4 | 380 | -19.0 | -5.83 | pass |
+| r | hum | `Rrrrr` | eleven_multilingual_v2 | 310 | -18.8 | -5.66 | FAIL (least-bad take shipped) |
+| h | hiss | `Hhhhh.` | eleven_v4 | 420 | -19.3 | -6.31 | pass |
+| b | stop | `b.` | eleven_v4 | 70 | -19.1 | -13.42 | pass |
+| f | hiss | `Fffff.` | eleven_v4 | 420 | -18.7 | -4.81 | pass |
+| l | hum | `Lllll` | eleven_multilingual_v2 | 310 | -19.1 | -12.59 | pass |
+| j | stop | `j.` | eleven_v4 | 70 | -19.0 | -10.68 | pass |
+| v | hum | `The sound vv.` | eleven_v4 | 310 | -19.1 | -11.18 | pass |
+| w | glide | `w` | eleven_v4 | 140 | -19.1 | -7.7 | pass |
+| ks | stop | `[whispers] ks.` | eleven_v4 | 220 | -18.9 | -4.42 | pass |
+| y | glide | `yuh.` | eleven_v4 | 130 | -19.1 | -10.03 | pass |
+| z | hum | `Zzzzz` | eleven_multilingual_v2 | 310 | -19.2 | -11.02 | pass |
+| kw | stop | `kwuh.` | eleven_v4 | 220 | -19.0 | -3.68 | pass |
