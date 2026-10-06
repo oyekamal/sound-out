@@ -1,0 +1,5682 @@
+{
+ "w:a": {
+  "mode": "ipa",
+  "src": "ʌ",
+  "id": "c79eb3242ec2"
+ },
+ "w:I": {
+  "mode": "ipa",
+  "src": "ˈI",
+  "id": "b2e42e4b1a6a"
+ },
+ "w:sa": {
+  "mode": "ipa",
+  "src": "sˈæ",
+  "id": "44edbecde0e8"
+ },
+ "w:at": {
+  "mode": "ipa",
+  "src": "ˈæt",
+  "id": "fe9e842f0bd7"
+ },
+ "w:as": {
+  "mode": "ipa",
+  "src": "ˈæz",
+  "id": "e45d24b0b8be"
+ },
+ "w:sat": {
+  "mode": "ipa",
+  "src": "sˈæt",
+  "id": "b12a990cfbd7"
+ },
+ "w:tas": {
+  "mode": "ipa",
+  "src": "tˈæs",
+  "id": "e33370f76686"
+ },
+ "w:ast": {
+  "mode": "ipa",
+  "src": "ˈæst",
+  "id": "78751aeb2b13"
+ },
+ "w:sta": {
+  "mode": "ipa",
+  "src": "stˈæ",
+  "id": "29aad9670d1d"
+ },
+ "w:sas": {
+  "mode": "ipa",
+  "src": "sˈæs",
+  "id": "36bc181f1e1b"
+ },
+ "w:att": {
+  "mode": "ipa",
+  "src": "ˈætt",
+  "id": "626721dd437d"
+ },
+ "w:tat": {
+  "mode": "ipa",
+  "src": "tˈæt",
+  "id": "7df1465357fd"
+ },
+ "w:the": {
+  "mode": "ipa",
+  "src": "ðʌ",
+  "id": "181f47f7492c"
+ },
+ "w:is": {
+  "mode": "ipa",
+  "src": "ˈɪz",
+  "id": "0f529f559c8d"
+ },
+ "w:pat": {
+  "mode": "ipa",
+  "src": "pˈæt",
+  "id": "ef52db25ffdf"
+ },
+ "w:tap": {
+  "mode": "ipa",
+  "src": "tˈæp",
+  "id": "359a6cd19547"
+ },
+ "w:sap": {
+  "mode": "ipa",
+  "src": "sˈæp",
+  "id": "2e0ce9345511"
+ },
+ "w:pit": {
+  "mode": "ipa",
+  "src": "pˈɪt",
+  "id": "1a1e3835ae4d"
+ },
+ "w:tip": {
+  "mode": "ipa",
+  "src": "tˈɪp",
+  "id": "835f419f4c0d"
+ },
+ "w:sip": {
+  "mode": "ipa",
+  "src": "sˈɪp",
+  "id": "eb291e3a196b"
+ },
+ "w:sit": {
+  "mode": "ipa",
+  "src": "sˈɪt",
+  "id": "0fd702fcc066"
+ },
+ "w:pip": {
+  "mode": "ipa",
+  "src": "pˈɪp",
+  "id": "436c95e711fa"
+ },
+ "w:pin": {
+  "mode": "ipa",
+  "src": "pˈɪn",
+  "id": "abe9506096d0"
+ },
+ "w:nip": {
+  "mode": "ipa",
+  "src": "nˈɪp",
+  "id": "78ec694ae8cf"
+ },
+ "w:tan": {
+  "mode": "ipa",
+  "src": "tˈæn",
+  "id": "c860d50845df"
+ },
+ "w:pan": {
+  "mode": "ipa",
+  "src": "pˈæn",
+  "id": "0ba1b3b76ffa"
+ },
+ "w:nap": {
+  "mode": "ipa",
+  "src": "nˈæp",
+  "id": "5a0e47248501"
+ },
+ "w:in": {
+  "mode": "ipa",
+  "src": "ˈɪn",
+  "id": "00b186f223cf"
+ },
+ "w:nas": {
+  "mode": "ipa",
+  "src": "nˈæs",
+  "id": "b91d4c2baa43"
+ },
+ "w:pas": {
+  "mode": "ipa",
+  "src": "pˈæs",
+  "id": "aed4ca272c13"
+ },
+ "w:tis": {
+  "mode": "ipa",
+  "src": "tˈɪs",
+  "id": "f01e631bbb6f"
+ },
+ "w:nis": {
+  "mode": "ipa",
+  "src": "nˈɪs",
+  "id": "85512ed69664"
+ },
+ "w:nat": {
+  "mode": "ipa",
+  "src": "nˈæt",
+  "id": "f78237a90f77"
+ },
+ "w:to": {
+  "mode": "ipa",
+  "src": "tˈu",
+  "id": "9830856e0034"
+ },
+ "w:of": {
+  "mode": "ipa",
+  "src": "ˈʌv",
+  "id": "d6f04dae6aa9"
+ },
+ "w:am": {
+  "mode": "ipa",
+  "src": "ˈæm",
+  "id": "fe0119c1a0ea"
+ },
+ "w:sam": {
+  "mode": "ipa",
+  "src": "sˈæm",
+  "id": "ddd4bfff6792"
+ },
+ "w:map": {
+  "mode": "ipa",
+  "src": "mˈæp",
+  "id": "540ba872aa1d"
+ },
+ "w:mat": {
+  "mode": "ipa",
+  "src": "mˈæt",
+  "id": "a6b0e187d69c"
+ },
+ "w:man": {
+  "mode": "ipa",
+  "src": "mˈæn",
+  "id": "5f148d56eabb"
+ },
+ "w:mad": {
+  "mode": "ipa",
+  "src": "mˈæd",
+  "id": "1a8f5efc8263"
+ },
+ "w:dad": {
+  "mode": "ipa",
+  "src": "dˈæd",
+  "id": "6a410fb6c9ea"
+ },
+ "w:dip": {
+  "mode": "ipa",
+  "src": "dˈɪp",
+  "id": "a0248ead41c6"
+ },
+ "w:dam": {
+  "mode": "ipa",
+  "src": "dˈæm",
+  "id": "e65760da0fe0"
+ },
+ "w:sad": {
+  "mode": "ipa",
+  "src": "sˈæd",
+  "id": "bfa4c2501fec"
+ },
+ "w:it": {
+  "mode": "ipa",
+  "src": "ˈɪt",
+  "id": "4bcb04009eda"
+ },
+ "w:dim": {
+  "mode": "ipa",
+  "src": "dˈɪm",
+  "id": "f09c36110f03"
+ },
+ "w:mip": {
+  "mode": "ipa",
+  "src": "mˈɪp",
+  "id": "2667ce232c64"
+ },
+ "w:nad": {
+  "mode": "ipa",
+  "src": "nˈæd",
+  "id": "2833a96ebd2d"
+ },
+ "w:dap": {
+  "mode": "ipa",
+  "src": "dˈæp",
+  "id": "9137f7623003"
+ },
+ "w:tid": {
+  "mode": "ipa",
+  "src": "tˈɪd",
+  "id": "2f0ea6ffdb4d"
+ },
+ "w:nam": {
+  "mode": "ipa",
+  "src": "nˈæm",
+  "id": "becc7185973e"
+ },
+ "w:pam": {
+  "mode": "ipa",
+  "src": "pˈæm",
+  "id": "e845cb2d8f38"
+ },
+ "w:dan": {
+  "mode": "ipa",
+  "src": "dˈæn",
+  "id": "c0ee2dbe23b5"
+ },
+ "w:and": {
+  "mode": "ipa",
+  "src": "ˈænd",
+  "id": "8d0d8c91fbee"
+ },
+ "w:was": {
+  "mode": "ipa",
+  "src": "wˈʌz",
+  "id": "2ccf97d7215c"
+ },
+ "w:gap": {
+  "mode": "ipa",
+  "src": "ɡˈæp",
+  "id": "406a76723698"
+ },
+ "w:tag": {
+  "mode": "ipa",
+  "src": "tˈæɡ",
+  "id": "940e0a1496aa"
+ },
+ "w:nag": {
+  "mode": "ipa",
+  "src": "nˈæɡ",
+  "id": "73476ef4d415"
+ },
+ "w:sag": {
+  "mode": "ipa",
+  "src": "sˈæɡ",
+  "id": "1e0edf7fbe2d"
+ },
+ "w:gas": {
+  "mode": "ipa",
+  "src": "ɡˈæs",
+  "id": "4d90142b67a0"
+ },
+ "w:got": {
+  "mode": "ipa",
+  "src": "ɡˈɑt",
+  "id": "de33ae9900fa"
+ },
+ "w:dog": {
+  "mode": "ipa",
+  "src": "dˈɑɡ",
+  "id": "9cde362ada70"
+ },
+ "w:top": {
+  "mode": "ipa",
+  "src": "tˈɑp",
+  "id": "b9caa4a80eea"
+ },
+ "w:pot": {
+  "mode": "ipa",
+  "src": "pˈɑt",
+  "id": "2d985da0ec3d"
+ },
+ "w:nod": {
+  "mode": "ipa",
+  "src": "nˈɑd",
+  "id": "6610e4646893"
+ },
+ "w:log": {
+  "mode": "ipa",
+  "src": "lˈɑɡ",
+  "id": "2025644acdc7"
+ },
+ "w:mop": {
+  "mode": "ipa",
+  "src": "mˈɑp",
+  "id": "edc1565c0368"
+ },
+ "w:dot": {
+  "mode": "ipa",
+  "src": "dˈɑt",
+  "id": "d76d85e5aedb"
+ },
+ "w:dop": {
+  "mode": "ipa",
+  "src": "dˈɑp",
+  "id": "7a6fe0e58fa2"
+ },
+ "w:gid": {
+  "mode": "ipa",
+  "src": "ɡˈɪd",
+  "id": "b833a6ab271c"
+ },
+ "w:pog": {
+  "mode": "ipa",
+  "src": "pˈɑɡ",
+  "id": "b56bf779eeaf"
+ },
+ "w:mig": {
+  "mode": "ipa",
+  "src": "mˈɪɡ",
+  "id": "948ecd8d8b36"
+ },
+ "w:sog": {
+  "mode": "ipa",
+  "src": "sˈɑɡ",
+  "id": "13c07f450447"
+ },
+ "w:said": {
+  "mode": "ipa",
+  "src": "sˈɛd",
+  "id": "9bddb93ff5e8"
+ },
+ "w:you": {
+  "mode": "ipa",
+  "src": "jˈu",
+  "id": "2f9812d02d33"
+ },
+ "w:cat": {
+  "mode": "ipa",
+  "src": "kˈæt",
+  "id": "8509722e98b9"
+ },
+ "w:cot": {
+  "mode": "ipa",
+  "src": "kˈɑt",
+  "id": "a8bc35fd6a05"
+ },
+ "w:cop": {
+  "mode": "ipa",
+  "src": "kˈɑp",
+  "id": "04664ad90c5f"
+ },
+ "w:cap": {
+  "mode": "ipa",
+  "src": "kˈæp",
+  "id": "944438d898aa"
+ },
+ "w:can": {
+  "mode": "ipa",
+  "src": "kˈæn",
+  "id": "8bd9bccf7e39"
+ },
+ "w:kid": {
+  "mode": "ipa",
+  "src": "kˈɪd",
+  "id": "a6ac48145ff9"
+ },
+ "w:kit": {
+  "mode": "ipa",
+  "src": "kˈɪt",
+  "id": "ff223ae085d5"
+ },
+ "w:kin": {
+  "mode": "ipa",
+  "src": "kˈɪn",
+  "id": "bc7bf3919917"
+ },
+ "w:sick": {
+  "mode": "ipa",
+  "src": "sˈɪk",
+  "id": "6deb3f1e67f7"
+ },
+ "w:tack": {
+  "mode": "ipa",
+  "src": "tˈæk",
+  "id": "4c8f8ba218bd"
+ },
+ "w:sack": {
+  "mode": "ipa",
+  "src": "sˈæk",
+  "id": "5d3b71f3339e"
+ },
+ "w:sock": {
+  "mode": "ipa",
+  "src": "sˈɑk",
+  "id": "6b405d07bf31"
+ },
+ "w:dock": {
+  "mode": "ipa",
+  "src": "dˈɑk",
+  "id": "4ceba73878d3"
+ },
+ "w:cog": {
+  "mode": "ipa",
+  "src": "kˈɑɡ",
+  "id": "6db6e571418a"
+ },
+ "w:pack": {
+  "mode": "ipa",
+  "src": "pˈæk",
+  "id": "10525e77e725"
+ },
+ "w:cak": {
+  "mode": "ipa",
+  "src": "kˈæk",
+  "id": "d3048b765a57"
+ },
+ "w:gack": {
+  "mode": "ipa",
+  "src": "ɡˈæk",
+  "id": "d9b8c501682e"
+ },
+ "w:cid": {
+  "mode": "ipa",
+  "src": "kˈɪd",
+  "id": "a6ac48145ff9"
+ },
+ "w:sok": {
+  "mode": "ipa",
+  "src": "sˈɑk",
+  "id": "6b405d07bf31"
+ },
+ "w:dack": {
+  "mode": "ipa",
+  "src": "dˈæk",
+  "id": "f6caeb855bc5"
+ },
+ "w:on": {
+  "mode": "ipa",
+  "src": "ˈɑn",
+  "id": "0a8760b7fcc1"
+ },
+ "w:not": {
+  "mode": "ipa",
+  "src": "nˈɑt",
+  "id": "38b169342cde"
+ },
+ "w:are": {
+  "mode": "ipa",
+  "src": "ˈɑɹ",
+  "id": "bcebc347a8dd"
+ },
+ "w:he": {
+  "mode": "ipa",
+  "src": "hˈi",
+  "id": "9f6d59208ec0"
+ },
+ "w:get": {
+  "mode": "ipa",
+  "src": "ɡˈɛt",
+  "id": "9f5c7cdef54a"
+ },
+ "w:ten": {
+  "mode": "ipa",
+  "src": "tˈɛn",
+  "id": "1bf52cca553a"
+ },
+ "w:pet": {
+  "mode": "ipa",
+  "src": "pˈɛt",
+  "id": "42f5f5809080"
+ },
+ "w:cut": {
+  "mode": "ipa",
+  "src": "kˈʌt",
+  "id": "6bb27b0e5fb7"
+ },
+ "w:cup": {
+  "mode": "ipa",
+  "src": "kˈʌp",
+  "id": "2efc682679c9"
+ },
+ "w:tug": {
+  "mode": "ipa",
+  "src": "tˈʌɡ",
+  "id": "378803290e02"
+ },
+ "w:dug": {
+  "mode": "ipa",
+  "src": "dˈʌɡ",
+  "id": "792f86f0a2aa"
+ },
+ "w:mug": {
+  "mode": "ipa",
+  "src": "mˈʌɡ",
+  "id": "aa13ada0ea4e"
+ },
+ "w:gum": {
+  "mode": "ipa",
+  "src": "ɡˈʌm",
+  "id": "edf26f206812"
+ },
+ "w:gut": {
+  "mode": "ipa",
+  "src": "ɡˈʌt",
+  "id": "191e660fb562"
+ },
+ "w:nut": {
+  "mode": "ipa",
+  "src": "nˈʌt",
+  "id": "1a82dc930f2c"
+ },
+ "w:net": {
+  "mode": "ipa",
+  "src": "nˈɛt",
+  "id": "1761a320e5e0"
+ },
+ "w:men": {
+  "mode": "ipa",
+  "src": "mˈɛn",
+  "id": "9ac61180a622"
+ },
+ "w:pen": {
+  "mode": "ipa",
+  "src": "pˈɛn",
+  "id": "edccdcd2d618"
+ },
+ "w:den": {
+  "mode": "ipa",
+  "src": "dˈɛn",
+  "id": "547b69bad370"
+ },
+ "w:sun": {
+  "mode": "ipa",
+  "src": "sˈʌn",
+  "id": "bb90fe04ab99"
+ },
+ "w:ton": {
+  "mode": "ipa",
+  "src": "tˈɑn",
+  "id": "15dffe8d85e4"
+ },
+ "w:gup": {
+  "mode": "ipa",
+  "src": "ɡˈʌp",
+  "id": "1e6478af13c4"
+ },
+ "w:kec": {
+  "mode": "ipa",
+  "src": "kˈɛk",
+  "id": "d08a90b0901e"
+ },
+ "w:nud": {
+  "mode": "ipa",
+  "src": "nˈʌd",
+  "id": "e98899f312cf"
+ },
+ "w:pem": {
+  "mode": "ipa",
+  "src": "pˈɛm",
+  "id": "bb1d8f5c550c"
+ },
+ "w:dut": {
+  "mode": "ipa",
+  "src": "dˈʌt",
+  "id": "8e5d42f0d2d4"
+ },
+ "w:up": {
+  "mode": "ipa",
+  "src": "ˈʌp",
+  "id": "62981bdb7b07"
+ },
+ "w:she": {
+  "mode": "ipa",
+  "src": "ʃˈi",
+  "id": "44ab3d92ee75"
+ },
+ "w:we": {
+  "mode": "ipa",
+  "src": "wˈi",
+  "id": "c4ba57173def"
+ },
+ "w:rat": {
+  "mode": "ipa",
+  "src": "ɹˈæt",
+  "id": "52d2de025267"
+ },
+ "w:ran": {
+  "mode": "ipa",
+  "src": "ɹˈæn",
+  "id": "f27a26b60954"
+ },
+ "w:rug": {
+  "mode": "ipa",
+  "src": "ɹˈʌɡ",
+  "id": "1b7ad53fc26c"
+ },
+ "w:run": {
+  "mode": "ipa",
+  "src": "ɹˈʌn",
+  "id": "d4b3ca3b672f"
+ },
+ "w:rid": {
+  "mode": "ipa",
+  "src": "ɹˈɪd",
+  "id": "8f5a772d303f"
+ },
+ "w:hut": {
+  "mode": "ipa",
+  "src": "hˈʌt",
+  "id": "a678531f1ed4"
+ },
+ "w:hug": {
+  "mode": "ipa",
+  "src": "hˈʌɡ",
+  "id": "27ec0071b37c"
+ },
+ "w:hat": {
+  "mode": "ipa",
+  "src": "hˈæt",
+  "id": "385945239d43"
+ },
+ "w:hen": {
+  "mode": "ipa",
+  "src": "hˈɛn",
+  "id": "3c220e69b40d"
+ },
+ "w:hop": {
+  "mode": "ipa",
+  "src": "hˈɑp",
+  "id": "7423cb69710c"
+ },
+ "w:ham": {
+  "mode": "ipa",
+  "src": "hˈæm",
+  "id": "b3faf2e1e26a"
+ },
+ "w:rot": {
+  "mode": "ipa",
+  "src": "ɹˈɑt",
+  "id": "4be3c5940896"
+ },
+ "w:hog": {
+  "mode": "ipa",
+  "src": "hˈɑɡ",
+  "id": "59e44d34d06d"
+ },
+ "w:rip": {
+  "mode": "ipa",
+  "src": "ɹˈɪp",
+  "id": "d4d057f6c060"
+ },
+ "w:hid": {
+  "mode": "ipa",
+  "src": "hˈɪd",
+  "id": "92be0aaa2f22"
+ },
+ "w:rup": {
+  "mode": "ipa",
+  "src": "ɹˈʌp",
+  "id": "1e440aebab28"
+ },
+ "w:hac": {
+  "mode": "ipa",
+  "src": "hˈæk",
+  "id": "86623f09d22b"
+ },
+ "w:gir": {
+  "mode": "ipa",
+  "src": "ɡˈɪɹ",
+  "id": "29295c784572"
+ },
+ "w:kur": {
+  "mode": "ipa",
+  "src": "kˈʌɹ",
+  "id": "3decc740064e"
+ },
+ "w:dor": {
+  "mode": "ipa",
+  "src": "dˈɑɹ",
+  "id": "f5d9e7ec998e"
+ },
+ "w:mom": {
+  "mode": "ipa",
+  "src": "mˈɑm",
+  "id": "d8464b57db37"
+ },
+ "w:hot": {
+  "mode": "ipa",
+  "src": "hˈɑt",
+  "id": "270330e42491"
+ },
+ "w:me": {
+  "mode": "ipa",
+  "src": "mˈi",
+  "id": "2b9e28e8cca5"
+ },
+ "w:be": {
+  "mode": "ipa",
+  "src": "bˈi",
+  "id": "2e64288c669a"
+ },
+ "w:bat": {
+  "mode": "ipa",
+  "src": "bˈæt",
+  "id": "0376e7394abe"
+ },
+ "w:big": {
+  "mode": "ipa",
+  "src": "bˈɪɡ",
+  "id": "544a5489e15d"
+ },
+ "w:bit": {
+  "mode": "ipa",
+  "src": "bˈɪt",
+  "id": "a12728924f6a"
+ },
+ "w:bag": {
+  "mode": "ipa",
+  "src": "bˈæɡ",
+  "id": "01cc25d82520"
+ },
+ "w:bed": {
+  "mode": "ipa",
+  "src": "bˈɛd",
+  "id": "89d69c0cc3ee"
+ },
+ "w:fan": {
+  "mode": "ipa",
+  "src": "fˈæn",
+  "id": "37f596e717cd"
+ },
+ "w:fat": {
+  "mode": "ipa",
+  "src": "fˈæt",
+  "id": "aec12a324637"
+ },
+ "w:fig": {
+  "mode": "ipa",
+  "src": "fˈɪɡ",
+  "id": "44e4fd6961af"
+ },
+ "w:fun": {
+  "mode": "ipa",
+  "src": "fˈʌn",
+  "id": "04b5d54717e8"
+ },
+ "w:fog": {
+  "mode": "ipa",
+  "src": "fˈɑɡ",
+  "id": "8bac0c9ed093"
+ },
+ "w:leg": {
+  "mode": "ipa",
+  "src": "lˈɛɡ",
+  "id": "31fd5af16510"
+ },
+ "w:lap": {
+  "mode": "ipa",
+  "src": "lˈæp",
+  "id": "dbafe0c80ac2"
+ },
+ "w:lip": {
+  "mode": "ipa",
+  "src": "lˈɪp",
+  "id": "969226d7301a"
+ },
+ "w:let": {
+  "mode": "ipa",
+  "src": "lˈɛt",
+  "id": "ff37034138c2"
+ },
+ "w:lid": {
+  "mode": "ipa",
+  "src": "lˈɪd",
+  "id": "ff50378899a1"
+ },
+ "w:bud": {
+  "mode": "ipa",
+  "src": "bˈʌd",
+  "id": "264f0911e2d2"
+ },
+ "w:bun": {
+  "mode": "ipa",
+  "src": "bˈʌn",
+  "id": "7ac716a7fc51"
+ },
+ "w:lock": {
+  "mode": "ipa",
+  "src": "lˈɑk",
+  "id": "96f7d8f202ac"
+ },
+ "w:fon": {
+  "mode": "ipa",
+  "src": "fˈɑn",
+  "id": "46145c41fab8"
+ },
+ "w:lir": {
+  "mode": "ipa",
+  "src": "lˈɪɹ",
+  "id": "db1e7bb99943"
+ },
+ "w:bof": {
+  "mode": "ipa",
+  "src": "bˈɑf",
+  "id": "fc95a16ae839"
+ },
+ "w:lut": {
+  "mode": "ipa",
+  "src": "lˈʌt",
+  "id": "c93c5ad9de9b"
+ },
+ "w:fim": {
+  "mode": "ipa",
+  "src": "fˈɪm",
+  "id": "6cb0dc9c3162"
+ },
+ "w:bug": {
+  "mode": "ipa",
+  "src": "bˈʌɡ",
+  "id": "c6f217b7b8ff"
+ },
+ "w:do": {
+  "mode": "ipa",
+  "src": "dˈu",
+  "id": "72a7c7cb9eda"
+ },
+ "w:what": {
+  "mode": "ipa",
+  "src": "wˈʌt",
+  "id": "e163fae6709d"
+ },
+ "w:doll": {
+  "mode": "ipa",
+  "src": "dˈɑl",
+  "id": "f509d4c05a88"
+ },
+ "w:bell": {
+  "mode": "ipa",
+  "src": "bˈɛl",
+  "id": "c586a0e067f6"
+ },
+ "w:fell": {
+  "mode": "ipa",
+  "src": "fˈɛl",
+  "id": "655c247ef684"
+ },
+ "w:tell": {
+  "mode": "ipa",
+  "src": "tˈɛl",
+  "id": "c48d3fc93655"
+ },
+ "w:sell": {
+  "mode": "ipa",
+  "src": "sˈɛl",
+  "id": "84a50f7ec2ee"
+ },
+ "w:tall": {
+  "mode": "ipa",
+  "src": "tˈæl",
+  "id": "72ae9e9bdf52"
+ },
+ "w:hill": {
+  "mode": "ipa",
+  "src": "hˈɪl",
+  "id": "255dfd1ad961"
+ },
+ "w:bill": {
+  "mode": "ipa",
+  "src": "bˈɪl",
+  "id": "dfb1dd53d3ea"
+ },
+ "w:fill": {
+  "mode": "ipa",
+  "src": "fˈɪl",
+  "id": "2188164d1057"
+ },
+ "w:mill": {
+  "mode": "ipa",
+  "src": "mˈɪl",
+  "id": "11e60a6dd7b0"
+ },
+ "w:kiss": {
+  "mode": "ipa",
+  "src": "kˈɪs",
+  "id": "1cb993a6f80e"
+ },
+ "w:buzz": {
+  "mode": "ipa",
+  "src": "bˈʌz",
+  "id": "1d587e9bf85f"
+ },
+ "w:cats": {
+  "mode": "ipa",
+  "src": "kˈæts",
+  "id": "b9a7a95809c7"
+ },
+ "w:bugs": {
+  "mode": "ipa",
+  "src": "bˈʌɡz",
+  "id": "f94f97a49465"
+ },
+ "w:hats": {
+  "mode": "ipa",
+  "src": "hˈæts",
+  "id": "bcb72b5bcbac"
+ },
+ "w:lodd": {
+  "mode": "ipa",
+  "src": "lˈɑdd",
+  "id": "3e507afa1324"
+ },
+ "w:fess": {
+  "mode": "ipa",
+  "src": "fˈɛs",
+  "id": "a7e624fb4b8c"
+ },
+ "w:nuzz": {
+  "mode": "ipa",
+  "src": "nˈʌz",
+  "id": "634afebce35d"
+ },
+ "w:hiff": {
+  "mode": "ipa",
+  "src": "hˈɪf",
+  "id": "12e0be746a83"
+ },
+ "w:tull": {
+  "mode": "ipa",
+  "src": "tˈʌl",
+  "id": "bfe653d98001"
+ },
+ "w:bells": {
+  "mode": "ipa",
+  "src": "bˈɛlz",
+  "id": "7156c33a289d"
+ },
+ "w:sits": {
+  "mode": "ipa",
+  "src": "sˈɪts",
+  "id": "1384fdfbb735"
+ },
+ "w:pats": {
+  "mode": "ipa",
+  "src": "pˈæts",
+  "id": "842ddd0e7259"
+ },
+ "w:hugs": {
+  "mode": "ipa",
+  "src": "hˈʌɡz",
+  "id": "b186bcb7afbf"
+ },
+ "w:hit": {
+  "mode": "ipa",
+  "src": "hˈɪt",
+  "id": "2bee633577ff"
+ },
+ "w:sells": {
+  "mode": "ipa",
+  "src": "sˈɛlz",
+  "id": "410989af4c2f"
+ },
+ "w:dolls": {
+  "mode": "ipa",
+  "src": "dˈɑlz",
+  "id": "87f7c5806631"
+ },
+ "w:fills": {
+  "mode": "ipa",
+  "src": "fˈɪlz",
+  "id": "d3e9958b75e7"
+ },
+ "w:tells": {
+  "mode": "ipa",
+  "src": "tˈɛlz",
+  "id": "9a0d84c2ccd6"
+ },
+ "w:full": {
+  "mode": "ipa",
+  "src": "fˈʌl",
+  "id": "0612a506cb50"
+ },
+ "w:they": {
+  "mode": "ipa",
+  "src": "ðˈA",
+  "id": "387262f24c21"
+ },
+ "w:one": {
+  "mode": "ipa",
+  "src": "wˈʌn",
+  "id": "48f89109e836"
+ },
+ "w:jam": {
+  "mode": "ipa",
+  "src": "ʤˈæm",
+  "id": "66087aade1d6"
+ },
+ "w:jog": {
+  "mode": "ipa",
+  "src": "ʤˈɑɡ",
+  "id": "d16902b40404"
+ },
+ "w:jet": {
+  "mode": "ipa",
+  "src": "ʤˈɛt",
+  "id": "33a05afac2f4"
+ },
+ "w:job": {
+  "mode": "ipa",
+  "src": "ʤˈɑb",
+  "id": "bed3d072d11a"
+ },
+ "w:jab": {
+  "mode": "ipa",
+  "src": "ʤˈæb",
+  "id": "6b1d875a4aa0"
+ },
+ "w:van": {
+  "mode": "ipa",
+  "src": "vˈæn",
+  "id": "3d7413ed0da7"
+ },
+ "w:vet": {
+  "mode": "ipa",
+  "src": "vˈɛt",
+  "id": "6a0e53bbce2f"
+ },
+ "w:vat": {
+  "mode": "ipa",
+  "src": "vˈæt",
+  "id": "0e587f362c10"
+ },
+ "w:wag": {
+  "mode": "ipa",
+  "src": "wˈæɡ",
+  "id": "1da260a27006"
+ },
+ "w:wig": {
+  "mode": "ipa",
+  "src": "wˈɪɡ",
+  "id": "cd688948fd4e"
+ },
+ "w:wet": {
+  "mode": "ipa",
+  "src": "wˈɛt",
+  "id": "e7c73c1943cb"
+ },
+ "w:win": {
+  "mode": "ipa",
+  "src": "wˈɪn",
+  "id": "f7dc66237e14"
+ },
+ "w:web": {
+  "mode": "ipa",
+  "src": "wˈɛb",
+  "id": "62f533e79cdd"
+ },
+ "w:well": {
+  "mode": "ipa",
+  "src": "wˈɛl",
+  "id": "9805f5679ab6"
+ },
+ "w:jot": {
+  "mode": "ipa",
+  "src": "ʤˈɑt",
+  "id": "b73146c7e586"
+ },
+ "w:jov": {
+  "mode": "ipa",
+  "src": "ʤˈɑv",
+  "id": "c8d7dfadd8aa"
+ },
+ "w:wab": {
+  "mode": "ipa",
+  "src": "wˈæb",
+  "id": "f8299be340c6"
+ },
+ "w:vob": {
+  "mode": "ipa",
+  "src": "vˈɑb",
+  "id": "1281fec3dc4d"
+ },
+ "w:jum": {
+  "mode": "ipa",
+  "src": "ʤˈʌm",
+  "id": "e0e65889844c"
+ },
+ "w:wov": {
+  "mode": "ipa",
+  "src": "wˈɑv",
+  "id": "42303da3efd9"
+ },
+ "w:had": {
+  "mode": "ipa",
+  "src": "hˈæd",
+  "id": "07410fcdac75"
+ },
+ "w:have": {
+  "mode": "ipa",
+  "src": "hˈæv",
+  "id": "50904468bcef"
+ },
+ "w:go": {
+  "mode": "ipa",
+  "src": "ɡˈO",
+  "id": "24e3202cf701"
+ },
+ "w:box": {
+  "mode": "ipa",
+  "src": "bˈɑks",
+  "id": "ab465cdcc80d"
+ },
+ "w:fox": {
+  "mode": "ipa",
+  "src": "fˈɑks",
+  "id": "7639bd1c5319"
+ },
+ "w:fix": {
+  "mode": "ipa",
+  "src": "fˈɪks",
+  "id": "207a29820853"
+ },
+ "w:mix": {
+  "mode": "ipa",
+  "src": "mˈɪks",
+  "id": "89c453bb760b"
+ },
+ "w:six": {
+  "mode": "ipa",
+  "src": "sˈɪks",
+  "id": "e19d9f09d001"
+ },
+ "w:chunk": {
+  "mode": "ipa",
+  "src": "khˈʌnk",
+  "id": "8a1ee53bacde"
+ },
+ "w:yes": {
+  "mode": "ipa",
+  "src": "jˈɛs",
+  "id": "32dfa410b33a"
+ },
+ "w:yak": {
+  "mode": "ipa",
+  "src": "jˈæk",
+  "id": "f4d5ed65bce2"
+ },
+ "w:yum": {
+  "mode": "ipa",
+  "src": "jˈʌm",
+  "id": "17c8ed5587f1"
+ },
+ "w:zip": {
+  "mode": "ipa",
+  "src": "zˈɪp",
+  "id": "01270cf4dda0"
+ },
+ "w:zap": {
+  "mode": "ipa",
+  "src": "zˈæp",
+  "id": "c2de50765725"
+ },
+ "w:quiz": {
+  "mode": "ipa",
+  "src": "kwˈɪz",
+  "id": "7acffad39518"
+ },
+ "w:quit": {
+  "mode": "ipa",
+  "src": "kwˈɪt",
+  "id": "67788566d3a1"
+ },
+ "w:wax": {
+  "mode": "ipa",
+  "src": "wˈæks",
+  "id": "8e815694e8a6"
+ },
+ "w:jazz": {
+  "mode": "ipa",
+  "src": "ʤˈæz",
+  "id": "fa736e2b14de"
+ },
+ "w:vex": {
+  "mode": "ipa",
+  "src": "vˈɛks",
+  "id": "279105aa0fe8"
+ },
+ "w:fizz": {
+  "mode": "ipa",
+  "src": "fˈɪz",
+  "id": "cbd25e2549a2"
+ },
+ "w:zox": {
+  "mode": "ipa",
+  "src": "zˈɑks",
+  "id": "a03ce1271bd7"
+ },
+ "w:quab": {
+  "mode": "ipa",
+  "src": "kwˈæb",
+  "id": "593124531615"
+ },
+ "w:yig": {
+  "mode": "ipa",
+  "src": "jˈɪɡ",
+  "id": "d2bf3346c70e"
+ },
+ "w:fex": {
+  "mode": "ipa",
+  "src": "fˈɛks",
+  "id": "66d793bfdcfd"
+ },
+ "w:wux": {
+  "mode": "ipa",
+  "src": "wˈʌks",
+  "id": "422736fa8239"
+ },
+ "w:zag": {
+  "mode": "ipa",
+  "src": "zˈæɡ",
+  "id": "408298a3fd5c"
+ },
+ "w:has": {
+  "mode": "ipa",
+  "src": "hˈæz",
+  "id": "6111a69daab8"
+ },
+ "w:naps": {
+  "mode": "ipa",
+  "src": "nˈæps",
+  "id": "a4299745db3f"
+ },
+ "w:pups": {
+  "mode": "ipa",
+  "src": "pˈʌps",
+  "id": "72e263549a35"
+ },
+ "w:quits": {
+  "mode": "ipa",
+  "src": "kwˈɪts",
+  "id": "de46d163516a"
+ },
+ "w:no": {
+  "mode": "ipa",
+  "src": "nˈO",
+  "id": "c530d0865e7f"
+ },
+ "w:so": {
+  "mode": "ipa",
+  "src": "sˈO",
+  "id": "d2b00ccc42c8"
+ },
+ "w:dig": {
+  "mode": "ipa",
+  "src": "dˈɪɡ",
+  "id": "4e19e38fb17a"
+ },
+ "w:pig": {
+  "mode": "ipa",
+  "src": "pˈɪɡ",
+  "id": "198138267a11"
+ },
+ "w:mess": {
+  "mode": "ipa",
+  "src": "mˈɛs",
+  "id": "3988b1007a83"
+ },
+ "w:dax": {
+  "mode": "ipa",
+  "src": "dˈæks",
+  "id": "62692cc4aee1"
+ },
+ "w:zeb": {
+  "mode": "ipa",
+  "src": "zˈɛb",
+  "id": "43b4dcc59bc8"
+ },
+ "w:wuk": {
+  "mode": "ipa",
+  "src": "wˈʌk",
+  "id": "3817da35512a"
+ },
+ "w:tio": {
+  "mode": "ipa",
+  "src": "tˈɪɑ",
+  "id": "73af46e5e335"
+ },
+ "w:bob": {
+  "mode": "ipa",
+  "src": "bˈɑb",
+  "id": "8384e4d67861"
+ },
+ "w:did": {
+  "mode": "ipa",
+  "src": "dˈɪd",
+  "id": "a481f7418fe5"
+ },
+ "w:b": {
+  "mode": "ipa",
+  "src": "b",
+  "id": "c18433ad4993"
+ },
+ "w:d": {
+  "mode": "ipa",
+  "src": "d",
+  "id": "774c0f8571e1"
+ },
+ "ipa:ˈæt": {
+  "mode": "ipa",
+  "src": "ˈæt",
+  "id": "fe9e842f0bd7"
+ },
+ "ipa:ˈæn": {
+  "mode": "ipa",
+  "src": "ˈæn",
+  "id": "2b075db8cc67"
+ },
+ "ipa:ˈɪt": {
+  "mode": "ipa",
+  "src": "ˈɪt",
+  "id": "4bcb04009eda"
+ },
+ "ipa:ˈɪn": {
+  "mode": "ipa",
+  "src": "ˈɪn",
+  "id": "00b186f223cf"
+ },
+ "ipa:ˈæz": {
+  "mode": "ipa",
+  "src": "ˈæz",
+  "id": "e45d24b0b8be"
+ },
+ "ipa:ˈɑz": {
+  "mode": "ipa",
+  "src": "ˈɑz",
+  "id": "a64927bd84d0"
+ },
+ "ipa:ˈɑn": {
+  "mode": "ipa",
+  "src": "ˈɑn",
+  "id": "0a8760b7fcc1"
+ },
+ "ipa:sˈæt": {
+  "mode": "ipa",
+  "src": "sˈæt",
+  "id": "b12a990cfbd7"
+ },
+ "ipa:tˈæt": {
+  "mode": "ipa",
+  "src": "tˈæt",
+  "id": "7df1465357fd"
+ },
+ "ipa:sˈɑt": {
+  "mode": "ipa",
+  "src": "sˈɑt",
+  "id": "d7efd855b884"
+ },
+ "ipa:tˈɑt": {
+  "mode": "ipa",
+  "src": "tˈɑt",
+  "id": "667be2632390"
+ },
+ "ipa:tˈæs": {
+  "mode": "ipa",
+  "src": "tˈæs",
+  "id": "e33370f76686"
+ },
+ "ipa:nˈæs": {
+  "mode": "ipa",
+  "src": "nˈæs",
+  "id": "b91d4c2baa43"
+ },
+ "ipa:tˈɪs": {
+  "mode": "ipa",
+  "src": "tˈɪs",
+  "id": "f01e631bbb6f"
+ },
+ "ipa:nˈɪs": {
+  "mode": "ipa",
+  "src": "nˈɪs",
+  "id": "85512ed69664"
+ },
+ "ipa:ˈæst": {
+  "mode": "ipa",
+  "src": "ˈæst",
+  "id": "78751aeb2b13"
+ },
+ "ipa:ˈædt": {
+  "mode": "ipa",
+  "src": "ˈædt",
+  "id": "1eeafb56fd6d"
+ },
+ "ipa:ˈɪst": {
+  "mode": "ipa",
+  "src": "ˈɪst",
+  "id": "8e5aaf246391"
+ },
+ "ipa:ˈɪdt": {
+  "mode": "ipa",
+  "src": "ˈɪdt",
+  "id": "e90275972525"
+ },
+ "ipa:stˈæ": {
+  "mode": "ipa",
+  "src": "stˈæ",
+  "id": "29aad9670d1d"
+ },
+ "ipa:skˈæ": {
+  "mode": "ipa",
+  "src": "skˈæ",
+  "id": "00d5e5bb4fc4"
+ },
+ "ipa:stˈɑ": {
+  "mode": "ipa",
+  "src": "stˈɑ",
+  "id": "f02a32d0876a"
+ },
+ "ipa:skˈɑ": {
+  "mode": "ipa",
+  "src": "skˈɑ",
+  "id": "a6ff781df8dc"
+ },
+ "ipa:sˈæs": {
+  "mode": "ipa",
+  "src": "sˈæs",
+  "id": "36bc181f1e1b"
+ },
+ "ipa:sˈɛs": {
+  "mode": "ipa",
+  "src": "sˈɛs",
+  "id": "f8bac2696c8f"
+ },
+ "ipa:tˈɛs": {
+  "mode": "ipa",
+  "src": "tˈɛs",
+  "id": "96973baec2f5"
+ },
+ "ipa:ˈætt": {
+  "mode": "ipa",
+  "src": "ˈætt",
+  "id": "626721dd437d"
+ },
+ "ipa:ˈɪtt": {
+  "mode": "ipa",
+  "src": "ˈɪtt",
+  "id": "a5bc8c23bb5f"
+ },
+ "ipa:pˈæt": {
+  "mode": "ipa",
+  "src": "pˈæt",
+  "id": "ef52db25ffdf"
+ },
+ "ipa:pˈɪt": {
+  "mode": "ipa",
+  "src": "pˈɪt",
+  "id": "1a1e3835ae4d"
+ },
+ "ipa:sˈɪt": {
+  "mode": "ipa",
+  "src": "sˈɪt",
+  "id": "0fd702fcc066"
+ },
+ "ipa:tˈæp": {
+  "mode": "ipa",
+  "src": "tˈæp",
+  "id": "359a6cd19547"
+ },
+ "ipa:sˈæp": {
+  "mode": "ipa",
+  "src": "sˈæp",
+  "id": "2e0ce9345511"
+ },
+ "ipa:tˈɪp": {
+  "mode": "ipa",
+  "src": "tˈɪp",
+  "id": "835f419f4c0d"
+ },
+ "ipa:sˈɪp": {
+  "mode": "ipa",
+  "src": "sˈɪp",
+  "id": "eb291e3a196b"
+ },
+ "ipa:pˈɪp": {
+  "mode": "ipa",
+  "src": "pˈɪp",
+  "id": "436c95e711fa"
+ },
+ "ipa:pˈæp": {
+  "mode": "ipa",
+  "src": "pˈæp",
+  "id": "31352692ded2"
+ },
+ "ipa:pˈɪn": {
+  "mode": "ipa",
+  "src": "pˈɪn",
+  "id": "abe9506096d0"
+ },
+ "ipa:sˈɪn": {
+  "mode": "ipa",
+  "src": "sˈɪn",
+  "id": "4340271adf35"
+ },
+ "ipa:pˈʌn": {
+  "mode": "ipa",
+  "src": "pˈʌn",
+  "id": "1b588cd72500"
+ },
+ "ipa:sˈʌn": {
+  "mode": "ipa",
+  "src": "sˈʌn",
+  "id": "bb90fe04ab99"
+ },
+ "ipa:nˈɪp": {
+  "mode": "ipa",
+  "src": "nˈɪp",
+  "id": "78ec694ae8cf"
+ },
+ "ipa:nˈæp": {
+  "mode": "ipa",
+  "src": "nˈæp",
+  "id": "5a0e47248501"
+ },
+ "ipa:tˈæn": {
+  "mode": "ipa",
+  "src": "tˈæn",
+  "id": "c860d50845df"
+ },
+ "ipa:pˈæn": {
+  "mode": "ipa",
+  "src": "pˈæn",
+  "id": "0ba1b3b76ffa"
+ },
+ "ipa:tˈɪn": {
+  "mode": "ipa",
+  "src": "tˈɪn",
+  "id": "3f88319151c5"
+ },
+ "ipa:pˈæs": {
+  "mode": "ipa",
+  "src": "pˈæs",
+  "id": "aed4ca272c13"
+ },
+ "ipa:pˈɛs": {
+  "mode": "ipa",
+  "src": "pˈɛs",
+  "id": "aa0ec24c8fc8"
+ },
+ "ipa:nˈæt": {
+  "mode": "ipa",
+  "src": "nˈæt",
+  "id": "f78237a90f77"
+ },
+ "ipa:nˈɪt": {
+  "mode": "ipa",
+  "src": "nˈɪt",
+  "id": "a8ef59e76df7"
+ },
+ "ipa:ˈæm": {
+  "mode": "ipa",
+  "src": "ˈæm",
+  "id": "fe0119c1a0ea"
+ },
+ "ipa:ˈæd": {
+  "mode": "ipa",
+  "src": "ˈæd",
+  "id": "d624999021a9"
+ },
+ "ipa:ˈɛm": {
+  "mode": "ipa",
+  "src": "ˈɛm",
+  "id": "79e43817cfde"
+ },
+ "ipa:ˈɛd": {
+  "mode": "ipa",
+  "src": "ˈɛd",
+  "id": "f0284a43f9c9"
+ },
+ "ipa:sˈæm": {
+  "mode": "ipa",
+  "src": "sˈæm",
+  "id": "ddd4bfff6792"
+ },
+ "ipa:ɹˈæm": {
+  "mode": "ipa",
+  "src": "ɹˈæm",
+  "id": "3a9981f14268"
+ },
+ "ipa:sˈɪm": {
+  "mode": "ipa",
+  "src": "sˈɪm",
+  "id": "6354c9068085"
+ },
+ "ipa:ɹˈɪm": {
+  "mode": "ipa",
+  "src": "ɹˈɪm",
+  "id": "d9dcaebf86bf"
+ },
+ "ipa:mˈæp": {
+  "mode": "ipa",
+  "src": "mˈæp",
+  "id": "540ba872aa1d"
+ },
+ "ipa:mˈɑp": {
+  "mode": "ipa",
+  "src": "mˈɑp",
+  "id": "edc1565c0368"
+ },
+ "ipa:sˈɑp": {
+  "mode": "ipa",
+  "src": "sˈɑp",
+  "id": "e1526d80f94f"
+ },
+ "ipa:mˈæt": {
+  "mode": "ipa",
+  "src": "mˈæt",
+  "id": "a6b0e187d69c"
+ },
+ "ipa:mˈɛt": {
+  "mode": "ipa",
+  "src": "mˈɛt",
+  "id": "161f9740e304"
+ },
+ "ipa:sˈɛt": {
+  "mode": "ipa",
+  "src": "sˈɛt",
+  "id": "6e93b9819bb6"
+ },
+ "ipa:mˈæn": {
+  "mode": "ipa",
+  "src": "mˈæn",
+  "id": "5f148d56eabb"
+ },
+ "ipa:mˈɪn": {
+  "mode": "ipa",
+  "src": "mˈɪn",
+  "id": "792ce47f262a"
+ },
+ "ipa:mˈæd": {
+  "mode": "ipa",
+  "src": "mˈæd",
+  "id": "1a8f5efc8263"
+ },
+ "ipa:sˈæd": {
+  "mode": "ipa",
+  "src": "sˈæd",
+  "id": "bfa4c2501fec"
+ },
+ "ipa:mˈɑd": {
+  "mode": "ipa",
+  "src": "mˈɑd",
+  "id": "e1e9b3823568"
+ },
+ "ipa:sˈɑd": {
+  "mode": "ipa",
+  "src": "sˈɑd",
+  "id": "f36df19ebfa8"
+ },
+ "ipa:dˈæd": {
+  "mode": "ipa",
+  "src": "dˈæd",
+  "id": "6a410fb6c9ea"
+ },
+ "ipa:dˈɪd": {
+  "mode": "ipa",
+  "src": "dˈɪd",
+  "id": "a481f7418fe5"
+ },
+ "ipa:mˈɪd": {
+  "mode": "ipa",
+  "src": "mˈɪd",
+  "id": "7a09f5538127"
+ },
+ "ipa:dˈɪp": {
+  "mode": "ipa",
+  "src": "dˈɪp",
+  "id": "a0248ead41c6"
+ },
+ "ipa:dˈæp": {
+  "mode": "ipa",
+  "src": "dˈæp",
+  "id": "9137f7623003"
+ },
+ "ipa:dˈæm": {
+  "mode": "ipa",
+  "src": "dˈæm",
+  "id": "e65760da0fe0"
+ },
+ "ipa:dˈɪm": {
+  "mode": "ipa",
+  "src": "dˈɪm",
+  "id": "f09c36110f03"
+ },
+ "ipa:pˈæd": {
+  "mode": "ipa",
+  "src": "pˈæd",
+  "id": "975d4fe9cb88"
+ },
+ "ipa:pˈɑd": {
+  "mode": "ipa",
+  "src": "pˈɑd",
+  "id": "a8ef1fd143b8"
+ },
+ "ipa:mˈɪp": {
+  "mode": "ipa",
+  "src": "mˈɪp",
+  "id": "2667ce232c64"
+ },
+ "ipa:ɡˈɪp": {
+  "mode": "ipa",
+  "src": "ɡˈɪp",
+  "id": "08201c531a7f"
+ },
+ "ipa:mˈɛp": {
+  "mode": "ipa",
+  "src": "mˈɛp",
+  "id": "a8eb193034ef"
+ },
+ "ipa:ɡˈɛp": {
+  "mode": "ipa",
+  "src": "ɡˈɛp",
+  "id": "0f33aea06456"
+ },
+ "ipa:nˈæd": {
+  "mode": "ipa",
+  "src": "nˈæd",
+  "id": "2833a96ebd2d"
+ },
+ "ipa:ɹˈæd": {
+  "mode": "ipa",
+  "src": "ɹˈæd",
+  "id": "e3dae6471dfb"
+ },
+ "ipa:nˈʌd": {
+  "mode": "ipa",
+  "src": "nˈʌd",
+  "id": "e98899f312cf"
+ },
+ "ipa:ɹˈʌd": {
+  "mode": "ipa",
+  "src": "ɹˈʌd",
+  "id": "cf7fd736d047"
+ },
+ "ipa:hˈæp": {
+  "mode": "ipa",
+  "src": "hˈæp",
+  "id": "421c72f0714d"
+ },
+ "ipa:dˈʌp": {
+  "mode": "ipa",
+  "src": "dˈʌp",
+  "id": "d2d6f4c3ebbb"
+ },
+ "ipa:hˈʌp": {
+  "mode": "ipa",
+  "src": "hˈʌp",
+  "id": "3c8122a4e7b4"
+ },
+ "ipa:tˈɪd": {
+  "mode": "ipa",
+  "src": "tˈɪd",
+  "id": "2f0ea6ffdb4d"
+ },
+ "ipa:sˈɪd": {
+  "mode": "ipa",
+  "src": "sˈɪd",
+  "id": "15e56389f06b"
+ },
+ "ipa:tˈɛd": {
+  "mode": "ipa",
+  "src": "tˈɛd",
+  "id": "cff49965ec3c"
+ },
+ "ipa:sˈɛd": {
+  "mode": "ipa",
+  "src": "sˈɛd",
+  "id": "9bddb93ff5e8"
+ },
+ "ipa:nˈæm": {
+  "mode": "ipa",
+  "src": "nˈæm",
+  "id": "becc7185973e"
+ },
+ "ipa:nˈɑm": {
+  "mode": "ipa",
+  "src": "nˈɑm",
+  "id": "2290098aa611"
+ },
+ "ipa:sˈɑm": {
+  "mode": "ipa",
+  "src": "sˈɑm",
+  "id": "876eaec590b7"
+ },
+ "ipa:pˈæm": {
+  "mode": "ipa",
+  "src": "pˈæm",
+  "id": "e845cb2d8f38"
+ },
+ "ipa:pˈɪm": {
+  "mode": "ipa",
+  "src": "pˈɪm",
+  "id": "e053b31fac4e"
+ },
+ "ipa:dˈæn": {
+  "mode": "ipa",
+  "src": "dˈæn",
+  "id": "c0ee2dbe23b5"
+ },
+ "ipa:dˈɪn": {
+  "mode": "ipa",
+  "src": "dˈɪn",
+  "id": "9d910293c603"
+ },
+ "ipa:ɡˈæp": {
+  "mode": "ipa",
+  "src": "ɡˈæp",
+  "id": "406a76723698"
+ },
+ "ipa:tˈæɡ": {
+  "mode": "ipa",
+  "src": "tˈæɡ",
+  "id": "940e0a1496aa"
+ },
+ "ipa:ɹˈæɡ": {
+  "mode": "ipa",
+  "src": "ɹˈæɡ",
+  "id": "f31fc52f226c"
+ },
+ "ipa:tˈʌɡ": {
+  "mode": "ipa",
+  "src": "tˈʌɡ",
+  "id": "378803290e02"
+ },
+ "ipa:ɹˈʌɡ": {
+  "mode": "ipa",
+  "src": "ɹˈʌɡ",
+  "id": "1b7ad53fc26c"
+ },
+ "ipa:nˈæɡ": {
+  "mode": "ipa",
+  "src": "nˈæɡ",
+  "id": "73476ef4d415"
+ },
+ "ipa:bˈæɡ": {
+  "mode": "ipa",
+  "src": "bˈæɡ",
+  "id": "01cc25d82520"
+ },
+ "ipa:nˈɛɡ": {
+  "mode": "ipa",
+  "src": "nˈɛɡ",
+  "id": "124cd0a7cdfc"
+ },
+ "ipa:bˈɛɡ": {
+  "mode": "ipa",
+  "src": "bˈɛɡ",
+  "id": "be0a7e09db10"
+ },
+ "ipa:sˈæɡ": {
+  "mode": "ipa",
+  "src": "sˈæɡ",
+  "id": "1e0edf7fbe2d"
+ },
+ "ipa:sˈɪɡ": {
+  "mode": "ipa",
+  "src": "sˈɪɡ",
+  "id": "07b0817010c4"
+ },
+ "ipa:tˈɪɡ": {
+  "mode": "ipa",
+  "src": "tˈɪɡ",
+  "id": "8f86e5063e11"
+ },
+ "ipa:ɡˈæs": {
+  "mode": "ipa",
+  "src": "ɡˈæs",
+  "id": "4d90142b67a0"
+ },
+ "ipa:ɡˈɪs": {
+  "mode": "ipa",
+  "src": "ɡˈɪs",
+  "id": "8094e1fea9a7"
+ },
+ "ipa:sˈɪs": {
+  "mode": "ipa",
+  "src": "sˈɪs",
+  "id": "a8087ed6764e"
+ },
+ "ipa:ɡˈɑt": {
+  "mode": "ipa",
+  "src": "ɡˈɑt",
+  "id": "de33ae9900fa"
+ },
+ "ipa:ɡˈɛt": {
+  "mode": "ipa",
+  "src": "ɡˈɛt",
+  "id": "9f5c7cdef54a"
+ },
+ "ipa:dˈɑɡ": {
+  "mode": "ipa",
+  "src": "dˈɑɡ",
+  "id": "9cde362ada70"
+ },
+ "ipa:tˈɑɡ": {
+  "mode": "ipa",
+  "src": "tˈɑɡ",
+  "id": "f5609ad479ca"
+ },
+ "ipa:dˈʌɡ": {
+  "mode": "ipa",
+  "src": "dˈʌɡ",
+  "id": "792f86f0a2aa"
+ },
+ "ipa:tˈɑp": {
+  "mode": "ipa",
+  "src": "tˈɑp",
+  "id": "b9caa4a80eea"
+ },
+ "ipa:pˈɑt": {
+  "mode": "ipa",
+  "src": "pˈɑt",
+  "id": "2d985da0ec3d"
+ },
+ "ipa:nˈɑd": {
+  "mode": "ipa",
+  "src": "nˈɑd",
+  "id": "6610e4646893"
+ },
+ "ipa:lˈɑɡ": {
+  "mode": "ipa",
+  "src": "lˈɑɡ",
+  "id": "2025644acdc7"
+ },
+ "ipa:lˈæɡ": {
+  "mode": "ipa",
+  "src": "lˈæɡ",
+  "id": "3e64c927d85a"
+ },
+ "ipa:dˈɑt": {
+  "mode": "ipa",
+  "src": "dˈɑt",
+  "id": "d76d85e5aedb"
+ },
+ "ipa:dˈæt": {
+  "mode": "ipa",
+  "src": "dˈæt",
+  "id": "ec2418024396"
+ },
+ "ipa:dˈɑp": {
+  "mode": "ipa",
+  "src": "dˈɑp",
+  "id": "7a6fe0e58fa2"
+ },
+ "ipa:nˈɑp": {
+  "mode": "ipa",
+  "src": "nˈɑp",
+  "id": "dcdc3fdec2d5"
+ },
+ "ipa:dˈɛp": {
+  "mode": "ipa",
+  "src": "dˈɛp",
+  "id": "5a81db4a2d6a"
+ },
+ "ipa:nˈɛp": {
+  "mode": "ipa",
+  "src": "nˈɛp",
+  "id": "77bf23fbb50d"
+ },
+ "ipa:ɡˈɪd": {
+  "mode": "ipa",
+  "src": "ɡˈɪd",
+  "id": "b833a6ab271c"
+ },
+ "ipa:ɡˈɛd": {
+  "mode": "ipa",
+  "src": "ɡˈɛd",
+  "id": "1d130855821c"
+ },
+ "ipa:pˈɑɡ": {
+  "mode": "ipa",
+  "src": "pˈɑɡ",
+  "id": "b56bf779eeaf"
+ },
+ "ipa:mˈɑɡ": {
+  "mode": "ipa",
+  "src": "mˈɑɡ",
+  "id": "ffff00d2d58c"
+ },
+ "ipa:pˈæɡ": {
+  "mode": "ipa",
+  "src": "pˈæɡ",
+  "id": "b74050855a12"
+ },
+ "ipa:mˈæɡ": {
+  "mode": "ipa",
+  "src": "mˈæɡ",
+  "id": "48343cb50843"
+ },
+ "ipa:mˈɪɡ": {
+  "mode": "ipa",
+  "src": "mˈɪɡ",
+  "id": "948ecd8d8b36"
+ },
+ "ipa:sˈɑɡ": {
+  "mode": "ipa",
+  "src": "sˈɑɡ",
+  "id": "13c07f450447"
+ },
+ "ipa:nˈɑɡ": {
+  "mode": "ipa",
+  "src": "nˈɑɡ",
+  "id": "8d7e8904d671"
+ },
+ "ipa:nˈɪɡ": {
+  "mode": "ipa",
+  "src": "nˈɪɡ",
+  "id": "473a32a265b8"
+ },
+ "ipa:kˈæt": {
+  "mode": "ipa",
+  "src": "kˈæt",
+  "id": "8509722e98b9"
+ },
+ "ipa:kˈɪt": {
+  "mode": "ipa",
+  "src": "kˈɪt",
+  "id": "ff223ae085d5"
+ },
+ "ipa:kˈɑt": {
+  "mode": "ipa",
+  "src": "kˈɑt",
+  "id": "a8bc35fd6a05"
+ },
+ "ipa:kˈɑp": {
+  "mode": "ipa",
+  "src": "kˈɑp",
+  "id": "04664ad90c5f"
+ },
+ "ipa:kˈæp": {
+  "mode": "ipa",
+  "src": "kˈæp",
+  "id": "944438d898aa"
+ },
+ "ipa:kˈæn": {
+  "mode": "ipa",
+  "src": "kˈæn",
+  "id": "8bd9bccf7e39"
+ },
+ "ipa:kˈɪn": {
+  "mode": "ipa",
+  "src": "kˈɪn",
+  "id": "bc7bf3919917"
+ },
+ "ipa:kˈɪd": {
+  "mode": "ipa",
+  "src": "kˈɪd",
+  "id": "a6ac48145ff9"
+ },
+ "ipa:kˈæd": {
+  "mode": "ipa",
+  "src": "kˈæd",
+  "id": "96ed77cd167a"
+ },
+ "ipa:kˈɑn": {
+  "mode": "ipa",
+  "src": "kˈɑn",
+  "id": "96a162f62300"
+ },
+ "ipa:sˈɑn": {
+  "mode": "ipa",
+  "src": "sˈɑn",
+  "id": "ddefc4bb3a4f"
+ },
+ "ipa:sˈɪk": {
+  "mode": "ipa",
+  "src": "sˈɪk",
+  "id": "6deb3f1e67f7"
+ },
+ "ipa:tˈɪk": {
+  "mode": "ipa",
+  "src": "tˈɪk",
+  "id": "d9203b4618fb"
+ },
+ "ipa:sˈæk": {
+  "mode": "ipa",
+  "src": "sˈæk",
+  "id": "5d3b71f3339e"
+ },
+ "ipa:tˈæk": {
+  "mode": "ipa",
+  "src": "tˈæk",
+  "id": "4c8f8ba218bd"
+ },
+ "ipa:sˈɑk": {
+  "mode": "ipa",
+  "src": "sˈɑk",
+  "id": "6b405d07bf31"
+ },
+ "ipa:pˈɑk": {
+  "mode": "ipa",
+  "src": "pˈɑk",
+  "id": "e264b2efed12"
+ },
+ "ipa:pˈæk": {
+  "mode": "ipa",
+  "src": "pˈæk",
+  "id": "10525e77e725"
+ },
+ "ipa:dˈɑk": {
+  "mode": "ipa",
+  "src": "dˈɑk",
+  "id": "4ceba73878d3"
+ },
+ "ipa:dˈʌk": {
+  "mode": "ipa",
+  "src": "dˈʌk",
+  "id": "616b20d9a483"
+ },
+ "ipa:sˈʌk": {
+  "mode": "ipa",
+  "src": "sˈʌk",
+  "id": "804cee77d9cd"
+ },
+ "ipa:kˈɑɡ": {
+  "mode": "ipa",
+  "src": "kˈɑɡ",
+  "id": "6db6e571418a"
+ },
+ "ipa:bˈɑɡ": {
+  "mode": "ipa",
+  "src": "bˈɑɡ",
+  "id": "1a6db33c3837"
+ },
+ "ipa:kˈɛɡ": {
+  "mode": "ipa",
+  "src": "kˈɛɡ",
+  "id": "21457de52051"
+ },
+ "ipa:pˈɪk": {
+  "mode": "ipa",
+  "src": "pˈɪk",
+  "id": "983e06b0329d"
+ },
+ "ipa:kˈæk": {
+  "mode": "ipa",
+  "src": "kˈæk",
+  "id": "d3048b765a57"
+ },
+ "ipa:nˈæk": {
+  "mode": "ipa",
+  "src": "nˈæk",
+  "id": "c8dbe7c58574"
+ },
+ "ipa:kˈʌk": {
+  "mode": "ipa",
+  "src": "kˈʌk",
+  "id": "ae0d9c8945a5"
+ },
+ "ipa:nˈʌk": {
+  "mode": "ipa",
+  "src": "nˈʌk",
+  "id": "c4caf08f51cb"
+ },
+ "ipa:ɡˈæk": {
+  "mode": "ipa",
+  "src": "ɡˈæk",
+  "id": "d9b8c501682e"
+ },
+ "ipa:ɡˈɑk": {
+  "mode": "ipa",
+  "src": "ɡˈɑk",
+  "id": "ae311780d60f"
+ },
+ "ipa:nˈɑk": {
+  "mode": "ipa",
+  "src": "nˈɑk",
+  "id": "fd016a64e974"
+ },
+ "ipa:kˈɛd": {
+  "mode": "ipa",
+  "src": "kˈɛd",
+  "id": "244e632e2e0c"
+ },
+ "ipa:tˈɑk": {
+  "mode": "ipa",
+  "src": "tˈɑk",
+  "id": "f2ea0a859f6e"
+ },
+ "ipa:sˈɛk": {
+  "mode": "ipa",
+  "src": "sˈɛk",
+  "id": "7c58a32be8cd"
+ },
+ "ipa:tˈɛk": {
+  "mode": "ipa",
+  "src": "tˈɛk",
+  "id": "3bb3da3dd72f"
+ },
+ "ipa:dˈæk": {
+  "mode": "ipa",
+  "src": "dˈæk",
+  "id": "f6caeb855bc5"
+ },
+ "ipa:ˈɑf": {
+  "mode": "ipa",
+  "src": "ˈɑf",
+  "id": "c2b7c1baa0e2"
+ },
+ "ipa:ˈɪf": {
+  "mode": "ipa",
+  "src": "ˈɪf",
+  "id": "5a71ccba92d4"
+ },
+ "ipa:nˈɑt": {
+  "mode": "ipa",
+  "src": "nˈɑt",
+  "id": "38b169342cde"
+ },
+ "ipa:tˈɛn": {
+  "mode": "ipa",
+  "src": "tˈɛn",
+  "id": "1bf52cca553a"
+ },
+ "ipa:pˈɛn": {
+  "mode": "ipa",
+  "src": "pˈɛn",
+  "id": "edccdcd2d618"
+ },
+ "ipa:pˈɛt": {
+  "mode": "ipa",
+  "src": "pˈɛt",
+  "id": "42f5f5809080"
+ },
+ "ipa:kˈʌt": {
+  "mode": "ipa",
+  "src": "kˈʌt",
+  "id": "6bb27b0e5fb7"
+ },
+ "ipa:pˈʌt": {
+  "mode": "ipa",
+  "src": "pˈʌt",
+  "id": "e41271c7c136"
+ },
+ "ipa:kˈʌp": {
+  "mode": "ipa",
+  "src": "kˈʌp",
+  "id": "2efc682679c9"
+ },
+ "ipa:sˈʌp": {
+  "mode": "ipa",
+  "src": "sˈʌp",
+  "id": "b6819bd24262"
+ },
+ "ipa:mˈʌɡ": {
+  "mode": "ipa",
+  "src": "mˈʌɡ",
+  "id": "aa13ada0ea4e"
+ },
+ "ipa:pˈʌɡ": {
+  "mode": "ipa",
+  "src": "pˈʌɡ",
+  "id": "e296f5fa5d45"
+ },
+ "ipa:mˈɛɡ": {
+  "mode": "ipa",
+  "src": "mˈɛɡ",
+  "id": "544136ab5db3"
+ },
+ "ipa:pˈɛɡ": {
+  "mode": "ipa",
+  "src": "pˈɛɡ",
+  "id": "9ff1a88836ae"
+ },
+ "ipa:ɡˈʌm": {
+  "mode": "ipa",
+  "src": "ɡˈʌm",
+  "id": "edf26f206812"
+ },
+ "ipa:hˈʌm": {
+  "mode": "ipa",
+  "src": "hˈʌm",
+  "id": "0897913e20fb"
+ },
+ "ipa:ɡˈɛm": {
+  "mode": "ipa",
+  "src": "ɡˈɛm",
+  "id": "01dd16b32e15"
+ },
+ "ipa:hˈɛm": {
+  "mode": "ipa",
+  "src": "hˈɛm",
+  "id": "24be20b64abb"
+ },
+ "ipa:ɡˈʌt": {
+  "mode": "ipa",
+  "src": "ɡˈʌt",
+  "id": "191e660fb562"
+ },
+ "ipa:nˈʌt": {
+  "mode": "ipa",
+  "src": "nˈʌt",
+  "id": "1a82dc930f2c"
+ },
+ "ipa:nˈɛt": {
+  "mode": "ipa",
+  "src": "nˈɛt",
+  "id": "1761a320e5e0"
+ },
+ "ipa:mˈɛn": {
+  "mode": "ipa",
+  "src": "mˈɛn",
+  "id": "9ac61180a622"
+ },
+ "ipa:dˈɛn": {
+  "mode": "ipa",
+  "src": "dˈɛn",
+  "id": "547b69bad370"
+ },
+ "ipa:tˈʌn": {
+  "mode": "ipa",
+  "src": "tˈʌn",
+  "id": "fb6d9cf8f984"
+ },
+ "ipa:tˈɑn": {
+  "mode": "ipa",
+  "src": "tˈɑn",
+  "id": "15dffe8d85e4"
+ },
+ "ipa:ɡˈʌp": {
+  "mode": "ipa",
+  "src": "ɡˈʌp",
+  "id": "1e6478af13c4"
+ },
+ "ipa:tˈʌp": {
+  "mode": "ipa",
+  "src": "tˈʌp",
+  "id": "29379d879a91"
+ },
+ "ipa:tˈɛp": {
+  "mode": "ipa",
+  "src": "tˈɛp",
+  "id": "18ab61268ee5"
+ },
+ "ipa:kˈɛk": {
+  "mode": "ipa",
+  "src": "kˈɛk",
+  "id": "d08a90b0901e"
+ },
+ "ipa:mˈɛk": {
+  "mode": "ipa",
+  "src": "mˈɛk",
+  "id": "8323a4a4e16a"
+ },
+ "ipa:mˈæk": {
+  "mode": "ipa",
+  "src": "mˈæk",
+  "id": "292d02417ead"
+ },
+ "ipa:sˈʌd": {
+  "mode": "ipa",
+  "src": "sˈʌd",
+  "id": "60822cd9d118"
+ },
+ "ipa:nˈɪd": {
+  "mode": "ipa",
+  "src": "nˈɪd",
+  "id": "3658e2d5ef8c"
+ },
+ "ipa:pˈɛm": {
+  "mode": "ipa",
+  "src": "pˈɛm",
+  "id": "bb1d8f5c550c"
+ },
+ "ipa:sˈɛm": {
+  "mode": "ipa",
+  "src": "sˈɛm",
+  "id": "db487378c82c"
+ },
+ "ipa:dˈʌt": {
+  "mode": "ipa",
+  "src": "dˈʌt",
+  "id": "8e5d42f0d2d4"
+ },
+ "ipa:tˈʌt": {
+  "mode": "ipa",
+  "src": "tˈʌt",
+  "id": "e609ea6df6bf"
+ },
+ "ipa:dˈɛt": {
+  "mode": "ipa",
+  "src": "dˈɛt",
+  "id": "0cd37ad6e0e0"
+ },
+ "ipa:tˈɛt": {
+  "mode": "ipa",
+  "src": "tˈɛt",
+  "id": "0bd66b7f2d05"
+ },
+ "ipa:ˈʌp": {
+  "mode": "ipa",
+  "src": "ˈʌp",
+  "id": "62981bdb7b07"
+ },
+ "ipa:ˈʌs": {
+  "mode": "ipa",
+  "src": "ˈʌs",
+  "id": "b6d300121a75"
+ },
+ "ipa:ˈɪp": {
+  "mode": "ipa",
+  "src": "ˈɪp",
+  "id": "427735c006ad"
+ },
+ "ipa:ˈɪs": {
+  "mode": "ipa",
+  "src": "ˈɪs",
+  "id": "243a06f142aa"
+ },
+ "ipa:ɹˈæt": {
+  "mode": "ipa",
+  "src": "ɹˈæt",
+  "id": "52d2de025267"
+ },
+ "ipa:ɹˈɑt": {
+  "mode": "ipa",
+  "src": "ɹˈɑt",
+  "id": "4be3c5940896"
+ },
+ "ipa:ɹˈæn": {
+  "mode": "ipa",
+  "src": "ɹˈæn",
+  "id": "f27a26b60954"
+ },
+ "ipa:ɹˈʌn": {
+  "mode": "ipa",
+  "src": "ɹˈʌn",
+  "id": "d4b3ca3b672f"
+ },
+ "ipa:ɹˈɪd": {
+  "mode": "ipa",
+  "src": "ɹˈɪd",
+  "id": "8f5a772d303f"
+ },
+ "ipa:ɹˈɑd": {
+  "mode": "ipa",
+  "src": "ɹˈɑd",
+  "id": "8dc82571cf15"
+ },
+ "ipa:hˈʌt": {
+  "mode": "ipa",
+  "src": "hˈʌt",
+  "id": "a678531f1ed4"
+ },
+ "ipa:hˈæt": {
+  "mode": "ipa",
+  "src": "hˈæt",
+  "id": "385945239d43"
+ },
+ "ipa:hˈʌɡ": {
+  "mode": "ipa",
+  "src": "hˈʌɡ",
+  "id": "27ec0071b37c"
+ },
+ "ipa:hˈæɡ": {
+  "mode": "ipa",
+  "src": "hˈæɡ",
+  "id": "209b819cfaea"
+ },
+ "ipa:hˈɪt": {
+  "mode": "ipa",
+  "src": "hˈɪt",
+  "id": "2bee633577ff"
+ },
+ "ipa:hˈɛn": {
+  "mode": "ipa",
+  "src": "hˈɛn",
+  "id": "3c220e69b40d"
+ },
+ "ipa:sˈɛn": {
+  "mode": "ipa",
+  "src": "sˈɛn",
+  "id": "e6e2c4d841da"
+ },
+ "ipa:hˈæn": {
+  "mode": "ipa",
+  "src": "hˈæn",
+  "id": "496c6f77b9fe"
+ },
+ "ipa:sˈæn": {
+  "mode": "ipa",
+  "src": "sˈæn",
+  "id": "e0386b97f773"
+ },
+ "ipa:hˈɑp": {
+  "mode": "ipa",
+  "src": "hˈɑp",
+  "id": "7423cb69710c"
+ },
+ "ipa:hˈɪp": {
+  "mode": "ipa",
+  "src": "hˈɪp",
+  "id": "902deb507fca"
+ },
+ "ipa:hˈæm": {
+  "mode": "ipa",
+  "src": "hˈæm",
+  "id": "b3faf2e1e26a"
+ },
+ "ipa:hˈɪm": {
+  "mode": "ipa",
+  "src": "hˈɪm",
+  "id": "0b9df0994e1f"
+ },
+ "ipa:hˈɑɡ": {
+  "mode": "ipa",
+  "src": "hˈɑɡ",
+  "id": "59e44d34d06d"
+ },
+ "ipa:ɹˈɪp": {
+  "mode": "ipa",
+  "src": "ɹˈɪp",
+  "id": "d4d057f6c060"
+ },
+ "ipa:ɹˈæp": {
+  "mode": "ipa",
+  "src": "ɹˈæp",
+  "id": "96fb3a854312"
+ },
+ "ipa:hˈɪd": {
+  "mode": "ipa",
+  "src": "hˈɪd",
+  "id": "92be0aaa2f22"
+ },
+ "ipa:hˈæd": {
+  "mode": "ipa",
+  "src": "hˈæd",
+  "id": "07410fcdac75"
+ },
+ "ipa:ɹˈʌp": {
+  "mode": "ipa",
+  "src": "ɹˈʌp",
+  "id": "1e440aebab28"
+ },
+ "ipa:nˈʌp": {
+  "mode": "ipa",
+  "src": "nˈʌp",
+  "id": "b5b1a1f7b5dc"
+ },
+ "ipa:ɹˈɑp": {
+  "mode": "ipa",
+  "src": "ɹˈɑp",
+  "id": "4f6568d50614"
+ },
+ "ipa:hˈæk": {
+  "mode": "ipa",
+  "src": "hˈæk",
+  "id": "86623f09d22b"
+ },
+ "ipa:hˈʌk": {
+  "mode": "ipa",
+  "src": "hˈʌk",
+  "id": "7207a7888dde"
+ },
+ "ipa:ɡˈɪɹ": {
+  "mode": "ipa",
+  "src": "ɡˈɪɹ",
+  "id": "29295c784572"
+ },
+ "ipa:tˈɪɹ": {
+  "mode": "ipa",
+  "src": "tˈɪɹ",
+  "id": "0cdc66f27298"
+ },
+ "ipa:ɡˈɛɹ": {
+  "mode": "ipa",
+  "src": "ɡˈɛɹ",
+  "id": "e4d3d1e86e9d"
+ },
+ "ipa:tˈɛɹ": {
+  "mode": "ipa",
+  "src": "tˈɛɹ",
+  "id": "4fe71781df6a"
+ },
+ "ipa:kˈʌɹ": {
+  "mode": "ipa",
+  "src": "kˈʌɹ",
+  "id": "3decc740064e"
+ },
+ "ipa:sˈʌɹ": {
+  "mode": "ipa",
+  "src": "sˈʌɹ",
+  "id": "e60c9115cd35"
+ },
+ "ipa:kˈɑɹ": {
+  "mode": "ipa",
+  "src": "kˈɑɹ",
+  "id": "e9624b741ca0"
+ },
+ "ipa:sˈɑɹ": {
+  "mode": "ipa",
+  "src": "sˈɑɹ",
+  "id": "2f1fa2b4ae75"
+ },
+ "ipa:dˈɑɹ": {
+  "mode": "ipa",
+  "src": "dˈɑɹ",
+  "id": "f5d9e7ec998e"
+ },
+ "ipa:dˈæɹ": {
+  "mode": "ipa",
+  "src": "dˈæɹ",
+  "id": "3be7bf1de19f"
+ },
+ "ipa:sˈæɹ": {
+  "mode": "ipa",
+  "src": "sˈæɹ",
+  "id": "7ca34fd20499"
+ },
+ "ipa:mˈɑm": {
+  "mode": "ipa",
+  "src": "mˈɑm",
+  "id": "d8464b57db37"
+ },
+ "ipa:mˈæm": {
+  "mode": "ipa",
+  "src": "mˈæm",
+  "id": "c40ecfc1e3b3"
+ },
+ "ipa:hˈɑt": {
+  "mode": "ipa",
+  "src": "hˈɑt",
+  "id": "270330e42491"
+ },
+ "ipa:bˈæt": {
+  "mode": "ipa",
+  "src": "bˈæt",
+  "id": "0376e7394abe"
+ },
+ "ipa:bˈɪt": {
+  "mode": "ipa",
+  "src": "bˈɪt",
+  "id": "a12728924f6a"
+ },
+ "ipa:bˈɪɡ": {
+  "mode": "ipa",
+  "src": "bˈɪɡ",
+  "id": "544a5489e15d"
+ },
+ "ipa:pˈɪɡ": {
+  "mode": "ipa",
+  "src": "pˈɪɡ",
+  "id": "198138267a11"
+ },
+ "ipa:bˈɛd": {
+  "mode": "ipa",
+  "src": "bˈɛd",
+  "id": "89d69c0cc3ee"
+ },
+ "ipa:mˈɛd": {
+  "mode": "ipa",
+  "src": "mˈɛd",
+  "id": "24dbc79da730"
+ },
+ "ipa:bˈæd": {
+  "mode": "ipa",
+  "src": "bˈæd",
+  "id": "dec61447707d"
+ },
+ "ipa:fˈæn": {
+  "mode": "ipa",
+  "src": "fˈæn",
+  "id": "37f596e717cd"
+ },
+ "ipa:fˈɪn": {
+  "mode": "ipa",
+  "src": "fˈɪn",
+  "id": "fbd6ce44730c"
+ },
+ "ipa:fˈæt": {
+  "mode": "ipa",
+  "src": "fˈæt",
+  "id": "aec12a324637"
+ },
+ "ipa:fˈɪt": {
+  "mode": "ipa",
+  "src": "fˈɪt",
+  "id": "0aa2bc01e76b"
+ },
+ "ipa:fˈɪɡ": {
+  "mode": "ipa",
+  "src": "fˈɪɡ",
+  "id": "44e4fd6961af"
+ },
+ "ipa:dˈɪɡ": {
+  "mode": "ipa",
+  "src": "dˈɪɡ",
+  "id": "4e19e38fb17a"
+ },
+ "ipa:fˈɑɡ": {
+  "mode": "ipa",
+  "src": "fˈɑɡ",
+  "id": "8bac0c9ed093"
+ },
+ "ipa:fˈʌn": {
+  "mode": "ipa",
+  "src": "fˈʌn",
+  "id": "04b5d54717e8"
+ },
+ "ipa:lˈɛɡ": {
+  "mode": "ipa",
+  "src": "lˈɛɡ",
+  "id": "31fd5af16510"
+ },
+ "ipa:lˈʌɡ": {
+  "mode": "ipa",
+  "src": "lˈʌɡ",
+  "id": "8353f27d72a8"
+ },
+ "ipa:lˈæp": {
+  "mode": "ipa",
+  "src": "lˈæp",
+  "id": "dbafe0c80ac2"
+ },
+ "ipa:lˈɪp": {
+  "mode": "ipa",
+  "src": "lˈɪp",
+  "id": "969226d7301a"
+ },
+ "ipa:lˈɛt": {
+  "mode": "ipa",
+  "src": "lˈɛt",
+  "id": "ff37034138c2"
+ },
+ "ipa:lˈæt": {
+  "mode": "ipa",
+  "src": "lˈæt",
+  "id": "9e0449f50c56"
+ },
+ "ipa:lˈɪd": {
+  "mode": "ipa",
+  "src": "lˈɪd",
+  "id": "ff50378899a1"
+ },
+ "ipa:lˈæd": {
+  "mode": "ipa",
+  "src": "lˈæd",
+  "id": "1c749db45248"
+ },
+ "ipa:bˈʌd": {
+  "mode": "ipa",
+  "src": "bˈʌd",
+  "id": "264f0911e2d2"
+ },
+ "ipa:mˈʌd": {
+  "mode": "ipa",
+  "src": "mˈʌd",
+  "id": "eebd331d542a"
+ },
+ "ipa:bˈʌn": {
+  "mode": "ipa",
+  "src": "bˈʌn",
+  "id": "7ac716a7fc51"
+ },
+ "ipa:bˈɪn": {
+  "mode": "ipa",
+  "src": "bˈɪn",
+  "id": "1684a4f99f79"
+ },
+ "ipa:lˈɑk": {
+  "mode": "ipa",
+  "src": "lˈɑk",
+  "id": "96f7d8f202ac"
+ },
+ "ipa:lˈæk": {
+  "mode": "ipa",
+  "src": "lˈæk",
+  "id": "a46ea5a3839e"
+ },
+ "ipa:fˈɑn": {
+  "mode": "ipa",
+  "src": "fˈɑn",
+  "id": "46145c41fab8"
+ },
+ "ipa:lˈɪɹ": {
+  "mode": "ipa",
+  "src": "lˈɪɹ",
+  "id": "db1e7bb99943"
+ },
+ "ipa:lˈɛɹ": {
+  "mode": "ipa",
+  "src": "lˈɛɹ",
+  "id": "218dbc420206"
+ },
+ "ipa:bˈɑf": {
+  "mode": "ipa",
+  "src": "bˈɑf",
+  "id": "fc95a16ae839"
+ },
+ "ipa:sˈɑf": {
+  "mode": "ipa",
+  "src": "sˈɑf",
+  "id": "b066f33471ef"
+ },
+ "ipa:bˈæf": {
+  "mode": "ipa",
+  "src": "bˈæf",
+  "id": "f9e3f7cfc289"
+ },
+ "ipa:sˈæf": {
+  "mode": "ipa",
+  "src": "sˈæf",
+  "id": "15418f8cb3d0"
+ },
+ "ipa:lˈʌt": {
+  "mode": "ipa",
+  "src": "lˈʌt",
+  "id": "c93c5ad9de9b"
+ },
+ "ipa:sˈʌt": {
+  "mode": "ipa",
+  "src": "sˈʌt",
+  "id": "0dc92bcd2d9a"
+ },
+ "ipa:fˈɪm": {
+  "mode": "ipa",
+  "src": "fˈɪm",
+  "id": "6cb0dc9c3162"
+ },
+ "ipa:fˈæm": {
+  "mode": "ipa",
+  "src": "fˈæm",
+  "id": "fa496a817970"
+ },
+ "ipa:bˈʌɡ": {
+  "mode": "ipa",
+  "src": "bˈʌɡ",
+  "id": "c6f217b7b8ff"
+ },
+ "ipa:dˈɑl": {
+  "mode": "ipa",
+  "src": "dˈɑl",
+  "id": "f509d4c05a88"
+ },
+ "ipa:sˈɑl": {
+  "mode": "ipa",
+  "src": "sˈɑl",
+  "id": "918fa3a03f22"
+ },
+ "ipa:dˈɪl": {
+  "mode": "ipa",
+  "src": "dˈɪl",
+  "id": "7f647acc1de9"
+ },
+ "ipa:sˈɪl": {
+  "mode": "ipa",
+  "src": "sˈɪl",
+  "id": "a596f9c72c9b"
+ },
+ "ipa:bˈɛl": {
+  "mode": "ipa",
+  "src": "bˈɛl",
+  "id": "c586a0e067f6"
+ },
+ "ipa:sˈɛl": {
+  "mode": "ipa",
+  "src": "sˈɛl",
+  "id": "84a50f7ec2ee"
+ },
+ "ipa:bˈɪl": {
+  "mode": "ipa",
+  "src": "bˈɪl",
+  "id": "dfb1dd53d3ea"
+ },
+ "ipa:fˈɛl": {
+  "mode": "ipa",
+  "src": "fˈɛl",
+  "id": "655c247ef684"
+ },
+ "ipa:fˈɪl": {
+  "mode": "ipa",
+  "src": "fˈɪl",
+  "id": "2188164d1057"
+ },
+ "ipa:tˈɛl": {
+  "mode": "ipa",
+  "src": "tˈɛl",
+  "id": "c48d3fc93655"
+ },
+ "ipa:tˈɪl": {
+  "mode": "ipa",
+  "src": "tˈɪl",
+  "id": "e2f1dfc60b47"
+ },
+ "ipa:tˈæl": {
+  "mode": "ipa",
+  "src": "tˈæl",
+  "id": "72ae9e9bdf52"
+ },
+ "ipa:pˈæl": {
+  "mode": "ipa",
+  "src": "pˈæl",
+  "id": "36b3e2abf6e7"
+ },
+ "ipa:pˈɪl": {
+  "mode": "ipa",
+  "src": "pˈɪl",
+  "id": "ab990836bf04"
+ },
+ "ipa:hˈɪl": {
+  "mode": "ipa",
+  "src": "hˈɪl",
+  "id": "255dfd1ad961"
+ },
+ "ipa:hˈɛl": {
+  "mode": "ipa",
+  "src": "hˈɛl",
+  "id": "cee6aca1430e"
+ },
+ "ipa:bˈɑl": {
+  "mode": "ipa",
+  "src": "bˈɑl",
+  "id": "9c19736a7ea7"
+ },
+ "ipa:mˈɪl": {
+  "mode": "ipa",
+  "src": "mˈɪl",
+  "id": "11e60a6dd7b0"
+ },
+ "ipa:mˈɑl": {
+  "mode": "ipa",
+  "src": "mˈɑl",
+  "id": "32185c24dfdb"
+ },
+ "ipa:kˈɪs": {
+  "mode": "ipa",
+  "src": "kˈɪs",
+  "id": "1cb993a6f80e"
+ },
+ "ipa:mˈɪs": {
+  "mode": "ipa",
+  "src": "mˈɪs",
+  "id": "8826ab1b093a"
+ },
+ "ipa:kˈʌs": {
+  "mode": "ipa",
+  "src": "kˈʌs",
+  "id": "b562d7bed317"
+ },
+ "ipa:mˈʌs": {
+  "mode": "ipa",
+  "src": "mˈʌs",
+  "id": "0fac35108b05"
+ },
+ "ipa:bˈʌz": {
+  "mode": "ipa",
+  "src": "bˈʌz",
+  "id": "1d587e9bf85f"
+ },
+ "ipa:sˈʌz": {
+  "mode": "ipa",
+  "src": "sˈʌz",
+  "id": "0f66d564ae08"
+ },
+ "ipa:bˈæz": {
+  "mode": "ipa",
+  "src": "bˈæz",
+  "id": "5919d475c973"
+ },
+ "ipa:sˈæz": {
+  "mode": "ipa",
+  "src": "sˈæz",
+  "id": "4dd54660199a"
+ },
+ "ipa:kˈæts": {
+  "mode": "ipa",
+  "src": "kˈæts",
+  "id": "b9a7a95809c7"
+ },
+ "ipa:tˈæts": {
+  "mode": "ipa",
+  "src": "tˈæts",
+  "id": "7f61ec565337"
+ },
+ "ipa:kˈɑts": {
+  "mode": "ipa",
+  "src": "kˈɑts",
+  "id": "d4d1b80d8ef0"
+ },
+ "ipa:tˈɑts": {
+  "mode": "ipa",
+  "src": "tˈɑts",
+  "id": "26bfc0ddb472"
+ },
+ "ipa:bˈʌɡz": {
+  "mode": "ipa",
+  "src": "bˈʌɡz",
+  "id": "f94f97a49465"
+ },
+ "ipa:sˈʌɡz": {
+  "mode": "ipa",
+  "src": "sˈʌɡz",
+  "id": "886618b0136d"
+ },
+ "ipa:bˈæɡz": {
+  "mode": "ipa",
+  "src": "bˈæɡz",
+  "id": "39a0ced27633"
+ },
+ "ipa:sˈæɡz": {
+  "mode": "ipa",
+  "src": "sˈæɡz",
+  "id": "0fa2ae497c53"
+ },
+ "ipa:hˈæts": {
+  "mode": "ipa",
+  "src": "hˈæts",
+  "id": "bcb72b5bcbac"
+ },
+ "ipa:pˈæts": {
+  "mode": "ipa",
+  "src": "pˈæts",
+  "id": "842ddd0e7259"
+ },
+ "ipa:hˈɪts": {
+  "mode": "ipa",
+  "src": "hˈɪts",
+  "id": "86248c1c4fa5"
+ },
+ "ipa:pˈɪts": {
+  "mode": "ipa",
+  "src": "pˈɪts",
+  "id": "e9de58c56285"
+ },
+ "ipa:lˈɑdd": {
+  "mode": "ipa",
+  "src": "lˈɑdd",
+  "id": "3e507afa1324"
+ },
+ "ipa:sˈɑdd": {
+  "mode": "ipa",
+  "src": "sˈɑdd",
+  "id": "154be1972469"
+ },
+ "ipa:lˈædd": {
+  "mode": "ipa",
+  "src": "lˈædd",
+  "id": "48f27a5360f5"
+ },
+ "ipa:sˈædd": {
+  "mode": "ipa",
+  "src": "sˈædd",
+  "id": "22d9cc394842"
+ },
+ "ipa:fˈɛs": {
+  "mode": "ipa",
+  "src": "fˈɛs",
+  "id": "a7e624fb4b8c"
+ },
+ "ipa:fˈæs": {
+  "mode": "ipa",
+  "src": "fˈæs",
+  "id": "b2d9404575fd"
+ },
+ "ipa:nˈʌz": {
+  "mode": "ipa",
+  "src": "nˈʌz",
+  "id": "634afebce35d"
+ },
+ "ipa:nˈæz": {
+  "mode": "ipa",
+  "src": "nˈæz",
+  "id": "8a5e4d055e4b"
+ },
+ "ipa:hˈɪf": {
+  "mode": "ipa",
+  "src": "hˈɪf",
+  "id": "12e0be746a83"
+ },
+ "ipa:sˈɪf": {
+  "mode": "ipa",
+  "src": "sˈɪf",
+  "id": "2fe4b56cc942"
+ },
+ "ipa:hˈæf": {
+  "mode": "ipa",
+  "src": "hˈæf",
+  "id": "7cb55b88e35b"
+ },
+ "ipa:tˈʌl": {
+  "mode": "ipa",
+  "src": "tˈʌl",
+  "id": "bfe653d98001"
+ },
+ "ipa:sˈʌl": {
+  "mode": "ipa",
+  "src": "sˈʌl",
+  "id": "201c4cf3a99e"
+ },
+ "ipa:sˈæl": {
+  "mode": "ipa",
+  "src": "sˈæl",
+  "id": "5759e8232c7b"
+ },
+ "ipa:bˈɛlz": {
+  "mode": "ipa",
+  "src": "bˈɛlz",
+  "id": "7156c33a289d"
+ },
+ "ipa:sˈɛlz": {
+  "mode": "ipa",
+  "src": "sˈɛlz",
+  "id": "410989af4c2f"
+ },
+ "ipa:bˈælz": {
+  "mode": "ipa",
+  "src": "bˈælz",
+  "id": "d39b91006edd"
+ },
+ "ipa:sˈælz": {
+  "mode": "ipa",
+  "src": "sˈælz",
+  "id": "9cd81154c207"
+ },
+ "ipa:sˈɪts": {
+  "mode": "ipa",
+  "src": "sˈɪts",
+  "id": "1384fdfbb735"
+ },
+ "ipa:sˈɑts": {
+  "mode": "ipa",
+  "src": "sˈɑts",
+  "id": "c353798c6843"
+ },
+ "ipa:pˈɑts": {
+  "mode": "ipa",
+  "src": "pˈɑts",
+  "id": "c65b0053b2ea"
+ },
+ "ipa:hˈʌɡz": {
+  "mode": "ipa",
+  "src": "hˈʌɡz",
+  "id": "b186bcb7afbf"
+ },
+ "ipa:hˈæɡz": {
+  "mode": "ipa",
+  "src": "hˈæɡz",
+  "id": "4e07a812682e"
+ },
+ "ipa:tˈɛlz": {
+  "mode": "ipa",
+  "src": "tˈɛlz",
+  "id": "9a0d84c2ccd6"
+ },
+ "ipa:tˈælz": {
+  "mode": "ipa",
+  "src": "tˈælz",
+  "id": "62e8721cf0f0"
+ },
+ "ipa:dˈɑlz": {
+  "mode": "ipa",
+  "src": "dˈɑlz",
+  "id": "87f7c5806631"
+ },
+ "ipa:sˈɑlz": {
+  "mode": "ipa",
+  "src": "sˈɑlz",
+  "id": "b64c29ebbd62"
+ },
+ "ipa:dˈælz": {
+  "mode": "ipa",
+  "src": "dˈælz",
+  "id": "84ad1456d054"
+ },
+ "ipa:fˈɪlz": {
+  "mode": "ipa",
+  "src": "fˈɪlz",
+  "id": "d3e9958b75e7"
+ },
+ "ipa:sˈɪlz": {
+  "mode": "ipa",
+  "src": "sˈɪlz",
+  "id": "16fc27f6c243"
+ },
+ "ipa:fˈælz": {
+  "mode": "ipa",
+  "src": "fˈælz",
+  "id": "f8236c1b6da6"
+ },
+ "ipa:fˈʌl": {
+  "mode": "ipa",
+  "src": "fˈʌl",
+  "id": "0612a506cb50"
+ },
+ "ipa:pˈʌl": {
+  "mode": "ipa",
+  "src": "pˈʌl",
+  "id": "98589d21f55c"
+ },
+ "ipa:fˈæl": {
+  "mode": "ipa",
+  "src": "fˈæl",
+  "id": "200327952e63"
+ },
+ "ipa:ʤˈæm": {
+  "mode": "ipa",
+  "src": "ʤˈæm",
+  "id": "66087aade1d6"
+ },
+ "ipa:ʤˈɪm": {
+  "mode": "ipa",
+  "src": "ʤˈɪm",
+  "id": "a64a61cd244d"
+ },
+ "ipa:ʤˈɑɡ": {
+  "mode": "ipa",
+  "src": "ʤˈɑɡ",
+  "id": "d16902b40404"
+ },
+ "ipa:ʤˈæɡ": {
+  "mode": "ipa",
+  "src": "ʤˈæɡ",
+  "id": "0209f44dd152"
+ },
+ "ipa:ʤˈɛt": {
+  "mode": "ipa",
+  "src": "ʤˈɛt",
+  "id": "33a05afac2f4"
+ },
+ "ipa:ʤˈɑt": {
+  "mode": "ipa",
+  "src": "ʤˈɑt",
+  "id": "b73146c7e586"
+ },
+ "ipa:ʤˈɑb": {
+  "mode": "ipa",
+  "src": "ʤˈɑb",
+  "id": "bed3d072d11a"
+ },
+ "ipa:ɡˈɑb": {
+  "mode": "ipa",
+  "src": "ɡˈɑb",
+  "id": "41937cf998aa"
+ },
+ "ipa:ʤˈæb": {
+  "mode": "ipa",
+  "src": "ʤˈæb",
+  "id": "6b1d875a4aa0"
+ },
+ "ipa:ɡˈæb": {
+  "mode": "ipa",
+  "src": "ɡˈæb",
+  "id": "601bb61f3bbf"
+ },
+ "ipa:nˈæb": {
+  "mode": "ipa",
+  "src": "nˈæb",
+  "id": "189ecc7863cf"
+ },
+ "ipa:ʤˈɪb": {
+  "mode": "ipa",
+  "src": "ʤˈɪb",
+  "id": "54473b45f4a0"
+ },
+ "ipa:nˈɪb": {
+  "mode": "ipa",
+  "src": "nˈɪb",
+  "id": "55a1562f05a9"
+ },
+ "ipa:vˈæn": {
+  "mode": "ipa",
+  "src": "vˈæn",
+  "id": "3d7413ed0da7"
+ },
+ "ipa:vˈɪn": {
+  "mode": "ipa",
+  "src": "vˈɪn",
+  "id": "d4c8d8ce37b4"
+ },
+ "ipa:vˈɛt": {
+  "mode": "ipa",
+  "src": "vˈɛt",
+  "id": "6a0e53bbce2f"
+ },
+ "ipa:vˈæt": {
+  "mode": "ipa",
+  "src": "vˈæt",
+  "id": "0e587f362c10"
+ },
+ "ipa:wˈæɡ": {
+  "mode": "ipa",
+  "src": "wˈæɡ",
+  "id": "1da260a27006"
+ },
+ "ipa:ɡˈæɡ": {
+  "mode": "ipa",
+  "src": "ɡˈæɡ",
+  "id": "100e2960ff59"
+ },
+ "ipa:wˈɪɡ": {
+  "mode": "ipa",
+  "src": "wˈɪɡ",
+  "id": "cd688948fd4e"
+ },
+ "ipa:ɡˈɪɡ": {
+  "mode": "ipa",
+  "src": "ɡˈɪɡ",
+  "id": "986be70bbf5d"
+ },
+ "ipa:wˈɛt": {
+  "mode": "ipa",
+  "src": "wˈɛt",
+  "id": "e7c73c1943cb"
+ },
+ "ipa:wˈɪt": {
+  "mode": "ipa",
+  "src": "wˈɪt",
+  "id": "3fc754dff278"
+ },
+ "ipa:wˈɪn": {
+  "mode": "ipa",
+  "src": "wˈɪn",
+  "id": "f7dc66237e14"
+ },
+ "ipa:wˈɑn": {
+  "mode": "ipa",
+  "src": "wˈɑn",
+  "id": "600bd2433c46"
+ },
+ "ipa:wˈɛb": {
+  "mode": "ipa",
+  "src": "wˈɛb",
+  "id": "62f533e79cdd"
+ },
+ "ipa:sˈɛb": {
+  "mode": "ipa",
+  "src": "sˈɛb",
+  "id": "ae1caf01fb89"
+ },
+ "ipa:wˈæb": {
+  "mode": "ipa",
+  "src": "wˈæb",
+  "id": "f8299be340c6"
+ },
+ "ipa:sˈæb": {
+  "mode": "ipa",
+  "src": "sˈæb",
+  "id": "5e5d7d07d984"
+ },
+ "ipa:wˈɛl": {
+  "mode": "ipa",
+  "src": "wˈɛl",
+  "id": "9805f5679ab6"
+ },
+ "ipa:wˈɪl": {
+  "mode": "ipa",
+  "src": "wˈɪl",
+  "id": "6955aa5799f4"
+ },
+ "ipa:ʤˈɑv": {
+  "mode": "ipa",
+  "src": "ʤˈɑv",
+  "id": "c8d7dfadd8aa"
+ },
+ "ipa:sˈɑv": {
+  "mode": "ipa",
+  "src": "sˈɑv",
+  "id": "b59b767612af"
+ },
+ "ipa:ʤˈæv": {
+  "mode": "ipa",
+  "src": "ʤˈæv",
+  "id": "76ae703380ae"
+ },
+ "ipa:sˈæv": {
+  "mode": "ipa",
+  "src": "sˈæv",
+  "id": "cb7e9083a19d"
+ },
+ "ipa:wˈɪb": {
+  "mode": "ipa",
+  "src": "wˈɪb",
+  "id": "cac7224bb507"
+ },
+ "ipa:sˈɪb": {
+  "mode": "ipa",
+  "src": "sˈɪb",
+  "id": "4ab0cd3965eb"
+ },
+ "ipa:vˈɑb": {
+  "mode": "ipa",
+  "src": "vˈɑb",
+  "id": "1281fec3dc4d"
+ },
+ "ipa:tˈɑb": {
+  "mode": "ipa",
+  "src": "tˈɑb",
+  "id": "0caaea9889ef"
+ },
+ "ipa:vˈɪb": {
+  "mode": "ipa",
+  "src": "vˈɪb",
+  "id": "0d3fc14116cf"
+ },
+ "ipa:tˈɪb": {
+  "mode": "ipa",
+  "src": "tˈɪb",
+  "id": "ad2d8f752e73"
+ },
+ "ipa:ʤˈʌm": {
+  "mode": "ipa",
+  "src": "ʤˈʌm",
+  "id": "e0e65889844c"
+ },
+ "ipa:tˈʌm": {
+  "mode": "ipa",
+  "src": "tˈʌm",
+  "id": "0ec1dc476edb"
+ },
+ "ipa:tˈɪm": {
+  "mode": "ipa",
+  "src": "tˈɪm",
+  "id": "8b138015fbfc"
+ },
+ "ipa:wˈɑv": {
+  "mode": "ipa",
+  "src": "wˈɑv",
+  "id": "42303da3efd9"
+ },
+ "ipa:wˈæv": {
+  "mode": "ipa",
+  "src": "wˈæv",
+  "id": "f6e413ede8bb"
+ },
+ "ipa:hˈɑd": {
+  "mode": "ipa",
+  "src": "hˈɑd",
+  "id": "e15eba34bf27"
+ },
+ "ipa:bˈɑks": {
+  "mode": "ipa",
+  "src": "bˈɑks",
+  "id": "ab465cdcc80d"
+ },
+ "ipa:sˈɑks": {
+  "mode": "ipa",
+  "src": "sˈɑks",
+  "id": "b89dd31eecc8"
+ },
+ "ipa:bˈæks": {
+  "mode": "ipa",
+  "src": "bˈæks",
+  "id": "e137ef541080"
+ },
+ "ipa:sˈæks": {
+  "mode": "ipa",
+  "src": "sˈæks",
+  "id": "8fa9f5e68a2a"
+ },
+ "ipa:fˈɑks": {
+  "mode": "ipa",
+  "src": "fˈɑks",
+  "id": "7639bd1c5319"
+ },
+ "ipa:fˈæks": {
+  "mode": "ipa",
+  "src": "fˈæks",
+  "id": "a63bd98dc129"
+ },
+ "ipa:fˈɪks": {
+  "mode": "ipa",
+  "src": "fˈɪks",
+  "id": "207a29820853"
+ },
+ "ipa:sˈɪks": {
+  "mode": "ipa",
+  "src": "sˈɪks",
+  "id": "e19d9f09d001"
+ },
+ "ipa:mˈɪks": {
+  "mode": "ipa",
+  "src": "mˈɪks",
+  "id": "89c453bb760b"
+ },
+ "ipa:mˈæks": {
+  "mode": "ipa",
+  "src": "mˈæks",
+  "id": "985257cbae0f"
+ },
+ "ipa:khˈʌnk": {
+  "mode": "ipa",
+  "src": "khˈʌnk",
+  "id": "8a1ee53bacde"
+ },
+ "ipa:klˈʌnk": {
+  "mode": "ipa",
+  "src": "klˈʌnk",
+  "id": "5c56faa2d1aa"
+ },
+ "ipa:khˈɪnk": {
+  "mode": "ipa",
+  "src": "khˈɪnk",
+  "id": "0892a5a84c31"
+ },
+ "ipa:klˈɪnk": {
+  "mode": "ipa",
+  "src": "klˈɪnk",
+  "id": "d6e773dade5c"
+ },
+ "ipa:jˈɛs": {
+  "mode": "ipa",
+  "src": "jˈɛs",
+  "id": "32dfa410b33a"
+ },
+ "ipa:jˈæs": {
+  "mode": "ipa",
+  "src": "jˈæs",
+  "id": "324ca2f9e0e4"
+ },
+ "ipa:jˈæk": {
+  "mode": "ipa",
+  "src": "jˈæk",
+  "id": "f4d5ed65bce2"
+ },
+ "ipa:jˈɑk": {
+  "mode": "ipa",
+  "src": "jˈɑk",
+  "id": "9ac9e33e179f"
+ },
+ "ipa:jˈʌm": {
+  "mode": "ipa",
+  "src": "jˈʌm",
+  "id": "17c8ed5587f1"
+ },
+ "ipa:ɹˈʌm": {
+  "mode": "ipa",
+  "src": "ɹˈʌm",
+  "id": "a28245baa88a"
+ },
+ "ipa:jˈæm": {
+  "mode": "ipa",
+  "src": "jˈæm",
+  "id": "fcc6b883a082"
+ },
+ "ipa:zˈɪp": {
+  "mode": "ipa",
+  "src": "zˈɪp",
+  "id": "01270cf4dda0"
+ },
+ "ipa:zˈæp": {
+  "mode": "ipa",
+  "src": "zˈæp",
+  "id": "c2de50765725"
+ },
+ "ipa:kwˈɪz": {
+  "mode": "ipa",
+  "src": "kwˈɪz",
+  "id": "7acffad39518"
+ },
+ "ipa:sˈɪz": {
+  "mode": "ipa",
+  "src": "sˈɪz",
+  "id": "33b6cc52b8ff"
+ },
+ "ipa:kwˈæz": {
+  "mode": "ipa",
+  "src": "kwˈæz",
+  "id": "18a92f26ae9a"
+ },
+ "ipa:kwˈɪt": {
+  "mode": "ipa",
+  "src": "kwˈɪt",
+  "id": "67788566d3a1"
+ },
+ "ipa:kwˈæt": {
+  "mode": "ipa",
+  "src": "kwˈæt",
+  "id": "bfbfcd9a5f9f"
+ },
+ "ipa:wˈæks": {
+  "mode": "ipa",
+  "src": "wˈæks",
+  "id": "8e815694e8a6"
+ },
+ "ipa:wˈɪks": {
+  "mode": "ipa",
+  "src": "wˈɪks",
+  "id": "c5099676a6a8"
+ },
+ "ipa:ʤˈæz": {
+  "mode": "ipa",
+  "src": "ʤˈæz",
+  "id": "fa736e2b14de"
+ },
+ "ipa:ʤˈɪz": {
+  "mode": "ipa",
+  "src": "ʤˈɪz",
+  "id": "f40c78c950e7"
+ },
+ "ipa:vˈɛks": {
+  "mode": "ipa",
+  "src": "vˈɛks",
+  "id": "279105aa0fe8"
+ },
+ "ipa:tˈɛks": {
+  "mode": "ipa",
+  "src": "tˈɛks",
+  "id": "0d310e07792a"
+ },
+ "ipa:vˈæks": {
+  "mode": "ipa",
+  "src": "vˈæks",
+  "id": "ab51bfd68714"
+ },
+ "ipa:tˈæks": {
+  "mode": "ipa",
+  "src": "tˈæks",
+  "id": "e12b09161a7f"
+ },
+ "ipa:fˈɪz": {
+  "mode": "ipa",
+  "src": "fˈɪz",
+  "id": "cbd25e2549a2"
+ },
+ "ipa:fˈæz": {
+  "mode": "ipa",
+  "src": "fˈæz",
+  "id": "795f31d584ba"
+ },
+ "ipa:zˈɑks": {
+  "mode": "ipa",
+  "src": "zˈɑks",
+  "id": "a03ce1271bd7"
+ },
+ "ipa:tˈɑks": {
+  "mode": "ipa",
+  "src": "tˈɑks",
+  "id": "ee6b61c02be9"
+ },
+ "ipa:zˈɪks": {
+  "mode": "ipa",
+  "src": "zˈɪks",
+  "id": "18db7deca169"
+ },
+ "ipa:tˈɪks": {
+  "mode": "ipa",
+  "src": "tˈɪks",
+  "id": "705d2ee93ac3"
+ },
+ "ipa:kwˈæb": {
+  "mode": "ipa",
+  "src": "kwˈæb",
+  "id": "593124531615"
+ },
+ "ipa:kwˈɪb": {
+  "mode": "ipa",
+  "src": "kwˈɪb",
+  "id": "a5182f2dbc87"
+ },
+ "ipa:jˈɪɡ": {
+  "mode": "ipa",
+  "src": "jˈɪɡ",
+  "id": "d2bf3346c70e"
+ },
+ "ipa:jˈɑɡ": {
+  "mode": "ipa",
+  "src": "jˈɑɡ",
+  "id": "9e9f10c0b8fc"
+ },
+ "ipa:fˈɛks": {
+  "mode": "ipa",
+  "src": "fˈɛks",
+  "id": "66d793bfdcfd"
+ },
+ "ipa:pˈɛks": {
+  "mode": "ipa",
+  "src": "pˈɛks",
+  "id": "c0f4b498f042"
+ },
+ "ipa:fˈʌks": {
+  "mode": "ipa",
+  "src": "fˈʌks",
+  "id": "578239edb6c8"
+ },
+ "ipa:pˈʌks": {
+  "mode": "ipa",
+  "src": "pˈʌks",
+  "id": "2114676fe4af"
+ },
+ "ipa:wˈʌks": {
+  "mode": "ipa",
+  "src": "wˈʌks",
+  "id": "422736fa8239"
+ },
+ "ipa:pˈɪks": {
+  "mode": "ipa",
+  "src": "pˈɪks",
+  "id": "6979bcd65a8c"
+ },
+ "ipa:zˈæɡ": {
+  "mode": "ipa",
+  "src": "zˈæɡ",
+  "id": "408298a3fd5c"
+ },
+ "ipa:zˈɑɡ": {
+  "mode": "ipa",
+  "src": "zˈɑɡ",
+  "id": "b250ad8dacac"
+ },
+ "ipa:hˈæz": {
+  "mode": "ipa",
+  "src": "hˈæz",
+  "id": "6111a69daab8"
+ },
+ "ipa:hˈɪz": {
+  "mode": "ipa",
+  "src": "hˈɪz",
+  "id": "d73c96ced021"
+ },
+ "ipa:nˈæps": {
+  "mode": "ipa",
+  "src": "nˈæps",
+  "id": "a4299745db3f"
+ },
+ "ipa:sˈæps": {
+  "mode": "ipa",
+  "src": "sˈæps",
+  "id": "35eeb523c1d0"
+ },
+ "ipa:nˈɪps": {
+  "mode": "ipa",
+  "src": "nˈɪps",
+  "id": "32df558bd363"
+ },
+ "ipa:sˈɪps": {
+  "mode": "ipa",
+  "src": "sˈɪps",
+  "id": "45b57fe0df13"
+ },
+ "ipa:pˈʌps": {
+  "mode": "ipa",
+  "src": "pˈʌps",
+  "id": "72e263549a35"
+ },
+ "ipa:sˈʌps": {
+  "mode": "ipa",
+  "src": "sˈʌps",
+  "id": "88f3f196afca"
+ },
+ "ipa:pˈæps": {
+  "mode": "ipa",
+  "src": "pˈæps",
+  "id": "772ec87028c3"
+ },
+ "ipa:kwˈɪts": {
+  "mode": "ipa",
+  "src": "kwˈɪts",
+  "id": "de46d163516a"
+ },
+ "ipa:kwˈæts": {
+  "mode": "ipa",
+  "src": "kwˈæts",
+  "id": "035e97f666ab"
+ },
+ "ipa:sˈæts": {
+  "mode": "ipa",
+  "src": "sˈæts",
+  "id": "ba6de00203ec"
+ },
+ "ipa:mˈɛs": {
+  "mode": "ipa",
+  "src": "mˈɛs",
+  "id": "3988b1007a83"
+ },
+ "ipa:hˈɛs": {
+  "mode": "ipa",
+  "src": "hˈɛs",
+  "id": "de621a10d6be"
+ },
+ "ipa:mˈæs": {
+  "mode": "ipa",
+  "src": "mˈæs",
+  "id": "95efe9b476a8"
+ },
+ "ipa:hˈæs": {
+  "mode": "ipa",
+  "src": "hˈæs",
+  "id": "bdff62168805"
+ },
+ "ipa:dˈæks": {
+  "mode": "ipa",
+  "src": "dˈæks",
+  "id": "62692cc4aee1"
+ },
+ "ipa:pˈæks": {
+  "mode": "ipa",
+  "src": "pˈæks",
+  "id": "346d520346de"
+ },
+ "ipa:dˈɪks": {
+  "mode": "ipa",
+  "src": "dˈɪks",
+  "id": "2a2919fa0591"
+ },
+ "ipa:zˈɛb": {
+  "mode": "ipa",
+  "src": "zˈɛb",
+  "id": "43b4dcc59bc8"
+ },
+ "ipa:zˈæb": {
+  "mode": "ipa",
+  "src": "zˈæb",
+  "id": "429beeb764b1"
+ },
+ "ipa:wˈʌk": {
+  "mode": "ipa",
+  "src": "wˈʌk",
+  "id": "3817da35512a"
+ },
+ "ipa:ɡˈʌk": {
+  "mode": "ipa",
+  "src": "ɡˈʌk",
+  "id": "c06f017b435a"
+ },
+ "ipa:wˈɛk": {
+  "mode": "ipa",
+  "src": "wˈɛk",
+  "id": "b6b1c5666e0f"
+ },
+ "ipa:ɡˈɛk": {
+  "mode": "ipa",
+  "src": "ɡˈɛk",
+  "id": "10fbe5c15a56"
+ },
+ "ipa:bˈɑb": {
+  "mode": "ipa",
+  "src": "bˈɑb",
+  "id": "8384e4d67861"
+ },
+ "ipa:ɹˈɑb": {
+  "mode": "ipa",
+  "src": "ɹˈɑb",
+  "id": "0890d14a51c6"
+ },
+ "ipa:bˈɪb": {
+  "mode": "ipa",
+  "src": "bˈɪb",
+  "id": "5307dae65014"
+ },
+ "ipa:ɹˈɪb": {
+  "mode": "ipa",
+  "src": "ɹˈɪb",
+  "id": "3c72974004d9"
+ },
+ "ph:s": {
+  "mode": "ipa",
+  "src": "sːː",
+  "placeholder": "kokoro isolated phoneme approximation",
+  "id": "74ac596f6cf0"
+ },
+ "ph:a": {
+  "mode": "ipa",
+  "src": "æːː",
+  "placeholder": "kokoro isolated phoneme approximation",
+  "id": "c76fb14b38d0"
+ },
+ "ph:t": {
+  "mode": "ipa",
+  "src": "t",
+  "placeholder": "kokoro isolated phoneme approximation",
+  "id": "8d6dcabe0d80"
+ },
+ "ph:p": {
+  "mode": "ipa",
+  "src": "p",
+  "placeholder": "kokoro isolated phoneme approximation",
+  "id": "60869825dc98"
+ },
+ "ph:i": {
+  "mode": "ipa",
+  "src": "ɪːː",
+  "placeholder": "kokoro isolated phoneme approximation",
+  "id": "eb23ddc5b129"
+ },
+ "ph:n": {
+  "mode": "ipa",
+  "src": "nːː",
+  "placeholder": "kokoro isolated phoneme approximation",
+  "id": "152e6c3059be"
+ },
+ "ph:m": {
+  "mode": "ipa",
+  "src": "mːː",
+  "placeholder": "kokoro isolated phoneme approximation",
+  "id": "8e40558252b4"
+ },
+ "ph:d": {
+  "mode": "ipa",
+  "src": "d",
+  "placeholder": "kokoro isolated phoneme approximation",
+  "id": "774c0f8571e1"
+ },
+ "ph:g": {
+  "mode": "ipa",
+  "src": "ɡ",
+  "placeholder": "kokoro isolated phoneme approximation",
+  "id": "293da2260e1a"
+ },
+ "ph:o": {
+  "mode": "ipa",
+  "src": "ɑːː",
+  "placeholder": "kokoro isolated phoneme approximation",
+  "id": "a953b6331dad"
+ },
+ "ph:k": {
+  "mode": "ipa",
+  "src": "k",
+  "placeholder": "kokoro isolated phoneme approximation",
+  "id": "8c67ea0833ce"
+ },
+ "ph:e": {
+  "mode": "ipa",
+  "src": "ɛːː",
+  "placeholder": "kokoro isolated phoneme approximation",
+  "id": "81e821192b2d"
+ },
+ "ph:u": {
+  "mode": "ipa",
+  "src": "ʌːː",
+  "placeholder": "kokoro isolated phoneme approximation",
+  "id": "cbeb4607fc22"
+ },
+ "ph:r": {
+  "mode": "ipa",
+  "src": "ɹːː",
+  "placeholder": "kokoro isolated phoneme approximation",
+  "id": "bfbb066ed428"
+ },
+ "ph:h": {
+  "mode": "ipa",
+  "src": "hːː",
+  "placeholder": "kokoro isolated phoneme approximation",
+  "id": "927c2eb98b12"
+ },
+ "ph:b": {
+  "mode": "ipa",
+  "src": "b",
+  "placeholder": "kokoro isolated phoneme approximation",
+  "id": "c18433ad4993"
+ },
+ "ph:f": {
+  "mode": "ipa",
+  "src": "fːː",
+  "placeholder": "kokoro isolated phoneme approximation",
+  "id": "21dfb1615b17"
+ },
+ "ph:l": {
+  "mode": "ipa",
+  "src": "lːː",
+  "placeholder": "kokoro isolated phoneme approximation",
+  "id": "cc252fedbadc"
+ },
+ "ph:j": {
+  "mode": "ipa",
+  "src": "ʤːː",
+  "placeholder": "kokoro isolated phoneme approximation",
+  "id": "d168a36f9f49"
+ },
+ "ph:v": {
+  "mode": "ipa",
+  "src": "vːː",
+  "placeholder": "kokoro isolated phoneme approximation",
+  "id": "e69593e15ab3"
+ },
+ "ph:w": {
+  "mode": "ipa",
+  "src": "wːː",
+  "placeholder": "kokoro isolated phoneme approximation",
+  "id": "d7961abce4e8"
+ },
+ "ph:ks": {
+  "mode": "ipa",
+  "src": "ks",
+  "placeholder": "kokoro isolated phoneme approximation",
+  "id": "f0a0a78d0842"
+ },
+ "ph:y": {
+  "mode": "ipa",
+  "src": "jːː",
+  "placeholder": "kokoro isolated phoneme approximation",
+  "id": "0a2d47029d5a"
+ },
+ "ph:z": {
+  "mode": "ipa",
+  "src": "zːː",
+  "placeholder": "kokoro isolated phoneme approximation",
+  "id": "792c0b24cb92"
+ },
+ "ph:kw": {
+  "mode": "ipa",
+  "src": "kw",
+  "placeholder": "kokoro isolated phoneme approximation",
+  "id": "ef78819ed675"
+ },
+ "name:a": {
+  "mode": "ipa",
+  "src": "ˈA",
+  "id": "b91fd856215f"
+ },
+ "name:b": {
+  "mode": "ipa",
+  "src": "bˈi",
+  "id": "2e64288c669a"
+ },
+ "name:c": {
+  "mode": "ipa",
+  "src": "sˈi",
+  "id": "86dcd0a9e20e"
+ },
+ "name:d": {
+  "mode": "ipa",
+  "src": "dˈi",
+  "id": "d72479a1af4e"
+ },
+ "name:e": {
+  "mode": "ipa",
+  "src": "ˈi",
+  "id": "51cd9fc6f734"
+ },
+ "name:f": {
+  "mode": "ipa",
+  "src": "ˈɛf",
+  "id": "e2dcec72ff1a"
+ },
+ "name:g": {
+  "mode": "ipa",
+  "src": "ʤˈi",
+  "id": "41f63824b1b0"
+ },
+ "name:h": {
+  "mode": "ipa",
+  "src": "ˈAʧ",
+  "id": "647ef5b691b9"
+ },
+ "name:i": {
+  "mode": "ipa",
+  "src": "ˈI",
+  "id": "b2e42e4b1a6a"
+ },
+ "name:j": {
+  "mode": "ipa",
+  "src": "ʤˈA",
+  "id": "20f7e3c0bfd0"
+ },
+ "name:k": {
+  "mode": "ipa",
+  "src": "kˈA",
+  "id": "a205491cfe61"
+ },
+ "name:l": {
+  "mode": "ipa",
+  "src": "ˈɛl",
+  "id": "223c714e9786"
+ },
+ "name:m": {
+  "mode": "ipa",
+  "src": "ˈɛm",
+  "id": "79e43817cfde"
+ },
+ "name:n": {
+  "mode": "ipa",
+  "src": "ˈɛn",
+  "id": "58d218ae0da0"
+ },
+ "name:o": {
+  "mode": "ipa",
+  "src": "ˈO",
+  "id": "5e9725e60972"
+ },
+ "name:p": {
+  "mode": "ipa",
+  "src": "pˈi",
+  "id": "f650c044a713"
+ },
+ "name:q": {
+  "mode": "ipa",
+  "src": "kjˈu",
+  "id": "5f97f481373e"
+ },
+ "name:r": {
+  "mode": "ipa",
+  "src": "ˈɑɹ",
+  "id": "bcebc347a8dd"
+ },
+ "name:s": {
+  "mode": "ipa",
+  "src": "ˈɛs",
+  "id": "13c2a5638bd5"
+ },
+ "name:t": {
+  "mode": "ipa",
+  "src": "tˈi",
+  "id": "ea9e8b7ca43a"
+ },
+ "name:u": {
+  "mode": "ipa",
+  "src": "jˈu",
+  "id": "2f9812d02d33"
+ },
+ "name:v": {
+  "mode": "ipa",
+  "src": "vˈi",
+  "id": "d15ff13a2853"
+ },
+ "name:w": {
+  "mode": "ipa",
+  "src": "dˈʌbəlju",
+  "id": "316e3f627e23"
+ },
+ "name:x": {
+  "mode": "ipa",
+  "src": "ˈɛks",
+  "id": "9ff386f5a174"
+ },
+ "name:y": {
+  "mode": "ipa",
+  "src": "wˈI",
+  "id": "166a7cc24516"
+ },
+ "name:z": {
+  "mode": "ipa",
+  "src": "zˈi",
+  "id": "49cbb15c9c07"
+ },
+ "ui:who": {
+  "mode": "text",
+  "src": "Who is reading?",
+  "id": "00eadc4fb289"
+ },
+ "ui:child": {
+  "mode": "text",
+  "src": "A child",
+  "id": "82def53cc1c6"
+ },
+ "ui:adult": {
+  "mode": "text",
+  "src": "A grown-up",
+  "id": "365ec106c519"
+ },
+ "ui:helpLang": {
+  "mode": "text",
+  "src": "Do you want help in your own language? You can skip this.",
+  "id": "a9e3780de599"
+ },
+ "ui:skip": {
+  "mode": "text",
+  "src": "Skip",
+  "id": "c0456c77008a"
+ },
+ "ui:hearIntro": {
+  "mode": "text",
+  "src": "Listen to this sound.",
+  "id": "6cd62bf44439"
+ },
+ "ui:hearExample": {
+  "mode": "text",
+  "src": "You can hear it at the start of this word.",
+  "id": "43d91b8477f6"
+ },
+ "ui:meetIntro": {
+  "mode": "text",
+  "src": "This letter makes that sound. Tap it to hear it.",
+  "id": "8acfd6e2b0fb"
+ },
+ "ui:traceIntro": {
+  "mode": "text",
+  "src": "Trace the letter with your finger.",
+  "id": "26c3c0c6ede0"
+ },
+ "ui:traceGood": {
+  "mode": "text",
+  "src": "Good tracing!",
+  "id": "65e182edc650"
+ },
+ "ui:blendModel": {
+  "mode": "text",
+  "src": "Watch and listen. Sound by sound, then slide them together.",
+  "id": "215fd2ca9389"
+ },
+ "ui:blendIntro": {
+  "mode": "text",
+  "src": "Say each sound, then tap its letter. Left to right.",
+  "id": "0c294d4b918f"
+ },
+ "ui:blendSay": {
+  "mode": "text",
+  "src": "Now slide the sounds together and say it out loud.",
+  "id": "56b440e837dc"
+ },
+ "ui:saidIt": {
+  "mode": "text",
+  "src": "I said it",
+  "id": "6c6b81fd1edb"
+ },
+ "ui:gateRead": {
+  "mode": "text",
+  "src": "Read it to yourself. Say it.",
+  "id": "bd0b313b4f4b"
+ },
+ "ui:gatePick": {
+  "mode": "text",
+  "src": "Tap the one that matches the word.",
+  "id": "adbe507b2cb0"
+ },
+ "ui:gateRepair": {
+  "mode": "text",
+  "src": "Let's look again, sound by sound.",
+  "id": "2e36493988cc"
+ },
+ "ui:gateReview": {
+  "mode": "text",
+  "src": "We will practise this one again later.",
+  "id": "9475b8524fd3"
+ },
+ "ui:gateTimeout": {
+  "mode": "text",
+  "src": "That's okay. Let's try another one.",
+  "id": "652bf00a940e"
+ },
+ "ui:spellIntro": {
+  "mode": "text",
+  "src": "Listen. Then build it with the letters.",
+  "id": "5a200c8ebb59"
+ },
+ "ui:spellLetter": {
+  "mode": "text",
+  "src": "Listen. Tap the letter that makes this sound.",
+  "id": "4fbfdcffca60"
+ },
+ "ui:trickyIntroA": {
+  "mode": "text",
+  "src": "This is a tricky word. The heart part does not sound the way you expect.",
+  "id": "04cd543fa29c"
+ },
+ "ui:trickyIntroB": {
+  "mode": "text",
+  "src": "This is a word to remember. The marked part does not sound the way you expect.",
+  "id": "13ba98d3cfc5"
+ },
+ "ui:trickyTap": {
+  "mode": "text",
+  "src": "Tap the part that is different.",
+  "id": "67d447a5b406"
+ },
+ "ui:readIntro": {
+  "mode": "text",
+  "src": "Read it. Tap any word for its sounds.",
+  "id": "2fea7fd00fd8"
+ },
+ "ui:readHear": {
+  "mode": "text",
+  "src": "Now listen to it read aloud.",
+  "id": "a681e2b5eeaf"
+ },
+ "ui:listenIntro": {
+  "mode": "text",
+  "src": "Listen to a story. You don't need to read it.",
+  "id": "ab2899bec043"
+ },
+ "ui:listenWord": {
+  "mode": "text",
+  "src": "Here is a new word.",
+  "id": "fbe9a75d4afd"
+ },
+ "ui:listenQ": {
+  "mode": "text",
+  "src": "Listen to the question. Tap your answer.",
+  "id": "704dfdae7169"
+ },
+ "ui:checkIntro": {
+  "mode": "text",
+  "src": "Show what you know. Some are made-up words. Just sound them out.",
+  "id": "02040c3e8385"
+ },
+ "ui:checkPass": {
+  "mode": "text",
+  "src": "You did it! The next part is open.",
+  "id": "c1de4a6e1116"
+ },
+ "ui:checkMiss": {
+  "mode": "text",
+  "src": "We'll practise these again. The next part is still open.",
+  "id": "d5d10ff12ebd"
+ },
+ "ui:miniPass": {
+  "mode": "text",
+  "src": "Well done!",
+  "id": "02af5ea705db"
+ },
+ "ui:miniMiss": {
+  "mode": "text",
+  "src": "Let's practise this sitting again next time.",
+  "id": "4f908cc3598e"
+ },
+ "ui:keepGoing": {
+  "mode": "text",
+  "src": "Keep going?",
+  "id": "7e4081ed7de1"
+ },
+ "ui:finishTomorrow": {
+  "mode": "text",
+  "src": "Let's finish this tomorrow.",
+  "id": "d243bf51cda1"
+ },
+ "ui:good": {
+  "mode": "text",
+  "src": "Yes!",
+  "id": "9274d21bb189"
+ },
+ "ui:tryAgain": {
+  "mode": "text",
+  "src": "Try again.",
+  "id": "0b4917a9ac7e"
+ },
+ "ui:sticker": {
+  "mode": "text",
+  "src": "You earned a sticker!",
+  "id": "e80b6d09c76d"
+ },
+ "ui:village": {
+  "mode": "text",
+  "src": "A new piece for your village!",
+  "id": "a7f5de4fd260"
+ },
+ "ui:warmIntro": {
+  "mode": "text",
+  "src": "Warm up. What does it say?",
+  "id": "ed481d1c9d5c"
+ },
+ "ui:soundTap": {
+  "mode": "text",
+  "src": "Tap the letter that makes this sound.",
+  "id": "08716cc88641"
+ },
+ "ui:pickNext": {
+  "mode": "text",
+  "src": "What would you like to do next?",
+  "id": "7f7dd4cc6774"
+ },
+ "ui:daysPractised": {
+  "mode": "text",
+  "src": "Days practised",
+  "id": "199e16d295fb"
+ },
+ "ui:wordsToRemember": {
+  "mode": "text",
+  "src": "Words to remember",
+  "id": "deebeee4ba9a"
+ },
+ "ui:trickyWords": {
+  "mode": "text",
+  "src": "Tricky words",
+  "id": "37c91c0c9809"
+ },
+ "ui:next": {
+  "mode": "text",
+  "src": "Next",
+  "id": "8b6d48c169e2"
+ },
+ "ui:selfReport": {
+  "mode": "text",
+  "src": "The app does not hear you. Tap when you have said it.",
+  "id": "73ce601e23c1"
+ },
+ "lt:L1.01:title": {
+  "mode": "text",
+  "src": "A Big Noisy Day.",
+  "id": "e78a27acd998"
+ },
+ "lt:L1.01:0": {
+  "mode": "text",
+  "src": "Sam woke up to a loud bang. It was not thunder — it was the neighbor fixing his old truck again!",
+  "id": "25d31d9ba8f4"
+ },
+ "lt:L1.01:1": {
+  "mode": "text",
+  "src": "Sam's little sister covered her ears and laughed. \"That truck is louder than a drum,\" she said.",
+  "id": "3680c50339a8"
+ },
+ "lt:L1.01:2": {
+  "mode": "text",
+  "src": "Their mother peeked out the window and shook her head. \"Every single morning,\" she sighed, but she was smiling.",
+  "id": "9609e8e8cf8d"
+ },
+ "lt:L1.01:3": {
+  "mode": "text",
+  "src": "Outside, the truck coughed, sputtered, and finally started with a satisfying roar. Sam waved at the neighbor, who waved back, covered in oil and grinning proudly.",
+  "id": "d971f8283036"
+ },
+ "t2:L1.01:0": {
+  "mode": "text",
+  "src": "sputtered. Sputtered means made short, uneven, coughing sounds (like an engine that won't start smoothly).",
+  "id": "15f85338714d"
+ },
+ "q:L1.01:0": {
+  "mode": "text",
+  "src": "What was the loud noise, really?",
+  "id": "c94ff0404424"
+ },
+ "q:L1.01:1": {
+  "mode": "text",
+  "src": "How do you think the mother really felt about the noise — annoyed, amused, both? Why do you think that?",
+  "id": "4b372e83adc0"
+ },
+ "ex:L1.02:A": {
+  "mode": "text",
+  "src": "sun.",
+  "id": "7159cee9f144"
+ },
+ "ex:L1.02:B": {
+  "mode": "text",
+  "src": "apple.",
+  "id": "8d5ac1364f9a"
+ },
+ "ex:L1.02:C": {
+  "mode": "text",
+  "src": "top.",
+  "id": "65b4b6776145"
+ },
+ "read:L1.02:A:0": {
+  "mode": "text",
+  "src": "Sat.",
+  "id": "12bd1e4418e4"
+ },
+ "read:L1.02:A:1": {
+  "mode": "text",
+  "src": "A tat.",
+  "id": "1a940f8bcb7c"
+ },
+ "read:L1.02:A:2": {
+  "mode": "text",
+  "src": "At.",
+  "id": "9e86b8e401b3"
+ },
+ "lt:L1.02:title": {
+  "mode": "text",
+  "src": "Sam's First Day.",
+  "id": "da67e880a34b"
+ },
+ "lt:L1.02:0": {
+  "mode": "text",
+  "src": "Sam felt nervous walking into the new classroom. Everyone else already seemed to know each other, chatting and laughing near the window.",
+  "id": "e61dad82b73a"
+ },
+ "lt:L1.02:1": {
+  "mode": "text",
+  "src": "Sam picked a desk near the back and sat down quietly, hoping nobody would notice how fast their heart was beating. Then a girl named Mia turned around and smiled.",
+  "id": "82212520fa72"
+ },
+ "lt:L1.02:2": {
+  "mode": "text",
+  "src": "\"Are you new? I sat exactly where you are on my first day too,\" she said.",
+  "id": "65e14313bc0a"
+ },
+ "lt:L1.02:3": {
+  "mode": "text",
+  "src": "\"It gets easier by lunchtime, I promise.\" Sam felt a small knot of worry loosen. Maybe today wouldn't be so bad after all.",
+  "id": "75943f2910e2"
+ },
+ "t2:L1.02:0": {
+  "mode": "text",
+  "src": "nervous. Nervous means feeling worried or a little scared about something that's about to happen.",
+  "id": "fc9543772a2c"
+ },
+ "q:L1.02:0": {
+  "mode": "text",
+  "src": "How did Sam feel at the very start of the story? How do you know?",
+  "id": "357b61ac130a"
+ },
+ "q:L1.02:1": {
+  "mode": "text",
+  "src": "Why do you think Mia's words helped Sam feel better?",
+  "id": "3cbeaa480223"
+ },
+ "ex:L1.03:A": {
+  "mode": "text",
+  "src": "pat.",
+  "id": "4ea21c71402d"
+ },
+ "ex:L1.03:B": {
+  "mode": "text",
+  "src": "it.",
+  "id": "836c2087bd41"
+ },
+ "ex:L1.03:C": {
+  "mode": "text",
+  "src": "net.",
+  "id": "346aadd5a730"
+ },
+ "read:L1.03:A:0": {
+  "mode": "text",
+  "src": "Tip sat.",
+  "id": "d55bf0d6b6c2"
+ },
+ "read:L1.03:A:1": {
+  "mode": "text",
+  "src": "Pat sat.",
+  "id": "ca4368713134"
+ },
+ "read:L1.03:A:2": {
+  "mode": "text",
+  "src": "Tip sat in the pit.",
+  "id": "5755910cbf34"
+ },
+ "read:L1.03:A:3": {
+  "mode": "text",
+  "src": "Pat sat in the pit.",
+  "id": "4898f5d8ceb7"
+ },
+ "read:L1.03:A:4": {
+  "mode": "text",
+  "src": "Is Tip in?",
+  "id": "6330e3d3d13c"
+ },
+ "read:L1.03:A:5": {
+  "mode": "text",
+  "src": "Is Pat in?",
+  "id": "eec85eddcaac"
+ },
+ "read:L1.03:A:6": {
+  "mode": "text",
+  "src": "Tip is in!",
+  "id": "19a3ddcaa25b"
+ },
+ "read:L1.03:A:7": {
+  "mode": "text",
+  "src": "Pat is in!",
+  "id": "fe33aed48792"
+ },
+ "read:L1.03:B:0": {
+  "mode": "text",
+  "src": "Pat sat.",
+  "id": "ca4368713134"
+ },
+ "read:L1.03:B:1": {
+  "mode": "text",
+  "src": "Nat sat.",
+  "id": "b40a32e247ad"
+ },
+ "read:L1.03:B:2": {
+  "mode": "text",
+  "src": "Pat is in the pit.",
+  "id": "d145728ec8bc"
+ },
+ "read:L1.03:B:3": {
+  "mode": "text",
+  "src": "Nat is in the pit.",
+  "id": "34d649aef31f"
+ },
+ "read:L1.03:B:4": {
+  "mode": "text",
+  "src": "Is Pat in?",
+  "id": "eec85eddcaac"
+ },
+ "read:L1.03:B:5": {
+  "mode": "text",
+  "src": "Is Nat in?",
+  "id": "261aedbf36da"
+ },
+ "read:L1.03:B:6": {
+  "mode": "text",
+  "src": "Pat is in.",
+  "id": "ded801597324"
+ },
+ "read:L1.03:B:7": {
+  "mode": "text",
+  "src": "Nat is in.",
+  "id": "5903cada2e60"
+ },
+ "lt:L1.03:title": {
+  "mode": "text",
+  "src": "The Pit Stop.",
+  "id": "1d7475686dea"
+ },
+ "lt:L1.03:0": {
+  "mode": "text",
+  "src": "At the big race, cars zoom around the track faster than the eye can follow. But every few laps, a driver has to pull into a special lane called the pit.",
+  "id": "19c38c08fd31"
+ },
+ "lt:L1.03:1": {
+  "mode": "text",
+  "src": "There, a whole team is waiting — not to rest, but to work at incredible speed. In under ten seconds, they can change all four tires, clean the windshield, and send the car roaring back onto the track.",
+  "id": "35f1525dbfe9"
+ },
+ "lt:L1.03:2": {
+  "mode": "text",
+  "src": "Everyone has one exact job, and they practice it over and over so nothing goes wrong when it really counts. A single second lost in the pit can cost a driver the whole race.",
+  "id": "eaeddc41e5bb"
+ },
+ "t2:L1.03:0": {
+  "mode": "text",
+  "src": "incredible. Incredible means so surprising or impressive that it's hard to believe.",
+  "id": "52c6caed955c"
+ },
+ "q:L1.03:0": {
+  "mode": "text",
+  "src": "Why does the team practice their jobs \"over and over,\" according to the passage?",
+  "id": "85da210f8c13"
+ },
+ "q:L1.03:1": {
+  "mode": "text",
+  "src": "What do you think would happen if the pit crew were slow?",
+  "id": "e5b21f82ed97"
+ },
+ "ex:L1.04:A": {
+  "mode": "text",
+  "src": "map.",
+  "id": "4be396fe1033"
+ },
+ "ex:L1.04:B": {
+  "mode": "text",
+  "src": "dog.",
+  "id": "d7fbe6284873"
+ },
+ "read:L1.04:A:0": {
+  "mode": "text",
+  "src": "Sam sat.",
+  "id": "4a0bbcf3fa6e"
+ },
+ "read:L1.04:A:1": {
+  "mode": "text",
+  "src": "Dad sat.",
+  "id": "4c7a192ead33"
+ },
+ "read:L1.04:A:2": {
+  "mode": "text",
+  "src": "Sam is sad.",
+  "id": "0970a68e3f99"
+ },
+ "read:L1.04:A:3": {
+  "mode": "text",
+  "src": "Dad is mad at Sam.",
+  "id": "54404bd1e91d"
+ },
+ "read:L1.04:A:4": {
+  "mode": "text",
+  "src": "Sam pat Dad.",
+  "id": "bf69de58c179"
+ },
+ "read:L1.04:A:5": {
+  "mode": "text",
+  "src": "Is Dad sad?",
+  "id": "ffa474be46ca"
+ },
+ "read:L1.04:A:6": {
+  "mode": "text",
+  "src": "Dad is sad.",
+  "id": "30879c412113"
+ },
+ "read:L1.04:B:0": {
+  "mode": "text",
+  "src": "Pam sat.",
+  "id": "1743491b6a07"
+ },
+ "read:L1.04:B:1": {
+  "mode": "text",
+  "src": "Dan sat.",
+  "id": "7e71a530341d"
+ },
+ "read:L1.04:B:2": {
+  "mode": "text",
+  "src": "Pam is sad.",
+  "id": "a26422425b1d"
+ },
+ "read:L1.04:B:3": {
+  "mode": "text",
+  "src": "Dan is mad at Pam.",
+  "id": "eb27ebab21b3"
+ },
+ "read:L1.04:B:4": {
+  "mode": "text",
+  "src": "Pam pat Dan.",
+  "id": "6488368ab5e9"
+ },
+ "read:L1.04:B:5": {
+  "mode": "text",
+  "src": "Is Dan sad?",
+  "id": "e6cd60a491a6"
+ },
+ "read:L1.04:B:6": {
+  "mode": "text",
+  "src": "Dan is sad.",
+  "id": "67c9c33e5139"
+ },
+ "lt:L1.04:title": {
+  "mode": "text",
+  "src": "The Missed Delivery.",
+  "id": "b332589c8a2f"
+ },
+ "lt:L1.04:0": {
+  "mode": "text",
+  "src": "Every Tuesday, a truck brings fresh bread to Mr. Iqbal's small shop before sunrise.",
+  "id": "3c56e2341c4f"
+ },
+ "lt:L1.04:1": {
+  "mode": "text",
+  "src": "He counts on it — his whole morning depends on those loaves being on the shelf before the first customers arrive. But this Tuesday, seven o'clock came and went, and the truck never appeared.",
+  "id": "fe4f1043d831"
+ },
+ "lt:L1.04:2": {
+  "mode": "text",
+  "src": "Mr. Iqbal called the bakery three times, growing more frustrated with each unanswered ring.",
+  "id": "923017cd87b7"
+ },
+ "lt:L1.04:3": {
+  "mode": "text",
+  "src": "Finally, his daughter suggested checking the neighborhood group chat — and there it was: the delivery driver's van had a flat tire two streets away. Mr.",
+  "id": "140b778a96b6"
+ },
+ "lt:L1.04:4": {
+  "mode": "text",
+  "src": "Iqbal grabbed his bicycle pump without a second thought and pedaled over to help.",
+  "id": "96772d54a13c"
+ },
+ "t2:L1.04:0": {
+  "mode": "text",
+  "src": "frustrated. Frustrated means annoyed and a little helpless because something isn't working the way you need it to.",
+  "id": "1f3630a5ad90"
+ },
+ "q:L1.04:0": {
+  "mode": "text",
+  "src": "What problem did Mr. Iqbal have, and how did he find out what caused it?",
+  "id": "2c1ba5e3b244"
+ },
+ "q:L1.04:1": {
+  "mode": "text",
+  "src": "What does it tell you about Mr. Iqbal that he grabbed his bicycle pump to go help?",
+  "id": "748f35a8e6f0"
+ },
+ "ex:L1.05:A": {
+  "mode": "text",
+  "src": "got.",
+  "id": "f5fe11ba3fdf"
+ },
+ "ex:L1.05:B": {
+  "mode": "text",
+  "src": "on.",
+  "id": "eea2a40463d7"
+ },
+ "read:L1.05:A:0": {
+  "mode": "text",
+  "src": "Sam got a dog.",
+  "id": "95a2b0cf9d09"
+ },
+ "read:L1.05:A:1": {
+  "mode": "text",
+  "src": "The dog sat.",
+  "id": "0a21ec73f7c4"
+ },
+ "read:L1.05:A:2": {
+  "mode": "text",
+  "src": "Sam pat the dog.",
+  "id": "3ec9c65422ba"
+ },
+ "read:L1.05:A:3": {
+  "mode": "text",
+  "src": "The dog is mad.",
+  "id": "e883f15632e2"
+ },
+ "read:L1.05:A:4": {
+  "mode": "text",
+  "src": "Is the dog sad?",
+  "id": "90d934bd4642"
+ },
+ "read:L1.05:A:5": {
+  "mode": "text",
+  "src": "The dog sat and sat.",
+  "id": "86ab3c1f3afd"
+ },
+ "read:L1.05:B:0": {
+  "mode": "text",
+  "src": "Dan got a map.",
+  "id": "d5a2cad98544"
+ },
+ "read:L1.05:B:1": {
+  "mode": "text",
+  "src": "Pam got a pot.",
+  "id": "6b7ddac9c33d"
+ },
+ "read:L1.05:B:2": {
+  "mode": "text",
+  "src": "Dan and Pam sat.",
+  "id": "a57f1b93856a"
+ },
+ "read:L1.05:B:3": {
+  "mode": "text",
+  "src": "Is Dan mad?",
+  "id": "c2c9b14c365f"
+ },
+ "read:L1.05:B:4": {
+  "mode": "text",
+  "src": "Is Pam mad?",
+  "id": "e5b53edca286"
+ },
+ "read:L1.05:B:5": {
+  "mode": "text",
+  "src": "Dan and Pam got a tip.",
+  "id": "f39c36df842c"
+ },
+ "lt:L1.05:title": {
+  "mode": "text",
+  "src": "A Dog for the Whole Street.",
+  "id": "29779af967fc"
+ },
+ "lt:L1.05:0": {
+  "mode": "text",
+  "src": "When old Mrs. Chaudhry got too tired to walk her dog Bruno every morning, the neighbors worried he'd be stuck inside all day.",
+  "id": "4957c2ebb39b"
+ },
+ "lt:L1.05:1": {
+  "mode": "text",
+  "src": "Instead, something wonderful happened: a rotation started. On Mondays, the twins next door took Bruno to the park.",
+  "id": "6a574092916d"
+ },
+ "lt:L1.05:2": {
+  "mode": "text",
+  "src": "On Tuesdays, it was the teenager from the corner house, who said walking Bruno was the only exercise he actually enjoyed. By the weekend, half the street had a turn.",
+  "id": "c8ac255d351a"
+ },
+ "lt:L1.05:3": {
+  "mode": "text",
+  "src": "Bruno, delighted, seemed to know exactly whose door to wait outside each morning, tail thumping the second the right person stepped out.",
+  "id": "f812e081264e"
+ },
+ "t2:L1.05:0": {
+  "mode": "text",
+  "src": "rotation. Rotation means a system where people take turns doing something, one after another in order.",
+  "id": "2a46907d91f4"
+ },
+ "q:L1.05:0": {
+  "mode": "text",
+  "src": "What problem did the street solve, and how?",
+  "id": "9a0aaf3d829b"
+ },
+ "q:L1.05:1": {
+  "mode": "text",
+  "src": "How did Bruno seem to feel about the new arrangement — what in the story tells you that?",
+  "id": "5245d80bb0e9"
+ },
+ "ex:L1.06:A": {
+  "mode": "text",
+  "src": "cat.",
+  "id": "2abb8a445c56"
+ },
+ "read:L1.06:A:0": {
+  "mode": "text",
+  "src": "Sam got a cat.",
+  "id": "a9195101af35"
+ },
+ "read:L1.06:A:1": {
+  "mode": "text",
+  "src": "The cat sat on a mat.",
+  "id": "e5dc38311e35"
+ },
+ "read:L1.06:A:2": {
+  "mode": "text",
+  "src": "Sam said, \"Is the cat sick?\" The cat is not sick.",
+  "id": "246ea7306289"
+ },
+ "read:L1.06:A:3": {
+  "mode": "text",
+  "src": "The cat sat and sat.",
+  "id": "e70fba0a85e8"
+ },
+ "read:L1.06:B:0": {
+  "mode": "text",
+  "src": "Dan got a cap.",
+  "id": "3b71d8691bf3"
+ },
+ "read:L1.06:B:1": {
+  "mode": "text",
+  "src": "Dan sat at the dock.",
+  "id": "e2c3ab66b6a8"
+ },
+ "read:L1.06:B:2": {
+  "mode": "text",
+  "src": "Dan said, \"Is a sack on top?\" The sack is not on top.",
+  "id": "1c84623d50bc"
+ },
+ "read:L1.06:B:3": {
+  "mode": "text",
+  "src": "Dan got the sack.",
+  "id": "831f8f5cd8db"
+ },
+ "lt:L1.06:title": {
+  "mode": "text",
+  "src": "Getting the Sack.",
+  "id": "8962981b2d51"
+ },
+ "lt:L1.06:0": {
+  "mode": "text",
+  "src": "In everyday English, if someone says a person \"got the sack,\" they don't mean an actual bag — they mean the person lost their job. Nobody agrees exactly where the phrase came from, but one popular idea goes back hundreds of years, when tradesmen carried their own tools to work in a sack.",
+  "id": "30b7bb6f486b"
+ },
+ "lt:L1.06:1": {
+  "mode": "text",
+  "src": "If you were let go, you packed up your sack of tools and left — hence \"getting the sack.\" Whether or not that story is completely accurate, the phrase has stuck around for so long that most English speakers use it without ever thinking about actual sacks at all.",
+  "id": "cd07d616255d"
+ },
+ "t2:L1.06:0": {
+  "mode": "text",
+  "src": "expression. Expression means a phrase people commonly use that means something different from its exact words.",
+  "id": "5362be97cf37"
+ },
+ "q:L1.06:0": {
+  "mode": "text",
+  "src": "What does \"getting the sack\" actually mean?",
+  "id": "1a62aa8be1f8"
+ },
+ "q:L1.06:1": {
+  "mode": "text",
+  "src": "Why does the passage say we might use an expression \"without ever thinking about\" what it originally meant?",
+  "id": "145c06f5a669"
+ },
+ "ex:L1.07:A": {
+  "mode": "text",
+  "src": "egg.",
+  "id": "a5ab3a00a036"
+ },
+ "ex:L1.07:B": {
+  "mode": "text",
+  "src": "up.",
+  "id": "5683aeadd3f6"
+ },
+ "read:L1.07:A:0": {
+  "mode": "text",
+  "src": "Sam got a cup.",
+  "id": "e75fe550d8e5"
+ },
+ "read:L1.07:A:1": {
+  "mode": "text",
+  "src": "He got a nut.",
+  "id": "e1c54b41ab06"
+ },
+ "read:L1.07:A:2": {
+  "mode": "text",
+  "src": "He sat.",
+  "id": "35dd9b649474"
+ },
+ "read:L1.07:A:3": {
+  "mode": "text",
+  "src": "The nut is in the cup.",
+  "id": "4f5d63c40a18"
+ },
+ "read:L1.07:A:4": {
+  "mode": "text",
+  "src": "Is the nut in the cup?",
+  "id": "497184345a31"
+ },
+ "read:L1.07:A:5": {
+  "mode": "text",
+  "src": "The nut is in the cup.",
+  "id": "4f5d63c40a18"
+ },
+ "read:L1.07:B:0": {
+  "mode": "text",
+  "src": "Dan got a cup.",
+  "id": "743b24bbb16e"
+ },
+ "read:L1.07:B:1": {
+  "mode": "text",
+  "src": "He got a mug.",
+  "id": "174ea3ad220d"
+ },
+ "read:L1.07:B:2": {
+  "mode": "text",
+  "src": "He sat at ten.",
+  "id": "749cdff29d8a"
+ },
+ "read:L1.07:B:3": {
+  "mode": "text",
+  "src": "The sun is up.",
+  "id": "0074407a227c"
+ },
+ "read:L1.07:B:4": {
+  "mode": "text",
+  "src": "Is Dan at the dock?",
+  "id": "6dd22a486c86"
+ },
+ "read:L1.07:B:5": {
+  "mode": "text",
+  "src": "Dan is not at the dock.",
+  "id": "832805bc9635"
+ },
+ "read:L1.07:B:6": {
+  "mode": "text",
+  "src": "Dan sat and sat.",
+  "id": "5987e9a6d4c4"
+ },
+ "lt:L1.07:title": {
+  "mode": "text",
+  "src": "The Ten O'Clock Rule.",
+  "id": "d3537b4b619e"
+ },
+ "lt:L1.07:0": {
+  "mode": "text",
+  "src": "On busy construction sites, supervisors learned something surprising: workers who took one proper ten-minute break mid-morning, every single day at the same time, made fewer mistakes in the afternoon than workers who pushed through without stopping. It seemed backwards at first — how could stopping work make people more productive?",
+  "id": "0c336a207706"
+ },
+ "lt:L1.07:1": {
+  "mode": "text",
+  "src": "But the body and brain both need small pauses to reset concentration, especially doing careful, repetitive tasks in the heat. Now some companies build the \"ten o'clock rule\" right into the schedule: everyone stops together, drinks water, and stretches — no exceptions, not even for the boss.",
+  "id": "c6d88ea9646a"
+ },
+ "t2:L1.07:0": {
+  "mode": "text",
+  "src": "productive. Productive means getting a lot of useful work done, not just being busy.",
+  "id": "a6a7866e0295"
+ },
+ "q:L1.07:0": {
+  "mode": "text",
+  "src": "What did supervisors notice about workers who took a proper break?",
+  "id": "ca36288847d1"
+ },
+ "q:L1.07:1": {
+  "mode": "text",
+  "src": "Why do you think the passage says \"no exceptions, not even for the boss\"?",
+  "id": "b2cd11e9c212"
+ },
+ "ex:L1.08:A": {
+  "mode": "text",
+  "src": "run.",
+  "id": "84ec55d32c5c"
+ },
+ "ex:L1.08:B": {
+  "mode": "text",
+  "src": "hat.",
+  "id": "2d1cd9a04255"
+ },
+ "read:L1.08:A:0": {
+  "mode": "text",
+  "src": "Sam ran.",
+  "id": "b6331e5f5957"
+ },
+ "read:L1.08:A:1": {
+  "mode": "text",
+  "src": "Mom ran.",
+  "id": "bcf116f1dd71"
+ },
+ "read:L1.08:A:2": {
+  "mode": "text",
+  "src": "The sun is hot.",
+  "id": "56a7eb5e7855"
+ },
+ "read:L1.08:A:3": {
+  "mode": "text",
+  "src": "Is Sam hot?",
+  "id": "5435ffa6e023"
+ },
+ "read:L1.08:A:4": {
+  "mode": "text",
+  "src": "Is Mom hot?",
+  "id": "ff254924f121"
+ },
+ "read:L1.08:A:5": {
+  "mode": "text",
+  "src": "We are hot!",
+  "id": "bfe9708a3beb"
+ },
+ "read:L1.08:A:6": {
+  "mode": "text",
+  "src": "She got a hat.",
+  "id": "321ac7ae76a2"
+ },
+ "read:L1.08:B:0": {
+  "mode": "text",
+  "src": "Dan ran to the dock.",
+  "id": "1b45ab3df579"
+ },
+ "read:L1.08:B:1": {
+  "mode": "text",
+  "src": "Nat ran to the dock.",
+  "id": "d4c85f7e14b5"
+ },
+ "read:L1.08:B:2": {
+  "mode": "text",
+  "src": "The sun got hot.",
+  "id": "3cd40b9f8cde"
+ },
+ "read:L1.08:B:3": {
+  "mode": "text",
+  "src": "Is Dan hot?",
+  "id": "f29d27287805"
+ },
+ "read:L1.08:B:4": {
+  "mode": "text",
+  "src": "Is Nat hot?",
+  "id": "c5f0408aca5f"
+ },
+ "read:L1.08:B:5": {
+  "mode": "text",
+  "src": "We are hot.",
+  "id": "33eef473030c"
+ },
+ "read:L1.08:B:6": {
+  "mode": "text",
+  "src": "She got a mug.",
+  "id": "e48ec6c367fc"
+ },
+ "lt:L1.08:title": {
+  "mode": "text",
+  "src": "The Morning Rotation.",
+  "id": "2897d06b45af"
+ },
+ "lt:L1.08:0": {
+  "mode": "text",
+  "src": "Before smartphones and ride-share apps existed, neighbors organized a shared morning school run with nothing more than a notebook taped inside someone's kitchen cabinet. Every family wrote down which mornings they could take the children, and everyone else simply trusted the schedule.",
+  "id": "03bfb021cd96"
+ },
+ "lt:L1.08:1": {
+  "mode": "text",
+  "src": "It sounds old-fashioned, but the system worked because everyone had something to lose if they broke the trust — miss your turn, and you'd better believe your neighbors would remember. These days, apps handle the scheduling, but the core idea hasn't changed at all: a group of people agreeing to share both the effort and the waiting, so no single person carries the whole burden alone.",
+  "id": "e7581f37524a"
+ },
+ "t2:L1.08:0": {
+  "mode": "text",
+  "src": "schedule. Schedule means a plan that says when things will happen, especially times and dates.",
+  "id": "69606018e257"
+ },
+ "q:L1.08:0": {
+  "mode": "text",
+  "src": "How did the old-fashioned rotation keep people honest, without any app?",
+  "id": "775bbd4c6039"
+ },
+ "q:L1.08:1": {
+  "mode": "text",
+  "src": "What is the \"core idea\" the passage says hasn't changed, even with new technology?",
+  "id": "c0f94d0464d3"
+ },
+ "ex:L1.09:A": {
+  "mode": "text",
+  "src": "bat.",
+  "id": "b45b04162a97"
+ },
+ "ex:L1.09:B": {
+  "mode": "text",
+  "src": "fan.",
+  "id": "73628a907f96"
+ },
+ "ex:L1.09:C": {
+  "mode": "text",
+  "src": "leg.",
+  "id": "5dc422e426df"
+ },
+ "read:L1.09:A:0": {
+  "mode": "text",
+  "src": "Let me get the big bug!",
+  "id": "bd0560a5f795"
+ },
+ "read:L1.09:A:1": {
+  "mode": "text",
+  "src": "The bug is on the bed.",
+  "id": "5a004225e0b0"
+ },
+ "read:L1.09:A:2": {
+  "mode": "text",
+  "src": "The bug ran.",
+  "id": "14942806d859"
+ },
+ "read:L1.09:A:3": {
+  "mode": "text",
+  "src": "Sam ran.",
+  "id": "b6331e5f5957"
+ },
+ "read:L1.09:A:4": {
+  "mode": "text",
+  "src": "Sam got the bug.",
+  "id": "44e6ae469446"
+ },
+ "read:L1.09:A:5": {
+  "mode": "text",
+  "src": "Sam let the bug run.",
+  "id": "e6cb732ac482"
+ },
+ "read:L1.09:B:0": {
+  "mode": "text",
+  "src": "Let me get the big bag.",
+  "id": "e8dfc7396504"
+ },
+ "read:L1.09:B:1": {
+  "mode": "text",
+  "src": "The bag is at the dock.",
+  "id": "7ca68b5fafa3"
+ },
+ "read:L1.09:B:2": {
+  "mode": "text",
+  "src": "Dan ran.",
+  "id": "496b0c2d1f52"
+ },
+ "read:L1.09:B:3": {
+  "mode": "text",
+  "src": "Dan got the bag.",
+  "id": "b573040e565f"
+ },
+ "read:L1.09:B:4": {
+  "mode": "text",
+  "src": "Dan let Nat get the bag.",
+  "id": "9d3a1599f6ea"
+ },
+ "lt:L1.09:title": {
+  "mode": "text",
+  "src": "Whose Bag Is It?.",
+  "id": "c591984042c9"
+ },
+ "lt:L1.09:0": {
+  "mode": "text",
+  "src": "When a stranger's bag turns up with no name on it, most people feel a small pull in two directions at once — curiosity about what's inside, and a clear sense that opening it isn't quite right. Workplaces that handle a lot of lost property usually have a simple rule for this: log it, store it somewhere safe, and hold it for a set number of days before deciding what happens next.",
+  "id": "b46ea13eebe1"
+ },
+ "lt:L1.09:1": {
+  "mode": "text",
+  "src": "It sounds almost too basic to matter, but that small bit of structure is exactly what stops an honest mistake from turning into an argument later about who touched what, and when.",
+  "id": "f2f1a33fb0a0"
+ },
+ "t2:L1.09:0": {
+  "mode": "text",
+  "src": "curiosity. Curiosity means a strong wish to know or learn something.",
+  "id": "1a734562b28d"
+ },
+ "q:L1.09:0": {
+  "mode": "text",
+  "src": "What two feelings does the passage say people get when they find an unlabeled bag?",
+  "id": "596163d40e2d"
+ },
+ "q:L1.09:1": {
+  "mode": "text",
+  "src": "Why does having a simple rule (log it, store it, wait) help avoid arguments later?",
+  "id": "d2ff77a6d180"
+ },
+ "read:L1.10:A:0": {
+  "mode": "text",
+  "src": "Sam got ten bells.",
+  "id": "85177e26c325"
+ },
+ "read:L1.10:A:1": {
+  "mode": "text",
+  "src": "Sam got a doll.",
+  "id": "77bcb522c5c0"
+ },
+ "read:L1.10:A:2": {
+  "mode": "text",
+  "src": "The doll sits on the bed.",
+  "id": "1a21f87e5fb7"
+ },
+ "read:L1.10:A:3": {
+  "mode": "text",
+  "src": "Sam pats the doll.",
+  "id": "c78b7aba01f1"
+ },
+ "read:L1.10:A:4": {
+  "mode": "text",
+  "src": "Sam hugs the doll.",
+  "id": "670ea08c87fb"
+ },
+ "read:L1.10:A:5": {
+  "mode": "text",
+  "src": "Is the doll a hit?",
+  "id": "38091595dd52"
+ },
+ "read:L1.10:A:6": {
+  "mode": "text",
+  "src": "The doll is a hit!",
+  "id": "1b9a9518b11b"
+ },
+ "read:L1.10:B:0": {
+  "mode": "text",
+  "src": "Dan sells bells.",
+  "id": "e0c42a0d8324"
+ },
+ "read:L1.10:B:1": {
+  "mode": "text",
+  "src": "Nat sells dolls.",
+  "id": "e99e3b0fd138"
+ },
+ "read:L1.10:B:2": {
+  "mode": "text",
+  "src": "Dan fills a bag.",
+  "id": "131fb030229b"
+ },
+ "read:L1.10:B:3": {
+  "mode": "text",
+  "src": "Nat tells Dan, \"The bag is full.\"",
+  "id": "b2371d59984f"
+ },
+ "lt:L1.10:title": {
+  "mode": "text",
+  "src": "One Word, Two Meanings.",
+  "id": "03e0836d5868"
+ },
+ "lt:L1.10:0": {
+  "mode": "text",
+  "src": "English is full of words that look and sound exactly the same but mean completely different things depending on how they're used — linguists call these homonyms. \"Well\" can mean a deep hole dug for water, or it can mean feeling healthy, or it can mean \"okay, so...\" at the start of a sentence.",
+  "id": "78e1e98d8c97"
+ },
+ "lt:L1.10:1": {
+  "mode": "text",
+  "src": "\"Bill\" can be a person's name, a piece of paper telling you what you owe, or the beak of a bird. Context — the words around a word — is what tells a listener or reader which meaning is meant.",
+  "id": "4090fdd940a5"
+ },
+ "lt:L1.10:2": {
+  "mode": "text",
+  "src": "This is exactly why understanding a whole sentence matters so much more than knowing single words in isolation.",
+  "id": "28e7ed500752"
+ },
+ "t2:L1.10:0": {
+  "mode": "text",
+  "src": "context. Context means the words, situation, or information around something that helps explain what it means.",
+  "id": "0006b4054edc"
+ },
+ "q:L1.10:0": {
+  "mode": "text",
+  "src": "What are two completely different meanings of the word \"bill,\" according to the passage?",
+  "id": "3e240e0cba82"
+ },
+ "q:L1.10:1": {
+  "mode": "text",
+  "src": "Why does the passage say context matters more than knowing single words alone?",
+  "id": "ceb0bb500805"
+ },
+ "ex:L1.11:A": {
+  "mode": "text",
+  "src": "jam.",
+  "id": "9928f45ba95f"
+ },
+ "ex:L1.11:B": {
+  "mode": "text",
+  "src": "van.",
+  "id": "d1e42719e0a0"
+ },
+ "ex:L1.11:C": {
+  "mode": "text",
+  "src": "wet.",
+  "id": "86c078b2b6cb"
+ },
+ "read:L1.11:A:0": {
+  "mode": "text",
+  "src": "Sam got jam.",
+  "id": "55956c6e56b1"
+ },
+ "read:L1.11:A:1": {
+  "mode": "text",
+  "src": "Sam got a jet.",
+  "id": "a039b3f2e2c5"
+ },
+ "read:L1.11:A:2": {
+  "mode": "text",
+  "src": "Sam ran.",
+  "id": "b6331e5f5957"
+ },
+ "read:L1.11:A:3": {
+  "mode": "text",
+  "src": "Sam is wet.",
+  "id": "eab8eaa25f8d"
+ },
+ "read:L1.11:A:4": {
+  "mode": "text",
+  "src": "They ran and ran.",
+  "id": "73b672417e3f"
+ },
+ "read:L1.11:A:5": {
+  "mode": "text",
+  "src": "Sam had fun.",
+  "id": "ed3a2e6a984f"
+ },
+ "read:L1.11:B:0": {
+  "mode": "text",
+  "src": "Dan got a job.",
+  "id": "a5289c407526"
+ },
+ "read:L1.11:B:1": {
+  "mode": "text",
+  "src": "Dan got a van.",
+  "id": "b16a9fa73932"
+ },
+ "read:L1.11:B:2": {
+  "mode": "text",
+  "src": "Dan is wet.",
+  "id": "e876392bd5c0"
+ },
+ "read:L1.11:B:3": {
+  "mode": "text",
+  "src": "Nat got a job.",
+  "id": "df6b36bdbe09"
+ },
+ "read:L1.11:B:4": {
+  "mode": "text",
+  "src": "Nat is a vet.",
+  "id": "79e84652d95e"
+ },
+ "read:L1.11:B:5": {
+  "mode": "text",
+  "src": "They get a van at the dock.",
+  "id": "01a62f64079d"
+ },
+ "lt:L1.11:title": {
+  "mode": "text",
+  "src": "One Word, Many Jobs.",
+  "id": "d277ebbd0248"
+ },
+ "lt:L1.11:0": {
+  "mode": "text",
+  "src": "The word \"vet\" hides a small trap: most people think first of an animal doctor, but \"vet\" is also short for \"veteran\" — someone who has served in the military — and it's a verb too, as in \"the company vetted every new driver before hiring them,\" meaning they checked the person's background carefully. Three different meanings, one small word, and only the sentence around it tells you which one is meant.",
+  "id": "3720b60236ac"
+ },
+ "lt:L1.11:1": {
+  "mode": "text",
+  "src": "Careful readers learn to slow down for a half-second whenever a short, familiar-looking word suddenly doesn't quite fit the sentence — that pause is often the first sign a word is doing a job you didn't expect.",
+  "id": "2a9e13ae7c5f"
+ },
+ "t2:L1.11:0": {
+  "mode": "text",
+  "src": "veteran. Veteran means someone with a lot of experience, especially someone who has served in the armed forces.",
+  "id": "049cd6e59787"
+ },
+ "q:L1.11:0": {
+  "mode": "text",
+  "src": "Name the three different meanings of \"vet\" the passage describes.",
+  "id": "920143ea10a5"
+ },
+ "q:L1.11:1": {
+  "mode": "text",
+  "src": "What does the passage suggest a careful reader should do when a short word \"doesn't quite fit\"?",
+  "id": "c92fe3eb031b"
+ },
+ "ex:L1.12:B": {
+  "mode": "text",
+  "src": "yes.",
+  "id": "629e83ceb112"
+ },
+ "ex:L1.12:C": {
+  "mode": "text",
+  "src": "zip.",
+  "id": "db393d1881a2"
+ },
+ "ex:L1.12:D": {
+  "mode": "text",
+  "src": "quiz.",
+  "id": "ac160bf99c85"
+ },
+ "read:L1.12:A:0": {
+  "mode": "text",
+  "src": "Sam has a fox.",
+  "id": "7e7f26f7dd90"
+ },
+ "read:L1.12:A:1": {
+  "mode": "text",
+  "src": "Sam has a box.",
+  "id": "cef433686551"
+ },
+ "read:L1.12:A:2": {
+  "mode": "text",
+  "src": "The fox naps in the box.",
+  "id": "42e8158c7967"
+ },
+ "read:L1.12:A:3": {
+  "mode": "text",
+  "src": "Sam has six pups.",
+  "id": "cade30a7babc"
+ },
+ "read:L1.12:A:4": {
+  "mode": "text",
+  "src": "Go, fox, go!",
+  "id": "2d3c2661027f"
+ },
+ "read:L1.12:B:0": {
+  "mode": "text",
+  "src": "Dan has a box.",
+  "id": "bd1d13023222"
+ },
+ "read:L1.12:B:1": {
+  "mode": "text",
+  "src": "Nat has a box.",
+  "id": "a5ee6e2232a4"
+ },
+ "read:L1.12:B:2": {
+  "mode": "text",
+  "src": "Dan and Nat fix a van.",
+  "id": "b96dded34227"
+ },
+ "read:L1.12:B:3": {
+  "mode": "text",
+  "src": "Nat quits at six.",
+  "id": "4fc8a38d8a68"
+ },
+ "read:L1.12:B:4": {
+  "mode": "text",
+  "src": "Go, Nat, go!",
+  "id": "b3e499b1c843"
+ },
+ "lt:L1.12:title": {
+  "mode": "text",
+  "src": "All 26, At Last.",
+  "id": "07e6cf57049f"
+ },
+ "lt:L1.12:0": {
+  "mode": "text",
+  "src": "Every single letter of the English alphabet has now had its own proper introduction — some of them, like c and k, even share a job. It took twelve lessons to get here, on purpose: rushing through all 26 letters in a week or two sounds efficient, but it means most of them never get practiced enough to become automatic.",
+  "id": "e05a5f695c7d"
+ },
+ "lt:L1.12:1": {
+  "mode": "text",
+  "src": "From here, nothing new needs to be \"discovered\" — the next lessons are about combining these same 26 letters in cleverer and cleverer ways: two letters making one sound, sounds joining into longer words, and patterns repeating across hundreds of different words once you know what to look for.",
+  "id": "77ad497424a9"
+ },
+ "t2:L1.12:0": {
+  "mode": "text",
+  "src": "automatic. Automatic means happening without needing to think about it carefully each time, because it's been practiced so much.",
+  "id": "eef85d5c3cea"
+ },
+ "q:L1.12:0": {
+  "mode": "text",
+  "src": "Why does the passage say rushing through all 26 letters quickly would actually be worse, not better?",
+  "id": "31d3de72a9ec"
+ },
+ "q:L1.12:1": {
+  "mode": "text",
+  "src": "What does the passage say comes next, now that all 26 letters are taught?",
+  "id": "92fa9ec3a979"
+ },
+ "read:L1.13:A:0": {
+  "mode": "text",
+  "src": "Bob has a big dog.",
+  "id": "1b0dece09b37"
+ },
+ "read:L1.13:A:1": {
+  "mode": "text",
+  "src": "Pat has a big pig.",
+  "id": "4b270b5b7acb"
+ },
+ "read:L1.13:A:2": {
+  "mode": "text",
+  "src": "The dog and the pig run.",
+  "id": "25c88662c7a6"
+ },
+ "read:L1.13:A:3": {
+  "mode": "text",
+  "src": "Did the dog win?",
+  "id": "f6a700763710"
+ },
+ "read:L1.13:A:4": {
+  "mode": "text",
+  "src": "Did the pig win?",
+  "id": "f3d9252689a3"
+ },
+ "read:L1.13:A:5": {
+  "mode": "text",
+  "src": "No, they did not win.",
+  "id": "249163706492"
+ },
+ "read:L1.13:A:6": {
+  "mode": "text",
+  "src": "It was a big mess.",
+  "id": "26e1a6df771e"
+ },
+ "read:L1.13:B:0": {
+  "mode": "text",
+  "src": "Dan has a big box.",
+  "id": "1da1cc0264e6"
+ },
+ "read:L1.13:B:1": {
+  "mode": "text",
+  "src": "Pat has a big box.",
+  "id": "4e9f30564de5"
+ },
+ "read:L1.13:B:2": {
+  "mode": "text",
+  "src": "The tag said \"b.\" Dan said, \"d?\" No, it was \"b.\" It was a big mess at the dock.",
+  "id": "577ab44fbca5"
+ },
+ "lt:L1.13:title": {
+  "mode": "text",
+  "src": "Why Labels Matter.",
+  "id": "3658ca04dfc5"
+ },
+ "lt:L1.13:0": {
+  "mode": "text",
+  "src": "In busy warehouses, a single misread letter on a shipping label can send a package hundreds of miles in the wrong direction. That's why professional warehouse workers are trained to read labels a specific, careful way: never glance quickly at a whole word and guess, but check the exact letters, especially any that could be confused with another — b and d, or the number 0 and the letter O.",
+  "id": "24ad43157d3e"
+ },
+ "lt:L1.13:1": {
+  "mode": "text",
+  "src": "Some warehouses even print certain confusable letters in a special typeface designed to make them look as different from each other as possible. It's a small design choice built entirely around a very human, very ordinary reading mistake.",
+  "id": "523ef4526b63"
+ },
+ "t2:L1.13:0": {
+  "mode": "text",
+  "src": "typeface. Typeface means a particular style or design of printed letters.",
+  "id": "97a2465b211a"
+ },
+ "q:L1.13:0": {
+  "mode": "text",
+  "src": "Why does the passage say warehouse workers are trained not to \"glance quickly and guess\" at labels?",
+  "id": "46ee75785a96"
+ },
+ "q:L1.13:1": {
+  "mode": "text",
+  "src": "What did some warehouses design specifically to solve the b/d mix-up problem?",
+  "id": "4de788191b4c"
+ },
+ "lt:L1.14:title": {
+  "mode": "text",
+  "src": "You Did Something Real.",
+  "id": "8a576006f8e0"
+ },
+ "lt:L1.14:0": {
+  "mode": "text",
+  "src": "Fourteen lessons ago, this course started with three sounds and a handful of made-up \"alien words.\" Today's check uses every single letter in English, a spelling rule, a plural ending, and twenty-four words that don't even follow the normal rules — and asks for all of it back, cold, without any warm-up hints. That's not a small ask.",
+  "id": "ab58be06bc72"
+ },
+ "lt:L1.14:1": {
+  "mode": "text",
+  "src": "Whatever the score turns out to be, getting through fourteen full lessons of new material, in order, each one building on the last, is real, durable progress — the kind that doesn't disappear the way a memorized page would. What comes next, in Level 2, isn't starting over; it's the exact same skill, aimed at bigger and bigger words.",
+  "id": "d540044b470b"
+ },
+ "t2:L1.14:0": {
+  "mode": "text",
+  "src": "durable. Durable means lasting a long time without wearing out or disappearing.",
+  "id": "46ae70cd677f"
+ },
+ "q:L1.14:0": {
+  "mode": "text",
+  "src": "What does the passage say is different about a \"durable\" skill compared to a memorized page?",
+  "id": "41c8ef2ca6c6"
+ },
+ "q:L1.14:1": {
+  "mode": "text",
+  "src": "How does the passage describe what Level 2 will be, compared to Level 1?",
+  "id": "75ea9068b4f1"
+ }
+}

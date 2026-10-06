@@ -3,3 +3,5 @@ node_modules/
 .env
 *.aab
 *.apk
+tools/.audio_cache/
+__pycache__/

@@ -58,8 +58,8 @@ def segment(word):
         if w[i] in G2P:
             g.append(w[i]); p.append(G2P[w[i]]); i += 1; continue
         return None
-    # word-final -s after a voiced sound reads /z/ (plural, L1.10)
-    if len(p) > 1 and g[-1] == "s" and p[-2] in {"g", "b", "d", "n", "m", "l", "v", "a", "e", "i", "o", "u", "r"}:
+    # final -s reads /z/ only in "as/has/his" and plurals after a voiced consonant (L1.10); never in made-up words
+    if len(p) > 1 and g[-1] == "s" and (w in {"as", "has", "his"} or (len(g) > 2 and p[-2] in {"g", "b", "d", "n", "m", "l", "v", "r"} and g[-2] != "s")):
         p[-1] = "z"
     return g, p
 
@@ -403,7 +403,7 @@ def app_sittings(lesson):
     A.append({"id": "R", "steps": ["read"]}); A.append({"id": "L", "steps": ["listen"]}); A.append({"id": "X", "steps": ["check"]})
     teach = [s for s in A if s.get("new")]
     B = [{"id": "".join(s["id"] for s in teach), "new": [g for s in teach for g in s["new"]],
-          "steps": ["hear", "meet", "blend", "spell"], "keepGoing": True}] if teach else []
+          "steps": ["hear", "meet", "trace", "blend", "spell"], "keepGoing": True}] if teach else []
     B.append({"id": "D", "steps": ["warm", "tricky", "read", "listen"]}); B.append({"id": "X", "steps": ["check"]})
     return {"A": A, "B": B}
 
@@ -435,6 +435,8 @@ def main():
             lex[key] = {"w": hw, "g": seg[0], "p": seg[1] if seg[1] else None, "ipa": ipa, "kind": "heart", "heartIdx": idx, "lessons": [lesson]}
             return
         seg = segment(key)
+        if seg and kind == "pseudo" and seg[1][-1] == "z" and seg[0][-1] == "s":
+            seg[1][-1] = "s"
         if not seg:
             unseg.append((w, lesson)); return
         lex[key] = {"w": key, "g": seg[0], "p": seg[1], "ipa": ipa_of(seg[1]), "kind": "syllable" if key == "sa" else kind, "lessons": [lesson]}
