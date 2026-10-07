@@ -238,6 +238,7 @@ PSEUDO_RESPELL = {  # course spelling -> what the TTS is given (ambiguous spelli
     "hˈæs": "hass", "ʤˈɪz": "jiz", "sˈɪz": "siz", "kˈæk": "kack", "kˈɪd": "kid", "sˈɑk": "sock", "kˈɛk": "keck", "hˈæk": "hack", "ˈætt": "at",
     "lˈɑdd": "lod", "ʌ": "uh", "ˈɪz": "is", "fˈɛs": "fess", "nˈʌz": "nuzz", "sˈɛd": "said", "sˈɛlz": "sells", "tˈɛlz": "tells",
 }
+if (C / "foil_respell.json").exists(): PSEUDO_RESPELL.update(json.loads((C / "foil_respell.json").read_text()))   # tools/check_foils.py --fix (whisper-checked respellings)
 OPEN = {"sˈæ": "sat", "stˈæ": "stat", "skˈæ": "scat"}   # open syllables: cut from a carrier render, before the final stop's closure
 
 

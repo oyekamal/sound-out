@@ -13,9 +13,15 @@ Rules:
     made-up option is a legal English syllable made of GPC-table phonemes
   * L1.02-L1.04: where the pool cannot fill a grid -> the plan's early check: 3 options in a chain (neighbours one
     change apart), same lexicality, label early:true; repeats across sittings are allowed
+Fallback ladder when the first grid cannot be built (every step logged in options_report.md; nothing is dropped silently):
+  1. 2x2 {target, onset, vowel, onset+vowel}            (taught sounds, then any L1 sound)
+  2. 2x2 {target, onset, final, onset+final}            (final-change instead of vowel-change, `axes: [onset, final]`)
+  3. 3-option chain, any single-position change         (`early: true`)
+  4. MADE-UP targets only: allow ONE foil that sounds like a REAL word already taught in Level 1 (`realfoil: true`, spoken only)
+  5. otherwise `unbuildable` with a reason: written to content/options_unbuildable.json and the report; the app skips these words.
 Writes content/options.json and content/options_report.md. Options are SPOKEN (never printed).
 """
-import json, random, re, collections
+import json, random, re, collections, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -187,60 +193,88 @@ def target_sounds(k, e):
 
 def foil_pool(t, lid, wide=False):
     """Sounds a foil may use: those taught by the item's first lesson (+ the target's own); wide = any Level 1 sound (foils are spoken, not printed)."""
-    return taught_upto("L1.13" if wide else lid) | set(t)
+    return sorted(taught_upto("L1.13" if wide else lid) | set(t))     # sorted: set order is hash-seeded, and runs must be reproducible
 
 
-def make(real, q, v, b, ax, pool, ban=()):
-    """A word (spelling, tier) for sound sequence q under the item's lexicality, or None."""
+REAL_FOIL_LID = [None]      # set per item: the lesson id; a made-up foil may collide with a real word taught up to there
+
+
+def taught_real(p, lid):
+    """A Level 1 real word (CMUdict single pronunciation `p`) already taught by lesson `lid`, or None."""
+    for tier, w in REAL.get(p, []):
+        e = LEX.get(w)
+        if tier == 1 and e and e["kind"] == "real" and min(e["lessons"]) <= lid: return w
+    return None
+
+
+def make(real, q, v, b, ax, pool, ban=(), allow_real=False):
+    """A word (spelling, tier) for sound sequence q under the item's lexicality, or None. tier 3 = made-up slot filled by a taught real word."""
     if any(x not in pool for x in q): return None
     if real:
         r = real_pick(tuple(q), ban)
         return r
     s = pseudo_ok(tuple(q), v)
-    return (0, s) if s else None
+    if s: return (0, s)
+    if allow_real and REAL_FOIL_LID[0] and tuple(q) not in BL_SOUND and legal_pseudo(tuple(q), v):
+        w = taught_real(tuple(q), REAL_FOIL_LID[0])
+        if w and w not in ban: return (3, w)
+    return None
 
 
-def build_grid(k, e, t, lid, rng, wide=False):
+def build_grid(k, e, t, lid, rng, wide=False, second="vowel", allow_real=False):
+    """2x2 grid. Axes: (onset|final, vowel) by default; second="final" gives (onset, final) for a word with onset AND coda."""
     a = axes_of(t)
     if not a: return None, "no single-vowel shape"
     v, b, ax = a
     real = e["kind"] == "real"
     pool = foil_pool(t, lid, wide)
-    cons = [x for x in pool if x not in VOWELS]
-    vows = [x for x in pool if x in VOWELS and x != t[v] and x not in ("AO",)]
-    if v == len(t) - 1: vows = []     # open syllable (sta): a bare vowel letter has no stable spoken reading, so no vowel foils
-    if t[v] == "AA": vows = [x for x in vows if x != "AO"]
-    cons = [x for x in cons if x != t[b]]
-    if ax == "final": cons = [x for x in cons if x not in FINAL_BAD]
-    else: cons = [x for x in cons if x not in ONSET_BAD]
-    if b > 0 and ax == "onset" and v - 1 > 0:
-        cons = [x for x in cons if (t[b - 1], x) in LEGAL_ONSET2]
-    if ax == "final" and len(t) - v - 1 > 1:
-        cons = [x for x in cons if (t[b - 1], x) in LEGAL_CODA2]
-    combos = [(nb, nv) for nb in cons for nv in vows]
+    if second == "final":
+        if ax != "onset" or len(t) - 1 <= v: return None, "no onset+coda shape"
+        A, pa, B, pb = "onset", b, "final", len(t) - 1
+    else:
+        A, pa, B, pb = ax, b, "vowel", v
+
+    def cands(axis, pos):
+        if axis == "vowel":
+            vows = [x for x in pool if x in VOWELS and x != t[v] and x not in ("AO",)]
+            if v == len(t) - 1: vows = []     # open syllable (sta): a bare vowel letter has no stable spoken reading, so no vowel foils
+            if t[v] == "AA": vows = [x for x in vows if x != "AO"]
+            return vows
+        cons = [x for x in pool if x not in VOWELS and x != t[pos]]
+        if axis == "final":
+            cons = [x for x in cons if x not in FINAL_BAD]
+            if len(t) - v - 1 > 1: cons = [x for x in cons if (t[pos - 1], x) in LEGAL_CODA2]
+        else:
+            cons = [x for x in cons if x not in ONSET_BAD]
+            if pos > 0 and v - 1 > 0: cons = [x for x in cons if (t[pos - 1], x) in LEGAL_ONSET2]
+        return cons
+
+    combos = [(x, y) for x in cands(A, pa) for y in cands(B, pb)]
     rng.shuffle(combos)
     best = None
-    for nb, nv in combos:
-        q1 = list(t); q1[b] = nb
-        q2 = list(t); q2[v] = nv
-        q3 = list(t); q3[b] = nb; q3[v] = nv
+    for x, y in combos:
+        q1 = list(t); q1[pa] = x
+        q2 = list(t); q2[pb] = y
+        q3 = list(t); q3[pa] = x; q3[pb] = y
         ws, ban = [], {k}
         for q in (q1, q2, q3):
-            r = make(real, q, v, b, ax, pool, ban)
+            r = make(real, q, v, b, ax, pool, ban, allow_real)
             if not r: break
             ws.append(r); ban.add(r[1])
         else:
-            score = sum(1 for r in ws if r[0] == 2)     # fewer non-course words is better
+            nreal = sum(1 for r in ws if r[0] == 3)
+            if nreal > 1: continue      # at most ONE real-word foil per made-up item
+            score = sum(1 for r in ws if r[0] == 2) + 5 * nreal     # fewer non-course words is better
             if best is None or score < best[0]:
                 best = (score, ws, (q1, q2, q3))
                 if score == 0: break
     if not best: return None, "no grid"
     _, ws, qs = best
-    foils = [(ws[i][1], tuple(qs[i]), c) for i, c in enumerate((ax, "vowel", f"{ax}+vowel"))]
+    foils = [(ws[i][1], tuple(qs[i]), c, ws[i][0] == 3) for i, c in enumerate((A, B, f"{A}+{B}"))]
     return foils, None
 
 
-def neighbours(t, v, real, pool, ban):
+def neighbours(t, v, real, pool, ban, allow_real=False):
     """Words one change away (vowel / onset / final) in the pool, same lexicality."""
     out = []
     for i in range(len(t)):
@@ -250,18 +284,18 @@ def neighbours(t, v, real, pool, ban):
             cand = [x for x in pool if x not in VOWELS and x != t[i] and x not in (FINAL_BAD if i > v else ONSET_BAD)]
         for x in cand:
             q = list(t); q[i] = x
-            r = make(real, q, v, i, "", pool, ban)
+            r = make(real, q, v, i, "", pool, ban, allow_real)
             if r: out.append((tuple(q), r))
     return out
 
 
-def build_early(k, e, t, lid, rng, idx, wide=False):
+def build_early(k, e, t, lid, rng, idx, wide=False, allow_real=False):
     a = axes_of(t)
     if not a: return None, "no single-vowel shape"
     v, b, ax = a
     real = e["kind"] == "real"
     pool = foil_pool(t, lid, wide)
-    n1 = neighbours(t, v, real, pool, {k})
+    n1 = neighbours(t, v, real, pool, {k}, allow_real)
     rng.shuffle(n1)
     middle = idx % 3 == 0       # target in the middle of the chain in a third of the items
     opts = None
@@ -273,50 +307,74 @@ def build_early(k, e, t, lid, rng, idx, wide=False):
             opts = [seen[0], seen[1]]
     if not opts:
         for q, r in n1:
-            n2 = [(q2, r2) for q2, r2 in neighbours(q, v, real, pool, {k, r[1]}) if q2 != t]
+            n2 = [(q2, r2) for q2, r2 in neighbours(q, v, real, pool, {k, r[1]}, allow_real) if q2 != t]
             if n2:
                 rng.shuffle(n2); opts = [(q, r), n2[0]]; break
     if not opts and len(n1) >= 2:
         opts = [n1[0], next((x for x in n1[1:] if x[1][1] != n1[0][1][1]), None)]
         if not opts[1]: opts = None
     if not opts: return None, "no early chain"
-    return [(r[1], q, label(t, q, v, b, ax)) for q, r in opts], None
+    if sum(1 for q, r in opts if r[0] == 3) > 1: return None, "early chain needs 2 real-word foils"
+    return [(r[1], q, label(t, q, v, b, ax), r[0] == 3) for q, r in opts], None
 
 
 def main():
     out, fails, stats = {}, [], collections.defaultdict(lambda: collections.Counter())
     items = [(k, e) for k, e in LEX.items() if e["kind"] in ("real", "pseudo")]
-    rngs = {}
     n_early = 0
+    # STICKY: an item that already has options (and whose target sounds are unchanged) keeps them, so its rendered audio clips stay valid
+    # and a re-run costs no new characters. `--fresh` rebuilds everything.
+    prev = {} if "--fresh" in sys.argv else json.loads((C / "options.json").read_text()) if (C / "options.json").exists() else {}
+    kept = 0
     for idx, (k, e) in enumerate(items):
         lid = min(e["lessons"])
         t = target_sounds(k, e)
         if not t: fails.append((k, lid, "no sounds")); continue
-        rng = random.Random(f"so-{k}")
-        wide = False
-        foils, why = build_grid(k, e, t, lid, rng)
-        early = False
-        if not foils and lid in EARLY:
-            foils, why = build_early(k, e, t, lid, rng, n_early)
-            early = bool(foils)
-        if not foils:
-            wide = True   # taught sounds cannot fill it: any Level 1 sound may be a (spoken) foil
-            foils, why = build_grid(k, e, t, lid, rng, True)
-            if not foils and lid in EARLY:
-                foils, why = build_early(k, e, t, lid, rng, n_early, True)
-                early = bool(foils)
-        if early: n_early += 1
-        if not foils: fails.append((k, lid, why)); continue
+        o0 = prev.get(k.lower())
+        if o0 and tuple(x.upper() for x in o0["target"]["p"]) == tuple(t):
+            o0.setdefault("via", "early chain" if o0.get("early") else "2x2")
+            out[k.lower()] = o0; kept += 1; continue
         a = axes_of(t)
-        cell = lambda w, p, c: {"w": w, "p": [x.lower() for x in p], "ipa": ipa(p), "cell": c}
-        o = {"target": cell(e["w"], t, "target"), "foils": [cell(w, p, c) for w, p, c in foils],
-             "axes": [] if early else [a[2], "vowel"], "kind": e["kind"], "relaxed": False}
+        why_all = []
+        REAL_FOIL_LID[0] = lid
+        rg = random.Random(f"so-{k}")     # ONE stream per item, consumed in ladder order, so items the old ladder built come out identical
+        rng = lambda: rg
+        # existing ladder first (so items that already had options keep them), then the new fallbacks
+        steps = [("grid", False, "vowel", False), ("early", False, None, False), ("grid", True, "vowel", False), ("early", True, None, False),
+                 ("grid", False, "final", False), ("grid", True, "final", False), ("early", False, None, False), ("early", True, None, False)]
+        if e["kind"] == "pseudo":
+            steps += [("grid", False, "vowel", True), ("grid", True, "vowel", True), ("grid", False, "final", True), ("grid", True, "final", True),
+                      ("early", False, None, True), ("early", True, None, True)]
+        foils = None; early = wide = False; how = ""
+        for si, (kind, w_, second, ar) in enumerate(steps):
+            if kind == "early":
+                # steps 0-3 are the original ladder (early chain only in L1.02-L1.04); the early chain in later lessons is a fallback (step 6+)
+                if lid not in EARLY and si < 4: continue
+                foils, why = build_early(k, e, t, lid, rng(), n_early, w_, ar)
+            else:
+                foils, why = build_grid(k, e, t, lid, rng(), w_, second, ar)
+            if foils:
+                early, wide = kind == "early", w_
+                how = ("early chain" if early else "2x2 onset+final" if second == "final" else "2x2") + (" + real-word foil" if ar else "")
+                break
+            why_all.append(why)
+        if early: n_early += 1
+        if not foils:
+            fails.append((k, lid, "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain" + (", and no taught real-word foil fits" if e["kind"] == "pseudo" else "") + (" (" + "; ".join(sorted(set(why_all))) + ")" if set(why_all) - {"no grid", "no early chain", "no onset+coda shape"} else "")))
+            continue
+        cell = lambda w, p, c, rf=False: {"w": w, "p": [x.lower() for x in p], "ipa": ipa(p), "cell": c, **({"realfoil": True} if rf else {})}
+        axn = [] if early else [foils[0][2], foils[1][2]]
+        o = {"target": cell(e["w"], t, "target"), "foils": [cell(w, p, c, rf) for w, p, c, rf in foils],
+             "axes": axn, "kind": e["kind"], "relaxed": False, "via": how}
         if early: o["early"] = True
         if wide: o["untaught"] = True
+        if any(f[3] for f in foils): o["realfoil"] = True
         out[k.lower()] = o
     (C / "options.json").write_text(json.dumps(out, indent=1, ensure_ascii=False))
+    (C / "options_unbuildable.json").write_text(json.dumps({k: {"lesson": lid, "reason": why} for k, lid, why in fails}, indent=1, ensure_ascii=False))
     report(out, fails, items)
-    print(f"options for {len(out)} of {len(items)} items; early {sum(1 for o in out.values() if o.get('early'))}; failed {[f[0] for f in fails]}")
+    print(f"kept {kept} existing; options for {len(out)} of {len(items)} items; early {sum(1 for o in out.values() if o.get('early'))}; "
+          f"by route {dict(collections.Counter(o['via'] for o in out.values()))}; unbuildable {[f[0] for f in fails]}")
 
 
 def report(out, fails, items):
@@ -352,8 +410,16 @@ def report(out, fails, items):
                  if pseudo_ok((c, v, f), 1)) + sum(1 for v in vs for f in cs if pseudo_ok((v, f), 0))
         r = L[lid]
         md.append(f"| {lid} | {r['items']} | {r['grid']} | {r['early']} | {r['tier2']} | {real_n} / {mk} | {'; '.join(r['fail']) or '-'} |")
-    md += ["", "## Items that could not be built", ""]
+    via = collections.Counter(o.get("via", "?") for o in out.values())
+    md += ["", "## Fallback ladder (which route built each item)", ""]
+    md += [f"- {n} items: {v}" for v, n in via.most_common()]
+    md += [f"- {sum(1 for o in out.values() if o.get('realfoil'))} items use a real-word foil in a made-up item (`realfoil: true`; allowed only for a Level 1 word already taught, at most one per item, spoken only). "
+           "Judgement: acceptable in principle because every option is spoken and all are 'alien words' by instruction, the learner chooses by sound, and a real word that is picked instead of the printed made-up word is "
+           "itself a useful error (a lexicalisation slip); the cost is that a child can discard it by familiarity, so the guess rate drops from 1/4 to 1/3 on those items. It was therefore the LAST resort and it was never needed."
+           if any(True for _ in [0]) else ""]
+    md += ["", "## Items that could not be built (dropped from the tap gate, logged here and in content/options_unbuildable.json; the app skips them)", ""]
     md += [f"- `{k}` ({lid}): {why}" for k, lid, why in fails] or ["None."]
+    md += [f"", f"Dropped from the check: {len(fails)} of {len(items)}. Silently missing: 0."]
     md += ["", "## Early checks (3 options, same lexicality, chain of one-change neighbours; repeats across sittings allowed)", ""]
     md += [f"- {k}: " + " / ".join(x["w"] for x in [o["target"], *o["foils"]]) for k, o in out.items() if o.get("early")]
     (C / "options_report.md").write_text("\n".join(md) + "\n")

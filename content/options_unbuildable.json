@@ -1,0 +1,10 @@
+{
+ "quits": {
+  "lesson": "L1.12",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain"
+ },
+ "tio": {
+  "lesson": "L1.13",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain, and no taught real-word foil fits (no single-vowel shape)"
+ }
+}

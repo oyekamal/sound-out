@@ -1,0 +1,4263 @@
+{
+ "characters_spent": 946,
+ "rows": [
+  {
+   "foil": "aff",
+   "say": "aff",
+   "ipa": "ˈæf",
+   "intended": "ae f",
+   "heard": {
+    "small": "F",
+    "small.en": "F"
+   },
+   "heard_sounds": {
+    "small": [
+     "eh f"
+    ],
+    "small.en": [
+     "eh f"
+    ]
+   },
+   "ok": false,
+   "action": "no variant heard right; kept original",
+   "items": [
+    "att"
+   ]
+  },
+  {
+   "foil": "ast",
+   "say": "ast",
+   "ipa": "ˈæst",
+   "intended": "ae s t",
+   "heard": {
+    "small": "asked",
+    "small.en": "asked"
+   },
+   "heard_sounds": {
+    "small": [
+     "ae s k t",
+     "ae s t"
+    ],
+    "small.en": [
+     "ae s k t",
+     "ae s t"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "ast"
+   ]
+  },
+  {
+   "foil": "att",
+   "say": "at",
+   "ipa": "ˈæt",
+   "intended": "ae t",
+   "heard": {
+    "small": "at",
+    "small.en": "at"
+   },
+   "heard_sounds": {
+    "small": [
+     "ae t"
+    ],
+    "small.en": [
+     "ae t"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "att"
+   ]
+  },
+  {
+   "foil": "beff",
+   "say": "beff",
+   "ipa": "bˈɛf",
+   "intended": "b eh f",
+   "heard": {
+    "small": "Beth",
+    "small.en": "Beth"
+   },
+   "heard_sounds": {
+    "small": [
+     "b eh th"
+    ],
+    "small.en": [
+     "b eh th"
+    ]
+   },
+   "ok": false,
+   "action": "no variant heard right; kept original",
+   "items": [
+    "bof"
+   ]
+  },
+  {
+   "foil": "bof",
+   "say": "bof",
+   "ipa": "bˈɑf",
+   "intended": "b aa f",
+   "heard": {
+    "small": "Bluff.",
+    "small.en": "Bluff."
+   },
+   "heard_sounds": {
+    "small": [
+     "b l ah f"
+    ],
+    "small.en": [
+     "b l ah f"
+    ]
+   },
+   "ok": false,
+   "action": "re-rendered as 'boff' (heard 'Both'/'Bof'), kept",
+   "items": [
+    "bof"
+   ]
+  },
+  {
+   "foil": "cak",
+   "say": "kack",
+   "ipa": "kˈæk",
+   "intended": "k ae k",
+   "heard": {
+    "small": "Cuck.",
+    "small.en": "Cuck."
+   },
+   "heard_sounds": {
+    "small": [
+     "k ah k"
+    ],
+    "small.en": [
+     "k ah k"
+    ]
+   },
+   "ok": false,
+   "action": "no variant heard right; kept original",
+   "items": [
+    "cak"
+   ]
+  },
+  {
+   "foil": "caks",
+   "say": "caks",
+   "ipa": "kˈæks",
+   "intended": "k ae k s",
+   "heard": {
+    "small": "Cax.",
+    "small.en": "Cacks."
+   },
+   "heard_sounds": {
+    "small": [
+     "k ae k s"
+    ],
+    "small.en": [
+     "k ae k s"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "dax"
+   ]
+  },
+  {
+   "foil": "cakt",
+   "say": "cakt",
+   "ipa": "kˈækt",
+   "intended": "k ae k t",
+   "heard": {
+    "small": "Cact",
+    "small.en": "Cacked"
+   },
+   "heard_sounds": {
+    "small": [
+     "k ae k t"
+    ],
+    "small.en": [
+     "k ae k eh d"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "dax"
+   ]
+  },
+  {
+   "foil": "cav",
+   "say": "cav",
+   "ipa": "kˈæv",
+   "intended": "k ae v",
+   "heard": {
+    "small": "Cav",
+    "small.en": "Cav"
+   },
+   "heard_sounds": {
+    "small": [
+     "k ae v"
+    ],
+    "small.en": [
+     "k ae v"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "jov"
+   ]
+  },
+  {
+   "foil": "cazz",
+   "say": "cazz",
+   "ipa": "kˈæz",
+   "intended": "k ae z",
+   "heard": {
+    "small": "Kaz",
+    "small.en": "Caz"
+   },
+   "heard_sounds": {
+    "small": [
+     "k ae z"
+    ],
+    "small.en": [
+     "k ae z"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "cak"
+   ]
+  },
+  {
+   "foil": "cid",
+   "say": "kid",
+   "ipa": "kˈɪd",
+   "intended": "k ih d",
+   "heard": {
+    "small": "Kid",
+    "small.en": "kid"
+   },
+   "heard_sounds": {
+    "small": [
+     "k ih d"
+    ],
+    "small.en": [
+     "k ih d"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "cid"
+   ]
+  },
+  {
+   "foil": "cov",
+   "say": "cov",
+   "ipa": "kˈɑv",
+   "intended": "k aa v",
+   "heard": {
+    "small": "Cove",
+    "small.en": "Cove"
+   },
+   "heard_sounds": {
+    "small": [
+     "k ow v"
+    ],
+    "small.en": [
+     "k ow v"
+    ]
+   },
+   "ok": false,
+   "action": "no variant heard right; kept original",
+   "items": [
+    "jov"
+   ]
+  },
+  {
+   "foil": "cug",
+   "say": "cug",
+   "ipa": "kˈʌɡ",
+   "intended": "k ah g",
+   "heard": {
+    "small": "Cug.",
+    "small.en": "CUG"
+   },
+   "heard_sounds": {
+    "small": [
+     "k ah g"
+    ],
+    "small.en": [
+     "k ah g"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "kur"
+   ]
+  },
+  {
+   "foil": "dack",
+   "say": "dack",
+   "ipa": "dˈæk",
+   "intended": "d ae k",
+   "heard": {
+    "small": "Deck",
+    "small.en": "DAC"
+   },
+   "heard_sounds": {
+    "small": [
+     "d eh k"
+    ],
+    "small.en": [
+     "d ae k"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "dack"
+   ]
+  },
+  {
+   "foil": "dakt",
+   "say": "dakt",
+   "ipa": "dˈækt",
+   "intended": "d ae k t",
+   "heard": {
+    "small": "Duct",
+    "small.en": "Ducked"
+   },
+   "heard_sounds": {
+    "small": [
+     "d ah k t"
+    ],
+    "small.en": [
+     "d ah k t"
+    ]
+   },
+   "ok": false,
+   "action": "no variant heard right; kept original",
+   "items": [
+    "dax"
+   ]
+  },
+  {
+   "foil": "dap",
+   "say": "dap",
+   "ipa": "dˈæp",
+   "intended": "d ae p",
+   "heard": {
+    "small": "Dap.",
+    "small.en": "DAP"
+   },
+   "heard_sounds": {
+    "small": [
+     "d ae p"
+    ],
+    "small.en": [
+     "d ae p"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "dap",
+    "dack"
+   ]
+  },
+  {
+   "foil": "dax",
+   "say": "dax",
+   "ipa": "dˈæks",
+   "intended": "d ae k s",
+   "heard": {
+    "small": "DAX",
+    "small.en": "DAX"
+   },
+   "heard_sounds": {
+    "small": [
+     "d ae k s"
+    ],
+    "small.en": [
+     "d ae k s"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "dax"
+   ]
+  },
+  {
+   "foil": "dit",
+   "say": "dit",
+   "ipa": "dˈɪt",
+   "intended": "d ih t",
+   "heard": {
+    "small": "Dit.",
+    "small.en": "Dit."
+   },
+   "heard_sounds": {
+    "small": [
+     "d ih t"
+    ],
+    "small.en": [
+     "d ih t"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "dut"
+   ]
+  },
+  {
+   "foil": "dop",
+   "say": "dop",
+   "ipa": "dˈɑp",
+   "intended": "d aa p",
+   "heard": {
+    "small": "Dope.",
+    "small.en": "DOP"
+   },
+   "heard_sounds": {
+    "small": [
+     "d ow p"
+    ],
+    "small.en": [
+     "d aa p"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "dop",
+    "rup"
+   ]
+  },
+  {
+   "foil": "dor",
+   "say": "dor",
+   "ipa": "dˈɑɹ",
+   "intended": "d aa r",
+   "heard": {
+    "small": "Door",
+    "small.en": "door"
+   },
+   "heard_sounds": {
+    "small": [
+     "d ao r"
+    ],
+    "small.en": [
+     "d ao r"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "dor"
+   ]
+  },
+  {
+   "foil": "dup",
+   "say": "dup",
+   "ipa": "dˈʌp",
+   "intended": "d ah p",
+   "heard": {
+    "small": "Dup.",
+    "small.en": "Dup."
+   },
+   "heard_sounds": {
+    "small": [
+     "d ah p"
+    ],
+    "small.en": [
+     "d ah p"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "dap",
+    "dop",
+    "rup"
+   ]
+  },
+  {
+   "foil": "dur",
+   "say": "dur",
+   "ipa": "dˈʌɹ",
+   "intended": "d ah r",
+   "heard": {
+    "small": "Dur",
+    "small.en": "Do it."
+   },
+   "heard_sounds": {
+    "small": [
+     "d ah r"
+    ],
+    "small.en": [
+     "d aa ih t"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "dor"
+   ]
+  },
+  {
+   "foil": "dut",
+   "say": "dut",
+   "ipa": "dˈʌt",
+   "intended": "d ah t",
+   "heard": {
+    "small": "Doot",
+    "small.en": "Do it."
+   },
+   "heard_sounds": {
+    "small": [
+     "d aa aa t"
+    ],
+    "small.en": [
+     "d aa ih t"
+    ]
+   },
+   "ok": false,
+   "action": "no variant heard right; kept original",
+   "items": [
+    "dut"
+   ]
+  },
+  {
+   "foil": "feff",
+   "say": "feff",
+   "ipa": "fˈɛf",
+   "intended": "f eh f",
+   "heard": {
+    "small": "FIF",
+    "small.en": "Fef"
+   },
+   "heard_sounds": {
+    "small": [
+     "f ih f"
+    ],
+    "small.en": [
+     "f eh f"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "fess",
+    "hiff"
+   ]
+  },
+  {
+   "foil": "fekt",
+   "say": "fekt",
+   "ipa": "fˈɛkt",
+   "intended": "f eh k t",
+   "heard": {
+    "small": "Fact",
+    "small.en": "FACT"
+   },
+   "heard_sounds": {
+    "small": [
+     "f ae k t"
+    ],
+    "small.en": [
+     "f ae k t"
+    ]
+   },
+   "ok": false,
+   "action": "re-rendered as 'fehkt' (heard 'Fecht!'/'Fächt'), kept",
+   "items": [
+    "fex"
+   ]
+  },
+  {
+   "foil": "fess",
+   "say": "fess",
+   "ipa": "fˈɛs",
+   "intended": "f eh s",
+   "heard": {
+    "small": "FESS",
+    "small.en": "Fess"
+   },
+   "heard_sounds": {
+    "small": [
+     "f eh s"
+    ],
+    "small.en": [
+     "f eh s"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "fess"
+   ]
+  },
+  {
+   "foil": "fex",
+   "say": "fex",
+   "ipa": "fˈɛks",
+   "intended": "f eh k s",
+   "heard": {
+    "small": "Fx.",
+    "small.en": "FEX"
+   },
+   "heard_sounds": {
+    "small": [
+     "f k s"
+    ],
+    "small.en": [
+     "f eh k s"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "fex"
+   ]
+  },
+  {
+   "foil": "fiff",
+   "say": "fiff",
+   "ipa": "fˈɪf",
+   "intended": "f ih f",
+   "heard": {
+    "small": "Fifth.",
+    "small.en": "Fifth"
+   },
+   "heard_sounds": {
+    "small": [
+     "f ih f th",
+     "f ih th"
+    ],
+    "small.en": [
+     "f ih f th",
+     "f ih th"
+    ]
+   },
+   "ok": false,
+   "action": "no variant heard right; kept original",
+   "items": [
+    "hiff"
+   ]
+  },
+  {
+   "foil": "fim",
+   "say": "fim",
+   "ipa": "fˈɪm",
+   "intended": "f ih m",
+   "heard": {
+    "small": "FIM",
+    "small.en": "FIM"
+   },
+   "heard_sounds": {
+    "small": [
+     "f ih m"
+    ],
+    "small.en": [
+     "f ih m"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "fim"
+   ]
+  },
+  {
+   "foil": "fod",
+   "say": "fod",
+   "ipa": "fˈɑd",
+   "intended": "f aa d",
+   "heard": {
+    "small": "FOD",
+    "small.en": "FOD"
+   },
+   "heard_sounds": {
+    "small": [
+     "f aa d"
+    ],
+    "small.en": [
+     "f aa d"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "lodd"
+   ]
+  },
+  {
+   "foil": "fom",
+   "say": "fom",
+   "ipa": "fˈɑm",
+   "intended": "f aa m",
+   "heard": {
+    "small": "Form",
+    "small.en": "Foam"
+   },
+   "heard_sounds": {
+    "small": [
+     "f ao r m"
+    ],
+    "small.en": [
+     "f ow m"
+    ]
+   },
+   "ok": false,
+   "action": "re-rendered as 'fahm' (heard 'Thumb'/'FOM'), kept",
+   "items": [
+    "fon",
+    "fim"
+   ]
+  },
+  {
+   "foil": "fon",
+   "say": "fon",
+   "ipa": "fˈɑn",
+   "intended": "f aa n",
+   "heard": {
+    "small": "phone",
+    "small.en": "phone"
+   },
+   "heard_sounds": {
+    "small": [
+     "f ow n"
+    ],
+    "small.en": [
+     "f ow n"
+    ]
+   },
+   "ok": false,
+   "action": "re-rendered as 'fahn' (heard 'FON'/'Fawn'), kept",
+   "items": [
+    "fon"
+   ]
+  },
+  {
+   "foil": "fud",
+   "say": "fud",
+   "ipa": "fˈʌd",
+   "intended": "f ah d",
+   "heard": {
+    "small": "FUD",
+    "small.en": "FUD"
+   },
+   "heard_sounds": {
+    "small": [
+     "f ah d"
+    ],
+    "small.en": [
+     "f ah d"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "lodd"
+   ]
+  },
+  {
+   "foil": "gack",
+   "say": "gack",
+   "ipa": "ɡˈæk",
+   "intended": "g ae k",
+   "heard": {
+    "small": "GAC",
+    "small.en": "Gack."
+   },
+   "heard_sounds": {
+    "small": [
+     "g ae k"
+    ],
+    "small.en": [
+     "g ae k"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "cak",
+    "gack"
+   ]
+  },
+  {
+   "foil": "gazz",
+   "say": "gazz",
+   "ipa": "ɡˈæz",
+   "intended": "g ae z",
+   "heard": {
+    "small": "GAS",
+    "small.en": "Gaz."
+   },
+   "heard_sounds": {
+    "small": [
+     "g ae s"
+    ],
+    "small.en": [
+     "g aa z",
+     "g ae z"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "cak"
+   ]
+  },
+  {
+   "foil": "gep",
+   "say": "gep",
+   "ipa": "ɡˈɛp",
+   "intended": "g eh p",
+   "heard": {
+    "small": "HEP",
+    "small.en": "KEP"
+   },
+   "heard_sounds": {
+    "small": [
+     "hh eh p"
+    ],
+    "small.en": [
+     "k eh p"
+    ]
+   },
+   "ok": false,
+   "action": "re-rendered as 'gepp' (heard 'Yep.'/'GEP'), kept",
+   "items": [
+    "gup"
+   ]
+  },
+  {
+   "foil": "ger",
+   "say": "ger",
+   "ipa": "ɡˈɛɹ",
+   "intended": "g eh r",
+   "heard": {
+    "small": "gear",
+    "small.en": "get"
+   },
+   "heard_sounds": {
+    "small": [
+     "g ih r"
+    ],
+    "small.en": [
+     "g eh t",
+     "g ih t"
+    ]
+   },
+   "ok": false,
+   "action": "re-rendered as 'gerr' (heard 'GER'/'GIR'), kept",
+   "items": [
+    "gir"
+   ]
+  },
+  {
+   "foil": "gid",
+   "say": "gid",
+   "ipa": "ɡˈɪd",
+   "intended": "g ih d",
+   "heard": {
+    "small": "Gid",
+    "small.en": "GID"
+   },
+   "heard_sounds": {
+    "small": [
+     "g ih d"
+    ],
+    "small.en": [
+     "g ih d"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "gid"
+   ]
+  },
+  {
+   "foil": "gim",
+   "say": "gim",
+   "ipa": "ɡˈɪm",
+   "intended": "g ih m",
+   "heard": {
+    "small": "GYM",
+    "small.en": "GIMP"
+   },
+   "heard_sounds": {
+    "small": [
+     "jh ih m"
+    ],
+    "small.en": [
+     "g ih m p"
+    ]
+   },
+   "ok": false,
+   "action": "re-rendered as 'gihm' (heard 'Gim'/'GIM'), kept",
+   "items": [
+    "fim"
+   ]
+  },
+  {
+   "foil": "gir",
+   "say": "gir",
+   "ipa": "ɡˈɪɹ",
+   "intended": "g ih r",
+   "heard": {
+    "small": "gear",
+    "small.en": "gear"
+   },
+   "heard_sounds": {
+    "small": [
+     "g ih r"
+    ],
+    "small.en": [
+     "g ih r"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "gir"
+   ]
+  },
+  {
+   "foil": "gock",
+   "say": "gock",
+   "ipa": "ɡˈɑk",
+   "intended": "g aa k",
+   "heard": {
+    "small": "Gawk.",
+    "small.en": "Gawk"
+   },
+   "heard_sounds": {
+    "small": [
+     "g ao k"
+    ],
+    "small.en": [
+     "g ao k"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "gack",
+    "sok"
+   ]
+  },
+  {
+   "foil": "gog",
+   "say": "gog",
+   "ipa": "ɡˈɑɡ",
+   "intended": "g aa g",
+   "heard": {
+    "small": "Gog",
+    "small.en": "Gog"
+   },
+   "heard_sounds": {
+    "small": [
+     "g aa g"
+    ],
+    "small.en": [
+     "g aa g"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "sok"
+   ]
+  },
+  {
+   "foil": "goks",
+   "say": "goks",
+   "ipa": "ɡˈɑks",
+   "intended": "g aa k s",
+   "heard": {
+    "small": "Gox",
+    "small.en": "Gox"
+   },
+   "heard_sounds": {
+    "small": [
+     "g aa k s"
+    ],
+    "small.en": [
+     "g aa k s"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "zox"
+   ]
+  },
+  {
+   "foil": "gom",
+   "say": "gom",
+   "ipa": "ɡˈɑm",
+   "intended": "g aa m",
+   "heard": {
+    "small": "Go on.",
+    "small.en": "GOM"
+   },
+   "heard_sounds": {
+    "small": [
+     "g uw n"
+    ],
+    "small.en": [
+     "g aa m"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "fon",
+    "fim"
+   ]
+  },
+  {
+   "foil": "gon",
+   "say": "gon",
+   "ipa": "ɡˈɑn",
+   "intended": "g aa n",
+   "heard": {
+    "small": "Gone.",
+    "small.en": "Gone."
+   },
+   "heard_sounds": {
+    "small": [
+     "g ao n"
+    ],
+    "small.en": [
+     "g ao n"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "fon"
+   ]
+  },
+  {
+   "foil": "gor",
+   "say": "gor",
+   "ipa": "ɡˈɑɹ",
+   "intended": "g aa r",
+   "heard": {
+    "small": "Gore",
+    "small.en": "Gore"
+   },
+   "heard_sounds": {
+    "small": [
+     "g ao r"
+    ],
+    "small.en": [
+     "g ao r"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "dor"
+   ]
+  },
+  {
+   "foil": "gud",
+   "say": "gud",
+   "ipa": "ɡˈʌd",
+   "intended": "g ah d",
+   "heard": {
+    "small": "Good.",
+    "small.en": "Good."
+   },
+   "heard_sounds": {
+    "small": [
+     "g ih d",
+     "g uh d"
+    ],
+    "small.en": [
+     "g ih d",
+     "g uh d"
+    ]
+   },
+   "ok": false,
+   "action": "no variant heard right; kept original",
+   "items": [
+    "gid"
+   ]
+  },
+  {
+   "foil": "gug",
+   "say": "gug",
+   "ipa": "ɡˈʌɡ",
+   "intended": "g ah g",
+   "heard": {
+    "small": "Goog.",
+    "small.en": "Goog."
+   },
+   "heard_sounds": {
+    "small": [
+     "g aa aa g"
+    ],
+    "small.en": [
+     "g aa aa g"
+    ]
+   },
+   "ok": false,
+   "action": "no variant heard right; kept original",
+   "items": [
+    "kur"
+   ]
+  },
+  {
+   "foil": "guks",
+   "say": "guks",
+   "ipa": "ɡˈʌks",
+   "intended": "g ah k s",
+   "heard": {
+    "small": "Cooks.",
+    "small.en": "Cooks."
+   },
+   "heard_sounds": {
+    "small": [
+     "k uh k s"
+    ],
+    "small.en": [
+     "k uh k s"
+    ]
+   },
+   "ok": false,
+   "action": "no variant heard right; kept original",
+   "items": [
+    "zox"
+   ]
+  },
+  {
+   "foil": "gup",
+   "say": "gup",
+   "ipa": "ɡˈʌp",
+   "intended": "g ah p",
+   "heard": {
+    "small": "gup",
+    "small.en": "Gup."
+   },
+   "heard_sounds": {
+    "small": [
+     "g ah p"
+    ],
+    "small.en": [
+     "g ah p"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "gup"
+   ]
+  },
+  {
+   "foil": "gur",
+   "say": "gur",
+   "ipa": "ɡˈʌɹ",
+   "intended": "g ah r",
+   "heard": {
+    "small": "Guru",
+    "small.en": "GUR"
+   },
+   "heard_sounds": {
+    "small": [
+     "g uw r uw"
+    ],
+    "small.en": [
+     "g ah r"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "kur",
+    "dor"
+   ]
+  },
+  {
+   "foil": "hab",
+   "say": "hab",
+   "ipa": "hˈæb",
+   "intended": "hh ae b",
+   "heard": {
+    "small": "Hub",
+    "small.en": "HAB"
+   },
+   "heard_sounds": {
+    "small": [
+     "hh ah b"
+    ],
+    "small.en": [
+     "hh ae b"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "hac",
+    "wab"
+   ]
+  },
+  {
+   "foil": "hac",
+   "say": "hack",
+   "ipa": "hˈæk",
+   "intended": "hh ae k",
+   "heard": {
+    "small": "Hack.",
+    "small.en": "Hack"
+   },
+   "heard_sounds": {
+    "small": [
+     "hh ae k"
+    ],
+    "small.en": [
+     "hh ae k"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "hac"
+   ]
+  },
+  {
+   "foil": "heff",
+   "say": "heff",
+   "ipa": "hˈɛf",
+   "intended": "hh eh f",
+   "heard": {
+    "small": "Hef.",
+    "small.en": "Hef"
+   },
+   "heard_sounds": {
+    "small": [
+     "hh eh f"
+    ],
+    "small.en": [
+     "hh eh f"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "hiff"
+   ]
+  },
+  {
+   "foil": "heg",
+   "say": "heg",
+   "ipa": "hˈɛɡ",
+   "intended": "hh eh g",
+   "heard": {
+    "small": "Heg.",
+    "small.en": "Heg"
+   },
+   "heard_sounds": {
+    "small": [
+     "hh eh g"
+    ],
+    "small.en": [
+     "hh eh g"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "yig"
+   ]
+  },
+  {
+   "foil": "hib",
+   "say": "hib",
+   "ipa": "hˈɪb",
+   "intended": "hh ih b",
+   "heard": {
+    "small": "Hib",
+    "small.en": "Hib"
+   },
+   "heard_sounds": {
+    "small": [
+     "hh ih b"
+    ],
+    "small.en": [
+     "hh ih b"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "wab"
+   ]
+  },
+  {
+   "foil": "hiff",
+   "say": "hiff",
+   "ipa": "hˈɪf",
+   "intended": "hh ih f",
+   "heard": {
+    "small": "HIF",
+    "small.en": "HIF"
+   },
+   "heard_sounds": {
+    "small": [
+     "hh ih f"
+    ],
+    "small.en": [
+     "hh ih f"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "hiff"
+   ]
+  },
+  {
+   "foil": "hig",
+   "say": "hig",
+   "ipa": "hˈɪɡ",
+   "intended": "hh ih g",
+   "heard": {
+    "small": "Hague",
+    "small.en": "Hike"
+   },
+   "heard_sounds": {
+    "small": [
+     "hh ey g"
+    ],
+    "small.en": [
+     "hh ay k"
+    ]
+   },
+   "ok": false,
+   "action": "re-rendered as 'higg' (heard 'Hig'/'HIG'), kept",
+   "items": [
+    "yig"
+   ]
+  },
+  {
+   "foil": "ist",
+   "say": "ist",
+   "ipa": "ˈɪst",
+   "intended": "ih s t",
+   "heard": {
+    "small": "Ist",
+    "small.en": "Ist"
+   },
+   "heard_sounds": {
+    "small": [
+     "ih s t"
+    ],
+    "small.en": [
+     "ih s t"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "ast"
+   ]
+  },
+  {
+   "foil": "jav",
+   "say": "jav",
+   "ipa": "ʤˈæv",
+   "intended": "jh ae v",
+   "heard": {
+    "small": "Jove",
+    "small.en": "JAV"
+   },
+   "heard_sounds": {
+    "small": [
+     "jh aa v eh"
+    ],
+    "small.en": [
+     "jh ae v"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "jov"
+   ]
+  },
+  {
+   "foil": "jeks",
+   "say": "jeks",
+   "ipa": "ʤˈɛks",
+   "intended": "jh eh k s",
+   "heard": {
+    "small": "Jax",
+    "small.en": "Jex"
+   },
+   "heard_sounds": {
+    "small": [
+     "jh ae k s"
+    ],
+    "small.en": [
+     "jh eh k s"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "fex"
+   ]
+  },
+  {
+   "foil": "jekt",
+   "say": "jekt",
+   "ipa": "ʤˈɛkt",
+   "intended": "jh eh k t",
+   "heard": {
+    "small": "Ject",
+    "small.en": "JET"
+   },
+   "heard_sounds": {
+    "small": [
+     "jh eh k t"
+    ],
+    "small.en": [
+     "jh eh t"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "fex"
+   ]
+  },
+  {
+   "foil": "jom",
+   "say": "jom",
+   "ipa": "ʤˈɑm",
+   "intended": "jh aa m",
+   "heard": {
+    "small": "Jome",
+    "small.en": "JOM"
+   },
+   "heard_sounds": {
+    "small": [
+     "jh aa m eh"
+    ],
+    "small.en": [
+     "jh aa m"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "jum"
+   ]
+  },
+  {
+   "foil": "jov",
+   "say": "jov",
+   "ipa": "ʤˈɑv",
+   "intended": "jh aa v",
+   "heard": {
+    "small": "Jove",
+    "small.en": "Jove"
+   },
+   "heard_sounds": {
+    "small": [
+     "jh aa v eh"
+    ],
+    "small.en": [
+     "jh aa v eh"
+    ]
+   },
+   "ok": false,
+   "action": "re-rendered as 'jovv' (heard 'Job'/'JOV'), kept",
+   "items": [
+    "jov"
+   ]
+  },
+  {
+   "foil": "jum",
+   "say": "jum",
+   "ipa": "ʤˈʌm",
+   "intended": "jh ah m",
+   "heard": {
+    "small": "Jim",
+    "small.en": "JUM"
+   },
+   "heard_sounds": {
+    "small": [
+     "jh ih m"
+    ],
+    "small.en": [
+     "jh ah m"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "jum"
+   ]
+  },
+  {
+   "foil": "kec",
+   "say": "keck",
+   "ipa": "kˈɛk",
+   "intended": "k eh k",
+   "heard": {
+    "small": "Keck.",
+    "small.en": "Kek"
+   },
+   "heard_sounds": {
+    "small": [
+     "k eh k"
+    ],
+    "small.en": [
+     "k eh k"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "kec"
+   ]
+  },
+  {
+   "foil": "ked",
+   "say": "ked",
+   "ipa": "kˈɛd",
+   "intended": "k eh d",
+   "heard": {
+    "small": "KED",
+    "small.en": "KED"
+   },
+   "heard_sounds": {
+    "small": [
+     "k eh d"
+    ],
+    "small.en": [
+     "k eh d"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "cid"
+   ]
+  },
+  {
+   "foil": "kep",
+   "say": "kep",
+   "ipa": "kˈɛp",
+   "intended": "k eh p",
+   "heard": {
+    "small": "KEP",
+    "small.en": "KEPP"
+   },
+   "heard_sounds": {
+    "small": [
+     "k eh p"
+    ],
+    "small.en": [
+     "k eh p"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "kec"
+   ]
+  },
+  {
+   "foil": "klab",
+   "say": "klab",
+   "ipa": "klˈæb",
+   "intended": "k l ae b",
+   "heard": {
+    "small": "Club.",
+    "small.en": "Clab"
+   },
+   "heard_sounds": {
+    "small": [
+     "k l ah b"
+    ],
+    "small.en": [
+     "k l ae b"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "quab"
+   ]
+  },
+  {
+   "foil": "kleb",
+   "say": "kleb",
+   "ipa": "klˈɛb",
+   "intended": "k l eh b",
+   "heard": {
+    "small": "Cleb",
+    "small.en": "Cleb"
+   },
+   "heard_sounds": {
+    "small": [
+     "k l eh b"
+    ],
+    "small.en": [
+     "k l eh b"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "quab"
+   ]
+  },
+  {
+   "foil": "kur",
+   "say": "kur",
+   "ipa": "kˈʌɹ",
+   "intended": "k ah r",
+   "heard": {
+    "small": "Kır",
+    "small.en": "KUR"
+   },
+   "heard_sounds": {
+    "small": [
+     "k r"
+    ],
+    "small.en": [
+     "k ah r"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "kur"
+   ]
+  },
+  {
+   "foil": "kweb",
+   "say": "kweb",
+   "ipa": "kwˈɛb",
+   "intended": "k w eh b",
+   "heard": {
+    "small": "Queb",
+    "small.en": "QWeb"
+   },
+   "heard_sounds": {
+    "small": [
+     "k w eh b"
+    ],
+    "small.en": [
+     "w eh b"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "quab"
+   ]
+  },
+  {
+   "foil": "lir",
+   "say": "lir",
+   "ipa": "lˈɪɹ",
+   "intended": "l ih r",
+   "heard": {
+    "small": "Lear",
+    "small.en": "Lear"
+   },
+   "heard_sounds": {
+    "small": [
+     "l ih r"
+    ],
+    "small.en": [
+     "l ih r"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "lir"
+   ]
+  },
+  {
+   "foil": "lodd",
+   "say": "lodd",
+   "ipa": "lˈɑd",
+   "intended": "l aa d",
+   "heard": {
+    "small": "Lod",
+    "small.en": "LOD"
+   },
+   "heard_sounds": {
+    "small": [
+     "l aa d"
+    ],
+    "small.en": [
+     "l aa d"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "lodd"
+   ]
+  },
+  {
+   "foil": "lud",
+   "say": "lud",
+   "ipa": "lˈʌd",
+   "intended": "l ah d",
+   "heard": {
+    "small": "LUD",
+    "small.en": "LUD"
+   },
+   "heard_sounds": {
+    "small": [
+     "l ah d"
+    ],
+    "small.en": [
+     "l ah d"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "lut",
+    "lodd"
+   ]
+  },
+  {
+   "foil": "lur",
+   "say": "lur",
+   "ipa": "lˈʌɹ",
+   "intended": "l ah r",
+   "heard": {
+    "small": "LR",
+    "small.en": "LUR"
+   },
+   "heard_sounds": {
+    "small": [
+     "l r"
+    ],
+    "small.en": [
+     "l ah r"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "lir"
+   ]
+  },
+  {
+   "foil": "lut",
+   "say": "lut",
+   "ipa": "lˈʌt",
+   "intended": "l ah t",
+   "heard": {
+    "small": "Lute.",
+    "small.en": "LÜT"
+   },
+   "heard_sounds": {
+    "small": [
+     "l uw t"
+    ],
+    "small.en": [
+     "l t"
+    ]
+   },
+   "ok": false,
+   "action": "re-rendered as 'lutt' (heard 'LUT'/'Lift'), kept",
+   "items": [
+    "lut"
+   ]
+  },
+  {
+   "foil": "meff",
+   "say": "meff",
+   "ipa": "mˈɛf",
+   "intended": "m eh f",
+   "heard": {
+    "small": "Meph",
+    "small.en": "Meth"
+   },
+   "heard_sounds": {
+    "small": [
+     "m eh p hh"
+    ],
+    "small.en": [
+     "m eh th"
+    ]
+   },
+   "ok": false,
+   "action": "re-rendered as 'mehff' (heard 'myth'/'Meff'), kept",
+   "items": [
+    "bof"
+   ]
+  },
+  {
+   "foil": "mep",
+   "say": "mep",
+   "ipa": "mˈɛp",
+   "intended": "m eh p",
+   "heard": {
+    "small": "MEP",
+    "small.en": "NEP"
+   },
+   "heard_sounds": {
+    "small": [
+     "m eh p"
+    ],
+    "small.en": [
+     "n eh p"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "mip"
+   ]
+  },
+  {
+   "foil": "mezz",
+   "say": "mezz",
+   "ipa": "mˈɛz",
+   "intended": "m eh z",
+   "heard": {
+    "small": "mezz",
+    "small.en": "Mez"
+   },
+   "heard_sounds": {
+    "small": [
+     "m eh z"
+    ],
+    "small.en": [
+     "m eh z"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "mip"
+   ]
+  },
+  {
+   "foil": "mig",
+   "say": "mig",
+   "ipa": "mˈɪɡ",
+   "intended": "m ih g",
+   "heard": {
+    "small": "MIG",
+    "small.en": "MIG"
+   },
+   "heard_sounds": {
+    "small": [
+     "m ih g"
+    ],
+    "small.en": [
+     "m ih g"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "mig"
+   ]
+  },
+  {
+   "foil": "mip",
+   "say": "mip",
+   "ipa": "mˈɪp",
+   "intended": "m ih p",
+   "heard": {
+    "small": "Mip.",
+    "small.en": "Nip."
+   },
+   "heard_sounds": {
+    "small": [
+     "m ih p"
+    ],
+    "small.en": [
+     "n ih p"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "mip"
+   ]
+  },
+  {
+   "foil": "moff",
+   "say": "moff",
+   "ipa": "mˈɑf",
+   "intended": "m aa f",
+   "heard": {
+    "small": "Moth",
+    "small.en": "Moth"
+   },
+   "heard_sounds": {
+    "small": [
+     "m ao th"
+    ],
+    "small.en": [
+     "m ao th"
+    ]
+   },
+   "ok": false,
+   "action": "no variant heard right; kept original",
+   "items": [
+    "bof"
+   ]
+  },
+  {
+   "foil": "mog",
+   "say": "mog",
+   "ipa": "mˈɑɡ",
+   "intended": "m aa g",
+   "heard": {
+    "small": "Mog",
+    "small.en": "Mog"
+   },
+   "heard_sounds": {
+    "small": [
+     "m aa g"
+    ],
+    "small.en": [
+     "m aa g"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "mig"
+   ]
+  },
+  {
+   "foil": "nad",
+   "say": "nad",
+   "ipa": "nˈæd",
+   "intended": "n ae d",
+   "heard": {
+    "small": "Ned.",
+    "small.en": "NAD"
+   },
+   "heard_sounds": {
+    "small": [
+     "n eh d"
+    ],
+    "small.en": [
+     "n ae d"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "nad"
+   ]
+  },
+  {
+   "foil": "nam",
+   "say": "nam",
+   "ipa": "nˈæm",
+   "intended": "n ae m",
+   "heard": {
+    "small": "NUM",
+    "small.en": "num"
+   },
+   "heard_sounds": {
+    "small": [
+     "n ah m"
+    ],
+    "small.en": [
+     "n ah m"
+    ]
+   },
+   "ok": false,
+   "action": "re-rendered as 'namm' (heard 'NEM'/'NAM'), kept",
+   "items": [
+    "nam"
+   ]
+  },
+  {
+   "foil": "nas",
+   "say": "nass",
+   "ipa": "nˈæs",
+   "intended": "n ae s",
+   "heard": {
+    "small": "Ness.",
+    "small.en": "Ness"
+   },
+   "heard_sounds": {
+    "small": [
+     "n eh s"
+    ],
+    "small.en": [
+     "n eh s"
+    ]
+   },
+   "ok": false,
+   "action": "no variant heard right; kept original",
+   "items": [
+    "nas"
+   ]
+  },
+  {
+   "foil": "nid",
+   "say": "nid",
+   "ipa": "nˈɪd",
+   "intended": "n ih d",
+   "heard": {
+    "small": "NID",
+    "small.en": "NID"
+   },
+   "heard_sounds": {
+    "small": [
+     "n ih d"
+    ],
+    "small.en": [
+     "n ih d"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "nad",
+    "nud"
+   ]
+  },
+  {
+   "foil": "nim",
+   "say": "nim",
+   "ipa": "nˈɪm",
+   "intended": "n ih m",
+   "heard": {
+    "small": "Nim",
+    "small.en": "Nim"
+   },
+   "heard_sounds": {
+    "small": [
+     "n ih m"
+    ],
+    "small.en": [
+     "n ih m"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "nam"
+   ]
+  },
+  {
+   "foil": "nin",
+   "say": "nin",
+   "ipa": "nˈɪn",
+   "intended": "n ih n",
+   "heard": {
+    "small": "NIN",
+    "small.en": "NIN"
+   },
+   "heard_sounds": {
+    "small": [
+     "n ih n"
+    ],
+    "small.en": [
+     "n ih n"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "nas",
+    "tis",
+    "nis"
+   ]
+  },
+  {
+   "foil": "niss",
+   "say": "niss",
+   "ipa": "nˈɪs",
+   "intended": "n ih s",
+   "heard": {
+    "small": "Ness.",
+    "small.en": "Nis"
+   },
+   "heard_sounds": {
+    "small": [
+     "n eh s"
+    ],
+    "small.en": [
+     "n ih s"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "nas",
+    "tis",
+    "nis",
+    "nam"
+   ]
+  },
+  {
+   "foil": "nog",
+   "say": "nog",
+   "ipa": "nˈɑɡ",
+   "intended": "n aa g",
+   "heard": {
+    "small": "nog",
+    "small.en": "Nog"
+   },
+   "heard_sounds": {
+    "small": [
+     "n aa g"
+    ],
+    "small.en": [
+     "n aa g"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "sog"
+   ]
+  },
+  {
+   "foil": "nozz",
+   "say": "nozz",
+   "ipa": "nˈɑz",
+   "intended": "n aa z",
+   "heard": {
+    "small": "Nause",
+    "small.en": "NAS"
+   },
+   "heard_sounds": {
+    "small": [
+     "n ae ah s eh"
+    ],
+    "small.en": [
+     "n ae s"
+    ]
+   },
+   "ok": false,
+   "action": "no variant heard right; kept original",
+   "items": [
+    "nuzz"
+   ]
+  },
+  {
+   "foil": "nud",
+   "say": "nud",
+   "ipa": "nˈʌd",
+   "intended": "n ah d",
+   "heard": {
+    "small": "Nude",
+    "small.en": "Nude"
+   },
+   "heard_sounds": {
+    "small": [
+     "n uw d"
+    ],
+    "small.en": [
+     "n uw d"
+    ]
+   },
+   "ok": false,
+   "action": "re-rendered as 'nudd' (heard 'NUD'/'NUD'), kept",
+   "items": [
+    "nud"
+   ]
+  },
+  {
+   "foil": "nug",
+   "say": "nug",
+   "ipa": "nˈʌɡ",
+   "intended": "n ah g",
+   "heard": {
+    "small": "Nug.",
+    "small.en": "NUG"
+   },
+   "heard_sounds": {
+    "small": [
+     "n ah g"
+    ],
+    "small.en": [
+     "n ah g"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "sog"
+   ]
+  },
+  {
+   "foil": "nuzz",
+   "say": "nuzz",
+   "ipa": "nˈʌz",
+   "intended": "n ah z",
+   "heard": {
+    "small": "Nuzz",
+    "small.en": "Nuz"
+   },
+   "heard_sounds": {
+    "small": [
+     "n ah z"
+    ],
+    "small.en": [
+     "n ah z"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "nuzz"
+   ]
+  },
+  {
+   "foil": "pag",
+   "say": "pag",
+   "ipa": "pˈæɡ",
+   "intended": "p ae g",
+   "heard": {
+    "small": "Page.",
+    "small.en": "page"
+   },
+   "heard_sounds": {
+    "small": [
+     "p ey jh"
+    ],
+    "small.en": [
+     "p ey jh"
+    ]
+   },
+   "ok": false,
+   "action": "re-rendered as 'pagg' (heard 'Pag.'/'PAG'), kept",
+   "items": [
+    "pog"
+   ]
+  },
+  {
+   "foil": "pas",
+   "say": "pass",
+   "ipa": "pˈæs",
+   "intended": "p ae s",
+   "heard": {
+    "small": "Pass.",
+    "small.en": "Pass"
+   },
+   "heard_sounds": {
+    "small": [
+     "p ae s"
+    ],
+    "small.en": [
+     "p ae s"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "pas"
+   ]
+  },
+  {
+   "foil": "peff",
+   "say": "peff",
+   "ipa": "pˈɛf",
+   "intended": "p eh f",
+   "heard": {
+    "small": "Piff.",
+    "small.en": "PEF"
+   },
+   "heard_sounds": {
+    "small": [
+     "p ih f"
+    ],
+    "small.en": [
+     "p eh f"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "fess"
+   ]
+  },
+  {
+   "foil": "pem",
+   "say": "pem",
+   "ipa": "pˈɛm",
+   "intended": "p eh m",
+   "heard": {
+    "small": "PEM",
+    "small.en": "PEM"
+   },
+   "heard_sounds": {
+    "small": [
+     "p eh m"
+    ],
+    "small.en": [
+     "p eh m"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "pem"
+   ]
+  },
+  {
+   "foil": "pess",
+   "say": "pess",
+   "ipa": "pˈɛs",
+   "intended": "p eh s",
+   "heard": {
+    "small": "Peace.",
+    "small.en": "Pess."
+   },
+   "heard_sounds": {
+    "small": [
+     "p iy s"
+    ],
+    "small.en": [
+     "p eh s"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "pas",
+    "fess"
+   ]
+  },
+  {
+   "foil": "pid",
+   "say": "pid",
+   "ipa": "pˈɪd",
+   "intended": "p ih d",
+   "heard": {
+    "small": "PID",
+    "small.en": "PID"
+   },
+   "heard_sounds": {
+    "small": [
+     "p ih d"
+    ],
+    "small.en": [
+     "p ih d"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "tid"
+   ]
+  },
+  {
+   "foil": "pim",
+   "say": "pim",
+   "ipa": "pˈɪm",
+   "intended": "p ih m",
+   "heard": {
+    "small": "Pim",
+    "small.en": "Pin"
+   },
+   "heard_sounds": {
+    "small": [
+     "p ih m"
+    ],
+    "small.en": [
+     "p ih n"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "tid"
+   ]
+  },
+  {
+   "foil": "pog",
+   "say": "pog",
+   "ipa": "pˈɑɡ",
+   "intended": "p aa g",
+   "heard": {
+    "small": "Pog.",
+    "small.en": "POG"
+   },
+   "heard_sounds": {
+    "small": [
+     "p aa g"
+    ],
+    "small.en": [
+     "p aa g"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "pog"
+   ]
+  },
+  {
+   "foil": "pum",
+   "say": "pum",
+   "ipa": "pˈʌm",
+   "intended": "p ah m",
+   "heard": {
+    "small": "PUM",
+    "small.en": "PUM"
+   },
+   "heard_sounds": {
+    "small": [
+     "p ah m"
+    ],
+    "small.en": [
+     "p ah m"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "pem"
+   ]
+  },
+  {
+   "foil": "quab",
+   "say": "quab",
+   "ipa": "kwˈæb",
+   "intended": "k w ae b",
+   "heard": {
+    "small": "quab",
+    "small.en": "Quab"
+   },
+   "heard_sounds": {
+    "small": [
+     "k w ae b"
+    ],
+    "small.en": [
+     "k w ae b"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "quab"
+   ]
+  },
+  {
+   "foil": "rop",
+   "say": "rop",
+   "ipa": "ɹˈɑp",
+   "intended": "r aa p",
+   "heard": {
+    "small": "Rope",
+    "small.en": "Rope"
+   },
+   "heard_sounds": {
+    "small": [
+     "r ow p"
+    ],
+    "small.en": [
+     "r ow p"
+    ]
+   },
+   "ok": false,
+   "action": "no variant heard right; kept original",
+   "items": [
+    "rup"
+   ]
+  },
+  {
+   "foil": "rozz",
+   "say": "rozz",
+   "ipa": "ɹˈɑz",
+   "intended": "r aa z",
+   "heard": {
+    "small": "Roz",
+    "small.en": "Raws"
+   },
+   "heard_sounds": {
+    "small": [
+     "r aa z"
+    ],
+    "small.en": [
+     "r ae w s"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "nuzz"
+   ]
+  },
+  {
+   "foil": "rup",
+   "say": "rup",
+   "ipa": "ɹˈʌp",
+   "intended": "r ah p",
+   "heard": {
+    "small": "RUP",
+    "small.en": "RUP"
+   },
+   "heard_sounds": {
+    "small": [
+     "r ah p"
+    ],
+    "small.en": [
+     "r ah p"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "rup"
+   ]
+  },
+  {
+   "foil": "ruzz",
+   "say": "ruzz",
+   "ipa": "ɹˈʌz",
+   "intended": "r ah z",
+   "heard": {
+    "small": "Ruzz",
+    "small.en": "Ruz"
+   },
+   "heard_sounds": {
+    "small": [
+     "r ah z"
+    ],
+    "small.en": [
+     "r ah z"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "nuzz"
+   ]
+  },
+  {
+   "foil": "sas",
+   "say": "sass",
+   "ipa": "sˈæs",
+   "intended": "s ae s",
+   "heard": {
+    "small": "SAS.",
+    "small.en": "SASS."
+   },
+   "heard_sounds": {
+    "small": [
+     "s ae s"
+    ],
+    "small.en": [
+     "s ae s"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "sas"
+   ]
+  },
+  {
+   "foil": "sess",
+   "say": "sess",
+   "ipa": "sˈɛs",
+   "intended": "s eh s",
+   "heard": {
+    "small": "Cess.",
+    "small.en": "Sess"
+   },
+   "heard_sounds": {
+    "small": [
+     "k eh s"
+    ],
+    "small.en": [
+     "s eh s"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "sas"
+   ]
+  },
+  {
+   "foil": "sla",
+   "say": "sla",
+   "ipa": "slˈæ",
+   "intended": "s l ae",
+   "heard": {
+    "small": "Slah",
+    "small.en": "sla"
+   },
+   "heard_sounds": {
+    "small": [
+     "s l ae hh"
+    ],
+    "small.en": [
+     "s l ae"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "sta"
+   ]
+  },
+  {
+   "foil": "sma",
+   "say": "sma",
+   "ipa": "smˈæ",
+   "intended": "s m ae",
+   "heard": {
+    "small": "S-M-A.",
+    "small.en": "SMA"
+   },
+   "heard_sounds": {
+    "small": [
+     "s m ae"
+    ],
+    "small.en": [
+     "s m ae"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "sta"
+   ]
+  },
+  {
+   "foil": "sog",
+   "say": "sog",
+   "ipa": "sˈɑɡ",
+   "intended": "s aa g",
+   "heard": {
+    "small": "Sog",
+    "small.en": "SOG"
+   },
+   "heard_sounds": {
+    "small": [
+     "s aa g"
+    ],
+    "small.en": [
+     "s aa g"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "sog",
+    "sok"
+   ]
+  },
+  {
+   "foil": "sok",
+   "say": "sock",
+   "ipa": "sˈɑk",
+   "intended": "s aa k",
+   "heard": {
+    "small": "Sock.",
+    "small.en": "Sock."
+   },
+   "heard_sounds": {
+    "small": [
+     "s aa k"
+    ],
+    "small.en": [
+     "s aa k"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "sok"
+   ]
+  },
+  {
+   "foil": "sud",
+   "say": "sud",
+   "ipa": "sˈʌd",
+   "intended": "s ah d",
+   "heard": {
+    "small": "Sud",
+    "small.en": "SUD"
+   },
+   "heard_sounds": {
+    "small": [
+     "s ah d"
+    ],
+    "small.en": [
+     "s ah d"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "lut"
+   ]
+  },
+  {
+   "foil": "sug",
+   "say": "sug",
+   "ipa": "sˈʌɡ",
+   "intended": "s ah g",
+   "heard": {
+    "small": "Suga",
+    "small.en": "SUG"
+   },
+   "heard_sounds": {
+    "small": [
+     "s ah g ae"
+    ],
+    "small.en": [
+     "s ah g"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "sog"
+   ]
+  },
+  {
+   "foil": "sull",
+   "say": "sull",
+   "ipa": "sˈʌl",
+   "intended": "s ah l",
+   "heard": {
+    "small": "Sol",
+    "small.en": "Seoul"
+   },
+   "heard_sounds": {
+    "small": [
+     "s aa l",
+     "s ow l"
+    ],
+    "small.en": [
+     "s ow l"
+    ]
+   },
+   "ok": false,
+   "action": "no variant heard right; kept original",
+   "items": [
+    "tull"
+   ]
+  },
+  {
+   "foil": "sut",
+   "say": "sut",
+   "ipa": "sˈʌt",
+   "intended": "s ah t",
+   "heard": {
+    "small": "Soot",
+    "small.en": "soot"
+   },
+   "heard_sounds": {
+    "small": [
+     "s uh t"
+    ],
+    "small.en": [
+     "s uh t"
+    ]
+   },
+   "ok": false,
+   "action": "no variant heard right; kept original",
+   "items": [
+    "lut"
+   ]
+  },
+  {
+   "foil": "suzz",
+   "say": "suzz",
+   "ipa": "sˈʌz",
+   "intended": "s ah z",
+   "heard": {
+    "small": "Suzz",
+    "small.en": "Suzz"
+   },
+   "heard_sounds": {
+    "small": [
+     "s ah z"
+    ],
+    "small.en": [
+     "s ah z"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "tull"
+   ]
+  },
+  {
+   "foil": "tas",
+   "say": "tass",
+   "ipa": "tˈæs",
+   "intended": "t ae s",
+   "heard": {
+    "small": "TASS",
+    "small.en": "TAS"
+   },
+   "heard_sounds": {
+    "small": [
+     "t ae s"
+    ],
+    "small.en": [
+     "t ae s"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "tas"
+   ]
+  },
+  {
+   "foil": "tem",
+   "say": "tem",
+   "ipa": "tˈɛm",
+   "intended": "t eh m",
+   "heard": {
+    "small": "Tim.",
+    "small.en": "10"
+   },
+   "heard_sounds": {
+    "small": [
+     "t ih m"
+    ],
+    "small.en": []
+   },
+   "ok": false,
+   "action": "re-rendered as 'temme' (heard 'Temme'/'Temme'), kept",
+   "items": [
+    "pem"
+   ]
+  },
+  {
+   "foil": "tep",
+   "say": "tep",
+   "ipa": "tˈɛp",
+   "intended": "t eh p",
+   "heard": {
+    "small": "Tip",
+    "small.en": "Tip."
+   },
+   "heard_sounds": {
+    "small": [
+     "t ih p"
+    ],
+    "small.en": [
+     "t ih p"
+    ]
+   },
+   "ok": false,
+   "action": "re-rendered as 'tepp' (heard 'Tip'/'TEP'), kept",
+   "items": [
+    "gup"
+   ]
+  },
+  {
+   "foil": "tid",
+   "say": "tid",
+   "ipa": "tˈɪd",
+   "intended": "t ih d",
+   "heard": {
+    "small": "Tid",
+    "small.en": "TID"
+   },
+   "heard_sounds": {
+    "small": [
+     "t ih d"
+    ],
+    "small.en": [
+     "t ih d"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "nad",
+    "tid",
+    "nud"
+   ]
+  },
+  {
+   "foil": "tiss",
+   "say": "tiss",
+   "ipa": "tˈɪs",
+   "intended": "t ih s",
+   "heard": {
+    "small": "Cheers!",
+    "small.en": "Tis."
+   },
+   "heard_sounds": {
+    "small": [
+     "ch ih r z"
+    ],
+    "small.en": [
+     "t ih z"
+    ]
+   },
+   "ok": false,
+   "action": "re-rendered as 'tihss' (heard 'Tiss'/'Tis'), kept",
+   "items": [
+    "tas",
+    "tis",
+    "nis"
+   ]
+  },
+  {
+   "foil": "tud",
+   "say": "tud",
+   "ipa": "tˈʌd",
+   "intended": "t ah d",
+   "heard": {
+    "small": "Tood.",
+    "small.en": "Tude"
+   },
+   "heard_sounds": {
+    "small": [
+     "t aa aa d"
+    ],
+    "small.en": [
+     "t uw d"
+    ]
+   },
+   "ok": false,
+   "action": "re-rendered as 'tudd' (heard 'Tud.'/'TUD'), kept",
+   "items": [
+    "nud"
+   ]
+  },
+  {
+   "foil": "tull",
+   "say": "tull",
+   "ipa": "tˈʌl",
+   "intended": "t ah l",
+   "heard": {
+    "small": "Toll",
+    "small.en": "Tull"
+   },
+   "heard_sounds": {
+    "small": [
+     "t ow l"
+    ],
+    "small.en": [
+     "t ah l"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "tull"
+   ]
+  },
+  {
+   "foil": "tum",
+   "say": "tum",
+   "ipa": "tˈʌm",
+   "intended": "t ah m",
+   "heard": {
+    "small": "Tomb",
+    "small.en": "Toon"
+   },
+   "heard_sounds": {
+    "small": [
+     "t uw m"
+    ],
+    "small.en": [
+     "t uw n"
+    ]
+   },
+   "ok": false,
+   "action": "re-rendered as 'tuhm' (heard 'TUM'/'TUM'), kept",
+   "items": [
+    "pem"
+   ]
+  },
+  {
+   "foil": "tup",
+   "say": "tup",
+   "ipa": "tˈʌp",
+   "intended": "t ah p",
+   "heard": {
+    "small": "Top.",
+    "small.en": "Top"
+   },
+   "heard_sounds": {
+    "small": [
+     "t aa p",
+     "t ao p"
+    ],
+    "small.en": [
+     "t aa p",
+     "t ao p"
+    ]
+   },
+   "ok": false,
+   "action": "no variant heard right; kept original",
+   "items": [
+    "gup"
+   ]
+  },
+  {
+   "foil": "tuzz",
+   "say": "tuzz",
+   "ipa": "tˈʌz",
+   "intended": "t ah z",
+   "heard": {
+    "small": "Tuzz",
+    "small.en": "Tuz"
+   },
+   "heard_sounds": {
+    "small": [
+     "t ah z"
+    ],
+    "small.en": [
+     "t ah z"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "tull"
+   ]
+  },
+  {
+   "foil": "uff",
+   "say": "uff",
+   "ipa": "ˈʌf",
+   "intended": "ah f",
+   "heard": {
+    "small": "Oof.",
+    "small.en": "Oof."
+   },
+   "heard_sounds": {
+    "small": [
+     "aa aa f"
+    ],
+    "small.en": [
+     "aa aa f"
+    ]
+   },
+   "ok": false,
+   "action": "no variant heard right; kept original",
+   "items": [
+    "att"
+   ]
+  },
+  {
+   "foil": "ust",
+   "say": "ust",
+   "ipa": "ˈʌst",
+   "intended": "ah s t",
+   "heard": {
+    "small": "Boost",
+    "small.en": "Boost"
+   },
+   "heard_sounds": {
+    "small": [
+     "b uw s t"
+    ],
+    "small.en": [
+     "b uw s t"
+    ]
+   },
+   "ok": false,
+   "action": "re-rendered as 'uhst' (heard 'Ust'/'Ust'), kept",
+   "items": [
+    "ast"
+   ]
+  },
+  {
+   "foil": "vab",
+   "say": "vab",
+   "ipa": "vˈæb",
+   "intended": "v ae b",
+   "heard": {
+    "small": "VUB",
+    "small.en": "verb"
+   },
+   "heard_sounds": {
+    "small": [
+     "v ah b"
+    ],
+    "small.en": [
+     "v er b"
+    ]
+   },
+   "ok": false,
+   "action": "re-rendered as 'vabbe' (heard 'Wabbe!'/'VAB'), kept",
+   "items": [
+    "hac"
+   ]
+  },
+  {
+   "foil": "vack",
+   "say": "vack",
+   "ipa": "vˈæk",
+   "intended": "v ae k",
+   "heard": {
+    "small": "VAC",
+    "small.en": "VAC"
+   },
+   "heard_sounds": {
+    "small": [
+     "v ae k"
+    ],
+    "small.en": [
+     "v ae k"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "gack",
+    "dack",
+    "hac"
+   ]
+  },
+  {
+   "foil": "vap",
+   "say": "vap",
+   "ipa": "vˈæp",
+   "intended": "v ae p",
+   "heard": {
+    "small": "Vap",
+    "small.en": "VAP"
+   },
+   "heard_sounds": {
+    "small": [
+     "v ae p"
+    ],
+    "small.en": [
+     "v ae p"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "dack"
+   ]
+  },
+  {
+   "foil": "vav",
+   "say": "vav",
+   "ipa": "vˈæv",
+   "intended": "v ae v",
+   "heard": {
+    "small": "Vove",
+    "small.en": "VOV"
+   },
+   "heard_sounds": {
+    "small": [
+     "v aa v eh"
+    ],
+    "small.en": [
+     "v aa v"
+    ]
+   },
+   "ok": false,
+   "action": "no variant heard right; kept original",
+   "items": [
+    "wov"
+   ]
+  },
+  {
+   "foil": "veb",
+   "say": "veb",
+   "ipa": "vˈɛb",
+   "intended": "v eh b",
+   "heard": {
+    "small": "VEB",
+    "small.en": "Veb"
+   },
+   "heard_sounds": {
+    "small": [
+     "v eh b"
+    ],
+    "small.en": [
+     "v eh b"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "zeb"
+   ]
+  },
+  {
+   "foil": "veck",
+   "say": "veck",
+   "ipa": "vˈɛk",
+   "intended": "v eh k",
+   "heard": {
+    "small": "Weck.",
+    "small.en": "Vek"
+   },
+   "heard_sounds": {
+    "small": [
+     "w eh k"
+    ],
+    "small.en": [
+     "v eh k"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "kec"
+   ]
+  },
+  {
+   "foil": "vep",
+   "say": "vep",
+   "ipa": "vˈɛp",
+   "intended": "v eh p",
+   "heard": {
+    "small": "VIP",
+    "small.en": "VEP"
+   },
+   "heard_sounds": {
+    "small": [
+     "v iy ay p iy"
+    ],
+    "small.en": [
+     "v eh p"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "kec"
+   ]
+  },
+  {
+   "foil": "vib",
+   "say": "vib",
+   "ipa": "vˈɪb",
+   "intended": "v ih b",
+   "heard": {
+    "small": "Vibe",
+    "small.en": "Vibe"
+   },
+   "heard_sounds": {
+    "small": [
+     "v ay b"
+    ],
+    "small.en": [
+     "v ay b"
+    ]
+   },
+   "ok": false,
+   "action": "re-rendered as 'vibb' (heard 'Vib'/'Vib'), kept",
+   "items": [
+    "vob",
+    "zeb"
+   ]
+  },
+  {
+   "foil": "vob",
+   "say": "vob",
+   "ipa": "vˈɑb",
+   "intended": "v aa b",
+   "heard": {
+    "small": "Vob",
+    "small.en": "VOB"
+   },
+   "heard_sounds": {
+    "small": [
+     "v aa b"
+    ],
+    "small.en": [
+     "v aa b"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "vob"
+   ]
+  },
+  {
+   "foil": "vock",
+   "say": "vock",
+   "ipa": "vˈɑk",
+   "intended": "v aa k",
+   "heard": {
+    "small": "Vok.",
+    "small.en": "VOC"
+   },
+   "heard_sounds": {
+    "small": [
+     "v aa k"
+    ],
+    "small.en": [
+     "v aa k"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "gack"
+   ]
+  },
+  {
+   "foil": "vom",
+   "say": "vom",
+   "ipa": "vˈɑm",
+   "intended": "v aa m",
+   "heard": {
+    "small": "Vom",
+    "small.en": "Vom"
+   },
+   "heard_sounds": {
+    "small": [
+     "v aa m"
+    ],
+    "small.en": [
+     "v aa m"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "jum"
+   ]
+  },
+  {
+   "foil": "vov",
+   "say": "vov",
+   "ipa": "vˈɑv",
+   "intended": "v aa v",
+   "heard": {
+    "small": "Vov",
+    "small.en": "VOV"
+   },
+   "heard_sounds": {
+    "small": [
+     "v aa v"
+    ],
+    "small.en": [
+     "v aa v"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "wov"
+   ]
+  },
+  {
+   "foil": "vuck",
+   "say": "vuck",
+   "ipa": "vˈʌk",
+   "intended": "v ah k",
+   "heard": {
+    "small": "Vuck.",
+    "small.en": "Vuck."
+   },
+   "heard_sounds": {
+    "small": [
+     "v ah k"
+    ],
+    "small.en": [
+     "v ah k"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "wuk"
+   ]
+  },
+  {
+   "foil": "vuff",
+   "say": "vuff",
+   "ipa": "vˈʌf",
+   "intended": "v ah f",
+   "heard": {
+    "small": "Vuff!",
+    "small.en": "Voof."
+   },
+   "heard_sounds": {
+    "small": [
+     "v ah f"
+    ],
+    "small.en": [
+     "v aa aa f"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "wuk"
+   ]
+  },
+  {
+   "foil": "vum",
+   "say": "vum",
+   "ipa": "vˈʌm",
+   "intended": "v ah m",
+   "heard": {
+    "small": "VOOM",
+    "small.en": "Voom"
+   },
+   "heard_sounds": {
+    "small": [
+     "v aa aa m"
+    ],
+    "small.en": [
+     "v aa aa m"
+    ]
+   },
+   "ok": false,
+   "action": "no variant heard right; kept original",
+   "items": [
+    "jum"
+   ]
+  },
+  {
+   "foil": "wab",
+   "say": "wab",
+   "ipa": "wˈæb",
+   "intended": "w ae b",
+   "heard": {
+    "small": "Wob",
+    "small.en": "WAB"
+   },
+   "heard_sounds": {
+    "small": [
+     "w aa b"
+    ],
+    "small.en": [
+     "w ae b"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "wab"
+   ]
+  },
+  {
+   "foil": "wap",
+   "say": "wap",
+   "ipa": "wˈæp",
+   "intended": "w ae p",
+   "heard": {
+    "small": "WAP",
+    "small.en": "WAP"
+   },
+   "heard_sounds": {
+    "small": [
+     "w ae p"
+    ],
+    "small.en": [
+     "w ae p"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "dap"
+   ]
+  },
+  {
+   "foil": "wav",
+   "say": "wav",
+   "ipa": "wˈæv",
+   "intended": "w ae v",
+   "heard": {
+    "small": "Wave.",
+    "small.en": "wave"
+   },
+   "heard_sounds": {
+    "small": [
+     "w ey v"
+    ],
+    "small.en": [
+     "w ey v"
+    ]
+   },
+   "ok": false,
+   "action": "re-rendered as 'wahv' (heard 'WEV'/'WAV'), kept",
+   "items": [
+    "wov"
+   ]
+  },
+  {
+   "foil": "weks",
+   "say": "weks",
+   "ipa": "wˈɛks",
+   "intended": "w eh k s",
+   "heard": {
+    "small": "Wex.",
+    "small.en": "Wex"
+   },
+   "heard_sounds": {
+    "small": [
+     "w eh k s"
+    ],
+    "small.en": [
+     "w eh k s"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "wux"
+   ]
+  },
+  {
+   "foil": "wib",
+   "say": "wib",
+   "ipa": "wˈɪb",
+   "intended": "w ih b",
+   "heard": {
+    "small": "Wib",
+    "small.en": "WIB"
+   },
+   "heard_sounds": {
+    "small": [
+     "w ih b"
+    ],
+    "small.en": [
+     "w ih b"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "wab"
+   ]
+  },
+  {
+   "foil": "wov",
+   "say": "wov",
+   "ipa": "wˈɑv",
+   "intended": "w aa v",
+   "heard": {
+    "small": "wove",
+    "small.en": "WOVE"
+   },
+   "heard_sounds": {
+    "small": [
+     "w ow v"
+    ],
+    "small.en": [
+     "w ow v"
+    ]
+   },
+   "ok": false,
+   "action": "no variant heard right; kept original",
+   "items": [
+    "wov"
+   ]
+  },
+  {
+   "foil": "wuff",
+   "say": "wuff",
+   "ipa": "wˈʌf",
+   "intended": "w ah f",
+   "heard": {
+    "small": "Woof!",
+    "small.en": "Woof!"
+   },
+   "heard_sounds": {
+    "small": [
+     "w uw f"
+    ],
+    "small.en": [
+     "w uw f"
+    ]
+   },
+   "ok": false,
+   "action": "no variant heard right; kept original",
+   "items": [
+    "wuk"
+   ]
+  },
+  {
+   "foil": "wuk",
+   "say": "wuk",
+   "ipa": "wˈʌk",
+   "intended": "w ah k",
+   "heard": {
+    "small": "Work.",
+    "small.en": "Wook"
+   },
+   "heard_sounds": {
+    "small": [
+     "w er k"
+    ],
+    "small.en": [
+     "w aa aa k"
+    ]
+   },
+   "ok": false,
+   "action": "no variant heard right; kept original",
+   "items": [
+    "wuk"
+   ]
+  },
+  {
+   "foil": "wup",
+   "say": "wup",
+   "ipa": "wˈʌp",
+   "intended": "w ah p",
+   "heard": {
+    "small": "Whoop.",
+    "small.en": "Wup."
+   },
+   "heard_sounds": {
+    "small": [
+     "hh w uw p",
+     "w uw p"
+    ],
+    "small.en": [
+     "w ah p"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "dap"
+   ]
+  },
+  {
+   "foil": "wux",
+   "say": "wux",
+   "ipa": "wˈʌks",
+   "intended": "w ah k s",
+   "heard": {
+    "small": "Woosh.",
+    "small.en": "Whoosh!"
+   },
+   "heard_sounds": {
+    "small": [
+     "w aa aa sh"
+    ],
+    "small.en": [
+     "hh w uw sh",
+     "w uw sh"
+    ]
+   },
+   "ok": false,
+   "action": "no variant heard right; kept original",
+   "items": [
+    "wux"
+   ]
+  },
+  {
+   "foil": "yag",
+   "say": "yag",
+   "ipa": "jˈæɡ",
+   "intended": "y ae g",
+   "heard": {
+    "small": "Yag",
+    "small.en": "YAG"
+   },
+   "heard_sounds": {
+    "small": [
+     "y ae g"
+    ],
+    "small.en": [
+     "y ae g"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "pog",
+    "zag"
+   ]
+  },
+  {
+   "foil": "yed",
+   "say": "yed",
+   "ipa": "jˈɛd",
+   "intended": "y eh d",
+   "heard": {
+    "small": "YED",
+    "small.en": "YED"
+   },
+   "heard_sounds": {
+    "small": [
+     "y eh d"
+    ],
+    "small.en": [
+     "y eh d"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "cid"
+   ]
+  },
+  {
+   "foil": "yeg",
+   "say": "yeg",
+   "ipa": "jˈɛɡ",
+   "intended": "y eh g",
+   "heard": {
+    "small": "Yegg",
+    "small.en": "YEG"
+   },
+   "heard_sounds": {
+    "small": [
+     "y eh g g"
+    ],
+    "small.en": [
+     "y eh g"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "yig",
+    "zag"
+   ]
+  },
+  {
+   "foil": "yid",
+   "say": "yid",
+   "ipa": "jˈɪd",
+   "intended": "y ih d",
+   "heard": {
+    "small": "YID",
+    "small.en": "YID"
+   },
+   "heard_sounds": {
+    "small": [
+     "y ih d"
+    ],
+    "small.en": [
+     "y ih d"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "gid",
+    "cid"
+   ]
+  },
+  {
+   "foil": "yig",
+   "say": "yig",
+   "ipa": "jˈɪɡ",
+   "intended": "y ih g",
+   "heard": {
+    "small": "Yig",
+    "small.en": "Yig."
+   },
+   "heard_sounds": {
+    "small": [
+     "y ih g"
+    ],
+    "small.en": [
+     "y ih g"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "mig",
+    "yig"
+   ]
+  },
+  {
+   "foil": "yit",
+   "say": "yit",
+   "ipa": "jˈɪt",
+   "intended": "y ih t",
+   "heard": {
+    "small": "Yet",
+    "small.en": "Yet."
+   },
+   "heard_sounds": {
+    "small": [
+     "y eh t"
+    ],
+    "small.en": [
+     "y eh t"
+    ]
+   },
+   "ok": false,
+   "action": "no variant heard right; kept original",
+   "items": [
+    "dut"
+   ]
+  },
+  {
+   "foil": "yog",
+   "say": "yog",
+   "ipa": "jˈɑɡ",
+   "intended": "y aa g",
+   "heard": {
+    "small": "Yoga",
+    "small.en": "YOG"
+   },
+   "heard_sounds": {
+    "small": [
+     "y ow g ah"
+    ],
+    "small.en": [
+     "y aa g"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "pog",
+    "mig"
+   ]
+  },
+  {
+   "foil": "yud",
+   "say": "yud",
+   "ipa": "jˈʌd",
+   "intended": "y ah d",
+   "heard": {
+    "small": "Yod",
+    "small.en": "Yud"
+   },
+   "heard_sounds": {
+    "small": [
+     "y aa d"
+    ],
+    "small.en": [
+     "y ah d"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "gid"
+   ]
+  },
+  {
+   "foil": "yut",
+   "say": "yut",
+   "ipa": "jˈʌt",
+   "intended": "y ah t",
+   "heard": {
+    "small": "Yut",
+    "small.en": "Jut"
+   },
+   "heard_sounds": {
+    "small": [
+     "y ah t"
+    ],
+    "small.en": [
+     "jh ah t"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "dut"
+   ]
+  },
+  {
+   "foil": "zag",
+   "say": "zag",
+   "ipa": "zˈæɡ",
+   "intended": "z ae g",
+   "heard": {
+    "small": "Zag.",
+    "small.en": "Zag"
+   },
+   "heard_sounds": {
+    "small": [
+     "z ae g"
+    ],
+    "small.en": [
+     "z ae g"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "zag"
+   ]
+  },
+  {
+   "foil": "zass",
+   "say": "zass",
+   "ipa": "zˈæs",
+   "intended": "z ae s",
+   "heard": {
+    "small": "Zass",
+    "small.en": "Zass"
+   },
+   "heard_sounds": {
+    "small": [
+     "z ae s"
+    ],
+    "small.en": [
+     "z ae s"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "tas",
+    "sas",
+    "pas"
+   ]
+  },
+  {
+   "foil": "zeb",
+   "say": "zeb",
+   "ipa": "zˈɛb",
+   "intended": "z eh b",
+   "heard": {
+    "small": "Zeb.",
+    "small.en": "Zeb"
+   },
+   "heard_sounds": {
+    "small": [
+     "z eh b"
+    ],
+    "small.en": [
+     "z eh b"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "zeb"
+   ]
+  },
+  {
+   "foil": "zeg",
+   "say": "zeg",
+   "ipa": "zˈɛɡ",
+   "intended": "z eh g",
+   "heard": {
+    "small": "Zeg.",
+    "small.en": "Zeg"
+   },
+   "heard_sounds": {
+    "small": [
+     "z eh g"
+    ],
+    "small.en": [
+     "z eh g"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "zag"
+   ]
+  },
+  {
+   "foil": "zeks",
+   "say": "zeks",
+   "ipa": "zˈɛks",
+   "intended": "z eh k s",
+   "heard": {
+    "small": "Zex.",
+    "small.en": "Zex"
+   },
+   "heard_sounds": {
+    "small": [
+     "z eh k s"
+    ],
+    "small.en": [
+     "z eh k s"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "wux"
+   ]
+  },
+  {
+   "foil": "zer",
+   "say": "zer",
+   "ipa": "zˈɛɹ",
+   "intended": "z eh r",
+   "heard": {
+    "small": "There.",
+    "small.en": "There"
+   },
+   "heard_sounds": {
+    "small": [
+     "dh eh r"
+    ],
+    "small.en": [
+     "dh eh r"
+    ]
+   },
+   "ok": false,
+   "action": "re-rendered as 'zehr' (heard 'ZEHR'/'There.'), kept",
+   "items": [
+    "gir"
+   ]
+  },
+  {
+   "foil": "zess",
+   "say": "zess",
+   "ipa": "zˈɛs",
+   "intended": "z eh s",
+   "heard": {
+    "small": "Zess.",
+    "small.en": "Zess"
+   },
+   "heard_sounds": {
+    "small": [
+     "z eh s"
+    ],
+    "small.en": [
+     "z eh s"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "sas",
+    "pas"
+   ]
+  },
+  {
+   "foil": "zib",
+   "say": "zib",
+   "ipa": "zˈɪb",
+   "intended": "z ih b",
+   "heard": {
+    "small": "Zib",
+    "small.en": "Zib"
+   },
+   "heard_sounds": {
+    "small": [
+     "z ih b"
+    ],
+    "small.en": [
+     "z ih b"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "vob",
+    "zeb"
+   ]
+  },
+  {
+   "foil": "zir",
+   "say": "zir",
+   "ipa": "zˈɪɹ",
+   "intended": "z ih r",
+   "heard": {
+    "small": "Xer",
+    "small.en": "Zir"
+   },
+   "heard_sounds": {
+    "small": [
+     "k s eh r"
+    ],
+    "small.en": [
+     "z ih r"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "gir",
+    "lir"
+   ]
+  },
+  {
+   "foil": "ziss",
+   "say": "ziss",
+   "ipa": "zˈɪs",
+   "intended": "z ih s",
+   "heard": {
+    "small": "This.",
+    "small.en": "This."
+   },
+   "heard_sounds": {
+    "small": [
+     "dh ih s"
+    ],
+    "small.en": [
+     "dh ih s"
+    ]
+   },
+   "ok": false,
+   "action": "no variant heard right; kept original",
+   "items": [
+    "tas"
+   ]
+  },
+  {
+   "foil": "zob",
+   "say": "zob",
+   "ipa": "zˈɑb",
+   "intended": "z aa b",
+   "heard": {
+    "small": "Zob",
+    "small.en": "ZOB"
+   },
+   "heard_sounds": {
+    "small": [
+     "z aa b"
+    ],
+    "small.en": [
+     "z aa b"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "vob"
+   ]
+  },
+  {
+   "foil": "zop",
+   "say": "zop",
+   "ipa": "zˈɑp",
+   "intended": "z aa p",
+   "heard": {
+    "small": "ZOP",
+    "small.en": "ZUP"
+   },
+   "heard_sounds": {
+    "small": [
+     "z aa p"
+    ],
+    "small.en": [
+     "z ah p"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "dop"
+   ]
+  },
+  {
+   "foil": "zox",
+   "say": "zox",
+   "ipa": "zˈɑks",
+   "intended": "z aa k s",
+   "heard": {
+    "small": "Zox.",
+    "small.en": "Zox"
+   },
+   "heard_sounds": {
+    "small": [
+     "z aa k s"
+    ],
+    "small.en": [
+     "z aa k s"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "zox"
+   ]
+  },
+  {
+   "foil": "zuks",
+   "say": "zuks",
+   "ipa": "zˈʌks",
+   "intended": "z ah k s",
+   "heard": {
+    "small": "Zooks",
+    "small.en": "Zooks"
+   },
+   "heard_sounds": {
+    "small": [
+     "z aa aa k s"
+    ],
+    "small.en": [
+     "z aa aa k s"
+    ]
+   },
+   "ok": false,
+   "action": "re-rendered as 'zuhks' (heard 'Zucks.'/'Zucks.'), kept",
+   "items": [
+    "zox",
+    "wux"
+   ]
+  },
+  {
+   "foil": "zup",
+   "say": "zup",
+   "ipa": "zˈʌp",
+   "intended": "z ah p",
+   "heard": {
+    "small": "Zup!",
+    "small.en": "ZUP"
+   },
+   "heard_sounds": {
+    "small": [
+     "z ah p"
+    ],
+    "small.en": [
+     "z ah p"
+    ]
+   },
+   "ok": true,
+   "action": "ok",
+   "items": [
+    "dop"
+   ]
+  },
+  {
+   "foil": "zur",
+   "say": "zur",
+   "ipa": "zˈʌɹ",
+   "intended": "z ah r",
+   "heard": {
+    "small": "Sua",
+    "small.en": "Sua"
+   },
+   "heard_sounds": {
+    "small": [
+     "s ah ae"
+    ],
+    "small.en": [
+     "s ah ae"
+    ]
+   },
+   "ok": false,
+   "action": "no variant heard right; kept original",
+   "items": [
+    "lir"
+   ]
+  }
+ ]
+}

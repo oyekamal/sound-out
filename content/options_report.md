@@ -2,65 +2,36 @@
 
 Built from phonemes (Arpabet from content/lexicon_full.json / CMUdict), not letters. Foils use only sounds taught by the lesson where the word first appears (plus the target's own). Real options are CMUdict words with one pronunciation, course vocabulary first (1648 sound-forms in the course, 5679 other dictionary words, after content/blocklist.txt); made-up options sound like no CMUdict word, are not spelled like one, pass the blocklist (spelling and sound) and are legal syllables of GPC-table phonemes.
 
-Items: 245; built 205 (183 2x2 grids, 22 early checks with 3 options, `early: true`); could not build 40. 31 items needed a foil sound not yet taught at their first lesson (`untaught: true`; spoken only, never printed).
+Items: 245; built 243 (210 2x2 grids, 33 early checks with 3 options, `early: true`); could not build 2. 35 items needed a foil sound not yet taught at their first lesson (`untaught: true`; spoken only, never printed).
 
 | Lesson | Items | 2x2 grid | Early (3 opts) | Real items using a non-course foil | Pool (taught sounds): real words / made-up strings | Could not build |
 |---|---|---|---|---|---|---|
 | L1.02 | 9 | 3 | 6 | 0 | 6 / 0 | - |
 | L1.03 | 23 | 17 | 6 | 0 | 63 / 4 | - |
 | L1.04 | 26 | 12 | 14 | 0 | 126 / 12 | - |
-| L1.05 | 29 | 22 | 5 | 0 | 185 / 26 | gap (no grid); nod (no grid) |
-| L1.06 | 30 | 23 | 4 | 1 | 318 / 32 | cak (no grid); sok (no grid); dack (no grid) |
-| L1.07 | 34 | 27 | 4 | 0 | 621 / 74 | gum (no grid); kec (no grid); up (no grid) |
-| L1.08 | 31 | 27 | 1 | 2 | 947 / 83 | hen (no grid); hac (no grid); kur (no grid) |
-| L1.09 | 37 | 32 | 2 | 1 | 1610 / 165 | fig (no grid); fon (no grid); lut (no grid) |
-| L1.10 | 38 | 27 | 1 | 2 | 1892 / 253 | hill (no grid); kiss (no grid); buzz (no grid); fess (no grid); tull (no grid); hugs (no grid); sells (no grid); dolls (no grid); fills (no grid); tells (no grid) |
-| L1.11 | 33 | 28 | 2 | 1 | 2181 / 348 | kiss (no grid); web (no grid); well (no grid) |
-| L1.12 | 35 | 23 | 3 | 1 | 2206 / 384 | chunk (no grid); yak (no grid); quiz (no grid); quit (no grid); jazz (no grid); fizz (no grid); fex (no grid); has (no grid); quits (no grid) |
-| L1.13 | 31 | 21 | 4 | 0 | 2206 / 384 | has (no grid); dax (no grid); wuk (no grid); tio (no single-vowel shape); b (no grid); d (no grid) |
+| L1.05 | 29 | 24 | 5 | 0 | 185 / 26 | - |
+| L1.06 | 30 | 26 | 4 | 1 | 318 / 32 | - |
+| L1.07 | 34 | 29 | 5 | 1 | 621 / 74 | - |
+| L1.08 | 31 | 30 | 1 | 2 | 947 / 83 | - |
+| L1.09 | 37 | 35 | 2 | 1 | 1610 / 165 | - |
+| L1.10 | 38 | 33 | 5 | 6 | 1892 / 253 | - |
+| L1.11 | 33 | 31 | 2 | 2 | 2181 / 348 | - |
+| L1.12 | 35 | 27 | 7 | 5 | 2206 / 384 | quits (no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain) |
+| L1.13 | 31 | 24 | 6 | 2 | 2206 / 384 | tio (no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain, and no taught real-word foil fits (no single-vowel shape)) |
 
-## Items that could not be built
+## Fallback ladder (which route built each item)
 
-- `gap` (L1.05): no grid
-- `nod` (L1.05): no grid
-- `cak` (L1.06): no grid
-- `sok` (L1.06): no grid
-- `dack` (L1.06): no grid
-- `gum` (L1.07): no grid
-- `kec` (L1.07): no grid
-- `up` (L1.07): no grid
-- `hen` (L1.08): no grid
-- `hac` (L1.08): no grid
-- `kur` (L1.08): no grid
-- `fig` (L1.09): no grid
-- `fon` (L1.09): no grid
-- `lut` (L1.09): no grid
-- `hill` (L1.10): no grid
-- `kiss` (L1.10): no grid
-- `buzz` (L1.10): no grid
-- `fess` (L1.10): no grid
-- `tull` (L1.10): no grid
-- `hugs` (L1.10): no grid
-- `sells` (L1.10): no grid
-- `dolls` (L1.10): no grid
-- `fills` (L1.10): no grid
-- `tells` (L1.10): no grid
-- `web` (L1.11): no grid
-- `well` (L1.11): no grid
-- `chunk` (L1.12): no grid
-- `yak` (L1.12): no grid
-- `quiz` (L1.12): no grid
-- `quit` (L1.12): no grid
-- `jazz` (L1.12): no grid
-- `fizz` (L1.12): no grid
-- `fex` (L1.12): no grid
-- `has` (L1.12): no grid
-- `quits` (L1.12): no grid
-- `dax` (L1.13): no grid
-- `wuk` (L1.13): no grid
-- `tio` (L1.13): no single-vowel shape
-- `b` (L1.13): no grid
-- `d` (L1.13): no grid
+- 183 items: 2x2
+- 33 items: early chain
+- 27 items: 2x2 onset+final
+- 0 items use a real-word foil in a made-up item (`realfoil: true`; allowed only for a Level 1 word already taught, at most one per item, spoken only). Judgement: acceptable in principle because every option is spoken and all are 'alien words' by instruction, the learner chooses by sound, and a real word that is picked instead of the printed made-up word is itself a useful error (a lexicalisation slip); the cost is that a child can discard it by familiarity, so the guess rate drops from 1/4 to 1/3 on those items. It was therefore the LAST resort and it was never needed.
+
+## Items that could not be built (dropped from the tap gate, logged here and in content/options_unbuildable.json; the app skips them)
+
+- `quits` (L1.12): no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain
+- `tio` (L1.13): no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain, and no taught real-word foil fits (no single-vowel shape)
+
+Dropped from the check: 2 of 245. Silently missing: 0.
 
 ## Early checks (3 options, same lexicality, chain of one-change neighbours; repeats across sittings allowed)
 
@@ -86,3 +57,14 @@ Items: 245; built 205 (183 2x2 grids, 22 early checks with 3 options, `early: tr
 - tid: tid / pid / pim
 - nam: nam / nim / niss
 - pam: pam / pap / pan
+- up: up / ugh / app
+- hugs: hugs / bugs / rugs
+- sells: sells / bells / belt
+- dolls: dolls / dons / cons
+- tells: tells / bells / sells
+- chunk: chunk / monk / bunk
+- quiz: quiz / quick / quid
+- quit: quit / quill / quid
+- jazz: jazz / jack / back
+- b: b / pea / tea
+- d: d / we / fee

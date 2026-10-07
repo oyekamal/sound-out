@@ -25,7 +25,7 @@ export function play(key, { rate = 1 } = {}) {
     let done = false;
     const end = () => { if (!done) { done = true; res(); } };
     a.onended = end;
-    a.onerror = () => { so.missing.push(key + ' (load error)'); console.warn('clip failed to load', key); end(); };
+    a.onerror = () => { so.missing.push(key + ' (load error: ' + (a.error && a.error.message || a.error?.code) + ')'); console.warn('clip failed to load', key); end(); };
     a.play().catch(() => setTimeout(end, 50)); // autoplay blocked: carry on silently
     setTimeout(end, (c.dur * 1000) / a.playbackRate + 1500); // never hang on a clip
   });

@@ -69,12 +69,33 @@ def check_grid(ev):
         want = sorted(pos[a] for a in axes)
         d = diff(p, o["p"])
         if d != want: return f"{ev['word']}: option {o['w']} ({o['cell']}) differs at {d}, want {want}"
-    if not ({"vowel"} <= {a for c in cells for a in c.split("+")}): return f"{ev['word']}: no vowel cell"
-    if not ({"onset", "final"} & {a for c in cells for a in c.split("+")}): return f"{ev['word']}: no onset/final cell"
+    axes = {a for c in cells for a in c.split("+")} - {"target"}
+    if len(axes) != 2: return f"{ev['word']}: grid axes {sorted(axes)}, want exactly two (onset|final x vowel, or onset x final)"
+    A, B = sorted(axes)
+    if sorted(cells) != sorted(["target", A, B, f"{A}+{B}"]) and sorted(cells) != sorted(["target", B, A, f"{B}+{A}"]): return f"{ev['word']}: cells {cells} are not a 2x2"
     return None
 
 
+def check_all_options():
+    """Static pass over EVERY item in content/options.json (the browser run only reaches L1.02): grid rule + every option has a clip + the unbuildable list is complete."""
+    opts = json.loads((ROOT / "content/options.json").read_text())
+    unb = json.loads((ROOT / "content/options_unbuildable.json").read_text())
+    for k, o in opts.items():
+        ev = {"word": k, "early": o.get("early"), "options": [dict(x) for x in (o["target"], *o["foils"])]}
+        err = check_grid(ev)
+        if err: problems.append(f"[all options] {err}")
+        for x in ev["options"]:
+            if f"ipa:{x['ipa']}" not in IDX: problems.append(f"[all options] no audio clip for {k}: {x['w']} ({x['ipa']})")
+        if o["kind"] == "pseudo" and any(f["cell"] != "target" and f.get("realfoil") for f in o["foils"]) and sum(1 for f in o["foils"] if f.get("realfoil")) > 1:
+            problems.append(f"[all options] {k}: more than one real-word foil")
+    items = [k for k, e in LEX.items() if e["kind"] in ("real", "pseudo")]
+    silent = [k for k in items if k.lower() not in opts and k not in unb]
+    if silent: problems.append(f"[all options] items with no options and no logged reason: {silent}")
+    print(f"[all options] {len(opts)} items checked; {len(unb)} unbuildable (logged); silently missing {len(silent)}")
+
+
 def main():
+    check_all_options()
     SHOTS.mkdir(exist_ok=True)
     for f in SHOTS.glob("*.png"): f.unlink()
     server = None

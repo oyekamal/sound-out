@@ -151,7 +151,7 @@
  },
  "w:tis": {
   "cut": "last",
-  "say": "tiss",
+  "say": "tihss",
   "ipa": "tˈɪs"
  },
  "w:nis": {
@@ -256,7 +256,7 @@
  },
  "w:nam": {
   "cut": "last",
-  "say": "nam",
+  "say": "namm",
   "ipa": "nˈæm"
  },
  "w:pam": {
@@ -596,7 +596,7 @@
  },
  "w:nud": {
   "cut": "last",
-  "say": "nud",
+  "say": "nudd",
   "ipa": "nˈʌd"
  },
  "w:pem": {
@@ -836,7 +836,7 @@
  },
  "w:fon": {
   "cut": "last",
-  "say": "fon",
+  "say": "fahn",
   "ipa": "fˈɑn"
  },
  "w:lir": {
@@ -846,12 +846,12 @@
  },
  "w:bof": {
   "cut": "last",
-  "say": "bof",
+  "say": "boff",
   "ipa": "bˈɑf"
  },
  "w:lut": {
   "cut": "last",
-  "say": "lut",
+  "say": "lutt",
   "ipa": "lˈʌt"
  },
  "w:fim": {
@@ -1111,7 +1111,7 @@
  },
  "w:jov": {
   "cut": "last",
-  "say": "jov",
+  "say": "jovv",
   "ipa": "ʤˈɑv"
  },
  "w:wab": {
@@ -1501,7 +1501,7 @@
  },
  "ipa:tˈɪs": {
   "cut": "last",
-  "say": "tiss",
+  "say": "tihss",
   "ipa": "tˈɪs"
  },
  "ipa:nˈɪs": {
@@ -1606,7 +1606,7 @@
  },
  "ipa:nˈæm": {
   "cut": "last",
-  "say": "nam",
+  "say": "namm",
   "ipa": "nˈæm"
  },
  "ipa:pˈæm": {
@@ -1936,7 +1936,7 @@
  },
  "ipa:nˈʌd": {
   "cut": "last",
-  "say": "nud",
+  "say": "nudd",
   "ipa": "nˈʌd"
  },
  "ipa:pˈɛm": {
@@ -2176,7 +2176,7 @@
  },
  "ipa:fˈɑn": {
   "cut": "last",
-  "say": "fon",
+  "say": "fahn",
   "ipa": "fˈɑn"
  },
  "ipa:lˈɪɹ": {
@@ -2186,12 +2186,12 @@
  },
  "ipa:bˈɑf": {
   "cut": "last",
-  "say": "bof",
+  "say": "boff",
   "ipa": "bˈɑf"
  },
  "ipa:lˈʌt": {
   "cut": "last",
-  "say": "lut",
+  "say": "lutt",
   "ipa": "lˈʌt"
  },
  "ipa:fˈɪm": {
@@ -2451,7 +2451,7 @@
  },
  "ipa:ʤˈɑv": {
   "cut": "last",
-  "say": "jov",
+  "say": "jovv",
   "ipa": "ʤˈɑv"
  },
  "ipa:wˈæb": {
@@ -2706,7 +2706,7 @@
  },
  "ipa:ˈʌst": {
   "cut": "last",
-  "say": "ust",
+  "say": "uhst",
   "ipa": "ˈʌst"
  },
  "ipa:ˈɪst": {
@@ -2839,6 +2839,16 @@
   "say": "nim",
   "ipa": "nˈɪm"
  },
+ "ipa:ɡˈæɡ": {
+  "cut": "last",
+  "say": "gag",
+  "ipa": "ɡˈæɡ"
+ },
+ "ipa:mˈæɡ": {
+  "cut": "last",
+  "say": "mag",
+  "ipa": "mˈæɡ"
+ },
  "ipa:tˈɪɡ": {
   "cut": "last",
   "say": "tig",
@@ -2888,6 +2898,11 @@
   "cut": "last",
   "say": "tot",
   "ipa": "tˈɑt"
+ },
+ "ipa:pˈɑd": {
+  "cut": "last",
+  "say": "pod",
+  "ipa": "pˈɑd"
  },
  "ipa:kˈɔɡ": {
   "cut": "last",
@@ -2941,7 +2956,7 @@
  },
  "ipa:pˈæɡ": {
   "cut": "last",
-  "say": "pag",
+  "say": "pagg",
   "ipa": "pˈæɡ"
  },
  "ipa:jˈæɡ": {
@@ -3019,6 +3034,16 @@
   "say": "luck",
   "ipa": "lˈʌk"
  },
+ "ipa:kˈæz": {
+  "cut": "last",
+  "say": "cazz",
+  "ipa": "kˈæz"
+ },
+ "ipa:ɡˈæz": {
+  "cut": "last",
+  "say": "gazz",
+  "ipa": "ɡˈæz"
+ },
  "ipa:vˈæk": {
   "cut": "last",
   "say": "vack",
@@ -3043,6 +3068,16 @@
   "cut": "last",
   "say": "yed",
   "ipa": "jˈɛd"
+ },
+ "ipa:ɡˈɑɡ": {
+  "cut": "last",
+  "say": "gog",
+  "ipa": "ɡˈɑɡ"
+ },
+ "ipa:vˈæp": {
+  "cut": "last",
+  "say": "vap",
+  "ipa": "vˈæp"
  },
  "ipa:ˈɑz": {
   "cut": "last",
@@ -3069,10 +3104,10 @@
   "say": "pug",
   "ipa": "pˈʌɡ"
  },
- "ipa:mˈæɡ": {
+ "ipa:kˈʌm": {
   "cut": "last",
-  "say": "mag",
-  "ipa": "mˈæɡ"
+  "say": "come",
+  "ipa": "kˈʌm"
  },
  "ipa:sˈɛt": {
   "cut": "last",
@@ -3096,22 +3131,37 @@
  },
  "ipa:ɡˈɛp": {
   "cut": "last",
-  "say": "gep",
+  "say": "gepp",
   "ipa": "ɡˈɛp"
  },
  "ipa:tˈɛp": {
   "cut": "last",
-  "say": "tep",
+  "say": "tepp",
   "ipa": "tˈɛp"
+ },
+ "ipa:vˈɛk": {
+  "cut": "last",
+  "say": "veck",
+  "ipa": "vˈɛk"
+ },
+ "ipa:kˈɛp": {
+  "cut": "last",
+  "say": "kep",
+  "ipa": "kˈɛp"
+ },
+ "ipa:vˈɛp": {
+  "cut": "last",
+  "say": "vep",
+  "ipa": "vˈɛp"
  },
  "ipa:tˈʌd": {
   "cut": "last",
-  "say": "tud",
+  "say": "tudd",
   "ipa": "tˈʌd"
  },
  "ipa:tˈɛm": {
   "cut": "last",
-  "say": "tem",
+  "say": "temme",
   "ipa": "tˈɛm"
  },
  "ipa:pˈʌm": {
@@ -3121,7 +3171,7 @@
  },
  "ipa:tˈʌm": {
   "cut": "last",
-  "say": "tum",
+  "say": "tuhm",
   "ipa": "tˈʌm"
  },
  "ipa:jˈʌt": {
@@ -3138,6 +3188,16 @@
   "cut": "last",
   "say": "yit",
   "ipa": "jˈɪt"
+ },
+ "ipa:ˈʌɡ": {
+  "cut": "last",
+  "say": "ugh",
+  "ipa": "ˈʌɡ"
+ },
+ "ipa:ˈæp": {
+  "cut": "last",
+  "say": "app",
+  "ipa": "ˈæp"
  },
  "ipa:ɹˈʌt": {
   "cut": "last",
@@ -3163,6 +3223,16 @@
   "cut": "last",
   "say": "hag",
   "ipa": "hˈæɡ"
+ },
+ "ipa:hˈɛd": {
+  "cut": "last",
+  "say": "head",
+  "ipa": "hˈɛd"
+ },
+ "ipa:mˈɛd": {
+  "cut": "last",
+  "say": "med",
+  "ipa": "mˈɛd"
  },
  "ipa:hˈæp": {
   "cut": "last",
@@ -3204,6 +3274,16 @@
   "say": "rop",
   "ipa": "ɹˈɑp"
  },
+ "ipa:hˈæb": {
+  "cut": "last",
+  "say": "hab",
+  "ipa": "hˈæb"
+ },
+ "ipa:vˈæb": {
+  "cut": "last",
+  "say": "vabbe",
+  "ipa": "vˈæb"
+ },
  "ipa:zˈɪɹ": {
   "cut": "last",
   "say": "zir",
@@ -3211,13 +3291,28 @@
  },
  "ipa:ɡˈɛɹ": {
   "cut": "last",
-  "say": "ger",
+  "say": "gerr",
   "ipa": "ɡˈɛɹ"
  },
  "ipa:zˈɛɹ": {
   "cut": "last",
-  "say": "zer",
+  "say": "zehr",
   "ipa": "zˈɛɹ"
+ },
+ "ipa:ɡˈʌɹ": {
+  "cut": "last",
+  "say": "gur",
+  "ipa": "ɡˈʌɹ"
+ },
+ "ipa:kˈʌɡ": {
+  "cut": "last",
+  "say": "cug",
+  "ipa": "kˈʌɡ"
+ },
+ "ipa:ɡˈʌɡ": {
+  "cut": "last",
+  "say": "gug",
+  "ipa": "ɡˈʌɡ"
  },
  "ipa:ɡˈɑɹ": {
   "cut": "last",
@@ -3228,11 +3323,6 @@
   "cut": "last",
   "say": "dur",
   "ipa": "dˈʌɹ"
- },
- "ipa:ɡˈʌɹ": {
-  "cut": "last",
-  "say": "gur",
-  "ipa": "ɡˈʌɹ"
  },
  "ipa:sˈɑm": {
   "cut": "last",
@@ -3269,6 +3359,11 @@
   "say": "fit",
   "ipa": "fˈɪt"
  },
+ "ipa:pˈɪl": {
+  "cut": "last",
+  "say": "pill",
+  "ipa": "pˈɪl"
+ },
  "ipa:ʤˈɪɡ": {
   "cut": "last",
   "say": "jig",
@@ -3294,11 +3389,6 @@
   "say": "led",
   "ipa": "lˈɛd"
  },
- "ipa:mˈɛd": {
-  "cut": "last",
-  "say": "med",
-  "ipa": "mˈɛd"
- },
  "ipa:mˈʌd": {
   "cut": "last",
   "say": "mud",
@@ -3313,6 +3403,21 @@
   "cut": "last",
   "say": "lack",
   "ipa": "lˈæk"
+ },
+ "ipa:ɡˈɑn": {
+  "cut": "last",
+  "say": "gon",
+  "ipa": "ɡˈɑn"
+ },
+ "ipa:fˈɑm": {
+  "cut": "last",
+  "say": "fahm",
+  "ipa": "fˈɑm"
+ },
+ "ipa:ɡˈɑm": {
+  "cut": "last",
+  "say": "gom",
+  "ipa": "ɡˈɑm"
  },
  "ipa:lˈʌɹ": {
   "cut": "last",
@@ -3336,23 +3441,28 @@
  },
  "ipa:mˈɛf": {
   "cut": "last",
-  "say": "meff",
+  "say": "mehff",
   "ipa": "mˈɛf"
+ },
+ "ipa:sˈʌt": {
+  "cut": "last",
+  "say": "sut",
+  "ipa": "sˈʌt"
+ },
+ "ipa:lˈʌd": {
+  "cut": "last",
+  "say": "lud",
+  "ipa": "lˈʌd"
+ },
+ "ipa:sˈʌd": {
+  "cut": "last",
+  "say": "sud",
+  "ipa": "sˈʌd"
  },
  "ipa:ɡˈɪm": {
   "cut": "last",
-  "say": "gim",
+  "say": "gihm",
   "ipa": "ɡˈɪm"
- },
- "ipa:fˈɑm": {
-  "cut": "last",
-  "say": "fom",
-  "ipa": "fˈɑm"
- },
- "ipa:ɡˈɑm": {
-  "cut": "last",
-  "say": "gom",
-  "ipa": "ɡˈɑm"
  },
  "ipa:mˈɑl": {
   "cut": "last",
@@ -3383,6 +3493,16 @@
   "cut": "last",
   "say": "ball",
   "ipa": "bˈɔl"
+ },
+ "ipa:mˈɪs": {
+  "cut": "last",
+  "say": "miss",
+  "ipa": "mˈɪs"
+ },
+ "ipa:fˈʌz": {
+  "cut": "last",
+  "say": "fuzz",
+  "ipa": "fˈʌz"
  },
  "ipa:kˈɑts": {
   "cut": "last",
@@ -3429,15 +3549,20 @@
   "say": "fod",
   "ipa": "fˈɑd"
  },
- "ipa:lˈʌd": {
-  "cut": "last",
-  "say": "lud",
-  "ipa": "lˈʌd"
- },
  "ipa:fˈʌd": {
   "cut": "last",
   "say": "fud",
   "ipa": "fˈʌd"
+ },
+ "ipa:fˈɛf": {
+  "cut": "last",
+  "say": "feff",
+  "ipa": "fˈɛf"
+ },
+ "ipa:pˈɛf": {
+  "cut": "last",
+  "say": "peff",
+  "ipa": "pˈɛf"
  },
  "ipa:ɹˈʌz": {
   "cut": "last",
@@ -3464,10 +3589,20 @@
   "say": "heff",
   "ipa": "hˈɛf"
  },
- "ipa:fˈɛf": {
+ "ipa:sˈʌl": {
   "cut": "last",
-  "say": "feff",
-  "ipa": "fˈɛf"
+  "say": "sull",
+  "ipa": "sˈʌl"
+ },
+ "ipa:tˈʌz": {
+  "cut": "last",
+  "say": "tuzz",
+  "ipa": "tˈʌz"
+ },
+ "ipa:sˈʌz": {
+  "cut": "last",
+  "say": "suzz",
+  "ipa": "sˈʌz"
  },
  "ipa:wˈɛlz": {
   "cut": "last",
@@ -3494,6 +3629,31 @@
   "say": "pets",
   "ipa": "pˈɛts"
  },
+ "ipa:bˈɛlt": {
+  "cut": "last",
+  "say": "belt",
+  "ipa": "bˈɛlt"
+ },
+ "ipa:dˈɑnz": {
+  "cut": "last",
+  "say": "dons",
+  "ipa": "dˈɑnz"
+ },
+ "ipa:kˈɑnz": {
+  "cut": "last",
+  "say": "cons",
+  "ipa": "kˈɑnz"
+ },
+ "ipa:fˈɪld": {
+  "cut": "last",
+  "say": "filled",
+  "ipa": "fˈɪld"
+ },
+ "ipa:bˈɪld": {
+  "cut": "last",
+  "say": "build",
+  "ipa": "bˈɪld"
+ },
  "ipa:fˈʊl": {
   "cut": "last",
   "say": "full",
@@ -3503,11 +3663,6 @@
   "cut": "last",
   "say": "pull",
   "ipa": "pˈʊl"
- },
- "ipa:pˈɪl": {
-  "cut": "last",
-  "say": "pill",
-  "ipa": "pˈɪl"
  },
  "ipa:ʤˈɪm": {
   "cut": "last",
@@ -3554,11 +3709,6 @@
   "say": "gig",
   "ipa": "ɡˈɪɡ"
  },
- "ipa:ɡˈæɡ": {
-  "cut": "last",
-  "say": "gag",
-  "ipa": "ɡˈæɡ"
- },
  "ipa:wˈɪt": {
   "cut": "last",
   "say": "wit",
@@ -3568,6 +3718,16 @@
   "cut": "last",
   "say": "fin",
   "ipa": "fˈɪn"
+ },
+ "ipa:dˈɛb": {
+  "cut": "last",
+  "say": "deb",
+  "ipa": "dˈɛb"
+ },
+ "ipa:tˈɛt": {
+  "cut": "last",
+  "say": "tet",
+  "ipa": "tˈɛt"
  },
  "ipa:kˈɑv": {
   "cut": "last",
@@ -3583,11 +3743,6 @@
   "cut": "last",
   "say": "cav",
   "ipa": "kˈæv"
- },
- "ipa:hˈæb": {
-  "cut": "last",
-  "say": "hab",
-  "ipa": "hˈæb"
  },
  "ipa:wˈɪb": {
   "cut": "last",
@@ -3606,7 +3761,7 @@
  },
  "ipa:vˈɪb": {
   "cut": "last",
-  "say": "vib",
+  "say": "vibb",
   "ipa": "vˈɪb"
  },
  "ipa:zˈɪb": {
@@ -3636,7 +3791,7 @@
  },
  "ipa:wˈæv": {
   "cut": "last",
-  "say": "wav",
+  "say": "wahv",
   "ipa": "wˈæv"
  },
  "ipa:vˈæv": {
@@ -3674,6 +3829,21 @@
   "say": "max",
   "ipa": "mˈæks"
  },
+ "ipa:ʧˈʌŋk": {
+  "cut": "last",
+  "say": "chunk",
+  "ipa": "ʧˈʌŋk"
+ },
+ "ipa:mˈʌŋk": {
+  "cut": "last",
+  "say": "monk",
+  "ipa": "mˈʌŋk"
+ },
+ "ipa:bˈʌŋk": {
+  "cut": "last",
+  "say": "bunk",
+  "ipa": "bˈʌŋk"
+ },
  "ipa:jˈæs": {
   "cut": "last",
   "say": "yass",
@@ -3683,6 +3853,31 @@
   "cut": "last",
   "say": "yam",
   "ipa": "jˈæm"
+ },
+ "ipa:kwˈɪk": {
+  "cut": "last",
+  "say": "quick",
+  "ipa": "kwˈɪk"
+ },
+ "ipa:kwˈɪd": {
+  "cut": "last",
+  "say": "quid",
+  "ipa": "kwˈɪd"
+ },
+ "ipa:kwˈɪl": {
+  "cut": "last",
+  "say": "quill",
+  "ipa": "kwˈɪl"
+ },
+ "ipa:ʤˈæk": {
+  "cut": "last",
+  "say": "jack",
+  "ipa": "ʤˈæk"
+ },
+ "ipa:bˈæk": {
+  "cut": "last",
+  "say": "back",
+  "ipa": "bˈæk"
  },
  "ipa:tˈɛks": {
   "cut": "last",
@@ -3699,6 +3894,11 @@
   "say": "tax",
   "ipa": "tˈæks"
  },
+ "ipa:hˈɪz": {
+  "cut": "last",
+  "say": "his",
+  "ipa": "hˈɪz"
+ },
  "ipa:ɡˈɑks": {
   "cut": "last",
   "say": "goks",
@@ -3706,7 +3906,7 @@
  },
  "ipa:zˈʌks": {
   "cut": "last",
-  "say": "zuks",
+  "say": "zuhks",
   "ipa": "zˈʌks"
  },
  "ipa:ɡˈʌks": {
@@ -3731,7 +3931,7 @@
  },
  "ipa:hˈɪɡ": {
   "cut": "last",
-  "say": "hig",
+  "say": "higg",
   "ipa": "hˈɪɡ"
  },
  "ipa:jˈɛɡ": {
@@ -3743,6 +3943,21 @@
   "cut": "last",
   "say": "heg",
   "ipa": "hˈɛɡ"
+ },
+ "ipa:ʤˈɛks": {
+  "cut": "last",
+  "say": "jeks",
+  "ipa": "ʤˈɛks"
+ },
+ "ipa:fˈɛkt": {
+  "cut": "last",
+  "say": "fehkt",
+  "ipa": "fˈɛkt"
+ },
+ "ipa:ʤˈɛkt": {
+  "cut": "last",
+  "say": "jekt",
+  "ipa": "ʤˈɛkt"
  },
  "ipa:wˈɛks": {
   "cut": "last",
@@ -3789,15 +4004,65 @@
   "say": "cops",
   "ipa": "kˈɑps"
  },
+ "ipa:kˈæks": {
+  "cut": "last",
+  "say": "caks",
+  "ipa": "kˈæks"
+ },
+ "ipa:dˈækt": {
+  "cut": "last",
+  "say": "dakt",
+  "ipa": "dˈækt"
+ },
+ "ipa:kˈækt": {
+  "cut": "last",
+  "say": "cakt",
+  "ipa": "kˈækt"
+ },
  "ipa:vˈɛb": {
   "cut": "last",
   "say": "veb",
   "ipa": "vˈɛb"
  },
+ "ipa:vˈʌk": {
+  "cut": "last",
+  "say": "vuck",
+  "ipa": "vˈʌk"
+ },
+ "ipa:wˈʌf": {
+  "cut": "last",
+  "say": "wuff",
+  "ipa": "wˈʌf"
+ },
+ "ipa:vˈʌf": {
+  "cut": "last",
+  "say": "vuff",
+  "ipa": "vˈʌf"
+ },
  "ipa:bˈɪb": {
   "cut": "last",
   "say": "bib",
   "ipa": "bˈɪb"
+ },
+ "ipa:pˈi": {
+  "cut": "last",
+  "say": "pea",
+  "ipa": "pˈi"
+ },
+ "ipa:tˈi": {
+  "cut": "last",
+  "say": "tea",
+  "ipa": "tˈi"
+ },
+ "ipa:dˈi": {
+  "cut": "last",
+  "say": "d",
+  "ipa": "dˈi"
+ },
+ "ipa:fˈi": {
+  "cut": "last",
+  "say": "fee",
+  "ipa": "fˈi"
  },
  "ph:s": {
   "cut": "phone",
