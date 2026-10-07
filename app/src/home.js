@@ -28,7 +28,7 @@ export async function home(app, profile) {
       lstate === 'checked' ? h('span', { class: 'badge' }, 'checked by tapping') : lstate === 'still_learning' ? h('span', { class: 'badge soft' }, 'still learning') : null));
     const path = h('div', { class: track === 'A' ? 'path' : 'list' });
     for (const x of ls) {
-      const label = LABEL[track][x.id] || (x.new?.length ? x.new.join(' ') : x.id);
+      const label = x.label || (x.new?.length ? x.new.join(' ') : LABEL[track][x.id] || x.id);
       const b = h('button', { class: `node ${x.state}${x.new?.length ? '' : ' wide'}`, 'data-key': x.key, disabled: x.state === 'locked' },
         x.state === 'locked' ? icon('lock') : x.state === 'done' ? icon('check') : null, h('span', {}, label));
       b.addEventListener('click', () => app.sitting(x.key));

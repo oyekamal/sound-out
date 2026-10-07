@@ -21,11 +21,17 @@ LEX = json.loads((ROOT / "content/lexicon.json").read_text())
 GPC = json.loads((ROOT / "content/gpc.json").read_text())
 IDX = json.loads((ROOT / "content/audio_index.json").read_text())["clips"]
 PID2G = {}
+G2P = {o["g"]: o["p"] for o in GPC["order"]}
 for o in GPC["order"]:
     PID2G.setdefault(o["p"], o["g"])
 URL = "http://localhost:5317/?fast"
 VOWELS = {"a", "i", "o", "e", "u"}
 problems = []
+# --track A|B (default both) · --from KEY_PREFIX (seed every earlier sitting as passed, start there) · --until KEY_PREFIX (stop after
+# the last sitting matching it). The plan is read from the home screen, so it follows whatever lessons the app ships.
+ARG = lambda k, d=None: sys.argv[sys.argv.index(k) + 1] if k in sys.argv else d
+TRACKS = [ARG("--track")] if ARG("--track") else ["A", "B"]
+FROM, UNTIL = ARG("--from"), ARG("--until")
 
 
 def port_open(p):
@@ -107,9 +113,8 @@ def main():
     try:
         with sync_playwright() as pw:
             br = pw.chromium.launch(args=["--autoplay-policy=no-user-gesture-required"])
-            for track, plan in (("A", ["L1.02:A:A", "L1.02:A:B", "L1.02:A:C", "L1.02:A:D", "L1.02:A:R", "L1.02:A:L", "L1.02:A:X"]),
-                                ("B", ["L1.02:B:ABC", "L1.02:B:D", "L1.02:B:X"])):
-                run(br, track, plan)
+            for track in TRACKS:
+                run(br, track, FROM, UNTIL)
             if "--no-sessions" not in sys.argv:   # Levels 5-7 practice lessons (tools/drive_session.py)
                 import drive_session; drive_session.run_all(br, problems, URL)
             br.close()
@@ -119,7 +124,17 @@ def main():
     sys.exit(1 if problems else 0)
 
 
-def run(br, track, plan):
+SEED = """async ([keys]) => {
+  const d = await new Promise((res, rej) => { const r = indexedDB.open('sound-out', 1); r.onsuccess = () => res(r.result); r.onerror = () => rej(r.error); });
+  const get = (st, k) => new Promise(res => { const r = d.transaction(st).objectStore(st).get(k); r.onsuccess = () => res(r.result); });
+  const pid = (await get('settings', 'active')).value;
+  const p = (await get('progress', pid)) || { id: pid, sittings: {}, lessons: {}, stickers: [], village: [], days: [], sittingCount: 0 };
+  for (const k of keys) p.sittings[k] = { done: true, passed: true, correct: 0, judged: 0, at: Date.now() };
+  await new Promise(res => { const t = d.transaction('progress', 'readwrite'); t.objectStore('progress').put(p); t.oncomplete = res; });
+}"""
+
+
+def run(br, track, start=None, until=None):
     ctx = br.new_context(viewport={"width": 390, "height": 844}, device_scale_factor=2, has_touch=False, reduced_motion="reduce")
     page = ctx.new_page()
     errors = []
@@ -136,9 +151,21 @@ def run(br, track, plan):
     page.click(f".whocard[data-track={track}]")
     page.wait_for_selector(".langs"); shot("help-language")
     page.click(".onboard .skip")
+    # the first sitting starts by itself; go home and read the whole path off the screen
+    page.wait_for_selector(".sitting"); page.evaluate("window.__so.app.home()"); page.wait_for_selector(".home .node")
+    plan = page.evaluate("[...document.querySelectorAll('.home .node[data-key]')].map(b => b.dataset.key)")
+    i0 = next((i for i, k in enumerate(plan) if start and k.startswith(start)), 0)
+    if i0:
+        page.evaluate(SEED, [plan[:i0]]); page.evaluate("window.__so.app.home()"); page.wait_for_selector(".home .node"); time.sleep(0.3)
+    if until:
+        last = max(i for i, k in enumerate(plan) if k.startswith(until)); plan = plan[:last + 1]
+    plan = plan[i0:]
+    print(f"[{track}] plan: {len(plan)} sittings {plan[0]} .. {plan[-1]}")
+    page.evaluate("window.__so.trace.length = 0")
+    page.click(f".node[data-key='{plan[0]}']")
     gate_count = {"n": 0}
     done_sittings = []
-    deadline = time.time() + 600
+    deadline = time.time() + 120 + 90 * len(plan)
     def step_once():
         time.sleep(0.15)
         # rule 4: no picture beside a printed word / reading page
@@ -191,8 +218,8 @@ def run(br, track, plan):
             if att == 1: gate_count["n"] += 1
             gi = gate_count["n"]
             # scripted mistakes: gate 2 = wrong then right (repair); gate 4 = wrong twice (review); check gate (B) = timeout once
-            wrong = (gi == 2 and att == 1) or (track == "A" and gi == 7)
-            if track == "B" and gi == 6 and att == 1:
+            wrong = not start and ((gi == 2 and att == 1) or (track == "A" and gi == 7))   # scripted only on a run from the start (L1.02)
+            if not start and track == "B" and gi == 6 and att == 1:
                 shot("gate-waiting-timeout"); time.sleep(4.5); return False
             sel = ".opt:not([data-cell=target]) .opt-pick" if wrong else ".opt[data-cell=target] .opt-pick"
             if att == 1 and gi in (1, 2): shot(f"gate-{gi}-options")
@@ -205,8 +232,11 @@ def run(br, track, plan):
             page.locator(f".options.three .opt[data-sound='{letter}'] .opt-pick").click(); time.sleep(0.4); return False
         tb = page.locator(".tray .tilebtn[data-letter]:not(.wrong):not(.right)")
         if tb.count():
-            key = page.get_attribute(".speaker.big", "data-key")
-            g = PID2G[key.split(":")[1]]
+            pid = page.get_attribute(".speaker.big", "data-key").split(":")[1]
+            cands = [t for t in page.evaluate("[...document.querySelectorAll('.tray .tilebtn[data-letter]:not(.wrong)')].map(b => b.dataset.letter)") if G2P.get(t) == pid]
+            # several letters share a sound (c k ck): prefer the letter this sitting just taught
+            taught = page.evaluate("window.__so.trace.filter(e => e.type === 'step' && e.letter).map(e => e.letter)")
+            g = next((l for l in reversed(taught) if l in cands), cands[0] if cands else PID2G[pid])
             page.click(f".tilebtn[data-letter='{g}']"); time.sleep(0.4); return False
         if page.locator(".slot").count() and page.locator(".tray .tilebtn[data-g]:not([disabled])").count():
             w = page.get_attribute(".speaker.big", "data-key").split(":", 1)[1]
@@ -238,7 +268,9 @@ def run(br, track, plan):
             pass
     else:
         problems.append(f"[{track}] timed out; done {done_sittings}")
-    page.click(".endscreen .btn.ghost"); page.wait_for_selector(".home"); time.sleep(0.4); shot("home-after")
+    if page.locator(".endscreen").count(): page.click(".endscreen .btn.ghost")
+    else: shot("STUCK"); page.evaluate("window.__so.app.home()")
+    page.wait_for_selector(".home"); time.sleep(0.4); shot("home-after")
     # ---- rule checks over the trace ----
     tr = page.evaluate("window.__so.trace"); missing = page.evaluate("window.__so.missing")
     for m in missing: problems.append(f"[{track}] missing audio: {m}")
@@ -268,4 +300,7 @@ def run(br, track, plan):
 
 
 if __name__ == "__main__":
-    main()
+    if "--level" in sys.argv:      # Levels 2-4: every sitting + every gate of one level (tools/drive_levels.py)
+        sys.path.insert(0, str(Path(__file__).resolve().parent)); import drive_levels; drive_levels.main()
+    else:
+        main()

@@ -7,9 +7,18 @@ import audioIndex from '../../content/audio_index.json';
 import L102 from '../../content/lessons/L1.02.json';
 import L103 from '../../content/lessons/L1.03.json';
 import L104 from '../../content/lessons/L1.04.json';
+import L105 from '../../content/lessons/L1.05.json';
+import L106 from '../../content/lessons/L1.06.json';
+import L107 from '../../content/lessons/L1.07.json';
+import L108 from '../../content/lessons/L1.08.json';
+import L109 from '../../content/lessons/L1.09.json';
+import L110 from '../../content/lessons/L1.10.json';
+import L111 from '../../content/lessons/L1.11.json';
+import L112 from '../../content/lessons/L1.12.json';
+import { fillL1 } from './level1.js';
 
-// Prototype slice: the first three letter lessons are playable.
-export const LESSONS = [L102, L103, L104];
+// Level 1: every lesson is playable (single-sitting lessons get their sittings from level1.js).
+export const LESSONS = [L102, L103, L104, L105, L106, L107, L108, L109, L110, L111, L112].map(fillL1);
 export const lessonById = id => LESSONS.find(l => l.id === id);
 export { lexicon, options, gpc, ui, audioIndex };
 
