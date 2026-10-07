@@ -1,6 +1,7 @@
 // E6d, the tap gate: "Read it, pick what it says."
 // Options follow decision (11): a 2x2 grid {target, onset-change, vowel-change, onset+vowel-change}
-// (final instead of onset for words with no onset). Options are spoken, never printed.
+// (final instead of onset for words with no onset). Early-check items (L1.02-L1.04, `early: true`) have 3 options in a chain.
+// Options are spoken, never printed.
 // Repair after a first wrong pick replays the PRINTED word's sounds one at a time under a highlighter;
 // the whole target word is never played inside a repair. Two wrongs -> review; no whole-word reveal.
 import { options, entry } from './content.js';
@@ -33,7 +34,7 @@ export async function gate(ctx, w, kind, { windowMs = 12000 } = {}) {
   const o = options[w.toLowerCase()];
   if (!o) throw new Error('no tap-gate options for ' + w);
   const all = [o.target, ...o.foils];
-  mark('gate-show', { word: w, kind, options: all.map(x => ({ w: x.w, cell: x.cell, p: x.p, ipa: x.ipa })) });
+  mark('gate-show', { word: w, kind, early: !!o.early, options: all.map(x => ({ w: x.w, cell: x.cell, p: x.p, ipa: x.ipa })) });
   const stage = ctx.stage();
   const box = printedWord(w, kind, ctx.track);
   const say = h('p', { class: 'prompt' }, 'Read it to yourself. Say it.');
@@ -55,7 +56,7 @@ export async function gate(ctx, w, kind, { windowMs = 12000 } = {}) {
     });
     grid.append(...cards);
     stage.querySelector('.options')?.remove();
-    say.textContent = 'Listen to all four. Tap the one that matches the word.';
+    say.textContent = `Listen to all ${all.length === 3 ? 'three' : 'four'}. Tap the one that matches the word.`;
     stage.append(grid);
     await ctx.instruct('ui:gatePick');
     for (const c of cards) { c.classList.add('hl'); await play(`ipa:${c.dataset.ipa}`); c.classList.remove('hl'); await wait(250); }

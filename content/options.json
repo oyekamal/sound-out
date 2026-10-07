@@ -3,7 +3,7 @@
   "target": {
    "w": "at",
    "p": [
-    "a",
+    "ae",
     "t"
    ],
    "ipa": "ˈæt",
@@ -11,45 +11,35 @@
   },
   "foils": [
    {
-    "w": "an",
+    "w": "ad",
     "p": [
-     "a",
-     "n"
+     "ae",
+     "d"
     ],
-    "ipa": "ˈæn",
+    "ipa": "ˈæd",
     "cell": "final"
    },
    {
     "w": "it",
     "p": [
-     "i",
+     "ih",
      "t"
     ],
     "ipa": "ˈɪt",
     "cell": "vowel"
-   },
-   {
-    "w": "in",
-    "p": [
-     "i",
-     "n"
-    ],
-    "ipa": "ˈɪn",
-    "cell": "final+vowel"
    }
   ],
-  "axes": [
-   "final",
-   "vowel"
-  ],
+  "axes": [],
   "kind": "real",
-  "relaxed": false
+  "relaxed": false,
+  "early": true,
+  "untaught": true
  },
  "as": {
   "target": {
    "w": "as",
    "p": [
-    "a",
+    "ae",
     "z"
    ],
    "ipa": "ˈæz",
@@ -57,30 +47,30 @@
   },
   "foils": [
    {
-    "w": "an",
+    "w": "at",
     "p": [
-     "a",
-     "n"
+     "ae",
+     "t"
     ],
-    "ipa": "ˈæn",
+    "ipa": "ˈæt",
     "cell": "final"
    },
    {
-    "w": "oz",
+    "w": "is",
     "p": [
-     "o",
+     "ih",
      "z"
     ],
-    "ipa": "ˈɑz",
+    "ipa": "ˈɪz",
     "cell": "vowel"
    },
    {
-    "w": "on",
+    "w": "it",
     "p": [
-     "o",
-     "n"
+     "ih",
+     "t"
     ],
-    "ipa": "ˈɑn",
+    "ipa": "ˈɪt",
     "cell": "final+vowel"
    }
   ],
@@ -89,14 +79,15 @@
    "vowel"
   ],
   "kind": "real",
-  "relaxed": false
+  "relaxed": false,
+  "untaught": true
  },
  "sat": {
   "target": {
    "w": "sat",
    "p": [
     "s",
-    "a",
+    "ae",
     "t"
    ],
    "ipa": "sˈæt",
@@ -107,46 +98,34 @@
     "w": "tat",
     "p": [
      "t",
-     "a",
+     "ae",
      "t"
     ],
     "ipa": "tˈæt",
     "cell": "onset"
    },
    {
-    "w": "sot",
+    "w": "sass",
     "p": [
      "s",
-     "o",
-     "t"
+     "ae",
+     "s"
     ],
-    "ipa": "sˈɑt",
-    "cell": "vowel"
-   },
-   {
-    "w": "tot",
-    "p": [
-     "t",
-     "o",
-     "t"
-    ],
-    "ipa": "tˈɑt",
-    "cell": "onset+vowel"
+    "ipa": "sˈæs",
+    "cell": "coda"
    }
   ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
+  "axes": [],
   "kind": "real",
-  "relaxed": false
+  "relaxed": false,
+  "early": true
  },
  "tas": {
   "target": {
    "w": "tas",
    "p": [
     "t",
-    "a",
+    "ae",
     "s"
    ],
    "ipa": "tˈæs",
@@ -154,33 +133,33 @@
   },
   "foils": [
    {
-    "w": "nass",
+    "w": "zass",
     "p": [
-     "n",
-     "a",
+     "z",
+     "ae",
      "s"
     ],
-    "ipa": "nˈæs",
+    "ipa": "zˈæs",
     "cell": "onset"
    },
    {
     "w": "tiss",
     "p": [
      "t",
-     "i",
+     "ih",
      "s"
     ],
     "ipa": "tˈɪs",
     "cell": "vowel"
    },
    {
-    "w": "niss",
+    "w": "ziss",
     "p": [
-     "n",
-     "i",
+     "z",
+     "ih",
      "s"
     ],
-    "ipa": "nˈɪs",
+    "ipa": "zˈɪs",
     "cell": "onset+vowel"
    }
   ],
@@ -189,13 +168,14 @@
    "vowel"
   ],
   "kind": "pseudo",
-  "relaxed": false
+  "relaxed": false,
+  "untaught": true
  },
  "ast": {
   "target": {
    "w": "ast",
    "p": [
-    "a",
+    "ae",
     "s",
     "t"
    ],
@@ -204,42 +184,31 @@
   },
   "foils": [
    {
-    "w": "adt",
+    "w": "ust",
     "p": [
-     "a",
-     "d",
+     "ah",
+     "s",
      "t"
     ],
-    "ipa": "ˈædt",
-    "cell": "final"
+    "ipa": "ˈʌst",
+    "cell": "vowel"
    },
    {
     "w": "ist",
     "p": [
-     "i",
+     "ih",
      "s",
      "t"
     ],
     "ipa": "ˈɪst",
     "cell": "vowel"
-   },
-   {
-    "w": "idt",
-    "p": [
-     "i",
-     "d",
-     "t"
-    ],
-    "ipa": "ˈɪdt",
-    "cell": "final+vowel"
    }
   ],
-  "axes": [
-   "final",
-   "vowel"
-  ],
+  "axes": [],
   "kind": "pseudo",
-  "relaxed": false
+  "relaxed": false,
+  "early": true,
+  "untaught": true
  },
  "sta": {
   "target": {
@@ -247,56 +216,45 @@
    "p": [
     "s",
     "t",
-    "a"
+    "ae"
    ],
    "ipa": "stˈæ",
    "cell": "target"
   },
   "foils": [
    {
-    "w": "sca",
+    "w": "sla",
     "p": [
      "s",
-     "k",
-     "a"
+     "l",
+     "ae"
     ],
-    "ipa": "skˈæ",
+    "ipa": "slˈæ",
     "cell": "onset"
    },
    {
-    "w": "sto",
+    "w": "sma",
     "p": [
      "s",
-     "t",
-     "o"
+     "m",
+     "ae"
     ],
-    "ipa": "stˈɑ",
-    "cell": "vowel"
-   },
-   {
-    "w": "sco",
-    "p": [
-     "s",
-     "k",
-     "o"
-    ],
-    "ipa": "skˈɑ",
-    "cell": "onset+vowel"
+    "ipa": "smˈæ",
+    "cell": "onset"
    }
   ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
+  "axes": [],
   "kind": "pseudo",
-  "relaxed": false
+  "relaxed": false,
+  "early": true,
+  "untaught": true
  },
  "sas": {
   "target": {
    "w": "sas",
    "p": [
     "s",
-    "a",
+    "ae",
     "s"
    ],
    "ipa": "sˈæs",
@@ -304,33 +262,33 @@
   },
   "foils": [
    {
-    "w": "tass",
+    "w": "zass",
     "p": [
-     "t",
-     "a",
+     "z",
+     "ae",
      "s"
     ],
-    "ipa": "tˈæs",
+    "ipa": "zˈæs",
     "cell": "onset"
    },
    {
     "w": "sess",
     "p": [
      "s",
-     "e",
+     "eh",
      "s"
     ],
     "ipa": "sˈɛs",
     "cell": "vowel"
    },
    {
-    "w": "tess",
+    "w": "zess",
     "p": [
-     "t",
-     "e",
+     "z",
+     "eh",
      "s"
     ],
-    "ipa": "tˈɛs",
+    "ipa": "zˈɛs",
     "cell": "onset+vowel"
    }
   ],
@@ -339,64 +297,51 @@
    "vowel"
   ],
   "kind": "pseudo",
-  "relaxed": false
+  "relaxed": false,
+  "untaught": true
  },
  "att": {
   "target": {
    "w": "att",
    "p": [
-    "a",
-    "t",
+    "ae",
     "t"
    ],
-   "ipa": "ˈætt",
+   "ipa": "ˈæt",
    "cell": "target"
   },
   "foils": [
    {
-    "w": "ast",
+    "w": "aff",
     "p": [
-     "a",
-     "s",
-     "t"
+     "ae",
+     "f"
     ],
-    "ipa": "ˈæst",
+    "ipa": "ˈæf",
     "cell": "final"
    },
    {
-    "w": "itt",
+    "w": "uff",
     "p": [
-     "i",
-     "t",
-     "t"
+     "ah",
+     "f"
     ],
-    "ipa": "ˈɪtt",
-    "cell": "vowel"
-   },
-   {
-    "w": "ist",
-    "p": [
-     "i",
-     "s",
-     "t"
-    ],
-    "ipa": "ˈɪst",
+    "ipa": "ˈʌf",
     "cell": "final+vowel"
    }
   ],
-  "axes": [
-   "final",
-   "vowel"
-  ],
+  "axes": [],
   "kind": "pseudo",
-  "relaxed": false
+  "relaxed": false,
+  "early": true,
+  "untaught": true
  },
  "tat": {
   "target": {
    "w": "tat",
    "p": [
     "t",
-    "a",
+    "ae",
     "t"
    ],
    "ipa": "tˈæt",
@@ -407,46 +352,34 @@
     "w": "sat",
     "p": [
      "s",
-     "a",
+     "ae",
      "t"
     ],
     "ipa": "sˈæt",
     "cell": "onset"
    },
    {
-    "w": "tot",
-    "p": [
-     "t",
-     "o",
-     "t"
-    ],
-    "ipa": "tˈɑt",
-    "cell": "vowel"
-   },
-   {
-    "w": "sot",
+    "w": "sass",
     "p": [
      "s",
-     "o",
-     "t"
+     "ae",
+     "s"
     ],
-    "ipa": "sˈɑt",
-    "cell": "onset+vowel"
+    "ipa": "sˈæs",
+    "cell": "onset+coda"
    }
   ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
+  "axes": [],
   "kind": "real",
-  "relaxed": false
+  "relaxed": false,
+  "early": true
  },
  "pat": {
   "target": {
    "w": "pat",
    "p": [
     "p",
-    "a",
+    "ae",
     "t"
    ],
    "ipa": "pˈæt",
@@ -454,33 +387,33 @@
   },
   "foils": [
    {
-    "w": "sat",
+    "w": "nat",
     "p": [
-     "s",
-     "a",
+     "n",
+     "ae",
      "t"
     ],
-    "ipa": "sˈæt",
+    "ipa": "nˈæt",
     "cell": "onset"
    },
    {
     "w": "pit",
     "p": [
      "p",
-     "i",
+     "ih",
      "t"
     ],
     "ipa": "pˈɪt",
     "cell": "vowel"
    },
    {
-    "w": "sit",
+    "w": "knit",
     "p": [
-     "s",
-     "i",
+     "n",
+     "ih",
      "t"
     ],
-    "ipa": "sˈɪt",
+    "ipa": "nˈɪt",
     "cell": "onset+vowel"
    }
   ],
@@ -496,7 +429,7 @@
    "w": "tap",
    "p": [
     "t",
-    "a",
+    "ae",
     "p"
    ],
    "ipa": "tˈæp",
@@ -504,33 +437,33 @@
   },
   "foils": [
    {
-    "w": "sap",
+    "w": "pap",
     "p": [
-     "s",
-     "a",
+     "p",
+     "ae",
      "p"
     ],
-    "ipa": "sˈæp",
+    "ipa": "pˈæp",
     "cell": "onset"
    },
    {
     "w": "tip",
     "p": [
      "t",
-     "i",
+     "ih",
      "p"
     ],
     "ipa": "tˈɪp",
     "cell": "vowel"
    },
    {
-    "w": "sip",
+    "w": "pip",
     "p": [
-     "s",
-     "i",
+     "p",
+     "ih",
      "p"
     ],
-    "ipa": "sˈɪp",
+    "ipa": "pˈɪp",
     "cell": "onset+vowel"
    }
   ],
@@ -546,7 +479,7 @@
    "w": "sap",
    "p": [
     "s",
-    "a",
+    "ae",
     "p"
    ],
    "ipa": "sˈæp",
@@ -557,7 +490,7 @@
     "w": "tap",
     "p": [
      "t",
-     "a",
+     "ae",
      "p"
     ],
     "ipa": "tˈæp",
@@ -567,7 +500,7 @@
     "w": "sip",
     "p": [
      "s",
-     "i",
+     "ih",
      "p"
     ],
     "ipa": "sˈɪp",
@@ -577,7 +510,7 @@
     "w": "tip",
     "p": [
      "t",
-     "i",
+     "ih",
      "p"
     ],
     "ipa": "tˈɪp",
@@ -596,7 +529,7 @@
    "w": "pit",
    "p": [
     "p",
-    "i",
+    "ih",
     "t"
    ],
    "ipa": "pˈɪt",
@@ -607,7 +540,7 @@
     "w": "sit",
     "p": [
      "s",
-     "i",
+     "ih",
      "t"
     ],
     "ipa": "sˈɪt",
@@ -617,7 +550,7 @@
     "w": "pat",
     "p": [
      "p",
-     "a",
+     "ae",
      "t"
     ],
     "ipa": "pˈæt",
@@ -627,7 +560,7 @@
     "w": "sat",
     "p": [
      "s",
-     "a",
+     "ae",
      "t"
     ],
     "ipa": "sˈæt",
@@ -646,7 +579,7 @@
    "w": "tip",
    "p": [
     "t",
-    "i",
+    "ih",
     "p"
    ],
    "ipa": "tˈɪp",
@@ -654,33 +587,33 @@
   },
   "foils": [
    {
-    "w": "sip",
+    "w": "nip",
     "p": [
-     "s",
-     "i",
+     "n",
+     "ih",
      "p"
     ],
-    "ipa": "sˈɪp",
+    "ipa": "nˈɪp",
     "cell": "onset"
    },
    {
     "w": "tap",
     "p": [
      "t",
-     "a",
+     "ae",
      "p"
     ],
     "ipa": "tˈæp",
     "cell": "vowel"
    },
    {
-    "w": "sap",
+    "w": "nap",
     "p": [
-     "s",
-     "a",
+     "n",
+     "ae",
      "p"
     ],
-    "ipa": "sˈæp",
+    "ipa": "nˈæp",
     "cell": "onset+vowel"
    }
   ],
@@ -696,7 +629,7 @@
    "w": "sip",
    "p": [
     "s",
-    "i",
+    "ih",
     "p"
    ],
    "ipa": "sˈɪp",
@@ -704,33 +637,33 @@
   },
   "foils": [
    {
-    "w": "tip",
+    "w": "pip",
     "p": [
-     "t",
-     "i",
+     "p",
+     "ih",
      "p"
     ],
-    "ipa": "tˈɪp",
+    "ipa": "pˈɪp",
     "cell": "onset"
    },
    {
     "w": "sap",
     "p": [
      "s",
-     "a",
+     "ae",
      "p"
     ],
     "ipa": "sˈæp",
     "cell": "vowel"
    },
    {
-    "w": "tap",
+    "w": "pap",
     "p": [
-     "t",
-     "a",
+     "p",
+     "ae",
      "p"
     ],
-    "ipa": "tˈæp",
+    "ipa": "pˈæp",
     "cell": "onset+vowel"
    }
   ],
@@ -746,7 +679,7 @@
    "w": "sit",
    "p": [
     "s",
-    "i",
+    "ih",
     "t"
    ],
    "ipa": "sˈɪt",
@@ -754,33 +687,33 @@
   },
   "foils": [
    {
-    "w": "pit",
+    "w": "knit",
     "p": [
-     "p",
-     "i",
+     "n",
+     "ih",
      "t"
     ],
-    "ipa": "pˈɪt",
+    "ipa": "nˈɪt",
     "cell": "onset"
    },
    {
     "w": "sat",
     "p": [
      "s",
-     "a",
+     "ae",
      "t"
     ],
     "ipa": "sˈæt",
     "cell": "vowel"
    },
    {
-    "w": "pat",
+    "w": "nat",
     "p": [
-     "p",
-     "a",
+     "n",
+     "ae",
      "t"
     ],
-    "ipa": "pˈæt",
+    "ipa": "nˈæt",
     "cell": "onset+vowel"
    }
   ],
@@ -796,7 +729,7 @@
    "w": "pip",
    "p": [
     "p",
-    "i",
+    "ih",
     "p"
    ],
    "ipa": "pˈɪp",
@@ -807,7 +740,7 @@
     "w": "sip",
     "p": [
      "s",
-     "i",
+     "ih",
      "p"
     ],
     "ipa": "sˈɪp",
@@ -817,7 +750,7 @@
     "w": "pap",
     "p": [
      "p",
-     "a",
+     "ae",
      "p"
     ],
     "ipa": "pˈæp",
@@ -827,7 +760,7 @@
     "w": "sap",
     "p": [
      "s",
-     "a",
+     "ae",
      "p"
     ],
     "ipa": "sˈæp",
@@ -846,7 +779,7 @@
    "w": "pin",
    "p": [
     "p",
-    "i",
+    "ih",
     "n"
    ],
    "ipa": "pˈɪn",
@@ -854,33 +787,33 @@
   },
   "foils": [
    {
-    "w": "sin",
+    "w": "tin",
     "p": [
-     "s",
-     "i",
+     "t",
+     "ih",
      "n"
     ],
-    "ipa": "sˈɪn",
+    "ipa": "tˈɪn",
     "cell": "onset"
    },
    {
-    "w": "pun",
+    "w": "pan",
     "p": [
      "p",
-     "u",
+     "ae",
      "n"
     ],
-    "ipa": "pˈʌn",
+    "ipa": "pˈæn",
     "cell": "vowel"
    },
    {
-    "w": "sun",
+    "w": "tan",
     "p": [
-     "s",
-     "u",
+     "t",
+     "ae",
      "n"
     ],
-    "ipa": "sˈʌn",
+    "ipa": "tˈæn",
     "cell": "onset+vowel"
    }
   ],
@@ -896,7 +829,7 @@
    "w": "nip",
    "p": [
     "n",
-    "i",
+    "ih",
     "p"
    ],
    "ipa": "nˈɪp",
@@ -907,7 +840,7 @@
     "w": "sip",
     "p": [
      "s",
-     "i",
+     "ih",
      "p"
     ],
     "ipa": "sˈɪp",
@@ -917,7 +850,7 @@
     "w": "nap",
     "p": [
      "n",
-     "a",
+     "ae",
      "p"
     ],
     "ipa": "nˈæp",
@@ -927,7 +860,7 @@
     "w": "sap",
     "p": [
      "s",
-     "a",
+     "ae",
      "p"
     ],
     "ipa": "sˈæp",
@@ -946,7 +879,7 @@
    "w": "tan",
    "p": [
     "t",
-    "a",
+    "ae",
     "n"
    ],
    "ipa": "tˈæn",
@@ -957,7 +890,7 @@
     "w": "pan",
     "p": [
      "p",
-     "a",
+     "ae",
      "n"
     ],
     "ipa": "pˈæn",
@@ -967,7 +900,7 @@
     "w": "tin",
     "p": [
      "t",
-     "i",
+     "ih",
      "n"
     ],
     "ipa": "tˈɪn",
@@ -977,7 +910,7 @@
     "w": "pin",
     "p": [
      "p",
-     "i",
+     "ih",
      "n"
     ],
     "ipa": "pˈɪn",
@@ -996,7 +929,7 @@
    "w": "pan",
    "p": [
     "p",
-    "a",
+    "ae",
     "n"
    ],
    "ipa": "pˈæn",
@@ -1007,7 +940,7 @@
     "w": "tan",
     "p": [
      "t",
-     "a",
+     "ae",
      "n"
     ],
     "ipa": "tˈæn",
@@ -1017,7 +950,7 @@
     "w": "pin",
     "p": [
      "p",
-     "i",
+     "ih",
      "n"
     ],
     "ipa": "pˈɪn",
@@ -1027,7 +960,7 @@
     "w": "tin",
     "p": [
      "t",
-     "i",
+     "ih",
      "n"
     ],
     "ipa": "tˈɪn",
@@ -1046,7 +979,7 @@
    "w": "nap",
    "p": [
     "n",
-    "a",
+    "ae",
     "p"
    ],
    "ipa": "nˈæp",
@@ -1054,33 +987,33 @@
   },
   "foils": [
    {
-    "w": "sap",
+    "w": "tap",
     "p": [
-     "s",
-     "a",
+     "t",
+     "ae",
      "p"
     ],
-    "ipa": "sˈæp",
+    "ipa": "tˈæp",
     "cell": "onset"
    },
    {
     "w": "nip",
     "p": [
      "n",
-     "i",
+     "ih",
      "p"
     ],
     "ipa": "nˈɪp",
     "cell": "vowel"
    },
    {
-    "w": "sip",
+    "w": "tip",
     "p": [
-     "s",
-     "i",
+     "t",
+     "ih",
      "p"
     ],
-    "ipa": "sˈɪp",
+    "ipa": "tˈɪp",
     "cell": "onset+vowel"
    }
   ],
@@ -1095,7 +1028,7 @@
   "target": {
    "w": "in",
    "p": [
-    "i",
+    "ih",
     "n"
    ],
    "ipa": "ˈɪn",
@@ -1105,44 +1038,33 @@
    {
     "w": "it",
     "p": [
-     "i",
+     "ih",
      "t"
     ],
     "ipa": "ˈɪt",
     "cell": "final"
    },
    {
-    "w": "an",
-    "p": [
-     "a",
-     "n"
-    ],
-    "ipa": "ˈæn",
-    "cell": "vowel"
-   },
-   {
     "w": "at",
     "p": [
-     "a",
+     "ae",
      "t"
     ],
     "ipa": "ˈæt",
     "cell": "final+vowel"
    }
   ],
-  "axes": [
-   "final",
-   "vowel"
-  ],
+  "axes": [],
   "kind": "real",
-  "relaxed": false
+  "relaxed": false,
+  "early": true
  },
  "nas": {
   "target": {
    "w": "nas",
    "p": [
     "n",
-    "a",
+    "ae",
     "s"
    ],
    "ipa": "nˈæs",
@@ -1150,49 +1072,37 @@
   },
   "foils": [
    {
-    "w": "tass",
-    "p": [
-     "t",
-     "a",
-     "s"
-    ],
-    "ipa": "tˈæs",
-    "cell": "onset"
-   },
-   {
     "w": "niss",
     "p": [
      "n",
-     "i",
+     "ih",
      "s"
     ],
     "ipa": "nˈɪs",
     "cell": "vowel"
    },
    {
-    "w": "tiss",
+    "w": "nin",
     "p": [
-     "t",
-     "i",
-     "s"
+     "n",
+     "ih",
+     "n"
     ],
-    "ipa": "tˈɪs",
-    "cell": "onset+vowel"
+    "ipa": "nˈɪn",
+    "cell": "vowel+coda"
    }
   ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
+  "axes": [],
   "kind": "pseudo",
-  "relaxed": false
+  "relaxed": false,
+  "early": true
  },
  "pas": {
   "target": {
    "w": "pas",
    "p": [
     "p",
-    "a",
+    "ae",
     "s"
    ],
    "ipa": "pˈæs",
@@ -1200,33 +1110,33 @@
   },
   "foils": [
    {
-    "w": "tass",
+    "w": "zass",
     "p": [
-     "t",
-     "a",
+     "z",
+     "ae",
      "s"
     ],
-    "ipa": "tˈæs",
+    "ipa": "zˈæs",
     "cell": "onset"
    },
    {
     "w": "pess",
     "p": [
      "p",
-     "e",
+     "eh",
      "s"
     ],
     "ipa": "pˈɛs",
     "cell": "vowel"
    },
    {
-    "w": "tess",
+    "w": "zess",
     "p": [
-     "t",
-     "e",
+     "z",
+     "eh",
      "s"
     ],
-    "ipa": "tˈɛs",
+    "ipa": "zˈɛs",
     "cell": "onset+vowel"
    }
   ],
@@ -1235,14 +1145,15 @@
    "vowel"
   ],
   "kind": "pseudo",
-  "relaxed": false
+  "relaxed": false,
+  "untaught": true
  },
  "tis": {
   "target": {
    "w": "tis",
    "p": [
     "t",
-    "i",
+    "ih",
     "s"
    ],
    "ipa": "tˈɪs",
@@ -1253,46 +1164,34 @@
     "w": "niss",
     "p": [
      "n",
-     "i",
+     "ih",
      "s"
     ],
     "ipa": "nˈɪs",
     "cell": "onset"
    },
    {
-    "w": "tass",
-    "p": [
-     "t",
-     "a",
-     "s"
-    ],
-    "ipa": "tˈæs",
-    "cell": "vowel"
-   },
-   {
-    "w": "nass",
+    "w": "nin",
     "p": [
      "n",
-     "a",
-     "s"
+     "ih",
+     "n"
     ],
-    "ipa": "nˈæs",
-    "cell": "onset+vowel"
+    "ipa": "nˈɪn",
+    "cell": "onset+coda"
    }
   ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
+  "axes": [],
   "kind": "pseudo",
-  "relaxed": false
+  "relaxed": false,
+  "early": true
  },
  "nis": {
   "target": {
    "w": "nis",
    "p": [
     "n",
-    "i",
+    "ih",
     "s"
    ],
    "ipa": "nˈɪs",
@@ -1303,46 +1202,34 @@
     "w": "tiss",
     "p": [
      "t",
-     "i",
+     "ih",
      "s"
     ],
     "ipa": "tˈɪs",
     "cell": "onset"
    },
    {
-    "w": "nass",
+    "w": "nin",
     "p": [
      "n",
-     "a",
-     "s"
+     "ih",
+     "n"
     ],
-    "ipa": "nˈæs",
-    "cell": "vowel"
-   },
-   {
-    "w": "tass",
-    "p": [
-     "t",
-     "a",
-     "s"
-    ],
-    "ipa": "tˈæs",
-    "cell": "onset+vowel"
+    "ipa": "nˈɪn",
+    "cell": "coda"
    }
   ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
+  "axes": [],
   "kind": "pseudo",
-  "relaxed": false
+  "relaxed": false,
+  "early": true
  },
  "nat": {
   "target": {
    "w": "nat",
    "p": [
     "n",
-    "a",
+    "ae",
     "t"
    ],
    "ipa": "nˈæt",
@@ -1350,33 +1237,33 @@
   },
   "foils": [
    {
-    "w": "sat",
+    "w": "pat",
     "p": [
-     "s",
-     "a",
+     "p",
+     "ae",
      "t"
     ],
-    "ipa": "sˈæt",
+    "ipa": "pˈæt",
     "cell": "onset"
    },
    {
-    "w": "nit",
+    "w": "knit",
     "p": [
      "n",
-     "i",
+     "ih",
      "t"
     ],
     "ipa": "nˈɪt",
     "cell": "vowel"
    },
    {
-    "w": "sit",
+    "w": "pit",
     "p": [
-     "s",
-     "i",
+     "p",
+     "ih",
      "t"
     ],
-    "ipa": "sˈɪt",
+    "ipa": "pˈɪt",
     "cell": "onset+vowel"
    }
   ],
@@ -1391,7 +1278,7 @@
   "target": {
    "w": "am",
    "p": [
-    "a",
+    "ae",
     "m"
    ],
    "ipa": "ˈæm",
@@ -1399,46 +1286,35 @@
   },
   "foils": [
    {
+    "w": "at",
+    "p": [
+     "ae",
+     "t"
+    ],
+    "ipa": "ˈæt",
+    "cell": "final"
+   },
+   {
     "w": "ad",
     "p": [
-     "a",
+     "ae",
      "d"
     ],
     "ipa": "ˈæd",
     "cell": "final"
-   },
-   {
-    "w": "em",
-    "p": [
-     "e",
-     "m"
-    ],
-    "ipa": "ˈɛm",
-    "cell": "vowel"
-   },
-   {
-    "w": "ed",
-    "p": [
-     "e",
-     "d"
-    ],
-    "ipa": "ˈɛd",
-    "cell": "final+vowel"
    }
   ],
-  "axes": [
-   "final",
-   "vowel"
-  ],
+  "axes": [],
   "kind": "real",
-  "relaxed": false
+  "relaxed": false,
+  "early": true
  },
  "sam": {
   "target": {
    "w": "sam",
    "p": [
     "s",
-    "a",
+    "ae",
     "m"
    ],
    "ipa": "sˈæm",
@@ -1446,49 +1322,37 @@
   },
   "foils": [
    {
-    "w": "ram",
-    "p": [
-     "r",
-     "a",
-     "m"
-    ],
-    "ipa": "ɹˈæm",
-    "cell": "onset"
-   },
-   {
     "w": "sim",
     "p": [
      "s",
-     "i",
+     "ih",
      "m"
     ],
     "ipa": "sˈɪm",
     "cell": "vowel"
    },
    {
-    "w": "rim",
+    "w": "sip",
     "p": [
-     "r",
-     "i",
-     "m"
+     "s",
+     "ih",
+     "p"
     ],
-    "ipa": "ɹˈɪm",
-    "cell": "onset+vowel"
+    "ipa": "sˈɪp",
+    "cell": "vowel+coda"
    }
   ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
+  "axes": [],
   "kind": "real",
-  "relaxed": false
+  "relaxed": false,
+  "early": true
  },
  "map": {
   "target": {
    "w": "map",
    "p": [
     "m",
-    "a",
+    "ae",
     "p"
    ],
    "ipa": "mˈæp",
@@ -1496,49 +1360,37 @@
   },
   "foils": [
    {
-    "w": "sap",
+    "w": "pap",
     "p": [
-     "s",
-     "a",
+     "p",
+     "ae",
      "p"
     ],
-    "ipa": "sˈæp",
+    "ipa": "pˈæp",
     "cell": "onset"
    },
    {
-    "w": "mop",
+    "w": "man",
     "p": [
      "m",
-     "o",
-     "p"
+     "ae",
+     "n"
     ],
-    "ipa": "mˈɑp",
-    "cell": "vowel"
-   },
-   {
-    "w": "sop",
-    "p": [
-     "s",
-     "o",
-     "p"
-    ],
-    "ipa": "sˈɑp",
-    "cell": "onset+vowel"
+    "ipa": "mˈæn",
+    "cell": "coda"
    }
   ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
+  "axes": [],
   "kind": "real",
-  "relaxed": false
+  "relaxed": false,
+  "early": true
  },
  "mat": {
   "target": {
    "w": "mat",
    "p": [
     "m",
-    "a",
+    "ae",
     "t"
    ],
    "ipa": "mˈæt",
@@ -1546,49 +1398,37 @@
   },
   "foils": [
    {
-    "w": "sat",
-    "p": [
-     "s",
-     "a",
-     "t"
-    ],
-    "ipa": "sˈæt",
-    "cell": "onset"
-   },
-   {
-    "w": "met",
+    "w": "man",
     "p": [
      "m",
-     "e",
-     "t"
+     "ae",
+     "n"
     ],
-    "ipa": "mˈɛt",
-    "cell": "vowel"
+    "ipa": "mˈæn",
+    "cell": "coda"
    },
    {
-    "w": "set",
+    "w": "dan",
     "p": [
-     "s",
-     "e",
-     "t"
+     "d",
+     "ae",
+     "n"
     ],
-    "ipa": "sˈɛt",
-    "cell": "onset+vowel"
+    "ipa": "dˈæn",
+    "cell": "onset+coda"
    }
   ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
+  "axes": [],
   "kind": "real",
-  "relaxed": false
+  "relaxed": false,
+  "early": true
  },
  "man": {
   "target": {
    "w": "man",
    "p": [
     "m",
-    "a",
+    "ae",
     "n"
    ],
    "ipa": "mˈæn",
@@ -1599,7 +1439,7 @@
     "w": "tan",
     "p": [
      "t",
-     "a",
+     "ae",
      "n"
     ],
     "ipa": "tˈæn",
@@ -1609,7 +1449,7 @@
     "w": "min",
     "p": [
      "m",
-     "i",
+     "ih",
      "n"
     ],
     "ipa": "mˈɪn",
@@ -1619,7 +1459,7 @@
     "w": "tin",
     "p": [
      "t",
-     "i",
+     "ih",
      "n"
     ],
     "ipa": "tˈɪn",
@@ -1638,7 +1478,7 @@
    "w": "mad",
    "p": [
     "m",
-    "a",
+    "ae",
     "d"
    ],
    "ipa": "mˈæd",
@@ -1646,33 +1486,33 @@
   },
   "foils": [
    {
-    "w": "sad",
+    "w": "dad",
     "p": [
-     "s",
-     "a",
+     "d",
+     "ae",
      "d"
     ],
-    "ipa": "sˈæd",
+    "ipa": "dˈæd",
     "cell": "onset"
    },
    {
-    "w": "mod",
+    "w": "mid",
     "p": [
      "m",
-     "o",
+     "ih",
      "d"
     ],
-    "ipa": "mˈɑd",
+    "ipa": "mˈɪd",
     "cell": "vowel"
    },
    {
-    "w": "sod",
+    "w": "did",
     "p": [
-     "s",
-     "o",
+     "d",
+     "ih",
      "d"
     ],
-    "ipa": "sˈɑd",
+    "ipa": "dˈɪd",
     "cell": "onset+vowel"
    }
   ],
@@ -1688,7 +1528,7 @@
    "w": "dad",
    "p": [
     "d",
-    "a",
+    "ae",
     "d"
    ],
    "ipa": "dˈæd",
@@ -1699,7 +1539,7 @@
     "w": "mad",
     "p": [
      "m",
-     "a",
+     "ae",
      "d"
     ],
     "ipa": "mˈæd",
@@ -1709,7 +1549,7 @@
     "w": "did",
     "p": [
      "d",
-     "i",
+     "ih",
      "d"
     ],
     "ipa": "dˈɪd",
@@ -1719,7 +1559,7 @@
     "w": "mid",
     "p": [
      "m",
-     "i",
+     "ih",
      "d"
     ],
     "ipa": "mˈɪd",
@@ -1738,7 +1578,7 @@
    "w": "dip",
    "p": [
     "d",
-    "i",
+    "ih",
     "p"
    ],
    "ipa": "dˈɪp",
@@ -1746,49 +1586,37 @@
   },
   "foils": [
    {
-    "w": "sip",
-    "p": [
-     "s",
-     "i",
-     "p"
-    ],
-    "ipa": "sˈɪp",
-    "cell": "onset"
-   },
-   {
-    "w": "dap",
+    "w": "din",
     "p": [
      "d",
-     "a",
-     "p"
+     "ih",
+     "n"
     ],
-    "ipa": "dˈæp",
-    "cell": "vowel"
+    "ipa": "dˈɪn",
+    "cell": "coda"
    },
    {
-    "w": "sap",
+    "w": "pin",
     "p": [
-     "s",
-     "a",
-     "p"
+     "p",
+     "ih",
+     "n"
     ],
-    "ipa": "sˈæp",
-    "cell": "onset+vowel"
+    "ipa": "pˈɪn",
+    "cell": "onset+coda"
    }
   ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
+  "axes": [],
   "kind": "real",
-  "relaxed": true
+  "relaxed": false,
+  "early": true
  },
  "dam": {
   "target": {
    "w": "dam",
    "p": [
     "d",
-    "a",
+    "ae",
     "m"
    ],
    "ipa": "dˈæm",
@@ -1796,33 +1624,33 @@
   },
   "foils": [
    {
-    "w": "ram",
+    "w": "sam",
     "p": [
-     "r",
-     "a",
+     "s",
+     "ae",
      "m"
     ],
-    "ipa": "ɹˈæm",
+    "ipa": "sˈæm",
     "cell": "onset"
    },
    {
     "w": "dim",
     "p": [
      "d",
-     "i",
+     "ih",
      "m"
     ],
     "ipa": "dˈɪm",
     "cell": "vowel"
    },
    {
-    "w": "rim",
+    "w": "sim",
     "p": [
-     "r",
-     "i",
+     "s",
+     "ih",
      "m"
     ],
-    "ipa": "ɹˈɪm",
+    "ipa": "sˈɪm",
     "cell": "onset+vowel"
    }
   ],
@@ -1838,7 +1666,7 @@
    "w": "sad",
    "p": [
     "s",
-    "a",
+    "ae",
     "d"
    ],
    "ipa": "sˈæd",
@@ -1846,33 +1674,33 @@
   },
   "foils": [
    {
-    "w": "pad",
+    "w": "mad",
     "p": [
-     "p",
-     "a",
+     "m",
+     "ae",
      "d"
     ],
-    "ipa": "pˈæd",
+    "ipa": "mˈæd",
     "cell": "onset"
    },
    {
-    "w": "sod",
+    "w": "sid",
     "p": [
      "s",
-     "o",
+     "ih",
      "d"
     ],
-    "ipa": "sˈɑd",
+    "ipa": "sˈɪd",
     "cell": "vowel"
    },
    {
-    "w": "pod",
+    "w": "mid",
     "p": [
-     "p",
-     "o",
+     "m",
+     "ih",
      "d"
     ],
-    "ipa": "pˈɑd",
+    "ipa": "mˈɪd",
     "cell": "onset+vowel"
    }
   ],
@@ -1887,7 +1715,7 @@
   "target": {
    "w": "it",
    "p": [
-    "i",
+    "ih",
     "t"
    ],
    "ipa": "ˈɪt",
@@ -1895,46 +1723,35 @@
   },
   "foils": [
    {
-    "w": "in",
-    "p": [
-     "i",
-     "n"
-    ],
-    "ipa": "ˈɪn",
-    "cell": "final"
-   },
-   {
     "w": "at",
     "p": [
-     "a",
+     "ae",
      "t"
     ],
     "ipa": "ˈæt",
     "cell": "vowel"
    },
    {
-    "w": "an",
+    "w": "in",
     "p": [
-     "a",
+     "ih",
      "n"
     ],
-    "ipa": "ˈæn",
-    "cell": "final+vowel"
+    "ipa": "ˈɪn",
+    "cell": "final"
    }
   ],
-  "axes": [
-   "final",
-   "vowel"
-  ],
+  "axes": [],
   "kind": "real",
-  "relaxed": false
+  "relaxed": false,
+  "early": true
  },
  "dim": {
   "target": {
    "w": "dim",
    "p": [
     "d",
-    "i",
+    "ih",
     "m"
    ],
    "ipa": "dˈɪm",
@@ -1942,49 +1759,37 @@
   },
   "foils": [
    {
-    "w": "sim",
-    "p": [
-     "s",
-     "i",
-     "m"
-    ],
-    "ipa": "sˈɪm",
-    "cell": "onset"
-   },
-   {
-    "w": "dam",
+    "w": "din",
     "p": [
      "d",
-     "a",
-     "m"
+     "ih",
+     "n"
     ],
-    "ipa": "dˈæm",
-    "cell": "vowel"
+    "ipa": "dˈɪn",
+    "cell": "coda"
    },
    {
-    "w": "sam",
+    "w": "min",
     "p": [
-     "s",
-     "a",
-     "m"
+     "m",
+     "ih",
+     "n"
     ],
-    "ipa": "sˈæm",
-    "cell": "onset+vowel"
+    "ipa": "mˈɪn",
+    "cell": "onset+coda"
    }
   ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
+  "axes": [],
   "kind": "real",
-  "relaxed": true
+  "relaxed": false,
+  "early": true
  },
  "mip": {
   "target": {
    "w": "mip",
    "p": [
     "m",
-    "i",
+    "ih",
     "p"
    ],
    "ipa": "mˈɪp",
@@ -1992,49 +1797,38 @@
   },
   "foils": [
    {
-    "w": "gip",
-    "p": [
-     "g",
-     "i",
-     "p"
-    ],
-    "ipa": "ɡˈɪp",
-    "cell": "onset"
-   },
-   {
     "w": "mep",
     "p": [
      "m",
-     "e",
+     "eh",
      "p"
     ],
     "ipa": "mˈɛp",
     "cell": "vowel"
    },
    {
-    "w": "gep",
+    "w": "mezz",
     "p": [
-     "g",
-     "e",
-     "p"
+     "m",
+     "eh",
+     "z"
     ],
-    "ipa": "ɡˈɛp",
-    "cell": "onset+vowel"
+    "ipa": "mˈɛz",
+    "cell": "vowel+coda"
    }
   ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
+  "axes": [],
   "kind": "pseudo",
-  "relaxed": false
+  "relaxed": false,
+  "early": true,
+  "untaught": true
  },
  "nad": {
   "target": {
    "w": "nad",
    "p": [
     "n",
-    "a",
+    "ae",
     "d"
    ],
    "ipa": "nˈæd",
@@ -2042,49 +1836,37 @@
   },
   "foils": [
    {
-    "w": "rad",
-    "p": [
-     "r",
-     "a",
-     "d"
-    ],
-    "ipa": "ɹˈæd",
-    "cell": "onset"
-   },
-   {
-    "w": "nud",
+    "w": "nid",
     "p": [
      "n",
-     "u",
+     "ih",
      "d"
     ],
-    "ipa": "nˈʌd",
+    "ipa": "nˈɪd",
     "cell": "vowel"
    },
    {
-    "w": "rud",
+    "w": "tid",
     "p": [
-     "r",
-     "u",
+     "t",
+     "ih",
      "d"
     ],
-    "ipa": "ɹˈʌd",
+    "ipa": "tˈɪd",
     "cell": "onset+vowel"
    }
   ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
+  "axes": [],
   "kind": "pseudo",
-  "relaxed": false
+  "relaxed": false,
+  "early": true
  },
  "dap": {
   "target": {
    "w": "dap",
    "p": [
     "d",
-    "a",
+    "ae",
     "p"
    ],
    "ipa": "dˈæp",
@@ -2092,33 +1874,33 @@
   },
   "foils": [
    {
-    "w": "hap",
+    "w": "wap",
     "p": [
-     "h",
-     "a",
+     "w",
+     "ae",
      "p"
     ],
-    "ipa": "hˈæp",
+    "ipa": "wˈæp",
     "cell": "onset"
    },
    {
     "w": "dup",
     "p": [
      "d",
-     "u",
+     "ah",
      "p"
     ],
     "ipa": "dˈʌp",
     "cell": "vowel"
    },
    {
-    "w": "hup",
+    "w": "wup",
     "p": [
-     "h",
-     "u",
+     "w",
+     "ah",
      "p"
     ],
-    "ipa": "hˈʌp",
+    "ipa": "wˈʌp",
     "cell": "onset+vowel"
    }
   ],
@@ -2127,14 +1909,15 @@
    "vowel"
   ],
   "kind": "pseudo",
-  "relaxed": false
+  "relaxed": false,
+  "untaught": true
  },
  "tid": {
   "target": {
    "w": "tid",
    "p": [
     "t",
-    "i",
+    "ih",
     "d"
    ],
    "ipa": "tˈɪd",
@@ -2142,49 +1925,37 @@
   },
   "foils": [
    {
-    "w": "sid",
+    "w": "pid",
     "p": [
-     "s",
-     "i",
+     "p",
+     "ih",
      "d"
     ],
-    "ipa": "sˈɪd",
+    "ipa": "pˈɪd",
     "cell": "onset"
    },
    {
-    "w": "ted",
+    "w": "pim",
     "p": [
-     "t",
-     "e",
-     "d"
+     "p",
+     "ih",
+     "m"
     ],
-    "ipa": "tˈɛd",
-    "cell": "vowel"
-   },
-   {
-    "w": "sed",
-    "p": [
-     "s",
-     "e",
-     "d"
-    ],
-    "ipa": "sˈɛd",
-    "cell": "onset+vowel"
+    "ipa": "pˈɪm",
+    "cell": "onset+coda"
    }
   ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
+  "axes": [],
   "kind": "pseudo",
-  "relaxed": false
+  "relaxed": false,
+  "early": true
  },
  "nam": {
   "target": {
    "w": "nam",
    "p": [
     "n",
-    "a",
+    "ae",
     "m"
    ],
    "ipa": "nˈæm",
@@ -2192,49 +1963,37 @@
   },
   "foils": [
    {
-    "w": "sam",
-    "p": [
-     "s",
-     "a",
-     "m"
-    ],
-    "ipa": "sˈæm",
-    "cell": "onset"
-   },
-   {
-    "w": "nom",
+    "w": "nim",
     "p": [
      "n",
-     "o",
+     "ih",
      "m"
     ],
-    "ipa": "nˈɑm",
+    "ipa": "nˈɪm",
     "cell": "vowel"
    },
    {
-    "w": "som",
+    "w": "niss",
     "p": [
-     "s",
-     "o",
-     "m"
+     "n",
+     "ih",
+     "s"
     ],
-    "ipa": "sˈɑm",
-    "cell": "onset+vowel"
+    "ipa": "nˈɪs",
+    "cell": "vowel+coda"
    }
   ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
+  "axes": [],
   "kind": "pseudo",
-  "relaxed": false
+  "relaxed": false,
+  "early": true
  },
  "pam": {
   "target": {
    "w": "pam",
    "p": [
     "p",
-    "a",
+    "ae",
     "m"
    ],
    "ipa": "pˈæm",
@@ -2242,49 +2001,37 @@
   },
   "foils": [
    {
-    "w": "sam",
-    "p": [
-     "s",
-     "a",
-     "m"
-    ],
-    "ipa": "sˈæm",
-    "cell": "onset"
-   },
-   {
-    "w": "pim",
+    "w": "pap",
     "p": [
      "p",
-     "i",
-     "m"
+     "ae",
+     "p"
     ],
-    "ipa": "pˈɪm",
-    "cell": "vowel"
+    "ipa": "pˈæp",
+    "cell": "coda"
    },
    {
-    "w": "sim",
+    "w": "pan",
     "p": [
-     "s",
-     "i",
-     "m"
+     "p",
+     "ae",
+     "n"
     ],
-    "ipa": "sˈɪm",
-    "cell": "onset+vowel"
+    "ipa": "pˈæn",
+    "cell": "coda"
    }
   ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
+  "axes": [],
   "kind": "real",
-  "relaxed": true
+  "relaxed": false,
+  "early": true
  },
  "dan": {
   "target": {
    "w": "dan",
    "p": [
     "d",
-    "a",
+    "ae",
     "n"
    ],
    "ipa": "dˈæn",
@@ -2292,33 +2039,33 @@
   },
   "foils": [
    {
-    "w": "tan",
+    "w": "man",
     "p": [
-     "t",
-     "a",
+     "m",
+     "ae",
      "n"
     ],
-    "ipa": "tˈæn",
+    "ipa": "mˈæn",
     "cell": "onset"
    },
    {
     "w": "din",
     "p": [
      "d",
-     "i",
+     "ih",
      "n"
     ],
     "ipa": "dˈɪn",
     "cell": "vowel"
    },
    {
-    "w": "tin",
+    "w": "min",
     "p": [
-     "t",
-     "i",
+     "m",
+     "ih",
      "n"
     ],
-    "ipa": "tˈɪn",
+    "ipa": "mˈɪn",
     "cell": "onset+vowel"
    }
   ],
@@ -2329,62 +2076,12 @@
   "kind": "real",
   "relaxed": false
  },
- "gap": {
-  "target": {
-   "w": "gap",
-   "p": [
-    "g",
-    "a",
-    "p"
-   ],
-   "ipa": "ɡˈæp",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "sap",
-    "p": [
-     "s",
-     "a",
-     "p"
-    ],
-    "ipa": "sˈæp",
-    "cell": "onset"
-   },
-   {
-    "w": "gip",
-    "p": [
-     "g",
-     "i",
-     "p"
-    ],
-    "ipa": "ɡˈɪp",
-    "cell": "vowel"
-   },
-   {
-    "w": "sip",
-    "p": [
-     "s",
-     "i",
-     "p"
-    ],
-    "ipa": "sˈɪp",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "real",
-  "relaxed": true
- },
  "tag": {
   "target": {
    "w": "tag",
    "p": [
     "t",
-    "a",
+    "ae",
     "g"
    ],
    "ipa": "tˈæɡ",
@@ -2392,33 +2089,33 @@
   },
   "foils": [
    {
-    "w": "rag",
+    "w": "sag",
     "p": [
-     "r",
-     "a",
+     "s",
+     "ae",
      "g"
     ],
-    "ipa": "ɹˈæɡ",
+    "ipa": "sˈæɡ",
     "cell": "onset"
    },
    {
-    "w": "tug",
+    "w": "tig",
     "p": [
      "t",
-     "u",
+     "ih",
      "g"
     ],
-    "ipa": "tˈʌɡ",
+    "ipa": "tˈɪɡ",
     "cell": "vowel"
    },
    {
-    "w": "rug",
+    "w": "sig",
     "p": [
-     "r",
-     "u",
+     "s",
+     "ih",
      "g"
     ],
-    "ipa": "ɹˈʌɡ",
+    "ipa": "sˈɪɡ",
     "cell": "onset+vowel"
    }
   ],
@@ -2434,7 +2131,7 @@
    "w": "nag",
    "p": [
     "n",
-    "a",
+    "ae",
     "g"
    ],
    "ipa": "nˈæɡ",
@@ -2445,7 +2142,7 @@
     "w": "bag",
     "p": [
      "b",
-     "a",
+     "ae",
      "g"
     ],
     "ipa": "bˈæɡ",
@@ -2455,7 +2152,7 @@
     "w": "neg",
     "p": [
      "n",
-     "e",
+     "eh",
      "g"
     ],
     "ipa": "nˈɛɡ",
@@ -2465,7 +2162,7 @@
     "w": "beg",
     "p": [
      "b",
-     "e",
+     "eh",
      "g"
     ],
     "ipa": "bˈɛɡ",
@@ -2477,14 +2174,15 @@
    "vowel"
   ],
   "kind": "real",
-  "relaxed": false
+  "relaxed": false,
+  "untaught": true
  },
  "sag": {
   "target": {
    "w": "sag",
    "p": [
     "s",
-    "a",
+    "ae",
     "g"
    ],
    "ipa": "sˈæɡ",
@@ -2495,7 +2193,7 @@
     "w": "tag",
     "p": [
      "t",
-     "a",
+     "ae",
      "g"
     ],
     "ipa": "tˈæɡ",
@@ -2505,7 +2203,7 @@
     "w": "sig",
     "p": [
      "s",
-     "i",
+     "ih",
      "g"
     ],
     "ipa": "sˈɪɡ",
@@ -2515,7 +2213,7 @@
     "w": "tig",
     "p": [
      "t",
-     "i",
+     "ih",
      "g"
     ],
     "ipa": "tˈɪɡ",
@@ -2527,14 +2225,14 @@
    "vowel"
   ],
   "kind": "real",
-  "relaxed": true
+  "relaxed": false
  },
  "gas": {
   "target": {
    "w": "gas",
    "p": [
     "g",
-    "a",
+    "ae",
     "s"
    ],
    "ipa": "ɡˈæs",
@@ -2542,33 +2240,33 @@
   },
   "foils": [
    {
-    "w": "sass",
+    "w": "mass",
     "p": [
-     "s",
-     "a",
+     "m",
+     "ae",
      "s"
     ],
-    "ipa": "sˈæs",
+    "ipa": "mˈæs",
     "cell": "onset"
    },
    {
-    "w": "giss",
+    "w": "guess",
     "p": [
      "g",
-     "i",
+     "eh",
      "s"
     ],
-    "ipa": "ɡˈɪs",
+    "ipa": "ɡˈɛs",
     "cell": "vowel"
    },
    {
-    "w": "sis",
+    "w": "mess",
     "p": [
-     "s",
-     "i",
+     "m",
+     "eh",
      "s"
     ],
-    "ipa": "sˈɪs",
+    "ipa": "mˈɛs",
     "cell": "onset+vowel"
    }
   ],
@@ -2577,14 +2275,15 @@
    "vowel"
   ],
   "kind": "real",
-  "relaxed": true
+  "relaxed": false,
+  "untaught": true
  },
  "got": {
   "target": {
    "w": "got",
    "p": [
     "g",
-    "o",
+    "aa",
     "t"
    ],
    "ipa": "ɡˈɑt",
@@ -2592,33 +2291,33 @@
   },
   "foils": [
    {
-    "w": "sot",
+    "w": "knot",
     "p": [
-     "s",
-     "o",
+     "n",
+     "aa",
      "t"
     ],
-    "ipa": "sˈɑt",
+    "ipa": "nˈɑt",
     "cell": "onset"
    },
    {
-    "w": "get",
+    "w": "gut",
     "p": [
      "g",
-     "e",
+     "ah",
      "t"
     ],
-    "ipa": "ɡˈɛt",
+    "ipa": "ɡˈʌt",
     "cell": "vowel"
    },
    {
-    "w": "set",
+    "w": "nut",
     "p": [
-     "s",
-     "e",
+     "n",
+     "ah",
      "t"
     ],
-    "ipa": "sˈɛt",
+    "ipa": "nˈʌt",
     "cell": "onset+vowel"
    }
   ],
@@ -2627,48 +2326,49 @@
    "vowel"
   ],
   "kind": "real",
-  "relaxed": false
+  "relaxed": false,
+  "untaught": true
  },
  "dog": {
   "target": {
    "w": "dog",
    "p": [
     "d",
-    "o",
+    "ao",
     "g"
    ],
-   "ipa": "dˈɑɡ",
+   "ipa": "dˈɔɡ",
    "cell": "target"
   },
   "foils": [
    {
-    "w": "tog",
+    "w": "log",
     "p": [
-     "t",
-     "o",
+     "l",
+     "ao",
      "g"
     ],
-    "ipa": "tˈɑɡ",
+    "ipa": "lˈɔɡ",
     "cell": "onset"
    },
    {
     "w": "dug",
     "p": [
      "d",
-     "u",
+     "ah",
      "g"
     ],
     "ipa": "dˈʌɡ",
     "cell": "vowel"
    },
    {
-    "w": "tug",
+    "w": "lug",
     "p": [
-     "t",
-     "u",
+     "l",
+     "ah",
      "g"
     ],
-    "ipa": "tˈʌɡ",
+    "ipa": "lˈʌɡ",
     "cell": "onset+vowel"
    }
   ],
@@ -2677,14 +2377,15 @@
    "vowel"
   ],
   "kind": "real",
-  "relaxed": false
+  "relaxed": false,
+  "untaught": true
  },
  "top": {
   "target": {
    "w": "top",
    "p": [
     "t",
-    "o",
+    "aa",
     "p"
    ],
    "ipa": "tˈɑp",
@@ -2692,33 +2393,33 @@
   },
   "foils": [
    {
-    "w": "sop",
+    "w": "mop",
     "p": [
-     "s",
-     "o",
+     "m",
+     "aa",
      "p"
     ],
-    "ipa": "sˈɑp",
+    "ipa": "mˈɑp",
     "cell": "onset"
    },
    {
     "w": "tap",
     "p": [
      "t",
-     "a",
+     "ae",
      "p"
     ],
     "ipa": "tˈæp",
     "cell": "vowel"
    },
    {
-    "w": "sap",
+    "w": "map",
     "p": [
-     "s",
-     "a",
+     "m",
+     "ae",
      "p"
     ],
-    "ipa": "sˈæp",
+    "ipa": "mˈæp",
     "cell": "onset+vowel"
    }
   ],
@@ -2734,7 +2435,7 @@
    "w": "pot",
    "p": [
     "p",
-    "o",
+    "aa",
     "t"
    ],
    "ipa": "pˈɑt",
@@ -2742,33 +2443,33 @@
   },
   "foils": [
    {
-    "w": "sot",
+    "w": "tot",
     "p": [
-     "s",
-     "o",
+     "t",
+     "aa",
      "t"
     ],
-    "ipa": "sˈɑt",
+    "ipa": "tˈɑt",
     "cell": "onset"
    },
    {
     "w": "pat",
     "p": [
      "p",
-     "a",
+     "ae",
      "t"
     ],
     "ipa": "pˈæt",
     "cell": "vowel"
    },
    {
-    "w": "sat",
+    "w": "tat",
     "p": [
-     "s",
-     "a",
+     "t",
+     "ae",
      "t"
     ],
-    "ipa": "sˈæt",
+    "ipa": "tˈæt",
     "cell": "onset+vowel"
    }
   ],
@@ -2778,97 +2479,47 @@
   ],
   "kind": "real",
   "relaxed": false
- },
- "nod": {
-  "target": {
-   "w": "nod",
-   "p": [
-    "n",
-    "o",
-    "d"
-   ],
-   "ipa": "nˈɑd",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "sod",
-    "p": [
-     "s",
-     "o",
-     "d"
-    ],
-    "ipa": "sˈɑd",
-    "cell": "onset"
-   },
-   {
-    "w": "nad",
-    "p": [
-     "n",
-     "a",
-     "d"
-    ],
-    "ipa": "nˈæd",
-    "cell": "vowel"
-   },
-   {
-    "w": "sad",
-    "p": [
-     "s",
-     "a",
-     "d"
-    ],
-    "ipa": "sˈæd",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "real",
-  "relaxed": true
  },
  "log": {
   "target": {
    "w": "log",
    "p": [
     "l",
-    "o",
+    "ao",
     "g"
    ],
-   "ipa": "lˈɑɡ",
+   "ipa": "lˈɔɡ",
    "cell": "target"
   },
   "foils": [
    {
-    "w": "tog",
+    "w": "cog",
     "p": [
-     "t",
-     "o",
+     "k",
+     "ao",
      "g"
     ],
-    "ipa": "tˈɑɡ",
+    "ipa": "kˈɔɡ",
     "cell": "onset"
    },
    {
-    "w": "lag",
+    "w": "leg",
     "p": [
      "l",
-     "a",
+     "eh",
      "g"
     ],
-    "ipa": "lˈæɡ",
+    "ipa": "lˈɛɡ",
     "cell": "vowel"
    },
    {
-    "w": "tag",
+    "w": "keg",
     "p": [
-     "t",
-     "a",
+     "k",
+     "eh",
      "g"
     ],
-    "ipa": "tˈæɡ",
+    "ipa": "kˈɛɡ",
     "cell": "onset+vowel"
    }
   ],
@@ -2877,14 +2528,15 @@
    "vowel"
   ],
   "kind": "real",
-  "relaxed": false
+  "relaxed": false,
+  "untaught": true
  },
  "mop": {
   "target": {
    "w": "mop",
    "p": [
     "m",
-    "o",
+    "aa",
     "p"
    ],
    "ipa": "mˈɑp",
@@ -2895,7 +2547,7 @@
     "w": "sop",
     "p": [
      "s",
-     "o",
+     "aa",
      "p"
     ],
     "ipa": "sˈɑp",
@@ -2905,7 +2557,7 @@
     "w": "map",
     "p": [
      "m",
-     "a",
+     "ae",
      "p"
     ],
     "ipa": "mˈæp",
@@ -2915,7 +2567,7 @@
     "w": "sap",
     "p": [
      "s",
-     "a",
+     "ae",
      "p"
     ],
     "ipa": "sˈæp",
@@ -2934,7 +2586,7 @@
    "w": "dot",
    "p": [
     "d",
-    "o",
+    "aa",
     "t"
    ],
    "ipa": "dˈɑt",
@@ -2942,33 +2594,33 @@
   },
   "foils": [
    {
-    "w": "sot",
+    "w": "knot",
     "p": [
-     "s",
-     "o",
+     "n",
+     "aa",
      "t"
     ],
-    "ipa": "sˈɑt",
+    "ipa": "nˈɑt",
     "cell": "onset"
    },
    {
     "w": "dat",
     "p": [
      "d",
-     "a",
+     "ae",
      "t"
     ],
     "ipa": "dˈæt",
     "cell": "vowel"
    },
    {
-    "w": "sat",
+    "w": "nat",
     "p": [
-     "s",
-     "a",
+     "n",
+     "ae",
      "t"
     ],
-    "ipa": "sˈæt",
+    "ipa": "nˈæt",
     "cell": "onset+vowel"
    }
   ],
@@ -2977,14 +2629,14 @@
    "vowel"
   ],
   "kind": "real",
-  "relaxed": true
+  "relaxed": false
  },
  "dop": {
   "target": {
    "w": "dop",
    "p": [
     "d",
-    "o",
+    "aa",
     "p"
    ],
    "ipa": "dˈɑp",
@@ -2992,33 +2644,33 @@
   },
   "foils": [
    {
-    "w": "nop",
+    "w": "zop",
     "p": [
-     "n",
-     "o",
+     "z",
+     "aa",
      "p"
     ],
-    "ipa": "nˈɑp",
+    "ipa": "zˈɑp",
     "cell": "onset"
    },
    {
-    "w": "dep",
+    "w": "dup",
     "p": [
      "d",
-     "e",
+     "ah",
      "p"
     ],
-    "ipa": "dˈɛp",
+    "ipa": "dˈʌp",
     "cell": "vowel"
    },
    {
-    "w": "nep",
+    "w": "zup",
     "p": [
-     "n",
-     "e",
+     "z",
+     "ah",
      "p"
     ],
-    "ipa": "nˈɛp",
+    "ipa": "zˈʌp",
     "cell": "onset+vowel"
    }
   ],
@@ -3027,14 +2679,15 @@
    "vowel"
   ],
   "kind": "pseudo",
-  "relaxed": false
+  "relaxed": false,
+  "untaught": true
  },
  "gid": {
   "target": {
    "w": "gid",
    "p": [
     "g",
-    "i",
+    "ih",
     "d"
    ],
    "ipa": "ɡˈɪd",
@@ -3042,33 +2695,33 @@
   },
   "foils": [
    {
-    "w": "sid",
+    "w": "yid",
     "p": [
-     "s",
-     "i",
+     "y",
+     "ih",
      "d"
     ],
-    "ipa": "sˈɪd",
+    "ipa": "jˈɪd",
     "cell": "onset"
    },
    {
-    "w": "ged",
+    "w": "gud",
     "p": [
      "g",
-     "e",
+     "ah",
      "d"
     ],
-    "ipa": "ɡˈɛd",
+    "ipa": "ɡˈʌd",
     "cell": "vowel"
    },
    {
-    "w": "sed",
+    "w": "yud",
     "p": [
-     "s",
-     "e",
+     "y",
+     "ah",
      "d"
     ],
-    "ipa": "sˈɛd",
+    "ipa": "jˈʌd",
     "cell": "onset+vowel"
    }
   ],
@@ -3077,14 +2730,15 @@
    "vowel"
   ],
   "kind": "pseudo",
-  "relaxed": false
+  "relaxed": false,
+  "untaught": true
  },
  "pog": {
   "target": {
    "w": "pog",
    "p": [
     "p",
-    "o",
+    "aa",
     "g"
    ],
    "ipa": "pˈɑɡ",
@@ -3092,33 +2746,33 @@
   },
   "foils": [
    {
-    "w": "mog",
+    "w": "yog",
     "p": [
-     "m",
-     "o",
+     "y",
+     "aa",
      "g"
     ],
-    "ipa": "mˈɑɡ",
+    "ipa": "jˈɑɡ",
     "cell": "onset"
    },
    {
     "w": "pag",
     "p": [
      "p",
-     "a",
+     "ae",
      "g"
     ],
     "ipa": "pˈæɡ",
     "cell": "vowel"
    },
    {
-    "w": "mag",
+    "w": "yag",
     "p": [
-     "m",
-     "a",
+     "y",
+     "ae",
      "g"
     ],
-    "ipa": "mˈæɡ",
+    "ipa": "jˈæɡ",
     "cell": "onset+vowel"
    }
   ],
@@ -3127,14 +2781,15 @@
    "vowel"
   ],
   "kind": "pseudo",
-  "relaxed": false
+  "relaxed": false,
+  "untaught": true
  },
  "mig": {
   "target": {
    "w": "mig",
    "p": [
     "m",
-    "i",
+    "ih",
     "g"
    ],
    "ipa": "mˈɪɡ",
@@ -3142,33 +2797,33 @@
   },
   "foils": [
    {
-    "w": "sig",
+    "w": "yig",
     "p": [
-     "s",
-     "i",
+     "y",
+     "ih",
      "g"
     ],
-    "ipa": "sˈɪɡ",
+    "ipa": "jˈɪɡ",
     "cell": "onset"
    },
    {
     "w": "mog",
     "p": [
      "m",
-     "o",
+     "aa",
      "g"
     ],
     "ipa": "mˈɑɡ",
     "cell": "vowel"
    },
    {
-    "w": "sog",
+    "w": "yog",
     "p": [
-     "s",
-     "o",
+     "y",
+     "aa",
      "g"
     ],
-    "ipa": "sˈɑɡ",
+    "ipa": "jˈɑɡ",
     "cell": "onset+vowel"
    }
   ],
@@ -3177,14 +2832,15 @@
    "vowel"
   ],
   "kind": "pseudo",
-  "relaxed": false
+  "relaxed": false,
+  "untaught": true
  },
  "sog": {
   "target": {
    "w": "sog",
    "p": [
     "s",
-    "o",
+    "aa",
     "g"
    ],
    "ipa": "sˈɑɡ",
@@ -3195,30 +2851,30 @@
     "w": "nog",
     "p": [
      "n",
-     "o",
+     "aa",
      "g"
     ],
     "ipa": "nˈɑɡ",
     "cell": "onset"
    },
    {
-    "w": "sig",
+    "w": "sug",
     "p": [
      "s",
-     "i",
+     "ah",
      "g"
     ],
-    "ipa": "sˈɪɡ",
+    "ipa": "sˈʌɡ",
     "cell": "vowel"
    },
    {
-    "w": "nig",
+    "w": "nug",
     "p": [
      "n",
-     "i",
+     "ah",
      "g"
     ],
-    "ipa": "nˈɪɡ",
+    "ipa": "nˈʌɡ",
     "cell": "onset+vowel"
    }
   ],
@@ -3227,14 +2883,15 @@
    "vowel"
   ],
   "kind": "pseudo",
-  "relaxed": false
+  "relaxed": false,
+  "untaught": true
  },
  "cat": {
   "target": {
    "w": "cat",
    "p": [
     "k",
-    "a",
+    "ae",
     "t"
    ],
    "ipa": "kˈæt",
@@ -3245,7 +2902,7 @@
     "w": "sat",
     "p": [
      "s",
-     "a",
+     "ae",
      "t"
     ],
     "ipa": "sˈæt",
@@ -3255,7 +2912,7 @@
     "w": "kit",
     "p": [
      "k",
-     "i",
+     "ih",
      "t"
     ],
     "ipa": "kˈɪt",
@@ -3265,7 +2922,7 @@
     "w": "sit",
     "p": [
      "s",
-     "i",
+     "ih",
      "t"
     ],
     "ipa": "sˈɪt",
@@ -3284,7 +2941,7 @@
    "w": "cot",
    "p": [
     "k",
-    "o",
+    "aa",
     "t"
    ],
    "ipa": "kˈɑt",
@@ -3292,33 +2949,33 @@
   },
   "foils": [
    {
-    "w": "sot",
+    "w": "knot",
     "p": [
-     "s",
-     "o",
+     "n",
+     "aa",
      "t"
     ],
-    "ipa": "sˈɑt",
+    "ipa": "nˈɑt",
     "cell": "onset"
    },
    {
-    "w": "cat",
+    "w": "kit",
     "p": [
      "k",
-     "a",
+     "ih",
      "t"
     ],
-    "ipa": "kˈæt",
+    "ipa": "kˈɪt",
     "cell": "vowel"
    },
    {
-    "w": "sat",
+    "w": "knit",
     "p": [
-     "s",
-     "a",
+     "n",
+     "ih",
      "t"
     ],
-    "ipa": "sˈæt",
+    "ipa": "nˈɪt",
     "cell": "onset+vowel"
    }
   ],
@@ -3334,7 +2991,7 @@
    "w": "cop",
    "p": [
     "k",
-    "o",
+    "aa",
     "p"
    ],
    "ipa": "kˈɑp",
@@ -3345,7 +3002,7 @@
     "w": "sop",
     "p": [
      "s",
-     "o",
+     "aa",
      "p"
     ],
     "ipa": "sˈɑp",
@@ -3355,7 +3012,7 @@
     "w": "cap",
     "p": [
      "k",
-     "a",
+     "ae",
      "p"
     ],
     "ipa": "kˈæp",
@@ -3365,7 +3022,7 @@
     "w": "sap",
     "p": [
      "s",
-     "a",
+     "ae",
      "p"
     ],
     "ipa": "sˈæp",
@@ -3384,7 +3041,7 @@
    "w": "cap",
    "p": [
     "k",
-    "a",
+    "ae",
     "p"
    ],
    "ipa": "kˈæp",
@@ -3395,7 +3052,7 @@
     "w": "sap",
     "p": [
      "s",
-     "a",
+     "ae",
      "p"
     ],
     "ipa": "sˈæp",
@@ -3405,7 +3062,7 @@
     "w": "cop",
     "p": [
      "k",
-     "o",
+     "aa",
      "p"
     ],
     "ipa": "kˈɑp",
@@ -3415,7 +3072,7 @@
     "w": "sop",
     "p": [
      "s",
-     "o",
+     "aa",
      "p"
     ],
     "ipa": "sˈɑp",
@@ -3434,7 +3091,7 @@
    "w": "can",
    "p": [
     "k",
-    "a",
+    "ae",
     "n"
    ],
    "ipa": "kˈæn",
@@ -3445,7 +3102,7 @@
     "w": "tan",
     "p": [
      "t",
-     "a",
+     "ae",
      "n"
     ],
     "ipa": "tˈæn",
@@ -3455,7 +3112,7 @@
     "w": "kin",
     "p": [
      "k",
-     "i",
+     "ih",
      "n"
     ],
     "ipa": "kˈɪn",
@@ -3465,7 +3122,7 @@
     "w": "tin",
     "p": [
      "t",
-     "i",
+     "ih",
      "n"
     ],
     "ipa": "tˈɪn",
@@ -3484,7 +3141,7 @@
    "w": "kid",
    "p": [
     "k",
-    "i",
+    "ih",
     "d"
    ],
    "ipa": "kˈɪd",
@@ -3492,33 +3149,33 @@
   },
   "foils": [
    {
-    "w": "mid",
+    "w": "did",
     "p": [
-     "m",
-     "i",
+     "d",
+     "ih",
      "d"
     ],
-    "ipa": "mˈɪd",
+    "ipa": "dˈɪd",
     "cell": "onset"
    },
    {
     "w": "cad",
     "p": [
      "k",
-     "a",
+     "ae",
      "d"
     ],
     "ipa": "kˈæd",
     "cell": "vowel"
    },
    {
-    "w": "mad",
+    "w": "dad",
     "p": [
-     "m",
-     "a",
+     "d",
+     "ae",
      "d"
     ],
-    "ipa": "mˈæd",
+    "ipa": "dˈæd",
     "cell": "onset+vowel"
    }
   ],
@@ -3534,7 +3191,7 @@
    "w": "kit",
    "p": [
     "k",
-    "i",
+    "ih",
     "t"
    ],
    "ipa": "kˈɪt",
@@ -3542,33 +3199,33 @@
   },
   "foils": [
    {
-    "w": "sit",
+    "w": "knit",
     "p": [
-     "s",
-     "i",
+     "n",
+     "ih",
      "t"
     ],
-    "ipa": "sˈɪt",
+    "ipa": "nˈɪt",
     "cell": "onset"
    },
    {
-    "w": "cat",
+    "w": "cot",
     "p": [
      "k",
-     "a",
+     "aa",
      "t"
     ],
-    "ipa": "kˈæt",
+    "ipa": "kˈɑt",
     "cell": "vowel"
    },
    {
-    "w": "sat",
+    "w": "knot",
     "p": [
-     "s",
-     "a",
+     "n",
+     "aa",
      "t"
     ],
-    "ipa": "sˈæt",
+    "ipa": "nˈɑt",
     "cell": "onset+vowel"
    }
   ],
@@ -3584,7 +3241,7 @@
    "w": "kin",
    "p": [
     "k",
-    "i",
+    "ih",
     "n"
    ],
    "ipa": "kˈɪn",
@@ -3592,33 +3249,33 @@
   },
   "foils": [
    {
-    "w": "sin",
+    "w": "din",
     "p": [
-     "s",
-     "i",
+     "d",
+     "ih",
      "n"
     ],
-    "ipa": "sˈɪn",
+    "ipa": "dˈɪn",
     "cell": "onset"
    },
    {
     "w": "con",
     "p": [
      "k",
-     "o",
+     "aa",
      "n"
     ],
     "ipa": "kˈɑn",
     "cell": "vowel"
    },
    {
-    "w": "son",
+    "w": "don",
     "p": [
-     "s",
-     "o",
+     "d",
+     "aa",
      "n"
     ],
-    "ipa": "sˈɑn",
+    "ipa": "dˈɑn",
     "cell": "onset+vowel"
    }
   ],
@@ -3634,7 +3291,7 @@
    "w": "sick",
    "p": [
     "s",
-    "i",
+    "ih",
     "k"
    ],
    "ipa": "sˈɪk",
@@ -3645,7 +3302,7 @@
     "w": "tick",
     "p": [
      "t",
-     "i",
+     "ih",
      "k"
     ],
     "ipa": "tˈɪk",
@@ -3655,7 +3312,7 @@
     "w": "sack",
     "p": [
      "s",
-     "a",
+     "ae",
      "k"
     ],
     "ipa": "sˈæk",
@@ -3665,7 +3322,7 @@
     "w": "tack",
     "p": [
      "t",
-     "a",
+     "ae",
      "k"
     ],
     "ipa": "tˈæk",
@@ -3684,7 +3341,7 @@
    "w": "tack",
    "p": [
     "t",
-    "a",
+    "ae",
     "k"
    ],
    "ipa": "tˈæk",
@@ -3692,33 +3349,33 @@
   },
   "foils": [
    {
-    "w": "sack",
+    "w": "pack",
     "p": [
-     "s",
-     "a",
+     "p",
+     "ae",
      "k"
     ],
-    "ipa": "sˈæk",
+    "ipa": "pˈæk",
     "cell": "onset"
    },
    {
-    "w": "tick",
+    "w": "tock",
     "p": [
      "t",
-     "i",
+     "aa",
      "k"
     ],
-    "ipa": "tˈɪk",
+    "ipa": "tˈɑk",
     "cell": "vowel"
    },
    {
-    "w": "sick",
+    "w": "pock",
     "p": [
-     "s",
-     "i",
+     "p",
+     "aa",
      "k"
     ],
-    "ipa": "sˈɪk",
+    "ipa": "pˈɑk",
     "cell": "onset+vowel"
    }
   ],
@@ -3734,7 +3391,7 @@
    "w": "sack",
    "p": [
     "s",
-    "a",
+    "ae",
     "k"
    ],
    "ipa": "sˈæk",
@@ -3742,33 +3399,33 @@
   },
   "foils": [
    {
-    "w": "tack",
+    "w": "nack",
     "p": [
-     "t",
-     "a",
+     "n",
+     "ae",
      "k"
     ],
-    "ipa": "tˈæk",
+    "ipa": "nˈæk",
     "cell": "onset"
    },
    {
-    "w": "sick",
+    "w": "sock",
     "p": [
      "s",
-     "i",
+     "aa",
      "k"
     ],
-    "ipa": "sˈɪk",
+    "ipa": "sˈɑk",
     "cell": "vowel"
    },
    {
-    "w": "tick",
+    "w": "knock",
     "p": [
-     "t",
-     "i",
+     "n",
+     "aa",
      "k"
     ],
-    "ipa": "tˈɪk",
+    "ipa": "nˈɑk",
     "cell": "onset+vowel"
    }
   ],
@@ -3784,7 +3441,7 @@
    "w": "sock",
    "p": [
     "s",
-    "o",
+    "aa",
     "k"
    ],
    "ipa": "sˈɑk",
@@ -3792,33 +3449,33 @@
   },
   "foils": [
    {
-    "w": "pock",
+    "w": "tock",
     "p": [
-     "p",
-     "o",
+     "t",
+     "aa",
      "k"
     ],
-    "ipa": "pˈɑk",
+    "ipa": "tˈɑk",
     "cell": "onset"
    },
    {
-    "w": "sack",
+    "w": "sick",
     "p": [
      "s",
-     "a",
+     "ih",
      "k"
     ],
-    "ipa": "sˈæk",
+    "ipa": "sˈɪk",
     "cell": "vowel"
    },
    {
-    "w": "pack",
+    "w": "tick",
     "p": [
-     "p",
-     "a",
+     "t",
+     "ih",
      "k"
     ],
-    "ipa": "pˈæk",
+    "ipa": "tˈɪk",
     "cell": "onset+vowel"
    }
   ],
@@ -3834,7 +3491,7 @@
    "w": "dock",
    "p": [
     "d",
-    "o",
+    "aa",
     "k"
    ],
    "ipa": "dˈɑk",
@@ -3842,33 +3499,33 @@
   },
   "foils": [
    {
-    "w": "sock",
+    "w": "lock",
     "p": [
-     "s",
-     "o",
+     "l",
+     "aa",
      "k"
     ],
-    "ipa": "sˈɑk",
+    "ipa": "lˈɑk",
     "cell": "onset"
    },
    {
     "w": "duck",
     "p": [
      "d",
-     "u",
+     "ah",
      "k"
     ],
     "ipa": "dˈʌk",
     "cell": "vowel"
    },
    {
-    "w": "suck",
+    "w": "luck",
     "p": [
-     "s",
-     "u",
+     "l",
+     "ah",
      "k"
     ],
-    "ipa": "sˈʌk",
+    "ipa": "lˈʌk",
     "cell": "onset+vowel"
    }
   ],
@@ -3877,48 +3534,49 @@
    "vowel"
   ],
   "kind": "real",
-  "relaxed": false
+  "relaxed": false,
+  "untaught": true
  },
  "cog": {
   "target": {
    "w": "cog",
    "p": [
     "k",
-    "o",
+    "ao",
     "g"
    ],
-   "ipa": "kˈɑɡ",
+   "ipa": "kˈɔɡ",
    "cell": "target"
   },
   "foils": [
    {
-    "w": "bog",
+    "w": "log",
     "p": [
-     "b",
-     "o",
+     "l",
+     "ao",
      "g"
     ],
-    "ipa": "bˈɑɡ",
+    "ipa": "lˈɔɡ",
     "cell": "onset"
    },
    {
     "w": "keg",
     "p": [
      "k",
-     "e",
+     "eh",
      "g"
     ],
     "ipa": "kˈɛɡ",
     "cell": "vowel"
    },
    {
-    "w": "beg",
+    "w": "leg",
     "p": [
-     "b",
-     "e",
+     "l",
+     "eh",
      "g"
     ],
-    "ipa": "bˈɛɡ",
+    "ipa": "lˈɛɡ",
     "cell": "onset+vowel"
    }
   ],
@@ -3927,14 +3585,15 @@
    "vowel"
   ],
   "kind": "real",
-  "relaxed": false
+  "relaxed": false,
+  "untaught": true
  },
  "pack": {
   "target": {
    "w": "pack",
    "p": [
     "p",
-    "a",
+    "ae",
     "k"
    ],
    "ipa": "pˈæk",
@@ -3942,130 +3601,30 @@
   },
   "foils": [
    {
-    "w": "sack",
+    "w": "nack",
     "p": [
-     "s",
-     "a",
+     "n",
+     "ae",
      "k"
     ],
-    "ipa": "sˈæk",
+    "ipa": "nˈæk",
     "cell": "onset"
    },
    {
-    "w": "pick",
+    "w": "pock",
     "p": [
      "p",
-     "i",
+     "aa",
      "k"
     ],
-    "ipa": "pˈɪk",
+    "ipa": "pˈɑk",
     "cell": "vowel"
    },
    {
-    "w": "sick",
-    "p": [
-     "s",
-     "i",
-     "k"
-    ],
-    "ipa": "sˈɪk",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "real",
-  "relaxed": false
- },
- "cak": {
-  "target": {
-   "w": "cak",
-   "p": [
-    "k",
-    "a",
-    "k"
-   ],
-   "ipa": "kˈæk",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "nack",
+    "w": "knock",
     "p": [
      "n",
-     "a",
-     "k"
-    ],
-    "ipa": "nˈæk",
-    "cell": "onset"
-   },
-   {
-    "w": "cuck",
-    "p": [
-     "k",
-     "u",
-     "k"
-    ],
-    "ipa": "kˈʌk",
-    "cell": "vowel"
-   },
-   {
-    "w": "nuck",
-    "p": [
-     "n",
-     "u",
-     "k"
-    ],
-    "ipa": "nˈʌk",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "pseudo",
-  "relaxed": false
- },
- "gack": {
-  "target": {
-   "w": "gack",
-   "p": [
-    "g",
-    "a",
-    "k"
-   ],
-   "ipa": "ɡˈæk",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "nack",
-    "p": [
-     "n",
-     "a",
-     "k"
-    ],
-    "ipa": "nˈæk",
-    "cell": "onset"
-   },
-   {
-    "w": "gock",
-    "p": [
-     "g",
-     "o",
-     "k"
-    ],
-    "ipa": "ɡˈɑk",
-    "cell": "vowel"
-   },
-   {
-    "w": "nock",
-    "p": [
-     "n",
-     "o",
+     "aa",
      "k"
     ],
     "ipa": "nˈɑk",
@@ -4076,15 +3635,66 @@
    "onset",
    "vowel"
   ],
-  "kind": "pseudo",
+  "kind": "real",
   "relaxed": false
+ },
+ "gack": {
+  "target": {
+   "w": "gack",
+   "p": [
+    "g",
+    "ae",
+    "k"
+   ],
+   "ipa": "ɡˈæk",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "vack",
+    "p": [
+     "v",
+     "ae",
+     "k"
+    ],
+    "ipa": "vˈæk",
+    "cell": "onset"
+   },
+   {
+    "w": "gock",
+    "p": [
+     "g",
+     "aa",
+     "k"
+    ],
+    "ipa": "ɡˈɑk",
+    "cell": "vowel"
+   },
+   {
+    "w": "vock",
+    "p": [
+     "v",
+     "aa",
+     "k"
+    ],
+    "ipa": "vˈɑk",
+    "cell": "onset+vowel"
+   }
+  ],
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "kind": "pseudo",
+  "relaxed": false,
+  "untaught": true
  },
  "cid": {
   "target": {
    "w": "cid",
    "p": [
     "k",
-    "i",
+    "ih",
     "d"
    ],
    "ipa": "kˈɪd",
@@ -4092,33 +3702,33 @@
   },
   "foils": [
    {
-    "w": "sid",
+    "w": "yid",
     "p": [
-     "s",
-     "i",
+     "y",
+     "ih",
      "d"
     ],
-    "ipa": "sˈɪd",
+    "ipa": "jˈɪd",
     "cell": "onset"
    },
    {
-    "w": "ced",
+    "w": "ked",
     "p": [
      "k",
-     "e",
+     "eh",
      "d"
     ],
     "ipa": "kˈɛd",
     "cell": "vowel"
    },
    {
-    "w": "sed",
+    "w": "yed",
     "p": [
-     "s",
-     "e",
+     "y",
+     "eh",
      "d"
     ],
-    "ipa": "sˈɛd",
+    "ipa": "jˈɛd",
     "cell": "onset+vowel"
    }
   ],
@@ -4127,113 +3737,14 @@
    "vowel"
   ],
   "kind": "pseudo",
-  "relaxed": false
- },
- "sok": {
-  "target": {
-   "w": "sok",
-   "p": [
-    "s",
-    "o",
-    "k"
-   ],
-   "ipa": "sˈɑk",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "tock",
-    "p": [
-     "t",
-     "o",
-     "k"
-    ],
-    "ipa": "tˈɑk",
-    "cell": "onset"
-   },
-   {
-    "w": "seck",
-    "p": [
-     "s",
-     "e",
-     "k"
-    ],
-    "ipa": "sˈɛk",
-    "cell": "vowel"
-   },
-   {
-    "w": "teck",
-    "p": [
-     "t",
-     "e",
-     "k"
-    ],
-    "ipa": "tˈɛk",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "pseudo",
-  "relaxed": false
- },
- "dack": {
-  "target": {
-   "w": "dack",
-   "p": [
-    "d",
-    "a",
-    "k"
-   ],
-   "ipa": "dˈæk",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "sack",
-    "p": [
-     "s",
-     "a",
-     "k"
-    ],
-    "ipa": "sˈæk",
-    "cell": "onset"
-   },
-   {
-    "w": "dock",
-    "p": [
-     "d",
-     "o",
-     "k"
-    ],
-    "ipa": "dˈɑk",
-    "cell": "vowel"
-   },
-   {
-    "w": "sock",
-    "p": [
-     "s",
-     "o",
-     "k"
-    ],
-    "ipa": "sˈɑk",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "pseudo",
-  "relaxed": true
+  "relaxed": false,
+  "untaught": true
  },
  "on": {
   "target": {
    "w": "on",
    "p": [
-    "o",
+    "aa",
     "n"
    ],
    "ipa": "ˈɑn",
@@ -4241,30 +3752,30 @@
   },
   "foils": [
    {
-    "w": "off",
+    "w": "oz",
     "p": [
-     "o",
-     "f"
+     "aa",
+     "z"
     ],
-    "ipa": "ˈɑf",
+    "ipa": "ˈɑz",
     "cell": "final"
    },
    {
     "w": "in",
     "p": [
-     "i",
+     "ih",
      "n"
     ],
     "ipa": "ˈɪn",
     "cell": "vowel"
    },
    {
-    "w": "if",
+    "w": "is",
     "p": [
-     "i",
-     "f"
+     "ih",
+     "z"
     ],
-    "ipa": "ˈɪf",
+    "ipa": "ˈɪz",
     "cell": "final+vowel"
    }
   ],
@@ -4273,14 +3784,15 @@
    "vowel"
   ],
   "kind": "real",
-  "relaxed": false
+  "relaxed": false,
+  "untaught": true
  },
  "not": {
   "target": {
    "w": "not",
    "p": [
     "n",
-    "o",
+    "aa",
     "t"
    ],
    "ipa": "nˈɑt",
@@ -4288,33 +3800,33 @@
   },
   "foils": [
    {
-    "w": "sot",
+    "w": "tot",
     "p": [
-     "s",
-     "o",
+     "t",
+     "aa",
      "t"
     ],
-    "ipa": "sˈɑt",
+    "ipa": "tˈɑt",
     "cell": "onset"
    },
    {
-    "w": "nit",
+    "w": "nat",
     "p": [
      "n",
-     "i",
+     "ae",
      "t"
     ],
-    "ipa": "nˈɪt",
+    "ipa": "nˈæt",
     "cell": "vowel"
    },
    {
-    "w": "sit",
+    "w": "tat",
     "p": [
-     "s",
-     "i",
+     "t",
+     "ae",
      "t"
     ],
-    "ipa": "sˈɪt",
+    "ipa": "tˈæt",
     "cell": "onset+vowel"
    }
   ],
@@ -4330,7 +3842,7 @@
    "w": "get",
    "p": [
     "g",
-    "e",
+    "eh",
     "t"
    ],
    "ipa": "ɡˈɛt",
@@ -4338,33 +3850,33 @@
   },
   "foils": [
    {
-    "w": "set",
+    "w": "pet",
     "p": [
-     "s",
-     "e",
+     "p",
+     "eh",
      "t"
     ],
-    "ipa": "sˈɛt",
+    "ipa": "pˈɛt",
     "cell": "onset"
    },
    {
     "w": "got",
     "p": [
      "g",
-     "o",
+     "aa",
      "t"
     ],
     "ipa": "ɡˈɑt",
     "cell": "vowel"
    },
    {
-    "w": "sot",
+    "w": "pot",
     "p": [
-     "s",
-     "o",
+     "p",
+     "aa",
      "t"
     ],
-    "ipa": "sˈɑt",
+    "ipa": "pˈɑt",
     "cell": "onset+vowel"
    }
   ],
@@ -4380,7 +3892,7 @@
    "w": "ten",
    "p": [
     "t",
-    "e",
+    "eh",
     "n"
    ],
    "ipa": "tˈɛn",
@@ -4388,33 +3900,33 @@
   },
   "foils": [
    {
-    "w": "pen",
+    "w": "sen",
     "p": [
-     "p",
-     "e",
+     "s",
+     "eh",
      "n"
     ],
-    "ipa": "pˈɛn",
+    "ipa": "sˈɛn",
     "cell": "onset"
    },
    {
-    "w": "tan",
+    "w": "ton",
     "p": [
      "t",
-     "a",
+     "ah",
      "n"
     ],
-    "ipa": "tˈæn",
+    "ipa": "tˈʌn",
     "cell": "vowel"
    },
    {
-    "w": "pan",
+    "w": "son",
     "p": [
-     "p",
-     "a",
+     "s",
+     "ah",
      "n"
     ],
-    "ipa": "pˈæn",
+    "ipa": "sˈʌn",
     "cell": "onset+vowel"
    }
   ],
@@ -4430,7 +3942,7 @@
    "w": "pet",
    "p": [
     "p",
-    "e",
+    "eh",
     "t"
    ],
    "ipa": "pˈɛt",
@@ -4438,33 +3950,33 @@
   },
   "foils": [
    {
-    "w": "set",
+    "w": "net",
     "p": [
-     "s",
-     "e",
+     "n",
+     "eh",
      "t"
     ],
-    "ipa": "sˈɛt",
+    "ipa": "nˈɛt",
     "cell": "onset"
    },
    {
     "w": "pat",
     "p": [
      "p",
-     "a",
+     "ae",
      "t"
     ],
     "ipa": "pˈæt",
     "cell": "vowel"
    },
    {
-    "w": "sat",
+    "w": "nat",
     "p": [
-     "s",
-     "a",
+     "n",
+     "ae",
      "t"
     ],
-    "ipa": "sˈæt",
+    "ipa": "nˈæt",
     "cell": "onset+vowel"
    }
   ],
@@ -4480,7 +3992,7 @@
    "w": "cut",
    "p": [
     "k",
-    "u",
+    "ah",
     "t"
    ],
    "ipa": "kˈʌt",
@@ -4488,33 +4000,33 @@
   },
   "foils": [
    {
-    "w": "put",
+    "w": "nut",
     "p": [
-     "p",
-     "u",
+     "n",
+     "ah",
      "t"
     ],
-    "ipa": "pˈʌt",
+    "ipa": "nˈʌt",
     "cell": "onset"
    },
    {
     "w": "cat",
     "p": [
      "k",
-     "a",
+     "ae",
      "t"
     ],
     "ipa": "kˈæt",
     "cell": "vowel"
    },
    {
-    "w": "pat",
+    "w": "nat",
     "p": [
-     "p",
-     "a",
+     "n",
+     "ae",
      "t"
     ],
-    "ipa": "pˈæt",
+    "ipa": "nˈæt",
     "cell": "onset+vowel"
    }
   ],
@@ -4530,7 +4042,7 @@
    "w": "cup",
    "p": [
     "k",
-    "u",
+    "ah",
     "p"
    ],
    "ipa": "kˈʌp",
@@ -4538,33 +4050,33 @@
   },
   "foils": [
    {
-    "w": "sup",
+    "w": "pup",
     "p": [
-     "s",
-     "u",
+     "p",
+     "ah",
      "p"
     ],
-    "ipa": "sˈʌp",
+    "ipa": "pˈʌp",
     "cell": "onset"
    },
    {
     "w": "cap",
     "p": [
      "k",
-     "a",
+     "ae",
      "p"
     ],
     "ipa": "kˈæp",
     "cell": "vowel"
    },
    {
-    "w": "sap",
+    "w": "pap",
     "p": [
-     "s",
-     "a",
+     "p",
+     "ae",
      "p"
     ],
-    "ipa": "sˈæp",
+    "ipa": "pˈæp",
     "cell": "onset+vowel"
    }
   ],
@@ -4580,7 +4092,7 @@
    "w": "tug",
    "p": [
     "t",
-    "u",
+    "ah",
     "g"
    ],
    "ipa": "tˈʌɡ",
@@ -4591,30 +4103,30 @@
     "w": "dug",
     "p": [
      "d",
-     "u",
+     "ah",
      "g"
     ],
     "ipa": "dˈʌɡ",
     "cell": "onset"
    },
    {
-    "w": "tog",
+    "w": "tig",
     "p": [
      "t",
-     "o",
+     "ih",
      "g"
     ],
-    "ipa": "tˈɑɡ",
+    "ipa": "tˈɪɡ",
     "cell": "vowel"
    },
    {
-    "w": "dog",
+    "w": "dig",
     "p": [
      "d",
-     "o",
+     "ih",
      "g"
     ],
-    "ipa": "dˈɑɡ",
+    "ipa": "dˈɪɡ",
     "cell": "onset+vowel"
    }
   ],
@@ -4630,7 +4142,7 @@
    "w": "dug",
    "p": [
     "d",
-    "u",
+    "ah",
     "g"
    ],
    "ipa": "dˈʌɡ",
@@ -4638,33 +4150,33 @@
   },
   "foils": [
    {
-    "w": "tug",
+    "w": "pug",
     "p": [
-     "t",
-     "u",
+     "p",
+     "ah",
      "g"
     ],
-    "ipa": "tˈʌɡ",
+    "ipa": "pˈʌɡ",
     "cell": "onset"
    },
    {
-    "w": "dog",
+    "w": "dig",
     "p": [
      "d",
-     "o",
+     "ih",
      "g"
     ],
-    "ipa": "dˈɑɡ",
+    "ipa": "dˈɪɡ",
     "cell": "vowel"
    },
    {
-    "w": "tog",
+    "w": "pig",
     "p": [
-     "t",
-     "o",
+     "p",
+     "ih",
      "g"
     ],
-    "ipa": "tˈɑɡ",
+    "ipa": "pˈɪɡ",
     "cell": "onset+vowel"
    }
   ],
@@ -4680,7 +4192,7 @@
    "w": "mug",
    "p": [
     "m",
-    "u",
+    "ah",
     "g"
    ],
    "ipa": "mˈʌɡ",
@@ -4688,83 +4200,33 @@
   },
   "foils": [
    {
-    "w": "pug",
+    "w": "tug",
     "p": [
-     "p",
-     "u",
+     "t",
+     "ah",
      "g"
     ],
-    "ipa": "pˈʌɡ",
+    "ipa": "tˈʌɡ",
     "cell": "onset"
    },
    {
-    "w": "meg",
+    "w": "mag",
     "p": [
      "m",
-     "e",
+     "ae",
      "g"
     ],
-    "ipa": "mˈɛɡ",
+    "ipa": "mˈæɡ",
     "cell": "vowel"
    },
    {
-    "w": "peg",
+    "w": "tag",
     "p": [
-     "p",
-     "e",
+     "t",
+     "ae",
      "g"
     ],
-    "ipa": "pˈɛɡ",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "real",
-  "relaxed": false
- },
- "gum": {
-  "target": {
-   "w": "gum",
-   "p": [
-    "g",
-    "u",
-    "m"
-   ],
-   "ipa": "ɡˈʌm",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "hum",
-    "p": [
-     "h",
-     "u",
-     "m"
-    ],
-    "ipa": "hˈʌm",
-    "cell": "onset"
-   },
-   {
-    "w": "gem",
-    "p": [
-     "g",
-     "e",
-     "m"
-    ],
-    "ipa": "ɡˈɛm",
-    "cell": "vowel"
-   },
-   {
-    "w": "hem",
-    "p": [
-     "h",
-     "e",
-     "m"
-    ],
-    "ipa": "hˈɛm",
+    "ipa": "tˈæɡ",
     "cell": "onset+vowel"
    }
   ],
@@ -4780,7 +4242,7 @@
    "w": "gut",
    "p": [
     "g",
-    "u",
+    "ah",
     "t"
    ],
    "ipa": "ɡˈʌt",
@@ -4788,33 +4250,33 @@
   },
   "foils": [
    {
-    "w": "put",
+    "w": "cut",
     "p": [
-     "p",
-     "u",
+     "k",
+     "ah",
      "t"
     ],
-    "ipa": "pˈʌt",
+    "ipa": "kˈʌt",
     "cell": "onset"
    },
    {
     "w": "got",
     "p": [
      "g",
-     "o",
+     "aa",
      "t"
     ],
     "ipa": "ɡˈɑt",
     "cell": "vowel"
    },
    {
-    "w": "pot",
+    "w": "cot",
     "p": [
-     "p",
-     "o",
+     "k",
+     "aa",
      "t"
     ],
-    "ipa": "pˈɑt",
+    "ipa": "kˈɑt",
     "cell": "onset+vowel"
    }
   ],
@@ -4830,7 +4292,7 @@
    "w": "nut",
    "p": [
     "n",
-    "u",
+    "ah",
     "t"
    ],
    "ipa": "nˈʌt",
@@ -4838,33 +4300,33 @@
   },
   "foils": [
    {
-    "w": "put",
+    "w": "cut",
     "p": [
-     "p",
-     "u",
+     "k",
+     "ah",
      "t"
     ],
-    "ipa": "pˈʌt",
+    "ipa": "kˈʌt",
     "cell": "onset"
    },
    {
-    "w": "nit",
+    "w": "knit",
     "p": [
      "n",
-     "i",
+     "ih",
      "t"
     ],
     "ipa": "nˈɪt",
     "cell": "vowel"
    },
    {
-    "w": "pit",
+    "w": "kit",
     "p": [
-     "p",
-     "i",
+     "k",
+     "ih",
      "t"
     ],
-    "ipa": "pˈɪt",
+    "ipa": "kˈɪt",
     "cell": "onset+vowel"
    }
   ],
@@ -4880,7 +4342,7 @@
    "w": "net",
    "p": [
     "n",
-    "e",
+    "eh",
     "t"
    ],
    "ipa": "nˈɛt",
@@ -4891,30 +4353,30 @@
     "w": "set",
     "p": [
      "s",
-     "e",
+     "eh",
      "t"
     ],
     "ipa": "sˈɛt",
     "cell": "onset"
    },
    {
-    "w": "nit",
+    "w": "nat",
     "p": [
      "n",
-     "i",
+     "ae",
      "t"
     ],
-    "ipa": "nˈɪt",
+    "ipa": "nˈæt",
     "cell": "vowel"
    },
    {
-    "w": "sit",
+    "w": "sat",
     "p": [
      "s",
-     "i",
+     "ae",
      "t"
     ],
-    "ipa": "sˈɪt",
+    "ipa": "sˈæt",
     "cell": "onset+vowel"
    }
   ],
@@ -4930,7 +4392,7 @@
    "w": "men",
    "p": [
     "m",
-    "e",
+    "eh",
     "n"
    ],
    "ipa": "mˈɛn",
@@ -4938,33 +4400,33 @@
   },
   "foils": [
    {
-    "w": "ten",
+    "w": "pen",
     "p": [
-     "t",
-     "e",
+     "p",
+     "eh",
      "n"
     ],
-    "ipa": "tˈɛn",
+    "ipa": "pˈɛn",
     "cell": "onset"
    },
    {
     "w": "man",
     "p": [
      "m",
-     "a",
+     "ae",
      "n"
     ],
     "ipa": "mˈæn",
     "cell": "vowel"
    },
    {
-    "w": "tan",
+    "w": "pan",
     "p": [
-     "t",
-     "a",
+     "p",
+     "ae",
      "n"
     ],
-    "ipa": "tˈæn",
+    "ipa": "pˈæn",
     "cell": "onset+vowel"
    }
   ],
@@ -4980,7 +4442,7 @@
    "w": "pen",
    "p": [
     "p",
-    "e",
+    "eh",
     "n"
    ],
    "ipa": "pˈɛn",
@@ -4991,30 +4453,30 @@
     "w": "ten",
     "p": [
      "t",
-     "e",
+     "eh",
      "n"
     ],
     "ipa": "tˈɛn",
     "cell": "onset"
    },
    {
-    "w": "pan",
+    "w": "pun",
     "p": [
      "p",
-     "a",
+     "ah",
      "n"
     ],
-    "ipa": "pˈæn",
+    "ipa": "pˈʌn",
     "cell": "vowel"
    },
    {
-    "w": "tan",
+    "w": "ton",
     "p": [
      "t",
-     "a",
+     "ah",
      "n"
     ],
-    "ipa": "tˈæn",
+    "ipa": "tˈʌn",
     "cell": "onset+vowel"
    }
   ],
@@ -5030,7 +4492,7 @@
    "w": "den",
    "p": [
     "d",
-    "e",
+    "eh",
     "n"
    ],
    "ipa": "dˈɛn",
@@ -5041,7 +4503,7 @@
     "w": "ten",
     "p": [
      "t",
-     "e",
+     "eh",
      "n"
     ],
     "ipa": "tˈɛn",
@@ -5051,7 +4513,7 @@
     "w": "din",
     "p": [
      "d",
-     "i",
+     "ih",
      "n"
     ],
     "ipa": "dˈɪn",
@@ -5061,7 +4523,7 @@
     "w": "tin",
     "p": [
      "t",
-     "i",
+     "ih",
      "n"
     ],
     "ipa": "tˈɪn",
@@ -5080,7 +4542,7 @@
    "w": "sun",
    "p": [
     "s",
-    "u",
+    "ah",
     "n"
    ],
    "ipa": "sˈʌn",
@@ -5088,33 +4550,33 @@
   },
   "foils": [
    {
-    "w": "tun",
+    "w": "ton",
     "p": [
      "t",
-     "u",
+     "ah",
      "n"
     ],
     "ipa": "tˈʌn",
     "cell": "onset"
    },
    {
-    "w": "sin",
+    "w": "sen",
     "p": [
      "s",
-     "i",
+     "eh",
      "n"
     ],
-    "ipa": "sˈɪn",
+    "ipa": "sˈɛn",
     "cell": "vowel"
    },
    {
-    "w": "tin",
+    "w": "ten",
     "p": [
      "t",
-     "i",
+     "eh",
      "n"
     ],
-    "ipa": "tˈɪn",
+    "ipa": "tˈɛn",
     "cell": "onset+vowel"
    }
   ],
@@ -5130,41 +4592,41 @@
    "w": "ton",
    "p": [
     "t",
-    "o",
+    "ah",
     "n"
    ],
-   "ipa": "tˈɑn",
+   "ipa": "tˈʌn",
    "cell": "target"
   },
   "foils": [
    {
-    "w": "son",
+    "w": "done",
     "p": [
-     "s",
-     "o",
+     "d",
+     "ah",
      "n"
     ],
-    "ipa": "sˈɑn",
+    "ipa": "dˈʌn",
     "cell": "onset"
    },
    {
-    "w": "tin",
+    "w": "tan",
     "p": [
      "t",
-     "i",
+     "ae",
      "n"
     ],
-    "ipa": "tˈɪn",
+    "ipa": "tˈæn",
     "cell": "vowel"
    },
    {
-    "w": "sin",
+    "w": "dan",
     "p": [
-     "s",
-     "i",
+     "d",
+     "ae",
      "n"
     ],
-    "ipa": "sˈɪn",
+    "ipa": "dˈæn",
     "cell": "onset+vowel"
    }
   ],
@@ -5180,7 +4642,7 @@
    "w": "gup",
    "p": [
     "g",
-    "u",
+    "ah",
     "p"
    ],
    "ipa": "ɡˈʌp",
@@ -5191,7 +4653,7 @@
     "w": "tup",
     "p": [
      "t",
-     "u",
+     "ah",
      "p"
     ],
     "ipa": "tˈʌp",
@@ -5201,7 +4663,7 @@
     "w": "gep",
     "p": [
      "g",
-     "e",
+     "eh",
      "p"
     ],
     "ipa": "ɡˈɛp",
@@ -5211,60 +4673,10 @@
     "w": "tep",
     "p": [
      "t",
-     "e",
+     "eh",
      "p"
     ],
     "ipa": "tˈɛp",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "pseudo",
-  "relaxed": false
- },
- "kec": {
-  "target": {
-   "w": "kec",
-   "p": [
-    "k",
-    "e",
-    "k"
-   ],
-   "ipa": "kˈɛk",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "meck",
-    "p": [
-     "m",
-     "e",
-     "k"
-    ],
-    "ipa": "mˈɛk",
-    "cell": "onset"
-   },
-   {
-    "w": "cack",
-    "p": [
-     "k",
-     "a",
-     "k"
-    ],
-    "ipa": "kˈæk",
-    "cell": "vowel"
-   },
-   {
-    "w": "mack",
-    "p": [
-     "m",
-     "a",
-     "k"
-    ],
-    "ipa": "mˈæk",
     "cell": "onset+vowel"
    }
   ],
@@ -5280,7 +4692,7 @@
    "w": "nud",
    "p": [
     "n",
-    "u",
+    "ah",
     "d"
    ],
    "ipa": "nˈʌd",
@@ -5288,33 +4700,33 @@
   },
   "foils": [
    {
-    "w": "sud",
+    "w": "tud",
     "p": [
-     "s",
-     "u",
+     "t",
+     "ah",
      "d"
     ],
-    "ipa": "sˈʌd",
+    "ipa": "tˈʌd",
     "cell": "onset"
    },
    {
     "w": "nid",
     "p": [
      "n",
-     "i",
+     "ih",
      "d"
     ],
     "ipa": "nˈɪd",
     "cell": "vowel"
    },
    {
-    "w": "sid",
+    "w": "tid",
     "p": [
-     "s",
-     "i",
+     "t",
+     "ih",
      "d"
     ],
-    "ipa": "sˈɪd",
+    "ipa": "tˈɪd",
     "cell": "onset+vowel"
    }
   ],
@@ -5330,7 +4742,7 @@
    "w": "pem",
    "p": [
     "p",
-    "e",
+    "eh",
     "m"
    ],
    "ipa": "pˈɛm",
@@ -5338,33 +4750,33 @@
   },
   "foils": [
    {
-    "w": "sem",
+    "w": "tem",
     "p": [
-     "s",
-     "e",
+     "t",
+     "eh",
      "m"
     ],
-    "ipa": "sˈɛm",
+    "ipa": "tˈɛm",
     "cell": "onset"
    },
    {
-    "w": "pam",
+    "w": "pum",
     "p": [
      "p",
-     "a",
+     "ah",
      "m"
     ],
-    "ipa": "pˈæm",
+    "ipa": "pˈʌm",
     "cell": "vowel"
    },
    {
-    "w": "sam",
+    "w": "tum",
     "p": [
-     "s",
-     "a",
+     "t",
+     "ah",
      "m"
     ],
-    "ipa": "sˈæm",
+    "ipa": "tˈʌm",
     "cell": "onset+vowel"
    }
   ],
@@ -5380,7 +4792,7 @@
    "w": "dut",
    "p": [
     "d",
-    "u",
+    "ah",
     "t"
    ],
    "ipa": "dˈʌt",
@@ -5388,33 +4800,33 @@
   },
   "foils": [
    {
-    "w": "tut",
+    "w": "yut",
     "p": [
-     "t",
-     "u",
+     "y",
+     "ah",
      "t"
     ],
-    "ipa": "tˈʌt",
+    "ipa": "jˈʌt",
     "cell": "onset"
    },
    {
-    "w": "det",
+    "w": "dit",
     "p": [
      "d",
-     "e",
+     "ih",
      "t"
     ],
-    "ipa": "dˈɛt",
+    "ipa": "dˈɪt",
     "cell": "vowel"
    },
    {
-    "w": "tet",
+    "w": "yit",
     "p": [
-     "t",
-     "e",
+     "y",
+     "ih",
      "t"
     ],
-    "ipa": "tˈɛt",
+    "ipa": "jˈɪt",
     "cell": "onset+vowel"
    }
   ],
@@ -5423,60 +4835,15 @@
    "vowel"
   ],
   "kind": "pseudo",
-  "relaxed": false
- },
- "up": {
-  "target": {
-   "w": "up",
-   "p": [
-    "u",
-    "p"
-   ],
-   "ipa": "ˈʌp",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "us",
-    "p": [
-     "u",
-     "s"
-    ],
-    "ipa": "ˈʌs",
-    "cell": "final"
-   },
-   {
-    "w": "ip",
-    "p": [
-     "i",
-     "p"
-    ],
-    "ipa": "ˈɪp",
-    "cell": "vowel"
-   },
-   {
-    "w": "is",
-    "p": [
-     "i",
-     "s"
-    ],
-    "ipa": "ˈɪs",
-    "cell": "final+vowel"
-   }
-  ],
-  "axes": [
-   "final",
-   "vowel"
-  ],
-  "kind": "real",
-  "relaxed": true
+  "relaxed": false,
+  "untaught": true
  },
  "rat": {
   "target": {
    "w": "rat",
    "p": [
     "r",
-    "a",
+    "ae",
     "t"
    ],
    "ipa": "ɹˈæt",
@@ -5484,33 +4851,33 @@
   },
   "foils": [
    {
-    "w": "sat",
+    "w": "tat",
     "p": [
-     "s",
-     "a",
+     "t",
+     "ae",
      "t"
     ],
-    "ipa": "sˈæt",
+    "ipa": "tˈæt",
     "cell": "onset"
    },
    {
-    "w": "rot",
+    "w": "rut",
     "p": [
      "r",
-     "o",
+     "ah",
      "t"
     ],
-    "ipa": "ɹˈɑt",
+    "ipa": "ɹˈʌt",
     "cell": "vowel"
    },
    {
-    "w": "sot",
+    "w": "tut",
     "p": [
-     "s",
-     "o",
+     "t",
+     "ah",
      "t"
     ],
-    "ipa": "sˈɑt",
+    "ipa": "tˈʌt",
     "cell": "onset+vowel"
    }
   ],
@@ -5526,7 +4893,7 @@
    "w": "ran",
    "p": [
     "r",
-    "a",
+    "ae",
     "n"
    ],
    "ipa": "ɹˈæn",
@@ -5537,7 +4904,7 @@
     "w": "tan",
     "p": [
      "t",
-     "a",
+     "ae",
      "n"
     ],
     "ipa": "tˈæn",
@@ -5547,17 +4914,17 @@
     "w": "run",
     "p": [
      "r",
-     "u",
+     "ah",
      "n"
     ],
     "ipa": "ɹˈʌn",
     "cell": "vowel"
    },
    {
-    "w": "tun",
+    "w": "ton",
     "p": [
      "t",
-     "u",
+     "ah",
      "n"
     ],
     "ipa": "tˈʌn",
@@ -5576,7 +4943,7 @@
    "w": "rug",
    "p": [
     "r",
-    "u",
+    "ah",
     "g"
    ],
    "ipa": "ɹˈʌɡ",
@@ -5584,33 +4951,33 @@
   },
   "foils": [
    {
-    "w": "tug",
+    "w": "mug",
     "p": [
-     "t",
-     "u",
+     "m",
+     "ah",
      "g"
     ],
-    "ipa": "tˈʌɡ",
+    "ipa": "mˈʌɡ",
     "cell": "onset"
    },
    {
     "w": "rag",
     "p": [
      "r",
-     "a",
+     "ae",
      "g"
     ],
     "ipa": "ɹˈæɡ",
     "cell": "vowel"
    },
    {
-    "w": "tag",
+    "w": "mag",
     "p": [
-     "t",
-     "a",
+     "m",
+     "ae",
      "g"
     ],
-    "ipa": "tˈæɡ",
+    "ipa": "mˈæɡ",
     "cell": "onset+vowel"
    }
   ],
@@ -5626,7 +4993,7 @@
    "w": "run",
    "p": [
     "r",
-    "u",
+    "ah",
     "n"
    ],
    "ipa": "ɹˈʌn",
@@ -5634,33 +5001,33 @@
   },
   "foils": [
    {
-    "w": "tun",
+    "w": "pun",
     "p": [
-     "t",
-     "u",
+     "p",
+     "ah",
      "n"
     ],
-    "ipa": "tˈʌn",
+    "ipa": "pˈʌn",
     "cell": "onset"
    },
    {
     "w": "ran",
     "p": [
      "r",
-     "a",
+     "ae",
      "n"
     ],
     "ipa": "ɹˈæn",
     "cell": "vowel"
    },
    {
-    "w": "tan",
+    "w": "pan",
     "p": [
-     "t",
-     "a",
+     "p",
+     "ae",
      "n"
     ],
-    "ipa": "tˈæn",
+    "ipa": "pˈæn",
     "cell": "onset+vowel"
    }
   ],
@@ -5676,7 +5043,7 @@
    "w": "rid",
    "p": [
     "r",
-    "i",
+    "ih",
     "d"
    ],
    "ipa": "ɹˈɪd",
@@ -5684,33 +5051,33 @@
   },
   "foils": [
    {
-    "w": "mid",
+    "w": "hid",
     "p": [
-     "m",
-     "i",
+     "hh",
+     "ih",
      "d"
     ],
-    "ipa": "mˈɪd",
+    "ipa": "hˈɪd",
     "cell": "onset"
    },
    {
-    "w": "rod",
+    "w": "rad",
     "p": [
      "r",
-     "o",
+     "ae",
      "d"
     ],
-    "ipa": "ɹˈɑd",
+    "ipa": "ɹˈæd",
     "cell": "vowel"
    },
    {
-    "w": "mod",
+    "w": "had",
     "p": [
-     "m",
-     "o",
+     "hh",
+     "ae",
      "d"
     ],
-    "ipa": "mˈɑd",
+    "ipa": "hˈæd",
     "cell": "onset+vowel"
    }
   ],
@@ -5725,8 +5092,8 @@
   "target": {
    "w": "hut",
    "p": [
-    "h",
-    "u",
+    "hh",
+    "ah",
     "t"
    ],
    "ipa": "hˈʌt",
@@ -5734,33 +5101,33 @@
   },
   "foils": [
    {
-    "w": "put",
+    "w": "cut",
     "p": [
-     "p",
-     "u",
+     "k",
+     "ah",
      "t"
     ],
-    "ipa": "pˈʌt",
+    "ipa": "kˈʌt",
     "cell": "onset"
    },
    {
-    "w": "hat",
+    "w": "hot",
     "p": [
-     "h",
-     "a",
+     "hh",
+     "aa",
      "t"
     ],
-    "ipa": "hˈæt",
+    "ipa": "hˈɑt",
     "cell": "vowel"
    },
    {
-    "w": "pat",
+    "w": "cot",
     "p": [
-     "p",
-     "a",
+     "k",
+     "aa",
      "t"
     ],
-    "ipa": "pˈæt",
+    "ipa": "kˈɑt",
     "cell": "onset+vowel"
    }
   ],
@@ -5775,8 +5142,8 @@
   "target": {
    "w": "hug",
    "p": [
-    "h",
-    "u",
+    "hh",
+    "ah",
     "g"
    ],
    "ipa": "hˈʌɡ",
@@ -5787,7 +5154,7 @@
     "w": "tug",
     "p": [
      "t",
-     "u",
+     "ah",
      "g"
     ],
     "ipa": "tˈʌɡ",
@@ -5796,8 +5163,8 @@
    {
     "w": "hag",
     "p": [
-     "h",
-     "a",
+     "hh",
+     "ae",
      "g"
     ],
     "ipa": "hˈæɡ",
@@ -5807,7 +5174,7 @@
     "w": "tag",
     "p": [
      "t",
-     "a",
+     "ae",
      "g"
     ],
     "ipa": "tˈæɡ",
@@ -5825,8 +5192,8 @@
   "target": {
    "w": "hat",
    "p": [
-    "h",
-    "a",
+    "hh",
+    "ae",
     "t"
    ],
    "ipa": "hˈæt",
@@ -5834,33 +5201,33 @@
   },
   "foils": [
    {
-    "w": "sat",
+    "w": "tat",
     "p": [
-     "s",
-     "a",
+     "t",
+     "ae",
      "t"
     ],
-    "ipa": "sˈæt",
+    "ipa": "tˈæt",
     "cell": "onset"
    },
    {
-    "w": "hit",
+    "w": "hut",
     "p": [
-     "h",
-     "i",
+     "hh",
+     "ah",
      "t"
     ],
-    "ipa": "hˈɪt",
+    "ipa": "hˈʌt",
     "cell": "vowel"
    },
    {
-    "w": "sit",
+    "w": "tut",
     "p": [
-     "s",
-     "i",
+     "t",
+     "ah",
      "t"
     ],
-    "ipa": "sˈɪt",
+    "ipa": "tˈʌt",
     "cell": "onset+vowel"
    }
   ],
@@ -5871,62 +5238,12 @@
   "kind": "real",
   "relaxed": false
  },
- "hen": {
-  "target": {
-   "w": "hen",
-   "p": [
-    "h",
-    "e",
-    "n"
-   ],
-   "ipa": "hˈɛn",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "sen",
-    "p": [
-     "s",
-     "e",
-     "n"
-    ],
-    "ipa": "sˈɛn",
-    "cell": "onset"
-   },
-   {
-    "w": "han",
-    "p": [
-     "h",
-     "a",
-     "n"
-    ],
-    "ipa": "hˈæn",
-    "cell": "vowel"
-   },
-   {
-    "w": "san",
-    "p": [
-     "s",
-     "a",
-     "n"
-    ],
-    "ipa": "sˈæn",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "real",
-  "relaxed": true
- },
  "hop": {
   "target": {
    "w": "hop",
    "p": [
-    "h",
-    "o",
+    "hh",
+    "aa",
     "p"
    ],
    "ipa": "hˈɑp",
@@ -5934,33 +5251,33 @@
   },
   "foils": [
    {
-    "w": "sop",
+    "w": "cop",
     "p": [
-     "s",
-     "o",
+     "k",
+     "aa",
      "p"
     ],
-    "ipa": "sˈɑp",
+    "ipa": "kˈɑp",
     "cell": "onset"
    },
    {
-    "w": "hip",
+    "w": "hap",
     "p": [
-     "h",
-     "i",
+     "hh",
+     "ae",
      "p"
     ],
-    "ipa": "hˈɪp",
+    "ipa": "hˈæp",
     "cell": "vowel"
    },
    {
-    "w": "sip",
+    "w": "cap",
     "p": [
-     "s",
-     "i",
+     "k",
+     "ae",
      "p"
     ],
-    "ipa": "sˈɪp",
+    "ipa": "kˈæp",
     "cell": "onset+vowel"
    }
   ],
@@ -5975,8 +5292,8 @@
   "target": {
    "w": "ham",
    "p": [
-    "h",
-    "a",
+    "hh",
+    "ae",
     "m"
    ],
    "ipa": "hˈæm",
@@ -5987,30 +5304,30 @@
     "w": "ram",
     "p": [
      "r",
-     "a",
+     "ae",
      "m"
     ],
     "ipa": "ɹˈæm",
     "cell": "onset"
    },
    {
-    "w": "him",
+    "w": "hum",
     "p": [
-     "h",
-     "i",
+     "hh",
+     "ah",
      "m"
     ],
-    "ipa": "hˈɪm",
+    "ipa": "hˈʌm",
     "cell": "vowel"
    },
    {
-    "w": "rim",
+    "w": "rum",
     "p": [
      "r",
-     "i",
+     "ah",
      "m"
     ],
-    "ipa": "ɹˈɪm",
+    "ipa": "ɹˈʌm",
     "cell": "onset+vowel"
    }
   ],
@@ -6026,7 +5343,7 @@
    "w": "rot",
    "p": [
     "r",
-    "o",
+    "aa",
     "t"
    ],
    "ipa": "ɹˈɑt",
@@ -6034,33 +5351,33 @@
   },
   "foils": [
    {
-    "w": "sot",
+    "w": "knot",
     "p": [
-     "s",
-     "o",
+     "n",
+     "aa",
      "t"
     ],
-    "ipa": "sˈɑt",
+    "ipa": "nˈɑt",
     "cell": "onset"
    },
    {
-    "w": "rat",
+    "w": "rut",
     "p": [
      "r",
-     "a",
+     "ah",
      "t"
     ],
-    "ipa": "ɹˈæt",
+    "ipa": "ɹˈʌt",
     "cell": "vowel"
    },
    {
-    "w": "sat",
+    "w": "nut",
     "p": [
-     "s",
-     "a",
+     "n",
+     "ah",
      "t"
     ],
-    "ipa": "sˈæt",
+    "ipa": "nˈʌt",
     "cell": "onset+vowel"
    }
   ],
@@ -6075,8 +5392,8 @@
   "target": {
    "w": "hog",
    "p": [
-    "h",
-    "o",
+    "hh",
+    "aa",
     "g"
    ],
    "ipa": "hˈɑɡ",
@@ -6084,33 +5401,33 @@
   },
   "foils": [
    {
-    "w": "tog",
+    "w": "jog",
     "p": [
-     "t",
-     "o",
+     "jh",
+     "aa",
      "g"
     ],
-    "ipa": "tˈɑɡ",
+    "ipa": "ʤˈɑɡ",
     "cell": "onset"
    },
    {
-    "w": "hag",
+    "w": "hug",
     "p": [
-     "h",
-     "a",
+     "hh",
+     "ah",
      "g"
     ],
-    "ipa": "hˈæɡ",
+    "ipa": "hˈʌɡ",
     "cell": "vowel"
    },
    {
-    "w": "tag",
+    "w": "jug",
     "p": [
-     "t",
-     "a",
+     "jh",
+     "ah",
      "g"
     ],
-    "ipa": "tˈæɡ",
+    "ipa": "ʤˈʌɡ",
     "cell": "onset+vowel"
    }
   ],
@@ -6119,14 +5436,15 @@
    "vowel"
   ],
   "kind": "real",
-  "relaxed": false
+  "relaxed": false,
+  "untaught": true
  },
  "rip": {
   "target": {
    "w": "rip",
    "p": [
     "r",
-    "i",
+    "ih",
     "p"
    ],
    "ipa": "ɹˈɪp",
@@ -6134,33 +5452,33 @@
   },
   "foils": [
    {
-    "w": "sip",
+    "w": "hip",
     "p": [
-     "s",
-     "i",
+     "hh",
+     "ih",
      "p"
     ],
-    "ipa": "sˈɪp",
+    "ipa": "hˈɪp",
     "cell": "onset"
    },
    {
     "w": "rap",
     "p": [
      "r",
-     "a",
+     "ae",
      "p"
     ],
     "ipa": "ɹˈæp",
     "cell": "vowel"
    },
    {
-    "w": "sap",
+    "w": "hap",
     "p": [
-     "s",
-     "a",
+     "hh",
+     "ae",
      "p"
     ],
-    "ipa": "sˈæp",
+    "ipa": "hˈæp",
     "cell": "onset+vowel"
    }
   ],
@@ -6175,8 +5493,8 @@
   "target": {
    "w": "hid",
    "p": [
-    "h",
-    "i",
+    "hh",
+    "ih",
     "d"
    ],
    "ipa": "hˈɪd",
@@ -6184,33 +5502,33 @@
   },
   "foils": [
    {
-    "w": "mid",
+    "w": "did",
     "p": [
-     "m",
-     "i",
+     "d",
+     "ih",
      "d"
     ],
-    "ipa": "mˈɪd",
+    "ipa": "dˈɪd",
     "cell": "onset"
    },
    {
     "w": "had",
     "p": [
-     "h",
-     "a",
+     "hh",
+     "ae",
      "d"
     ],
     "ipa": "hˈæd",
     "cell": "vowel"
    },
    {
-    "w": "mad",
+    "w": "dad",
     "p": [
-     "m",
-     "a",
+     "d",
+     "ae",
      "d"
     ],
-    "ipa": "mˈæd",
+    "ipa": "dˈæd",
     "cell": "onset+vowel"
    }
   ],
@@ -6226,7 +5544,7 @@
    "w": "rup",
    "p": [
     "r",
-    "u",
+    "ah",
     "p"
    ],
    "ipa": "ɹˈʌp",
@@ -6234,83 +5552,33 @@
   },
   "foils": [
    {
-    "w": "nup",
+    "w": "dup",
     "p": [
-     "n",
-     "u",
+     "d",
+     "ah",
      "p"
     ],
-    "ipa": "nˈʌp",
+    "ipa": "dˈʌp",
     "cell": "onset"
    },
    {
     "w": "rop",
     "p": [
      "r",
-     "o",
+     "aa",
      "p"
     ],
     "ipa": "ɹˈɑp",
     "cell": "vowel"
    },
    {
-    "w": "nop",
+    "w": "dop",
     "p": [
-     "n",
-     "o",
+     "d",
+     "aa",
      "p"
     ],
-    "ipa": "nˈɑp",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "pseudo",
-  "relaxed": false
- },
- "hac": {
-  "target": {
-   "w": "hac",
-   "p": [
-    "h",
-    "a",
-    "k"
-   ],
-   "ipa": "hˈæk",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "nack",
-    "p": [
-     "n",
-     "a",
-     "k"
-    ],
-    "ipa": "nˈæk",
-    "cell": "onset"
-   },
-   {
-    "w": "huck",
-    "p": [
-     "h",
-     "u",
-     "k"
-    ],
-    "ipa": "hˈʌk",
-    "cell": "vowel"
-   },
-   {
-    "w": "nuck",
-    "p": [
-     "n",
-     "u",
-     "k"
-    ],
-    "ipa": "nˈʌk",
+    "ipa": "dˈɑp",
     "cell": "onset+vowel"
    }
   ],
@@ -6326,7 +5594,7 @@
    "w": "gir",
    "p": [
     "g",
-    "i",
+    "ih",
     "r"
    ],
    "ipa": "ɡˈɪɹ",
@@ -6334,33 +5602,33 @@
   },
   "foils": [
    {
-    "w": "tir",
+    "w": "zir",
     "p": [
-     "t",
-     "i",
+     "z",
+     "ih",
      "r"
     ],
-    "ipa": "tˈɪɹ",
+    "ipa": "zˈɪɹ",
     "cell": "onset"
    },
    {
     "w": "ger",
     "p": [
      "g",
-     "e",
+     "eh",
      "r"
     ],
     "ipa": "ɡˈɛɹ",
     "cell": "vowel"
    },
    {
-    "w": "ter",
+    "w": "zer",
     "p": [
-     "t",
-     "e",
+     "z",
+     "eh",
      "r"
     ],
-    "ipa": "tˈɛɹ",
+    "ipa": "zˈɛɹ",
     "cell": "onset+vowel"
    }
   ],
@@ -6369,64 +5637,15 @@
    "vowel"
   ],
   "kind": "pseudo",
-  "relaxed": false
- },
- "kur": {
-  "target": {
-   "w": "kur",
-   "p": [
-    "k",
-    "u",
-    "r"
-   ],
-   "ipa": "kˈʌɹ",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "sur",
-    "p": [
-     "s",
-     "u",
-     "r"
-    ],
-    "ipa": "sˈʌɹ",
-    "cell": "onset"
-   },
-   {
-    "w": "cor",
-    "p": [
-     "k",
-     "o",
-     "r"
-    ],
-    "ipa": "kˈɑɹ",
-    "cell": "vowel"
-   },
-   {
-    "w": "sor",
-    "p": [
-     "s",
-     "o",
-     "r"
-    ],
-    "ipa": "sˈɑɹ",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "pseudo",
-  "relaxed": false
+  "relaxed": false,
+  "untaught": true
  },
  "dor": {
   "target": {
    "w": "dor",
    "p": [
     "d",
-    "o",
+    "aa",
     "r"
    ],
    "ipa": "dˈɑɹ",
@@ -6434,33 +5653,33 @@
   },
   "foils": [
    {
-    "w": "sor",
+    "w": "gor",
     "p": [
-     "s",
-     "o",
+     "g",
+     "aa",
      "r"
     ],
-    "ipa": "sˈɑɹ",
+    "ipa": "ɡˈɑɹ",
     "cell": "onset"
    },
    {
-    "w": "dar",
+    "w": "dur",
     "p": [
      "d",
-     "a",
+     "ah",
      "r"
     ],
-    "ipa": "dˈæɹ",
+    "ipa": "dˈʌɹ",
     "cell": "vowel"
    },
    {
-    "w": "sar",
+    "w": "gur",
     "p": [
-     "s",
-     "a",
+     "g",
+     "ah",
      "r"
     ],
-    "ipa": "sˈæɹ",
+    "ipa": "ɡˈʌɹ",
     "cell": "onset+vowel"
    }
   ],
@@ -6476,7 +5695,7 @@
    "w": "mom",
    "p": [
     "m",
-    "o",
+    "aa",
     "m"
    ],
    "ipa": "mˈɑm",
@@ -6487,30 +5706,30 @@
     "w": "som",
     "p": [
      "s",
-     "o",
+     "aa",
      "m"
     ],
     "ipa": "sˈɑm",
     "cell": "onset"
    },
    {
-    "w": "mam",
+    "w": "mum",
     "p": [
      "m",
-     "a",
+     "ah",
      "m"
     ],
-    "ipa": "mˈæm",
+    "ipa": "mˈʌm",
     "cell": "vowel"
    },
    {
-    "w": "sam",
+    "w": "some",
     "p": [
      "s",
-     "a",
+     "ah",
      "m"
     ],
-    "ipa": "sˈæm",
+    "ipa": "sˈʌm",
     "cell": "onset+vowel"
    }
   ],
@@ -6519,14 +5738,14 @@
    "vowel"
   ],
   "kind": "real",
-  "relaxed": true
+  "relaxed": false
  },
  "hot": {
   "target": {
    "w": "hot",
    "p": [
-    "h",
-    "o",
+    "hh",
+    "aa",
     "t"
    ],
    "ipa": "hˈɑt",
@@ -6534,33 +5753,33 @@
   },
   "foils": [
    {
-    "w": "sot",
+    "w": "tot",
     "p": [
-     "s",
-     "o",
+     "t",
+     "aa",
      "t"
     ],
-    "ipa": "sˈɑt",
+    "ipa": "tˈɑt",
     "cell": "onset"
    },
    {
-    "w": "hat",
+    "w": "hut",
     "p": [
-     "h",
-     "a",
+     "hh",
+     "ah",
      "t"
     ],
-    "ipa": "hˈæt",
+    "ipa": "hˈʌt",
     "cell": "vowel"
    },
    {
-    "w": "sat",
+    "w": "tut",
     "p": [
-     "s",
-     "a",
+     "t",
+     "ah",
      "t"
     ],
-    "ipa": "sˈæt",
+    "ipa": "tˈʌt",
     "cell": "onset+vowel"
    }
   ],
@@ -6576,7 +5795,7 @@
    "w": "bat",
    "p": [
     "b",
-    "a",
+    "ae",
     "t"
    ],
    "ipa": "bˈæt",
@@ -6587,7 +5806,7 @@
     "w": "sat",
     "p": [
      "s",
-     "a",
+     "ae",
      "t"
     ],
     "ipa": "sˈæt",
@@ -6597,7 +5816,7 @@
     "w": "bit",
     "p": [
      "b",
-     "i",
+     "ih",
      "t"
     ],
     "ipa": "bˈɪt",
@@ -6607,7 +5826,7 @@
     "w": "sit",
     "p": [
      "s",
-     "i",
+     "ih",
      "t"
     ],
     "ipa": "sˈɪt",
@@ -6626,7 +5845,7 @@
    "w": "big",
    "p": [
     "b",
-    "i",
+    "ih",
     "g"
    ],
    "ipa": "bˈɪɡ",
@@ -6637,30 +5856,30 @@
     "w": "pig",
     "p": [
      "p",
-     "i",
+     "ih",
      "g"
     ],
     "ipa": "pˈɪɡ",
     "cell": "onset"
    },
    {
-    "w": "beg",
+    "w": "bug",
     "p": [
      "b",
-     "e",
+     "ah",
      "g"
     ],
-    "ipa": "bˈɛɡ",
+    "ipa": "bˈʌɡ",
     "cell": "vowel"
    },
    {
-    "w": "peg",
+    "w": "pug",
     "p": [
      "p",
-     "e",
+     "ah",
      "g"
     ],
-    "ipa": "pˈɛɡ",
+    "ipa": "pˈʌɡ",
     "cell": "onset+vowel"
    }
   ],
@@ -6676,7 +5895,7 @@
    "w": "bit",
    "p": [
     "b",
-    "i",
+    "ih",
     "t"
    ],
    "ipa": "bˈɪt",
@@ -6687,7 +5906,7 @@
     "w": "sit",
     "p": [
      "s",
-     "i",
+     "ih",
      "t"
     ],
     "ipa": "sˈɪt",
@@ -6697,7 +5916,7 @@
     "w": "bat",
     "p": [
      "b",
-     "a",
+     "ae",
      "t"
     ],
     "ipa": "bˈæt",
@@ -6707,7 +5926,7 @@
     "w": "sat",
     "p": [
      "s",
-     "a",
+     "ae",
      "t"
     ],
     "ipa": "sˈæt",
@@ -6726,7 +5945,7 @@
    "w": "bag",
    "p": [
     "b",
-    "a",
+    "ae",
     "g"
    ],
    "ipa": "bˈæɡ",
@@ -6734,33 +5953,33 @@
   },
   "foils": [
    {
-    "w": "tag",
+    "w": "hag",
     "p": [
-     "t",
-     "a",
+     "hh",
+     "ae",
      "g"
     ],
-    "ipa": "tˈæɡ",
+    "ipa": "hˈæɡ",
     "cell": "onset"
    },
    {
-    "w": "bog",
+    "w": "bug",
     "p": [
      "b",
-     "o",
+     "ah",
      "g"
     ],
-    "ipa": "bˈɑɡ",
+    "ipa": "bˈʌɡ",
     "cell": "vowel"
    },
    {
-    "w": "tog",
+    "w": "hug",
     "p": [
-     "t",
-     "o",
+     "hh",
+     "ah",
      "g"
     ],
-    "ipa": "tˈɑɡ",
+    "ipa": "hˈʌɡ",
     "cell": "onset+vowel"
    }
   ],
@@ -6776,7 +5995,7 @@
    "w": "bed",
    "p": [
     "b",
-    "e",
+    "eh",
     "d"
    ],
    "ipa": "bˈɛd",
@@ -6784,33 +6003,33 @@
   },
   "foils": [
    {
-    "w": "med",
+    "w": "red",
     "p": [
-     "m",
-     "e",
+     "r",
+     "eh",
      "d"
     ],
-    "ipa": "mˈɛd",
+    "ipa": "ɹˈɛd",
     "cell": "onset"
    },
    {
-    "w": "bad",
+    "w": "bud",
     "p": [
      "b",
-     "a",
+     "ah",
      "d"
     ],
-    "ipa": "bˈæd",
+    "ipa": "bˈʌd",
     "cell": "vowel"
    },
    {
-    "w": "mad",
+    "w": "rud",
     "p": [
-     "m",
-     "a",
+     "r",
+     "ah",
      "d"
     ],
-    "ipa": "mˈæd",
+    "ipa": "ɹˈʌd",
     "cell": "onset+vowel"
    }
   ],
@@ -6826,7 +6045,7 @@
    "w": "fan",
    "p": [
     "f",
-    "a",
+    "ae",
     "n"
    ],
    "ipa": "fˈæn",
@@ -6834,33 +6053,33 @@
   },
   "foils": [
    {
-    "w": "tan",
+    "w": "san",
     "p": [
-     "t",
-     "a",
+     "s",
+     "ae",
      "n"
     ],
-    "ipa": "tˈæn",
+    "ipa": "sˈæn",
     "cell": "onset"
    },
    {
-    "w": "fin",
+    "w": "fun",
     "p": [
      "f",
-     "i",
+     "ah",
      "n"
     ],
-    "ipa": "fˈɪn",
+    "ipa": "fˈʌn",
     "cell": "vowel"
    },
    {
-    "w": "tin",
+    "w": "son",
     "p": [
-     "t",
-     "i",
+     "s",
+     "ah",
      "n"
     ],
-    "ipa": "tˈɪn",
+    "ipa": "sˈʌn",
     "cell": "onset+vowel"
    }
   ],
@@ -6876,7 +6095,7 @@
    "w": "fat",
    "p": [
     "f",
-    "a",
+    "ae",
     "t"
    ],
    "ipa": "fˈæt",
@@ -6884,83 +6103,33 @@
   },
   "foils": [
    {
-    "w": "sat",
+    "w": "cat",
     "p": [
-     "s",
-     "a",
+     "k",
+     "ae",
      "t"
     ],
-    "ipa": "sˈæt",
+    "ipa": "kˈæt",
     "cell": "onset"
    },
    {
     "w": "fit",
     "p": [
      "f",
-     "i",
+     "ih",
      "t"
     ],
     "ipa": "fˈɪt",
     "cell": "vowel"
    },
    {
-    "w": "sit",
+    "w": "kit",
     "p": [
-     "s",
-     "i",
+     "k",
+     "ih",
      "t"
     ],
-    "ipa": "sˈɪt",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "real",
-  "relaxed": false
- },
- "fig": {
-  "target": {
-   "w": "fig",
-   "p": [
-    "f",
-    "i",
-    "g"
-   ],
-   "ipa": "fˈɪɡ",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "dig",
-    "p": [
-     "d",
-     "i",
-     "g"
-    ],
-    "ipa": "dˈɪɡ",
-    "cell": "onset"
-   },
-   {
-    "w": "fog",
-    "p": [
-     "f",
-     "o",
-     "g"
-    ],
-    "ipa": "fˈɑɡ",
-    "cell": "vowel"
-   },
-   {
-    "w": "dog",
-    "p": [
-     "d",
-     "o",
-     "g"
-    ],
-    "ipa": "dˈɑɡ",
+    "ipa": "kˈɪt",
     "cell": "onset+vowel"
    }
   ],
@@ -6976,7 +6145,7 @@
    "w": "fun",
    "p": [
     "f",
-    "u",
+    "ah",
     "n"
    ],
    "ipa": "fˈʌn",
@@ -6984,33 +6153,33 @@
   },
   "foils": [
    {
-    "w": "sun",
+    "w": "run",
     "p": [
-     "s",
-     "u",
+     "r",
+     "ah",
      "n"
     ],
-    "ipa": "sˈʌn",
+    "ipa": "ɹˈʌn",
     "cell": "onset"
    },
    {
-    "w": "fin",
+    "w": "fan",
     "p": [
      "f",
-     "i",
+     "ae",
      "n"
     ],
-    "ipa": "fˈɪn",
+    "ipa": "fˈæn",
     "cell": "vowel"
    },
    {
-    "w": "sin",
+    "w": "ran",
     "p": [
-     "s",
-     "i",
+     "r",
+     "ae",
      "n"
     ],
-    "ipa": "sˈɪn",
+    "ipa": "ɹˈæn",
     "cell": "onset+vowel"
    }
   ],
@@ -7026,7 +6195,7 @@
    "w": "fog",
    "p": [
     "f",
-    "o",
+    "aa",
     "g"
    ],
    "ipa": "fˈɑɡ",
@@ -7034,33 +6203,33 @@
   },
   "foils": [
    {
-    "w": "dog",
+    "w": "jog",
     "p": [
-     "d",
-     "o",
+     "jh",
+     "aa",
      "g"
     ],
-    "ipa": "dˈɑɡ",
+    "ipa": "ʤˈɑɡ",
     "cell": "onset"
    },
    {
     "w": "fig",
     "p": [
      "f",
-     "i",
+     "ih",
      "g"
     ],
     "ipa": "fˈɪɡ",
     "cell": "vowel"
    },
    {
-    "w": "dig",
+    "w": "jig",
     "p": [
-     "d",
-     "i",
+     "jh",
+     "ih",
      "g"
     ],
-    "ipa": "dˈɪɡ",
+    "ipa": "ʤˈɪɡ",
     "cell": "onset+vowel"
    }
   ],
@@ -7069,14 +6238,15 @@
    "vowel"
   ],
   "kind": "real",
-  "relaxed": false
+  "relaxed": false,
+  "untaught": true
  },
  "leg": {
   "target": {
    "w": "leg",
    "p": [
     "l",
-    "e",
+    "eh",
     "g"
    ],
    "ipa": "lˈɛɡ",
@@ -7084,33 +6254,33 @@
   },
   "foils": [
    {
-    "w": "peg",
+    "w": "meg",
     "p": [
-     "p",
-     "e",
+     "m",
+     "eh",
      "g"
     ],
-    "ipa": "pˈɛɡ",
+    "ipa": "mˈɛɡ",
     "cell": "onset"
    },
    {
-    "w": "lug",
+    "w": "lag",
     "p": [
      "l",
-     "u",
+     "ae",
      "g"
     ],
-    "ipa": "lˈʌɡ",
+    "ipa": "lˈæɡ",
     "cell": "vowel"
    },
    {
-    "w": "pug",
+    "w": "mag",
     "p": [
-     "p",
-     "u",
+     "m",
+     "ae",
      "g"
     ],
-    "ipa": "pˈʌɡ",
+    "ipa": "mˈæɡ",
     "cell": "onset+vowel"
    }
   ],
@@ -7126,7 +6296,7 @@
    "w": "lap",
    "p": [
     "l",
-    "a",
+    "ae",
     "p"
    ],
    "ipa": "lˈæp",
@@ -7134,33 +6304,33 @@
   },
   "foils": [
    {
-    "w": "sap",
+    "w": "tap",
     "p": [
-     "s",
-     "a",
+     "t",
+     "ae",
      "p"
     ],
-    "ipa": "sˈæp",
+    "ipa": "tˈæp",
     "cell": "onset"
    },
    {
     "w": "lip",
     "p": [
      "l",
-     "i",
+     "ih",
      "p"
     ],
     "ipa": "lˈɪp",
     "cell": "vowel"
    },
    {
-    "w": "sip",
+    "w": "tip",
     "p": [
-     "s",
-     "i",
+     "t",
+     "ih",
      "p"
     ],
-    "ipa": "sˈɪp",
+    "ipa": "tˈɪp",
     "cell": "onset+vowel"
    }
   ],
@@ -7176,7 +6346,7 @@
    "w": "lip",
    "p": [
     "l",
-    "i",
+    "ih",
     "p"
    ],
    "ipa": "lˈɪp",
@@ -7184,33 +6354,33 @@
   },
   "foils": [
    {
-    "w": "sip",
+    "w": "pip",
     "p": [
-     "s",
-     "i",
+     "p",
+     "ih",
      "p"
     ],
-    "ipa": "sˈɪp",
+    "ipa": "pˈɪp",
     "cell": "onset"
    },
    {
     "w": "lap",
     "p": [
      "l",
-     "a",
+     "ae",
      "p"
     ],
     "ipa": "lˈæp",
     "cell": "vowel"
    },
    {
-    "w": "sap",
+    "w": "pap",
     "p": [
-     "s",
-     "a",
+     "p",
+     "ae",
      "p"
     ],
-    "ipa": "sˈæp",
+    "ipa": "pˈæp",
     "cell": "onset+vowel"
    }
   ],
@@ -7226,7 +6396,7 @@
    "w": "let",
    "p": [
     "l",
-    "e",
+    "eh",
     "t"
    ],
    "ipa": "lˈɛt",
@@ -7234,33 +6404,33 @@
   },
   "foils": [
    {
-    "w": "set",
+    "w": "net",
     "p": [
-     "s",
-     "e",
+     "n",
+     "eh",
      "t"
     ],
-    "ipa": "sˈɛt",
+    "ipa": "nˈɛt",
     "cell": "onset"
    },
    {
-    "w": "lat",
+    "w": "lit",
     "p": [
      "l",
-     "a",
+     "ih",
      "t"
     ],
-    "ipa": "lˈæt",
+    "ipa": "lˈɪt",
     "cell": "vowel"
    },
    {
-    "w": "sat",
+    "w": "knit",
     "p": [
-     "s",
-     "a",
+     "n",
+     "ih",
      "t"
     ],
-    "ipa": "sˈæt",
+    "ipa": "nˈɪt",
     "cell": "onset+vowel"
    }
   ],
@@ -7276,7 +6446,7 @@
    "w": "lid",
    "p": [
     "l",
-    "i",
+    "ih",
     "d"
    ],
    "ipa": "lˈɪd",
@@ -7287,30 +6457,30 @@
     "w": "mid",
     "p": [
      "m",
-     "i",
+     "ih",
      "d"
     ],
     "ipa": "mˈɪd",
     "cell": "onset"
    },
    {
-    "w": "lad",
+    "w": "led",
     "p": [
      "l",
-     "a",
+     "eh",
      "d"
     ],
-    "ipa": "lˈæd",
+    "ipa": "lˈɛd",
     "cell": "vowel"
    },
    {
-    "w": "mad",
+    "w": "med",
     "p": [
      "m",
-     "a",
+     "eh",
      "d"
     ],
-    "ipa": "mˈæd",
+    "ipa": "mˈɛd",
     "cell": "onset+vowel"
    }
   ],
@@ -7326,7 +6496,7 @@
    "w": "bud",
    "p": [
     "b",
-    "u",
+    "ah",
     "d"
    ],
    "ipa": "bˈʌd",
@@ -7337,30 +6507,30 @@
     "w": "mud",
     "p": [
      "m",
-     "u",
+     "ah",
      "d"
     ],
     "ipa": "mˈʌd",
     "cell": "onset"
    },
    {
-    "w": "bad",
+    "w": "bed",
     "p": [
      "b",
-     "a",
+     "eh",
      "d"
     ],
-    "ipa": "bˈæd",
+    "ipa": "bˈɛd",
     "cell": "vowel"
    },
    {
-    "w": "mad",
+    "w": "med",
     "p": [
      "m",
-     "a",
+     "eh",
      "d"
     ],
-    "ipa": "mˈæd",
+    "ipa": "mˈɛd",
     "cell": "onset+vowel"
    }
   ],
@@ -7376,7 +6546,7 @@
    "w": "bun",
    "p": [
     "b",
-    "u",
+    "ah",
     "n"
    ],
    "ipa": "bˈʌn",
@@ -7384,33 +6554,33 @@
   },
   "foils": [
    {
-    "w": "sun",
+    "w": "pun",
     "p": [
-     "s",
-     "u",
+     "p",
+     "ah",
      "n"
     ],
-    "ipa": "sˈʌn",
+    "ipa": "pˈʌn",
     "cell": "onset"
    },
    {
     "w": "bin",
     "p": [
      "b",
-     "i",
+     "ih",
      "n"
     ],
     "ipa": "bˈɪn",
     "cell": "vowel"
    },
    {
-    "w": "sin",
+    "w": "pin",
     "p": [
-     "s",
-     "i",
+     "p",
+     "ih",
      "n"
     ],
-    "ipa": "sˈɪn",
+    "ipa": "pˈɪn",
     "cell": "onset+vowel"
    }
   ],
@@ -7426,7 +6596,7 @@
    "w": "lock",
    "p": [
     "l",
-    "o",
+    "aa",
     "k"
    ],
    "ipa": "lˈɑk",
@@ -7434,33 +6604,33 @@
   },
   "foils": [
    {
-    "w": "sock",
+    "w": "pock",
     "p": [
-     "s",
-     "o",
+     "p",
+     "aa",
      "k"
     ],
-    "ipa": "sˈɑk",
+    "ipa": "pˈɑk",
     "cell": "onset"
    },
    {
     "w": "lack",
     "p": [
      "l",
-     "a",
+     "ae",
      "k"
     ],
     "ipa": "lˈæk",
     "cell": "vowel"
    },
    {
-    "w": "sack",
+    "w": "pack",
     "p": [
-     "s",
-     "a",
+     "p",
+     "ae",
      "k"
     ],
-    "ipa": "sˈæk",
+    "ipa": "pˈæk",
     "cell": "onset+vowel"
    }
   ],
@@ -7471,62 +6641,12 @@
   "kind": "real",
   "relaxed": false
  },
- "fon": {
-  "target": {
-   "w": "fon",
-   "p": [
-    "f",
-    "o",
-    "n"
-   ],
-   "ipa": "fˈɑn",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "son",
-    "p": [
-     "s",
-     "o",
-     "n"
-    ],
-    "ipa": "sˈɑn",
-    "cell": "onset"
-   },
-   {
-    "w": "fan",
-    "p": [
-     "f",
-     "a",
-     "n"
-    ],
-    "ipa": "fˈæn",
-    "cell": "vowel"
-   },
-   {
-    "w": "san",
-    "p": [
-     "s",
-     "a",
-     "n"
-    ],
-    "ipa": "sˈæn",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "pseudo",
-  "relaxed": true
- },
  "lir": {
   "target": {
    "w": "lir",
    "p": [
     "l",
-    "i",
+    "ih",
     "r"
    ],
    "ipa": "lˈɪɹ",
@@ -7534,33 +6654,33 @@
   },
   "foils": [
    {
-    "w": "tir",
+    "w": "zir",
     "p": [
-     "t",
-     "i",
+     "z",
+     "ih",
      "r"
     ],
-    "ipa": "tˈɪɹ",
+    "ipa": "zˈɪɹ",
     "cell": "onset"
    },
    {
-    "w": "ler",
+    "w": "lur",
     "p": [
      "l",
-     "e",
+     "ah",
      "r"
     ],
-    "ipa": "lˈɛɹ",
+    "ipa": "lˈʌɹ",
     "cell": "vowel"
    },
    {
-    "w": "ter",
+    "w": "zur",
     "p": [
-     "t",
-     "e",
+     "z",
+     "ah",
      "r"
     ],
-    "ipa": "tˈɛɹ",
+    "ipa": "zˈʌɹ",
     "cell": "onset+vowel"
    }
   ],
@@ -7569,14 +6689,15 @@
    "vowel"
   ],
   "kind": "pseudo",
-  "relaxed": false
+  "relaxed": false,
+  "untaught": true
  },
  "bof": {
   "target": {
    "w": "bof",
    "p": [
     "b",
-    "o",
+    "aa",
     "f"
    ],
    "ipa": "bˈɑf",
@@ -7584,33 +6705,33 @@
   },
   "foils": [
    {
-    "w": "soff",
+    "w": "moff",
     "p": [
-     "s",
-     "o",
+     "m",
+     "aa",
      "f"
     ],
-    "ipa": "sˈɑf",
+    "ipa": "mˈɑf",
     "cell": "onset"
    },
    {
-    "w": "baff",
+    "w": "beff",
     "p": [
      "b",
-     "a",
+     "eh",
      "f"
     ],
-    "ipa": "bˈæf",
+    "ipa": "bˈɛf",
     "cell": "vowel"
    },
    {
-    "w": "saff",
+    "w": "meff",
     "p": [
-     "s",
-     "a",
+     "m",
+     "eh",
      "f"
     ],
-    "ipa": "sˈæf",
+    "ipa": "mˈɛf",
     "cell": "onset+vowel"
    }
   ],
@@ -7621,62 +6742,12 @@
   "kind": "pseudo",
   "relaxed": false
  },
- "lut": {
-  "target": {
-   "w": "lut",
-   "p": [
-    "l",
-    "u",
-    "t"
-   ],
-   "ipa": "lˈʌt",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "sut",
-    "p": [
-     "s",
-     "u",
-     "t"
-    ],
-    "ipa": "sˈʌt",
-    "cell": "onset"
-   },
-   {
-    "w": "lat",
-    "p": [
-     "l",
-     "a",
-     "t"
-    ],
-    "ipa": "lˈæt",
-    "cell": "vowel"
-   },
-   {
-    "w": "sat",
-    "p": [
-     "s",
-     "a",
-     "t"
-    ],
-    "ipa": "sˈæt",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "pseudo",
-  "relaxed": true
- },
  "fim": {
   "target": {
    "w": "fim",
    "p": [
     "f",
-    "i",
+    "ih",
     "m"
    ],
    "ipa": "fˈɪm",
@@ -7684,33 +6755,33 @@
   },
   "foils": [
    {
-    "w": "pim",
+    "w": "gim",
     "p": [
-     "p",
-     "i",
+     "g",
+     "ih",
      "m"
     ],
-    "ipa": "pˈɪm",
+    "ipa": "ɡˈɪm",
     "cell": "onset"
    },
    {
-    "w": "fam",
+    "w": "fom",
     "p": [
      "f",
-     "a",
+     "aa",
      "m"
     ],
-    "ipa": "fˈæm",
+    "ipa": "fˈɑm",
     "cell": "vowel"
    },
    {
-    "w": "pam",
+    "w": "gom",
     "p": [
-     "p",
-     "a",
+     "g",
+     "aa",
      "m"
     ],
-    "ipa": "pˈæm",
+    "ipa": "ɡˈɑm",
     "cell": "onset+vowel"
    }
   ],
@@ -7726,7 +6797,7 @@
    "w": "bug",
    "p": [
     "b",
-    "u",
+    "ah",
     "g"
    ],
    "ipa": "bˈʌɡ",
@@ -7734,33 +6805,33 @@
   },
   "foils": [
    {
-    "w": "tug",
+    "w": "mug",
     "p": [
-     "t",
-     "u",
+     "m",
+     "ah",
      "g"
     ],
-    "ipa": "tˈʌɡ",
+    "ipa": "mˈʌɡ",
     "cell": "onset"
    },
    {
-    "w": "bag",
+    "w": "beg",
     "p": [
      "b",
-     "a",
+     "eh",
      "g"
     ],
-    "ipa": "bˈæɡ",
+    "ipa": "bˈɛɡ",
     "cell": "vowel"
    },
    {
-    "w": "tag",
+    "w": "meg",
     "p": [
-     "t",
-     "a",
+     "m",
+     "eh",
      "g"
     ],
-    "ipa": "tˈæɡ",
+    "ipa": "mˈɛɡ",
     "cell": "onset+vowel"
    }
   ],
@@ -7776,7 +6847,7 @@
    "w": "doll",
    "p": [
     "d",
-    "o",
+    "aa",
     "l"
    ],
    "ipa": "dˈɑl",
@@ -7784,33 +6855,33 @@
   },
   "foils": [
    {
-    "w": "sol",
+    "w": "moll",
     "p": [
-     "s",
-     "o",
+     "m",
+     "aa",
      "l"
     ],
-    "ipa": "sˈɑl",
+    "ipa": "mˈɑl",
     "cell": "onset"
    },
    {
     "w": "dill",
     "p": [
      "d",
-     "i",
+     "ih",
      "l"
     ],
     "ipa": "dˈɪl",
     "cell": "vowel"
    },
    {
-    "w": "sill",
+    "w": "mill",
     "p": [
-     "s",
-     "i",
+     "m",
+     "ih",
      "l"
     ],
-    "ipa": "sˈɪl",
+    "ipa": "mˈɪl",
     "cell": "onset+vowel"
    }
   ],
@@ -7826,7 +6897,7 @@
    "w": "bell",
    "p": [
     "b",
-    "e",
+    "eh",
     "l"
    ],
    "ipa": "bˈɛl",
@@ -7834,10 +6905,10 @@
   },
   "foils": [
    {
-    "w": "sell",
+    "w": "cell",
     "p": [
      "s",
-     "e",
+     "eh",
      "l"
     ],
     "ipa": "sˈɛl",
@@ -7847,7 +6918,7 @@
     "w": "bill",
     "p": [
      "b",
-     "i",
+     "ih",
      "l"
     ],
     "ipa": "bˈɪl",
@@ -7857,7 +6928,7 @@
     "w": "sill",
     "p": [
      "s",
-     "i",
+     "ih",
      "l"
     ],
     "ipa": "sˈɪl",
@@ -7876,7 +6947,7 @@
    "w": "fell",
    "p": [
     "f",
-    "e",
+    "eh",
     "l"
    ],
    "ipa": "fˈɛl",
@@ -7884,10 +6955,10 @@
   },
   "foils": [
    {
-    "w": "sell",
+    "w": "cell",
     "p": [
      "s",
-     "e",
+     "eh",
      "l"
     ],
     "ipa": "sˈɛl",
@@ -7897,7 +6968,7 @@
     "w": "fill",
     "p": [
      "f",
-     "i",
+     "ih",
      "l"
     ],
     "ipa": "fˈɪl",
@@ -7907,7 +6978,7 @@
     "w": "sill",
     "p": [
      "s",
-     "i",
+     "ih",
      "l"
     ],
     "ipa": "sˈɪl",
@@ -7926,7 +6997,7 @@
    "w": "tell",
    "p": [
     "t",
-    "e",
+    "eh",
     "l"
    ],
    "ipa": "tˈɛl",
@@ -7934,33 +7005,33 @@
   },
   "foils": [
    {
-    "w": "sell",
+    "w": "fell",
     "p": [
-     "s",
-     "e",
+     "f",
+     "eh",
      "l"
     ],
-    "ipa": "sˈɛl",
+    "ipa": "fˈɛl",
     "cell": "onset"
    },
    {
     "w": "till",
     "p": [
      "t",
-     "i",
+     "ih",
      "l"
     ],
     "ipa": "tˈɪl",
     "cell": "vowel"
    },
    {
-    "w": "sill",
+    "w": "fill",
     "p": [
-     "s",
-     "i",
+     "f",
+     "ih",
      "l"
     ],
-    "ipa": "sˈɪl",
+    "ipa": "fˈɪl",
     "cell": "onset+vowel"
    }
   ],
@@ -7976,7 +7047,7 @@
    "w": "sell",
    "p": [
     "s",
-    "e",
+    "eh",
     "l"
    ],
    "ipa": "sˈɛl",
@@ -7987,7 +7058,7 @@
     "w": "tell",
     "p": [
      "t",
-     "e",
+     "eh",
      "l"
     ],
     "ipa": "tˈɛl",
@@ -7997,7 +7068,7 @@
     "w": "sill",
     "p": [
      "s",
-     "i",
+     "ih",
      "l"
     ],
     "ipa": "sˈɪl",
@@ -8007,7 +7078,7 @@
     "w": "till",
     "p": [
      "t",
-     "i",
+     "ih",
      "l"
     ],
     "ipa": "tˈɪl",
@@ -8026,91 +7097,41 @@
    "w": "tall",
    "p": [
     "t",
-    "a",
+    "ao",
     "l"
    ],
-   "ipa": "tˈæl",
+   "ipa": "tˈɔl",
    "cell": "target"
   },
   "foils": [
    {
-    "w": "pall",
+    "w": "ball",
     "p": [
-     "p",
-     "a",
+     "b",
+     "ao",
      "l"
     ],
-    "ipa": "pˈæl",
+    "ipa": "bˈɔl",
     "cell": "onset"
    },
    {
-    "w": "till",
+    "w": "tell",
     "p": [
      "t",
-     "i",
+     "eh",
      "l"
     ],
-    "ipa": "tˈɪl",
+    "ipa": "tˈɛl",
     "cell": "vowel"
    },
    {
-    "w": "pill",
+    "w": "bell",
     "p": [
-     "p",
-     "i",
+     "b",
+     "eh",
      "l"
     ],
-    "ipa": "pˈɪl",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "real",
-  "relaxed": false
- },
- "hill": {
-  "target": {
-   "w": "hill",
-   "p": [
-    "h",
-    "i",
-    "l"
-   ],
-   "ipa": "hˈɪl",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "sill",
-    "p": [
-     "s",
-     "i",
-     "l"
-    ],
-    "ipa": "sˈɪl",
-    "cell": "onset"
-   },
-   {
-    "w": "hell",
-    "p": [
-     "h",
-     "e",
-     "l"
-    ],
-    "ipa": "hˈɛl",
-    "cell": "vowel"
-   },
-   {
-    "w": "sell",
-    "p": [
-     "s",
-     "e",
-     "l"
-    ],
-    "ipa": "sˈɛl",
+    "ipa": "bˈɛl",
     "cell": "onset+vowel"
    }
   ],
@@ -8126,7 +7147,7 @@
    "w": "bill",
    "p": [
     "b",
-    "i",
+    "ih",
     "l"
    ],
    "ipa": "bˈɪl",
@@ -8137,30 +7158,30 @@
     "w": "sill",
     "p": [
      "s",
-     "i",
+     "ih",
      "l"
     ],
     "ipa": "sˈɪl",
     "cell": "onset"
    },
    {
-    "w": "boll",
+    "w": "bell",
     "p": [
      "b",
-     "o",
+     "eh",
      "l"
     ],
-    "ipa": "bˈɑl",
+    "ipa": "bˈɛl",
     "cell": "vowel"
    },
    {
-    "w": "sol",
+    "w": "cell",
     "p": [
      "s",
-     "o",
+     "eh",
      "l"
     ],
-    "ipa": "sˈɑl",
+    "ipa": "sˈɛl",
     "cell": "onset+vowel"
    }
   ],
@@ -8176,7 +7197,7 @@
    "w": "fill",
    "p": [
     "f",
-    "i",
+    "ih",
     "l"
    ],
    "ipa": "fˈɪl",
@@ -8184,33 +7205,33 @@
   },
   "foils": [
    {
-    "w": "sill",
+    "w": "till",
     "p": [
-     "s",
-     "i",
+     "t",
+     "ih",
      "l"
     ],
-    "ipa": "sˈɪl",
+    "ipa": "tˈɪl",
     "cell": "onset"
    },
    {
     "w": "fell",
     "p": [
      "f",
-     "e",
+     "eh",
      "l"
     ],
     "ipa": "fˈɛl",
     "cell": "vowel"
    },
    {
-    "w": "sell",
+    "w": "tell",
     "p": [
-     "s",
-     "e",
+     "t",
+     "eh",
      "l"
     ],
-    "ipa": "sˈɛl",
+    "ipa": "tˈɛl",
     "cell": "onset+vowel"
    }
   ],
@@ -8226,7 +7247,7 @@
    "w": "mill",
    "p": [
     "m",
-    "i",
+    "ih",
     "l"
    ],
    "ipa": "mˈɪl",
@@ -8234,33 +7255,33 @@
   },
   "foils": [
    {
-    "w": "sill",
+    "w": "dill",
     "p": [
-     "s",
-     "i",
+     "d",
+     "ih",
      "l"
     ],
-    "ipa": "sˈɪl",
+    "ipa": "dˈɪl",
     "cell": "onset"
    },
    {
     "w": "moll",
     "p": [
      "m",
-     "o",
+     "aa",
      "l"
     ],
     "ipa": "mˈɑl",
     "cell": "vowel"
    },
    {
-    "w": "sol",
+    "w": "doll",
     "p": [
-     "s",
-     "o",
+     "d",
+     "aa",
      "l"
     ],
-    "ipa": "sˈɑl",
+    "ipa": "dˈɑl",
     "cell": "onset+vowel"
    }
   ],
@@ -8270,113 +7291,13 @@
   ],
   "kind": "real",
   "relaxed": false
- },
- "kiss": {
-  "target": {
-   "w": "kiss",
-   "p": [
-    "k",
-    "i",
-    "s"
-   ],
-   "ipa": "kˈɪs",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "miss",
-    "p": [
-     "m",
-     "i",
-     "s"
-    ],
-    "ipa": "mˈɪs",
-    "cell": "onset"
-   },
-   {
-    "w": "cuss",
-    "p": [
-     "k",
-     "u",
-     "s"
-    ],
-    "ipa": "kˈʌs",
-    "cell": "vowel"
-   },
-   {
-    "w": "muss",
-    "p": [
-     "m",
-     "u",
-     "s"
-    ],
-    "ipa": "mˈʌs",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "real",
-  "relaxed": false
- },
- "buzz": {
-  "target": {
-   "w": "buzz",
-   "p": [
-    "b",
-    "u",
-    "z"
-   ],
-   "ipa": "bˈʌz",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "suzz",
-    "p": [
-     "s",
-     "u",
-     "z"
-    ],
-    "ipa": "sˈʌz",
-    "cell": "onset"
-   },
-   {
-    "w": "bazz",
-    "p": [
-     "b",
-     "a",
-     "z"
-    ],
-    "ipa": "bˈæz",
-    "cell": "vowel"
-   },
-   {
-    "w": "sazz",
-    "p": [
-     "s",
-     "a",
-     "z"
-    ],
-    "ipa": "sˈæz",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "real",
-  "relaxed": true
  },
  "cats": {
   "target": {
    "w": "cats",
    "p": [
     "k",
-    "a",
+    "ae",
     "t",
     "s"
    ],
@@ -8385,21 +7306,21 @@
   },
   "foils": [
    {
-    "w": "tats",
+    "w": "pats",
     "p": [
-     "t",
-     "a",
+     "p",
+     "ae",
      "t",
      "s"
     ],
-    "ipa": "tˈæts",
+    "ipa": "pˈæts",
     "cell": "onset"
    },
    {
     "w": "cots",
     "p": [
      "k",
-     "o",
+     "aa",
      "t",
      "s"
     ],
@@ -8407,14 +7328,14 @@
     "cell": "vowel"
    },
    {
-    "w": "tots",
+    "w": "pots",
     "p": [
-     "t",
-     "o",
+     "p",
+     "aa",
      "t",
      "s"
     ],
-    "ipa": "tˈɑts",
+    "ipa": "pˈɑts",
     "cell": "onset+vowel"
    }
   ],
@@ -8430,7 +7351,7 @@
    "w": "bugs",
    "p": [
     "b",
-    "u",
+    "ah",
     "g",
     "z"
    ],
@@ -8439,21 +7360,21 @@
   },
   "foils": [
    {
-    "w": "sugzz",
+    "w": "rugs",
     "p": [
-     "s",
-     "u",
+     "r",
+     "ah",
      "g",
      "z"
     ],
-    "ipa": "sˈʌɡz",
+    "ipa": "ɹˈʌɡz",
     "cell": "onset"
    },
    {
-    "w": "bagzz",
+    "w": "bags",
     "p": [
      "b",
-     "a",
+     "ae",
      "g",
      "z"
     ],
@@ -8461,14 +7382,14 @@
     "cell": "vowel"
    },
    {
-    "w": "sagzz",
+    "w": "rags",
     "p": [
-     "s",
-     "a",
+     "r",
+     "ae",
      "g",
      "z"
     ],
-    "ipa": "sˈæɡz",
+    "ipa": "ɹˈæɡz",
     "cell": "onset+vowel"
    }
   ],
@@ -8477,14 +7398,14 @@
    "vowel"
   ],
   "kind": "real",
-  "relaxed": true
+  "relaxed": false
  },
  "hats": {
   "target": {
    "w": "hats",
    "p": [
-    "h",
-    "a",
+    "hh",
+    "ae",
     "t",
     "s"
    ],
@@ -8496,7 +7417,7 @@
     "w": "pats",
     "p": [
      "p",
-     "a",
+     "ae",
      "t",
      "s"
     ],
@@ -8506,8 +7427,8 @@
    {
     "w": "hits",
     "p": [
-     "h",
-     "i",
+     "hh",
+     "ih",
      "t",
      "s"
     ],
@@ -8518,7 +7439,7 @@
     "w": "pits",
     "p": [
      "p",
-     "i",
+     "ih",
      "t",
      "s"
     ],
@@ -8538,95 +7459,41 @@
    "w": "lodd",
    "p": [
     "l",
-    "o",
-    "d",
+    "aa",
     "d"
    ],
-   "ipa": "lˈɑdd",
+   "ipa": "lˈɑd",
    "cell": "target"
   },
   "foils": [
    {
-    "w": "sodd",
-    "p": [
-     "s",
-     "o",
-     "d",
-     "d"
-    ],
-    "ipa": "sˈɑdd",
-    "cell": "onset"
-   },
-   {
-    "w": "ladd",
-    "p": [
-     "l",
-     "a",
-     "d",
-     "d"
-    ],
-    "ipa": "lˈædd",
-    "cell": "vowel"
-   },
-   {
-    "w": "sadd",
-    "p": [
-     "s",
-     "a",
-     "d",
-     "d"
-    ],
-    "ipa": "sˈædd",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "pseudo",
-  "relaxed": false
- },
- "fess": {
-  "target": {
-   "w": "fess",
-   "p": [
-    "f",
-    "e",
-    "s"
-   ],
-   "ipa": "fˈɛs",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "tess",
-    "p": [
-     "t",
-     "e",
-     "s"
-    ],
-    "ipa": "tˈɛs",
-    "cell": "onset"
-   },
-   {
-    "w": "fass",
+    "w": "fod",
     "p": [
      "f",
-     "a",
-     "s"
+     "aa",
+     "d"
     ],
-    "ipa": "fˈæs",
+    "ipa": "fˈɑd",
+    "cell": "onset"
+   },
+   {
+    "w": "lud",
+    "p": [
+     "l",
+     "ah",
+     "d"
+    ],
+    "ipa": "lˈʌd",
     "cell": "vowel"
    },
    {
-    "w": "tass",
+    "w": "fud",
     "p": [
-     "t",
-     "a",
-     "s"
+     "f",
+     "ah",
+     "d"
     ],
-    "ipa": "tˈæs",
+    "ipa": "fˈʌd",
     "cell": "onset+vowel"
    }
   ],
@@ -8642,7 +7509,7 @@
    "w": "nuzz",
    "p": [
     "n",
-    "u",
+    "ah",
     "z"
    ],
    "ipa": "nˈʌz",
@@ -8650,33 +7517,33 @@
   },
   "foils": [
    {
-    "w": "suzz",
+    "w": "ruzz",
     "p": [
-     "s",
-     "u",
+     "r",
+     "ah",
      "z"
     ],
-    "ipa": "sˈʌz",
+    "ipa": "ɹˈʌz",
     "cell": "onset"
    },
    {
-    "w": "nazz",
+    "w": "nozz",
     "p": [
      "n",
-     "a",
+     "aa",
      "z"
     ],
-    "ipa": "nˈæz",
+    "ipa": "nˈɑz",
     "cell": "vowel"
    },
    {
-    "w": "sazz",
+    "w": "rozz",
     "p": [
-     "s",
-     "a",
+     "r",
+     "aa",
      "z"
     ],
-    "ipa": "sˈæz",
+    "ipa": "ɹˈɑz",
     "cell": "onset+vowel"
    }
   ],
@@ -8691,8 +7558,8 @@
   "target": {
    "w": "hiff",
    "p": [
-    "h",
-    "i",
+    "hh",
+    "ih",
     "f"
    ],
    "ipa": "hˈɪf",
@@ -8700,33 +7567,33 @@
   },
   "foils": [
    {
-    "w": "siff",
+    "w": "fiff",
     "p": [
-     "s",
-     "i",
+     "f",
+     "ih",
      "f"
     ],
-    "ipa": "sˈɪf",
+    "ipa": "fˈɪf",
     "cell": "onset"
    },
    {
-    "w": "haff",
+    "w": "heff",
     "p": [
-     "h",
-     "a",
+     "hh",
+     "eh",
      "f"
     ],
-    "ipa": "hˈæf",
+    "ipa": "hˈɛf",
     "cell": "vowel"
    },
    {
-    "w": "saff",
+    "w": "feff",
     "p": [
-     "s",
-     "a",
+     "f",
+     "eh",
      "f"
     ],
-    "ipa": "sˈæf",
+    "ipa": "fˈɛf",
     "cell": "onset+vowel"
    }
   ],
@@ -8737,62 +7604,12 @@
   "kind": "pseudo",
   "relaxed": false
  },
- "tull": {
-  "target": {
-   "w": "tull",
-   "p": [
-    "t",
-    "u",
-    "l"
-   ],
-   "ipa": "tˈʌl",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "sull",
-    "p": [
-     "s",
-     "u",
-     "l"
-    ],
-    "ipa": "sˈʌl",
-    "cell": "onset"
-   },
-   {
-    "w": "tall",
-    "p": [
-     "t",
-     "a",
-     "l"
-    ],
-    "ipa": "tˈæl",
-    "cell": "vowel"
-   },
-   {
-    "w": "sall",
-    "p": [
-     "s",
-     "a",
-     "l"
-    ],
-    "ipa": "sˈæl",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "pseudo",
-  "relaxed": true
- },
  "bells": {
   "target": {
    "w": "bells",
    "p": [
     "b",
-    "e",
+    "eh",
     "l",
     "z"
    ],
@@ -8801,36 +7618,36 @@
   },
   "foils": [
    {
-    "w": "selzz",
+    "w": "wells",
     "p": [
-     "s",
-     "e",
+     "w",
+     "eh",
      "l",
      "z"
     ],
-    "ipa": "sˈɛlz",
+    "ipa": "wˈɛlz",
     "cell": "onset"
    },
    {
-    "w": "balzz",
+    "w": "bills",
     "p": [
      "b",
-     "a",
+     "ih",
      "l",
      "z"
     ],
-    "ipa": "bˈælz",
+    "ipa": "bˈɪlz",
     "cell": "vowel"
    },
    {
-    "w": "salzz",
+    "w": "wills",
     "p": [
-     "s",
-     "a",
+     "w",
+     "ih",
      "l",
      "z"
     ],
-    "ipa": "sˈælz",
+    "ipa": "wˈɪlz",
     "cell": "onset+vowel"
    }
   ],
@@ -8839,14 +7656,15 @@
    "vowel"
   ],
   "kind": "real",
-  "relaxed": true
+  "relaxed": false,
+  "untaught": true
  },
  "sits": {
   "target": {
    "w": "sits",
    "p": [
     "s",
-    "i",
+    "ih",
     "t",
     "s"
    ],
@@ -8858,7 +7676,7 @@
     "w": "pits",
     "p": [
      "p",
-     "i",
+     "ih",
      "t",
      "s"
     ],
@@ -8866,25 +7684,25 @@
     "cell": "onset"
    },
    {
-    "w": "sots",
+    "w": "sets",
     "p": [
      "s",
-     "o",
+     "eh",
      "t",
      "s"
     ],
-    "ipa": "sˈɑts",
+    "ipa": "sˈɛts",
     "cell": "vowel"
    },
    {
-    "w": "pots",
+    "w": "pets",
     "p": [
      "p",
-     "o",
+     "eh",
      "t",
      "s"
     ],
-    "ipa": "pˈɑts",
+    "ipa": "pˈɛts",
     "cell": "onset+vowel"
    }
   ],
@@ -8900,7 +7718,7 @@
    "w": "pats",
    "p": [
     "p",
-    "a",
+    "ae",
     "t",
     "s"
    ],
@@ -8909,36 +7727,36 @@
   },
   "foils": [
    {
-    "w": "tats",
+    "w": "hats",
     "p": [
-     "t",
-     "a",
+     "hh",
+     "ae",
      "t",
      "s"
     ],
-    "ipa": "tˈæts",
+    "ipa": "hˈæts",
     "cell": "onset"
    },
    {
-    "w": "pots",
+    "w": "pits",
     "p": [
      "p",
-     "o",
+     "ih",
      "t",
      "s"
     ],
-    "ipa": "pˈɑts",
+    "ipa": "pˈɪts",
     "cell": "vowel"
    },
    {
-    "w": "tots",
+    "w": "hits",
     "p": [
-     "t",
-     "o",
+     "hh",
+     "ih",
      "t",
      "s"
     ],
-    "ipa": "tˈɑts",
+    "ipa": "hˈɪts",
     "cell": "onset+vowel"
    }
   ],
@@ -8949,66 +7767,12 @@
   "kind": "real",
   "relaxed": false
  },
- "hugs": {
-  "target": {
-   "w": "hugs",
-   "p": [
-    "h",
-    "u",
-    "g",
-    "z"
-   ],
-   "ipa": "hˈʌɡz",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "sugzz",
-    "p": [
-     "s",
-     "u",
-     "g",
-     "z"
-    ],
-    "ipa": "sˈʌɡz",
-    "cell": "onset"
-   },
-   {
-    "w": "hagzz",
-    "p": [
-     "h",
-     "a",
-     "g",
-     "z"
-    ],
-    "ipa": "hˈæɡz",
-    "cell": "vowel"
-   },
-   {
-    "w": "sagzz",
-    "p": [
-     "s",
-     "a",
-     "g",
-     "z"
-    ],
-    "ipa": "sˈæɡz",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "real",
-  "relaxed": true
- },
  "hit": {
   "target": {
    "w": "hit",
    "p": [
-    "h",
-    "i",
+    "hh",
+    "ih",
     "t"
    ],
    "ipa": "hˈɪt",
@@ -9016,33 +7780,33 @@
   },
   "foils": [
    {
-    "w": "sit",
+    "w": "knit",
     "p": [
-     "s",
-     "i",
+     "n",
+     "ih",
      "t"
     ],
-    "ipa": "sˈɪt",
+    "ipa": "nˈɪt",
     "cell": "onset"
    },
    {
     "w": "hat",
     "p": [
-     "h",
-     "a",
+     "hh",
+     "ae",
      "t"
     ],
     "ipa": "hˈæt",
     "cell": "vowel"
    },
    {
-    "w": "sat",
+    "w": "nat",
     "p": [
-     "s",
-     "a",
+     "n",
+     "ae",
      "t"
     ],
-    "ipa": "sˈæt",
+    "ipa": "nˈæt",
     "cell": "onset+vowel"
    }
   ],
@@ -9053,231 +7817,15 @@
   "kind": "real",
   "relaxed": false
  },
- "sells": {
-  "target": {
-   "w": "sells",
-   "p": [
-    "s",
-    "e",
-    "l",
-    "z"
-   ],
-   "ipa": "sˈɛlz",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "telzz",
-    "p": [
-     "t",
-     "e",
-     "l",
-     "z"
-    ],
-    "ipa": "tˈɛlz",
-    "cell": "onset"
-   },
-   {
-    "w": "salzz",
-    "p": [
-     "s",
-     "a",
-     "l",
-     "z"
-    ],
-    "ipa": "sˈælz",
-    "cell": "vowel"
-   },
-   {
-    "w": "talzz",
-    "p": [
-     "t",
-     "a",
-     "l",
-     "z"
-    ],
-    "ipa": "tˈælz",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "real",
-  "relaxed": true
- },
- "dolls": {
-  "target": {
-   "w": "dolls",
-   "p": [
-    "d",
-    "o",
-    "l",
-    "z"
-   ],
-   "ipa": "dˈɑlz",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "solzz",
-    "p": [
-     "s",
-     "o",
-     "l",
-     "z"
-    ],
-    "ipa": "sˈɑlz",
-    "cell": "onset"
-   },
-   {
-    "w": "dalzz",
-    "p": [
-     "d",
-     "a",
-     "l",
-     "z"
-    ],
-    "ipa": "dˈælz",
-    "cell": "vowel"
-   },
-   {
-    "w": "salzz",
-    "p": [
-     "s",
-     "a",
-     "l",
-     "z"
-    ],
-    "ipa": "sˈælz",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "real",
-  "relaxed": true
- },
- "fills": {
-  "target": {
-   "w": "fills",
-   "p": [
-    "f",
-    "i",
-    "l",
-    "z"
-   ],
-   "ipa": "fˈɪlz",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "silzz",
-    "p": [
-     "s",
-     "i",
-     "l",
-     "z"
-    ],
-    "ipa": "sˈɪlz",
-    "cell": "onset"
-   },
-   {
-    "w": "falzz",
-    "p": [
-     "f",
-     "a",
-     "l",
-     "z"
-    ],
-    "ipa": "fˈælz",
-    "cell": "vowel"
-   },
-   {
-    "w": "salzz",
-    "p": [
-     "s",
-     "a",
-     "l",
-     "z"
-    ],
-    "ipa": "sˈælz",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "real",
-  "relaxed": true
- },
- "tells": {
-  "target": {
-   "w": "tells",
-   "p": [
-    "t",
-    "e",
-    "l",
-    "z"
-   ],
-   "ipa": "tˈɛlz",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "selzz",
-    "p": [
-     "s",
-     "e",
-     "l",
-     "z"
-    ],
-    "ipa": "sˈɛlz",
-    "cell": "onset"
-   },
-   {
-    "w": "talzz",
-    "p": [
-     "t",
-     "a",
-     "l",
-     "z"
-    ],
-    "ipa": "tˈælz",
-    "cell": "vowel"
-   },
-   {
-    "w": "salzz",
-    "p": [
-     "s",
-     "a",
-     "l",
-     "z"
-    ],
-    "ipa": "sˈælz",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "real",
-  "relaxed": true
- },
  "full": {
   "target": {
    "w": "full",
    "p": [
     "f",
-    "u",
+    "uh",
     "l"
    ],
-   "ipa": "fˈʌl",
+   "ipa": "fˈʊl",
    "cell": "target"
   },
   "foils": [
@@ -9285,30 +7833,30 @@
     "w": "pull",
     "p": [
      "p",
-     "u",
+     "uh",
      "l"
     ],
-    "ipa": "pˈʌl",
+    "ipa": "pˈʊl",
     "cell": "onset"
    },
    {
-    "w": "fall",
+    "w": "fill",
     "p": [
      "f",
-     "a",
+     "ih",
      "l"
     ],
-    "ipa": "fˈæl",
+    "ipa": "fˈɪl",
     "cell": "vowel"
    },
    {
-    "w": "pall",
+    "w": "pill",
     "p": [
      "p",
-     "a",
+     "ih",
      "l"
     ],
-    "ipa": "pˈæl",
+    "ipa": "pˈɪl",
     "cell": "onset+vowel"
    }
   ],
@@ -9323,8 +7871,8 @@
   "target": {
    "w": "jam",
    "p": [
-    "j",
-    "a",
+    "jh",
+    "ae",
     "m"
    ],
    "ipa": "ʤˈæm",
@@ -9335,17 +7883,17 @@
     "w": "sam",
     "p": [
      "s",
-     "a",
+     "ae",
      "m"
     ],
     "ipa": "sˈæm",
     "cell": "onset"
    },
    {
-    "w": "jim",
+    "w": "gym",
     "p": [
-     "j",
-     "i",
+     "jh",
+     "ih",
      "m"
     ],
     "ipa": "ʤˈɪm",
@@ -9355,7 +7903,7 @@
     "w": "sim",
     "p": [
      "s",
-     "i",
+     "ih",
      "m"
     ],
     "ipa": "sˈɪm",
@@ -9367,14 +7915,14 @@
    "vowel"
   ],
   "kind": "real",
-  "relaxed": true
+  "relaxed": false
  },
  "jog": {
   "target": {
    "w": "jog",
    "p": [
-    "j",
-    "o",
+    "jh",
+    "aa",
     "g"
    ],
    "ipa": "ʤˈɑɡ",
@@ -9382,33 +7930,33 @@
   },
   "foils": [
    {
-    "w": "tog",
+    "w": "hog",
     "p": [
-     "t",
-     "o",
+     "hh",
+     "aa",
      "g"
     ],
-    "ipa": "tˈɑɡ",
+    "ipa": "hˈɑɡ",
     "cell": "onset"
    },
    {
-    "w": "jag",
+    "w": "jug",
     "p": [
-     "j",
-     "a",
+     "jh",
+     "ah",
      "g"
     ],
-    "ipa": "ʤˈæɡ",
+    "ipa": "ʤˈʌɡ",
     "cell": "vowel"
    },
    {
-    "w": "tag",
+    "w": "hug",
     "p": [
-     "t",
-     "a",
+     "hh",
+     "ah",
      "g"
     ],
-    "ipa": "tˈæɡ",
+    "ipa": "hˈʌɡ",
     "cell": "onset+vowel"
    }
   ],
@@ -9423,8 +7971,8 @@
   "target": {
    "w": "jet",
    "p": [
-    "j",
-    "e",
+    "jh",
+    "eh",
     "t"
    ],
    "ipa": "ʤˈɛt",
@@ -9432,33 +7980,33 @@
   },
   "foils": [
    {
-    "w": "set",
+    "w": "debt",
     "p": [
-     "s",
-     "e",
+     "d",
+     "eh",
      "t"
     ],
-    "ipa": "sˈɛt",
+    "ipa": "dˈɛt",
     "cell": "onset"
    },
    {
     "w": "jot",
     "p": [
-     "j",
-     "o",
+     "jh",
+     "aa",
      "t"
     ],
     "ipa": "ʤˈɑt",
     "cell": "vowel"
    },
    {
-    "w": "sot",
+    "w": "dot",
     "p": [
-     "s",
-     "o",
+     "d",
+     "aa",
      "t"
     ],
-    "ipa": "sˈɑt",
+    "ipa": "dˈɑt",
     "cell": "onset+vowel"
    }
   ],
@@ -9473,8 +8021,8 @@
   "target": {
    "w": "job",
    "p": [
-    "j",
-    "o",
+    "jh",
+    "aa",
     "b"
    ],
    "ipa": "ʤˈɑb",
@@ -9482,33 +8030,33 @@
   },
   "foils": [
    {
-    "w": "gob",
+    "w": "rob",
     "p": [
-     "g",
-     "o",
+     "r",
+     "aa",
      "b"
     ],
-    "ipa": "ɡˈɑb",
+    "ipa": "ɹˈɑb",
     "cell": "onset"
    },
    {
-    "w": "jab",
+    "w": "jib",
     "p": [
-     "j",
-     "a",
+     "jh",
+     "ih",
      "b"
     ],
-    "ipa": "ʤˈæb",
+    "ipa": "ʤˈɪb",
     "cell": "vowel"
    },
    {
-    "w": "gab",
+    "w": "rib",
     "p": [
-     "g",
-     "a",
+     "r",
+     "ih",
      "b"
     ],
-    "ipa": "ɡˈæb",
+    "ipa": "ɹˈɪb",
     "cell": "onset+vowel"
    }
   ],
@@ -9523,8 +8071,8 @@
   "target": {
    "w": "jab",
    "p": [
-    "j",
-    "a",
+    "jh",
+    "ae",
     "b"
    ],
    "ipa": "ʤˈæb",
@@ -9535,7 +8083,7 @@
     "w": "nab",
     "p": [
      "n",
-     "a",
+     "ae",
      "b"
     ],
     "ipa": "nˈæb",
@@ -9544,8 +8092,8 @@
    {
     "w": "jib",
     "p": [
-     "j",
-     "i",
+     "jh",
+     "ih",
      "b"
     ],
     "ipa": "ʤˈɪb",
@@ -9555,7 +8103,7 @@
     "w": "nib",
     "p": [
      "n",
-     "i",
+     "ih",
      "b"
     ],
     "ipa": "nˈɪb",
@@ -9574,7 +8122,7 @@
    "w": "van",
    "p": [
     "v",
-    "a",
+    "ae",
     "n"
    ],
    "ipa": "vˈæn",
@@ -9582,33 +8130,33 @@
   },
   "foils": [
    {
-    "w": "san",
+    "w": "man",
     "p": [
-     "s",
-     "a",
+     "m",
+     "ae",
      "n"
     ],
-    "ipa": "sˈæn",
+    "ipa": "mˈæn",
     "cell": "onset"
    },
    {
     "w": "vin",
     "p": [
      "v",
-     "i",
+     "ih",
      "n"
     ],
     "ipa": "vˈɪn",
     "cell": "vowel"
    },
    {
-    "w": "sin",
+    "w": "min",
     "p": [
-     "s",
-     "i",
+     "m",
+     "ih",
      "n"
     ],
-    "ipa": "sˈɪn",
+    "ipa": "mˈɪn",
     "cell": "onset+vowel"
    }
   ],
@@ -9617,14 +8165,14 @@
    "vowel"
   ],
   "kind": "real",
-  "relaxed": true
+  "relaxed": false
  },
  "vet": {
   "target": {
    "w": "vet",
    "p": [
     "v",
-    "e",
+    "eh",
     "t"
    ],
    "ipa": "vˈɛt",
@@ -9632,33 +8180,33 @@
   },
   "foils": [
    {
-    "w": "set",
+    "w": "net",
     "p": [
-     "s",
-     "e",
+     "n",
+     "eh",
      "t"
     ],
-    "ipa": "sˈɛt",
+    "ipa": "nˈɛt",
     "cell": "onset"
    },
    {
     "w": "vat",
     "p": [
      "v",
-     "a",
+     "ae",
      "t"
     ],
     "ipa": "vˈæt",
     "cell": "vowel"
    },
    {
-    "w": "sat",
+    "w": "nat",
     "p": [
-     "s",
-     "a",
+     "n",
+     "ae",
      "t"
     ],
-    "ipa": "sˈæt",
+    "ipa": "nˈæt",
     "cell": "onset+vowel"
    }
   ],
@@ -9674,7 +8222,7 @@
    "w": "vat",
    "p": [
     "v",
-    "a",
+    "ae",
     "t"
    ],
    "ipa": "vˈæt",
@@ -9682,33 +8230,33 @@
   },
   "foils": [
    {
-    "w": "sat",
+    "w": "dat",
     "p": [
-     "s",
-     "a",
+     "d",
+     "ae",
      "t"
     ],
-    "ipa": "sˈæt",
+    "ipa": "dˈæt",
     "cell": "onset"
    },
    {
     "w": "vet",
     "p": [
      "v",
-     "e",
+     "eh",
      "t"
     ],
     "ipa": "vˈɛt",
     "cell": "vowel"
    },
    {
-    "w": "set",
+    "w": "debt",
     "p": [
-     "s",
-     "e",
+     "d",
+     "eh",
      "t"
     ],
-    "ipa": "sˈɛt",
+    "ipa": "dˈɛt",
     "cell": "onset+vowel"
    }
   ],
@@ -9724,7 +8272,7 @@
    "w": "wag",
    "p": [
     "w",
-    "a",
+    "ae",
     "g"
    ],
    "ipa": "wˈæɡ",
@@ -9732,33 +8280,33 @@
   },
   "foils": [
    {
-    "w": "gag",
+    "w": "bag",
     "p": [
-     "g",
-     "a",
+     "b",
+     "ae",
      "g"
     ],
-    "ipa": "ɡˈæɡ",
+    "ipa": "bˈæɡ",
     "cell": "onset"
    },
    {
     "w": "wig",
     "p": [
      "w",
-     "i",
+     "ih",
      "g"
     ],
     "ipa": "wˈɪɡ",
     "cell": "vowel"
    },
    {
-    "w": "gig",
+    "w": "big",
     "p": [
-     "g",
-     "i",
+     "b",
+     "ih",
      "g"
     ],
-    "ipa": "ɡˈɪɡ",
+    "ipa": "bˈɪɡ",
     "cell": "onset+vowel"
    }
   ],
@@ -9774,7 +8322,7 @@
    "w": "wig",
    "p": [
     "w",
-    "i",
+    "ih",
     "g"
    ],
    "ipa": "wˈɪɡ",
@@ -9785,7 +8333,7 @@
     "w": "gig",
     "p": [
      "g",
-     "i",
+     "ih",
      "g"
     ],
     "ipa": "ɡˈɪɡ",
@@ -9795,7 +8343,7 @@
     "w": "wag",
     "p": [
      "w",
-     "a",
+     "ae",
      "g"
     ],
     "ipa": "wˈæɡ",
@@ -9805,7 +8353,7 @@
     "w": "gag",
     "p": [
      "g",
-     "a",
+     "ae",
      "g"
     ],
     "ipa": "ɡˈæɡ",
@@ -9824,7 +8372,7 @@
    "w": "wet",
    "p": [
     "w",
-    "e",
+    "eh",
     "t"
    ],
    "ipa": "wˈɛt",
@@ -9832,33 +8380,33 @@
   },
   "foils": [
    {
-    "w": "set",
+    "w": "net",
     "p": [
-     "s",
-     "e",
+     "n",
+     "eh",
      "t"
     ],
-    "ipa": "sˈɛt",
+    "ipa": "nˈɛt",
     "cell": "onset"
    },
    {
     "w": "wit",
     "p": [
      "w",
-     "i",
+     "ih",
      "t"
     ],
     "ipa": "wˈɪt",
     "cell": "vowel"
    },
    {
-    "w": "sit",
+    "w": "knit",
     "p": [
-     "s",
-     "i",
+     "n",
+     "ih",
      "t"
     ],
-    "ipa": "sˈɪt",
+    "ipa": "nˈɪt",
     "cell": "onset+vowel"
    }
   ],
@@ -9874,7 +8422,7 @@
    "w": "win",
    "p": [
     "w",
-    "i",
+    "ih",
     "n"
    ],
    "ipa": "wˈɪn",
@@ -9882,133 +8430,33 @@
   },
   "foils": [
    {
-    "w": "sin",
+    "w": "fin",
     "p": [
-     "s",
-     "i",
+     "f",
+     "ih",
      "n"
     ],
-    "ipa": "sˈɪn",
+    "ipa": "fˈɪn",
     "cell": "onset"
    },
    {
-    "w": "won",
+    "w": "one",
     "p": [
      "w",
-     "o",
+     "ah",
      "n"
     ],
-    "ipa": "wˈɑn",
+    "ipa": "wˈʌn",
     "cell": "vowel"
    },
    {
-    "w": "son",
+    "w": "fun",
     "p": [
-     "s",
-     "o",
+     "f",
+     "ah",
      "n"
     ],
-    "ipa": "sˈɑn",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "real",
-  "relaxed": false
- },
- "web": {
-  "target": {
-   "w": "web",
-   "p": [
-    "w",
-    "e",
-    "b"
-   ],
-   "ipa": "wˈɛb",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "seb",
-    "p": [
-     "s",
-     "e",
-     "b"
-    ],
-    "ipa": "sˈɛb",
-    "cell": "onset"
-   },
-   {
-    "w": "wab",
-    "p": [
-     "w",
-     "a",
-     "b"
-    ],
-    "ipa": "wˈæb",
-    "cell": "vowel"
-   },
-   {
-    "w": "sab",
-    "p": [
-     "s",
-     "a",
-     "b"
-    ],
-    "ipa": "sˈæb",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "real",
-  "relaxed": true
- },
- "well": {
-  "target": {
-   "w": "well",
-   "p": [
-    "w",
-    "e",
-    "l"
-   ],
-   "ipa": "wˈɛl",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "sell",
-    "p": [
-     "s",
-     "e",
-     "l"
-    ],
-    "ipa": "sˈɛl",
-    "cell": "onset"
-   },
-   {
-    "w": "will",
-    "p": [
-     "w",
-     "i",
-     "l"
-    ],
-    "ipa": "wˈɪl",
-    "cell": "vowel"
-   },
-   {
-    "w": "sill",
-    "p": [
-     "s",
-     "i",
-     "l"
-    ],
-    "ipa": "sˈɪl",
+    "ipa": "fˈʌn",
     "cell": "onset+vowel"
    }
   ],
@@ -10023,8 +8471,8 @@
   "target": {
    "w": "jot",
    "p": [
-    "j",
-    "o",
+    "jh",
+    "aa",
     "t"
    ],
    "ipa": "ʤˈɑt",
@@ -10032,33 +8480,33 @@
   },
   "foils": [
    {
-    "w": "sot",
+    "w": "pot",
     "p": [
-     "s",
-     "o",
+     "p",
+     "aa",
      "t"
     ],
-    "ipa": "sˈɑt",
+    "ipa": "pˈɑt",
     "cell": "onset"
    },
    {
     "w": "jet",
     "p": [
-     "j",
-     "e",
+     "jh",
+     "eh",
      "t"
     ],
     "ipa": "ʤˈɛt",
     "cell": "vowel"
    },
    {
-    "w": "set",
+    "w": "pet",
     "p": [
-     "s",
-     "e",
+     "p",
+     "eh",
      "t"
     ],
-    "ipa": "sˈɛt",
+    "ipa": "pˈɛt",
     "cell": "onset+vowel"
    }
   ],
@@ -10073,8 +8521,8 @@
   "target": {
    "w": "jov",
    "p": [
-    "j",
-    "o",
+    "jh",
+    "aa",
     "v"
    ],
    "ipa": "ʤˈɑv",
@@ -10082,33 +8530,33 @@
   },
   "foils": [
    {
-    "w": "sov",
+    "w": "cov",
     "p": [
-     "s",
-     "o",
+     "k",
+     "aa",
      "v"
     ],
-    "ipa": "sˈɑv",
+    "ipa": "kˈɑv",
     "cell": "onset"
    },
    {
     "w": "jav",
     "p": [
-     "j",
-     "a",
+     "jh",
+     "ae",
      "v"
     ],
     "ipa": "ʤˈæv",
     "cell": "vowel"
    },
    {
-    "w": "sav",
+    "w": "cav",
     "p": [
-     "s",
-     "a",
+     "k",
+     "ae",
      "v"
     ],
-    "ipa": "sˈæv",
+    "ipa": "kˈæv",
     "cell": "onset+vowel"
    }
   ],
@@ -10124,7 +8572,7 @@
    "w": "wab",
    "p": [
     "w",
-    "a",
+    "ae",
     "b"
    ],
    "ipa": "wˈæb",
@@ -10132,33 +8580,33 @@
   },
   "foils": [
    {
-    "w": "sab",
+    "w": "hab",
     "p": [
-     "s",
-     "a",
+     "hh",
+     "ae",
      "b"
     ],
-    "ipa": "sˈæb",
+    "ipa": "hˈæb",
     "cell": "onset"
    },
    {
     "w": "wib",
     "p": [
      "w",
-     "i",
+     "ih",
      "b"
     ],
     "ipa": "wˈɪb",
     "cell": "vowel"
    },
    {
-    "w": "sib",
+    "w": "hib",
     "p": [
-     "s",
-     "i",
+     "hh",
+     "ih",
      "b"
     ],
-    "ipa": "sˈɪb",
+    "ipa": "hˈɪb",
     "cell": "onset+vowel"
    }
   ],
@@ -10174,7 +8622,7 @@
    "w": "vob",
    "p": [
     "v",
-    "o",
+    "aa",
     "b"
    ],
    "ipa": "vˈɑb",
@@ -10182,33 +8630,33 @@
   },
   "foils": [
    {
-    "w": "tob",
+    "w": "zob",
     "p": [
-     "t",
-     "o",
+     "z",
+     "aa",
      "b"
     ],
-    "ipa": "tˈɑb",
+    "ipa": "zˈɑb",
     "cell": "onset"
    },
    {
     "w": "vib",
     "p": [
      "v",
-     "i",
+     "ih",
      "b"
     ],
     "ipa": "vˈɪb",
     "cell": "vowel"
    },
    {
-    "w": "tib",
+    "w": "zib",
     "p": [
-     "t",
-     "i",
+     "z",
+     "ih",
      "b"
     ],
-    "ipa": "tˈɪb",
+    "ipa": "zˈɪb",
     "cell": "onset+vowel"
    }
   ],
@@ -10223,8 +8671,8 @@
   "target": {
    "w": "jum",
    "p": [
-    "j",
-    "u",
+    "jh",
+    "ah",
     "m"
    ],
    "ipa": "ʤˈʌm",
@@ -10232,33 +8680,33 @@
   },
   "foils": [
    {
-    "w": "tum",
+    "w": "vum",
     "p": [
-     "t",
-     "u",
+     "v",
+     "ah",
      "m"
     ],
-    "ipa": "tˈʌm",
+    "ipa": "vˈʌm",
     "cell": "onset"
    },
    {
-    "w": "jim",
+    "w": "jom",
     "p": [
-     "j",
-     "i",
+     "jh",
+     "aa",
      "m"
     ],
-    "ipa": "ʤˈɪm",
+    "ipa": "ʤˈɑm",
     "cell": "vowel"
    },
    {
-    "w": "tim",
+    "w": "vom",
     "p": [
-     "t",
-     "i",
+     "v",
+     "aa",
      "m"
     ],
-    "ipa": "tˈɪm",
+    "ipa": "vˈɑm",
     "cell": "onset+vowel"
    }
   ],
@@ -10274,7 +8722,7 @@
    "w": "wov",
    "p": [
     "w",
-    "o",
+    "aa",
     "v"
    ],
    "ipa": "wˈɑv",
@@ -10282,33 +8730,33 @@
   },
   "foils": [
    {
-    "w": "sov",
+    "w": "vov",
     "p": [
-     "s",
-     "o",
+     "v",
+     "aa",
      "v"
     ],
-    "ipa": "sˈɑv",
+    "ipa": "vˈɑv",
     "cell": "onset"
    },
    {
     "w": "wav",
     "p": [
      "w",
-     "a",
+     "ae",
      "v"
     ],
     "ipa": "wˈæv",
     "cell": "vowel"
    },
    {
-    "w": "sav",
+    "w": "vav",
     "p": [
-     "s",
-     "a",
+     "v",
+     "ae",
      "v"
     ],
-    "ipa": "sˈæv",
+    "ipa": "vˈæv",
     "cell": "onset+vowel"
    }
   ],
@@ -10323,8 +8771,8 @@
   "target": {
    "w": "had",
    "p": [
-    "h",
-    "a",
+    "hh",
+    "ae",
     "d"
    ],
    "ipa": "hˈæd",
@@ -10332,33 +8780,33 @@
   },
   "foils": [
    {
-    "w": "sad",
+    "w": "dad",
     "p": [
-     "s",
-     "a",
+     "d",
+     "ae",
      "d"
     ],
-    "ipa": "sˈæd",
+    "ipa": "dˈæd",
     "cell": "onset"
    },
    {
-    "w": "hod",
+    "w": "hid",
     "p": [
-     "h",
-     "o",
+     "hh",
+     "ih",
      "d"
     ],
-    "ipa": "hˈɑd",
+    "ipa": "hˈɪd",
     "cell": "vowel"
    },
    {
-    "w": "sod",
+    "w": "did",
     "p": [
-     "s",
-     "o",
+     "d",
+     "ih",
      "d"
     ],
-    "ipa": "sˈɑd",
+    "ipa": "dˈɪd",
     "cell": "onset+vowel"
    }
   ],
@@ -10374,8 +8822,9 @@
    "w": "box",
    "p": [
     "b",
-    "o",
-    "ks"
+    "aa",
+    "k",
+    "s"
    ],
    "ipa": "bˈɑks",
    "cell": "target"
@@ -10385,8 +8834,9 @@
     "w": "sox",
     "p": [
      "s",
-     "o",
-     "ks"
+     "aa",
+     "k",
+     "s"
     ],
     "ipa": "sˈɑks",
     "cell": "onset"
@@ -10395,18 +8845,20 @@
     "w": "bax",
     "p": [
      "b",
-     "a",
-     "ks"
+     "ae",
+     "k",
+     "s"
     ],
     "ipa": "bˈæks",
     "cell": "vowel"
    },
    {
-    "w": "sax",
+    "w": "sacks",
     "p": [
      "s",
-     "a",
-     "ks"
+     "ae",
+     "k",
+     "s"
     ],
     "ipa": "sˈæks",
     "cell": "onset+vowel"
@@ -10417,48 +8869,52 @@
    "vowel"
   ],
   "kind": "real",
-  "relaxed": true
+  "relaxed": false
  },
  "fox": {
   "target": {
    "w": "fox",
    "p": [
     "f",
-    "o",
-    "ks"
+    "aa",
+    "k",
+    "s"
    ],
    "ipa": "fˈɑks",
    "cell": "target"
   },
   "foils": [
    {
-    "w": "sox",
+    "w": "box",
     "p": [
-     "s",
-     "o",
-     "ks"
+     "b",
+     "aa",
+     "k",
+     "s"
     ],
-    "ipa": "sˈɑks",
+    "ipa": "bˈɑks",
     "cell": "onset"
    },
    {
     "w": "fax",
     "p": [
      "f",
-     "a",
-     "ks"
+     "ae",
+     "k",
+     "s"
     ],
     "ipa": "fˈæks",
     "cell": "vowel"
    },
    {
-    "w": "sax",
+    "w": "bax",
     "p": [
-     "s",
-     "a",
-     "ks"
+     "b",
+     "ae",
+     "k",
+     "s"
     ],
-    "ipa": "sˈæks",
+    "ipa": "bˈæks",
     "cell": "onset+vowel"
    }
   ],
@@ -10474,8 +8930,9 @@
    "w": "fix",
    "p": [
     "f",
-    "i",
-    "ks"
+    "ih",
+    "k",
+    "s"
    ],
    "ipa": "fˈɪks",
    "cell": "target"
@@ -10485,8 +8942,9 @@
     "w": "six",
     "p": [
      "s",
-     "i",
-     "ks"
+     "ih",
+     "k",
+     "s"
     ],
     "ipa": "sˈɪks",
     "cell": "onset"
@@ -10495,18 +8953,20 @@
     "w": "fax",
     "p": [
      "f",
-     "a",
-     "ks"
+     "ae",
+     "k",
+     "s"
     ],
     "ipa": "fˈæks",
     "cell": "vowel"
    },
    {
-    "w": "sax",
+    "w": "sacks",
     "p": [
      "s",
-     "a",
-     "ks"
+     "ae",
+     "k",
+     "s"
     ],
     "ipa": "sˈæks",
     "cell": "onset+vowel"
@@ -10524,41 +8984,45 @@
    "w": "mix",
    "p": [
     "m",
-    "i",
-    "ks"
+    "ih",
+    "k",
+    "s"
    ],
    "ipa": "mˈɪks",
    "cell": "target"
   },
   "foils": [
    {
-    "w": "six",
+    "w": "wix",
     "p": [
-     "s",
-     "i",
-     "ks"
+     "w",
+     "ih",
+     "k",
+     "s"
     ],
-    "ipa": "sˈɪks",
+    "ipa": "wˈɪks",
     "cell": "onset"
    },
    {
     "w": "max",
     "p": [
      "m",
-     "a",
-     "ks"
+     "ae",
+     "k",
+     "s"
     ],
     "ipa": "mˈæks",
     "cell": "vowel"
    },
    {
-    "w": "sax",
+    "w": "wax",
     "p": [
-     "s",
-     "a",
-     "ks"
+     "w",
+     "ae",
+     "k",
+     "s"
     ],
-    "ipa": "sˈæks",
+    "ipa": "wˈæks",
     "cell": "onset+vowel"
    }
   ],
@@ -10574,99 +9038,45 @@
    "w": "six",
    "p": [
     "s",
-    "i",
-    "ks"
+    "ih",
+    "k",
+    "s"
    ],
    "ipa": "sˈɪks",
    "cell": "target"
   },
   "foils": [
    {
-    "w": "mix",
+    "w": "fix",
     "p": [
-     "m",
-     "i",
-     "ks"
+     "f",
+     "ih",
+     "k",
+     "s"
     ],
-    "ipa": "mˈɪks",
+    "ipa": "fˈɪks",
     "cell": "onset"
    },
    {
-    "w": "sax",
+    "w": "sacks",
     "p": [
      "s",
-     "a",
-     "ks"
+     "ae",
+     "k",
+     "s"
     ],
     "ipa": "sˈæks",
     "cell": "vowel"
    },
    {
-    "w": "max",
+    "w": "fax",
     "p": [
-     "m",
-     "a",
-     "ks"
-    ],
-    "ipa": "mˈæks",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "real",
-  "relaxed": false
- },
- "chunk": {
-  "target": {
-   "w": "chunk",
-   "p": [
-    "k",
-    "h",
-    "u",
-    "n",
-    "k"
-   ],
-   "ipa": "khˈʌnk",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "clunk",
-    "p": [
+     "f",
+     "ae",
      "k",
-     "l",
-     "u",
-     "n",
-     "k"
+     "s"
     ],
-    "ipa": "klˈʌnk",
-    "cell": "onset"
-   },
-   {
-    "w": "chink",
-    "p": [
-     "k",
-     "h",
-     "i",
-     "n",
-     "k"
-    ],
-    "ipa": "khˈɪnk",
-    "cell": "vowel"
-   },
-   {
-    "w": "clink",
-    "p": [
-     "k",
-     "l",
-     "i",
-     "n",
-     "k"
-    ],
-    "ipa": "klˈɪnk",
+    "ipa": "fˈæks",
     "cell": "onset+vowel"
    }
   ],
@@ -10682,7 +9092,7 @@
    "w": "yes",
    "p": [
     "y",
-    "e",
+    "eh",
     "s"
    ],
    "ipa": "jˈɛs",
@@ -10690,83 +9100,33 @@
   },
   "foils": [
    {
-    "w": "sess",
+    "w": "guess",
     "p": [
-     "s",
-     "e",
+     "g",
+     "eh",
      "s"
     ],
-    "ipa": "sˈɛs",
+    "ipa": "ɡˈɛs",
     "cell": "onset"
    },
    {
     "w": "yass",
     "p": [
      "y",
-     "a",
+     "ae",
      "s"
     ],
     "ipa": "jˈæs",
     "cell": "vowel"
    },
    {
-    "w": "sass",
+    "w": "gas",
     "p": [
-     "s",
-     "a",
+     "g",
+     "ae",
      "s"
     ],
-    "ipa": "sˈæs",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "real",
-  "relaxed": true
- },
- "yak": {
-  "target": {
-   "w": "yak",
-   "p": [
-    "y",
-    "a",
-    "k"
-   ],
-   "ipa": "jˈæk",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "sack",
-    "p": [
-     "s",
-     "a",
-     "k"
-    ],
-    "ipa": "sˈæk",
-    "cell": "onset"
-   },
-   {
-    "w": "yock",
-    "p": [
-     "y",
-     "o",
-     "k"
-    ],
-    "ipa": "jˈɑk",
-    "cell": "vowel"
-   },
-   {
-    "w": "sock",
-    "p": [
-     "s",
-     "o",
-     "k"
-    ],
-    "ipa": "sˈɑk",
+    "ipa": "ɡˈæs",
     "cell": "onset+vowel"
    }
   ],
@@ -10782,7 +9142,7 @@
    "w": "yum",
    "p": [
     "y",
-    "u",
+    "ah",
     "m"
    ],
    "ipa": "jˈʌm",
@@ -10793,7 +9153,7 @@
     "w": "rum",
     "p": [
      "r",
-     "u",
+     "ah",
      "m"
     ],
     "ipa": "ɹˈʌm",
@@ -10803,7 +9163,7 @@
     "w": "yam",
     "p": [
      "y",
-     "a",
+     "ae",
      "m"
     ],
     "ipa": "jˈæm",
@@ -10813,7 +9173,7 @@
     "w": "ram",
     "p": [
      "r",
-     "a",
+     "ae",
      "m"
     ],
     "ipa": "ɹˈæm",
@@ -10832,7 +9192,7 @@
    "w": "zip",
    "p": [
     "z",
-    "i",
+    "ih",
     "p"
    ],
    "ipa": "zˈɪp",
@@ -10840,33 +9200,33 @@
   },
   "foils": [
    {
-    "w": "sip",
+    "w": "rip",
     "p": [
-     "s",
-     "i",
+     "r",
+     "ih",
      "p"
     ],
-    "ipa": "sˈɪp",
+    "ipa": "ɹˈɪp",
     "cell": "onset"
    },
    {
     "w": "zap",
     "p": [
      "z",
-     "a",
+     "ae",
      "p"
     ],
     "ipa": "zˈæp",
     "cell": "vowel"
    },
    {
-    "w": "sap",
+    "w": "rap",
     "p": [
-     "s",
-     "a",
+     "r",
+     "ae",
      "p"
     ],
-    "ipa": "sˈæp",
+    "ipa": "ɹˈæp",
     "cell": "onset+vowel"
    }
   ],
@@ -10882,7 +9242,7 @@
    "w": "zap",
    "p": [
     "z",
-    "a",
+    "ae",
     "p"
    ],
    "ipa": "zˈæp",
@@ -10890,33 +9250,33 @@
   },
   "foils": [
    {
-    "w": "sap",
+    "w": "nap",
     "p": [
-     "s",
-     "a",
+     "n",
+     "ae",
      "p"
     ],
-    "ipa": "sˈæp",
+    "ipa": "nˈæp",
     "cell": "onset"
    },
    {
     "w": "zip",
     "p": [
      "z",
-     "i",
+     "ih",
      "p"
     ],
     "ipa": "zˈɪp",
     "cell": "vowel"
    },
    {
-    "w": "sip",
+    "w": "nip",
     "p": [
-     "s",
-     "i",
+     "n",
+     "ih",
      "p"
     ],
-    "ipa": "sˈɪp",
+    "ipa": "nˈɪp",
     "cell": "onset+vowel"
    }
   ],
@@ -10927,146 +9287,50 @@
   "kind": "real",
   "relaxed": false
  },
- "quiz": {
-  "target": {
-   "w": "quiz",
-   "p": [
-    "kw",
-    "i",
-    "z"
-   ],
-   "ipa": "kwˈɪz",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "sizz",
-    "p": [
-     "s",
-     "i",
-     "z"
-    ],
-    "ipa": "sˈɪz",
-    "cell": "onset"
-   },
-   {
-    "w": "quazz",
-    "p": [
-     "kw",
-     "a",
-     "z"
-    ],
-    "ipa": "kwˈæz",
-    "cell": "vowel"
-   },
-   {
-    "w": "sazz",
-    "p": [
-     "s",
-     "a",
-     "z"
-    ],
-    "ipa": "sˈæz",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "real",
-  "relaxed": true
- },
- "quit": {
-  "target": {
-   "w": "quit",
-   "p": [
-    "kw",
-    "i",
-    "t"
-   ],
-   "ipa": "kwˈɪt",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "sit",
-    "p": [
-     "s",
-     "i",
-     "t"
-    ],
-    "ipa": "sˈɪt",
-    "cell": "onset"
-   },
-   {
-    "w": "quat",
-    "p": [
-     "kw",
-     "a",
-     "t"
-    ],
-    "ipa": "kwˈæt",
-    "cell": "vowel"
-   },
-   {
-    "w": "sat",
-    "p": [
-     "s",
-     "a",
-     "t"
-    ],
-    "ipa": "sˈæt",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "real",
-  "relaxed": true
- },
  "wax": {
   "target": {
    "w": "wax",
    "p": [
     "w",
-    "a",
-    "ks"
+    "ae",
+    "k",
+    "s"
    ],
    "ipa": "wˈæks",
    "cell": "target"
   },
   "foils": [
    {
-    "w": "sax",
+    "w": "fax",
     "p": [
-     "s",
-     "a",
-     "ks"
+     "f",
+     "ae",
+     "k",
+     "s"
     ],
-    "ipa": "sˈæks",
+    "ipa": "fˈæks",
     "cell": "onset"
    },
    {
     "w": "wix",
     "p": [
      "w",
-     "i",
-     "ks"
+     "ih",
+     "k",
+     "s"
     ],
     "ipa": "wˈɪks",
     "cell": "vowel"
    },
    {
-    "w": "six",
+    "w": "fix",
     "p": [
-     "s",
-     "i",
-     "ks"
+     "f",
+     "ih",
+     "k",
+     "s"
     ],
-    "ipa": "sˈɪks",
+    "ipa": "fˈɪks",
     "cell": "onset+vowel"
    }
   ],
@@ -11075,65 +9339,16 @@
    "vowel"
   ],
   "kind": "real",
-  "relaxed": true
- },
- "jazz": {
-  "target": {
-   "w": "jazz",
-   "p": [
-    "j",
-    "a",
-    "z"
-   ],
-   "ipa": "ʤˈæz",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "sazz",
-    "p": [
-     "s",
-     "a",
-     "z"
-    ],
-    "ipa": "sˈæz",
-    "cell": "onset"
-   },
-   {
-    "w": "jizz",
-    "p": [
-     "j",
-     "i",
-     "z"
-    ],
-    "ipa": "ʤˈɪz",
-    "cell": "vowel"
-   },
-   {
-    "w": "sizz",
-    "p": [
-     "s",
-     "i",
-     "z"
-    ],
-    "ipa": "sˈɪz",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "real",
-  "relaxed": true
+  "relaxed": false
  },
  "vex": {
   "target": {
    "w": "vex",
    "p": [
     "v",
-    "e",
-    "ks"
+    "eh",
+    "k",
+    "s"
    ],
    "ipa": "vˈɛks",
    "cell": "target"
@@ -11143,8 +9358,9 @@
     "w": "tex",
     "p": [
      "t",
-     "e",
-     "ks"
+     "eh",
+     "k",
+     "s"
     ],
     "ipa": "tˈɛks",
     "cell": "onset"
@@ -11153,8 +9369,9 @@
     "w": "vax",
     "p": [
      "v",
-     "a",
-     "ks"
+     "ae",
+     "k",
+     "s"
     ],
     "ipa": "vˈæks",
     "cell": "vowel"
@@ -11163,8 +9380,9 @@
     "w": "tax",
     "p": [
      "t",
-     "a",
-     "ks"
+     "ae",
+     "k",
+     "s"
     ],
     "ipa": "tˈæks",
     "cell": "onset+vowel"
@@ -11175,98 +9393,52 @@
    "vowel"
   ],
   "kind": "real",
-  "relaxed": true
- },
- "fizz": {
-  "target": {
-   "w": "fizz",
-   "p": [
-    "f",
-    "i",
-    "z"
-   ],
-   "ipa": "fˈɪz",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "sizz",
-    "p": [
-     "s",
-     "i",
-     "z"
-    ],
-    "ipa": "sˈɪz",
-    "cell": "onset"
-   },
-   {
-    "w": "fazz",
-    "p": [
-     "f",
-     "a",
-     "z"
-    ],
-    "ipa": "fˈæz",
-    "cell": "vowel"
-   },
-   {
-    "w": "sazz",
-    "p": [
-     "s",
-     "a",
-     "z"
-    ],
-    "ipa": "sˈæz",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "real",
-  "relaxed": true
+  "relaxed": false
  },
  "zox": {
   "target": {
    "w": "zox",
    "p": [
     "z",
-    "o",
-    "ks"
+    "aa",
+    "k",
+    "s"
    ],
    "ipa": "zˈɑks",
    "cell": "target"
   },
   "foils": [
    {
-    "w": "tox",
+    "w": "goks",
     "p": [
-     "t",
-     "o",
-     "ks"
+     "g",
+     "aa",
+     "k",
+     "s"
     ],
-    "ipa": "tˈɑks",
+    "ipa": "ɡˈɑks",
     "cell": "onset"
    },
    {
-    "w": "zix",
+    "w": "zuks",
     "p": [
      "z",
-     "i",
-     "ks"
+     "ah",
+     "k",
+     "s"
     ],
-    "ipa": "zˈɪks",
+    "ipa": "zˈʌks",
     "cell": "vowel"
    },
    {
-    "w": "tix",
+    "w": "guks",
     "p": [
-     "t",
-     "i",
-     "ks"
+     "g",
+     "ah",
+     "k",
+     "s"
     ],
-    "ipa": "tˈɪks",
+    "ipa": "ɡˈʌks",
     "cell": "onset+vowel"
    }
   ],
@@ -11281,8 +9453,9 @@
   "target": {
    "w": "quab",
    "p": [
-    "kw",
-    "a",
+    "k",
+    "w",
+    "ae",
     "b"
    ],
    "ipa": "kwˈæb",
@@ -11290,33 +9463,36 @@
   },
   "foils": [
    {
-    "w": "sab",
+    "w": "klab",
     "p": [
-     "s",
-     "a",
+     "k",
+     "l",
+     "ae",
      "b"
     ],
-    "ipa": "sˈæb",
+    "ipa": "klˈæb",
     "cell": "onset"
    },
    {
-    "w": "quib",
+    "w": "kweb",
     "p": [
-     "kw",
-     "i",
+     "k",
+     "w",
+     "eh",
      "b"
     ],
-    "ipa": "kwˈɪb",
+    "ipa": "kwˈɛb",
     "cell": "vowel"
    },
    {
-    "w": "sib",
+    "w": "kleb",
     "p": [
-     "s",
-     "i",
+     "k",
+     "l",
+     "eh",
      "b"
     ],
-    "ipa": "sˈɪb",
+    "ipa": "klˈɛb",
     "cell": "onset+vowel"
    }
   ],
@@ -11332,7 +9508,7 @@
    "w": "yig",
    "p": [
     "y",
-    "i",
+    "ih",
     "g"
    ],
    "ipa": "jˈɪɡ",
@@ -11340,83 +9516,33 @@
   },
   "foils": [
    {
-    "w": "sig",
+    "w": "hig",
     "p": [
-     "s",
-     "i",
+     "hh",
+     "ih",
      "g"
     ],
-    "ipa": "sˈɪɡ",
+    "ipa": "hˈɪɡ",
     "cell": "onset"
    },
    {
-    "w": "yog",
+    "w": "yeg",
     "p": [
      "y",
-     "o",
+     "eh",
      "g"
     ],
-    "ipa": "jˈɑɡ",
+    "ipa": "jˈɛɡ",
     "cell": "vowel"
    },
    {
-    "w": "sog",
+    "w": "heg",
     "p": [
-     "s",
-     "o",
+     "hh",
+     "eh",
      "g"
     ],
-    "ipa": "sˈɑɡ",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "pseudo",
-  "relaxed": false
- },
- "fex": {
-  "target": {
-   "w": "fex",
-   "p": [
-    "f",
-    "e",
-    "ks"
-   ],
-   "ipa": "fˈɛks",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "pex",
-    "p": [
-     "p",
-     "e",
-     "ks"
-    ],
-    "ipa": "pˈɛks",
-    "cell": "onset"
-   },
-   {
-    "w": "fux",
-    "p": [
-     "f",
-     "u",
-     "ks"
-    ],
-    "ipa": "fˈʌks",
-    "cell": "vowel"
-   },
-   {
-    "w": "pux",
-    "p": [
-     "p",
-     "u",
-     "ks"
-    ],
-    "ipa": "pˈʌks",
+    "ipa": "hˈɛɡ",
     "cell": "onset+vowel"
    }
   ],
@@ -11432,41 +9558,45 @@
    "w": "wux",
    "p": [
     "w",
-    "u",
-    "ks"
+    "ah",
+    "k",
+    "s"
    ],
    "ipa": "wˈʌks",
    "cell": "target"
   },
   "foils": [
    {
-    "w": "pux",
+    "w": "zuks",
     "p": [
-     "p",
-     "u",
-     "ks"
+     "z",
+     "ah",
+     "k",
+     "s"
     ],
-    "ipa": "pˈʌks",
+    "ipa": "zˈʌks",
     "cell": "onset"
    },
    {
-    "w": "wix",
+    "w": "weks",
     "p": [
      "w",
-     "i",
-     "ks"
+     "eh",
+     "k",
+     "s"
     ],
-    "ipa": "wˈɪks",
+    "ipa": "wˈɛks",
     "cell": "vowel"
    },
    {
-    "w": "pix",
+    "w": "zeks",
     "p": [
-     "p",
-     "i",
-     "ks"
+     "z",
+     "eh",
+     "k",
+     "s"
     ],
-    "ipa": "pˈɪks",
+    "ipa": "zˈɛks",
     "cell": "onset+vowel"
    }
   ],
@@ -11482,7 +9612,7 @@
    "w": "zag",
    "p": [
     "z",
-    "a",
+    "ae",
     "g"
    ],
    "ipa": "zˈæɡ",
@@ -11490,33 +9620,33 @@
   },
   "foils": [
    {
-    "w": "pag",
+    "w": "yag",
     "p": [
-     "p",
-     "a",
+     "y",
+     "ae",
      "g"
     ],
-    "ipa": "pˈæɡ",
+    "ipa": "jˈæɡ",
     "cell": "onset"
    },
    {
-    "w": "zog",
+    "w": "zeg",
     "p": [
      "z",
-     "o",
+     "eh",
      "g"
     ],
-    "ipa": "zˈɑɡ",
+    "ipa": "zˈɛɡ",
     "cell": "vowel"
    },
    {
-    "w": "pog",
+    "w": "yeg",
     "p": [
-     "p",
-     "o",
+     "y",
+     "eh",
      "g"
     ],
-    "ipa": "pˈɑɡ",
+    "ipa": "jˈɛɡ",
     "cell": "onset+vowel"
    }
   ],
@@ -11527,62 +9657,12 @@
   "kind": "pseudo",
   "relaxed": false
  },
- "has": {
-  "target": {
-   "w": "has",
-   "p": [
-    "h",
-    "a",
-    "z"
-   ],
-   "ipa": "hˈæz",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "sazz",
-    "p": [
-     "s",
-     "a",
-     "z"
-    ],
-    "ipa": "sˈæz",
-    "cell": "onset"
-   },
-   {
-    "w": "hizz",
-    "p": [
-     "h",
-     "i",
-     "z"
-    ],
-    "ipa": "hˈɪz",
-    "cell": "vowel"
-   },
-   {
-    "w": "sizz",
-    "p": [
-     "s",
-     "i",
-     "z"
-    ],
-    "ipa": "sˈɪz",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "real",
-  "relaxed": true
- },
  "naps": {
   "target": {
    "w": "naps",
    "p": [
     "n",
-    "a",
+    "ae",
     "p",
     "s"
    ],
@@ -11594,7 +9674,7 @@
     "w": "saps",
     "p": [
      "s",
-     "a",
+     "ae",
      "p",
      "s"
     ],
@@ -11605,7 +9685,7 @@
     "w": "nips",
     "p": [
      "n",
-     "i",
+     "ih",
      "p",
      "s"
     ],
@@ -11616,7 +9696,7 @@
     "w": "sips",
     "p": [
      "s",
-     "i",
+     "ih",
      "p",
      "s"
     ],
@@ -11636,7 +9716,7 @@
    "w": "pups",
    "p": [
     "p",
-    "u",
+    "ah",
     "p",
     "s"
    ],
@@ -11645,36 +9725,36 @@
   },
   "foils": [
    {
-    "w": "sups",
+    "w": "cups",
     "p": [
-     "s",
-     "u",
+     "k",
+     "ah",
      "p",
      "s"
     ],
-    "ipa": "sˈʌps",
+    "ipa": "kˈʌps",
     "cell": "onset"
    },
    {
-    "w": "paps",
+    "w": "pops",
     "p": [
      "p",
-     "a",
+     "aa",
      "p",
      "s"
     ],
-    "ipa": "pˈæps",
+    "ipa": "pˈɑps",
     "cell": "vowel"
    },
    {
-    "w": "saps",
+    "w": "cops",
     "p": [
-     "s",
-     "a",
+     "k",
+     "aa",
      "p",
      "s"
     ],
-    "ipa": "sˈæps",
+    "ipa": "kˈɑps",
     "cell": "onset+vowel"
    }
   ],
@@ -11685,66 +9765,12 @@
   "kind": "real",
   "relaxed": false
  },
- "quits": {
-  "target": {
-   "w": "quits",
-   "p": [
-    "kw",
-    "i",
-    "t",
-    "s"
-   ],
-   "ipa": "kwˈɪts",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "sits",
-    "p": [
-     "s",
-     "i",
-     "t",
-     "s"
-    ],
-    "ipa": "sˈɪts",
-    "cell": "onset"
-   },
-   {
-    "w": "quatss",
-    "p": [
-     "kw",
-     "a",
-     "t",
-     "s"
-    ],
-    "ipa": "kwˈæts",
-    "cell": "vowel"
-   },
-   {
-    "w": "satss",
-    "p": [
-     "s",
-     "a",
-     "t",
-     "s"
-    ],
-    "ipa": "sˈæts",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "real",
-  "relaxed": true
- },
  "dig": {
   "target": {
    "w": "dig",
    "p": [
     "d",
-    "i",
+    "ih",
     "g"
    ],
    "ipa": "dˈɪɡ",
@@ -11752,33 +9778,33 @@
   },
   "foils": [
    {
-    "w": "pig",
+    "w": "tig",
     "p": [
-     "p",
-     "i",
+     "t",
+     "ih",
      "g"
     ],
-    "ipa": "pˈɪɡ",
+    "ipa": "tˈɪɡ",
     "cell": "onset"
    },
    {
     "w": "dug",
     "p": [
      "d",
-     "u",
+     "ah",
      "g"
     ],
     "ipa": "dˈʌɡ",
     "cell": "vowel"
    },
    {
-    "w": "pug",
+    "w": "tug",
     "p": [
-     "p",
-     "u",
+     "t",
+     "ah",
      "g"
     ],
-    "ipa": "pˈʌɡ",
+    "ipa": "tˈʌɡ",
     "cell": "onset+vowel"
    }
   ],
@@ -11794,7 +9820,7 @@
    "w": "pig",
    "p": [
     "p",
-    "i",
+    "ih",
     "g"
    ],
    "ipa": "pˈɪɡ",
@@ -11802,33 +9828,33 @@
   },
   "foils": [
    {
-    "w": "dig",
+    "w": "big",
     "p": [
-     "d",
-     "i",
+     "b",
+     "ih",
      "g"
     ],
-    "ipa": "dˈɪɡ",
+    "ipa": "bˈɪɡ",
     "cell": "onset"
    },
    {
     "w": "pug",
     "p": [
      "p",
-     "u",
+     "ah",
      "g"
     ],
     "ipa": "pˈʌɡ",
     "cell": "vowel"
    },
    {
-    "w": "dug",
+    "w": "bug",
     "p": [
-     "d",
-     "u",
+     "b",
+     "ah",
      "g"
     ],
-    "ipa": "dˈʌɡ",
+    "ipa": "bˈʌɡ",
     "cell": "onset+vowel"
    }
   ],
@@ -11844,7 +9870,7 @@
    "w": "mess",
    "p": [
     "m",
-    "e",
+    "eh",
     "s"
    ],
    "ipa": "mˈɛs",
@@ -11852,33 +9878,33 @@
   },
   "foils": [
    {
-    "w": "hes",
+    "w": "guess",
     "p": [
-     "h",
-     "e",
+     "g",
+     "eh",
      "s"
     ],
-    "ipa": "hˈɛs",
+    "ipa": "ɡˈɛs",
     "cell": "onset"
    },
    {
     "w": "mass",
     "p": [
      "m",
-     "a",
+     "ae",
      "s"
     ],
     "ipa": "mˈæs",
     "cell": "vowel"
    },
    {
-    "w": "has",
+    "w": "gas",
     "p": [
-     "h",
-     "a",
+     "g",
+     "ae",
      "s"
     ],
-    "ipa": "hˈæs",
+    "ipa": "ɡˈæs",
     "cell": "onset+vowel"
    }
   ],
@@ -11889,62 +9915,12 @@
   "kind": "real",
   "relaxed": false
  },
- "dax": {
-  "target": {
-   "w": "dax",
-   "p": [
-    "d",
-    "a",
-    "ks"
-   ],
-   "ipa": "dˈæks",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "pax",
-    "p": [
-     "p",
-     "a",
-     "ks"
-    ],
-    "ipa": "pˈæks",
-    "cell": "onset"
-   },
-   {
-    "w": "dix",
-    "p": [
-     "d",
-     "i",
-     "ks"
-    ],
-    "ipa": "dˈɪks",
-    "cell": "vowel"
-   },
-   {
-    "w": "pix",
-    "p": [
-     "p",
-     "i",
-     "ks"
-    ],
-    "ipa": "pˈɪks",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "pseudo",
-  "relaxed": false
- },
  "zeb": {
   "target": {
    "w": "zeb",
    "p": [
     "z",
-    "e",
+    "eh",
     "b"
    ],
    "ipa": "zˈɛb",
@@ -11952,83 +9928,33 @@
   },
   "foils": [
    {
-    "w": "seb",
+    "w": "veb",
     "p": [
-     "s",
-     "e",
+     "v",
+     "eh",
      "b"
     ],
-    "ipa": "sˈɛb",
+    "ipa": "vˈɛb",
     "cell": "onset"
    },
    {
-    "w": "zab",
+    "w": "zib",
     "p": [
      "z",
-     "a",
+     "ih",
      "b"
     ],
-    "ipa": "zˈæb",
+    "ipa": "zˈɪb",
     "cell": "vowel"
    },
    {
-    "w": "sab",
+    "w": "vib",
     "p": [
-     "s",
-     "a",
+     "v",
+     "ih",
      "b"
     ],
-    "ipa": "sˈæb",
-    "cell": "onset+vowel"
-   }
-  ],
-  "axes": [
-   "onset",
-   "vowel"
-  ],
-  "kind": "pseudo",
-  "relaxed": false
- },
- "wuk": {
-  "target": {
-   "w": "wuk",
-   "p": [
-    "w",
-    "u",
-    "k"
-   ],
-   "ipa": "wˈʌk",
-   "cell": "target"
-  },
-  "foils": [
-   {
-    "w": "guck",
-    "p": [
-     "g",
-     "u",
-     "k"
-    ],
-    "ipa": "ɡˈʌk",
-    "cell": "onset"
-   },
-   {
-    "w": "weck",
-    "p": [
-     "w",
-     "e",
-     "k"
-    ],
-    "ipa": "wˈɛk",
-    "cell": "vowel"
-   },
-   {
-    "w": "geck",
-    "p": [
-     "g",
-     "e",
-     "k"
-    ],
-    "ipa": "ɡˈɛk",
+    "ipa": "vˈɪb",
     "cell": "onset+vowel"
    }
   ],
@@ -12044,7 +9970,7 @@
    "w": "bob",
    "p": [
     "b",
-    "o",
+    "aa",
     "b"
    ],
    "ipa": "bˈɑb",
@@ -12055,7 +9981,7 @@
     "w": "rob",
     "p": [
      "r",
-     "o",
+     "aa",
      "b"
     ],
     "ipa": "ɹˈɑb",
@@ -12065,7 +9991,7 @@
     "w": "bib",
     "p": [
      "b",
-     "i",
+     "ih",
      "b"
     ],
     "ipa": "bˈɪb",
@@ -12075,7 +10001,7 @@
     "w": "rib",
     "p": [
      "r",
-     "i",
+     "ih",
      "b"
     ],
     "ipa": "ɹˈɪb",
@@ -12094,7 +10020,7 @@
    "w": "did",
    "p": [
     "d",
-    "i",
+    "ih",
     "d"
    ],
    "ipa": "dˈɪd",
@@ -12102,33 +10028,33 @@
   },
   "foils": [
    {
-    "w": "mid",
+    "w": "sid",
     "p": [
-     "m",
-     "i",
+     "s",
+     "ih",
      "d"
     ],
-    "ipa": "mˈɪd",
+    "ipa": "sˈɪd",
     "cell": "onset"
    },
    {
     "w": "dad",
     "p": [
      "d",
-     "a",
+     "ae",
      "d"
     ],
     "ipa": "dˈæd",
     "cell": "vowel"
    },
    {
-    "w": "mad",
+    "w": "sad",
     "p": [
-     "m",
-     "a",
+     "s",
+     "ae",
      "d"
     ],
-    "ipa": "mˈæd",
+    "ipa": "sˈæd",
     "cell": "onset+vowel"
    }
   ],

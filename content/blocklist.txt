@@ -1,0 +1,145 @@
+# Words and near-spellings that must never appear as a tap-gate option in a children's app.
+# One per line. "word"        = blocked by spelling AND by sound (its CMUdict pronunciation(s) can't be offered either).
+#              "~word"        = blocked by spelling only (mild or ambiguous words whose sound is also an innocent word).
+#              "word=AA B C"  = blocked by spelling AND by this explicit Arpabet (for near-spellings not in CMUdict).
+# Spelling matches are exact for words of 3 letters or fewer, and substring matches for 4+ letters.
+ass
+arse
+asshole
+bitch
+bastard
+bollocks
+boob
+boobs
+booby
+~butt
+bum
+crap
+cock
+~cum
+cunt
+dick
+dik=D IH K
+dyke
+fag
+fart
+fuck
+fuk=F AH K
+fck=F AH K
+fukk=F AH K
+hoe
+homo
+horny
+jizz
+jiz=JH IH Z
+jizzum
+kike
+knob
+nob=N AA B
+nazi
+negro
+nig
+nigga
+nipple
+nude
+penis
+piss
+pis=P IH S
+poo
+poop
+porn
+prick
+pube
+puss
+pussy
+queer
+rape
+rapist
+rump
+sex
+sexy
+shag
+shit
+shyt=SH IH T
+shite
+skank
+slag
+slut
+smut
+spic
+suck
+tit
+tits
+titty
+turd
+twat
+vag
+wank
+wanker
+whore
+wop
+coon
+gook
+chink
+paki
+tard
+spaz
+retard
+kill
+die
+dead
+gun
+hate
+~damn
+~hell
+~sin
+~pee
+~wee
+~wiz
+~dam
+~sod
+~tart
+~dope
+~dummy
+~nuts
+cuck
+cack
+fock=F AA K
+fack=F AE K
+fug=F AH G
+fugg=F AH G
+fap=F AE P
+fup=F AH P
+fuc=F AH K
+fuq=F AH K
+phuck=F AH K
+kunt=K AH N T
+cnt
+kok=K AA K
+cok=K AA K
+pud=P AH D
+gip=G IH P
+gyp
+hor
+hoar
+dck
+dck
+jism
+jizm
+~bah
+~duh
+~huh
+~tam
+~mitt
+~hull
+~togs
+~lugs
+~lags
+~sills
+~fells
+~yuck
+~tass
+~yob
+gizz=G IH Z
+giz=G IH Z
+~piff

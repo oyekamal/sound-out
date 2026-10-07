@@ -6,7 +6,7 @@ Walks onboarding -> L1.02 as a child (Sittings A-D, Read, Listen, Show what you 
 (ABC, D, Check). Screenshots every screen into app/shots/. Asserts:
   1. no console errors / page errors
   2. every audio key the app asked for exists in content/audio_index.json and on disk
-  3. every tap-gate item offers a 2x2 grid {target, onset|final, vowel, both} (checked on phoneme ids)
+  3. every tap-gate item offers a 2x2 grid {target, onset|final, vowel, both}, or the 3-option early check, checked on Arpabet phonemes
   4. no picture is on screen while a printed word or a reading page is on screen
   5. inside a repair (wrong pick -> next attempt) the target's whole-word clip never plays
 Exit code 0 = green.
@@ -32,22 +32,45 @@ def port_open(p):
     with socket.socket() as s: return s.connect_ex(("127.0.0.1", p)) == 0
 
 
+ARPA_VOWELS = {"aa", "ae", "ah", "ao", "aw", "ay", "eh", "er", "ey", "ih", "iy", "ow", "oy", "uh", "uw"}
+
+
 def check_grid(ev):
+    """Phoneme check (options carry lower-case Arpabet in `p`; letters never decide).
+    2x2 item: 4 options {target, onset|final, vowel, both}, each differing from the target at EXACTLY the stated positions.
+    early check (L1.02-L1.04): 3 options, one target, every option within 1 sound of another option (a chain), 2 sounds at most from the target."""
     opts = ev["options"]
-    cells = sorted(o["cell"] for o in opts)
     t = next((o for o in opts if o["cell"] == "target"), None)
-    if len(opts) != 4 or not t:
-        return f"{ev['word']}: {len(opts)} options / no target"
-    p = t["p"]; v = [i for i, x in enumerate(p) if x in VOWELS][0]
-    pos = {"vowel": v, "onset": v - 1, "final": v + 1}
+    if not t: return f"{ev['word']}: no target"
+    p = t["p"]; vs = [i for i, x in enumerate(p) if x in ARPA_VOWELS]
+    if len(vs) != 1: return f"{ev['word']}: target has {len(vs)} vowels"
+    v = vs[0]
+    pos = {"vowel": v, "onset": v - 1, "final": len(p) - 1}
+    diff = lambda a, b: [i for i in range(len(p)) if a[i] != b[i]]
+    words = [o["w"] for o in opts]
+    if len(set(words)) != len(words): return f"{ev['word']}: duplicate option words {words}"
+    for o in opts:
+        if len(o["p"]) != len(p): return f"{ev['word']}: option {o['w']} length differs"
+        if o["cell"] != "target" and tuple(o["p"]) == tuple(p): return f"{ev['word']}: option {o['w']} sounds like the target"
+    if ev.get("early"):
+        if len(opts) != 3: return f"{ev['word']}: early check has {len(opts)} options"
+        for o in opts:
+            if o["cell"] == "target": continue
+            d = diff(p, o["p"])
+            if not 1 <= len(d) <= 2: return f"{ev['word']}: early option {o['w']} differs at {d}"
+        if not any(len(diff(a["p"], b["p"])) == 1 for a in opts for b in opts if a is not b): return f"{ev['word']}: early options are not a chain"
+        return None
+    cells = sorted(o["cell"] for o in opts)
+    if len(opts) != 4: return f"{ev['word']}: {len(opts)} options"
     for o in opts:
         if o["cell"] == "target": continue
         axes = o["cell"].split("+")
+        if any(a not in pos for a in axes): return f"{ev['word']}: unknown cell {o['cell']}"
         want = sorted(pos[a] for a in axes)
-        if len(o["p"]) != len(p): return f"{ev['word']}: option {o['w']} length differs"
-        diff = [i for i in range(len(p)) if o["p"][i] != p[i]]
-        if diff != want: return f"{ev['word']}: option {o['w']} ({o['cell']}) differs at {diff}, want {want}"
+        d = diff(p, o["p"])
+        if d != want: return f"{ev['word']}: option {o['w']} ({o['cell']}) differs at {d}, want {want}"
     if not ({"vowel"} <= {a for c in cells for a in c.split("+")}): return f"{ev['word']}: no vowel cell"
+    if not ({"onset", "final"} & {a for c in cells for a in c.split("+")}): return f"{ev['word']}: no onset/final cell"
     return None
 
 
@@ -139,7 +162,7 @@ def run(br, track, plan):
         if page.locator(".saidit").count() and page.locator(".saidit").is_visible():
             page.click(".saidit"); return False
         picks = page.locator(".options:not(.three) .opt-pick:not([disabled])")
-        if picks.count() == 4:
+        if picks.count() in (3, 4):   # 4 = 2x2 grid, 3 = early check
             ev = page.evaluate("window.__so.trace.filter(e=>e.type==='gate-show').slice(-1)[0]")
             att = page.evaluate("window.__so.trace.filter(e=>e.type==='attempt').slice(-1)[0].n")
             if att == 1: gate_count["n"] += 1

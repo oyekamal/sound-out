@@ -179,28 +179,28 @@ No slicing. Each sound is its own ElevenLabs render, three prompt forms per soun
 
 | Sound | Class | Picked take | Model | ms | RMS dBFS | TP dBTP | Verdict |
 |---|---|---|---|---|---|---|---|
-| s | hiss | `Sssss.` | eleven_v4 | 420 | -19.1 | -6.27 | pass |
-| a | vowel | `æ.` | eleven_v4 | 380 | -19.2 | -2.96 | pass |
-| t | stop | `[whispers] t.` | eleven_v4 | 220 | -19.2 | -5.96 | pass |
-| p | stop | `p.` | eleven_v4 | 220 | -18.9 | -3.35 | pass |
+| s | hiss | `Sssss.` | eleven_v4 | 420 | -19.1 | -5.96 | pass |
+| a | vowel | `æ.` | eleven_v4 | 380 | -19.1 | -3.01 | pass |
+| t | stop | `[whispers] t.` | eleven_v4 | 220 | -19.0 | -4.73 | pass |
+| p | stop | `p.` | eleven_v4 | 220 | -18.9 | -3.66 | pass |
 | i | vowel | `ɪ...` | eleven_v4 | 380 | -18.9 | -3.64 | pass |
-| n | hum | `Nnnnn` | eleven_multilingual_v2 | 310 | -19.0 | -7.99 | pass |
-| m | hum | `Mmmmm` | eleven_multilingual_v2 | 310 | -18.9 | -10.42 | pass |
-| d | stop | `d` | eleven_v4 | 70 | -18.9 | -13.23 | pass |
-| g | stop | `g.` | eleven_v4 | 70 | -19.3 | -12.23 | pass |
-| o | vowel | `ɑ.` | eleven_v4 | 380 | -19.2 | -5.88 | pass |
-| k | stop | `[whispers] k.` | eleven_v4 | 220 | -19.2 | -4.72 | pass |
-| e | vowel | `ɛ.` | eleven_v4 | 360 | -19.1 | -2.75 | pass |
-| u | vowel | `Uh!` | eleven_v4 | 380 | -19.0 | -5.83 | pass |
-| r | hum | `Rrrrr` | eleven_multilingual_v2 | 310 | -18.8 | -5.66 | FAIL (least-bad take shipped) |
-| h | hiss | `Hhhhh.` | eleven_v4 | 420 | -19.3 | -6.31 | pass |
-| b | stop | `b.` | eleven_v4 | 70 | -19.1 | -13.42 | pass |
-| f | hiss | `Fffff.` | eleven_v4 | 420 | -18.7 | -4.81 | pass |
-| l | hum | `Lllll` | eleven_multilingual_v2 | 310 | -19.1 | -12.59 | pass |
-| j | stop | `j.` | eleven_v4 | 70 | -19.0 | -10.68 | pass |
-| v | hum | `The sound vv.` | eleven_v4 | 310 | -19.1 | -11.18 | pass |
-| w | glide | `w` | eleven_v4 | 140 | -19.1 | -7.7 | pass |
-| ks | stop | `[whispers] ks.` | eleven_v4 | 220 | -18.9 | -4.42 | pass |
-| y | glide | `yuh.` | eleven_v4 | 130 | -19.1 | -10.03 | pass |
-| z | hum | `Zzzzz` | eleven_multilingual_v2 | 310 | -19.2 | -11.02 | pass |
-| kw | stop | `kwuh.` | eleven_v4 | 220 | -19.0 | -3.68 | pass |
+| n | hum | `Nnnnn` | eleven_multilingual_v2 | 310 | -18.9 | -8.07 | pass |
+| m | hum | `Mmmmm` | eleven_multilingual_v2 | 310 | -19.0 | -10.42 | pass |
+| d | stop | `d` | eleven_v4 | 70 | -18.9 | -13.34 | pass |
+| g | stop | `g.` | eleven_v4 | 70 | -19.2 | -12.25 | pass |
+| o | vowel | `ɑ.` | eleven_v4 | 380 | -19.2 | -5.6 | pass |
+| k | stop | `[whispers] k.` | eleven_v4 | 220 | -18.9 | -3.8 | pass |
+| e | vowel | `ɛ.` | eleven_v4 | 360 | -19.1 | -2.74 | pass |
+| u | vowel | `Uh!` | eleven_v4 | 380 | -19.0 | -5.59 | pass |
+| r | hum | `Rrrrr` | eleven_multilingual_v2 | 310 | -18.9 | -5.96 | FAIL (least-bad take shipped) |
+| h | hiss | `Hhhhh.` | eleven_v4 | 420 | -19.0 | -4.68 | pass |
+| b | stop | `b.` | eleven_v4 | 70 | -19.0 | -13.23 | pass |
+| f | hiss | `Fffff.` | eleven_v4 | 420 | -19.1 | -4.57 | pass |
+| l | hum | `Lllll` | eleven_multilingual_v2 | 310 | -19.1 | -12.3 | pass |
+| j | stop | `j.` | eleven_v4 | 70 | -18.9 | -9.93 | pass |
+| v | hum | `The sound vv.` | eleven_v4 | 310 | -19.1 | -11.1 | pass |
+| w | glide | `w` | eleven_v4 | 140 | -19.0 | -7.83 | pass |
+| ks | stop | `[whispers] ks.` | eleven_v4 | 220 | -18.9 | -4.03 | pass |
+| y | glide | `yuh.` | eleven_v4 | 130 | -19.1 | -10.54 | pass |
+| z | hum | `Zzzzz` | eleven_multilingual_v2 | 310 | -19.1 | -11.26 | pass |
+| kw | stop | `kwuh.` | eleven_v4 | 220 | -18.8 | -3.42 | pass |

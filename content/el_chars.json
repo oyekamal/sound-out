@@ -4834,5 +4834,653 @@
 "model": "eleven_flash_v2",
 "kind": "dict",
 "chars": 10
+},
+{
+"text": "Say: aff.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: ball.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: beff.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: bills.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 11
+},
+{
+"text": "Say: cav.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: cops.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: cov.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: cups.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: debt.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: dit.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: don.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: done.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: dur.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: feff.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: fiff.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: fod.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: fom.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: fud.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: gim.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: goks.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: gom.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: gor.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: gud.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: guess.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 11
+},
+{
+"text": "Say: guks.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: gur.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: gym.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: hab.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: heff.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: heg.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: hib.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: hig.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: jig.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: jom.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: jug.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: ked.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: klab.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: kleb.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: knit.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: knock.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 11
+},
+{
+"text": "Say: kweb.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: led.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: lit.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: lodd.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: luck.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: lud.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: lur.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: meff.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: mezz.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: moff.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: mum.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: nim.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: nin.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: nozz.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: nug.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: pets.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: pid.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: pops.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: pum.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: pup.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: rags.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: red.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: rozz.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: rugs.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: rut.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: ruzz.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: sacks.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 11
+},
+{
+"text": "Say: sets.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: sla.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: sma.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: some.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: sug.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: tem.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: tud.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: uff.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: ust.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: vack.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: vav.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: veb.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: vock.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: vom.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: vov.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: vum.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: wap.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: weks.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: wells.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 11
+},
+{
+"text": "Say: wills.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 11
+},
+{
+"text": "Say: wup.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: yag.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: yed.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: yeg.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: yid.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: yit.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: yud.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: yut.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: zass.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: zeg.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: zeks.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: zer.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: zess.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: zib.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: zir.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: ziss.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: zob.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: zop.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: zuks.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 10
+},
+{
+"text": "Say: zup.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
+},
+{
+"text": "Say: zur.",
+"model": "eleven_v4",
+"kind": "options",
+"chars": 9
 }
 ]

@@ -129,3 +129,4 @@ canvas.trace { width: min(300px, 80vw); aspect-ratio: 1; background: var(--card)
 .dots { display: flex; gap: 6px; justify-content: center; flex-wrap: wrap; margin: 10px 0; } .dots i { width: 16px; height: 16px; border-radius: 50%; background: var(--line); } .dots i.on { background: var(--good); }
 .score { font-weight: 600; } .foot-note { text-align: center; margin-top: 24px; }
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+.options > .opt:last-child:nth-child(odd) { grid-column: 1 / -1; }  /* early check: 3 options */
