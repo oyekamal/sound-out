@@ -110,6 +110,8 @@ def main():
             for track, plan in (("A", ["L1.02:A:A", "L1.02:A:B", "L1.02:A:C", "L1.02:A:D", "L1.02:A:R", "L1.02:A:L", "L1.02:A:X"]),
                                 ("B", ["L1.02:B:ABC", "L1.02:B:D", "L1.02:B:X"])):
                 run(br, track, plan)
+            if "--no-sessions" not in sys.argv:   # Levels 5-7 practice lessons (tools/drive_session.py)
+                import drive_session; drive_session.run_all(br, problems, URL)
             br.close()
     finally:
         if server: server.terminate()

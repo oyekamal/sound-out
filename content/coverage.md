@@ -204,3 +204,31 @@ No slicing. Each sound is its own ElevenLabs render, three prompt forms per soun
 | y | glide | `yuh.` | eleven_v4 | 130 | -19.1 | -9.79 | pass |
 | z | hum | `Zzzzz` | eleven_multilingual_v2 | 310 | -19.2 | -10.82 | pass |
 | kw | stop | `kwuh.` | eleven_v4 | 220 | -19.1 | -4.15 | pass |
+
+<!-- sessions:start -->
+## Levels 5-7 session blocks (tools/parse_sessions.py, practice only)
+
+Session template parsed per lesson: W=warm-up, WW=word work, F=fluency/close reading, P=prime, T=knowledge text, D=discussion (reciprocal roles), Wr=write to read, C=check. **Words** = distinct learner-facing words parsed (the old L5-L7 table above counts only Level 1-4 style blend/check words, hence its 0). Chars = characters to voice (none rendered yet, see content/audio_needed_l5_7.json).
+
+### Level 5: 16/16 lessons with all 8 screens · 78,698 chars to voice
+
+| Lesson | Title | W | WW | F | P | T | D | Wr | C | Words | Chars |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| L5.01 | Prefixes un-, re- · The Water Cycle (int | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 285 | 4,012 |
+| L5.02 | Prefixes in-/im-/ir-/il- (not), dis- · H | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 321 | 4,417 |
+| L5.03 | Prefixes en-/em-, non- · The Human Heart | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 333 | 4,313 |
+| L5.04 | Prefixes over-, mis- · The Indus Valley  | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 362 | 5,439 |
+| L5.05 | Prefixes sub-, pre- · Weather vs. Climat | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 294 | 4,471 |
+| L5.06 | Suffixes -ly, -er/-or · The Water Cycle, | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 280 | 4,209 |
+| L5.07 | Suffixes -tion/-sion, -able/-ible · How  | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 318 | 4,735 |
+| L5.08 | Prefixes inter-, fore- · The Human Heart | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 357 | 5,274 |
+| L5.09 | Suffixes -al, -y · The Indus Valley, Dee | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 343 | 4,735 |
+| L5.10 | Prefixes de-, trans- · Weather Systems ( | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 356 | 4,892 |
+| L5.11 | Suffixes -ness, -ment · Number Roots · T | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 324 | 4,454 |
+| L5.12 | Prefixes super-, semi- · Roots spect, po | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 420 | 5,751 |
+| L5.13 | Suffixes -ful, -less, -ive · Roots scrib | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 384 | 5,557 |
+| L5.14 | Prefixes anti-, mid-, under- · Roots aud | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 380 | 5,526 |
+| L5.15 | Suffixes -ity, -ist · Roots cred, duc/du | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 425 | 6,382 |
+| L5.16 | Review, Integration & Extensive Reading  | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 357 | 4,531 |
+
+<!-- sessions:end -->

@@ -1,0 +1,509 @@
+{
+ "id": "L5.12",
+ "level": 5,
+ "title": "Prefixes super-, semi- · Roots spect, port, dict, struct · Electricity, Simply Explained · Readers Theatre #3",
+ "source": "course/level-5/lessons/L5.12-super-semi-roots-electricity-RT3.md",
+ "practice": true,
+ "goal": "Read, spell, and use words with super- and semi-; learn the first four \"commonly useful\" roots (labelled that way deliberately — not research-ranked the way the prefix list is, research/05 §5f); run this level's third and final Readers Theatre script.",
+ "warm": {
+  "words": [
+   "happiness",
+   "agreement",
+   "movement",
+   "stove"
+  ],
+  "heart": [
+   "different",
+   "home",
+   "\nus",
+   "move",
+   "try",
+   "kind",
+   "hand",
+   "picture",
+   "again",
+   "change"
+  ],
+  "prompts": []
+ },
+ "word": {
+  "items": [
+   {
+    "word": "superhero",
+    "meaning": "a hero with beyond-normal abilities",
+    "parts": [
+     "super",
+     "hero"
+    ],
+    "affix": "super-"
+   },
+   {
+    "word": "supermarket",
+    "meaning": "a very large market",
+    "parts": [
+     "super",
+     "market"
+    ],
+    "affix": "super-"
+   },
+   {
+    "word": "superpower",
+    "meaning": "a power beyond the normal",
+    "parts": [
+     "super",
+     "power"
+    ],
+    "affix": "super-"
+   },
+   {
+    "word": "superhuman",
+    "meaning": "beyond normal human ability",
+    "parts": [
+     "super",
+     "human"
+    ],
+    "affix": "super-"
+   },
+   {
+    "word": "supervise",
+    "meaning": "to watch over/oversee",
+    "parts": [
+     "super",
+     "vise"
+    ],
+    "affix": "super-"
+   },
+   {
+    "word": "supersonic",
+    "meaning": "beyond/faster than the speed of sound",
+    "parts": [
+     "super",
+     "sonic"
+    ],
+    "affix": "super-"
+   },
+   {
+    "word": "semicircle",
+    "meaning": "half a circle",
+    "parts": [
+     "semi",
+     "circle"
+    ],
+    "affix": "semi-"
+   },
+   {
+    "word": "semifinal",
+    "meaning": "the round before the final (halfway to the final)",
+    "parts": [
+     "semi",
+     "final"
+    ],
+    "affix": "semi-"
+   },
+   {
+    "word": "semiannual",
+    "meaning": "happening every half-year (twice a year)",
+    "parts": [
+     "semi",
+     "annual"
+    ],
+    "affix": "semi-"
+   },
+   {
+    "word": "semiconscious",
+    "meaning": "only half/partly conscious",
+    "parts": [
+     "semi",
+     "conscious"
+    ],
+    "affix": "semi-"
+   },
+   {
+    "word": "semisweet",
+    "meaning": "only partly sweet",
+    "parts": [
+     "semi",
+     "sweet"
+    ],
+    "affix": "semi-"
+   },
+   {
+    "word": "semiformal",
+    "meaning": "partly formal (dressier than casual, less than formal)",
+    "parts": [
+     "semi",
+     "formal"
+    ],
+    "affix": "semi-"
+   },
+   {
+    "word": "inspect",
+    "meaning": "look into/closely",
+    "parts": [
+     "in",
+     "spect"
+    ],
+    "affix": "spect",
+    "root": true,
+    "rootMeaning": "to see/look"
+   },
+   {
+    "word": "respect",
+    "meaning": "look back at, hold in high regard",
+    "parts": [
+     "re",
+     "spect"
+    ],
+    "affix": "spect",
+    "root": true,
+    "rootMeaning": "to see/look"
+   },
+   {
+    "word": "spectator",
+    "meaning": "someone who watches",
+    "parts": [
+     "spect",
+     "ator"
+    ],
+    "affix": "spect",
+    "root": true,
+    "rootMeaning": "to see/look"
+   },
+   {
+    "word": "spectacle",
+    "meaning": "something worth looking at",
+    "parts": [
+     "spect",
+     "acle"
+    ],
+    "affix": "spect",
+    "root": true,
+    "rootMeaning": "to see/look"
+   },
+   {
+    "word": "transport",
+    "meaning": "carry across",
+    "parts": [
+     "trans",
+     "port"
+    ],
+    "affix": "port",
+    "root": true,
+    "rootMeaning": "to carry"
+   },
+   {
+    "word": "export",
+    "meaning": "carry out, to another country",
+    "parts": [
+     "ex",
+     "port"
+    ],
+    "affix": "port",
+    "root": true,
+    "rootMeaning": "to carry"
+   },
+   {
+    "word": "import",
+    "meaning": "carry in",
+    "parts": [
+     "im",
+     "port"
+    ],
+    "affix": "port",
+    "root": true,
+    "rootMeaning": "to carry"
+   },
+   {
+    "word": "portable",
+    "meaning": "able to be carried",
+    "parts": [
+     "port",
+     "able"
+    ],
+    "affix": "port",
+    "root": true,
+    "rootMeaning": "to carry"
+   },
+   {
+    "word": "report",
+    "meaning": "carry back information",
+    "parts": [
+     "re",
+     "port"
+    ],
+    "affix": "port",
+    "root": true,
+    "rootMeaning": "to carry"
+   },
+   {
+    "word": "predict",
+    "meaning": "say beforehand",
+    "parts": [
+     "pre",
+     "dict"
+    ],
+    "affix": "dict",
+    "root": true,
+    "rootMeaning": "to say"
+   },
+   {
+    "word": "dictionary",
+    "meaning": "a book that \"says\" what words mean",
+    "parts": [
+     "dict",
+     "ionary"
+    ],
+    "affix": "dict",
+    "root": true,
+    "rootMeaning": "to say"
+   },
+   {
+    "word": "dictate",
+    "meaning": "to say aloud for someone to write",
+    "parts": [
+     "dict",
+     "ate"
+    ],
+    "affix": "dict",
+    "root": true,
+    "rootMeaning": "to say"
+   },
+   {
+    "word": "verdict",
+    "meaning": "a \"true saying\" — a judge's/jury's decision",
+    "parts": [
+     "ver",
+     "dict"
+    ],
+    "affix": "dict",
+    "root": true,
+    "rootMeaning": "to say"
+   },
+   {
+    "word": "construct",
+    "meaning": "build together",
+    "parts": [
+     "con",
+     "struct"
+    ],
+    "affix": "struct",
+    "root": true,
+    "rootMeaning": "to build"
+   },
+   {
+    "word": "structure",
+    "meaning": "a built thing, or the way something is built",
+    "parts": [
+     "struct",
+     "ure"
+    ],
+    "affix": "struct",
+    "root": true,
+    "rootMeaning": "to build"
+   },
+   {
+    "word": "instruct",
+    "meaning": "to build knowledge in someone — teach",
+    "parts": [
+     "in",
+     "struct"
+    ],
+    "affix": "struct",
+    "root": true,
+    "rootMeaning": "to build"
+   },
+   {
+    "word": "destruction",
+    "meaning": "the undoing/opposite of building",
+    "parts": [
+     "de",
+     "struct",
+     "ion"
+    ],
+    "affix": "struct",
+    "root": true,
+    "rootMeaning": "to build"
+   }
+  ],
+  "vocab": [
+   {
+    "word": "efficient",
+    "def": "doing something well without wasting time, effort, or energy.",
+    "examples": [
+     "LED bulbs are far more efficient than old-style bulbs — they produce the same light using much less electricity.",
+     "An efficient morning routine gets you out the door without rushing."
+    ],
+    "task": "\"Name one efficient habit or tool you use.\""
+   },
+   {
+    "word": "consume",
+    "def": "to use up.",
+    "examples": [
+     "A large appliance left running all day consumes a lot of electricity.",
+     "Reading consumes time, but it's time well spent."
+    ],
+    "task": "\"Name one thing in your home that consumes a noticeable amount of electricity.\""
+   }
+  ],
+  "affixes": [
+   {
+    "affix": "super-",
+    "meaning": "\"above\" / \"beyond\" / \"very\""
+   },
+   {
+    "affix": "semi-",
+    "meaning": "\"half\" / \"partly\""
+   }
+  ],
+  "review": []
+ },
+ "prime": {
+  "facts": [
+   "electricity flows in a complete loop, called a circuit",
+   "if the loop breaks, the flow stops",
+   "some electricity turns into heat as it moves, which is wasted energy."
+  ],
+  "question": "Have you ever wondered why an electricity bill is higher some months than others?",
+  "intro": "Before reading: if possible, show or describe a simple circuit (a battery, wire, and small bulb), or a household electricity bill. Give 2–3 quick facts: electricity flows in a complete loop, called a circuit; if the loop breaks, the flow stops; some electricity turns into heat as it moves, which is wasted energy. Orienting question: \"Have you ever wondered why an electricity bill is higher some months than others?\""
+ },
+ "write": {
+  "task": "Write 2–3 sentences: \"Name one thing in your home that consumes electricity, and one way you could make it more efficient.\"",
+  "model": null
+ },
+ "check": {
+  "items": [
+   {
+    "q": "Read and spell: superhero, supervise, semicircle, semifinal (3/4 = pass)",
+    "kind": "task",
+    "a": null
+   },
+   {
+    "q": "Give one example word for each root: spect, port, dict, struct (3/4 = pass)",
+    "kind": "task",
+    "a": null
+   },
+   {
+    "q": "Define: efficient",
+    "kind": "task",
+    "a": null
+   },
+   {
+    "q": "Read: move (Fry heart word)",
+    "kind": "task",
+    "a": null
+   }
+  ],
+  "bar": "≥6/9",
+  "support": null,
+  "challenge": null
+ },
+ "text": {
+  "passages": [
+   {
+    "track": "A",
+    "title": "for a child cast (2–3 readers)",
+    "paragraphs": [
+     "NARRATOR: Hania stood proudly next to her science fair project. It was a small circuit with a battery, some wires, and a tiny light bulb.",
+     "KHAN: Can you inspect this circuit for me? Can you tell me how it works?",
+     "HANIA: Sure! The battery is like the \"push.\" It pushes electricity through the wire. The wire is a path, like a road. It carries the electricity all the way around, in a loop. That is why it is called a circuit. \"Circ\" means circle. A circuit is a loop that goes around.",
+     "KHAN: And what happens when I break the loop, like this? (pretends to disconnect a wire)",
+     "HANIA: The light goes out! The electricity cannot move across a broken path. It needs the whole loop to work. It needs to be built as one complete shape.",
+     "KHAN: I respect that explanation. Very clear. What would happen with a superhero-strength battery instead of this small one?",
+     "HANIA: (laughing) It would probably burn out the little light bulb! Bigger isn't always better. This bulb is built to work with this exact amount of electricity. Not more.",
+     "KHAN: One more question. Why does the wire feel a little warm?",
+     "HANIA: Some electricity turns into heat as it moves through the wire. That is actually wasted energy. A more efficient circuit loses less heat. Real engineers try to fix that.",
+     "KHAN: Excellent. I'll happily construct a very good grade for this project."
+    ],
+    "phrased": false,
+    "script": true,
+    "questions": [
+     {
+      "q": "What does Hania say the battery does?",
+      "a": null
+     },
+     {
+      "q": "What happens when the wire's loop is broken?",
+      "a": null
+     },
+     {
+      "q": "Why does the wire feel warm, according to Hania?",
+      "a": null
+     }
+    ]
+   },
+   {
+    "track": "B",
+    "title": "for a teen/adult cast (2–3 readers)",
+    "paragraphs": [
+     "NARRATOR: A routine home electrical inspection.",
+     "BAIG: Our electricity bill has gone up a lot this year. Can you inspect the wiring and tell me if something's wrong?",
+     "IMRAN: I'll take a look. First question, though. Has anything new been installed? A new appliance, an air conditioner?",
+     "BAIG: We added a second air conditioner about six months ago, for the hot season.",
+     "IMRAN: That would explain a lot. Older AC units use a lot more electricity than newer ones do, to cool the same amount of air. The newer models are built differently inside, and it makes a real difference.",
+     "BAIG: So the wiring itself isn't the problem?",
+     "IMRAN: I still want to inspect it properly before I say that for sure. Faulty wiring is a real safety issue, not just a cost issue. But my first guess, based on what I'm seeing, is that the higher bill matches the new unit. Not a fault in your wiring.",
+     "BAIG: Is there anything I can do to make things more efficient, without buying a whole new unit?",
+     "IMRAN: A few things. Clean the filters often. Seal any gaps around doors and windows, so cool air doesn't leak out. And set it to a semi-cool setting, instead of the coldest setting all day. None of that needs any construction work. Just simple habits.",
+     "BAIG: That's a relief. I half-expected you to report some expensive structural problem.",
+     "IMRAN: Not today. I'll still finish a full inspection, to be sure. But so far, this looks like an efficiency question, not a safety one."
+    ],
+    "phrased": false,
+    "script": true,
+    "questions": [
+     {
+      "q": "What does Imran say might explain the higher bill?",
+      "a": null
+     },
+     {
+      "q": "What three habits does he suggest to make the AC more efficient?",
+      "a": null
+     },
+     {
+      "q": "What is Imran's \"first guess,\" and what does he say he'll still do before being certain?",
+      "a": null
+     }
+    ]
+   }
+  ],
+  "moves": []
+ },
+ "fluency": {
+  "title": "Read it smoothly",
+  "fromText": true,
+  "phrased": false
+ },
+ "discuss": {
+  "roles": [
+   {
+    "role": "Predictor",
+    "prompt": "What do you expect \"The Circuit\" to be about?",
+    "model": null
+   },
+   {
+    "role": "Questioner",
+    "prompt": "One answered, one unanswered question (neither script explains exactly how an AC unit's inside parts work).",
+    "model": null
+   },
+   {
+    "role": "Clarifier",
+    "prompt": "Explain circuit, faulty, or efficiency using context or the roots just taught.",
+    "model": null
+   },
+   {
+    "role": "Summarizer",
+    "prompt": "Retell either script in 2–3 sentences.",
+    "model": null
+   }
+  ]
+ },
+ "screens": [
+  "warm",
+  "word",
+  "fluency",
+  "prime",
+  "text",
+  "discuss",
+  "write",
+  "check"
+ ]
+}

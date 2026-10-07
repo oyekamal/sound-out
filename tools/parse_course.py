@@ -491,6 +491,9 @@ def main():
                 + (", ".join(f"{w} ({l})" for w, l in unseg) or "none"))
     (OUT / "coverage.md").write_text("\n".join(rows) + "\n")
     print(f"parsed {len(lessons)} lessons; lexicon {len(lex)}; unsegmentable {len(unseg)}")
+    # Levels 5-7 use the session template (warm-up, word work, fluency, prime, knowledge text, discussion, write, check):
+    # the Level 1-4 blocks above find no learner words there, so tools/parse_sessions.py parses them for the practice screens.
+    import parse_sessions; parse_sessions.main(COURSE)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,258 @@
+[
+ {
+  "id": "L5.01",
+  "level": 5,
+  "title": "Prefixes un-, re- · The Water Cycle (intro)",
+  "screens": [
+   "warm",
+   "word",
+   "fluency",
+   "prime",
+   "text",
+   "discuss",
+   "write",
+   "check"
+  ],
+  "words": 285
+ },
+ {
+  "id": "L5.02",
+  "level": 5,
+  "title": "Prefixes in-/im-/ir-/il- (not), dis- · How Money Works (barter → currency)",
+  "screens": [
+   "warm",
+   "word",
+   "fluency",
+   "prime",
+   "text",
+   "discuss",
+   "write",
+   "check"
+  ],
+  "words": 321
+ },
+ {
+  "id": "L5.03",
+  "level": 5,
+  "title": "Prefixes en-/em-, non- · The Human Heart (structure)",
+  "screens": [
+   "warm",
+   "word",
+   "fluency",
+   "prime",
+   "text",
+   "discuss",
+   "write",
+   "check"
+  ],
+  "words": 333
+ },
+ {
+  "id": "L5.04",
+  "level": 5,
+  "title": "Prefixes over-, mis- · The Indus Valley (intro) · Readers Theatre #1",
+  "screens": [
+   "warm",
+   "word",
+   "fluency",
+   "prime",
+   "text",
+   "discuss",
+   "write",
+   "check"
+  ],
+  "words": 362
+ },
+ {
+  "id": "L5.05",
+  "level": 5,
+  "title": "Prefixes sub-, pre- · Weather vs. Climate",
+  "screens": [
+   "warm",
+   "word",
+   "fluency",
+   "prime",
+   "text",
+   "discuss",
+   "write",
+   "check"
+  ],
+  "words": 294
+ },
+ {
+  "id": "L5.06",
+  "level": 5,
+  "title": "Suffixes -ly, -er/-or · The Water Cycle, Deeper (states of matter)",
+  "screens": [
+   "warm",
+   "word",
+   "fluency",
+   "prime",
+   "text",
+   "discuss",
+   "write",
+   "check"
+  ],
+  "words": 280
+ },
+ {
+  "id": "L5.07",
+  "level": 5,
+  "title": "Suffixes -tion/-sion, -able/-ible · How Money Works, Deeper (banks, saving, interest)",
+  "screens": [
+   "warm",
+   "word",
+   "fluency",
+   "prime",
+   "text",
+   "discuss",
+   "write",
+   "check"
+  ],
+  "words": 318
+ },
+ {
+  "id": "L5.08",
+  "level": 5,
+  "title": "Prefixes inter-, fore- · The Human Heart, Deeper (heartbeat & health) · Readers Theatre #2",
+  "screens": [
+   "warm",
+   "word",
+   "fluency",
+   "prime",
+   "text",
+   "discuss",
+   "write",
+   "check"
+  ],
+  "words": 357
+ },
+ {
+  "id": "L5.09",
+  "level": 5,
+  "title": "Suffixes -al, -y · The Indus Valley, Deeper (cities & trade)",
+  "screens": [
+   "warm",
+   "word",
+   "fluency",
+   "prime",
+   "text",
+   "discuss",
+   "write",
+   "check"
+  ],
+  "words": 343
+ },
+ {
+  "id": "L5.10",
+  "level": 5,
+  "title": "Prefixes de-, trans- · Weather Systems (monsoon, storms)",
+  "screens": [
+   "warm",
+   "word",
+   "fluency",
+   "prime",
+   "text",
+   "discuss",
+   "write",
+   "check"
+  ],
+  "words": 356
+ },
+ {
+  "id": "L5.11",
+  "level": 5,
+  "title": "Suffixes -ness, -ment · Number Roots · The Solar System",
+  "screens": [
+   "warm",
+   "word",
+   "fluency",
+   "prime",
+   "text",
+   "discuss",
+   "write",
+   "check"
+  ],
+  "words": 324
+ },
+ {
+  "id": "L5.12",
+  "level": 5,
+  "title": "Prefixes super-, semi- · Roots spect, port, dict, struct · Electricity, Simply Explained · Readers Theatre #3",
+  "screens": [
+   "warm",
+   "word",
+   "fluency",
+   "prime",
+   "text",
+   "discuss",
+   "write",
+   "check"
+  ],
+  "words": 420
+ },
+ {
+  "id": "L5.13",
+  "level": 5,
+  "title": "Suffixes -ful, -less, -ive · Roots scrib/script, tract, rupt, vis/vid · How Simple Machines Work",
+  "screens": [
+   "warm",
+   "word",
+   "fluency",
+   "prime",
+   "text",
+   "discuss",
+   "write",
+   "check"
+  ],
+  "words": 384
+ },
+ {
+  "id": "L5.14",
+  "level": 5,
+  "title": "Prefixes anti-, mid-, under- · Roots aud, graph/gram, ject, mit/mis · The Internet: How a Message Travels",
+  "screens": [
+   "warm",
+   "word",
+   "fluency",
+   "prime",
+   "text",
+   "discuss",
+   "write",
+   "check"
+  ],
+  "words": 380
+ },
+ {
+  "id": "L5.15",
+  "level": 5,
+  "title": "Suffixes -ity, -ist · Roots cred, duc/duct, ver, corp, gen, log/logy, phon, therm · Trade Routes: The Silk Road",
+  "screens": [
+   "warm",
+   "word",
+   "fluency",
+   "prime",
+   "text",
+   "discuss",
+   "write",
+   "check"
+  ],
+  "words": 425
+ },
+ {
+  "id": "L5.16",
+  "level": 5,
+  "title": "Review, Integration & Extensive Reading Capstone",
+  "screens": [
+   "warm",
+   "word",
+   "fluency",
+   "prime",
+   "text",
+   "discuss",
+   "write",
+   "check"
+  ],
+  "words": 357
+ }
+]

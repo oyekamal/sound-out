@@ -1,0 +1,545 @@
+{
+ "id": "L5.13",
+ "level": 5,
+ "title": "Suffixes -ful, -less, -ive · Roots scrib/script, tract, rupt, vis/vid · How Simple Machines Work",
+ "source": "course/level-5/lessons/L5.13-ful-less-ive-roots-simple-machines.md",
+ "practice": true,
+ "goal": "Read, spell, and use words with -ful, -less, -ive; learn four more commonly-useful roots; return to the standard single-passage fluency format (no more scripts or phrase-cues from here on — full independent pacing).",
+ "warm": {
+  "words": [
+   "inspect",
+   "transport",
+   "construct",
+   "spect",
+   "port",
+   "dict",
+   "struct"
+  ],
+  "heart": [
+   "off",
+   "play",
+   "\nspell",
+   "air",
+   "away",
+   "animal",
+   "house",
+   "point",
+   "page",
+   "letter"
+  ],
+  "prompts": []
+ },
+ "word": {
+  "items": [
+   {
+    "word": "careful",
+    "meaning": "full of care",
+    "parts": [
+     "care",
+     "ful"
+    ],
+    "affix": "-ful"
+   },
+   {
+    "word": "helpful",
+    "meaning": "full of help",
+    "parts": [
+     "help",
+     "ful"
+    ],
+    "affix": "-ful"
+   },
+   {
+    "word": "powerful",
+    "meaning": "full of power",
+    "parts": [
+     "power",
+     "ful"
+    ],
+    "affix": "-ful"
+   },
+   {
+    "word": "useful",
+    "meaning": "full of use",
+    "parts": [
+     "use",
+     "ful"
+    ],
+    "affix": "-ful"
+   },
+   {
+    "word": "colorful",
+    "meaning": "full of color",
+    "parts": [
+     "color",
+     "ful"
+    ],
+    "affix": "-ful"
+   },
+   {
+    "word": "thoughtful",
+    "meaning": "full of thought (for others)",
+    "parts": [
+     "thought",
+     "ful"
+    ],
+    "affix": "-ful"
+   },
+   {
+    "word": "careless",
+    "meaning": "without care",
+    "parts": [
+     "care",
+     "less"
+    ],
+    "affix": "-less"
+   },
+   {
+    "word": "helpless",
+    "meaning": "without help",
+    "parts": [
+     "help",
+     "less"
+    ],
+    "affix": "-less"
+   },
+   {
+    "word": "useless",
+    "meaning": "without use",
+    "parts": [
+     "use",
+     "less"
+    ],
+    "affix": "-less"
+   },
+   {
+    "word": "colorless",
+    "meaning": "without color",
+    "parts": [
+     "color",
+     "less"
+    ],
+    "affix": "-less"
+   },
+   {
+    "word": "harmless",
+    "meaning": "without harm",
+    "parts": [
+     "harm",
+     "less"
+    ],
+    "affix": "-less"
+   },
+   {
+    "word": "fearless",
+    "meaning": "without fear",
+    "parts": [
+     "fear",
+     "less"
+    ],
+    "affix": "-less"
+   },
+   {
+    "word": "active",
+    "meaning": "having the tendency to act/move",
+    "parts": [
+     "act",
+     "ive"
+    ],
+    "affix": "-ive"
+   },
+   {
+    "word": "creative",
+    "meaning": "having the quality of creating",
+    "parts": [
+     "creat",
+     "ive"
+    ],
+    "affix": "-ive"
+   },
+   {
+    "word": "effective",
+    "meaning": "having the quality of producing an effect",
+    "parts": [
+     "effect",
+     "ive"
+    ],
+    "affix": "-ive"
+   },
+   {
+    "word": "protective",
+    "meaning": "having the tendency to protect",
+    "parts": [
+     "protect",
+     "ive"
+    ],
+    "affix": "-ive"
+   },
+   {
+    "word": "attractive",
+    "meaning": "having the quality of attracting",
+    "parts": [
+     "attract",
+     "ive"
+    ],
+    "affix": "-ive"
+   },
+   {
+    "word": "decisive",
+    "meaning": "having the tendency to decide clearly",
+    "parts": [
+     "decis",
+     "ive"
+    ],
+    "affix": "-ive"
+   },
+   {
+    "word": "describe",
+    "meaning": "write down what something is like",
+    "parts": [
+     "de",
+     "scribe"
+    ],
+    "affix": "scrib/script",
+    "root": true,
+    "rootMeaning": "to write"
+   },
+   {
+    "word": "subscribe",
+    "meaning": "write your name onto a list",
+    "parts": [
+     "sub",
+     "scribe"
+    ],
+    "affix": "scrib/script",
+    "root": true,
+    "rootMeaning": "to write"
+   },
+   {
+    "word": "script",
+    "meaning": "written words for a performance",
+    "parts": [
+     "script"
+    ],
+    "affix": "scrib/script",
+    "root": true,
+    "rootMeaning": "to write"
+   },
+   {
+    "word": "manuscript",
+    "meaning": "a hand-written or original written document",
+    "parts": [
+     "manu",
+     "script"
+    ],
+    "affix": "scrib/script",
+    "root": true,
+    "rootMeaning": "to write"
+   },
+   {
+    "word": "attract",
+    "meaning": "pull toward",
+    "parts": [
+     "at",
+     "tract"
+    ],
+    "affix": "tract",
+    "root": true,
+    "rootMeaning": "to pull/drag"
+   },
+   {
+    "word": "subtract",
+    "meaning": "pull away/take from",
+    "parts": [
+     "sub",
+     "tract"
+    ],
+    "affix": "tract",
+    "root": true,
+    "rootMeaning": "to pull/drag"
+   },
+   {
+    "word": "tractor",
+    "meaning": "a machine that pulls",
+    "parts": [
+     "tract",
+     "or"
+    ],
+    "affix": "tract",
+    "root": true,
+    "rootMeaning": "to pull/drag"
+   },
+   {
+    "word": "extract",
+    "meaning": "pull out",
+    "parts": [
+     "ex",
+     "tract"
+    ],
+    "affix": "tract",
+    "root": true,
+    "rootMeaning": "to pull/drag"
+   },
+   {
+    "word": "interrupt",
+    "meaning": "break in between",
+    "parts": [
+     "inter",
+     "rupt"
+    ],
+    "affix": "rupt",
+    "root": true,
+    "rootMeaning": "to break"
+   },
+   {
+    "word": "erupt",
+    "meaning": "break out, as a volcano does",
+    "parts": [
+     "e",
+     "rupt"
+    ],
+    "affix": "rupt",
+    "root": true,
+    "rootMeaning": "to break"
+   },
+   {
+    "word": "disrupt",
+    "meaning": "break the normal flow of",
+    "parts": [
+     "dis",
+     "rupt"
+    ],
+    "affix": "rupt",
+    "root": true,
+    "rootMeaning": "to break"
+   },
+   {
+    "word": "corrupt",
+    "meaning": "broken in a moral/honest sense",
+    "parts": [
+     "cor",
+     "rupt"
+    ],
+    "affix": "rupt",
+    "root": true,
+    "rootMeaning": "to break"
+   },
+   {
+    "word": "visible",
+    "meaning": "able to be seen",
+    "parts": [
+     "vis",
+     "ible"
+    ],
+    "affix": "vis/vid",
+    "root": true,
+    "rootMeaning": "to see"
+   },
+   {
+    "word": "video",
+    "meaning": "a moving series of seen images",
+    "parts": [
+     "vid",
+     "eo"
+    ],
+    "affix": "vis/vid",
+    "root": true,
+    "rootMeaning": "to see"
+   },
+   {
+    "word": "television",
+    "meaning": "far-seeing, a device for viewing broadcasts",
+    "parts": [
+     "tele",
+     "vis",
+     "ion"
+    ],
+    "affix": "vis/vid",
+    "root": true,
+    "rootMeaning": "to see"
+   },
+   {
+    "word": "evident",
+    "meaning": "able to be seen clearly — obvious",
+    "parts": [
+     "e",
+     "vid",
+     "ent"
+    ],
+    "affix": "vis/vid",
+    "root": true,
+    "rootMeaning": "to see"
+   }
+  ],
+  "vocab": [
+   {
+    "word": "assist",
+    "def": "to help.",
+    "examples": [
+     "A lever assists you by letting you use less force to lift something heavy.",
+     "The older student assisted the younger one with the tricky word."
+    ],
+    "task": "\"Name a tool that assists you with a task you couldn't easily do alone.\""
+   },
+   {
+    "word": "reduce",
+    "def": "to make smaller or less.",
+    "examples": [
+     "A pulley reduces the amount of force you need to lift something, by changing direction and sharing the load.",
+     "Wearing a helmet reduces the risk of a serious injury."
+    ],
+    "task": "\"Name one tool or habit that reduces effort, time, or risk.\""
+   }
+  ],
+  "affixes": [
+   {
+    "affix": "-ful",
+    "meaning": "\"full of\""
+   },
+   {
+    "affix": "-less",
+    "meaning": "\"without\""
+   },
+   {
+    "affix": "-ive",
+    "meaning": "\"having the quality/tendency of\""
+   }
+  ],
+  "review": []
+ },
+ "prime": {
+  "facts": [
+   "a lever is a bar that turns around a fixed point",
+   "a ramp lets you use less strength over a longer distance",
+   "a wheelbarrow combines a wheel and a lever at once."
+  ],
+  "question": "Have you ever used a tool that made a heavy job feel lighter? What was it?",
+  "intro": "Before reading: if possible, show or describe a see-saw, a ramp, or a wheelbarrow. Give 2–3 quick facts: a lever is a bar that turns around a fixed point; a ramp lets you use less strength over a longer distance; a wheelbarrow combines a wheel and a lever at once. Orienting question: \"Have you ever used a tool that made a heavy job feel lighter? What was it?\""
+ },
+ "write": {
+  "task": "Write 2–3 sentences: \"Name one simple machine you use or see often, and explain how it reduces effort.\"",
+  "model": null
+ },
+ "check": {
+  "items": [
+   {
+    "q": "Read and spell: careful, useless, active, effective (3/4 = pass)",
+    "kind": "task",
+    "a": null
+   },
+   {
+    "q": "Give one example word for each root: scrib/script, tract, rupt, vis/vid (3/4 = pass)",
+    "kind": "task",
+    "a": null
+   },
+   {
+    "q": "Define: reduce",
+    "kind": "task",
+    "a": null
+   },
+   {
+    "q": "Read: point (Fry heart word)",
+    "kind": "task",
+    "a": null
+   }
+  ],
+  "bar": "≥6/9",
+  "support": null,
+  "challenge": null
+ },
+ "text": {
+  "passages": [
+   {
+    "track": "A",
+    "title": "Simple Machines on the Playground",
+    "paragraphs": [
+     "A see-saw is not just for fun. It is a simple machine, called a lever. Levers are everywhere once you notice them. A lever is a stiff bar. It turns around a fixed point. We call that point a pivot. A lever is an effective way to lift something heavy. You could not lift it alone. On a see-saw, the pivot is in the middle. So both sides need about the same weight to balance.",
+     "A ramp is a different simple machine. You might see one leading up to a doorway. We call it an inclined plane. It is careful, clever engineering, hiding as something ordinary. Rolling a heavy object up a long, gentle ramp takes less strength than lifting it straight up. This is true even though the object travels farther. You are reducing the force needed. You spread the same amount of work over a longer distance.",
+     "A wheelbarrow combines two simple machines at once. It has a wheel. The wheel reduces friction, so it is easier to move things. It also has a lever. Those are the handles you push down on. The wheel acts as the pivot. Next time you see a see-saw, a ramp, or a wheelbarrow, look again. You are not looking at something simple at all. You are looking at thoughtful, useful engineering. People figured this out thousands of years ago. We still use it every single day."
+    ],
+    "phrased": false,
+    "script": false,
+    "questions": [
+     {
+      "q": "What is the fixed point of a lever called?",
+      "a": null
+     },
+     {
+      "q": "Why does rolling something up a ramp take less strength than lifting it straight up?",
+      "a": null
+     },
+     {
+      "q": "What two simple machines does a wheelbarrow combine?",
+      "a": null
+     }
+    ]
+   },
+   {
+    "track": "B",
+    "title": "Working Smarter, Not Harder: Simple Machines on the Job",
+    "paragraphs": [
+     "Anyone who has used a crowbar to open a stuck lid has used a simple machine. So has anyone who has pushed a heavy load in a wheelbarrow. Understanding why these tools work helps you use them better.",
+     "A crowbar is a lever. It helps you by multiplying the force you apply. In exchange, your hand moves a longer distance than the load itself moves. Push the handle down a long way. The short end near the load moves only a little. But it moves with much more force. Where you place your hands matters too. Move your hands farther from the pivot point, and you need even less effort for the same result.",
+     "A wheelbarrow uses the same idea in a different way. The wheel at the front acts as the pivot. Your hands lift at the back. The load sits in between. This means you are only supporting part of the load's weight yourself. The wheel and the ground carry the rest. That is why a loaded wheelbarrow is much easier to push than carrying the same weight in your arms.",
+     "None of this is just a fun fact. Anyone doing physical work, like construction, farming, or moving furniture, gets a real advantage from knowing where to place their hands, and why. It means less wasted effort, less strain on the body, and often a faster result."
+    ],
+    "phrased": false,
+    "script": false,
+    "questions": [
+     {
+      "q": "What does moving your hands farther from a crowbar's pivot do?",
+      "a": null
+     },
+     {
+      "q": "Why is a loaded wheelbarrow easier to push than carrying the same weight in your arms?",
+      "a": null
+     },
+     {
+      "q": "What three practical benefits does the text say this understanding gives someone doing physical work?",
+      "a": null
+     }
+    ]
+   }
+  ],
+  "moves": []
+ },
+ "fluency": {
+  "title": "Read it smoothly",
+  "fromText": true,
+  "phrased": false
+ },
+ "discuss": {
+  "roles": [
+   {
+    "role": "Predictor",
+    "prompt": "What do you expect each passage to explain about simple machines?",
+    "model": null
+   },
+   {
+    "role": "Questioner",
+    "prompt": "One answered, one unanswered question (neither passage explains a pulley in full detail, only mentions it briefly).",
+    "model": null
+   },
+   {
+    "role": "Clarifier",
+    "prompt": "Explain pivot, multiplies, or friction using context or the roots just taught.",
+    "model": null
+   },
+   {
+    "role": "Summarizer",
+    "prompt": "Retell in 2–3 sentences, naming at least two simple machines.",
+    "model": null
+   }
+  ]
+ },
+ "screens": [
+  "warm",
+  "word",
+  "fluency",
+  "prime",
+  "text",
+  "discuss",
+  "write",
+  "check"
+ ]
+}

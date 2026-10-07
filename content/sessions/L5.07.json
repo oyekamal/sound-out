@@ -1,0 +1,331 @@
+{
+ "id": "L5.07",
+ "level": 5,
+ "title": "Suffixes -tion/-sion, -able/-ible · How Money Works, Deeper (banks, saving, interest)",
+ "source": "course/level-5/lessons/L5.07-tion-sion-able-ible-money-deeper.md",
+ "practice": true,
+ "goal": "Read, spell, and use words with -tion/-sion and -able/-ible; return to the money topic from 5.02 with more depth; phrase-cue markup is gone — read at natural pace and see if the phrasing still comes through.",
+ "warm": {
+  "words": [
+   "slowly",
+   "inventor",
+   "happily",
+   "through",
+   "ough"
+  ],
+  "heart": [
+   "good",
+   "sentence",
+   "man",
+   "think",
+   "say",
+   "great",
+   "where",
+   "help",
+   "\nthrough",
+   "much"
+  ],
+  "prompts": []
+ },
+ "word": {
+  "items": [
+   {
+    "word": "action",
+    "meaning": "the act of doing something",
+    "parts": [
+     "act",
+     "ion"
+    ],
+    "affix": "-tion"
+   },
+   {
+    "word": "invention",
+    "meaning": "a thing invented",
+    "parts": [
+     "invent",
+     "ion"
+    ],
+    "affix": "-tion"
+   },
+   {
+    "word": "direction",
+    "meaning": "the act of directing / a way to go",
+    "parts": [
+     "direct",
+     "ion"
+    ],
+    "affix": "-tion"
+   },
+   {
+    "word": "information",
+    "meaning": "facts that inform",
+    "parts": [
+     "inform",
+     "ation"
+    ],
+    "affix": "-tion"
+   },
+   {
+    "word": "decision",
+    "meaning": "the result of deciding",
+    "parts": [
+     "deci",
+     "sion"
+    ],
+    "affix": "-tion"
+   },
+   {
+    "word": "television",
+    "meaning": "(originally \"far-seeing\") a device for viewing broadcasts",
+    "parts": [
+     "televi",
+     "sion"
+    ],
+    "affix": "-tion"
+   },
+   {
+    "word": "discussion",
+    "meaning": "the act of discussing",
+    "parts": [
+     "discuss",
+     "ion"
+    ],
+    "affix": "-tion"
+   },
+   {
+    "word": "celebration",
+    "meaning": "the act of celebrating",
+    "parts": [
+     "celebra",
+     "tion"
+    ],
+    "affix": "-tion"
+   },
+   {
+    "word": "comfortable",
+    "meaning": "capable of giving comfort",
+    "parts": [
+     "comfort",
+     "able"
+    ],
+    "affix": "-able"
+   },
+   {
+    "word": "reliable",
+    "meaning": "capable of being relied on",
+    "parts": [
+     "reli",
+     "able"
+    ],
+    "affix": "-able"
+   },
+   {
+    "word": "breakable",
+    "meaning": "capable of being broken",
+    "parts": [
+     "break",
+     "able"
+    ],
+    "affix": "-able"
+   },
+   {
+    "word": "enjoyable",
+    "meaning": "capable of being enjoyed",
+    "parts": [
+     "enjoy",
+     "able"
+    ],
+    "affix": "-able"
+   },
+   {
+    "word": "agreeable",
+    "meaning": "capable of agreeing / pleasant",
+    "parts": [
+     "agree",
+     "able"
+    ],
+    "affix": "-able"
+   },
+   {
+    "word": "flexible",
+    "meaning": "capable of bending/adapting",
+    "parts": [
+     "flex",
+     "ible"
+    ],
+    "affix": "-able"
+   },
+   {
+    "word": "sensible",
+    "meaning": "capable of good sense/judgment",
+    "parts": [
+     "sens",
+     "ible"
+    ],
+    "affix": "-able"
+   },
+   {
+    "word": "terrible",
+    "meaning": "(root: terr = to frighten) capable of causing fear/very bad",
+    "parts": [
+     "terr",
+     "ible"
+    ],
+    "affix": "-able"
+   }
+  ],
+  "vocab": [
+   {
+    "word": "budget",
+    "def": "a plan for how much money you'll spend and how much you'll save, usually over a set amount of time.",
+    "examples": [
+     "A monthly budget helps you make sure you don't spend more than you earn.",
+     "The family budget set aside a fixed amount for food and a fixed amount for savings."
+    ],
+    "task": "\"Name one thing you'd put into your own budget if you made one.\""
+   }
+  ],
+  "affixes": [
+   {
+    "affix": "-tion/-sion",
+    "meaning": "\"the act or result of doing something\" — turns a verb into a noun"
+   },
+   {
+    "affix": "-able/-ible",
+    "meaning": "\"capable of being done\""
+   }
+  ],
+  "review": []
+ },
+ "prime": {
+  "facts": [
+   "banks pay you interest for keeping savings with them",
+   "interest can itself earn more interest over time (compounding)",
+   "a budget is a plan for spending and saving made in advance, not decided moment to moment."
+  ],
+  "question": "Do you already keep any kind of budget, even an informal one?",
+  "intro": "Before reading: ask \"if you saved a small amount of money and left it in a bank for ten years, do you think it would grow?\" Give 2–3 quick facts: banks pay you interest for keeping savings with them; interest can itself earn more interest over time (compounding); a budget is a plan for spending and saving made in advance, not decided moment to moment. Orienting question: \"Do you already keep any kind of budget, even an informal one?\""
+ },
+ "write": {
+  "task": "Write 2–3 sentences: \"If you had extra money right now, what portion would you save and what portion would you spend? Explain your decision.\"",
+  "model": null
+ },
+ "check": {
+  "items": [
+   {
+    "q": "Read and spell: action, decision, discussion, comfortable, breakable, flexible (4/6 = pass)",
+    "kind": "task",
+    "a": null
+   },
+   {
+    "q": "Define: budget",
+    "kind": "task",
+    "a": null
+   },
+   {
+    "q": "Read: through (Fry heart word, heart part = ough)",
+    "kind": "task",
+    "a": null
+   }
+  ],
+  "bar": "≥5/8",
+  "support": null,
+  "challenge": null
+ },
+ "text": {
+  "passages": [
+   {
+    "track": "A",
+    "title": "Saving Money",
+    "paragraphs": [
+     "Zeenat had five hundred rupees from her birthday. She wanted to decide what to do with it. Her mother had an idea. Instead of spending it all right away, she could put some of it in a savings account at the bank. It would stay safe there. It would even grow, a little, all on its own.",
+     "\"How can money grow on its own?\" Zeenat asked. It was a very sensible question. Her mother explained that banks pay you interest. This is a small extra amount for keeping your money with them. It gets added regularly. The bank uses your saved money to lend to other people. Then it shares a bit of what it earns back with you. It is not a huge amount, especially at first. But it adds up over time.",
+     "Zeenat decided on a simple plan. It was her own small budget. She would spend half of her birthday money on something fun, right away. She would save the other half. She would check on it every few months, to watch it grow, bit by bit. It was not a hard decision once she thought about it that way. Some now, some later, and a small reward just for being patient."
+    ],
+    "phrased": false,
+    "script": false,
+    "questions": [
+     {
+      "q": "What does the bank pay you for keeping your money there?",
+      "a": null
+     },
+     {
+      "q": "What was Zeenat's simple budget plan?",
+      "a": null
+     },
+     {
+      "q": "Why does the text say interest \"isn't a huge amount, especially at first\"?",
+      "a": null
+     }
+    ]
+   },
+   {
+    "track": "B",
+    "title": "Interest, Compounding, and a Simple Budget",
+    "paragraphs": [
+     "Understanding interest is one of the most useful things an adult can know about money. It comes down to one key idea: simple interest versus compound interest.",
+     "Simple interest is easy. It is counted only on the amount you first saved or borrowed. Compound interest works differently. It is counted on that first amount, plus any interest you have already earned. In other words, your interest starts to earn its own interest.",
+     "That small difference matters a lot over time. Even a modest amount, saved often, can grow into a large sum if you give it compound interest and many years. This is why starting to save early matters more than the size of any one deposit.",
+     "The same idea works against you with debt. An unpaid credit card bill also grows through compound interest. If you only pay the minimum each month, that debt can grow fast, and it can catch people by surprise.",
+     "A simple budget helps with both sides of this. Here is one approach that works well. First, pay for the essentials: rent, food, and bills. Next, set aside a fixed amount for savings, right away. Only after that, decide what is left for everything else. Do not just save whatever happens to be left at the end of the month. For most people, that amount is close to nothing. A fixed plan, made once, removes the need to decide it again every month."
+    ],
+    "phrased": false,
+    "script": false,
+    "questions": [
+     {
+      "q": "What is the difference between simple and compound interest?",
+      "a": null
+     },
+     {
+      "q": "Why can an unpaid credit card bill \"grow fast\"?",
+      "a": null
+     },
+     {
+      "q": "What does the text recommend doing with savings, instead of \"saving whatever happens to be left over\"?",
+      "a": null
+     }
+    ]
+   }
+  ],
+  "moves": []
+ },
+ "fluency": {
+  "title": "Read it smoothly",
+  "fromText": true,
+  "phrased": false
+ },
+ "discuss": {
+  "roles": [
+   {
+    "role": "Predictor",
+    "prompt": "What will each passage explain about saving money?",
+    "model": null
+   },
+   {
+    "role": "Questioner",
+    "prompt": "One answered, one unanswered question (neither text explains exact interest rates or how to open an account).",
+    "model": null
+   },
+   {
+    "role": "Clarifier",
+    "prompt": "Explain compound interest, essentials, or catch people by surprise using context.",
+    "model": null
+   },
+   {
+    "role": "Summarizer",
+    "prompt": "Retell in 2–3 sentences, comparing the child's plan and the adult's plan.",
+    "model": null
+   }
+  ]
+ },
+ "screens": [
+  "warm",
+  "word",
+  "fluency",
+  "prime",
+  "text",
+  "discuss",
+  "write",
+  "check"
+ ]
+}

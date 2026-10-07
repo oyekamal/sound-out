@@ -5,6 +5,7 @@ import { home } from './home.js';
 import { runSitting } from './session.js';
 import { nextOpen, allSittings } from './path.js';
 import { stop } from './audio.js';
+import './screens/session/index.js'; // Levels 5-7 practice (Library + session screens)
 
 const root = document.getElementById('app');
 let profile = null;

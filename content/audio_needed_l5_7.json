@@ -1,0 +1,80 @@
+{
+ "note": "Characters Sound Out would send to ElevenLabs for Levels 5-7 practice (River voice). NOTHING is rendered yet (quota exhausted): every clip shows an 'audio coming' placeholder. Keys are ss:<lesson>:<block>:<n>; texts are rebuilt from content/sessions/*.json by tools/parse_sessions.py clip_texts().",
+ "levels": {
+  "5": {
+   "lessons": 16,
+   "clips": 1339,
+   "chars": 78698
+  }
+ },
+ "lessons": {
+  "L5.01": {
+   "clips": 70,
+   "chars": 4012
+  },
+  "L5.02": {
+   "clips": 71,
+   "chars": 4417
+  },
+  "L5.03": {
+   "clips": 74,
+   "chars": 4313
+  },
+  "L5.04": {
+   "clips": 83,
+   "chars": 5439
+  },
+  "L5.05": {
+   "clips": 70,
+   "chars": 4471
+  },
+  "L5.06": {
+   "clips": 68,
+   "chars": 4209
+  },
+  "L5.07": {
+   "clips": 74,
+   "chars": 4735
+  },
+  "L5.08": {
+   "clips": 89,
+   "chars": 5274
+  },
+  "L5.09": {
+   "clips": 74,
+   "chars": 4735
+  },
+  "L5.10": {
+   "clips": 71,
+   "chars": 4892
+  },
+  "L5.11": {
+   "clips": 66,
+   "chars": 4454
+  },
+  "L5.12": {
+   "clips": 114,
+   "chars": 5751
+  },
+  "L5.13": {
+   "clips": 113,
+   "chars": 5557
+  },
+  "L5.14": {
+   "clips": 112,
+   "chars": 5526
+  },
+  "L5.15": {
+   "clips": 112,
+   "chars": 6382
+  },
+  "L5.16": {
+   "clips": 78,
+   "chars": 4531
+  }
+ },
+ "total": {
+  "clips": 1339,
+  "chars": 78698
+ }
+}
