@@ -1,0 +1,7946 @@
+[
+{
+"w": "a",
+"ipa": "ʌ",
+"keys": [
+"w:a",
+"ipa:ʌ"
+],
+"current_text": "Say: uh.",
+"current_cut": "last",
+"current_say": "uh",
+"kind": "real",
+"arpa": "AH0",
+"arpa_source": "cmudict",
+"grapheme": "a"
+},
+{
+"w": "I",
+"ipa": "ˈaɪ",
+"keys": [
+"w:I",
+"ipa:ˈaɪ"
+],
+"current_text": "Say: I.",
+"current_cut": "last",
+"current_say": "I",
+"kind": "real",
+"arpa": "AY1",
+"arpa_source": "cmudict",
+"grapheme": "I"
+},
+{
+"w": "sa",
+"ipa": "sˈæ",
+"keys": [
+"w:sa",
+"ipa:sˈæ"
+],
+"current_text": "Say: sat.",
+"current_cut": "open",
+"current_say": "sat",
+"kind": "syllable",
+"arpa": "S AE1",
+"arpa_source": "course IPA",
+"grapheme": "sa"
+},
+{
+"w": "at",
+"ipa": "ˈæt",
+"keys": [
+"w:at",
+"ipa:ˈæt"
+],
+"current_text": "Say: at.",
+"current_cut": "last",
+"current_say": "at",
+"kind": "real",
+"arpa": "AE1 T",
+"arpa_source": "cmudict",
+"grapheme": "at"
+},
+{
+"w": "as",
+"ipa": "ˈæz",
+"keys": [
+"w:as",
+"ipa:ˈæz"
+],
+"current_text": "Say: as.",
+"current_cut": "last",
+"current_say": "as",
+"kind": "real",
+"arpa": "AE1 Z",
+"arpa_source": "cmudict",
+"grapheme": "as"
+},
+{
+"w": "sat",
+"ipa": "sˈæt",
+"keys": [
+"w:sat",
+"ipa:sˈæt"
+],
+"current_text": "Say: sat.",
+"current_cut": "last",
+"current_say": "sat",
+"kind": "real",
+"arpa": "S AE1 T",
+"arpa_source": "cmudict",
+"grapheme": "sat"
+},
+{
+"w": "tas",
+"ipa": "tˈæs",
+"keys": [
+"w:tas",
+"ipa:tˈæs"
+],
+"current_text": "Say: tass.",
+"current_cut": "last",
+"current_say": "tass",
+"kind": "pseudo",
+"arpa": "T AE1 S",
+"arpa_source": "course IPA",
+"grapheme": "tas"
+},
+{
+"w": "ast",
+"ipa": "ˈæst",
+"keys": [
+"w:ast",
+"ipa:ˈæst"
+],
+"current_text": "Say: ast.",
+"current_cut": "last",
+"current_say": "ast",
+"kind": "pseudo",
+"arpa": "AE1 S T",
+"arpa_source": "course IPA",
+"grapheme": "ast"
+},
+{
+"w": "sta",
+"ipa": "stˈæ",
+"keys": [
+"w:sta",
+"ipa:stˈæ"
+],
+"current_text": "Say: stat.",
+"current_cut": "open",
+"current_say": "stat",
+"kind": "pseudo",
+"arpa": "S T AE1",
+"arpa_source": "course IPA",
+"grapheme": "sta"
+},
+{
+"w": "sas",
+"ipa": "sˈæs",
+"keys": [
+"w:sas",
+"ipa:sˈæs"
+],
+"current_text": "Say: sass.",
+"current_cut": "last",
+"current_say": "sass",
+"kind": "pseudo",
+"arpa": "S AE1 S",
+"arpa_source": "course IPA",
+"grapheme": "sas"
+},
+{
+"w": "att",
+"ipa": "ˈætt",
+"keys": [
+"w:att",
+"ipa:ˈætt"
+],
+"current_text": "Say: at.",
+"current_cut": "last",
+"current_say": "at",
+"kind": "pseudo",
+"arpa": "AE1 T T",
+"arpa_source": "course IPA",
+"grapheme": "att"
+},
+{
+"w": "tat",
+"ipa": "tˈæt",
+"keys": [
+"w:tat",
+"ipa:tˈæt"
+],
+"current_text": "Say: tat.",
+"current_cut": "last",
+"current_say": "tat",
+"kind": "real",
+"arpa": "T AE1 T",
+"arpa_source": "cmudict",
+"grapheme": "tat"
+},
+{
+"w": "the",
+"ipa": "ðʌ",
+"keys": [
+"w:the",
+"ipa:ðʌ"
+],
+"current_text": "Say: the.",
+"current_cut": "last",
+"current_say": "the",
+"kind": "real",
+"arpa": "DH AH0",
+"arpa_source": "cmudict",
+"grapheme": "the"
+},
+{
+"w": "is",
+"ipa": "ˈɪz",
+"keys": [
+"w:is",
+"ipa:ˈɪz"
+],
+"current_text": "Say: is.",
+"current_cut": "last",
+"current_say": "is",
+"kind": "real",
+"arpa": "IH1 Z",
+"arpa_source": "cmudict",
+"grapheme": "is"
+},
+{
+"w": "pat",
+"ipa": "pˈæt",
+"keys": [
+"w:pat",
+"ipa:pˈæt"
+],
+"current_text": "Say: pat.",
+"current_cut": "last",
+"current_say": "pat",
+"kind": "real",
+"arpa": "P AE1 T",
+"arpa_source": "cmudict",
+"grapheme": "pat"
+},
+{
+"w": "tap",
+"ipa": "tˈæp",
+"keys": [
+"w:tap",
+"ipa:tˈæp"
+],
+"current_text": "Say: tap.",
+"current_cut": "last",
+"current_say": "tap",
+"kind": "real",
+"arpa": "T AE1 P",
+"arpa_source": "cmudict",
+"grapheme": "tap"
+},
+{
+"w": "sap",
+"ipa": "sˈæp",
+"keys": [
+"w:sap",
+"ipa:sˈæp"
+],
+"current_text": "Say: sap.",
+"current_cut": "last",
+"current_say": "sap",
+"kind": "real",
+"arpa": "S AE1 P",
+"arpa_source": "cmudict",
+"grapheme": "sap"
+},
+{
+"w": "pit",
+"ipa": "pˈɪt",
+"keys": [
+"w:pit",
+"ipa:pˈɪt"
+],
+"current_text": "Say: pit.",
+"current_cut": "last",
+"current_say": "pit",
+"kind": "real",
+"arpa": "P IH1 T",
+"arpa_source": "cmudict",
+"grapheme": "pit"
+},
+{
+"w": "tip",
+"ipa": "tˈɪp",
+"keys": [
+"w:tip",
+"ipa:tˈɪp"
+],
+"current_text": "Say: tip.",
+"current_cut": "last",
+"current_say": "tip",
+"kind": "real",
+"arpa": "T IH1 P",
+"arpa_source": "cmudict",
+"grapheme": "tip"
+},
+{
+"w": "sip",
+"ipa": "sˈɪp",
+"keys": [
+"w:sip",
+"ipa:sˈɪp"
+],
+"current_text": "Say: sip.",
+"current_cut": "last",
+"current_say": "sip",
+"kind": "real",
+"arpa": "S IH1 P",
+"arpa_source": "cmudict",
+"grapheme": "sip"
+},
+{
+"w": "sit",
+"ipa": "sˈɪt",
+"keys": [
+"w:sit",
+"ipa:sˈɪt"
+],
+"current_text": "Say: sit.",
+"current_cut": "last",
+"current_say": "sit",
+"kind": "real",
+"arpa": "S IH1 T",
+"arpa_source": "cmudict",
+"grapheme": "sit"
+},
+{
+"w": "pip",
+"ipa": "pˈɪp",
+"keys": [
+"w:pip",
+"ipa:pˈɪp"
+],
+"current_text": "Say: pip.",
+"current_cut": "last",
+"current_say": "pip",
+"kind": "real",
+"arpa": "P IH1 P",
+"arpa_source": "cmudict",
+"grapheme": "pip"
+},
+{
+"w": "pin",
+"ipa": "pˈɪn",
+"keys": [
+"w:pin",
+"ipa:pˈɪn"
+],
+"current_text": "Say: pin.",
+"current_cut": "last",
+"current_say": "pin",
+"kind": "real",
+"arpa": "P IH1 N",
+"arpa_source": "cmudict",
+"grapheme": "pin"
+},
+{
+"w": "nip",
+"ipa": "nˈɪp",
+"keys": [
+"w:nip",
+"ipa:nˈɪp"
+],
+"current_text": "Say: nip.",
+"current_cut": "last",
+"current_say": "nip",
+"kind": "real",
+"arpa": "N IH1 P",
+"arpa_source": "cmudict",
+"grapheme": "nip"
+},
+{
+"w": "tan",
+"ipa": "tˈæn",
+"keys": [
+"w:tan",
+"ipa:tˈæn"
+],
+"current_text": "Say: tan.",
+"current_cut": "last",
+"current_say": "tan",
+"kind": "real",
+"arpa": "T AE1 N",
+"arpa_source": "cmudict",
+"grapheme": "tan"
+},
+{
+"w": "pan",
+"ipa": "pˈæn",
+"keys": [
+"w:pan",
+"ipa:pˈæn"
+],
+"current_text": "Say: pan.",
+"current_cut": "last",
+"current_say": "pan",
+"kind": "real",
+"arpa": "P AE1 N",
+"arpa_source": "cmudict",
+"grapheme": "pan"
+},
+{
+"w": "nap",
+"ipa": "nˈæp",
+"keys": [
+"w:nap",
+"ipa:nˈæp"
+],
+"current_text": "Say: nap.",
+"current_cut": "last",
+"current_say": "nap",
+"kind": "real",
+"arpa": "N AE1 P",
+"arpa_source": "cmudict",
+"grapheme": "nap"
+},
+{
+"w": "in",
+"ipa": "ˈɪn",
+"keys": [
+"w:in",
+"ipa:ˈɪn"
+],
+"current_text": "Say: in.",
+"current_cut": "last",
+"current_say": "in",
+"kind": "real",
+"arpa": "IH0 N",
+"arpa_source": "cmudict",
+"grapheme": "in"
+},
+{
+"w": "nas",
+"ipa": "nˈæs",
+"keys": [
+"w:nas",
+"ipa:nˈæs"
+],
+"current_text": "Say: nass.",
+"current_cut": "last",
+"current_say": "nass",
+"kind": "pseudo",
+"arpa": "N AE1 S",
+"arpa_source": "course IPA",
+"grapheme": "nas"
+},
+{
+"w": "pas",
+"ipa": "pˈæs",
+"keys": [
+"w:pas",
+"ipa:pˈæs"
+],
+"current_text": "Say: pass.",
+"current_cut": "last",
+"current_say": "pass",
+"kind": "pseudo",
+"arpa": "P AE1 S",
+"arpa_source": "course IPA",
+"grapheme": "pas"
+},
+{
+"w": "tis",
+"ipa": "tˈɪs",
+"keys": [
+"w:tis",
+"ipa:tˈɪs"
+],
+"current_text": "Say: tiss.",
+"current_cut": "last",
+"current_say": "tiss",
+"kind": "pseudo",
+"arpa": "T IH1 S",
+"arpa_source": "course IPA",
+"grapheme": "tis"
+},
+{
+"w": "nis",
+"ipa": "nˈɪs",
+"keys": [
+"w:nis",
+"ipa:nˈɪs"
+],
+"current_text": "Say: niss.",
+"current_cut": "last",
+"current_say": "niss",
+"kind": "pseudo",
+"arpa": "N IH1 S",
+"arpa_source": "course IPA",
+"grapheme": "nis"
+},
+{
+"w": "nat",
+"ipa": "nˈæt",
+"keys": [
+"w:nat",
+"ipa:nˈæt"
+],
+"current_text": "Say: nat.",
+"current_cut": "last",
+"current_say": "nat",
+"kind": "real",
+"arpa": "N AE1 T",
+"arpa_source": "cmudict",
+"grapheme": "nat"
+},
+{
+"w": "to",
+"ipa": "tˈu",
+"keys": [
+"w:to",
+"ipa:tˈu"
+],
+"current_text": "Say: to.",
+"current_cut": "last",
+"current_say": "to",
+"kind": "real",
+"arpa": "T UW1",
+"arpa_source": "cmudict",
+"grapheme": "to"
+},
+{
+"w": "of",
+"ipa": "ˈʌv",
+"keys": [
+"w:of",
+"ipa:ˈʌv"
+],
+"current_text": "Say: of.",
+"current_cut": "last",
+"current_say": "of",
+"kind": "real",
+"arpa": "AH1 V",
+"arpa_source": "cmudict",
+"grapheme": "of"
+},
+{
+"w": "am",
+"ipa": "ˈæm",
+"keys": [
+"w:am",
+"ipa:ˈæm"
+],
+"current_text": "Say: am.",
+"current_cut": "last",
+"current_say": "am",
+"kind": "real",
+"arpa": "AE1 M",
+"arpa_source": "cmudict",
+"grapheme": "am"
+},
+{
+"w": "sam",
+"ipa": "sˈæm",
+"keys": [
+"w:sam",
+"ipa:sˈæm"
+],
+"current_text": "Say: sam.",
+"current_cut": "last",
+"current_say": "sam",
+"kind": "real",
+"arpa": "S AE1 M",
+"arpa_source": "cmudict",
+"grapheme": "sam"
+},
+{
+"w": "map",
+"ipa": "mˈæp",
+"keys": [
+"w:map",
+"ipa:mˈæp"
+],
+"current_text": "Say: map.",
+"current_cut": "last",
+"current_say": "map",
+"kind": "real",
+"arpa": "M AE1 P",
+"arpa_source": "cmudict",
+"grapheme": "map"
+},
+{
+"w": "mat",
+"ipa": "mˈæt",
+"keys": [
+"w:mat",
+"ipa:mˈæt"
+],
+"current_text": "Say: mat.",
+"current_cut": "last",
+"current_say": "mat",
+"kind": "real",
+"arpa": "M AE1 T",
+"arpa_source": "cmudict",
+"grapheme": "mat"
+},
+{
+"w": "man",
+"ipa": "mˈæn",
+"keys": [
+"w:man",
+"ipa:mˈæn"
+],
+"current_text": "Say: man.",
+"current_cut": "last",
+"current_say": "man",
+"kind": "real",
+"arpa": "M AE1 N",
+"arpa_source": "cmudict",
+"grapheme": "man"
+},
+{
+"w": "mad",
+"ipa": "mˈæd",
+"keys": [
+"w:mad",
+"ipa:mˈæd"
+],
+"current_text": "Say: mad.",
+"current_cut": "last",
+"current_say": "mad",
+"kind": "real",
+"arpa": "M AE1 D",
+"arpa_source": "cmudict",
+"grapheme": "mad"
+},
+{
+"w": "dad",
+"ipa": "dˈæd",
+"keys": [
+"w:dad",
+"ipa:dˈæd"
+],
+"current_text": "Say: dad.",
+"current_cut": "last",
+"current_say": "dad",
+"kind": "real",
+"arpa": "D AE1 D",
+"arpa_source": "cmudict",
+"grapheme": "dad"
+},
+{
+"w": "dip",
+"ipa": "dˈɪp",
+"keys": [
+"w:dip",
+"ipa:dˈɪp"
+],
+"current_text": "Say: dip.",
+"current_cut": "last",
+"current_say": "dip",
+"kind": "real",
+"arpa": "D IH1 P",
+"arpa_source": "cmudict",
+"grapheme": "dip"
+},
+{
+"w": "dam",
+"ipa": "dˈæm",
+"keys": [
+"w:dam",
+"ipa:dˈæm"
+],
+"current_text": "Say: dam.",
+"current_cut": "last",
+"current_say": "dam",
+"kind": "real",
+"arpa": "D AE1 M",
+"arpa_source": "cmudict",
+"grapheme": "dam"
+},
+{
+"w": "sad",
+"ipa": "sˈæd",
+"keys": [
+"w:sad",
+"ipa:sˈæd"
+],
+"current_text": "Say: sad.",
+"current_cut": "last",
+"current_say": "sad",
+"kind": "real",
+"arpa": "S AE1 D",
+"arpa_source": "cmudict",
+"grapheme": "sad"
+},
+{
+"w": "it",
+"ipa": "ˈɪt",
+"keys": [
+"w:it",
+"ipa:ˈɪt"
+],
+"current_text": "Say: it.",
+"current_cut": "last",
+"current_say": "it",
+"kind": "real",
+"arpa": "IH1 T",
+"arpa_source": "cmudict",
+"grapheme": "it"
+},
+{
+"w": "dim",
+"ipa": "dˈɪm",
+"keys": [
+"w:dim",
+"ipa:dˈɪm"
+],
+"current_text": "Say: dim.",
+"current_cut": "last",
+"current_say": "dim",
+"kind": "real",
+"arpa": "D IH1 M",
+"arpa_source": "cmudict",
+"grapheme": "dim"
+},
+{
+"w": "mip",
+"ipa": "mˈɪp",
+"keys": [
+"w:mip",
+"ipa:mˈɪp"
+],
+"current_text": "Say: mip.",
+"current_cut": "last",
+"current_say": "mip",
+"kind": "pseudo",
+"arpa": "M IH1 P",
+"arpa_source": "course IPA",
+"grapheme": "mip"
+},
+{
+"w": "nad",
+"ipa": "nˈæd",
+"keys": [
+"w:nad",
+"ipa:nˈæd"
+],
+"current_text": "Say: nad.",
+"current_cut": "last",
+"current_say": "nad",
+"kind": "pseudo",
+"arpa": "N AE1 D",
+"arpa_source": "course IPA",
+"grapheme": "nad"
+},
+{
+"w": "dap",
+"ipa": "dˈæp",
+"keys": [
+"w:dap",
+"ipa:dˈæp"
+],
+"current_text": "Say: dap.",
+"current_cut": "last",
+"current_say": "dap",
+"kind": "pseudo",
+"arpa": "D AE1 P",
+"arpa_source": "course IPA",
+"grapheme": "dap"
+},
+{
+"w": "tid",
+"ipa": "tˈɪd",
+"keys": [
+"w:tid",
+"ipa:tˈɪd"
+],
+"current_text": "Say: tid.",
+"current_cut": "last",
+"current_say": "tid",
+"kind": "pseudo",
+"arpa": "T IH1 D",
+"arpa_source": "course IPA",
+"grapheme": "tid"
+},
+{
+"w": "nam",
+"ipa": "nˈæm",
+"keys": [
+"w:nam",
+"ipa:nˈæm"
+],
+"current_text": "Say: nam.",
+"current_cut": "last",
+"current_say": "nam",
+"kind": "pseudo",
+"arpa": "N AE1 M",
+"arpa_source": "course IPA",
+"grapheme": "nam"
+},
+{
+"w": "pam",
+"ipa": "pˈæm",
+"keys": [
+"w:pam",
+"ipa:pˈæm"
+],
+"current_text": "Say: pam.",
+"current_cut": "last",
+"current_say": "pam",
+"kind": "real",
+"arpa": "P AE1 M",
+"arpa_source": "cmudict",
+"grapheme": "pam"
+},
+{
+"w": "dan",
+"ipa": "dˈæn",
+"keys": [
+"w:dan",
+"ipa:dˈæn"
+],
+"current_text": "Say: dan.",
+"current_cut": "last",
+"current_say": "dan",
+"kind": "real",
+"arpa": "D AE1 N",
+"arpa_source": "cmudict",
+"grapheme": "dan"
+},
+{
+"w": "and",
+"ipa": "ˈænd",
+"keys": [
+"w:and",
+"ipa:ˈænd"
+],
+"current_text": "Say: and.",
+"current_cut": "last",
+"current_say": "and",
+"kind": "real",
+"arpa": "AH0 N D",
+"arpa_source": "cmudict",
+"grapheme": "and"
+},
+{
+"w": "was",
+"ipa": "wˈʌz",
+"keys": [
+"w:was",
+"ipa:wˈʌz"
+],
+"current_text": "Say: was.",
+"current_cut": "last",
+"current_say": "was",
+"kind": "real",
+"arpa": "W AA1 Z",
+"arpa_source": "cmudict",
+"grapheme": "was"
+},
+{
+"w": "gap",
+"ipa": "ɡˈæp",
+"keys": [
+"w:gap",
+"ipa:ɡˈæp"
+],
+"current_text": "Say: gap.",
+"current_cut": "last",
+"current_say": "gap",
+"kind": "real",
+"arpa": "G AE1 P",
+"arpa_source": "cmudict",
+"grapheme": "gap"
+},
+{
+"w": "tag",
+"ipa": "tˈæɡ",
+"keys": [
+"w:tag",
+"ipa:tˈæɡ"
+],
+"current_text": "Say: tag.",
+"current_cut": "last",
+"current_say": "tag",
+"kind": "real",
+"arpa": "T AE1 G",
+"arpa_source": "cmudict",
+"grapheme": "tag"
+},
+{
+"w": "nag",
+"ipa": "nˈæɡ",
+"keys": [
+"w:nag",
+"ipa:nˈæɡ"
+],
+"current_text": "Say: nag.",
+"current_cut": "last",
+"current_say": "nag",
+"kind": "real",
+"arpa": "N AE1 G",
+"arpa_source": "cmudict",
+"grapheme": "nag"
+},
+{
+"w": "sag",
+"ipa": "sˈæɡ",
+"keys": [
+"w:sag",
+"ipa:sˈæɡ"
+],
+"current_text": "Say: sag.",
+"current_cut": "last",
+"current_say": "sag",
+"kind": "real",
+"arpa": "S AE1 G",
+"arpa_source": "cmudict",
+"grapheme": "sag"
+},
+{
+"w": "gas",
+"ipa": "ɡˈæs",
+"keys": [
+"w:gas",
+"ipa:ɡˈæs"
+],
+"current_text": "Say: gas.",
+"current_cut": "last",
+"current_say": "gas",
+"kind": "real",
+"arpa": "G AE1 S",
+"arpa_source": "cmudict",
+"grapheme": "gas"
+},
+{
+"w": "got",
+"ipa": "ɡˈɑt",
+"keys": [
+"w:got",
+"ipa:ɡˈɑt"
+],
+"current_text": "Say: got.",
+"current_cut": "last",
+"current_say": "got",
+"kind": "real",
+"arpa": "G AA1 T",
+"arpa_source": "cmudict",
+"grapheme": "got"
+},
+{
+"w": "dog",
+"ipa": "dˈɑɡ",
+"keys": [
+"w:dog",
+"ipa:dˈɑɡ"
+],
+"current_text": "Say: dog.",
+"current_cut": "last",
+"current_say": "dog",
+"kind": "real",
+"arpa": "D AO1 G",
+"arpa_source": "cmudict",
+"grapheme": "dog"
+},
+{
+"w": "top",
+"ipa": "tˈɑp",
+"keys": [
+"w:top",
+"ipa:tˈɑp"
+],
+"current_text": "Say: top.",
+"current_cut": "last",
+"current_say": "top",
+"kind": "real",
+"arpa": "T AA1 P",
+"arpa_source": "cmudict",
+"grapheme": "top"
+},
+{
+"w": "pot",
+"ipa": "pˈɑt",
+"keys": [
+"w:pot",
+"ipa:pˈɑt"
+],
+"current_text": "Say: pot.",
+"current_cut": "last",
+"current_say": "pot",
+"kind": "real",
+"arpa": "P AA1 T",
+"arpa_source": "cmudict",
+"grapheme": "pot"
+},
+{
+"w": "nod",
+"ipa": "nˈɑd",
+"keys": [
+"w:nod",
+"ipa:nˈɑd"
+],
+"current_text": "Say: nod.",
+"current_cut": "last",
+"current_say": "nod",
+"kind": "real",
+"arpa": "N AA1 D",
+"arpa_source": "cmudict",
+"grapheme": "nod"
+},
+{
+"w": "log",
+"ipa": "lˈɑɡ",
+"keys": [
+"w:log",
+"ipa:lˈɑɡ"
+],
+"current_text": "Say: log.",
+"current_cut": "last",
+"current_say": "log",
+"kind": "real",
+"arpa": "L AO1 G",
+"arpa_source": "cmudict",
+"grapheme": "log"
+},
+{
+"w": "mop",
+"ipa": "mˈɑp",
+"keys": [
+"w:mop",
+"ipa:mˈɑp"
+],
+"current_text": "Say: mop.",
+"current_cut": "last",
+"current_say": "mop",
+"kind": "real",
+"arpa": "M AA1 P",
+"arpa_source": "cmudict",
+"grapheme": "mop"
+},
+{
+"w": "dot",
+"ipa": "dˈɑt",
+"keys": [
+"w:dot",
+"ipa:dˈɑt"
+],
+"current_text": "Say: dot.",
+"current_cut": "last",
+"current_say": "dot",
+"kind": "real",
+"arpa": "D AA1 T",
+"arpa_source": "cmudict",
+"grapheme": "dot"
+},
+{
+"w": "dop",
+"ipa": "dˈɑp",
+"keys": [
+"w:dop",
+"ipa:dˈɑp"
+],
+"current_text": "Say: dop.",
+"current_cut": "last",
+"current_say": "dop",
+"kind": "pseudo",
+"arpa": "D AA1 P",
+"arpa_source": "course IPA",
+"grapheme": "dop"
+},
+{
+"w": "gid",
+"ipa": "ɡˈɪd",
+"keys": [
+"w:gid",
+"ipa:ɡˈɪd"
+],
+"current_text": "Say: gid.",
+"current_cut": "last",
+"current_say": "gid",
+"kind": "pseudo",
+"arpa": "G IH1 D",
+"arpa_source": "course IPA",
+"grapheme": "gid"
+},
+{
+"w": "pog",
+"ipa": "pˈɑɡ",
+"keys": [
+"w:pog",
+"ipa:pˈɑɡ"
+],
+"current_text": "Say: pog.",
+"current_cut": "last",
+"current_say": "pog",
+"kind": "pseudo",
+"arpa": "P AA1 G",
+"arpa_source": "course IPA",
+"grapheme": "pog"
+},
+{
+"w": "mig",
+"ipa": "mˈɪɡ",
+"keys": [
+"w:mig",
+"ipa:mˈɪɡ"
+],
+"current_text": "Say: mig.",
+"current_cut": "last",
+"current_say": "mig",
+"kind": "pseudo",
+"arpa": "M IH1 G",
+"arpa_source": "course IPA",
+"grapheme": "mig"
+},
+{
+"w": "sog",
+"ipa": "sˈɑɡ",
+"keys": [
+"w:sog",
+"ipa:sˈɑɡ"
+],
+"current_text": "Say: sog.",
+"current_cut": "last",
+"current_say": "sog",
+"kind": "pseudo",
+"arpa": "S AA1 G",
+"arpa_source": "course IPA",
+"grapheme": "sog"
+},
+{
+"w": "said",
+"ipa": "sˈɛd",
+"keys": [
+"w:said",
+"ipa:sˈɛd"
+],
+"current_text": "Say: said.",
+"current_cut": "last",
+"current_say": "said",
+"kind": "real",
+"arpa": "S EH1 D",
+"arpa_source": "cmudict",
+"grapheme": "said"
+},
+{
+"w": "you",
+"ipa": "jˈu",
+"keys": [
+"w:you",
+"ipa:jˈu"
+],
+"current_text": "Say: you.",
+"current_cut": "last",
+"current_say": "you",
+"kind": "real",
+"arpa": "Y UW1",
+"arpa_source": "cmudict",
+"grapheme": "you"
+},
+{
+"w": "cat",
+"ipa": "kˈæt",
+"keys": [
+"w:cat",
+"ipa:kˈæt"
+],
+"current_text": "Say: cat.",
+"current_cut": "last",
+"current_say": "cat",
+"kind": "real",
+"arpa": "K AE1 T",
+"arpa_source": "cmudict",
+"grapheme": "cat"
+},
+{
+"w": "cot",
+"ipa": "kˈɑt",
+"keys": [
+"w:cot",
+"ipa:kˈɑt"
+],
+"current_text": "Say: cot.",
+"current_cut": "last",
+"current_say": "cot",
+"kind": "real",
+"arpa": "K AA1 T",
+"arpa_source": "cmudict",
+"grapheme": "cot"
+},
+{
+"w": "cop",
+"ipa": "kˈɑp",
+"keys": [
+"w:cop",
+"ipa:kˈɑp"
+],
+"current_text": "Say: cop.",
+"current_cut": "last",
+"current_say": "cop",
+"kind": "real",
+"arpa": "K AA1 P",
+"arpa_source": "cmudict",
+"grapheme": "cop"
+},
+{
+"w": "cap",
+"ipa": "kˈæp",
+"keys": [
+"w:cap",
+"ipa:kˈæp"
+],
+"current_text": "Say: cap.",
+"current_cut": "last",
+"current_say": "cap",
+"kind": "real",
+"arpa": "K AE1 P",
+"arpa_source": "cmudict",
+"grapheme": "cap"
+},
+{
+"w": "can",
+"ipa": "kˈæn",
+"keys": [
+"w:can",
+"ipa:kˈæn"
+],
+"current_text": "Say: can.",
+"current_cut": "last",
+"current_say": "can",
+"kind": "real",
+"arpa": "K AE1 N",
+"arpa_source": "cmudict",
+"grapheme": "can"
+},
+{
+"w": "kid",
+"ipa": "kˈɪd",
+"keys": [
+"w:kid",
+"ipa:kˈɪd"
+],
+"current_text": "Say: kid.",
+"current_cut": "last",
+"current_say": "kid",
+"kind": "real",
+"arpa": "K IH1 D",
+"arpa_source": "cmudict",
+"grapheme": "kid"
+},
+{
+"w": "kit",
+"ipa": "kˈɪt",
+"keys": [
+"w:kit",
+"ipa:kˈɪt"
+],
+"current_text": "Say: kit.",
+"current_cut": "last",
+"current_say": "kit",
+"kind": "real",
+"arpa": "K IH1 T",
+"arpa_source": "cmudict",
+"grapheme": "kit"
+},
+{
+"w": "kin",
+"ipa": "kˈɪn",
+"keys": [
+"w:kin",
+"ipa:kˈɪn"
+],
+"current_text": "Say: kin.",
+"current_cut": "last",
+"current_say": "kin",
+"kind": "real",
+"arpa": "K IH1 N",
+"arpa_source": "cmudict",
+"grapheme": "kin"
+},
+{
+"w": "sick",
+"ipa": "sˈɪk",
+"keys": [
+"w:sick",
+"ipa:sˈɪk"
+],
+"current_text": "Say: sick.",
+"current_cut": "last",
+"current_say": "sick",
+"kind": "real",
+"arpa": "S IH1 K",
+"arpa_source": "cmudict",
+"grapheme": "sick"
+},
+{
+"w": "tack",
+"ipa": "tˈæk",
+"keys": [
+"w:tack",
+"ipa:tˈæk"
+],
+"current_text": "Say: tack.",
+"current_cut": "last",
+"current_say": "tack",
+"kind": "real",
+"arpa": "T AE1 K",
+"arpa_source": "cmudict",
+"grapheme": "tack"
+},
+{
+"w": "sack",
+"ipa": "sˈæk",
+"keys": [
+"w:sack",
+"ipa:sˈæk"
+],
+"current_text": "Say: sack.",
+"current_cut": "last",
+"current_say": "sack",
+"kind": "real",
+"arpa": "S AE1 K",
+"arpa_source": "cmudict",
+"grapheme": "sack"
+},
+{
+"w": "sock",
+"ipa": "sˈɑk",
+"keys": [
+"w:sock",
+"ipa:sˈɑk"
+],
+"current_text": "Say: sock.",
+"current_cut": "last",
+"current_say": "sock",
+"kind": "real",
+"arpa": "S AA1 K",
+"arpa_source": "cmudict",
+"grapheme": "sock"
+},
+{
+"w": "dock",
+"ipa": "dˈɑk",
+"keys": [
+"w:dock",
+"ipa:dˈɑk"
+],
+"current_text": "Say: dock.",
+"current_cut": "last",
+"current_say": "dock",
+"kind": "real",
+"arpa": "D AA1 K",
+"arpa_source": "cmudict",
+"grapheme": "dock"
+},
+{
+"w": "cog",
+"ipa": "kˈɑɡ",
+"keys": [
+"w:cog",
+"ipa:kˈɑɡ"
+],
+"current_text": "Say: cog.",
+"current_cut": "last",
+"current_say": "cog",
+"kind": "real",
+"arpa": "K AO1 G",
+"arpa_source": "cmudict",
+"grapheme": "cog"
+},
+{
+"w": "pack",
+"ipa": "pˈæk",
+"keys": [
+"w:pack",
+"ipa:pˈæk"
+],
+"current_text": "Say: pack.",
+"current_cut": "last",
+"current_say": "pack",
+"kind": "real",
+"arpa": "P AE1 K",
+"arpa_source": "cmudict",
+"grapheme": "pack"
+},
+{
+"w": "cak",
+"ipa": "kˈæk",
+"keys": [
+"w:cak",
+"ipa:kˈæk"
+],
+"current_text": "Say: kack.",
+"current_cut": "last",
+"current_say": "kack",
+"kind": "pseudo",
+"arpa": "K AE1 K",
+"arpa_source": "course IPA",
+"grapheme": "cak"
+},
+{
+"w": "gack",
+"ipa": "ɡˈæk",
+"keys": [
+"w:gack",
+"ipa:ɡˈæk"
+],
+"current_text": "Say: gack.",
+"current_cut": "last",
+"current_say": "gack",
+"kind": "pseudo",
+"arpa": "G AE1 K",
+"arpa_source": "course IPA",
+"grapheme": "gack"
+},
+{
+"w": "cid",
+"ipa": "kˈɪd",
+"keys": [
+"w:cid"
+],
+"current_text": "Say: kid.",
+"current_cut": "last",
+"current_say": "kid",
+"kind": "pseudo",
+"arpa": "K IH1 D",
+"arpa_source": "course IPA",
+"grapheme": "cid"
+},
+{
+"w": "sok",
+"ipa": "sˈɑk",
+"keys": [
+"w:sok"
+],
+"current_text": "Say: sock.",
+"current_cut": "last",
+"current_say": "sock",
+"kind": "pseudo",
+"arpa": "S AA1 K",
+"arpa_source": "course IPA",
+"grapheme": "sok"
+},
+{
+"w": "dack",
+"ipa": "dˈæk",
+"keys": [
+"w:dack",
+"ipa:dˈæk"
+],
+"current_text": "Say: dack.",
+"current_cut": "last",
+"current_say": "dack",
+"kind": "pseudo",
+"arpa": "D AE1 K",
+"arpa_source": "course IPA",
+"grapheme": "dack"
+},
+{
+"w": "on",
+"ipa": "ˈɑn",
+"keys": [
+"w:on",
+"ipa:ˈɑn"
+],
+"current_text": "Say: on.",
+"current_cut": "last",
+"current_say": "on",
+"kind": "real",
+"arpa": "AA1 N",
+"arpa_source": "cmudict",
+"grapheme": "on"
+},
+{
+"w": "not",
+"ipa": "nˈɑt",
+"keys": [
+"w:not",
+"ipa:nˈɑt"
+],
+"current_text": "Say: not.",
+"current_cut": "last",
+"current_say": "not",
+"kind": "real",
+"arpa": "N AA1 T",
+"arpa_source": "cmudict",
+"grapheme": "not"
+},
+{
+"w": "are",
+"ipa": "ˈɑɹ",
+"keys": [
+"w:are",
+"ipa:ˈɑɹ"
+],
+"current_text": "Say: are.",
+"current_cut": "last",
+"current_say": "are",
+"kind": "real",
+"arpa": "AA1 R",
+"arpa_source": "cmudict",
+"grapheme": "are"
+},
+{
+"w": "he",
+"ipa": "hˈi",
+"keys": [
+"w:he",
+"ipa:hˈi"
+],
+"current_text": "Say: he.",
+"current_cut": "last",
+"current_say": "he",
+"kind": "real",
+"arpa": "HH IY1",
+"arpa_source": "cmudict",
+"grapheme": "he"
+},
+{
+"w": "get",
+"ipa": "ɡˈɛt",
+"keys": [
+"w:get",
+"ipa:ɡˈɛt"
+],
+"current_text": "Say: get.",
+"current_cut": "last",
+"current_say": "get",
+"kind": "real",
+"arpa": "G EH1 T",
+"arpa_source": "cmudict",
+"grapheme": "get"
+},
+{
+"w": "ten",
+"ipa": "tˈɛn",
+"keys": [
+"w:ten",
+"ipa:tˈɛn"
+],
+"current_text": "Say: ten.",
+"current_cut": "last",
+"current_say": "ten",
+"kind": "real",
+"arpa": "T EH1 N",
+"arpa_source": "cmudict",
+"grapheme": "ten"
+},
+{
+"w": "pet",
+"ipa": "pˈɛt",
+"keys": [
+"w:pet",
+"ipa:pˈɛt"
+],
+"current_text": "Say: pet.",
+"current_cut": "last",
+"current_say": "pet",
+"kind": "real",
+"arpa": "P EH1 T",
+"arpa_source": "cmudict",
+"grapheme": "pet"
+},
+{
+"w": "cut",
+"ipa": "kˈʌt",
+"keys": [
+"w:cut",
+"ipa:kˈʌt"
+],
+"current_text": "Say: cut.",
+"current_cut": "last",
+"current_say": "cut",
+"kind": "real",
+"arpa": "K AH1 T",
+"arpa_source": "cmudict",
+"grapheme": "cut"
+},
+{
+"w": "cup",
+"ipa": "kˈʌp",
+"keys": [
+"w:cup",
+"ipa:kˈʌp"
+],
+"current_text": "Say: cup.",
+"current_cut": "last",
+"current_say": "cup",
+"kind": "real",
+"arpa": "K AH1 P",
+"arpa_source": "cmudict",
+"grapheme": "cup"
+},
+{
+"w": "tug",
+"ipa": "tˈʌɡ",
+"keys": [
+"w:tug",
+"ipa:tˈʌɡ"
+],
+"current_text": "Say: tug.",
+"current_cut": "last",
+"current_say": "tug",
+"kind": "real",
+"arpa": "T AH1 G",
+"arpa_source": "cmudict",
+"grapheme": "tug"
+},
+{
+"w": "dug",
+"ipa": "dˈʌɡ",
+"keys": [
+"w:dug",
+"ipa:dˈʌɡ"
+],
+"current_text": "Say: dug.",
+"current_cut": "last",
+"current_say": "dug",
+"kind": "real",
+"arpa": "D AH1 G",
+"arpa_source": "cmudict",
+"grapheme": "dug"
+},
+{
+"w": "mug",
+"ipa": "mˈʌɡ",
+"keys": [
+"w:mug",
+"ipa:mˈʌɡ"
+],
+"current_text": "Say: mug.",
+"current_cut": "last",
+"current_say": "mug",
+"kind": "real",
+"arpa": "M AH1 G",
+"arpa_source": "cmudict",
+"grapheme": "mug"
+},
+{
+"w": "gum",
+"ipa": "ɡˈʌm",
+"keys": [
+"w:gum",
+"ipa:ɡˈʌm"
+],
+"current_text": "Say: gum.",
+"current_cut": "last",
+"current_say": "gum",
+"kind": "real",
+"arpa": "G AH1 M",
+"arpa_source": "cmudict",
+"grapheme": "gum"
+},
+{
+"w": "gut",
+"ipa": "ɡˈʌt",
+"keys": [
+"w:gut",
+"ipa:ɡˈʌt"
+],
+"current_text": "Say: gut.",
+"current_cut": "last",
+"current_say": "gut",
+"kind": "real",
+"arpa": "G AH1 T",
+"arpa_source": "cmudict",
+"grapheme": "gut"
+},
+{
+"w": "nut",
+"ipa": "nˈʌt",
+"keys": [
+"w:nut",
+"ipa:nˈʌt"
+],
+"current_text": "Say: nut.",
+"current_cut": "last",
+"current_say": "nut",
+"kind": "real",
+"arpa": "N AH1 T",
+"arpa_source": "cmudict",
+"grapheme": "nut"
+},
+{
+"w": "net",
+"ipa": "nˈɛt",
+"keys": [
+"w:net",
+"ipa:nˈɛt"
+],
+"current_text": "Say: net.",
+"current_cut": "last",
+"current_say": "net",
+"kind": "real",
+"arpa": "N EH1 T",
+"arpa_source": "cmudict",
+"grapheme": "net"
+},
+{
+"w": "men",
+"ipa": "mˈɛn",
+"keys": [
+"w:men",
+"ipa:mˈɛn"
+],
+"current_text": "Say: men.",
+"current_cut": "last",
+"current_say": "men",
+"kind": "real",
+"arpa": "M EH1 N",
+"arpa_source": "cmudict",
+"grapheme": "men"
+},
+{
+"w": "pen",
+"ipa": "pˈɛn",
+"keys": [
+"w:pen",
+"ipa:pˈɛn"
+],
+"current_text": "Say: pen.",
+"current_cut": "last",
+"current_say": "pen",
+"kind": "real",
+"arpa": "P EH1 N",
+"arpa_source": "cmudict",
+"grapheme": "pen"
+},
+{
+"w": "den",
+"ipa": "dˈɛn",
+"keys": [
+"w:den",
+"ipa:dˈɛn"
+],
+"current_text": "Say: den.",
+"current_cut": "last",
+"current_say": "den",
+"kind": "real",
+"arpa": "D EH1 N",
+"arpa_source": "cmudict",
+"grapheme": "den"
+},
+{
+"w": "sun",
+"ipa": "sˈʌn",
+"keys": [
+"w:sun",
+"ipa:sˈʌn"
+],
+"current_text": "Say: sun.",
+"current_cut": "last",
+"current_say": "sun",
+"kind": "real",
+"arpa": "S AH1 N",
+"arpa_source": "cmudict",
+"grapheme": "sun"
+},
+{
+"w": "ton",
+"ipa": "tˈɑn",
+"keys": [
+"w:ton",
+"ipa:tˈɑn"
+],
+"current_text": "Say: ton.",
+"current_cut": "last",
+"current_say": "ton",
+"kind": "real",
+"arpa": "T AH1 N",
+"arpa_source": "cmudict",
+"grapheme": "ton"
+},
+{
+"w": "gup",
+"ipa": "ɡˈʌp",
+"keys": [
+"w:gup",
+"ipa:ɡˈʌp"
+],
+"current_text": "Say: gup.",
+"current_cut": "last",
+"current_say": "gup",
+"kind": "pseudo",
+"arpa": "G AH1 P",
+"arpa_source": "course IPA",
+"grapheme": "gup"
+},
+{
+"w": "kec",
+"ipa": "kˈɛk",
+"keys": [
+"w:kec",
+"ipa:kˈɛk"
+],
+"current_text": "Say: keck.",
+"current_cut": "last",
+"current_say": "keck",
+"kind": "pseudo",
+"arpa": "K EH1 K",
+"arpa_source": "course IPA",
+"grapheme": "kec"
+},
+{
+"w": "nud",
+"ipa": "nˈʌd",
+"keys": [
+"w:nud",
+"ipa:nˈʌd"
+],
+"current_text": "Say: nud.",
+"current_cut": "last",
+"current_say": "nud",
+"kind": "pseudo",
+"arpa": "N AH1 D",
+"arpa_source": "course IPA",
+"grapheme": "nud"
+},
+{
+"w": "pem",
+"ipa": "pˈɛm",
+"keys": [
+"w:pem",
+"ipa:pˈɛm"
+],
+"current_text": "Say: pem.",
+"current_cut": "last",
+"current_say": "pem",
+"kind": "pseudo",
+"arpa": "P EH1 M",
+"arpa_source": "course IPA",
+"grapheme": "pem"
+},
+{
+"w": "dut",
+"ipa": "dˈʌt",
+"keys": [
+"w:dut",
+"ipa:dˈʌt"
+],
+"current_text": "Say: dut.",
+"current_cut": "last",
+"current_say": "dut",
+"kind": "pseudo",
+"arpa": "D AH1 T",
+"arpa_source": "course IPA",
+"grapheme": "dut"
+},
+{
+"w": "up",
+"ipa": "ˈʌp",
+"keys": [
+"w:up",
+"ipa:ˈʌp"
+],
+"current_text": "Say: up.",
+"current_cut": "last",
+"current_say": "up",
+"kind": "real",
+"arpa": "AH1 P",
+"arpa_source": "cmudict",
+"grapheme": "up"
+},
+{
+"w": "she",
+"ipa": "ʃˈi",
+"keys": [
+"w:she",
+"ipa:ʃˈi"
+],
+"current_text": "Say: she.",
+"current_cut": "last",
+"current_say": "she",
+"kind": "real",
+"arpa": "SH IY1",
+"arpa_source": "cmudict",
+"grapheme": "she"
+},
+{
+"w": "we",
+"ipa": "wˈi",
+"keys": [
+"w:we",
+"ipa:wˈi"
+],
+"current_text": "Say: we.",
+"current_cut": "last",
+"current_say": "we",
+"kind": "real",
+"arpa": "W IY1",
+"arpa_source": "cmudict",
+"grapheme": "we"
+},
+{
+"w": "rat",
+"ipa": "ɹˈæt",
+"keys": [
+"w:rat",
+"ipa:ɹˈæt"
+],
+"current_text": "Say: rat.",
+"current_cut": "last",
+"current_say": "rat",
+"kind": "real",
+"arpa": "R AE1 T",
+"arpa_source": "cmudict",
+"grapheme": "rat"
+},
+{
+"w": "ran",
+"ipa": "ɹˈæn",
+"keys": [
+"w:ran",
+"ipa:ɹˈæn"
+],
+"current_text": "Say: ran.",
+"current_cut": "last",
+"current_say": "ran",
+"kind": "real",
+"arpa": "R AE1 N",
+"arpa_source": "cmudict",
+"grapheme": "ran"
+},
+{
+"w": "rug",
+"ipa": "ɹˈʌɡ",
+"keys": [
+"w:rug",
+"ipa:ɹˈʌɡ"
+],
+"current_text": "Say: rug.",
+"current_cut": "last",
+"current_say": "rug",
+"kind": "real",
+"arpa": "R AH1 G",
+"arpa_source": "cmudict",
+"grapheme": "rug"
+},
+{
+"w": "run",
+"ipa": "ɹˈʌn",
+"keys": [
+"w:run",
+"ipa:ɹˈʌn"
+],
+"current_text": "Say: run.",
+"current_cut": "last",
+"current_say": "run",
+"kind": "real",
+"arpa": "R AH1 N",
+"arpa_source": "cmudict",
+"grapheme": "run"
+},
+{
+"w": "rid",
+"ipa": "ɹˈɪd",
+"keys": [
+"w:rid",
+"ipa:ɹˈɪd"
+],
+"current_text": "Say: rid.",
+"current_cut": "last",
+"current_say": "rid",
+"kind": "real",
+"arpa": "R IH1 D",
+"arpa_source": "cmudict",
+"grapheme": "rid"
+},
+{
+"w": "hut",
+"ipa": "hˈʌt",
+"keys": [
+"w:hut",
+"ipa:hˈʌt"
+],
+"current_text": "Say: hut.",
+"current_cut": "last",
+"current_say": "hut",
+"kind": "real",
+"arpa": "HH AH1 T",
+"arpa_source": "cmudict",
+"grapheme": "hut"
+},
+{
+"w": "hug",
+"ipa": "hˈʌɡ",
+"keys": [
+"w:hug",
+"ipa:hˈʌɡ"
+],
+"current_text": "Say: hug.",
+"current_cut": "last",
+"current_say": "hug",
+"kind": "real",
+"arpa": "HH AH1 G",
+"arpa_source": "cmudict",
+"grapheme": "hug"
+},
+{
+"w": "hat",
+"ipa": "hˈæt",
+"keys": [
+"w:hat",
+"ipa:hˈæt"
+],
+"current_text": "Say: hat.",
+"current_cut": "last",
+"current_say": "hat",
+"kind": "real",
+"arpa": "HH AE1 T",
+"arpa_source": "cmudict",
+"grapheme": "hat"
+},
+{
+"w": "hen",
+"ipa": "hˈɛn",
+"keys": [
+"w:hen",
+"ipa:hˈɛn"
+],
+"current_text": "Say: hen.",
+"current_cut": "last",
+"current_say": "hen",
+"kind": "real",
+"arpa": "HH EH1 N",
+"arpa_source": "cmudict",
+"grapheme": "hen"
+},
+{
+"w": "hop",
+"ipa": "hˈɑp",
+"keys": [
+"w:hop",
+"ipa:hˈɑp"
+],
+"current_text": "Say: hop.",
+"current_cut": "last",
+"current_say": "hop",
+"kind": "real",
+"arpa": "HH AA1 P",
+"arpa_source": "cmudict",
+"grapheme": "hop"
+},
+{
+"w": "ham",
+"ipa": "hˈæm",
+"keys": [
+"w:ham",
+"ipa:hˈæm"
+],
+"current_text": "Say: ham.",
+"current_cut": "last",
+"current_say": "ham",
+"kind": "real",
+"arpa": "HH AE1 M",
+"arpa_source": "cmudict",
+"grapheme": "ham"
+},
+{
+"w": "rot",
+"ipa": "ɹˈɑt",
+"keys": [
+"w:rot",
+"ipa:ɹˈɑt"
+],
+"current_text": "Say: rot.",
+"current_cut": "last",
+"current_say": "rot",
+"kind": "real",
+"arpa": "R AA1 T",
+"arpa_source": "cmudict",
+"grapheme": "rot"
+},
+{
+"w": "hog",
+"ipa": "hˈɑɡ",
+"keys": [
+"w:hog",
+"ipa:hˈɑɡ"
+],
+"current_text": "Say: hog.",
+"current_cut": "last",
+"current_say": "hog",
+"kind": "real",
+"arpa": "HH AA1 G",
+"arpa_source": "cmudict",
+"grapheme": "hog"
+},
+{
+"w": "rip",
+"ipa": "ɹˈɪp",
+"keys": [
+"w:rip",
+"ipa:ɹˈɪp"
+],
+"current_text": "Say: rip.",
+"current_cut": "last",
+"current_say": "rip",
+"kind": "real",
+"arpa": "R IH1 P",
+"arpa_source": "cmudict",
+"grapheme": "rip"
+},
+{
+"w": "hid",
+"ipa": "hˈɪd",
+"keys": [
+"w:hid",
+"ipa:hˈɪd"
+],
+"current_text": "Say: hid.",
+"current_cut": "last",
+"current_say": "hid",
+"kind": "real",
+"arpa": "HH IH1 D",
+"arpa_source": "cmudict",
+"grapheme": "hid"
+},
+{
+"w": "rup",
+"ipa": "ɹˈʌp",
+"keys": [
+"w:rup",
+"ipa:ɹˈʌp"
+],
+"current_text": "Say: rup.",
+"current_cut": "last",
+"current_say": "rup",
+"kind": "pseudo",
+"arpa": "R AH1 P",
+"arpa_source": "course IPA",
+"grapheme": "rup"
+},
+{
+"w": "hac",
+"ipa": "hˈæk",
+"keys": [
+"w:hac",
+"ipa:hˈæk"
+],
+"current_text": "Say: hack.",
+"current_cut": "last",
+"current_say": "hack",
+"kind": "pseudo",
+"arpa": "HH AE1 K",
+"arpa_source": "course IPA",
+"grapheme": "hac"
+},
+{
+"w": "gir",
+"ipa": "ɡˈɪɹ",
+"keys": [
+"w:gir",
+"ipa:ɡˈɪɹ"
+],
+"current_text": "Say: gir.",
+"current_cut": "last",
+"current_say": "gir",
+"kind": "pseudo",
+"arpa": "G IH1 R",
+"arpa_source": "course IPA",
+"grapheme": "gir"
+},
+{
+"w": "kur",
+"ipa": "kˈʌɹ",
+"keys": [
+"w:kur",
+"ipa:kˈʌɹ"
+],
+"current_text": "Say: kur.",
+"current_cut": "last",
+"current_say": "kur",
+"kind": "pseudo",
+"arpa": "K AH1 R",
+"arpa_source": "course IPA",
+"grapheme": "kur"
+},
+{
+"w": "dor",
+"ipa": "dˈɑɹ",
+"keys": [
+"w:dor",
+"ipa:dˈɑɹ"
+],
+"current_text": "Say: dor.",
+"current_cut": "last",
+"current_say": "dor",
+"kind": "pseudo",
+"arpa": "D AA1 R",
+"arpa_source": "course IPA",
+"grapheme": "dor"
+},
+{
+"w": "mom",
+"ipa": "mˈɑm",
+"keys": [
+"w:mom",
+"ipa:mˈɑm"
+],
+"current_text": "Say: mom.",
+"current_cut": "last",
+"current_say": "mom",
+"kind": "real",
+"arpa": "M AA1 M",
+"arpa_source": "cmudict",
+"grapheme": "mom"
+},
+{
+"w": "hot",
+"ipa": "hˈɑt",
+"keys": [
+"w:hot",
+"ipa:hˈɑt"
+],
+"current_text": "Say: hot.",
+"current_cut": "last",
+"current_say": "hot",
+"kind": "real",
+"arpa": "HH AA1 T",
+"arpa_source": "cmudict",
+"grapheme": "hot"
+},
+{
+"w": "me",
+"ipa": "mˈi",
+"keys": [
+"w:me",
+"ipa:mˈi"
+],
+"current_text": "Say: me.",
+"current_cut": "last",
+"current_say": "me",
+"kind": "real",
+"arpa": "M IY1",
+"arpa_source": "cmudict",
+"grapheme": "me"
+},
+{
+"w": "be",
+"ipa": "bˈi",
+"keys": [
+"w:be",
+"ipa:bˈi"
+],
+"current_text": "Say: be.",
+"current_cut": "last",
+"current_say": "be",
+"kind": "real",
+"arpa": "B IY1",
+"arpa_source": "cmudict",
+"grapheme": "be"
+},
+{
+"w": "bat",
+"ipa": "bˈæt",
+"keys": [
+"w:bat",
+"ipa:bˈæt"
+],
+"current_text": "Say: bat.",
+"current_cut": "last",
+"current_say": "bat",
+"kind": "real",
+"arpa": "B AE1 T",
+"arpa_source": "cmudict",
+"grapheme": "bat"
+},
+{
+"w": "big",
+"ipa": "bˈɪɡ",
+"keys": [
+"w:big",
+"ipa:bˈɪɡ"
+],
+"current_text": "Say: big.",
+"current_cut": "last",
+"current_say": "big",
+"kind": "real",
+"arpa": "B IH1 G",
+"arpa_source": "cmudict",
+"grapheme": "big"
+},
+{
+"w": "bit",
+"ipa": "bˈɪt",
+"keys": [
+"w:bit",
+"ipa:bˈɪt"
+],
+"current_text": "Say: bit.",
+"current_cut": "last",
+"current_say": "bit",
+"kind": "real",
+"arpa": "B IH1 T",
+"arpa_source": "cmudict",
+"grapheme": "bit"
+},
+{
+"w": "bag",
+"ipa": "bˈæɡ",
+"keys": [
+"w:bag",
+"ipa:bˈæɡ"
+],
+"current_text": "Say: bag.",
+"current_cut": "last",
+"current_say": "bag",
+"kind": "real",
+"arpa": "B AE1 G",
+"arpa_source": "cmudict",
+"grapheme": "bag"
+},
+{
+"w": "bed",
+"ipa": "bˈɛd",
+"keys": [
+"w:bed",
+"ipa:bˈɛd"
+],
+"current_text": "Say: bed.",
+"current_cut": "last",
+"current_say": "bed",
+"kind": "real",
+"arpa": "B EH1 D",
+"arpa_source": "cmudict",
+"grapheme": "bed"
+},
+{
+"w": "fan",
+"ipa": "fˈæn",
+"keys": [
+"w:fan",
+"ipa:fˈæn"
+],
+"current_text": "Say: fan.",
+"current_cut": "last",
+"current_say": "fan",
+"kind": "real",
+"arpa": "F AE1 N",
+"arpa_source": "cmudict",
+"grapheme": "fan"
+},
+{
+"w": "fat",
+"ipa": "fˈæt",
+"keys": [
+"w:fat",
+"ipa:fˈæt"
+],
+"current_text": "Say: fat.",
+"current_cut": "last",
+"current_say": "fat",
+"kind": "real",
+"arpa": "F AE1 T",
+"arpa_source": "cmudict",
+"grapheme": "fat"
+},
+{
+"w": "fig",
+"ipa": "fˈɪɡ",
+"keys": [
+"w:fig",
+"ipa:fˈɪɡ"
+],
+"current_text": "Say: fig.",
+"current_cut": "last",
+"current_say": "fig",
+"kind": "real",
+"arpa": "F IH1 G",
+"arpa_source": "cmudict",
+"grapheme": "fig"
+},
+{
+"w": "fun",
+"ipa": "fˈʌn",
+"keys": [
+"w:fun",
+"ipa:fˈʌn"
+],
+"current_text": "Say: fun.",
+"current_cut": "last",
+"current_say": "fun",
+"kind": "real",
+"arpa": "F AH1 N",
+"arpa_source": "cmudict",
+"grapheme": "fun"
+},
+{
+"w": "fog",
+"ipa": "fˈɑɡ",
+"keys": [
+"w:fog",
+"ipa:fˈɑɡ"
+],
+"current_text": "Say: fog.",
+"current_cut": "last",
+"current_say": "fog",
+"kind": "real",
+"arpa": "F AA1 G",
+"arpa_source": "cmudict",
+"grapheme": "fog"
+},
+{
+"w": "leg",
+"ipa": "lˈɛɡ",
+"keys": [
+"w:leg",
+"ipa:lˈɛɡ"
+],
+"current_text": "Say: leg.",
+"current_cut": "last",
+"current_say": "leg",
+"kind": "real",
+"arpa": "L EH1 G",
+"arpa_source": "cmudict",
+"grapheme": "leg"
+},
+{
+"w": "lap",
+"ipa": "lˈæp",
+"keys": [
+"w:lap",
+"ipa:lˈæp"
+],
+"current_text": "Say: lap.",
+"current_cut": "last",
+"current_say": "lap",
+"kind": "real",
+"arpa": "L AE1 P",
+"arpa_source": "cmudict",
+"grapheme": "lap"
+},
+{
+"w": "lip",
+"ipa": "lˈɪp",
+"keys": [
+"w:lip",
+"ipa:lˈɪp"
+],
+"current_text": "Say: lip.",
+"current_cut": "last",
+"current_say": "lip",
+"kind": "real",
+"arpa": "L IH1 P",
+"arpa_source": "cmudict",
+"grapheme": "lip"
+},
+{
+"w": "let",
+"ipa": "lˈɛt",
+"keys": [
+"w:let",
+"ipa:lˈɛt"
+],
+"current_text": "Say: let.",
+"current_cut": "last",
+"current_say": "let",
+"kind": "real",
+"arpa": "L EH1 T",
+"arpa_source": "cmudict",
+"grapheme": "let"
+},
+{
+"w": "lid",
+"ipa": "lˈɪd",
+"keys": [
+"w:lid",
+"ipa:lˈɪd"
+],
+"current_text": "Say: lid.",
+"current_cut": "last",
+"current_say": "lid",
+"kind": "real",
+"arpa": "L IH1 D",
+"arpa_source": "cmudict",
+"grapheme": "lid"
+},
+{
+"w": "bud",
+"ipa": "bˈʌd",
+"keys": [
+"w:bud",
+"ipa:bˈʌd"
+],
+"current_text": "Say: bud.",
+"current_cut": "last",
+"current_say": "bud",
+"kind": "real",
+"arpa": "B AH1 D",
+"arpa_source": "cmudict",
+"grapheme": "bud"
+},
+{
+"w": "bun",
+"ipa": "bˈʌn",
+"keys": [
+"w:bun",
+"ipa:bˈʌn"
+],
+"current_text": "Say: bun.",
+"current_cut": "last",
+"current_say": "bun",
+"kind": "real",
+"arpa": "B AH1 N",
+"arpa_source": "cmudict",
+"grapheme": "bun"
+},
+{
+"w": "lock",
+"ipa": "lˈɑk",
+"keys": [
+"w:lock",
+"ipa:lˈɑk"
+],
+"current_text": "Say: lock.",
+"current_cut": "last",
+"current_say": "lock",
+"kind": "real",
+"arpa": "L AA1 K",
+"arpa_source": "cmudict",
+"grapheme": "lock"
+},
+{
+"w": "fon",
+"ipa": "fˈɑn",
+"keys": [
+"w:fon",
+"ipa:fˈɑn"
+],
+"current_text": "Say: fon.",
+"current_cut": "last",
+"current_say": "fon",
+"kind": "pseudo",
+"arpa": "F AA1 N",
+"arpa_source": "course IPA",
+"grapheme": "fon"
+},
+{
+"w": "lir",
+"ipa": "lˈɪɹ",
+"keys": [
+"w:lir",
+"ipa:lˈɪɹ"
+],
+"current_text": "Say: lir.",
+"current_cut": "last",
+"current_say": "lir",
+"kind": "pseudo",
+"arpa": "L IH1 R",
+"arpa_source": "course IPA",
+"grapheme": "lir"
+},
+{
+"w": "bof",
+"ipa": "bˈɑf",
+"keys": [
+"w:bof",
+"ipa:bˈɑf"
+],
+"current_text": "Say: bof.",
+"current_cut": "last",
+"current_say": "bof",
+"kind": "pseudo",
+"arpa": "B AA1 F",
+"arpa_source": "course IPA",
+"grapheme": "bof"
+},
+{
+"w": "lut",
+"ipa": "lˈʌt",
+"keys": [
+"w:lut",
+"ipa:lˈʌt"
+],
+"current_text": "Say: lut.",
+"current_cut": "last",
+"current_say": "lut",
+"kind": "pseudo",
+"arpa": "L AH1 T",
+"arpa_source": "course IPA",
+"grapheme": "lut"
+},
+{
+"w": "fim",
+"ipa": "fˈɪm",
+"keys": [
+"w:fim",
+"ipa:fˈɪm"
+],
+"current_text": "Say: fim.",
+"current_cut": "last",
+"current_say": "fim",
+"kind": "pseudo",
+"arpa": "F IH1 M",
+"arpa_source": "course IPA",
+"grapheme": "fim"
+},
+{
+"w": "bug",
+"ipa": "bˈʌɡ",
+"keys": [
+"w:bug",
+"ipa:bˈʌɡ"
+],
+"current_text": "Say: bug.",
+"current_cut": "last",
+"current_say": "bug",
+"kind": "real",
+"arpa": "B AH1 G",
+"arpa_source": "cmudict",
+"grapheme": "bug"
+},
+{
+"w": "do",
+"ipa": "dˈu",
+"keys": [
+"w:do",
+"ipa:dˈu"
+],
+"current_text": "Say: do.",
+"current_cut": "last",
+"current_say": "do",
+"kind": "real",
+"arpa": "D UW1",
+"arpa_source": "cmudict",
+"grapheme": "do"
+},
+{
+"w": "what",
+"ipa": "wˈʌt",
+"keys": [
+"w:what",
+"ipa:wˈʌt"
+],
+"current_text": "Say: what.",
+"current_cut": "last",
+"current_say": "what",
+"kind": "real",
+"arpa": "W AH1 T",
+"arpa_source": "cmudict",
+"grapheme": "what"
+},
+{
+"w": "doll",
+"ipa": "dˈɑl",
+"keys": [
+"w:doll",
+"ipa:dˈɑl"
+],
+"current_text": "Say: doll.",
+"current_cut": "last",
+"current_say": "doll",
+"kind": "real",
+"arpa": "D AA1 L",
+"arpa_source": "cmudict",
+"grapheme": "doll"
+},
+{
+"w": "bell",
+"ipa": "bˈɛl",
+"keys": [
+"w:bell",
+"ipa:bˈɛl"
+],
+"current_text": "Say: bell.",
+"current_cut": "last",
+"current_say": "bell",
+"kind": "real",
+"arpa": "B EH1 L",
+"arpa_source": "cmudict",
+"grapheme": "bell"
+},
+{
+"w": "fell",
+"ipa": "fˈɛl",
+"keys": [
+"w:fell",
+"ipa:fˈɛl"
+],
+"current_text": "Say: fell.",
+"current_cut": "last",
+"current_say": "fell",
+"kind": "real",
+"arpa": "F EH1 L",
+"arpa_source": "cmudict",
+"grapheme": "fell"
+},
+{
+"w": "tell",
+"ipa": "tˈɛl",
+"keys": [
+"w:tell",
+"ipa:tˈɛl"
+],
+"current_text": "Say: tell.",
+"current_cut": "last",
+"current_say": "tell",
+"kind": "real",
+"arpa": "T EH1 L",
+"arpa_source": "cmudict",
+"grapheme": "tell"
+},
+{
+"w": "sell",
+"ipa": "sˈɛl",
+"keys": [
+"w:sell",
+"ipa:sˈɛl"
+],
+"current_text": "Say: sell.",
+"current_cut": "last",
+"current_say": "sell",
+"kind": "real",
+"arpa": "S EH1 L",
+"arpa_source": "cmudict",
+"grapheme": "sell"
+},
+{
+"w": "tall",
+"ipa": "tˈæl",
+"keys": [
+"w:tall",
+"ipa:tˈæl"
+],
+"current_text": "Say: tall.",
+"current_cut": "last",
+"current_say": "tall",
+"kind": "real",
+"arpa": "T AO1 L",
+"arpa_source": "cmudict",
+"grapheme": "tall"
+},
+{
+"w": "hill",
+"ipa": "hˈɪl",
+"keys": [
+"w:hill",
+"ipa:hˈɪl"
+],
+"current_text": "Say: hill.",
+"current_cut": "last",
+"current_say": "hill",
+"kind": "real",
+"arpa": "HH IH1 L",
+"arpa_source": "cmudict",
+"grapheme": "hill"
+},
+{
+"w": "bill",
+"ipa": "bˈɪl",
+"keys": [
+"w:bill",
+"ipa:bˈɪl"
+],
+"current_text": "Say: bill.",
+"current_cut": "last",
+"current_say": "bill",
+"kind": "real",
+"arpa": "B IH1 L",
+"arpa_source": "cmudict",
+"grapheme": "bill"
+},
+{
+"w": "fill",
+"ipa": "fˈɪl",
+"keys": [
+"w:fill",
+"ipa:fˈɪl"
+],
+"current_text": "Say: fill.",
+"current_cut": "last",
+"current_say": "fill",
+"kind": "real",
+"arpa": "F IH1 L",
+"arpa_source": "cmudict",
+"grapheme": "fill"
+},
+{
+"w": "mill",
+"ipa": "mˈɪl",
+"keys": [
+"w:mill",
+"ipa:mˈɪl"
+],
+"current_text": "Say: mill.",
+"current_cut": "last",
+"current_say": "mill",
+"kind": "real",
+"arpa": "M IH1 L",
+"arpa_source": "cmudict",
+"grapheme": "mill"
+},
+{
+"w": "kiss",
+"ipa": "kˈɪs",
+"keys": [
+"w:kiss",
+"ipa:kˈɪs"
+],
+"current_text": "Say: kiss.",
+"current_cut": "last",
+"current_say": "kiss",
+"kind": "real",
+"arpa": "K IH1 S",
+"arpa_source": "cmudict",
+"grapheme": "kiss"
+},
+{
+"w": "buzz",
+"ipa": "bˈʌz",
+"keys": [
+"w:buzz",
+"ipa:bˈʌz"
+],
+"current_text": "Say: buzz.",
+"current_cut": "last",
+"current_say": "buzz",
+"kind": "real",
+"arpa": "B AH1 Z",
+"arpa_source": "cmudict",
+"grapheme": "buzz"
+},
+{
+"w": "cats",
+"ipa": "kˈæts",
+"keys": [
+"w:cats",
+"ipa:kˈæts"
+],
+"current_text": "Say: cats.",
+"current_cut": "last",
+"current_say": "cats",
+"kind": "real",
+"arpa": "K AE1 T S",
+"arpa_source": "cmudict",
+"grapheme": "cats"
+},
+{
+"w": "bugs",
+"ipa": "bˈʌɡz",
+"keys": [
+"w:bugs",
+"ipa:bˈʌɡz"
+],
+"current_text": "Say: bugs.",
+"current_cut": "last",
+"current_say": "bugs",
+"kind": "real",
+"arpa": "B AH1 G Z",
+"arpa_source": "cmudict",
+"grapheme": "bugs"
+},
+{
+"w": "hats",
+"ipa": "hˈæts",
+"keys": [
+"w:hats",
+"ipa:hˈæts"
+],
+"current_text": "Say: hats.",
+"current_cut": "last",
+"current_say": "hats",
+"kind": "real",
+"arpa": "HH AE1 T S",
+"arpa_source": "cmudict",
+"grapheme": "hats"
+},
+{
+"w": "lodd",
+"ipa": "lˈɑdd",
+"keys": [
+"w:lodd",
+"ipa:lˈɑdd"
+],
+"current_text": "Say: lod.",
+"current_cut": "last",
+"current_say": "lod",
+"kind": "pseudo",
+"arpa": "L AA1 D D",
+"arpa_source": "course IPA",
+"grapheme": "lodd"
+},
+{
+"w": "fess",
+"ipa": "fˈɛs",
+"keys": [
+"w:fess",
+"ipa:fˈɛs"
+],
+"current_text": "Say: fess.",
+"current_cut": "last",
+"current_say": "fess",
+"kind": "pseudo",
+"arpa": "F EH1 S",
+"arpa_source": "course IPA",
+"grapheme": "fess"
+},
+{
+"w": "nuzz",
+"ipa": "nˈʌz",
+"keys": [
+"w:nuzz",
+"ipa:nˈʌz"
+],
+"current_text": "Say: nuzz.",
+"current_cut": "last",
+"current_say": "nuzz",
+"kind": "pseudo",
+"arpa": "N AH1 Z",
+"arpa_source": "course IPA",
+"grapheme": "nuzz"
+},
+{
+"w": "hiff",
+"ipa": "hˈɪf",
+"keys": [
+"w:hiff",
+"ipa:hˈɪf"
+],
+"current_text": "Say: hiff.",
+"current_cut": "last",
+"current_say": "hiff",
+"kind": "pseudo",
+"arpa": "HH IH1 F",
+"arpa_source": "course IPA",
+"grapheme": "hiff"
+},
+{
+"w": "tull",
+"ipa": "tˈʌl",
+"keys": [
+"w:tull",
+"ipa:tˈʌl"
+],
+"current_text": "Say: tull.",
+"current_cut": "last",
+"current_say": "tull",
+"kind": "pseudo",
+"arpa": "T AH1 L",
+"arpa_source": "course IPA",
+"grapheme": "tull"
+},
+{
+"w": "bells",
+"ipa": "bˈɛlz",
+"keys": [
+"w:bells",
+"ipa:bˈɛlz"
+],
+"current_text": "Say: bells.",
+"current_cut": "last",
+"current_say": "bells",
+"kind": "real",
+"arpa": "B EH1 L Z",
+"arpa_source": "cmudict",
+"grapheme": "bells"
+},
+{
+"w": "sits",
+"ipa": "sˈɪts",
+"keys": [
+"w:sits",
+"ipa:sˈɪts"
+],
+"current_text": "Say: sits.",
+"current_cut": "last",
+"current_say": "sits",
+"kind": "real",
+"arpa": "S IH1 T S",
+"arpa_source": "cmudict",
+"grapheme": "sits"
+},
+{
+"w": "pats",
+"ipa": "pˈæts",
+"keys": [
+"w:pats",
+"ipa:pˈæts"
+],
+"current_text": "Say: pats.",
+"current_cut": "last",
+"current_say": "pats",
+"kind": "real",
+"arpa": "P AE1 T S",
+"arpa_source": "cmudict",
+"grapheme": "pats"
+},
+{
+"w": "hugs",
+"ipa": "hˈʌɡz",
+"keys": [
+"w:hugs",
+"ipa:hˈʌɡz"
+],
+"current_text": "Say: hugs.",
+"current_cut": "last",
+"current_say": "hugs",
+"kind": "real",
+"arpa": "HH AH1 G Z",
+"arpa_source": "cmudict",
+"grapheme": "hugs"
+},
+{
+"w": "hit",
+"ipa": "hˈɪt",
+"keys": [
+"w:hit",
+"ipa:hˈɪt"
+],
+"current_text": "Say: hit.",
+"current_cut": "last",
+"current_say": "hit",
+"kind": "real",
+"arpa": "HH IH1 T",
+"arpa_source": "cmudict",
+"grapheme": "hit"
+},
+{
+"w": "sells",
+"ipa": "sˈɛlz",
+"keys": [
+"w:sells",
+"ipa:sˈɛlz"
+],
+"current_text": "Say: sells.",
+"current_cut": "last",
+"current_say": "sells",
+"kind": "real",
+"arpa": "S EH1 L Z",
+"arpa_source": "cmudict",
+"grapheme": "sells"
+},
+{
+"w": "dolls",
+"ipa": "dˈɑlz",
+"keys": [
+"w:dolls",
+"ipa:dˈɑlz"
+],
+"current_text": "Say: dolls.",
+"current_cut": "last",
+"current_say": "dolls",
+"kind": "real",
+"arpa": "D AA1 L Z",
+"arpa_source": "cmudict",
+"grapheme": "dolls"
+},
+{
+"w": "fills",
+"ipa": "fˈɪlz",
+"keys": [
+"w:fills",
+"ipa:fˈɪlz"
+],
+"current_text": "Say: fills.",
+"current_cut": "last",
+"current_say": "fills",
+"kind": "real",
+"arpa": "F IH1 L Z",
+"arpa_source": "cmudict",
+"grapheme": "fills"
+},
+{
+"w": "tells",
+"ipa": "tˈɛlz",
+"keys": [
+"w:tells",
+"ipa:tˈɛlz"
+],
+"current_text": "Say: tells.",
+"current_cut": "last",
+"current_say": "tells",
+"kind": "real",
+"arpa": "T EH1 L Z",
+"arpa_source": "cmudict",
+"grapheme": "tells"
+},
+{
+"w": "full",
+"ipa": "fˈʌl",
+"keys": [
+"w:full",
+"ipa:fˈʌl"
+],
+"current_text": "Say: full.",
+"current_cut": "last",
+"current_say": "full",
+"kind": "real",
+"arpa": "F UH1 L",
+"arpa_source": "cmudict",
+"grapheme": "full"
+},
+{
+"w": "they",
+"ipa": "ðˈeɪ",
+"keys": [
+"w:they",
+"ipa:ðˈeɪ"
+],
+"current_text": "Say: they.",
+"current_cut": "last",
+"current_say": "they",
+"kind": "real",
+"arpa": "DH EY1",
+"arpa_source": "cmudict",
+"grapheme": "they"
+},
+{
+"w": "one",
+"ipa": "wˈʌn",
+"keys": [
+"w:one",
+"ipa:wˈʌn"
+],
+"current_text": "Say: one.",
+"current_cut": "last",
+"current_say": "one",
+"kind": "real",
+"arpa": "W AH1 N",
+"arpa_source": "cmudict",
+"grapheme": "one"
+},
+{
+"w": "jam",
+"ipa": "ʤˈæm",
+"keys": [
+"w:jam",
+"ipa:ʤˈæm"
+],
+"current_text": "Say: jam.",
+"current_cut": "last",
+"current_say": "jam",
+"kind": "real",
+"arpa": "JH AE1 M",
+"arpa_source": "cmudict",
+"grapheme": "jam"
+},
+{
+"w": "jog",
+"ipa": "ʤˈɑɡ",
+"keys": [
+"w:jog",
+"ipa:ʤˈɑɡ"
+],
+"current_text": "Say: jog.",
+"current_cut": "last",
+"current_say": "jog",
+"kind": "real",
+"arpa": "JH AA1 G",
+"arpa_source": "cmudict",
+"grapheme": "jog"
+},
+{
+"w": "jet",
+"ipa": "ʤˈɛt",
+"keys": [
+"w:jet",
+"ipa:ʤˈɛt"
+],
+"current_text": "Say: jet.",
+"current_cut": "last",
+"current_say": "jet",
+"kind": "real",
+"arpa": "JH EH1 T",
+"arpa_source": "cmudict",
+"grapheme": "jet"
+},
+{
+"w": "job",
+"ipa": "ʤˈɑb",
+"keys": [
+"w:job",
+"ipa:ʤˈɑb"
+],
+"current_text": "Say: job.",
+"current_cut": "last",
+"current_say": "job",
+"kind": "real",
+"arpa": "JH AA1 B",
+"arpa_source": "cmudict",
+"grapheme": "job"
+},
+{
+"w": "jab",
+"ipa": "ʤˈæb",
+"keys": [
+"w:jab",
+"ipa:ʤˈæb"
+],
+"current_text": "Say: jab.",
+"current_cut": "last",
+"current_say": "jab",
+"kind": "real",
+"arpa": "JH AE1 B",
+"arpa_source": "cmudict",
+"grapheme": "jab"
+},
+{
+"w": "van",
+"ipa": "vˈæn",
+"keys": [
+"w:van",
+"ipa:vˈæn"
+],
+"current_text": "Say: van.",
+"current_cut": "last",
+"current_say": "van",
+"kind": "real",
+"arpa": "V AE1 N",
+"arpa_source": "cmudict",
+"grapheme": "van"
+},
+{
+"w": "vet",
+"ipa": "vˈɛt",
+"keys": [
+"w:vet",
+"ipa:vˈɛt"
+],
+"current_text": "Say: vet.",
+"current_cut": "last",
+"current_say": "vet",
+"kind": "real",
+"arpa": "V EH1 T",
+"arpa_source": "cmudict",
+"grapheme": "vet"
+},
+{
+"w": "vat",
+"ipa": "vˈæt",
+"keys": [
+"w:vat",
+"ipa:vˈæt"
+],
+"current_text": "Say: vat.",
+"current_cut": "last",
+"current_say": "vat",
+"kind": "real",
+"arpa": "V AE1 T",
+"arpa_source": "cmudict",
+"grapheme": "vat"
+},
+{
+"w": "wag",
+"ipa": "wˈæɡ",
+"keys": [
+"w:wag",
+"ipa:wˈæɡ"
+],
+"current_text": "Say: wag.",
+"current_cut": "last",
+"current_say": "wag",
+"kind": "real",
+"arpa": "W AE1 G",
+"arpa_source": "cmudict",
+"grapheme": "wag"
+},
+{
+"w": "wig",
+"ipa": "wˈɪɡ",
+"keys": [
+"w:wig",
+"ipa:wˈɪɡ"
+],
+"current_text": "Say: wig.",
+"current_cut": "last",
+"current_say": "wig",
+"kind": "real",
+"arpa": "W IH1 G",
+"arpa_source": "cmudict",
+"grapheme": "wig"
+},
+{
+"w": "wet",
+"ipa": "wˈɛt",
+"keys": [
+"w:wet",
+"ipa:wˈɛt"
+],
+"current_text": "Say: wet.",
+"current_cut": "last",
+"current_say": "wet",
+"kind": "real",
+"arpa": "W EH1 T",
+"arpa_source": "cmudict",
+"grapheme": "wet"
+},
+{
+"w": "win",
+"ipa": "wˈɪn",
+"keys": [
+"w:win",
+"ipa:wˈɪn"
+],
+"current_text": "Say: win.",
+"current_cut": "last",
+"current_say": "win",
+"kind": "real",
+"arpa": "W IH1 N",
+"arpa_source": "cmudict",
+"grapheme": "win"
+},
+{
+"w": "web",
+"ipa": "wˈɛb",
+"keys": [
+"w:web",
+"ipa:wˈɛb"
+],
+"current_text": "Say: web.",
+"current_cut": "last",
+"current_say": "web",
+"kind": "real",
+"arpa": "W EH1 B",
+"arpa_source": "cmudict",
+"grapheme": "web"
+},
+{
+"w": "well",
+"ipa": "wˈɛl",
+"keys": [
+"w:well",
+"ipa:wˈɛl"
+],
+"current_text": "Say: well.",
+"current_cut": "last",
+"current_say": "well",
+"kind": "real",
+"arpa": "W EH1 L",
+"arpa_source": "cmudict",
+"grapheme": "well"
+},
+{
+"w": "jot",
+"ipa": "ʤˈɑt",
+"keys": [
+"w:jot",
+"ipa:ʤˈɑt"
+],
+"current_text": "Say: jot.",
+"current_cut": "last",
+"current_say": "jot",
+"kind": "real",
+"arpa": "JH AA1 T",
+"arpa_source": "cmudict",
+"grapheme": "jot"
+},
+{
+"w": "jov",
+"ipa": "ʤˈɑv",
+"keys": [
+"w:jov",
+"ipa:ʤˈɑv"
+],
+"current_text": "Say: jov.",
+"current_cut": "last",
+"current_say": "jov",
+"kind": "pseudo",
+"arpa": "JH AA1 V",
+"arpa_source": "course IPA",
+"grapheme": "jov"
+},
+{
+"w": "wab",
+"ipa": "wˈæb",
+"keys": [
+"w:wab",
+"ipa:wˈæb"
+],
+"current_text": "Say: wab.",
+"current_cut": "last",
+"current_say": "wab",
+"kind": "pseudo",
+"arpa": "W AE1 B",
+"arpa_source": "course IPA",
+"grapheme": "wab"
+},
+{
+"w": "vob",
+"ipa": "vˈɑb",
+"keys": [
+"w:vob",
+"ipa:vˈɑb"
+],
+"current_text": "Say: vob.",
+"current_cut": "last",
+"current_say": "vob",
+"kind": "pseudo",
+"arpa": "V AA1 B",
+"arpa_source": "course IPA",
+"grapheme": "vob"
+},
+{
+"w": "jum",
+"ipa": "ʤˈʌm",
+"keys": [
+"w:jum",
+"ipa:ʤˈʌm"
+],
+"current_text": "Say: jum.",
+"current_cut": "last",
+"current_say": "jum",
+"kind": "pseudo",
+"arpa": "JH AH1 M",
+"arpa_source": "course IPA",
+"grapheme": "jum"
+},
+{
+"w": "wov",
+"ipa": "wˈɑv",
+"keys": [
+"w:wov",
+"ipa:wˈɑv"
+],
+"current_text": "Say: wov.",
+"current_cut": "last",
+"current_say": "wov",
+"kind": "pseudo",
+"arpa": "W AA1 V",
+"arpa_source": "course IPA",
+"grapheme": "wov"
+},
+{
+"w": "had",
+"ipa": "hˈæd",
+"keys": [
+"w:had",
+"ipa:hˈæd"
+],
+"current_text": "Say: had.",
+"current_cut": "last",
+"current_say": "had",
+"kind": "real",
+"arpa": "HH AE1 D",
+"arpa_source": "cmudict",
+"grapheme": "had"
+},
+{
+"w": "have",
+"ipa": "hˈæv",
+"keys": [
+"w:have",
+"ipa:hˈæv"
+],
+"current_text": "Say: have.",
+"current_cut": "last",
+"current_say": "have",
+"kind": "real",
+"arpa": "HH AE1 V",
+"arpa_source": "cmudict",
+"grapheme": "have"
+},
+{
+"w": "go",
+"ipa": "ɡˈoʊ",
+"keys": [
+"w:go",
+"ipa:ɡˈoʊ"
+],
+"current_text": "Say: go.",
+"current_cut": "last",
+"current_say": "go",
+"kind": "real",
+"arpa": "G OW1",
+"arpa_source": "cmudict",
+"grapheme": "go"
+},
+{
+"w": "box",
+"ipa": "bˈɑks",
+"keys": [
+"w:box",
+"ipa:bˈɑks"
+],
+"current_text": "Say: box.",
+"current_cut": "last",
+"current_say": "box",
+"kind": "real",
+"arpa": "B AA1 K S",
+"arpa_source": "cmudict",
+"grapheme": "box"
+},
+{
+"w": "fox",
+"ipa": "fˈɑks",
+"keys": [
+"w:fox",
+"ipa:fˈɑks"
+],
+"current_text": "Say: fox.",
+"current_cut": "last",
+"current_say": "fox",
+"kind": "real",
+"arpa": "F AA1 K S",
+"arpa_source": "cmudict",
+"grapheme": "fox"
+},
+{
+"w": "fix",
+"ipa": "fˈɪks",
+"keys": [
+"w:fix",
+"ipa:fˈɪks"
+],
+"current_text": "Say: fix.",
+"current_cut": "last",
+"current_say": "fix",
+"kind": "real",
+"arpa": "F IH1 K S",
+"arpa_source": "cmudict",
+"grapheme": "fix"
+},
+{
+"w": "mix",
+"ipa": "mˈɪks",
+"keys": [
+"w:mix",
+"ipa:mˈɪks"
+],
+"current_text": "Say: mix.",
+"current_cut": "last",
+"current_say": "mix",
+"kind": "real",
+"arpa": "M IH1 K S",
+"arpa_source": "cmudict",
+"grapheme": "mix"
+},
+{
+"w": "six",
+"ipa": "sˈɪks",
+"keys": [
+"w:six",
+"ipa:sˈɪks"
+],
+"current_text": "Say: six.",
+"current_cut": "last",
+"current_say": "six",
+"kind": "real",
+"arpa": "S IH1 K S",
+"arpa_source": "cmudict",
+"grapheme": "six"
+},
+{
+"w": "chunk",
+"ipa": "khˈʌnk",
+"keys": [
+"w:chunk",
+"ipa:khˈʌnk"
+],
+"current_text": "Say: chunk.",
+"current_cut": "last",
+"current_say": "chunk",
+"kind": "real",
+"arpa": "CH AH1 NG K",
+"arpa_source": "cmudict",
+"grapheme": "chunk"
+},
+{
+"w": "yes",
+"ipa": "jˈɛs",
+"keys": [
+"w:yes",
+"ipa:jˈɛs"
+],
+"current_text": "Say: yes.",
+"current_cut": "last",
+"current_say": "yes",
+"kind": "real",
+"arpa": "Y EH1 S",
+"arpa_source": "cmudict",
+"grapheme": "yes"
+},
+{
+"w": "yak",
+"ipa": "jˈæk",
+"keys": [
+"w:yak",
+"ipa:jˈæk"
+],
+"current_text": "Say: yak.",
+"current_cut": "last",
+"current_say": "yak",
+"kind": "real",
+"arpa": "Y AE1 K",
+"arpa_source": "cmudict",
+"grapheme": "yak"
+},
+{
+"w": "yum",
+"ipa": "jˈʌm",
+"keys": [
+"w:yum",
+"ipa:jˈʌm"
+],
+"current_text": "Say: yum.",
+"current_cut": "last",
+"current_say": "yum",
+"kind": "real",
+"arpa": "Y AH1 M",
+"arpa_source": "cmudict",
+"grapheme": "yum"
+},
+{
+"w": "zip",
+"ipa": "zˈɪp",
+"keys": [
+"w:zip",
+"ipa:zˈɪp"
+],
+"current_text": "Say: zip.",
+"current_cut": "last",
+"current_say": "zip",
+"kind": "real",
+"arpa": "Z IH1 P",
+"arpa_source": "cmudict",
+"grapheme": "zip"
+},
+{
+"w": "zap",
+"ipa": "zˈæp",
+"keys": [
+"w:zap",
+"ipa:zˈæp"
+],
+"current_text": "Say: zap.",
+"current_cut": "last",
+"current_say": "zap",
+"kind": "real",
+"arpa": "Z AE1 P",
+"arpa_source": "cmudict",
+"grapheme": "zap"
+},
+{
+"w": "quiz",
+"ipa": "kwˈɪz",
+"keys": [
+"w:quiz",
+"ipa:kwˈɪz"
+],
+"current_text": "Say: quiz.",
+"current_cut": "last",
+"current_say": "quiz",
+"kind": "real",
+"arpa": "K W IH1 Z",
+"arpa_source": "cmudict",
+"grapheme": "quiz"
+},
+{
+"w": "quit",
+"ipa": "kwˈɪt",
+"keys": [
+"w:quit",
+"ipa:kwˈɪt"
+],
+"current_text": "Say: quit.",
+"current_cut": "last",
+"current_say": "quit",
+"kind": "real",
+"arpa": "K W IH1 T",
+"arpa_source": "cmudict",
+"grapheme": "quit"
+},
+{
+"w": "wax",
+"ipa": "wˈæks",
+"keys": [
+"w:wax",
+"ipa:wˈæks"
+],
+"current_text": "Say: wax.",
+"current_cut": "last",
+"current_say": "wax",
+"kind": "real",
+"arpa": "W AE1 K S",
+"arpa_source": "cmudict",
+"grapheme": "wax"
+},
+{
+"w": "jazz",
+"ipa": "ʤˈæz",
+"keys": [
+"w:jazz",
+"ipa:ʤˈæz"
+],
+"current_text": "Say: jazz.",
+"current_cut": "last",
+"current_say": "jazz",
+"kind": "real",
+"arpa": "JH AE1 Z",
+"arpa_source": "cmudict",
+"grapheme": "jazz"
+},
+{
+"w": "vex",
+"ipa": "vˈɛks",
+"keys": [
+"w:vex",
+"ipa:vˈɛks"
+],
+"current_text": "Say: vex.",
+"current_cut": "last",
+"current_say": "vex",
+"kind": "real",
+"arpa": "V EH1 K S",
+"arpa_source": "cmudict",
+"grapheme": "vex"
+},
+{
+"w": "fizz",
+"ipa": "fˈɪz",
+"keys": [
+"w:fizz",
+"ipa:fˈɪz"
+],
+"current_text": "Say: fizz.",
+"current_cut": "last",
+"current_say": "fizz",
+"kind": "real",
+"arpa": "F IH1 Z",
+"arpa_source": "cmudict",
+"grapheme": "fizz"
+},
+{
+"w": "zox",
+"ipa": "zˈɑks",
+"keys": [
+"w:zox",
+"ipa:zˈɑks"
+],
+"current_text": "Say: zox.",
+"current_cut": "last",
+"current_say": "zox",
+"kind": "pseudo",
+"arpa": "Z AA1 K S",
+"arpa_source": "course IPA",
+"grapheme": "zox"
+},
+{
+"w": "quab",
+"ipa": "kwˈæb",
+"keys": [
+"w:quab",
+"ipa:kwˈæb"
+],
+"current_text": "Say: quab.",
+"current_cut": "last",
+"current_say": "quab",
+"kind": "pseudo",
+"arpa": "K W AE1 B",
+"arpa_source": "course IPA",
+"grapheme": "quab"
+},
+{
+"w": "yig",
+"ipa": "jˈɪɡ",
+"keys": [
+"w:yig",
+"ipa:jˈɪɡ"
+],
+"current_text": "Say: yig.",
+"current_cut": "last",
+"current_say": "yig",
+"kind": "pseudo",
+"arpa": "Y IH1 G",
+"arpa_source": "course IPA",
+"grapheme": "yig"
+},
+{
+"w": "fex",
+"ipa": "fˈɛks",
+"keys": [
+"w:fex",
+"ipa:fˈɛks"
+],
+"current_text": "Say: fex.",
+"current_cut": "last",
+"current_say": "fex",
+"kind": "pseudo",
+"arpa": "F EH1 K S",
+"arpa_source": "course IPA",
+"grapheme": "fex"
+},
+{
+"w": "wux",
+"ipa": "wˈʌks",
+"keys": [
+"w:wux",
+"ipa:wˈʌks"
+],
+"current_text": "Say: wux.",
+"current_cut": "last",
+"current_say": "wux",
+"kind": "pseudo",
+"arpa": "W AH1 K S",
+"arpa_source": "course IPA",
+"grapheme": "wux"
+},
+{
+"w": "zag",
+"ipa": "zˈæɡ",
+"keys": [
+"w:zag",
+"ipa:zˈæɡ"
+],
+"current_text": "Say: zag.",
+"current_cut": "last",
+"current_say": "zag",
+"kind": "pseudo",
+"arpa": "Z AE1 G",
+"arpa_source": "course IPA",
+"grapheme": "zag"
+},
+{
+"w": "has",
+"ipa": "hˈæz",
+"keys": [
+"w:has",
+"ipa:hˈæz"
+],
+"current_text": "Say: has.",
+"current_cut": "last",
+"current_say": "has",
+"kind": "real",
+"arpa": "HH AE1 Z",
+"arpa_source": "cmudict",
+"grapheme": "has"
+},
+{
+"w": "naps",
+"ipa": "nˈæps",
+"keys": [
+"w:naps",
+"ipa:nˈæps"
+],
+"current_text": "Say: naps.",
+"current_cut": "last",
+"current_say": "naps",
+"kind": "real",
+"arpa": "N AE1 P S",
+"arpa_source": "cmudict",
+"grapheme": "naps"
+},
+{
+"w": "pups",
+"ipa": "pˈʌps",
+"keys": [
+"w:pups",
+"ipa:pˈʌps"
+],
+"current_text": "Say: pups.",
+"current_cut": "last",
+"current_say": "pups",
+"kind": "real",
+"arpa": "P AH1 P S",
+"arpa_source": "cmudict",
+"grapheme": "pups"
+},
+{
+"w": "quits",
+"ipa": "kwˈɪts",
+"keys": [
+"w:quits",
+"ipa:kwˈɪts"
+],
+"current_text": "Say: quits.",
+"current_cut": "last",
+"current_say": "quits",
+"kind": "real",
+"arpa": "K W IH1 T S",
+"arpa_source": "cmudict",
+"grapheme": "quits"
+},
+{
+"w": "no",
+"ipa": "nˈoʊ",
+"keys": [
+"w:no",
+"ipa:nˈoʊ"
+],
+"current_text": "Say: no.",
+"current_cut": "last",
+"current_say": "no",
+"kind": "real",
+"arpa": "N OW1",
+"arpa_source": "cmudict",
+"grapheme": "no"
+},
+{
+"w": "so",
+"ipa": "sˈoʊ",
+"keys": [
+"w:so",
+"ipa:sˈoʊ"
+],
+"current_text": "Say: so.",
+"current_cut": "last",
+"current_say": "so",
+"kind": "real",
+"arpa": "S OW1",
+"arpa_source": "cmudict",
+"grapheme": "so"
+},
+{
+"w": "dig",
+"ipa": "dˈɪɡ",
+"keys": [
+"w:dig",
+"ipa:dˈɪɡ"
+],
+"current_text": "Say: dig.",
+"current_cut": "last",
+"current_say": "dig",
+"kind": "real",
+"arpa": "D IH1 G",
+"arpa_source": "cmudict",
+"grapheme": "dig"
+},
+{
+"w": "pig",
+"ipa": "pˈɪɡ",
+"keys": [
+"w:pig",
+"ipa:pˈɪɡ"
+],
+"current_text": "Say: pig.",
+"current_cut": "last",
+"current_say": "pig",
+"kind": "real",
+"arpa": "P IH1 G",
+"arpa_source": "cmudict",
+"grapheme": "pig"
+},
+{
+"w": "mess",
+"ipa": "mˈɛs",
+"keys": [
+"w:mess",
+"ipa:mˈɛs"
+],
+"current_text": "Say: mess.",
+"current_cut": "last",
+"current_say": "mess",
+"kind": "real",
+"arpa": "M EH1 S",
+"arpa_source": "cmudict",
+"grapheme": "mess"
+},
+{
+"w": "dax",
+"ipa": "dˈæks",
+"keys": [
+"w:dax",
+"ipa:dˈæks"
+],
+"current_text": "Say: dax.",
+"current_cut": "last",
+"current_say": "dax",
+"kind": "pseudo",
+"arpa": "D AE1 K S",
+"arpa_source": "course IPA",
+"grapheme": "dax"
+},
+{
+"w": "zeb",
+"ipa": "zˈɛb",
+"keys": [
+"w:zeb",
+"ipa:zˈɛb"
+],
+"current_text": "Say: zeb.",
+"current_cut": "last",
+"current_say": "zeb",
+"kind": "pseudo",
+"arpa": "Z EH1 B",
+"arpa_source": "course IPA",
+"grapheme": "zeb"
+},
+{
+"w": "wuk",
+"ipa": "wˈʌk",
+"keys": [
+"w:wuk",
+"ipa:wˈʌk"
+],
+"current_text": "Say: wuk.",
+"current_cut": "last",
+"current_say": "wuk",
+"kind": "pseudo",
+"arpa": "W AH1 K",
+"arpa_source": "course IPA",
+"grapheme": "wuk"
+},
+{
+"w": "tio",
+"ipa": "tˈɪɑ",
+"keys": [
+"w:tio",
+"ipa:tˈɪɑ"
+],
+"current_text": "Say: tio.",
+"current_cut": "last",
+"current_say": "tio",
+"kind": "pseudo",
+"arpa": "T IH1 AA0",
+"arpa_source": "course IPA",
+"grapheme": "tio"
+},
+{
+"w": "bob",
+"ipa": "bˈɑb",
+"keys": [
+"w:bob",
+"ipa:bˈɑb"
+],
+"current_text": "Say: bob.",
+"current_cut": "last",
+"current_say": "bob",
+"kind": "real",
+"arpa": "B AA1 B",
+"arpa_source": "cmudict",
+"grapheme": "bob"
+},
+{
+"w": "did",
+"ipa": "dˈɪd",
+"keys": [
+"w:did",
+"ipa:dˈɪd"
+],
+"current_text": "Say: did.",
+"current_cut": "last",
+"current_say": "did",
+"kind": "real",
+"arpa": "D IH1 D",
+"arpa_source": "cmudict",
+"grapheme": "did"
+},
+{
+"w": "b",
+"ipa": "b",
+"keys": [
+"w:b",
+"ipa:b"
+],
+"current_text": "Say: b.",
+"current_cut": "last",
+"current_say": "b",
+"kind": "real",
+"arpa": "B IY1",
+"arpa_source": "cmudict",
+"grapheme": "b"
+},
+{
+"w": "d",
+"ipa": "d",
+"keys": [
+"w:d",
+"ipa:d"
+],
+"current_text": "Say: d.",
+"current_cut": "last",
+"current_say": "d",
+"kind": "real",
+"arpa": "D IY1",
+"arpa_source": "cmudict",
+"grapheme": "d"
+},
+{
+"w": "an",
+"ipa": "ˈæn",
+"keys": [
+"ipa:ˈæn"
+],
+"current_text": "Say: an.",
+"current_cut": "last",
+"current_say": "an",
+"kind": "real",
+"arpa": "AE1 N",
+"arpa_source": "cmudict",
+"grapheme": "an"
+},
+{
+"w": "oz",
+"ipa": "ˈɑz",
+"keys": [
+"ipa:ˈɑz"
+],
+"current_text": "Say: oz.",
+"current_cut": "last",
+"current_say": "oz",
+"kind": "real",
+"arpa": "AA1 Z",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "oz"
+},
+{
+"w": "sot",
+"ipa": "sˈɑt",
+"keys": [
+"ipa:sˈɑt"
+],
+"current_text": "Say: sot.",
+"current_cut": "last",
+"current_say": "sot",
+"kind": "real",
+"arpa": "S AA1 T",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "sot"
+},
+{
+"w": "tot",
+"ipa": "tˈɑt",
+"keys": [
+"ipa:tˈɑt"
+],
+"current_text": "Say: tot.",
+"current_cut": "last",
+"current_say": "tot",
+"kind": "real",
+"arpa": "T AA1 T",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "tot"
+},
+{
+"w": "adt",
+"ipa": "ˈædt",
+"keys": [
+"ipa:ˈædt"
+],
+"current_text": "Say: adt.",
+"current_cut": "last",
+"current_say": "adt",
+"kind": "pseudo",
+"arpa": "AE1 D T",
+"arpa_source": "course IPA",
+"grapheme": "adt"
+},
+{
+"w": "ist",
+"ipa": "ˈɪst",
+"keys": [
+"ipa:ˈɪst"
+],
+"current_text": "Say: ist.",
+"current_cut": "last",
+"current_say": "ist",
+"kind": "pseudo",
+"arpa": "IH1 S T",
+"arpa_source": "course IPA",
+"grapheme": "ist"
+},
+{
+"w": "idt",
+"ipa": "ˈɪdt",
+"keys": [
+"ipa:ˈɪdt"
+],
+"current_text": "Say: idt.",
+"current_cut": "last",
+"current_say": "idt",
+"kind": "pseudo",
+"arpa": "IH1 D T",
+"arpa_source": "course IPA",
+"grapheme": "idt"
+},
+{
+"w": "sca",
+"ipa": "skˈæ",
+"keys": [
+"ipa:skˈæ"
+],
+"current_text": "Say: scat.",
+"current_cut": "open",
+"current_say": "scat",
+"kind": "pseudo",
+"arpa": "S K AE1",
+"arpa_source": "course IPA",
+"grapheme": "sca"
+},
+{
+"w": "sto",
+"ipa": "stˈɑ",
+"keys": [
+"ipa:stˈɑ"
+],
+"current_text": "Say: sto.",
+"current_cut": "last",
+"current_say": "sto",
+"kind": "pseudo",
+"arpa": "S T AA1",
+"arpa_source": "course IPA",
+"grapheme": "sto"
+},
+{
+"w": "sco",
+"ipa": "skˈɑ",
+"keys": [
+"ipa:skˈɑ"
+],
+"current_text": "Say: sco.",
+"current_cut": "last",
+"current_say": "sco",
+"kind": "pseudo",
+"arpa": "S K AA1",
+"arpa_source": "course IPA",
+"grapheme": "sco"
+},
+{
+"w": "sess",
+"ipa": "sˈɛs",
+"keys": [
+"ipa:sˈɛs"
+],
+"current_text": "Say: sess.",
+"current_cut": "last",
+"current_say": "sess",
+"kind": "pseudo",
+"arpa": "S EH1 S",
+"arpa_source": "course IPA",
+"grapheme": "sess"
+},
+{
+"w": "tess",
+"ipa": "tˈɛs",
+"keys": [
+"ipa:tˈɛs"
+],
+"current_text": "Say: tess.",
+"current_cut": "last",
+"current_say": "tess",
+"kind": "real",
+"arpa": "T EH1 S",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "tess"
+},
+{
+"w": "itt",
+"ipa": "ˈɪtt",
+"keys": [
+"ipa:ˈɪtt"
+],
+"current_text": "Say: itt.",
+"current_cut": "last",
+"current_say": "itt",
+"kind": "pseudo",
+"arpa": "IH1 T T",
+"arpa_source": "course IPA",
+"grapheme": "itt"
+},
+{
+"w": "pap",
+"ipa": "pˈæp",
+"keys": [
+"ipa:pˈæp"
+],
+"current_text": "Say: pap.",
+"current_cut": "last",
+"current_say": "pap",
+"kind": "real",
+"arpa": "P AE1 P",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "pap"
+},
+{
+"w": "sin",
+"ipa": "sˈɪn",
+"keys": [
+"ipa:sˈɪn"
+],
+"current_text": "Say: sin.",
+"current_cut": "last",
+"current_say": "sin",
+"kind": "real",
+"arpa": "S IH1 N",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "sin"
+},
+{
+"w": "pun",
+"ipa": "pˈʌn",
+"keys": [
+"ipa:pˈʌn"
+],
+"current_text": "Say: pun.",
+"current_cut": "last",
+"current_say": "pun",
+"kind": "real",
+"arpa": "P AH1 N",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "pun"
+},
+{
+"w": "tin",
+"ipa": "tˈɪn",
+"keys": [
+"ipa:tˈɪn"
+],
+"current_text": "Say: tin.",
+"current_cut": "last",
+"current_say": "tin",
+"kind": "real",
+"arpa": "T IH1 N",
+"arpa_source": "cmudict",
+"grapheme": "tin"
+},
+{
+"w": "pess",
+"ipa": "pˈɛs",
+"keys": [
+"ipa:pˈɛs"
+],
+"current_text": "Say: pess.",
+"current_cut": "last",
+"current_say": "pess",
+"kind": "pseudo",
+"arpa": "P EH1 S",
+"arpa_source": "course IPA",
+"grapheme": "pess"
+},
+{
+"w": "nit",
+"ipa": "nˈɪt",
+"keys": [
+"ipa:nˈɪt"
+],
+"current_text": "Say: nit.",
+"current_cut": "last",
+"current_say": "nit",
+"kind": "real",
+"arpa": "N IH1 T",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "nit"
+},
+{
+"w": "ad",
+"ipa": "ˈæd",
+"keys": [
+"ipa:ˈæd"
+],
+"current_text": "Say: ad.",
+"current_cut": "last",
+"current_say": "ad",
+"kind": "real",
+"arpa": "AE1 D",
+"arpa_source": "cmudict",
+"grapheme": "ad"
+},
+{
+"w": "em",
+"ipa": "ˈɛm",
+"keys": [
+"ipa:ˈɛm"
+],
+"current_text": "Say: em.",
+"current_cut": "last",
+"current_say": "em",
+"kind": "real",
+"arpa": "EH1 M",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "em"
+},
+{
+"w": "ed",
+"ipa": "ˈɛd",
+"keys": [
+"ipa:ˈɛd"
+],
+"current_text": "Say: ed.",
+"current_cut": "last",
+"current_say": "ed",
+"kind": "real",
+"arpa": "EH1 D",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "ed"
+},
+{
+"w": "ram",
+"ipa": "ɹˈæm",
+"keys": [
+"ipa:ɹˈæm"
+],
+"current_text": "Say: ram.",
+"current_cut": "last",
+"current_say": "ram",
+"kind": "real",
+"arpa": "R AE1 M",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "ram"
+},
+{
+"w": "sim",
+"ipa": "sˈɪm",
+"keys": [
+"ipa:sˈɪm"
+],
+"current_text": "Say: sim.",
+"current_cut": "last",
+"current_say": "sim",
+"kind": "real",
+"arpa": "S IH1 M",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "sim"
+},
+{
+"w": "rim",
+"ipa": "ɹˈɪm",
+"keys": [
+"ipa:ɹˈɪm"
+],
+"current_text": "Say: rim.",
+"current_cut": "last",
+"current_say": "rim",
+"kind": "real",
+"arpa": "R IH1 M",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "rim"
+},
+{
+"w": "sop",
+"ipa": "sˈɑp",
+"keys": [
+"ipa:sˈɑp"
+],
+"current_text": "Say: sop.",
+"current_cut": "last",
+"current_say": "sop",
+"kind": "real",
+"arpa": "S AA1 P",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "sop"
+},
+{
+"w": "met",
+"ipa": "mˈɛt",
+"keys": [
+"ipa:mˈɛt"
+],
+"current_text": "Say: met.",
+"current_cut": "last",
+"current_say": "met",
+"kind": "real",
+"arpa": "M EH1 T",
+"arpa_source": "cmudict",
+"grapheme": "met"
+},
+{
+"w": "set",
+"ipa": "sˈɛt",
+"keys": [
+"ipa:sˈɛt"
+],
+"current_text": "Say: set.",
+"current_cut": "last",
+"current_say": "set",
+"kind": "real",
+"arpa": "S EH1 T",
+"arpa_source": "cmudict",
+"grapheme": "set"
+},
+{
+"w": "min",
+"ipa": "mˈɪn",
+"keys": [
+"ipa:mˈɪn"
+],
+"current_text": "Say: min.",
+"current_cut": "last",
+"current_say": "min",
+"kind": "real",
+"arpa": "M IH1 N",
+"arpa_source": "cmudict",
+"grapheme": "min"
+},
+{
+"w": "mod",
+"ipa": "mˈɑd",
+"keys": [
+"ipa:mˈɑd"
+],
+"current_text": "Say: mod.",
+"current_cut": "last",
+"current_say": "mod",
+"kind": "real",
+"arpa": "M AA1 D",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "mod"
+},
+{
+"w": "sod",
+"ipa": "sˈɑd",
+"keys": [
+"ipa:sˈɑd"
+],
+"current_text": "Say: sod.",
+"current_cut": "last",
+"current_say": "sod",
+"kind": "real",
+"arpa": "S AA1 D",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "sod"
+},
+{
+"w": "mid",
+"ipa": "mˈɪd",
+"keys": [
+"ipa:mˈɪd"
+],
+"current_text": "Say: mid.",
+"current_cut": "last",
+"current_say": "mid",
+"kind": "real",
+"arpa": "M IH1 D",
+"arpa_source": "cmudict",
+"grapheme": "mid"
+},
+{
+"w": "pad",
+"ipa": "pˈæd",
+"keys": [
+"ipa:pˈæd"
+],
+"current_text": "Say: pad.",
+"current_cut": "last",
+"current_say": "pad",
+"kind": "real",
+"arpa": "P AE1 D",
+"arpa_source": "cmudict",
+"grapheme": "pad"
+},
+{
+"w": "pod",
+"ipa": "pˈɑd",
+"keys": [
+"ipa:pˈɑd"
+],
+"current_text": "Say: pod.",
+"current_cut": "last",
+"current_say": "pod",
+"kind": "real",
+"arpa": "P AA1 D",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "pod"
+},
+{
+"w": "gip",
+"ipa": "ɡˈɪp",
+"keys": [
+"ipa:ɡˈɪp"
+],
+"current_text": "Say: gip.",
+"current_cut": "last",
+"current_say": "gip",
+"kind": "pseudo",
+"arpa": "G IH1 P",
+"arpa_source": "course IPA",
+"grapheme": "gip"
+},
+{
+"w": "mep",
+"ipa": "mˈɛp",
+"keys": [
+"ipa:mˈɛp"
+],
+"current_text": "Say: mep.",
+"current_cut": "last",
+"current_say": "mep",
+"kind": "pseudo",
+"arpa": "M EH1 P",
+"arpa_source": "course IPA",
+"grapheme": "mep"
+},
+{
+"w": "gep",
+"ipa": "ɡˈɛp",
+"keys": [
+"ipa:ɡˈɛp"
+],
+"current_text": "Say: gep.",
+"current_cut": "last",
+"current_say": "gep",
+"kind": "pseudo",
+"arpa": "G EH1 P",
+"arpa_source": "course IPA",
+"grapheme": "gep"
+},
+{
+"w": "rad",
+"ipa": "ɹˈæd",
+"keys": [
+"ipa:ɹˈæd"
+],
+"current_text": "Say: rad.",
+"current_cut": "last",
+"current_say": "rad",
+"kind": "real",
+"arpa": "R AE1 D",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "rad"
+},
+{
+"w": "rud",
+"ipa": "ɹˈʌd",
+"keys": [
+"ipa:ɹˈʌd"
+],
+"current_text": "Say: rud.",
+"current_cut": "last",
+"current_say": "rud",
+"kind": "real",
+"arpa": "R AH1 D",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "rud"
+},
+{
+"w": "hap",
+"ipa": "hˈæp",
+"keys": [
+"ipa:hˈæp"
+],
+"current_text": "Say: hap.",
+"current_cut": "last",
+"current_say": "hap",
+"kind": "real",
+"arpa": "HH AE1 P",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "hap"
+},
+{
+"w": "dup",
+"ipa": "dˈʌp",
+"keys": [
+"ipa:dˈʌp"
+],
+"current_text": "Say: dup.",
+"current_cut": "last",
+"current_say": "dup",
+"kind": "pseudo",
+"arpa": "D AH1 P",
+"arpa_source": "course IPA",
+"grapheme": "dup"
+},
+{
+"w": "hup",
+"ipa": "hˈʌp",
+"keys": [
+"ipa:hˈʌp"
+],
+"current_text": "Say: hup.",
+"current_cut": "last",
+"current_say": "hup",
+"kind": "pseudo",
+"arpa": "HH AH1 P",
+"arpa_source": "course IPA",
+"grapheme": "hup"
+},
+{
+"w": "sid",
+"ipa": "sˈɪd",
+"keys": [
+"ipa:sˈɪd"
+],
+"current_text": "Say: sid.",
+"current_cut": "last",
+"current_say": "sid",
+"kind": "real",
+"arpa": "S IH1 D",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "sid"
+},
+{
+"w": "ted",
+"ipa": "tˈɛd",
+"keys": [
+"ipa:tˈɛd"
+],
+"current_text": "Say: ted.",
+"current_cut": "last",
+"current_say": "ted",
+"kind": "real",
+"arpa": "T EH1 D",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "ted"
+},
+{
+"w": "nom",
+"ipa": "nˈɑm",
+"keys": [
+"ipa:nˈɑm"
+],
+"current_text": "Say: nom.",
+"current_cut": "last",
+"current_say": "nom",
+"kind": "real",
+"arpa": "N AA1 M",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "nom"
+},
+{
+"w": "som",
+"ipa": "sˈɑm",
+"keys": [
+"ipa:sˈɑm"
+],
+"current_text": "Say: som.",
+"current_cut": "last",
+"current_say": "som",
+"kind": "real",
+"arpa": "S AA1 M",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "som"
+},
+{
+"w": "pim",
+"ipa": "pˈɪm",
+"keys": [
+"ipa:pˈɪm"
+],
+"current_text": "Say: pim.",
+"current_cut": "last",
+"current_say": "pim",
+"kind": "pseudo",
+"arpa": "P IH1 M",
+"arpa_source": "course IPA",
+"grapheme": "pim"
+},
+{
+"w": "din",
+"ipa": "dˈɪn",
+"keys": [
+"ipa:dˈɪn"
+],
+"current_text": "Say: din.",
+"current_cut": "last",
+"current_say": "din",
+"kind": "real",
+"arpa": "D IH1 N",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "din"
+},
+{
+"w": "rag",
+"ipa": "ɹˈæɡ",
+"keys": [
+"ipa:ɹˈæɡ"
+],
+"current_text": "Say: rag.",
+"current_cut": "last",
+"current_say": "rag",
+"kind": "real",
+"arpa": "R AE1 G",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "rag"
+},
+{
+"w": "neg",
+"ipa": "nˈɛɡ",
+"keys": [
+"ipa:nˈɛɡ"
+],
+"current_text": "Say: neg.",
+"current_cut": "last",
+"current_say": "neg",
+"kind": "real",
+"arpa": "N EH1 G",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "neg"
+},
+{
+"w": "beg",
+"ipa": "bˈɛɡ",
+"keys": [
+"ipa:bˈɛɡ"
+],
+"current_text": "Say: beg.",
+"current_cut": "last",
+"current_say": "beg",
+"kind": "real",
+"arpa": "B EH1 G",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "beg"
+},
+{
+"w": "sig",
+"ipa": "sˈɪɡ",
+"keys": [
+"ipa:sˈɪɡ"
+],
+"current_text": "Say: sig.",
+"current_cut": "last",
+"current_say": "sig",
+"kind": "real",
+"arpa": "S IH1 G",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "sig"
+},
+{
+"w": "tig",
+"ipa": "tˈɪɡ",
+"keys": [
+"ipa:tˈɪɡ"
+],
+"current_text": "Say: tig.",
+"current_cut": "last",
+"current_say": "tig",
+"kind": "real",
+"arpa": "T IH1 G",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "tig"
+},
+{
+"w": "giss",
+"ipa": "ɡˈɪs",
+"keys": [
+"ipa:ɡˈɪs"
+],
+"current_text": "Say: giss.",
+"current_cut": "last",
+"current_say": "giss",
+"kind": "pseudo",
+"arpa": "G IH1 S",
+"arpa_source": "course IPA",
+"grapheme": "giss"
+},
+{
+"w": "sis",
+"ipa": "sˈɪs",
+"keys": [
+"ipa:sˈɪs"
+],
+"current_text": "Say: sis.",
+"current_cut": "last",
+"current_say": "sis",
+"kind": "real",
+"arpa": "S IH1 S",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "sis"
+},
+{
+"w": "tog",
+"ipa": "tˈɑɡ",
+"keys": [
+"ipa:tˈɑɡ"
+],
+"current_text": "Say: tog.",
+"current_cut": "last",
+"current_say": "tog",
+"kind": "pseudo",
+"arpa": "T AA1 G",
+"arpa_source": "course IPA",
+"grapheme": "tog"
+},
+{
+"w": "lag",
+"ipa": "lˈæɡ",
+"keys": [
+"ipa:lˈæɡ"
+],
+"current_text": "Say: lag.",
+"current_cut": "last",
+"current_say": "lag",
+"kind": "real",
+"arpa": "L AE1 G",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "lag"
+},
+{
+"w": "dat",
+"ipa": "dˈæt",
+"keys": [
+"ipa:dˈæt"
+],
+"current_text": "Say: dat.",
+"current_cut": "last",
+"current_say": "dat",
+"kind": "real",
+"arpa": "D AE1 T",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "dat"
+},
+{
+"w": "nop",
+"ipa": "nˈɑp",
+"keys": [
+"ipa:nˈɑp"
+],
+"current_text": "Say: nop.",
+"current_cut": "last",
+"current_say": "nop",
+"kind": "pseudo",
+"arpa": "N AA1 P",
+"arpa_source": "course IPA",
+"grapheme": "nop"
+},
+{
+"w": "dep",
+"ipa": "dˈɛp",
+"keys": [
+"ipa:dˈɛp"
+],
+"current_text": "Say: dep.",
+"current_cut": "last",
+"current_say": "dep",
+"kind": "real",
+"arpa": "D EH1 P",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "dep"
+},
+{
+"w": "nep",
+"ipa": "nˈɛp",
+"keys": [
+"ipa:nˈɛp"
+],
+"current_text": "Say: nep.",
+"current_cut": "last",
+"current_say": "nep",
+"kind": "pseudo",
+"arpa": "N EH1 P",
+"arpa_source": "course IPA",
+"grapheme": "nep"
+},
+{
+"w": "ged",
+"ipa": "ɡˈɛd",
+"keys": [
+"ipa:ɡˈɛd"
+],
+"current_text": "Say: ged.",
+"current_cut": "last",
+"current_say": "ged",
+"kind": "real",
+"arpa": "G EH1 D",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "ged"
+},
+{
+"w": "mog",
+"ipa": "mˈɑɡ",
+"keys": [
+"ipa:mˈɑɡ"
+],
+"current_text": "Say: mog.",
+"current_cut": "last",
+"current_say": "mog",
+"kind": "pseudo",
+"arpa": "M AA1 G",
+"arpa_source": "course IPA",
+"grapheme": "mog"
+},
+{
+"w": "pag",
+"ipa": "pˈæɡ",
+"keys": [
+"ipa:pˈæɡ"
+],
+"current_text": "Say: pag.",
+"current_cut": "last",
+"current_say": "pag",
+"kind": "pseudo",
+"arpa": "P AE1 G",
+"arpa_source": "course IPA",
+"grapheme": "pag"
+},
+{
+"w": "mag",
+"ipa": "mˈæɡ",
+"keys": [
+"ipa:mˈæɡ"
+],
+"current_text": "Say: mag.",
+"current_cut": "last",
+"current_say": "mag",
+"kind": "real",
+"arpa": "M AE1 G",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "mag"
+},
+{
+"w": "nog",
+"ipa": "nˈɑɡ",
+"keys": [
+"ipa:nˈɑɡ"
+],
+"current_text": "Say: nog.",
+"current_cut": "last",
+"current_say": "nog",
+"kind": "pseudo",
+"arpa": "N AA1 G",
+"arpa_source": "course IPA",
+"grapheme": "nog"
+},
+{
+"w": "nig",
+"ipa": "nˈɪɡ",
+"keys": [
+"ipa:nˈɪɡ"
+],
+"current_text": "Say: nig.",
+"current_cut": "last",
+"current_say": "nig",
+"kind": "pseudo",
+"arpa": "N IH1 G",
+"arpa_source": "course IPA",
+"grapheme": "nig"
+},
+{
+"w": "cad",
+"ipa": "kˈæd",
+"keys": [
+"ipa:kˈæd"
+],
+"current_text": "Say: cad.",
+"current_cut": "last",
+"current_say": "cad",
+"kind": "real",
+"arpa": "K AE1 D",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "cad"
+},
+{
+"w": "con",
+"ipa": "kˈɑn",
+"keys": [
+"ipa:kˈɑn"
+],
+"current_text": "Say: con.",
+"current_cut": "last",
+"current_say": "con",
+"kind": "real",
+"arpa": "K AA1 N",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "con"
+},
+{
+"w": "son",
+"ipa": "sˈɑn",
+"keys": [
+"ipa:sˈɑn"
+],
+"current_text": "Say: son.",
+"current_cut": "last",
+"current_say": "son",
+"kind": "real",
+"arpa": "S AH1 N",
+"arpa_source": "cmudict",
+"grapheme": "son"
+},
+{
+"w": "tick",
+"ipa": "tˈɪk",
+"keys": [
+"ipa:tˈɪk"
+],
+"current_text": "Say: tick.",
+"current_cut": "last",
+"current_say": "tick",
+"kind": "real",
+"arpa": "T IH1 K",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "tick"
+},
+{
+"w": "pock",
+"ipa": "pˈɑk",
+"keys": [
+"ipa:pˈɑk"
+],
+"current_text": "Say: pock.",
+"current_cut": "last",
+"current_say": "pock",
+"kind": "real",
+"arpa": "P AA1 K",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "pock"
+},
+{
+"w": "duck",
+"ipa": "dˈʌk",
+"keys": [
+"ipa:dˈʌk"
+],
+"current_text": "Say: duck.",
+"current_cut": "last",
+"current_say": "duck",
+"kind": "real",
+"arpa": "D AH1 K",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "duck"
+},
+{
+"w": "suck",
+"ipa": "sˈʌk",
+"keys": [
+"ipa:sˈʌk"
+],
+"current_text": "Say: suck.",
+"current_cut": "last",
+"current_say": "suck",
+"kind": "real",
+"arpa": "S AH1 K",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "suck"
+},
+{
+"w": "bog",
+"ipa": "bˈɑɡ",
+"keys": [
+"ipa:bˈɑɡ"
+],
+"current_text": "Say: bog.",
+"current_cut": "last",
+"current_say": "bog",
+"kind": "real",
+"arpa": "B AA1 G",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "bog"
+},
+{
+"w": "keg",
+"ipa": "kˈɛɡ",
+"keys": [
+"ipa:kˈɛɡ"
+],
+"current_text": "Say: keg.",
+"current_cut": "last",
+"current_say": "keg",
+"kind": "real",
+"arpa": "K EH1 G",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "keg"
+},
+{
+"w": "pick",
+"ipa": "pˈɪk",
+"keys": [
+"ipa:pˈɪk"
+],
+"current_text": "Say: pick.",
+"current_cut": "last",
+"current_say": "pick",
+"kind": "real",
+"arpa": "P IH1 K",
+"arpa_source": "cmudict",
+"grapheme": "pick"
+},
+{
+"w": "nack",
+"ipa": "nˈæk",
+"keys": [
+"ipa:nˈæk"
+],
+"current_text": "Say: nack.",
+"current_cut": "last",
+"current_say": "nack",
+"kind": "real",
+"arpa": "N AE1 K",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "nack"
+},
+{
+"w": "cuck",
+"ipa": "kˈʌk",
+"keys": [
+"ipa:kˈʌk"
+],
+"current_text": "Say: cuck.",
+"current_cut": "last",
+"current_say": "cuck",
+"kind": "pseudo",
+"arpa": "K AH1 K",
+"arpa_source": "course IPA",
+"grapheme": "cuck"
+},
+{
+"w": "nuck",
+"ipa": "nˈʌk",
+"keys": [
+"ipa:nˈʌk"
+],
+"current_text": "Say: nuck.",
+"current_cut": "last",
+"current_say": "nuck",
+"kind": "pseudo",
+"arpa": "N AH1 K",
+"arpa_source": "course IPA",
+"grapheme": "nuck"
+},
+{
+"w": "gock",
+"ipa": "ɡˈɑk",
+"keys": [
+"ipa:ɡˈɑk"
+],
+"current_text": "Say: gock.",
+"current_cut": "last",
+"current_say": "gock",
+"kind": "pseudo",
+"arpa": "G AA1 K",
+"arpa_source": "course IPA",
+"grapheme": "gock"
+},
+{
+"w": "nock",
+"ipa": "nˈɑk",
+"keys": [
+"ipa:nˈɑk"
+],
+"current_text": "Say: nock.",
+"current_cut": "last",
+"current_say": "nock",
+"kind": "real",
+"arpa": "N AA1 K",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "nock"
+},
+{
+"w": "ced",
+"ipa": "kˈɛd",
+"keys": [
+"ipa:kˈɛd"
+],
+"current_text": "Say: ced.",
+"current_cut": "last",
+"current_say": "ced",
+"kind": "pseudo",
+"arpa": "K EH1 D",
+"arpa_source": "course IPA",
+"grapheme": "ced"
+},
+{
+"w": "tock",
+"ipa": "tˈɑk",
+"keys": [
+"ipa:tˈɑk"
+],
+"current_text": "Say: tock.",
+"current_cut": "last",
+"current_say": "tock",
+"kind": "real",
+"arpa": "T AA1 K",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "tock"
+},
+{
+"w": "seck",
+"ipa": "sˈɛk",
+"keys": [
+"ipa:sˈɛk"
+],
+"current_text": "Say: seck.",
+"current_cut": "last",
+"current_say": "seck",
+"kind": "real",
+"arpa": "S EH1 K",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "seck"
+},
+{
+"w": "teck",
+"ipa": "tˈɛk",
+"keys": [
+"ipa:tˈɛk"
+],
+"current_text": "Say: teck.",
+"current_cut": "last",
+"current_say": "teck",
+"kind": "real",
+"arpa": "T EH1 K",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "teck"
+},
+{
+"w": "off",
+"ipa": "ˈɑf",
+"keys": [
+"ipa:ˈɑf"
+],
+"current_text": "Say: off.",
+"current_cut": "last",
+"current_say": "off",
+"kind": "real",
+"arpa": "AO1 F",
+"arpa_source": "cmudict",
+"grapheme": "off"
+},
+{
+"w": "if",
+"ipa": "ˈɪf",
+"keys": [
+"ipa:ˈɪf"
+],
+"current_text": "Say: if.",
+"current_cut": "last",
+"current_say": "if",
+"kind": "real",
+"arpa": "IH1 F",
+"arpa_source": "cmudict",
+"grapheme": "if"
+},
+{
+"w": "put",
+"ipa": "pˈʌt",
+"keys": [
+"ipa:pˈʌt"
+],
+"current_text": "Say: put.",
+"current_cut": "last",
+"current_say": "put",
+"kind": "real",
+"arpa": "P UH1 T",
+"arpa_source": "cmudict",
+"grapheme": "put"
+},
+{
+"w": "sup",
+"ipa": "sˈʌp",
+"keys": [
+"ipa:sˈʌp"
+],
+"current_text": "Say: sup.",
+"current_cut": "last",
+"current_say": "sup",
+"kind": "real",
+"arpa": "S AH1 P",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "sup"
+},
+{
+"w": "pug",
+"ipa": "pˈʌɡ",
+"keys": [
+"ipa:pˈʌɡ"
+],
+"current_text": "Say: pug.",
+"current_cut": "last",
+"current_say": "pug",
+"kind": "real",
+"arpa": "P AH1 G",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "pug"
+},
+{
+"w": "meg",
+"ipa": "mˈɛɡ",
+"keys": [
+"ipa:mˈɛɡ"
+],
+"current_text": "Say: meg.",
+"current_cut": "last",
+"current_say": "meg",
+"kind": "real",
+"arpa": "M EH1 G",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "meg"
+},
+{
+"w": "peg",
+"ipa": "pˈɛɡ",
+"keys": [
+"ipa:pˈɛɡ"
+],
+"current_text": "Say: peg.",
+"current_cut": "last",
+"current_say": "peg",
+"kind": "real",
+"arpa": "P EH1 G",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "peg"
+},
+{
+"w": "hum",
+"ipa": "hˈʌm",
+"keys": [
+"ipa:hˈʌm"
+],
+"current_text": "Say: hum.",
+"current_cut": "last",
+"current_say": "hum",
+"kind": "real",
+"arpa": "HH AH1 M",
+"arpa_source": "cmudict",
+"grapheme": "hum"
+},
+{
+"w": "gem",
+"ipa": "ɡˈɛm",
+"keys": [
+"ipa:ɡˈɛm"
+],
+"current_text": "Say: gem.",
+"current_cut": "last",
+"current_say": "gem",
+"kind": "real",
+"arpa": "JH EH1 M",
+"arpa_source": "cmudict",
+"grapheme": "gem"
+},
+{
+"w": "hem",
+"ipa": "hˈɛm",
+"keys": [
+"ipa:hˈɛm"
+],
+"current_text": "Say: hem.",
+"current_cut": "last",
+"current_say": "hem",
+"kind": "real",
+"arpa": "HH EH1 M",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "hem"
+},
+{
+"w": "tun",
+"ipa": "tˈʌn",
+"keys": [
+"ipa:tˈʌn"
+],
+"current_text": "Say: tun.",
+"current_cut": "last",
+"current_say": "tun",
+"kind": "pseudo",
+"arpa": "T AH1 N",
+"arpa_source": "course IPA",
+"grapheme": "tun"
+},
+{
+"w": "tup",
+"ipa": "tˈʌp",
+"keys": [
+"ipa:tˈʌp"
+],
+"current_text": "Say: tup.",
+"current_cut": "last",
+"current_say": "tup",
+"kind": "pseudo",
+"arpa": "T AH1 P",
+"arpa_source": "course IPA",
+"grapheme": "tup"
+},
+{
+"w": "tep",
+"ipa": "tˈɛp",
+"keys": [
+"ipa:tˈɛp"
+],
+"current_text": "Say: tep.",
+"current_cut": "last",
+"current_say": "tep",
+"kind": "pseudo",
+"arpa": "T EH1 P",
+"arpa_source": "course IPA",
+"grapheme": "tep"
+},
+{
+"w": "meck",
+"ipa": "mˈɛk",
+"keys": [
+"ipa:mˈɛk"
+],
+"current_text": "Say: meck.",
+"current_cut": "last",
+"current_say": "meck",
+"kind": "real",
+"arpa": "M EH1 K",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "meck"
+},
+{
+"w": "mack",
+"ipa": "mˈæk",
+"keys": [
+"ipa:mˈæk"
+],
+"current_text": "Say: mack.",
+"current_cut": "last",
+"current_say": "mack",
+"kind": "real",
+"arpa": "M AE1 K",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "mack"
+},
+{
+"w": "sud",
+"ipa": "sˈʌd",
+"keys": [
+"ipa:sˈʌd"
+],
+"current_text": "Say: sud.",
+"current_cut": "last",
+"current_say": "sud",
+"kind": "pseudo",
+"arpa": "S AH1 D",
+"arpa_source": "course IPA",
+"grapheme": "sud"
+},
+{
+"w": "nid",
+"ipa": "nˈɪd",
+"keys": [
+"ipa:nˈɪd"
+],
+"current_text": "Say: nid.",
+"current_cut": "last",
+"current_say": "nid",
+"kind": "pseudo",
+"arpa": "N IH1 D",
+"arpa_source": "course IPA",
+"grapheme": "nid"
+},
+{
+"w": "sem",
+"ipa": "sˈɛm",
+"keys": [
+"ipa:sˈɛm"
+],
+"current_text": "Say: sem.",
+"current_cut": "last",
+"current_say": "sem",
+"kind": "pseudo",
+"arpa": "S EH1 M",
+"arpa_source": "course IPA",
+"grapheme": "sem"
+},
+{
+"w": "tut",
+"ipa": "tˈʌt",
+"keys": [
+"ipa:tˈʌt"
+],
+"current_text": "Say: tut.",
+"current_cut": "last",
+"current_say": "tut",
+"kind": "real",
+"arpa": "T AH1 T",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "tut"
+},
+{
+"w": "det",
+"ipa": "dˈɛt",
+"keys": [
+"ipa:dˈɛt"
+],
+"current_text": "Say: det.",
+"current_cut": "last",
+"current_say": "det",
+"kind": "pseudo",
+"arpa": "D EH1 T",
+"arpa_source": "course IPA",
+"grapheme": "det"
+},
+{
+"w": "tet",
+"ipa": "tˈɛt",
+"keys": [
+"ipa:tˈɛt"
+],
+"current_text": "Say: tet.",
+"current_cut": "last",
+"current_say": "tet",
+"kind": "real",
+"arpa": "T EH1 T",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "tet"
+},
+{
+"w": "us",
+"ipa": "ˈʌs",
+"keys": [
+"ipa:ˈʌs"
+],
+"current_text": "Say: us.",
+"current_cut": "last",
+"current_say": "us",
+"kind": "real",
+"arpa": "AH1 S",
+"arpa_source": "cmudict",
+"grapheme": "us"
+},
+{
+"w": "ip",
+"ipa": "ˈɪp",
+"keys": [
+"ipa:ˈɪp"
+],
+"current_text": "Say: ip.",
+"current_cut": "last",
+"current_say": "ip",
+"kind": "real",
+"arpa": "IH1 P",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "ip"
+},
+{
+"w": "is",
+"ipa": "ˈɪs",
+"keys": [
+"ipa:ˈɪs"
+],
+"current_text": "Say: iss.",
+"current_cut": "last",
+"current_say": "iss",
+"kind": "real",
+"arpa": "IH1 S",
+"arpa_source": "course IPA",
+"grapheme": "IS"
+},
+{
+"w": "rod",
+"ipa": "ɹˈɑd",
+"keys": [
+"ipa:ɹˈɑd"
+],
+"current_text": "Say: rod.",
+"current_cut": "last",
+"current_say": "rod",
+"kind": "real",
+"arpa": "R AA1 D",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "rod"
+},
+{
+"w": "hag",
+"ipa": "hˈæɡ",
+"keys": [
+"ipa:hˈæɡ"
+],
+"current_text": "Say: hag.",
+"current_cut": "last",
+"current_say": "hag",
+"kind": "real",
+"arpa": "HH AE1 G",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "hag"
+},
+{
+"w": "sen",
+"ipa": "sˈɛn",
+"keys": [
+"ipa:sˈɛn"
+],
+"current_text": "Say: sen.",
+"current_cut": "last",
+"current_say": "sen",
+"kind": "real",
+"arpa": "S EH1 N",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "sen"
+},
+{
+"w": "han",
+"ipa": "hˈæn",
+"keys": [
+"ipa:hˈæn"
+],
+"current_text": "Say: han.",
+"current_cut": "last",
+"current_say": "han",
+"kind": "real",
+"arpa": "HH AE1 N",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "han"
+},
+{
+"w": "san",
+"ipa": "sˈæn",
+"keys": [
+"ipa:sˈæn"
+],
+"current_text": "Say: san.",
+"current_cut": "last",
+"current_say": "san",
+"kind": "real",
+"arpa": "S AE1 N",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "san"
+},
+{
+"w": "hip",
+"ipa": "hˈɪp",
+"keys": [
+"ipa:hˈɪp"
+],
+"current_text": "Say: hip.",
+"current_cut": "last",
+"current_say": "hip",
+"kind": "real",
+"arpa": "HH IH1 P",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "hip"
+},
+{
+"w": "him",
+"ipa": "hˈɪm",
+"keys": [
+"ipa:hˈɪm"
+],
+"current_text": "Say: him.",
+"current_cut": "last",
+"current_say": "him",
+"kind": "real",
+"arpa": "HH IH1 M",
+"arpa_source": "cmudict",
+"grapheme": "him"
+},
+{
+"w": "rap",
+"ipa": "ɹˈæp",
+"keys": [
+"ipa:ɹˈæp"
+],
+"current_text": "Say: rap.",
+"current_cut": "last",
+"current_say": "rap",
+"kind": "real",
+"arpa": "R AE1 P",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "rap"
+},
+{
+"w": "nup",
+"ipa": "nˈʌp",
+"keys": [
+"ipa:nˈʌp"
+],
+"current_text": "Say: nup.",
+"current_cut": "last",
+"current_say": "nup",
+"kind": "pseudo",
+"arpa": "N AH1 P",
+"arpa_source": "course IPA",
+"grapheme": "nup"
+},
+{
+"w": "rop",
+"ipa": "ɹˈɑp",
+"keys": [
+"ipa:ɹˈɑp"
+],
+"current_text": "Say: rop.",
+"current_cut": "last",
+"current_say": "rop",
+"kind": "pseudo",
+"arpa": "R AA1 P",
+"arpa_source": "course IPA",
+"grapheme": "rop"
+},
+{
+"w": "huck",
+"ipa": "hˈʌk",
+"keys": [
+"ipa:hˈʌk"
+],
+"current_text": "Say: huck.",
+"current_cut": "last",
+"current_say": "huck",
+"kind": "real",
+"arpa": "HH AH1 K",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "huck"
+},
+{
+"w": "tir",
+"ipa": "tˈɪɹ",
+"keys": [
+"ipa:tˈɪɹ"
+],
+"current_text": "Say: tir.",
+"current_cut": "last",
+"current_say": "tir",
+"kind": "pseudo",
+"arpa": "T IH1 R",
+"arpa_source": "course IPA",
+"grapheme": "tir"
+},
+{
+"w": "ger",
+"ipa": "ɡˈɛɹ",
+"keys": [
+"ipa:ɡˈɛɹ"
+],
+"current_text": "Say: ger.",
+"current_cut": "last",
+"current_say": "ger",
+"kind": "pseudo",
+"arpa": "G EH1 R",
+"arpa_source": "course IPA",
+"grapheme": "ger"
+},
+{
+"w": "ter",
+"ipa": "tˈɛɹ",
+"keys": [
+"ipa:tˈɛɹ"
+],
+"current_text": "Say: ter.",
+"current_cut": "last",
+"current_say": "ter",
+"kind": "real",
+"arpa": "T EH1 R",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "ter"
+},
+{
+"w": "sur",
+"ipa": "sˈʌɹ",
+"keys": [
+"ipa:sˈʌɹ"
+],
+"current_text": "Say: sur.",
+"current_cut": "last",
+"current_say": "sur",
+"kind": "real",
+"arpa": "S AH1 R",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "sur"
+},
+{
+"w": "cor",
+"ipa": "kˈɑɹ",
+"keys": [
+"ipa:kˈɑɹ"
+],
+"current_text": "Say: cor.",
+"current_cut": "last",
+"current_say": "cor",
+"kind": "real",
+"arpa": "K AA1 R",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "cor"
+},
+{
+"w": "sor",
+"ipa": "sˈɑɹ",
+"keys": [
+"ipa:sˈɑɹ"
+],
+"current_text": "Say: sor.",
+"current_cut": "last",
+"current_say": "sor",
+"kind": "real",
+"arpa": "S AA1 R",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "sor"
+},
+{
+"w": "dar",
+"ipa": "dˈæɹ",
+"keys": [
+"ipa:dˈæɹ"
+],
+"current_text": "Say: dar.",
+"current_cut": "last",
+"current_say": "dar",
+"kind": "real",
+"arpa": "D AE1 R",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "dar"
+},
+{
+"w": "sar",
+"ipa": "sˈæɹ",
+"keys": [
+"ipa:sˈæɹ"
+],
+"current_text": "Say: sar.",
+"current_cut": "last",
+"current_say": "sar",
+"kind": "real",
+"arpa": "S AE1 R",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "sar"
+},
+{
+"w": "mam",
+"ipa": "mˈæm",
+"keys": [
+"ipa:mˈæm"
+],
+"current_text": "Say: mam.",
+"current_cut": "last",
+"current_say": "mam",
+"kind": "real",
+"arpa": "M AE1 M",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "mam"
+},
+{
+"w": "med",
+"ipa": "mˈɛd",
+"keys": [
+"ipa:mˈɛd"
+],
+"current_text": "Say: med.",
+"current_cut": "last",
+"current_say": "med",
+"kind": "real",
+"arpa": "M EH1 D",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "med"
+},
+{
+"w": "bad",
+"ipa": "bˈæd",
+"keys": [
+"ipa:bˈæd"
+],
+"current_text": "Say: bad.",
+"current_cut": "last",
+"current_say": "bad",
+"kind": "real",
+"arpa": "B AE1 D",
+"arpa_source": "cmudict",
+"grapheme": "bad"
+},
+{
+"w": "fin",
+"ipa": "fˈɪn",
+"keys": [
+"ipa:fˈɪn"
+],
+"current_text": "Say: fin.",
+"current_cut": "last",
+"current_say": "fin",
+"kind": "real",
+"arpa": "F IH1 N",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "fin"
+},
+{
+"w": "fit",
+"ipa": "fˈɪt",
+"keys": [
+"ipa:fˈɪt"
+],
+"current_text": "Say: fit.",
+"current_cut": "last",
+"current_say": "fit",
+"kind": "real",
+"arpa": "F IH1 T",
+"arpa_source": "cmudict",
+"grapheme": "fit"
+},
+{
+"w": "lug",
+"ipa": "lˈʌɡ",
+"keys": [
+"ipa:lˈʌɡ"
+],
+"current_text": "Say: lug.",
+"current_cut": "last",
+"current_say": "lug",
+"kind": "real",
+"arpa": "L AH1 G",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "lug"
+},
+{
+"w": "lat",
+"ipa": "lˈæt",
+"keys": [
+"ipa:lˈæt"
+],
+"current_text": "Say: lat.",
+"current_cut": "last",
+"current_say": "lat",
+"kind": "real",
+"arpa": "L AE1 T",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "lat"
+},
+{
+"w": "lad",
+"ipa": "lˈæd",
+"keys": [
+"ipa:lˈæd"
+],
+"current_text": "Say: lad.",
+"current_cut": "last",
+"current_say": "lad",
+"kind": "real",
+"arpa": "L AE1 D",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "lad"
+},
+{
+"w": "mud",
+"ipa": "mˈʌd",
+"keys": [
+"ipa:mˈʌd"
+],
+"current_text": "Say: mud.",
+"current_cut": "last",
+"current_say": "mud",
+"kind": "real",
+"arpa": "M AH1 D",
+"arpa_source": "cmudict",
+"grapheme": "mud"
+},
+{
+"w": "bin",
+"ipa": "bˈɪn",
+"keys": [
+"ipa:bˈɪn"
+],
+"current_text": "Say: bin.",
+"current_cut": "last",
+"current_say": "bin",
+"kind": "real",
+"arpa": "B IH1 N",
+"arpa_source": "cmudict",
+"grapheme": "bin"
+},
+{
+"w": "lack",
+"ipa": "lˈæk",
+"keys": [
+"ipa:lˈæk"
+],
+"current_text": "Say: lack.",
+"current_cut": "last",
+"current_say": "lack",
+"kind": "real",
+"arpa": "L AE1 K",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "lack"
+},
+{
+"w": "ler",
+"ipa": "lˈɛɹ",
+"keys": [
+"ipa:lˈɛɹ"
+],
+"current_text": "Say: ler.",
+"current_cut": "last",
+"current_say": "ler",
+"kind": "pseudo",
+"arpa": "L EH1 R",
+"arpa_source": "course IPA",
+"grapheme": "ler"
+},
+{
+"w": "soff",
+"ipa": "sˈɑf",
+"keys": [
+"ipa:sˈɑf"
+],
+"current_text": "Say: soff.",
+"current_cut": "last",
+"current_say": "soff",
+"kind": "pseudo",
+"arpa": "S AA1 F",
+"arpa_source": "course IPA",
+"grapheme": "soff"
+},
+{
+"w": "baff",
+"ipa": "bˈæf",
+"keys": [
+"ipa:bˈæf"
+],
+"current_text": "Say: baff.",
+"current_cut": "last",
+"current_say": "baff",
+"kind": "pseudo",
+"arpa": "B AE1 F",
+"arpa_source": "course IPA",
+"grapheme": "baff"
+},
+{
+"w": "saff",
+"ipa": "sˈæf",
+"keys": [
+"ipa:sˈæf"
+],
+"current_text": "Say: saff.",
+"current_cut": "last",
+"current_say": "saff",
+"kind": "pseudo",
+"arpa": "S AE1 F",
+"arpa_source": "course IPA",
+"grapheme": "saff"
+},
+{
+"w": "sut",
+"ipa": "sˈʌt",
+"keys": [
+"ipa:sˈʌt"
+],
+"current_text": "Say: sut.",
+"current_cut": "last",
+"current_say": "sut",
+"kind": "pseudo",
+"arpa": "S AH1 T",
+"arpa_source": "course IPA",
+"grapheme": "sut"
+},
+{
+"w": "fam",
+"ipa": "fˈæm",
+"keys": [
+"ipa:fˈæm"
+],
+"current_text": "Say: fam.",
+"current_cut": "last",
+"current_say": "fam",
+"kind": "pseudo",
+"arpa": "F AE1 M",
+"arpa_source": "course IPA",
+"grapheme": "fam"
+},
+{
+"w": "sol",
+"ipa": "sˈɑl",
+"keys": [
+"ipa:sˈɑl"
+],
+"current_text": "Say: sol.",
+"current_cut": "last",
+"current_say": "sol",
+"kind": "real",
+"arpa": "S AA1 L",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "sol"
+},
+{
+"w": "dill",
+"ipa": "dˈɪl",
+"keys": [
+"ipa:dˈɪl"
+],
+"current_text": "Say: dill.",
+"current_cut": "last",
+"current_say": "dill",
+"kind": "real",
+"arpa": "D IH1 L",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "dill"
+},
+{
+"w": "sill",
+"ipa": "sˈɪl",
+"keys": [
+"ipa:sˈɪl"
+],
+"current_text": "Say: sill.",
+"current_cut": "last",
+"current_say": "sill",
+"kind": "real",
+"arpa": "S IH1 L",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "sill"
+},
+{
+"w": "till",
+"ipa": "tˈɪl",
+"keys": [
+"ipa:tˈɪl"
+],
+"current_text": "Say: till.",
+"current_cut": "last",
+"current_say": "till",
+"kind": "real",
+"arpa": "T IH1 L",
+"arpa_source": "cmudict",
+"grapheme": "till"
+},
+{
+"w": "pall",
+"ipa": "pˈæl",
+"keys": [
+"ipa:pˈæl"
+],
+"current_text": "Say: pall.",
+"current_cut": "last",
+"current_say": "pall",
+"kind": "real",
+"arpa": "P AE1 L",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "pall"
+},
+{
+"w": "pill",
+"ipa": "pˈɪl",
+"keys": [
+"ipa:pˈɪl"
+],
+"current_text": "Say: pill.",
+"current_cut": "last",
+"current_say": "pill",
+"kind": "real",
+"arpa": "P IH1 L",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "pill"
+},
+{
+"w": "hell",
+"ipa": "hˈɛl",
+"keys": [
+"ipa:hˈɛl"
+],
+"current_text": "Say: hell.",
+"current_cut": "last",
+"current_say": "hell",
+"kind": "real",
+"arpa": "HH EH1 L",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "hell"
+},
+{
+"w": "boll",
+"ipa": "bˈɑl",
+"keys": [
+"ipa:bˈɑl"
+],
+"current_text": "Say: boll.",
+"current_cut": "last",
+"current_say": "boll",
+"kind": "real",
+"arpa": "B AA1 L",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "boll"
+},
+{
+"w": "moll",
+"ipa": "mˈɑl",
+"keys": [
+"ipa:mˈɑl"
+],
+"current_text": "Say: moll.",
+"current_cut": "last",
+"current_say": "moll",
+"kind": "real",
+"arpa": "M AA1 L",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "moll"
+},
+{
+"w": "miss",
+"ipa": "mˈɪs",
+"keys": [
+"ipa:mˈɪs"
+],
+"current_text": "Say: miss.",
+"current_cut": "last",
+"current_say": "miss",
+"kind": "real",
+"arpa": "M IH1 S",
+"arpa_source": "cmudict",
+"grapheme": "miss"
+},
+{
+"w": "cuss",
+"ipa": "kˈʌs",
+"keys": [
+"ipa:kˈʌs"
+],
+"current_text": "Say: cuss.",
+"current_cut": "last",
+"current_say": "cuss",
+"kind": "real",
+"arpa": "K AH1 S",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "cuss"
+},
+{
+"w": "muss",
+"ipa": "mˈʌs",
+"keys": [
+"ipa:mˈʌs"
+],
+"current_text": "Say: muss.",
+"current_cut": "last",
+"current_say": "muss",
+"kind": "pseudo",
+"arpa": "M AH1 S",
+"arpa_source": "course IPA",
+"grapheme": "muss"
+},
+{
+"w": "suzz",
+"ipa": "sˈʌz",
+"keys": [
+"ipa:sˈʌz"
+],
+"current_text": "Say: suzz.",
+"current_cut": "last",
+"current_say": "suzz",
+"kind": "pseudo",
+"arpa": "S AH1 Z",
+"arpa_source": "course IPA",
+"grapheme": "suzz"
+},
+{
+"w": "bazz",
+"ipa": "bˈæz",
+"keys": [
+"ipa:bˈæz"
+],
+"current_text": "Say: bazz.",
+"current_cut": "last",
+"current_say": "bazz",
+"kind": "pseudo",
+"arpa": "B AE1 Z",
+"arpa_source": "course IPA",
+"grapheme": "bazz"
+},
+{
+"w": "sazz",
+"ipa": "sˈæz",
+"keys": [
+"ipa:sˈæz"
+],
+"current_text": "Say: sazz.",
+"current_cut": "last",
+"current_say": "sazz",
+"kind": "pseudo",
+"arpa": "S AE1 Z",
+"arpa_source": "course IPA",
+"grapheme": "sazz"
+},
+{
+"w": "tats",
+"ipa": "tˈæts",
+"keys": [
+"ipa:tˈæts"
+],
+"current_text": "Say: tats.",
+"current_cut": "last",
+"current_say": "tats",
+"kind": "pseudo",
+"arpa": "T AE1 T S",
+"arpa_source": "course IPA",
+"grapheme": "tats"
+},
+{
+"w": "cots",
+"ipa": "kˈɑts",
+"keys": [
+"ipa:kˈɑts"
+],
+"current_text": "Say: cots.",
+"current_cut": "last",
+"current_say": "cots",
+"kind": "real",
+"arpa": "K AA1 T S",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "cots"
+},
+{
+"w": "tots",
+"ipa": "tˈɑts",
+"keys": [
+"ipa:tˈɑts"
+],
+"current_text": "Say: tots.",
+"current_cut": "last",
+"current_say": "tots",
+"kind": "real",
+"arpa": "T AA1 T S",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "tots"
+},
+{
+"w": "sugzz",
+"ipa": "sˈʌɡz",
+"keys": [
+"ipa:sˈʌɡz"
+],
+"current_text": "Say: sugs.",
+"current_cut": "last",
+"current_say": "sugs",
+"kind": "pseudo",
+"arpa": "S AH1 G Z",
+"arpa_source": "course IPA",
+"grapheme": "sugzz"
+},
+{
+"w": "bagzz",
+"ipa": "bˈæɡz",
+"keys": [
+"ipa:bˈæɡz"
+],
+"current_text": "Say: bags.",
+"current_cut": "last",
+"current_say": "bags",
+"kind": "pseudo",
+"arpa": "B AE1 G Z",
+"arpa_source": "course IPA",
+"grapheme": "bagzz"
+},
+{
+"w": "sagzz",
+"ipa": "sˈæɡz",
+"keys": [
+"ipa:sˈæɡz"
+],
+"current_text": "Say: sags.",
+"current_cut": "last",
+"current_say": "sags",
+"kind": "pseudo",
+"arpa": "S AE1 G Z",
+"arpa_source": "course IPA",
+"grapheme": "sagzz"
+},
+{
+"w": "hits",
+"ipa": "hˈɪts",
+"keys": [
+"ipa:hˈɪts"
+],
+"current_text": "Say: hits.",
+"current_cut": "last",
+"current_say": "hits",
+"kind": "real",
+"arpa": "HH IH1 T S",
+"arpa_source": "cmudict",
+"grapheme": "hits"
+},
+{
+"w": "pits",
+"ipa": "pˈɪts",
+"keys": [
+"ipa:pˈɪts"
+],
+"current_text": "Say: pits.",
+"current_cut": "last",
+"current_say": "pits",
+"kind": "real",
+"arpa": "P IH1 T S",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "pits"
+},
+{
+"w": "sodd",
+"ipa": "sˈɑdd",
+"keys": [
+"ipa:sˈɑdd"
+],
+"current_text": "Say: sodd.",
+"current_cut": "last",
+"current_say": "sodd",
+"kind": "pseudo",
+"arpa": "S AA1 D D",
+"arpa_source": "course IPA",
+"grapheme": "sodd"
+},
+{
+"w": "ladd",
+"ipa": "lˈædd",
+"keys": [
+"ipa:lˈædd"
+],
+"current_text": "Say: ladd.",
+"current_cut": "last",
+"current_say": "ladd",
+"kind": "real",
+"arpa": "L AE1 D D",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "ladd"
+},
+{
+"w": "sadd",
+"ipa": "sˈædd",
+"keys": [
+"ipa:sˈædd"
+],
+"current_text": "Say: sadd.",
+"current_cut": "last",
+"current_say": "sadd",
+"kind": "pseudo",
+"arpa": "S AE1 D D",
+"arpa_source": "course IPA",
+"grapheme": "sadd"
+},
+{
+"w": "fass",
+"ipa": "fˈæs",
+"keys": [
+"ipa:fˈæs"
+],
+"current_text": "Say: fass.",
+"current_cut": "last",
+"current_say": "fass",
+"kind": "real",
+"arpa": "F AE1 S",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "fass"
+},
+{
+"w": "nazz",
+"ipa": "nˈæz",
+"keys": [
+"ipa:nˈæz"
+],
+"current_text": "Say: nazz.",
+"current_cut": "last",
+"current_say": "nazz",
+"kind": "pseudo",
+"arpa": "N AE1 Z",
+"arpa_source": "course IPA",
+"grapheme": "nazz"
+},
+{
+"w": "siff",
+"ipa": "sˈɪf",
+"keys": [
+"ipa:sˈɪf"
+],
+"current_text": "Say: siff.",
+"current_cut": "last",
+"current_say": "siff",
+"kind": "pseudo",
+"arpa": "S IH1 F",
+"arpa_source": "course IPA",
+"grapheme": "siff"
+},
+{
+"w": "haff",
+"ipa": "hˈæf",
+"keys": [
+"ipa:hˈæf"
+],
+"current_text": "Say: haff.",
+"current_cut": "last",
+"current_say": "haff",
+"kind": "real",
+"arpa": "HH AE1 F",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "haff"
+},
+{
+"w": "sull",
+"ipa": "sˈʌl",
+"keys": [
+"ipa:sˈʌl"
+],
+"current_text": "Say: sull.",
+"current_cut": "last",
+"current_say": "sull",
+"kind": "pseudo",
+"arpa": "S AH1 L",
+"arpa_source": "course IPA",
+"grapheme": "sull"
+},
+{
+"w": "sall",
+"ipa": "sˈæl",
+"keys": [
+"ipa:sˈæl"
+],
+"current_text": "Say: sall.",
+"current_cut": "last",
+"current_say": "sall",
+"kind": "real",
+"arpa": "S AE1 L",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "sall"
+},
+{
+"w": "balzz",
+"ipa": "bˈælz",
+"keys": [
+"ipa:bˈælz"
+],
+"current_text": "Say: bals.",
+"current_cut": "last",
+"current_say": "bals",
+"kind": "pseudo",
+"arpa": "B AE1 L Z",
+"arpa_source": "course IPA",
+"grapheme": "balzz"
+},
+{
+"w": "salzz",
+"ipa": "sˈælz",
+"keys": [
+"ipa:sˈælz"
+],
+"current_text": "Say: sals.",
+"current_cut": "last",
+"current_say": "sals",
+"kind": "pseudo",
+"arpa": "S AE1 L Z",
+"arpa_source": "course IPA",
+"grapheme": "salzz"
+},
+{
+"w": "sots",
+"ipa": "sˈɑts",
+"keys": [
+"ipa:sˈɑts"
+],
+"current_text": "Say: sots.",
+"current_cut": "last",
+"current_say": "sots",
+"kind": "pseudo",
+"arpa": "S AA1 T S",
+"arpa_source": "course IPA",
+"grapheme": "sots"
+},
+{
+"w": "pots",
+"ipa": "pˈɑts",
+"keys": [
+"ipa:pˈɑts"
+],
+"current_text": "Say: pots.",
+"current_cut": "last",
+"current_say": "pots",
+"kind": "real",
+"arpa": "P AA1 T S",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "pots"
+},
+{
+"w": "hagzz",
+"ipa": "hˈæɡz",
+"keys": [
+"ipa:hˈæɡz"
+],
+"current_text": "Say: hags.",
+"current_cut": "last",
+"current_say": "hags",
+"kind": "pseudo",
+"arpa": "HH AE1 G Z",
+"arpa_source": "course IPA",
+"grapheme": "hagzz"
+},
+{
+"w": "talzz",
+"ipa": "tˈælz",
+"keys": [
+"ipa:tˈælz"
+],
+"current_text": "Say: tals.",
+"current_cut": "last",
+"current_say": "tals",
+"kind": "pseudo",
+"arpa": "T AE1 L Z",
+"arpa_source": "course IPA",
+"grapheme": "talzz"
+},
+{
+"w": "solzz",
+"ipa": "sˈɑlz",
+"keys": [
+"ipa:sˈɑlz"
+],
+"current_text": "Say: sols.",
+"current_cut": "last",
+"current_say": "sols",
+"kind": "pseudo",
+"arpa": "S AA1 L Z",
+"arpa_source": "course IPA",
+"grapheme": "solzz"
+},
+{
+"w": "dalzz",
+"ipa": "dˈælz",
+"keys": [
+"ipa:dˈælz"
+],
+"current_text": "Say: dals.",
+"current_cut": "last",
+"current_say": "dals",
+"kind": "pseudo",
+"arpa": "D AE1 L Z",
+"arpa_source": "course IPA",
+"grapheme": "dalzz"
+},
+{
+"w": "silzz",
+"ipa": "sˈɪlz",
+"keys": [
+"ipa:sˈɪlz"
+],
+"current_text": "Say: sils.",
+"current_cut": "last",
+"current_say": "sils",
+"kind": "pseudo",
+"arpa": "S IH1 L Z",
+"arpa_source": "course IPA",
+"grapheme": "silzz"
+},
+{
+"w": "falzz",
+"ipa": "fˈælz",
+"keys": [
+"ipa:fˈælz"
+],
+"current_text": "Say: fals.",
+"current_cut": "last",
+"current_say": "fals",
+"kind": "pseudo",
+"arpa": "F AE1 L Z",
+"arpa_source": "course IPA",
+"grapheme": "falzz"
+},
+{
+"w": "pull",
+"ipa": "pˈʌl",
+"keys": [
+"ipa:pˈʌl"
+],
+"current_text": "Say: pull.",
+"current_cut": "last",
+"current_say": "pull",
+"kind": "real",
+"arpa": "P UH1 L",
+"arpa_source": "cmudict",
+"grapheme": "pull"
+},
+{
+"w": "fall",
+"ipa": "fˈæl",
+"keys": [
+"ipa:fˈæl"
+],
+"current_text": "Say: fall.",
+"current_cut": "last",
+"current_say": "fall",
+"kind": "real",
+"arpa": "F AO1 L",
+"arpa_source": "cmudict",
+"grapheme": "fall"
+},
+{
+"w": "jim",
+"ipa": "ʤˈɪm",
+"keys": [
+"ipa:ʤˈɪm"
+],
+"current_text": "Say: jim.",
+"current_cut": "last",
+"current_say": "jim",
+"kind": "real",
+"arpa": "JH IH1 M",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "jim"
+},
+{
+"w": "jag",
+"ipa": "ʤˈæɡ",
+"keys": [
+"ipa:ʤˈæɡ"
+],
+"current_text": "Say: jag.",
+"current_cut": "last",
+"current_say": "jag",
+"kind": "pseudo",
+"arpa": "JH AE1 G",
+"arpa_source": "course IPA",
+"grapheme": "jag"
+},
+{
+"w": "gob",
+"ipa": "ɡˈɑb",
+"keys": [
+"ipa:ɡˈɑb"
+],
+"current_text": "Say: gob.",
+"current_cut": "last",
+"current_say": "gob",
+"kind": "real",
+"arpa": "G AA1 B",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "gob"
+},
+{
+"w": "gab",
+"ipa": "ɡˈæb",
+"keys": [
+"ipa:ɡˈæb"
+],
+"current_text": "Say: gab.",
+"current_cut": "last",
+"current_say": "gab",
+"kind": "real",
+"arpa": "G AE1 B",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "gab"
+},
+{
+"w": "nab",
+"ipa": "nˈæb",
+"keys": [
+"ipa:nˈæb"
+],
+"current_text": "Say: nab.",
+"current_cut": "last",
+"current_say": "nab",
+"kind": "real",
+"arpa": "N AE1 B",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "nab"
+},
+{
+"w": "jib",
+"ipa": "ʤˈɪb",
+"keys": [
+"ipa:ʤˈɪb"
+],
+"current_text": "Say: jib.",
+"current_cut": "last",
+"current_say": "jib",
+"kind": "real",
+"arpa": "JH IH1 B",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "jib"
+},
+{
+"w": "nib",
+"ipa": "nˈɪb",
+"keys": [
+"ipa:nˈɪb"
+],
+"current_text": "Say: nib.",
+"current_cut": "last",
+"current_say": "nib",
+"kind": "real",
+"arpa": "N IH1 B",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "nib"
+},
+{
+"w": "vin",
+"ipa": "vˈɪn",
+"keys": [
+"ipa:vˈɪn"
+],
+"current_text": "Say: vin.",
+"current_cut": "last",
+"current_say": "vin",
+"kind": "real",
+"arpa": "V IH1 N",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "vin"
+},
+{
+"w": "gag",
+"ipa": "ɡˈæɡ",
+"keys": [
+"ipa:ɡˈæɡ"
+],
+"current_text": "Say: gag.",
+"current_cut": "last",
+"current_say": "gag",
+"kind": "real",
+"arpa": "G AE1 G",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "gag"
+},
+{
+"w": "gig",
+"ipa": "ɡˈɪɡ",
+"keys": [
+"ipa:ɡˈɪɡ"
+],
+"current_text": "Say: gig.",
+"current_cut": "last",
+"current_say": "gig",
+"kind": "real",
+"arpa": "G IH1 G",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "gig"
+},
+{
+"w": "wit",
+"ipa": "wˈɪt",
+"keys": [
+"ipa:wˈɪt"
+],
+"current_text": "Say: wit.",
+"current_cut": "last",
+"current_say": "wit",
+"kind": "real",
+"arpa": "W IH1 T",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "wit"
+},
+{
+"w": "won",
+"ipa": "wˈɑn",
+"keys": [
+"ipa:wˈɑn"
+],
+"current_text": "Say: won.",
+"current_cut": "last",
+"current_say": "won",
+"kind": "real",
+"arpa": "W AH1 N",
+"arpa_source": "cmudict",
+"grapheme": "won"
+},
+{
+"w": "seb",
+"ipa": "sˈɛb",
+"keys": [
+"ipa:sˈɛb"
+],
+"current_text": "Say: seb.",
+"current_cut": "last",
+"current_say": "seb",
+"kind": "pseudo",
+"arpa": "S EH1 B",
+"arpa_source": "course IPA",
+"grapheme": "seb"
+},
+{
+"w": "sab",
+"ipa": "sˈæb",
+"keys": [
+"ipa:sˈæb"
+],
+"current_text": "Say: sab.",
+"current_cut": "last",
+"current_say": "sab",
+"kind": "pseudo",
+"arpa": "S AE1 B",
+"arpa_source": "course IPA",
+"grapheme": "sab"
+},
+{
+"w": "will",
+"ipa": "wˈɪl",
+"keys": [
+"ipa:wˈɪl"
+],
+"current_text": "Say: will.",
+"current_cut": "last",
+"current_say": "will",
+"kind": "real",
+"arpa": "W IH1 L",
+"arpa_source": "cmudict",
+"grapheme": "will"
+},
+{
+"w": "sov",
+"ipa": "sˈɑv",
+"keys": [
+"ipa:sˈɑv"
+],
+"current_text": "Say: sov.",
+"current_cut": "last",
+"current_say": "sov",
+"kind": "pseudo",
+"arpa": "S AA1 V",
+"arpa_source": "course IPA",
+"grapheme": "sov"
+},
+{
+"w": "jav",
+"ipa": "ʤˈæv",
+"keys": [
+"ipa:ʤˈæv"
+],
+"current_text": "Say: jav.",
+"current_cut": "last",
+"current_say": "jav",
+"kind": "pseudo",
+"arpa": "JH AE1 V",
+"arpa_source": "course IPA",
+"grapheme": "jav"
+},
+{
+"w": "sav",
+"ipa": "sˈæv",
+"keys": [
+"ipa:sˈæv"
+],
+"current_text": "Say: sav.",
+"current_cut": "last",
+"current_say": "sav",
+"kind": "pseudo",
+"arpa": "S AE1 V",
+"arpa_source": "course IPA",
+"grapheme": "sav"
+},
+{
+"w": "wib",
+"ipa": "wˈɪb",
+"keys": [
+"ipa:wˈɪb"
+],
+"current_text": "Say: wib.",
+"current_cut": "last",
+"current_say": "wib",
+"kind": "pseudo",
+"arpa": "W IH1 B",
+"arpa_source": "course IPA",
+"grapheme": "wib"
+},
+{
+"w": "sib",
+"ipa": "sˈɪb",
+"keys": [
+"ipa:sˈɪb"
+],
+"current_text": "Say: sib.",
+"current_cut": "last",
+"current_say": "sib",
+"kind": "real",
+"arpa": "S IH1 B",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "sib"
+},
+{
+"w": "tob",
+"ipa": "tˈɑb",
+"keys": [
+"ipa:tˈɑb"
+],
+"current_text": "Say: tob.",
+"current_cut": "last",
+"current_say": "tob",
+"kind": "pseudo",
+"arpa": "T AA1 B",
+"arpa_source": "course IPA",
+"grapheme": "tob"
+},
+{
+"w": "vib",
+"ipa": "vˈɪb",
+"keys": [
+"ipa:vˈɪb"
+],
+"current_text": "Say: vib.",
+"current_cut": "last",
+"current_say": "vib",
+"kind": "pseudo",
+"arpa": "V IH1 B",
+"arpa_source": "course IPA",
+"grapheme": "vib"
+},
+{
+"w": "tib",
+"ipa": "tˈɪb",
+"keys": [
+"ipa:tˈɪb"
+],
+"current_text": "Say: tib.",
+"current_cut": "last",
+"current_say": "tib",
+"kind": "pseudo",
+"arpa": "T IH1 B",
+"arpa_source": "course IPA",
+"grapheme": "tib"
+},
+{
+"w": "tum",
+"ipa": "tˈʌm",
+"keys": [
+"ipa:tˈʌm"
+],
+"current_text": "Say: tum.",
+"current_cut": "last",
+"current_say": "tum",
+"kind": "pseudo",
+"arpa": "T AH1 M",
+"arpa_source": "course IPA",
+"grapheme": "tum"
+},
+{
+"w": "tim",
+"ipa": "tˈɪm",
+"keys": [
+"ipa:tˈɪm"
+],
+"current_text": "Say: tim.",
+"current_cut": "last",
+"current_say": "tim",
+"kind": "real",
+"arpa": "T IH1 M",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "tim"
+},
+{
+"w": "wav",
+"ipa": "wˈæv",
+"keys": [
+"ipa:wˈæv"
+],
+"current_text": "Say: wav.",
+"current_cut": "last",
+"current_say": "wav",
+"kind": "pseudo",
+"arpa": "W AE1 V",
+"arpa_source": "course IPA",
+"grapheme": "wav"
+},
+{
+"w": "hod",
+"ipa": "hˈɑd",
+"keys": [
+"ipa:hˈɑd"
+],
+"current_text": "Say: hod.",
+"current_cut": "last",
+"current_say": "hod",
+"kind": "pseudo",
+"arpa": "HH AA1 D",
+"arpa_source": "course IPA",
+"grapheme": "hod"
+},
+{
+"w": "sox",
+"ipa": "sˈɑks",
+"keys": [
+"ipa:sˈɑks"
+],
+"current_text": "Say: sox.",
+"current_cut": "last",
+"current_say": "sox",
+"kind": "real",
+"arpa": "S AA1 K S",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "sox"
+},
+{
+"w": "bax",
+"ipa": "bˈæks",
+"keys": [
+"ipa:bˈæks"
+],
+"current_text": "Say: bax.",
+"current_cut": "last",
+"current_say": "bax",
+"kind": "real",
+"arpa": "B AE1 K S",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "bax"
+},
+{
+"w": "sax",
+"ipa": "sˈæks",
+"keys": [
+"ipa:sˈæks"
+],
+"current_text": "Say: sax.",
+"current_cut": "last",
+"current_say": "sax",
+"kind": "real",
+"arpa": "S AE1 K S",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "sax"
+},
+{
+"w": "fax",
+"ipa": "fˈæks",
+"keys": [
+"ipa:fˈæks"
+],
+"current_text": "Say: fax.",
+"current_cut": "last",
+"current_say": "fax",
+"kind": "real",
+"arpa": "F AE1 K S",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "fax"
+},
+{
+"w": "max",
+"ipa": "mˈæks",
+"keys": [
+"ipa:mˈæks"
+],
+"current_text": "Say: max.",
+"current_cut": "last",
+"current_say": "max",
+"kind": "real",
+"arpa": "M AE1 K S",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "max"
+},
+{
+"w": "clunk",
+"ipa": "klˈʌnk",
+"keys": [
+"ipa:klˈʌnk"
+],
+"current_text": "Say: clunk.",
+"current_cut": "last",
+"current_say": "clunk",
+"kind": "real",
+"arpa": "K L AH1 N K",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "clunk"
+},
+{
+"w": "chink",
+"ipa": "khˈɪnk",
+"keys": [
+"ipa:khˈɪnk"
+],
+"current_text": "Say: chink.",
+"current_cut": "last",
+"current_say": "chink",
+"kind": "real",
+"arpa": "K HH IH1 N K",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "chink"
+},
+{
+"w": "clink",
+"ipa": "klˈɪnk",
+"keys": [
+"ipa:klˈɪnk"
+],
+"current_text": "Say: clink.",
+"current_cut": "last",
+"current_say": "clink",
+"kind": "real",
+"arpa": "K L IH1 N K",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "clink"
+},
+{
+"w": "yass",
+"ipa": "jˈæs",
+"keys": [
+"ipa:jˈæs"
+],
+"current_text": "Say: yass.",
+"current_cut": "last",
+"current_say": "yass",
+"kind": "real",
+"arpa": "Y AE1 S",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "yass"
+},
+{
+"w": "yock",
+"ipa": "jˈɑk",
+"keys": [
+"ipa:jˈɑk"
+],
+"current_text": "Say: yock.",
+"current_cut": "last",
+"current_say": "yock",
+"kind": "pseudo",
+"arpa": "Y AA1 K",
+"arpa_source": "course IPA",
+"grapheme": "yock"
+},
+{
+"w": "rum",
+"ipa": "ɹˈʌm",
+"keys": [
+"ipa:ɹˈʌm"
+],
+"current_text": "Say: rum.",
+"current_cut": "last",
+"current_say": "rum",
+"kind": "real",
+"arpa": "R AH1 M",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "rum"
+},
+{
+"w": "yam",
+"ipa": "jˈæm",
+"keys": [
+"ipa:jˈæm"
+],
+"current_text": "Say: yam.",
+"current_cut": "last",
+"current_say": "yam",
+"kind": "real",
+"arpa": "Y AE1 M",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "yam"
+},
+{
+"w": "sizz",
+"ipa": "sˈɪz",
+"keys": [
+"ipa:sˈɪz"
+],
+"current_text": "Say: siz.",
+"current_cut": "last",
+"current_say": "siz",
+"kind": "pseudo",
+"arpa": "S IH1 Z",
+"arpa_source": "course IPA",
+"grapheme": "sizz"
+},
+{
+"w": "quazz",
+"ipa": "kwˈæz",
+"keys": [
+"ipa:kwˈæz"
+],
+"current_text": "Say: quazz.",
+"current_cut": "last",
+"current_say": "quazz",
+"kind": "pseudo",
+"arpa": "K W AE1 Z",
+"arpa_source": "course IPA",
+"grapheme": "quazz"
+},
+{
+"w": "quat",
+"ipa": "kwˈæt",
+"keys": [
+"ipa:kwˈæt"
+],
+"current_text": "Say: quat.",
+"current_cut": "last",
+"current_say": "quat",
+"kind": "pseudo",
+"arpa": "K W AE1 T",
+"arpa_source": "course IPA",
+"grapheme": "quat"
+},
+{
+"w": "wix",
+"ipa": "wˈɪks",
+"keys": [
+"ipa:wˈɪks"
+],
+"current_text": "Say: wix.",
+"current_cut": "last",
+"current_say": "wix",
+"kind": "real",
+"arpa": "W IH1 K S",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "wix"
+},
+{
+"w": "jizz",
+"ipa": "ʤˈɪz",
+"keys": [
+"ipa:ʤˈɪz"
+],
+"current_text": "Say: jiz.",
+"current_cut": "last",
+"current_say": "jiz",
+"kind": "pseudo",
+"arpa": "JH IH1 Z",
+"arpa_source": "course IPA",
+"grapheme": "jizz"
+},
+{
+"w": "tex",
+"ipa": "tˈɛks",
+"keys": [
+"ipa:tˈɛks"
+],
+"current_text": "Say: tex.",
+"current_cut": "last",
+"current_say": "tex",
+"kind": "real",
+"arpa": "T EH1 K S",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "tex"
+},
+{
+"w": "vax",
+"ipa": "vˈæks",
+"keys": [
+"ipa:vˈæks"
+],
+"current_text": "Say: vax.",
+"current_cut": "last",
+"current_say": "vax",
+"kind": "real",
+"arpa": "V AE1 K S",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "vax"
+},
+{
+"w": "tax",
+"ipa": "tˈæks",
+"keys": [
+"ipa:tˈæks"
+],
+"current_text": "Say: tax.",
+"current_cut": "last",
+"current_say": "tax",
+"kind": "real",
+"arpa": "T AE1 K S",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "tax"
+},
+{
+"w": "fazz",
+"ipa": "fˈæz",
+"keys": [
+"ipa:fˈæz"
+],
+"current_text": "Say: fazz.",
+"current_cut": "last",
+"current_say": "fazz",
+"kind": "pseudo",
+"arpa": "F AE1 Z",
+"arpa_source": "course IPA",
+"grapheme": "fazz"
+},
+{
+"w": "tox",
+"ipa": "tˈɑks",
+"keys": [
+"ipa:tˈɑks"
+],
+"current_text": "Say: tox.",
+"current_cut": "last",
+"current_say": "tox",
+"kind": "pseudo",
+"arpa": "T AA1 K S",
+"arpa_source": "course IPA",
+"grapheme": "tox"
+},
+{
+"w": "zix",
+"ipa": "zˈɪks",
+"keys": [
+"ipa:zˈɪks"
+],
+"current_text": "Say: zix.",
+"current_cut": "last",
+"current_say": "zix",
+"kind": "pseudo",
+"arpa": "Z IH1 K S",
+"arpa_source": "course IPA",
+"grapheme": "zix"
+},
+{
+"w": "tix",
+"ipa": "tˈɪks",
+"keys": [
+"ipa:tˈɪks"
+],
+"current_text": "Say: tix.",
+"current_cut": "last",
+"current_say": "tix",
+"kind": "pseudo",
+"arpa": "T IH1 K S",
+"arpa_source": "course IPA",
+"grapheme": "tix"
+},
+{
+"w": "quib",
+"ipa": "kwˈɪb",
+"keys": [
+"ipa:kwˈɪb"
+],
+"current_text": "Say: quib.",
+"current_cut": "last",
+"current_say": "quib",
+"kind": "pseudo",
+"arpa": "K W IH1 B",
+"arpa_source": "course IPA",
+"grapheme": "quib"
+},
+{
+"w": "yog",
+"ipa": "jˈɑɡ",
+"keys": [
+"ipa:jˈɑɡ"
+],
+"current_text": "Say: yog.",
+"current_cut": "last",
+"current_say": "yog",
+"kind": "pseudo",
+"arpa": "Y AA1 G",
+"arpa_source": "course IPA",
+"grapheme": "yog"
+},
+{
+"w": "pex",
+"ipa": "pˈɛks",
+"keys": [
+"ipa:pˈɛks"
+],
+"current_text": "Say: pex.",
+"current_cut": "last",
+"current_say": "pex",
+"kind": "pseudo",
+"arpa": "P EH1 K S",
+"arpa_source": "course IPA",
+"grapheme": "pex"
+},
+{
+"w": "fux",
+"ipa": "fˈʌks",
+"keys": [
+"ipa:fˈʌks"
+],
+"current_text": "Say: fux.",
+"current_cut": "last",
+"current_say": "fux",
+"kind": "pseudo",
+"arpa": "F AH1 K S",
+"arpa_source": "course IPA",
+"grapheme": "fux"
+},
+{
+"w": "pux",
+"ipa": "pˈʌks",
+"keys": [
+"ipa:pˈʌks"
+],
+"current_text": "Say: pux.",
+"current_cut": "last",
+"current_say": "pux",
+"kind": "pseudo",
+"arpa": "P AH1 K S",
+"arpa_source": "course IPA",
+"grapheme": "pux"
+},
+{
+"w": "pix",
+"ipa": "pˈɪks",
+"keys": [
+"ipa:pˈɪks"
+],
+"current_text": "Say: pix.",
+"current_cut": "last",
+"current_say": "pix",
+"kind": "real",
+"arpa": "P IH1 K S",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "pix"
+},
+{
+"w": "zog",
+"ipa": "zˈɑɡ",
+"keys": [
+"ipa:zˈɑɡ"
+],
+"current_text": "Say: zog.",
+"current_cut": "last",
+"current_say": "zog",
+"kind": "pseudo",
+"arpa": "Z AA1 G",
+"arpa_source": "course IPA",
+"grapheme": "zog"
+},
+{
+"w": "hizz",
+"ipa": "hˈɪz",
+"keys": [
+"ipa:hˈɪz"
+],
+"current_text": "Say: hizz.",
+"current_cut": "last",
+"current_say": "hizz",
+"kind": "pseudo",
+"arpa": "HH IH1 Z",
+"arpa_source": "course IPA",
+"grapheme": "hizz"
+},
+{
+"w": "saps",
+"ipa": "sˈæps",
+"keys": [
+"ipa:sˈæps"
+],
+"current_text": "Say: saps.",
+"current_cut": "last",
+"current_say": "saps",
+"kind": "real",
+"arpa": "S AE1 P S",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "saps"
+},
+{
+"w": "nips",
+"ipa": "nˈɪps",
+"keys": [
+"ipa:nˈɪps"
+],
+"current_text": "Say: nips.",
+"current_cut": "last",
+"current_say": "nips",
+"kind": "real",
+"arpa": "N IH1 P S",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "nips"
+},
+{
+"w": "sips",
+"ipa": "sˈɪps",
+"keys": [
+"ipa:sˈɪps"
+],
+"current_text": "Say: sips.",
+"current_cut": "last",
+"current_say": "sips",
+"kind": "real",
+"arpa": "S IH1 P S",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "sips"
+},
+{
+"w": "sups",
+"ipa": "sˈʌps",
+"keys": [
+"ipa:sˈʌps"
+],
+"current_text": "Say: sups.",
+"current_cut": "last",
+"current_say": "sups",
+"kind": "pseudo",
+"arpa": "S AH1 P S",
+"arpa_source": "course IPA",
+"grapheme": "sups"
+},
+{
+"w": "paps",
+"ipa": "pˈæps",
+"keys": [
+"ipa:pˈæps"
+],
+"current_text": "Say: paps.",
+"current_cut": "last",
+"current_say": "paps",
+"kind": "pseudo",
+"arpa": "P AE1 P S",
+"arpa_source": "course IPA",
+"grapheme": "paps"
+},
+{
+"w": "quatss",
+"ipa": "kwˈæts",
+"keys": [
+"ipa:kwˈæts"
+],
+"current_text": "Say: quatss.",
+"current_cut": "last",
+"current_say": "quatss",
+"kind": "pseudo",
+"arpa": "K W AE1 T S",
+"arpa_source": "course IPA",
+"grapheme": "quatss"
+},
+{
+"w": "satss",
+"ipa": "sˈæts",
+"keys": [
+"ipa:sˈæts"
+],
+"current_text": "Say: satss.",
+"current_cut": "last",
+"current_say": "satss",
+"kind": "pseudo",
+"arpa": "S AE1 T S",
+"arpa_source": "course IPA",
+"grapheme": "satss"
+},
+{
+"w": "hes",
+"ipa": "hˈɛs",
+"keys": [
+"ipa:hˈɛs"
+],
+"current_text": "Say: hes.",
+"current_cut": "last",
+"current_say": "hes",
+"kind": "pseudo",
+"arpa": "HH EH1 S",
+"arpa_source": "course IPA",
+"grapheme": "hes"
+},
+{
+"w": "mass",
+"ipa": "mˈæs",
+"keys": [
+"ipa:mˈæs"
+],
+"current_text": "Say: mass.",
+"current_cut": "last",
+"current_say": "mass",
+"kind": "real",
+"arpa": "M AE1 S",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "mass"
+},
+{
+"w": "has",
+"ipa": "hˈæs",
+"keys": [
+"ipa:hˈæs"
+],
+"current_text": "Say: hass.",
+"current_cut": "last",
+"current_say": "hass",
+"kind": "real",
+"arpa": "HH AE1 S",
+"arpa_source": "course IPA",
+"grapheme": "HAS"
+},
+{
+"w": "pax",
+"ipa": "pˈæks",
+"keys": [
+"ipa:pˈæks"
+],
+"current_text": "Say: pax.",
+"current_cut": "last",
+"current_say": "pax",
+"kind": "real",
+"arpa": "P AE1 K S",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "pax"
+},
+{
+"w": "dix",
+"ipa": "dˈɪks",
+"keys": [
+"ipa:dˈɪks"
+],
+"current_text": "Say: dix.",
+"current_cut": "last",
+"current_say": "dix",
+"kind": "real",
+"arpa": "D IH1 K S",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "dix"
+},
+{
+"w": "zab",
+"ipa": "zˈæb",
+"keys": [
+"ipa:zˈæb"
+],
+"current_text": "Say: zab.",
+"current_cut": "last",
+"current_say": "zab",
+"kind": "pseudo",
+"arpa": "Z AE1 B",
+"arpa_source": "course IPA",
+"grapheme": "zab"
+},
+{
+"w": "guck",
+"ipa": "ɡˈʌk",
+"keys": [
+"ipa:ɡˈʌk"
+],
+"current_text": "Say: guck.",
+"current_cut": "last",
+"current_say": "guck",
+"kind": "real",
+"arpa": "G AH1 K",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "guck"
+},
+{
+"w": "weck",
+"ipa": "wˈɛk",
+"keys": [
+"ipa:wˈɛk"
+],
+"current_text": "Say: weck.",
+"current_cut": "last",
+"current_say": "weck",
+"kind": "real",
+"arpa": "W EH1 K",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "weck"
+},
+{
+"w": "geck",
+"ipa": "ɡˈɛk",
+"keys": [
+"ipa:ɡˈɛk"
+],
+"current_text": "Say: geck.",
+"current_cut": "last",
+"current_say": "geck",
+"kind": "real",
+"arpa": "G EH1 K",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "geck"
+},
+{
+"w": "rob",
+"ipa": "ɹˈɑb",
+"keys": [
+"ipa:ɹˈɑb"
+],
+"current_text": "Say: rob.",
+"current_cut": "last",
+"current_say": "rob",
+"kind": "real",
+"arpa": "R AA1 B",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "rob"
+},
+{
+"w": "bib",
+"ipa": "bˈɪb",
+"keys": [
+"ipa:bˈɪb"
+],
+"current_text": "Say: bib.",
+"current_cut": "last",
+"current_say": "bib",
+"kind": "real",
+"arpa": "B IH1 B",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "bib"
+},
+{
+"w": "rib",
+"ipa": "ɹˈɪb",
+"keys": [
+"ipa:ɹˈɪb"
+],
+"current_text": "Say: rib.",
+"current_cut": "last",
+"current_say": "rib",
+"kind": "real",
+"arpa": "R IH1 B",
+"arpa_source": "level1-app (course IPA)",
+"grapheme": "rib"
+},
+{
+"w": "station",
+"grapheme": "station",
+"arpa": "S T EY1 SH AH0 N",
+"kind": "real",
+"hint": null,
+"arpa_source": "cmudict",
+"current_text": "Say: station.",
+"current_cut": "last",
+"current_say": "station",
+"keys": []
+},
+{
+"w": "through",
+"grapheme": "through",
+"arpa": "TH R UW1",
+"kind": "real",
+"hint": null,
+"arpa_source": "cmudict",
+"current_text": "Say: through.",
+"current_cut": "last",
+"current_say": "through",
+"keys": []
+},
+{
+"w": "garden",
+"grapheme": "garden",
+"arpa": "G AA1 R D AH0 N",
+"kind": "real",
+"hint": null,
+"arpa_source": "cmudict",
+"current_text": "Say: garden.",
+"current_cut": "last",
+"current_say": "garden",
+"keys": []
+},
+{
+"w": "read",
+"grapheme": "read",
+"arpa": "R IY1 D",
+"kind": "real",
+"hint": "present: 'I can read'",
+"arpa_source": "cmudict",
+"current_text": "Say: read.",
+"current_cut": "last",
+"current_say": "read",
+"keys": []
+},
+{
+"w": "live",
+"grapheme": "live",
+"arpa": "L IH1 V",
+"kind": "real",
+"hint": "verb: 'we live here'",
+"arpa_source": "cmudict",
+"current_text": "Say: live.",
+"current_cut": "last",
+"current_say": "live",
+"keys": []
+},
+{
+"w": "wind",
+"grapheme": "wind",
+"arpa": "W AY1 N D",
+"kind": "real",
+"hint": "verb: 'wind the clock' (L3.16 -ind)",
+"arpa_source": "cmudict",
+"current_text": "Say: wind.",
+"current_cut": "last",
+"current_say": "wind",
+"keys": []
+},
+{
+"w": "close",
+"grapheme": "close",
+"arpa": "K L OW1 Z",
+"kind": "real",
+"hint": "verb: 'close the door'",
+"arpa_source": "cmudict",
+"current_text": "Say: close.",
+"current_cut": "last",
+"current_say": "close",
+"keys": []
+},
+{
+"w": "use",
+"grapheme": "use",
+"arpa": "Y UW1 Z",
+"kind": "real",
+"hint": "verb: 'use a pen'",
+"arpa_source": "cmudict",
+"current_text": "Say: use.",
+"current_cut": "last",
+"current_say": "use",
+"keys": []
+},
+{
+"w": "said",
+"grapheme": "said",
+"arpa": "S EH1 D",
+"kind": "real",
+"hint": null,
+"arpa_source": "cmudict",
+"current_text": "Say: said.",
+"current_cut": "last",
+"current_say": "said",
+"keys": []
+},
+{
+"w": "was",
+"grapheme": "was",
+"arpa": "W AA1 Z",
+"kind": "real",
+"hint": null,
+"arpa_source": "cmudict",
+"current_text": "Say: was.",
+"current_cut": "last",
+"current_say": "was",
+"keys": []
+},
+{
+"w": "flobin",
+"grapheme": "flobin",
+"arpa": "F L OW1 B IH0 N",
+"kind": "pseudo",
+"hint": null,
+"arpa_source": "gpc-composed",
+"current_text": "Say: flobin.",
+"current_cut": "last",
+"current_say": "flobin",
+"keys": []
+},
+{
+"w": "pademic",
+"grapheme": "pademic",
+"arpa": "P EY1 D IY0 M IH0 K",
+"kind": "pseudo",
+"hint": null,
+"arpa_source": "gpc-composed",
+"current_text": "Say: pademic.",
+"current_cut": "last",
+"current_say": "pademic",
+"keys": []
+}
+]

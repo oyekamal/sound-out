@@ -1,0 +1,1462 @@
+{
+ "voice": "River",
+ "rows": [
+  {
+   "word": "station",
+   "kind": "real",
+   "hint": null,
+   "arpa": "S T EY SH AH N",
+   "ipa": "steɪʃən",
+   "current_text": "Say: station.",
+   "dict_text": "Say: station.",
+   "opts": [
+    {
+     "set": "v4 + CMU dictionary",
+     "file": "compare/f7e9887261de.ogg"
+    },
+    {
+     "set": "v4 current",
+     "file": "compare/06075def8d73.ogg"
+    }
+   ],
+   "phonemes": [
+    {
+     "id": "s",
+     "label": "/s/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/8e4dd85bb162.ogg"
+    },
+    {
+     "id": "t",
+     "label": "/t/",
+     "model": "eleven_v4",
+     "form": "ipa",
+     "file": "compare/6c576d4352cd.ogg"
+    },
+    {
+     "id": "ey",
+     "label": "/eɪ/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/20f146a0187b.ogg"
+    },
+    {
+     "id": "sh",
+     "label": "/ʃ/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/90b70dc4a876.ogg"
+    },
+    {
+     "id": "n",
+     "label": "/n/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/f8d741c35c12.ogg"
+    }
+   ],
+   "measures": {
+    "current": {
+     "ms": 647,
+     "lufs": -21.6,
+     "rms_db": -23.8,
+     "F1F2": [
+      290,
+      2471
+     ]
+    },
+    "dict": {
+     "ms": 691,
+     "lufs": -20.1,
+     "rms_db": -22.7,
+     "F1F2": [
+      504,
+      2446
+     ]
+    },
+    "bark_between": 1.95
+   }
+  },
+  {
+   "word": "through",
+   "kind": "real",
+   "hint": null,
+   "arpa": "TH R UW",
+   "ipa": "θɹu",
+   "current_text": "Say: through.",
+   "dict_text": "Say: through.",
+   "opts": [
+    {
+     "set": "v4 current",
+     "file": "compare/b65aae0f055d.ogg"
+    },
+    {
+     "set": "v4 + CMU dictionary",
+     "file": "compare/593fcd4de662.ogg"
+    }
+   ],
+   "phonemes": [
+    {
+     "id": "th",
+     "label": "/θ/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/1e965cccddff.ogg"
+    },
+    {
+     "id": "r",
+     "label": "/ɹ/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/94d196e5dd9e.ogg"
+    },
+    {
+     "id": "uw",
+     "label": "/u/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/9624a566df1f.ogg"
+    }
+   ],
+   "measures": {
+    "current": {
+     "ms": 498,
+     "lufs": -23.0,
+     "rms_db": -23.8,
+     "F1F2": [
+      323,
+      1324
+     ]
+    },
+    "dict": {
+     "ms": 578,
+     "lufs": -22.7,
+     "rms_db": -23.9,
+     "F1F2": [
+      391,
+      1372
+     ]
+    },
+    "bark_between": 0.67
+   }
+  },
+  {
+   "word": "garden",
+   "kind": "real",
+   "hint": null,
+   "arpa": "G AA R D AH N",
+   "ipa": "ɡɑɹdən",
+   "current_text": "Say: garden.",
+   "dict_text": "Say: garden.",
+   "opts": [
+    {
+     "set": "v4 current",
+     "file": "compare/98a5c4b515de.ogg"
+    },
+    {
+     "set": "v4 + CMU dictionary",
+     "file": "compare/a7ed2c1f1aba.ogg"
+    }
+   ],
+   "phonemes": [
+    {
+     "id": "r",
+     "label": "/ɹ/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/94d196e5dd9e.ogg"
+    },
+    {
+     "id": "n",
+     "label": "/n/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/f8d741c35c12.ogg"
+    }
+   ],
+   "measures": {
+    "current": {
+     "ms": 588,
+     "lufs": -18.7,
+     "rms_db": -20.2,
+     "F1F2": [
+      725,
+      1718
+     ]
+    },
+    "dict": {
+     "ms": 935,
+     "lufs": -20.8,
+     "rms_db": -22.3,
+     "F1F2": [
+      548,
+      1659
+     ]
+    },
+    "bark_between": 1.45
+   }
+  },
+  {
+   "word": "read",
+   "kind": "real",
+   "hint": "present: 'I can read'",
+   "arpa": "R IY D",
+   "ipa": "ɹid",
+   "current_text": "Say: read.",
+   "dict_text": "Say: read.",
+   "opts": [
+    {
+     "set": "v4 current",
+     "file": "compare/41e970858030.ogg"
+    },
+    {
+     "set": "v4 + CMU dictionary",
+     "file": "compare/3179e041f33d.ogg"
+    }
+   ],
+   "phonemes": [
+    {
+     "id": "r",
+     "label": "/ɹ/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/94d196e5dd9e.ogg"
+    },
+    {
+     "id": "iy",
+     "label": "/i/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/82e269f5b574.ogg"
+    }
+   ],
+   "measures": {
+    "current": {
+     "ms": 506,
+     "lufs": -22.6,
+     "rms_db": -23.2,
+     "F1F2": [
+      279,
+      2257
+     ]
+    },
+    "dict": {
+     "ms": 512,
+     "lufs": -22.4,
+     "rms_db": -22.9,
+     "F1F2": [
+      276,
+      2592
+     ]
+    },
+    "bark_between": 0.86
+   }
+  },
+  {
+   "word": "live",
+   "kind": "real",
+   "hint": "verb: 'we live here'",
+   "arpa": "L IH V",
+   "ipa": "lɪv",
+   "current_text": "Say: live.",
+   "dict_text": "Say: live.",
+   "opts": [
+    {
+     "set": "v4 current",
+     "file": "compare/7176d14d334e.ogg"
+    },
+    {
+     "set": "v4 + CMU dictionary",
+     "file": "compare/be0d5cf14cd1.ogg"
+    }
+   ],
+   "phonemes": [
+    {
+     "id": "l",
+     "label": "/l/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/3ef7b7ff91ae.ogg"
+    },
+    {
+     "id": "ih",
+     "label": "/ɪ/",
+     "model": "eleven_flash_v2",
+     "form": "cmu",
+     "file": "compare/d11a64512bc8.ogg"
+    },
+    {
+     "id": "v",
+     "label": "/v/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/14e109070b87.ogg"
+    }
+   ],
+   "measures": {
+    "current": {
+     "ms": 520,
+     "lufs": -21.2,
+     "rms_db": -21.6,
+     "F1F2": [
+      482,
+      1507
+     ],
+     "bark_to_ref": 2.73
+    },
+    "dict": {
+     "ms": 508,
+     "lufs": -21.3,
+     "rms_db": -21.5,
+     "F1F2": [
+      380,
+      1281
+     ],
+     "bark_to_ref": 4.06
+    },
+    "bark_between": 1.43
+   }
+  },
+  {
+   "word": "wind",
+   "kind": "real",
+   "hint": "verb: 'wind the clock' (L3.16 -ind)",
+   "arpa": "W AY N D",
+   "ipa": "waɪnd",
+   "current_text": "Say: wind.",
+   "dict_text": "Say: wind.",
+   "opts": [
+    {
+     "set": "v4 + CMU dictionary",
+     "file": "compare/969e67d82740.ogg"
+    },
+    {
+     "set": "v4 current",
+     "file": "compare/bdb5bbbfaec4.ogg"
+    }
+   ],
+   "phonemes": [
+    {
+     "id": "ay",
+     "label": "/aɪ/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/a2d916600656.ogg"
+    },
+    {
+     "id": "n",
+     "label": "/n/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/f8d741c35c12.ogg"
+    }
+   ],
+   "measures": {
+    "current": {
+     "ms": 606,
+     "lufs": -21.7,
+     "rms_db": -21.8,
+     "F1F2": [
+      281,
+      1654
+     ]
+    },
+    "dict": {
+     "ms": 638,
+     "lufs": -21.3,
+     "rms_db": -21.9,
+     "F1F2": [
+      319,
+      912
+     ]
+    },
+    "bark_between": 3.94
+   }
+  },
+  {
+   "word": "close",
+   "kind": "real",
+   "hint": "verb: 'close the door'",
+   "arpa": "K L OW Z",
+   "ipa": "kloʊz",
+   "current_text": "Say: close.",
+   "dict_text": "Say: close.",
+   "opts": [
+    {
+     "set": "v4 current",
+     "file": "compare/1611b6e22677.ogg"
+    },
+    {
+     "set": "v4 + CMU dictionary",
+     "file": "compare/bd29adf73c85.ogg"
+    }
+   ],
+   "phonemes": [
+    {
+     "id": "k",
+     "label": "/k/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/199cd45dad21.ogg"
+    },
+    {
+     "id": "l",
+     "label": "/l/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/3ef7b7ff91ae.ogg"
+    },
+    {
+     "id": "ow",
+     "label": "/oʊ/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/afb3b9a346bb.ogg"
+    },
+    {
+     "id": "z",
+     "label": "/z/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/bce42a5fdf9c.ogg"
+    }
+   ],
+   "measures": {
+    "current": {
+     "ms": 624,
+     "lufs": -23.7,
+     "rms_db": -24.3,
+     "F1F2": [
+      573,
+      1090
+     ]
+    },
+    "dict": {
+     "ms": 646,
+     "lufs": -22.3,
+     "rms_db": -23.0,
+     "F1F2": [
+      558,
+      1165
+     ]
+    },
+    "bark_between": 0.46
+   }
+  },
+  {
+   "word": "use",
+   "kind": "real",
+   "hint": "verb: 'use a pen'",
+   "arpa": "Y UW Z",
+   "ipa": "juz",
+   "current_text": "Say: use.",
+   "dict_text": "Say: use.",
+   "opts": [
+    {
+     "set": "v4 + CMU dictionary",
+     "file": "compare/6b8f9339057c.ogg"
+    },
+    {
+     "set": "v4 current",
+     "file": "compare/be589300261c.ogg"
+    }
+   ],
+   "phonemes": [
+    {
+     "id": "uw",
+     "label": "/u/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/9624a566df1f.ogg"
+    },
+    {
+     "id": "z",
+     "label": "/z/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/bce42a5fdf9c.ogg"
+    }
+   ],
+   "measures": {
+    "current": {
+     "ms": 711,
+     "lufs": -23.7,
+     "rms_db": -23.4,
+     "F1F2": [
+      275,
+      2064
+     ]
+    },
+    "dict": {
+     "ms": 606,
+     "lufs": -22.0,
+     "rms_db": -22.0,
+     "F1F2": [
+      267,
+      2089
+     ]
+    },
+    "bark_between": 0.11
+   }
+  },
+  {
+   "word": "said",
+   "kind": "real",
+   "hint": null,
+   "arpa": "S EH D",
+   "ipa": "sɛd",
+   "current_text": "Say: said.",
+   "dict_text": "Say: said.",
+   "opts": [
+    {
+     "set": "v4 + CMU dictionary",
+     "file": "compare/96bbdd7b7679.ogg"
+    },
+    {
+     "set": "v4 current",
+     "file": "compare/3ad32d325c7d.ogg"
+    }
+   ],
+   "phonemes": [
+    {
+     "id": "s",
+     "label": "/s/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/8e4dd85bb162.ogg"
+    },
+    {
+     "id": "eh",
+     "label": "/ɛ/",
+     "model": "eleven_v4",
+     "form": "ipa",
+     "file": "compare/21d9ee983e1c.ogg"
+    }
+   ],
+   "measures": {
+    "current": {
+     "ms": 679,
+     "lufs": -21.3,
+     "rms_db": -23.1,
+     "F1F2": [
+      780,
+      1926
+     ],
+     "bark_to_ref": 0.72
+    },
+    "dict": {
+     "ms": 798,
+     "lufs": -21.9,
+     "rms_db": -23.4,
+     "F1F2": [
+      790,
+      1919
+     ],
+     "bark_to_ref": 0.74
+    },
+    "bark_between": 0.08
+   }
+  },
+  {
+   "word": "was",
+   "kind": "real",
+   "hint": null,
+   "arpa": "W AA Z",
+   "ipa": "wɑz",
+   "current_text": "Say: was.",
+   "dict_text": "Say: was.",
+   "opts": [
+    {
+     "set": "v4 + CMU dictionary",
+     "file": "compare/28d8b5912338.ogg"
+    },
+    {
+     "set": "v4 current",
+     "file": "compare/4912e360d4c4.ogg"
+    }
+   ],
+   "phonemes": [
+    {
+     "id": "z",
+     "label": "/z/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/bce42a5fdf9c.ogg"
+    }
+   ],
+   "measures": {
+    "current": {
+     "ms": 579,
+     "lufs": -20.4,
+     "rms_db": -21.6,
+     "F1F2": [
+      669,
+      1467
+     ],
+     "bark_to_ref": 2.32
+    },
+    "dict": {
+     "ms": 704,
+     "lufs": -23.5,
+     "rms_db": -23.1,
+     "F1F2": [
+      489,
+      1046
+     ],
+     "bark_to_ref": 2.37
+    },
+    "bark_between": 2.71
+   }
+  },
+  {
+   "word": "flobin",
+   "kind": "pseudo",
+   "hint": null,
+   "arpa": "F L OW B IH N",
+   "ipa": "floʊbɪn",
+   "current_text": "Say: flobin.",
+   "dict_text": "Say: flobin.",
+   "opts": [
+    {
+     "set": "v4 + CMU dictionary",
+     "file": "compare/746bd6d7feda.ogg"
+    },
+    {
+     "set": "v4 current",
+     "file": "compare/31b1618c5cd2.ogg"
+    }
+   ],
+   "phonemes": [
+    {
+     "id": "l",
+     "label": "/l/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/3ef7b7ff91ae.ogg"
+    },
+    {
+     "id": "ow",
+     "label": "/oʊ/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/afb3b9a346bb.ogg"
+    },
+    {
+     "id": "ih",
+     "label": "/ɪ/",
+     "model": "eleven_flash_v2",
+     "form": "cmu",
+     "file": "compare/d11a64512bc8.ogg"
+    },
+    {
+     "id": "n",
+     "label": "/n/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/f8d741c35c12.ogg"
+    }
+   ],
+   "measures": {
+    "current": {
+     "ms": 625,
+     "lufs": -20.8,
+     "rms_db": -21.7,
+     "F1F2": [
+      371,
+      1228
+     ]
+    },
+    "dict": {
+     "ms": 708,
+     "lufs": -21.4,
+     "rms_db": -22.4,
+     "F1F2": [
+      445,
+      1189
+     ]
+    },
+    "bark_between": 0.7
+   }
+  },
+  {
+   "word": "pademic",
+   "kind": "pseudo",
+   "hint": null,
+   "arpa": "P EY D IY M IH K",
+   "ipa": "peɪdimɪk",
+   "current_text": "Say: pademic.",
+   "dict_text": "Say: pademic.",
+   "opts": [
+    {
+     "set": "v4 current",
+     "file": "compare/baa20793cfb2.ogg"
+    },
+    {
+     "set": "v4 + CMU dictionary",
+     "file": "compare/c5316dcdafea.ogg"
+    }
+   ],
+   "phonemes": [
+    {
+     "id": "p",
+     "label": "/p/",
+     "model": "eleven_v4",
+     "form": "ipa",
+     "file": "compare/83ac13c77371.ogg"
+    },
+    {
+     "id": "ey",
+     "label": "/eɪ/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/20f146a0187b.ogg"
+    },
+    {
+     "id": "iy",
+     "label": "/i/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/82e269f5b574.ogg"
+    },
+    {
+     "id": "m",
+     "label": "/m/",
+     "model": "eleven_v4",
+     "form": "ipa",
+     "file": "compare/2e943258a3cb.ogg"
+    },
+    {
+     "id": "ih",
+     "label": "/ɪ/",
+     "model": "eleven_flash_v2",
+     "form": "cmu",
+     "file": "compare/d11a64512bc8.ogg"
+    },
+    {
+     "id": "k",
+     "label": "/k/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/199cd45dad21.ogg"
+    }
+   ],
+   "measures": {
+    "current": {
+     "ms": 762,
+     "lufs": -20.6,
+     "rms_db": -21.8,
+     "F1F2": [
+      662,
+      1984
+     ]
+    },
+    "dict": {
+     "ms": 743,
+     "lufs": -20.2,
+     "rms_db": -21.1,
+     "F1F2": [
+      373,
+      2043
+     ]
+    },
+    "bark_between": 2.49
+   }
+  },
+  {
+   "word": "the",
+   "kind": "real",
+   "hint": null,
+   "arpa": "DH AH",
+   "ipa": "ðə",
+   "current_text": "Say: the.",
+   "dict_text": "Say: the.",
+   "opts": [
+    {
+     "set": "v4 current",
+     "file": "audio/53b8cf6f1f27.ogg"
+    },
+    {
+     "set": "v4 + CMU dictionary",
+     "file": "compare/1772375a781a.ogg"
+    }
+   ],
+   "phonemes": [
+    {
+     "id": "dh",
+     "label": "/ð/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/6a7686d98069.ogg"
+    }
+   ],
+   "measures": {
+    "current": {
+     "ms": 630,
+     "lufs": -23.5,
+     "rms_db": -24.2,
+     "F1F2": [
+      739,
+      1664
+     ],
+     "bark_to_ref": 1.45
+    },
+    "dict": {
+     "ms": 412,
+     "lufs": -21.4,
+     "rms_db": -21.3,
+     "F1F2": [
+      600,
+      1649
+     ],
+     "bark_to_ref": 2.35
+    },
+    "bark_between": 1.1
+   }
+  },
+  {
+   "word": "of",
+   "kind": "real",
+   "hint": null,
+   "arpa": "AH V",
+   "ipa": "ʌv",
+   "current_text": "Say: of.",
+   "dict_text": "Say: of.",
+   "opts": [
+    {
+     "set": "v4 + CMU dictionary",
+     "file": "compare/1855378bfa30.ogg"
+    },
+    {
+     "set": "v4 current",
+     "file": "audio/20aeb52ed5d0.ogg"
+    }
+   ],
+   "phonemes": [
+    {
+     "id": "v",
+     "label": "/v/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/14e109070b87.ogg"
+    }
+   ],
+   "measures": {
+    "current": {
+     "ms": 451,
+     "lufs": -21.3,
+     "rms_db": -21.7,
+     "F1F2": [
+      876,
+      1330
+     ],
+     "bark_to_ref": 0.52
+    },
+    "dict": {
+     "ms": 463,
+     "lufs": -21.0,
+     "rms_db": -21.4,
+     "F1F2": [
+      754,
+      1338
+     ],
+     "bark_to_ref": 1.06
+    },
+    "bark_between": 0.88
+   }
+  },
+  {
+   "word": "full",
+   "kind": "real",
+   "hint": null,
+   "arpa": "F UH L",
+   "ipa": "fʊl",
+   "current_text": "Say: full.",
+   "dict_text": "Say: full.",
+   "opts": [
+    {
+     "set": "v4 + CMU dictionary",
+     "file": "compare/165e9b118226.ogg"
+    },
+    {
+     "set": "v4 current",
+     "file": "audio/001b3b404aa4.ogg"
+    }
+   ],
+   "phonemes": [
+    {
+     "id": "uh",
+     "label": "/ʊ/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/ba7086d28572.ogg"
+    },
+    {
+     "id": "l",
+     "label": "/l/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/3ef7b7ff91ae.ogg"
+    }
+   ],
+   "measures": {
+    "current": {
+     "ms": 741,
+     "lufs": -22.6,
+     "rms_db": -23.7,
+     "F1F2": [
+      591,
+      896
+     ]
+    },
+    "dict": {
+     "ms": 479,
+     "lufs": -21.1,
+     "rms_db": -21.4,
+     "F1F2": [
+      495,
+      966
+     ]
+    },
+    "bark_between": 0.94
+   }
+  },
+  {
+   "word": "dog",
+   "kind": "real",
+   "hint": null,
+   "arpa": "D AO G",
+   "ipa": "dɔɡ",
+   "current_text": "Say: dog.",
+   "dict_text": "Say: dog.",
+   "opts": [
+    {
+     "set": "v4 + CMU dictionary",
+     "file": "compare/9b985e267e36.ogg"
+    },
+    {
+     "set": "v4 current",
+     "file": "audio/6a8b4f4da683.ogg"
+    }
+   ],
+   "phonemes": [
+    {
+     "id": "ao",
+     "label": "/ɔ/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/3360f227965b.ogg"
+    }
+   ],
+   "measures": {
+    "current": {
+     "ms": 569,
+     "lufs": -19.3,
+     "rms_db": -20.6,
+     "F1F2": [
+      811,
+      1141
+     ]
+    },
+    "dict": {
+     "ms": 555,
+     "lufs": -18.3,
+     "rms_db": -19.5,
+     "F1F2": [
+      812,
+      1158
+     ]
+    },
+    "bark_between": 0.1
+   }
+  },
+  {
+   "word": "off",
+   "kind": "real",
+   "hint": null,
+   "arpa": "AO F",
+   "ipa": "ɔf",
+   "current_text": "Say: off.",
+   "dict_text": "Say: off.",
+   "opts": [
+    {
+     "set": "v4 + CMU dictionary",
+     "file": "compare/8df01dcf3522.ogg"
+    },
+    {
+     "set": "v4 current",
+     "file": "audio/9d0190db013e.ogg"
+    }
+   ],
+   "phonemes": [
+    {
+     "id": "ao",
+     "label": "/ɔ/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/3360f227965b.ogg"
+    }
+   ],
+   "measures": {
+    "current": {
+     "ms": 449,
+     "lufs": -17.8,
+     "rms_db": -18.4,
+     "F1F2": [
+      844,
+      1071
+     ]
+    },
+    "dict": {
+     "ms": 481,
+     "lufs": -18.9,
+     "rms_db": -19.7,
+     "F1F2": [
+      877,
+      1151
+     ]
+    },
+    "bark_between": 0.53
+   }
+  },
+  {
+   "word": "son",
+   "kind": "real",
+   "hint": null,
+   "arpa": "S AH N",
+   "ipa": "sʌn",
+   "current_text": "Say: son.",
+   "dict_text": "Say: son.",
+   "opts": [
+    {
+     "set": "v4 + CMU dictionary",
+     "file": "compare/d21a00fac7aa.ogg"
+    },
+    {
+     "set": "v4 current",
+     "file": "audio/beacddb55043.ogg"
+    }
+   ],
+   "phonemes": [
+    {
+     "id": "s",
+     "label": "/s/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/8e4dd85bb162.ogg"
+    },
+    {
+     "id": "n",
+     "label": "/n/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/f8d741c35c12.ogg"
+    }
+   ],
+   "measures": {
+    "current": {
+     "ms": 650,
+     "lufs": -22.1,
+     "rms_db": -23.6,
+     "F1F2": [
+      805,
+      1332
+     ],
+     "bark_to_ref": 0.76
+    },
+    "dict": {
+     "ms": 502,
+     "lufs": -21.7,
+     "rms_db": -22.7,
+     "F1F2": [
+      825,
+      1331
+     ],
+     "bark_to_ref": 0.66
+    },
+    "bark_between": 0.14
+   }
+  },
+  {
+   "word": "fall",
+   "kind": "real",
+   "hint": null,
+   "arpa": "F AO L",
+   "ipa": "fɔl",
+   "current_text": "Say: fall.",
+   "dict_text": "Say: fall.",
+   "opts": [
+    {
+     "set": "v4 current",
+     "file": "audio/3000d3a7c943.ogg"
+    },
+    {
+     "set": "v4 + CMU dictionary",
+     "file": "compare/3983ca3b64de.ogg"
+    }
+   ],
+   "phonemes": [
+    {
+     "id": "ao",
+     "label": "/ɔ/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/3360f227965b.ogg"
+    },
+    {
+     "id": "l",
+     "label": "/l/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/3ef7b7ff91ae.ogg"
+    }
+   ],
+   "measures": {
+    "current": {
+     "ms": 495,
+     "lufs": -18.9,
+     "rms_db": -19.4,
+     "F1F2": [
+      773,
+      1009
+     ]
+    },
+    "dict": {
+     "ms": 871,
+     "lufs": -20.3,
+     "rms_db": -22.0,
+     "F1F2": [
+      787,
+      1049
+     ]
+    },
+    "bark_between": 0.27
+   }
+  },
+  {
+   "word": "a",
+   "kind": "real",
+   "hint": null,
+   "arpa": "AH",
+   "ipa": "ə",
+   "current_text": "Say: uh.",
+   "dict_text": "Say: a.",
+   "opts": [
+    {
+     "set": "v4 current",
+     "file": "audio/3cdd3d5b7a56.ogg"
+    },
+    {
+     "set": "v4 + CMU dictionary",
+     "file": "compare/efc31edf0020.ogg"
+    }
+   ],
+   "phonemes": [],
+   "measures": {
+    "current": {
+     "ms": 385,
+     "lufs": -25.1,
+     "rms_db": -24.6,
+     "F1F2": [
+      782,
+      1562
+     ],
+     "bark_to_ref": 0.93
+    },
+    "dict": {
+     "ms": 328,
+     "lufs": -21.0,
+     "rms_db": -19.9,
+     "F1F2": [
+      716,
+      1436
+     ],
+     "bark_to_ref": 1.24
+    },
+    "bark_between": 0.75
+   }
+  },
+  {
+   "word": "is",
+   "kind": "real",
+   "hint": null,
+   "arpa": "IH Z",
+   "ipa": "ɪz",
+   "current_text": "Say: is.",
+   "dict_text": "Say: is.",
+   "opts": [
+    {
+     "set": "v4 current",
+     "file": "audio/2e6e632efc44.ogg"
+    },
+    {
+     "set": "v4 + CMU dictionary",
+     "file": "compare/e8317823ca92.ogg"
+    }
+   ],
+   "phonemes": [
+    {
+     "id": "ih",
+     "label": "/ɪ/",
+     "model": "eleven_flash_v2",
+     "form": "cmu",
+     "file": "compare/d11a64512bc8.ogg"
+    },
+    {
+     "id": "z",
+     "label": "/z/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/bce42a5fdf9c.ogg"
+    }
+   ],
+   "measures": {
+    "current": {
+     "ms": 504,
+     "lufs": -23.1,
+     "rms_db": -22.8,
+     "F1F2": [
+      462,
+      2228
+     ],
+     "bark_to_ref": 0.84
+    },
+    "dict": {
+     "ms": 493,
+     "lufs": -21.0,
+     "rms_db": -21.7,
+     "F1F2": [
+      415,
+      2094
+     ],
+     "bark_to_ref": 1.35
+    },
+    "bark_between": 0.58
+   }
+  },
+  {
+   "word": "to",
+   "kind": "real",
+   "hint": null,
+   "arpa": "T UW",
+   "ipa": "tu",
+   "current_text": "Say: to.",
+   "dict_text": "Say: to.",
+   "opts": [
+    {
+     "set": "v4 + CMU dictionary",
+     "file": "compare/c90e0e4b3fde.ogg"
+    },
+    {
+     "set": "v4 current",
+     "file": "audio/d2c19cad4d29.ogg"
+    }
+   ],
+   "phonemes": [
+    {
+     "id": "t",
+     "label": "/t/",
+     "model": "eleven_v4",
+     "form": "ipa",
+     "file": "compare/6c576d4352cd.ogg"
+    },
+    {
+     "id": "uw",
+     "label": "/u/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/9624a566df1f.ogg"
+    }
+   ],
+   "measures": {
+    "current": {
+     "ms": 387,
+     "lufs": -23.5,
+     "rms_db": -24.1,
+     "F1F2": [
+      375,
+      1788
+     ]
+    },
+    "dict": {
+     "ms": 415,
+     "lufs": -22.3,
+     "rms_db": -22.8,
+     "F1F2": [
+      364,
+      1910
+     ]
+    },
+    "bark_between": 0.45
+   }
+  },
+  {
+   "word": "sas",
+   "kind": "pseudo",
+   "hint": null,
+   "arpa": "S AE S",
+   "ipa": "sæs",
+   "current_text": "Say: sass.",
+   "dict_text": "Say: sas.",
+   "opts": [
+    {
+     "set": "v4 current",
+     "file": "audio/05cfcfdc51fb.ogg"
+    },
+    {
+     "set": "v4 + CMU dictionary",
+     "file": "compare/0821a5089373.ogg"
+    }
+   ],
+   "phonemes": [
+    {
+     "id": "s",
+     "label": "/s/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/8e4dd85bb162.ogg"
+    },
+    {
+     "id": "ae",
+     "label": "/æ/",
+     "model": "eleven_v4",
+     "form": "ipa",
+     "file": "compare/a3bfd3ee1382.ogg"
+    }
+   ],
+   "measures": {
+    "current": {
+     "ms": 717,
+     "lufs": -24.8,
+     "rms_db": -26.3
+    },
+    "dict": {
+     "ms": 644,
+     "lufs": -20.9,
+     "rms_db": -22.6,
+     "F1F2": [
+      995,
+      1917
+     ]
+    },
+    "bark_between": null
+   }
+  },
+  {
+   "word": "tas",
+   "kind": "pseudo",
+   "hint": null,
+   "arpa": "T AE S",
+   "ipa": "tæs",
+   "current_text": "Say: tass.",
+   "dict_text": "Say: tas.",
+   "opts": [
+    {
+     "set": "v4 current",
+     "file": "audio/deb2303e6aff.ogg"
+    },
+    {
+     "set": "v4 + CMU dictionary",
+     "file": "compare/4b2549c85239.ogg"
+    }
+   ],
+   "phonemes": [
+    {
+     "id": "t",
+     "label": "/t/",
+     "model": "eleven_v4",
+     "form": "ipa",
+     "file": "compare/6c576d4352cd.ogg"
+    },
+    {
+     "id": "ae",
+     "label": "/æ/",
+     "model": "eleven_v4",
+     "form": "ipa",
+     "file": "compare/a3bfd3ee1382.ogg"
+    },
+    {
+     "id": "s",
+     "label": "/s/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/8e4dd85bb162.ogg"
+    }
+   ],
+   "measures": {
+    "current": {
+     "ms": 602,
+     "lufs": -22.0,
+     "rms_db": -23.1
+    },
+    "dict": {
+     "ms": 590,
+     "lufs": -20.7,
+     "rms_db": -22.9,
+     "F1F2": [
+      1091,
+      1812
+     ]
+    },
+    "bark_between": null
+   }
+  },
+  {
+   "word": "sa",
+   "kind": "syllable",
+   "hint": null,
+   "arpa": "S AE",
+   "ipa": "sæ",
+   "current_text": "Say: sat.",
+   "dict_text": "Say: sa.",
+   "opts": [
+    {
+     "set": "v4 + CMU dictionary",
+     "file": "compare/5d4420434d83.ogg"
+    },
+    {
+     "set": "v4 current",
+     "file": "audio/c214e8346727.ogg"
+    }
+   ],
+   "phonemes": [
+    {
+     "id": "s",
+     "label": "/s/",
+     "model": "eleven_v4",
+     "form": "cmu",
+     "file": "compare/8e4dd85bb162.ogg"
+    },
+    {
+     "id": "ae",
+     "label": "/æ/",
+     "model": "eleven_v4",
+     "form": "ipa",
+     "file": "compare/a3bfd3ee1382.ogg"
+    }
+   ],
+   "measures": {
+    "current": {
+     "ms": 290,
+     "lufs": -21.1,
+     "rms_db": -20.4,
+     "F1F2": [
+      818,
+      1877
+     ]
+    },
+    "dict": {
+     "ms": 567,
+     "lufs": -20.3,
+     "rms_db": -22.0,
+     "F1F2": [
+      881,
+      1961
+     ]
+    },
+    "bark_between": 0.53
+   }
+  }
+ ],
+ "note": "v4 current = the clip the app plays now (eleven_v4, spelling or respelling in 'Say: X.'); v4 + CMU dictionary = same voice, model, settings, seed and carrier, with content/sound-out.pls (CMU Arpabet) attached."
+}

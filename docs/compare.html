@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sound Out A/B</title>
+<style>
+ :root { --bg:#f6f1e7; --card:#fff; --ink:#24211d; --muted:#6f675c; --acc:#2f6f8f; --alt:#6f675c; --line:#eee; --th:#efe8dc; --pick:#2e7d4f; --tag:#efe8dc; }
+ @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#1d1b18; --card:#2a2723; --ink:#f0ebe2; --muted:#b3aa9c; --acc:#5aa3c6; --alt:#7d7569; --line:#3b3732; --th:#34302b; --pick:#4caf7a; --tag:#34302b; } }
+ :root[data-theme="dark"] { --bg:#1d1b18; --card:#2a2723; --ink:#f0ebe2; --muted:#b3aa9c; --acc:#5aa3c6; --alt:#7d7569; --line:#3b3732; --th:#34302b; --pick:#4caf7a; --tag:#34302b; }
+ * { box-sizing: border-box; }
+ body { font: 16px/1.4 system-ui, sans-serif; margin: 0 auto; max-width: 860px; padding: 16px; background: var(--bg); color: var(--ink); }
+ h1 { font-size: 1.4rem; margin: 0 0 6px; } p { color: var(--muted); margin: 0 0 12px; }
+ .card { background: var(--card); border-radius: 12px; }
+ .bar { padding: 12px; margin: 0 0 14px; display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; }
+ table { width: 100%; border-collapse: collapse; }
+ td, th { padding: 8px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+ th { background: var(--th); font-size: .85rem; }
+ button { font: inherit; padding: 6px 12px; border-radius: 999px; border: 0; background: var(--acc); color: #fff; margin: 2px; min-height: 40px; cursor: pointer; }
+ button.alt { background: var(--alt); }
+ button.pick { background: transparent; color: var(--ink); border: 1px solid var(--line); min-height: 34px; padding: 4px 10px; font-size: .85rem; }
+ button.pick.on { background: var(--pick); color: #fff; border-color: var(--pick); }
+ .w { font: 600 1.4rem "Andika", Verdana, sans-serif; }
+ .hint, .ipa, .lab { color: var(--muted); font-size: .85rem; display: block; }
+ .tag { background: var(--tag); border-radius: 6px; padding: 0 6px; font-size: .75rem; color: var(--muted); }
+ .lab { display: none; } body.reveal .lab { display: block; }
+ .tally b { font-variant-numeric: tabular-nums; }
+ .ph button { min-height: 34px; padding: 4px 10px; font-size: .85rem; }
+ .none { color: var(--muted); font-size: .85rem; }
+ .phm { display: none; margin-top: 6px; } .phm small { color: var(--muted); display: block; font-size: .75rem; }
+ @media (max-width: 560px) { td, th { padding: 6px 4px; } .w { font-size: 1.15rem; } th.phc, td.phc { display: none; } .phm { display: block; } }
+</style>
+</head>
+<body>
+<h1>Which one sounds right?</h1>
+<p>Each row has the same word said two ways by the same voice (River). One is what the app plays now; the other was made with a CMU pronunciation dictionary telling the voice exactly which sounds to say. The order is shuffled. Play both, then pick the one that sounds right for a child learning to read, or "same". Your picks stay in this browser.</p>
+<div class="card bar">
+ <span class="tally" id="tally"></span>
+ <label><input type="checkbox" id="reveal"> show which is which</label>
+ <button class="alt" id="clear">clear my picks</button>
+</div>
+<div class="card"><table><thead><tr><th>Word</th><th>Listen</th><th>Pick</th><th class="phc">Single sounds (dictionary)</th></tr></thead><tbody id="rows"></tbody></table></div>
+<p style="margin-top:12px" id="note"></p>
+<script>
+const store = { get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch (e) { return d; } },
+                set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} } };
+let cur = null;
+const play = src => { if (cur) cur.pause(); cur = new Audio(src); cur.play().catch(() => {}); };
+const picks = store.get('so-compare-picks', {});
+let flips = store.get('so-compare-flips', null);
+fetch('compare-data.json').then(r => r.json()).then(d => {
+  if (!flips || flips.length !== d.rows.length) { flips = d.rows.map(() => Math.random() < .5); store.set('so-compare-flips', flips); }
+  document.getElementById('note').textContent = d.note;
+  const tb = document.getElementById('rows');
+  d.rows.forEach((r, i) => {
+    const opts = flips[i] ? [r.opts[1], r.opts[0]] : r.opts;
+    const tr = document.createElement('tr'); tr.dataset.w = r.word;
+    const ph = r.phonemes.length ? r.phonemes.map(p => `<button class="alt" data-s="${p.file}" title="${p.model} ${p.form}">${p.label}</button>`).join('')
+                                 : '<span class="none">none usable</span>';
+    tr.innerHTML = `<td><span class="w">${r.word}</span> <span class="tag">${r.kind}</span>
+        ${r.hint ? `<span class="hint">${r.hint}</span>` : ''}<span class="ipa">/${r.ipa}/</span><div class="phm ph"><small>single sounds (dictionary):</small>${ph}</div></td>
+      <td>${opts.map((o, j) => `<button data-s="${o.file}">${'AB'[j]}</button><span class="lab">${'AB'[j]} = ${o.set}</span>`).join('')}</td>
+      <td>${opts.map((o, j) => `<button class="pick" data-set="${o.set}">${'AB'[j]} sounds right</button>`).join('')}
+          <button class="pick" data-set="same">same</button></td>
+      <td class="phc ph">${ph}</td>`;
+    tb.append(tr);
+  });
+  const sets = [...new Set(d.rows.flatMap(r => r.opts.map(o => o.set))), 'same'];
+  const draw = () => {
+    tb.querySelectorAll('tr').forEach(tr => tr.querySelectorAll('.pick').forEach(b => b.classList.toggle('on', picks[tr.dataset.w] === b.dataset.set)));
+    const n = Object.keys(picks).length;
+    const rev = document.body.classList.contains('reveal');
+    document.getElementById('tally').innerHTML = `Picked <b>${n}</b> of ${d.rows.length}` +
+      (rev ? ' · ' + sets.map(s => `${s}: <b>${Object.values(picks).filter(v => v === s).length}</b>`).join(' · ') : ' · turn on "show which is which" to see the tally');
+  };
+  tb.addEventListener('click', e => {
+    const s = e.target.dataset.s; if (s) play(s);
+    const set = e.target.dataset.set;
+    if (set) { const w = e.target.closest('tr').dataset.w; picks[w] = picks[w] === set ? undefined : set; if (!picks[w]) delete picks[w]; store.set('so-compare-picks', picks); draw(); }
+  });
+  document.getElementById('reveal').onchange = e => { document.body.classList.toggle('reveal', e.target.checked); draw(); };
+  document.getElementById('clear').onclick = () => { for (const k in picks) delete picks[k]; store.set('so-compare-picks', picks); draw(); };
+  draw();
+});
+</script>
+</body>
+</html>

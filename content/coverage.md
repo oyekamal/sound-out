@@ -149,6 +149,30 @@
 
 270 entries; unsegmentable (letters outside the L1 GPC set, skipped): qov (L1.13), qov (L1.13)
 
+## Full-course lexicon (CMUdict, decision 21)
+
+`tools/build_lexicon.py` -> `content/lexicon_full.json`. Words = every word token in the learner-facing fields of all 108 lessons (read texts + questions, listen passages/titles/Tier-2/questions, blend lists, checks, dictation, heart words, sitting word lists); tutor notes (goal, newToday, time, mouth cues) are not harvested. A word is counted in every level it appears in. Arpabet from CMUdict (first pronunciation, stress stripped; stressed form kept for the PLS). Alignment against the DESIGN.md L1-L4 GPC table (`content/gpc.json` `full`): **gpc** = every grapheme is a taught main correspondence, **alt** = uses a listed alternate, **irregular** = needs an irregular vowel or silent letter (heart-word parts; Level 5-7 vocabulary), **unaligned** = no parse. Pseudowords are composed from the table, never looked up. Levels 5-7 have little parsed learner text in this prototype (parse_course.py best effort: mostly read questions), so their counts are small; the last column counts every field, tutor notes included.
+
+| Level | real words | in CMUdict | gpc | alt | irregular | unaligned | letter/abbrev. | not in CMUdict | homographs | pseudowords | multi-syll. pseudo (review) | all fields incl. tutor notes: words / in CMUdict |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | 1062 | 1061 (99.9%) | 862 | 148 | 37 | 0 | 15 | 1 | 8 | 60 | 1 | 1485 / 1412 |
+| 2 | 793 | 783 (98.7%) | 681 | 97 | 15 | 0 | 0 | 10 | 4 | 65 | 19 | 1128 / 1008 |
+| 3 | 604 | 604 (100.0%) | 565 | 30 | 9 | 0 | 0 | 0 | 6 | 84 | 10 | 847 / 759 |
+| 4 | 1106 | 1082 (97.8%) | 943 | 132 | 28 | 0 | 3 | 24 | 8 | 66 | 23 | 1384 / 1266 |
+| 5 | 0 | 0 (0.0%) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 467 / 442 |
+| 6 | 0 | 0 (0.0%) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 331 / 321 |
+| 7 | 330 | 327 (99.1%) | 258 | 53 | 15 | 0 | 4 | 3 | 5 | 0 | 0 | 574 / 562 |
+
+All levels: 2469 distinct real words, 2433 in CMUdict; 274 distinct pseudowords.
+
+**Not in CMUdict (36; composed from the GPC table, flagged `oov`):** amina, amina's, amna, bilal, bilal's, clart, confusable, counterargument, darm, decodable, drumroll, farid, farl, hamza, hamza's, hesh, hina, jots, naveed, naveed's, pigpen, plarn, rukhsana, rukhsana's, sart, scrubs, shom, simile, starb, uncurled, unhappiest, vosh, wobbles, wobbliest, zayn, zayn's
+
+**Unaligned (0):** 
+
+**Homographs (13, sense chosen by lesson-context rules, all flagged `homograph-review`):** close -> K L OW Z (L3.03: [('verb', 5), ('near', 2)]); content -> K AA N T EH N T (L7.10: [('noun', 1)]); does -> D AH Z (L2.12: [('verb', 13)]); house -> HH AW S (L4.06: [('noun', 6)]); live -> L IH V (L4.01: [('verb', 1)]); minute -> M IH N AH T (L1.07: [('time', 2)]); project -> P R AA JH EH K T (L1.09: [('noun', 2)]); read -> R IY D (L3.11: [('present', 13)]); separate -> S EH P ER IH T (L1.10: [('adj', 2)]); tear -> T IH R (L7.09: [('cry', 1)]); tears -> T IH R Z (L2.07: [('cry', 2)]); use -> Y UW Z (L1.06: [('verb', 7), ('noun', 1)]); wind -> W AY N D (L3.16: [('verb', 6), ('noun', 5)])
+
+**Level 1 app items vs CMUdict:** 381 real Level 1 items (lexicon + tap-gate) are in CMUdict; 346 match the course IPA exactly, 35 differ: b (course B / CMU B IY), boll (course B AA L / CMU B OW L), chink (course K HH IH N K / CMU CH IH NG K), chunk (course K HH AH N K / CMU CH AH NG K), clink (course K L IH N K / CMU K L IH NG K), clunk (course K L AH N K / CMU K L AH NG K), cog (course K AA G / CMU K AO G), cor (course K AA R / CMU K AO R), d (course D / CMU D IY), dar (course D AE R / CMU D AA R), dog (course D AA G / CMU D AO G), fall (course F AE L / CMU F AO L), full (course F AH L / CMU F UH L), geck (course G EH K / CMU JH EH K), gem (course G EH M / CMU JH EH M), has (course HH AE S / CMU HH AE Z), is (course IH S / CMU IH Z), ladd (course L AE D D / CMU L AE D), log (course L AA G / CMU L AO G), mam (course M AE M / CMU M AA M), mod (course M AA D / CMU M AO D), off (course AA F / CMU AO F), pall (course P AE L / CMU P AA L), pull (course P AH L / CMU P UH L), put (course P AH T / CMU P UH T), sa (course S AE / CMU S AA), sall (course S AE L / CMU S AO L), sar (course S AE R / CMU S AA R), son (course S AA N / CMU S AH N), sor (course S AA R / CMU S AO R), sot (course S AA T / CMU S AO T), sur (course S AH R / CMU S ER), tall (course T AE L / CMU T AO L), ter (course T EH R / CMU T ER), ton (course T AA N / CMU T AH N). **Level 1 pseudowords:** 166; the GPC composer reproduces the course IPA for 161: differs for att (AE T T vs AE T), itt (IH T T vs IH T), lodd (L AA D D vs L AA D), sadd (S AE D D vs S AE D), sodd (S AA D D vs S AA D).
+
 ## Isolated sounds: direct renders in the app voice (River; tools/iso_sounds.py, decision 19)
 
 No slicing. Each sound is its own ElevenLabs render, three prompt forms per sound, picked by machine checks (hums m n l r v z: 300-350 ms, F0 range <= 2 st, swell <= 3 dB, not breathier than the voice's words; s f h: 400-600 ms, no vowel, swell <= 3 dB; vowels: 300-400 ms audible, F1/F2 within 1.5 Bark of the vowel in River's own word; stops: <= 220 ms, vowel tail <= 60 ms; w y: <= 250 ms, tail <= 120 ms). RMS = the word class; true peak <= -1.5 dBTP. **Kamal's ears decide.**

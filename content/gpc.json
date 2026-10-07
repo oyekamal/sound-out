@@ -272,5 +272,1106 @@
   "x": "ˈɛks",
   "y": "wˈaɪ",
   "z": "zˈi"
+ },
+ "full": {
+  "note": "DESIGN.md §3 master sequence L1-L4 in CMU Arpabet (tools/build_lexicon.py). key suffix '.' = context variant (open syllable, soft c/g, ow /aw/, ea /e/, ch /k/); 'a_e' etc = split digraph; main = taught GPC, alt = alternates the aligner accepts at cost 1.",
+  "sequence": [
+   {
+    "g": "s",
+    "main": [
+     "S",
+     "Z"
+    ],
+    "alt": [
+     "ZH",
+     "SH"
+    ],
+    "lesson": "L1.02"
+   },
+   {
+    "g": "a",
+    "main": [
+     "AE"
+    ],
+    "alt": [
+     "EH",
+     "AA",
+     "AO",
+     "IH"
+    ],
+    "lesson": "L1.02"
+   },
+   {
+    "g": "t",
+    "main": [
+     "T"
+    ],
+    "alt": [
+     "CH",
+     "SH"
+    ],
+    "lesson": "L1.02"
+   },
+   {
+    "g": "p",
+    "main": [
+     "P"
+    ],
+    "alt": [],
+    "lesson": "L1.03"
+   },
+   {
+    "g": "i",
+    "main": [
+     "IH"
+    ],
+    "alt": [
+     "IY",
+     "Y"
+    ],
+    "lesson": "L1.03"
+   },
+   {
+    "g": "n",
+    "main": [
+     "N"
+    ],
+    "alt": [
+     "NG"
+    ],
+    "lesson": "L1.03"
+   },
+   {
+    "g": "m",
+    "main": [
+     "M"
+    ],
+    "alt": [],
+    "lesson": "L1.04"
+   },
+   {
+    "g": "d",
+    "main": [
+     "D"
+    ],
+    "alt": [
+     "JH",
+     "T"
+    ],
+    "lesson": "L1.04"
+   },
+   {
+    "g": "g",
+    "main": [
+     "G"
+    ],
+    "alt": [
+     "ZH"
+    ],
+    "lesson": "L1.05"
+   },
+   {
+    "g": "o",
+    "main": [
+     "AA",
+     "AO"
+    ],
+    "alt": [
+     "UW",
+     "UH",
+     "W AH",
+     "IH"
+    ],
+    "lesson": "L1.05"
+   },
+   {
+    "g": "c",
+    "main": [
+     "K"
+    ],
+    "alt": [
+     "SH",
+     "CH"
+    ],
+    "lesson": "L1.06"
+   },
+   {
+    "g": "k",
+    "main": [
+     "K"
+    ],
+    "alt": [],
+    "lesson": "L1.06"
+   },
+   {
+    "g": "ck",
+    "main": [
+     "K"
+    ],
+    "alt": [],
+    "lesson": "L1.06"
+   },
+   {
+    "g": "e",
+    "main": [
+     "EH"
+    ],
+    "alt": [
+     "EY",
+     "IH"
+    ],
+    "lesson": "L1.07"
+   },
+   {
+    "g": "u",
+    "main": [
+     "AH"
+    ],
+    "alt": [
+     "UH",
+     "IH",
+     "EH",
+     "W"
+    ],
+    "lesson": "L1.07"
+   },
+   {
+    "g": "r",
+    "main": [
+     "R"
+    ],
+    "alt": [],
+    "lesson": "L1.08"
+   },
+   {
+    "g": "h",
+    "main": [
+     "HH"
+    ],
+    "alt": [],
+    "lesson": "L1.08"
+   },
+   {
+    "g": "b",
+    "main": [
+     "B"
+    ],
+    "alt": [],
+    "lesson": "L1.09"
+   },
+   {
+    "g": "f",
+    "main": [
+     "F"
+    ],
+    "alt": [
+     "V"
+    ],
+    "lesson": "L1.09"
+   },
+   {
+    "g": "l",
+    "main": [
+     "L"
+    ],
+    "alt": [],
+    "lesson": "L1.09"
+   },
+   {
+    "g": "ff",
+    "main": [
+     "F"
+    ],
+    "alt": [],
+    "lesson": "L1.10"
+   },
+   {
+    "g": "ll",
+    "main": [
+     "L"
+    ],
+    "alt": [],
+    "lesson": "L1.10"
+   },
+   {
+    "g": "ss",
+    "main": [
+     "S"
+    ],
+    "alt": [
+     "SH",
+     "Z"
+    ],
+    "lesson": "L1.10"
+   },
+   {
+    "g": "zz",
+    "main": [
+     "Z"
+    ],
+    "alt": [],
+    "lesson": "L1.10"
+   },
+   {
+    "g": "j",
+    "main": [
+     "JH"
+    ],
+    "alt": [
+     "Y",
+     "HH"
+    ],
+    "lesson": "L1.11"
+   },
+   {
+    "g": "v",
+    "main": [
+     "V"
+    ],
+    "alt": [],
+    "lesson": "L1.11"
+   },
+   {
+    "g": "w",
+    "main": [
+     "W"
+    ],
+    "alt": [],
+    "lesson": "L1.11"
+   },
+   {
+    "g": "x",
+    "main": [
+     "K S"
+    ],
+    "alt": [
+     "G Z",
+     "Z",
+     "K SH"
+    ],
+    "lesson": "L1.12"
+   },
+   {
+    "g": "y",
+    "main": [
+     "Y"
+    ],
+    "alt": [],
+    "lesson": "L1.12"
+   },
+   {
+    "g": "z",
+    "main": [
+     "Z"
+    ],
+    "alt": [
+     "S"
+    ],
+    "lesson": "L1.12"
+   },
+   {
+    "g": "qu",
+    "main": [
+     "K W"
+    ],
+    "alt": [
+     "K"
+    ],
+    "lesson": "L1.12"
+   },
+   {
+    "g": "sh",
+    "main": [
+     "SH"
+    ],
+    "alt": [],
+    "lesson": "L2.01"
+   },
+   {
+    "g": "ch",
+    "main": [
+     "CH"
+    ],
+    "alt": [],
+    "lesson": "L2.02"
+   },
+   {
+    "g": "tch",
+    "main": [
+     "CH"
+    ],
+    "alt": [],
+    "lesson": "L2.02"
+   },
+   {
+    "g": "th",
+    "main": [
+     "TH",
+     "DH"
+    ],
+    "alt": [
+     "T"
+    ],
+    "lesson": "L2.03"
+   },
+   {
+    "g": "wh",
+    "main": [
+     "W"
+    ],
+    "alt": [
+     "HH W",
+     "HH"
+    ],
+    "lesson": "L2.04"
+   },
+   {
+    "g": "ng",
+    "main": [
+     "NG"
+    ],
+    "alt": [
+     "NG G",
+     "N JH"
+    ],
+    "lesson": "L2.05"
+   },
+   {
+    "g": "nk",
+    "main": [
+     "NG K"
+    ],
+    "alt": [],
+    "lesson": "L2.05"
+   },
+   {
+    "g": "es",
+    "main": [
+     "IH Z",
+     "AH Z",
+     "Z"
+    ],
+    "alt": [
+     "S"
+    ],
+    "lesson": "L2.09"
+   },
+   {
+    "g": "ed",
+    "main": [
+     "T",
+     "D",
+     "IH D",
+     "AH D"
+    ],
+    "alt": [],
+    "lesson": "L2.10"
+   },
+   {
+    "g": "ing",
+    "main": [
+     "IH NG"
+    ],
+    "alt": [],
+    "lesson": "L2.11"
+   },
+   {
+    "g": "er",
+    "main": [
+     "ER"
+    ],
+    "alt": [
+     "EH R",
+     "IH R"
+    ],
+    "lesson": "L2.11"
+   },
+   {
+    "g": "bb",
+    "main": [
+     "B"
+    ],
+    "alt": [],
+    "lesson": "L2.12"
+   },
+   {
+    "g": "dd",
+    "main": [
+     "D"
+    ],
+    "alt": [],
+    "lesson": "L2.12"
+   },
+   {
+    "g": "gg",
+    "main": [
+     "G"
+    ],
+    "alt": [],
+    "lesson": "L2.12"
+   },
+   {
+    "g": "mm",
+    "main": [
+     "M"
+    ],
+    "alt": [],
+    "lesson": "L2.12"
+   },
+   {
+    "g": "nn",
+    "main": [
+     "N"
+    ],
+    "alt": [],
+    "lesson": "L2.12"
+   },
+   {
+    "g": "pp",
+    "main": [
+     "P"
+    ],
+    "alt": [],
+    "lesson": "L2.12"
+   },
+   {
+    "g": "rr",
+    "main": [
+     "R"
+    ],
+    "alt": [],
+    "lesson": "L2.12"
+   },
+   {
+    "g": "tt",
+    "main": [
+     "T"
+    ],
+    "alt": [],
+    "lesson": "L2.12"
+   },
+   {
+    "g": "cc",
+    "main": [
+     "K",
+     "K S"
+    ],
+    "alt": [],
+    "lesson": "L2.12"
+   },
+   {
+    "g": "a_e",
+    "main": [
+     "EY"
+    ],
+    "alt": [],
+    "lesson": "L3.01"
+   },
+   {
+    "g": "i_e",
+    "main": [
+     "AY"
+    ],
+    "alt": [],
+    "lesson": "L3.02"
+   },
+   {
+    "g": "o_e",
+    "main": [
+     "OW"
+    ],
+    "alt": [],
+    "lesson": "L3.03"
+   },
+   {
+    "g": "u_e",
+    "main": [
+     "UW",
+     "Y UW"
+    ],
+    "alt": [],
+    "lesson": "L3.03"
+   },
+   {
+    "g": "e_e",
+    "main": [
+     "IY"
+    ],
+    "alt": [],
+    "lesson": "L3.03"
+   },
+   {
+    "g": "a.",
+    "main": [
+     "EY"
+    ],
+    "alt": [],
+    "lesson": "L3.05"
+   },
+   {
+    "g": "e.",
+    "main": [
+     "IY"
+    ],
+    "alt": [],
+    "lesson": "L3.05"
+   },
+   {
+    "g": "i.",
+    "main": [
+     "AY"
+    ],
+    "alt": [],
+    "lesson": "L3.05"
+   },
+   {
+    "g": "o.",
+    "main": [
+     "OW"
+    ],
+    "alt": [],
+    "lesson": "L3.05"
+   },
+   {
+    "g": "u.",
+    "main": [
+     "UW",
+     "Y UW"
+    ],
+    "alt": [],
+    "lesson": "L3.05"
+   },
+   {
+    "g": "y.",
+    "main": [
+     "IY",
+     "AY",
+     "IH"
+    ],
+    "alt": [],
+    "lesson": "L3.06"
+   },
+   {
+    "g": "c.",
+    "main": [
+     "S"
+    ],
+    "alt": [],
+    "lesson": "L3.07"
+   },
+   {
+    "g": "g.",
+    "main": [
+     "JH"
+    ],
+    "alt": [],
+    "lesson": "L3.07"
+   },
+   {
+    "g": "ce",
+    "main": [
+     "S"
+    ],
+    "alt": [],
+    "lesson": "L3.07"
+   },
+   {
+    "g": "ge",
+    "main": [
+     "JH"
+    ],
+    "alt": [],
+    "lesson": "L3.07"
+   },
+   {
+    "g": "dge",
+    "main": [
+     "JH"
+    ],
+    "alt": [],
+    "lesson": "L3.07"
+   },
+   {
+    "g": "ar",
+    "main": [
+     "AA R"
+    ],
+    "alt": [
+     "ER",
+     "EH R",
+     "AO R"
+    ],
+    "lesson": "L3.08"
+   },
+   {
+    "g": "or",
+    "main": [
+     "AO R"
+    ],
+    "alt": [
+     "ER"
+    ],
+    "lesson": "L3.09"
+   },
+   {
+    "g": "ore",
+    "main": [
+     "AO R"
+    ],
+    "alt": [],
+    "lesson": "L3.09"
+   },
+   {
+    "g": "ai",
+    "main": [
+     "EY"
+    ],
+    "alt": [
+     "EH"
+    ],
+    "lesson": "L3.10"
+   },
+   {
+    "g": "ay",
+    "main": [
+     "EY"
+    ],
+    "alt": [],
+    "lesson": "L3.10"
+   },
+   {
+    "g": "ee",
+    "main": [
+     "IY"
+    ],
+    "alt": [
+     "IH"
+    ],
+    "lesson": "L3.11"
+   },
+   {
+    "g": "ea",
+    "main": [
+     "IY"
+    ],
+    "alt": [
+     "EY"
+    ],
+    "lesson": "L3.11"
+   },
+   {
+    "g": "oa",
+    "main": [
+     "OW"
+    ],
+    "alt": [],
+    "lesson": "L3.12"
+   },
+   {
+    "g": "ow",
+    "main": [
+     "OW"
+    ],
+    "alt": [],
+    "lesson": "L3.12"
+   },
+   {
+    "g": "oe",
+    "main": [
+     "OW"
+    ],
+    "alt": [
+     "UW"
+    ],
+    "lesson": "L3.12"
+   },
+   {
+    "g": "igh",
+    "main": [
+     "AY"
+    ],
+    "alt": [],
+    "lesson": "L3.13"
+   },
+   {
+    "g": "ie",
+    "main": [
+     "AY",
+     "IY"
+    ],
+    "alt": [
+     "EH"
+    ],
+    "lesson": "L3.13"
+   },
+   {
+    "g": "ue",
+    "main": [
+     "UW",
+     "Y UW"
+    ],
+    "alt": [],
+    "lesson": "L3.14"
+   },
+   {
+    "g": "ew",
+    "main": [
+     "UW",
+     "Y UW"
+    ],
+    "alt": [],
+    "lesson": "L3.14"
+   },
+   {
+    "g": "ui",
+    "main": [
+     "UW"
+    ],
+    "alt": [
+     "IH"
+    ],
+    "lesson": "L3.14"
+   },
+   {
+    "g": "oo",
+    "main": [
+     "UW",
+     "UH"
+    ],
+    "alt": [
+     "AH"
+    ],
+    "lesson": "L3.15"
+   },
+   {
+    "g": "ir",
+    "main": [
+     "ER"
+    ],
+    "alt": [],
+    "lesson": "L4.03"
+   },
+   {
+    "g": "ur",
+    "main": [
+     "ER"
+    ],
+    "alt": [],
+    "lesson": "L4.03"
+   },
+   {
+    "g": "air",
+    "main": [
+     "EH R"
+    ],
+    "alt": [],
+    "lesson": "L4.04"
+   },
+   {
+    "g": "are",
+    "main": [
+     "EH R"
+    ],
+    "alt": [
+     "AA R"
+    ],
+    "lesson": "L4.04"
+   },
+   {
+    "g": "ear",
+    "main": [
+     "IH R",
+     "EH R"
+    ],
+    "alt": [
+     "ER"
+    ],
+    "lesson": "L4.04"
+   },
+   {
+    "g": "eer",
+    "main": [
+     "IH R"
+    ],
+    "alt": [],
+    "lesson": "L4.04"
+   },
+   {
+    "g": "oi",
+    "main": [
+     "OY"
+    ],
+    "alt": [],
+    "lesson": "L4.05"
+   },
+   {
+    "g": "oy",
+    "main": [
+     "OY"
+    ],
+    "alt": [],
+    "lesson": "L4.05"
+   },
+   {
+    "g": "ou",
+    "main": [
+     "AW"
+    ],
+    "alt": [
+     "UW",
+     "AH",
+     "OW",
+     "AO",
+     "UH"
+    ],
+    "lesson": "L4.06"
+   },
+   {
+    "g": "ow.",
+    "main": [
+     "AW"
+    ],
+    "alt": [],
+    "lesson": "L4.06"
+   },
+   {
+    "g": "aw",
+    "main": [
+     "AO"
+    ],
+    "alt": [],
+    "lesson": "L4.07"
+   },
+   {
+    "g": "au",
+    "main": [
+     "AO"
+    ],
+    "alt": [
+     "AA"
+    ],
+    "lesson": "L4.07"
+   },
+   {
+    "g": "al",
+    "main": [
+     "AO L"
+    ],
+    "alt": [
+     "AA",
+     "AE L"
+    ],
+    "lesson": "L4.07"
+   },
+   {
+    "g": "all",
+    "main": [
+     "AO L"
+    ],
+    "alt": [],
+    "lesson": "L4.07"
+   },
+   {
+    "g": "ea.",
+    "main": [
+     "EH"
+    ],
+    "alt": [],
+    "lesson": "L4.08"
+   },
+   {
+    "g": "kn",
+    "main": [
+     "N"
+    ],
+    "alt": [],
+    "lesson": "L4.08"
+   },
+   {
+    "g": "wr",
+    "main": [
+     "R"
+    ],
+    "alt": [],
+    "lesson": "L4.08"
+   },
+   {
+    "g": "gn",
+    "main": [
+     "N"
+    ],
+    "alt": [],
+    "lesson": "L4.08"
+   },
+   {
+    "g": "mb",
+    "main": [
+     "M"
+    ],
+    "alt": [],
+    "lesson": "L4.08"
+   },
+   {
+    "g": "ph",
+    "main": [
+     "F"
+    ],
+    "alt": [],
+    "lesson": "L4.09"
+   },
+   {
+    "g": "ch.",
+    "main": [
+     "K",
+     "SH"
+    ],
+    "alt": [],
+    "lesson": "L4.09"
+   },
+   {
+    "g": "gh",
+    "main": [
+     "F",
+     "G",
+     ""
+    ],
+    "alt": [],
+    "lesson": "L4.09"
+   },
+   {
+    "g": "le",
+    "main": [
+     "AH L"
+    ],
+    "alt": [],
+    "lesson": "L4.10"
+   },
+   {
+    "g": "tion",
+    "main": [
+     "SH AH N"
+    ],
+    "alt": [],
+    "lesson": "L4.11"
+   },
+   {
+    "g": "sion",
+    "main": [
+     "SH AH N",
+     "ZH AH N"
+    ],
+    "alt": [],
+    "lesson": "L4.11"
+   },
+   {
+    "g": "ture",
+    "main": [
+     "CH ER"
+    ],
+    "alt": [],
+    "lesson": "L4.11"
+   },
+   {
+    "g": "ous",
+    "main": [
+     "AH S"
+    ],
+    "alt": [],
+    "lesson": "L4.11"
+   },
+   {
+    "g": "cial",
+    "main": [
+     "SH AH L"
+    ],
+    "alt": [],
+    "lesson": "L4.11"
+   },
+   {
+    "g": "tial",
+    "main": [
+     "SH AH L"
+    ],
+    "alt": [],
+    "lesson": "L4.11"
+   },
+   {
+    "g": "ə",
+    "main": [
+     "AH",
+     "IH"
+    ],
+    "alt": [],
+    "lesson": "L4.12"
+   }
+  ],
+  "arpabet_ipa": {
+   "AA": "ɑ",
+   "AE": "æ",
+   "AH": "ʌ",
+   "AO": "ɔ",
+   "AW": "aʊ",
+   "AY": "aɪ",
+   "B": "b",
+   "CH": "tʃ",
+   "D": "d",
+   "DH": "ð",
+   "EH": "ɛ",
+   "ER": "ɝ",
+   "EY": "eɪ",
+   "F": "f",
+   "G": "ɡ",
+   "HH": "h",
+   "IH": "ɪ",
+   "IY": "i",
+   "JH": "dʒ",
+   "K": "k",
+   "L": "l",
+   "M": "m",
+   "N": "n",
+   "NG": "ŋ",
+   "OW": "oʊ",
+   "OY": "ɔɪ",
+   "P": "p",
+   "R": "ɹ",
+   "S": "s",
+   "SH": "ʃ",
+   "T": "t",
+   "TH": "θ",
+   "UH": "ʊ",
+   "UW": "u",
+   "V": "v",
+   "W": "w",
+   "Y": "j",
+   "Z": "z",
+   "ZH": "ʒ"
+  },
+  "level1_ids": {
+   "s": "S",
+   "a": "AE",
+   "t": "T",
+   "p": "P",
+   "i": "IH",
+   "n": "N",
+   "m": "M",
+   "d": "D",
+   "g": "G",
+   "o": "AA",
+   "k": "K",
+   "e": "EH",
+   "u": "AH",
+   "r": "R",
+   "h": "HH",
+   "b": "B",
+   "f": "F",
+   "l": "L",
+   "j": "JH",
+   "v": "V",
+   "w": "W",
+   "ks": "K S",
+   "y": "Y",
+   "z": "Z",
+   "kw": "K W"
+  }
  }
 }

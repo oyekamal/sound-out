@@ -1,0 +1,4838 @@
+[
+{
+"text": "Say: zorblak.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 13
+},
+{
+"text": "Say: zorblak.",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 13
+},
+{
+"text": "Say: zorblak.",
+"model": "eleven_flash_v2_5",
+"kind": "dict",
+"chars": 13
+},
+{
+"text": "Say: zorblak.",
+"model": "eleven_turbo_v2_5",
+"kind": "dict",
+"chars": 13
+},
+{
+"text": "Say: zorblak.",
+"model": "eleven_turbo_v2",
+"kind": "dict",
+"chars": 13
+},
+{
+"text": "Say: zorblak.",
+"model": "eleven_multilingual_v2",
+"kind": "dict",
+"chars": 13
+},
+{
+"text": "Say: zorblik.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 13
+},
+{
+"text": "Say: zorblik.",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 13
+},
+{
+"text": "Say: sa.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "Say: sas.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: IS.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "Say: dog.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: the.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sat.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: I.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "Say: a.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "Say: at.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "Say: ast.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: as.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "Say: tas.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sta.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: att.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: tat.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: pat.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: is.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "Say: tap.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sap.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: pit.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: tip.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sip.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: pip.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sit.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: nip.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: tan.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: pin.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: in.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "Say: pan.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: nap.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: tis.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: nas.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: pas.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: nat.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: nis.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: am.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "Say: of.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "Say: to.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "Say: sam.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: map.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: mat.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: mad.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: man.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: dad.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: dip.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sad.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: dam.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: mip.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: dim.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: it.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "Say: nad.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: dap.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: tid.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: nam.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: dan.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: pam.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: and.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: was.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: gap.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: tag.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: nag.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sag.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: gas.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: top.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: got.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: pot.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: nod.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: log.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: mop.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: dot.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: dop.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: gid.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: pog.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: mig.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: said.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: sog.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: you.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: cot.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: cat.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: cop.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: cap.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: kid.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: can.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: kit.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: kin.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sick.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: tack.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: sack.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: sock.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: dock.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: cog.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: pack.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: cak.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: gack.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: cid.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sok.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: dack.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: on.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "Say: not.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: are.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: he.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "Say: get.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: ten.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: pet.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "sound_m",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "Say: cut.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: cup.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: dug.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: mug.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: gut.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: gum.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: tug.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: nut.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: net.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: men.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: den.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: pen.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sun.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: gup.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: ton.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: kec.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: pem.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: nud.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: dut.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: up.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "Say: she.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: we.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "Say: rat.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: rug.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: ran.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: hut.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: run.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: rid.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: hug.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: hen.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: hat.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: ham.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: hop.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: rot.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: hid.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: hog.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: rip.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "sound_m",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "Say: hac.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: rup.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: gir.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: dor.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: kur.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: mom.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: me.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "Say: be.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "Say: bat.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: big.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: bit.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: bag.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: bed.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: fan.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: fat.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: fig.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: fun.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: fog.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: leg.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: lap.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: lip.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: let.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: lid.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: bud.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: bun.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: fon.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: lir.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: lock.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: bof.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: lut.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: fim.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: bug.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: do.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "Say: what.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: doll.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: bell.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: fell.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: tell.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: sell.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: tall.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: hill.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: bill.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: fill.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: mill.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: kiss.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: buzz.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: cats.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: bugs.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: hats.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: lodd.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: fess.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: nuzz.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: hiff.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: tull.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: bells.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Say: sits.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: pats.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: hugs.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: hit.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sells.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Say: dolls.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Say: fills.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Say: tells.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Say: full.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: they.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: one.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: jam.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: jog.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: jet.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: job.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: jab.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: van.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: vet.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: vat.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: wag.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: wig.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: wet.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: win.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: web.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: well.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: jot.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: jov.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: wab.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: vob.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: jum.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: wov.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: had.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: have.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: go.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "Say: box.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: fox.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: fix.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: mix.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: six.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: chunk.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Say: yes.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: yak.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: yum.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: zip.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: zap.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: quiz.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: quit.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: wax.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: jazz.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: vex.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: fizz.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: zox.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: quab.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: yig.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: fex.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: wux.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: zag.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: has.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: naps.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: pups.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: quits.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Say: no.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "Say: so.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "Say: dig.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: pig.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: mess.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: dax.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: zeb.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: bob.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: tio.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: wuk.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: did.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: d.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "Say: b.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "Say: an.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "Say: oz.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "Say: sot.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: tot.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: adt.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: ist.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: idt.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sca.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sto.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sco.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: tess.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: sess.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: itt.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sin.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: pap.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: pun.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: tin.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: pess.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: nit.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: ad.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "Say: em.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "Say: ram.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: ed.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "Say: sim.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: rim.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sop.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: met.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: min.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: set.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: mod.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: mid.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: pad.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sod.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: pod.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: mep.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: gip.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: gep.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: rud.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: rad.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: hap.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: hup.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: dup.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sid.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: ted.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: nom.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: som.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: pim.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: din.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: rag.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: neg.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: beg.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sig.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: giss.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: tig.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: tog.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sis.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: lag.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: nop.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: dat.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: dep.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: ged.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: nep.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: mog.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: pag.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: mag.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: nog.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: cad.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: nig.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: con.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: son.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: pock.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: tick.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: duck.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: suck.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: bog.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: keg.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: pick.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: nack.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: cuck.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: gock.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: nuck.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: nock.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: ced.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: tock.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: seck.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: teck.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: off.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: put.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: if.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "Say: sup.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: meg.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: peg.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: pug.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: hum.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: gem.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: hem.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: tun.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: tep.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: tup.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: meck.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: mack.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: sud.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sem.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: nid.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: tut.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: tet.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: det.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: us.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "Say: ip.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "Say: rod.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: hag.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sen.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: han.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: san.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: hip.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: him.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: rap.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: nup.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: rop.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: huck.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: ger.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: tir.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: ter.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: cor.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sur.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sor.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: dar.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sar.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: mam.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: med.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: bad.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: fin.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: fit.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: lug.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: lat.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: lad.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: mud.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: bin.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: lack.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: ler.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: soff.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: baff.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: saff.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: sut.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sol.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: fam.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: dill.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: sill.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: till.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: pall.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: pill.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: hell.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: boll.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: miss.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: moll.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: cuss.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: muss.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: suzz.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: bazz.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: tats.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: sazz.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: cots.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: tots.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: sugzz.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Say: bagzz.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Say: sagzz.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Say: hits.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: pits.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: ladd.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: sodd.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: sadd.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: fass.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: nazz.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: siff.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: sull.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: haff.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: sall.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: salzz.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Say: balzz.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Say: sots.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: pots.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: hagzz.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Say: talzz.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Say: solzz.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Say: dalzz.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Say: silzz.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Say: falzz.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Say: pull.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: fall.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: jim.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: jag.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: gob.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: gab.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: jib.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: nab.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: nib.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: vin.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: gag.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: gig.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: wit.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: won.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: seb.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sab.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: will.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: sov.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: jav.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sav.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: wib.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: tob.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sib.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: vib.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: tib.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: tum.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: tim.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: hod.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: wav.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sox.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: bax.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sax.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: fax.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: max.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: clunk.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Say: chink.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Say: yass.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: clink.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Say: yock.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: rum.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: yam.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sizz.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: quat.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: quazz.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Say: wix.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: jizz.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: vax.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: tex.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: tax.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: fazz.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: tox.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: zix.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: tix.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: quib.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: yog.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: pex.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: fux.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: pux.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: pix.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: zog.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: hizz.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: saps.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: nips.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: sips.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: sups.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: paps.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: quatss.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 12
+},
+{
+"text": "Say: satss.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Say: hes.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: mass.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: HAS.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: pax.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: dix.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: zab.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: guck.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: weck.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: geck.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: rob.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: bib.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: rib.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: station.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 13
+},
+{
+"text": "Say: station.",
+"model": "eleven_v4",
+"kind": "plain",
+"chars": 13
+},
+{
+"text": "Say: through.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 13
+},
+{
+"text": "Say: through.",
+"model": "eleven_v4",
+"kind": "plain",
+"chars": 13
+},
+{
+"text": "Say: garden.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 12
+},
+{
+"text": "Say: read.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: read.",
+"model": "eleven_v4",
+"kind": "plain",
+"chars": 10
+},
+{
+"text": "Say: live.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: live.",
+"model": "eleven_v4",
+"kind": "plain",
+"chars": 10
+},
+{
+"text": "Say: wind.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: wind.",
+"model": "eleven_v4",
+"kind": "plain",
+"chars": 10
+},
+{
+"text": "Say: close.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Say: close.",
+"model": "eleven_v4",
+"kind": "plain",
+"chars": 11
+},
+{
+"text": "Say: use.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: use.",
+"model": "eleven_v4",
+"kind": "plain",
+"chars": 9
+},
+{
+"text": "Say: flobin.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 12
+},
+{
+"text": "Say: flobin.",
+"model": "eleven_v4",
+"kind": "plain",
+"chars": 12
+},
+{
+"text": "Say: pademic.",
+"model": "eleven_v4",
+"kind": "plain",
+"chars": 13
+},
+{
+"text": "Say: pademic.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 13
+},
+{
+"text": "Is Nat in?",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Is Tip in?",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Is Pat in?",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Nat is in.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Pat is in!",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Pat is in.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Tip is in!",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Dad is sad.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Dan is sad.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Dan is wet.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Is Dan hot?",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Is Dad sad?",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Is Dan mad?",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Is Dan sad?",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Is Mom hot?",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Is Nat hot?",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Is Sam hot?",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Is Pam mad?",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Pam is sad.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Sam is wet.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Sam is sad.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "We are hot!",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "We are hot.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Go, Nat, go!",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 12
+},
+{
+"text": "Go, fox, go!",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 12
+},
+{
+"text": "Pam pat Dan.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 12
+},
+{
+"text": "Sam had fun.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 12
+},
+{
+"text": "Sam got jam.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 12
+},
+{
+"text": "Sam pat Dad.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 12
+},
+{
+"text": "The dog sat.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 12
+},
+{
+"text": "The bug ran.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 12
+},
+{
+"text": "Nat is a vet.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 13
+},
+{
+"text": "He got a mug.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 13
+},
+{
+"text": "He got a nut.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 13
+},
+{
+"text": "Dan got a cup.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 14
+},
+{
+"text": "Dan got a job.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 14
+},
+{
+"text": "Dan got a cap.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 14
+},
+{
+"text": "Dan got a map.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 14
+},
+{
+"text": "Dan got a van.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 14
+},
+{
+"text": "Dan has a box.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 14
+},
+{
+"text": "Say: a.",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "Say: sa.",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "Say: tas.",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: sas.",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: the.",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: is.",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "Say: of.",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "Say: to.",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "Say: was.",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: dog.",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: said.",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: full.",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: son.",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: off.",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: fall.",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: through.",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 13
+},
+{
+"text": "Say: station.",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 13
+},
+{
+"text": "Say: garden.",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 12
+},
+{
+"text": "Say: read.",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: live.",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: wind.",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "Say: close.",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "Say: use.",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "Say: flobin.",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 12
+},
+{
+"text": "Say: pademic.",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 13
+},
+{
+"text": "Say: hot.",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "sound_p",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_p",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_p",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "long_p",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "sound_b",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_b",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_b",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "long_b",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "sound_t",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_t",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_t",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "long_t",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "sound_d",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_d",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "sound_d",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_d",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "sound_k",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_k",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "sound_k",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_k",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "sound_g",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_g",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "sound_g",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_g",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "sound_ch",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "sound_ch",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_ch",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_ch",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_j",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_j",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "sound_j",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_j",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "sound_f",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_f",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "sound_f",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_f",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "sound_v",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_v",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "sound_v",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_v",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "sound_th",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_th",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_th",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_th",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_dh",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_dh",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_dh",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_dh",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_s",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_s",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "sound_s",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_s",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "sound_z",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_z",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "sound_z",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_z",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "sound_sh",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "sound_sh",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_sh",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_sh",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_zh",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "sound_zh",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_zh",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_zh",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_h",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "sound_h",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_h",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "long_m",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "long_m",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "sound_h",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_n",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_n",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_n",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "long_n",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "sound_ng",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_ng",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_ng",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_ng",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_l",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_l",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "sound_l",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_l",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "sound_r",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_r",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "sound_r",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_r",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "sound_w",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_w",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "sound_w",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_w",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "sound_y",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_y",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "sound_y",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_y",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 6
+},
+{
+"text": "sound_ae",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_ae",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_ae",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_ae",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_eh",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_eh",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_eh",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_eh",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_ih",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_ih",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_ih",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_ih",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_aa",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_aa",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_aa",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_aa",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_ah",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "sound_ah",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_ah",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_ah",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_uh",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_uh",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_uh",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_uh",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_iy",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_iy",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_iy",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_iy",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_ar",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_ar",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_ar",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_ar",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_ao",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_ao",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_ao",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_ao",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_uw",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_uw",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_uw",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_uw",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_er",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_er",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_er",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_er",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_ey",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_ey",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_ey",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_ey",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_ay",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_ay",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_ay",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_ay",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_oy",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "sound_oy",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_oy",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_oy",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_ow",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_ow",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_ow",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_ow",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_aw",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_aw",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "sound_aw",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_aw",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_ir",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "sound_ir",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_ir",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "long_ir",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_air",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "sound_air",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 9
+},
+{
+"text": "long_air",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_air",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "sound_ur",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_ur",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_ur",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 8
+},
+{
+"text": "long_ur",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 7
+},
+{
+"text": "sound_schwa",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "long_schwa",
+"model": "eleven_v4",
+"kind": "dict",
+"chars": 10
+},
+{
+"text": "sound_schwa",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 11
+},
+{
+"text": "long_schwa",
+"model": "eleven_flash_v2",
+"kind": "dict",
+"chars": 10
+}
+]
