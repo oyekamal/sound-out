@@ -3,7 +3,7 @@ import { play, stop, mark, has } from './audio.js';
 import { h, icon, pebble, village, STICKERS } from './ui.js';
 import * as db from './db.js';
 import { review, due } from './scheduler.js';
-import { lessonById, sittingsFor, blendItems, spellWords, entry, LESSONS } from './content.js';
+import { lessonById, sittingsFor, blendItems, spellWords, entry, LESSONS, options } from './content.js';
 import { hear } from './screens/hear.js';
 import { meet } from './screens/meet.js';
 import { trace } from './screens/trace.js';
@@ -83,7 +83,7 @@ export async function runSitting(app, profile, key) {
       const cards = (await due(profile.id, prog.sittingCount || 0, track === 'A' ? 3 : 6));
       const letters = [...new Set([...cards.filter(c => c.kind === 'letter').map(c => c.item.split(':')[1]), ...known.slice(-2)])].filter(l => known.includes(l)).slice(0, track === 'A' ? 3 : 6);
       for (const l of letters) await warmLetter(ctx, l, known);
-      const word = cards.find(c => (c.kind === 'real' || c.kind === 'pseudo') && entry(c.item));
+      const word = cards.find(c => (c.kind === 'real' || c.kind === 'pseudo') && entry(c.item) && options[c.item.toLowerCase()]);   // words without tap-gate options (Levels 2-4 unbuildable) are not warm-up gates
       if (word) { const r = await gate(ctx, word.item, word.kind); await ctx.record(word.item, word.kind, r); }
     } else if (st === 'hear' || st === 'meet' || st === 'trace') {
       // the new-sound steps run letter by letter: hear s, meet s, trace s, then the next letter

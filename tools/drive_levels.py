@@ -33,17 +33,19 @@ IDX = json.loads((C / "audio_index.json").read_text())["clips"]
 LEX = json.loads((C / "lexicon.json").read_text())
 OPTS = json.loads((C / "options.json").read_text())
 COMING, BUNDLE = set(), None
+LVLEX = {}   # same merge as app/src/levels.js: a later level's entry for a word replaces an earlier level's
 for f in sorted((C / "levels").glob("L*.json")):
     b = json.loads(f.read_text())
     COMING |= set(b.get("audioKeys", []))
-    for k, e in b["lexicon"].items():
-        if k not in LEX or (e["kind"] == "heart" and LEX[k]["kind"] != "heart"): LEX[k] = e
+    LVLEX.update(b["lexicon"])
     if b["level"] == LEVEL: BUNDLE = b
+for k, e in LVLEX.items():   # same rule as app/src/content.js: Level 1 wins unless the level entry is a heart word
+    if k not in LEX or (e["kind"] == "heart" and LEX[k]["kind"] != "heart"): LEX[k] = e
 for f in sorted(C.glob("options_L*.json")):
     for k, o in json.loads(f.read_text()).items(): OPTS.setdefault(k, o)
 G2P = {o["g"]: o["p"] for o in json.loads((C / "gpc.json").read_text())["order"]}
 G2P.update(BUNDLE["g2p"])
-PORT = 5318
+PORT = int(ARG("--port") or 5330 + LEVEL)   # own port per level so levels can drive in parallel (5318 belongs to the dev server)
 URL = f"http://localhost:{PORT}/?fast"   # a static build (no dev-server reloads while other work edits files)
 ARPA_VOWELS = {"aa", "ae", "ah", "ao", "aw", "ay", "eh", "er", "ey", "ih", "iy", "ow", "oy", "uh", "uw"}
 problems = []

@@ -37,3 +37,6 @@
 .comps { width: 100%; display: grid; gap: 8px; margin: 10px 0; }
 .comp { background: var(--card); border-radius: 14px; padding: 10px 12px; box-shadow: var(--shadow); display: flex; justify-content: space-between; gap: 8px; }
 .comp.pass b { color: var(--good); } .comp.miss b { color: var(--bad); } .comp.offline { opacity: .75; font-size: .9rem; }
+.level-card{margin:1.5rem 0 .5rem;padding:.75rem 1rem;border-radius:14px;background:var(--card,#f4f1ea)}
+.level-card.locked{opacity:.65}
+.level-card h2{margin:0 0 .25rem;font-size:1.15rem}

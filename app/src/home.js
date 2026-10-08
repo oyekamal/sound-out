@@ -22,7 +22,16 @@ export async function home(app, profile) {
   } else {
     s.append(h('h1', {}, 'Lessons'), h('p', { class: 'muted' }, `Words you can read now: ${countWords(prog)}`));
   }
+  const LEVEL_NAME = { 2: 'Sounds Together', 3: 'Long Vowels', 4: 'Longer Words' };
+  let lastLevel = 1;
   for (const l of LESSONS) {
+    if ((l.level || 1) !== lastLevel) {   // a level card before the first lesson of Level 2, 3, 4 (locked until the level before is checked)
+      lastLevel = l.level || 1;
+      const open = st.some(x => x.lessonId === l.id && x.state !== 'locked');
+      s.append(h('section', { class: `level-card${open ? '' : ' locked'}`, 'data-level': String(lastLevel) },
+        h('h2', {}, `Level ${lastLevel}${LEVEL_NAME[lastLevel] ? ` · ${LEVEL_NAME[lastLevel]}` : ''}`),
+        h('p', { class: 'muted small' }, open ? 'Open. Pick up where you stopped.' : `Opens when you pass the Level ${lastLevel - 1} check.`)));
+    }
     const ls = st.filter(x => x.lessonId === l.id);
     const lstate = prog.lessons[l.id]?.state;
     const sec = h('section', { class: 'lesson' }, h('h3', {}, track === 'A' ? `Sounds: ${l.title}` : `Lesson ${l.id.slice(1)} · ${l.title}`,
