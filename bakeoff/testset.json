@@ -1,0 +1,512 @@
+[
+ {
+  "id": "w_sat",
+  "kind": "real",
+  "text": "sat",
+  "arpa": [
+   "S",
+   "AE1",
+   "T"
+  ],
+  "ph": "sˈæt",
+  "bar": {
+   "id": "5faf7c35bf00",
+   "dur": 0.673
+  }
+ },
+ {
+  "id": "w_mug",
+  "kind": "real",
+  "text": "mug",
+  "arpa": [
+   "M",
+   "AH1",
+   "G"
+  ],
+  "ph": "mˈʌɡ",
+  "bar": {
+   "id": "7f83a0604c26",
+   "dur": 0.676
+  }
+ },
+ {
+  "id": "w_chunk",
+  "kind": "real",
+  "text": "chunk",
+  "arpa": [
+   "CH",
+   "AH1",
+   "NG",
+   "K"
+  ],
+  "ph": "ʧˈʌŋk",
+  "bar": {
+   "id": "14c9a4f59201",
+   "dur": 0.627
+  }
+ },
+ {
+  "id": "w_full",
+  "kind": "real",
+  "text": "full",
+  "arpa": [
+   "F",
+   "UH1",
+   "L"
+  ],
+  "ph": "fˈʊl",
+  "bar": {
+   "id": "001b3b404aa4",
+   "dur": 0.861
+  }
+ },
+ {
+  "id": "w_cat",
+  "kind": "real",
+  "text": "cat",
+  "arpa": [
+   "K",
+   "AE1",
+   "T"
+  ],
+  "ph": "kˈæt",
+  "bar": {
+   "id": "619135ff2201",
+   "dur": 0.628
+  }
+ },
+ {
+  "id": "w_dog",
+  "kind": "real",
+  "text": "dog",
+  "arpa": [
+   "D",
+   "AO1",
+   "G"
+  ],
+  "ph": "dˈɔɡ",
+  "bar": {
+   "id": "6a8b4f4da683",
+   "dur": 0.689
+  }
+ },
+ {
+  "id": "w_win",
+  "kind": "real",
+  "text": "win",
+  "arpa": [
+   "W",
+   "IH1",
+   "N"
+  ],
+  "ph": "wˈɪn",
+  "bar": {
+   "id": "56a19fcf2308",
+   "dur": 0.619
+  }
+ },
+ {
+  "id": "w_quit",
+  "kind": "real",
+  "text": "quit",
+  "arpa": [
+   "K",
+   "W",
+   "IH1",
+   "T"
+  ],
+  "ph": "kwˈɪt",
+  "bar": {
+   "id": "111771a3b0f0",
+   "dur": 0.783
+  }
+ },
+ {
+  "id": "w_fox",
+  "kind": "real",
+  "text": "fox",
+  "arpa": [
+   "F",
+   "AA1",
+   "K",
+   "S"
+  ],
+  "ph": "fˈɑks",
+  "bar": {
+   "id": "dd1c0e03c272",
+   "dur": 0.763
+  }
+ },
+ {
+  "id": "w_hill",
+  "kind": "real",
+  "text": "hill",
+  "arpa": [
+   "HH",
+   "IH1",
+   "L"
+  ],
+  "ph": "hˈɪl",
+  "bar": {
+   "id": "09aa6c653bb8",
+   "dur": 0.557
+  }
+ },
+ {
+  "id": "w_what",
+  "kind": "real",
+  "text": "what",
+  "arpa": [
+   "W",
+   "AH1",
+   "T"
+  ],
+  "ph": "wˈʌt",
+  "bar": {
+   "id": "446bdc677297",
+   "dur": 0.82
+  }
+ },
+ {
+  "id": "w_said",
+  "kind": "real",
+  "text": "said",
+  "arpa": [
+   "S",
+   "EH1",
+   "D"
+  ],
+  "ph": "sˈɛd",
+  "bar": {
+   "id": "d0650ed7bbfa",
+   "dur": 0.799
+  }
+ },
+ {
+  "id": "m_tas",
+  "kind": "made",
+  "text": "tas",
+  "arpa": [
+   "T",
+   "AE",
+   "S"
+  ],
+  "ph": "tˈæs",
+  "bar": {
+   "id": "deb2303e6aff",
+   "dur": 0.722
+  }
+ },
+ {
+  "id": "m_mip",
+  "kind": "made",
+  "text": "mip",
+  "arpa": [
+   "M",
+   "IH",
+   "P"
+  ],
+  "ph": "mˈɪp",
+  "bar": {
+   "id": "3e117fb7beb0",
+   "dur": 0.545
+  }
+ },
+ {
+  "id": "m_gid",
+  "kind": "made",
+  "text": "gid",
+  "arpa": [
+   "G",
+   "IH",
+   "D"
+  ],
+  "ph": "ɡˈɪd",
+  "bar": {
+   "id": "471c2b33242f",
+   "dur": 0.596
+  }
+ },
+ {
+  "id": "m_cak",
+  "kind": "made",
+  "text": "cak",
+  "arpa": [
+   "K",
+   "AE",
+   "K"
+  ],
+  "ph": "kˈæk",
+  "bar": {
+   "id": "fec8a1d824b3",
+   "dur": 0.593
+  }
+ },
+ {
+  "id": "m_nuzz",
+  "kind": "made",
+  "text": "nuzz",
+  "arpa": [
+   "N",
+   "AH",
+   "Z"
+  ],
+  "ph": "nˈʌz",
+  "bar": {
+   "id": "c0b0606c5424",
+   "dur": 0.705
+  }
+ },
+ {
+  "id": "m_zox",
+  "kind": "made",
+  "text": "zox",
+  "arpa": [
+   "Z",
+   "AA",
+   "K",
+   "S"
+  ],
+  "ph": "zˈɑks",
+  "bar": {
+   "id": "6d378b58864c",
+   "dur": 0.764
+  }
+ },
+ {
+  "id": "m_quab",
+  "kind": "made",
+  "text": "quab",
+  "arpa": [
+   "K",
+   "W",
+   "AE",
+   "B"
+  ],
+  "ph": "kwˈæb",
+  "bar": {
+   "id": "7c114edce8e8",
+   "dur": 0.653
+  }
+ },
+ {
+  "id": "m_wux",
+  "kind": "made",
+  "text": "wux",
+  "arpa": [
+   "W",
+   "AH",
+   "K",
+   "S"
+  ],
+  "ph": "wˈʌks",
+  "bar": {
+   "id": "6ef9d67dee2c",
+   "dur": 0.626
+  }
+ },
+ {
+  "id": "s_s",
+  "kind": "iso",
+  "text": "s",
+  "ph": "s",
+  "carrier": "sat",
+  "carrier_idx": 0,
+  "carrier_arpa": [
+   "S",
+   "AE1",
+   "T"
+  ],
+  "bar": {
+   "id": "b0fa636ab32c",
+   "dur": 0.54
+  }
+ },
+ {
+  "id": "s_a",
+  "kind": "iso",
+  "text": "a",
+  "ph": "æ",
+  "carrier": "sat",
+  "carrier_idx": 1,
+  "carrier_arpa": [
+   "S",
+   "AE1",
+   "T"
+  ],
+  "bar": {
+   "id": "fea1cdd8d548",
+   "dur": 0.5
+  }
+ },
+ {
+  "id": "s_t",
+  "kind": "iso",
+  "text": "t",
+  "ph": "t",
+  "carrier": "tap",
+  "carrier_idx": 0,
+  "carrier_arpa": [
+   "T",
+   "AE1",
+   "P"
+  ],
+  "bar": {
+   "id": "7140a2bcce79",
+   "dur": 0.34
+  }
+ },
+ {
+  "id": "s_p",
+  "kind": "iso",
+  "text": "p",
+  "ph": "p",
+  "carrier": "pat",
+  "carrier_idx": 0,
+  "carrier_arpa": [
+   "P",
+   "AE1",
+   "T"
+  ],
+  "bar": {
+   "id": "a48512c0abf4",
+   "dur": 0.34
+  }
+ },
+ {
+  "id": "s_i",
+  "kind": "iso",
+  "text": "i",
+  "ph": "ɪ",
+  "carrier": "sit",
+  "carrier_idx": 1,
+  "carrier_arpa": [
+   "S",
+   "IH1",
+   "T"
+  ],
+  "bar": {
+   "id": "cc8637db6ead",
+   "dur": 0.5
+  }
+ },
+ {
+  "id": "s_o",
+  "kind": "iso",
+  "text": "o",
+  "ph": "ɑ",
+  "carrier": "dot",
+  "carrier_idx": 1,
+  "carrier_arpa": [
+   "D",
+   "AA1",
+   "T"
+  ],
+  "bar": {
+   "id": "16c5cb115b95",
+   "dur": 0.5
+  }
+ },
+ {
+  "id": "s_m",
+  "kind": "iso",
+  "text": "m",
+  "ph": "m",
+  "carrier": "map",
+  "carrier_idx": 0,
+  "carrier_arpa": [
+   "M",
+   "AE1",
+   "P"
+  ],
+  "bar": {
+   "id": "b7e0003165bd",
+   "dur": 0.43
+  }
+ },
+ {
+  "id": "s_n",
+  "kind": "iso",
+  "text": "n",
+  "ph": "n",
+  "carrier": "nap",
+  "carrier_idx": 0,
+  "carrier_arpa": [
+   "N",
+   "AE1",
+   "P"
+  ],
+  "bar": {
+   "id": "41a0c12fd854",
+   "dur": 0.43
+  }
+ },
+ {
+  "id": "s_d",
+  "kind": "iso",
+  "text": "d",
+  "ph": "d",
+  "carrier": "dad",
+  "carrier_idx": 0,
+  "carrier_arpa": [
+   "D",
+   "AE1",
+   "D"
+  ],
+  "bar": {
+   "id": "2d43ed042a70",
+   "dur": 0.19
+  }
+ },
+ {
+  "id": "s_g",
+  "kind": "iso",
+  "text": "g",
+  "ph": "ɡ",
+  "carrier": "gap",
+  "carrier_idx": 0,
+  "carrier_arpa": [
+   "G",
+   "AE1",
+   "P"
+  ],
+  "bar": {
+   "id": "6ee84c42063c",
+   "dur": 0.19
+  }
+ },
+ {
+  "id": "s_b",
+  "kind": "iso",
+  "text": "b",
+  "ph": "b",
+  "carrier": "bat",
+  "carrier_idx": 0,
+  "carrier_arpa": [
+   "B",
+   "AE1",
+   "T"
+  ],
+  "bar": {
+   "id": "01402738c817",
+   "dur": 0.19
+  }
+ },
+ {
+  "id": "s_r",
+  "kind": "iso",
+  "text": "r",
+  "ph": "ɹ",
+  "carrier": "rat",
+  "carrier_idx": 0,
+  "carrier_arpa": [
+   "R",
+   "AE1",
+   "T"
+  ],
+  "bar": {
+   "id": "97a66ea83da9",
+   "dur": 0.43
+  }
+ }
+]
