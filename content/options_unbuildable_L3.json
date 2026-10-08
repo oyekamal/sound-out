@@ -1,0 +1,86 @@
+{
+ "answer": {
+  "lesson": "L3.18",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no onset/final consonant beside the stressed vowel)"
+ },
+ "before": {
+  "lesson": "L3.09",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "behind": {
+  "lesson": "L3.16",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "carpet": {
+  "lesson": "L3.08",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "danger": {
+  "lesson": "L3.07",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid; no onset+final shape)"
+ },
+ "driving": {
+  "lesson": "L3.04",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "dusty": {
+  "lesson": "L3.06",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid; no onset+final shape)"
+ },
+ "every": {
+  "lesson": "L3.18",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no onset/final consonant beside the stressed vowel)"
+ },
+ "frozen": {
+  "lesson": "L3.05",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "gede": {
+  "lesson": "L3.07",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain, no taught real-word foil (no 3-option chain; no onset/final consonant beside the stressed vowel)"
+ },
+ "giant": {
+  "lesson": "L3.07",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "item": {
+  "lesson": "L3.05",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid; no onset+final shape)"
+ },
+ "market": {
+  "lesson": "L3.08",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "music": {
+  "lesson": "L3.05",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "only": {
+  "lesson": "L3.18",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no onset/final consonant beside the stressed vowel)"
+ },
+ "program": {
+  "lesson": "L3.05",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "pupil": {
+  "lesson": "L3.05",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "robot": {
+  "lesson": "L3.05",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "silent": {
+  "lesson": "L3.05",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "smart": {
+  "lesson": "L3.08",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "sticky": {
+  "lesson": "L3.06",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid; no onset+final shape)"
+ }
+}
