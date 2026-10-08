@@ -16,7 +16,35 @@
  },
  "word": {
   "items": [],
-  "vocab": [],
+  "vocab": [
+   {
+    "word": "revenue",
+    "def": "money that comes in to an organization or government, usually from taxes, fees, or sales",
+    "examples": [
+     "The company's revenue grew after it opened a new store.",
+     "A government's revenue falls if fewer people have jobs to pay tax on."
+    ],
+    "task": "\"Name two possible sources of revenue for a national government, besides income tax.\""
+   },
+   {
+    "word": "allocate",
+    "def": "to officially give a certain amount of something (usually money) to a particular purpose",
+    "examples": [
+     "The school allocated part of its budget to new books.",
+     "Parents often allocate their monthly income between rent, food, and savings."
+    ],
+    "task": "\"If you had to allocate a fixed amount of pocket money between food, fun, and saving, which would get the most, and why?\""
+   },
+   {
+    "word": "priority",
+    "def": "something treated as more important and dealt with before other things",
+    "examples": [
+     "Getting homework done is her top priority before watching TV.",
+     "In an emergency, doctors treat the most serious patients as a priority."
+    ],
+    "task": "\"Which is more of a 'priority' for a family with a new baby — new furniture, or health checkups? Why?\""
+   }
+  ],
   "affixes": [],
   "review": []
  },

@@ -8,8 +8,8 @@
   },
   "6": {
    "lessons": 16,
-   "clips": 437,
-   "chars": 93966
+   "clips": 449,
+   "chars": 96835
   },
   "7": {
    "lessons": 14,
@@ -119,20 +119,20 @@
    "chars": 7012
   },
   "L6.10": {
-   "clips": 27,
-   "chars": 6073
+   "clips": 30,
+   "chars": 6711
   },
   "L6.11": {
-   "clips": 27,
-   "chars": 6398
+   "clips": 30,
+   "chars": 7067
   },
   "L6.12": {
-   "clips": 27,
-   "chars": 5953
+   "clips": 30,
+   "chars": 6765
   },
   "L6.13": {
-   "clips": 27,
-   "chars": 6096
+   "clips": 30,
+   "chars": 6846
   },
   "L6.14": {
    "clips": 27,
@@ -204,7 +204,7 @@
   }
  },
  "total": {
-  "clips": 2125,
-  "chars": 254538
+  "clips": 2137,
+  "chars": 257407
  }
 }

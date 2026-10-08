@@ -16,7 +16,35 @@
  },
  "word": {
   "items": [],
-  "vocab": [],
+  "vocab": [
+   {
+    "word": "institution",
+    "def": "a large, organized body that provides a service to many people, usually with official rules and oversight",
+    "examples": [
+     "A school is an institution that provides education.",
+     "A hospital is a medical institution."
+    ],
+    "task": "\"Which is more of an 'institution' — your local corner shop, or a national bank? Why?\""
+   },
+   {
+    "word": "guarantee",
+    "def": "a firm promise that something will happen or be true",
+    "examples": [
+     "The shop guarantees your money back if the phone breaks in a week.",
+     "Nobody can guarantee tomorrow's weather."
+    ],
+    "task": "\"Name one thing in life that really can be guaranteed, and one thing people often falsely claim can be guaranteed.\""
+   },
+   {
+    "word": "skeptical",
+    "def": "not easily convinced; questioning a claim instead of accepting it right away",
+    "examples": [
+     "She was skeptical when the stranger said the watch was a genuine antique.",
+     "Being skeptical doesn't mean refusing to believe anything — it means asking for evidence first."
+    ],
+    "task": "\"Is being 'skeptical' the same as being 'rude'? Explain the difference in your own words.\""
+   }
+  ],
   "affixes": [],
   "review": []
  },

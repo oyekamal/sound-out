@@ -16,7 +16,35 @@
  },
  "word": {
   "items": [],
-  "vocab": [],
+  "vocab": [
+   {
+    "word": "public good",
+    "def": "something everyone in a community can use and benefit from, which usually isn't provided well if left only to individuals or private companies",
+    "examples": [
+     "Clean air is a public good — everyone breathes it, whether or not they paid for it.",
+     "Street lighting is a public good most people wouldn't pay for individually, but everyone benefits from having it."
+    ],
+    "task": "\"Is a public library more like a public good, or more like a private business? Explain.\""
+   },
+   {
+    "word": "contribute",
+    "def": "to give something (money, time, effort) as a share toward a larger shared purpose",
+    "examples": [
+     "Everyone in the group contributed a small amount to buy the gift.",
+     "She contributes her time every weekend to a local clinic."
+    ],
+    "task": "\"Name one way you or your family already 'contribute' to something shared, besides paying tax.\""
+   },
+   {
+    "word": "evade",
+    "def": "to deliberately avoid doing something you are supposed to do, often by dishonest means",
+    "examples": [
+     "He tried to evade the question by changing the subject.",
+     "Evading a fee is different from legally avoiding one — one is dishonest, the other isn't."
+    ],
+    "task": "\"What's the difference between 'evading' tax and 'avoiding' tax legally (for example, by claiming a legitimate deduction)?\""
+   }
+  ],
   "affixes": [],
   "review": []
  },

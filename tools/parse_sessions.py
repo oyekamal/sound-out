@@ -214,6 +214,13 @@ def parse_vocab(body):
         gen = re.search(r"Generative task:\s*(.*)", txt)
         out.append({"word": clean(m.group(1)), "def": clean(d.group(1)) if d else "", "examples": [clean(e) for e in ex[:2]], "task": clean(gen.group(1)) if gen else None})
     if out: return out
+    # L6.10-13: **revenue** — *definition* (e.g., "..."). Example 1: "..." Example 2: "..."  Generative task: ...
+    for m in re.finditer(r"^\*\*([A-Za-z' -]+)\*\*\s*[—–-]\s*\*([^*\n]+)\*(.*?)(?=^\*\*[A-Za-z' -]+\*\*\s*[—–-]\s*\*|\Z)", body, re.S | re.M):
+        txt = m.group(3)
+        ex = re.findall(r"Example \d:\s*[\"“]([^\"”]+)[\"”]", txt)
+        gen = re.search(r"Generative task:\s*(.*)", txt)
+        out.append({"word": m.group(1).strip(), "def": clean(m.group(2)).rstrip(" ."), "examples": [clean(e) for e in ex[:2]], "task": clean(gen.group(1)) if gen else None})
+    if out: return out
     # L7: - **Deposition** — definition. *"example"* Your turn: ...   (or numbered "1. **Straw man** — ...")
     for it in bullets(body) + numbered(body):
         m = re.match(r"\*\*([^*]{2,40})\*\*\s*[—–-]\s*(.*)", it, re.S)

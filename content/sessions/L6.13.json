@@ -16,7 +16,35 @@
  },
  "word": {
   "items": [],
-  "vocab": [],
+  "vocab": [
+   {
+    "word": "purchasing power",
+    "def": "how much a fixed amount of money can actually buy",
+    "examples": [
+     "If your salary stays the same but bread, rent, and fuel all get more expensive, your purchasing power has dropped.",
+     "A currency's purchasing power can be very different in two countries, even if the numbers look similar."
+    ],
+    "task": "\"If your allowance stayed exactly the same for five years but everything you buy slowly got more expensive, what would happen to your purchasing power?\""
+   },
+   {
+    "word": "erode",
+    "def": "to gradually wear away or reduce something over time",
+    "examples": [
+     "The riverbank was eroded by years of flowing water.",
+     "Trust between two countries can be eroded by years of small broken promises."
+    ],
+    "task": "\"Name one thing besides money that can be 'eroded' gradually — think of something physical and something more abstract.\""
+   },
+   {
+    "word": "fixed income",
+    "def": "money a person regularly receives that does not automatically go up when prices rise",
+    "examples": [
+     "A retired person on a fixed pension has to plan carefully if prices keep rising.",
+     "Unlike a fixed income, some jobs give raises that at least partly keep up with rising prices."
+    ],
+    "task": "\"Why might inflation be more painful for someone on a fixed income than for someone whose pay regularly increases?\""
+   }
+  ],
   "affixes": [],
   "review": []
  },
