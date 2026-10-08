@@ -30,9 +30,9 @@
 .ss-passage { background: var(--card); border-radius: 16px; padding: 12px 14px; box-shadow: var(--shadow); font: 1.12rem/1.6 var(--read); }
 .ss-passage.script .ss-para { white-space: pre-line; }
 .ss-para { margin: .3em 0 .6em; }
-.ss-chunk { display: flex; gap: 8px; align-items: flex-start; border-bottom: 1px solid var(--line); padding-bottom: 4px; }
+.ss-chunk { display: flex; flex-direction: column-reverse; gap: 2px; align-items: stretch; border-bottom: 1px solid var(--line); padding-bottom: 4px; }
 .ss-chunk:last-child { border-bottom: 0; }
-.ss-chunk .ss-para { flex: 1; }
+.ss-chunk .ss-para { flex: 1; } .ss-chunk .ss-coming, .ss-chunk .ss-voice { align-self: flex-end; margin-top: 6px; }
 .ss-sent { border-radius: 6px; cursor: pointer; } .ss-sent.hl { background: var(--hl); }
 .ss-words .ss-w { border: 0; background: transparent; font: inherit; padding: 0 1px; border-radius: 6px; }
 .ss-words .ss-w.hl { background: var(--hl); } .ss-words .ss-w.reached { text-decoration: underline 2px var(--good); }

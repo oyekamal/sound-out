@@ -9,18 +9,138 @@
  "review": "the full instrument is in `../mastery-check.md`; this file is the short tutor script for running it in one sitting.",
  "heartLine": "all 16, tested",
  "time": "25–30 min (assessment only — no new teaching)",
- "heart": [
-  {
-   "word": "all",
-   "note": null
+ "check": {
+  "mastery": true,
+  "components": [
+   {
+    "id": "heart",
+    "label": "Heart words",
+    "kind": "heart",
+    "items": [
+     "once",
+     "only",
+     "very",
+     "every",
+     "great",
+     "eye",
+     "busy",
+     "people",
+     "water",
+     "laugh",
+     "walk",
+     "talk",
+     "buy",
+     "answer",
+     "whole",
+     "earth"
+    ],
+    "bar": {
+     "pass": 14,
+     "of": 16,
+     "source": "mastery-check.md"
+    }
+   },
+   {
+    "id": "real",
+    "label": "Real words",
+    "kind": "real",
+    "items": [
+     "cake",
+     "time",
+     "home",
+     "cute",
+     "these",
+     "hoping",
+     "robot",
+     "happy",
+     "my",
+     "city",
+     "cage",
+     "bridge",
+     "park",
+     "short",
+     "store",
+     "rain",
+     "play",
+     "tree",
+     "eat",
+     "boat",
+     "snow",
+     "night",
+     "pie",
+     "blue",
+     "chew",
+     "fruit",
+     "moon",
+     "book",
+     "wild",
+     "find",
+     "cold",
+     "most"
+    ],
+    "bar": {
+     "pass": 29,
+     "of": 32,
+     "source": "mastery-check.md"
+    }
+   },
+   {
+    "id": "pseudo",
+    "label": "Alien words",
+    "kind": "pseudo",
+    "items": [
+     "flape",
+     "strine",
+     "glode",
+     "prute",
+     "fleeb",
+     "stroat",
+     "blight",
+     "snue",
+     "twoom",
+     "plind"
+    ],
+    "bar": {
+     "pass": 9,
+     "of": 10,
+     "source": "mastery-check.md"
+    }
+   },
+   {
+    "id": "dictation",
+    "label": "Spelling",
+    "kind": "dictation",
+    "items": [
+     "plane",
+     "smile",
+     "close",
+     "baby",
+     "page",
+     "train",
+     "coat",
+     "blue"
+    ],
+    "bar": {
+     "pass": 7,
+     "of": 8,
+     "source": "mastery-check.md"
+    }
+   }
+  ],
+  "offline": [
+   "Connected-text reading (WCPM + phrasing, with the tutor)",
+   "Comprehension 3/3",
+   "Flex-decode narration"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "mastery-check.md",
+   "raw": "every component at its threshold"
   },
-  {
-   "word": "tested",
-   "note": null
-  }
- ],
+  "firstAttemptOnly": true
+ },
  "blocksFound": [
-  "heart"
+  "check"
  ],
  "appSittings": null
 }

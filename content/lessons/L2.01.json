@@ -11,13 +11,33 @@
  "time": "20–25 min",
  "blendList": {
   "real": [
+   "ship",
+   "shop",
+   "shed",
+   "shut",
+   "shin",
+   "shell",
+   "shall",
+   "gosh",
+   "posh",
+   "hush",
+   "wish",
+   "fish",
+   "dish",
+   "rush",
+   "cash"
+  ],
+  "pseudo": [
    "shap",
    "shom",
    "hesh",
    "vosh",
    "nash"
-  ],
-  "pseudo": []
+  ]
+ },
+ "spell": {
+  "words": [],
+  "sentence": "I wish for a fish."
  },
  "heart": [
   {

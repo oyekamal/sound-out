@@ -29,8 +29,7 @@
    "muddy",
    "windy",
    "sticky",
-   "dusty",
-   "flimy"
+   "dusty"
   ],
   "pseudo": [
    "flimy",
@@ -38,6 +37,29 @@
    "plemmy",
    "fladdy",
    "sladdy"
+  ]
+ },
+ "spell": {
+  "words": [
+   "my",
+   "happy",
+   "puppy"
+  ],
+  "sentence": "My puppy is happy."
+ },
+ "listen": {
+  "title": null,
+  "passage": "A customer who takes the time to leave a kind note is showing genuine gratitude — a real, felt thanks, not just a quick 'thanks' said out of habit. Genuine gratitude tends to stick with a person much longer than a routine thank-you.",
+  "tier2": [
+   {
+    "word": "gratitude",
+    "def": "a strong feeling of thanks for something someone did.",
+    "full": "a strong feeling of thanks for something someone did."
+   }
+  ],
+  "questions": [
+   "Why does a written note stick with someone longer than a quick \"thanks\"?",
+   "Who deserves your gratitude this week?"
   ]
  },
  "check": {
@@ -89,8 +111,10 @@
   "blendList",
   "heart",
   "read",
+  "listen",
   "check",
-  "trackB"
+  "trackB",
+  "tier2"
  ],
  "appSittings": null
 }

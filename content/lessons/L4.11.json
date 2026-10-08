@@ -20,6 +20,8 @@
    "invention",
    "direction",
    "position",
+   "portion",
+   "section",
    "vision",
    "decision",
    "mission",
@@ -30,9 +32,50 @@
    "picture",
    "nature",
    "future",
-   "adventure"
+   "adventure",
+   "capture",
+   "feature",
+   "mixture",
+   "creature",
+   "famous",
+   "dangerous",
+   "curious",
+   "nervous",
+   "jealous",
+   "generous",
+   "enormous",
+   "special",
+   "social",
+   "official",
+   "partial",
+   "initial",
+   "suggestion"
   ],
-  "pseudo": []
+  "pseudo": [
+   "gorsion",
+   "plection",
+   "thastial",
+   "frenture",
+   "blezious"
+  ]
+ },
+ "spell": {
+  "words": [],
+  "sentence": "Pay attention — that creature looks dangerous!"
+ },
+ "listen": {
+  "title": null,
+  "passage": "A good doctor, teacher, or guide often shows attentiveness — noticing small details about a person or a situation that someone in a hurry might miss.",
+  "tier2": [
+   {
+    "word": "attentiveness",
+    "def": "paying close, careful attention to someone or something, noticing details.",
+    "full": "paying close, careful attention to someone or something, noticing details."
+   }
+  ],
+  "questions": [
+   "What is the difference between someone being attentive and someone just being polite?"
+  ]
  },
  "check": {
   "real": [
@@ -72,8 +115,10 @@
  "blocksFound": [
   "blendList",
   "read",
+  "listen",
   "check",
-  "trackB"
+  "trackB",
+  "tier2"
  ],
  "appSittings": null
 }

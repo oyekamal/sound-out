@@ -1,0 +1,155 @@
+{
+ "id": "L6.03",
+ "level": 6,
+ "title": "Why We Get Sick — and How the Body Fights Back",
+ "source": "course/level-6/lessons/L6.03-why-we-get-sick.md",
+ "practice": true,
+ "goal": "Learn the cause/effect text structure and its signal words; learn monitoring/fix-up as a comprehension strategy; practice long-sentence chunking on a real sentence from today's text.",
+ "warm": {
+  "words": [],
+  "heart": [],
+  "prompts": [
+   "\"Walk me through the sequence of blood through the heart, in order.\" (right atrium → right ventricle → lungs → left atrium → left ventricle → out to the body)",
+   "\"What signal words tell us a text is using sequence structure?\" (first, next, then, after, finally, meanwhile, stages, steps)",
+   "\"Name one of the four reciprocal-teaching roles and what it does.\""
+  ]
+ },
+ "word": {
+  "items": [],
+  "vocab": [
+   {
+    "word": "infection",
+    "def": "when harmful germs — like bacteria or viruses — get into the body and start to multiply, often making you feel sick.",
+    "examples": [
+     "A cut that isn't cleaned properly can develop an infection.",
+     "The doctor prescribed antibiotics to treat the infection."
+    ],
+    "task": "\"Which is more likely to cause an infection, a clean bandage or a dirty one? Explain why.\""
+   },
+   {
+    "word": "immune",
+    "def": "able to resist or fight off something, especially germs and disease.",
+    "examples": [
+     "Your immune system is the body's defense force against infection.",
+     "Getting a vaccine can help make you immune to a specific disease."
+    ],
+    "task": "\"Describe one thing that might weaken a person's immune system, and one thing that might strengthen it.\""
+   }
+  ],
+  "affixes": [],
+  "review": []
+ },
+ "fluency": {
+  "title": "Read it smoothly",
+  "paragraphs": [
+   "\"When a germ such as a virus or bacterium enters the body, the immune system detects it as foreign, sends specialized white blood cells to the site, and begins producing antibodies — proteins shaped to recognize and attack that specific invader — which is why recovering from one illness often protects you from catching the exact same one again soon after.\""
+  ],
+  "phrased": false
+ },
+ "prime": {
+  "facts": [
+   "Germs are tiny living things — bacteria, viruses, and fungi — that can get inside the body and make you sick.",
+   "Your immune system is a defense system already built into your body, and it starts fighting germs before you even feel anything.",
+   "Symptoms like fever aren't the sickness itself — they're often a sign the body is actively fighting back."
+  ],
+  "question": "Think about the last time you or someone in your family had a fever and went to a local doctor or dawakhana — what do you think was actually happening inside the body at that moment?",
+  "intro": "Before reading, briefly build the picture: \"Picture a busy local clinic waiting room, full of people with coughs, fevers, and cuts — nearly all of them are there because of something too small to see: a germ.\""
+ },
+ "write": {
+  "task": "Write 3–4 sentences explaining the cause-and-effect chain from \"a germ enters the body\" to \"you recover,\" using at least two cause/effect signal words (because, as a result, therefore, due to, so, consequently, leads to).",
+  "model": "When a germ enters the body, the immune system detects it because it recognizes the germ as foreign. As a result, white blood cells and antibodies are produced to fight it. Because this immune response can raise body temperature, a fever is often a sign the body is fighting the infection. Consequently, once the antibodies deal with the germ, the person usually recovers."
+ },
+ "check": {
+  "items": [
+   {
+    "q": "What are the three main types of germs named in the text?",
+    "kind": "literal",
+    "a": "Bacteria, viruses, and fungi."
+   },
+   {
+    "q": "What does the text say handwashing physically does to germs?",
+    "kind": "literal",
+    "a": "It physically removes germs from the skin before they can be transferred to the mouth, nose, eyes, or another person."
+   },
+   {
+    "q": "Why might a fever be a sign that the body is working correctly, not a sign that something has gone wrong?",
+    "kind": "inferential",
+    "a": "Because the fever is described as part of the immune response actively fighting the germ, not a separate problem — it's an effect of the body doing its job."
+   },
+   {
+    "q": "What is the cause-and-effect relationship between \"germs spread easily between people\" and \"public health guidance emphasizes hygiene habits\"?",
+    "kind": "inferential",
+    "a": "Because germs that spread easily have a bigger effect on a whole community, public health guidance responds by promoting habits (handwashing, staying home, covering coughs) that interrupt that spread — the cause (easy spread) leads to the effect (stronger hygiene guidance)."
+   },
+   {
+    "q": "The text says a very high or long-lasting fever should always be checked by a doctor. Why do you think the text includes that caution, given everything else it says about fevers being a normal part of fighting illness?",
+    "kind": "evaluative",
+    "a": "Reasonable answers should note that while a mild fever is a normal, useful effect of the immune system working, a very high or prolonged fever can signal a more serious problem or a risk to the body itself — the text is being careful not to imply \"never worry about a fever.\""
+   }
+  ],
+  "bar": "4/5 or more correct",
+  "support": "If the learner scores below 4/5, reread the fever and handwashing paragraphs together, having them underline the exact cause/effect signal word in each sentence before retrying questions 3 and 4.",
+  "challenge": "If the learner scores 5/5 well under time, ask them to think of one everyday habit besides handwashing that interrupts the germ-to-illness chain, and explain which step it interrupts."
+ },
+ "text": {
+  "passages": [
+   {
+    "track": null,
+    "title": "Why We Get Sick — and How the Body Fights Back",
+    "paragraphs": [
+     "Getting sick usually has a clear cause: a germ. Germs are tiny organisms — mainly bacteria, viruses, and fungi. They are too small to see without a microscope. Some of them can make you ill when they get inside your body. Public health research has taught us something very useful. It's the cause-and-effect chain from \"a germ enters the body\" to \"you feel sick\" to \"you get better.\"",
+     "When a germ such as a virus or bacterium enters the body, the immune system detects it as foreign. It sends specialized white blood cells to the site. These cells begin producing antibodies — proteins shaped to recognize and attack that specific invader. This is why recovering from one illness often protects you from catching the exact same one again soon after. This whole process is called an immune response. It is the direct effect of the germ's presence. It is also the reason many of the uncomfortable symptoms of being sick actually appear.",
+     "Because the immune system's response to infection includes raising body temperature, a fever is often a good sign. It usually means your body is actively fighting something, not that something has gone wrong. As a result, a mild fever is sometimes best left to run its course, rather than being suppressed right away. A very high or long-lasting fever, though, should always be checked by a doctor. Similarly, a runny nose or cough is often the effect of the body trying to flush germs out of the airways and sinuses.",
+     "Some germs spread from person to person more easily than others. This has a direct effect on how fast an illness can travel through a community. Due to this, public health guidance has long emphasized a few simple habits. These include covering a cough or sneeze, staying home when contagious, and — most famous of all — washing your hands. Handwashing physically removes germs from the skin. This stops them from being transferred to the mouth, nose, or eyes, or passed to another person through touch. So, it remains one of the single most effective, low-cost ways to reduce the spread of illness.",
+     "This basic cause-and-effect understanding is often called germ theory. Germs cause illness. The body's immune response causes symptoms and eventual recovery. Hygiene habits reduce the spread of germs in the first place. Germ theory replaced much older, incorrect ideas about what caused disease. Consequently, modern medicine, clean water systems, and everyday habits like handwashing all trace back to one causal insight. Illness has physical causes we can identify, interrupt, and often prevent."
+    ],
+    "phrased": false,
+    "script": false,
+    "questions": [
+     {
+      "q": "What does the text say germs are too small to see without?",
+      "a": "A microscope."
+     },
+     {
+      "q": "Why might it be a mistake to always try to bring a mild fever down right away?",
+      "a": "Because the fever is part of the immune system actively fighting the infection, so suppressing it isn't automatically helpful — though a very high or long-lasting fever still needs a doctor."
+     },
+     {
+      "q": "According to the text, name two simple habits public health guidance recommends.",
+      "a": "Any two of — covering a cough or sneeze, staying home when contagious, washing your hands."
+     }
+    ]
+   }
+  ],
+  "moves": []
+ },
+ "discuss": {
+  "roles": [
+   {
+    "role": "Questioner",
+    "prompt": "After paragraph 4, and.",
+    "model": null
+   },
+   {
+    "role": "Summarizer",
+    "prompt": "After paragraph 5.",
+    "model": null
+   },
+   {
+    "role": "Clarifier",
+    "prompt": null,
+    "model": "The phrase 'run its course' might be confusing. Rereading the sentence — 'a mild fever is sometimes best left to run its course' — I think it means letting the fever continue naturally instead of stopping it right away. That fits with the idea that the fever is doing a job."
+   }
+  ]
+ },
+ "screens": [
+  "warm",
+  "word",
+  "fluency",
+  "prime",
+  "text",
+  "discuss",
+  "write",
+  "check"
+ ]
+}

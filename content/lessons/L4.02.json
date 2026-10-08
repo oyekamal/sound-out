@@ -21,18 +21,66 @@
    "storm",
    "form",
    "fort",
+   "north",
+   "more",
+   "sore",
+   "wore",
+   "core",
+   "store",
+   "shore",
+   "snore",
+   "score",
    "before",
    "story",
    "morning",
    "forget",
    "corner",
+   "explore",
+   "restore",
+   "ignore",
    "war",
    "warm",
    "wart",
    "ward",
-   "warn"
+   "warn",
+   "toward",
+   "work",
+   "word",
+   "world",
+   "worm",
+   "worth",
+   "worst"
   ],
-  "pseudo": []
+  "pseudo": [
+   "dorl",
+   "plor",
+   "storg",
+   "morst"
+  ]
+ },
+ "spell": {
+  "words": [
+   "corn",
+   "short",
+   "store",
+   "before"
+  ],
+  "sentence": "The corn is short before the storm."
+ },
+ "listen": {
+  "title": null,
+  "passage": "Long before cars, people used horses to travel. A caravan was a group of travelers — often with camels or horses — who journeyed together across long, hard roads for safety.",
+  "tier2": [
+   {
+    "word": "caravan",
+    "def": "a group of people traveling together, usually a long way, for safety and company.",
+    "full": "a group of people traveling together, usually a long way, for safety and company."
+   }
+  ],
+  "questions": [
+   "Have you ever traveled somewhere far with a group?",
+   "What might go wrong if you traveled that far alone?"
+  ]
  },
  "check": {
   "real": [
@@ -71,8 +119,10 @@
  "blocksFound": [
   "blendList",
   "read",
+  "listen",
   "check",
-  "trackB"
+  "trackB",
+  "tier2"
  ],
  "appSittings": null
 }

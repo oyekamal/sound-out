@@ -9,18 +9,137 @@
  "review": "every pattern taught in 4.1–4.15",
  "heartLine": "full cumulative review (Levels 1–4)",
  "time": "35–40 min (may be split across two sittings)",
- "heart": [
-  {
-   "word": "full",
-   "note": null
+ "check": {
+  "mastery": true,
+  "components": [
+   {
+    "id": "real",
+    "label": "Real words",
+    "kind": "real",
+    "items": [
+     "chart",
+     "before",
+     "turn",
+     "chair",
+     "world",
+     "enjoy",
+     "cloud",
+     "brown",
+     "small",
+     "pause",
+     "bread",
+     "knock",
+     "wrist",
+     "comb",
+     "photo",
+     "ghost"
+    ],
+    "bar": {
+     "pass": 14,
+     "of": 16,
+     "source": "mastery-check.md"
+    }
+   },
+   {
+    "id": "pseudo",
+    "label": "Alien words",
+    "kind": "pseudo",
+    "items": [
+     "darl",
+     "storb",
+     "thurl",
+     "blair",
+     "throud",
+     "scall",
+     "gnop",
+     "wrab",
+     "phend",
+     "chask"
+    ],
+    "bar": {
+     "pass": 9,
+     "of": 10,
+     "source": "mastery-check.md"
+    }
+   },
+   {
+    "id": "multi_pseudo",
+    "label": "Long alien words",
+    "kind": "pseudo",
+    "items": [
+     "contramble",
+     "fenscription",
+     "disflorted",
+     "unpladding",
+     "remistion",
+     "gorsional",
+     "thendiculate",
+     "zampervent"
+    ],
+    "bar": {
+     "pass": 7,
+     "of": 8,
+     "source": "mastery-check.md"
+    }
+   },
+   {
+    "id": "multi_real",
+    "label": "Long real words",
+    "kind": "real",
+    "items": [
+     "candle",
+     "napkin",
+     "spider",
+     "cabin",
+     "dangerous",
+     "attention",
+     "picture",
+     "unfriendly",
+     "disconnected",
+     "reconsidering"
+    ],
+    "bar": {
+     "pass": 9,
+     "of": 10,
+     "source": "mastery-check.md"
+    }
+   },
+   {
+    "id": "dictation",
+    "label": "Spelling",
+    "kind": "dictation",
+    "items": [
+     "yard",
+     "store",
+     "shirt",
+     "square",
+     "join",
+     "town",
+     "wall",
+     "hoping",
+     "running",
+     "happier"
+    ],
+    "bar": {
+     "pass": 8,
+     "of": 10,
+     "source": "mastery-check.md"
+    }
+   }
+  ],
+  "offline": [
+   "Authentic passage + unknown-word protocol (with the tutor)",
+   "Fluency reading (WCPM + prosody)"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "mastery-check.md",
+   "raw": "every component at its threshold"
   },
-  {
-   "word": "cumulative",
-   "note": null
-  }
- ],
+  "firstAttemptOnly": true
+ },
  "blocksFound": [
-  "heart"
+  "check"
  ],
  "appSittings": null
 }

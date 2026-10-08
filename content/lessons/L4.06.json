@@ -24,15 +24,58 @@
    "count",
    "south",
    "shout",
+   "about",
+   "proud",
+   "ouch",
+   "pound",
+   "hound",
+   "county",
    "cow",
    "how",
    "now",
    "down",
    "town",
    "brown",
-   "crown"
+   "crown",
+   "gown",
+   "clown",
+   "frown",
+   "drown",
+   "owl",
+   "growl",
+   "howl",
+   "crowd",
+   "power"
   ],
-  "pseudo": []
+  "pseudo": [
+   "glout",
+   "throud",
+   "plown",
+   "scrow",
+   "dround"
+  ]
+ },
+ "spell": {
+  "words": [
+   "cloud",
+   "brown",
+   "sound"
+  ],
+  "sentence": "The loud cow made a sound down by the house."
+ },
+ "listen": {
+  "title": null,
+  "passage": "When many strangers stay calm together during a problem, like a power cut or a delay, we can say the group showed resilience — the ability to handle a hard moment without falling apart.",
+  "tier2": [
+   {
+    "word": "resilience",
+    "def": "the ability to recover from something hard and keep going.",
+    "full": "the ability to recover from something hard and keep going."
+   }
+  ],
+  "questions": [
+   "What helps a group of people stay calm during an unexpected problem?"
+  ]
  },
  "check": {
   "real": [
@@ -72,8 +115,10 @@
  "blocksFound": [
   "blendList",
   "read",
+  "listen",
   "check",
-  "trackB"
+  "trackB",
+  "tier2"
  ],
  "appSittings": null
 }

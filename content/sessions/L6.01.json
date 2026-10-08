@@ -1,0 +1,161 @@
+{
+ "id": "L6.01",
+ "level": 6,
+ "title": "How Your Body Is Built",
+ "source": "course/level-6/lessons/L6.01-how-your-body-is-built.md",
+ "practice": true,
+ "goal": "Learn the description text structure and its signal words; be introduced to the reciprocal-teaching routine (Predictor, Questioner, Clarifier, Summarizer) through a fully modeled tutor dialogue.",
+ "warm": {
+  "words": [],
+  "heart": [],
+  "prompts": [
+   "\"What is one thing you already know about how your body works?\"",
+   "\"Name one part of your body that's on the inside, not the outside.\"",
+   "\"When you read something new and hard, what do good readers do in their heads?\" (Any answer is fine — we're about to name this explicitly.)"
+  ]
+ },
+ "word": {
+  "items": [],
+  "vocab": [
+   {
+    "word": "organ",
+    "def": "a part inside your body that does a specific job — like the heart, the lungs, or the stomach.",
+    "examples": [
+     "The heart is an organ that pumps blood.",
+     "The skin is actually the body's largest organ."
+    ],
+    "task": "\"Name two organs you can think of, and say one job each one does.\""
+   },
+   {
+    "word": "structure",
+    "def": "the way something is built or put together, so it can do its job.",
+    "examples": [
+     "A bridge needs a strong structure so it doesn't collapse.",
+     "Bones give your body its structure — without them, you'd be a puddle on the floor."
+    ],
+    "task": "\"Which has a more rigid structure, a bone or a muscle? Why do you think the body needs both kinds?\""
+   }
+  ],
+  "affixes": [],
+  "review": []
+ },
+ "fluency": {
+  "title": "Read it smoothly",
+  "paragraphs": [
+   "Your body is made of trillions of tiny living cells. Cells group together to form tissues, tissues group together to form organs, and organs work together in systems — like the digestive system or the circulatory system. Each level builds on the one below it, like bricks becoming a wall, and a wall becoming a house."
+  ],
+  "phrased": true
+ },
+ "prime": {
+  "facts": [
+   "Your body has trillions of cells, far too small to see without a microscope.",
+   "Cells group into tissues, tissues group into organs, and organs group into systems — each level built from the one below it.",
+   "The body has about eleven major systems total, and every one of them depends on its cells staying healthy."
+  ],
+  "question": "Think of a family elder who's had a checkup at a local clinic — the doctor might have listened to their heart or checked their blood. Which of those do you think is a single cell, which is a tissue, and which is a whole organ?",
+  "intro": "Before reading, briefly build the picture: \"Imagine looking inside your own chest, the way an X-ray at a local hospital would show it — you'd see it isn't just 'stuff,' it's built in layers, like a building, from the smallest living pieces all the way up to whole working systems.\""
+ },
+ "write": {
+  "task": "In 2–4 sentences, explain the four levels of the body's structure (cell, tissue, organ, system) in your own words, using at least one signal word from today's list (for example, such as, characteristics, for instance, in fact).",
+  "model": "The body is built in four levels. Cells are the smallest living parts, for example red blood cells and nerve cells. Similar cells group into tissues, such as muscle tissue or nerve tissue. Tissues combine into organs like the heart, and organs that work together form a system, such as the circulatory system."
+ },
+ "check": {
+  "items": [
+   {
+    "q": "What are the four levels of body structure named in the text, in order from smallest to biggest?",
+    "kind": "literal",
+    "a": "Cells → tissues → organs → systems."
+   },
+   {
+    "q": "Which organ is described as the largest in the human body?",
+    "kind": "literal",
+    "a": "The skin."
+   },
+   {
+    "q": "Why does the text compare the body's structure to \"layers of a building\"?",
+    "kind": "inferential",
+    "a": "Because each level is built from, and depends on, the level below it — the way a building's floors rest on each other."
+   },
+   {
+    "q": "Based on the last paragraph, what would likely happen to a system if enough of its cells were damaged?",
+    "kind": "inferential",
+    "a": "Damage could spread upward — damaged cells could weaken a tissue, which could disable an organ, which could affect the whole system it belongs to."
+   },
+   {
+    "q": "Do you think it's more useful to think about your body one organ at a time, or as a whole set of connected systems? Why?",
+    "kind": "evaluative",
+    "a": "Either answer is acceptable if justified — e.g., \"as connected systems, because organs don't work alone\" or \"one organ at a time is easier to learn first.\""
+   }
+  ],
+  "bar": "4/5 or more correct",
+  "support": "If the learner scores below 4/5, don't just have them reread — draw four labeled boxes (cell, tissue, organ, system) and have them place two examples from the text in each box before retrying questions 3 and 4.",
+  "challenge": "If the learner scores 5/5 well under time, ask them to name a specific organ not mentioned in the text (e.g., the brain or kidneys) and explain which system it belongs to and why."
+ },
+ "text": {
+  "passages": [
+   {
+    "track": null,
+    "title": "How Your Body Is Built",
+    "paragraphs": [
+     "Your body is not one single thing — it is a structure built from smaller and smaller parts. Each part is stacked on the one below it, like layers of a building, and each part has its own job. Scientists describe this using four levels: cells, tissues, organs, and systems.",
+     "The smallest living unit of your body is the cell. A single cell is too small to see without a microscope, and you have somewhere between 30 and 40 trillion of them. Cells come in many different shapes and jobs. For example, red blood cells are shaped like flattened discs, which helps them carry oxygen easily through narrow blood vessels. Nerve cells look very different: they have long, thin arms that stretch out to carry signals over long distances. Characteristics of a healthy cell include a nucleus and an outer membrane. The nucleus holds the instructions for how the cell should behave, and the outer membrane controls what enters and leaves.",
+     "When similar cells group together to do a shared job, they form a tissue. For instance, muscle tissue is made of cells that specialize in contracting and pulling. Nerve tissue is made of cells that specialize in sending electrical signals instead. The human body has four main types of tissue: muscle, nerve, connective, and epithelial. Connective tissue includes bone and blood, and epithelial tissue forms the covering of your skin and the lining of your organs.",
+     "Tissues then combine to form an organ — a structure built from two or more types of tissue, all working together for one purpose. The heart is a good example. It contains muscle tissue to squeeze, nerve tissue to control the rhythm, and connective tissue to hold it all together. Its overall job is to pump blood. Other major organs include the lungs, the stomach, the liver, the kidneys, and the skin. In fact, the skin is the single largest organ in the human body, covering nearly two square meters in an adult.",
+     "Finally, organs that work together toward a shared goal form a system. The heart, blood vessels, and blood together make up the circulatory system, which delivers oxygen and nutrients around the body. The stomach, intestines, liver, and other organs make up the digestive system, which breaks food down into a usable form. The human body has about eleven major systems in total. These include the skeletal system (bones), the muscular system, the nervous system, and the respiratory system (lungs and airways).",
+     "Every one of these levels depends on the one below it. Damage to enough cells can damage a tissue. Damage to a tissue can disable an organ, and a failing organ can affect an entire system. Understanding this layered structure — cell, tissue, organ, system — is the starting point for understanding almost everything else about the body. It explains how the body stays healthy, and what happens when it gets sick."
+    ],
+    "phrased": false,
+    "script": false,
+    "questions": [
+     {
+      "q": "About how many cells does your body have?",
+      "a": "Somewhere between 30 and 40 trillion."
+     },
+     {
+      "q": "Why does the heart need three different kinds of tissue instead of just one?",
+      "a": "Because pumping blood needs squeezing (muscle), a controlled rhythm (nerve), and something to hold it all together (connective) — no single tissue type can do all three jobs alone."
+     },
+     {
+      "q": "Name two of the eleven major body systems mentioned in the text.",
+      "a": "Any two of — circulatory, digestive, skeletal, muscular, nervous, respiratory."
+     }
+    ]
+   }
+  ],
+  "moves": []
+ },
+ "discuss": {
+  "roles": [
+   {
+    "role": "Questioner",
+    "prompt": "Role to the learner for paragraph 3 (the tissues paragraph):.",
+    "model": "Now I ask myself a real question about what I just read. Here's mine: 'Why does the text say the body is built like a building, with layers stacked on each other?' I think it's because each layer is made from the layer below it — cells make tissues, and so on. That's a good comprehension check for myself."
+   },
+   {
+    "role": "Predictor",
+    "prompt": null,
+    "model": "Before I even start reading, I look at the title — 'How Your Body Is Built' — and I predict this is going to describe body parts from smallest to biggest, or maybe the other way round. Let's see if I'm right."
+   },
+   {
+    "role": "Clarifier",
+    "prompt": null,
+    "model": "Here's a word that might be confusing: 'membrane.' I'm not 100% sure what that means just from this sentence. Let me reread it: 'an outer membrane, which controls what enters and leaves.' So a membrane sounds like it works like a gate or a skin around the cell — that makes sense with the word 'outer.' I've clarified it enough to keep reading."
+   },
+   {
+    "role": "Summarizer",
+    "prompt": null,
+    "model": "One-sentence gist of what I've read so far: 'The body is built in four levels — cells, tissues, organs, and systems — each one made from the smaller one before it.'"
+   }
+  ]
+ },
+ "screens": [
+  "warm",
+  "word",
+  "fluency",
+  "prime",
+  "text",
+  "discuss",
+  "write",
+  "check"
+ ]
+}

@@ -47,6 +47,7 @@ def run_all(br, problems, url, levels=(5, 6, 7)):
         problems.append("[S] practice levels open before the Level 4 check")
     if not page.locator(".ss-practice .ss-libbtn").count(): problems.append("[S] no Library entry on Home")
     page.click(".ss-practice .ss-libbtn"); page.wait_for_selector(".ss-library")
+    page.evaluate("window.__so.trace.length = 0; window.__so.missing.length = 0")   # audit only what the L5-7 screens ask for
     page.screenshot(path=str(SHOTS / "S_01_library.png"), full_page=True)
 
     def check_speakers(lid):

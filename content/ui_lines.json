@@ -46,5 +46,16 @@
  "wordsToRemember": "Words to remember",
  "trickyWords": "Tricky words",
  "next": "Next",
- "selfReport": "The app does not hear you. Tap when you have said it."
+ "selfReport": "The app does not hear you. Tap when you have said it.",
+ "l1OralFirst": "Listen. What sound does it start with?",
+ "l1OralBlend": "Listen to the sounds. Which word do they make?",
+ "l1OralCount": "Listen to the word. How many sounds?",
+ "l1OralPreview": "Here are two letters for next time.",
+ "l1OralCheck": "Listen to the sounds, and pick the word.",
+ "l1Names": "Every letter has a name and a sound.",
+ "l1NameOrSound": "Was that its name, or its sound?",
+ "l1Bdpq": "These letters look alike. Look closely.",
+ "l1MasteryIntro": "This is the Level 1 check. Take your time.",
+ "l1MasteryPass": "You passed Level 1! Level 2 is coming soon.",
+ "l1MasteryMiss": "Let's practise a little more, then try again."
 }

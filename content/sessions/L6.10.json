@@ -1,0 +1,146 @@
+{
+ "id": "L6.10",
+ "level": 6,
+ "title": "How Money Moves: Banks, Loans, and Interest",
+ "source": "course/level-6/lessons/L6.10-how-money-moves.md",
+ "practice": true,
+ "goal": "Read and discuss an informational text about banks, loans, and interest; review description and sequence structure; apply the lateral-reading protocol to a real-world \"get rich quick\" claim.",
+ "warm": {
+  "words": [],
+  "heart": [],
+  "prompts": [
+   "\"In L6.09 we learned a set of steps for checking whether a source online can be trusted. Can you name one of those steps?\" (Expected: open a new tab and search who's behind the site/author; check the \"About\" page skeptically; look for labeled sponsored content; don't trust a page just because it sounds confident.)",
+   "\"What's one thing that fooled a lot of people in the study we read about — a video, a sponsored post, or a biased site?\" (Any one is acceptable.)",
+   "\"Quick recall: what does 'description' text structure sound like — what kind of signal words does it use?\" (for example, such as, characteristics, in fact)"
+  ]
+ },
+ "word": {
+  "items": [],
+  "vocab": [],
+  "affixes": [],
+  "review": []
+ },
+ "fluency": {
+  "title": "Read it smoothly",
+  "paragraphs": [
+   "\"Because a bank cannot lend out the exact same coins and notes that a saver deposited — most of that money is now in someone else's loan — the whole system depends on the reasonable assumption that not everyone will ask for their money back on the same day.\""
+  ],
+  "phrased": false
+ },
+ "prime": {
+  "facts": [
+   "A bank doesn't just store your money in a vault — it lends most of it out to other people.",
+   "When you deposit money, the bank pays you a little interest; when you borrow from the bank, you pay it interest — the gap between those two is how the bank earns money.",
+   "Almost every bank branch, in a big city or a small town, runs on this same basic idea."
+  ],
+  "question": "Has your family ever used a local bank branch — for a savings account, a loan, or sending money somewhere? What did that place look like, and what happened there?",
+  "intro": "Before reading, build the world knowledge that will make the text easier to understand — this is not a quiz, just plain-language framing."
+ },
+ "write": {
+  "task": "In 3–5 sentences, explain to a friend who has never had a bank account: (a) what actually happens to their money when they deposit it, and (b) one warning sign they should watch for if someone offers them a \"guaranteed\" way to get rich fast.",
+  "model": "When you put money in a bank, it doesn't just sit there — the bank lends most of it to other people and pays you a small amount of interest for the use of it. That's why a bank can afford to pay you anything at all: it's making more from the loans it gives out than it pays you. If someone online promises you'll get rich fast with no real risk, that's a warning sign, because real financial institutions can only offer modest, regulated returns — nobody can guarantee a huge profit with no risk. Before trusting a claim like that, it's worth checking who is making it and why, the same way we learned with lateral reading.\" ---"
+ },
+ "check": {
+  "items": [
+   {
+    "q": "(literal) According to the text, what is interest?",
+    "kind": null,
+    "a": "Interest is the price of using someone else's money — extra money paid for borrowing, or earned for lending/depositing."
+   },
+   {
+    "q": "(literal) What is \"collateral,\" according to the text?",
+    "kind": null,
+    "a": "Collateral is something valuable a borrower agrees to give up if they cannot repay a loan."
+   },
+   {
+    "q": "(inferential) Why does the text say the banking system \"runs on trust\"?",
+    "kind": null,
+    "a": "Because banks lend out most of what is deposited rather than keeping it all in reserve, the system only works if not everyone withdraws their money at the same time — it depends on savers trusting the bank will have their money when they need it."
+   },
+   {
+    "q": "(inferential) Why is a bank unlikely to offer a return far higher than its competitors, according to the text?",
+    "kind": null,
+    "a": "Because if one bank could genuinely offer a dramatically higher, safe interest rate than everyone else, savers would rush to move their money there, which is not sustainable — a much higher \"safe\" rate than the market is itself a red flag."
+   },
+   {
+    "q": "(evaluative) Is the \"get rich quick\" post in the scenario more like a bank's regulated interest rate, or more like a warning sign lateral reading is meant to catch? Justify your answer using at least one detail from the text.",
+    "kind": null,
+    "a": "It is a warning sign — accept any answer that references the lack of a checkable explanation, the pressure (\"spots run out\"), the mismatch with how real regulated returns work, or the \"why would they share this for free\" question."
+   }
+  ],
+  "bar": "4/5 or more correct",
+  "support": "If the learner is below the pass rule, reread paragraph 3 (the \"First… Then… Next… As a result… Finally…\" loan cycle) aloud together, pointing to each sequence signal word one at a time, then have the learner retell the whole loan cycle in their own words before retrying questions 1–2.",
+  "challenge": "If the learner passes quickly and easily, have them find a real ad, flyer, or social-media post (or invent one like it) claiming an unusually high guaranteed return, and write two sentences applying the lateral-reading question from this lesson to it, without any help."
+ },
+ "text": {
+  "passages": [
+   {
+    "track": null,
+    "title": "How Money Moves — Banks, Loans, and Interest",
+    "paragraphs": [
+     "A bank is a kind of financial institution: a business that exists to hold, move, and lend money safely, on behalf of millions of people at once. Banks have several characteristics that make them different from an ordinary business — they are closely watched by government regulators, they must keep a portion of deposits in reserve, and they are usually insured so that ordinary savers don't lose everything if the bank runs into trouble.",
+     "For example, when you put money into a bank account, you are not simply storing it in a box for safekeeping. You are lending it to the bank for a while, and in exchange, the bank pays you a small amount extra over time — this is called interest. Interest is, put simply, the price of using someone else's money.",
+     "Here is how the whole system works, step by step. First, many people deposit their savings into the bank. Then, the bank does not let that money sit idle; it pools deposits together and lends a large share of it out to other people and businesses — someone buying a house, a shop owner buying stock, a student paying for school. Next, the borrower agrees to pay the loan back over time, plus interest — usually a higher rate of interest than the bank pays its savers. As a result, the bank earns a profit from the gap between the low interest it pays savers and the higher interest it charges borrowers. Finally, if all goes well, the saver's money has grown a little, the borrower has what they needed, and the bank has covered its costs.",
+     "This system runs on trust more than on any single pile of cash. Because a bank cannot lend out the exact same coins and notes that a saver deposited — most of that money is now in someone else's loan — the whole system depends on the reasonable assumption that not everyone will ask for their money back on the same day. This is one reason banks are regulated so carefully, and one reason deposit insurance exists: to keep that trust solid even in a bad year.",
+     "Loans and interest are not free money, though, and they come with real risk on both sides. If a borrower cannot repay a loan, the lender may lose part or all of what was lent — this is why banks ask questions, check income, and sometimes ask for collateral (something valuable the borrower agrees to give up if they cannot repay). If a saver puts money somewhere risky chasing a much higher interest rate than a bank offers, they should ask why that rate is so much higher than normal — a genuinely safer, regulated bank rarely offers a dramatically higher return than its competitors, because if it could, everyone would rush to deposit there.",
+     "This last point matters far beyond banks. Any time someone offers you a way to make money that sounds much better than everything else available, with very little risk and very little explanation of how, that gap between \"too good\" and \"normal\" is exactly what a skeptical, lateral-reading approach is built to catch. A bank's interest rate is public, regulated, and boring for a reason — it reflects a real, checkable cost of borrowing money. A stranger's promise of huge, guaranteed returns usually reflects nothing at all except a story someone wants you to believe."
+    ],
+    "phrased": false,
+    "script": false,
+    "questions": [
+     {
+      "q": "According to this paragraph, name one thing a bank must do that makes it different from an ordinary business.",
+      "a": "It must keep a portion of deposits in reserve (or: it is closely watched by regulators / it is usually insured)."
+     },
+     {
+      "q": "Based on this loan cycle, why does a bank need to charge borrowers a higher rate of interest than it pays savers?",
+      "a": "Because the gap between the two rates is how the bank earns its profit."
+     },
+     {
+      "q": "According to this paragraph, what is \"collateral\"?",
+      "a": "Something valuable a borrower agrees to give up if they cannot repay the loan."
+     }
+    ]
+   }
+  ],
+  "moves": []
+ },
+ "discuss": {
+  "roles": [
+   {
+    "role": "Predictor",
+    "prompt": "Before you read a paragraph, glance at its first sentence. Say what you think it will tell you, in one sentence.",
+    "model": null,
+    "default": true
+   },
+   {
+    "role": "Questioner",
+    "prompt": "After you read a paragraph, ask one real question about it, not a question you already know the answer to. A good question usually starts with why, how, or what would happen if.",
+    "model": null,
+    "default": true
+   },
+   {
+    "role": "Clarifier",
+    "prompt": "Find one word or one sentence in the paragraph that felt confusing or unclear. Say what confused you, then work out what it means using the words around it.",
+    "model": null,
+    "default": true
+   },
+   {
+    "role": "Summarizer",
+    "prompt": "Say the paragraph's main point in one sentence, in your own words.",
+    "model": null,
+    "default": true
+   }
+  ]
+ },
+ "screens": [
+  "warm",
+  "word",
+  "fluency",
+  "prime",
+  "text",
+  "discuss",
+  "write",
+  "check"
+ ]
+}

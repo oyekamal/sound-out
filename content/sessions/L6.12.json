@@ -1,0 +1,146 @@
+{
+ "id": "L6.12",
+ "level": 6,
+ "title": "Taxes: Why We Pay Them and What They Buy",
+ "source": "course/level-6/lessons/L6.12-taxes-why-we-pay-them.md",
+ "practice": true,
+ "goal": "Read and discuss an informational text on why taxes exist and what they fund; review problem/solution structure and pronoun-reference tracing.",
+ "warm": {
+  "words": [],
+  "heart": [],
+  "prompts": [
+   "\"Last lesson's text said a government's budget process is a sequence. Can you name two steps in that sequence, in order?\"",
+   "\"Why did the text say budget debates are 'rarely calm'?\"",
+   "\"What kind of signal words does a problem/solution text usually use?\" (problem, issue, challenge, solution, solve, address, one answer, in response)"
+  ]
+ },
+ "word": {
+  "items": [],
+  "vocab": [],
+  "affixes": [],
+  "review": []
+ },
+ "fluency": {
+  "title": "Read it smoothly",
+  "paragraphs": [
+   "\"When a family sends a child to a government school, or takes an injured relative to a public hospital, they are usually not paying the full cost of that service in that moment — it was already paid for, gradually, by everyone who contributed tax over the years before them.\""
+  ],
+  "phrased": false
+ },
+ "prime": {
+  "facts": [
+   "Taxes are money citizens give so the government can pay for things everyone shares, like roads, schools, and hospitals.",
+   "No single family could afford to build its own road network or its own hospital alone.",
+   "Different taxes come from different places — some from income, some from sales, some from property."
+  ],
+  "question": "Has your family ever noticed tax being added to a bill or a market receipt — on a utility bill, or as a small extra charge at a shop? Where have you seen that happen?",
+  "intro": "Before reading, build the world knowledge that will make the text easier to understand — this is not a quiz, just plain-language framing."
+ },
+ "write": {
+  "task": "In 3–5 sentences, explain the \"free-rider problem\" in your own words and why taxes are one common solution to it.",
+  "model": "The free-rider problem is when everyone benefits from something, like a lit street or a public hospital, but no single person wants to pay for it alone, hoping someone else will cover it instead. If everyone thinks this way, the public good never gets built or properly maintained. Taxes solve this by collecting a smaller, shared contribution from everyone, so services that benefit the whole community can be paid for together instead of depending on any one person's goodwill.\" ---"
+ },
+ "check": {
+  "items": [
+   {
+    "q": "(literal) According to the text, what is a \"public good\"?",
+    "kind": null,
+    "a": "A service or piece of infrastructure available to everyone in a community, whether or not any one person paid directly for it (e.g., street lighting, roads)."
+   },
+   {
+    "q": "(literal) Name three different ways governments collect tax, according to the text.",
+    "kind": null,
+    "a": "Any three of: income tax, sales tax/VAT/GST, property tax, import duties."
+   },
+   {
+    "q": "(inferential) Why does the text compare tax to a \"shared subscription\" rather than a punishment?",
+    "kind": null,
+    "a": "Because when you use a government service, you are drawing on money already contributed gradually by many taxpayers over time — you are not paying its full cost in that single moment, much like drawing on a subscription you and others have been paying into."
+   },
+   {
+    "q": "(inferential) Why does the text say tax evasion \"causes real harm beyond just the person doing it\"?",
+    "kind": null,
+    "a": "Because money not paid through evasion has to be made up somewhere else — either higher taxes on everyone else, or cuts to services like roads, clinics, or schools — so the harm spreads beyond the individual who evaded."
+   },
+   {
+    "q": "(evaluative) The text says people disagree on how much tax should be collected and how it should be spent, but not on the underlying problem taxes solve. Do you think this distinction is fair? Explain using one detail from the text.",
+    "kind": null,
+    "a": "Accept reasoned answers either way; a strong answer references the free-rider problem as the \"underlying problem\" (widely agreed) versus specific rates/spending choices (which the text explicitly calls debatable and country-dependent)."
+   }
+  ],
+  "bar": "4/5 or more correct",
+  "support": "If the learner is below the pass rule, reread paragraphs 1–2 (the public-goods problem) together sentence by sentence, have the learner name three examples of public goods in their own words, then retry question 1.",
+  "challenge": "If the learner passes quickly and easily, have them pick one real local public good (a park, a public school, a paved road) and explain in 2–3 sentences what would likely happen to it if nobody paid tax."
+ },
+ "text": {
+  "passages": [
+   {
+    "track": null,
+    "title": "Taxes — Why We Pay Them and What They Buy",
+    "paragraphs": [
+     "Imagine a street with no lighting, a city with no paved roads, a neighborhood with no fire service, and a country with no army to defend its borders. Very few individual people, acting alone, would ever choose to pay for all of that themselves — a single family cannot reasonably build its own road network or fund its own hospital. This is the core problem taxes exist to solve: some things benefit everyone in a community, but no single person has enough reason, or enough money, to pay for them alone.",
+     "Economists call these things public goods — services and infrastructure that are available to everyone, whether or not any one person paid directly for them. A lit street helps every driver and pedestrian who passes, not just whoever paid the electricity bill. A solution to the public-goods problem is to collect a smaller, shared contribution from everyone — a tax — and use the combined total to pay for things no one household could afford, or would bother to build, alone.",
+     "Governments generally collect tax in a few common ways. Income tax takes a share of what people earn from work. Sales tax (sometimes called VAT or GST) adds a small amount to the price of goods and services people buy. Property tax charges owners a yearly amount based on the value of land or buildings they hold. Import duties add a charge to goods brought in from other countries. Each method reaches a slightly different group of people and a slightly different kind of economic activity, which is one reason most governments use several tax types together rather than relying on just one.",
+     "What does this money actually buy? In most countries, tax revenue funds roads and public transport, government-run schools, public hospitals and clinics, police and courts, national defense, and social support for the elderly, the unemployed, or people with disabilities. When a family sends a child to a government school, or takes an injured relative to a public hospital, they are usually not paying the full cost of that service in that moment — it was already paid for, gradually, by everyone who contributed tax over the years before them. This is one reason tax is best understood less like a punishment and more like a shared subscription to services no individual could build alone.",
+     "Not everyone agrees on how much tax should be collected, or exactly how it should be spent — that argument is a normal, healthy part of how societies decide their priorities, and different countries make different choices. What is far less debatable is the underlying problem taxes are trying to solve: without some shared contribution, public goods tend to be underbuilt, poorly maintained, or not built at all, because it is always tempting for any one person to hope someone else will pay for it instead — a pattern economists sometimes call the \"free-rider problem.\"",
+     "This is also why evading tax — deliberately hiding income or lying about earnings to avoid paying what is legally owed — causes real harm beyond just the person doing it. Every rupee evaded is a rupee that has to be made up elsewhere, either through higher rates on everyone else, or through a road that doesn't get repaired, a clinic that runs short of supplies, or a school that goes without new books. Legally reducing what you owe through allowed deductions is a different matter entirely from evasion — one follows the rules that were set, the other breaks them."
+    ],
+    "phrased": false,
+    "script": false,
+    "questions": [
+     {
+      "q": "According to this paragraph, what is the core problem that taxes exist to solve?",
+      "a": "Some things benefit everyone in a community, but no single person has enough reason or money to pay for them alone."
+     },
+     {
+      "q": "Based on this paragraph, why might a government prefer several different tax types instead of just one?",
+      "a": "Because each method reaches a slightly different group of people and kind of economic activity, so relying on just one would miss others."
+     },
+     {
+      "q": "According to this paragraph, what do economists call the pattern where everyone hopes someone else will pay?",
+      "a": "The \"free-rider problem.\""
+     }
+    ]
+   }
+  ],
+  "moves": []
+ },
+ "discuss": {
+  "roles": [
+   {
+    "role": "Predictor",
+    "prompt": "Before you read a paragraph, glance at its first sentence. Say what you think it will tell you, in one sentence.",
+    "model": null,
+    "default": true
+   },
+   {
+    "role": "Questioner",
+    "prompt": "After you read a paragraph, ask one real question about it, not a question you already know the answer to. A good question usually starts with why, how, or what would happen if.",
+    "model": null,
+    "default": true
+   },
+   {
+    "role": "Clarifier",
+    "prompt": "Find one word or one sentence in the paragraph that felt confusing or unclear. Say what confused you, then work out what it means using the words around it.",
+    "model": null,
+    "default": true
+   },
+   {
+    "role": "Summarizer",
+    "prompt": "Say the paragraph's main point in one sentence, in your own words.",
+    "model": null,
+    "default": true
+   }
+  ]
+ },
+ "screens": [
+  "warm",
+  "word",
+  "fluency",
+  "prime",
+  "text",
+  "discuss",
+  "write",
+  "check"
+ ]
+}

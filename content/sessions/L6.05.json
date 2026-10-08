@@ -1,0 +1,160 @@
+{
+ "id": "L6.05",
+ "level": 6,
+ "title": "Salt Water and Fresh Water: Earth's Water Budget",
+ "source": "course/level-6/lessons/L6.05-salt-water-and-fresh-water.md",
+ "practice": true,
+ "goal": "Read a compare/contrast text about how Earth's water is divided between salt and fresh water, and take full ownership of the reciprocal-teaching routine for the first time.",
+ "warm": {
+  "words": [],
+  "heart": [],
+  "prompts": [
+   "In L6.04, what was the problem in \"Clean Water, Fewer Diseases,\" and what was the solution?",
+   "What signal words tell you a text is using problem/solution structure? (Give at least two: problem, solution, solve, address, in response...)",
+   "Quick recall: what do the four reciprocal-teaching roles do — Predictor, Questioner, Clarifier, Summarizer? (One phrase each is enough.)"
+  ]
+ },
+ "word": {
+  "items": [],
+  "vocab": [
+   {
+    "word": "vast",
+    "def": "extremely large in area or amount",
+    "examples": [
+     "The Sahara Desert is a vast stretch of sand that takes days to cross.",
+     "Earth's oceans are vast — they cover most of the planet's surface."
+    ],
+    "task": "Name one thing you would call vast, and one thing you would NOT call vast even though it's big. Explain the difference in one sentence."
+   },
+   {
+    "word": "accessible",
+    "def": "able to be reached, used, or gotten to without much difficulty",
+    "examples": [
+     "The library is accessible by bus, so you don't need a car to get there.",
+     "Clean drinking water is not accessible to everyone in the world."
+    ],
+    "task": "Which is more accessible where you live — fresh water from a tap, or fresh water from a river? Why?"
+   }
+  ],
+  "affixes": [],
+  "review": []
+ },
+ "fluency": {
+  "title": "Read it smoothly",
+  "paragraphs": [
+   "\"Most of the planet is covered in salt water, but only a small share is fresh; however, even most of that fresh share is not something a person can easily drink, because it is locked away as ice.\""
+  ],
+  "phrased": false
+ },
+ "prime": {
+  "facts": [
+   "about 97 of every 100 drops of water on Earth is salt water",
+   "most of what's left over — the fresh water — is locked away in ice, not flowing in a river",
+   "the fresh water people actually use every day is a very small slice of the planet's total water."
+  ],
+  "question": "Where does the fresh water in your own home or neighbourhood actually come from — a hand-pump or well, a canal or river, or a water tanker — and have you ever seen that source run low or dry up during a hot season?",
+  "intro": "Picture a photo of Earth taken from space: it looks almost entirely blue, because oceans cover most of the surface. But nearly all of that blue is salt water — water people, farm animals, and most machines can't drink or use. Only a small share of Earth's water is fresh, and even most of that fresh share is frozen solid or buried underground, not sitting in an easy-to-reach river or lake."
+ },
+ "write": {
+  "task": "In 3–4 sentences, compare salt water and fresh water using at least one signal word from today's list (however, unlike, in contrast, similarly, whereas, both).",
+  "model": "Both salt water and fresh water are made of the same basic molecule. However, salt water makes up about 97% of Earth's water, while fresh water is only about 3%. Unlike the ocean, which sits on the surface where it's easy to reach, most fresh water is locked in ice or hidden underground. This is why fresh water has to be protected carefully, even though there is far more water on Earth overall.\" ---"
+ },
+ "check": {
+  "items": [
+   {
+    "q": "About what percentage of Earth's water is salt water?",
+    "kind": "literal",
+    "a": "About 97% (roughly 97 out of every 100 drops)."
+   },
+   {
+    "q": "Where is the largest single share of Earth's fresh water located?",
+    "kind": "literal",
+    "a": "Frozen in glaciers and the polar ice caps."
+   },
+   {
+    "q": "Why does the text say salt water is not \"accessible\" in the same way groundwater is, even though both are technically reachable with effort?",
+    "kind": "inferential",
+    "a": "Salt water sits right on the surface and is technically \"reachable\" by walking to the ocean, but it can't actually be used (drunk, farmed with, run through most machines) without expensive treatment — so \"accessible\" in this text means usable, not just physically nearby. Groundwater, once reached by a well, is directly usable."
+   },
+   {
+    "q": "Based on the text, why might a town build wells rather than simply wait for more rain to fill its rivers?",
+    "kind": "inferential",
+    "a": "Rivers depend on rainfall and the water cycle, which is unreliable and seasonal; wells tap into a more stable underground store that doesn't dry up as fast, so they're a more dependable backup source."
+   },
+   {
+    "q": "Is it fair to call fresh water \"rare,\" given that nearly three-quarters of Earth's surface is covered in water? Explain your reasoning using something from the text.",
+    "kind": "evaluative",
+    "a": "Accept reasoned answers either way. Strong answer: yes, it's fair — \"fresh water\" doesn't mean \"surface water\"; only a tiny accessible sliver (rivers/lakes, under 1% of the total water budget) is what people actually depend on, so even though Earth looks like a water world, usable fresh water really is scarce relative to demand."
+   }
+  ],
+  "bar": "4/5 or more",
+  "support": "If the learner scores below 4/5, draw a simple two-column table with the tutor — \"Where is it?\" and \"Can you actually use it right now?\" — and fill it in together for salt water, ice caps, groundwater, and rivers/lakes before retrying questions 3 and 4. Seeing all four side by side usually fixes the \"reachable ≠ usable\" confusion faster than rereading alone.",
+  "challenge": "If the learner scores 5/5 quickly, ask them to name one method people use to turn salt water into fresh water (for example, desalination) and explain, using ideas from the text, what problem it would solve and what new cost or difficulty it would likely introduce — even without the text mentioning desalination directly."
+ },
+ "text": {
+  "passages": [
+   {
+    "track": null,
+    "title": "The text",
+    "paragraphs": [
+     "Look at a photo of Earth from space. It is easy to see why people call it \"the blue planet.\" Oceans stretch across most of the globe. It can seem like water is everywhere, in vast, endless supply. But that first impression is misleading. Almost all of that water — roughly 97 out of every 100 drops — is salt water, locked in the oceans. People, farm animals, and most crops cannot drink salt water. Most machines cannot use it either.",
+     "That leaves only about 3% of Earth's water as fresh water — the kind living things actually need. However, even that 3% is not evenly spread out or evenly usable. The ocean is one connected body sitting on the surface, where anyone can reach it. Unlike the ocean, most fresh water is hidden away or hard to reach. The largest single share of the world's fresh water is frozen solid. It is locked into glaciers and the ice caps at the North and South Poles. It is fresh, but it is not accessible — nobody is going to melt a glacier to fill a cup.",
+     "A smaller share of fresh water sits underground, in layers of rock and soil that hold water the way a sponge holds liquid. This is called groundwater, and people reach it by digging wells. In contrast to the frozen ice caps, groundwater is at least reachable with the right tools. Still, it can take deep drilling and real effort to get to it. Only a very small sliver of all the fresh water on Earth exists as water people can walk up to directly: rivers, lakes, and streams. That sliver is well under 1% of the total water budget. Still, this tiny sliver is the water most towns, farms, and cities depend on for daily life.",
+     "So there is a real gap between how much water Earth has and how much is genuinely usable day to day. Salt water and fresh water are similarly made of the same basic molecule, H₂O. But they behave completely differently once people try to use them. Salt water corrodes pipes and machinery over time. It will slowly kill most plants and freshwater animals if it mixes in. Whereas salt water is common and hard to use, fresh water is rare and easy to use. That is exactly why fresh water has to be protected and shared carefully, the way any limited resource does.",
+     "This is also why the water cycle matters so much — the next lesson covers it in detail. The water cycle keeps moving a share of the ocean's salt water up into the air as fresh water again. This refills rivers and lakes that would otherwise slowly run dry. Remember from L6.04 how a shortage of clean water spreads disease. This lesson is about a related but different shortage: not water that's dirty, but water that's simply salty, frozen, or out of reach."
+    ],
+    "phrased": false,
+    "script": false,
+    "questions": [
+     {
+      "q": "About how many drops out of every 100 on Earth are salt water?",
+      "a": "about 97 drops out of every 100."
+     },
+     {
+      "q": "Why is groundwater, reached by drilling a well, more useful day to day than a glacier, even though both are technically \"fresh water\"?",
+      "a": "a well can be dug and used with real tools and effort. But nobody can practically melt a glacier to get a drink. So groundwater is genuinely reachable, while glacier ice is not."
+     },
+     {
+      "q": "According to the text, what basic molecule are salt water and fresh water both made of?",
+      "a": "H₂O."
+     }
+    ]
+   }
+  ],
+  "moves": []
+ },
+ "discuss": {
+  "roles": [
+   {
+    "role": "Predictor",
+    "prompt": "Before you read a paragraph, glance at its first sentence. Say out loud what you think it will tell you, in one sentence.",
+    "model": null
+   },
+   {
+    "role": "Questioner",
+    "prompt": "After you read a paragraph, ask one real question about it — not a question you already know the answer to. A good question usually starts with why, how, or what would happen if.",
+    "model": null
+   },
+   {
+    "role": "Clarifier",
+    "prompt": "Find one word or one sentence in the paragraph that felt confusing or unclear. Say what confused you, then work out what it means using the words around it.",
+    "model": null
+   },
+   {
+    "role": "Summarizer",
+    "prompt": "Say the paragraph's main point in one sentence, in your own words.",
+    "model": null
+   }
+  ]
+ },
+ "screens": [
+  "warm",
+  "word",
+  "fluency",
+  "prime",
+  "text",
+  "discuss",
+  "write",
+  "check"
+ ]
+}

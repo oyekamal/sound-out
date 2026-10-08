@@ -9,13 +9,81 @@
  "review": "a_e, i_e, o_e, u_e, e_e; -ing/-ed/-er suffixes (Level 2, no-base-change words)",
  "heartLine": "busy, people (review: great, eye)",
  "time": "25–30 min",
+ "blendList": {
+  "real": [
+   "hope",
+   "hoping",
+   "ride",
+   "riding",
+   "make",
+   "making",
+   "smile",
+   "smiling",
+   "drive",
+   "driving",
+   "hide",
+   "hiding",
+   "close",
+   "closing",
+   "save",
+   "saving",
+   "joke",
+   "joking",
+   "skate",
+   "skating"
+  ],
+  "pseudo": [
+   "grape",
+   "zime",
+   "ziming",
+   "flobe",
+   "flobing"
+  ]
+ },
+ "spell": {
+  "words": [
+   "first"
+  ],
+  "sentence": "Jane is making a cake."
+ },
+ "listen": {
+  "title": null,
+  "passage": "A shopkeeper's closing routine matters because a rushed close can leave a door unlocked or cash uncounted. A careful routine, done the same way every night, reduces the chance of a costly mistake.",
+  "tier2": [
+   {
+    "word": "routine",
+    "def": "a set of steps you do the same way, again and again.",
+    "full": "a set of steps you do the same way, again and again."
+   }
+  ],
+  "questions": [
+   "Why does a careful closing routine matter?",
+   "What's a routine you never skip?"
+  ]
+ },
  "check": {
+  "real": [
+   "hoping",
+   "saving",
+   "closing",
+   "riding",
+   "making"
+  ],
+  "dictation": [
+   "hoping",
+   "saving",
+   "closing",
+   "riding",
+   "making"
+  ],
   "bar": {
-   "ratio": 0.9,
+   "pass": 9,
+   "of": 10,
    "source": "lesson",
-   "raw": "≥90%"
+   "raw": "9/10 across writing+reading"
   },
-  "freeResponse": true
+  "firstAttemptOnly": true,
+  "note": "learner writes the -ing form (dictation) and reads it (tap gate)"
  },
  "heart": [
   {
@@ -38,10 +106,13 @@
   }
  },
  "blocksFound": [
+  "blendList",
   "heart",
   "read",
+  "listen",
   "check",
-  "trackB"
+  "trackB",
+  "tier2"
  ],
  "appSittings": null
 }

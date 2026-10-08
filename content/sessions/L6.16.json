@@ -1,0 +1,146 @@
+{
+ "id": "L6.16",
+ "level": 6,
+ "title": "Partition: One Decision, Two Countries (COURSE CAPSTONE)",
+ "source": "course/level-6/lessons/L6.16-partition-one-decision-two-countries.md",
+ "practice": true,
+ "goal": "Read and discuss an original text on the 1947 Partition of British India, running the reciprocal-teaching routine independently, reviewing cause/effect structure — and complete the course capstone: a synthesis task across all four knowledge units, a lateral-reading task on a Partition-era claim scenario, and a wrap-up marking the end of Level 6.",
+ "warm": {
+  "words": [],
+  "heart": [],
+  "prompts": [
+   "In L6.15, what event in 1857 led to the British Crown taking over direct rule in 1858?",
+   "What are the four reciprocal-teaching roles?",
+   "What is \"lateral reading,\" and why do we do it? (Opening a new tab to check who's behind a source, instead of trusting a page just because it sounds confident.)"
+  ]
+ },
+ "word": {
+  "items": [],
+  "vocab": [
+   {
+    "word": "migration",
+    "def": "",
+    "examples": [],
+    "task": "What's one difference between a migration people choose freely and a"
+   },
+   {
+    "word": "communal",
+    "def": "",
+    "examples": [],
+    "task": "This word has two quite different meanings depending on context. Write one"
+   }
+  ],
+  "affixes": [],
+  "review": []
+ },
+ "fluency": {
+  "title": "Read it smoothly",
+  "paragraphs": [
+   "In August 1947, British colonial rule over the Indian subcontinent ended, and two new independent countries were created — India and Pakistan — along a border that, in places, had been drawn only weeks before."
+  ],
+  "phrased": true
+ },
+ "prime": {
+  "facts": [
+   "in August 1947, British rule over the Indian subcontinent ended and two new independent countries were created, India and Pakistan",
+   "the border, in places, was only finalized and published after independence had already begun",
+   "roughly 10–15 million people crossed the new border within days and weeks, and the human cost — displacement, violence, loss — was shared across Hindu, Muslim, and Sikh families alike."
+  ],
+  "question": ", gently offered: Has a grandparent or great-grandparent in your family ever mentioned a story connected to 1947 and Partition — where their family was, or a journey someone made? It's completely fine if not; we'll read about it together either way, and there's no \"correct\" personal reaction expected.",
+  "intro": "Picture a family packing everything they own into whatever they can carry, in a single night, not knowing whether they will ever see their home again — and millions of families doing this at almost the same time."
+ },
+ "write": {
+  "task": "Write one paragraph (5–8 sentences) that connects something from Unit D (this text, or L6.14/L6.15) to something from at least one other unit. You are looking for a genuine parallel or connection — not a forced one. Some starting angles, if you want them:",
+  "model": "One connection I noticed is between the water cycle (Unit B) and Partition (Unit D): both involve a huge, complex system that mostly runs on its own established patterns, until something disrupts it and the effects reach far beyond where the disruption started. Climate change disrupts the water cycle's normal patterns, causing floods in one place and droughts in another, far from the original cause. In a similar way, Partition disrupted settled communities living in Punjab and Bengal, and its effects — mass migration, loss, and violence — reached families who had no say in the political decision at all, spreading far beyond the boundary commission's meeting room. Both texts taught me that big systems, whether natural or political, can be disrupted in a way that hurts people who are nowhere near the original decision or cause.\" ---"
+ },
+ "check": {
+  "items": [
+   {
+    "q": "In what year did Partition happen, and what two countries were created?",
+    "kind": "literal",
+    "a": "1947; India and Pakistan."
+   },
+   {
+    "q": "Which two provinces does the text name as being divided by the new border?",
+    "kind": "literal",
+    "a": "Punjab and Bengal."
+   },
+   {
+    "q": "The text says the exact death toll and migration numbers are \"still debated\" and \"never precisely recorded.\" Why might exact numbers be especially hard to know for an event like this?",
+    "kind": "inferential",
+    "a": "Because the migration happened suddenly and chaotically, across a huge area, during a period of violence and displacement, with limited functioning administration to record it accurately — record-keeping systems were overwhelmed or broken down exactly when the events were happening."
+   },
+   {
+    "q": "Why does the text deliberately mention that Hindu, Muslim, and Sikh families all suffered, rather than describing the cost to only one group?",
+    "kind": "inferential",
+    "a": "Because the human cost was real and shared across communities — describing only one group's suffering would be historically inaccurate and would take a partisan side, which this course deliberately avoids on a sensitive, contested topic."
+   },
+   {
+    "q": "Looking back at Task B (the suspicious social media post) — do you think a confident, urgent tone in a post makes a claim more or less trustworthy? Explain your reasoning.",
+    "kind": "evaluative",
+    "a": "Accept reasoned answers — the target insight is that urgency and confidence are persuasion techniques, not evidence; a claim's trustworthiness should be judged by checkable sources and corroboration, not by how forcefully or urgently it's stated."
+   }
+  ],
+  "bar": "4/5 or more on the Check",
+  "support": "If the learner scores below 4/5, reread the migration/death-toll paragraph together aloud, underlining the hedging language (\"historians estimate,\" \"still debated,\" \"never precisely recorded\") before retrying question 3; for Task A, if the paragraph doesn't connect two units, walk through one of the four starting angles together out loud before they rewrite it.",
+  "challenge": "If the learner passes quickly and easily, have them find one real historical claim about Partition (in a book, documentary, or online) and actually run the 5-check lateral-reading list from Task B against it, in writing — real practice instead of the hypothetical scenario."
+ },
+ "text": {
+  "passages": [
+   {
+    "track": null,
+    "title": "Partition: One Decision, Two Countries",
+    "paragraphs": [
+     "By the mid-1940s, Britain's ability and political will to continue governing British India had weakened, worn down by the cost of the Second World War and decades of growing independence movements across the subcontinent. Because independence was coming, and because major political groups disagreed sharply about what kind of country — or countries — should follow, British and South Asian leaders faced an urgent question: would British India become one independent country, or more than one?",
+     "The main political forces of the time did not agree. Some leaders wanted a single, united, independent India. Others argued that Muslims, as a large religious minority across a mostly Hindu-majority subcontinent, needed a separate country of their own to feel secure in their political future. As tensions between these positions grew, and as attempts at compromise repeatedly failed, British and South Asian leaders eventually agreed on a plan to divide British India into two independent countries: India and Pakistan.",
+     "The border was drawn by a boundary commission working under intense time pressure, dividing the provinces of Punjab and Bengal in particular — both provinces with large, mixed populations of Hindus, Muslims, and Sikhs living side by side, often in the same towns and even the same streets. Because the border cut directly through these mixed regions, and because the final boundary lines were not published until after independence had already begun, millions of people found themselves on the \"wrong\" side of a new international border almost overnight — a Hindu or Sikh family in what became Pakistan, or a Muslim family in what became India, for example.",
+     "As a result, one of the largest mass migrations in recorded history began within days: historians estimate that roughly 10–15 million people crossed the new border in one direction or the other, seeking safety among their own religious community. The migration was accompanied by serious communal violence, and historians estimate that the death toll ran into the hundreds of thousands, with some estimates going higher — exact numbers are still debated and were never precisely recorded at the time. Families were separated, sometimes never to be reunited; homes, land, and possessions built up over generations were often abandoned in a matter of days.",
+     "It is important to say plainly: the human cost of Partition was enormous, and it was shared — Hindu, Muslim, and Sikh families all suffered displacement, loss, and violence, on both sides of the new border. Historians continue to debate exactly how the division could or should have been handled differently, and people across India, Pakistan, and Bangladesh (which later separated from Pakistan in 1971) continue to hold different views on Partition's causes and consequences to this day. What is not in dispute is that millions of ordinary people, who had no say in where the border was drawn, bore the greatest cost of a decision made by political leaders under enormous time pressure."
+    ],
+    "phrased": false,
+    "script": false,
+    "questions": [
+     {
+      "q": "According to the text, what two things had weakened Britain's ability and will to keep governing British India by the mid-1940s?",
+      "a": "The cost of the Second World War, and decades of growing independence movements across the subcontinent."
+     }
+    ]
+   }
+  ],
+  "moves": []
+ },
+ "discuss": {
+  "roles": [
+   {
+    "role": "Predictor",
+    "prompt": "·.",
+    "model": null
+   },
+   {
+    "role": "Questioner",
+    "prompt": "·.",
+    "model": null
+   },
+   {
+    "role": "Clarifier",
+    "prompt": "·.",
+    "model": null
+   },
+   {
+    "role": "Summarizer",
+    "prompt": "One paragraph at a time.",
+    "model": null
+   }
+  ]
+ },
+ "screens": [
+  "warm",
+  "word",
+  "fluency",
+  "prime",
+  "text",
+  "discuss",
+  "write",
+  "check"
+ ]
+}

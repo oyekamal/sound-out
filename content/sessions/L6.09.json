@@ -1,0 +1,165 @@
+{
+ "id": "L6.09",
+ "level": 6,
+ "title": "Who's Behind This Page? Learning to Read Sideways",
+ "source": "course/level-6/lessons/L6.09-whos-behind-this-page.md",
+ "practice": true,
+ "goal": "Learn lateral reading — the practice of leaving a page to check who's behind it, before deciding whether to trust it — through a worked example and a guided practice scenario. This is the course's mandatory standalone critical-reading module (research/06 §1.9).",
+ "warm": {
+  "words": [],
+  "heart": [],
+  "prompts": [
+   "In L6.08's synthesis task, how did floods and droughts connect back to the water cycle and climate change?",
+   "What does \"consensus\" mean, and why does the climate-change text describe human-driven warming that way instead of saying \"some scientists think\"?",
+   "When you read something online that seems confident and well-written, does that alone tell you it's true? Why or why not — answer before reading on."
+  ]
+ },
+ "word": {
+  "items": [],
+  "vocab": [
+   {
+    "word": "credible",
+    "def": "believable, worthy of trust, because of good evidence or a trustworthy source",
+    "examples": [
+     "A claim from a well-known hospital's research team is generally more credible than an anonymous post with no sources.",
+     "Just because a website looks professional doesn't automatically make it credible."
+    ],
+    "task": "Name one source you'd consider highly credible for medical information, and explain what makes it credible — not just \"it looks nice,\" but something about who's behind it or how they got their information."
+   },
+   {
+    "word": "sponsored",
+    "def": "paid for by a company or organization, usually to promote a product, service, or point of view, even when it's designed to look like ordinary content",
+    "examples": [
+     "The article looked like regular news, but a small label at the top said 'Sponsored,' meaning a company had paid to have it written and placed there.",
+     "Sponsored posts on social media are still ads, even when they don't look like ads."
+    ],
+    "task": "Have you ever seen something online that turned out to be sponsored content? What was the giveaway — was it a label, or did you have to look closely to notice?"
+   }
+  ],
+  "affixes": [],
+  "review": []
+ },
+ "fluency": {
+  "title": "Read it smoothly",
+  "paragraphs": [
+   "Before you believe anything you read online, ask one simple question: who wrote this, and why? A page can look calm, confident, and completely sure of itself and still be wrong — or worse, deliberately misleading. The words on the page will not tell you who's behind it. You have to go looking for that answer yourself."
+  ],
+  "phrased": true
+ },
+ "prime": {
+  "facts": [
+   "a page can look calm, confident, and completely sure of itself and still be wrong, or even deliberately misleading",
+   "the words on a page will never tell you, by themselves, who is behind it or what they might gain from you believing it",
+   "the fix is to leave the page and check independently — this is called \"lateral reading.\""
+  ],
+  "question": "Think of a message or forward you've received on WhatsApp that sounded certain and urgent — did you check who actually wrote it or where it came from before believing or sharing it?",
+  "intro": "Picture someone scrolling through a WhatsApp forward or a website late at night: the message sounds urgent and certain, the page looks clean and professional, and nothing on the screen tells them who actually wrote it or why. That missing information — not the tone or the design — is exactly what today's lesson is about."
+ },
+ "write": {
+  "task": "Using the three lateral-reading habits from today's text, write 4–6 sentences explaining what you would do before deciding whether to trust or donate to this site — not what you think of the site emotionally, but the concrete steps you'd take.",
+  "model": "First, I would open a new tab and search 'PureFlow Water Relief' plus a word like 'reviews' or 'complaints,' to see what independent sources — not the charity's own site — say about it. Second, I would notice that the 'About' page describes itself in very positive, vague language ('passionate,' 'tirelessly') without naming any real people, an address, or a financial report, which is a gap worth checking rather than trusting on its face. Third, I would pay close attention to that small gray line about 'BrightWell Bottled Water Co.' — a bottled water company partnering with a water charity could be a genuine cause, or it could be a company using charity branding to sell its product, and I wouldn't know which without searching for BrightWell separately too. Overall, I wouldn't decide anything — good or bad — based only on what's written on PureFlow's own page; I'd look sideways first, at what independent, non-affiliated sources say about both PureFlow and BrightWell before donating anything.\" ---"
+ },
+ "check": {
+  "items": [
+   {
+    "q": "What is the difference between \"vertical reading\" and \"lateral reading\"?",
+    "kind": "literal",
+    "a": "Vertical reading stays on the same page, reading deeper into the same source; lateral reading means leaving the page and opening other sources in new tabs to check who's behind it and what independent sources say."
+   },
+   {
+    "q": "In the Stanford History Education Group's 2019 study described in the text, what percentage of students did not factor a site's hidden financial tie into their trust judgment?",
+    "kind": "literal",
+    "a": "96%."
+   },
+   {
+    "q": "Why is a website's own \"About\" page not, by itself, good evidence that the site is trustworthy?",
+    "kind": "inferential",
+    "a": "Because it's written by the site itself to present itself favorably — it's a starting point for what the site claims about itself, not independent proof of who really runs it or how it actually operates; the text notes students who checked \"About\" pages tended to simply trust them without verifying elsewhere."
+   },
+   {
+    "q": "In the PureFlow scenario, why is the small line about \"BrightWell Bottled Water Co.\" worth investigating rather than ignoring?",
+    "kind": "inferential",
+    "a": "Because it reveals an undisclosed (or barely disclosed) commercial partnership that could mean the \"charity\" is connected to a company with a financial interest in its own image or sales — that relationship should be checked with independent sources before deciding whether donations genuinely go toward water relief."
+   },
+   {
+    "q": "A friend says, \"This site looks really professional and sincere, so I trust it.\" Using today's text, explain why that reasoning is risky, and what they should do instead.",
+    "kind": "evaluative",
+    "a": "Accept reasoned answers. Strong answer: a confident, professional, sincere-sounding tone is easy to produce regardless of whether a source is honest, and the text's own findings show that \"looking credible\" and \"being credible\" are not reliably connected — the friend should open a new tab and search for independent information about the site before trusting it, rather than judging by tone and design alone."
+   }
+  ],
+  "bar": "4/5 or more",
+  "support": "If the learner scores below 4/5, walk through the PureFlow scenario again line by line, having the learner say out loud, specifically, what exact words they would type into a search bar and what they would look for in the results — not a general feeling — before retrying the write-to-read task with the tutor coaching one round.",
+  "challenge": "If the learner scores 5/5 quickly, have them find (or recall) a real website, news story, or WhatsApp forward they've actually seen, and apply all three lateral-reading habits to it live — reporting back what they found, or didn't find, about who's really behind it."
+ },
+ "text": {
+  "passages": [
+   {
+    "track": null,
+    "title": "What lateral reading is, and a worked example",
+    "paragraphs": [
+     "Imagine you're shown a short, grainy video online. It shows people at what looks like a polling station. The caption claims it proves an election was stolen. The video looks real — nothing about the footage itself seems faked. Most people, faced with this, judge the video by staying on the page. They watch it closely, look for signs of editing, and decide based on how convincing it feels. Researchers who study how people evaluate information online have a name for this: vertical reading. It means reading up and down the same page, digging deeper into the same source, without ever leaving it.",
+     "The problem is that vertical reading can't catch the most important kind of lie. A video can be completely genuine, but still show something totally different from what the caption claims. In a real national study of thousands of students, over half judged a video like this \"strong evidence.\" They had no way to know that the footage was filmed in an entirely different country, showing an entirely unrelated event. Nothing on the page told them.",
+     "Lateral reading is the fix. Instead of staying on the page, you open a new tab. You search for information about the page or the claim, from other sources entirely. Fact-checkers and professional researchers do this automatically. It's exactly what trained students in the same study learned to do instead. They'd hit a suspicious claim, immediately open a new tab, and search the organization's name or a few words from the claim. Then they'd check what independent sources said about it — often within seconds, before reading any further on the original page.",
+     "Three specific habits make up lateral reading:",
+     "1. Search \"who is [name].\" Before trusting a claim, search the name of the author, organization, or website in a new tab. Look for what independent sources — not the site's own \"About\" page — say about who runs it and what their track record is. 2. Read \"About\" pages skeptically. A site's own \"About Us\" page is written by the site itself, to make itself look good — it's a starting point, not proof. The same 2019 national study found something else. Most students who did check an \"About\" page simply trusted whatever it said, without checking that description against outside sources. 3. Watch for sponsored or labeled content. Some content is clearly marked as paid, promotional, or sponsored. But the same study found that roughly two-thirds of students could not reliably tell the two apart. When a real news story and sponsored content were placed side by side, most students couldn't tell which was which.",
+     "One more finding from that study is worth sitting with directly. Researchers at the Stanford History Education Group (2019) showed students a website that looked like an independent source on a hot topic. In reality, it was funded behind the scenes by a company with a direct financial stake in that topic. That connection was never disclosed on the page itself. 96% of students did not factor that hidden financial tie into their judgment of whether to trust the site. A confident tone and professional design tell you almost nothing on their own. Neither does a page simply looking independent. What tells you something is what you find when you leave the page and look sideways. That includes who is quietly paying for what you're reading. (Keep this in mind — you'll meet exactly this kind of hidden tie again in a few minutes, in the practice scenario below.)"
+    ],
+    "phrased": false,
+    "script": false,
+    "questions": [
+     {
+      "q": "Why couldn't \"vertical reading\" alone catch the problem with the polling-station video?",
+      "a": "Because the video footage itself wasn't faked — the deception was in the caption and context, and only checking outside sources (lateral reading) could reveal that."
+     },
+     {
+      "q": "Name the three lateral-reading habits described in the text.",
+      "a": "(1) Search \"who is [name],\" (2) read \"About\" pages skeptically, (3) watch for sponsored or labeled content."
+     },
+     {
+      "q": "According to the Stanford History Education Group's 2019 study, what percentage of students failed to factor in a site's hidden financial tie?",
+      "a": "96%."
+     }
+    ]
+   }
+  ],
+  "moves": []
+ },
+ "discuss": {
+  "roles": [
+   {
+    "role": "Predictor",
+    "prompt": "Before you read a paragraph, glance at its first sentence. Say what you think it will tell you, in one sentence.",
+    "model": null,
+    "default": true
+   },
+   {
+    "role": "Questioner",
+    "prompt": "After you read a paragraph, ask one real question about it, not a question you already know the answer to. A good question usually starts with why, how, or what would happen if.",
+    "model": null,
+    "default": true
+   },
+   {
+    "role": "Clarifier",
+    "prompt": "Find one word or one sentence in the paragraph that felt confusing or unclear. Say what confused you, then work out what it means using the words around it.",
+    "model": null,
+    "default": true
+   },
+   {
+    "role": "Summarizer",
+    "prompt": "Say the paragraph's main point in one sentence, in your own words.",
+    "model": null,
+    "default": true
+   }
+  ]
+ },
+ "screens": [
+  "warm",
+  "word",
+  "fluency",
+  "prime",
+  "text",
+  "discuss",
+  "write",
+  "check"
+ ]
+}

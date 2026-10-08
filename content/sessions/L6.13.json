@@ -1,0 +1,146 @@
+{
+ "id": "L6.13",
+ "level": 6,
+ "title": "Inflation: One Cause, Many Effects on Your Wallet",
+ "source": "course/level-6/lessons/L6.13-inflation-one-cause-many-effects.md",
+ "practice": true,
+ "goal": "Read and discuss an informational text on inflation; review cause/effect structure and passive-voice unpacking; complete the Unit C writing-to-read synthesis comparing taxes and inflation.",
+ "warm": {
+  "words": [],
+  "heart": [],
+  "prompts": [
+   "\"Last lesson's text described the 'free-rider problem.' Can you explain it in your own words?\"",
+   "\"What's the difference between evading tax and legally avoiding some of it, according to that text?\"",
+   "\"What kind of signal words does a cause/effect text usually use?\" (because, as a result, therefore, due to, so, consequently, leads to, causes)"
+  ]
+ },
+ "word": {
+  "items": [],
+  "vocab": [],
+  "affixes": [],
+  "review": []
+ },
+ "fluency": {
+  "title": "Read it smoothly",
+  "paragraphs": [
+   "\"When prices are pushed upward across almost everything at once, the cause is usually found in one of two places: either too much money is being spent chasing too few goods, or the cost of producing and delivering those goods has itself gone up.\""
+  ],
+  "phrased": false
+ },
+ "prime": {
+  "facts": [
+   "Inflation means prices for most everyday things slowly rise over time.",
+   "It happens in almost every country, including Pakistan, to some degree every year.",
+   "Inflation reduces how much your money can actually buy, even if the number of rupees you have stays exactly the same."
+  ],
+  "question": "Has your family noticed a local market price — like flour, cooking oil, or fuel — going up over the past year? What do you remember about that?",
+  "intro": "Before reading, build the world knowledge that will make the text easier to understand — this is not a quiz, just plain-language framing."
+ },
+ "write": {
+  "task": "In a short paragraph (5–8 sentences), compare how taxes and inflation both affect a family's monthly budget. Use at least one idea from the L6.12 taxes text and at least one idea from today's inflation text. Consider: How is a tax bill different from inflation's effect, in terms of how visible or predictable it is? Do both reduce how much a family can actually buy or do with their money? Is either one entirely avoidable for an ordinary family?",
+  "model": "Taxes and inflation both reduce how much a family can actually do with its money, but in quite different ways. A tax is usually a specific, visible amount — deducted from a paycheck or added at a shop till — and in exchange, it pays for public goods like schools, roads, and hospitals that the family also benefits from, even if they don't see that connection directly. Inflation is much less visible: it doesn't arrive as a single bill, but quietly raises the price of food, rent, and transport all at once, without buying the family anything extra in return. A family can, in principle, reduce some tax through legal means, but almost no ordinary family can protect itself much from inflation, especially if their income doesn't rise as fast as prices do. In both cases, though, the end result for the family's budget is similar: the money they have buys a little less than it otherwise would."
+ },
+ "check": {
+  "items": [
+   {
+    "q": "(literal) According to the text, what are the two general causes of inflation?",
+    "kind": null,
+    "a": "Too much money chasing too few goods (demand-pull), and rising costs of producing/delivering goods being passed on to customers (cost-push) — often both together."
+   },
+   {
+    "q": "(literal) What does \"purchasing power\" mean, according to the text?",
+    "kind": null,
+    "a": "How much a fixed amount of money can actually buy; when prices rise faster than income, purchasing power falls."
+   },
+   {
+    "q": "(inferential) Why are people on a fixed income \"especially exposed\" to inflation?",
+    "kind": null,
+    "a": "Because their income (like a pension) does not automatically rise with prices, so the real value of their fixed money is eroded year after year without adjustment, unlike wages that might rise somewhat."
+   },
+   {
+    "q": "(inferential) Why does the text say inflation's effect on a family budget can be \"harder to notice day to day than a single dramatic price hike\"?",
+    "kind": null,
+    "a": "Because inflation raises the cost of many small things at once (food, rent, transport, fees) rather than showing up as one large, obvious bill, so the total impact is easy to miss until it's added up over time."
+   },
+   {
+    "q": "(evaluative) The text says a small, steady amount of inflation is \"generally considered normal and even healthy.\" Do you find this claim convincing, based only on what's in the text? Why or why not?",
+    "kind": null,
+    "a": "Accept reasoned answers either way — a strong answer notes the text only asserts this briefly, contrasts it with \"rapid, unpredictable\" inflation being harmful, and that the text doesn't fully explain why small inflation is considered healthy, so a skeptical reader might want more evidence before fully accepting the claim."
+   }
+  ],
+  "bar": "4/5 or more correct",
+  "support": "If the learner is below the pass rule, reread paragraph 3 (purchasing power and fixed income) sentence by sentence, and have the learner explain in their own words why a fixed pension is hit harder than a rising wage, then retry question 3.",
+  "challenge": "If the learner passes quickly and easily, have them recall or estimate one everyday item's price a year ago versus now (flour, fuel, a snack) and roughly calculate how much purchasing power was lost on that item."
+ },
+ "text": {
+  "passages": [
+   {
+    "track": null,
+    "title": "Inflation — One Cause, Many Effects on Your Wallet",
+    "paragraphs": [
+     "Imagine a loaf of bread that cost 100 rupees last year now costs 110 rupees this year, with no change to the bread itself — same size, same ingredients, same bakery. That plain, everyday experience — prices generally rising over time — is called inflation, and almost every economy in the world experiences some amount of it, in good years and bad.",
+     "Why does this happen? When prices are pushed upward across almost everything at once, the cause is usually found in one of two places: either too much money is being spent chasing too few goods, or the cost of producing and delivering those goods has itself gone up. In the first case, because people or businesses have more money to spend than there are goods available to buy, sellers raise prices simply because they can — demand outpaces supply. In the second case, because the raw materials, fuel, wages, or transport needed to make and deliver a product have become more expensive, that higher cost is passed along to the customer at the till. Often, both causes act together, tangled up with each other, which is part of why inflation can be hard to fix quickly.",
+     "Whatever the original cause, the effects of inflation ripple outward in several directions at once. As a result of rising prices, a fixed amount of money buys less than it used to — this loss of purchasing power is the most direct effect, and it hits some people much harder than others. Because wages do not always rise as fast as prices, many workers find that even though the number on their paycheck looks the same or slightly higher, what that paycheck can actually buy has quietly shrunk. People on a fixed income — a pension, for example, that doesn't automatically increase — are especially exposed, since their money's real value is eroded year after year without any adjustment.",
+     "Inflation also changes people's behavior, not just their bank balances. Because money loses value while it sits still, people and businesses are often encouraged to spend or invest sooner rather than later, and to avoid holding large amounts of idle cash. Consequently, savers who keep money in a low-interest account may find that even with the small interest a bank pays (as we read in an earlier lesson), the interest doesn't fully keep pace with rising prices — meaning the money is technically growing in number, but shrinking in what it can actually buy.",
+     "Governments and central banks take inflation seriously precisely because of these wide-reaching effects, and they have tools — such as adjusting interest rates — aimed at keeping price rises modest and predictable rather than fast and destabilizing. A small, steady rate of inflation is generally considered normal and even healthy for a growing economy; it is rapid, unpredictable inflation — where prices rise so quickly that wages, savings, and planning can't keep up — that causes the most damage to ordinary households.",
+     "The plain lesson for a family budget is this: inflation doesn't attack any one bill directly, the way a single unpaid debt might. Instead, it quietly raises the cost of nearly everything at once — food, rent, transport, school fees — which is exactly why its effects can be harder to notice day to day than a single dramatic price hike, even though, added up over a year, the impact on a family's budget can be just as real."
+    ],
+    "phrased": false,
+    "script": false,
+    "questions": [
+     {
+      "q": "In the bread example, how much did the price rise from last year to this year?",
+      "a": "From 100 rupees to 110 rupees, with no change to the bread itself."
+     },
+     {
+      "q": "Why are people on a fixed income especially exposed to inflation?",
+      "a": "Because their income doesn't automatically rise along with prices, so their money's real value — its purchasing power — keeps shrinking year after year."
+     },
+     {
+      "q": "According to the text, what tool do governments and central banks use to try to keep inflation modest and predictable?",
+      "a": "Adjusting interest rates."
+     }
+    ]
+   }
+  ],
+  "moves": []
+ },
+ "discuss": {
+  "roles": [
+   {
+    "role": "Predictor",
+    "prompt": "Before you read a paragraph, glance at its first sentence. Say what you think it will tell you, in one sentence.",
+    "model": null,
+    "default": true
+   },
+   {
+    "role": "Questioner",
+    "prompt": "After you read a paragraph, ask one real question about it, not a question you already know the answer to. A good question usually starts with why, how, or what would happen if.",
+    "model": null,
+    "default": true
+   },
+   {
+    "role": "Clarifier",
+    "prompt": "Find one word or one sentence in the paragraph that felt confusing or unclear. Say what confused you, then work out what it means using the words around it.",
+    "model": null,
+    "default": true
+   },
+   {
+    "role": "Summarizer",
+    "prompt": "Say the paragraph's main point in one sentence, in your own words.",
+    "model": null,
+    "default": true
+   }
+  ]
+ },
+ "screens": [
+  "warm",
+  "word",
+  "fluency",
+  "prime",
+  "text",
+  "discuss",
+  "write",
+  "check"
+ ]
+}

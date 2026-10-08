@@ -1,0 +1,150 @@
+{
+ "id": "L7.04",
+ "level": 7,
+ "title": "Reading a Science Article I: Claim, Method, Sample Size",
+ "source": "course/level-7/lessons/L7.04-science-claims-methods-sample.md",
+ "practice": true,
+ "goal": "Learn to pull apart a science write-up into its actual claim, the method used to test it, and the sample size — and notice when a headline overstates what the study behind it found.",
+ "warm": {
+  "words": [
+   "deposition",
+   "primary source",
+   "corroborate",
+   "discrepancy"
+  ],
+  "heart": [],
+  "prompts": []
+ },
+ "word": {
+  "items": [],
+  "vocab": [
+   {
+    "word": "Methodology",
+    "def": "the specific method a study used: who/what was tested, how, for how long, compared against what",
+    "examples": [
+     "The methodology mattered as much as the result — testing 12 people for one day proves much less than testing 1,200 people for a year."
+    ],
+    "task": null
+   },
+   {
+    "word": "Sample size",
+    "def": "how many people, animals, or items were actually studied. A small sample can produce a dramatic-looking result by chance; a large sample is much harder to fool",
+    "examples": [
+     "a new study finds",
+     "a new study of 14 college students over one weekend finds"
+    ],
+    "task": "which sounds more convincing on its own — \"a new study finds\"— or \"a new study of 14 college students over one weekend finds\"? Why does the second version, even though it's the same finding, deserve more skepticism?"
+   },
+   {
+    "word": "Peer review",
+    "def": "before serious scientific journals publish a study, other scientists in the field check the methodology for flaws. It doesn't make a study certainly true, but its absence (an unreviewed press release, a company's own blog post) is a warning sign",
+    "examples": [],
+    "task": null
+   }
+  ],
+  "affixes": [],
+  "review": []
+ },
+ "prime": {
+  "facts": [
+   "most people encounter science not through the original study but through a news headline or company press release written by someone with their own reason to make the finding sound bigger than it is.",
+   "a study can be entirely real and still be oversold — the fix is not distrusting all science, it's checking the specific claim against its own method."
+  ],
+  "question": "recall one health or nutrition headline you've seen that turned out, later, to be walked back or contradicted — what do you think went wrong between the real study and the headline?",
+  "intro": "Two facts before you read: (1) most people encounter science not through the original study but through a news headline or company press release written by someone with their own reason to make the finding sound bigger than it is. (2) a study can be entirely real and still be oversold — the fix is not distrusting all science, it's checking the specific claim against its own method. Orienting question: recall one health or nutrition headline you've seen that turned out, later, to be walked back or contradicted — what do you think went wrong between the real study and the headline?"
+ },
+ "write": {
+  "task": "Write a paragraph (5–7 sentences) rewriting the headline and the first sentence of the article so they accurately reflect the study's actual size and method — without pretending the finding is meaningless. Use methodology and sample size correctly at least once each.",
+  "model": null
+ },
+ "check": {
+  "items": [
+   {
+    "q": "Could you name, without rereading, the three questions a scientific reader asks (what was measured / what was the method / how many, and how representative)? Could you separate \"the general idea may have real support\" from \"this article proves it\"? If either is shaky, reread Section 5 once.",
+    "kind": "self",
+    "a": null
+   }
+  ],
+  "bar": null,
+  "support": null,
+  "challenge": null
+ },
+ "text": {
+  "passages": [
+   {
+    "track": null,
+    "title": "The article",
+    "paragraphs": [
+     "Headline: \"Blue Light From Phones Wrecks Teen Sleep, New Study Finds\"",
+     "A study released this month by a wellness startup, GlowGuard, claims that teenagers who use their phones in the hour before bed sleep dramatically worse than those who don't — and the company is using the finding to promote its blue-light-filtering phone case.",
+     "Researchers gave 24 volunteers, aged 15–17, from a single private school, a sleep-tracking wristband for one week. For the first three nights, participants used their phones normally before bed. For the next three nights, participants were asked to avoid phone screens for the hour before sleep. The wristbands measured total sleep time and how often each person woke up during the night.",
+     "On the \"no phone\" nights, the average participant fell asleep 9 minutes faster and had 1.2 fewer awakenings than on the \"phone\" nights. The company's press release states: \"GlowGuard's research proves that screen time is the single biggest cause of poor sleep in teenagers today,\" and recommends its $34 phone case as \"the scientifically-proven fix.\" The release does not mention whether participants were told which nights mattered to the study's hypothesis (which could have changed their behavior or self-reports), whether anything else about their evening routine changed between the two conditions, or whether the effect held for the group's typical teenager, given that all 24 participants attended the same private school and volunteered after seeing a flyer specifically about the study, which may itself attract families already concerned about screen time and sleep.",
+     "Outside the press release, a real body of published, peer-reviewed research on blue light, screens, and sleep does exist and does find some effect on falling-asleep time in larger, more carefully controlled studies — but the specific \"wrecks\" and \"single biggest cause\" language, the 24-person single-school sample, and the same company's product being sold as the \"proven fix,\" are all reasons to read this particular article's own claim skeptically, even if the underlying general idea (screens before bed can affect sleep) has other, better support elsewhere."
+    ],
+    "phrased": false,
+    "script": false,
+    "questions": [
+     {
+      "q": "State the article's actual claim (not the headline) in one sentence: what, precisely, changed, by how much, for whom?",
+      "a": null
+     },
+     {
+      "q": "What was the method? Name at least two things about the method that are weaker than they'd need to be to support \"proves\" in the company's own words.",
+      "a": null
+     },
+     {
+      "q": "Think question: the article says a real, better-supported body of research on this general topic does exist elsewhere. Why is it important to separate \"the general idea might be true\" from \"this specific press release proves it,\" even when you suspect the underlying idea has merit? What's the risk of not making that separation?",
+      "a": null
+     }
+    ]
+   }
+  ],
+  "moves": [
+   {
+    "title": "reading a science write-up",
+    "paragraphs": [
+     "A scientist — and an advanced lay reader — asks three questions before believing a science headline: (1) What, exactly, was measured (not what the headline claims, what was actually tested)? (2) What was the method, and does it match the size of the claim? (3) How many subjects, and were they representative of who the headline is really talking about? A study of 20 mice is not \"for humans\"; a study of 30 college students for one week is not \"people in general, forever.\""
+    ]
+   }
+  ]
+ },
+ "fluency": {
+  "title": "Read it smoothly",
+  "fromText": true,
+  "phrased": false
+ },
+ "discuss": {
+  "roles": [
+   {
+    "role": "Predictor",
+    "prompt": "If this study were repeated with 600 teenagers across 20 schools, would you expect the effect to get bigger, smaller, or stay about the same, and why?",
+    "model": null
+   },
+   {
+    "role": "Questioner",
+    "prompt": "What's one question you'd want answered before trusting the \"$34 fix\" recommendation specifically?",
+    "model": null
+   },
+   {
+    "role": "Clarifier",
+    "prompt": "Explain, to someone who only read the headline, why \"proves\" is too strong a word for what this study actually showed.",
+    "model": null
+   },
+   {
+    "role": "Summarizer",
+    "prompt": "Two sentences — claim and one key limitation.",
+    "model": null
+   }
+  ]
+ },
+ "screens": [
+  "warm",
+  "word",
+  "fluency",
+  "prime",
+  "text",
+  "discuss",
+  "write",
+  "check"
+ ]
+}

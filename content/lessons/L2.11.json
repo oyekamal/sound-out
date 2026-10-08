@@ -18,13 +18,30 @@
    "resting",
    "packing",
    "camping",
+   "landing",
+   "planting",
+   "helping",
+   "filling",
+   "printing",
+   "jumper",
+   "fixer",
+   "helper"
+  ],
+  "pseudo": [
    "florbing",
    "vashing",
    "plemter",
    "stronker",
    "drelling"
+  ]
+ },
+ "spell": {
+  "words": [
+   "sounds",
+   "words",
+   "sentence"
   ],
-  "pseudo": []
+  "sentence": "Sam is helping and checking the\nlist."
  },
  "heart": [
   {

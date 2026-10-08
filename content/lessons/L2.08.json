@@ -20,13 +20,27 @@
    "splash",
    "squid",
    "squint",
+   "shrimp",
+   "shrub",
+   "throb",
+   "thrill",
+   "thrust"
+  ],
+  "pseudo": [
    "strab",
    "scrin",
    "splob",
    "shreck",
    "thruv"
+  ]
+ },
+ "spell": {
+  "words": [
+   "strap",
+   "splash",
+   "thrill"
   ],
-  "pseudo": []
+  "sentence": "The shrimp can splash and\nthrash."
  },
  "heart": [
   {

@@ -40,6 +40,29 @@
    "snorm"
   ]
  },
+ "spell": {
+  "words": [
+   "for",
+   "store",
+   "short"
+  ],
+  "sentence": "I got a fork at the store."
+ },
+ "listen": {
+  "title": null,
+  "passage": "Before horses could be domesticated for riding, humans had to build a relationship of trust with an animal that is naturally alert to danger. A horse that trusts its rider will respond calmly even in a busy, noisy place.",
+  "tier2": [
+   {
+    "word": "domesticated",
+    "def": "tamed and cared for by people, instead of living wild.",
+    "full": "tamed and cared for by people, instead of living wild."
+   }
+  ],
+  "questions": [
+   "Why do horses need to trust their rider?",
+   "What's the difference between a wild animal and a domesticated one?"
+  ]
+ },
  "check": {
   "real": [
    "for",
@@ -78,8 +101,10 @@
  "blocksFound": [
   "blendList",
   "read",
+  "listen",
   "check",
-  "trackB"
+  "trackB",
+  "tier2"
  ],
  "appSittings": null
 }

@@ -30,9 +30,50 @@
    "stir",
    "chirp",
    "birth",
-   "thirst"
+   "thirst",
+   "skirt",
+   "whirl",
+   "fur",
+   "hurt",
+   "turn",
+   "burn",
+   "curl",
+   "church",
+   "nurse",
+   "purse",
+   "curb",
+   "surf"
   ],
-  "pseudo": []
+  "pseudo": [
+   "dirn",
+   "sturf",
+   "ferb",
+   "zirt",
+   "thur"
+  ]
+ },
+ "spell": {
+  "words": [
+   "first",
+   "church",
+   "winter"
+  ],
+  "sentence": "Her first bird was a small brown bird."
+ },
+ "listen": {
+  "title": null,
+  "passage": "People who care for the sick and injured, easing pain and helping bodies heal, often say the work feels like a calling — something they feel deeply pulled to do, not just a job.",
+  "tier2": [
+   {
+    "word": "calling",
+    "def": "a job or purpose a person feels strongly drawn to, more than just work for money.",
+    "full": "a job or purpose a person feels strongly drawn to, more than just work for money."
+   }
+  ],
+  "questions": [
+   "What jobs help people directly, like a nurse does?",
+   "Would you want a job like that?"
+  ]
  },
  "check": {
   "real": [
@@ -72,8 +113,10 @@
  "blocksFound": [
   "blendList",
   "read",
+  "listen",
   "check",
-  "trackB"
+  "trackB",
+  "tier2"
  ],
  "appSittings": null
 }

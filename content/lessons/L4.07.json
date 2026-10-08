@@ -30,9 +30,49 @@
    "sauce",
    "launch",
    "pause",
-   "cause"
+   "cause",
+   "all",
+   "ball",
+   "call",
+   "fall",
+   "hall",
+   "mall",
+   "small",
+   "tall",
+   "wall",
+   "stall",
+   "also",
+   "always",
+   "almost"
   ],
-  "pseudo": []
+  "pseudo": [
+   "fraw",
+   "staul",
+   "glall",
+   "thraw",
+   "scall"
+  ]
+ },
+ "spell": {
+  "words": [
+   "au",
+   "fall"
+  ],
+  "sentence": "We saw a small hawk pause on the wall."
+ },
+ "listen": {
+  "title": null,
+  "passage": "In a busy public space, staff are trained to stay composed — calm and in control of their actions and voice — even when something unexpected happens, because panic spreads fast in a crowd.",
+  "tier2": [
+   {
+    "word": "composed",
+    "def": "calm and in control, not panicked, even in a stressful moment.",
+    "full": "calm and in control, not panicked, even in a stressful moment."
+   }
+  ],
+  "questions": [
+   "Why might staying composed help everyone else around you stay calm too?"
+  ]
  },
  "check": {
   "real": [
@@ -72,8 +112,10 @@
  "blocksFound": [
   "blendList",
   "read",
+  "listen",
   "check",
-  "trackB"
+  "trackB",
+  "tier2"
  ],
  "appSittings": null
 }

@@ -23,13 +23,25 @@
    "belt",
    "melt",
    "gift",
+   "soft",
+   "milk",
+   "silk"
+  ],
+  "pseudo": [
    "fand",
    "jelt",
    "nusk",
    "thomp",
    "vilk"
+  ]
+ },
+ "spell": {
+  "words": [
+   "sounds",
+   "words",
+   "sentence"
   ],
-  "pseudo": []
+  "sentence": "I got a soft gift in the tent."
  },
  "heart": [
   {

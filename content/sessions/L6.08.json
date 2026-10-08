@@ -1,0 +1,166 @@
+{
+ "id": "L6.08",
+ "level": 6,
+ "title": "Floods and Droughts: Naming the Problem, Finding the Fix",
+ "source": "course/level-6/lessons/L6.08-floods-and-droughts.md",
+ "practice": true,
+ "goal": "Read a problem/solution text about floods and droughts, choose your own sentence to unpack using any syntax focus learned so far, and complete Unit B with a synthesis task comparing this unit's texts.",
+ "warm": {
+  "words": [],
+  "heart": [],
+  "prompts": [
+   "What is the one underlying cause behind the many effects described in L6.07?",
+   "Name one signal word for problem/solution structure. (problem, issue, challenge, solution, solve, address, one answer, in response.)",
+   "Quick recall: name the four syntax focuses this unit has covered so far (connectives, passive voice, and — from Unit A — long-sentence chunking and pronoun reference tracing)."
+  ]
+ },
+ "word": {
+  "items": [],
+  "vocab": [
+   {
+    "word": "variability",
+    "def": "how much something changes or varies, rather than staying steady or predictable",
+    "examples": [
+     "The variability of mountain weather means it can be sunny in the morning and snowing by afternoon.",
+     "Farmers plan around rainfall variability by storing water during wet seasons."
+    ],
+    "task": "Name one thing in your own life with high variability (changes a lot, hard to predict) and one thing with low variability (stays steady). Explain the difference."
+   },
+   {
+    "word": "absorb",
+    "def": "to take in or soak up a liquid, or (more broadly) to take in something and hold onto it",
+    "examples": [
+     "Dry soil absorbs rainwater quickly, but soil that's already soaked can't absorb any more, so extra water runs off instead.",
+     "A sponge absorbs spilled water off a counter."
+    ],
+    "task": "Name one surface that absorbs water well and one that doesn't (for example, concrete versus soil, or a towel versus glass). What happens to rain that falls on the surface that doesn't absorb it?"
+   }
+  ],
+  "affixes": [],
+  "review": []
+ },
+ "fluency": {
+  "title": "Read it smoothly",
+  "paragraphs": [
+   "(A) Long-sentence chunking: \"When heavy rain falls faster than soil, drains, and rivers can carry it away — especially in places where forests have been cleared or cities have paved over the ground that used to soak up water — the extra water has nowhere to go but sideways, across streets and fields, which is what a flood actually is.\"",
+   "(B) Pronoun reference tracing: \"A drought does not always mean it never rains; it can also mean that rain, when it does come, is too little, too late, or falls somewhere other than where it is needed.\"",
+   "(C) Passive voice: \"In many flood-prone regions, natural water absorption has been reduced by deforestation and paved surfaces, while in many drought-prone regions, water reserves have been strained by both reduced rainfall and increased demand.\""
+  ],
+  "phrased": false
+ },
+ "prime": {
+  "facts": [
+   "floods happen when water arrives faster than the ground, drains, and rivers around it can carry it away",
+   "droughts happen when rain is too little, too late, or falls somewhere other than where it's needed",
+   "the same tools — better drainage, water storage, restoring the ground's natural absorption — can help with both problems, because they share the same underlying cause: how well a region manages water."
+  ],
+  "question": "You may have heard about the 2022 floods in Pakistan, when large parts of Sindh and Balochistan were underwater for weeks, while other regions — like parts of Tharparkar — still worry about drought and dry wells most years. Why might one country face both problems, sometimes in the same year?",
+  "intro": "Picture a map of one country in two different seasons: in one season, a river has overflowed its banks and streets are underwater; in another season — or in a different region at the same time — farmland is cracked and dry, and wells are running low. Both pictures can be true of the same country, sometimes even the same year."
+ },
+ "write": {
+  "task": "In 5–6 sentences, compare the water-cycle text (L6.06) and the climate-change text (L6.07). Answer: How does the water cycle connect to climate change? What happens to the water cycle when the climate changes, based on what both texts told you? Use at least one signal word from each of the two structures (sequence and cause/effect).",
+  "model": "The water-cycle text described a steady sequence: first evaporation, then condensation, then precipitation, and finally water returning to oceans, rivers, or ice, ready to start again. The climate-change text explained that rising temperatures are shifting rainfall patterns and melting ice faster than before. Because a warmer atmosphere holds and moves water differently, the same cycle described in L6.06 doesn't run as evenly anymore — some regions get heavier rain, and others get longer dry stretches. As a result, the water cycle itself hasn't stopped, but climate change is making its timing and location less predictable. This connects directly to today's text: it's exactly that unevenness that drives both floods and droughts.\" ---"
+ },
+ "check": {
+  "items": [
+   {
+    "q": "According to the text, what does paving over land with roads and parking lots do to rainwater?",
+    "kind": "literal",
+    "a": "It stops the rainwater from soaking into the ground, so more of it runs off the surface instead — which can cause flooding."
+   },
+   {
+    "q": "Name two solutions the text gives for reducing flood risk.",
+    "kind": "literal",
+    "a": "Any two of: restoring forests/wetlands, designing cities with permeable surfaces/green spaces, building reservoirs, improving drainage systems."
+   },
+   {
+    "q": "Why does the text say floods and droughts are \"two different symptoms of the same underlying issue\" rather than two unrelated problems?",
+    "kind": "inferential",
+    "a": "Because both trace back to how well a region manages the uneven, unpredictable movement of water — too much absorption capacity lost causes floods, too little reliable supply causes droughts, and both stem from the same mismatch between water supply and water management."
+   },
+   {
+    "q": "How can the same reservoir help with both flooding and drought, according to the text?",
+    "kind": "inferential",
+    "a": "By holding back extra water during heavy rain (preventing flooding) and then releasing that stored water slowly during dry periods (easing drought) — the same reservoir manages both the surplus and the shortage."
+   },
+   {
+    "q": "A city official says, \"We should just build higher walls around the river to stop floods, and dig deeper wells to stop droughts.\" Using ideas from the text, explain one way this plan might miss a better solution.",
+    "kind": "evaluative",
+    "a": "Accept reasoned answers. Strong answer: walls and deeper wells only treat the symptoms (where floodwater goes, and how far down you can dig for water) without addressing why the ground can't absorb water in the first place or why demand keeps rising — the text's preferred solutions (restoring natural absorption, using water efficiently, planning ahead) address the underlying cause rather than just holding water back or chasing it deeper underground."
+   }
+  ],
+  "bar": "4/5 or more",
+  "support": "If the learner scores below 4/5, draw two arrows for the reservoir example with the tutor — one labeled \"holds back extra water during heavy rain\" and one labeled \"releases stored water slowly during dry spells\" — and have the learner point to the text sentence that matches each arrow before retrying questions 4 and 5.",
+  "challenge": "If the learner scores 5/5 quickly, ask them to propose one additional dual-purpose solution not mentioned in the text (for example, rainwater harvesting, or restoring a natural wetland near a city) and explain, in their own words, how it could help with both flooding and drought."
+ },
+ "text": {
+  "passages": [
+   {
+    "track": null,
+    "title": "The text",
+    "paragraphs": [
+     "Too much water and too little water sound like opposite problems. But they often come from related causes, and sometimes even strike the same region in different seasons. Both are problems worth understanding together — the tools that help with one often help with the other too.",
+     "Start with floods. A flood happens when water arrives faster than the ground, drains, and rivers around it can carry it away. Heavy or unusually intense rainfall is the most direct trigger. But the underlying issue is often made worse by human choices. When forests are cleared, the ground loses the roots and soil structure that normally soak up rainwater, like a sponge. Without that natural absorption, more water runs straight off the surface instead. Cities make this challenge even more extreme. Roads, parking lots, and rooftops pave over land, and pavement absorbs almost nothing. A hard rain in a paved city can flood streets within minutes. The same rainfall on natural ground would have soaked in harmlessly.",
+     "Now consider droughts — the opposite-looking but related problem. A drought doesn't always mean it never rains. It can also mean that rain, when it does come, is too little, too late, or falls somewhere other than where it's needed. Rainfall variability makes water harder to plan around. Long stretches of dry weather, followed by short bursts of intense rain, are less predictable than steady rainfall would be. Rising demand adds to the strain. More people, more farming, and more industry all draw from the same rivers, lakes, and groundwater. If the water supply doesn't grow along with demand, a temporary dry spell can turn into a serious shortage.",
+     "Neither problem is unsolvable. Most solutions work by managing water, rather than fighting it outright. One answer to flooding is restoring the ground's natural ability to absorb water. This means replanting forests, protecting wetlands, and designing cities with permeable surfaces and green spaces, instead of solid pavement everywhere. Reservoirs and better drainage systems can also catch and redirect extra water before it reaches homes and streets. In response to droughts, communities can store water during wet periods for use during dry ones. They can also use water more efficiently in farming — watering only what's needed, when it's needed. They can build early-warning systems too, so people can prepare before a shortage becomes a crisis. Some places even use the same reservoir to address both problems at once. It holds back flood water when rain is heavy, then releases it slowly during dry stretches later on.",
+     "Floods and droughts, in other words, are not two separate weather stories. They are two different symptoms of the same underlying issue. That issue is how well, or how poorly, a region manages the uneven, sometimes unpredictable way water moves through it."
+    ],
+    "phrased": false,
+    "script": false,
+    "questions": [
+     {
+      "q": "According to the text, what does clearing forests do to the ground's ability to handle heavy rain?",
+      "a": "It removes the roots and soil structure that normally soak up rainwater, so more water runs straight off the surface instead of being absorbed."
+     },
+     {
+      "q": "Why does rainfall variability make droughts harder to plan for than steady rainfall would?",
+      "a": "Because instead of predictable rain, water arrives in long dry stretches broken by short, intense bursts, so it's hard to know when or how much water will actually be available."
+     },
+     {
+      "q": "Name one solution the text gives for flooding and one for drought.",
+      "a": "Flooding — e.g., restoring natural absorption, reservoirs, permeable city surfaces. Drought — e.g., storing water in wet periods, efficient farming, early-warning systems."
+     }
+    ]
+   }
+  ],
+  "moves": []
+ },
+ "discuss": {
+  "roles": [
+   {
+    "role": "Predictor",
+    "prompt": "Before you read a paragraph, glance at its first sentence. Say what you think it will tell you, in one sentence.",
+    "model": null,
+    "default": true
+   },
+   {
+    "role": "Questioner",
+    "prompt": "After you read a paragraph, ask one real question about it, not a question you already know the answer to. A good question usually starts with why, how, or what would happen if.",
+    "model": null,
+    "default": true
+   },
+   {
+    "role": "Clarifier",
+    "prompt": "Find one word or one sentence in the paragraph that felt confusing or unclear. Say what confused you, then work out what it means using the words around it.",
+    "model": null,
+    "default": true
+   },
+   {
+    "role": "Summarizer",
+    "prompt": "Say the paragraph's main point in one sentence, in your own words.",
+    "model": null,
+    "default": true
+   }
+  ]
+ },
+ "screens": [
+  "warm",
+  "word",
+  "fluency",
+  "prime",
+  "text",
+  "discuss",
+  "write",
+  "check"
+ ]
+}

@@ -1,0 +1,162 @@
+{
+ "again": {
+  "lesson": "L2.14",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "backpack": {
+  "lesson": "L2.12",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "bathtub": {
+  "lesson": "L2.12",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "because": {
+  "lesson": "L2.14",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "benches": {
+  "lesson": "L2.09",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "boxes": {
+  "lesson": "L2.09",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "buses": {
+  "lesson": "L2.09",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "cactus": {
+  "lesson": "L2.12",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "camping": {
+  "lesson": "L2.11",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "catches": {
+  "lesson": "L2.09",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "catfish": {
+  "lesson": "L2.12",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "contest": {
+  "lesson": "L2.12",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "dishes": {
+  "lesson": "L2.09",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "drinks": {
+  "lesson": "L2.09",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "ended": {
+  "lesson": "L2.10",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid; no onset+final shape)"
+ },
+ "fixer": {
+  "lesson": "L2.11",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid; no onset+final shape)"
+ },
+ "fixing": {
+  "lesson": "L2.11",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "frog": {
+  "lesson": "L2.06",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "helper": {
+  "lesson": "L2.11",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid; no onset+final shape)"
+ },
+ "helping": {
+  "lesson": "L2.11",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "hotdog": {
+  "lesson": "L2.12",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "instant": {
+  "lesson": "L2.12",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid; no onset+final shape)"
+ },
+ "jogged": {
+  "lesson": "L2.10",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "landed": {
+  "lesson": "L2.10",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "magnet": {
+  "lesson": "L2.12",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "muffin": {
+  "lesson": "L2.12",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "napkin": {
+  "lesson": "L2.12",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "picnic": {
+  "lesson": "L2.12",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "pigpen": {
+  "lesson": "L2.12",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "planted": {
+  "lesson": "L2.10",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "planting": {
+  "lesson": "L2.11",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "printing": {
+  "lesson": "L2.11",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "rested": {
+  "lesson": "L2.10",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "scrub": {
+  "lesson": "L2.08",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "shrimp": {
+  "lesson": "L2.08",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "splash": {
+  "lesson": "L2.08",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "split": {
+  "lesson": "L2.08",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "squint": {
+  "lesson": "L2.08",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "sunset": {
+  "lesson": "L2.12",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ },
+ "throb": {
+  "lesson": "L2.08",
+  "reason": "no 2x2 (onset|final x vowel), no 2x2 (onset x final), no 3-option chain (no 3-option chain; no grid)"
+ }
+}

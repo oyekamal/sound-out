@@ -24,7 +24,7 @@ PID2G = {}
 G2P = {o["g"]: o["p"] for o in GPC["order"]}
 for o in GPC["order"]:
     PID2G.setdefault(o["p"], o["g"])
-URL = "http://localhost:5317/?fast"
+URL = None
 VOWELS = {"a", "i", "o", "e", "u"}
 problems = []
 # --track A|B (default both) · --from KEY_PREFIX (seed every earlier sitting as passed, start there) · --until KEY_PREFIX (stop after
@@ -32,6 +32,10 @@ problems = []
 ARG = lambda k, d=None: sys.argv[sys.argv.index(k) + 1] if k in sys.argv else d
 TRACKS = [ARG("--track")] if ARG("--track") else ["A", "B"]
 FROM, UNTIL = ARG("--from"), ARG("--until")
+PORT = int(ARG("--port", "5317"))                 # --port N --app DIR: serve DIR (e.g. a clean export of HEAD) on its own port
+SERVE = Path(ARG("--app", str(ROOT / "app")))
+L1_IDS = [f"L1.{i:02d}" for i in range(1, 15)]
+MASTERY = {"letters": 31, "real": 20, "pseudo": 10, "heart": 24, "context": 6, "dictation": 10, "bdpq": 8}   # course/level-1/mastery-check.md
 
 
 def port_open(p):
@@ -102,13 +106,16 @@ def check_all_options():
 
 def main():
     check_all_options()
+    global URL
+    URL = f"http://localhost:{PORT}/?fast"
     SHOTS.mkdir(exist_ok=True)
-    for f in SHOTS.glob("*.png"): f.unlink()
+    for t in TRACKS:   # only this run's own screenshots (other drivers write S_* etc. into the same folder)
+        for f in SHOTS.glob(f"{t}{'_' + FROM if FROM else ''}_[0-9]*.png"): f.unlink()
     server = None
-    if not port_open(5317):
-        server = subprocess.Popen(["npx", "vite", "--port", "5317", "--strictPort"], cwd=APP, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    if not port_open(PORT):
+        server = subprocess.Popen(["npx", "vite", "--port", str(PORT), "--strictPort"], cwd=SERVE, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         for _ in range(60):
-            if port_open(5317): break
+            if port_open(PORT): break
             time.sleep(0.5)
     try:
         with sync_playwright() as pw:
@@ -145,7 +152,7 @@ def run(br, track, start=None, until=None):
     n = [0]; seen = set()
     def shot(name):
         n[0] += 1
-        page.screenshot(path=str(SHOTS / f"{track}_{n[0]:02d}_{name}.png"))
+        page.screenshot(path=str(SHOTS / f"{track}{'_' + start if start else ''}_{n[0]:02d}_{name}.png"))
     # onboarding
     page.set_default_timeout(5000); page.wait_for_selector(".whocard"); shot("who-is-reading")
     page.click(f".whocard[data-track={track}]")
@@ -154,6 +161,10 @@ def run(br, track, start=None, until=None):
     # the first sitting starts by itself; go home and read the whole path off the screen
     page.wait_for_selector(".sitting"); page.evaluate("window.__so.app.home()"); page.wait_for_selector(".home .node")
     plan = page.evaluate("[...document.querySelectorAll('.home .node[data-key]')].map(b => b.dataset.key)")
+    miss = [l for l in L1_IDS if not any(k.startswith(l + ":") for k in plan)]
+    if miss: problems.append(f"[{track}] Level 1 lessons not on the path: {miss}")
+    if not page.locator(".home .node[data-level='2'][disabled], .home .node.locked[data-key^='L2.']").count():
+        problems.append(f"[{track}] Level 2 is not shown locked on the path")
     i0 = next((i for i, k in enumerate(plan) if start and k.startswith(start)), 0)
     if i0:
         page.evaluate(SEED, [plan[:i0]]); page.evaluate("window.__so.app.home()"); page.wait_for_selector(".home .node"); time.sleep(0.3)
@@ -187,6 +198,8 @@ def run(br, track, start=None, until=None):
                 page.click(f".node[data-key='{nxt}']")
             return False
         step = page.evaluate("document.querySelector('.screen')?.dataset.step || ''")
+        if step.startswith("oral") and page.locator(".screen .printed, .screen .lettercard, .screen .tilebtn, .screen .g").count():
+            problems.append(f"[{track}] letters on an L1.01 oral screen ({step})"); shot("VIOLATION-letters")
         sig = step + "|" + page.evaluate("document.querySelector('.screen h2')?.textContent || ''") + "|" + page.evaluate("document.querySelector('.printed')?.dataset.word || ''")
         if sig not in seen and page.locator(".screen").count():
             seen.add(sig); time.sleep(0.2); shot((step or "screen") + "-" + sig.split("|")[1].replace(" ", "_").replace("?", "")[:24])
@@ -211,7 +224,13 @@ def run(br, track, start=None, until=None):
         if nxt_tile.count(): nxt_tile.first.click(); return False
         if page.locator(".saidit").count() and page.locator(".saidit").is_visible():
             page.click(".saidit"); return False
-        picks = page.locator(".options:not(.three) .opt-pick:not([disabled])")
+        l1 = page.locator(".l1-opts .opt[data-ok] .opt-pick:not([disabled])")
+        if l1.count():
+            l1.first.click(); time.sleep(0.3); return False
+        prev = page.locator("button.lettercard.small[data-letter]:not(.seen)")
+        if prev.count():
+            prev.first.evaluate("b => b.classList.add('seen')"); prev.first.click(); time.sleep(0.3); return False
+        picks = page.locator(".options:not(.three):not(.l1-opts) .opt-pick:not([disabled])")
         if picks.count() in (3, 4):   # 4 = 2x2 grid, 3 = early check
             ev = page.evaluate("window.__so.trace.filter(e=>e.type==='gate-show').slice(-1)[0]")
             att = page.evaluate("window.__so.trace.filter(e=>e.type==='attempt').slice(-1)[0].n")
@@ -292,6 +311,13 @@ def run(br, track, start=None, until=None):
             j = next((k for k in range(i, len(tr)) if tr[k]["type"] == "attempt" and tr[k]["n"] == 2), len(tr))
             bad = [x["key"] for x in tr[i:j] if x["type"] == "audio" and x["key"] in (f"w:{g['word']}", f"ipa:{t['ipa']}")]
             if bad: problems.append(f"[{track}] whole word played inside repair of {g['word']}: {bad}")
+    parts = [e for e in tr if e["type"] == "mastery-part"]
+    for e in parts:
+        if e["judged"] != MASTERY[e["id"]]: problems.append(f"[{track}] mastery part {e['id']}: {e['judged']} items run, instrument has {MASTERY[e['id']]}")
+    if any(k.startswith("L1.14:") for k in plan) and not parts: problems.append(f"[{track}] the Level 1 mastery check did not run")
+    if parts:
+        res = next(e for e in reversed(tr) if e["type"] == "check-end" and "parts" in e)
+        print(f"[{track}] mastery: {res['result']} " + " ".join(f"{p['id']} {p['correct']}/{p['judged']}" for p in res["parts"]))
     reviews = sum(1 for e in tr if e["type"] == "gate-review"); timeouts = sum(1 for e in tr if e["type"] == "gate-timeout")
     for e in errors: problems.append(f"[{track}] console error: {e}")
     print(f"[{track}] sittings {done_sittings}; gates {len(gates)}; repairs {repairs}; reviews {reviews}; timeouts {timeouts}; "

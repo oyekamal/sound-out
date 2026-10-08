@@ -1,0 +1,151 @@
+{
+ "id": "L6.15",
+ "level": 6,
+ "title": "From Mughal Court to Colonial Rule",
+ "source": "course/level-6/lessons/L6.15-from-mughal-court-to-colonial-rule.md",
+ "practice": true,
+ "goal": "Read and discuss an original text on the Mughal Empire's rise and its transition to British colonial rule, independently running the reciprocal-teaching routine, reviewing cause/effect and sequence structure, and completing a comprehensive syntax review (all 4 foci, one sentence each).",
+ "warm": {
+  "words": [],
+  "heart": [],
+  "prompts": [
+   "What two cities did we read about in L6.14, and what was special about their drainage?",
+   "What does \"undeciphered\" mean?",
+   "Name the four reciprocal-teaching roles."
+  ]
+ },
+ "word": {
+  "items": [],
+  "vocab": [
+   {
+    "word": "dynasty",
+    "def": "",
+    "examples": [],
+    "task": "Can you think of another dynasty (from any country) you've heard of? What"
+   },
+   {
+    "word": "annex",
+    "def": "",
+    "examples": [],
+    "task": "What's different between a country being \"annexed\" and two countries simply"
+   }
+  ],
+  "affixes": [],
+  "review": []
+ },
+ "fluency": {
+  "title": "Read it smoothly",
+  "paragraphs": [
+   "The Mughal Empire, at its height, controlled most of the Indian subcontinent — but by the time the British Crown formally took over its administration in 1858, the empire had already been weakening for well over a century."
+  ],
+  "phrased": true
+ },
+ "prime": {
+  "facts": [
+   "the Mughal Empire ruled most of the Indian subcontinent for over 300 years, starting in 1526",
+   "a private trading company, the British East India Company, gradually grew stronger as Mughal power weakened, taking control region by region",
+   "in 1858, the British Crown took over direct rule, ending the Mughal dynasty for good."
+  ],
+  "question": "Do you know of an old fort, gate, or building near where you live — like Lahore Fort, the Red Fort, or a smaller local one — that was built under Mughal or colonial-era rule? Has anyone in your family, a grandparent or great-grandparent, ever mentioned stories connected to that period?",
+  "intro": "Picture a royal court with soldiers, traders, and a new flag being raised over a fort as one ruling power quietly replaces another — not through one dramatic battle, but over centuries."
+ },
+ "write": {
+  "task": "In 4–6 sentences, explain the chain of cause and effect that led from Mughal decline to the start of British Crown rule in 1858. Use at least one connective from the text (because, as a result, meanwhile).",
+  "model": "Mughal power weakened over the 18th century because of costly wars under Aurangzeb and succession disputes after his death. Meanwhile, the British East India Company was growing stronger through trade and its own private army. Because the Mughal centre was weak just as the Company was strong, the Company was able to expand region by region instead of through one conquest. In 1857, a major rebellion broke out against Company rule. As a result of the rebellion, the British Crown ended Company rule directly and took over administration itself in 1858, formally ending the Mughal dynasty.\" ---"
+ },
+ "check": {
+  "items": [
+   {
+    "q": "Who founded the Mughal Empire, and in what year?",
+    "kind": "literal",
+    "a": "Babur, in 1526."
+   },
+   {
+    "q": "What event in 1858 formally ended Company rule and the Mughal dynasty?",
+    "kind": "literal",
+    "a": "The British Crown formally ended East India Company rule and took over direct administration, exiling the last Mughal emperor."
+   },
+   {
+    "q": "The text says regional governors \"increasingly acted independently... even while nominally still recognizing the emperor's authority.\" What does this suggest about the real difference between the emperor's formal power and his actual power in the empire's later years?",
+    "kind": "inferential",
+    "a": "It suggests that by this point the emperor's power had become mostly symbolic or ceremonial — real decision-making and control had shifted to regional governors and local rulers, even though they still publicly acknowledged him as emperor."
+   },
+   {
+    "q": "Why does the text describe the East India Company's expansion as happening \"region by region\" rather than through a single conquest?",
+    "kind": "inferential",
+    "a": "Because the Company grew gradually, through alliances and separate conflicts over many decades, taking advantage of a weakening Mughal centre bit by bit, rather than defeating one unified opponent in one war."
+   },
+   {
+    "q": "The text mentions two different names for the 1857 event depending on historical tradition. Why might a text choose to mention both names rather than only one?",
+    "kind": "evaluative",
+    "a": "Accept reasoned answers — e.g., \"so readers understand the event is viewed differently depending on perspective, without the text taking a side\" or \"to be historically accurate and fair to more than one tradition of telling the story.\""
+   }
+  ],
+  "bar": "4/5 or more",
+  "support": "If the learner scores below 4/5, reread paragraphs 3–4 together aloud, physically tracing each \"because\" and \"as a result\" to its cause and its effect on paper, before retrying questions 3 and 4.",
+  "challenge": "If the learner passes quickly and easily, have them build a one-paragraph timeline connecting Akbar's stability → Aurangzeb's strain → the Company's rise → the 1857 rebellion → 1858 Crown rule, using at least three different connectives from the text."
+ },
+ "text": {
+  "passages": [
+   {
+    "track": null,
+    "title": "From Mughal Court to Colonial Rule",
+    "paragraphs": [
+     "In 1526, a Central Asian prince named Babur, a descendant of both Genghis Khan and Timur, defeated the ruling sultan at the First Battle of Panipat and founded what historians call the Mughal Empire. Over the next two centuries, Mughal rulers — Babur, his grandson Akbar, then later Shah Jahan and Aurangzeb — expanded and administered an empire that, at its peak, covered most of the Indian subcontinent and was among the wealthiest and most populous states in the world.",
+     "Akbar, who ruled from 1556 to 1605, is often remembered for building a relatively stable administrative system and for policies of religious tolerance toward his largely Hindu subjects, at a time when many rulers elsewhere governed very differently. As a result, the empire under Akbar saw long stretches of relative internal stability, which historians generally credit as a foundation for the prosperity that followed. Shah Jahan, who ruled next in this line, is remembered above all for commissioning the Taj Mahal in Agra, built as a mausoleum for his wife Mumtaz Mahal — one of the most recognized buildings in the world today.",
+     "Aurangzeb, who ruled from 1658 to 1707, expanded the empire to its largest territorial size, but his long reign was also marked by costly wars and, according to many historians, a more rigid religious policy than his predecessors' — which, combined with the strain of near-constant military campaigns, contributed to growing unrest in several regions. Because of the financial and administrative strain of these campaigns, and because succession disputes between princes weakened central authority after Aurangzeb's death, the empire entered a long period of gradual decline over the 18th century. Regional governors and local rulers increasingly acted independently of the Mughal court in Delhi, even while nominally still recognizing the emperor's authority.",
+     "Meanwhile, a very different kind of power had been growing along the coasts: the British East India Company, a private trading company chartered in 1600, had established trading posts and, over time, its own private army. Because the Mughal centre was weakening just as the Company was strengthening its military and administrative footholds, the Company was able to expand its control region by region — sometimes through alliances, sometimes through war — rather than through a single conquest. By the mid-1800s, the Company effectively controlled most of the subcontinent, while the Mughal emperor in Delhi retained only symbolic authority.",
+     "In 1857, a major uprising against Company rule broke out, involving soldiers, former rulers, and civilians across northern and central India — known to history as the Indian Rebellion of 1857 (or the First War of Independence, depending on which historical tradition you read). The rebellion was suppressed after roughly a year of fighting. As a direct result, the British Crown formally ended Company rule and, in 1858, took over direct administration of British-held India — a period historians call the British Raj — while the last Mughal emperor was exiled, formally ending the dynasty that Babur had founded 332 years earlier.",
+     "Remember from L6.11 how a government decides where its money goes? Both the Mughal administration and the Company's rule depended on tax collection systems to fund armies and building projects — the same basic problem of \"raising money and deciding how to spend it\" that every government, ancient or modern, has to solve."
+    ],
+    "phrased": false,
+    "script": false,
+    "questions": [
+     {
+      "q": "What is Shah Jahan remembered for building, and in which city is it located?",
+      "a": "The Taj Mahal, in Agra."
+     },
+     {
+      "q": "The text says Aurangzeb's reign involved \"costly wars\" and \"a more rigid religious policy\" than his predecessors'. Why might these two factors together have left the empire weaker after his death?",
+      "a": "The wars drained money and resources, while the more rigid policy fed unrest — so when succession disputes followed, there was less strength and unity left to hold central authority together."
+     }
+    ]
+   }
+  ],
+  "moves": []
+ },
+ "discuss": {
+  "roles": [
+   {
+    "role": "Predictor",
+    "prompt": "What do you expect the next paragraph to explain, based on the last one?",
+    "model": null
+   },
+   {
+    "role": "Questioner",
+    "prompt": "Ask a real question about the paragraph you just read.",
+    "model": null
+   },
+   {
+    "role": "Clarifier",
+    "prompt": "Pick one confusing word or sentence and work out what it means.",
+    "model": null
+   },
+   {
+    "role": "Summarizer",
+    "prompt": "One sentence — what was that paragraph mainly about?",
+    "model": null
+   }
+  ]
+ },
+ "screens": [
+  "warm",
+  "word",
+  "fluency",
+  "prime",
+  "text",
+  "discuss",
+  "write",
+  "check"
+ ]
+}

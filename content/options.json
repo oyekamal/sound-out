@@ -12103,5 +12103,468 @@
   "relaxed": false,
   "via": "early chain",
   "early": true
+ },
+ "fib": {
+  "target": {
+   "w": "fib",
+   "p": [
+    "f",
+    "ih",
+    "b"
+   ],
+   "ipa": "fˈɪb",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "bib",
+    "p": [
+     "b",
+     "ih",
+     "b"
+    ],
+    "ipa": "bˈɪb",
+    "cell": "onset"
+   },
+   {
+    "w": "fin",
+    "p": [
+     "f",
+     "ih",
+     "n"
+    ],
+    "ipa": "fˈɪn",
+    "cell": "final"
+   },
+   {
+    "w": "bin",
+    "p": [
+     "b",
+     "ih",
+     "n"
+    ],
+    "ipa": "bˈɪn",
+    "cell": "onset+final"
+   }
+  ],
+  "axes": [
+   "onset",
+   "final"
+  ],
+  "kind": "real",
+  "relaxed": false,
+  "via": "2x2 onset+final"
+ },
+ "mud": {
+  "target": {
+   "w": "mud",
+   "p": [
+    "m",
+    "ah",
+    "d"
+   ],
+   "ipa": "mˈʌd",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "rud",
+    "p": [
+     "r",
+     "ah",
+     "d"
+    ],
+    "ipa": "ɹˈʌd",
+    "cell": "onset"
+   },
+   {
+    "w": "mid",
+    "p": [
+     "m",
+     "ih",
+     "d"
+    ],
+    "ipa": "mˈɪd",
+    "cell": "vowel"
+   },
+   {
+    "w": "rid",
+    "p": [
+     "r",
+     "ih",
+     "d"
+    ],
+    "ipa": "ɹˈɪd",
+    "cell": "onset+vowel"
+   }
+  ],
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "kind": "real",
+  "relaxed": false,
+  "via": "2x2"
+ },
+ "taf": {
+  "target": {
+   "w": "taf",
+   "p": [
+    "t",
+    "ae",
+    "f"
+   ],
+   "ipa": "tˈæf",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "maff",
+    "p": [
+     "m",
+     "ae",
+     "f"
+    ],
+    "ipa": "mˈæf",
+    "cell": "onset"
+   },
+   {
+    "w": "teff",
+    "p": [
+     "t",
+     "eh",
+     "f"
+    ],
+    "ipa": "tˈɛf",
+    "cell": "vowel"
+   },
+   {
+    "w": "meff",
+    "p": [
+     "m",
+     "eh",
+     "f"
+    ],
+    "ipa": "mˈɛf",
+    "cell": "onset+vowel"
+   }
+  ],
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "kind": "pseudo",
+  "relaxed": false,
+  "via": "2x2"
+ },
+ "nid": {
+  "target": {
+   "w": "nid",
+   "p": [
+    "n",
+    "ih",
+    "d"
+   ],
+   "ipa": "nˈɪd",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "vid",
+    "p": [
+     "v",
+     "ih",
+     "d"
+    ],
+    "ipa": "vˈɪd",
+    "cell": "onset"
+   },
+   {
+    "w": "nud",
+    "p": [
+     "n",
+     "ah",
+     "d"
+    ],
+    "ipa": "nˈʌd",
+    "cell": "vowel"
+   },
+   {
+    "w": "vud",
+    "p": [
+     "v",
+     "ah",
+     "d"
+    ],
+    "ipa": "vˈʌd",
+    "cell": "onset+vowel"
+   }
+  ],
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "kind": "pseudo",
+  "relaxed": false,
+  "via": "2x2"
+ },
+ "gof": {
+  "target": {
+   "w": "gof",
+   "p": [
+    "g",
+    "aa",
+    "f"
+   ],
+   "ipa": "ɡˈɑf",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "voff",
+    "p": [
+     "v",
+     "aa",
+     "f"
+    ],
+    "ipa": "vˈɑf",
+    "cell": "onset"
+   },
+   {
+    "w": "geff",
+    "p": [
+     "g",
+     "eh",
+     "f"
+    ],
+    "ipa": "ɡˈɛf",
+    "cell": "vowel"
+   },
+   {
+    "w": "veff",
+    "p": [
+     "v",
+     "eh",
+     "f"
+    ],
+    "ipa": "vˈɛf",
+    "cell": "onset+vowel"
+   }
+  ],
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "kind": "pseudo",
+  "relaxed": false,
+  "via": "2x2"
+ },
+ "haz": {
+  "target": {
+   "w": "haz",
+   "p": [
+    "hh",
+    "ae",
+    "z"
+   ],
+   "ipa": "hˈæz",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "tazz",
+    "p": [
+     "t",
+     "ae",
+     "z"
+    ],
+    "ipa": "tˈæz",
+    "cell": "onset"
+   },
+   {
+    "w": "hozz",
+    "p": [
+     "hh",
+     "aa",
+     "z"
+    ],
+    "ipa": "hˈɑz",
+    "cell": "vowel"
+   },
+   {
+    "w": "tozz",
+    "p": [
+     "t",
+     "aa",
+     "z"
+    ],
+    "ipa": "tˈɑz",
+    "cell": "onset+vowel"
+   }
+  ],
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "kind": "pseudo",
+  "relaxed": false,
+  "via": "2x2"
+ },
+ "vin": {
+  "target": {
+   "w": "vin",
+   "p": [
+    "v",
+    "ih",
+    "n"
+   ],
+   "ipa": "vˈɪn",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "nin",
+    "p": [
+     "n",
+     "ih",
+     "n"
+    ],
+    "ipa": "nˈɪn",
+    "cell": "onset"
+   },
+   {
+    "w": "ven",
+    "p": [
+     "v",
+     "eh",
+     "n"
+    ],
+    "ipa": "vˈɛn",
+    "cell": "vowel"
+   },
+   {
+    "w": "nen",
+    "p": [
+     "n",
+     "eh",
+     "n"
+    ],
+    "ipa": "nˈɛn",
+    "cell": "onset+vowel"
+   }
+  ],
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "kind": "pseudo",
+  "relaxed": false,
+  "via": "2x2"
+ },
+ "quob": {
+  "target": {
+   "w": "quob",
+   "p": [
+    "k",
+    "w",
+    "aa",
+    "b"
+   ],
+   "ipa": "kwˈɑb",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "klob",
+    "p": [
+     "k",
+     "l",
+     "aa",
+     "b"
+    ],
+    "ipa": "klˈɑb",
+    "cell": "onset"
+   },
+   {
+    "w": "kweb",
+    "p": [
+     "k",
+     "w",
+     "eh",
+     "b"
+    ],
+    "ipa": "kwˈɛb",
+    "cell": "vowel"
+   },
+   {
+    "w": "kleb",
+    "p": [
+     "k",
+     "l",
+     "eh",
+     "b"
+    ],
+    "ipa": "klˈɛb",
+    "cell": "onset+vowel"
+   }
+  ],
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "kind": "pseudo",
+  "relaxed": false,
+  "via": "2x2"
+ },
+ "dov": {
+  "target": {
+   "w": "dov",
+   "p": [
+    "d",
+    "aa",
+    "v"
+   ],
+   "ipa": "dˈɑv",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "lov",
+    "p": [
+     "l",
+     "aa",
+     "v"
+    ],
+    "ipa": "lˈɑv",
+    "cell": "onset"
+   },
+   {
+    "w": "dav",
+    "p": [
+     "d",
+     "ae",
+     "v"
+    ],
+    "ipa": "dˈæv",
+    "cell": "vowel"
+   },
+   {
+    "w": "lav",
+    "p": [
+     "l",
+     "ae",
+     "v"
+    ],
+    "ipa": "lˈæv",
+    "cell": "onset+vowel"
+   }
+  ],
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "kind": "pseudo",
+  "relaxed": false,
+  "via": "2x2"
  }
 }

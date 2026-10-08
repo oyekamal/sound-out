@@ -27,10 +27,11 @@
    "cute",
    "mule",
    "fuse",
-   "June",
    "flute",
    "tube",
-   "prune"
+   "prune",
+   "these",
+   "theme"
   ],
   "pseudo": [
    "slobe",
@@ -38,6 +39,29 @@
    "glupe",
    "chete",
    "zope"
+  ]
+ },
+ "spell": {
+  "words": [
+   "home",
+   "cute",
+   "rule"
+  ],
+  "sentence": "Steve has a cute home."
+ },
+ "listen": {
+  "title": null,
+  "passage": "Mules are often used on farms because they are known to be very sturdy. A mule can carry a heavy load over rough ground for a long time without tiring, which makes it a reliable partner for farm work.",
+  "tier2": [
+   {
+    "word": "reliable",
+    "def": "something or someone you can count on, again and again.",
+    "full": "something or someone you can count on, again and again."
+   }
+  ],
+  "questions": [
+   "Why are mules useful on farms?",
+   "What makes a person reliable?"
   ]
  },
  "check": {
@@ -89,8 +113,10 @@
   "blendList",
   "heart",
   "read",
+  "listen",
   "check",
-  "trackB"
+  "trackB",
+  "tier2"
  ],
  "appSittings": null
 }

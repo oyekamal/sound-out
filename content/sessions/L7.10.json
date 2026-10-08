@@ -1,0 +1,146 @@
+{
+ "id": "L7.10",
+ "level": 7,
+ "title": "Synthesis I: Two Sources, Contrasting Viewpoints",
+ "source": "course/level-7/lessons/L7.10-synthesis-two-sources.md",
+ "practice": true,
+ "goal": "Combine two opposing op-eds into one written answer that represents both sides fairly and states, specifically, where they actually disagree — not just \"some people think X, others think Y.\"",
+ "warm": {
+  "words": [],
+  "heart": [],
+  "prompts": [
+   "From memory: state the four obligations/checks a careful contract reader applies (Session 9)."
+  ]
+ },
+ "word": {
+  "items": [],
+  "vocab": [
+   {
+    "word": "Synthesis",
+    "def": "combining information or viewpoints from more than one source into a new, coherent understanding — not just summarizing each one separately, side by side, and stopping",
+    "examples": [],
+    "task": null
+   },
+   {
+    "word": "Represent fairly",
+    "def": "describing an opposing view the way its strongest supporter would recognize it, even if you disagree with it — the opposite of a straw man (Session 7)",
+    "examples": [],
+    "task": null
+   },
+   {
+    "word": "Point of disagreement",
+    "def": "the specific claim, fact, or value judgment where two sources actually part ways — as distinct from things they agree on, or issues neither addresses",
+    "examples": [],
+    "task": null
+   }
+  ],
+  "affixes": [],
+  "review": []
+ },
+ "prime": {
+  "facts": [
+   "two well-argued essays on the same question often agree on more than they disagree on — the disagreement is usually narrower and more specific than \"they disagree about phones\" suggests.",
+   "representing an opposing view fairly is a skill separate from agreeing with it; a strong thinker can state the other side's best point better than a weak thinker can state their own side's."
+  ],
+  "question": "recall a real disagreement (with a parent, friend, or in the news) where, once you stated the other person's actual point instead of your assumption of it, the disagreement turned out to be narrower than you'd thought.",
+  "intro": "Two facts before you reread: (1) two well-argued essays on the same question often agree on more than they disagree on — the disagreement is usually narrower and more specific than \"they disagree about phones\" suggests. (2) representing an opposing view fairly is a skill separate from agreeing with it; a strong thinker can state the other side's best point better than a weak thinker can state their own side's. Orienting question: recall a real disagreement (with a parent, friend, or in the news) where, once you stated the other person's actual point instead of your assumption of it, the disagreement turned out to be narrower than you'd thought."
+ },
+ "write": {
+  "task": "Write a synthesis paragraph (7–10 sentences) that: states what both essays agree on; states the specific, narrow point of disagreement; names what kind of disagreement it is; represents each side's strongest point fairly (in your own words, not a straw man); and ends with your own reasoned judgment — which you should be able to defend by naming the specific evidence that moved you, not just a preference. Use synthesis and point of disagreement correctly at least once each.",
+  "model": null
+ },
+ "check": {
+  "items": [
+   {
+    "q": "Does your Write to read answer state the specific disagreement (scope: in-class only vs. all-day) rather than a vague \"some people disagree about phones\"? Did you name the unaddressed equity point?",
+    "kind": "self",
+    "a": null
+   }
+  ],
+  "bar": null,
+  "support": null,
+  "challenge": null
+ },
+ "text": {
+  "passages": [
+   {
+    "track": null,
+    "title": "Two op-eds on the same question",
+    "paragraphs": [
+     "A Full-Day Phone Ban Goes Too Far",
+     "Nobody disputes that phones distract students during class — the attention research on that point is genuinely strong, and no serious opponent of a full-day ban argues students should be texting during a lesson. The real disagreement is narrower than full-day-ban advocates suggest: should phones also be banned during lunch and passing periods, when class isn't happening at all?",
+     "A full-day ban treats a fifteen-year-old checking a message from a working parent, or coordinating a ride home, the same as a student ignoring a teacher mid-lesson — as if all phone use, everywhere in the building, is equally harmful. It isn't. The in-class case is about protecting instructional time from a specific, measurable distraction. The lunch-period case is about something much softer and less measurable: a hoped-for increase in face-to-face conversation, based on informal staff impressions in a handful of districts, not the kind of large, controlled research that backs the in-class case.",
+     "There's also a real equity dimension full-day-ban advocates rarely address directly: students who work part-time jobs, who care for younger siblings after school, or whose parents' work schedules are unpredictable, use lunchtime phone access to coordinate real logistics — a ride, a shift change, a sibling pickup — not just social messaging. A full ban's \"office stays reachable\" answer assumes every urgent need is an emergency the office would even know to relay; a text about a changed pickup time is not an emergency, but it's still something a student needs to handle, and an office switchboard is a poor substitute for a two-line text a student can send in ten seconds between classes.",
+     "None of this means \"no phone policy at all.\" A ban on phone use during instructional time, strictly enforced, addresses the actual, well-evidenced problem. Extending that ban into every unstructured minute of the day trades a strong, specific case for a much weaker, more speculative one — and does it by treating every student's non-class phone use as equally disposable, which for some students, it simply isn't."
+    ],
+    "phrased": false,
+    "script": false,
+    "questions": [
+     {
+      "q": "What do both essays agree on? Quote the sentence(s) that show the agreement most clearly.",
+      "a": null
+     },
+     {
+      "q": "Is the disagreement mainly factual, values-based, or about priorities? Defend your answer using both texts' actual content.",
+      "a": null
+     },
+     {
+      "q": "This essay raises an argument the original essay never addressed at all (not just answered weakly — never mentioned). What is it?",
+      "a": null
+     },
+     {
+      "q": "Think question: both essays agree the in-class attention research is strong. Given that, what's the actual, narrower question a school board would need to decide — and what additional evidence (not yet in either essay) would help settle it?",
+      "a": null
+     }
+    ]
+   }
+  ],
+  "moves": [
+   {
+    "title": "synthesizing two sources",
+    "paragraphs": [
+     "Reading two sources on the same question and writing one answer requires four steps: (1) identify what both sources agree on (often more than expected); (2) identify the specific point(s) where they genuinely disagree; (3) for each disagreement, note what kind of disagreement it is — a factual dispute (checkable), a values dispute (not resolvable by more facts alone), or a dispute about priorities (both facts might be true, but which matters more?); (4) write an answer that states both, fairly, before giving your own judgment."
+    ]
+   }
+  ]
+ },
+ "fluency": {
+  "title": "Read it smoothly",
+  "fromText": true,
+  "phrased": false
+ },
+ "discuss": {
+  "roles": [
+   {
+    "role": "Predictor",
+    "prompt": "Which essay's evidence, overall, is stronger on the specific disagreement point (lunch/passing periods), and why?",
+    "model": null
+   },
+   {
+    "role": "Questioner",
+    "prompt": "What data would you want a district to collect before deciding?",
+    "model": null
+   },
+   {
+    "role": "Clarifier",
+    "prompt": "Explain \"represent fairly\" using this second essay's fair treatment of the first essay's strongest point as the example.",
+    "model": null
+   },
+   {
+    "role": "Summarizer",
+    "prompt": "Two sentences: agreement, then the actual disagreement.",
+    "model": null
+   }
+  ]
+ },
+ "screens": [
+  "warm",
+  "word",
+  "fluency",
+  "prime",
+  "text",
+  "discuss",
+  "write",
+  "check"
+ ]
+}

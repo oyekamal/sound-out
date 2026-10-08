@@ -9,6 +9,143 @@
  "review": "everything from L2.01–L2.13.",
  "heartLine": "none new (all 29 already taught).",
  "time": "25–35 min, can be split across two sittings if needed (DESIGN.md rule 10).",
- "blocksFound": [],
+ "check": {
+  "mastery": true,
+  "components": [
+   {
+    "id": "real",
+    "label": "Real words",
+    "kind": "real",
+    "items": [
+     "shop",
+     "wish",
+     "catch",
+     "much",
+     "think",
+     "that",
+     "when",
+     "which",
+     "king",
+     "bank",
+     "strap",
+     "string",
+     "scrub",
+     "thrill",
+     "desk",
+     "gift",
+     "milk",
+     "nest",
+     "wishes",
+     "boxes",
+     "jumped",
+     "wanted",
+     "helper",
+     "jumping",
+     "rabbit",
+     "napkin",
+     "sunset",
+     "catfish"
+    ],
+    "bar": {
+     "pass": 26,
+     "of": 28,
+     "source": "mastery-check.md"
+    }
+   },
+   {
+    "id": "pseudo",
+    "label": "Alien words",
+    "kind": "pseudo",
+    "items": [
+     "shob",
+     "chib",
+     "thron",
+     "whass",
+     "zink",
+     "strab",
+     "splunt",
+     "thruv",
+     "fand",
+     "nusk",
+     "florbes",
+     "flisked"
+    ],
+    "bar": {
+     "pass": 11,
+     "of": 12,
+     "source": "mastery-check.md"
+    }
+   },
+   {
+    "id": "heart",
+    "label": "Heart words",
+    "kind": "heart",
+    "items": [
+     "says",
+     "for",
+     "there",
+     "where",
+     "were",
+     "from",
+     "come",
+     "some",
+     "done",
+     "want",
+     "put",
+     "push",
+     "pull",
+     "full",
+     "who",
+     "could",
+     "would",
+     "should",
+     "your",
+     "four",
+     "many",
+     "any",
+     "her",
+     "does",
+     "goes",
+     "two",
+     "again",
+     "friend",
+     "because"
+    ],
+    "bar": {
+     "pass": 27,
+     "of": 29,
+     "source": "mastery-check.md"
+    }
+   },
+   {
+    "id": "dictation",
+    "label": "Spelling",
+    "kind": "dictation",
+    "items": [
+     "catches",
+     "helped",
+     "sunset"
+    ],
+    "bar": {
+     "pass": 2,
+     "of": 3,
+     "source": "mastery-check.md"
+    }
+   }
+  ],
+  "offline": [
+   "Decoding passage (read aloud with the tutor)",
+   "Comprehension (3 questions, with the tutor)"
+  ],
+  "bar": {
+   "ratio": 0.9,
+   "source": "mastery-check.md",
+   "raw": "every component at its threshold"
+  },
+  "firstAttemptOnly": true
+ },
+ "blocksFound": [
+  "check"
+ ],
  "appSittings": null
 }

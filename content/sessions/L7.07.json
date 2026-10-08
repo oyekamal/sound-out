@@ -1,0 +1,175 @@
+{
+ "id": "L7.07",
+ "level": 7,
+ "title": "Argument Evaluation: Logical Fallacies & Evidence Strength",
+ "source": "course/level-7/lessons/L7.07-argument-evaluation-fallacies.md",
+ "practice": true,
+ "goal": "Name six common logical fallacies and spot them in a real-feeling argument; rank evidence from strong to weak inside one essay.",
+ "warm": {
+  "words": [],
+  "heart": [],
+  "prompts": [
+   "From memory: what are the four parts of an argument map (Session 6)?",
+   "What made Reason 2 in the phone-ban essay weaker than Reason 1?"
+  ]
+ },
+ "word": {
+  "items": [],
+  "vocab": [
+   {
+    "word": "Straw man",
+    "def": "misrepresenting an opponent's argument as weaker or more extreme than it really is, then attacking that weak version",
+    "examples": [
+     "She wants some gun regulations, so he says: 'My opponent wants to take away everyone's guns' — that's not what she said."
+    ],
+    "task": null
+   },
+   {
+    "word": "Ad hominem",
+    "def": "attacking the person making an argument instead of the argument itself",
+    "examples": [
+     "You can't trust his climate research, he drives a big truck."
+    ],
+    "task": null
+   },
+   {
+    "word": "False dilemma",
+    "def": "presenting only two options when more exist",
+    "examples": [
+     "Either we ban phones completely, or we let chaos reign"
+    ],
+    "task": null
+   },
+   {
+    "word": "Slippery slope",
+    "def": "claiming one step will inevitably lead to an extreme, unlikely chain of consequences, without evidence for each link",
+    "examples": [
+     "If we allow a four-day school week, next they'll cancel school altogether."
+    ],
+    "task": null
+   },
+   {
+    "word": "Appeal to popularity (bandwagon)",
+    "def": "claiming something is true or right because many people believe it",
+    "examples": [
+     "Millions of people take this supplement, so it must work."
+    ],
+    "task": null
+   },
+   {
+    "word": "Appeal to authority (misused)",
+    "def": "citing an authority who is not actually an expert on the specific claim, or overstating consensus",
+    "examples": [
+     "A famous actor says this diet works"
+    ],
+    "task": null
+   }
+  ],
+  "affixes": [],
+  "review": []
+ },
+ "prime": {
+  "facts": [
+   "logical fallacies have been catalogued and named since ancient Greek philosophy because the same handful of flawed-reasoning patterns keep working on audiences, century after century.",
+   "a fallacy-filled argument can still have a true conclusion — the fallacies are a flaw in how the case is made, not automatic proof the underlying claim is false."
+  ],
+  "question": "recall an ad, speech, or argument that felt convincing in the moment but that you couldn't fully explain why, afterward — what might have been doing the persuading?",
+  "intro": "Two facts before you read: (1) logical fallacies have been catalogued and named since ancient Greek philosophy because the same handful of flawed-reasoning patterns keep working on audiences, century after century. (2) a fallacy-filled argument can still have a true conclusion — the fallacies are a flaw in how the case is made, not automatic proof the underlying claim is false. Orienting question: recall an ad, speech, or argument that felt convincing in the moment but that you couldn't fully explain why, afterward — what might have been doing the persuading?"
+ },
+ "write": {
+  "task": "Write a paragraph (6–8 sentences) naming three fallacies you found (name the fallacy + quote it), then state, separately, what a genuinely strong version of this argument would need (e.g., actual outcome data — test scores, graduation rates — from real four-day districts compared to similar five-day ones, not survey satisfaction alone). Use fallacy and one specific fallacy name correctly.",
+  "model": null
+ },
+ "check": {
+  "items": [
+   {
+    "q": "Compare your answers with the model answer.",
+    "kind": "model",
+    "a": "ad hominem (\"same superintendents who resisted remote learning... proven wrong then too\"), straw man (\"as if the missing day simply vanishes into nothing\"), slippery slope (\"losing teachers... losing families... collapsing entirely\"), false dilemma (\"Either we adapt... or we keep pretending\"), and weak appeal-to-authority (single superintendent's quote used as if it settles the question). Strong version of the argument: real learning-outcome data (not morale surveys alone) compared district-to-district, controlling for other differences."
+   },
+   {
+    "q": "Could you correctly identify at least 4 of 6 fallacies with the right quote, and could you separate \"fallacious argument\" from \"false conclusion\" in Q6/the discussion Clarify step?",
+    "kind": "self",
+    "a": null
+   }
+  ],
+  "bar": null,
+  "support": null,
+  "challenge": null
+ },
+ "text": {
+  "passages": [
+   {
+    "track": null,
+    "title": "The op-ed",
+    "paragraphs": [
+     "The Four-Day School Week Is Overdue",
+     "Districts nationwide are experimenting with four-day school weeks, and it's time more of them did. The case is straightforward, and the objections don't hold up under any real scrutiny.",
+     "Teachers everywhere are exhausted, and morale surveys from four-day districts consistently show higher teacher satisfaction and lower turnover than comparable five-day districts. A district superintendent in Colorado, who switched three years ago, put it simply: \"Our teachers are happier and we're keeping more of them\" — and honestly, if it's good enough for a superintendent who's actually run the experiment, that should settle the question for any parent still on the fence.",
+     "Critics say a four-day week hurts learning. But look at what's really being proposed here: some opponents act as though switching to four days means cutting a fifth of all instruction time entirely, as if the missing day simply vanishes into nothing — when in reality, most four-day districts extend the remaining four days by 45–60 minutes each, recovering most of the lost hours. The people attacking this policy the loudest, incidentally, tend to be the same superintendents who resisted remote learning changes during the pandemic and were proven wrong then too — so their objections here deserve the same skepticism.",
+     "And consider where this goes if we don't act: districts that refuse to modernize their schedules risk losing teachers to four-day neighbors first, then losing families who move district lines for a better schedule, and eventually risk collapsing entirely as enrollment drains away. The only real question left is whether your district moves now, while it can still choose the timing, or waits and has the decision forced on it later.",
+     "Either we adapt the school week to how families and teachers actually live today, or we keep pretending the traditional five-day model is untouchable — and given everything above, that's not really a choice at all."
+    ],
+    "phrased": false,
+    "script": false,
+    "questions": [
+     {
+      "q": "The superintendent quote (\"that should settle the question for any parent\") is which fallacy, and why is a single superintendent's opinion weak evidence on this specific list's ranking (Section 4), even though it's not necessarily false?",
+      "a": null
+     },
+     {
+      "q": "Think question: the essay's actual factual point about schedule extension (\"most four-day districts extend the remaining four days by 45–60 minutes\") is a real, checkable claim that could be true. Does finding five fallacies in an essay mean its underlying claim is false? What should a careful reader actually conclude — about this specific essay, and about the general four-day-week question?",
+      "a": null
+     }
+    ]
+   }
+  ],
+  "moves": [
+   {
+    "title": "evidence-strength ranking",
+    "paragraphs": [
+     "Rank evidence, strongest to weakest, roughly: (1) large, controlled, peer-reviewed studies → (2) large surveys/observational data → (3) expert consensus in the relevant field → (4) a single expert's opinion → (5) anecdote/personal story → (6) popularity alone. A strong argument leans on the top of this list for its central claims and uses lower-ranked evidence only for color, not proof."
+    ]
+   }
+  ]
+ },
+ "fluency": {
+  "title": "Read it smoothly",
+  "fromText": true,
+  "phrased": false
+ },
+ "discuss": {
+  "roles": [
+   {
+    "role": "Predictor",
+    "prompt": "If you removed every fallacy from this essay and rewrote it using only its one solid, checkable claim (the schedule-extension point) plus real morale-survey data, would it be a weaker or a stronger argument overall?",
+    "model": null
+   },
+   {
+    "role": "Questioner",
+    "prompt": "What evidence would you need to see before believing four-day weeks don't hurt learning outcomes?",
+    "model": null
+   },
+   {
+    "role": "Clarifier",
+    "prompt": "Explain the difference between \"this essay commits fallacies\" and \"this essay's conclusion is wrong\" to someone who thinks they mean the same thing.",
+    "model": null
+   },
+   {
+    "role": "Summarizer",
+    "prompt": "Two sentences: name the essay's one strongest point and its biggest weakness.",
+    "model": null
+   }
+  ]
+ },
+ "screens": [
+  "warm",
+  "word",
+  "fluency",
+  "prime",
+  "text",
+  "discuss",
+  "write",
+  "check"
+ ]
+}

@@ -20,7 +20,6 @@
    "so",
    "no",
    "hi",
-   "I",
    "robot",
    "music",
    "pupil",
@@ -38,6 +37,29 @@
    "zoric",
    "mubel",
    "hitane"
+  ]
+ },
+ "spell": {
+  "words": [
+   "go",
+   "robot",
+   "music"
+  ],
+  "sentence": "We go to see the tiger."
+ },
+ "listen": {
+  "title": null,
+  "passage": "Engineers who design robots must consider every possible task the machine will face, because a robot cannot adapt on its own the way a person can. A well-designed robot follows a precise set of instructions, and even a small gap in those instructions can cause a big mistake.",
+  "tier2": [
+   {
+    "word": "precise",
+    "def": "exact, with no room for error.",
+    "full": "exact, with no room for error."
+   }
+  ],
+  "questions": [
+   "Why can't a robot adapt the way a person can?",
+   "When does being precise matter most in your life?"
   ]
  },
  "check": {
@@ -89,8 +111,10 @@
   "blendList",
   "heart",
   "read",
+  "listen",
   "check",
-  "trackB"
+  "trackB",
+  "tier2"
  ],
  "appSittings": null
 }

@@ -30,7 +30,12 @@
    "gym",
    "large",
    "change",
-   "danger"
+   "danger",
+   "bridge",
+   "edge",
+   "judge",
+   "fudge",
+   "ledge"
   ],
   "pseudo": [
    "flice",
@@ -38,6 +43,29 @@
    "stadge",
    "plage",
    "wince"
+  ]
+ },
+ "spell": {
+  "words": [
+   "nice",
+   "cage",
+   "bridge"
+  ],
+  "sentence": "The city has a big bridge."
+ },
+ "listen": {
+  "title": null,
+  "passage": "Engineers who inspect a bridge look for tiny cracks long before the bridge is actually in danger of failing. Catching a problem early, while it is still minor, is far cheaper and safer than waiting until it becomes a crisis.",
+  "tier2": [
+   {
+    "word": "minor",
+    "def": "small, not serious.",
+    "full": "small, not serious."
+   }
+  ],
+  "questions": [
+   "Why is catching a problem early better than waiting?",
+   "What's the difference between a minor and a major problem?"
   ]
  },
  "check": {
@@ -89,8 +117,10 @@
   "blendList",
   "heart",
   "read",
+  "listen",
   "check",
-  "trackB"
+  "trackB",
+  "tier2"
  ],
  "appSittings": null
 }

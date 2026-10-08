@@ -1,0 +1,154 @@
+{
+ "id": "L6.07",
+ "level": 6,
+ "title": "Climate Change: One Cause, Many Effects",
+ "source": "course/level-6/lessons/L6.07-climate-change-one-cause-many-effects.md",
+ "practice": true,
+ "goal": "Read a cause/effect text about climate change, and learn a hard-sentence scaffold — a set of four moves for tackling a single sentence that is genuinely harder than your comfortable reading level.",
+ "warm": {
+  "words": [],
+  "heart": [],
+  "prompts": [
+   "What are the four stages of the water cycle, in order?",
+   "Name one signal word for cause/effect structure. (because, as a result, therefore, due to, so, consequently, leads to, causes.)",
+   "Find one passive-voice sentence from memory in yesterday's water-cycle text and say who the hidden \"doer\" was."
+  ]
+ },
+ "word": {
+  "items": [],
+  "vocab": [
+   {
+    "word": "consensus",
+    "def": "general agreement among a large group of people, especially experts, after looking at the same evidence",
+    "examples": [
+     "There is scientific consensus that smoking causes lung cancer — almost no qualified researcher disputes it.",
+     "The committee reached a consensus after hours of discussion."
+    ],
+    "task": "Name one topic where you think there's strong scientific consensus, and one where you think experts still genuinely disagree. What's the difference between the two situations?"
+   }
+  ],
+  "affixes": [],
+  "review": []
+ },
+ "fluency": {
+  "title": "Read it smoothly",
+  "paragraphs": [
+   "\"Because certain gases — mainly carbon dioxide, released in large quantities whenever fossil fuels like coal, oil, or gas are burned — trap extra heat in the atmosphere that would otherwise escape into space, the planet's average temperature has been rising, which in turn is shifting rainfall patterns, melting ice, and raising sea levels around the world.\""
+  ],
+  "phrased": false
+ },
+ "prime": {
+  "facts": [
+   "for more than 150 years, burning coal, oil, and gas for energy has been adding extra amounts of these heat-trapping gases to the atmosphere",
+   "more trapped heat means Earth's average temperature — not just one place's weather on one day — has been climbing",
+   "that warming doesn't stay in one lane — it shifts rainfall patterns, melts ice, and raises sea levels all at once."
+  ],
+  "question": "Have you heard news reports about glaciers melting in the mountains of northern Pakistan, or about unusually severe heatwaves in cities like Jacobabad or Karachi — what have people around you said is causing that?",
+  "intro": "Picture a greenhouse with glass walls, built to keep plants warm — sunlight comes in easily, but heat has a harder time getting back out, so the air inside stays warmer than the air outside. Earth's atmosphere works in a similar way: certain gases act like an invisible version of that glass, letting sunlight in but slowing down how fast heat escapes back into space."
+ },
+ "write": {
+  "task": "In 3–4 sentences, explain the cause-and-effect chain in this text: what is the one underlying cause, and name at least two different effects it produces. Use at least one cause/effect signal word.",
+  "model": "The underlying cause is that burning fossil fuels has increased greenhouse gases in the atmosphere, which traps extra heat. As a result, average temperatures are rising. This single cause leads to several different effects: shifting rainfall patterns that cause both worse droughts and worse floods, melting ice that raises sea levels, and ecosystems struggling to adapt to new conditions.\" ---"
+ },
+ "check": {
+  "items": [
+   {
+    "q": "What are greenhouse gases, and name one example given in the text.",
+    "kind": "literal",
+    "a": "Gases in the atmosphere that trap heat, keeping the planet warm — carbon dioxide (or methane) as the named example."
+   },
+   {
+    "q": "According to the text, since when have humans been burning fossil fuels in large quantities?",
+    "kind": "literal",
+    "a": "Since the 1800s."
+   },
+   {
+    "q": "The text says the greenhouse effect itself \"is not a problem\" — so what exactly is the problem, according to the text?",
+    "kind": "inferential",
+    "a": "The problem is the amount of greenhouse gas — human activity has increased the concentration of these gases, so more heat is being trapped than would be trapped naturally, which is what's driving the temperature rise."
+   },
+   {
+    "q": "Why does the text say climate change should be understood as \"one underlying cause\" rather than several unrelated problems?",
+    "kind": "inferential",
+    "a": "Because all the effects described (droughts, floods, melting ice, sea-level rise, shifting ecosystems) trace back to the same root cause — extra trapped heat — rather than each having its own separate, unrelated origin."
+   },
+   {
+    "q": "The hard sentence in Section 3 was harder than most sentences in this course so far. Which of the four scaffold steps (gloss, pre-teach, chunk, reread) helped you most, and why?",
+    "kind": "evaluative",
+    "a": "No single correct answer — accept any reasoned response naming a specific step and why (e.g., \"chunking helped most because the sentence was too long to hold in my head all at once\")."
+   }
+  ],
+  "bar": "4/5 or more",
+  "support": "If the learner scores below 4/5, don't just reread — run the four-step scaffold (gloss, pre-teach, chunk, reread) out loud on one more sentence from paragraph 2 or 3 with the tutor doing Step 1 (gloss) and Step 2 (pre-teach) for them this time, before they retry Steps 3 and 4 themselves and then attempt questions 3 and 4 again.",
+  "challenge": "If the learner scores 5/5 quickly, have them pick one effect from paragraph 3 (shifting rainfall, melting ice, storms, or ecosystem shifts) and explain, without looking back at the text, how it traces back through the full chain to the one underlying cause — trapped heat — in their own words, out loud, with no notes."
+ },
+ "text": {
+  "passages": [
+   {
+    "track": null,
+    "title": "The text",
+    "paragraphs": [
+     "Weather changes every day — a hot week, a rainy week, an unusually cold spring. Climate is different. It's the long-term pattern behind all that daily weather, measured over decades, not days. There is an overwhelming scientific consensus on what's happening to that long-term pattern. It's represented by organizations like the Intergovernmental Panel on Climate Change (IPCC), which reviews research from thousands of scientists worldwide. Earth's climate is changing, and human activity is the dominant driver of that change.",
+     "Here is the basic mechanism. Sunlight passes through Earth's atmosphere and warms the surface. Normally, much of that heat radiates back out toward space. But certain gases in the atmosphere trap some of that outgoing heat instead. These are carbon dioxide, methane, and a few others, often called greenhouse gases, and they trap heat much like a blanket holds in body heat. This \"greenhouse effect\" isn't itself a problem — it's the reason Earth is warm enough to support life at all. The problem is the amount. People have been burning huge quantities of fossil fuels — coal, oil, and natural gas — since the 1800s. Because of this, the concentration of these gases in the atmosphere has risen sharply. That rise is causing more heat to be trapped than before.",
+     "As a result, the planet's average surface temperature has been climbing. This single cause is producing effects across many different systems, not just one. Warmer average temperatures are shifting rainfall patterns. Some regions are seeing longer, more intense droughts. Others are seeing heavier, more damaging rainstorms and flooding. Due to rising temperatures, glaciers and polar ice are melting faster than they are being replenished. That melting contributes to rising sea levels, which threaten low-lying coastal cities and small island nations. Warmer oceans are also linked to more powerful storms in some regions, because storms draw energy from ocean heat. Ecosystems are affected too. Some plants and animals are shifting where they live, in search of the temperatures they're adapted to. Some — especially those that can't move or adapt quickly — are struggling to survive at all.",
+     "None of these effects happens in isolation. Consequently, climate change is best understood not as one single event. It's one underlying cause — extra trapped heat — working its way through weather, water, ice, oceans, and ecosystems all at once. The way it shows up differs from region to region. That's also why the next lesson, on floods and droughts, isn't really a separate topic. It's a closer look at two of the effects this text has already introduced. Remember from L6.06 how the water cycle constantly moves water between ocean, air, and land? A warmer atmosphere changes how fast, and how unevenly, that movement happens — which is exactly why rainfall patterns are shifting."
+    ],
+    "phrased": false,
+    "script": false,
+    "questions": [
+     {
+      "q": "According to the text, what organization represents the scientific consensus on climate change?",
+      "a": "The Intergovernmental Panel on Climate Change (IPCC)."
+     },
+     {
+      "q": "Why does the text say the greenhouse effect itself \"is not itself a problem\"?",
+      "a": "Because trapping some heat is natural and is the reason Earth is warm enough to support life — the problem is the extra AMOUNT of heat now being trapped because of human-caused emissions."
+     },
+     {
+      "q": "Name two different effects of rising temperatures mentioned in this paragraph.",
+      "a": "Any two of — shifting rainfall patterns (droughts/flooding), melting glaciers and ice (rising sea levels), more powerful storms, or ecosystems/species shifting or struggling."
+     }
+    ]
+   }
+  ],
+  "moves": []
+ },
+ "discuss": {
+  "roles": [
+   {
+    "role": "Predictor",
+    "prompt": "Before you read a paragraph, glance at its first sentence. Say what you think it will tell you, in one sentence.",
+    "model": null,
+    "default": true
+   },
+   {
+    "role": "Questioner",
+    "prompt": "After you read a paragraph, ask one real question about it, not a question you already know the answer to. A good question usually starts with why, how, or what would happen if.",
+    "model": null,
+    "default": true
+   },
+   {
+    "role": "Clarifier",
+    "prompt": "Find one word or one sentence in the paragraph that felt confusing or unclear. Say what confused you, then work out what it means using the words around it.",
+    "model": null,
+    "default": true
+   },
+   {
+    "role": "Summarizer",
+    "prompt": "Say the paragraph's main point in one sentence, in your own words.",
+    "model": null,
+    "default": true
+   }
+  ]
+ },
+ "screens": [
+  "warm",
+  "word",
+  "fluency",
+  "prime",
+  "text",
+  "discuss",
+  "write",
+  "check"
+ ]
+}

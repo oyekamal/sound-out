@@ -23,16 +23,56 @@
    "smart",
    "start",
    "chart",
+   "spark",
+   "shark",
+   "sharp",
+   "harm",
+   "farm",
+   "yard",
+   "hard",
+   "dark",
+   "park",
+   "arm",
+   "alarm",
    "market",
    "garden",
+   "carpet",
+   "target",
+   "harvest",
+   "garment",
+   "cargo",
+   "barnyard",
+   "farmhand",
+   "artist"
+  ],
+  "pseudo": [
    "sart",
    "darm",
    "plarn",
    "farl",
    "starb",
-   "clart"
+   "clart",
+   "gartel"
+  ]
+ },
+ "spell": {
+  "words": [],
+  "sentence": "The car is in the yard."
+ },
+ "listen": {
+  "title": null,
+  "passage": "Long ago, before streetlights, farmers and travelers used the stars to find their way home. A bright, easy-to-spot group of stars is called a constellation.",
+  "tier2": [
+   {
+    "word": "constellation",
+    "def": "a group of stars that makes a shape people gave a name to, like a picture in the sky.",
+    "full": "a group of stars that makes a shape people gave a name to, like a picture in the sky."
+   }
   ],
-  "pseudo": []
+  "questions": [
+   "Why might people long ago need the stars to find their way?",
+   "Have you ever seen a very bright, very dark sky, in a village or the countryside?"
+  ]
  },
  "check": {
   "real": [
@@ -71,8 +111,10 @@
  "blocksFound": [
   "blendList",
   "read",
+  "listen",
   "check",
-  "trackB"
+  "trackB",
+  "tier2"
  ],
  "appSittings": null
 }

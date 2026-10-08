@@ -1,0 +1,164 @@
+{
+ "id": "L7.03",
+ "level": 7,
+ "title": "Reading Like a Historian II: Corroboration",
+ "source": "course/level-7/lessons/L7.03-history-corroboration.md",
+ "practice": true,
+ "goal": "Learn the historian's third move — corroboration: reading further independent accounts of the same event, applying the SAME sourcing template to each one (not just the first document you meet), and seeing where accounts agree, disagree, and where the disagreement itself is the most important finding.",
+ "warm": {
+  "words": [],
+  "heart": [],
+  "prompts": [
+   "What specific fact did Source 1 (the engraving) and Source 2 (Preston) directly disagree about?"
+  ]
+ },
+ "word": {
+  "items": [],
+  "vocab": [
+   {
+    "word": "Discrepancy",
+    "def": "a difference or disagreement between two accounts of the same thing",
+    "examples": [
+     "There was a discrepancy between the two witnesses' description of the getaway car's color."
+    ],
+    "task": "a discrepancy doesn't automatically mean one person is lying — name another reason two honest witnesses might describe the same event differently (different vantage point, stress, memory, what they were focused on)."
+   },
+   {
+    "word": "Involved witness",
+    "def": "a witness who was not just watching but did something during the event themselves (intervened, was struck, struck someone) — as distinct from a purely passive bystander. An involved witness is not automatically less honest, but their own actions can shape, understandably, how they remember and describe what happened next",
+    "examples": [],
+    "task": null
+   }
+  ],
+  "affixes": [],
+  "review": []
+ },
+ "prime": {
+  "facts": [
+   "the real Boston Massacre trial record includes testimony from dozens of witnesses, and historians studying it today still cannot fully reconcile every detail — not because the record is bad, but because five minutes of a violent, dark, snow-covered street scene genuinely looks different from every different position in the crowd."
+  ],
+  "question": "if a fight broke out in a crowded room you were standing in, would you expect your own account afterward to be fully accurate about who moved first — or would adrenaline and your own angle make some details genuinely unreliable, through no dishonesty on your part?",
+  "intro": "One fact before you read further: the real Boston Massacre trial record includes testimony from dozens of witnesses, and historians studying it today still cannot fully reconcile every detail — not because the record is bad, but because five minutes of a violent, dark, snow-covered street scene genuinely looks different from every different position in the crowd. Orienting question: if a fight broke out in a crowded room you were standing in, would you expect your own account afterward to be fully accurate about who moved first — or would adrenaline and your own angle make some details genuinely unreliable, through no dishonesty on your part?"
+ },
+ "write": {
+  "task": "Write a short paragraph (6–8 sentences): using the corroboration table, explain what you can now say with confidence about the night of March 5, 1770, what remains uncertain, and why reading Palmes' own testimony directly (rather than a single narrated summary) changed your reading. Use corroborate, discrepancy, and involved witness correctly at least once each.",
+  "model": null
+ },
+ "check": {
+  "items": [
+   {
+    "q": "Compare your answers with the model answer.",
+    "kind": "model",
+    "a": "confident claim — the crowd was hostile and provoked the soldiers before any shots were fired (Sources 2 and 3 agree; Source 1 omits this entirely, which is itself informative given Source 1's known purpose); uncertain claim — whether Preston personally ordered the fire (Sources 2 and 3 both say no clear order was heard, while Source 1 depicts a clear signal — and Source 1 is the source with the strongest documented motive to dramatize); Palmes' own testimony places his blow on the soldier after that soldier had already fired, in response to being threatened with a bayonet — a deliberate, defensive counter-strike, not an accidental cause of the shooting — which makes him an involved participant in the chaos that followed the first shot, not a neutral bystander, and not (contrary to how popular retellings sometimes compress the story) someone whose own swing precipitated it. His account is still valuable specifically because it's a first-person description of his own actions under oath — exactly the kind of testimony that most needs checking against other sources, and that this session checks directly rather than smoothing over."
+   },
+   {
+    "q": "Fill in the corroboration table correctly (4 rows × 3 sources), correctly state, using Palmes' own quoted words, when his blow landed relative to the first shot and why he says he threw it, and state the real historical trial outcome (Preston and six soldiers acquitted of murder; two soldiers convicted of manslaughter) as an example of how courts, like historians, sometimes have to decide despite real uncertainty.",
+    "kind": "self",
+    "a": null
+   }
+  ],
+  "bar": null,
+  "support": null,
+  "challenge": null
+ },
+ "text": {
+  "passages": [
+   {
+    "track": null,
+    "title": "A third source, sourced first",
+    "paragraphs": [
+     "Source 3 — Richard Palmes, Boston merchant. From his sworn testimony at the soldiers' trial, as transcribed in the trial record (Boston, 1770). Quoted directly, in the original phrasing and spelling, from the primary-source transcription at bostonmassacre.net/trial/d-palmes.htm — see the precise source note below.",
+     "\"I went to see what was the matter, and found Captain Preston at the head of six or eight soldiers... I asked him if the soldiers' guns were loaded. He answered they were. I asked him if they were going to fire upon the inhabitants. He answered by no means... I had not been there more than two minutes before I heard the word 'fire'... I heard the report of a gun... After that gun went off I heard the word fire, but who said it I know not... After that I turned and saw the Grenadier who fired first, attempting to prick me by the side of the Captain with his bayonet. I had a large stick in my hand. I struck over-hand and hit him on his left arm, and knocked his hand from his gun. Upon that I turned, thinking the other would do the same, and struck at anybody at first, and hit the Captain.\"",
+     "(Palmes also testified the whole encounter, from first shout to last shot, lasted \"not more than three quarters of a minute in the whole.\")"
+    ],
+    "phrased": false,
+    "script": false,
+    "questions": [
+     {
+      "q": "Who is Palmes, when did he give this account (relative to the trial), and for what purpose was it recorded (sworn trial testimony, not a private diary)?",
+      "a": null
+     },
+     {
+      "q": "In his own words, when did Palmes strike the soldier — before, or after, that soldier had already fired? What was Palmes' stated reason for striking him (read the sentence just before \"I struck over-hand\" again)?",
+      "a": null
+     },
+     {
+      "q": "This is the teaching point: other, independent secondary accounts of this same night describe a second detail Palmes' own quoted testimony above doesn't spell out in this much length — that his blow aimed at Captain Preston (the one right after he struck the soldier) narrowly missed Preston's head and landed on his arm instead, by some accounts because Palmes slipped on the icy ground. A witness who was himself swinging a weapon in the final seconds before and after the first shot is describing his own actions, under oath, in a chaotic scene, about facts that bear directly on his own potential legal exposure. What would you check, knowing that, before taking his account of \"who fired first\" and \"why\" at face value? (There is no single settled answer here — historians and popular accounts genuinely disagree on some of the finer sequencing; naming that disagreement honestly is the correct move, not picking a version and stating it as fact.)",
+      "a": null
+     },
+     {
+      "q": "Does the fact that Palmes physically struck a soldier make him an involved witness rather than a neutral one? Does that automatically make his account less trustworthy than a pure bystander's would be — or does it mean his stake and vantage point are different from Preston's, and need to be weighed on their own terms, the same as any other source?",
+      "a": null
+     }
+    ]
+   },
+   {
+    "track": null,
+    "title": "How the case was actually decided",
+    "paragraphs": [
+     "Source 4 — from John Adams' closing argument for the defense, given at the soldiers' trial (December 1770), as recorded in the published trial transcript. Quoted directly, checked against the Founders Online Adams Papers transcription — see the precise source note below.",
+     "\"Facts are stubborn things; and whatever may be our wishes, our inclinations, or the dictates of our passions, they cannot alter the state of facts and evidence.\""
+    ],
+    "phrased": true,
+    "script": false,
+    "questions": [
+     {
+      "q": "Who spoke this, when (relative to the trial's outcome), and for what purpose? Adams was a Patriot himself, arguing to acquit British soldiers — why might a Patriot lawyer choose this specific line as his argument's foundation?",
+      "a": null
+     },
+     {
+      "q": "Given everything you now know from Sources 1–3 (a propaganda image, an accused officer's defense, and an involved witness's own testimony about his own actions), what do you think Adams meant by \"facts... cannot alter the state of facts and evidence\" — as a warning against which of the three sources' temptations specifically?",
+      "a": null
+     }
+    ]
+   }
+  ],
+  "moves": [
+   {
+    "title": "corroboration",
+    "paragraphs": [
+     "Corroboration means finding accounts from different, independent people or sources — people with different stakes and different vantage points — and comparing them point by point. Historians treat agreement across independent sources as much stronger evidence than either source alone, and they treat disagreement not as a dead end but as a clue: why do these two honest- seeming accounts differ, and does the difference matter to the actual question being asked? Critically: corroboration does not skip the sourcing step for the new document — every new source gets the same who/when/why/predict questions Session 2 applied to the engraving and to Preston, before its content is trusted or compared."
+    ]
+   }
+  ]
+ },
+ "fluency": {
+  "title": "Read it smoothly",
+  "fromText": true,
+  "phrased": true
+ },
+ "discuss": {
+  "roles": [
+   {
+    "role": "Predictor",
+    "prompt": "If a fifth independent account existed — say, from a soldier standing in the firing line — would you expect it to side more with Source 2/3's uncertainty or Source 1's \"clear order\" version?",
+    "model": null
+   },
+   {
+    "role": "Questioner",
+    "prompt": "What one question would resolve the discrepancy if you could ask Palmes, Preston, and the engraver Revere directly?",
+    "model": null
+   },
+   {
+    "role": "Clarifier",
+    "prompt": "Explain why \"Palmes struck a soldier, so ignore his account\" would be exactly the wrong move for a historian to make — and why \"Palmes' blow caused the shooting\" would ALSO be wrong, since his own sworn testimony places his blow after the first shot, not before it.",
+    "model": null
+   },
+   {
+    "role": "Summarizer",
+    "prompt": "In two sentences, what does the corroboration of all four sources actually establish, and what remains open?",
+    "model": null
+   }
+  ]
+ },
+ "screens": [
+  "warm",
+  "word",
+  "fluency",
+  "prime",
+  "text",
+  "discuss",
+  "write",
+  "check"
+ ]
+}

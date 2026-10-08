@@ -1,0 +1,153 @@
+{
+ "id": "L7.12",
+ "level": 7,
+ "title": "Literary Reading I: Figurative Language, Tone, and Irony",
+ "source": "course/level-7/lessons/L7.12-literary-figurative-tone-irony.md",
+ "practice": true,
+ "goal": "Read a short story for what it means beyond its literal events — figurative language, the writer's tone, and irony (when what happens is the opposite of what's expected, or what a character believes is the opposite of what's true).",
+ "warm": {
+  "words": [],
+  "heart": [],
+  "prompts": [
+   "From memory: what four things does a synthesis need to do well (Session 10–11)?"
+  ]
+ },
+ "word": {
+  "items": [],
+  "vocab": [
+   {
+    "word": "Figurative language",
+    "def": "language that means something beyond its literal words: metaphor (\"her heart was a locked door\"), simile (\"grief hit like a wave\"), personification (giving human qualities to something non-human:",
+    "examples": [
+     "her heart was a locked door",
+     "grief hit like a wave"
+    ],
+    "task": null
+   },
+   {
+    "word": "Tone",
+    "def": "the writer's attitude toward the subject, created through word choice, sentence length, and detail — not what happens, but how the telling feels (cold, warm, mocking, tender, detached)",
+    "examples": [],
+    "task": null
+   },
+   {
+    "word": "Irony (situational)",
+    "def": "when the actual outcome of events is the opposite of what was expected or intended — different from sarcasm (a tone of voice) or coincidence (chance, without the reversal-of-expectation element)",
+    "examples": [],
+    "task": null
+   }
+  ],
+  "affixes": [],
+  "review": []
+ },
+ "prime": {
+  "facts": [
+   "literary writers plant details early that only mean something once the ending recontextualizes them — a first read and a second read of the same story are genuinely different experiences.",
+   "tone is created by hundreds of small word choices working together, not one obvious signal — which is why two readers can disagree about a story's tone and both be defensible if they can point to real textual evidence."
+  ],
+  "question": "recall a movie, show, or book ending that changed how you understood something from earlier in the story — what detail, looked at again, had been quietly pointing at the twist the whole time?",
+  "intro": "Two facts before you read: (1) literary writers plant details early that only mean something once the ending recontextualizes them — a first read and a second read of the same story are genuinely different experiences. (2) tone is created by hundreds of small word choices working together, not one obvious signal — which is why two readers can disagree about a story's tone and both be defensible if they can point to real textual evidence. Orienting question: recall a movie, show, or book ending that changed how you understood something from earlier in the story — what detail, looked at again, had been quietly pointing at the twist the whole time?"
+ },
+ "write": {
+  "task": "Write a paragraph (5–7 sentences): explain how the phone-call detail in paragraph 2 (\"called on Sundays... entirely full\") is doing double duty — it establishes the surface story AND plants the clue the ending depends on. Use figurative language, tone, and irony correctly at least once each.",
+  "model": null
+ },
+ "check": {
+  "items": [
+   {
+    "q": "Compare your answers with the model answer.",
+    "kind": "model",
+    "a": "the \"photographs on the refrigerator\" and \"life that looked, from the outside, entirely full\" detail plants exactly the gap the ending exploits — appearance vs. reality — without the story tipping its hand. Tone toward Mrs. Aldana is gentle, patient, a little wry; toward Renata, understanding rather than judgmental, especially in the final paragraph's shift into her perspective. Irony: the spare key was kept ready for a catastrophe (illness, death) but was actually needed for an ordinary, human unraveling neither woman had found words for yet."
+   },
+   {
+    "q": "Could you name a specific figurative-language example, correctly state the tone, and state the irony precisely (not just \"it was surprising\") without rereading?",
+    "kind": "self",
+    "a": null
+   }
+  ],
+  "bar": null,
+  "support": null,
+  "challenge": null
+ },
+ "text": {
+  "passages": [
+   {
+    "track": null,
+    "title": "An original short story",
+    "paragraphs": [
+     "The Spare Key",
+     "Mrs. Aldana kept a spare key to her daughter's apartment on a hook by the door, the way some people keep a fire extinguisher — a thing you own for an emergency you hope never comes, and check, now and then, just to be sure it's still there.",
+     "For eleven years the key hung untouched, gathering the particular dust of things nobody expects to need. Her daughter, Renata, called on Sundays, visited at Christmas, sent photographs of a life that looked, from the outside, entirely full — a husband, two children, a kitchen with a window over the sink where the light came in gold in the evenings. Mrs. Aldana kept the photographs on the refrigerator, a small gallery of a life she was allowed to watch but not, she understood, to enter uninvited.",
+     "Then, on a Tuesday in March, the telephone did not ring at its usual Sunday hour, and did not ring the Sunday after, and on the third silent Sunday Mrs. Aldana took the spare key down from its hook, feeling the strange lightness of a thing finally doing the job it had waited eleven years to do, and drove the four hours to her daughter's building with her heart performing something between a drumroll and a funeral march.",
+     "She let herself in expecting — she would later find it hard to say exactly what she had expected; her mind, in the car, had built entire wings of a house out of silence alone. What she found instead was her daughter at the kitchen table, very much alive, surrounded by paint swatches and takeout containers, in the middle of repainting the same golden kitchen a soft, deliberate blue, three weeks into a separation from her husband that she had not yet found the right sentence to explain over the phone.",
+     "\"You still have the key,\" Renata said, not quite a question, looking at the small brass shape in her mother's hand as if it were a photograph of someone she used to be.",
+     "\"I kept it on the hook by the door,\" Mrs. Aldana said. \"I check that it's still there. I never thought I'd actually need to use it.\"",
+     "Renata almost laughed, the particular laugh of someone catching, for the first time, the shape of an old joke on herself. All those years, she had been the one performing a full life for the refrigerator gallery, careful to send only the golden-kitchen photographs and never the empty Tuesday evenings — and the one emergency the spare key had finally answered was not the catastrophe her mother's silence-built house had imagined, but her own quiet, unphotographed unraveling, three weeks along, that no phone call had yet found the courage to admit."
+    ],
+    "phrased": false,
+    "script": false,
+    "questions": [
+     {
+      "q": "What is the story's tone toward Mrs. Aldana? Toward Renata? Are they the same, and what specific word choices tell you?",
+      "a": null
+     },
+     {
+      "q": "State the situational irony at the story's center: what did the spare key's use turn out to be for, versus what eleven years of keeping it had prepared Mrs. Aldana to expect?",
+      "a": null
+     },
+     {
+      "q": "Think question: the story never states directly that Renata had been hiding her real life from her mother — it's built entirely from inference (Session 1's word). What specific details let you infer this, and how does the ending's irony depend on that inference being correct?",
+      "a": null
+     }
+    ]
+   }
+  ],
+  "moves": [
+   {
+    "title": "reading figuratively",
+    "paragraphs": [
+     "A literal reader asks \"what happened?\" A literary reader also asks: what does this specific comparison suggest that a plainer sentence wouldn't? What is the writer's tone toward this character — sympathetic, critical, neutral — and how do you know, from which specific word choices? And, at the end: is there a gap between what a character (or the reader, on a first read) expected and what actually turned out to be true — and what does that gap reveal?"
+    ]
+   }
+  ]
+ },
+ "fluency": {
+  "title": "Read it smoothly",
+  "fromText": true,
+  "phrased": false
+ },
+ "discuss": {
+  "roles": [
+   {
+    "role": "Predictor",
+    "prompt": "Before you reread, what might a reader expect to find behind that apartment door, given the buildup in paragraph 3 — and is the actual discovery better or worse than that expectation, and for whom?",
+    "model": null
+   },
+   {
+    "role": "Questioner",
+    "prompt": "What one detail would you want to know that the story withholds?",
+    "model": null
+   },
+   {
+    "role": "Clarifier",
+    "prompt": "Explain \"situational irony\" using this story's ending as the example.",
+    "model": null
+   },
+   {
+    "role": "Summarizer",
+    "prompt": "The whole story in two sentences, without naming the twist directly (make someone want to read it).",
+    "model": null
+   }
+  ]
+ },
+ "screens": [
+  "warm",
+  "word",
+  "fluency",
+  "prime",
+  "text",
+  "discuss",
+  "write",
+  "check"
+ ]
+}

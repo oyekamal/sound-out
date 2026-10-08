@@ -7,6 +7,7 @@
 import { options, entry } from './content.js';
 import { play, wait, mark, stop, isFast } from './audio.js';
 import { h, icon } from './ui.js';
+import { decorate } from './screens/tiles.js';
 
 const shuffle = a => { const b = [...a]; for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [b[i], b[j]] = [b[j], b[i]]; } return b; };
 
@@ -15,7 +16,7 @@ export function printedWord(w, kind, track) {
   const box = h('div', { class: 'printed', 'data-word': w });
   (e?.g || [...w]).forEach((g, i) => box.append(h('span', { class: 'g', 'data-i': i }, g)));
   if (kind === 'pseudo') box.append(h('span', { class: 'tag' }, track === 'A' ? 'alien word' : 'made-up word'));
-  return box;
+  return decorate(box, e);   // Levels 2-4: split vowels, suffix tiles, syllable chunks
 }
 
 async function soundOut(box, w) {

@@ -1349,6 +1349,51 @@
   "say": "d",
   "ipa": "d"
  },
+ "w:fib": {
+  "cut": "last",
+  "say": "fib",
+  "ipa": "fˈɪb"
+ },
+ "w:mud": {
+  "cut": "last",
+  "say": "mud",
+  "ipa": "mˈʌd"
+ },
+ "w:taf": {
+  "cut": "last",
+  "say": "taf",
+  "ipa": "tˈæf"
+ },
+ "w:nid": {
+  "cut": "last",
+  "say": "nid",
+  "ipa": "nˈɪd"
+ },
+ "w:gof": {
+  "cut": "last",
+  "say": "gof",
+  "ipa": "ɡˈɑf"
+ },
+ "w:haz": {
+  "cut": "last",
+  "say": "haz",
+  "ipa": "hˈæz"
+ },
+ "w:vin": {
+  "cut": "last",
+  "say": "vin",
+  "ipa": "vˈɪn"
+ },
+ "w:quob": {
+  "cut": "last",
+  "say": "quob",
+  "ipa": "kwˈɑb"
+ },
+ "w:dov": {
+  "cut": "last",
+  "say": "dov",
+  "ipa": "dˈɑv"
+ },
  "ipa:ʌ": {
   "cut": "last",
   "say": "uh",
@@ -2689,6 +2734,46 @@
   "say": "d",
   "ipa": "d"
  },
+ "ipa:fˈɪb": {
+  "cut": "last",
+  "say": "fib",
+  "ipa": "fˈɪb"
+ },
+ "ipa:mˈʌd": {
+  "cut": "last",
+  "say": "mud",
+  "ipa": "mˈʌd"
+ },
+ "ipa:tˈæf": {
+  "cut": "last",
+  "say": "taf",
+  "ipa": "tˈæf"
+ },
+ "ipa:nˈɪd": {
+  "cut": "last",
+  "say": "nid",
+  "ipa": "nˈɪd"
+ },
+ "ipa:ɡˈɑf": {
+  "cut": "last",
+  "say": "gof",
+  "ipa": "ɡˈɑf"
+ },
+ "ipa:vˈɪn": {
+  "cut": "last",
+  "say": "vin",
+  "ipa": "vˈɪn"
+ },
+ "ipa:kwˈɑb": {
+  "cut": "last",
+  "say": "quob",
+  "ipa": "kwˈɑb"
+ },
+ "ipa:dˈɑv": {
+  "cut": "last",
+  "say": "dov",
+  "ipa": "dˈɑv"
+ },
  "ipa:ˈæd": {
   "cut": "last",
   "say": "ad",
@@ -2803,11 +2888,6 @@
   "cut": "last",
   "say": "mezz",
   "ipa": "mˈɛz"
- },
- "ipa:nˈɪd": {
-  "cut": "last",
-  "say": "nid",
-  "ipa": "nˈɪd"
  },
  "ipa:wˈæp": {
   "cut": "last",
@@ -3389,11 +3469,6 @@
   "say": "led",
   "ipa": "lˈɛd"
  },
- "ipa:mˈʌd": {
-  "cut": "last",
-  "say": "mud",
-  "ipa": "mˈʌd"
- },
  "ipa:bˈɪn": {
   "cut": "last",
   "say": "bin",
@@ -3698,11 +3773,6 @@
   "cut": "last",
   "say": "nib",
   "ipa": "nˈɪb"
- },
- "ipa:vˈɪn": {
-  "cut": "last",
-  "say": "vin",
-  "ipa": "vˈɪn"
  },
  "ipa:ɡˈɪɡ": {
   "cut": "last",
@@ -4063,6 +4133,86 @@
   "cut": "last",
   "say": "fee",
   "ipa": "fˈi"
+ },
+ "ipa:mˈæf": {
+  "cut": "last",
+  "say": "maff",
+  "ipa": "mˈæf"
+ },
+ "ipa:tˈɛf": {
+  "cut": "last",
+  "say": "teff",
+  "ipa": "tˈɛf"
+ },
+ "ipa:vˈɪd": {
+  "cut": "last",
+  "say": "vid",
+  "ipa": "vˈɪd"
+ },
+ "ipa:vˈʌd": {
+  "cut": "last",
+  "say": "vud",
+  "ipa": "vˈʌd"
+ },
+ "ipa:vˈɑf": {
+  "cut": "last",
+  "say": "voff",
+  "ipa": "vˈɑf"
+ },
+ "ipa:ɡˈɛf": {
+  "cut": "last",
+  "say": "geff",
+  "ipa": "ɡˈɛf"
+ },
+ "ipa:vˈɛf": {
+  "cut": "last",
+  "say": "veff",
+  "ipa": "vˈɛf"
+ },
+ "ipa:tˈæz": {
+  "cut": "last",
+  "say": "tazz",
+  "ipa": "tˈæz"
+ },
+ "ipa:hˈɑz": {
+  "cut": "last",
+  "say": "hozz",
+  "ipa": "hˈɑz"
+ },
+ "ipa:tˈɑz": {
+  "cut": "last",
+  "say": "tozz",
+  "ipa": "tˈɑz"
+ },
+ "ipa:vˈɛn": {
+  "cut": "last",
+  "say": "ven",
+  "ipa": "vˈɛn"
+ },
+ "ipa:nˈɛn": {
+  "cut": "last",
+  "say": "nen",
+  "ipa": "nˈɛn"
+ },
+ "ipa:klˈɑb": {
+  "cut": "last",
+  "say": "klob",
+  "ipa": "klˈɑb"
+ },
+ "ipa:lˈɑv": {
+  "cut": "last",
+  "say": "lov",
+  "ipa": "lˈɑv"
+ },
+ "ipa:dˈæv": {
+  "cut": "last",
+  "say": "dav",
+  "ipa": "dˈæv"
+ },
+ "ipa:lˈæv": {
+  "cut": "last",
+  "say": "lav",
+  "ipa": "lˈæv"
  },
  "ph:s": {
   "cut": "phone",
@@ -4459,6 +4609,50 @@
  "ui:selfReport": {
   "cut": "text",
   "text": "The app does not hear you. Tap when you have said it."
+ },
+ "ui:l1OralFirst": {
+  "cut": "text",
+  "text": "Listen. What sound does it start with?"
+ },
+ "ui:l1OralBlend": {
+  "cut": "text",
+  "text": "Listen to the sounds. Which word do they make?"
+ },
+ "ui:l1OralCount": {
+  "cut": "text",
+  "text": "Listen to the word. How many sounds?"
+ },
+ "ui:l1OralPreview": {
+  "cut": "text",
+  "text": "Here are two letters for next time."
+ },
+ "ui:l1OralCheck": {
+  "cut": "text",
+  "text": "Listen to the sounds, and pick the word."
+ },
+ "ui:l1Names": {
+  "cut": "text",
+  "text": "Every letter has a name and a sound."
+ },
+ "ui:l1NameOrSound": {
+  "cut": "text",
+  "text": "Was that its name, or its sound?"
+ },
+ "ui:l1Bdpq": {
+  "cut": "text",
+  "text": "These letters look alike. Look closely."
+ },
+ "ui:l1MasteryIntro": {
+  "cut": "text",
+  "text": "This is the Level 1 check. Take your time."
+ },
+ "ui:l1MasteryPass": {
+  "cut": "text",
+  "text": "You passed Level 1! Level 2 is coming soon."
+ },
+ "ui:l1MasteryMiss": {
+  "cut": "text",
+  "text": "Let's practise a little more, then try again."
  },
  "lt:L1.01:title": {
   "cut": "text",

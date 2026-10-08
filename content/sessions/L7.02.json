@@ -1,0 +1,167 @@
+{
+ "id": "L7.02",
+ "level": 7,
+ "title": "Reading Like a Historian I: Sourcing & Contextualizing",
+ "source": "course/level-7/lessons/L7.02-history-sourcing-contextualizing.md",
+ "practice": true,
+ "goal": "Learn the historian's first two moves — sourcing (who made this, what's their stake?) and contextualizing (what was happening around this moment?) — using TWO competing visual sources compared against each other, then a written primary source.",
+ "warm": {
+  "words": [
+   "infer",
+   "corroborate",
+   "bias"
+  ],
+  "heart": [],
+  "prompts": []
+ },
+ "word": {
+  "items": [],
+  "vocab": [
+   {
+    "word": "Deposition",
+    "def": "a formal, sworn written statement about what someone saw or knows, usually given as part of a legal case",
+    "examples": [
+     "The witness gave a deposition describing the accident."
+    ],
+    "task": "why might someone's account change between an informal conversation and a sworn deposition?"
+   },
+   {
+    "word": "Primary source",
+    "def": "a firsthand account or original document (or image) from the time and place being studied (a diary, a deposition, a photograph, an engraving, a letter) — as opposed to a secondary source (a textbook or article written later, describing events secondhand)",
+    "examples": [],
+    "task": "is a newspaper article written the day after an event a primary or secondary source? (Answer: primary — it's from the time, even though the reporter wasn't necessarily an eyewitness.)"
+   }
+  ],
+  "affixes": [],
+  "review": []
+ },
+ "prime": {
+  "facts": [
+   "In 1770, Boston was a city of about 16,000 people with roughly 2,000 British soldiers stationed in it — a huge, resented military presence in a small town.",
+   "Newspapers and printed images in this period were openly partisan; there was no norm of \"neutral reporting\" the way there is (in theory) today — a printer picked a side and sold to that side's readers.",
+   "A single, chaotic, five-minute event on a dark, snowy street produced dozens of conflicting eyewitness accounts and at least two competing engraved images, made within weeks of each other by rival artists — which is exactly why it is one of the most-used teaching events in American historical-reading instruction (it's the anchor event of the Stanford History Education Group's own \"Reading Like a Historian\" curriculum, research/06 §1.9)."
+  ],
+  "question": "think of a recent event (a sports call, a video that went viral, a local dispute) where you saw two people describe the same five minutes so differently you'd never have known it was the same event without being told. What made their accounts diverge — what each person could actually see, or what each person wanted to be true?",
+  "intro": null
+ },
+ "write": {
+  "task": "Write a short paragraph (5–7 sentences): compare the visual sources (1/1b) and the written source (2) on the one factual question both address (was there a clear order, in one coordinated volley, or not) — name each source's likely bias and what each stood to gain from its version. Use bias and primary source correctly at least once each.",
+  "model": null
+ },
+ "check": {
+  "items": [
+   {
+    "q": "Compare your answers with the model answer.",
+    "kind": "model",
+    "a": "Sources 1/1b (Pelham's original and Revere's copy) were both made by Patriot- sympathizing printers within weeks of the event, for sale to a Patriot-sympathizing public, and both depict an orderly, ordered execution — good propaganda, since a deliberate massacre is a stronger political claim than chaotic self-defense; Revere's one added detail (\"Butcher's Hall\") shows he was willing to sharpen even a design he didn't originate. Source 2 (Preston's account) was written by the accused commander, from jail, before his own murder trial, and depicts confusion and no order — exactly the version that would acquit him. None of these sources' biases make them automatically false; all are primary sources with a clear, nameable stake, and the actual disputed fact (was there an order, in one coordinated volley?) needs an independent third source to help settle it — which is exactly Session 3's job."
+   },
+   {
+    "q": "Can you state, without notes, the sourcing template (who/when/why/predict) from memory, and name a specific, concrete bias for the visual sources AND the written one? If you can only name Preston's bias and not the engravers', reread Section 5 before Session 3.",
+    "kind": "self",
+    "a": null
+   }
+  ],
+  "bar": null,
+  "support": null,
+  "challenge": null
+ },
+ "text": {
+  "passages": [
+   {
+    "track": null,
+    "title": "Background, then three sources (two visual, one written)",
+    "paragraphs": [
+     "Background: In the winter of 1770, British troops had been stationed in Boston for over a year, partly to enforce unpopular taxes. Relations between soldiers and residents were tense — soldiers took off-duty jobs that competed with local workers, and there had been earlier scuffles. On the night of March 5, 1770, a crowd gathered around a small group of British soldiers guarding the customs house on King Street. The crowd grew, shouted insults, and threw snowballs, ice, and oyster shells. In the chaos, the soldiers fired into the crowd. Five colonists died. The soldiers and their commanding officer, Captain Thomas Preston, were arrested and charged with murder — an explosive case, since Boston's Patriot movement wanted the soldiers punished as an example, while the Crown needed a fair trial to avoid a wider uprising. (Patriot lawyer John Adams chose to defend the soldiers, arguing that a lawful trial mattered more than a convenient outcome — Preston and six soldiers were acquitted of murder; two soldiers were convicted of manslaughter. You'll read part of Adams' own closing argument in Session 3.)",
+     "Source 1 — a visual source: the best-known engraving of the event, published under the name of Boston silversmith and engraver Paul Revere, roughly three weeks after the massacre (late March 1770). Described in words below rather than reproduced as an image.",
+     "The engraving shows a straight line of British soldiers, muskets leveled, firing in an apparently coordinated volley into a small, unarmed, retreating crowd — no one in the crowd is shown holding a weapon, throwing anything, or threatening the soldiers. Captain Preston stands beside his men with his sword raised, in a pose many viewers read as actively signaling the order to fire. Above the customs house, the engraving adds a sign reading \"Butcher's Hall\" — a building detail invented for the image, not present at the real customs house. A dog stands calmly in the foreground, undisturbed by the \"chaos,\" reinforcing the sense of an orderly execution rather than a riot.",
+     "Documented history of this specific image, so the sourcing questions below have a real answer: engraver Henry Pelham had drawn this composition first and privately shown it to Revere, a fellow Boston engraver, before Pelham's own version was printed. Revere copied Pelham's design and rushed his own version into print and onto sale roughly a week before Pelham could sell his original — Pelham wrote Revere an angry letter accusing him of dishonorably stealing an unpublished work and profiting from it under his own name. Revere's version (the one that became famous and widely reprinted) is the one described above.",
+     "Source 1b — a second visual source, for direct comparison: Henry Pelham's original composition, \"The Fruits of Arbitrary Power, or the Bloody Massacre,\" advertised for sale April 2, 1770 (about a week after Revere's copy had already gone on sale). Described in words below.",
+     "Pelham's original is, by design, the source Revere copied — the overall composition (the soldiers' firing line, Preston with sword raised, the retreating unarmed crowd) is essentially the same scene, since Revere reproduced Pelham's drawing rather than making an independent one. The one substantive difference documented across sources: Revere's printed version adds the \"Butcher's Hall\" sign over the customs house that is not part of Pelham's original design — Revere's own embellishment on top of the composition he took from Pelham.",
+     "Source 2 — Captain Thomas Preston, commanding officer, written from his jail cell and later published in the London Public Advertiser (April 1770). Adapted into modern spelling and condensed from the historical record — see the precise source note at the end of this lesson.",
+     "\"It is matter of too great notoriety to need any proofs that the arrival of his Majesty's troops in this town was extremely obnoxious to it... On the 5th of March, a party of soldiers was ordered to relieve the sentinel at the customs house. The mob, which had grown to several hundred, pressed upon the soldiers, calling them 'lobster scoundrels' and daring them, 'Fire, if you dare.' They struck the soldiers with clubs and threw pieces of ice. One soldier, struck hard enough to be knocked down, rose and fired his musket. I heard the word 'fire' shouted, but I do not know from whom, and I gave no such order — my own words were, 'Do not fire, stop your firing.' Whether from the crowd's own shout or from confusion in the smoke and noise, several of the men, believing the order had been given, discharged their pieces, not all at once but raggedly, one after another. I take God to witness that I gave no order to fire, and I did all in my power to prevent the very tragedy that followed, being as innocent a sufferer in this affair as it is possible for any man to be.\""
+    ],
+    "phrased": false,
+    "script": false,
+    "questions": [
+     {
+      "q": "Who made each image, and when, relative to the event and relative to each other? (Pay attention to who saw whose version first, and who got to print and sell theirs first.)",
+      "a": null
+     },
+     {
+      "q": "The one documented difference between them is the \"Butcher's Hall\" sign. Given that Pelham and Revere otherwise share the same composition, the same firing-line staging, and the same political sympathies, what does it tell you that Revere still chose to add one more detail on top of a design he didn't even originate?",
+      "a": null
+     },
+     {
+      "q": "Predict, then check: before reading the description again, what would you expect an image made for these purposes to emphasize about the soldiers and the crowd? Does the actual description match your prediction?",
+      "a": null
+     },
+     {
+      "q": "Who wrote this, when (relative to his own trial), and for what purpose?",
+      "a": null
+     },
+     {
+      "q": "Preston insists on one specific fact three separate times. What is it, and why would that fact matter more to him than almost anything else in the account?",
+      "a": null
+     },
+     {
+      "q": "Direct comparison to Sources 1/1b: both engravings show one coordinated volley on a visible signal from Preston. Source 2 says the shots came \"not all at once but raggedly, one after another,\" with no order given at all. These cannot both be fully accurate. Which source has a clearer, nameable reason to shape the story this particular way — and does that mean the other source is simply \"true\"? (This is the bridge to Session 3: a document contradicting an image is not automatically the correct one; both need to be weighed.)",
+      "a": null
+     },
+     {
+      "q": "Contextualizing check: does knowing Source 2 was written from jail, before a murder trial, change how much weight you give it? Does that mean it's false — or just that it needs an independent source to corroborate or contradict it?",
+      "a": null
+     }
+    ]
+   }
+  ],
+  "moves": [
+   {
+    "title": "sourcing and contextualizing",
+    "paragraphs": [
+     "Sourcing means asking, before you ask what a document or image says: *who made this, when, for what purpose, and what did they stand to gain or lose from how they told it?* A historian does this automatically and first — reading for content before reading for source is, per Shanahan & Shanahan's research, exactly the habit that separates a strong disciplinary reader from someone who reads history like a story. Sourcing applies to images just as much as text — a picture is never a neutral photograph of \"what happened\"; someone chose every figure's pose, expression, and position.",
+     "Contextualizing means placing the document in its moment: what was the political and social temperature right before this was made? A single sentence — or a single detail in a picture — can mean something very different depending on whether it was made during a calm week or three days after a riot.",
+     "The sourcing template — ask this of every source in this lesson and the next: *Who made it? When? For what purpose? What do you predict it will say or show, before you look closely?*"
+    ]
+   }
+  ]
+ },
+ "fluency": {
+  "title": "Read it smoothly",
+  "fromText": true,
+  "phrased": false
+ },
+ "discuss": {
+  "roles": [
+   {
+    "role": "Predictor",
+    "prompt": "Before Session 3's further sources, predict whether an ordinary bystander's account will side with Sources 1/1b's \"clear signal, coordinated volley\" or Source 2's \"no order, ragged shots\" — or neither exactly.",
+    "model": null
+   },
+   {
+    "role": "Questioner",
+    "prompt": "What question would you want to ask Revere directly about his choice to add \"Butcher's Hall\" to a composition he'd copied from Pelham?",
+    "model": null
+   },
+   {
+    "role": "Clarifier",
+    "prompt": "Explain, in your own words, why sourcing an image uses the same four questions as sourcing a document, and why comparing two versions of the same image (Pelham vs. Revere) can reveal a bias neither version would show on its own.",
+    "model": null
+   },
+   {
+    "role": "Summarizer",
+    "prompt": "Two sentences — what do the visual and written sources agree and disagree on, and what remains unconfirmed?",
+    "model": null
+   }
+  ]
+ },
+ "screens": [
+  "warm",
+  "word",
+  "fluency",
+  "prime",
+  "text",
+  "discuss",
+  "write",
+  "check"
+ ]
+}

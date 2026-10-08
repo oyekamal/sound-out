@@ -40,6 +40,29 @@
    "plee"
   ]
  },
+ "spell": {
+  "words": [
+   "see",
+   "team",
+   "sleep"
+  ],
+  "sentence": "I need to eat a snack."
+ },
+ "listen": {
+  "title": null,
+  "passage": "Communities that organize regular street clean-ups tend to build a stronger sense of civic pride, because neighbors who work side by side start to feel a shared responsibility for the place they live.",
+  "tier2": [
+   {
+    "word": "responsibility",
+    "def": "a duty or job that is yours to take care of.",
+    "full": "a duty or job that is yours to take care of."
+   }
+  ],
+  "questions": [
+   "Why might a clean-up build civic pride?",
+   "What responsibility do you take seriously?"
+  ]
+ },
  "check": {
   "real": [
    "see",
@@ -65,12 +88,6 @@
   },
   "firstAttemptOnly": true
  },
- "heart": [
-  {
-   "word": "laugh",
-   "note": null
-  }
- ],
  "read": {
   "A": {
    "text": "Sam and his team go to the beach. / When they see a green kite, they find a sweet, clean spot to sit. / \"Let's eat lunch by the sea,\" said Sam. / They read a page and laugh at a funny bit. / A queen bee comes to see the sweet leaf, then goes home. / Sam and his team feel very happy after a fine day.",
@@ -83,10 +100,11 @@
  },
  "blocksFound": [
   "blendList",
-  "heart",
   "read",
+  "listen",
   "check",
-  "trackB"
+  "trackB",
+  "tier2"
  ],
  "appSittings": null
 }

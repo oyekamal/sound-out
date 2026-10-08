@@ -4,6 +4,7 @@ import { play } from './audio.js';
 import { LESSONS } from './content.js';
 import { states, LABEL } from './path.js';
 import * as db from './db.js';
+import { level2Teaser } from './screens/l1home.js';
 
 export async function home(app, profile) {
   const prog = await db.progress(profile.id);
@@ -36,6 +37,7 @@ export async function home(app, profile) {
     }
     sec.append(path); s.append(sec);
   }
+  s.append(level2Teaser(prog, track));
   if (track === 'B' && (prog.words || []).length) s.append(h('section', { class: 'lesson' }, h('h3', {}, 'Words to remember'), h('p', { class: 'wordlist' }, prog.words.join(' · '))));
   s.append(h('p', { class: 'muted small foot-note' }, 'Prototype: all voices are a computer voice for now; pictures are placeholders.'));
   app.mount(s);

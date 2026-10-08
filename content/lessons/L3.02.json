@@ -35,6 +35,29 @@
    "quibe"
   ]
  },
+ "spell": {
+  "words": [
+   "time",
+   "bike",
+   "smile"
+  ],
+  "sentence": "I like my bike."
+ },
+ "listen": {
+  "title": null,
+  "passage": "Before bikes had rubber tires, riders used wheels with iron rims. Every bump in the road shook the whole bike — people called it a 'bone-shaker.' A ride that should have felt smooth instead felt rough and tiring.",
+  "tier2": [
+   {
+    "word": "rough",
+    "def": "not smooth; bumpy or hard to deal with.",
+    "full": "not smooth; bumpy or hard to deal with."
+   }
+  ],
+  "questions": [
+   "Why did old bikes feel rough to ride?",
+   "What's the difference between rough and smooth?"
+  ]
+ },
  "check": {
   "real": [
    "time",
@@ -84,8 +107,10 @@
   "blendList",
   "heart",
   "read",
+  "listen",
   "check",
-  "trackB"
+  "trackB",
+  "tier2"
  ],
  "appSittings": null
 }

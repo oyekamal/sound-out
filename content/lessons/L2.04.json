@@ -22,13 +22,23 @@
    "shop",
    "this",
    "bath",
+   "much"
+  ],
+  "pseudo": [
    "whob",
    "whass",
    "whith",
    "chesh",
    "wathin"
+  ]
+ },
+ "spell": {
+  "words": [
+   "sounds",
+   "words",
+   "sentence"
   ],
-  "pseudo": []
+  "sentence": "Which whip did Sam wish for?"
  },
  "heart": [
   {

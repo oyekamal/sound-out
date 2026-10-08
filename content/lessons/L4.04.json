@@ -30,9 +30,58 @@
    "flare",
    "bear",
    "wear",
-   "pear"
+   "pear",
+   "deer",
+   "cheer",
+   "steer",
+   "sneer",
+   "near",
+   "dear",
+   "hear",
+   "fear",
+   "year",
+   "clear",
+   "war",
+   "warm",
+   "wart",
+   "ward",
+   "warn",
+   "work",
+   "word",
+   "world",
+   "worm",
+   "worth"
   ],
-  "pseudo": []
+  "pseudo": [
+   "blair",
+   "zair",
+   "drare",
+   "sturn",
+   "worb"
+  ]
+ },
+ "spell": {
+  "words": [
+   "chair",
+   "near",
+   "world"
+  ],
+  "sentence": "We wear a coat when the air is not warm."
+ },
+ "listen": {
+  "title": null,
+  "passage": "In many places, wild animals like deer must be cautious around people, even kind ones, because their bodies are built to sense danger first and think later.",
+  "tier2": [
+   {
+    "word": "cautious",
+    "def": "careful, watching closely for danger before acting.",
+    "full": "careful, watching closely for danger before acting."
+   }
+  ],
+  "questions": [
+   "Why might a wild deer be cautious even around someone who means no harm?",
+   "Is it ever good for people to be cautious too?"
+  ]
  },
  "check": {
   "real": [
@@ -72,8 +121,10 @@
  "blocksFound": [
   "blendList",
   "read",
+  "listen",
   "check",
-  "trackB"
+  "trackB",
+  "tier2"
  ],
  "appSittings": null
 }

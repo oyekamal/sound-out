@@ -19,6 +19,10 @@
    "stopped",
    "planning",
    "dropped",
+   "sadder",
+   "wetter",
+   "hottest",
+   "thinner",
    "happier",
    "happiest",
    "carried",
@@ -30,9 +34,48 @@
    "crying",
    "carrying",
    "studying",
-   "trying"
+   "trying",
+   "hoping",
+   "making",
+   "nicer",
+   "using",
+   "caring",
+   "largest"
   ],
-  "pseudo": []
+  "pseudo": [
+   "vop",
+   "vopping",
+   "plopy",
+   "plopier",
+   "snape",
+   "snaping",
+   "ferr",
+   "ferrer",
+   "dass",
+   "dassied"
+  ]
+ },
+ "spell": {
+  "words": [
+   "stopped",
+   "carried",
+   "using"
+  ],
+  "sentence": "She was hoping the funnier, bigger clown was carrying the babies' toys."
+ },
+ "listen": {
+  "title": null,
+  "passage": "People who keep working toward a goal, even slowly and through setbacks, show perseverance — refusing to give up, even when progress feels slow.",
+  "tier2": [
+   {
+    "word": "perseverance",
+    "def": "continuing to try, even when something is hard or takes a long time.",
+    "full": "continuing to try, even when something is hard or takes a long time."
+   }
+  ],
+  "questions": [
+   "What helps you keep going when something feels slow or hard?"
+  ]
  },
  "check": {
   "real": [
@@ -70,8 +113,10 @@
  "blocksFound": [
   "blendList",
   "read",
+  "listen",
   "check",
-  "trackB"
+  "trackB",
+  "tier2"
  ],
  "appSittings": null
 }

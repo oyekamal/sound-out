@@ -25,12 +25,7 @@
    "crew",
    "stew",
    "fruit",
-   "suit",
-   "drue",
-   "sprew",
-   "fluit",
-   "glew",
-   "treu"
+   "suit"
   ],
   "pseudo": [
    "drue",
@@ -38,6 +33,29 @@
    "fluit",
    "glew",
    "treu"
+  ]
+ },
+ "spell": {
+  "words": [
+   "blue",
+   "new",
+   "fruit"
+  ],
+  "sentence": "I have a new blue suit."
+ },
+ "listen": {
+  "title": null,
+  "passage": "Choosing an outfit for an important meeting is about more than looking neat — it can genuinely affect how confident a person feels walking into the room, which in turn can affect how well they perform.",
+  "tier2": [
+   {
+    "word": "confident",
+    "def": "sure of yourself, believing you can do something well.",
+    "full": "sure of yourself, believing you can do something well."
+   }
+  ],
+  "questions": [
+   "How might clothing affect how confident someone feels?",
+   "What makes you feel confident?"
   ]
  },
  "check": {
@@ -65,12 +83,6 @@
   },
   "firstAttemptOnly": true
  },
- "heart": [
-  {
-   "word": "buy",
-   "note": null
-  }
- ],
  "read": {
   "A": {
    "text": "Sam and his mom go to buy a new bike. / \"I want the blue one,\" said Sam. / The shop has a big, blue bike that is true to what Sam likes. / Sam's mom said, \"Let's buy it, then get a snack.\" / They get a bag of fruit and chew on it as they walk home with the new bike.",
@@ -83,10 +95,11 @@
  },
  "blocksFound": [
   "blendList",
-  "heart",
   "read",
+  "listen",
   "check",
-  "trackB"
+  "trackB",
+  "tier2"
  ],
  "appSittings": null
 }

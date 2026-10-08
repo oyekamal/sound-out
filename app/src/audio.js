@@ -1,5 +1,6 @@
 // Plays clips by key. Every play is recorded in window.__so.trace so tests can audit what was heard and when.
 import { audioIndex } from './content.js';
+import { isComing, comingPlay } from './placeholder.js';
 const so = (window.__so = window.__so || { trace: [], missing: [] });
 const fast = new URLSearchParams(location.search).has('fast');
 let current = null;
@@ -8,7 +9,7 @@ let current = null;
 const BASE = import.meta.env.BASE_URL;
 
 export function mark(type, data = {}) { so.trace.push({ t: performance.now(), type, ...data }); }
-export const has = key => !!audioIndex.clips[key];
+export const has = key => !!audioIndex.clips[key] || isComing(key);
 export const dur = key => audioIndex.clips[key]?.dur || 0;
 
 export function stop() { if (current) { current.pause(); current.onended = null; current = null; } }
@@ -16,6 +17,7 @@ export function stop() { if (current) { current.pause(); current.onended = null;
 export function play(key, { rate = 1 } = {}) {
   const c = audioIndex.clips[key];
   mark('audio', { key });
+  if (!c && isComing(key)) return comingPlay(key);   // Levels 2-4: listed in content/audio_needed.json, not rendered yet
   if (!c) { so.missing.push(key); console.warn('missing clip', key); return Promise.resolve(); }
   stop();
   return new Promise(res => {

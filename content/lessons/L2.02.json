@@ -22,13 +22,26 @@
    "catch",
    "fetch",
    "hutch",
+   "match",
+   "witch",
+   "pitch",
+   "ditch"
+  ],
+  "pseudo": [
    "chob",
    "votch",
    "chiss",
    "nach",
    "wetch"
+  ]
+ },
+ "spell": {
+  "words": [
+   "chat",
+   "catch",
+   "much"
   ],
-  "pseudo": []
+  "sentence": "Much of the fish was rich."
  },
  "heart": [
   {

@@ -9,17 +9,41 @@
  "review": "the full word-attack routine (4.14), all Level 4 patterns",
  "heartLine": "none new — this lesson uses whatever heart words naturally appear in authentic text, flagged as met, not pre-taught",
  "time": "30–35 min",
+ "listen": {
+  "title": null,
+  "passage": "A notice, a recipe, and a news report are three examples of functional text — writing whose main job is to help you do something (know when the water's off, cook a meal, understand a local event) rather than to tell a story.",
+  "tier2": [
+   {
+    "word": "functional",
+    "def": "designed to do a practical job, not just to entertain or tell a story.",
+    "full": "designed to do a practical job, not just to entertain or tell a story."
+   }
+  ],
+  "questions": [
+   "Why might a notice or recipe use different, more direct language than a story?"
+  ]
+ },
  "check": {
+  "real": [],
+  "pseudo": [],
+  "attack": [
+   "comfortable",
+   "dangerous",
+   "ingredients"
+  ],
   "bar": {
    "pass": 2,
    "of": 3,
    "source": "lesson",
    "raw": "2 of 3"
   },
-  "freeResponse": true
+  "freeResponse": true,
+  "note": "unknown-word protocol narrated on 3 words: the app runs the word-attack routine, self-report per word"
  },
  "blocksFound": [
-  "check"
+  "listen",
+  "check",
+  "tier2"
  ],
  "appSittings": null
 }

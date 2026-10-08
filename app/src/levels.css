@@ -1,0 +1,39 @@
+/* Levels 2-4: multi-letter tiles, split vowels, suffix tiles, syllable chunks, the attack routine, "audio coming". */
+:root { --split: #b5651d; --suffix: #7a5ea8; --sylline: #9a8f80; }
+.coming { position: fixed; left: 50%; bottom: 18px; transform: translate(-50%, 30px); opacity: 0; background: #33475b; color: #fff;
+  font: 600 .85rem var(--ui); padding: 8px 14px; border-radius: 99px; pointer-events: none; transition: opacity .2s, transform .2s; z-index: 20; }
+.coming.show { opacity: .92; transform: translate(-50%, 0); }
+.printed .g.split { color: var(--split); }
+.printed .g.arc { box-shadow: inset 0 -4px 0 var(--split); }
+.printed.tiles .g.arc { box-shadow: var(--shadow), inset 0 -5px 0 var(--split); }
+.printed .g.suffix { color: var(--suffix); }
+.printed.tiles .g.suffix { background: #f1ebfa; }
+.printed .plus { font: 600 .5em var(--ui); color: var(--suffix); align-self: center; margin: 0 2px; }
+.printed .syldot, .printed .sylmid { color: var(--sylline); font-weight: 400; }
+.printed .sylmid { font-style: normal; }
+.printed.long { font-size: var(--fs, 3rem); flex-wrap: nowrap; }
+.printed.long.tiles .g { min-width: 0; padding: 4px 3px 8px; margin: 0 1px; }
+.printed .g.prefix { color: #2f6f8f; }
+.printed .g.vowel { background: #fff1c2; border-radius: 8px; }
+.printed .g.peeled { opacity: .35; }
+.printed .g.want, .chunk.want { cursor: pointer; }
+.printed .g.nope { animation: nope .3s; } @keyframes nope { 25% { transform: translateX(-4px); } 75% { transform: translateX(4px); } }
+.unitcard { font: 600 6rem/1 var(--read); min-width: 210px; padding: 18px 26px 26px; width: auto; height: auto; }
+.unitcard .gap { color: var(--muted); font-weight: 400; margin: 0 4px; }
+.unitcard .sfx { color: var(--suffix); }
+.unitgrid { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 12px 0; }
+.unitgrid .lettercard { font-size: 2.4rem; width: auto; min-width: 84px; height: 84px; padding: 0 12px 10px; margin: 0; }
+.unitlabel { font-weight: 650; color: var(--accent); }
+.rulecard { background: var(--card); border-radius: 18px; padding: 16px 18px; box-shadow: var(--shadow); max-width: 400px; font-size: 1.05rem; }
+.rulecard h3 { margin: 0 0 6px; }
+.examples { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 10px 0; }
+.examples .ex { font: 600 1.7rem var(--read); border: 0; background: var(--card); box-shadow: var(--shadow); border-radius: 14px; padding: 6px 14px 10px; }
+.chunks { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 12px 0; }
+.chunk { font: 600 2.2rem var(--read); border: 0; background: var(--card); box-shadow: var(--shadow); border-radius: 14px; padding: 6px 14px 10px; }
+.chunk.done { background: #e3f0e5; }
+.steps { display: flex; gap: 6px; justify-content: center; font-size: .78rem; color: var(--muted); flex-wrap: wrap; }
+.steps span { padding: 3px 8px; border-radius: 99px; background: var(--line); } .steps span.on { background: var(--accent); color: #fff; }
+.selfrow { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 10px; }
+.comps { width: 100%; display: grid; gap: 8px; margin: 10px 0; }
+.comp { background: var(--card); border-radius: 14px; padding: 10px 12px; box-shadow: var(--shadow); display: flex; justify-content: space-between; gap: 8px; }
+.comp.pass b { color: var(--good); } .comp.miss b { color: var(--bad); } .comp.offline { opacity: .75; font-size: .9rem; }

@@ -309,6 +309,7 @@ def passage(title, body, track=None):
     qs += [{"q": clean(x), "a": None} for x in numbered(body) if "?" in x and not any(clean(x) == q["q"] for q in qs)]
     t = clean(re.sub(r"^(Track [AB](?: script)?\s*[—–-]\s*|The [Tt]ext:\s*)", "", title))
     t = re.sub(r"\s*\(for an? [^)]*\)?$", "", t)
+    t = re.sub(r"^\d+\.\s*", "", t); t = t[:1].upper() + t[1:]
     return {"track": track, "title": t, "paragraphs": text, "phrased": phrased, "script": script,
             "questions": [q for q in qs if q["q"]][:8], "_roles": parse_roles("\n\n".join(roles)) if roles else []}
 
@@ -367,6 +368,7 @@ def parse_check(body):
     ch = re.search(r"\*\*Challenge:\*\*\s*(.*?)(?=\n\*\*|\n\s*\n|\Z)", body, re.S)
     if not items:
         items = [{"q": p, "kind": "self", "a": None} for p in plain_paragraphs(body)[:2]]
+    for i in items: i["q"] = i["q"][:1].upper() + i["q"][1:]
     return {"items": [i for i in items if i["q"]][:10], "bar": clean((bar.group(1) or bar.group(2))) if bar else None,
             "support": clean(sup.group(1)) if sup else None, "challenge": clean(ch.group(1)) if ch else None}
 
@@ -400,7 +402,7 @@ def parse_session(path):
             moves.append({"title": clean(re.sub(r"\(\d+ min\)", "", title.split(":", 1)[-1])).strip(), "paragraphs": plain_paragraphs(body)[:3]})
         elif "discussion" in tl and "knowledge" not in tl:
             discuss += parse_roles(body)
-        elif "write" in tl and ("read" in tl or "capstone" in tl):
+        elif re.search(r"writ(e|ing)", tl) and ("read" in tl or "capstone" in tl):
             S.setdefault("write", parse_write(body))
         elif re.match(r"(\d\.\s*)?(check|level \d mastery check)", tl) or tl.startswith("check") or ("check" in tl and "mastery" in tl):
             S["check"] = parse_check(body)

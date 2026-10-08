@@ -15,13 +15,35 @@
    "thin",
    "thud",
    "thick",
+   "moth",
+   "math",
+   "bath",
+   "path",
+   "this",
+   "that",
+   "then",
+   "them",
+   "with",
+   "than",
+   "myth",
+   "use",
+   "thump"
+  ],
+  "pseudo": [
    "thab",
    "mith",
    "thosh",
    "vith",
    "thon"
+  ]
+ },
+ "spell": {
+  "words": [
+   "bath",
+   "this",
+   "path"
   ],
-  "pseudo": []
+  "sentence": "This bath is not on that path."
  },
  "heart": [
   {

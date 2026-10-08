@@ -15,6 +15,8 @@ import { listen } from './screens/listen.js';
 import { check } from './screens/check.js';
 import { warmLetter } from './screens/warm.js';
 import { gate } from './gate.js';
+import { L1_STEPS } from './screens/l1steps.js';
+import { LEVEL_STEPS } from './screens/levelsteps.js';
 
 export const MINI_BAR = 0.8;   // course mini checks are 4/5 and 7/8
 
@@ -103,13 +105,16 @@ export async function runSitting(app, profile, key) {
       for (const w of words) await spellWord(ctx, w, ctx.known());
     } else if (st === 'tricky') {
       for (const hw of lesson.heart || []) if (entry(hw.word)) await tricky(ctx, hw.word);
+    } else if ((lesson.level || 1) > 1 && LEVEL_STEPS[st]) {   // Levels 2-4 screens (teach, rule, attack, check, mastery)
+      const r = await LEVEL_STEPS[st](ctx); if (r?.result) checkResult = r;
     } else if (st === 'read') await read(ctx);
     else if (st === 'listen') await listen(ctx);
     else if (st === 'check') checkResult = await check(ctx);
+    else if (L1_STEPS[st]) checkResult = (await L1_STEPS[st](ctx)) || checkResult;
   }
   // mini check = first attempts on everything judged in this sitting
   const judged = results.length, correct = results.filter(r => r.correct).length;
-  const passed = checkResult ? checkResult.result !== 'unfinished' : (judged === 0 || correct / judged >= MINI_BAR);
+  const passed = checkResult ? (checkResult.mastery ? checkResult.result === 'checked' : checkResult.result !== 'unfinished') : (judged === 0 || correct / judged >= MINI_BAR);
   const today = new Date().toISOString().slice(0, 10);
   prog.days = [...new Set([...(prog.days || []), today])];
   prog.sittingCount = (prog.sittingCount || 0) + 1;

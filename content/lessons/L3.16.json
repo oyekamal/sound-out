@@ -30,7 +30,8 @@
    "post",
    "host",
    "wind",
-   "cost"
+   "cost",
+   "lost"
   ],
   "pseudo": [
    "grild",
@@ -38,6 +39,29 @@
    "snold",
    "trost",
    "flild"
+  ]
+ },
+ "spell": {
+  "words": [
+   "cold",
+   "find",
+   "most"
+  ],
+  "sentence": "I am cold, so I will find my coat."
+ },
+ "listen": {
+  "title": null,
+  "passage": "When a whole industry changes quickly, many workers must adapt by learning a new skill, which can feel daunting at first but often opens up options a person had not considered before.",
+  "tier2": [
+   {
+    "word": "daunting",
+    "def": "something that feels big and a bit scary to start.",
+    "full": "something that feels big and a bit scary to start."
+   }
+  ],
+  "questions": [
+   "Why might learning a new skill feel daunting?",
+   "What's something daunting you're proud you tried?"
   ]
  },
  "check": {
@@ -78,8 +102,10 @@
  "blocksFound": [
   "blendList",
   "read",
+  "listen",
   "check",
-  "trackB"
+  "trackB",
+  "tier2"
  ],
  "appSittings": null
 }

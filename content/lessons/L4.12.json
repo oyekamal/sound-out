@@ -30,9 +30,60 @@
    "silent",
    "pilot",
    "focus",
-   "cabin"
+   "human",
+   "even",
+   "item",
+   "cabin",
+   "river",
+   "seven",
+   "shiver",
+   "wagon",
+   "closet",
+   "planet",
+   "punish",
+   "finish",
+   "visit",
+   "credit",
+   "rainbow",
+   "sunset",
+   "handspring",
+   "instruct",
+   "complain",
+   "diet",
+   "poem"
   ],
-  "pseudo": []
+  "pseudo": [
+   "naptin",
+   "tazil",
+   "gorlin",
+   "plemat",
+   "thindstruck",
+   "zoem"
+  ]
+ },
+ "spell": {
+  "words": [
+   "rabbit",
+   "spider",
+   "seven",
+   "diet"
+  ],
+  "sentence": "The spider hid in the small basket."
+ },
+ "listen": {
+  "title": null,
+  "passage": "Some people believe small signs from nature — a bird building a nest, a certain season's first rain — carry meaning. Scientists call this kind of belief folklore: traditional stories and beliefs passed down between people, not proven by evidence but often carrying real wisdom about nature.",
+  "tier2": [
+   {
+    "word": "folklore",
+    "def": "traditional stories, beliefs, and sayings passed down through a community, often about nature or luck.",
+    "full": "traditional stories, beliefs, and sayings passed down through a community, often about nature or luck."
+   }
+  ],
+  "questions": [
+   "Why might people keep believing folklore even without scientific proof?",
+   "Is that a bad thing?"
+  ]
  },
  "check": {
   "real": [
@@ -57,24 +108,6 @@
   },
   "firstAttemptOnly": true
  },
- "heart": [
-  {
-   "word": "money",
-   "note": null
-  },
-  {
-   "word": "becomes",
-   "note": null
-  },
-  {
-   "word": "decodable",
-   "note": null
-  },
-  {
-   "word": "with",
-   "note": null
-  }
- ],
  "read": {
   "A": {
    "text": "Layla found a small spider in her picnic basket. \"Don't be scared,\" her mother said, \"it's just a garden spider — it won't hurt you.\" Layla watched the spider a moment, then gently tipped the basket so it could climb onto a napkin and off into the garden. \"That spider has seven legs left — maybe it lost one,\" Layla noticed. Her mother explained that spiders often have eight legs, but this one must have had an accident. At the picnic, Layla ate a muffin and told everyone about the seven-legged spider. \"People at school won't believe this,\" she laughed, already planning how she'd tell the story tomorrow.",
@@ -87,10 +120,11 @@
  },
  "blocksFound": [
   "blendList",
-  "heart",
   "read",
+  "listen",
   "check",
-  "trackB"
+  "trackB",
+  "tier2"
  ],
  "appSittings": null
 }

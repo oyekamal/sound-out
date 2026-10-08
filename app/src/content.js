@@ -4,6 +4,7 @@ import options from '../../content/options.json';
 import gpc from '../../content/gpc.json';
 import ui from '../../content/ui_lines.json';
 import audioIndex from '../../content/audio_index.json';
+import L101 from '../../content/lessons/L1.01.json';
 import L102 from '../../content/lessons/L1.02.json';
 import L103 from '../../content/lessons/L1.03.json';
 import L104 from '../../content/lessons/L1.04.json';
@@ -15,15 +16,24 @@ import L109 from '../../content/lessons/L1.09.json';
 import L110 from '../../content/lessons/L1.10.json';
 import L111 from '../../content/lessons/L1.11.json';
 import L112 from '../../content/lessons/L1.12.json';
+import L113 from '../../content/lessons/L1.13.json';
+import L114 from '../../content/lessons/L1.14.json';
 import { fillL1 } from './level1.js';
 
 // Level 1: every lesson is playable (single-sitting lessons get their sittings from level1.js).
-export const LESSONS = [L102, L103, L104, L105, L106, L107, L108, L109, L110, L111, L112].map(fillL1);
+export const LESSONS = [L101, L102, L103, L104, L105, L106, L107, L108, L109, L110, L111, L112, L113, L114].map(fillL1);
 export const lessonById = id => LESSONS.find(l => l.id === id);
 export { lexicon, options, gpc, ui, audioIndex };
+// Levels 2-4 (tools/build_levels.py + gen_options.py --level N): lessons, lexicon, tap-gate options and new grapheme
+// sounds join the Level 1 data; Level 1 entries win, except a Level 2-4 heart word (it needs its heart part).
+import { LEVEL_LESSONS, LEVEL_LEX, LEVEL_OPTIONS, LEVEL_G2P } from './levels.js';
+for (const [k, e] of Object.entries(LEVEL_LEX)) if (!lexicon[k] || (e.kind === 'heart' && lexicon[k].kind !== 'heart')) lexicon[k] = e;
+for (const [k, o] of Object.entries(LEVEL_OPTIONS)) if (!options[k]) options[k] = o;
+LESSONS.push(...LEVEL_LESSONS);
 
 export const entry = w => lexicon[w] || lexicon[w.toLowerCase()];
 export const g2p = Object.fromEntries(gpc.order.map(o => [o.g, o.p]));
+for (const [g, p] of Object.entries(LEVEL_G2P)) if (!(g in g2p)) g2p[g] = p;
 export const isHeart = w => entry(w)?.kind === 'heart';
 
 // Sittings for a track. Track A follows the course one sound per sitting; Track B merges the teaching sittings.

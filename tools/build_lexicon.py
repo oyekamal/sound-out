@@ -319,7 +319,8 @@ LEARNER = [("read.A.text", "text"), ("read.B.text", "text"), ("read.questions", 
            ("listen.questions", "text"), ("blendList.real", "real"), ("blendList.pseudo", "pseudo"), ("check.real", "real"),
            ("check.pseudo", "pseudo"), ("check.dictation", "text"), ("heart.word", "real"), ("sittings.heart.word", "real"),
            ("sittings.warm.words", "real"), ("sittings.blend.real", "real"), ("sittings.blend.pseudo", "pseudo"),
-           ("sittings.spell.words", "real"), ("sittings.spell.sentence", "text"), ("check.freeResponse", "text")]
+           ("sittings.spell.words", "real"), ("sittings.spell.sentence", "text"), ("check.freeResponse", "text"),
+           ("spell.words", "real"), ("spell.sentence", "text"), ("check.attack", "real")]   # Levels 2-4 lesson-level spell + L4.15 attack words
 
 
 def get(o, path):
@@ -354,8 +355,9 @@ def harvest():
         for k, v in L.items():
             if k in ("id", "source", "contentVersion", "blocksFound"): continue
             for st in walk(v): ALLW[lv].update(t.lower() for t in WORD.findall(st))
-        for path, kind in LEARNER:
-            for s in get(L, path):
+        comps = [(f"check.components.{c['id']}", "pseudo" if c["kind"] == "pseudo" else "real", c["items"]) for c in (L.get("check") or {}).get("components", [])]
+        for path, kind, strs in [(p_, k_, list(get(L, p_))) for p_, k_ in LEARNER] + comps:   # + level mastery-check components
+            for s in strs:
                 if not isinstance(s, str): continue
                 for tok in WORD.findall(s):
                     key = tok if tok == "I" else tok.lower()

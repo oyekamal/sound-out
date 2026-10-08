@@ -30,7 +30,11 @@
    "flow",
    "low",
    "own",
-   "know"
+   "know",
+   "toe",
+   "hoe",
+   "foe",
+   "doe"
   ],
   "pseudo": [
    "proat",
@@ -38,6 +42,29 @@
    "droe",
    "hoat",
    "sloat"
+  ]
+ },
+ "spell": {
+  "words": [
+   "boat",
+   "snow",
+   "toe"
+  ],
+  "sentence": "We row the boat in the snow."
+ },
+ "listen": {
+  "title": null,
+  "passage": "Traffic engineers study patterns in road congestion to figure out which streets need a second lane or a new signal. A small change, like a longer green light, can noticeably ease a slow commute for thousands of people.",
+  "tier2": [
+   {
+    "word": "noticeably",
+    "def": "in a way you can clearly see or notice.",
+    "full": "in a way you can clearly see or notice."
+   }
+  ],
+  "questions": [
+   "How can one small change ease traffic for many people?",
+   "What's something that changed noticeably for you recently?"
   ]
  },
  "check": {
@@ -65,12 +92,6 @@
   },
   "firstAttemptOnly": true
  },
- "heart": [
-  {
-   "word": "walk",
-   "note": null
-  }
- ],
  "read": {
   "A": {
    "text": "Sam and his dad walk to the pond with a fine boat. / When snow starts, the pond starts to glow white. / Because it is chilly, Sam puts on his coat and gets a snack of toast. / \"Let's float the boat and see if it can go,\" said Dad. / The boat does float, and Sam claps and laughs. / They walk home, glad they came to play.",
@@ -83,10 +104,11 @@
  },
  "blocksFound": [
   "blendList",
-  "heart",
   "read",
+  "listen",
   "check",
-  "trackB"
+  "trackB",
+  "tier2"
  ],
  "appSittings": null
 }

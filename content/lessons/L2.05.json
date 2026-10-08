@@ -23,13 +23,25 @@
    "pink",
    "bank",
    "tank",
+   "honk",
+   "junk",
+   "chunk"
+  ],
+  "pseudo": [
    "zang",
    "hink",
    "sonk",
    "zung",
    "yonk"
+  ]
+ },
+ "spell": {
+  "words": [
+   "king",
+   "sink",
+   "bank"
   ],
-  "pseudo": []
+  "sentence": "The king put his cash in the bank."
  },
  "heart": [
   {

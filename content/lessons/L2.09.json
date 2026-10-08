@@ -19,13 +19,28 @@
    "catches",
    "fixes",
    "crashes",
+   "benches",
+   "cats",
+   "dogs",
+   "hands",
+   "jumps",
+   "drinks",
+   "thinks"
+  ],
+  "pseudo": [
    "florbes",
    "vozzes",
    "crings",
    "shalps",
    "twenns"
+  ]
+ },
+ "spell": {
+  "words": [
+   "words",
+   "sentence"
   ],
-  "pseudo": []
+  "sentence": "Sam fixes the buses and checks the boxes."
  },
  "heart": [
   {

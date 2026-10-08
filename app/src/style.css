@@ -130,3 +130,13 @@ canvas.trace { width: min(300px, 80vw); aspect-ratio: 1; background: var(--card)
 .score { font-weight: 600; } .foot-note { text-align: center; margin-top: 24px; }
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
 .options > .opt:last-child:nth-child(odd) { grid-column: 1 / -1; }  /* early check: 3 options */
+
+/* Level 1 extras (screens/l1*.js) */
+.pics.one { grid-template-columns: 1fr; max-width: 220px; margin: 0 auto; }
+.dots.big i { width: 28px; height: 28px; }
+.l1-opts .opt .dots { margin: 4px 0; }
+.l1-opts .tilebtn.as-label { display: grid; place-items: center; box-shadow: none; }
+.l1-opts.two { grid-template-columns: 1fr 1fr; }
+.sentence { font: 600 2rem/1.4 var(--read); text-align: center; margin: 18px 0; } .sentence .target { background: var(--hl); border-radius: 8px; padding: 0 4px; }
+table.mastery { border-collapse: collapse; width: 100%; max-width: 380px; margin: 10px auto; } table.mastery td, table.mastery th { padding: 6px 8px; border-bottom: 1px solid var(--line); text-align: left; }
+table.mastery tr.unmet td { color: var(--bad); }

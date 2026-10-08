@@ -30,9 +30,39 @@
    "rough",
    "tough",
    "enough",
-   "cough"
+   "cough",
+   "though",
+   "through"
   ],
-  "pseudo": []
+  "pseudo": [
+   "phin",
+   "chask",
+   "ghab",
+   "snough",
+   "phord"
+  ]
+ },
+ "spell": {
+  "words": [
+   "family",
+   "school"
+  ],
+  "sentence": "I took a photo of the old ghost story at school."
+ },
+ "listen": {
+  "title": null,
+  "passage": "A doctor or nurse who stays warm and patient with every person they see, even on an exhausting day, shows real compassion — caring about someone else's pain as if it were your own.",
+  "tier2": [
+   {
+    "word": "compassion",
+    "def": "caring deeply about someone else's suffering and wanting to help.",
+    "full": "caring deeply about someone else's suffering and wanting to help."
+   }
+  ],
+  "questions": [
+   "Why might it be hard to stay compassionate on a tough, tiring day?",
+   "What helps people keep going anyway?"
+  ]
  },
  "check": {
   "real": [
@@ -72,8 +102,10 @@
  "blocksFound": [
   "blendList",
   "read",
+  "listen",
   "check",
-  "trackB"
+  "trackB",
+  "tier2"
  ],
  "appSittings": null
 }

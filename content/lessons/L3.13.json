@@ -24,12 +24,7 @@
    "pie",
    "tie",
    "lie",
-   "die",
-   "stight",
-   "prigh",
-   "nie",
-   "plie",
-   "nighm"
+   "die"
   ],
   "pseudo": [
    "stight",
@@ -37,6 +32,29 @@
    "nie",
    "plie",
    "nighm"
+  ]
+ },
+ "spell": {
+  "words": [
+   "night",
+   "light",
+   "pie"
+  ],
+  "sentence": "The light is bright at night."
+ },
+ "listen": {
+  "title": null,
+  "passage": "Talking through a big decision with someone you trust often reveals a perspective you had not considered on your own. A friend can point out a risk or an option you were too close to the problem to notice.",
+  "tier2": [
+   {
+    "word": "perspective",
+    "def": "a way of looking at or thinking about something.",
+    "full": "a way of looking at or thinking about something."
+   }
+  ],
+  "questions": [
+   "Why can a friend see something you can't see about your own choice?",
+   "Who gives you a helpful perspective when you're deciding something?"
   ]
  },
  "check": {
@@ -64,12 +82,6 @@
   },
   "firstAttemptOnly": true
  },
- "heart": [
-  {
-   "word": "talk",
-   "note": null
-  }
- ],
  "read": {
   "A": {
    "text": "At night, Sam and his mom talk and gaze up at the sky. / Because the sky is bright, it glows white and high. / \"Let's stay up a bit,\" said Mom. / They eat a slice of pie and talk of the sky. / Sam feels glad for this quiet, bright night with his mom.",
@@ -82,10 +94,11 @@
  },
  "blocksFound": [
   "blendList",
-  "heart",
   "read",
+  "listen",
   "check",
-  "trackB"
+  "trackB",
+  "tier2"
  ],
  "appSittings": null
 }

@@ -1,0 +1,12676 @@
+{
+ "any": {
+  "target": {
+   "w": "any",
+   "p": [
+    "eh",
+    "n",
+    "iy"
+   ],
+   "ipa": "ˈɛni",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "edgy",
+    "p": [
+     "eh",
+     "jh",
+     "iy"
+    ],
+    "ipa": "ˈɛʤi",
+    "cell": "chain"
+   },
+   {
+    "w": "airy",
+    "p": [
+     "eh",
+     "r",
+     "iy"
+    ],
+    "ipa": "ˈɛɹi",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.14",
+  "axes": [],
+  "early": true,
+  "stress": 0
+ },
+ "bank": {
+  "target": {
+   "w": "bank",
+   "p": [
+    "b",
+    "ae",
+    "ng",
+    "k"
+   ],
+   "ipa": "bˈæŋk",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "sank",
+    "p": [
+     "s",
+     "ae",
+     "ng",
+     "k"
+    ],
+    "ipa": "sˈæŋk",
+    "cell": "onset"
+   },
+   {
+    "w": "bunk",
+    "p": [
+     "b",
+     "ah",
+     "ng",
+     "k"
+    ],
+    "ipa": "bˈʌŋk",
+    "cell": "vowel"
+   },
+   {
+    "w": "sunk",
+    "p": [
+     "s",
+     "ah",
+     "ng",
+     "k"
+    ],
+    "ipa": "sˈʌŋk",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.05",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "bath": {
+  "target": {
+   "w": "bath",
+   "p": [
+    "b",
+    "ae",
+    "th"
+   ],
+   "ipa": "bˈæθ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "path",
+    "p": [
+     "p",
+     "ae",
+     "th"
+    ],
+    "ipa": "pˈæθ",
+    "cell": "onset"
+   },
+   {
+    "w": "back",
+    "p": [
+     "b",
+     "ae",
+     "k"
+    ],
+    "ipa": "bˈæk",
+    "cell": "final"
+   },
+   {
+    "w": "pack",
+    "p": [
+     "p",
+     "ae",
+     "k"
+    ],
+    "ipa": "pˈæk",
+    "cell": "onset+final"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 onset+final",
+  "lesson": "L2.03",
+  "axes": [
+   "onset",
+   "final"
+  ],
+  "pos": {
+   "onset": 0,
+   "final": 2
+  },
+  "stress": 1
+ },
+ "belt": {
+  "target": {
+   "w": "belt",
+   "p": [
+    "b",
+    "eh",
+    "l",
+    "t"
+   ],
+   "ipa": "bˈɛlt",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "dealt",
+    "p": [
+     "d",
+     "eh",
+     "l",
+     "t"
+    ],
+    "ipa": "dˈɛlt",
+    "cell": "chain"
+   },
+   {
+    "w": "felt",
+    "p": [
+     "f",
+     "eh",
+     "l",
+     "t"
+    ],
+    "ipa": "fˈɛlt",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.07",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "black": {
+  "target": {
+   "w": "black",
+   "p": [
+    "b",
+    "l",
+    "ae",
+    "k"
+   ],
+   "ipa": "blˈæk",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "flak",
+    "p": [
+     "f",
+     "l",
+     "ae",
+     "k"
+    ],
+    "ipa": "flˈæk",
+    "cell": "chain"
+   },
+   {
+    "w": "flick",
+    "p": [
+     "f",
+     "l",
+     "ih",
+     "k"
+    ],
+    "ipa": "flˈɪk",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.06",
+  "axes": [],
+  "early": true,
+  "stress": 2
+ },
+ "blen": {
+  "target": {
+   "w": "blen",
+   "p": [
+    "b",
+    "l",
+    "eh",
+    "n"
+   ],
+   "ipa": "blˈɛn",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "clen",
+    "p": [
+     "k",
+     "l",
+     "eh",
+     "n"
+    ],
+    "ipa": "klˈɛn",
+    "cell": "chain"
+   },
+   {
+    "w": "cren",
+    "p": [
+     "k",
+     "r",
+     "eh",
+     "n"
+    ],
+    "ipa": "kɹˈɛn",
+    "cell": "chain"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "early chain",
+  "lesson": "L2.06",
+  "axes": [],
+  "early": true,
+  "stress": 2
+ },
+ "brammed": {
+  "target": {
+   "w": "brammed",
+   "p": [
+    "b",
+    "r",
+    "ae",
+    "m",
+    "d"
+   ],
+   "ipa": "bɹˈæmd",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "blamd",
+    "p": [
+     "b",
+     "l",
+     "ae",
+     "m",
+     "d"
+    ],
+    "ipa": "blˈæmd",
+    "cell": "onset"
+   },
+   {
+    "w": "bromd",
+    "p": [
+     "b",
+     "r",
+     "aa",
+     "m",
+     "d"
+    ],
+    "ipa": "bɹˈɑmd",
+    "cell": "vowel"
+   },
+   {
+    "w": "blomd",
+    "p": [
+     "b",
+     "l",
+     "aa",
+     "m",
+     "d"
+    ],
+    "ipa": "blˈɑmd",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.10",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 1,
+   "vowel": 2
+  },
+  "stress": 2
+ },
+ "brostup": {
+  "target": {
+   "w": "brostup",
+   "p": [
+    "b",
+    "r",
+    "aa",
+    "s",
+    "t",
+    "ah",
+    "p"
+   ],
+   "ipa": "bɹˈɑstʌp",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "blostup",
+    "p": [
+     "b",
+     "l",
+     "aa",
+     "s",
+     "t",
+     "ah",
+     "p"
+    ],
+    "ipa": "blˈɑstʌp",
+    "cell": "onset"
+   },
+   {
+    "w": "brastup",
+    "p": [
+     "b",
+     "r",
+     "ae",
+     "s",
+     "t",
+     "ah",
+     "p"
+    ],
+    "ipa": "bɹˈæstʌp",
+    "cell": "vowel"
+   },
+   {
+    "w": "blastup",
+    "p": [
+     "b",
+     "l",
+     "ae",
+     "s",
+     "t",
+     "ah",
+     "p"
+    ],
+    "ipa": "blˈæstʌp",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.12",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 1,
+   "vowel": 2
+  },
+  "stress": 2
+ },
+ "brushes": {
+  "target": {
+   "w": "brushes",
+   "p": [
+    "b",
+    "r",
+    "ah",
+    "sh",
+    "ih",
+    "z"
+   ],
+   "ipa": "bɹˈʌʃɪz",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "brushing",
+    "p": [
+     "b",
+     "r",
+     "ah",
+     "sh",
+     "ih",
+     "ng"
+    ],
+    "ipa": "bɹˈʌʃɪŋ",
+    "cell": "chain"
+   },
+   {
+    "w": "blushing",
+    "p": [
+     "b",
+     "l",
+     "ah",
+     "sh",
+     "ih",
+     "ng"
+    ],
+    "ipa": "blˈʌʃɪŋ",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.09",
+  "axes": [],
+  "early": true,
+  "stress": 2
+ },
+ "camp": {
+  "target": {
+   "w": "camp",
+   "p": [
+    "k",
+    "ae",
+    "m",
+    "p"
+   ],
+   "ipa": "kˈæmp",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "damp",
+    "p": [
+     "d",
+     "ae",
+     "m",
+     "p"
+    ],
+    "ipa": "dˈæmp",
+    "cell": "onset"
+   },
+   {
+    "w": "cams",
+    "p": [
+     "k",
+     "ae",
+     "m",
+     "z"
+    ],
+    "ipa": "kˈæmz",
+    "cell": "final"
+   },
+   {
+    "w": "dams",
+    "p": [
+     "d",
+     "ae",
+     "m",
+     "z"
+    ],
+    "ipa": "dˈæmz",
+    "cell": "onset+final"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 onset+final",
+  "lesson": "L2.07",
+  "axes": [
+   "onset",
+   "final"
+  ],
+  "pos": {
+   "onset": 0,
+   "final": 3
+  },
+  "stress": 1
+ },
+ "camped": {
+  "target": {
+   "w": "camped",
+   "p": [
+    "k",
+    "ae",
+    "m",
+    "p",
+    "t"
+   ],
+   "ipa": "kˈæmpt",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "camps",
+    "p": [
+     "k",
+     "ae",
+     "m",
+     "p",
+     "s"
+    ],
+    "ipa": "kˈæmps",
+    "cell": "chain"
+   },
+   {
+    "w": "lamps",
+    "p": [
+     "l",
+     "ae",
+     "m",
+     "p",
+     "s"
+    ],
+    "ipa": "lˈæmps",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.10",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "cash": {
+  "target": {
+   "w": "cash",
+   "p": [
+    "k",
+    "ae",
+    "sh"
+   ],
+   "ipa": "kˈæʃ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "dash",
+    "p": [
+     "d",
+     "ae",
+     "sh"
+    ],
+    "ipa": "dˈæʃ",
+    "cell": "onset"
+   },
+   {
+    "w": "cat",
+    "p": [
+     "k",
+     "ae",
+     "t"
+    ],
+    "ipa": "kˈæt",
+    "cell": "final"
+   },
+   {
+    "w": "dat",
+    "p": [
+     "d",
+     "ae",
+     "t"
+    ],
+    "ipa": "dˈæt",
+    "cell": "onset+final"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 onset+final",
+  "lesson": "L2.01",
+  "axes": [
+   "onset",
+   "final"
+  ],
+  "pos": {
+   "onset": 0,
+   "final": 2
+  },
+  "stress": 1
+ },
+ "catch": {
+  "target": {
+   "w": "catch",
+   "p": [
+    "k",
+    "ae",
+    "ch"
+   ],
+   "ipa": "kˈæʧ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "patch",
+    "p": [
+     "p",
+     "ae",
+     "ch"
+    ],
+    "ipa": "pˈæʧ",
+    "cell": "onset"
+   },
+   {
+    "w": "couch",
+    "p": [
+     "k",
+     "aw",
+     "ch"
+    ],
+    "ipa": "kˈaʊʧ",
+    "cell": "vowel"
+   },
+   {
+    "w": "pouch",
+    "p": [
+     "p",
+     "aw",
+     "ch"
+    ],
+    "ipa": "pˈaʊʧ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 (wide pool)",
+  "lesson": "L2.02",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "chat": {
+  "target": {
+   "w": "chat",
+   "p": [
+    "ch",
+    "ae",
+    "t"
+   ],
+   "ipa": "ʧˈæt",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "cat",
+    "p": [
+     "k",
+     "ae",
+     "t"
+    ],
+    "ipa": "kˈæt",
+    "cell": "onset"
+   },
+   {
+    "w": "chit",
+    "p": [
+     "ch",
+     "ih",
+     "t"
+    ],
+    "ipa": "ʧˈɪt",
+    "cell": "vowel"
+   },
+   {
+    "w": "kit",
+    "p": [
+     "k",
+     "ih",
+     "t"
+    ],
+    "ipa": "kˈɪt",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.02",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "checked": {
+  "target": {
+   "w": "checked",
+   "p": [
+    "ch",
+    "eh",
+    "k",
+    "t"
+   ],
+   "ipa": "ʧˈɛkt",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "sect",
+    "p": [
+     "s",
+     "eh",
+     "k",
+     "t"
+    ],
+    "ipa": "sˈɛkt",
+    "cell": "onset"
+   },
+   {
+    "w": "choked",
+    "p": [
+     "ch",
+     "ow",
+     "k",
+     "t"
+    ],
+    "ipa": "ʧˈoʊkt",
+    "cell": "vowel"
+   },
+   {
+    "w": "soaked",
+    "p": [
+     "s",
+     "ow",
+     "k",
+     "t"
+    ],
+    "ipa": "sˈoʊkt",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 (wide pool)",
+  "lesson": "L2.10",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "checking": {
+  "target": {
+   "w": "checking",
+   "p": [
+    "ch",
+    "eh",
+    "k",
+    "ih",
+    "ng"
+   ],
+   "ipa": "ʧˈɛkɪŋ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "wrecking",
+    "p": [
+     "r",
+     "eh",
+     "k",
+     "ih",
+     "ng"
+    ],
+    "ipa": "ɹˈɛkɪŋ",
+    "cell": "chain"
+   },
+   {
+    "w": "racking",
+    "p": [
+     "r",
+     "ae",
+     "k",
+     "ih",
+     "ng"
+    ],
+    "ipa": "ɹˈækɪŋ",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.11",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "chesh": {
+  "target": {
+   "w": "chesh",
+   "p": [
+    "ch",
+    "eh",
+    "sh"
+   ],
+   "ipa": "ʧˈɛʃ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "yesh",
+    "p": [
+     "y",
+     "eh",
+     "sh"
+    ],
+    "ipa": "jˈɛʃ",
+    "cell": "onset"
+   },
+   {
+    "w": "chush",
+    "p": [
+     "ch",
+     "ah",
+     "sh"
+    ],
+    "ipa": "ʧˈʌʃ",
+    "cell": "vowel"
+   },
+   {
+    "w": "yush",
+    "p": [
+     "y",
+     "ah",
+     "sh"
+    ],
+    "ipa": "jˈʌʃ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.04",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "chess": {
+  "target": {
+   "w": "chess",
+   "p": [
+    "ch",
+    "eh",
+    "s"
+   ],
+   "ipa": "ʧˈɛs",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "less",
+    "p": [
+     "l",
+     "eh",
+     "s"
+    ],
+    "ipa": "lˈɛs",
+    "cell": "onset"
+   },
+   {
+    "w": "chase",
+    "p": [
+     "ch",
+     "ey",
+     "s"
+    ],
+    "ipa": "ʧˈeɪs",
+    "cell": "vowel"
+   },
+   {
+    "w": "lace",
+    "p": [
+     "l",
+     "ey",
+     "s"
+    ],
+    "ipa": "lˈeɪs",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 (wide pool)",
+  "lesson": "L2.02",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "chib": {
+  "target": {
+   "w": "chib",
+   "p": [
+    "ch",
+    "ih",
+    "b"
+   ],
+   "ipa": "ʧˈɪb",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "yib",
+    "p": [
+     "y",
+     "ih",
+     "b"
+    ],
+    "ipa": "jˈɪb",
+    "cell": "onset"
+   },
+   {
+    "w": "cheb",
+    "p": [
+     "ch",
+     "eh",
+     "b"
+    ],
+    "ipa": "ʧˈɛb",
+    "cell": "vowel"
+   },
+   {
+    "w": "yeb",
+    "p": [
+     "y",
+     "eh",
+     "b"
+    ],
+    "ipa": "jˈɛb",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.14",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "chin": {
+  "target": {
+   "w": "chin",
+   "p": [
+    "ch",
+    "ih",
+    "n"
+   ],
+   "ipa": "ʧˈɪn",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "pin",
+    "p": [
+     "p",
+     "ih",
+     "n"
+    ],
+    "ipa": "pˈɪn",
+    "cell": "onset"
+   },
+   {
+    "w": "chain",
+    "p": [
+     "ch",
+     "ey",
+     "n"
+    ],
+    "ipa": "ʧˈeɪn",
+    "cell": "vowel"
+   },
+   {
+    "w": "pain",
+    "p": [
+     "p",
+     "ey",
+     "n"
+    ],
+    "ipa": "pˈeɪn",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 (wide pool)",
+  "lesson": "L2.02",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "chip": {
+  "target": {
+   "w": "chip",
+   "p": [
+    "ch",
+    "ih",
+    "p"
+   ],
+   "ipa": "ʧˈɪp",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "ship",
+    "p": [
+     "sh",
+     "ih",
+     "p"
+    ],
+    "ipa": "ʃˈɪp",
+    "cell": "onset"
+   },
+   {
+    "w": "chop",
+    "p": [
+     "ch",
+     "aa",
+     "p"
+    ],
+    "ipa": "ʧˈɑp",
+    "cell": "vowel"
+   },
+   {
+    "w": "shop",
+    "p": [
+     "sh",
+     "aa",
+     "p"
+    ],
+    "ipa": "ʃˈɑp",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.02",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "chiss": {
+  "target": {
+   "w": "chiss",
+   "p": [
+    "ch",
+    "ih",
+    "s"
+   ],
+   "ipa": "ʧˈɪs",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "zis",
+    "p": [
+     "z",
+     "ih",
+     "s"
+    ],
+    "ipa": "zˈɪs",
+    "cell": "onset"
+   },
+   {
+    "w": "chos",
+    "p": [
+     "ch",
+     "aa",
+     "s"
+    ],
+    "ipa": "ʧˈɑs",
+    "cell": "vowel"
+   },
+   {
+    "w": "zos",
+    "p": [
+     "z",
+     "aa",
+     "s"
+    ],
+    "ipa": "zˈɑs",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.02",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "chob": {
+  "target": {
+   "w": "chob",
+   "p": [
+    "ch",
+    "aa",
+    "b"
+   ],
+   "ipa": "ʧˈɑb",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "pob",
+    "p": [
+     "p",
+     "aa",
+     "b"
+    ],
+    "ipa": "pˈɑb",
+    "cell": "onset"
+   },
+   {
+    "w": "chab",
+    "p": [
+     "ch",
+     "ae",
+     "b"
+    ],
+    "ipa": "ʧˈæb",
+    "cell": "vowel"
+   },
+   {
+    "w": "pab",
+    "p": [
+     "p",
+     "ae",
+     "b"
+    ],
+    "ipa": "pˈæb",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.02",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "chop": {
+  "target": {
+   "w": "chop",
+   "p": [
+    "ch",
+    "aa",
+    "p"
+   ],
+   "ipa": "ʧˈɑp",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "sop",
+    "p": [
+     "s",
+     "aa",
+     "p"
+    ],
+    "ipa": "sˈɑp",
+    "cell": "onset"
+   },
+   {
+    "w": "chip",
+    "p": [
+     "ch",
+     "ih",
+     "p"
+    ],
+    "ipa": "ʧˈɪp",
+    "cell": "vowel"
+   },
+   {
+    "w": "sip",
+    "p": [
+     "s",
+     "ih",
+     "p"
+    ],
+    "ipa": "sˈɪp",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.02",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "chosted": {
+  "target": {
+   "w": "chosted",
+   "p": [
+    "ch",
+    "aa",
+    "s",
+    "t",
+    "ih",
+    "d"
+   ],
+   "ipa": "ʧˈɑstɪd",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "zostid",
+    "p": [
+     "z",
+     "aa",
+     "s",
+     "t",
+     "ih",
+     "d"
+    ],
+    "ipa": "zˈɑstɪd",
+    "cell": "onset"
+   },
+   {
+    "w": "chastid",
+    "p": [
+     "ch",
+     "ae",
+     "s",
+     "t",
+     "ih",
+     "d"
+    ],
+    "ipa": "ʧˈæstɪd",
+    "cell": "vowel"
+   },
+   {
+    "w": "zastid",
+    "p": [
+     "z",
+     "ae",
+     "s",
+     "t",
+     "ih",
+     "d"
+    ],
+    "ipa": "zˈæstɪd",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.10",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "chuffer": {
+  "target": {
+   "w": "chuffer",
+   "p": [
+    "ch",
+    "ah",
+    "f",
+    "er"
+   ],
+   "ipa": "ʧˈʌfɝ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "gufer",
+    "p": [
+     "g",
+     "ah",
+     "f",
+     "er"
+    ],
+    "ipa": "ɡˈʌfɝ",
+    "cell": "onset"
+   },
+   {
+    "w": "chefer",
+    "p": [
+     "ch",
+     "eh",
+     "f",
+     "er"
+    ],
+    "ipa": "ʧˈɛfɝ",
+    "cell": "vowel"
+   },
+   {
+    "w": "gefer",
+    "p": [
+     "g",
+     "eh",
+     "f",
+     "er"
+    ],
+    "ipa": "ɡˈɛfɝ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.13",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "chunnet": {
+  "target": {
+   "w": "chunnet",
+   "p": [
+    "ch",
+    "ah",
+    "n",
+    "eh",
+    "t"
+   ],
+   "ipa": "ʧˈʌnɛt",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "vunet",
+    "p": [
+     "v",
+     "ah",
+     "n",
+     "eh",
+     "t"
+    ],
+    "ipa": "vˈʌnɛt",
+    "cell": "onset"
+   },
+   {
+    "w": "chonet",
+    "p": [
+     "ch",
+     "aa",
+     "n",
+     "eh",
+     "t"
+    ],
+    "ipa": "ʧˈɑnɛt",
+    "cell": "vowel"
+   },
+   {
+    "w": "vonet",
+    "p": [
+     "v",
+     "aa",
+     "n",
+     "eh",
+     "t"
+    ],
+    "ipa": "vˈɑnɛt",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.12",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "clap": {
+  "target": {
+   "w": "clap",
+   "p": [
+    "k",
+    "l",
+    "ae",
+    "p"
+   ],
+   "ipa": "klˈæp",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "clad",
+    "p": [
+     "k",
+     "l",
+     "ae",
+     "d"
+    ],
+    "ipa": "klˈæd",
+    "cell": "chain"
+   },
+   {
+    "w": "glad",
+    "p": [
+     "g",
+     "l",
+     "ae",
+     "d"
+    ],
+    "ipa": "ɡlˈæd",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.06",
+  "axes": [],
+  "early": true,
+  "stress": 2
+ },
+ "come": {
+  "target": {
+   "w": "come",
+   "p": [
+    "k",
+    "ah",
+    "m"
+   ],
+   "ipa": "kˈʌm",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "mum",
+    "p": [
+     "m",
+     "ah",
+     "m"
+    ],
+    "ipa": "mˈʌm",
+    "cell": "onset"
+   },
+   {
+    "w": "comm",
+    "p": [
+     "k",
+     "aa",
+     "m"
+    ],
+    "ipa": "kˈɑm",
+    "cell": "vowel"
+   },
+   {
+    "w": "mom",
+    "p": [
+     "m",
+     "aa",
+     "m"
+    ],
+    "ipa": "mˈɑm",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.14",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "could": {
+  "target": {
+   "w": "could",
+   "p": [
+    "k",
+    "uh",
+    "d"
+   ],
+   "ipa": "kˈʊd",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "hood",
+    "p": [
+     "hh",
+     "uh",
+     "d"
+    ],
+    "ipa": "hˈʊd",
+    "cell": "onset"
+   },
+   {
+    "w": "cad",
+    "p": [
+     "k",
+     "ae",
+     "d"
+    ],
+    "ipa": "kˈæd",
+    "cell": "vowel"
+   },
+   {
+    "w": "had",
+    "p": [
+     "hh",
+     "ae",
+     "d"
+    ],
+    "ipa": "hˈæd",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.14",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "crashes": {
+  "target": {
+   "w": "crashes",
+   "p": [
+    "k",
+    "r",
+    "ae",
+    "sh",
+    "ih",
+    "z"
+   ],
+   "ipa": "kɹˈæʃɪz",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "crushes",
+    "p": [
+     "k",
+     "r",
+     "ah",
+     "sh",
+     "ih",
+     "z"
+    ],
+    "ipa": "kɹˈʌʃɪz",
+    "cell": "chain"
+   },
+   {
+    "w": "crushing",
+    "p": [
+     "k",
+     "r",
+     "ah",
+     "sh",
+     "ih",
+     "ng"
+    ],
+    "ipa": "kɹˈʌʃɪŋ",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.09",
+  "axes": [],
+  "early": true,
+  "stress": 2
+ },
+ "crings": {
+  "target": {
+   "w": "crings",
+   "p": [
+    "k",
+    "r",
+    "ih",
+    "ng",
+    "s"
+   ],
+   "ipa": "kɹˈɪŋs",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "kwings",
+    "p": [
+     "k",
+     "w",
+     "ih",
+     "ng",
+     "s"
+    ],
+    "ipa": "kwˈɪŋs",
+    "cell": "onset"
+   },
+   {
+    "w": "crongs",
+    "p": [
+     "k",
+     "r",
+     "aa",
+     "ng",
+     "s"
+    ],
+    "ipa": "kɹˈɑŋs",
+    "cell": "vowel"
+   },
+   {
+    "w": "kwongs",
+    "p": [
+     "k",
+     "w",
+     "aa",
+     "ng",
+     "s"
+    ],
+    "ipa": "kwˈɑŋs",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.09",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 1,
+   "vowel": 2
+  },
+  "stress": 2
+ },
+ "dansh": {
+  "target": {
+   "w": "dansh",
+   "p": [
+    "d",
+    "ae",
+    "n",
+    "sh"
+   ],
+   "ipa": "dˈænʃ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "mansh",
+    "p": [
+     "m",
+     "ae",
+     "n",
+     "sh"
+    ],
+    "ipa": "mˈænʃ",
+    "cell": "onset"
+   },
+   {
+    "w": "donsh",
+    "p": [
+     "d",
+     "aa",
+     "n",
+     "sh"
+    ],
+    "ipa": "dˈɑnʃ",
+    "cell": "vowel"
+   },
+   {
+    "w": "monsh",
+    "p": [
+     "m",
+     "aa",
+     "n",
+     "sh"
+    ],
+    "ipa": "mˈɑnʃ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.01",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "desk": {
+  "target": {
+   "w": "desk",
+   "p": [
+    "d",
+    "eh",
+    "s",
+    "k"
+   ],
+   "ipa": "dˈɛsk",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "disc",
+    "p": [
+     "d",
+     "ih",
+     "s",
+     "k"
+    ],
+    "ipa": "dˈɪsk",
+    "cell": "chain"
+   },
+   {
+    "w": "dusk",
+    "p": [
+     "d",
+     "ah",
+     "s",
+     "k"
+    ],
+    "ipa": "dˈʌsk",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.07",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "dish": {
+  "target": {
+   "w": "dish",
+   "p": [
+    "d",
+    "ih",
+    "sh"
+   ],
+   "ipa": "dˈɪʃ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "fish",
+    "p": [
+     "f",
+     "ih",
+     "sh"
+    ],
+    "ipa": "fˈɪʃ",
+    "cell": "onset"
+   },
+   {
+    "w": "din",
+    "p": [
+     "d",
+     "ih",
+     "n"
+    ],
+    "ipa": "dˈɪn",
+    "cell": "final"
+   },
+   {
+    "w": "fin",
+    "p": [
+     "f",
+     "ih",
+     "n"
+    ],
+    "ipa": "fˈɪn",
+    "cell": "onset+final"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 onset+final",
+  "lesson": "L2.01",
+  "axes": [
+   "onset",
+   "final"
+  ],
+  "pos": {
+   "onset": 0,
+   "final": 2
+  },
+  "stress": 1
+ },
+ "ditch": {
+  "target": {
+   "w": "ditch",
+   "p": [
+    "d",
+    "ih",
+    "ch"
+   ],
+   "ipa": "dˈɪʧ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "witch",
+    "p": [
+     "w",
+     "ih",
+     "ch"
+    ],
+    "ipa": "wˈɪʧ",
+    "cell": "onset"
+   },
+   {
+    "w": "din",
+    "p": [
+     "d",
+     "ih",
+     "n"
+    ],
+    "ipa": "dˈɪn",
+    "cell": "final"
+   },
+   {
+    "w": "win",
+    "p": [
+     "w",
+     "ih",
+     "n"
+    ],
+    "ipa": "wˈɪn",
+    "cell": "onset+final"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 onset+final",
+  "lesson": "L2.02",
+  "axes": [
+   "onset",
+   "final"
+  ],
+  "pos": {
+   "onset": 0,
+   "final": 2
+  },
+  "stress": 1
+ },
+ "does": {
+  "target": {
+   "w": "does",
+   "p": [
+    "d",
+    "ah",
+    "z"
+   ],
+   "ipa": "dˈʌz",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "buzz",
+    "p": [
+     "b",
+     "ah",
+     "z"
+    ],
+    "ipa": "bˈʌz",
+    "cell": "onset"
+   },
+   {
+    "w": "days",
+    "p": [
+     "d",
+     "ey",
+     "z"
+    ],
+    "ipa": "dˈeɪz",
+    "cell": "vowel"
+   },
+   {
+    "w": "bays",
+    "p": [
+     "b",
+     "ey",
+     "z"
+    ],
+    "ipa": "bˈeɪz",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 (wide pool)",
+  "lesson": "L2.14",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "dogs": {
+  "target": {
+   "w": "dogs",
+   "p": [
+    "d",
+    "aa",
+    "g",
+    "z"
+   ],
+   "ipa": "dˈɑɡz",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "dons",
+    "p": [
+     "d",
+     "aa",
+     "n",
+     "z"
+    ],
+    "ipa": "dˈɑnz",
+    "cell": "chain"
+   },
+   {
+    "w": "dolls",
+    "p": [
+     "d",
+     "aa",
+     "l",
+     "z"
+    ],
+    "ipa": "dˈɑlz",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.09",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "done": {
+  "target": {
+   "w": "done",
+   "p": [
+    "d",
+    "ah",
+    "n"
+   ],
+   "ipa": "dˈʌn",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "run",
+    "p": [
+     "r",
+     "ah",
+     "n"
+    ],
+    "ipa": "ɹˈʌn",
+    "cell": "onset"
+   },
+   {
+    "w": "dan",
+    "p": [
+     "d",
+     "ae",
+     "n"
+    ],
+    "ipa": "dˈæn",
+    "cell": "vowel"
+   },
+   {
+    "w": "ran",
+    "p": [
+     "r",
+     "ae",
+     "n"
+    ],
+    "ipa": "ɹˈæn",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.14",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "dravin": {
+  "target": {
+   "w": "dravin",
+   "p": [
+    "d",
+    "r",
+    "ae",
+    "v",
+    "ih",
+    "n"
+   ],
+   "ipa": "dɹˈævɪn",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "dwavin",
+    "p": [
+     "d",
+     "w",
+     "ae",
+     "v",
+     "ih",
+     "n"
+    ],
+    "ipa": "dwˈævɪn",
+    "cell": "onset"
+   },
+   {
+    "w": "drivin",
+    "p": [
+     "d",
+     "r",
+     "ih",
+     "v",
+     "ih",
+     "n"
+    ],
+    "ipa": "dɹˈɪvɪn",
+    "cell": "vowel"
+   },
+   {
+    "w": "dwivin",
+    "p": [
+     "d",
+     "w",
+     "ih",
+     "v",
+     "ih",
+     "n"
+    ],
+    "ipa": "dwˈɪvɪn",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.12",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 1,
+   "vowel": 2
+  },
+  "stress": 2
+ },
+ "drelling": {
+  "target": {
+   "w": "drelling",
+   "p": [
+    "d",
+    "r",
+    "eh",
+    "l",
+    "ih",
+    "ng"
+   ],
+   "ipa": "dɹˈɛlɪŋ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "drelid",
+    "p": [
+     "d",
+     "r",
+     "eh",
+     "l",
+     "ih",
+     "d"
+    ],
+    "ipa": "dɹˈɛlɪd",
+    "cell": "chain"
+   },
+   {
+    "w": "drepid",
+    "p": [
+     "d",
+     "r",
+     "eh",
+     "p",
+     "ih",
+     "d"
+    ],
+    "ipa": "dɹˈɛpɪd",
+    "cell": "chain"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "early chain",
+  "lesson": "L2.11",
+  "axes": [],
+  "early": true,
+  "stress": 2
+ },
+ "drin": {
+  "target": {
+   "w": "drin",
+   "p": [
+    "d",
+    "r",
+    "ih",
+    "n"
+   ],
+   "ipa": "dɹˈɪn",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "dwin",
+    "p": [
+     "d",
+     "w",
+     "ih",
+     "n"
+    ],
+    "ipa": "dwˈɪn",
+    "cell": "onset"
+   },
+   {
+    "w": "dron",
+    "p": [
+     "d",
+     "r",
+     "aa",
+     "n"
+    ],
+    "ipa": "dɹˈɑn",
+    "cell": "vowel"
+   },
+   {
+    "w": "dwon",
+    "p": [
+     "d",
+     "w",
+     "aa",
+     "n"
+    ],
+    "ipa": "dwˈɑn",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.06",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 1,
+   "vowel": 2
+  },
+  "stress": 2
+ },
+ "drum": {
+  "target": {
+   "w": "drum",
+   "p": [
+    "d",
+    "r",
+    "ah",
+    "m"
+   ],
+   "ipa": "dɹˈʌm",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "drug",
+    "p": [
+     "d",
+     "r",
+     "ah",
+     "g"
+    ],
+    "ipa": "dɹˈʌɡ",
+    "cell": "chain"
+   },
+   {
+    "w": "shrug",
+    "p": [
+     "sh",
+     "r",
+     "ah",
+     "g"
+    ],
+    "ipa": "ʃɹˈʌɡ",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.06",
+  "axes": [],
+  "early": true,
+  "stress": 2
+ },
+ "fand": {
+  "target": {
+   "w": "fand",
+   "p": [
+    "f",
+    "ae",
+    "n",
+    "d"
+   ],
+   "ipa": "fˈænd",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "gand",
+    "p": [
+     "g",
+     "ae",
+     "n",
+     "d"
+    ],
+    "ipa": "ɡˈænd",
+    "cell": "onset"
+   },
+   {
+    "w": "foynd",
+    "p": [
+     "f",
+     "oy",
+     "n",
+     "d"
+    ],
+    "ipa": "fˈɔɪnd",
+    "cell": "vowel"
+   },
+   {
+    "w": "goynd",
+    "p": [
+     "g",
+     "oy",
+     "n",
+     "d"
+    ],
+    "ipa": "ɡˈɔɪnd",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2 (wide pool)",
+  "lesson": "L2.07",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "fesh": {
+  "target": {
+   "w": "fesh",
+   "p": [
+    "f",
+    "eh",
+    "sh"
+   ],
+   "ipa": "fˈɛʃ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "shesh",
+    "p": [
+     "sh",
+     "eh",
+     "sh"
+    ],
+    "ipa": "ʃˈɛʃ",
+    "cell": "onset"
+   },
+   {
+    "w": "fash",
+    "p": [
+     "f",
+     "ae",
+     "sh"
+    ],
+    "ipa": "fˈæʃ",
+    "cell": "vowel"
+   },
+   {
+    "w": "shash",
+    "p": [
+     "sh",
+     "ae",
+     "sh"
+    ],
+    "ipa": "ʃˈæʃ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.01",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "fetch": {
+  "target": {
+   "w": "fetch",
+   "p": [
+    "f",
+    "eh",
+    "ch"
+   ],
+   "ipa": "fˈɛʧ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "fair",
+    "p": [
+     "f",
+     "eh",
+     "r"
+    ],
+    "ipa": "fˈɛɹ",
+    "cell": "chain"
+   },
+   {
+    "w": "rare",
+    "p": [
+     "r",
+     "eh",
+     "r"
+    ],
+    "ipa": "ɹˈɛɹ",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.02",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "filled": {
+  "target": {
+   "w": "filled",
+   "p": [
+    "f",
+    "ih",
+    "l",
+    "d"
+   ],
+   "ipa": "fˈɪld",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "build",
+    "p": [
+     "b",
+     "ih",
+     "l",
+     "d"
+    ],
+    "ipa": "bˈɪld",
+    "cell": "onset"
+   },
+   {
+    "w": "fold",
+    "p": [
+     "f",
+     "ow",
+     "l",
+     "d"
+    ],
+    "ipa": "fˈoʊld",
+    "cell": "vowel"
+   },
+   {
+    "w": "bold",
+    "p": [
+     "b",
+     "ow",
+     "l",
+     "d"
+    ],
+    "ipa": "bˈoʊld",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 (wide pool)",
+  "lesson": "L2.10",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "filling": {
+  "target": {
+   "w": "filling",
+   "p": [
+    "f",
+    "ih",
+    "l",
+    "ih",
+    "ng"
+   ],
+   "ipa": "fˈɪlɪŋ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "willing",
+    "p": [
+     "w",
+     "ih",
+     "l",
+     "ih",
+     "ng"
+    ],
+    "ipa": "wˈɪlɪŋ",
+    "cell": "onset"
+   },
+   {
+    "w": "failing",
+    "p": [
+     "f",
+     "ey",
+     "l",
+     "ih",
+     "ng"
+    ],
+    "ipa": "fˈeɪlɪŋ",
+    "cell": "vowel"
+   },
+   {
+    "w": "wailing",
+    "p": [
+     "w",
+     "ey",
+     "l",
+     "ih",
+     "ng"
+    ],
+    "ipa": "wˈeɪlɪŋ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 (wide pool)",
+  "lesson": "L2.11",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "fish": {
+  "target": {
+   "w": "fish",
+   "p": [
+    "f",
+    "ih",
+    "sh"
+   ],
+   "ipa": "fˈɪʃ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "wish",
+    "p": [
+     "w",
+     "ih",
+     "sh"
+    ],
+    "ipa": "wˈɪʃ",
+    "cell": "onset"
+   },
+   {
+    "w": "fin",
+    "p": [
+     "f",
+     "ih",
+     "n"
+    ],
+    "ipa": "fˈɪn",
+    "cell": "final"
+   },
+   {
+    "w": "win",
+    "p": [
+     "w",
+     "ih",
+     "n"
+    ],
+    "ipa": "wˈɪn",
+    "cell": "onset+final"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 onset+final",
+  "lesson": "L2.01",
+  "axes": [
+   "onset",
+   "final"
+  ],
+  "pos": {
+   "onset": 0,
+   "final": 2
+  },
+  "stress": 1
+ },
+ "fixed": {
+  "target": {
+   "w": "fixed",
+   "p": [
+    "f",
+    "ih",
+    "k",
+    "s",
+    "t"
+   ],
+   "ipa": "fˈɪkst",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "mixed",
+    "p": [
+     "m",
+     "ih",
+     "k",
+     "s",
+     "t"
+    ],
+    "ipa": "mˈɪkst",
+    "cell": "chain"
+   },
+   {
+    "w": "minced",
+    "p": [
+     "m",
+     "ih",
+     "n",
+     "s",
+     "t"
+    ],
+    "ipa": "mˈɪnst",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.10",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "fixes": {
+  "target": {
+   "w": "fixes",
+   "p": [
+    "f",
+    "ih",
+    "k",
+    "s",
+    "ih",
+    "z"
+   ],
+   "ipa": "fˈɪksɪz",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "fixing",
+    "p": [
+     "f",
+     "ih",
+     "k",
+     "s",
+     "ih",
+     "ng"
+    ],
+    "ipa": "fˈɪksɪŋ",
+    "cell": "chain"
+   },
+   {
+    "w": "mixing",
+    "p": [
+     "m",
+     "ih",
+     "k",
+     "s",
+     "ih",
+     "ng"
+    ],
+    "ipa": "mˈɪksɪŋ",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.09",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "flag": {
+  "target": {
+   "w": "flag",
+   "p": [
+    "f",
+    "l",
+    "ae",
+    "g"
+   ],
+   "ipa": "flˈæɡ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "flap",
+    "p": [
+     "f",
+     "l",
+     "ae",
+     "p"
+    ],
+    "ipa": "flˈæp",
+    "cell": "chain"
+   },
+   {
+    "w": "slap",
+    "p": [
+     "s",
+     "l",
+     "ae",
+     "p"
+    ],
+    "ipa": "slˈæp",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.06",
+  "axes": [],
+  "early": true,
+  "stress": 2
+ },
+ "flisked": {
+  "target": {
+   "w": "flisked",
+   "p": [
+    "f",
+    "l",
+    "ih",
+    "s",
+    "k",
+    "t"
+   ],
+   "ipa": "flˈɪskt",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "friskt",
+    "p": [
+     "f",
+     "r",
+     "ih",
+     "s",
+     "k",
+     "t"
+    ],
+    "ipa": "fɹˈɪskt",
+    "cell": "onset"
+   },
+   {
+    "w": "floskt",
+    "p": [
+     "f",
+     "l",
+     "aa",
+     "s",
+     "k",
+     "t"
+    ],
+    "ipa": "flˈɑskt",
+    "cell": "vowel"
+   },
+   {
+    "w": "froskt",
+    "p": [
+     "f",
+     "r",
+     "aa",
+     "s",
+     "k",
+     "t"
+    ],
+    "ipa": "fɹˈɑskt",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.10",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 1,
+   "vowel": 2
+  },
+  "stress": 2
+ },
+ "flonked": {
+  "target": {
+   "w": "flonked",
+   "p": [
+    "f",
+    "l",
+    "aa",
+    "ng",
+    "k",
+    "t"
+   ],
+   "ipa": "flˈɑŋkt",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "fronkt",
+    "p": [
+     "f",
+     "r",
+     "aa",
+     "ng",
+     "k",
+     "t"
+    ],
+    "ipa": "fɹˈɑŋkt",
+    "cell": "onset"
+   },
+   {
+    "w": "flunkt",
+    "p": [
+     "f",
+     "l",
+     "ah",
+     "ng",
+     "k",
+     "t"
+    ],
+    "ipa": "flˈʌŋkt",
+    "cell": "vowel"
+   },
+   {
+    "w": "frunkt",
+    "p": [
+     "f",
+     "r",
+     "ah",
+     "ng",
+     "k",
+     "t"
+    ],
+    "ipa": "fɹˈʌŋkt",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.13",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 1,
+   "vowel": 2
+  },
+  "stress": 2
+ },
+ "florbes": {
+  "target": {
+   "w": "florbes",
+   "p": [
+    "f",
+    "l",
+    "aa",
+    "r",
+    "b",
+    "ih",
+    "z"
+   ],
+   "ipa": "flˈɑɹbɪz",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "frorbiz",
+    "p": [
+     "f",
+     "r",
+     "aa",
+     "r",
+     "b",
+     "ih",
+     "z"
+    ],
+    "ipa": "fɹˈɑɹbɪz",
+    "cell": "onset"
+   },
+   {
+    "w": "flerbiz",
+    "p": [
+     "f",
+     "l",
+     "eh",
+     "r",
+     "b",
+     "ih",
+     "z"
+    ],
+    "ipa": "flˈɛɹbɪz",
+    "cell": "vowel"
+   },
+   {
+    "w": "frerbiz",
+    "p": [
+     "f",
+     "r",
+     "eh",
+     "r",
+     "b",
+     "ih",
+     "z"
+    ],
+    "ipa": "fɹˈɛɹbɪz",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.09",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 1,
+   "vowel": 2
+  },
+  "stress": 2
+ },
+ "florbing": {
+  "target": {
+   "w": "florbing",
+   "p": [
+    "f",
+    "l",
+    "aa",
+    "r",
+    "b",
+    "ih",
+    "ng"
+   ],
+   "ipa": "flˈɑɹbɪŋ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "frorbing",
+    "p": [
+     "f",
+     "r",
+     "aa",
+     "r",
+     "b",
+     "ih",
+     "ng"
+    ],
+    "ipa": "fɹˈɑɹbɪŋ",
+    "cell": "onset"
+   },
+   {
+    "w": "flurbing",
+    "p": [
+     "f",
+     "l",
+     "ah",
+     "r",
+     "b",
+     "ih",
+     "ng"
+    ],
+    "ipa": "flˈʌɹbɪŋ",
+    "cell": "vowel"
+   },
+   {
+    "w": "frurbing",
+    "p": [
+     "f",
+     "r",
+     "ah",
+     "r",
+     "b",
+     "ih",
+     "ng"
+    ],
+    "ipa": "fɹˈʌɹbɪŋ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.11",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 1,
+   "vowel": 2
+  },
+  "stress": 2
+ },
+ "for": {
+  "target": {
+   "w": "for",
+   "p": [
+    "f",
+    "ao",
+    "r"
+   ],
+   "ipa": "fˈɔɹ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "core",
+    "p": [
+     "k",
+     "ao",
+     "r"
+    ],
+    "ipa": "kˈɔɹ",
+    "cell": "onset"
+   },
+   {
+    "w": "fair",
+    "p": [
+     "f",
+     "eh",
+     "r"
+    ],
+    "ipa": "fˈɛɹ",
+    "cell": "vowel"
+   },
+   {
+    "w": "care",
+    "p": [
+     "k",
+     "eh",
+     "r"
+    ],
+    "ipa": "kˈɛɹ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.14",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "four": {
+  "target": {
+   "w": "four",
+   "p": [
+    "f",
+    "ao",
+    "r"
+   ],
+   "ipa": "fˈɔɹ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "core",
+    "p": [
+     "k",
+     "ao",
+     "r"
+    ],
+    "ipa": "kˈɔɹ",
+    "cell": "onset"
+   },
+   {
+    "w": "fair",
+    "p": [
+     "f",
+     "eh",
+     "r"
+    ],
+    "ipa": "fˈɛɹ",
+    "cell": "vowel"
+   },
+   {
+    "w": "care",
+    "p": [
+     "k",
+     "eh",
+     "r"
+    ],
+    "ipa": "kˈɛɹ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.14",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "friend": {
+  "target": {
+   "w": "friend",
+   "p": [
+    "f",
+    "r",
+    "eh",
+    "n",
+    "d"
+   ],
+   "ipa": "fɹˈɛnd",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "french",
+    "p": [
+     "f",
+     "r",
+     "eh",
+     "n",
+     "ch"
+    ],
+    "ipa": "fɹˈɛnʧ",
+    "cell": "chain"
+   },
+   {
+    "w": "trench",
+    "p": [
+     "t",
+     "r",
+     "eh",
+     "n",
+     "ch"
+    ],
+    "ipa": "tɹˈɛnʧ",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.14",
+  "axes": [],
+  "early": true,
+  "stress": 2
+ },
+ "from": {
+  "target": {
+   "w": "from",
+   "p": [
+    "f",
+    "r",
+    "ah",
+    "m"
+   ],
+   "ipa": "fɹˈʌm",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "drum",
+    "p": [
+     "d",
+     "r",
+     "ah",
+     "m"
+    ],
+    "ipa": "dɹˈʌm",
+    "cell": "chain"
+   },
+   {
+    "w": "crumb",
+    "p": [
+     "k",
+     "r",
+     "ah",
+     "m"
+    ],
+    "ipa": "kɹˈʌm",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.14",
+  "axes": [],
+  "early": true,
+  "stress": 2
+ },
+ "gift": {
+  "target": {
+   "w": "gift",
+   "p": [
+    "g",
+    "ih",
+    "f",
+    "t"
+   ],
+   "ipa": "ɡˈɪft",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "gilt",
+    "p": [
+     "g",
+     "ih",
+     "l",
+     "t"
+    ],
+    "ipa": "ɡˈɪlt",
+    "cell": "chain"
+   },
+   {
+    "w": "guild",
+    "p": [
+     "g",
+     "ih",
+     "l",
+     "d"
+    ],
+    "ipa": "ɡˈɪld",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.07",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "glim": {
+  "target": {
+   "w": "glim",
+   "p": [
+    "g",
+    "l",
+    "ih",
+    "m"
+   ],
+   "ipa": "ɡlˈɪm",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "glif",
+    "p": [
+     "g",
+     "l",
+     "ih",
+     "f"
+    ],
+    "ipa": "ɡlˈɪf",
+    "cell": "chain"
+   },
+   {
+    "w": "glof",
+    "p": [
+     "g",
+     "l",
+     "aa",
+     "f"
+    ],
+    "ipa": "ɡlˈɑf",
+    "cell": "chain"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "early chain",
+  "lesson": "L2.06",
+  "axes": [],
+  "early": true,
+  "stress": 2
+ },
+ "goes": {
+  "target": {
+   "w": "goes",
+   "p": [
+    "g",
+    "ow",
+    "z"
+   ],
+   "ipa": "ɡˈoʊz",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "woes",
+    "p": [
+     "w",
+     "ow",
+     "z"
+    ],
+    "ipa": "wˈoʊz",
+    "cell": "onset"
+   },
+   {
+    "w": "gaze",
+    "p": [
+     "g",
+     "ey",
+     "z"
+    ],
+    "ipa": "ɡˈeɪz",
+    "cell": "vowel"
+   },
+   {
+    "w": "ways",
+    "p": [
+     "w",
+     "ey",
+     "z"
+    ],
+    "ipa": "wˈeɪz",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 (wide pool)",
+  "lesson": "L2.14",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "gosh": {
+  "target": {
+   "w": "gosh",
+   "p": [
+    "g",
+    "aa",
+    "sh"
+   ],
+   "ipa": "ɡˈɑʃ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "posh",
+    "p": [
+     "p",
+     "aa",
+     "sh"
+    ],
+    "ipa": "pˈɑʃ",
+    "cell": "onset"
+   },
+   {
+    "w": "got",
+    "p": [
+     "g",
+     "aa",
+     "t"
+    ],
+    "ipa": "ɡˈɑt",
+    "cell": "final"
+   },
+   {
+    "w": "pot",
+    "p": [
+     "p",
+     "aa",
+     "t"
+    ],
+    "ipa": "pˈɑt",
+    "cell": "onset+final"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 onset+final",
+  "lesson": "L2.01",
+  "axes": [
+   "onset",
+   "final"
+  ],
+  "pos": {
+   "onset": 0,
+   "final": 2
+  },
+  "stress": 1
+ },
+ "grinned": {
+  "target": {
+   "w": "grinned",
+   "p": [
+    "g",
+    "r",
+    "ih",
+    "n",
+    "d"
+   ],
+   "ipa": "ɡɹˈɪnd",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "grand",
+    "p": [
+     "g",
+     "r",
+     "ae",
+     "n",
+     "d"
+    ],
+    "ipa": "ɡɹˈænd",
+    "cell": "chain"
+   },
+   {
+    "w": "grabbed",
+    "p": [
+     "g",
+     "r",
+     "ae",
+     "b",
+     "d"
+    ],
+    "ipa": "ɡɹˈæbd",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.10",
+  "axes": [],
+  "early": true,
+  "stress": 2
+ },
+ "hand": {
+  "target": {
+   "w": "hand",
+   "p": [
+    "hh",
+    "ae",
+    "n",
+    "d"
+   ],
+   "ipa": "hˈænd",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "sand",
+    "p": [
+     "s",
+     "ae",
+     "n",
+     "d"
+    ],
+    "ipa": "sˈænd",
+    "cell": "onset"
+   },
+   {
+    "w": "hound",
+    "p": [
+     "hh",
+     "aw",
+     "n",
+     "d"
+    ],
+    "ipa": "hˈaʊnd",
+    "cell": "vowel"
+   },
+   {
+    "w": "sound",
+    "p": [
+     "s",
+     "aw",
+     "n",
+     "d"
+    ],
+    "ipa": "sˈaʊnd",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 (wide pool)",
+  "lesson": "L2.07",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "hands": {
+  "target": {
+   "w": "hands",
+   "p": [
+    "hh",
+    "ae",
+    "n",
+    "d",
+    "z"
+   ],
+   "ipa": "hˈændz",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "bands",
+    "p": [
+     "b",
+     "ae",
+     "n",
+     "d",
+     "z"
+    ],
+    "ipa": "bˈændz",
+    "cell": "onset"
+   },
+   {
+    "w": "hounds",
+    "p": [
+     "hh",
+     "aw",
+     "n",
+     "d",
+     "z"
+    ],
+    "ipa": "hˈaʊndz",
+    "cell": "vowel"
+   },
+   {
+    "w": "bounds",
+    "p": [
+     "b",
+     "aw",
+     "n",
+     "d",
+     "z"
+    ],
+    "ipa": "bˈaʊndz",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 (wide pool)",
+  "lesson": "L2.09",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "hang": {
+  "target": {
+   "w": "hang",
+   "p": [
+    "hh",
+    "ae",
+    "ng"
+   ],
+   "ipa": "hˈæŋ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "rang",
+    "p": [
+     "r",
+     "ae",
+     "ng"
+    ],
+    "ipa": "ɹˈæŋ",
+    "cell": "onset"
+   },
+   {
+    "w": "hung",
+    "p": [
+     "hh",
+     "ah",
+     "ng"
+    ],
+    "ipa": "hˈʌŋ",
+    "cell": "vowel"
+   },
+   {
+    "w": "rung",
+    "p": [
+     "r",
+     "ah",
+     "ng"
+    ],
+    "ipa": "ɹˈʌŋ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.05",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "her": {
+  "target": {
+   "w": "her",
+   "p": [
+    "hh",
+    "er"
+   ],
+   "ipa": "hˈɝ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "sir",
+    "p": [
+     "s",
+     "er"
+    ],
+    "ipa": "sˈɝ",
+    "cell": "onset"
+   },
+   {
+    "w": "ha",
+    "p": [
+     "hh",
+     "aa"
+    ],
+    "ipa": "hˈɑ",
+    "cell": "vowel"
+   },
+   {
+    "w": "sa",
+    "p": [
+     "s",
+     "aa"
+    ],
+    "ipa": "sˈɑ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.14",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "hesh": {
+  "target": {
+   "w": "hesh",
+   "p": [
+    "hh",
+    "eh",
+    "sh"
+   ],
+   "ipa": "hˈɛʃ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "zesh",
+    "p": [
+     "z",
+     "eh",
+     "sh"
+    ],
+    "ipa": "zˈɛʃ",
+    "cell": "onset"
+   },
+   {
+    "w": "hosh",
+    "p": [
+     "hh",
+     "aa",
+     "sh"
+    ],
+    "ipa": "hˈɑʃ",
+    "cell": "vowel"
+   },
+   {
+    "w": "zosh",
+    "p": [
+     "z",
+     "aa",
+     "sh"
+    ],
+    "ipa": "zˈɑʃ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.01",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "hink": {
+  "target": {
+   "w": "hink",
+   "p": [
+    "hh",
+    "ih",
+    "ng",
+    "k"
+   ],
+   "ipa": "hˈɪŋk",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "nink",
+    "p": [
+     "n",
+     "ih",
+     "ng",
+     "k"
+    ],
+    "ipa": "nˈɪŋk",
+    "cell": "onset"
+   },
+   {
+    "w": "hoonk",
+    "p": [
+     "hh",
+     "uw",
+     "ng",
+     "k"
+    ],
+    "ipa": "hˈuŋk",
+    "cell": "vowel"
+   },
+   {
+    "w": "noonk",
+    "p": [
+     "n",
+     "uw",
+     "ng",
+     "k"
+    ],
+    "ipa": "nˈuŋk",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2 (wide pool)",
+  "lesson": "L2.05",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "honk": {
+  "target": {
+   "w": "honk",
+   "p": [
+    "hh",
+    "aa",
+    "ng",
+    "k"
+   ],
+   "ipa": "hˈɑŋk",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "hunk",
+    "p": [
+     "hh",
+     "ah",
+     "ng",
+     "k"
+    ],
+    "ipa": "hˈʌŋk",
+    "cell": "chain"
+   },
+   {
+    "w": "sunk",
+    "p": [
+     "s",
+     "ah",
+     "ng",
+     "k"
+    ],
+    "ipa": "sˈʌŋk",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.05",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "hugged": {
+  "target": {
+   "w": "hugged",
+   "p": [
+    "hh",
+    "ah",
+    "g",
+    "d"
+   ],
+   "ipa": "hˈʌɡd",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "bugged",
+    "p": [
+     "b",
+     "ah",
+     "g",
+     "d"
+    ],
+    "ipa": "bˈʌɡd",
+    "cell": "onset"
+   },
+   {
+    "w": "hugs",
+    "p": [
+     "hh",
+     "ah",
+     "g",
+     "z"
+    ],
+    "ipa": "hˈʌɡz",
+    "cell": "final"
+   },
+   {
+    "w": "bugs",
+    "p": [
+     "b",
+     "ah",
+     "g",
+     "z"
+    ],
+    "ipa": "bˈʌɡz",
+    "cell": "onset+final"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 onset+final",
+  "lesson": "L2.10",
+  "axes": [
+   "onset",
+   "final"
+  ],
+  "pos": {
+   "onset": 0,
+   "final": 3
+  },
+  "stress": 1
+ },
+ "hunt": {
+  "target": {
+   "w": "hunt",
+   "p": [
+    "hh",
+    "ah",
+    "n",
+    "t"
+   ],
+   "ipa": "hˈʌnt",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "punt",
+    "p": [
+     "p",
+     "ah",
+     "n",
+     "t"
+    ],
+    "ipa": "pˈʌnt",
+    "cell": "chain"
+   },
+   {
+    "w": "pant",
+    "p": [
+     "p",
+     "ae",
+     "n",
+     "t"
+    ],
+    "ipa": "pˈænt",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.07",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "hush": {
+  "target": {
+   "w": "hush",
+   "p": [
+    "hh",
+    "ah",
+    "sh"
+   ],
+   "ipa": "hˈʌʃ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "rush",
+    "p": [
+     "r",
+     "ah",
+     "sh"
+    ],
+    "ipa": "ɹˈʌʃ",
+    "cell": "onset"
+   },
+   {
+    "w": "hash",
+    "p": [
+     "hh",
+     "ae",
+     "sh"
+    ],
+    "ipa": "hˈæʃ",
+    "cell": "vowel"
+   },
+   {
+    "w": "rash",
+    "p": [
+     "r",
+     "ae",
+     "sh"
+    ],
+    "ipa": "ɹˈæʃ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.01",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "hutch": {
+  "target": {
+   "w": "hutch",
+   "p": [
+    "hh",
+    "ah",
+    "ch"
+   ],
+   "ipa": "hˈʌʧ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "much",
+    "p": [
+     "m",
+     "ah",
+     "ch"
+    ],
+    "ipa": "mˈʌʧ",
+    "cell": "onset"
+   },
+   {
+    "w": "hatch",
+    "p": [
+     "hh",
+     "ae",
+     "ch"
+    ],
+    "ipa": "hˈæʧ",
+    "cell": "vowel"
+   },
+   {
+    "w": "match",
+    "p": [
+     "m",
+     "ae",
+     "ch"
+    ],
+    "ipa": "mˈæʧ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.02",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "insect": {
+  "target": {
+   "w": "insect",
+   "p": [
+    "ih",
+    "n",
+    "s",
+    "eh",
+    "k",
+    "t"
+   ],
+   "ipa": "ˈɪnsɛkt",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "inject",
+    "p": [
+     "ih",
+     "n",
+     "jh",
+     "eh",
+     "k",
+     "t"
+    ],
+    "ipa": "ˈɪnʤɛkt",
+    "cell": "chain"
+   },
+   {
+    "w": "infect",
+    "p": [
+     "ih",
+     "n",
+     "f",
+     "eh",
+     "k",
+     "t"
+    ],
+    "ipa": "ˈɪnfɛkt",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.12",
+  "axes": [],
+  "early": true,
+  "stress": 0
+ },
+ "jelt": {
+  "target": {
+   "w": "jelt",
+   "p": [
+    "jh",
+    "eh",
+    "l",
+    "t"
+   ],
+   "ipa": "ʤˈɛlt",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "chelt",
+    "p": [
+     "ch",
+     "eh",
+     "l",
+     "t"
+    ],
+    "ipa": "ʧˈɛlt",
+    "cell": "onset"
+   },
+   {
+    "w": "jalt",
+    "p": [
+     "jh",
+     "ae",
+     "l",
+     "t"
+    ],
+    "ipa": "ʤˈælt",
+    "cell": "vowel"
+   },
+   {
+    "w": "chalt",
+    "p": [
+     "ch",
+     "ae",
+     "l",
+     "t"
+    ],
+    "ipa": "ʧˈælt",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.07",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "jump": {
+  "target": {
+   "w": "jump",
+   "p": [
+    "jh",
+    "ah",
+    "m",
+    "p"
+   ],
+   "ipa": "ʤˈʌmp",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "pump",
+    "p": [
+     "p",
+     "ah",
+     "m",
+     "p"
+    ],
+    "ipa": "pˈʌmp",
+    "cell": "chain"
+   },
+   {
+    "w": "thump",
+    "p": [
+     "th",
+     "ah",
+     "m",
+     "p"
+    ],
+    "ipa": "θˈʌmp",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.07",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "jumped": {
+  "target": {
+   "w": "jumped",
+   "p": [
+    "jh",
+    "ah",
+    "m",
+    "p",
+    "t"
+   ],
+   "ipa": "ʤˈʌmpt",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "bumped",
+    "p": [
+     "b",
+     "ah",
+     "m",
+     "p",
+     "t"
+    ],
+    "ipa": "bˈʌmpt",
+    "cell": "onset"
+   },
+   {
+    "w": "jumps",
+    "p": [
+     "jh",
+     "ah",
+     "m",
+     "p",
+     "s"
+    ],
+    "ipa": "ʤˈʌmps",
+    "cell": "final"
+   },
+   {
+    "w": "bumps",
+    "p": [
+     "b",
+     "ah",
+     "m",
+     "p",
+     "s"
+    ],
+    "ipa": "bˈʌmps",
+    "cell": "onset+final"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 onset+final",
+  "lesson": "L2.10",
+  "axes": [
+   "onset",
+   "final"
+  ],
+  "pos": {
+   "onset": 0,
+   "final": 4
+  },
+  "stress": 1
+ },
+ "jumper": {
+  "target": {
+   "w": "jumper",
+   "p": [
+    "jh",
+    "ah",
+    "m",
+    "p",
+    "er"
+   ],
+   "ipa": "ʤˈʌmpɝ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "bumper",
+    "p": [
+     "b",
+     "ah",
+     "m",
+     "p",
+     "er"
+    ],
+    "ipa": "bˈʌmpɝ",
+    "cell": "chain"
+   },
+   {
+    "w": "bumpy",
+    "p": [
+     "b",
+     "ah",
+     "m",
+     "p",
+     "iy"
+    ],
+    "ipa": "bˈʌmpi",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain (wide pool)",
+  "lesson": "L2.11",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "jumping": {
+  "target": {
+   "w": "jumping",
+   "p": [
+    "jh",
+    "ah",
+    "m",
+    "p",
+    "ih",
+    "ng"
+   ],
+   "ipa": "ʤˈʌmpɪŋ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "dumping",
+    "p": [
+     "d",
+     "ah",
+     "m",
+     "p",
+     "ih",
+     "ng"
+    ],
+    "ipa": "dˈʌmpɪŋ",
+    "cell": "chain"
+   },
+   {
+    "w": "thumping",
+    "p": [
+     "th",
+     "ah",
+     "m",
+     "p",
+     "ih",
+     "ng"
+    ],
+    "ipa": "θˈʌmpɪŋ",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.11",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "jumps": {
+  "target": {
+   "w": "jumps",
+   "p": [
+    "jh",
+    "ah",
+    "m",
+    "p",
+    "s"
+   ],
+   "ipa": "ʤˈʌmps",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "bumps",
+    "p": [
+     "b",
+     "ah",
+     "m",
+     "p",
+     "s"
+    ],
+    "ipa": "bˈʌmps",
+    "cell": "onset"
+   },
+   {
+    "w": "jumped",
+    "p": [
+     "jh",
+     "ah",
+     "m",
+     "p",
+     "t"
+    ],
+    "ipa": "ʤˈʌmpt",
+    "cell": "final"
+   },
+   {
+    "w": "bumped",
+    "p": [
+     "b",
+     "ah",
+     "m",
+     "p",
+     "t"
+    ],
+    "ipa": "bˈʌmpt",
+    "cell": "onset+final"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 onset+final",
+  "lesson": "L2.09",
+  "axes": [
+   "onset",
+   "final"
+  ],
+  "pos": {
+   "onset": 0,
+   "final": 4
+  },
+  "stress": 1
+ },
+ "junk": {
+  "target": {
+   "w": "junk",
+   "p": [
+    "jh",
+    "ah",
+    "ng",
+    "k"
+   ],
+   "ipa": "ʤˈʌŋk",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "sunk",
+    "p": [
+     "s",
+     "ah",
+     "ng",
+     "k"
+    ],
+    "ipa": "sˈʌŋk",
+    "cell": "chain"
+   },
+   {
+    "w": "bunk",
+    "p": [
+     "b",
+     "ah",
+     "ng",
+     "k"
+    ],
+    "ipa": "bˈʌŋk",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.05",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "king": {
+  "target": {
+   "w": "king",
+   "p": [
+    "k",
+    "ih",
+    "ng"
+   ],
+   "ipa": "kˈɪŋ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "sing",
+    "p": [
+     "s",
+     "ih",
+     "ng"
+    ],
+    "ipa": "sˈɪŋ",
+    "cell": "onset"
+   },
+   {
+    "w": "kit",
+    "p": [
+     "k",
+     "ih",
+     "t"
+    ],
+    "ipa": "kˈɪt",
+    "cell": "final"
+   },
+   {
+    "w": "sit",
+    "p": [
+     "s",
+     "ih",
+     "t"
+    ],
+    "ipa": "sˈɪt",
+    "cell": "onset+final"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 onset+final",
+  "lesson": "L2.05",
+  "axes": [
+   "onset",
+   "final"
+  ],
+  "pos": {
+   "onset": 0,
+   "final": 2
+  },
+  "stress": 1
+ },
+ "landing": {
+  "target": {
+   "w": "landing",
+   "p": [
+    "l",
+    "ae",
+    "n",
+    "d",
+    "ih",
+    "ng"
+   ],
+   "ipa": "lˈændɪŋ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "lending",
+    "p": [
+     "l",
+     "eh",
+     "n",
+     "d",
+     "ih",
+     "ng"
+    ],
+    "ipa": "lˈɛndɪŋ",
+    "cell": "chain"
+   },
+   {
+    "w": "vending",
+    "p": [
+     "v",
+     "eh",
+     "n",
+     "d",
+     "ih",
+     "ng"
+    ],
+    "ipa": "vˈɛndɪŋ",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.11",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "long": {
+  "target": {
+   "w": "long",
+   "p": [
+    "l",
+    "ao",
+    "ng"
+   ],
+   "ipa": "lˈɔŋ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "wrong",
+    "p": [
+     "r",
+     "ao",
+     "ng"
+    ],
+    "ipa": "ɹˈɔŋ",
+    "cell": "onset"
+   },
+   {
+    "w": "lung",
+    "p": [
+     "l",
+     "ah",
+     "ng"
+    ],
+    "ipa": "lˈʌŋ",
+    "cell": "vowel"
+   },
+   {
+    "w": "rung",
+    "p": [
+     "r",
+     "ah",
+     "ng"
+    ],
+    "ipa": "ɹˈʌŋ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.05",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "many": {
+  "target": {
+   "w": "many",
+   "p": [
+    "m",
+    "eh",
+    "n",
+    "iy"
+   ],
+   "ipa": "mˈɛni",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "penny",
+    "p": [
+     "p",
+     "eh",
+     "n",
+     "iy"
+    ],
+    "ipa": "pˈɛni",
+    "cell": "chain"
+   },
+   {
+    "w": "petty",
+    "p": [
+     "p",
+     "eh",
+     "t",
+     "iy"
+    ],
+    "ipa": "pˈɛti",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.14",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "mask": {
+  "target": {
+   "w": "mask",
+   "p": [
+    "m",
+    "ae",
+    "s",
+    "k"
+   ],
+   "ipa": "mˈæsk",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "task",
+    "p": [
+     "t",
+     "ae",
+     "s",
+     "k"
+    ],
+    "ipa": "tˈæsk",
+    "cell": "chain"
+   },
+   {
+    "w": "tank",
+    "p": [
+     "t",
+     "ae",
+     "ng",
+     "k"
+    ],
+    "ipa": "tˈæŋk",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.07",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "match": {
+  "target": {
+   "w": "match",
+   "p": [
+    "m",
+    "ae",
+    "ch"
+   ],
+   "ipa": "mˈæʧ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "hatch",
+    "p": [
+     "hh",
+     "ae",
+     "ch"
+    ],
+    "ipa": "hˈæʧ",
+    "cell": "onset"
+   },
+   {
+    "w": "much",
+    "p": [
+     "m",
+     "ah",
+     "ch"
+    ],
+    "ipa": "mˈʌʧ",
+    "cell": "vowel"
+   },
+   {
+    "w": "hutch",
+    "p": [
+     "hh",
+     "ah",
+     "ch"
+    ],
+    "ipa": "hˈʌʧ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.02",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "math": {
+  "target": {
+   "w": "math",
+   "p": [
+    "m",
+    "ae",
+    "th"
+   ],
+   "ipa": "mˈæθ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "path",
+    "p": [
+     "p",
+     "ae",
+     "th"
+    ],
+    "ipa": "pˈæθ",
+    "cell": "onset"
+   },
+   {
+    "w": "map",
+    "p": [
+     "m",
+     "ae",
+     "p"
+    ],
+    "ipa": "mˈæp",
+    "cell": "final"
+   },
+   {
+    "w": "pap",
+    "p": [
+     "p",
+     "ae",
+     "p"
+    ],
+    "ipa": "pˈæp",
+    "cell": "onset+final"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 onset+final",
+  "lesson": "L2.03",
+  "axes": [
+   "onset",
+   "final"
+  ],
+  "pos": {
+   "onset": 0,
+   "final": 2
+  },
+  "stress": 1
+ },
+ "melt": {
+  "target": {
+   "w": "melt",
+   "p": [
+    "m",
+    "eh",
+    "l",
+    "t"
+   ],
+   "ipa": "mˈɛlt",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "meant",
+    "p": [
+     "m",
+     "eh",
+     "n",
+     "t"
+    ],
+    "ipa": "mˈɛnt",
+    "cell": "chain"
+   },
+   {
+    "w": "messed",
+    "p": [
+     "m",
+     "eh",
+     "s",
+     "t"
+    ],
+    "ipa": "mˈɛst",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.07",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "milk": {
+  "target": {
+   "w": "milk",
+   "p": [
+    "m",
+    "ih",
+    "l",
+    "k"
+   ],
+   "ipa": "mˈɪlk",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "mink",
+    "p": [
+     "m",
+     "ih",
+     "ng",
+     "k"
+    ],
+    "ipa": "mˈɪŋk",
+    "cell": "chain"
+   },
+   {
+    "w": "rink",
+    "p": [
+     "r",
+     "ih",
+     "ng",
+     "k"
+    ],
+    "ipa": "ɹˈɪŋk",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.07",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "mith": {
+  "target": {
+   "w": "mith",
+   "p": [
+    "m",
+    "ih",
+    "th"
+   ],
+   "ipa": "mˈɪθ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "tith",
+    "p": [
+     "t",
+     "ih",
+     "th"
+    ],
+    "ipa": "tˈɪθ",
+    "cell": "onset"
+   },
+   {
+    "w": "mayth",
+    "p": [
+     "m",
+     "ey",
+     "th"
+    ],
+    "ipa": "mˈeɪθ",
+    "cell": "vowel"
+   },
+   {
+    "w": "tayth",
+    "p": [
+     "t",
+     "ey",
+     "th"
+    ],
+    "ipa": "tˈeɪθ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2 (wide pool)",
+  "lesson": "L2.03",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "moth": {
+  "target": {
+   "w": "moth",
+   "p": [
+    "m",
+    "ao",
+    "th"
+   ],
+   "ipa": "mˈɔθ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "myth",
+    "p": [
+     "m",
+     "ih",
+     "th"
+    ],
+    "ipa": "mˈɪθ",
+    "cell": "chain"
+   },
+   {
+    "w": "ms",
+    "p": [
+     "m",
+     "ih",
+     "z"
+    ],
+    "ipa": "mˈɪz",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.03",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "much": {
+  "target": {
+   "w": "much",
+   "p": [
+    "m",
+    "ah",
+    "ch"
+   ],
+   "ipa": "mˈʌʧ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "hutch",
+    "p": [
+     "hh",
+     "ah",
+     "ch"
+    ],
+    "ipa": "hˈʌʧ",
+    "cell": "onset"
+   },
+   {
+    "w": "match",
+    "p": [
+     "m",
+     "ae",
+     "ch"
+    ],
+    "ipa": "mˈæʧ",
+    "cell": "vowel"
+   },
+   {
+    "w": "hatch",
+    "p": [
+     "hh",
+     "ae",
+     "ch"
+    ],
+    "ipa": "hˈæʧ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.02",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "myth": {
+  "target": {
+   "w": "myth",
+   "p": [
+    "m",
+    "ih",
+    "th"
+   ],
+   "ipa": "mˈɪθ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "math",
+    "p": [
+     "m",
+     "ae",
+     "th"
+    ],
+    "ipa": "mˈæθ",
+    "cell": "chain"
+   },
+   {
+    "w": "mag",
+    "p": [
+     "m",
+     "ae",
+     "g"
+    ],
+    "ipa": "mˈæɡ",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.03",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "nach": {
+  "target": {
+   "w": "nach",
+   "p": [
+    "n",
+    "ae",
+    "ch"
+   ],
+   "ipa": "nˈæʧ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "sach",
+    "p": [
+     "s",
+     "ae",
+     "ch"
+    ],
+    "ipa": "sˈæʧ",
+    "cell": "onset"
+   },
+   {
+    "w": "nech",
+    "p": [
+     "n",
+     "eh",
+     "ch"
+    ],
+    "ipa": "nˈɛʧ",
+    "cell": "vowel"
+   },
+   {
+    "w": "sech",
+    "p": [
+     "s",
+     "eh",
+     "ch"
+    ],
+    "ipa": "sˈɛʧ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.02",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "nash": {
+  "target": {
+   "w": "nash",
+   "p": [
+    "n",
+    "ae",
+    "sh"
+   ],
+   "ipa": "nˈæʃ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "shash",
+    "p": [
+     "sh",
+     "ae",
+     "sh"
+    ],
+    "ipa": "ʃˈæʃ",
+    "cell": "onset"
+   },
+   {
+    "w": "nesh",
+    "p": [
+     "n",
+     "eh",
+     "sh"
+    ],
+    "ipa": "nˈɛʃ",
+    "cell": "vowel"
+   },
+   {
+    "w": "shesh",
+    "p": [
+     "sh",
+     "eh",
+     "sh"
+    ],
+    "ipa": "ʃˈɛʃ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.01",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "nest": {
+  "target": {
+   "w": "nest",
+   "p": [
+    "n",
+    "eh",
+    "s",
+    "t"
+   ],
+   "ipa": "nˈɛst",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "fest",
+    "p": [
+     "f",
+     "eh",
+     "s",
+     "t"
+    ],
+    "ipa": "fˈɛst",
+    "cell": "chain"
+   },
+   {
+    "w": "test",
+    "p": [
+     "t",
+     "eh",
+     "s",
+     "t"
+    ],
+    "ipa": "tˈɛst",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.07",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "nusk": {
+  "target": {
+   "w": "nusk",
+   "p": [
+    "n",
+    "ah",
+    "s",
+    "k"
+   ],
+   "ipa": "nˈʌsk",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "shusk",
+    "p": [
+     "sh",
+     "ah",
+     "s",
+     "k"
+    ],
+    "ipa": "ʃˈʌsk",
+    "cell": "onset"
+   },
+   {
+    "w": "nesk",
+    "p": [
+     "n",
+     "eh",
+     "s",
+     "k"
+    ],
+    "ipa": "nˈɛsk",
+    "cell": "vowel"
+   },
+   {
+    "w": "shesk",
+    "p": [
+     "sh",
+     "eh",
+     "s",
+     "k"
+    ],
+    "ipa": "ʃˈɛsk",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.07",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "packed": {
+  "target": {
+   "w": "packed",
+   "p": [
+    "p",
+    "ae",
+    "k",
+    "t"
+   ],
+   "ipa": "pˈækt",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "tact",
+    "p": [
+     "t",
+     "ae",
+     "k",
+     "t"
+    ],
+    "ipa": "tˈækt",
+    "cell": "onset"
+   },
+   {
+    "w": "picked",
+    "p": [
+     "p",
+     "ih",
+     "k",
+     "t"
+    ],
+    "ipa": "pˈɪkt",
+    "cell": "vowel"
+   },
+   {
+    "w": "ticked",
+    "p": [
+     "t",
+     "ih",
+     "k",
+     "t"
+    ],
+    "ipa": "tˈɪkt",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.10",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "packing": {
+  "target": {
+   "w": "packing",
+   "p": [
+    "p",
+    "ae",
+    "k",
+    "ih",
+    "ng"
+   ],
+   "ipa": "pˈækɪŋ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "lacking",
+    "p": [
+     "l",
+     "ae",
+     "k",
+     "ih",
+     "ng"
+    ],
+    "ipa": "lˈækɪŋ",
+    "cell": "onset"
+   },
+   {
+    "w": "picking",
+    "p": [
+     "p",
+     "ih",
+     "k",
+     "ih",
+     "ng"
+    ],
+    "ipa": "pˈɪkɪŋ",
+    "cell": "vowel"
+   },
+   {
+    "w": "licking",
+    "p": [
+     "l",
+     "ih",
+     "k",
+     "ih",
+     "ng"
+    ],
+    "ipa": "lˈɪkɪŋ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.11",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "path": {
+  "target": {
+   "w": "path",
+   "p": [
+    "p",
+    "ae",
+    "th"
+   ],
+   "ipa": "pˈæθ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "bath",
+    "p": [
+     "b",
+     "ae",
+     "th"
+    ],
+    "ipa": "bˈæθ",
+    "cell": "onset"
+   },
+   {
+    "w": "pat",
+    "p": [
+     "p",
+     "ae",
+     "t"
+    ],
+    "ipa": "pˈæt",
+    "cell": "final"
+   },
+   {
+    "w": "bat",
+    "p": [
+     "b",
+     "ae",
+     "t"
+    ],
+    "ipa": "bˈæt",
+    "cell": "onset+final"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 onset+final",
+  "lesson": "L2.03",
+  "axes": [
+   "onset",
+   "final"
+  ],
+  "pos": {
+   "onset": 0,
+   "final": 2
+  },
+  "stress": 1
+ },
+ "pink": {
+  "target": {
+   "w": "pink",
+   "p": [
+    "p",
+    "ih",
+    "ng",
+    "k"
+   ],
+   "ipa": "pˈɪŋk",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "mink",
+    "p": [
+     "m",
+     "ih",
+     "ng",
+     "k"
+    ],
+    "ipa": "mˈɪŋk",
+    "cell": "onset"
+   },
+   {
+    "w": "punk",
+    "p": [
+     "p",
+     "ah",
+     "ng",
+     "k"
+    ],
+    "ipa": "pˈʌŋk",
+    "cell": "vowel"
+   },
+   {
+    "w": "monk",
+    "p": [
+     "m",
+     "ah",
+     "ng",
+     "k"
+    ],
+    "ipa": "mˈʌŋk",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.05",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "pitch": {
+  "target": {
+   "w": "pitch",
+   "p": [
+    "p",
+    "ih",
+    "ch"
+   ],
+   "ipa": "pˈɪʧ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "hitch",
+    "p": [
+     "hh",
+     "ih",
+     "ch"
+    ],
+    "ipa": "hˈɪʧ",
+    "cell": "onset"
+   },
+   {
+    "w": "patch",
+    "p": [
+     "p",
+     "ae",
+     "ch"
+    ],
+    "ipa": "pˈæʧ",
+    "cell": "vowel"
+   },
+   {
+    "w": "hatch",
+    "p": [
+     "hh",
+     "ae",
+     "ch"
+    ],
+    "ipa": "hˈæʧ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.02",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "plan": {
+  "target": {
+   "w": "plan",
+   "p": [
+    "p",
+    "l",
+    "ae",
+    "n"
+   ],
+   "ipa": "plˈæn",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "plaque",
+    "p": [
+     "p",
+     "l",
+     "ae",
+     "k"
+    ],
+    "ipa": "plˈæk",
+    "cell": "chain"
+   },
+   {
+    "w": "black",
+    "p": [
+     "b",
+     "l",
+     "ae",
+     "k"
+    ],
+    "ipa": "blˈæk",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.06",
+  "axes": [],
+  "early": true,
+  "stress": 2
+ },
+ "plemmed": {
+  "target": {
+   "w": "plemmed",
+   "p": [
+    "p",
+    "l",
+    "eh",
+    "m",
+    "d"
+   ],
+   "ipa": "plˈɛmd",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "premd",
+    "p": [
+     "p",
+     "r",
+     "eh",
+     "m",
+     "d"
+    ],
+    "ipa": "pɹˈɛmd",
+    "cell": "onset"
+   },
+   {
+    "w": "plomd",
+    "p": [
+     "p",
+     "l",
+     "aa",
+     "m",
+     "d"
+    ],
+    "ipa": "plˈɑmd",
+    "cell": "vowel"
+   },
+   {
+    "w": "promd",
+    "p": [
+     "p",
+     "r",
+     "aa",
+     "m",
+     "d"
+    ],
+    "ipa": "pɹˈɑmd",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.10",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 1,
+   "vowel": 2
+  },
+  "stress": 2
+ },
+ "plemter": {
+  "target": {
+   "w": "plemter",
+   "p": [
+    "p",
+    "l",
+    "eh",
+    "m",
+    "t",
+    "er"
+   ],
+   "ipa": "plˈɛmtɝ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "premter",
+    "p": [
+     "p",
+     "r",
+     "eh",
+     "m",
+     "t",
+     "er"
+    ],
+    "ipa": "pɹˈɛmtɝ",
+    "cell": "onset"
+   },
+   {
+    "w": "plomter",
+    "p": [
+     "p",
+     "l",
+     "aa",
+     "m",
+     "t",
+     "er"
+    ],
+    "ipa": "plˈɑmtɝ",
+    "cell": "vowel"
+   },
+   {
+    "w": "promter",
+    "p": [
+     "p",
+     "r",
+     "aa",
+     "m",
+     "t",
+     "er"
+    ],
+    "ipa": "pɹˈɑmtɝ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.11",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 1,
+   "vowel": 2
+  },
+  "stress": 2
+ },
+ "plemzen": {
+  "target": {
+   "w": "plemzen",
+   "p": [
+    "p",
+    "l",
+    "eh",
+    "m",
+    "z",
+    "eh",
+    "n"
+   ],
+   "ipa": "plˈɛmzɛn",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "premzen",
+    "p": [
+     "p",
+     "r",
+     "eh",
+     "m",
+     "z",
+     "eh",
+     "n"
+    ],
+    "ipa": "pɹˈɛmzɛn",
+    "cell": "onset"
+   },
+   {
+    "w": "plimzen",
+    "p": [
+     "p",
+     "l",
+     "ih",
+     "m",
+     "z",
+     "eh",
+     "n"
+    ],
+    "ipa": "plˈɪmzɛn",
+    "cell": "vowel"
+   },
+   {
+    "w": "primzen",
+    "p": [
+     "p",
+     "r",
+     "ih",
+     "m",
+     "z",
+     "eh",
+     "n"
+    ],
+    "ipa": "pɹˈɪmzɛn",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.12",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 1,
+   "vowel": 2
+  },
+  "stress": 2
+ },
+ "posh": {
+  "target": {
+   "w": "posh",
+   "p": [
+    "p",
+    "aa",
+    "sh"
+   ],
+   "ipa": "pˈɑʃ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "gosh",
+    "p": [
+     "g",
+     "aa",
+     "sh"
+    ],
+    "ipa": "ɡˈɑʃ",
+    "cell": "onset"
+   },
+   {
+    "w": "pot",
+    "p": [
+     "p",
+     "aa",
+     "t"
+    ],
+    "ipa": "pˈɑt",
+    "cell": "final"
+   },
+   {
+    "w": "got",
+    "p": [
+     "g",
+     "aa",
+     "t"
+    ],
+    "ipa": "ɡˈɑt",
+    "cell": "onset+final"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 onset+final",
+  "lesson": "L2.01",
+  "axes": [
+   "onset",
+   "final"
+  ],
+  "pos": {
+   "onset": 0,
+   "final": 2
+  },
+  "stress": 1
+ },
+ "pull": {
+  "target": {
+   "w": "pull",
+   "p": [
+    "p",
+    "uh",
+    "l"
+   ],
+   "ipa": "pˈʊl",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "full",
+    "p": [
+     "f",
+     "uh",
+     "l"
+    ],
+    "ipa": "fˈʊl",
+    "cell": "onset"
+   },
+   {
+    "w": "pill",
+    "p": [
+     "p",
+     "ih",
+     "l"
+    ],
+    "ipa": "pˈɪl",
+    "cell": "vowel"
+   },
+   {
+    "w": "fill",
+    "p": [
+     "f",
+     "ih",
+     "l"
+    ],
+    "ipa": "fˈɪl",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.14",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "push": {
+  "target": {
+   "w": "push",
+   "p": [
+    "p",
+    "uh",
+    "sh"
+   ],
+   "ipa": "pˈʊʃ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "bush",
+    "p": [
+     "b",
+     "uh",
+     "sh"
+    ],
+    "ipa": "bˈʊʃ",
+    "cell": "onset"
+   },
+   {
+    "w": "pull",
+    "p": [
+     "p",
+     "uh",
+     "l"
+    ],
+    "ipa": "pˈʊl",
+    "cell": "final"
+   },
+   {
+    "w": "bull",
+    "p": [
+     "b",
+     "uh",
+     "l"
+    ],
+    "ipa": "bˈʊl",
+    "cell": "onset+final"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 onset+final",
+  "lesson": "L2.14",
+  "axes": [
+   "onset",
+   "final"
+  ],
+  "pos": {
+   "onset": 0,
+   "final": 2
+  },
+  "stress": 1
+ },
+ "put": {
+  "target": {
+   "w": "put",
+   "p": [
+    "p",
+    "uh",
+    "t"
+   ],
+   "ipa": "pˈʊt",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "foot",
+    "p": [
+     "f",
+     "uh",
+     "t"
+    ],
+    "ipa": "fˈʊt",
+    "cell": "onset"
+   },
+   {
+    "w": "pat",
+    "p": [
+     "p",
+     "ae",
+     "t"
+    ],
+    "ipa": "pˈæt",
+    "cell": "vowel"
+   },
+   {
+    "w": "fat",
+    "p": [
+     "f",
+     "ae",
+     "t"
+    ],
+    "ipa": "fˈæt",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.14",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "rabbit": {
+  "target": {
+   "w": "rabbit",
+   "p": [
+    "r",
+    "ae",
+    "b",
+    "ah",
+    "t"
+   ],
+   "ipa": "ɹˈæbʌt",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "habit",
+    "p": [
+     "hh",
+     "ae",
+     "b",
+     "ah",
+     "t"
+    ],
+    "ipa": "hˈæbʌt",
+    "cell": "chain"
+   },
+   {
+    "w": "hatchet",
+    "p": [
+     "hh",
+     "ae",
+     "ch",
+     "ah",
+     "t"
+    ],
+    "ipa": "hˈæʧʌt",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.12",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "rang": {
+  "target": {
+   "w": "rang",
+   "p": [
+    "r",
+    "ae",
+    "ng"
+   ],
+   "ipa": "ɹˈæŋ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "sang",
+    "p": [
+     "s",
+     "ae",
+     "ng"
+    ],
+    "ipa": "sˈæŋ",
+    "cell": "onset"
+   },
+   {
+    "w": "ring",
+    "p": [
+     "r",
+     "ih",
+     "ng"
+    ],
+    "ipa": "ɹˈɪŋ",
+    "cell": "vowel"
+   },
+   {
+    "w": "sing",
+    "p": [
+     "s",
+     "ih",
+     "ng"
+    ],
+    "ipa": "sˈɪŋ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.05",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "resting": {
+  "target": {
+   "w": "resting",
+   "p": [
+    "r",
+    "eh",
+    "s",
+    "t",
+    "ih",
+    "ng"
+   ],
+   "ipa": "ɹˈɛstɪŋ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "nesting",
+    "p": [
+     "n",
+     "eh",
+     "s",
+     "t",
+     "ih",
+     "ng"
+    ],
+    "ipa": "nˈɛstɪŋ",
+    "cell": "chain"
+   },
+   {
+    "w": "testing",
+    "p": [
+     "t",
+     "eh",
+     "s",
+     "t",
+     "ih",
+     "ng"
+    ],
+    "ipa": "tˈɛstɪŋ",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.11",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "rich": {
+  "target": {
+   "w": "rich",
+   "p": [
+    "r",
+    "ih",
+    "ch"
+   ],
+   "ipa": "ɹˈɪʧ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "pitch",
+    "p": [
+     "p",
+     "ih",
+     "ch"
+    ],
+    "ipa": "pˈɪʧ",
+    "cell": "onset"
+   },
+   {
+    "w": "reach",
+    "p": [
+     "r",
+     "iy",
+     "ch"
+    ],
+    "ipa": "ɹˈiʧ",
+    "cell": "vowel"
+   },
+   {
+    "w": "peach",
+    "p": [
+     "p",
+     "iy",
+     "ch"
+    ],
+    "ipa": "pˈiʧ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 (wide pool)",
+  "lesson": "L2.02",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "ring": {
+  "target": {
+   "w": "ring",
+   "p": [
+    "r",
+    "ih",
+    "ng"
+   ],
+   "ipa": "ɹˈɪŋ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "sing",
+    "p": [
+     "s",
+     "ih",
+     "ng"
+    ],
+    "ipa": "sˈɪŋ",
+    "cell": "onset"
+   },
+   {
+    "w": "rang",
+    "p": [
+     "r",
+     "ae",
+     "ng"
+    ],
+    "ipa": "ɹˈæŋ",
+    "cell": "vowel"
+   },
+   {
+    "w": "sang",
+    "p": [
+     "s",
+     "ae",
+     "ng"
+    ],
+    "ipa": "sˈæŋ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.05",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "rush": {
+  "target": {
+   "w": "rush",
+   "p": [
+    "r",
+    "ah",
+    "sh"
+   ],
+   "ipa": "ɹˈʌʃ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "hush",
+    "p": [
+     "hh",
+     "ah",
+     "sh"
+    ],
+    "ipa": "hˈʌʃ",
+    "cell": "onset"
+   },
+   {
+    "w": "rash",
+    "p": [
+     "r",
+     "ae",
+     "sh"
+    ],
+    "ipa": "ɹˈæʃ",
+    "cell": "vowel"
+   },
+   {
+    "w": "hash",
+    "p": [
+     "hh",
+     "ae",
+     "sh"
+    ],
+    "ipa": "hˈæʃ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.01",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "sand": {
+  "target": {
+   "w": "sand",
+   "p": [
+    "s",
+    "ae",
+    "n",
+    "d"
+   ],
+   "ipa": "sˈænd",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "land",
+    "p": [
+     "l",
+     "ae",
+     "n",
+     "d"
+    ],
+    "ipa": "lˈænd",
+    "cell": "onset"
+   },
+   {
+    "w": "send",
+    "p": [
+     "s",
+     "eh",
+     "n",
+     "d"
+    ],
+    "ipa": "sˈɛnd",
+    "cell": "vowel"
+   },
+   {
+    "w": "lend",
+    "p": [
+     "l",
+     "eh",
+     "n",
+     "d"
+    ],
+    "ipa": "lˈɛnd",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.07",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "says": {
+  "target": {
+   "w": "says",
+   "p": [
+    "s",
+    "eh",
+    "z"
+   ],
+   "ipa": "sˈɛz",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "said",
+    "p": [
+     "s",
+     "eh",
+     "d"
+    ],
+    "ipa": "sˈɛd",
+    "cell": "chain"
+   },
+   {
+    "w": "med",
+    "p": [
+     "m",
+     "eh",
+     "d"
+    ],
+    "ipa": "mˈɛd",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.14",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "scan": {
+  "target": {
+   "w": "scan",
+   "p": [
+    "s",
+    "k",
+    "ae",
+    "n"
+   ],
+   "ipa": "skˈæn",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "span",
+    "p": [
+     "s",
+     "p",
+     "ae",
+     "n"
+    ],
+    "ipa": "spˈæn",
+    "cell": "onset"
+   },
+   {
+    "w": "skin",
+    "p": [
+     "s",
+     "k",
+     "ih",
+     "n"
+    ],
+    "ipa": "skˈɪn",
+    "cell": "vowel"
+   },
+   {
+    "w": "spin",
+    "p": [
+     "s",
+     "p",
+     "ih",
+     "n"
+    ],
+    "ipa": "spˈɪn",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.06",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 1,
+   "vowel": 2
+  },
+  "stress": 2
+ },
+ "scrap": {
+  "target": {
+   "w": "scrap",
+   "p": [
+    "s",
+    "k",
+    "r",
+    "ae",
+    "p"
+   ],
+   "ipa": "skɹˈæp",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "strap",
+    "p": [
+     "s",
+     "t",
+     "r",
+     "ae",
+     "p"
+    ],
+    "ipa": "stɹˈæp",
+    "cell": "chain"
+   },
+   {
+    "w": "strip",
+    "p": [
+     "s",
+     "t",
+     "r",
+     "ih",
+     "p"
+    ],
+    "ipa": "stɹˈɪp",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.08",
+  "axes": [],
+  "early": true,
+  "stress": 3
+ },
+ "scrin": {
+  "target": {
+   "w": "scrin",
+   "p": [
+    "s",
+    "k",
+    "r",
+    "ih",
+    "n"
+   ],
+   "ipa": "skɹˈɪn",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "skwin",
+    "p": [
+     "s",
+     "k",
+     "w",
+     "ih",
+     "n"
+    ],
+    "ipa": "skwˈɪn",
+    "cell": "onset"
+   },
+   {
+    "w": "scran",
+    "p": [
+     "s",
+     "k",
+     "r",
+     "ae",
+     "n"
+    ],
+    "ipa": "skɹˈæn",
+    "cell": "vowel"
+   },
+   {
+    "w": "skwan",
+    "p": [
+     "s",
+     "k",
+     "w",
+     "ae",
+     "n"
+    ],
+    "ipa": "skwˈæn",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.08",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 2,
+   "vowel": 3
+  },
+  "stress": 3
+ },
+ "shall": {
+  "target": {
+   "w": "shall",
+   "p": [
+    "sh",
+    "ae",
+    "l"
+   ],
+   "ipa": "ʃˈæl",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "pal",
+    "p": [
+     "p",
+     "ae",
+     "l"
+    ],
+    "ipa": "pˈæl",
+    "cell": "onset"
+   },
+   {
+    "w": "shale",
+    "p": [
+     "sh",
+     "ey",
+     "l"
+    ],
+    "ipa": "ʃˈeɪl",
+    "cell": "vowel"
+   },
+   {
+    "w": "pale",
+    "p": [
+     "p",
+     "ey",
+     "l"
+    ],
+    "ipa": "pˈeɪl",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 (wide pool)",
+  "lesson": "L2.01",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "shalps": {
+  "target": {
+   "w": "shalps",
+   "p": [
+    "sh",
+    "ae",
+    "l",
+    "p",
+    "s"
+   ],
+   "ipa": "ʃˈælps",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "yalps",
+    "p": [
+     "y",
+     "ae",
+     "l",
+     "p",
+     "s"
+    ],
+    "ipa": "jˈælps",
+    "cell": "onset"
+   },
+   {
+    "w": "shilps",
+    "p": [
+     "sh",
+     "ih",
+     "l",
+     "p",
+     "s"
+    ],
+    "ipa": "ʃˈɪlps",
+    "cell": "vowel"
+   },
+   {
+    "w": "yilps",
+    "p": [
+     "y",
+     "ih",
+     "l",
+     "p",
+     "s"
+    ],
+    "ipa": "jˈɪlps",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.09",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "shap": {
+  "target": {
+   "w": "shap",
+   "p": [
+    "sh",
+    "ae",
+    "p"
+   ],
+   "ipa": "ʃˈæp",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "bap",
+    "p": [
+     "b",
+     "ae",
+     "p"
+    ],
+    "ipa": "bˈæp",
+    "cell": "onset"
+   },
+   {
+    "w": "shup",
+    "p": [
+     "sh",
+     "ah",
+     "p"
+    ],
+    "ipa": "ʃˈʌp",
+    "cell": "vowel"
+   },
+   {
+    "w": "bup",
+    "p": [
+     "b",
+     "ah",
+     "p"
+    ],
+    "ipa": "bˈʌp",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.01",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "shed": {
+  "target": {
+   "w": "shed",
+   "p": [
+    "sh",
+    "eh",
+    "d"
+   ],
+   "ipa": "ʃˈɛd",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "red",
+    "p": [
+     "r",
+     "eh",
+     "d"
+    ],
+    "ipa": "ɹˈɛd",
+    "cell": "onset"
+   },
+   {
+    "w": "showed",
+    "p": [
+     "sh",
+     "ow",
+     "d"
+    ],
+    "ipa": "ʃˈoʊd",
+    "cell": "vowel"
+   },
+   {
+    "w": "road",
+    "p": [
+     "r",
+     "ow",
+     "d"
+    ],
+    "ipa": "ɹˈoʊd",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 (wide pool)",
+  "lesson": "L2.01",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "shell": {
+  "target": {
+   "w": "shell",
+   "p": [
+    "sh",
+    "eh",
+    "l"
+   ],
+   "ipa": "ʃˈɛl",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "tell",
+    "p": [
+     "t",
+     "eh",
+     "l"
+    ],
+    "ipa": "tˈɛl",
+    "cell": "onset"
+   },
+   {
+    "w": "shale",
+    "p": [
+     "sh",
+     "ey",
+     "l"
+    ],
+    "ipa": "ʃˈeɪl",
+    "cell": "vowel"
+   },
+   {
+    "w": "tail",
+    "p": [
+     "t",
+     "ey",
+     "l"
+    ],
+    "ipa": "tˈeɪl",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 (wide pool)",
+  "lesson": "L2.01",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "shig": {
+  "target": {
+   "w": "shig",
+   "p": [
+    "sh",
+    "ih",
+    "g"
+   ],
+   "ipa": "ʃˈɪɡ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "kig",
+    "p": [
+     "k",
+     "ih",
+     "g"
+    ],
+    "ipa": "kˈɪɡ",
+    "cell": "onset"
+   },
+   {
+    "w": "shug",
+    "p": [
+     "sh",
+     "ah",
+     "g"
+    ],
+    "ipa": "ʃˈʌɡ",
+    "cell": "vowel"
+   },
+   {
+    "w": "cug",
+    "p": [
+     "k",
+     "ah",
+     "g"
+    ],
+    "ipa": "kˈʌɡ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.01",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "shin": {
+  "target": {
+   "w": "shin",
+   "p": [
+    "sh",
+    "ih",
+    "n"
+   ],
+   "ipa": "ʃˈɪn",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "bin",
+    "p": [
+     "b",
+     "ih",
+     "n"
+    ],
+    "ipa": "bˈɪn",
+    "cell": "onset"
+   },
+   {
+    "w": "shun",
+    "p": [
+     "sh",
+     "ah",
+     "n"
+    ],
+    "ipa": "ʃˈʌn",
+    "cell": "vowel"
+   },
+   {
+    "w": "bun",
+    "p": [
+     "b",
+     "ah",
+     "n"
+    ],
+    "ipa": "bˈʌn",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.01",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "ship": {
+  "target": {
+   "w": "ship",
+   "p": [
+    "sh",
+    "ih",
+    "p"
+   ],
+   "ipa": "ʃˈɪp",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "hip",
+    "p": [
+     "hh",
+     "ih",
+     "p"
+    ],
+    "ipa": "hˈɪp",
+    "cell": "onset"
+   },
+   {
+    "w": "shop",
+    "p": [
+     "sh",
+     "aa",
+     "p"
+    ],
+    "ipa": "ʃˈɑp",
+    "cell": "vowel"
+   },
+   {
+    "w": "hop",
+    "p": [
+     "hh",
+     "aa",
+     "p"
+    ],
+    "ipa": "hˈɑp",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.01",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "shob": {
+  "target": {
+   "w": "shob",
+   "p": [
+    "sh",
+    "aa",
+    "b"
+   ],
+   "ipa": "ʃˈɑb",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "pob",
+    "p": [
+     "p",
+     "aa",
+     "b"
+    ],
+    "ipa": "pˈɑb",
+    "cell": "onset"
+   },
+   {
+    "w": "sheb",
+    "p": [
+     "sh",
+     "eh",
+     "b"
+    ],
+    "ipa": "ʃˈɛb",
+    "cell": "vowel"
+   },
+   {
+    "w": "peb",
+    "p": [
+     "p",
+     "eh",
+     "b"
+    ],
+    "ipa": "pˈɛb",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.01",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "shom": {
+  "target": {
+   "w": "shom",
+   "p": [
+    "sh",
+    "aa",
+    "m"
+   ],
+   "ipa": "ʃˈɑm",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "zom",
+    "p": [
+     "z",
+     "aa",
+     "m"
+    ],
+    "ipa": "zˈɑm",
+    "cell": "onset"
+   },
+   {
+    "w": "shem",
+    "p": [
+     "sh",
+     "eh",
+     "m"
+    ],
+    "ipa": "ʃˈɛm",
+    "cell": "vowel"
+   },
+   {
+    "w": "zem",
+    "p": [
+     "z",
+     "eh",
+     "m"
+    ],
+    "ipa": "zˈɛm",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.01",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "shop": {
+  "target": {
+   "w": "shop",
+   "p": [
+    "sh",
+    "aa",
+    "p"
+   ],
+   "ipa": "ʃˈɑp",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "hop",
+    "p": [
+     "hh",
+     "aa",
+     "p"
+    ],
+    "ipa": "hˈɑp",
+    "cell": "onset"
+   },
+   {
+    "w": "ship",
+    "p": [
+     "sh",
+     "ih",
+     "p"
+    ],
+    "ipa": "ʃˈɪp",
+    "cell": "vowel"
+   },
+   {
+    "w": "hip",
+    "p": [
+     "hh",
+     "ih",
+     "p"
+    ],
+    "ipa": "hˈɪp",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.01",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "should": {
+  "target": {
+   "w": "should",
+   "p": [
+    "sh",
+    "uh",
+    "d"
+   ],
+   "ipa": "ʃˈʊd",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "hood",
+    "p": [
+     "hh",
+     "uh",
+     "d"
+    ],
+    "ipa": "hˈʊd",
+    "cell": "onset"
+   },
+   {
+    "w": "shed",
+    "p": [
+     "sh",
+     "eh",
+     "d"
+    ],
+    "ipa": "ʃˈɛd",
+    "cell": "vowel"
+   },
+   {
+    "w": "head",
+    "p": [
+     "hh",
+     "eh",
+     "d"
+    ],
+    "ipa": "hˈɛd",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.14",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "shreck": {
+  "target": {
+   "w": "shreck",
+   "p": [
+    "sh",
+    "r",
+    "eh",
+    "k"
+   ],
+   "ipa": "ʃɹˈɛk",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "shreth",
+    "p": [
+     "sh",
+     "r",
+     "eh",
+     "th"
+    ],
+    "ipa": "ʃɹˈɛθ",
+    "cell": "chain"
+   },
+   {
+    "w": "shrech",
+    "p": [
+     "sh",
+     "r",
+     "eh",
+     "ch"
+    ],
+    "ipa": "ʃɹˈɛʧ",
+    "cell": "chain"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "early chain",
+  "lesson": "L2.08",
+  "axes": [],
+  "early": true,
+  "stress": 2
+ },
+ "shrub": {
+  "target": {
+   "w": "shrub",
+   "p": [
+    "sh",
+    "r",
+    "ah",
+    "b"
+   ],
+   "ipa": "ʃɹˈʌb",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "shrug",
+    "p": [
+     "sh",
+     "r",
+     "ah",
+     "g"
+    ],
+    "ipa": "ʃɹˈʌɡ",
+    "cell": "chain"
+   },
+   {
+    "w": "drug",
+    "p": [
+     "d",
+     "r",
+     "ah",
+     "g"
+    ],
+    "ipa": "dɹˈʌɡ",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.08",
+  "axes": [],
+  "early": true,
+  "stress": 2
+ },
+ "shut": {
+  "target": {
+   "w": "shut",
+   "p": [
+    "sh",
+    "ah",
+    "t"
+   ],
+   "ipa": "ʃˈʌt",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "hut",
+    "p": [
+     "hh",
+     "ah",
+     "t"
+    ],
+    "ipa": "hˈʌt",
+    "cell": "onset"
+   },
+   {
+    "w": "shot",
+    "p": [
+     "sh",
+     "aa",
+     "t"
+    ],
+    "ipa": "ʃˈɑt",
+    "cell": "vowel"
+   },
+   {
+    "w": "hot",
+    "p": [
+     "hh",
+     "aa",
+     "t"
+    ],
+    "ipa": "hˈɑt",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.01",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "silk": {
+  "target": {
+   "w": "silk",
+   "p": [
+    "s",
+    "ih",
+    "l",
+    "k"
+   ],
+   "ipa": "sˈɪlk",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "sink",
+    "p": [
+     "s",
+     "ih",
+     "ng",
+     "k"
+    ],
+    "ipa": "sˈɪŋk",
+    "cell": "chain"
+   },
+   {
+    "w": "wink",
+    "p": [
+     "w",
+     "ih",
+     "ng",
+     "k"
+    ],
+    "ipa": "wˈɪŋk",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.07",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "sing": {
+  "target": {
+   "w": "sing",
+   "p": [
+    "s",
+    "ih",
+    "ng"
+   ],
+   "ipa": "sˈɪŋ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "ring",
+    "p": [
+     "r",
+     "ih",
+     "ng"
+    ],
+    "ipa": "ɹˈɪŋ",
+    "cell": "onset"
+   },
+   {
+    "w": "sang",
+    "p": [
+     "s",
+     "ae",
+     "ng"
+    ],
+    "ipa": "sˈæŋ",
+    "cell": "vowel"
+   },
+   {
+    "w": "rang",
+    "p": [
+     "r",
+     "ae",
+     "ng"
+    ],
+    "ipa": "ɹˈæŋ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.05",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "sink": {
+  "target": {
+   "w": "sink",
+   "p": [
+    "s",
+    "ih",
+    "ng",
+    "k"
+   ],
+   "ipa": "sˈɪŋk",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "think",
+    "p": [
+     "th",
+     "ih",
+     "ng",
+     "k"
+    ],
+    "ipa": "θˈɪŋk",
+    "cell": "onset"
+   },
+   {
+    "w": "sank",
+    "p": [
+     "s",
+     "ae",
+     "ng",
+     "k"
+    ],
+    "ipa": "sˈæŋk",
+    "cell": "vowel"
+   },
+   {
+    "w": "thank",
+    "p": [
+     "th",
+     "ae",
+     "ng",
+     "k"
+    ],
+    "ipa": "θˈæŋk",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.05",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "skin": {
+  "target": {
+   "w": "skin",
+   "p": [
+    "s",
+    "k",
+    "ih",
+    "n"
+   ],
+   "ipa": "skˈɪn",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "spin",
+    "p": [
+     "s",
+     "p",
+     "ih",
+     "n"
+    ],
+    "ipa": "spˈɪn",
+    "cell": "onset"
+   },
+   {
+    "w": "scan",
+    "p": [
+     "s",
+     "k",
+     "ae",
+     "n"
+    ],
+    "ipa": "skˈæn",
+    "cell": "vowel"
+   },
+   {
+    "w": "span",
+    "p": [
+     "s",
+     "p",
+     "ae",
+     "n"
+    ],
+    "ipa": "spˈæn",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.06",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 1,
+   "vowel": 2
+  },
+  "stress": 2
+ },
+ "slip": {
+  "target": {
+   "w": "slip",
+   "p": [
+    "s",
+    "l",
+    "ih",
+    "p"
+   ],
+   "ipa": "slˈɪp",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "skip",
+    "p": [
+     "s",
+     "k",
+     "ih",
+     "p"
+    ],
+    "ipa": "skˈɪp",
+    "cell": "onset"
+   },
+   {
+    "w": "slope",
+    "p": [
+     "s",
+     "l",
+     "ow",
+     "p"
+    ],
+    "ipa": "slˈoʊp",
+    "cell": "vowel"
+   },
+   {
+    "w": "scope",
+    "p": [
+     "s",
+     "k",
+     "ow",
+     "p"
+    ],
+    "ipa": "skˈoʊp",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 (wide pool)",
+  "lesson": "L2.06",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 1,
+   "vowel": 2
+  },
+  "stress": 2
+ },
+ "smell": {
+  "target": {
+   "w": "smell",
+   "p": [
+    "s",
+    "m",
+    "eh",
+    "l"
+   ],
+   "ipa": "smˈɛl",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "spell",
+    "p": [
+     "s",
+     "p",
+     "eh",
+     "l"
+    ],
+    "ipa": "spˈɛl",
+    "cell": "chain"
+   },
+   {
+    "w": "swell",
+    "p": [
+     "s",
+     "w",
+     "eh",
+     "l"
+    ],
+    "ipa": "swˈɛl",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.06",
+  "axes": [],
+  "early": true,
+  "stress": 2
+ },
+ "snap": {
+  "target": {
+   "w": "snap",
+   "p": [
+    "s",
+    "n",
+    "ae",
+    "p"
+   ],
+   "ipa": "snˈæp",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "slap",
+    "p": [
+     "s",
+     "l",
+     "ae",
+     "p"
+    ],
+    "ipa": "slˈæp",
+    "cell": "onset"
+   },
+   {
+    "w": "snack",
+    "p": [
+     "s",
+     "n",
+     "ae",
+     "k"
+    ],
+    "ipa": "snˈæk",
+    "cell": "final"
+   },
+   {
+    "w": "slack",
+    "p": [
+     "s",
+     "l",
+     "ae",
+     "k"
+    ],
+    "ipa": "slˈæk",
+    "cell": "onset+final"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 onset+final",
+  "lesson": "L2.06",
+  "axes": [
+   "onset",
+   "final"
+  ],
+  "pos": {
+   "onset": 1,
+   "final": 3
+  },
+  "stress": 2
+ },
+ "soft": {
+  "target": {
+   "w": "soft",
+   "p": [
+    "s",
+    "aa",
+    "f",
+    "t"
+   ],
+   "ipa": "sˈɑft",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "sift",
+    "p": [
+     "s",
+     "ih",
+     "f",
+     "t"
+    ],
+    "ipa": "sˈɪft",
+    "cell": "chain"
+   },
+   {
+    "w": "gift",
+    "p": [
+     "g",
+     "ih",
+     "f",
+     "t"
+    ],
+    "ipa": "ɡˈɪft",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.07",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "some": {
+  "target": {
+   "w": "some",
+   "p": [
+    "s",
+    "ah",
+    "m"
+   ],
+   "ipa": "sˈʌm",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "yum",
+    "p": [
+     "y",
+     "ah",
+     "m"
+    ],
+    "ipa": "jˈʌm",
+    "cell": "onset"
+   },
+   {
+    "w": "sam",
+    "p": [
+     "s",
+     "ae",
+     "m"
+    ],
+    "ipa": "sˈæm",
+    "cell": "vowel"
+   },
+   {
+    "w": "yam",
+    "p": [
+     "y",
+     "ae",
+     "m"
+    ],
+    "ipa": "jˈæm",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.14",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "song": {
+  "target": {
+   "w": "song",
+   "p": [
+    "s",
+    "ao",
+    "ng"
+   ],
+   "ipa": "sˈɔŋ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "wrong",
+    "p": [
+     "r",
+     "ao",
+     "ng"
+    ],
+    "ipa": "ɹˈɔŋ",
+    "cell": "onset"
+   },
+   {
+    "w": "sing",
+    "p": [
+     "s",
+     "ih",
+     "ng"
+    ],
+    "ipa": "sˈɪŋ",
+    "cell": "vowel"
+   },
+   {
+    "w": "ring",
+    "p": [
+     "r",
+     "ih",
+     "ng"
+    ],
+    "ipa": "ɹˈɪŋ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.05",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "sonk": {
+  "target": {
+   "w": "sonk",
+   "p": [
+    "s",
+    "aa",
+    "ng",
+    "k"
+   ],
+   "ipa": "sˈɑŋk",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "thonk",
+    "p": [
+     "dh",
+     "aa",
+     "ng",
+     "k"
+    ],
+    "ipa": "ðˈɑŋk",
+    "cell": "onset"
+   },
+   {
+    "w": "soank",
+    "p": [
+     "s",
+     "ow",
+     "ng",
+     "k"
+    ],
+    "ipa": "sˈoʊŋk",
+    "cell": "vowel"
+   },
+   {
+    "w": "thoank",
+    "p": [
+     "dh",
+     "ow",
+     "ng",
+     "k"
+    ],
+    "ipa": "ðˈoʊŋk",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2 (wide pool)",
+  "lesson": "L2.05",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "spin": {
+  "target": {
+   "w": "spin",
+   "p": [
+    "s",
+    "p",
+    "ih",
+    "n"
+   ],
+   "ipa": "spˈɪn",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "skin",
+    "p": [
+     "s",
+     "k",
+     "ih",
+     "n"
+    ],
+    "ipa": "skˈɪn",
+    "cell": "onset"
+   },
+   {
+    "w": "span",
+    "p": [
+     "s",
+     "p",
+     "ae",
+     "n"
+    ],
+    "ipa": "spˈæn",
+    "cell": "vowel"
+   },
+   {
+    "w": "scan",
+    "p": [
+     "s",
+     "k",
+     "ae",
+     "n"
+    ],
+    "ipa": "skˈæn",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.06",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 1,
+   "vowel": 2
+  },
+  "stress": 2
+ },
+ "splob": {
+  "target": {
+   "w": "splob",
+   "p": [
+    "s",
+    "p",
+    "l",
+    "aa",
+    "b"
+   ],
+   "ipa": "splˈɑb",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "sprob",
+    "p": [
+     "s",
+     "p",
+     "r",
+     "aa",
+     "b"
+    ],
+    "ipa": "spɹˈɑb",
+    "cell": "onset"
+   },
+   {
+    "w": "splib",
+    "p": [
+     "s",
+     "p",
+     "l",
+     "ih",
+     "b"
+    ],
+    "ipa": "splˈɪb",
+    "cell": "vowel"
+   },
+   {
+    "w": "sprib",
+    "p": [
+     "s",
+     "p",
+     "r",
+     "ih",
+     "b"
+    ],
+    "ipa": "spɹˈɪb",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.08",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 2,
+   "vowel": 3
+  },
+  "stress": 3
+ },
+ "splunt": {
+  "target": {
+   "w": "splunt",
+   "p": [
+    "s",
+    "p",
+    "l",
+    "ah",
+    "n",
+    "t"
+   ],
+   "ipa": "splˈʌnt",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "sprunt",
+    "p": [
+     "s",
+     "p",
+     "r",
+     "ah",
+     "n",
+     "t"
+    ],
+    "ipa": "spɹˈʌnt",
+    "cell": "onset"
+   },
+   {
+    "w": "splent",
+    "p": [
+     "s",
+     "p",
+     "l",
+     "eh",
+     "n",
+     "t"
+    ],
+    "ipa": "splˈɛnt",
+    "cell": "vowel"
+   },
+   {
+    "w": "sprent",
+    "p": [
+     "s",
+     "p",
+     "r",
+     "eh",
+     "n",
+     "t"
+    ],
+    "ipa": "spɹˈɛnt",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.14",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 2,
+   "vowel": 3
+  },
+  "stress": 3
+ },
+ "spuff": {
+  "target": {
+   "w": "spuff",
+   "p": [
+    "s",
+    "p",
+    "ah",
+    "f"
+   ],
+   "ipa": "spˈʌf",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "swuf",
+    "p": [
+     "s",
+     "w",
+     "ah",
+     "f"
+    ],
+    "ipa": "swˈʌf",
+    "cell": "onset"
+   },
+   {
+    "w": "spif",
+    "p": [
+     "s",
+     "p",
+     "ih",
+     "f"
+    ],
+    "ipa": "spˈɪf",
+    "cell": "vowel"
+   },
+   {
+    "w": "swif",
+    "p": [
+     "s",
+     "w",
+     "ih",
+     "f"
+    ],
+    "ipa": "swˈɪf",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.06",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 1,
+   "vowel": 2
+  },
+  "stress": 2
+ },
+ "squid": {
+  "target": {
+   "w": "squid",
+   "p": [
+    "s",
+    "k",
+    "w",
+    "ih",
+    "d"
+   ],
+   "ipa": "skwˈɪd",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "squad",
+    "p": [
+     "s",
+     "k",
+     "w",
+     "aa",
+     "d"
+    ],
+    "ipa": "skwˈɑd",
+    "cell": "chain"
+   },
+   {
+    "w": "squash",
+    "p": [
+     "s",
+     "k",
+     "w",
+     "aa",
+     "sh"
+    ],
+    "ipa": "skwˈɑʃ",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.08",
+  "axes": [],
+  "early": true,
+  "stress": 3
+ },
+ "stad": {
+  "target": {
+   "w": "stad",
+   "p": [
+    "s",
+    "t",
+    "ae",
+    "d"
+   ],
+   "ipa": "stˈæd",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "swad",
+    "p": [
+     "s",
+     "w",
+     "ae",
+     "d"
+    ],
+    "ipa": "swˈæd",
+    "cell": "onset"
+   },
+   {
+    "w": "stid",
+    "p": [
+     "s",
+     "t",
+     "ih",
+     "d"
+    ],
+    "ipa": "stˈɪd",
+    "cell": "vowel"
+   },
+   {
+    "w": "swid",
+    "p": [
+     "s",
+     "w",
+     "ih",
+     "d"
+    ],
+    "ipa": "swˈɪd",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.06",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 1,
+   "vowel": 2
+  },
+  "stress": 2
+ },
+ "stop": {
+  "target": {
+   "w": "stop",
+   "p": [
+    "s",
+    "t",
+    "aa",
+    "p"
+   ],
+   "ipa": "stˈɑp",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "swap",
+    "p": [
+     "s",
+     "w",
+     "aa",
+     "p"
+    ],
+    "ipa": "swˈɑp",
+    "cell": "onset"
+   },
+   {
+    "w": "steep",
+    "p": [
+     "s",
+     "t",
+     "iy",
+     "p"
+    ],
+    "ipa": "stˈip",
+    "cell": "vowel"
+   },
+   {
+    "w": "sweep",
+    "p": [
+     "s",
+     "w",
+     "iy",
+     "p"
+    ],
+    "ipa": "swˈip",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 (wide pool)",
+  "lesson": "L2.06",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 1,
+   "vowel": 2
+  },
+  "stress": 2
+ },
+ "strab": {
+  "target": {
+   "w": "strab",
+   "p": [
+    "s",
+    "t",
+    "r",
+    "ae",
+    "b"
+   ],
+   "ipa": "stɹˈæb",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "strash",
+    "p": [
+     "s",
+     "t",
+     "r",
+     "ae",
+     "sh"
+    ],
+    "ipa": "stɹˈæʃ",
+    "cell": "chain"
+   },
+   {
+    "w": "strach",
+    "p": [
+     "s",
+     "t",
+     "r",
+     "ae",
+     "ch"
+    ],
+    "ipa": "stɹˈæʧ",
+    "cell": "chain"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "early chain",
+  "lesson": "L2.08",
+  "axes": [],
+  "early": true,
+  "stress": 3
+ },
+ "strap": {
+  "target": {
+   "w": "strap",
+   "p": [
+    "s",
+    "t",
+    "r",
+    "ae",
+    "p"
+   ],
+   "ipa": "stɹˈæp",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "strip",
+    "p": [
+     "s",
+     "t",
+     "r",
+     "ih",
+     "p"
+    ],
+    "ipa": "stɹˈɪp",
+    "cell": "chain"
+   },
+   {
+    "w": "string",
+    "p": [
+     "s",
+     "t",
+     "r",
+     "ih",
+     "ng"
+    ],
+    "ipa": "stɹˈɪŋ",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.08",
+  "axes": [],
+  "early": true,
+  "stress": 3
+ },
+ "strict": {
+  "target": {
+   "w": "strict",
+   "p": [
+    "s",
+    "t",
+    "r",
+    "ih",
+    "k",
+    "t"
+   ],
+   "ipa": "stɹˈɪkt",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "stripped",
+    "p": [
+     "s",
+     "t",
+     "r",
+     "ih",
+     "p",
+     "t"
+    ],
+    "ipa": "stɹˈɪpt",
+    "cell": "chain"
+   },
+   {
+    "w": "strips",
+    "p": [
+     "s",
+     "t",
+     "r",
+     "ih",
+     "p",
+     "s"
+    ],
+    "ipa": "stɹˈɪps",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.08",
+  "axes": [],
+  "early": true,
+  "stress": 3
+ },
+ "string": {
+  "target": {
+   "w": "string",
+   "p": [
+    "s",
+    "t",
+    "r",
+    "ih",
+    "ng"
+   ],
+   "ipa": "stɹˈɪŋ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "strung",
+    "p": [
+     "s",
+     "t",
+     "r",
+     "ah",
+     "ng"
+    ],
+    "ipa": "stɹˈʌŋ",
+    "cell": "chain"
+   },
+   {
+    "w": "struck",
+    "p": [
+     "s",
+     "t",
+     "r",
+     "ah",
+     "k"
+    ],
+    "ipa": "stɹˈʌk",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.08",
+  "axes": [],
+  "early": true,
+  "stress": 3
+ },
+ "strishing": {
+  "target": {
+   "w": "strishing",
+   "p": [
+    "s",
+    "t",
+    "r",
+    "ih",
+    "sh",
+    "ih",
+    "ng"
+   ],
+   "ipa": "stɹˈɪʃɪŋ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "strishil",
+    "p": [
+     "s",
+     "t",
+     "r",
+     "ih",
+     "sh",
+     "ih",
+     "l"
+    ],
+    "ipa": "stɹˈɪʃɪl",
+    "cell": "chain"
+   },
+   {
+    "w": "strifil",
+    "p": [
+     "s",
+     "t",
+     "r",
+     "ih",
+     "f",
+     "ih",
+     "l"
+    ],
+    "ipa": "stɹˈɪfɪl",
+    "cell": "chain"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "early chain",
+  "lesson": "L2.13",
+  "axes": [],
+  "early": true,
+  "stress": 3
+ },
+ "stronker": {
+  "target": {
+   "w": "stronker",
+   "p": [
+    "s",
+    "t",
+    "r",
+    "aa",
+    "ng",
+    "k",
+    "er"
+   ],
+   "ipa": "stɹˈɑŋkɝ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "strowker",
+    "p": [
+     "s",
+     "t",
+     "r",
+     "aa",
+     "w",
+     "k",
+     "er"
+    ],
+    "ipa": "stɹˈɑwkɝ",
+    "cell": "chain"
+   },
+   {
+    "w": "strobker",
+    "p": [
+     "s",
+     "t",
+     "r",
+     "aa",
+     "b",
+     "k",
+     "er"
+    ],
+    "ipa": "stɹˈɑbkɝ",
+    "cell": "chain"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "early chain",
+  "lesson": "L2.11",
+  "axes": [],
+  "early": true,
+  "stress": 3
+ },
+ "such": {
+  "target": {
+   "w": "such",
+   "p": [
+    "s",
+    "ah",
+    "ch"
+   ],
+   "ipa": "sˈʌʧ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "hutch",
+    "p": [
+     "hh",
+     "ah",
+     "ch"
+    ],
+    "ipa": "hˈʌʧ",
+    "cell": "onset"
+   },
+   {
+    "w": "some",
+    "p": [
+     "s",
+     "ah",
+     "m"
+    ],
+    "ipa": "sˈʌm",
+    "cell": "final"
+   },
+   {
+    "w": "hum",
+    "p": [
+     "hh",
+     "ah",
+     "m"
+    ],
+    "ipa": "hˈʌm",
+    "cell": "onset+final"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 onset+final",
+  "lesson": "L2.02",
+  "axes": [
+   "onset",
+   "final"
+  ],
+  "pos": {
+   "onset": 0,
+   "final": 2
+  },
+  "stress": 1
+ },
+ "swim": {
+  "target": {
+   "w": "swim",
+   "p": [
+    "s",
+    "w",
+    "ih",
+    "m"
+   ],
+   "ipa": "swˈɪm",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "slim",
+    "p": [
+     "s",
+     "l",
+     "ih",
+     "m"
+    ],
+    "ipa": "slˈɪm",
+    "cell": "onset"
+   },
+   {
+    "w": "swam",
+    "p": [
+     "s",
+     "w",
+     "ae",
+     "m"
+    ],
+    "ipa": "swˈæm",
+    "cell": "vowel"
+   },
+   {
+    "w": "slam",
+    "p": [
+     "s",
+     "l",
+     "ae",
+     "m"
+    ],
+    "ipa": "slˈæm",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.06",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 1,
+   "vowel": 2
+  },
+  "stress": 2
+ },
+ "tank": {
+  "target": {
+   "w": "tank",
+   "p": [
+    "t",
+    "ae",
+    "ng",
+    "k"
+   ],
+   "ipa": "tˈæŋk",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "rank",
+    "p": [
+     "r",
+     "ae",
+     "ng",
+     "k"
+    ],
+    "ipa": "ɹˈæŋk",
+    "cell": "chain"
+   },
+   {
+    "w": "bank",
+    "p": [
+     "b",
+     "ae",
+     "ng",
+     "k"
+    ],
+    "ipa": "bˈæŋk",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.05",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "tent": {
+  "target": {
+   "w": "tent",
+   "p": [
+    "t",
+    "eh",
+    "n",
+    "t"
+   ],
+   "ipa": "tˈɛnt",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "meant",
+    "p": [
+     "m",
+     "eh",
+     "n",
+     "t"
+    ],
+    "ipa": "mˈɛnt",
+    "cell": "onset"
+   },
+   {
+    "w": "tint",
+    "p": [
+     "t",
+     "ih",
+     "n",
+     "t"
+    ],
+    "ipa": "tˈɪnt",
+    "cell": "vowel"
+   },
+   {
+    "w": "mint",
+    "p": [
+     "m",
+     "ih",
+     "n",
+     "t"
+    ],
+    "ipa": "mˈɪnt",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.07",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "thab": {
+  "target": {
+   "w": "thab",
+   "p": [
+    "th",
+    "ae",
+    "b"
+   ],
+   "ipa": "θˈæb",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "yab",
+    "p": [
+     "y",
+     "ae",
+     "b"
+    ],
+    "ipa": "jˈæb",
+    "cell": "onset"
+   },
+   {
+    "w": "thub",
+    "p": [
+     "th",
+     "ah",
+     "b"
+    ],
+    "ipa": "θˈʌb",
+    "cell": "vowel"
+   },
+   {
+    "w": "yub",
+    "p": [
+     "y",
+     "ah",
+     "b"
+    ],
+    "ipa": "jˈʌb",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.03",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "than": {
+  "target": {
+   "w": "than",
+   "p": [
+    "dh",
+    "ae",
+    "n"
+   ],
+   "ipa": "ðˈæn",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "san",
+    "p": [
+     "s",
+     "ae",
+     "n"
+    ],
+    "ipa": "sˈæn",
+    "cell": "onset"
+   },
+   {
+    "w": "then",
+    "p": [
+     "dh",
+     "eh",
+     "n"
+    ],
+    "ipa": "ðˈɛn",
+    "cell": "vowel"
+   },
+   {
+    "w": "sen",
+    "p": [
+     "s",
+     "eh",
+     "n"
+    ],
+    "ipa": "sˈɛn",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.03",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "that": {
+  "target": {
+   "w": "that",
+   "p": [
+    "dh",
+    "ae",
+    "t"
+   ],
+   "ipa": "ðˈæt",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "bat",
+    "p": [
+     "b",
+     "ae",
+     "t"
+    ],
+    "ipa": "bˈæt",
+    "cell": "chain"
+   },
+   {
+    "w": "bit",
+    "p": [
+     "b",
+     "ih",
+     "t"
+    ],
+    "ipa": "bˈɪt",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.03",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "them": {
+  "target": {
+   "w": "them",
+   "p": [
+    "dh",
+    "eh",
+    "m"
+   ],
+   "ipa": "ðˈɛm",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "gem",
+    "p": [
+     "jh",
+     "eh",
+     "m"
+    ],
+    "ipa": "ʤˈɛm",
+    "cell": "onset"
+   },
+   {
+    "w": "then",
+    "p": [
+     "dh",
+     "eh",
+     "n"
+    ],
+    "ipa": "ðˈɛn",
+    "cell": "final"
+   },
+   {
+    "w": "gen",
+    "p": [
+     "jh",
+     "eh",
+     "n"
+    ],
+    "ipa": "ʤˈɛn",
+    "cell": "onset+final"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 onset+final",
+  "lesson": "L2.03",
+  "axes": [
+   "onset",
+   "final"
+  ],
+  "pos": {
+   "onset": 0,
+   "final": 2
+  },
+  "stress": 1
+ },
+ "then": {
+  "target": {
+   "w": "then",
+   "p": [
+    "dh",
+    "eh",
+    "n"
+   ],
+   "ipa": "ðˈɛn",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "sen",
+    "p": [
+     "s",
+     "eh",
+     "n"
+    ],
+    "ipa": "sˈɛn",
+    "cell": "onset"
+   },
+   {
+    "w": "thine",
+    "p": [
+     "dh",
+     "ay",
+     "n"
+    ],
+    "ipa": "ðˈaɪn",
+    "cell": "vowel"
+   },
+   {
+    "w": "sign",
+    "p": [
+     "s",
+     "ay",
+     "n"
+    ],
+    "ipa": "sˈaɪn",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 (wide pool)",
+  "lesson": "L2.03",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "there": {
+  "target": {
+   "w": "there",
+   "p": [
+    "dh",
+    "eh",
+    "r"
+   ],
+   "ipa": "ðˈɛɹ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "hair",
+    "p": [
+     "hh",
+     "eh",
+     "r"
+    ],
+    "ipa": "hˈɛɹ",
+    "cell": "onset"
+   },
+   {
+    "w": "then",
+    "p": [
+     "dh",
+     "eh",
+     "n"
+    ],
+    "ipa": "ðˈɛn",
+    "cell": "final"
+   },
+   {
+    "w": "hen",
+    "p": [
+     "hh",
+     "eh",
+     "n"
+    ],
+    "ipa": "hˈɛn",
+    "cell": "onset+final"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 onset+final",
+  "lesson": "L2.14",
+  "axes": [
+   "onset",
+   "final"
+  ],
+  "pos": {
+   "onset": 0,
+   "final": 2
+  },
+  "stress": 1
+ },
+ "thick": {
+  "target": {
+   "w": "thick",
+   "p": [
+    "th",
+    "ih",
+    "k"
+   ],
+   "ipa": "θˈɪk",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "pick",
+    "p": [
+     "p",
+     "ih",
+     "k"
+    ],
+    "ipa": "pˈɪk",
+    "cell": "onset"
+   },
+   {
+    "w": "thin",
+    "p": [
+     "th",
+     "ih",
+     "n"
+    ],
+    "ipa": "θˈɪn",
+    "cell": "final"
+   },
+   {
+    "w": "pin",
+    "p": [
+     "p",
+     "ih",
+     "n"
+    ],
+    "ipa": "pˈɪn",
+    "cell": "onset+final"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 onset+final",
+  "lesson": "L2.03",
+  "axes": [
+   "onset",
+   "final"
+  ],
+  "pos": {
+   "onset": 0,
+   "final": 2
+  },
+  "stress": 1
+ },
+ "thin": {
+  "target": {
+   "w": "thin",
+   "p": [
+    "th",
+    "ih",
+    "n"
+   ],
+   "ipa": "θˈɪn",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "pin",
+    "p": [
+     "p",
+     "ih",
+     "n"
+    ],
+    "ipa": "pˈɪn",
+    "cell": "onset"
+   },
+   {
+    "w": "thick",
+    "p": [
+     "th",
+     "ih",
+     "k"
+    ],
+    "ipa": "θˈɪk",
+    "cell": "final"
+   },
+   {
+    "w": "pick",
+    "p": [
+     "p",
+     "ih",
+     "k"
+    ],
+    "ipa": "pˈɪk",
+    "cell": "onset+final"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 onset+final",
+  "lesson": "L2.03",
+  "axes": [
+   "onset",
+   "final"
+  ],
+  "pos": {
+   "onset": 0,
+   "final": 2
+  },
+  "stress": 1
+ },
+ "think": {
+  "target": {
+   "w": "think",
+   "p": [
+    "th",
+    "ih",
+    "ng",
+    "k"
+   ],
+   "ipa": "θˈɪŋk",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "sink",
+    "p": [
+     "s",
+     "ih",
+     "ng",
+     "k"
+    ],
+    "ipa": "sˈɪŋk",
+    "cell": "onset"
+   },
+   {
+    "w": "thank",
+    "p": [
+     "th",
+     "ae",
+     "ng",
+     "k"
+    ],
+    "ipa": "θˈæŋk",
+    "cell": "vowel"
+   },
+   {
+    "w": "sank",
+    "p": [
+     "s",
+     "ae",
+     "ng",
+     "k"
+    ],
+    "ipa": "sˈæŋk",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.03",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "thinks": {
+  "target": {
+   "w": "thinks",
+   "p": [
+    "th",
+    "ih",
+    "ng",
+    "k",
+    "s"
+   ],
+   "ipa": "θˈɪŋks",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "sinks",
+    "p": [
+     "s",
+     "ih",
+     "ng",
+     "k",
+     "s"
+    ],
+    "ipa": "sˈɪŋks",
+    "cell": "chain"
+   },
+   {
+    "w": "links",
+    "p": [
+     "l",
+     "ih",
+     "ng",
+     "k",
+     "s"
+    ],
+    "ipa": "lˈɪŋks",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.09",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "this": {
+  "target": {
+   "w": "this",
+   "p": [
+    "dh",
+    "ih",
+    "s"
+   ],
+   "ipa": "ðˈɪs",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "miss",
+    "p": [
+     "m",
+     "ih",
+     "s"
+    ],
+    "ipa": "mˈɪs",
+    "cell": "chain"
+   },
+   {
+    "w": "hiss",
+    "p": [
+     "hh",
+     "ih",
+     "s"
+    ],
+    "ipa": "hˈɪs",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.03",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "thomp": {
+  "target": {
+   "w": "thomp",
+   "p": [
+    "th",
+    "aa",
+    "m",
+    "p"
+   ],
+   "ipa": "θˈɑmp",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "domp",
+    "p": [
+     "d",
+     "aa",
+     "m",
+     "p"
+    ],
+    "ipa": "dˈɑmp",
+    "cell": "onset"
+   },
+   {
+    "w": "themp",
+    "p": [
+     "th",
+     "eh",
+     "m",
+     "p"
+    ],
+    "ipa": "θˈɛmp",
+    "cell": "vowel"
+   },
+   {
+    "w": "demp",
+    "p": [
+     "d",
+     "eh",
+     "m",
+     "p"
+    ],
+    "ipa": "dˈɛmp",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.07",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "thon": {
+  "target": {
+   "w": "thon",
+   "p": [
+    "th",
+    "aa",
+    "n"
+   ],
+   "ipa": "θˈɑn",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "gon",
+    "p": [
+     "g",
+     "aa",
+     "n"
+    ],
+    "ipa": "ɡˈɑn",
+    "cell": "onset"
+   },
+   {
+    "w": "theen",
+    "p": [
+     "th",
+     "iy",
+     "n"
+    ],
+    "ipa": "θˈin",
+    "cell": "vowel"
+   },
+   {
+    "w": "geen",
+    "p": [
+     "g",
+     "iy",
+     "n"
+    ],
+    "ipa": "ɡˈin",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2 (wide pool)",
+  "lesson": "L2.03",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "thosh": {
+  "target": {
+   "w": "thosh",
+   "p": [
+    "th",
+    "aa",
+    "sh"
+   ],
+   "ipa": "θˈɑʃ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "hosh",
+    "p": [
+     "hh",
+     "aa",
+     "sh"
+    ],
+    "ipa": "hˈɑʃ",
+    "cell": "onset"
+   },
+   {
+    "w": "thesh",
+    "p": [
+     "th",
+     "eh",
+     "sh"
+    ],
+    "ipa": "θˈɛʃ",
+    "cell": "vowel"
+   },
+   {
+    "w": "hesh",
+    "p": [
+     "hh",
+     "eh",
+     "sh"
+    ],
+    "ipa": "hˈɛʃ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.03",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "thramping": {
+  "target": {
+   "w": "thramping",
+   "p": [
+    "th",
+    "r",
+    "ae",
+    "m",
+    "p",
+    "ih",
+    "ng"
+   ],
+   "ipa": "θɹˈæmpɪŋ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "thrawping",
+    "p": [
+     "th",
+     "r",
+     "ae",
+     "w",
+     "p",
+     "ih",
+     "ng"
+    ],
+    "ipa": "θɹˈæwpɪŋ",
+    "cell": "chain"
+   },
+   {
+    "w": "thrashping",
+    "p": [
+     "th",
+     "r",
+     "ae",
+     "sh",
+     "p",
+     "ih",
+     "ng"
+    ],
+    "ipa": "θɹˈæʃpɪŋ",
+    "cell": "chain"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "early chain",
+  "lesson": "L2.13",
+  "axes": [],
+  "early": true,
+  "stress": 2
+ },
+ "thrill": {
+  "target": {
+   "w": "thrill",
+   "p": [
+    "th",
+    "r",
+    "ih",
+    "l"
+   ],
+   "ipa": "θɹˈɪl",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "drill",
+    "p": [
+     "d",
+     "r",
+     "ih",
+     "l"
+    ],
+    "ipa": "dɹˈɪl",
+    "cell": "chain"
+   },
+   {
+    "w": "drip",
+    "p": [
+     "d",
+     "r",
+     "ih",
+     "p"
+    ],
+    "ipa": "dɹˈɪp",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.08",
+  "axes": [],
+  "early": true,
+  "stress": 2
+ },
+ "thron": {
+  "target": {
+   "w": "thron",
+   "p": [
+    "th",
+    "r",
+    "aa",
+    "n"
+   ],
+   "ipa": "θɹˈɑn",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "throl",
+    "p": [
+     "th",
+     "r",
+     "aa",
+     "l"
+    ],
+    "ipa": "θɹˈɑl",
+    "cell": "chain"
+   },
+   {
+    "w": "grol",
+    "p": [
+     "g",
+     "r",
+     "aa",
+     "l"
+    ],
+    "ipa": "ɡɹˈɑl",
+    "cell": "chain"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "early chain",
+  "lesson": "L2.14",
+  "axes": [],
+  "early": true,
+  "stress": 2
+ },
+ "thrust": {
+  "target": {
+   "w": "thrust",
+   "p": [
+    "th",
+    "r",
+    "ah",
+    "s",
+    "t"
+   ],
+   "ipa": "θɹˈʌst",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "trust",
+    "p": [
+     "t",
+     "r",
+     "ah",
+     "s",
+     "t"
+    ],
+    "ipa": "tɹˈʌst",
+    "cell": "chain"
+   },
+   {
+    "w": "crust",
+    "p": [
+     "k",
+     "r",
+     "ah",
+     "s",
+     "t"
+    ],
+    "ipa": "kɹˈʌst",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.08",
+  "axes": [],
+  "early": true,
+  "stress": 2
+ },
+ "thruv": {
+  "target": {
+   "w": "thruv",
+   "p": [
+    "th",
+    "r",
+    "ah",
+    "v"
+   ],
+   "ipa": "θɹˈʌv",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "thruf",
+    "p": [
+     "th",
+     "r",
+     "ah",
+     "f"
+    ],
+    "ipa": "θɹˈʌf",
+    "cell": "chain"
+   },
+   {
+    "w": "throf",
+    "p": [
+     "th",
+     "r",
+     "aa",
+     "f"
+    ],
+    "ipa": "θɹˈɑf",
+    "cell": "chain"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "early chain",
+  "lesson": "L2.08",
+  "axes": [],
+  "early": true,
+  "stress": 2
+ },
+ "thud": {
+  "target": {
+   "w": "thud",
+   "p": [
+    "th",
+    "ah",
+    "d"
+   ],
+   "ipa": "θˈʌd",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "bud",
+    "p": [
+     "b",
+     "ah",
+     "d"
+    ],
+    "ipa": "bˈʌd",
+    "cell": "onset"
+   },
+   {
+    "w": "third",
+    "p": [
+     "th",
+     "er",
+     "d"
+    ],
+    "ipa": "θˈɝd",
+    "cell": "vowel"
+   },
+   {
+    "w": "bird",
+    "p": [
+     "b",
+     "er",
+     "d"
+    ],
+    "ipa": "bˈɝd",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 (wide pool)",
+  "lesson": "L2.03",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "thump": {
+  "target": {
+   "w": "thump",
+   "p": [
+    "th",
+    "ah",
+    "m",
+    "p"
+   ],
+   "ipa": "θˈʌmp",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "bump",
+    "p": [
+     "b",
+     "ah",
+     "m",
+     "p"
+    ],
+    "ipa": "bˈʌmp",
+    "cell": "onset"
+   },
+   {
+    "w": "thumbs",
+    "p": [
+     "th",
+     "ah",
+     "m",
+     "z"
+    ],
+    "ipa": "θˈʌmz",
+    "cell": "final"
+   },
+   {
+    "w": "bums",
+    "p": [
+     "b",
+     "ah",
+     "m",
+     "z"
+    ],
+    "ipa": "bˈʌmz",
+    "cell": "onset+final"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 onset+final",
+  "lesson": "L2.03",
+  "axes": [
+   "onset",
+   "final"
+  ],
+  "pos": {
+   "onset": 0,
+   "final": 3
+  },
+  "stress": 1
+ },
+ "trip": {
+  "target": {
+   "w": "trip",
+   "p": [
+    "t",
+    "r",
+    "ih",
+    "p"
+   ],
+   "ipa": "tɹˈɪp",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "drip",
+    "p": [
+     "d",
+     "r",
+     "ih",
+     "p"
+    ],
+    "ipa": "dɹˈɪp",
+    "cell": "chain"
+   },
+   {
+    "w": "drill",
+    "p": [
+     "d",
+     "r",
+     "ih",
+     "l"
+    ],
+    "ipa": "dɹˈɪl",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.06",
+  "axes": [],
+  "early": true,
+  "stress": 2
+ },
+ "twenns": {
+  "target": {
+   "w": "twenns",
+   "p": [
+    "t",
+    "w",
+    "eh",
+    "n",
+    "s"
+   ],
+   "ipa": "twˈɛns",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "trens",
+    "p": [
+     "t",
+     "r",
+     "eh",
+     "n",
+     "s"
+    ],
+    "ipa": "tɹˈɛns",
+    "cell": "onset"
+   },
+   {
+    "w": "twuns",
+    "p": [
+     "t",
+     "w",
+     "ah",
+     "n",
+     "s"
+    ],
+    "ipa": "twˈʌns",
+    "cell": "vowel"
+   },
+   {
+    "w": "truns",
+    "p": [
+     "t",
+     "r",
+     "ah",
+     "n",
+     "s"
+    ],
+    "ipa": "tɹˈʌns",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.09",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 1,
+   "vowel": 2
+  },
+  "stress": 2
+ },
+ "two": {
+  "target": {
+   "w": "two",
+   "p": [
+    "t",
+    "uw"
+   ],
+   "ipa": "tˈu",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "do",
+    "p": [
+     "d",
+     "uw"
+    ],
+    "ipa": "dˈu",
+    "cell": "onset"
+   },
+   {
+    "w": "toe",
+    "p": [
+     "t",
+     "ow"
+    ],
+    "ipa": "tˈoʊ",
+    "cell": "vowel"
+   },
+   {
+    "w": "doe",
+    "p": [
+     "d",
+     "ow"
+    ],
+    "ipa": "dˈoʊ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 (wide pool)",
+  "lesson": "L2.14",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "use": {
+  "target": {
+   "w": "use",
+   "p": [
+    "y",
+    "uw",
+    "z"
+   ],
+   "ipa": "jˈuz",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "ruse",
+    "p": [
+     "r",
+     "uw",
+     "z"
+    ],
+    "ipa": "ɹˈuz",
+    "cell": "chain"
+   },
+   {
+    "w": "zoos",
+    "p": [
+     "z",
+     "uw",
+     "z"
+    ],
+    "ipa": "zˈuz",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.03",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "vandest": {
+  "target": {
+   "w": "vandest",
+   "p": [
+    "v",
+    "ae",
+    "n",
+    "d",
+    "eh",
+    "s",
+    "t"
+   ],
+   "ipa": "vˈændɛst",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "zandest",
+    "p": [
+     "z",
+     "ae",
+     "n",
+     "d",
+     "eh",
+     "s",
+     "t"
+    ],
+    "ipa": "zˈændɛst",
+    "cell": "onset"
+   },
+   {
+    "w": "verndest",
+    "p": [
+     "v",
+     "er",
+     "n",
+     "d",
+     "eh",
+     "s",
+     "t"
+    ],
+    "ipa": "vˈɝndɛst",
+    "cell": "vowel"
+   },
+   {
+    "w": "zerndest",
+    "p": [
+     "z",
+     "er",
+     "n",
+     "d",
+     "eh",
+     "s",
+     "t"
+    ],
+    "ipa": "zˈɝndɛst",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.13",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "vantic": {
+  "target": {
+   "w": "vantic",
+   "p": [
+    "v",
+    "ae",
+    "n",
+    "t",
+    "ih",
+    "k"
+   ],
+   "ipa": "vˈæntɪk",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "gantick",
+    "p": [
+     "g",
+     "ae",
+     "n",
+     "t",
+     "ih",
+     "k"
+    ],
+    "ipa": "ɡˈæntɪk",
+    "cell": "onset"
+   },
+   {
+    "w": "verntick",
+    "p": [
+     "v",
+     "er",
+     "n",
+     "t",
+     "ih",
+     "k"
+    ],
+    "ipa": "vˈɝntɪk",
+    "cell": "vowel"
+   },
+   {
+    "w": "gerntick",
+    "p": [
+     "g",
+     "er",
+     "n",
+     "t",
+     "ih",
+     "k"
+    ],
+    "ipa": "ɡˈɝntɪk",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.12",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "vashing": {
+  "target": {
+   "w": "vashing",
+   "p": [
+    "v",
+    "ae",
+    "sh",
+    "ih",
+    "ng"
+   ],
+   "ipa": "vˈæʃɪŋ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "shashing",
+    "p": [
+     "sh",
+     "ae",
+     "sh",
+     "ih",
+     "ng"
+    ],
+    "ipa": "ʃˈæʃɪŋ",
+    "cell": "onset"
+   },
+   {
+    "w": "vershing",
+    "p": [
+     "v",
+     "er",
+     "sh",
+     "ih",
+     "ng"
+    ],
+    "ipa": "vˈɝʃɪŋ",
+    "cell": "vowel"
+   },
+   {
+    "w": "shershing",
+    "p": [
+     "sh",
+     "er",
+     "sh",
+     "ih",
+     "ng"
+    ],
+    "ipa": "ʃˈɝʃɪŋ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.11",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "vilk": {
+  "target": {
+   "w": "vilk",
+   "p": [
+    "v",
+    "ih",
+    "l",
+    "k"
+   ],
+   "ipa": "vˈɪlk",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "thilk",
+    "p": [
+     "th",
+     "ih",
+     "l",
+     "k"
+    ],
+    "ipa": "θˈɪlk",
+    "cell": "onset"
+   },
+   {
+    "w": "velk",
+    "p": [
+     "v",
+     "eh",
+     "l",
+     "k"
+    ],
+    "ipa": "vˈɛlk",
+    "cell": "vowel"
+   },
+   {
+    "w": "thelk",
+    "p": [
+     "th",
+     "eh",
+     "l",
+     "k"
+    ],
+    "ipa": "θˈɛlk",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.07",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "vith": {
+  "target": {
+   "w": "vith",
+   "p": [
+    "v",
+    "ih",
+    "th"
+   ],
+   "ipa": "vˈɪθ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "zith",
+    "p": [
+     "z",
+     "ih",
+     "th"
+    ],
+    "ipa": "zˈɪθ",
+    "cell": "onset"
+   },
+   {
+    "w": "veth",
+    "p": [
+     "v",
+     "eh",
+     "th"
+    ],
+    "ipa": "vˈɛθ",
+    "cell": "vowel"
+   },
+   {
+    "w": "zeth",
+    "p": [
+     "z",
+     "eh",
+     "th"
+    ],
+    "ipa": "zˈɛθ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.03",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "vosh": {
+  "target": {
+   "w": "vosh",
+   "p": [
+    "v",
+    "aa",
+    "sh"
+   ],
+   "ipa": "vˈɑʃ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "zosh",
+    "p": [
+     "z",
+     "aa",
+     "sh"
+    ],
+    "ipa": "zˈɑʃ",
+    "cell": "onset"
+   },
+   {
+    "w": "vish",
+    "p": [
+     "v",
+     "ih",
+     "sh"
+    ],
+    "ipa": "vˈɪʃ",
+    "cell": "vowel"
+   },
+   {
+    "w": "zish",
+    "p": [
+     "z",
+     "ih",
+     "sh"
+    ],
+    "ipa": "zˈɪʃ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.01",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "votch": {
+  "target": {
+   "w": "votch",
+   "p": [
+    "v",
+    "aa",
+    "ch"
+   ],
+   "ipa": "vˈɑʧ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "choch",
+    "p": [
+     "ch",
+     "aa",
+     "ch"
+    ],
+    "ipa": "ʧˈɑʧ",
+    "cell": "onset"
+   },
+   {
+    "w": "vich",
+    "p": [
+     "v",
+     "ih",
+     "ch"
+    ],
+    "ipa": "vˈɪʧ",
+    "cell": "vowel"
+   },
+   {
+    "w": "chich",
+    "p": [
+     "ch",
+     "ih",
+     "ch"
+    ],
+    "ipa": "ʧˈɪʧ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.02",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "vozzes": {
+  "target": {
+   "w": "vozzes",
+   "p": [
+    "v",
+    "aa",
+    "z",
+    "ih",
+    "z"
+   ],
+   "ipa": "vˈɑzɪz",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "shoziz",
+    "p": [
+     "sh",
+     "aa",
+     "z",
+     "ih",
+     "z"
+    ],
+    "ipa": "ʃˈɑzɪz",
+    "cell": "onset"
+   },
+   {
+    "w": "vuziz",
+    "p": [
+     "v",
+     "ah",
+     "z",
+     "ih",
+     "z"
+    ],
+    "ipa": "vˈʌzɪz",
+    "cell": "vowel"
+   },
+   {
+    "w": "shuziz",
+    "p": [
+     "sh",
+     "ah",
+     "z",
+     "ih",
+     "z"
+    ],
+    "ipa": "ʃˈʌzɪz",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.09",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "wanded": {
+  "target": {
+   "w": "wanded",
+   "p": [
+    "w",
+    "ae",
+    "n",
+    "d",
+    "ih",
+    "d"
+   ],
+   "ipa": "wˈændɪd",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "tandid",
+    "p": [
+     "t",
+     "ae",
+     "n",
+     "d",
+     "ih",
+     "d"
+    ],
+    "ipa": "tˈændɪd",
+    "cell": "onset"
+   },
+   {
+    "w": "wondid",
+    "p": [
+     "w",
+     "aa",
+     "n",
+     "d",
+     "ih",
+     "d"
+    ],
+    "ipa": "wˈɑndɪd",
+    "cell": "vowel"
+   },
+   {
+    "w": "tondid",
+    "p": [
+     "t",
+     "aa",
+     "n",
+     "d",
+     "ih",
+     "d"
+    ],
+    "ipa": "tˈɑndɪd",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.10",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "want": {
+  "target": {
+   "w": "want",
+   "p": [
+    "w",
+    "aa",
+    "n",
+    "t"
+   ],
+   "ipa": "wˈɑnt",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "font",
+    "p": [
+     "f",
+     "aa",
+     "n",
+     "t"
+    ],
+    "ipa": "fˈɑnt",
+    "cell": "onset"
+   },
+   {
+    "w": "wand",
+    "p": [
+     "w",
+     "aa",
+     "n",
+     "d"
+    ],
+    "ipa": "wˈɑnd",
+    "cell": "final"
+   },
+   {
+    "w": "fond",
+    "p": [
+     "f",
+     "aa",
+     "n",
+     "d"
+    ],
+    "ipa": "fˈɑnd",
+    "cell": "onset+final"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 onset+final",
+  "lesson": "L2.14",
+  "axes": [
+   "onset",
+   "final"
+  ],
+  "pos": {
+   "onset": 0,
+   "final": 3
+  },
+  "stress": 1
+ },
+ "wanted": {
+  "target": {
+   "w": "wanted",
+   "p": [
+    "w",
+    "ao",
+    "n",
+    "t",
+    "ih",
+    "d"
+   ],
+   "ipa": "wˈɔntɪd",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "haunted",
+    "p": [
+     "hh",
+     "ao",
+     "n",
+     "t",
+     "ih",
+     "d"
+    ],
+    "ipa": "hˈɔntɪd",
+    "cell": "chain"
+   },
+   {
+    "w": "haunting",
+    "p": [
+     "hh",
+     "ao",
+     "n",
+     "t",
+     "ih",
+     "ng"
+    ],
+    "ipa": "hˈɔntɪŋ",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.10",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "wathin": {
+  "target": {
+   "w": "wathin",
+   "p": [
+    "w",
+    "ae",
+    "th",
+    "ih",
+    "n"
+   ],
+   "ipa": "wˈæθɪn",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "rathin",
+    "p": [
+     "r",
+     "ae",
+     "th",
+     "ih",
+     "n"
+    ],
+    "ipa": "ɹˈæθɪn",
+    "cell": "onset"
+   },
+   {
+    "w": "wuthin",
+    "p": [
+     "w",
+     "ah",
+     "th",
+     "ih",
+     "n"
+    ],
+    "ipa": "wˈʌθɪn",
+    "cell": "vowel"
+   },
+   {
+    "w": "ruthin",
+    "p": [
+     "r",
+     "ah",
+     "th",
+     "ih",
+     "n"
+    ],
+    "ipa": "ɹˈʌθɪn",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.04",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "were": {
+  "target": {
+   "w": "were",
+   "p": [
+    "w",
+    "er"
+   ],
+   "ipa": "wˈɝ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "fur",
+    "p": [
+     "f",
+     "er"
+    ],
+    "ipa": "fˈɝ",
+    "cell": "onset"
+   },
+   {
+    "w": "we",
+    "p": [
+     "w",
+     "iy"
+    ],
+    "ipa": "wˈi",
+    "cell": "vowel"
+   },
+   {
+    "w": "fee",
+    "p": [
+     "f",
+     "iy"
+    ],
+    "ipa": "fˈi",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 (wide pool)",
+  "lesson": "L2.14",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "wetch": {
+  "target": {
+   "w": "wetch",
+   "p": [
+    "w",
+    "eh",
+    "ch"
+   ],
+   "ipa": "wˈɛʧ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "chech",
+    "p": [
+     "ch",
+     "eh",
+     "ch"
+    ],
+    "ipa": "ʧˈɛʧ",
+    "cell": "onset"
+   },
+   {
+    "w": "wuch",
+    "p": [
+     "w",
+     "ah",
+     "ch"
+    ],
+    "ipa": "wˈʌʧ",
+    "cell": "vowel"
+   },
+   {
+    "w": "chuch",
+    "p": [
+     "ch",
+     "ah",
+     "ch"
+    ],
+    "ipa": "ʧˈʌʧ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.02",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "whack": {
+  "target": {
+   "w": "whack",
+   "p": [
+    "w",
+    "ae",
+    "k"
+   ],
+   "ipa": "wˈæk",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "pack",
+    "p": [
+     "p",
+     "ae",
+     "k"
+    ],
+    "ipa": "pˈæk",
+    "cell": "onset"
+   },
+   {
+    "w": "wick",
+    "p": [
+     "w",
+     "ih",
+     "k"
+    ],
+    "ipa": "wˈɪk",
+    "cell": "vowel"
+   },
+   {
+    "w": "pick",
+    "p": [
+     "p",
+     "ih",
+     "k"
+    ],
+    "ipa": "pˈɪk",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.04",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "wham": {
+  "target": {
+   "w": "wham",
+   "p": [
+    "w",
+    "ae",
+    "m"
+   ],
+   "ipa": "wˈæm",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "ram",
+    "p": [
+     "r",
+     "ae",
+     "m"
+    ],
+    "ipa": "ɹˈæm",
+    "cell": "onset"
+   },
+   {
+    "w": "womb",
+    "p": [
+     "w",
+     "uw",
+     "m"
+    ],
+    "ipa": "wˈum",
+    "cell": "vowel"
+   },
+   {
+    "w": "room",
+    "p": [
+     "r",
+     "uw",
+     "m"
+    ],
+    "ipa": "ɹˈum",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 (wide pool)",
+  "lesson": "L2.04",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "whass": {
+  "target": {
+   "w": "whass",
+   "p": [
+    "w",
+    "ae",
+    "s"
+   ],
+   "ipa": "wˈæs",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "zas",
+    "p": [
+     "z",
+     "ae",
+     "s"
+    ],
+    "ipa": "zˈæs",
+    "cell": "onset"
+   },
+   {
+    "w": "wus",
+    "p": [
+     "w",
+     "ah",
+     "s"
+    ],
+    "ipa": "wˈʌs",
+    "cell": "vowel"
+   },
+   {
+    "w": "zus",
+    "p": [
+     "z",
+     "ah",
+     "s"
+    ],
+    "ipa": "zˈʌs",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.04",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "when": {
+  "target": {
+   "w": "when",
+   "p": [
+    "w",
+    "eh",
+    "n"
+   ],
+   "ipa": "wˈɛn",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "den",
+    "p": [
+     "d",
+     "eh",
+     "n"
+    ],
+    "ipa": "dˈɛn",
+    "cell": "onset"
+   },
+   {
+    "w": "one",
+    "p": [
+     "w",
+     "ah",
+     "n"
+    ],
+    "ipa": "wˈʌn",
+    "cell": "vowel"
+   },
+   {
+    "w": "done",
+    "p": [
+     "d",
+     "ah",
+     "n"
+    ],
+    "ipa": "dˈʌn",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.04",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "where": {
+  "target": {
+   "w": "where",
+   "p": [
+    "w",
+    "eh",
+    "r"
+   ],
+   "ipa": "wˈɛɹ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "hair",
+    "p": [
+     "hh",
+     "eh",
+     "r"
+    ],
+    "ipa": "hˈɛɹ",
+    "cell": "onset"
+   },
+   {
+    "w": "weir",
+    "p": [
+     "w",
+     "iy",
+     "r"
+    ],
+    "ipa": "wˈiɹ",
+    "cell": "vowel"
+   },
+   {
+    "w": "hear",
+    "p": [
+     "hh",
+     "iy",
+     "r"
+    ],
+    "ipa": "hˈiɹ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 (wide pool)",
+  "lesson": "L2.14",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "which": {
+  "target": {
+   "w": "which",
+   "p": [
+    "w",
+    "ih",
+    "ch"
+   ],
+   "ipa": "wˈɪʧ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "ditch",
+    "p": [
+     "d",
+     "ih",
+     "ch"
+    ],
+    "ipa": "dˈɪʧ",
+    "cell": "onset"
+   },
+   {
+    "w": "win",
+    "p": [
+     "w",
+     "ih",
+     "n"
+    ],
+    "ipa": "wˈɪn",
+    "cell": "final"
+   },
+   {
+    "w": "din",
+    "p": [
+     "d",
+     "ih",
+     "n"
+    ],
+    "ipa": "dˈɪn",
+    "cell": "onset+final"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 onset+final",
+  "lesson": "L2.04",
+  "axes": [
+   "onset",
+   "final"
+  ],
+  "pos": {
+   "onset": 0,
+   "final": 2
+  },
+  "stress": 1
+ },
+ "whiff": {
+  "target": {
+   "w": "whiff",
+   "p": [
+    "w",
+    "ih",
+    "f"
+   ],
+   "ipa": "wˈɪf",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "riff",
+    "p": [
+     "r",
+     "ih",
+     "f"
+    ],
+    "ipa": "ɹˈɪf",
+    "cell": "onset"
+   },
+   {
+    "w": "wife",
+    "p": [
+     "w",
+     "ay",
+     "f"
+    ],
+    "ipa": "wˈaɪf",
+    "cell": "vowel"
+   },
+   {
+    "w": "rife",
+    "p": [
+     "r",
+     "ay",
+     "f"
+    ],
+    "ipa": "ɹˈaɪf",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 (wide pool)",
+  "lesson": "L2.04",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "whip": {
+  "target": {
+   "w": "whip",
+   "p": [
+    "w",
+    "ih",
+    "p"
+   ],
+   "ipa": "wˈɪp",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "sip",
+    "p": [
+     "s",
+     "ih",
+     "p"
+    ],
+    "ipa": "sˈɪp",
+    "cell": "onset"
+   },
+   {
+    "w": "weep",
+    "p": [
+     "w",
+     "iy",
+     "p"
+    ],
+    "ipa": "wˈip",
+    "cell": "vowel"
+   },
+   {
+    "w": "seep",
+    "p": [
+     "s",
+     "iy",
+     "p"
+    ],
+    "ipa": "sˈip",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 (wide pool)",
+  "lesson": "L2.04",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "whith": {
+  "target": {
+   "w": "whith",
+   "p": [
+    "w",
+    "ih",
+    "th"
+   ],
+   "ipa": "wˈɪθ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "gith",
+    "p": [
+     "g",
+     "ih",
+     "th"
+    ],
+    "ipa": "ɡˈɪθ",
+    "cell": "onset"
+   },
+   {
+    "w": "weth",
+    "p": [
+     "w",
+     "eh",
+     "th"
+    ],
+    "ipa": "wˈɛθ",
+    "cell": "vowel"
+   },
+   {
+    "w": "geth",
+    "p": [
+     "g",
+     "eh",
+     "th"
+    ],
+    "ipa": "ɡˈɛθ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.04",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "whiz": {
+  "target": {
+   "w": "whiz",
+   "p": [
+    "w",
+    "ih",
+    "z"
+   ],
+   "ipa": "wˈɪz",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "his",
+    "p": [
+     "hh",
+     "ih",
+     "z"
+    ],
+    "ipa": "hˈɪz",
+    "cell": "onset"
+   },
+   {
+    "w": "ways",
+    "p": [
+     "w",
+     "ey",
+     "z"
+    ],
+    "ipa": "wˈeɪz",
+    "cell": "vowel"
+   },
+   {
+    "w": "hays",
+    "p": [
+     "hh",
+     "ey",
+     "z"
+    ],
+    "ipa": "hˈeɪz",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 (wide pool)",
+  "lesson": "L2.04",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "who": {
+  "target": {
+   "w": "who",
+   "p": [
+    "hh",
+    "uw"
+   ],
+   "ipa": "hˈu",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "woo",
+    "p": [
+     "w",
+     "uw"
+    ],
+    "ipa": "wˈu",
+    "cell": "onset"
+   },
+   {
+    "w": "her",
+    "p": [
+     "hh",
+     "er"
+    ],
+    "ipa": "hˈɝ",
+    "cell": "vowel"
+   },
+   {
+    "w": "were",
+    "p": [
+     "w",
+     "er"
+    ],
+    "ipa": "wˈɝ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.14",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "whob": {
+  "target": {
+   "w": "whob",
+   "p": [
+    "w",
+    "aa",
+    "b"
+   ],
+   "ipa": "wˈɑb",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "zob",
+    "p": [
+     "z",
+     "aa",
+     "b"
+    ],
+    "ipa": "zˈɑb",
+    "cell": "onset"
+   },
+   {
+    "w": "wub",
+    "p": [
+     "w",
+     "ah",
+     "b"
+    ],
+    "ipa": "wˈʌb",
+    "cell": "vowel"
+   },
+   {
+    "w": "zub",
+    "p": [
+     "z",
+     "ah",
+     "b"
+    ],
+    "ipa": "zˈʌb",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.04",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "wing": {
+  "target": {
+   "w": "wing",
+   "p": [
+    "w",
+    "ih",
+    "ng"
+   ],
+   "ipa": "wˈɪŋ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "sing",
+    "p": [
+     "s",
+     "ih",
+     "ng"
+    ],
+    "ipa": "sˈɪŋ",
+    "cell": "onset"
+   },
+   {
+    "w": "wig",
+    "p": [
+     "w",
+     "ih",
+     "g"
+    ],
+    "ipa": "wˈɪɡ",
+    "cell": "final"
+   },
+   {
+    "w": "sig",
+    "p": [
+     "s",
+     "ih",
+     "g"
+    ],
+    "ipa": "sˈɪɡ",
+    "cell": "onset+final"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 onset+final",
+  "lesson": "L2.05",
+  "axes": [
+   "onset",
+   "final"
+  ],
+  "pos": {
+   "onset": 0,
+   "final": 2
+  },
+  "stress": 1
+ },
+ "wish": {
+  "target": {
+   "w": "wish",
+   "p": [
+    "w",
+    "ih",
+    "sh"
+   ],
+   "ipa": "wˈɪʃ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "fish",
+    "p": [
+     "f",
+     "ih",
+     "sh"
+    ],
+    "ipa": "fˈɪʃ",
+    "cell": "onset"
+   },
+   {
+    "w": "wig",
+    "p": [
+     "w",
+     "ih",
+     "g"
+    ],
+    "ipa": "wˈɪɡ",
+    "cell": "final"
+   },
+   {
+    "w": "fig",
+    "p": [
+     "f",
+     "ih",
+     "g"
+    ],
+    "ipa": "fˈɪɡ",
+    "cell": "onset+final"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 onset+final",
+  "lesson": "L2.01",
+  "axes": [
+   "onset",
+   "final"
+  ],
+  "pos": {
+   "onset": 0,
+   "final": 2
+  },
+  "stress": 1
+ },
+ "wished": {
+  "target": {
+   "w": "wished",
+   "p": [
+    "w",
+    "ih",
+    "sh",
+    "t"
+   ],
+   "ipa": "wˈɪʃt",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "wilt",
+    "p": [
+     "w",
+     "ih",
+     "l",
+     "t"
+    ],
+    "ipa": "wˈɪlt",
+    "cell": "chain"
+   },
+   {
+    "w": "willed",
+    "p": [
+     "w",
+     "ih",
+     "l",
+     "d"
+    ],
+    "ipa": "wˈɪld",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.10",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "wishes": {
+  "target": {
+   "w": "wishes",
+   "p": [
+    "w",
+    "ih",
+    "sh",
+    "ih",
+    "z"
+   ],
+   "ipa": "wˈɪʃɪz",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "wishing",
+    "p": [
+     "w",
+     "ih",
+     "sh",
+     "ih",
+     "ng"
+    ],
+    "ipa": "wˈɪʃɪŋ",
+    "cell": "chain"
+   },
+   {
+    "w": "winning",
+    "p": [
+     "w",
+     "ih",
+     "n",
+     "ih",
+     "ng"
+    ],
+    "ipa": "wˈɪnɪŋ",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.09",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "wishing": {
+  "target": {
+   "w": "wishing",
+   "p": [
+    "w",
+    "ih",
+    "sh",
+    "ih",
+    "ng"
+   ],
+   "ipa": "wˈɪʃɪŋ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "fishing",
+    "p": [
+     "f",
+     "ih",
+     "sh",
+     "ih",
+     "ng"
+    ],
+    "ipa": "fˈɪʃɪŋ",
+    "cell": "chain"
+   },
+   {
+    "w": "fearing",
+    "p": [
+     "f",
+     "ih",
+     "r",
+     "ih",
+     "ng"
+    ],
+    "ipa": "fˈɪɹɪŋ",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.11",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "witch": {
+  "target": {
+   "w": "witch",
+   "p": [
+    "w",
+    "ih",
+    "ch"
+   ],
+   "ipa": "wˈɪʧ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "ditch",
+    "p": [
+     "d",
+     "ih",
+     "ch"
+    ],
+    "ipa": "dˈɪʧ",
+    "cell": "onset"
+   },
+   {
+    "w": "wig",
+    "p": [
+     "w",
+     "ih",
+     "g"
+    ],
+    "ipa": "wˈɪɡ",
+    "cell": "final"
+   },
+   {
+    "w": "dig",
+    "p": [
+     "d",
+     "ih",
+     "g"
+    ],
+    "ipa": "dˈɪɡ",
+    "cell": "onset+final"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2 onset+final",
+  "lesson": "L2.02",
+  "axes": [
+   "onset",
+   "final"
+  ],
+  "pos": {
+   "onset": 0,
+   "final": 2
+  },
+  "stress": 1
+ },
+ "with": {
+  "target": {
+   "w": "with",
+   "p": [
+    "w",
+    "ih",
+    "dh"
+   ],
+   "ipa": "wˈɪð",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "wig",
+    "p": [
+     "w",
+     "ih",
+     "g"
+    ],
+    "ipa": "wˈɪɡ",
+    "cell": "chain"
+   },
+   {
+    "w": "pig",
+    "p": [
+     "p",
+     "ih",
+     "g"
+    ],
+    "ipa": "pˈɪɡ",
+    "cell": "chain"
+   }
+  ],
+  "kind": "real",
+  "via": "early chain",
+  "lesson": "L2.03",
+  "axes": [],
+  "early": true,
+  "stress": 1
+ },
+ "wosh": {
+  "target": {
+   "w": "wosh",
+   "p": [
+    "w",
+    "aa",
+    "sh"
+   ],
+   "ipa": "wˈɑʃ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "vosh",
+    "p": [
+     "v",
+     "aa",
+     "sh"
+    ],
+    "ipa": "vˈɑʃ",
+    "cell": "onset"
+   },
+   {
+    "w": "wush",
+    "p": [
+     "w",
+     "ah",
+     "sh"
+    ],
+    "ipa": "wˈʌʃ",
+    "cell": "vowel"
+   },
+   {
+    "w": "vush",
+    "p": [
+     "v",
+     "ah",
+     "sh"
+    ],
+    "ipa": "vˈʌʃ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.01",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "would": {
+  "target": {
+   "w": "would",
+   "p": [
+    "w",
+    "uh",
+    "d"
+   ],
+   "ipa": "wˈʊd",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "hood",
+    "p": [
+     "hh",
+     "uh",
+     "d"
+    ],
+    "ipa": "hˈʊd",
+    "cell": "onset"
+   },
+   {
+    "w": "word",
+    "p": [
+     "w",
+     "er",
+     "d"
+    ],
+    "ipa": "wˈɝd",
+    "cell": "vowel"
+   },
+   {
+    "w": "herd",
+    "p": [
+     "hh",
+     "er",
+     "d"
+    ],
+    "ipa": "hˈɝd",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.14",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "yonk": {
+  "target": {
+   "w": "yonk",
+   "p": [
+    "y",
+    "aa",
+    "ng",
+    "k"
+   ],
+   "ipa": "jˈɑŋk",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "nonk",
+    "p": [
+     "n",
+     "aa",
+     "ng",
+     "k"
+    ],
+    "ipa": "nˈɑŋk",
+    "cell": "onset"
+   },
+   {
+    "w": "yenk",
+    "p": [
+     "y",
+     "eh",
+     "ng",
+     "k"
+    ],
+    "ipa": "jˈɛŋk",
+    "cell": "vowel"
+   },
+   {
+    "w": "nenk",
+    "p": [
+     "n",
+     "eh",
+     "ng",
+     "k"
+    ],
+    "ipa": "nˈɛŋk",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.05",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "your": {
+  "target": {
+   "w": "your",
+   "p": [
+    "y",
+    "ao",
+    "r"
+   ],
+   "ipa": "jˈɔɹ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "door",
+    "p": [
+     "d",
+     "ao",
+     "r"
+    ],
+    "ipa": "dˈɔɹ",
+    "cell": "onset"
+   },
+   {
+    "w": "year",
+    "p": [
+     "y",
+     "ih",
+     "r"
+    ],
+    "ipa": "jˈɪɹ",
+    "cell": "vowel"
+   },
+   {
+    "w": "dear",
+    "p": [
+     "d",
+     "ih",
+     "r"
+    ],
+    "ipa": "dˈɪɹ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "real",
+  "via": "2x2",
+  "lesson": "L2.14",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "zang": {
+  "target": {
+   "w": "zang",
+   "p": [
+    "z",
+    "ae",
+    "ng"
+   ],
+   "ipa": "zˈæŋ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "cang",
+    "p": [
+     "k",
+     "ae",
+     "ng"
+    ],
+    "ipa": "kˈæŋ",
+    "cell": "onset"
+   },
+   {
+    "w": "zung",
+    "p": [
+     "z",
+     "ah",
+     "ng"
+    ],
+    "ipa": "zˈʌŋ",
+    "cell": "vowel"
+   },
+   {
+    "w": "cung",
+    "p": [
+     "k",
+     "ah",
+     "ng"
+    ],
+    "ipa": "kˈʌŋ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.05",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "zink": {
+  "target": {
+   "w": "zink",
+   "p": [
+    "z",
+    "ih",
+    "ng",
+    "k"
+   ],
+   "ipa": "zˈɪŋk",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "shink",
+    "p": [
+     "sh",
+     "ih",
+     "ng",
+     "k"
+    ],
+    "ipa": "ʃˈɪŋk",
+    "cell": "onset"
+   },
+   {
+    "w": "zernk",
+    "p": [
+     "z",
+     "er",
+     "ng",
+     "k"
+    ],
+    "ipa": "zˈɝŋk",
+    "cell": "vowel"
+   },
+   {
+    "w": "shernk",
+    "p": [
+     "sh",
+     "er",
+     "ng",
+     "k"
+    ],
+    "ipa": "ʃˈɝŋk",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.14",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ },
+ "zung": {
+  "target": {
+   "w": "zung",
+   "p": [
+    "z",
+    "ah",
+    "ng"
+   ],
+   "ipa": "zˈʌŋ",
+   "cell": "target"
+  },
+  "foils": [
+   {
+    "w": "shung",
+    "p": [
+     "sh",
+     "ah",
+     "ng"
+    ],
+    "ipa": "ʃˈʌŋ",
+    "cell": "onset"
+   },
+   {
+    "w": "zong",
+    "p": [
+     "z",
+     "aa",
+     "ng"
+    ],
+    "ipa": "zˈɑŋ",
+    "cell": "vowel"
+   },
+   {
+    "w": "shong",
+    "p": [
+     "sh",
+     "aa",
+     "ng"
+    ],
+    "ipa": "ʃˈɑŋ",
+    "cell": "onset+vowel"
+   }
+  ],
+  "kind": "pseudo",
+  "via": "2x2",
+  "lesson": "L2.05",
+  "axes": [
+   "onset",
+   "vowel"
+  ],
+  "pos": {
+   "onset": 0,
+   "vowel": 1
+  },
+  "stress": 1
+ }
+}

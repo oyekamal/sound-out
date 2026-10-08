@@ -34,20 +34,55 @@
   ],
   "pseudo": []
  },
+ "spell": {
+  "words": [
+   "moon",
+   "book",
+   "look"
+  ],
+  "sentence": "I took a good look at the moon."
+ },
+ "listen": {
+  "title": null,
+  "passage": "Reading fiction before bed has been shown to help some people unwind, because following a story shifts attention away from the day's worries and toward a different, absorbing world.",
+  "tier2": [
+   {
+    "word": "absorbing",
+    "def": "so interesting that it holds your full attention.",
+    "full": "so interesting that it holds your full attention."
+   }
+  ],
+  "questions": [
+   "Why might a story help someone unwind before bed?",
+   "What do you find absorbing enough to lose track of time?"
+  ]
+ },
  "check": {
+  "real": [
+   "moon",
+   "book",
+   "soon",
+   "hook",
+   "cool"
+  ],
+  "pseudo": [
+   "sproom",
+   "blook",
+   "twood",
+   "froon",
+   "gloot"
+  ],
+  "dictation": [
+   "look"
+  ],
   "bar": {
    "ratio": 0.9,
    "source": "lesson",
    "raw": "≥90%"
   },
-  "freeResponse": true
+  "firstAttemptOnly": true,
+  "note": "dictated sentence 'I took a good look at the book.' -> the app dictates 'look'; flex narration is self-report"
  },
- "heart": [
-  {
-   "word": "answer",
-   "note": null
-  }
- ],
  "read": {
   "A": {
    "text": "At night, Sam and his dad look up at the moon. / \"It is a good, cool night to look at the moon,\" said Dad. / They sit and look for as long as they can, because the moon is so bright. / Sam has a thing to think of: \"What is the moon made of?\" / Dad said, \"That is a good thing to think of — let's find the answer in a book.\" / They read a book and find the answer, glad they took the time to look.",
@@ -60,10 +95,11 @@
  },
  "blocksFound": [
   "blendList",
-  "heart",
   "read",
+  "listen",
   "check",
-  "trackB"
+  "trackB",
+  "tier2"
  ],
  "appSittings": null
 }

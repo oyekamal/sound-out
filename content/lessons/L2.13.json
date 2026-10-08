@@ -14,11 +14,37 @@
    "wish",
    "catch",
    "thin",
+   "when",
+   "king",
+   "sink",
+   "strap",
+   "string",
+   "desk",
+   "gift",
+   "wishes",
+   "boxes",
+   "jumped",
+   "wanted",
+   "helper",
+   "jumping",
+   "rabbit",
+   "sunset"
+  ],
+  "pseudo": [
    "strishing",
    "flonked",
-   "chuffer"
+   "chuffer",
+   "vandest",
+   "thramping"
+  ]
+ },
+ "spell": {
+  "words": [
+   "catches",
+   "helped",
+   "napkin"
   ],
-  "pseudo": []
+  "sentence": "His friend wanted to help because I\nwas fixing the tent."
  },
  "heart": [
   {

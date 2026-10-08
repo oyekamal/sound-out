@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Parse english-reading-course lesson markdown into Sound Out lesson JSON (plan-v4 §6.2, optional blocks).
 
-Usage: python3 tools/parse_course.py [COURSE_DIR]
+Usage: python3 tools/parse_course.py [COURSE_DIR] [--levels 2,3,4]   (--levels: rewrite only those lesson JSONs)
 Writes content/lessons/L<level>.<nn>.json, content/coverage.md, content/gpc.json, content/lexicon.json.
 Level 1 is parsed fully; Levels 2-7 best effort (yield reported per level in coverage.md).
 """
@@ -9,7 +9,10 @@ import json, re, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-COURSE = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT.parent / "english-reading-course" / "course"
+_args = [a for a in sys.argv[1:] if not a.startswith("--")]
+LEVELS_ONLY = {int(x) for x in sys.argv[sys.argv.index("--levels") + 1].split(",")} if "--levels" in sys.argv else None
+if LEVELS_ONLY: _args = [a for a in _args if a != sys.argv[sys.argv.index("--levels") + 1]]
+COURSE = Path(_args[0]) if _args else ROOT.parent / "english-reading-course" / "course"
 OUT = ROOT / "content"
 CONTENT_VERSION = "2026.10.proto"
 WORD = re.compile(r"[A-Za-z][A-Za-z']*")
@@ -164,6 +167,22 @@ def parse_listen(body):
     return {"title": title, "passage": passage, "tier2": t2, "questions": qs[:3]}
 
 
+def parse_listen_inline(body):
+    """Levels 3-4 Listen & Talk: the passage is a quotation inside the paragraph, not a blockquote."""
+    b = re.sub(r"\s+", " ", body)
+    m = re.search(r'Read (?:aloud|this)[^"“]*["“](.+?)["”]\*?\s*(?=\*?\*?Tier|Tier|$)', b) or re.search(r'["“](.{60,}?)["”]', b)
+    if not m: return None
+    passage = m.group(1).replace("**", "").replace("*", "").strip()
+    t2 = []
+    tm = re.search(r"Tier-2 word:\s*(?:\*\*)?([A-Za-z' -]+?)\*\*\s*[—–-]\s*friendly definition:?\s*[\"“]([^\"”]+)", b)
+    if tm: t2 = [{"word": tm.group(1).strip(), "def": tm.group(2).strip(), "full": tm.group(2).strip()}]
+    qs = []
+    qm = re.search(r"(?:Discussion|Discuss)[^:]*:\*?\s*(.*)", b)
+    if qm:
+        qs = [q.strip() + "?" for q in re.split(r"\?", re.sub(r"\d\)\s*", "", qm.group(1))) if len(q.strip()) > 8][:2]
+    return {"title": None, "passage": passage, "tier2": t2, "questions": qs}
+
+
 def parse_read(body):
     res = {}
     # Track A / B text: blockquote after a "Track A"/"Track B" marker
@@ -296,6 +315,97 @@ def parse_sitting(sid, title, body):
     return s
 
 
+# ---------- Levels 2-4 (course pass: Levels 2-4 made playable) ----------
+CANON_HEART = {  # DESIGN.md §3, CANONICAL schedule (tools/decodable.py enforces it); Level 4 adds none
+    "L2.01": ["says", "for"], "L2.02": ["there", "where"], "L2.03": ["were", "from"], "L2.04": ["come", "some"],
+    "L2.05": ["done", "want"], "L2.06": ["put", "push"], "L2.07": ["pull", "full"], "L2.08": ["who", "could"],
+    "L2.09": ["would", "should"], "L2.10": ["your", "four"], "L2.11": ["many", "any", "her"], "L2.12": ["does", "goes", "two"],
+    "L2.13": ["again", "friend", "because"],
+    "L3.01": ["once", "only"], "L3.02": ["very", "every"], "L3.03": ["great", "eye"], "L3.04": ["busy", "people"],
+    "L3.05": ["water", "laugh"], "L3.06": ["walk", "talk"], "L3.07": ["buy", "answer"], "L3.08": ["whole", "earth"]}
+# Check steps whose items sit in prose, not in Real:/Pseudo: lists (read from the lesson text, by hand)
+CHECK_FIX = {
+    "L3.04": {"real": ["hoping", "saving", "closing", "riding", "making"], "dictation": ["hoping", "saving", "closing", "riding", "making"],
+              "bar": {"pass": 9, "of": 10, "source": "lesson", "raw": "9/10 across writing+reading"}, "firstAttemptOnly": True,
+              "note": "learner writes the -ing form (dictation) and reads it (tap gate)"},
+    "L3.15": {"real": ["moon", "book", "soon", "hook", "cool"], "pseudo": ["sproom", "blook", "twood", "froon", "gloot"], "dictation": ["look"],
+              "bar": {"ratio": 0.9, "source": "lesson", "raw": "≥90%"}, "firstAttemptOnly": True,
+              "note": "dictated sentence 'I took a good look at the book.' -> the app dictates 'look'; flex narration is self-report"},
+    "L4.15": {"real": [], "pseudo": [], "attack": ["comfortable", "dangerous", "ingredients"], "bar": {"pass": 2, "of": 3, "source": "lesson", "raw": "2 of 3"},
+              "freeResponse": True, "note": "unknown-word protocol narrated on 3 words: the app runs the word-attack routine, self-report per word"},
+}
+MASTERY_LESSON = {"L2.14", "L3.18", "L4.16"}
+
+
+def extract_words(txt):
+    """Words from course word lists: backtick/comma/· lists, arrows (hope→hoping) count both sides."""
+    t = re.sub(r"\([^()]*\)", "", txt).replace("→", ",").replace("·", ",").replace("*", "").replace("`", ",")
+    out = []
+    for m in re.finditer(r"(?:^|[:,;])\s*([a-z][a-z']*)\s*(?=[,.;]|$)", t, re.M):
+        w = m.group(1)
+        if w not in out: out.append(w)
+    return out
+
+
+def blend_lists(body):
+    parts = re.split(r"(?im)^\s*(?:\*\*)?pseudo", body, maxsplit=1)
+    real = extract_words(parts[0])
+    pseudo = extract_words("Pseudo" + parts[1]) if len(parts) > 1 else []
+    return {"real": real[:40], "pseudo": [w for w in pseudo if w not in real][:12]}
+
+
+def spell_block(body):
+    b = body.replace("*", "")
+    m = re.search(r"(?is)\bwords?\s*(?:\([^)]*\))?:?\s*(.*?)(?=\n?\s*\d[.)]|sentence|\Z)", b)
+    words = extract_words(":" + m.group(1)) if m else []
+    if not words:
+        words = re.findall(r"\d\)\s*([a-z]+)\b(?!\s*[a-z])", b)
+    sent = re.search(r'"([A-Z][^"]+)"', b)
+    return {"words": words[:6], **({"sentence": sent.group(1)} if sent else {})}
+
+
+def parse_mastery(level):
+    """Level mastery instrument (course/level-N/mastery-check.md) -> components the app scores (tap gate / spell);
+    passage reading, prosody and narration stay with the tutor (listed as offline components)."""
+    md = (COURSE / f"level-{level}" / "mastery-check.md").read_text()
+    sec = lambda pat: (re.search(pat + r".*?(?=\n## |\Z)", md, re.S | re.I) or [""])[0]
+    def items(block, skip=1):
+        lines = block.split("\n")[skip:]
+        txt = "\n".join(l for l in lines if not re.match(r"\s*\*\*|\s*\*\(|\s*\(|\s*Flash|\s*Label|\s*\(any|\s*Have|\s*Read each", l))
+        return extract_words(":" + txt.strip().split("\n\n")[0])
+    comps = []
+    def add(cid, label, kind, ws, p, of):
+        comps.append({"id": cid, "label": label, "kind": kind, "items": ws, "bar": {"pass": p, "of": of, "source": "mastery-check.md"}})
+    if level == 2:
+        add("real", "Real words", "real", items(sec(r"## Component 1")), 26, 28)
+        add("pseudo", "Alien words", "pseudo", items(sec(r"## Component 2")), 11, 12)
+        add("heart", "Heart words", "heart", items(sec(r"## Component 4")), 27, 29)
+        add("dictation", "Spelling", "dictation", ["catches", "helped", "sunset"], 2, 3)
+        offline = ["Decoding passage (read aloud with the tutor)", "Comprehension (3 questions, with the tutor)"]
+    elif level == 3:
+        add("heart", "Heart words", "heart", items(sec(r"## 1\. Heart"), 3), 14, 16)
+        real = re.findall(r"([a-z]+) \([^)]*\)\s*(?=·|$)", sec(r"## 2\. Real").split("\n", 1)[1], re.M)
+        # the instrument says "31 items listed" but lists 32 and scores "≥90%": the app uses all 32 at the 90% band (29/32)
+        add("real", "Real words", "real", real, -(-9 * len(real) // 10), len(real))
+        add("pseudo", "Alien words", "pseudo", items(sec(r"## 3\. Pseudo"), 2), 9, 10)
+        add("dictation", "Spelling", "dictation", ["plane", "smile", "close", "baby", "page", "train", "coat", "blue"], 7, 8)
+        offline = ["Connected-text reading (WCPM + phrasing, with the tutor)", "Comprehension 3/3", "Flex-decode narration"]
+    else:
+        real = re.findall(r"^\| \d+ \| (\w+) \|", md, re.M)
+        add("real", "Real words", "real", real, 14, 16)
+        ital = lambda b: extract_words(":" + (re.search(r"\n\*([a-z][a-z,\s]+)\*", b) or [""])[0].replace("\n", " "))
+        add("pseudo", "Alien words", "pseudo", ital(sec(r"## Section 2")), 9, 10)
+        add("multi_pseudo", "Long alien words", "pseudo", ital(sec(r"## Section 3")), 7, 8)
+        add("multi_real", "Long real words", "real", ital(sec(r"## Section 4")), 9, 10)
+        add("dictation", "Spelling", "dictation", ["yard", "store", "shirt", "square", "join", "town", "wall", "hoping", "running", "happier"], 8, 10)
+        offline = ["Authentic passage + unknown-word protocol (with the tutor)", "Fluency reading (WCPM + prosody)"]
+    for c in comps:   # the stated denominators must match the parsed lists (else the instrument changed: fail loudly)
+        if len(c["items"]) != c["bar"]["of"]:
+            raise SystemExit(f"L{level} mastery {c['id']}: parsed {len(c['items'])} items, instrument says {c['bar']['of']}: {c['items']}")
+    return {"mastery": True, "components": comps, "offline": offline,
+            "bar": {"ratio": 0.9, "source": "mastery-check.md", "raw": "every component at its threshold"}, "firstAttemptOnly": True}
+
+
 def parse_lesson(path):
     md = path.read_text()
     lid = re.match(r"(L\d)\.(\d+)", path.name)
@@ -317,16 +427,22 @@ def parse_lesson(path):
             r = parse_read(body + "".join(b for l2, t2, b in secs if t2.lower().startswith("track")))
             if r and "read" not in lesson: lesson["read"] = r
         if "listen & talk" in tl or "listen and talk" in tl:
-            li = parse_listen(body)
+            li = parse_listen(body) or (parse_listen_inline(body) if level >= 3 else None)
             if li: lesson["listen"] = li
         if re.search(r"(^|\d\.\s*|\s)check\b", tl) and "mini" not in tl and "fluency" not in tl and "self" not in tl:
             c = parse_check(body)
             if c: lesson["check"] = c
         if re.match(r"(\d\.\s*)?blend it", tl):
-            b = {"real": comma_list(label_value(body, r"Real") or ""), "pseudo": comma_list(label_value(body, r"Pseudo") or "")}
-            if not b["real"]:
-                b["real"] = [w for line in body.splitlines() if ":" in line for w in comma_list(line.split(":", 1)[1])][:20]
+            if level >= 2:
+                b = blend_lists(body)      # Levels 2-4: split at the Pseudowords label, words from every list (decision: course pass)
+            else:
+                b = {"real": comma_list(label_value(body, r"Real") or ""), "pseudo": comma_list(label_value(body, r"Pseudo") or "")}
+                if not b["real"]:
+                    b["real"] = [w for line in body.splitlines() if ":" in line for w in comma_list(line.split(":", 1)[1])][:20]
             if b["real"] or b["pseudo"]: lesson["blendList"] = b
+        if level >= 2 and re.match(r"(\d\.\s*)?spell it", tl):
+            sp = spell_block(body)
+            if sp: lesson["spell"] = sp
         if re.match(r"(\d\.\s*)?heart word", tl):
             hs = [{"word": m.group(1), "note": re.sub(r"\s+", " ", m.group(2)).strip()}
                   for m in re.finditer(r"^- \*\*(\w+)\*\*\s*[—–-]\s*(.*?)(?=\n- \*\*|\n\s*\n|\Z)", body, re.S | re.M)]
@@ -351,9 +467,18 @@ def parse_lesson(path):
                 if title.startswith("Sitting") and re.search(r"\*\*Real \(", body):
                     c = parse_check(body.split("9. Check")[-1]); 
                     if c: lesson["check"] = c
+    # Levels 2-4: the CANONICAL heart-word schedule (DESIGN.md §3) decides, notes kept where the lesson has them
+    if 2 <= level <= 4:
+        notes = {h["word"].lower(): h.get("note") for h in lesson.get("heart", [])}
+        lesson["heart"] = [{"word": w, "note": notes.get(w)} for w in CANON_HEART.get(lesson["id"], [])]
+        if not lesson["heart"]: del lesson["heart"]
+        fix = CHECK_FIX.get(lesson["id"])
+        if fix: lesson["check"] = fix
+        if lesson["id"] in MASTERY_LESSON:
+            lesson["check"] = parse_mastery(level)
     # heart word list from header if notes not found
     hl = lesson.get("heartLine", "")
-    if "heart" not in lesson and hl and not re.match(r"(?i)none|cumulative", hl):
+    if "heart" not in lesson and hl and not re.match(r"(?i)none|cumulative", hl) and not 2 <= level <= 4:
         lesson["heart"] = [{"word": w, "note": None} for w in words_in(re.split(r"\(", hl)[0])
                            if w.lower() not in {"taught", "in", "the", "final", "review", "new"}][:4]
     # where Read-it lives under Sitting D (L1.02 style) parse it from full text
@@ -410,6 +535,13 @@ def app_sittings(lesson):
 
 def main():
     files = sorted(COURSE.glob("level-*/lessons/L*.md"))
+    if LEVELS_ONLY:   # --levels 2,3,4: rewrite ONLY those lesson files (lexicon.json / gpc.json / coverage.md belong to Level 1 + build_lexicon.py)
+        for f in files:
+            if int(f.name[1]) in LEVELS_ONLY:
+                L = parse_lesson(f)
+                (OUT / "lessons" / f"{L['id']}.json").write_text(json.dumps(L, indent=1, ensure_ascii=False))
+                print(L["id"], L["blocksFound"], {k: len(v) for k, v in (L.get("blendList") or {}).items()}, [h["word"] for h in L.get("heart", [])])
+        return
     lessons = []
     for f in files:
         L = parse_lesson(f)

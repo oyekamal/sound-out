@@ -22,6 +22,11 @@
    "thread",
    "spread",
    "meant",
+   "health",
+   "wealth",
+   "breath",
+   "threat",
+   "healthy",
    "know",
    "knee",
    "knock",
@@ -30,9 +35,51 @@
    "kneel",
    "knuckle",
    "write",
-   "wrist"
+   "wrist",
+   "wrap",
+   "wrong",
+   "wreck",
+   "wrench",
+   "wrinkle",
+   "gnat",
+   "gnaw",
+   "sign",
+   "design",
+   "comb",
+   "lamb",
+   "climb",
+   "thumb",
+   "crumb",
+   "numb"
   ],
-  "pseudo": []
+  "pseudo": [
+   "thead",
+   "knop",
+   "wrab",
+   "gnol",
+   "vomb"
+  ]
+ },
+ "spell": {
+  "words": [
+   "know",
+   "write"
+  ],
+  "sentence": "I know it is wrong to spread bad news."
+ },
+ "listen": {
+  "title": null,
+  "passage": "When someone stays calm and keeps making good choices even after something goes wrong, we can say they showed composure — a steady, level-headed response instead of panic.",
+  "tier2": [
+   {
+    "word": "composure",
+    "def": "staying calm and thinking clearly, even when something unexpected or painful happens.",
+    "full": "staying calm and thinking clearly, even when something unexpected or painful happens."
+   }
+  ],
+  "questions": [
+   "Why might staying calm actually help you heal or fix a problem faster?"
+  ]
  },
  "check": {
   "real": [
@@ -72,8 +119,10 @@
  "blocksFound": [
   "blendList",
   "read",
+  "listen",
   "check",
-  "trackB"
+  "trackB",
+  "tier2"
  ],
  "appSittings": null
 }

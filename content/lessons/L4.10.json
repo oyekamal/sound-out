@@ -11,13 +11,56 @@
  "time": "25 min",
  "blendList": {
   "real": [
+   "candle",
+   "table",
+   "apple",
+   "little",
+   "bottle",
+   "purple",
+   "simple",
+   "uncle",
+   "bubble",
+   "puzzle",
+   "handle",
+   "needle",
+   "cattle",
+   "saddle",
+   "wiggle",
+   "giggle",
+   "ankle",
+   "sample",
+   "wobble",
+   "tumble"
+  ],
+  "pseudo": [
    "fottle",
    "glimple",
    "thandle",
    "scaddle",
    "zuddle"
+  ]
+ },
+ "spell": {
+  "words": [
+   "little",
+   "purple",
+   "uncle"
   ],
-  "pseudo": []
+  "sentence": "Uncle put the purple candle on the little table."
+ },
+ "listen": {
+  "title": null,
+  "passage": "A worker who checks their own work carefully before calling a job finished shows diligence — steady, careful effort, even on small details other people might not notice.",
+  "tier2": [
+   {
+    "word": "diligence",
+    "def": "careful, steady effort, especially in checking details before finishing a job.",
+    "full": "careful, steady effort, especially in checking details before finishing a job."
+   }
+  ],
+  "questions": [
+   "Why might a customer trust a worker who shows diligence, even for a small job?"
+  ]
  },
  "check": {
   "real": [
@@ -57,8 +100,10 @@
  "blocksFound": [
   "blendList",
   "read",
+  "listen",
   "check",
-  "trackB"
+  "trackB",
+  "tier2"
  ],
  "appSittings": null
 }

@@ -1,0 +1,151 @@
+{
+ "id": "L6.14",
+ "level": 6,
+ "title": "The Indus Valley Civilisation: A City Before Its Time",
+ "source": "course/level-6/lessons/L6.14-the-indus-valley-civilisation.md",
+ "practice": true,
+ "goal": "Read and discuss an original text on the Indus Valley Civilisation, independently running the full reciprocal-teaching routine, while reviewing description/sequence text structure and choosing your own syntax focus.",
+ "warm": {
+  "words": [],
+  "heart": [],
+  "prompts": [
+   "In L6.13 we compared taxes and inflation — what's one thing they both do to a family's budget?",
+   "What are the 4 reciprocal-teaching roles, in order? (Predictor, Questioner, Clarifier, Summarizer)",
+   "Name one text structure and one of its signal words."
+  ]
+ },
+ "word": {
+  "items": [],
+  "vocab": [
+   {
+    "word": "civilisation",
+    "def": "",
+    "examples": [],
+    "task": "Name one thing a group of people needs before historians would call it a"
+   },
+   {
+    "word": "excavate",
+    "def": "",
+    "examples": [],
+    "task": "Why do you think archaeologists dig slowly and carefully instead of quickly?"
+   }
+  ],
+  "affixes": [],
+  "review": []
+ },
+ "fluency": {
+  "title": "Read it smoothly",
+  "paragraphs": [
+   "Long before most of today's famous ancient civilisations existed, a highly organized society was already building cities with straight streets, covered drains, and public wells. Historians call it the Indus Valley Civilisation, and in some ways, it was ahead of its time."
+  ],
+  "phrased": true
+ },
+ "prime": {
+  "facts": [
+   "this city-building culture grew up along the Indus River, in what is today Pakistan and northwest India",
+   "its two most famous cities are Harappa and Mohenjo-daro — Mohenjo-daro is now a UNESCO World Heritage site in Sindh, Pakistan",
+   "we can see exactly how they built and organized their cities, but their writing has never been deciphered, so we still don't know what they said in their own words."
+  ],
+  "question": "Have you ever visited, or heard a grandparent or great-grandparent talk about, an old fort, tomb, or ruin near where you live — and did anyone ever tell you roughly how old it actually was?",
+  "intro": "Picture an ancient city with straight streets crossing at neat right angles, covered drains running under the roads, and a bathing area in almost every home — built roughly 5,000 years ago, long before most of the \"ancient\" civilisations we usually hear about."
+ },
+ "write": {
+  "task": "In 3–5 sentences, explain what made Indus Valley cities unusual for their time, and give at least one piece of evidence from the text.",
+  "model": "Indus Valley cities were unusual because they were carefully planned instead of growing messily, as most ancient cities did. Evidence for this includes their grid-pattern streets, which crossed at right angles, and their covered drainage system, which carried wastewater away from homes through the streets. They also used a consistent system of weights across a wide area, which suggests organized trade. Even so, we still can't read their writing, so a lot about their daily beliefs and language remains unknown.\" ---"
+ },
+ "check": {
+  "items": [
+   {
+    "q": "What are the names of the two major cities of the Indus Valley Civilisation mentioned in the text?",
+    "kind": "literal",
+    "a": "Harappa and Mohenjo-daro."
+   },
+   {
+    "q": "What feature of Indus Valley houses connected to a covered street drain?",
+    "kind": "literal",
+    "a": "A bathing area, connected to a covered drain running under the street."
+   },
+   {
+    "q": "Why might the consistent weights found across the region suggest organized trade, rather than each town inventing its own system separately?",
+    "kind": "inferential",
+    "a": "Because if towns across a huge area were all using weights on the same scale independently, that would be an unlikely coincidence — a shared, agreed system points to trade contact and communication between towns."
+   },
+   {
+    "q": "The text says the Indus script is \"undeciphered.\" What does this mean we do and don't know about the Indus Valley people?",
+    "kind": "inferential",
+    "a": "We know a lot about how they built and organized their cities (from physical remains), but we don't know what they believed, said, or wrote in their own words, because nobody can read their writing system yet."
+   },
+   {
+    "q": "The text calls the drainage system \"remarkable... not even every modern city today\" manages sanitation this well. Do you think this is a fair comparison to make across 5,000 years? Why or why not?",
+    "kind": "evaluative",
+    "a": "Accept reasoned answers either way — e.g., \"fair in the sense that basic sanitation is still a real problem in many places today, so noting it existed 5,000 years ago is genuinely notable,\" or \"a little unfair, since it compares one planned ancient city to entire modern cities with far more people and different challenges.\""
+   }
+  ],
+  "bar": "4/5 or more",
+  "support": "If the learner scores below 4/5, reread the drainage-system paragraph together aloud, pointing at each bolded signal word (\"In fact,\" \"For instance\") as you go, before retrying questions 3 and 4.",
+  "challenge": "If the learner passes quickly and easily, ask them to name one modern city or town they know of that still struggles with basic sanitation, and write 2–3 sentences comparing it directly to Mohenjo-daro's drainage system 5,000 years ago."
+ },
+ "text": {
+  "passages": [
+   {
+    "track": null,
+    "title": "The Indus Valley Civilisation: A City Before Its Time",
+    "paragraphs": [
+     "Around 5,000 years ago — roughly the same era as ancient Egypt and ancient Mesopotamia — a civilisation grew up along the banks of the Indus River, in what is today Pakistan and northwest India. Historians call it the Indus Valley Civilisation, or sometimes the Harappan Civilisation, after one of its major cities, Harappa. Its other great city, Mohenjo-daro, is now a UNESCO World Heritage site in Sindh, Pakistan.",
+     "What made this civilisation remarkable was not just its size, but its planning. Its cities, unlike many ancient cities that grew messily over time, were laid out on a grid, with straight main streets crossing at right angles. For example, Mohenjo-daro had wide roads running north-south and east-west, dividing the city into neat blocks. Such characteristics were unusual for a city this old — many cities built thousands of years later show far less planning.",
+     "In fact, the most famous feature of Indus Valley cities is their drainage system. For instance, most houses had their own bathing area connected to a covered drain running under the street, carrying wastewater away from homes. Few ancient civilisations — and not even every modern city today — managed sanitation this well. Archaeologists who excavate these sites often note that the drains were covered with bricks that could be lifted for cleaning, a detail that suggests real planning for long-term use, not just a quick fix.",
+     "The people of the Indus Valley also had a system of weights and measures that was remarkably consistent across the region, suggesting organized trade. Characteristics of their trade network include small stone weights, found from one end of the civilisation to the other, that follow the same scale — a sign that merchants across a huge area agreed on how to measure goods. They also had a writing system, seen on small stone seals, but historians have not yet agreed on how to read it — the Indus script remains undeciphered to this day, which means we know a great deal about how these people built and organized their world, but very little about what they believed, wrote, or said in their own words.",
+     "So what happened to this civilisation? Historians describe a gradual decline rather than a single dramatic event. First, evidence suggests the Indus River system changed course over time, and some rivers the cities depended on dried up or shifted. Then, trade networks that had connected the cities to distant regions seem to have weakened. After that, the great cities were gradually abandoned, and the population is thought to have spread out into smaller farming settlements across the region — not vanished, but dispersed. Finally, over centuries, the memory of these cities faded from view entirely, buried under soil, until archaeologists began excavating Harappa and Mohenjo-daro in the 1920s and uncovered a civilisation nobody in the modern world had known existed.",
+     "Remember from L6.02 how blood carries oxygen through a network of vessels reaching every part of the body? The Indus Valley's covered drains did something similar for a whole city — carrying waste away from every home through a single connected network, keeping the city healthier as a result."
+    ],
+    "phrased": false,
+    "script": false,
+    "questions": [
+     {
+      "q": "Along which river did this civilisation grow up, and what are its two major cities called?",
+      "a": "The Indus River; its two major cities are Harappa and Mohenjo-daro."
+     },
+     {
+      "q": "Why might the detail that drain covers \"could be lifted for cleaning\" matter to archaeologists studying how well-planned this city was?",
+      "a": "It suggests the drains were built for long-term maintenance and reuse, not just a one-time fix — a sign of real forward planning, not luck."
+     }
+    ]
+   }
+  ],
+  "moves": []
+ },
+ "discuss": {
+  "roles": [
+   {
+    "role": "Predictor",
+    "prompt": "Before reading the next paragraph, glance at its opening sentence or topic. What do you think it will tell you?",
+    "model": null
+   },
+   {
+    "role": "Questioner",
+    "prompt": "",
+    "model": null
+   },
+   {
+    "role": "Clarifier",
+    "prompt": "Find one word or sentence in the paragraph that felt confusing on first read. Reread it. What does it mean now?",
+    "model": null
+   },
+   {
+    "role": "Summarizer",
+    "prompt": "In one sentence, what was that paragraph mainly about?",
+    "model": null
+   }
+  ]
+ },
+ "screens": [
+  "warm",
+  "word",
+  "fluency",
+  "prime",
+  "text",
+  "discuss",
+  "write",
+  "check"
+ ]
+}

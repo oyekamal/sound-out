@@ -1,0 +1,83 @@
+// L1.01 "Sounds in Words": oral phonemic awareness, NO letters on screen (pictures are placeholders),
+// except the 60-second preview of s and a at the very end. Words come from the course lesson (§2a-c).
+import { play, wait, mark } from '../audio.js';
+import { h, picture, speaker } from '../ui.js';
+import { entry, g2p } from '../content.js';
+import { choose, shuffle, sounds } from './l1steps.js';
+
+const FIRST = ['sun', 'top', 'mat', 'pig', 'dog'];          // a) first sound
+const BLEND = ['at', 'sat', 'it', 'on', 'mat'];               // b) blending
+const SEGMENT = ['up', 'at', 'sat', 'dog'];                   // c) segmenting
+const CHECK = ['sat', 'top', 'pig', 'dog', 'mat'];            // check: hear the sounds, pick the word
+const ph = w => entry(w).p.map(p => `ph:${p}`);
+const pic = (w, i) => picture(i, `picture ${i + 1}`);         // placeholder: never the printed word
+
+function stageFor(ctx, step) { ctx.step = step; mark('step', { key: ctx.sitting.key, step }); return ctx.stage(); }
+
+async function firstSound(ctx, w, i) {
+  const s = stageFor(ctx, 'oral-first');
+  s.append(h('h2', {}, 'What sound does it start with?'), h('div', { class: 'pics one' }, pic(w, i)), speaker(`w:${w}`, { big: true, label: 'Hear the word' }));
+  await ctx.instruct('ui:l1OralFirst'); await play(`w:${w}`);
+  const t = entry(w).p[0];
+  const others = shuffle(['s', 'a', 't', 'p', 'i', 'n', 'm', 'd', 'g', 'o'].filter(p => p !== t)).slice(0, 2);
+  const r = await choose(s, shuffle([t, ...others]).map(p => ({ key: `ph:${p}`, ok: p === t, id: p })), { cls: 'three' });
+  await ctx.record(`oral:first:${w}`, 'oral', r);
+}
+
+async function blendWord(ctx, w, pool, { test = false } = {}) {
+  const s = stageFor(ctx, test ? 'oral-check' : 'oral-blend');
+  s.append(h('h2', {}, 'Which word do the sounds make?'), speaker(null, { big: true, label: 'Hear the sounds again', onplay: () => sounds(ph(w)) }));
+  await ctx.instruct('ui:l1OralBlend'); await sounds(ph(w));
+  const opts = shuffle([w, ...shuffle(pool.filter(x => x !== w)).slice(0, 2)]);
+  const r = await choose(s, opts.map((o, i) => ({ key: `w:${o}`, body: pic(o, i + 1), ok: o === w, id: o })), { cls: 'three', test });
+  await ctx.record(`oral:blend:${w}`, 'oral', r);
+  return r;
+}
+
+async function segment(ctx, w) {
+  const s = stageFor(ctx, 'oral-count');
+  const n = entry(w).p.length;
+  const dots = h('div', { class: 'dots big' }, ...Array.from({ length: n }, () => h('i')));
+  s.append(h('h2', {}, 'How many sounds?'), speaker(`w:${w}`, { big: true, label: 'Hear the word' }));
+  await ctx.instruct('ui:l1OralCount'); await play(`w:${w}`);
+  const r = await choose(s, [2, 3, 4].map(k => ({ body: h('div', { class: 'dots' }, ...Array.from({ length: k }, () => h('i', { class: 'on' }))), label: 'This many', ok: k === n, id: String(k) })), { cls: 'three', autoplay: false });
+  // show it: one dot lights per sound
+  s.append(dots);
+  const ds = [...dots.children];
+  for (let i = 0; i < n; i++) { ds[i].classList.add('on'); await play(`ph:${entry(w).p[i]}`); await wait(300); }
+  await ctx.record(`oral:count:${w}`, 'oral', r);
+}
+
+export async function oral(ctx) {
+  for (const [i, w] of FIRST.entries()) await firstSound(ctx, w, i);
+  for (const w of BLEND) await blendWord(ctx, w, BLEND.concat(FIRST));
+  for (const w of SEGMENT) await segment(ctx, w);
+  // the only letters in L1.01: a preview of s and a (taught properly in L1.02)
+  const s = stageFor(ctx, 'preview');
+  let tapped = 0;
+  const card = l => { const b = h('button', { class: 'lettercard small', 'data-letter': l }, l); b.addEventListener('click', async () => { tapped++; await play(`ph:${g2p[l]}`); ctx.enableNext(); }); return b; };
+  s.append(h('h2', {}, 'Two letters for next time'), h('div', { class: 'row' }, card('s'), card('a')),
+    h('p', { class: 'muted' }, 'Tap a letter to hear its sound. You will learn them properly in the next lesson.'));
+  await ctx.instruct('ui:l1OralPreview');
+  await play('ph:s'); await wait(300); await play('ph:a');
+  await ctx.next({ disabledUntil: () => tapped > 0 });
+}
+
+// Show what you know for L1.01: hear the sounds, pick the word. Bar from the lesson JSON (4/5).
+export async function oralCheck(ctx) {
+  const bar = ctx.lesson.check?.bar?.pass ? { pass: ctx.lesson.check.bar.pass, of: ctx.lesson.check.bar.of } : { pass: 4, of: 5 };
+  const s0 = stageFor(ctx, 'oral-check');
+  s0.append(h('h2', {}, 'Show what you know'), h('p', { class: 'prompt' }, 'Listen to the sounds. Pick the word they make.'));
+  await ctx.instruct('ui:l1OralCheck'); await ctx.next();
+  let correct = 0, judged = 0;
+  for (const w of CHECK) { const r = await blendWord(ctx, w, CHECK.concat(BLEND), { test: true }); judged++; if (r.correct) correct++; }
+  const result = correct / judged >= bar.pass / bar.of ? 'checked' : 'miss';
+  mark('check-end', { result, correct, judged, bar });
+  const s = ctx.stage();
+  s.append(h('h2', {}, result === 'checked' ? 'Checked by tapping' : 'Show what you know'),
+    h('div', { class: 'dots' }, ...Array.from({ length: judged }, (_, i) => h('i', { class: i < correct ? 'on' : '' }))),
+    h('p', { class: 'score' }, `${correct} of ${judged} on the first try · bar ${bar.pass}/${bar.of}`));
+  await play(result === 'checked' ? 'ui:checkPass' : 'ui:checkMiss');
+  await ctx.next();
+  return { result, correct, judged, bar };
+}

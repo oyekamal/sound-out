@@ -1090,6 +1090,42 @@
    "id": "c4cfcfeb65f2",
    "dur": 0.543
   },
+  "w:fib": {
+   "id": "dc85a72477a7",
+   "dur": 0.617
+  },
+  "w:mud": {
+   "id": "73cb03d95c16",
+   "dur": 0.682
+  },
+  "w:taf": {
+   "id": "f6e513f19181",
+   "dur": 0.77
+  },
+  "w:nid": {
+   "id": "48364e47732b",
+   "dur": 0.582
+  },
+  "w:gof": {
+   "id": "54c319bee8a7",
+   "dur": 0.669
+  },
+  "w:haz": {
+   "id": "bda3d84253ff",
+   "dur": 0.707
+  },
+  "w:vin": {
+   "id": "1df23764943d",
+   "dur": 0.577
+  },
+  "w:quob": {
+   "id": "f2e68fad5e79",
+   "dur": 0.662
+  },
+  "w:dov": {
+   "id": "3c6103eda7f2",
+   "dur": 0.631
+  },
   "ipa:ʌ": {
    "id": "3cdd3d5b7a56",
    "dur": 0.505
@@ -2162,6 +2198,38 @@
    "id": "c4cfcfeb65f2",
    "dur": 0.543
   },
+  "ipa:fˈɪb": {
+   "id": "dc85a72477a7",
+   "dur": 0.617
+  },
+  "ipa:mˈʌd": {
+   "id": "73cb03d95c16",
+   "dur": 0.682
+  },
+  "ipa:tˈæf": {
+   "id": "f6e513f19181",
+   "dur": 0.77
+  },
+  "ipa:nˈɪd": {
+   "id": "48364e47732b",
+   "dur": 0.582
+  },
+  "ipa:ɡˈɑf": {
+   "id": "54c319bee8a7",
+   "dur": 0.669
+  },
+  "ipa:vˈɪn": {
+   "id": "1df23764943d",
+   "dur": 0.577
+  },
+  "ipa:kwˈɑb": {
+   "id": "f2e68fad5e79",
+   "dur": 0.662
+  },
+  "ipa:dˈɑv": {
+   "id": "3c6103eda7f2",
+   "dur": 0.631
+  },
   "ipa:ˈæd": {
    "id": "ecb4b22e7cdc",
    "dur": 0.602
@@ -2253,10 +2321,6 @@
   "ipa:mˈɛz": {
    "id": "84a437aa1149",
    "dur": 0.739
-  },
-  "ipa:nˈɪd": {
-   "id": "48364e47732b",
-   "dur": 0.582
   },
   "ipa:wˈæp": {
    "id": "c6238f6ef5da",
@@ -2722,10 +2786,6 @@
    "id": "163f9c8b0192",
    "dur": 0.59
   },
-  "ipa:mˈʌd": {
-   "id": "73cb03d95c16",
-   "dur": 0.682
-  },
   "ipa:bˈɪn": {
    "id": "9cbe6ecc59fa",
    "dur": 0.8
@@ -2969,10 +3029,6 @@
   "ipa:nˈɪb": {
    "id": "91eb9bd4d113",
    "dur": 0.575
-  },
-  "ipa:vˈɪn": {
-   "id": "1df23764943d",
-   "dur": 0.577
   },
   "ipa:ɡˈɪɡ": {
    "id": "f51c70bbae7d",
@@ -3261,6 +3317,70 @@
   "ipa:fˈi": {
    "id": "f41ec3bfaf96",
    "dur": 0.616
+  },
+  "ipa:mˈæf": {
+   "id": "9fad96dd470c",
+   "dur": 0.711
+  },
+  "ipa:tˈɛf": {
+   "id": "8c06ed647ad9",
+   "dur": 0.619
+  },
+  "ipa:vˈɪd": {
+   "id": "7c263a4fb697",
+   "dur": 0.615
+  },
+  "ipa:vˈʌd": {
+   "id": "89b7a4fd285e",
+   "dur": 0.655
+  },
+  "ipa:vˈɑf": {
+   "id": "e4387f27256b",
+   "dur": 0.711
+  },
+  "ipa:ɡˈɛf": {
+   "id": "c64f44b7994f",
+   "dur": 0.648
+  },
+  "ipa:vˈɛf": {
+   "id": "96b73c3b409c",
+   "dur": 0.685
+  },
+  "ipa:tˈæz": {
+   "id": "f71c8ebf08be",
+   "dur": 0.713
+  },
+  "ipa:hˈɑz": {
+   "id": "fdd58c121435",
+   "dur": 0.722
+  },
+  "ipa:tˈɑz": {
+   "id": "d04d82c080c9",
+   "dur": 0.631
+  },
+  "ipa:vˈɛn": {
+   "id": "4c2f0b947232",
+   "dur": 0.621
+  },
+  "ipa:nˈɛn": {
+   "id": "c6d4bd3d52b0",
+   "dur": 0.551
+  },
+  "ipa:klˈɑb": {
+   "id": "fc243badba8c",
+   "dur": 0.62
+  },
+  "ipa:lˈɑv": {
+   "id": "e5fa063a3aca",
+   "dur": 0.59
+  },
+  "ipa:dˈæv": {
+   "id": "24df7f605c51",
+   "dur": 0.601
+  },
+  "ipa:lˈæv": {
+   "id": "e87b228c2f49",
+   "dur": 0.704
   },
   "ph:s": {
    "id": "b0fa636ab32c",
@@ -3657,6 +3777,50 @@
   "ui:selfReport": {
    "id": "135b368460e7",
    "dur": 3.529
+  },
+  "ui:l1OralFirst": {
+   "id": "a1bae4fc8e17",
+   "dur": 2.735
+  },
+  "ui:l1OralBlend": {
+   "id": "dce99074d452",
+   "dur": 3.008
+  },
+  "ui:l1OralCount": {
+   "id": "58e00d6e95e1",
+   "dur": 2.533
+  },
+  "ui:l1OralPreview": {
+   "id": "d02c72712cd0",
+   "dur": 2.019
+  },
+  "ui:l1OralCheck": {
+   "id": "3c4609abab9f",
+   "dur": 2.306
+  },
+  "ui:l1Names": {
+   "id": "ef4ba41ecad3",
+   "dur": 2.376
+  },
+  "ui:l1NameOrSound": {
+   "id": "67497c91e661",
+   "dur": 2.486
+  },
+  "ui:l1Bdpq": {
+   "id": "c95789d0f8f4",
+   "dur": 2.842
+  },
+  "ui:l1MasteryIntro": {
+   "id": "0ac26b3a2de3",
+   "dur": 3.05
+  },
+  "ui:l1MasteryPass": {
+   "id": "884859132da9",
+   "dur": 3.386
+  },
+  "ui:l1MasteryMiss": {
+   "id": "bee26c5f9554",
+   "dur": 2.674
   },
   "lt:L1.01:title": {
    "id": "ba7a6117870f",

@@ -156,22 +156,22 @@
 | Level | real words | in CMUdict | gpc | alt | irregular | unaligned | letter/abbrev. | not in CMUdict | homographs | pseudowords | multi-syll. pseudo (review) | all fields incl. tutor notes: words / in CMUdict |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 1 | 1062 | 1061 (99.9%) | 862 | 148 | 37 | 0 | 15 | 1 | 8 | 60 | 1 | 1485 / 1412 |
-| 2 | 793 | 783 (98.7%) | 681 | 97 | 15 | 0 | 0 | 10 | 4 | 65 | 19 | 1128 / 1008 |
-| 3 | 604 | 604 (100.0%) | 565 | 30 | 9 | 0 | 0 | 0 | 6 | 84 | 10 | 847 / 759 |
-| 4 | 1106 | 1082 (97.8%) | 943 | 132 | 28 | 0 | 3 | 24 | 8 | 66 | 23 | 1384 / 1266 |
+| 2 | 827 | 820 (99.2%) | 715 | 97 | 15 | 0 | 0 | 7 | 5 | 74 | 19 | 1177 / 1054 |
+| 3 | 910 | 910 (100.0%) | 812 | 82 | 16 | 0 | 0 | 0 | 9 | 94 | 12 | 1169 / 1071 |
+| 4 | 1378 | 1359 (98.6%) | 1175 | 160 | 40 | 0 | 3 | 19 | 8 | 108 | 30 | 1694 / 1544 |
 | 5 | 0 | 0 (0.0%) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 467 / 442 |
 | 6 | 0 | 0 (0.0%) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 331 / 321 |
 | 7 | 330 | 327 (99.1%) | 258 | 53 | 15 | 0 | 4 | 3 | 5 | 0 | 0 | 574 / 562 |
 
-All levels: 2469 distinct real words, 2433 in CMUdict; 274 distinct pseudowords.
+All levels: 2799 distinct real words, 2771 in CMUdict; 335 distinct pseudowords.
 
-**Not in CMUdict (36; composed from the GPC table, flagged `oov`):** amina, amina's, amna, bilal, bilal's, clart, confusable, counterargument, darm, decodable, drumroll, farid, farl, hamza, hamza's, hesh, hina, jots, naveed, naveed's, pigpen, plarn, rukhsana, rukhsana's, sart, scrubs, shom, simile, starb, uncurled, unhappiest, vosh, wobbles, wobbliest, zayn, zayn's
+**Not in CMUdict (28; composed from the GPC table, flagged `oov`):** amina, amina's, amna, bilal, bilal's, confusable, counterargument, drumroll, farid, hamza, hamza's, handspring, hina, jots, naveed, naveed's, pigpen, rukhsana, rukhsana's, scrubs, simile, streetlights, uncurled, unhappiest, wobbles, wobbliest, zayn, zayn's
 
 **Unaligned (0):** 
 
-**Homographs (13, sense chosen by lesson-context rules, all flagged `homograph-review`):** close -> K L OW Z (L3.03: [('verb', 5), ('near', 2)]); content -> K AA N T EH N T (L7.10: [('noun', 1)]); does -> D AH Z (L2.12: [('verb', 13)]); house -> HH AW S (L4.06: [('noun', 6)]); live -> L IH V (L4.01: [('verb', 1)]); minute -> M IH N AH T (L1.07: [('time', 2)]); project -> P R AA JH EH K T (L1.09: [('noun', 2)]); read -> R IY D (L3.11: [('present', 13)]); separate -> S EH P ER IH T (L1.10: [('adj', 2)]); tear -> T IH R (L7.09: [('cry', 1)]); tears -> T IH R Z (L2.07: [('cry', 2)]); use -> Y UW Z (L1.06: [('verb', 7), ('noun', 1)]); wind -> W AY N D (L3.16: [('verb', 6), ('noun', 5)])
+**Homographs (15, sense chosen by lesson-context rules, all flagged `homograph-review`):** close -> K L OW Z (L3.03: [('verb', 10), ('near', 3)]); content -> K AA N T EH N T (L7.10: [('noun', 1)]); does -> D AH Z (L2.12: [('verb', 13)]); house -> HH AW S (L4.06: [('noun', 7)]); live -> L IH V (L3.11: [('verb', 2)]); minute -> M IH N AH T (L1.07: [('time', 2)]); produce -> P R OW D UW S (L3.08: [('noun', 1)]); project -> P R AA JH EH K T (L1.09: [('noun', 2)]); read -> R IY D (L3.11: [('present', 13)]); row -> R OW (L3.12: [('line', 1)]); separate -> S EH P ER IH T (L1.10: [('adj', 2)]); tear -> T IH R (L7.09: [('cry', 1)]); tears -> T IH R Z (L2.07: [('cry', 2)]); use -> Y UW Z (L2.03: [('verb', 10), ('noun', 1)]); wind -> W AY N D (L3.16: [('verb', 6), ('noun', 5)])
 
-**Level 1 app items vs CMUdict:** 381 real Level 1 items (lexicon + tap-gate) are in CMUdict; 346 match the course IPA exactly, 35 differ: b (course B / CMU B IY), boll (course B AA L / CMU B OW L), chink (course K HH IH N K / CMU CH IH NG K), chunk (course K HH AH N K / CMU CH AH NG K), clink (course K L IH N K / CMU K L IH NG K), clunk (course K L AH N K / CMU K L AH NG K), cog (course K AA G / CMU K AO G), cor (course K AA R / CMU K AO R), d (course D / CMU D IY), dar (course D AE R / CMU D AA R), dog (course D AA G / CMU D AO G), fall (course F AE L / CMU F AO L), full (course F AH L / CMU F UH L), geck (course G EH K / CMU JH EH K), gem (course G EH M / CMU JH EH M), has (course HH AE S / CMU HH AE Z), is (course IH S / CMU IH Z), ladd (course L AE D D / CMU L AE D), log (course L AA G / CMU L AO G), mam (course M AE M / CMU M AA M), mod (course M AA D / CMU M AO D), off (course AA F / CMU AO F), pall (course P AE L / CMU P AA L), pull (course P AH L / CMU P UH L), put (course P AH T / CMU P UH T), sa (course S AE / CMU S AA), sall (course S AE L / CMU S AO L), sar (course S AE R / CMU S AA R), son (course S AA N / CMU S AH N), sor (course S AA R / CMU S AO R), sot (course S AA T / CMU S AO T), sur (course S AH R / CMU S ER), tall (course T AE L / CMU T AO L), ter (course T EH R / CMU T ER), ton (course T AA N / CMU T AH N). **Level 1 pseudowords:** 166; the GPC composer reproduces the course IPA for 161: differs for att (AE T T vs AE T), itt (IH T T vs IH T), lodd (L AA D D vs L AA D), sadd (S AE D D vs S AE D), sodd (S AA D D vs S AA D).
+**Level 1 app items vs CMUdict:** 364 real Level 1 items (lexicon + tap-gate) are in CMUdict; 354 match the course IPA exactly, 10 differ: b (course B / CMU B IY), chunk (course K HH AH N K / CMU CH AH NG K), cog (course K AA G / CMU K AO G), d (course D / CMU D IY), dog (course D AA G / CMU D AO G), full (course F AH L / CMU F UH L), log (course L AA G / CMU L AO G), sa (course S AE / CMU S AA), tall (course T AE L / CMU T AO L), ton (course T AA N / CMU T AH N). **Level 1 pseudowords:** 189; the GPC composer reproduces the course IPA for 187: differs for att (AE T T vs AE T), lodd (L AA D D vs L AA D).
 
 ## Isolated sounds: direct renders in the app voice (River; tools/iso_sounds.py, decision 19)
 
@@ -179,56 +179,28 @@ No slicing. Each sound is its own ElevenLabs render, three prompt forms per soun
 
 | Sound | Class | Picked take | Model | ms | RMS dBFS | TP dBTP | Verdict |
 |---|---|---|---|---|---|---|---|
-| s | hiss | `Sssss.` | eleven_v4 | 420 | -18.9 | -6.0 | pass |
-| a | vowel | `æ.` | eleven_v4 | 380 | -19.1 | -2.77 | pass |
-| t | stop | `[whispers] t.` | eleven_v4 | 220 | -19.0 | -4.97 | pass |
-| p | stop | `p.` | eleven_v4 | 220 | -18.8 | -3.07 | pass |
+| s | hiss | `Sssss.` | eleven_v4 | 420 | -19.0 | -6.64 | pass |
+| a | vowel | `æ.` | eleven_v4 | 380 | -19.1 | -3.02 | pass |
+| t | stop | `[whispers] t.` | eleven_v4 | 220 | -18.9 | -4.81 | pass |
+| p | stop | `p.` | eleven_v4 | 220 | -18.9 | -3.58 | pass |
 | i | vowel | `ɪ...` | eleven_v4 | 380 | -18.9 | -3.64 | pass |
-| n | hum | `Nnnnn` | eleven_multilingual_v2 | 310 | -18.9 | -8.05 | pass |
-| m | hum | `Mmmmm` | eleven_multilingual_v2 | 310 | -19.0 | -10.46 | pass |
-| d | stop | `d` | eleven_v4 | 70 | -18.9 | -13.32 | pass |
-| g | stop | `g.` | eleven_v4 | 70 | -19.2 | -12.3 | pass |
-| o | vowel | `ɑ.` | eleven_v4 | 380 | -19.1 | -5.78 | pass |
-| k | stop | `[whispers] k.` | eleven_v4 | 220 | -19.1 | -4.55 | pass |
-| e | vowel | `ɛ.` | eleven_v4 | 360 | -19.1 | -2.08 | pass |
-| u | vowel | `Uh!` | eleven_v4 | 380 | -19.0 | -5.35 | pass |
-| r | hum | `Rrrrr` | eleven_multilingual_v2 | 310 | -18.9 | -5.98 | FAIL (least-bad take shipped) |
-| h | hiss | `Hhhhh.` | eleven_v4 | 420 | -19.0 | -5.58 | pass |
-| b | stop | `b.` | eleven_v4 | 70 | -19.0 | -13.34 | pass |
-| f | hiss | `Fffff.` | eleven_v4 | 420 | -18.9 | -4.62 | pass |
-| l | hum | `Lllll` | eleven_multilingual_v2 | 310 | -19.1 | -12.6 | pass |
-| j | stop | `j.` | eleven_v4 | 70 | -18.9 | -10.35 | pass |
-| v | hum | `The sound vv.` | eleven_v4 | 310 | -19.1 | -11.52 | pass |
-| w | glide | `w` | eleven_v4 | 140 | -19.2 | -8.0 | pass |
-| ks | stop | `[whispers] ks.` | eleven_v4 | 220 | -18.9 | -4.11 | pass |
-| y | glide | `yuh.` | eleven_v4 | 130 | -19.1 | -9.79 | pass |
-| z | hum | `Zzzzz` | eleven_multilingual_v2 | 310 | -19.2 | -10.82 | pass |
-| kw | stop | `kwuh.` | eleven_v4 | 220 | -19.1 | -4.15 | pass |
-
-<!-- sessions:start -->
-## Levels 5-7 session blocks (tools/parse_sessions.py, practice only)
-
-Session template parsed per lesson: W=warm-up, WW=word work, F=fluency/close reading, P=prime, T=knowledge text, D=discussion (reciprocal roles), Wr=write to read, C=check. **Words** = distinct learner-facing words parsed (the old L5-L7 table above counts only Level 1-4 style blend/check words, hence its 0). Chars = characters to voice (none rendered yet, see content/audio_needed_l5_7.json).
-
-### Level 5: 16/16 lessons with all 8 screens · 78,698 chars to voice
-
-| Lesson | Title | W | WW | F | P | T | D | Wr | C | Words | Chars |
-|---|---|---|---|---|---|---|---|---|---|---|---|
-| L5.01 | Prefixes un-, re- · The Water Cycle (int | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 285 | 4,012 |
-| L5.02 | Prefixes in-/im-/ir-/il- (not), dis- · H | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 321 | 4,417 |
-| L5.03 | Prefixes en-/em-, non- · The Human Heart | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 333 | 4,313 |
-| L5.04 | Prefixes over-, mis- · The Indus Valley  | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 362 | 5,439 |
-| L5.05 | Prefixes sub-, pre- · Weather vs. Climat | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 294 | 4,471 |
-| L5.06 | Suffixes -ly, -er/-or · The Water Cycle, | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 280 | 4,209 |
-| L5.07 | Suffixes -tion/-sion, -able/-ible · How  | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 318 | 4,735 |
-| L5.08 | Prefixes inter-, fore- · The Human Heart | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 357 | 5,274 |
-| L5.09 | Suffixes -al, -y · The Indus Valley, Dee | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 343 | 4,735 |
-| L5.10 | Prefixes de-, trans- · Weather Systems ( | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 356 | 4,892 |
-| L5.11 | Suffixes -ness, -ment · Number Roots · T | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 324 | 4,454 |
-| L5.12 | Prefixes super-, semi- · Roots spect, po | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 420 | 5,751 |
-| L5.13 | Suffixes -ful, -less, -ive · Roots scrib | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 384 | 5,557 |
-| L5.14 | Prefixes anti-, mid-, under- · Roots aud | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 380 | 5,526 |
-| L5.15 | Suffixes -ity, -ist · Roots cred, duc/du | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 425 | 6,382 |
-| L5.16 | Review, Integration & Extensive Reading  | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 357 | 4,531 |
-
-<!-- sessions:end -->
+| n | hum | `Nnnnn` | eleven_multilingual_v2 | 310 | -18.9 | -7.89 | pass |
+| m | hum | `Mmmmm` | eleven_multilingual_v2 | 310 | -19.2 | -10.82 | pass |
+| d | stop | `d` | eleven_v4 | 70 | -18.9 | -13.28 | pass |
+| g | stop | `g.` | eleven_v4 | 70 | -19.1 | -12.11 | pass |
+| o | vowel | `ɑ.` | eleven_v4 | 380 | -19.1 | -5.55 | pass |
+| k | stop | `[whispers] k.` | eleven_v4 | 220 | -18.9 | -4.6 | pass |
+| e | vowel | `ɛ.` | eleven_v4 | 360 | -19.1 | -2.76 | pass |
+| u | vowel | `Uh!` | eleven_v4 | 380 | -19.0 | -5.57 | pass |
+| r | hum | `Rrrrr` | eleven_multilingual_v2 | 310 | -19.0 | -5.89 | FAIL (least-bad take shipped) |
+| h | hiss | `Hhhhh.` | eleven_v4 | 420 | -19.1 | -5.12 | pass |
+| b | stop | `b.` | eleven_v4 | 70 | -19.0 | -13.21 | pass |
+| f | hiss | `Fffff.` | eleven_v4 | 420 | -19.1 | -4.34 | pass |
+| l | hum | `Lllll` | eleven_multilingual_v2 | 310 | -19.0 | -12.53 | pass |
+| j | stop | `j.` | eleven_v4 | 70 | -19.1 | -10.97 | pass |
+| v | hum | `The sound vv.` | eleven_v4 | 310 | -19.1 | -11.12 | pass |
+| w | glide | `w` | eleven_v4 | 140 | -19.2 | -8.18 | pass |
+| ks | stop | `[whispers] ks.` | eleven_v4 | 220 | -18.9 | -3.65 | pass |
+| y | glide | `yuh.` | eleven_v4 | 130 | -19.1 | -9.81 | pass |
+| z | hum | `Zzzzz` | eleven_multilingual_v2 | 310 | -19.1 | -10.89 | pass |
+| kw | stop | `kwuh.` | eleven_v4 | 220 | -18.9 | -3.5 | pass |

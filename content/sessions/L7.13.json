@@ -1,0 +1,162 @@
+{
+ "id": "L7.13",
+ "level": 7,
+ "title": "Literary Reading II: Unreliable Narrator & Poetry",
+ "source": "course/level-7/lessons/L7.13-literary-unreliable-narrator-poetry.md",
+ "practice": true,
+ "goal": "Recognize when a first-person narrator's account of events can't be fully trusted, and read a short poem for figurative meaning, sound, and compression (saying a lot in very few words).",
+ "warm": {
+  "words": [
+   "figurative language",
+   "tone",
+   "situational irony"
+  ],
+  "heart": [],
+  "prompts": []
+ },
+ "word": {
+  "items": [],
+  "vocab": [
+   {
+    "word": "Unreliable narrator",
+    "def": "a first-person narrator whose account the reader has reason to doubt — because they're lying, mistaken, mentally unwell, a child who doesn't understand what they're describing, or simply too invested in their own version of events to see it clearly. The reader has to read around the narrator's claims to reconstruct what's probably really true",
+    "examples": [],
+    "task": null
+   },
+   {
+    "word": "Connotation",
+    "def": "the feelings and associations a word carries beyond its literal dictionary meaning",
+    "examples": [
+     "Slender"
+    ],
+    "task": null
+   }
+  ],
+  "affixes": [],
+  "review": []
+ },
+ "prime": {
+  "facts": [
+   "first-person narration is never a neutral camera — every narrator selects, frames, and sometimes distorts what they report, whether or not they mean to.",
+   "poetry compresses meaning into very few words on purpose; a single concrete image is often doing the work a whole paragraph of abstract explanation would do in prose."
+  ],
+  "question": "recall a time a friend told you their side of an argument they'd had with someone else — did anything in how they told it make you suspect there was more to the other person's side than they were letting on?",
+  "intro": "Two facts before you read: (1) first-person narration is never a neutral camera — every narrator selects, frames, and sometimes distorts what they report, whether or not they mean to. (2) poetry compresses meaning into very few words on purpose; a single concrete image is often doing the work a whole paragraph of abstract explanation would do in prose. Orienting question: recall a time a friend told you their side of an argument they'd had with someone else — did anything in how they told it make you suspect there was more to the other person's side than they were letting on?"
+ },
+ "write": {
+  "task": "Choose one: (a) rewrite the garbage-bin Thursday as a neutral, third-person, reliable news-brief version of events (3–4 sentences) — strip out every unreliable framing word; or (b) write your own 3–4 line poem using one concrete, physical image (not an abstract feeling-word) to carry an emotion, the way \"crooked\" carries inheritance and love in \"What the Water Keeps.\" Use unreliable narrator or connotation correctly at least once in a short explanation of your choice.",
+  "model": null
+ },
+ "check": {
+  "items": [
+   {
+    "q": "In your rewrite, did you remove every self-defense word (\"calm,\" \"reasonable\") while keeping every actual fact? That's the core skill this session teaches.",
+    "kind": "self",
+    "a": null
+   }
+  ],
+  "bar": null,
+  "support": null,
+  "challenge": null
+ },
+ "text": {
+  "passages": [
+   {
+    "track": null,
+    "title": "An original short story with an unreliable narrator",
+    "paragraphs": [
+     "A Perfectly Reasonable Explanation",
+     "I want to be clear from the start that I am an extremely calm person, and that everything I did that Thursday was completely reasonable given the circumstances, and I would like whoever reads this to keep that firmly in mind, because I know how it's going to sound.",
+     "My neighbor, Mr. Feldt, had for several weeks been leaving his garbage bins out on the curb a full day early, which is, if you consult the homeowners' association bylaws — and I have, twice — a clear violation, and which I mentioned to him on four separate occasions, each time perfectly calmly, using a completely normal tone of voice that in no way could be described as anything but civil.",
+     "On the Thursday in question, I noticed the bins out again, a full eighteen hours early, and I want to stress that what I did next was not, as my wife later suggested, \"unhinged\" — that word is simply not accurate — but was, in fact, the only reasonable response left to a reasonable person who had already tried every reasonable channel. I moved the bins. That is all I did. I moved them, calmly, back onto his own driveway, which took, I will admit, several trips, since apparently four days' worth of garbage bins are heavier than one might expect, and I may have raised my voice slightly at one point when he came out onto his porch, though \"screaming,\" which is the word his porch camera's audio apparently picked up according to the police officer who came by later — purely as a courtesy visit, nothing more — is, again, simply not an accurate description of a person who is completely calm.",
+     "The officer asked whether I thought this was, perhaps, an overreaction to a bylaw about garbage bins. I explained, calmly, that he clearly did not understand the full eighteen-day history of the situation, at which point he asked whether \"eighteen days\" sounded to me like something a calm person would have been counting. I did not think that question was especially relevant, and said so, calmly."
+    ],
+    "phrased": false,
+    "script": false,
+    "questions": [
+     {
+      "q": "List three specific phrases the narrator uses to insist they are \"calm\" or \"reasonable.\" Why does a narrator who is genuinely calm rarely need to say so this many times?",
+      "a": null
+     },
+     {
+      "q": "Think question: the narrator never once lies about a fact you can point to (the bins were moved; the officer did come by) — the unreliability is entirely in the interpretation laid on top of true events, not in the events themselves. Why can a narrator be unreliable while still technically telling the truth about every individual fact?",
+      "a": null
+     }
+    ]
+   },
+   {
+    "track": null,
+    "title": "An original poem",
+    "paragraphs": [
+     "What the Water Keeps",
+     "The river does not remember the bridge that used to stand here, only the shape a bridge leaves in how a current has to bend.",
+     "My grandmother's kitchen is gone, the house sold, the table sold, but I set my own table crooked in the exact way hers always was —",
+     "not from clumsiness. From memory keeping a shape it never named, the way water still turns left at a bridge that isn't there."
+    ],
+    "phrased": false,
+    "script": false,
+    "questions": [
+     {
+      "q": "Identify the poem's central metaphor. What is being compared to what?",
+      "a": null
+     },
+     {
+      "q": "The poem never says \"I miss my grandmother\" or \"grief\" directly. What specific image carries that meaning instead, and what does the compression (saying it this way, in so few words) add that a direct statement wouldn't?",
+      "a": null
+     },
+     {
+      "q": "Look at the word \"crooked\" in stanza 2. What connotation does it carry here — clumsy/wrong, or something closer to inherited/loving? How does stanza 3 change your reading of \"crooked\"?",
+      "a": null
+     }
+    ]
+   }
+  ],
+  "moves": [
+   {
+    "title": "spotting an unreliable narrator",
+    "paragraphs": [
+     "Ask: does the narrator have an obvious reason to want you to believe a particular version of events? Does the narrator's own language undercut their claims (insisting too hard that they're calm, or reasonable, or definitely not the one at fault)? Do other characters' brief reactions, reported in passing, seem to contradict the narrator's version of themselves?"
+    ]
+   }
+  ]
+ },
+ "fluency": {
+  "title": "Read it smoothly",
+  "fromText": true,
+  "phrased": false
+ },
+ "discuss": {
+  "roles": [
+   {
+    "role": "Predictor",
+    "prompt": "If \"A Perfectly Reasonable Explanation\" continued for one more paragraph, what would the narrator most likely still be denying?",
+    "model": null
+   },
+   {
+    "role": "Questioner",
+    "prompt": "What's one question you'd ask the narrator directly that they'd almost certainly answer unreliably?",
+    "model": null
+   },
+   {
+    "role": "Clarifier",
+    "prompt": "Explain \"unreliable narrator\" to someone using the specific \"eighteen days\" detail as your proof.",
+    "model": null
+   },
+   {
+    "role": "Summarizer",
+    "prompt": "State the poem's central idea in one sentence without using the word memory.",
+    "model": null
+   }
+  ]
+ },
+ "screens": [
+  "warm",
+  "word",
+  "fluency",
+  "prime",
+  "text",
+  "discuss",
+  "write",
+  "check"
+ ]
+}

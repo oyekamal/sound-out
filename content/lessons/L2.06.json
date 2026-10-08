@@ -22,13 +22,26 @@
    "black",
    "clap",
    "flag",
+   "plan",
+   "drum",
+   "frog",
+   "trip"
+  ],
+  "pseudo": [
    "stad",
    "blen",
    "drin",
    "spuff",
    "glim"
+  ]
+ },
+ "spell": {
+  "words": [
+   "stop",
+   "plan",
+   "drum"
   ],
-  "pseudo": []
+  "sentence": "The\nfrog can swim and hop."
  },
  "heart": [
   {

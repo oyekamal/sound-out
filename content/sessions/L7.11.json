@@ -1,0 +1,135 @@
+{
+ "id": "L7.11",
+ "level": 7,
+ "title": "Synthesis II: 3–4 Sources, One Research Question",
+ "source": "course/level-7/lessons/L7.11-synthesis-multi-source.md",
+ "practice": true,
+ "goal": "The capstone disciplinary-reading task — read four mixed-genre sources (a data summary, a historical document excerpt, a science-style study summary, and an op-ed) on one real question, apply the right discipline-specific move to each, and synthesize all four into one answer. This is PIAAC Level 4–5 territory: \"search/integrate/evaluate across multiple dense texts... construct syntheses of similar/contrasting viewpoints\" (research/06 §1.11).",
+ "warm": {
+  "words": [],
+  "heart": [],
+  "prompts": [
+   "From memory: what four steps does synthesizing two sources require (Session 10)?"
+  ]
+ },
+ "word": {
+  "items": [],
+  "vocab": [
+   {
+    "word": "Triangulate",
+    "def": "to check a claim against three (or more) different kinds of evidence, from independent angles, the way a surveyor fixes a location using three reference points. Today you'll triangulate across four sources of very different kinds",
+    "examples": [],
+    "task": null
+   },
+   {
+    "word": "Weight of evidence",
+    "def": "not every source deserves equal trust; a reader has to judge how much each source should count based on what it actually is (see Session 4's evidence-strength ranking) and factor that into the final synthesis",
+    "examples": [],
+    "task": null
+   }
+  ],
+  "affixes": [],
+  "review": []
+ },
+ "prime": {
+  "facts": [
+   "questions like \"should companies require full-time office work\" rarely have one clean, fully-settled answer — the honest task is weighing real, imperfect evidence of different kinds, not finding the one source that \"wins.\"",
+   "the strongest professional writing on hard questions (a policy memo, a board recommendation) routinely synthesizes exactly this mix of data, historical pattern, controlled research, and opinion."
+  ],
+  "question": "think of a real decision in your own life (a job, a purchase, a move) where you had to weigh a personal survey-of-friends kind of evidence against something more rigorous (a review, a data sheet) — which one did you actually trust more, and why?",
+  "intro": "Two facts before you read: (1) questions like \"should companies require full-time office work\" rarely have one clean, fully-settled answer — the honest task is weighing real, imperfect evidence of different kinds, not finding the one source that \"wins.\" (2) the strongest professional writing on hard questions (a policy memo, a board recommendation) routinely synthesizes exactly this mix of data, historical pattern, controlled research, and opinion. Orienting question: think of a real decision in your own life (a job, a purchase, a move) where you had to weigh a personal survey-of-friends kind of evidence against something more rigorous (a review, a data sheet) — which one did you actually trust more, and why?"
+ },
+ "check": {
+  "items": [
+   {
+    "q": "Does your Q6 synthesis name a specific piece of evidence for each claim it makes, rather than a general impression? Did you correctly flag Source 4's analogy as an assumption rather than proof?",
+    "kind": "self",
+    "a": null
+   }
+  ],
+  "bar": null,
+  "support": null,
+  "challenge": null
+ },
+ "text": {
+  "passages": [
+   {
+    "track": null,
+    "title": "Read all four sources, applying the discipline-specific move you learned for each",
+    "paragraphs": [
+     "Source 1 — Data summary (apply Session 5's data-in-text move)",
+     "A 2024 survey of 3,200 employees across 40 mid-size U.S. companies that had shifted to hybrid (2–3 office days/week) found: 71% reported preferring hybrid to full-time office work; 58% said they would consider leaving their job if required back full-time; managers at the same companies reported mixed views on productivity — 34% said team productivity had improved under hybrid, 29% said it had declined, and 37% reported no clear change. The survey did not measure actual output data (sales, project completion rates) directly — all productivity figures are manager perception, not measured performance.",
+     "Source 2 — Historical context excerpt (apply Session 2–3's sourcing/contextualizing move)",
+     "From a 1962 internal memo, a mid-size insurance company, on why the firm was moving from a six-day to a five-day office week (adapted, illustrative period document): \"Several of our competitors have adopted the five-day week this year, citing improved morale and no measurable loss in output. We have reviewed our own production figures for the departments that piloted the change last quarter and found output essentially unchanged, with a modest improvement in absenteeism. The Board has therefore approved the five-day week for all departments effective January.\"",
+     "Context note: the standard five-day office week was itself a contested, gradually adopted change in the mid-20th century, resisted at first by many employers on exactly the same \"productivity will suffer\" grounds now used against hybrid/remote work — worth noting as historical pattern, not proof about today's specific question.",
+     "Source 3 — Science-style study summary (apply Session 4's claim/method/sample move)",
+     "A frequently cited 2015 workplace study (Bloom, Liang, Ouyang & Ying, published research on a Chinese travel-booking company) had customer-service employees volunteer to work from home for nine months, randomly assigning half to work from home and half to stay in the office —a real controlled experiment, not just an observed pattern. Home workers showed a 13% performance increase (more calls handled per shift), attributed mainly to a quieter environment and fewer sick days; however, home workers were also promoted at roughly half the rate of office workers over the same period, and after the experiment, many home workers voluntarily chose to return to the office, citing loneliness. This is a real, controlled, published, widely-cited study — but it studied one company, one job type (customer service), in one country, in 2015; whether its findings generalize to other kinds of work, or to today's post-pandemic environment, is a real, open question.",
+     "Source 4 — Op-ed (apply Session 6–7's claim/reasons/evidence/fallacy move)",
+     "\"The office isn't just a place to do tasks — it's where junior employees learn by watching how senior colleagues handle a hard client call, where a hallway conversation solves a problem that would have taken a week of scheduled video calls, and where a company's culture actually gets transmitted, not just described in a handbook. Every company that has fully abandoned the office is going to regret it within five years, when they realize they've raised a generation of employees who never learned the informal skills that only come from being physically present. Some hybrid advocates point to survey data showing employees prefer flexibility — but employee preference for an easier arrangement isn't the same as that arrangement being good for their long-term careers, any more than students preferring no homework means no homework is good for their education.\""
+    ],
+    "phrased": false,
+    "script": false,
+    "questions": []
+   }
+  ],
+  "moves": []
+ },
+ "fluency": {
+  "title": "Read it smoothly",
+  "fromText": true,
+  "phrased": false
+ },
+ "discuss": {
+  "roles": [
+   {
+    "role": "Synthesis",
+    "prompt": "Weight the evidence: rank the four sources by evidence strength for the specific question asked, using Session 4's ranking (controlled experiment > survey/observational > single opinion, etc.). Which source is the strongest evidence, and why? Which is the weakest?",
+    "model": null
+   },
+   {
+    "role": "Synthesis",
+    "prompt": "Find the real agreement: what does Source 1's data and Source 3's study actually agree on (hint: look at what happened to absences/sick days and performance metrics in both)?",
+    "model": null
+   },
+   {
+    "role": "Synthesis",
+    "prompt": "Find the real disagreement/gap: Source 3 found a performance increase for home workers, but also a promotion penalty and eventual voluntary return. Does Source 1's survey measure either of those two things? What does that gap tell you about how much Source 1 alone can settle the question?",
+    "model": null
+   },
+   {
+    "role": "Synthesis",
+    "prompt": "Fallacy check (Session 7): Source 4 contains a comparison in its last sentence (\"any more than students preferring no homework means no homework is good for their education\"). Is this a fair analogy or a weak one? Does it commit a fallacy, and if so which one?",
+    "model": null
+   },
+   {
+    "role": "Predictor",
+    "prompt": "What additional source (a fifth one) would most improve this synthesis — what's the single biggest gap in the evidence as it stands?",
+    "model": null
+   },
+   {
+    "role": "Questioner",
+    "prompt": "What would you ask a company that claims hybrid work hurt productivity, based on Source 1's own limitation?",
+    "model": null
+   },
+   {
+    "role": "Clarifier",
+    "prompt": "Explain to someone why Source 3, despite being the strongest single piece of evidence, still can't fully answer the research question alone.",
+    "model": null
+   },
+   {
+    "role": "Summarizer",
+    "prompt": "State the synthesis in three sentences.",
+    "model": null
+   }
+  ]
+ },
+ "screens": [
+  "warm",
+  "word",
+  "fluency",
+  "prime",
+  "text",
+  "discuss",
+  "check"
+ ]
+}

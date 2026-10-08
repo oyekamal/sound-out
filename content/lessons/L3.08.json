@@ -42,6 +42,29 @@
    "flarn"
   ]
  },
+ "spell": {
+  "words": [
+   "car",
+   "park",
+   "start"
+  ],
+  "sentence": "The car is in the yard."
+ },
+ "listen": {
+  "title": null,
+  "passage": "Farmers markets let shoppers buy food directly from the people who grew it, which often means the produce is fresher than what has traveled a long distance to a big store. Buying this way also supports the local economy.",
+  "tier2": [
+   {
+    "word": "economy",
+    "def": "the way money and goods move around in a place — who earns it, who spends it, who it helps.",
+    "full": "the way money and goods move around in a place — who earns it, who spends it, who it helps."
+   }
+  ],
+  "questions": [
+   "Why might food from a farmers market be fresher?",
+   "What's one small way people can support their local economy?"
+  ]
+ },
  "check": {
   "real": [
    "car",
@@ -91,8 +114,10 @@
   "blendList",
   "heart",
   "read",
+  "listen",
   "check",
-  "trackB"
+  "trackB",
+  "tier2"
  ],
  "appSittings": null
 }

@@ -1,0 +1,6459 @@
+{
+ "note": "Clips the app needs and does not have yet, per level (ElevenLabs quota reserved for Level 1). The app plays a short silent placeholder and shows 'audio coming' for each. chars = exact characters of the NEW requests (already-cached renders excluded). Isolated sounds (iso) are listed, not rendered.",
+ "L2": {
+  "level": 2,
+  "clips": {
+   "w:says": {
+    "cut": "last",
+    "say": "says",
+    "ipa": "sˈɛz"
+   },
+   "w:for": {
+    "cut": "last",
+    "say": "for",
+    "ipa": "fˈɔɹ"
+   },
+   "w:ship": {
+    "cut": "last",
+    "say": "ship",
+    "ipa": "ʃˈɪp"
+   },
+   "w:shop": {
+    "cut": "last",
+    "say": "shop",
+    "ipa": "ʃˈɑp"
+   },
+   "w:shed": {
+    "cut": "last",
+    "say": "shed",
+    "ipa": "ʃˈɛd"
+   },
+   "w:shut": {
+    "cut": "last",
+    "say": "shut",
+    "ipa": "ʃˈʌt"
+   },
+   "w:shin": {
+    "cut": "last",
+    "say": "shin",
+    "ipa": "ʃˈɪn"
+   },
+   "w:shell": {
+    "cut": "last",
+    "say": "shell",
+    "ipa": "ʃˈɛl"
+   },
+   "w:shall": {
+    "cut": "last",
+    "say": "shall",
+    "ipa": "ʃˈæl"
+   },
+   "w:gosh": {
+    "cut": "last",
+    "say": "gosh",
+    "ipa": "ɡˈɑʃ"
+   },
+   "w:posh": {
+    "cut": "last",
+    "say": "posh",
+    "ipa": "pˈɑʃ"
+   },
+   "w:hush": {
+    "cut": "last",
+    "say": "hush",
+    "ipa": "hˈʌʃ"
+   },
+   "w:wish": {
+    "cut": "last",
+    "say": "wish",
+    "ipa": "wˈɪʃ"
+   },
+   "w:fish": {
+    "cut": "last",
+    "say": "fish",
+    "ipa": "fˈɪʃ"
+   },
+   "w:dish": {
+    "cut": "last",
+    "say": "dish",
+    "ipa": "dˈɪʃ"
+   },
+   "w:rush": {
+    "cut": "last",
+    "say": "rush",
+    "ipa": "ɹˈʌʃ"
+   },
+   "w:cash": {
+    "cut": "last",
+    "say": "cash",
+    "ipa": "kˈæʃ"
+   },
+   "w:shap": {
+    "cut": "last",
+    "say": "shap",
+    "ipa": "ʃˈæp"
+   },
+   "w:shom": {
+    "cut": "last",
+    "say": "shom",
+    "ipa": "ʃˈɑm"
+   },
+   "w:hesh": {
+    "cut": "last",
+    "say": "hesh",
+    "ipa": "hˈɛʃ"
+   },
+   "w:vosh": {
+    "cut": "last",
+    "say": "vosh",
+    "ipa": "vˈɑʃ"
+   },
+   "w:nash": {
+    "cut": "last",
+    "say": "nash",
+    "ipa": "nˈæʃ"
+   },
+   "w:shob": {
+    "cut": "last",
+    "say": "shob",
+    "ipa": "ʃˈɑb"
+   },
+   "w:fesh": {
+    "cut": "last",
+    "say": "fesh",
+    "ipa": "fˈɛʃ"
+   },
+   "w:wosh": {
+    "cut": "last",
+    "say": "wosh",
+    "ipa": "wˈɑʃ"
+   },
+   "w:shig": {
+    "cut": "last",
+    "say": "shig",
+    "ipa": "ʃˈɪɡ"
+   },
+   "w:dansh": {
+    "cut": "last",
+    "say": "dansh",
+    "ipa": "dˈænʃ"
+   },
+   "w:gets": {
+    "cut": "last",
+    "say": "gets",
+    "ipa": "ɡˈɛts"
+   },
+   "w:us": {
+    "cut": "last",
+    "say": "us",
+    "ipa": "ˈʌs"
+   },
+   "w:tub": {
+    "cut": "last",
+    "say": "tub",
+    "ipa": "tˈʌb"
+   },
+   "w:put": {
+    "cut": "last",
+    "say": "put",
+    "ipa": "pˈʊt"
+   },
+   "w:shelf": {
+    "cut": "last",
+    "say": "shelf",
+    "ipa": "ʃˈɛlf"
+   },
+   "w:his": {
+    "cut": "last",
+    "say": "his",
+    "ipa": "hˈɪz"
+   },
+   "w:boss": {
+    "cut": "last",
+    "say": "boss",
+    "ipa": "bˈɑs"
+   },
+   "w:there": {
+    "cut": "last",
+    "say": "there",
+    "ipa": "ðˈɛɹ"
+   },
+   "w:where": {
+    "cut": "last",
+    "say": "where",
+    "ipa": "wˈɛɹ"
+   },
+   "w:chip": {
+    "cut": "last",
+    "say": "chip",
+    "ipa": "ʧˈɪp"
+   },
+   "w:chat": {
+    "cut": "last",
+    "say": "chat",
+    "ipa": "ʧˈæt"
+   },
+   "w:chin": {
+    "cut": "last",
+    "say": "chin",
+    "ipa": "ʧˈɪn"
+   },
+   "w:chop": {
+    "cut": "last",
+    "say": "chop",
+    "ipa": "ʧˈɑp"
+   },
+   "w:chess": {
+    "cut": "last",
+    "say": "chess",
+    "ipa": "ʧˈɛs"
+   },
+   "w:much": {
+    "cut": "last",
+    "say": "much",
+    "ipa": "mˈʌʧ"
+   },
+   "w:such": {
+    "cut": "last",
+    "say": "such",
+    "ipa": "sˈʌʧ"
+   },
+   "w:rich": {
+    "cut": "last",
+    "say": "rich",
+    "ipa": "ɹˈɪʧ"
+   },
+   "w:catch": {
+    "cut": "last",
+    "say": "catch",
+    "ipa": "kˈæʧ"
+   },
+   "w:fetch": {
+    "cut": "last",
+    "say": "fetch",
+    "ipa": "fˈɛʧ"
+   },
+   "w:hutch": {
+    "cut": "last",
+    "say": "hutch",
+    "ipa": "hˈʌʧ"
+   },
+   "w:match": {
+    "cut": "last",
+    "say": "match",
+    "ipa": "mˈæʧ"
+   },
+   "w:witch": {
+    "cut": "last",
+    "say": "witch",
+    "ipa": "wˈɪʧ"
+   },
+   "w:pitch": {
+    "cut": "last",
+    "say": "pitch",
+    "ipa": "pˈɪʧ"
+   },
+   "w:ditch": {
+    "cut": "last",
+    "say": "ditch",
+    "ipa": "dˈɪʧ"
+   },
+   "w:chob": {
+    "cut": "last",
+    "say": "chob",
+    "ipa": "ʧˈɑb"
+   },
+   "w:votch": {
+    "cut": "last",
+    "say": "votch",
+    "ipa": "vˈɑʧ"
+   },
+   "w:chiss": {
+    "cut": "last",
+    "say": "chiss",
+    "ipa": "ʧˈɪs"
+   },
+   "w:nach": {
+    "cut": "last",
+    "say": "nach",
+    "ipa": "nˈæʧ"
+   },
+   "w:wetch": {
+    "cut": "last",
+    "say": "wetch",
+    "ipa": "wˈɛʧ"
+   },
+   "w:min": {
+    "cut": "last",
+    "say": "min",
+    "ipa": "mˈɪn"
+   },
+   "w:step": {
+    "cut": "last",
+    "say": "step",
+    "ipa": "stˈɛp"
+   },
+   "w:asks": {
+    "cut": "last",
+    "say": "asks",
+    "ipa": "ˈæsks"
+   },
+   "w:if": {
+    "cut": "last",
+    "say": "if",
+    "ipa": "ˈɪf"
+   },
+   "w:but": {
+    "cut": "last",
+    "say": "but",
+    "ipa": "bˈʌt"
+   },
+   "w:rushes": {
+    "cut": "last",
+    "say": "rushes",
+    "ipa": "ɹˈʌʃʌz"
+   },
+   "syl:ɹʌʃ": {
+    "cut": "open",
+    "say": "rush",
+    "ipa": "ɹʌʃ"
+   },
+   "syl:ʌz": {
+    "cut": "open",
+    "say": "es",
+    "ipa": "ʌz"
+   },
+   "w:bus": {
+    "cut": "last",
+    "say": "bus",
+    "ipa": "bˈʌs"
+   },
+   "w:were": {
+    "cut": "last",
+    "say": "were",
+    "ipa": "wˈɝ"
+   },
+   "w:from": {
+    "cut": "last",
+    "say": "from",
+    "ipa": "fɹˈʌm"
+   },
+   "w:think": {
+    "cut": "last",
+    "say": "think",
+    "ipa": "θˈɪŋk"
+   },
+   "w:thin": {
+    "cut": "last",
+    "say": "thin",
+    "ipa": "θˈɪn"
+   },
+   "w:thud": {
+    "cut": "last",
+    "say": "thud",
+    "ipa": "θˈʌd"
+   },
+   "w:thick": {
+    "cut": "last",
+    "say": "thick",
+    "ipa": "θˈɪk"
+   },
+   "w:moth": {
+    "cut": "last",
+    "say": "moth",
+    "ipa": "mˈɔθ"
+   },
+   "w:math": {
+    "cut": "last",
+    "say": "math",
+    "ipa": "mˈæθ"
+   },
+   "w:bath": {
+    "cut": "last",
+    "say": "bath",
+    "ipa": "bˈæθ"
+   },
+   "w:path": {
+    "cut": "last",
+    "say": "path",
+    "ipa": "pˈæθ"
+   },
+   "w:this": {
+    "cut": "last",
+    "say": "this",
+    "ipa": "ðˈɪs"
+   },
+   "w:that": {
+    "cut": "last",
+    "say": "that",
+    "ipa": "ðˈæt"
+   },
+   "w:then": {
+    "cut": "last",
+    "say": "then",
+    "ipa": "ðˈɛn"
+   },
+   "w:them": {
+    "cut": "last",
+    "say": "them",
+    "ipa": "ðˈɛm"
+   },
+   "w:with": {
+    "cut": "last",
+    "say": "with",
+    "ipa": "wˈɪð"
+   },
+   "w:than": {
+    "cut": "last",
+    "say": "than",
+    "ipa": "ðˈæn"
+   },
+   "w:myth": {
+    "cut": "last",
+    "say": "myth",
+    "ipa": "mˈɪθ"
+   },
+   "w:use": {
+    "cut": "last",
+    "say": "use",
+    "ipa": "jˈuz"
+   },
+   "w:thump": {
+    "cut": "last",
+    "say": "thump",
+    "ipa": "θˈʌmp"
+   },
+   "w:thab": {
+    "cut": "last",
+    "say": "thab",
+    "ipa": "θˈæb"
+   },
+   "w:mith": {
+    "cut": "last",
+    "say": "mith",
+    "ipa": "mˈɪθ"
+   },
+   "w:thosh": {
+    "cut": "last",
+    "say": "thosh",
+    "ipa": "θˈɑʃ"
+   },
+   "w:vith": {
+    "cut": "last",
+    "say": "vith",
+    "ipa": "vˈɪθ"
+   },
+   "w:thon": {
+    "cut": "last",
+    "say": "thon",
+    "ipa": "θˈɑn"
+   },
+   "w:swim": {
+    "cut": "last",
+    "say": "swim",
+    "ipa": "swˈɪm"
+   },
+   "w:stop": {
+    "cut": "last",
+    "say": "stop",
+    "ipa": "stˈɑp"
+   },
+   "w:acts": {
+    "cut": "last",
+    "say": "acts",
+    "ipa": "ˈækts"
+   },
+   "w:fast": {
+    "cut": "last",
+    "say": "fast",
+    "ipa": "fˈæst"
+   },
+   "w:will": {
+    "cut": "last",
+    "say": "will",
+    "ipa": "wˈɪl"
+   },
+   "w:check": {
+    "cut": "last",
+    "say": "check",
+    "ipa": "ʧˈɛk"
+   },
+   "w:come": {
+    "cut": "last",
+    "say": "come",
+    "ipa": "kˈʌm"
+   },
+   "w:some": {
+    "cut": "last",
+    "say": "some",
+    "ipa": "sˈʌm"
+   },
+   "w:when": {
+    "cut": "last",
+    "say": "when",
+    "ipa": "wˈɛn"
+   },
+   "w:which": {
+    "cut": "last",
+    "say": "which",
+    "ipa": "wˈɪʧ"
+   },
+   "w:whip": {
+    "cut": "last",
+    "say": "whip",
+    "ipa": "wˈɪp"
+   },
+   "w:whiz": {
+    "cut": "last",
+    "say": "whiz",
+    "ipa": "wˈɪz"
+   },
+   "w:wham": {
+    "cut": "last",
+    "say": "wham",
+    "ipa": "wˈæm"
+   },
+   "w:whiff": {
+    "cut": "last",
+    "say": "whiff",
+    "ipa": "wˈɪf"
+   },
+   "w:whack": {
+    "cut": "last",
+    "say": "whack",
+    "ipa": "wˈæk"
+   },
+   "w:whob": {
+    "cut": "last",
+    "say": "whob",
+    "ipa": "wˈɑb"
+   },
+   "w:whass": {
+    "cut": "last",
+    "say": "whass",
+    "ipa": "wˈæs"
+   },
+   "w:whith": {
+    "cut": "last",
+    "say": "whith",
+    "ipa": "wˈɪθ"
+   },
+   "w:chesh": {
+    "cut": "last",
+    "say": "chesh",
+    "ipa": "ʧˈɛʃ"
+   },
+   "w:wathin": {
+    "cut": "last",
+    "say": "wathin",
+    "ipa": "wˈæθɪn"
+   },
+   "syl:wæθ": {
+    "cut": "open",
+    "say": "wath",
+    "ipa": "wæθ"
+   },
+   "syl:ɪn": {
+    "cut": "open",
+    "say": "in",
+    "ipa": "ɪn"
+   },
+   "w:sounds": {
+    "cut": "last",
+    "say": "sounds",
+    "ipa": "sˈaʊndz"
+   },
+   "w:words": {
+    "cut": "last",
+    "say": "words",
+    "ipa": "wˈɝdz"
+   },
+   "w:sentence": {
+    "cut": "last",
+    "say": "sentence",
+    "ipa": "sˈɛntʌns"
+   },
+   "syl:sɛn": {
+    "cut": "open",
+    "say": "sen",
+    "ipa": "sɛn"
+   },
+   "syl:tʌns": {
+    "cut": "open",
+    "say": "tence",
+    "ipa": "tʌns"
+   },
+   "w:back": {
+    "cut": "last",
+    "say": "back",
+    "ipa": "bˈæk"
+   },
+   "w:milk": {
+    "cut": "last",
+    "say": "milk",
+    "ipa": "mˈɪlk"
+   },
+   "w:grins": {
+    "cut": "last",
+    "say": "grins",
+    "ipa": "ɡɹˈɪnz"
+   },
+   "w:comes": {
+    "cut": "last",
+    "say": "comes",
+    "ipa": "kˈʌmz"
+   },
+   "w:claps": {
+    "cut": "last",
+    "say": "claps",
+    "ipa": "klˈæps"
+   },
+   "w:bin": {
+    "cut": "last",
+    "say": "bin",
+    "ipa": "bˈɪn"
+   },
+   "w:stock": {
+    "cut": "last",
+    "say": "stock",
+    "ipa": "stˈɑk"
+   },
+   "w:done": {
+    "cut": "last",
+    "say": "done",
+    "ipa": "dˈʌn"
+   },
+   "w:want": {
+    "cut": "last",
+    "say": "want",
+    "ipa": "wˈɑnt"
+   },
+   "w:sing": {
+    "cut": "last",
+    "say": "sing",
+    "ipa": "sˈɪŋ"
+   },
+   "w:king": {
+    "cut": "last",
+    "say": "king",
+    "ipa": "kˈɪŋ"
+   },
+   "w:long": {
+    "cut": "last",
+    "say": "long",
+    "ipa": "lˈɔŋ"
+   },
+   "w:hang": {
+    "cut": "last",
+    "say": "hang",
+    "ipa": "hˈæŋ"
+   },
+   "w:rang": {
+    "cut": "last",
+    "say": "rang",
+    "ipa": "ɹˈæŋ"
+   },
+   "w:ring": {
+    "cut": "last",
+    "say": "ring",
+    "ipa": "ɹˈɪŋ"
+   },
+   "w:song": {
+    "cut": "last",
+    "say": "song",
+    "ipa": "sˈɔŋ"
+   },
+   "w:wing": {
+    "cut": "last",
+    "say": "wing",
+    "ipa": "wˈɪŋ"
+   },
+   "w:sink": {
+    "cut": "last",
+    "say": "sink",
+    "ipa": "sˈɪŋk"
+   },
+   "w:pink": {
+    "cut": "last",
+    "say": "pink",
+    "ipa": "pˈɪŋk"
+   },
+   "w:bank": {
+    "cut": "last",
+    "say": "bank",
+    "ipa": "bˈæŋk"
+   },
+   "w:tank": {
+    "cut": "last",
+    "say": "tank",
+    "ipa": "tˈæŋk"
+   },
+   "w:honk": {
+    "cut": "last",
+    "say": "honk",
+    "ipa": "hˈɑŋk"
+   },
+   "w:junk": {
+    "cut": "last",
+    "say": "junk",
+    "ipa": "ʤˈʌŋk"
+   },
+   "w:zang": {
+    "cut": "last",
+    "say": "zang",
+    "ipa": "zˈæŋ"
+   },
+   "w:hink": {
+    "cut": "last",
+    "say": "hink",
+    "ipa": "hˈɪŋk"
+   },
+   "w:sonk": {
+    "cut": "last",
+    "say": "sonk",
+    "ipa": "sˈɑŋk"
+   },
+   "w:zung": {
+    "cut": "last",
+    "say": "zung",
+    "ipa": "zˈʌŋ"
+   },
+   "w:yonk": {
+    "cut": "last",
+    "say": "yonk",
+    "ipa": "jˈɑŋk"
+   },
+   "w:sings": {
+    "cut": "last",
+    "say": "sings",
+    "ipa": "sˈɪŋz"
+   },
+   "w:until": {
+    "cut": "last",
+    "say": "until",
+    "ipa": "ʌntˈɪl"
+   },
+   "syl:ʌn": {
+    "cut": "open",
+    "say": "fin",
+    "ipa": "ʌn"
+   },
+   "syl:tɪl": {
+    "cut": "open",
+    "say": "til",
+    "ipa": "tɪl"
+   },
+   "w:hangs": {
+    "cut": "last",
+    "say": "hangs",
+    "ipa": "hˈæŋz"
+   },
+   "w:wants": {
+    "cut": "last",
+    "say": "wants",
+    "ipa": "wˈɑnts"
+   },
+   "w:picks": {
+    "cut": "last",
+    "say": "picks",
+    "ipa": "pˈɪks"
+   },
+   "w:tin": {
+    "cut": "last",
+    "say": "tin",
+    "ipa": "tˈɪn"
+   },
+   "w:just": {
+    "cut": "last",
+    "say": "just",
+    "ipa": "ʤˈʌst"
+   },
+   "w:push": {
+    "cut": "last",
+    "say": "push",
+    "ipa": "pˈʊʃ"
+   },
+   "w:spin": {
+    "cut": "last",
+    "say": "spin",
+    "ipa": "spˈɪn"
+   },
+   "w:snap": {
+    "cut": "last",
+    "say": "snap",
+    "ipa": "snˈæp"
+   },
+   "w:smell": {
+    "cut": "last",
+    "say": "smell",
+    "ipa": "smˈɛl"
+   },
+   "w:slip": {
+    "cut": "last",
+    "say": "slip",
+    "ipa": "slˈɪp"
+   },
+   "w:skin": {
+    "cut": "last",
+    "say": "skin",
+    "ipa": "skˈɪn"
+   },
+   "w:scan": {
+    "cut": "last",
+    "say": "scan",
+    "ipa": "skˈæn"
+   },
+   "w:black": {
+    "cut": "last",
+    "say": "black",
+    "ipa": "blˈæk"
+   },
+   "w:clap": {
+    "cut": "last",
+    "say": "clap",
+    "ipa": "klˈæp"
+   },
+   "w:flag": {
+    "cut": "last",
+    "say": "flag",
+    "ipa": "flˈæɡ"
+   },
+   "w:plan": {
+    "cut": "last",
+    "say": "plan",
+    "ipa": "plˈæn"
+   },
+   "w:drum": {
+    "cut": "last",
+    "say": "drum",
+    "ipa": "dɹˈʌm"
+   },
+   "w:frog": {
+    "cut": "last",
+    "say": "frog",
+    "ipa": "fɹˈɑɡ"
+   },
+   "w:trip": {
+    "cut": "last",
+    "say": "trip",
+    "ipa": "tɹˈɪp"
+   },
+   "w:stad": {
+    "cut": "last",
+    "say": "stad",
+    "ipa": "stˈæd"
+   },
+   "w:blen": {
+    "cut": "last",
+    "say": "blen",
+    "ipa": "blˈɛn"
+   },
+   "w:drin": {
+    "cut": "last",
+    "say": "drin",
+    "ipa": "dɹˈɪn"
+   },
+   "w:spuff": {
+    "cut": "last",
+    "say": "spuff",
+    "ipa": "spˈʌf"
+   },
+   "w:glim": {
+    "cut": "last",
+    "say": "glim",
+    "ipa": "ɡlˈɪm"
+   },
+   "w:pond": {
+    "cut": "last",
+    "say": "pond",
+    "ipa": "pˈɑnd"
+   },
+   "w:flip": {
+    "cut": "last",
+    "say": "flip",
+    "ipa": "flˈɪp"
+   },
+   "w:flops": {
+    "cut": "last",
+    "say": "flops",
+    "ipa": "flˈɑps"
+   },
+   "w:rock": {
+    "cut": "last",
+    "say": "rock",
+    "ipa": "ɹˈɑk"
+   },
+   "w:grab": {
+    "cut": "last",
+    "say": "grab",
+    "ipa": "ɡɹˈæb"
+   },
+   "w:skip": {
+    "cut": "last",
+    "say": "skip",
+    "ipa": "skˈɪp"
+   },
+   "w:stomp": {
+    "cut": "last",
+    "say": "stomp",
+    "ipa": "stˈɑmp"
+   },
+   "w:must": {
+    "cut": "last",
+    "say": "must",
+    "ipa": "mˈʌst"
+   },
+   "w:jots": {
+    "cut": "last",
+    "say": "jots",
+    "ipa": "ʤˈɑts"
+   },
+   "w:pad": {
+    "cut": "last",
+    "say": "pad",
+    "ipa": "pˈæd"
+   },
+   "w:hits": {
+    "cut": "last",
+    "say": "hits",
+    "ipa": "hˈɪts"
+   },
+   "w:dash": {
+    "cut": "last",
+    "say": "dash",
+    "ipa": "dˈæʃ"
+   },
+   "w:still": {
+    "cut": "last",
+    "say": "still",
+    "ipa": "stˈɪl"
+   },
+   "w:desk": {
+    "cut": "last",
+    "say": "desk",
+    "ipa": "dˈɛsk"
+   },
+   "w:pull": {
+    "cut": "last",
+    "say": "pull",
+    "ipa": "pˈʊl"
+   },
+   "w:nest": {
+    "cut": "last",
+    "say": "nest",
+    "ipa": "nˈɛst"
+   },
+   "w:hand": {
+    "cut": "last",
+    "say": "hand",
+    "ipa": "hˈænd"
+   },
+   "w:sand": {
+    "cut": "last",
+    "say": "sand",
+    "ipa": "sˈænd"
+   },
+   "w:tent": {
+    "cut": "last",
+    "say": "tent",
+    "ipa": "tˈɛnt"
+   },
+   "w:hunt": {
+    "cut": "last",
+    "say": "hunt",
+    "ipa": "hˈʌnt"
+   },
+   "w:jump": {
+    "cut": "last",
+    "say": "jump",
+    "ipa": "ʤˈʌmp"
+   },
+   "w:camp": {
+    "cut": "last",
+    "say": "camp",
+    "ipa": "kˈæmp"
+   },
+   "w:mask": {
+    "cut": "last",
+    "say": "mask",
+    "ipa": "mˈæsk"
+   },
+   "w:belt": {
+    "cut": "last",
+    "say": "belt",
+    "ipa": "bˈɛlt"
+   },
+   "w:melt": {
+    "cut": "last",
+    "say": "melt",
+    "ipa": "mˈɛlt"
+   },
+   "w:gift": {
+    "cut": "last",
+    "say": "gift",
+    "ipa": "ɡˈɪft"
+   },
+   "w:soft": {
+    "cut": "last",
+    "say": "soft",
+    "ipa": "sˈɑft"
+   },
+   "w:silk": {
+    "cut": "last",
+    "say": "silk",
+    "ipa": "sˈɪlk"
+   },
+   "w:fand": {
+    "cut": "last",
+    "say": "fand",
+    "ipa": "fˈænd"
+   },
+   "w:jelt": {
+    "cut": "last",
+    "say": "jelt",
+    "ipa": "ʤˈɛlt"
+   },
+   "w:nusk": {
+    "cut": "last",
+    "say": "nusk",
+    "ipa": "nˈʌsk"
+   },
+   "w:thomp": {
+    "cut": "last",
+    "say": "thomp",
+    "ipa": "θˈɑmp"
+   },
+   "w:vilk": {
+    "cut": "last",
+    "say": "vilk",
+    "ipa": "vˈɪlk"
+   },
+   "w:set": {
+    "cut": "last",
+    "say": "set",
+    "ipa": "sˈɛt"
+   },
+   "w:helps": {
+    "cut": "last",
+    "say": "helps",
+    "ipa": "hˈɛlps"
+   },
+   "w:pulls": {
+    "cut": "last",
+    "say": "pulls",
+    "ipa": "pˈʊlz"
+   },
+   "w:packs": {
+    "cut": "last",
+    "say": "packs",
+    "ipa": "pˈæks"
+   },
+   "w:best": {
+    "cut": "last",
+    "say": "best",
+    "ipa": "bˈɛst"
+   },
+   "w:spot": {
+    "cut": "last",
+    "say": "spot",
+    "ipa": "spˈɑt"
+   },
+   "w:dusk": {
+    "cut": "last",
+    "say": "dusk",
+    "ipa": "dˈʌsk"
+   },
+   "w:rest": {
+    "cut": "last",
+    "say": "rest",
+    "ipa": "ɹˈɛst"
+   },
+   "w:glad": {
+    "cut": "last",
+    "say": "glad",
+    "ipa": "ɡlˈæd"
+   },
+   "w:checks": {
+    "cut": "last",
+    "say": "checks",
+    "ipa": "ʧˈɛks"
+   },
+   "w:list": {
+    "cut": "last",
+    "say": "list",
+    "ipa": "lˈɪst"
+   },
+   "w:who": {
+    "cut": "last",
+    "say": "who",
+    "ipa": "hˈu"
+   },
+   "w:could": {
+    "cut": "last",
+    "say": "could",
+    "ipa": "kˈʊd"
+   },
+   "w:strap": {
+    "cut": "last",
+    "say": "strap",
+    "ipa": "stɹˈæp"
+   },
+   "w:string": {
+    "cut": "last",
+    "say": "string",
+    "ipa": "stɹˈɪŋ"
+   },
+   "w:strict": {
+    "cut": "last",
+    "say": "strict",
+    "ipa": "stɹˈɪkt"
+   },
+   "w:scrap": {
+    "cut": "last",
+    "say": "scrap",
+    "ipa": "skɹˈæp"
+   },
+   "w:scrub": {
+    "cut": "last",
+    "say": "scrub",
+    "ipa": "skɹˈʌb"
+   },
+   "w:split": {
+    "cut": "last",
+    "say": "split",
+    "ipa": "splˈɪt"
+   },
+   "w:splash": {
+    "cut": "last",
+    "say": "splash",
+    "ipa": "splˈæʃ"
+   },
+   "w:squid": {
+    "cut": "last",
+    "say": "squid",
+    "ipa": "skwˈɪd"
+   },
+   "w:squint": {
+    "cut": "last",
+    "say": "squint",
+    "ipa": "skwˈɪnt"
+   },
+   "w:shrimp": {
+    "cut": "last",
+    "say": "shrimp",
+    "ipa": "ʃɹˈɪmp"
+   },
+   "w:shrub": {
+    "cut": "last",
+    "say": "shrub",
+    "ipa": "ʃɹˈʌb"
+   },
+   "w:throb": {
+    "cut": "last",
+    "say": "throb",
+    "ipa": "θɹˈɑb"
+   },
+   "w:thrill": {
+    "cut": "last",
+    "say": "thrill",
+    "ipa": "θɹˈɪl"
+   },
+   "w:thrust": {
+    "cut": "last",
+    "say": "thrust",
+    "ipa": "θɹˈʌst"
+   },
+   "w:strab": {
+    "cut": "last",
+    "say": "strab",
+    "ipa": "stɹˈæb"
+   },
+   "w:scrin": {
+    "cut": "last",
+    "say": "scrin",
+    "ipa": "skɹˈɪn"
+   },
+   "w:splob": {
+    "cut": "last",
+    "say": "splob",
+    "ipa": "splˈɑb"
+   },
+   "w:shreck": {
+    "cut": "last",
+    "say": "shreck",
+    "ipa": "ʃɹˈɛk"
+   },
+   "w:thruv": {
+    "cut": "last",
+    "say": "thruv",
+    "ipa": "θɹˈʌv"
+   },
+   "w:grabs": {
+    "cut": "last",
+    "say": "grabs",
+    "ipa": "ɡɹˈæbz"
+   },
+   "w:help": {
+    "cut": "last",
+    "say": "help",
+    "ipa": "hˈɛlp"
+   },
+   "w:splits": {
+    "cut": "last",
+    "say": "splits",
+    "ipa": "splˈɪts"
+   },
+   "w:pal": {
+    "cut": "last",
+    "say": "pal",
+    "ipa": "pˈæl"
+   },
+   "w:scrubs": {
+    "cut": "last",
+    "say": "scrubs",
+    "ipa": "skɹˈʌbs"
+   },
+   "w:mats": {
+    "cut": "last",
+    "say": "mats",
+    "ipa": "mˈæts"
+   },
+   "w:straps": {
+    "cut": "last",
+    "say": "straps",
+    "ipa": "stɹˈæps"
+   },
+   "w:thinks": {
+    "cut": "last",
+    "say": "thinks",
+    "ipa": "θˈɪŋks"
+   },
+   "w:end": {
+    "cut": "last",
+    "say": "end",
+    "ipa": "ˈɛnd"
+   },
+   "w:would": {
+    "cut": "last",
+    "say": "would",
+    "ipa": "wˈʊd"
+   },
+   "w:should": {
+    "cut": "last",
+    "say": "should",
+    "ipa": "ʃˈʊd"
+   },
+   "w:wishes": {
+    "cut": "last",
+    "say": "wishes",
+    "ipa": "wˈɪʃɪz"
+   },
+   "syl:wɪʃ": {
+    "cut": "open",
+    "say": "wish",
+    "ipa": "wɪʃ"
+   },
+   "syl:ɪz": {
+    "cut": "open",
+    "say": "es",
+    "ipa": "ɪz"
+   },
+   "w:dishes": {
+    "cut": "last",
+    "say": "dishes",
+    "ipa": "dˈɪʃʌz"
+   },
+   "syl:dɪʃ": {
+    "cut": "open",
+    "say": "dish",
+    "ipa": "dɪʃ"
+   },
+   "w:boxes": {
+    "cut": "last",
+    "say": "boxes",
+    "ipa": "bˈɑksʌz"
+   },
+   "syl:bɑks": {
+    "cut": "open",
+    "say": "box",
+    "ipa": "bɑks"
+   },
+   "w:buses": {
+    "cut": "last",
+    "say": "buses",
+    "ipa": "bˈʌsɪz"
+   },
+   "syl:bʌs": {
+    "cut": "open",
+    "say": "bus",
+    "ipa": "bʌs"
+   },
+   "w:brushes": {
+    "cut": "last",
+    "say": "brushes",
+    "ipa": "bɹˈʌʃɪz"
+   },
+   "syl:bɹʌʃ": {
+    "cut": "open",
+    "say": "brush",
+    "ipa": "bɹʌʃ"
+   },
+   "w:catches": {
+    "cut": "last",
+    "say": "catches",
+    "ipa": "kˈæʧʌz"
+   },
+   "syl:kæʧ": {
+    "cut": "open",
+    "say": "catch",
+    "ipa": "kæʧ"
+   },
+   "w:fixes": {
+    "cut": "last",
+    "say": "fixes",
+    "ipa": "fˈɪksɪz"
+   },
+   "syl:fɪks": {
+    "cut": "open",
+    "say": "fix",
+    "ipa": "fɪks"
+   },
+   "w:crashes": {
+    "cut": "last",
+    "say": "crashes",
+    "ipa": "kɹˈæʃɪz"
+   },
+   "syl:kɹæʃ": {
+    "cut": "open",
+    "say": "crash",
+    "ipa": "kɹæʃ"
+   },
+   "w:benches": {
+    "cut": "last",
+    "say": "benches",
+    "ipa": "bˈɛnʧɪz"
+   },
+   "syl:bɛn": {
+    "cut": "open",
+    "say": "ben",
+    "ipa": "bɛn"
+   },
+   "syl:ʧɪz": {
+    "cut": "open",
+    "say": "ches",
+    "ipa": "ʧɪz"
+   },
+   "w:dogs": {
+    "cut": "last",
+    "say": "dogs",
+    "ipa": "dˈɑɡz"
+   },
+   "syl:dɑɡz": {
+    "cut": "open",
+    "say": "dogs",
+    "ipa": "dɑɡz"
+   },
+   "w:hands": {
+    "cut": "last",
+    "say": "hands",
+    "ipa": "hˈændz"
+   },
+   "syl:hændz": {
+    "cut": "open",
+    "say": "hands",
+    "ipa": "hændz"
+   },
+   "w:jumps": {
+    "cut": "last",
+    "say": "jumps",
+    "ipa": "ʤˈʌmps"
+   },
+   "syl:ʤʌmps": {
+    "cut": "open",
+    "say": "jumps",
+    "ipa": "ʤʌmps"
+   },
+   "w:drinks": {
+    "cut": "last",
+    "say": "drinks",
+    "ipa": "dɹˈɪŋks"
+   },
+   "syl:dɹɪŋks": {
+    "cut": "open",
+    "say": "drinks",
+    "ipa": "dɹɪŋks"
+   },
+   "w:florbes": {
+    "cut": "last",
+    "say": "florbes",
+    "ipa": "flˈɑɹbɪz"
+   },
+   "syl:flɑɹ": {
+    "cut": "open",
+    "say": "flor",
+    "ipa": "flɑɹ"
+   },
+   "syl:bɪz": {
+    "cut": "open",
+    "say": "bes",
+    "ipa": "bɪz"
+   },
+   "w:vozzes": {
+    "cut": "last",
+    "say": "vozzes",
+    "ipa": "vˈɑzɪz"
+   },
+   "syl:vɑz": {
+    "cut": "open",
+    "say": "voz",
+    "ipa": "vɑz"
+   },
+   "w:crings": {
+    "cut": "last",
+    "say": "crings",
+    "ipa": "kɹˈɪŋs"
+   },
+   "syl:kɹɪŋs": {
+    "cut": "open",
+    "say": "crings",
+    "ipa": "kɹɪŋs"
+   },
+   "w:shalps": {
+    "cut": "last",
+    "say": "shalps",
+    "ipa": "ʃˈælps"
+   },
+   "syl:ʃælps": {
+    "cut": "open",
+    "say": "shalps",
+    "ipa": "ʃælps"
+   },
+   "w:twenns": {
+    "cut": "last",
+    "say": "twenns",
+    "ipa": "twˈɛns"
+   },
+   "syl:twɛns": {
+    "cut": "open",
+    "say": "twenns",
+    "ipa": "twɛns"
+   },
+   "w:washes": {
+    "cut": "last",
+    "say": "washes",
+    "ipa": "wˈɑʃɪz"
+   },
+   "syl:wɑʃ": {
+    "cut": "open",
+    "say": "wash",
+    "ipa": "wɑʃ"
+   },
+   "w:stacks": {
+    "cut": "last",
+    "say": "stacks",
+    "ipa": "stˈæks"
+   },
+   "syl:stæks": {
+    "cut": "open",
+    "say": "stacks",
+    "ipa": "stæks"
+   },
+   "w:mugs": {
+    "cut": "last",
+    "say": "mugs",
+    "ipa": "mˈʌɡz"
+   },
+   "syl:mʌɡz": {
+    "cut": "open",
+    "say": "mugs",
+    "ipa": "mʌɡz"
+   },
+   "w:stack": {
+    "cut": "last",
+    "say": "stack",
+    "ipa": "stˈæk"
+   },
+   "w:vans": {
+    "cut": "last",
+    "say": "vans",
+    "ipa": "vˈænz"
+   },
+   "syl:vænz": {
+    "cut": "open",
+    "say": "vans",
+    "ipa": "vænz"
+   },
+   "w:your": {
+    "cut": "last",
+    "say": "your",
+    "ipa": "jˈɔɹ"
+   },
+   "w:four": {
+    "cut": "last",
+    "say": "four",
+    "ipa": "fˈɔɹ"
+   },
+   "w:jumped": {
+    "cut": "last",
+    "say": "jumped",
+    "ipa": "ʤˈʌmpt"
+   },
+   "syl:ʤʌmpt": {
+    "cut": "open",
+    "say": "jumped",
+    "ipa": "ʤʌmpt"
+   },
+   "w:wished": {
+    "cut": "last",
+    "say": "wished",
+    "ipa": "wˈɪʃt"
+   },
+   "syl:wɪʃt": {
+    "cut": "open",
+    "say": "wished",
+    "ipa": "wɪʃt"
+   },
+   "w:fixed": {
+    "cut": "last",
+    "say": "fixed",
+    "ipa": "fˈɪkst"
+   },
+   "syl:fɪkst": {
+    "cut": "open",
+    "say": "fixed",
+    "ipa": "fɪkst"
+   },
+   "w:checked": {
+    "cut": "last",
+    "say": "checked",
+    "ipa": "ʧˈɛkt"
+   },
+   "syl:ʧɛkt": {
+    "cut": "open",
+    "say": "checked",
+    "ipa": "ʧɛkt"
+   },
+   "w:jogged": {
+    "cut": "last",
+    "say": "jogged",
+    "ipa": "ʤˈɑɡd"
+   },
+   "syl:ʤɑɡd": {
+    "cut": "open",
+    "say": "jogged",
+    "ipa": "ʤɑɡd"
+   },
+   "w:grinned": {
+    "cut": "last",
+    "say": "grinned",
+    "ipa": "ɡɹˈɪnd"
+   },
+   "syl:ɡɹɪnd": {
+    "cut": "open",
+    "say": "grinned",
+    "ipa": "ɡɹɪnd"
+   },
+   "w:hugged": {
+    "cut": "last",
+    "say": "hugged",
+    "ipa": "hˈʌɡd"
+   },
+   "syl:hʌɡd": {
+    "cut": "open",
+    "say": "hugged",
+    "ipa": "hʌɡd"
+   },
+   "w:filled": {
+    "cut": "last",
+    "say": "filled",
+    "ipa": "fˈɪld"
+   },
+   "syl:fɪld": {
+    "cut": "open",
+    "say": "filled",
+    "ipa": "fɪld"
+   },
+   "w:wanted": {
+    "cut": "last",
+    "say": "wanted",
+    "ipa": "wˈɔntɪd"
+   },
+   "syl:wɔn": {
+    "cut": "open",
+    "say": "wan",
+    "ipa": "wɔn"
+   },
+   "syl:tɪd": {
+    "cut": "open",
+    "say": "ted",
+    "ipa": "tɪd"
+   },
+   "w:ended": {
+    "cut": "last",
+    "say": "ended",
+    "ipa": "ˈɛndʌd"
+   },
+   "syl:ɛn": {
+    "cut": "open",
+    "say": "ain",
+    "ipa": "ɛn"
+   },
+   "syl:dʌd": {
+    "cut": "open",
+    "say": "ded",
+    "ipa": "dʌd"
+   },
+   "w:landed": {
+    "cut": "last",
+    "say": "landed",
+    "ipa": "lˈændʌd"
+   },
+   "syl:læn": {
+    "cut": "open",
+    "say": "lan",
+    "ipa": "læn"
+   },
+   "w:planted": {
+    "cut": "last",
+    "say": "planted",
+    "ipa": "plˈæntɪd"
+   },
+   "syl:plæn": {
+    "cut": "open",
+    "say": "plan",
+    "ipa": "plæn"
+   },
+   "w:packed": {
+    "cut": "last",
+    "say": "packed",
+    "ipa": "pˈækt"
+   },
+   "syl:pækt": {
+    "cut": "open",
+    "say": "packed",
+    "ipa": "pækt"
+   },
+   "w:camped": {
+    "cut": "last",
+    "say": "camped",
+    "ipa": "kˈæmpt"
+   },
+   "syl:kæmpt": {
+    "cut": "open",
+    "say": "camped",
+    "ipa": "kæmpt"
+   },
+   "w:rested": {
+    "cut": "last",
+    "say": "rested",
+    "ipa": "ɹˈɛstʌd"
+   },
+   "syl:ɹɛs": {
+    "cut": "open",
+    "say": "res",
+    "ipa": "ɹɛs"
+   },
+   "syl:tʌd": {
+    "cut": "open",
+    "say": "ted",
+    "ipa": "tʌd"
+   },
+   "w:flisked": {
+    "cut": "last",
+    "say": "flisked",
+    "ipa": "flˈɪskt"
+   },
+   "syl:flɪskt": {
+    "cut": "open",
+    "say": "flisked",
+    "ipa": "flɪskt"
+   },
+   "w:brammed": {
+    "cut": "last",
+    "say": "brammed",
+    "ipa": "bɹˈæmd"
+   },
+   "syl:bɹæmd": {
+    "cut": "open",
+    "say": "brammed",
+    "ipa": "bɹæmd"
+   },
+   "w:wanded": {
+    "cut": "last",
+    "say": "wanded",
+    "ipa": "wˈændɪd"
+   },
+   "syl:wæn": {
+    "cut": "open",
+    "say": "wan",
+    "ipa": "wæn"
+   },
+   "syl:dɪd": {
+    "cut": "open",
+    "say": "ded",
+    "ipa": "dɪd"
+   },
+   "w:chosted": {
+    "cut": "last",
+    "say": "chosted",
+    "ipa": "ʧˈɑstɪd"
+   },
+   "syl:ʧɑs": {
+    "cut": "open",
+    "say": "chos",
+    "ipa": "ʧɑs"
+   },
+   "w:plemmed": {
+    "cut": "last",
+    "say": "plemmed",
+    "ipa": "plˈɛmd"
+   },
+   "syl:plɛmd": {
+    "cut": "open",
+    "say": "plemmed",
+    "ipa": "plɛmd"
+   },
+   "w:asked": {
+    "cut": "last",
+    "say": "asked",
+    "ipa": "ˈæskt"
+   },
+   "syl:æskt": {
+    "cut": "open",
+    "say": "asked",
+    "ipa": "æskt"
+   },
+   "w:off": {
+    "cut": "last",
+    "say": "off",
+    "ipa": "ˈɔf"
+   },
+   "w:many": {
+    "cut": "last",
+    "say": "many",
+    "ipa": "mˈɛni"
+   },
+   "syl:mɛn": {
+    "cut": "open",
+    "say": "man",
+    "ipa": "mɛn"
+   },
+   "syl:i": {
+    "cut": "open",
+    "say": "y",
+    "ipa": "i"
+   },
+   "w:any": {
+    "cut": "last",
+    "say": "any",
+    "ipa": "ˈɛni"
+   },
+   "w:her": {
+    "cut": "last",
+    "say": "her",
+    "ipa": "hˈɝ"
+   },
+   "w:jumping": {
+    "cut": "last",
+    "say": "jumping",
+    "ipa": "ʤˈʌmpɪŋ"
+   },
+   "syl:ʤʌm": {
+    "cut": "open",
+    "say": "jum",
+    "ipa": "ʤʌm"
+   },
+   "syl:pɪŋ": {
+    "cut": "open",
+    "say": "ping",
+    "ipa": "pɪŋ"
+   },
+   "w:wishing": {
+    "cut": "last",
+    "say": "wishing",
+    "ipa": "wˈɪʃɪŋ"
+   },
+   "syl:ɪŋ": {
+    "cut": "open",
+    "say": "ing",
+    "ipa": "ɪŋ"
+   },
+   "w:fixing": {
+    "cut": "last",
+    "say": "fixing",
+    "ipa": "fˈɪksɪŋ"
+   },
+   "w:checking": {
+    "cut": "last",
+    "say": "checking",
+    "ipa": "ʧˈɛkɪŋ"
+   },
+   "syl:ʧɛk": {
+    "cut": "open",
+    "say": "check",
+    "ipa": "ʧɛk"
+   },
+   "w:resting": {
+    "cut": "last",
+    "say": "resting",
+    "ipa": "ɹˈɛstɪŋ"
+   },
+   "syl:tɪŋ": {
+    "cut": "open",
+    "say": "ting",
+    "ipa": "tɪŋ"
+   },
+   "w:packing": {
+    "cut": "last",
+    "say": "packing",
+    "ipa": "pˈækɪŋ"
+   },
+   "syl:pæk": {
+    "cut": "open",
+    "say": "pack",
+    "ipa": "pæk"
+   },
+   "w:camping": {
+    "cut": "last",
+    "say": "camping",
+    "ipa": "kˈæmpɪŋ"
+   },
+   "syl:kæm": {
+    "cut": "open",
+    "say": "cam",
+    "ipa": "kæm"
+   },
+   "w:landing": {
+    "cut": "last",
+    "say": "landing",
+    "ipa": "lˈændɪŋ"
+   },
+   "syl:dɪŋ": {
+    "cut": "open",
+    "say": "ding",
+    "ipa": "dɪŋ"
+   },
+   "w:planting": {
+    "cut": "last",
+    "say": "planting",
+    "ipa": "plˈæntɪŋ"
+   },
+   "w:helping": {
+    "cut": "last",
+    "say": "helping",
+    "ipa": "hˈɛlpɪŋ"
+   },
+   "syl:hɛl": {
+    "cut": "open",
+    "say": "hel",
+    "ipa": "hɛl"
+   },
+   "w:filling": {
+    "cut": "last",
+    "say": "filling",
+    "ipa": "fˈɪlɪŋ"
+   },
+   "syl:fɪl": {
+    "cut": "open",
+    "say": "fil",
+    "ipa": "fɪl"
+   },
+   "w:printing": {
+    "cut": "last",
+    "say": "printing",
+    "ipa": "pɹˈɪntɪŋ"
+   },
+   "syl:pɹɪn": {
+    "cut": "open",
+    "say": "prin",
+    "ipa": "pɹɪn"
+   },
+   "w:jumper": {
+    "cut": "last",
+    "say": "jumper",
+    "ipa": "ʤˈʌmpɝ"
+   },
+   "syl:pɝ": {
+    "cut": "open",
+    "say": "per",
+    "ipa": "pɝ"
+   },
+   "w:fixer": {
+    "cut": "last",
+    "say": "fixer",
+    "ipa": "fˈɪksɝ"
+   },
+   "syl:ɝ": {
+    "cut": "open",
+    "say": "fer",
+    "ipa": "ɝ"
+   },
+   "w:helper": {
+    "cut": "last",
+    "say": "helper",
+    "ipa": "hˈɛlpɝ"
+   },
+   "w:florbing": {
+    "cut": "last",
+    "say": "florbing",
+    "ipa": "flˈɑɹbɪŋ"
+   },
+   "syl:bɪŋ": {
+    "cut": "open",
+    "say": "bing",
+    "ipa": "bɪŋ"
+   },
+   "w:vashing": {
+    "cut": "last",
+    "say": "vashing",
+    "ipa": "vˈæʃɪŋ"
+   },
+   "syl:væʃ": {
+    "cut": "open",
+    "say": "vash",
+    "ipa": "væʃ"
+   },
+   "w:plemter": {
+    "cut": "last",
+    "say": "plemter",
+    "ipa": "plˈɛmtɝ"
+   },
+   "syl:plɛm": {
+    "cut": "open",
+    "say": "plem",
+    "ipa": "plɛm"
+   },
+   "syl:tɝ": {
+    "cut": "open",
+    "say": "ter",
+    "ipa": "tɝ"
+   },
+   "w:stronker": {
+    "cut": "last",
+    "say": "stronker",
+    "ipa": "stɹˈɑŋkɝ"
+   },
+   "syl:stɹɑŋk": {
+    "cut": "open",
+    "say": "stronk",
+    "ipa": "stɹɑŋk"
+   },
+   "w:drelling": {
+    "cut": "last",
+    "say": "drelling",
+    "ipa": "dɹˈɛlɪŋ"
+   },
+   "syl:dɹɛl": {
+    "cut": "open",
+    "say": "drel",
+    "ipa": "dɹɛl"
+   },
+   "w:stacking": {
+    "cut": "last",
+    "say": "stacking",
+    "ipa": "stˈækɪŋ"
+   },
+   "syl:stæk": {
+    "cut": "open",
+    "say": "stack",
+    "ipa": "stæk"
+   },
+   "w:bags": {
+    "cut": "last",
+    "say": "bags",
+    "ipa": "bˈæɡz"
+   },
+   "syl:bæɡz": {
+    "cut": "open",
+    "say": "bags",
+    "ipa": "bæɡz"
+   },
+   "w:does": {
+    "cut": "last",
+    "say": "does",
+    "ipa": "dˈʌz"
+   },
+   "w:goes": {
+    "cut": "last",
+    "say": "goes",
+    "ipa": "ɡˈoʊz"
+   },
+   "w:two": {
+    "cut": "last",
+    "say": "two",
+    "ipa": "tˈu"
+   },
+   "w:sunset": {
+    "cut": "last",
+    "say": "sunset",
+    "ipa": "sˈʌnsɛt"
+   },
+   "syl:sʌn": {
+    "cut": "open",
+    "say": "sun",
+    "ipa": "sʌn"
+   },
+   "syl:sɛt": {
+    "cut": "open",
+    "say": "set",
+    "ipa": "sɛt"
+   },
+   "w:catfish": {
+    "cut": "last",
+    "say": "catfish",
+    "ipa": "kˈætfɪʃ"
+   },
+   "syl:kæt": {
+    "cut": "open",
+    "say": "cat",
+    "ipa": "kæt"
+   },
+   "syl:fɪʃ": {
+    "cut": "open",
+    "say": "fish",
+    "ipa": "fɪʃ"
+   },
+   "w:backpack": {
+    "cut": "last",
+    "say": "backpack",
+    "ipa": "bˈækpæk"
+   },
+   "syl:bæk": {
+    "cut": "open",
+    "say": "back",
+    "ipa": "bæk"
+   },
+   "w:bathtub": {
+    "cut": "last",
+    "say": "bathtub",
+    "ipa": "bˈæθtʌb"
+   },
+   "syl:bæθ": {
+    "cut": "open",
+    "say": "bath",
+    "ipa": "bæθ"
+   },
+   "syl:tʌb": {
+    "cut": "open",
+    "say": "tub",
+    "ipa": "tʌb"
+   },
+   "w:pigpen": {
+    "cut": "last",
+    "say": "pigpen",
+    "ipa": "pˈɪɡpɛn"
+   },
+   "syl:pɪɡ": {
+    "cut": "open",
+    "say": "pig",
+    "ipa": "pɪɡ"
+   },
+   "syl:pɛn": {
+    "cut": "open",
+    "say": "pen",
+    "ipa": "pɛn"
+   },
+   "w:rabbit": {
+    "cut": "last",
+    "say": "rabbit",
+    "ipa": "ɹˈæbʌt"
+   },
+   "syl:ɹæb": {
+    "cut": "open",
+    "say": "rab",
+    "ipa": "ɹæb"
+   },
+   "syl:ʌt": {
+    "cut": "open",
+    "say": "bit",
+    "ipa": "ʌt"
+   },
+   "w:napkin": {
+    "cut": "last",
+    "say": "napkin",
+    "ipa": "nˈæpkɪn"
+   },
+   "syl:næp": {
+    "cut": "open",
+    "say": "nap",
+    "ipa": "næp"
+   },
+   "syl:kɪn": {
+    "cut": "open",
+    "say": "kin",
+    "ipa": "kɪn"
+   },
+   "w:muffin": {
+    "cut": "last",
+    "say": "muffin",
+    "ipa": "mˈʌfʌn"
+   },
+   "syl:mʌf": {
+    "cut": "open",
+    "say": "muf",
+    "ipa": "mʌf"
+   },
+   "w:picnic": {
+    "cut": "last",
+    "say": "picnic",
+    "ipa": "pˈɪknɪk"
+   },
+   "syl:pɪk": {
+    "cut": "open",
+    "say": "pic",
+    "ipa": "pɪk"
+   },
+   "syl:nɪk": {
+    "cut": "open",
+    "say": "nic",
+    "ipa": "nɪk"
+   },
+   "w:cactus": {
+    "cut": "last",
+    "say": "cactus",
+    "ipa": "kˈæktʌs"
+   },
+   "syl:kæk": {
+    "cut": "open",
+    "say": "cac",
+    "ipa": "kæk"
+   },
+   "syl:tʌs": {
+    "cut": "open",
+    "say": "tus",
+    "ipa": "tʌs"
+   },
+   "w:magnet": {
+    "cut": "last",
+    "say": "magnet",
+    "ipa": "mˈæɡnʌt"
+   },
+   "syl:mæɡ": {
+    "cut": "open",
+    "say": "mag",
+    "ipa": "mæɡ"
+   },
+   "syl:nʌt": {
+    "cut": "open",
+    "say": "net",
+    "ipa": "nʌt"
+   },
+   "w:insect": {
+    "cut": "last",
+    "say": "insect",
+    "ipa": "ˈɪnsɛkt"
+   },
+   "syl:sɛkt": {
+    "cut": "open",
+    "say": "sect",
+    "ipa": "sɛkt"
+   },
+   "w:instant": {
+    "cut": "last",
+    "say": "instant",
+    "ipa": "ˈɪnstʌnt"
+   },
+   "syl:stʌnt": {
+    "cut": "open",
+    "say": "stant",
+    "ipa": "stʌnt"
+   },
+   "w:contest": {
+    "cut": "last",
+    "say": "contest",
+    "ipa": "kˈɑntɛst"
+   },
+   "syl:kɑn": {
+    "cut": "open",
+    "say": "con",
+    "ipa": "kɑn"
+   },
+   "syl:tɛst": {
+    "cut": "open",
+    "say": "test",
+    "ipa": "tɛst"
+   },
+   "w:hotdog": {
+    "cut": "last",
+    "say": "hotdog",
+    "ipa": "hˈɑtdɔɡ"
+   },
+   "syl:hɑt": {
+    "cut": "open",
+    "say": "hot",
+    "ipa": "hɑt"
+   },
+   "syl:dɔɡ": {
+    "cut": "open",
+    "say": "dog",
+    "ipa": "dɔɡ"
+   },
+   "w:vantic": {
+    "cut": "last",
+    "say": "vantic",
+    "ipa": "vˈæntɪk"
+   },
+   "syl:væn": {
+    "cut": "open",
+    "say": "van",
+    "ipa": "væn"
+   },
+   "syl:tɪk": {
+    "cut": "open",
+    "say": "tic",
+    "ipa": "tɪk"
+   },
+   "w:plemzen": {
+    "cut": "last",
+    "say": "plemzen",
+    "ipa": "plˈɛmzɛn"
+   },
+   "syl:zɛn": {
+    "cut": "open",
+    "say": "zen",
+    "ipa": "zɛn"
+   },
+   "w:brostup": {
+    "cut": "last",
+    "say": "brostup",
+    "ipa": "bɹˈɑstʌp"
+   },
+   "syl:bɹɑs": {
+    "cut": "open",
+    "say": "bros",
+    "ipa": "bɹɑs"
+   },
+   "syl:tʌp": {
+    "cut": "open",
+    "say": "tup",
+    "ipa": "tʌp"
+   },
+   "w:chunnet": {
+    "cut": "last",
+    "say": "chunnet",
+    "ipa": "ʧˈʌnɛt"
+   },
+   "syl:ʧʌn": {
+    "cut": "open",
+    "say": "chun",
+    "ipa": "ʧʌn"
+   },
+   "syl:ɛt": {
+    "cut": "open",
+    "say": "net",
+    "ipa": "ɛt"
+   },
+   "w:dravin": {
+    "cut": "last",
+    "say": "dravin",
+    "ipa": "dɹˈævɪn"
+   },
+   "syl:dɹæv": {
+    "cut": "open",
+    "say": "drav",
+    "ipa": "dɹæv"
+   },
+   "w:writing": {
+    "cut": "last",
+    "say": "writing",
+    "ipa": "ɹˈaɪtɪŋ"
+   },
+   "syl:ɹaɪ": {
+    "cut": "open",
+    "say": "wri",
+    "ipa": "ɹaɪ"
+   },
+   "w:bits": {
+    "cut": "last",
+    "say": "bits",
+    "ipa": "bˈɪts"
+   },
+   "w:spots": {
+    "cut": "last",
+    "say": "spots",
+    "ipa": "spˈɑts"
+   },
+   "w:grass": {
+    "cut": "last",
+    "say": "grass",
+    "ipa": "ɡɹˈæs"
+   },
+   "w:watch": {
+    "cut": "last",
+    "say": "watch",
+    "ipa": "wˈɑʧ"
+   },
+   "w:shift": {
+    "cut": "last",
+    "say": "shift",
+    "ipa": "ʃˈɪft"
+   },
+   "w:panel": {
+    "cut": "last",
+    "say": "panel",
+    "ipa": "pˈænʌl"
+   },
+   "syl:pæn": {
+    "cut": "open",
+    "say": "pan",
+    "ipa": "pæn"
+   },
+   "syl:ʌl": {
+    "cut": "open",
+    "say": "el",
+    "ipa": "ʌl"
+   },
+   "w:an": {
+    "cut": "last",
+    "say": "an",
+    "ipa": "ˈæn"
+   },
+   "w:problem": {
+    "cut": "last",
+    "say": "problem",
+    "ipa": "pɹˈɑblʌm"
+   },
+   "syl:pɹɑb": {
+    "cut": "open",
+    "say": "prob",
+    "ipa": "pɹɑb"
+   },
+   "syl:lʌm": {
+    "cut": "open",
+    "say": "lem",
+    "ipa": "lʌm"
+   },
+   "w:dent": {
+    "cut": "last",
+    "say": "dent",
+    "ipa": "dˈɛnt"
+   },
+   "w:trick": {
+    "cut": "last",
+    "say": "trick",
+    "ipa": "tɹˈɪk"
+   },
+   "w:last": {
+    "cut": "last",
+    "say": "last",
+    "ipa": "lˈæst"
+   },
+   "w:again": {
+    "cut": "last",
+    "say": "again",
+    "ipa": "ʌɡˈɛn"
+   },
+   "syl:ʌɡ": {
+    "cut": "open",
+    "say": "ag",
+    "ipa": "ʌɡ"
+   },
+   "w:friend": {
+    "cut": "last",
+    "say": "friend",
+    "ipa": "fɹˈɛnd"
+   },
+   "w:because": {
+    "cut": "last",
+    "say": "because",
+    "ipa": "bɪkˈɔz"
+   },
+   "syl:bɪk": {
+    "cut": "open",
+    "say": "bec",
+    "ipa": "bɪk"
+   },
+   "syl:ɔz": {
+    "cut": "open",
+    "say": "ause",
+    "ipa": "ɔz"
+   },
+   "w:strishing": {
+    "cut": "last",
+    "say": "strishing",
+    "ipa": "stɹˈɪʃɪŋ"
+   },
+   "syl:stɹɪʃ": {
+    "cut": "open",
+    "say": "strish",
+    "ipa": "stɹɪʃ"
+   },
+   "w:flonked": {
+    "cut": "last",
+    "say": "flonked",
+    "ipa": "flˈɑŋkt"
+   },
+   "syl:flɑŋkt": {
+    "cut": "open",
+    "say": "flonked",
+    "ipa": "flɑŋkt"
+   },
+   "w:chuffer": {
+    "cut": "last",
+    "say": "chuffer",
+    "ipa": "ʧˈʌfɝ"
+   },
+   "syl:ʧʌf": {
+    "cut": "open",
+    "say": "chuf",
+    "ipa": "ʧʌf"
+   },
+   "w:vandest": {
+    "cut": "last",
+    "say": "vandest",
+    "ipa": "vˈændɛst"
+   },
+   "syl:dɛst": {
+    "cut": "open",
+    "say": "dest",
+    "ipa": "dɛst"
+   },
+   "w:thramping": {
+    "cut": "last",
+    "say": "thramping",
+    "ipa": "θɹˈæmpɪŋ"
+   },
+   "syl:θɹæm": {
+    "cut": "open",
+    "say": "thram",
+    "ipa": "θɹæm"
+   },
+   "w:helped": {
+    "cut": "last",
+    "say": "helped",
+    "ipa": "hˈɛlpt"
+   },
+   "syl:hɛlpt": {
+    "cut": "open",
+    "say": "helped",
+    "ipa": "hɛlpt"
+   },
+   "w:visit": {
+    "cut": "last",
+    "say": "visit",
+    "ipa": "vˈɪzɪt"
+   },
+   "syl:vɪz": {
+    "cut": "open",
+    "say": "vis",
+    "ipa": "vɪz"
+   },
+   "syl:ɪt": {
+    "cut": "open",
+    "say": "it",
+    "ipa": "ɪt"
+   },
+   "w:bring": {
+    "cut": "last",
+    "say": "bring",
+    "ipa": "bɹˈɪŋ"
+   },
+   "w:splashes": {
+    "cut": "last",
+    "say": "splashes",
+    "ipa": "splˈæʃɪz"
+   },
+   "syl:splæʃ": {
+    "cut": "open",
+    "say": "splash",
+    "ipa": "splæʃ"
+   },
+   "w:twig": {
+    "cut": "last",
+    "say": "twig",
+    "ipa": "twˈɪɡ"
+   },
+   "w:bad": {
+    "cut": "last",
+    "say": "bad",
+    "ipa": "bˈæd"
+   },
+   "w:backlog": {
+    "cut": "last",
+    "say": "backlog",
+    "ipa": "bˈæklɑɡ"
+   },
+   "syl:lɑɡ": {
+    "cut": "open",
+    "say": "log",
+    "ipa": "lɑɡ"
+   },
+   "w:dents": {
+    "cut": "last",
+    "say": "dents",
+    "ipa": "dˈɛnts"
+   },
+   "syl:dɛnts": {
+    "cut": "open",
+    "say": "dents",
+    "ipa": "dɛnts"
+   },
+   "w:lot": {
+    "cut": "last",
+    "say": "lot",
+    "ipa": "lˈɑt"
+   },
+   "w:friends": {
+    "cut": "last",
+    "say": "friends",
+    "ipa": "fɹˈɛndz"
+   },
+   "syl:fɹɛndz": {
+    "cut": "open",
+    "say": "friends",
+    "ipa": "fɹɛndz"
+   },
+   "w:finish": {
+    "cut": "last",
+    "say": "finish",
+    "ipa": "fˈɪnɪʃ"
+   },
+   "syl:fɪn": {
+    "cut": "open",
+    "say": "fin",
+    "ipa": "fɪn"
+   },
+   "syl:ɪʃ": {
+    "cut": "open",
+    "say": "ish",
+    "ipa": "ɪʃ"
+   },
+   "w:prints": {
+    "cut": "last",
+    "say": "prints",
+    "ipa": "pɹˈɪnts"
+   },
+   "syl:pɹɪnts": {
+    "cut": "open",
+    "say": "prints",
+    "ipa": "pɹɪnts"
+   },
+   "w:strong": {
+    "cut": "last",
+    "say": "strong",
+    "ipa": "stɹˈɔŋ"
+   },
+   "w:finished": {
+    "cut": "last",
+    "say": "finished",
+    "ipa": "fˈɪnɪʃt"
+   },
+   "syl:ɪʃt": {
+    "cut": "open",
+    "say": "ished",
+    "ipa": "ɪʃt"
+   },
+   "w:went": {
+    "cut": "last",
+    "say": "went",
+    "ipa": "wˈɛnt"
+   },
+   "w:calm": {
+    "cut": "last",
+    "say": "calm",
+    "ipa": "kˈɑm"
+   },
+   "w:chib": {
+    "cut": "last",
+    "say": "chib",
+    "ipa": "ʧˈɪb"
+   },
+   "w:thron": {
+    "cut": "last",
+    "say": "thron",
+    "ipa": "θɹˈɑn"
+   },
+   "w:zink": {
+    "cut": "last",
+    "say": "zink",
+    "ipa": "zˈɪŋk"
+   },
+   "w:splunt": {
+    "cut": "last",
+    "say": "splunt",
+    "ipa": "splˈʌnt"
+   },
+   "ipa:ˈɛni": {
+    "cut": "last",
+    "say": "any",
+    "ipa": "ˈɛni"
+   },
+   "ipa:ˈɛʤi": {
+    "cut": "last",
+    "say": "edgy",
+    "ipa": "ˈɛʤi"
+   },
+   "ipa:ˈɛɹi": {
+    "cut": "last",
+    "say": "airy",
+    "ipa": "ˈɛɹi"
+   },
+   "ipa:bˈæŋk": {
+    "cut": "last",
+    "say": "bank",
+    "ipa": "bˈæŋk"
+   },
+   "ipa:sˈæŋk": {
+    "cut": "last",
+    "say": "sank",
+    "ipa": "sˈæŋk"
+   },
+   "ipa:sˈʌŋk": {
+    "cut": "last",
+    "say": "sunk",
+    "ipa": "sˈʌŋk"
+   },
+   "ipa:bˈæθ": {
+    "cut": "last",
+    "say": "bath",
+    "ipa": "bˈæθ"
+   },
+   "ipa:pˈæθ": {
+    "cut": "last",
+    "say": "path",
+    "ipa": "pˈæθ"
+   },
+   "ipa:dˈɛlt": {
+    "cut": "last",
+    "say": "dealt",
+    "ipa": "dˈɛlt"
+   },
+   "ipa:fˈɛlt": {
+    "cut": "last",
+    "say": "felt",
+    "ipa": "fˈɛlt"
+   },
+   "ipa:blˈæk": {
+    "cut": "last",
+    "say": "black",
+    "ipa": "blˈæk"
+   },
+   "ipa:flˈæk": {
+    "cut": "last",
+    "say": "flak",
+    "ipa": "flˈæk"
+   },
+   "ipa:flˈɪk": {
+    "cut": "last",
+    "say": "flick",
+    "ipa": "flˈɪk"
+   },
+   "ipa:blˈɛn": {
+    "cut": "last",
+    "say": "blen",
+    "ipa": "blˈɛn"
+   },
+   "ipa:klˈɛn": {
+    "cut": "last",
+    "say": "clen",
+    "ipa": "klˈɛn"
+   },
+   "ipa:kɹˈɛn": {
+    "cut": "last",
+    "say": "cren",
+    "ipa": "kɹˈɛn"
+   },
+   "ipa:bɹˈæmd": {
+    "cut": "last",
+    "say": "brammed",
+    "ipa": "bɹˈæmd"
+   },
+   "ipa:blˈæmd": {
+    "cut": "last",
+    "say": "blamd",
+    "ipa": "blˈæmd"
+   },
+   "ipa:bɹˈɑmd": {
+    "cut": "last",
+    "say": "bromd",
+    "ipa": "bɹˈɑmd"
+   },
+   "ipa:blˈɑmd": {
+    "cut": "last",
+    "say": "blomd",
+    "ipa": "blˈɑmd"
+   },
+   "ipa:bɹˈɑstʌp": {
+    "cut": "last",
+    "say": "brostup",
+    "ipa": "bɹˈɑstʌp"
+   },
+   "ipa:blˈɑstʌp": {
+    "cut": "last",
+    "say": "blostup",
+    "ipa": "blˈɑstʌp"
+   },
+   "ipa:bɹˈæstʌp": {
+    "cut": "last",
+    "say": "brastup",
+    "ipa": "bɹˈæstʌp"
+   },
+   "ipa:blˈæstʌp": {
+    "cut": "last",
+    "say": "blastup",
+    "ipa": "blˈæstʌp"
+   },
+   "ipa:bɹˈʌʃɪz": {
+    "cut": "last",
+    "say": "brushes",
+    "ipa": "bɹˈʌʃɪz"
+   },
+   "ipa:bɹˈʌʃɪŋ": {
+    "cut": "last",
+    "say": "brushing",
+    "ipa": "bɹˈʌʃɪŋ"
+   },
+   "ipa:blˈʌʃɪŋ": {
+    "cut": "last",
+    "say": "blushing",
+    "ipa": "blˈʌʃɪŋ"
+   },
+   "ipa:kˈæmp": {
+    "cut": "last",
+    "say": "camp",
+    "ipa": "kˈæmp"
+   },
+   "ipa:dˈæmp": {
+    "cut": "last",
+    "say": "damp",
+    "ipa": "dˈæmp"
+   },
+   "ipa:kˈæmz": {
+    "cut": "last",
+    "say": "cams",
+    "ipa": "kˈæmz"
+   },
+   "ipa:dˈæmz": {
+    "cut": "last",
+    "say": "dams",
+    "ipa": "dˈæmz"
+   },
+   "ipa:kˈæmpt": {
+    "cut": "last",
+    "say": "camped",
+    "ipa": "kˈæmpt"
+   },
+   "ipa:kˈæmps": {
+    "cut": "last",
+    "say": "camps",
+    "ipa": "kˈæmps"
+   },
+   "ipa:lˈæmps": {
+    "cut": "last",
+    "say": "lamps",
+    "ipa": "lˈæmps"
+   },
+   "ipa:kˈæʃ": {
+    "cut": "last",
+    "say": "cash",
+    "ipa": "kˈæʃ"
+   },
+   "ipa:dˈæʃ": {
+    "cut": "last",
+    "say": "dash",
+    "ipa": "dˈæʃ"
+   },
+   "ipa:kˈæʧ": {
+    "cut": "last",
+    "say": "catch",
+    "ipa": "kˈæʧ"
+   },
+   "ipa:pˈæʧ": {
+    "cut": "last",
+    "say": "patch",
+    "ipa": "pˈæʧ"
+   },
+   "ipa:kˈaʊʧ": {
+    "cut": "last",
+    "say": "couch",
+    "ipa": "kˈaʊʧ"
+   },
+   "ipa:pˈaʊʧ": {
+    "cut": "last",
+    "say": "pouch",
+    "ipa": "pˈaʊʧ"
+   },
+   "ipa:ʧˈæt": {
+    "cut": "last",
+    "say": "chat",
+    "ipa": "ʧˈæt"
+   },
+   "ipa:ʧˈɪt": {
+    "cut": "last",
+    "say": "chit",
+    "ipa": "ʧˈɪt"
+   },
+   "ipa:ʧˈɛkt": {
+    "cut": "last",
+    "say": "checked",
+    "ipa": "ʧˈɛkt"
+   },
+   "ipa:sˈɛkt": {
+    "cut": "last",
+    "say": "sect",
+    "ipa": "sˈɛkt"
+   },
+   "ipa:ʧˈoʊkt": {
+    "cut": "last",
+    "say": "choked",
+    "ipa": "ʧˈoʊkt"
+   },
+   "ipa:sˈoʊkt": {
+    "cut": "last",
+    "say": "soaked",
+    "ipa": "sˈoʊkt"
+   },
+   "ipa:ʧˈɛkɪŋ": {
+    "cut": "last",
+    "say": "checking",
+    "ipa": "ʧˈɛkɪŋ"
+   },
+   "ipa:ɹˈɛkɪŋ": {
+    "cut": "last",
+    "say": "wrecking",
+    "ipa": "ɹˈɛkɪŋ"
+   },
+   "ipa:ɹˈækɪŋ": {
+    "cut": "last",
+    "say": "racking",
+    "ipa": "ɹˈækɪŋ"
+   },
+   "ipa:ʧˈɛʃ": {
+    "cut": "last",
+    "say": "chesh",
+    "ipa": "ʧˈɛʃ"
+   },
+   "ipa:jˈɛʃ": {
+    "cut": "last",
+    "say": "yesh",
+    "ipa": "jˈɛʃ"
+   },
+   "ipa:ʧˈʌʃ": {
+    "cut": "last",
+    "say": "chush",
+    "ipa": "ʧˈʌʃ"
+   },
+   "ipa:jˈʌʃ": {
+    "cut": "last",
+    "say": "yush",
+    "ipa": "jˈʌʃ"
+   },
+   "ipa:ʧˈɛs": {
+    "cut": "last",
+    "say": "chess",
+    "ipa": "ʧˈɛs"
+   },
+   "ipa:lˈɛs": {
+    "cut": "last",
+    "say": "less",
+    "ipa": "lˈɛs"
+   },
+   "ipa:ʧˈeɪs": {
+    "cut": "last",
+    "say": "chase",
+    "ipa": "ʧˈeɪs"
+   },
+   "ipa:lˈeɪs": {
+    "cut": "last",
+    "say": "lace",
+    "ipa": "lˈeɪs"
+   },
+   "ipa:ʧˈɪb": {
+    "cut": "last",
+    "say": "chib",
+    "ipa": "ʧˈɪb"
+   },
+   "ipa:jˈɪb": {
+    "cut": "last",
+    "say": "yib",
+    "ipa": "jˈɪb"
+   },
+   "ipa:ʧˈɛb": {
+    "cut": "last",
+    "say": "cheb",
+    "ipa": "ʧˈɛb"
+   },
+   "ipa:jˈɛb": {
+    "cut": "last",
+    "say": "yeb",
+    "ipa": "jˈɛb"
+   },
+   "ipa:ʧˈɪn": {
+    "cut": "last",
+    "say": "chin",
+    "ipa": "ʧˈɪn"
+   },
+   "ipa:ʧˈeɪn": {
+    "cut": "last",
+    "say": "chain",
+    "ipa": "ʧˈeɪn"
+   },
+   "ipa:pˈeɪn": {
+    "cut": "last",
+    "say": "pain",
+    "ipa": "pˈeɪn"
+   },
+   "ipa:ʧˈɪp": {
+    "cut": "last",
+    "say": "chip",
+    "ipa": "ʧˈɪp"
+   },
+   "ipa:ʃˈɪp": {
+    "cut": "last",
+    "say": "ship",
+    "ipa": "ʃˈɪp"
+   },
+   "ipa:ʧˈɑp": {
+    "cut": "last",
+    "say": "chop",
+    "ipa": "ʧˈɑp"
+   },
+   "ipa:ʃˈɑp": {
+    "cut": "last",
+    "say": "shop",
+    "ipa": "ʃˈɑp"
+   },
+   "ipa:ʧˈɪs": {
+    "cut": "last",
+    "say": "chiss",
+    "ipa": "ʧˈɪs"
+   },
+   "ipa:ʧˈɑs": {
+    "cut": "last",
+    "say": "chos",
+    "ipa": "ʧˈɑs"
+   },
+   "ipa:zˈɑs": {
+    "cut": "last",
+    "say": "zos",
+    "ipa": "zˈɑs"
+   },
+   "ipa:ʧˈɑb": {
+    "cut": "last",
+    "say": "chob",
+    "ipa": "ʧˈɑb"
+   },
+   "ipa:pˈɑb": {
+    "cut": "last",
+    "say": "pob",
+    "ipa": "pˈɑb"
+   },
+   "ipa:ʧˈæb": {
+    "cut": "last",
+    "say": "chab",
+    "ipa": "ʧˈæb"
+   },
+   "ipa:pˈæb": {
+    "cut": "last",
+    "say": "pab",
+    "ipa": "pˈæb"
+   },
+   "ipa:ʧˈɑstɪd": {
+    "cut": "last",
+    "say": "chosted",
+    "ipa": "ʧˈɑstɪd"
+   },
+   "ipa:zˈɑstɪd": {
+    "cut": "last",
+    "say": "zostid",
+    "ipa": "zˈɑstɪd"
+   },
+   "ipa:ʧˈæstɪd": {
+    "cut": "last",
+    "say": "chastid",
+    "ipa": "ʧˈæstɪd"
+   },
+   "ipa:zˈæstɪd": {
+    "cut": "last",
+    "say": "zastid",
+    "ipa": "zˈæstɪd"
+   },
+   "ipa:ʧˈʌfɝ": {
+    "cut": "last",
+    "say": "chuffer",
+    "ipa": "ʧˈʌfɝ"
+   },
+   "ipa:ɡˈʌfɝ": {
+    "cut": "last",
+    "say": "gufer",
+    "ipa": "ɡˈʌfɝ"
+   },
+   "ipa:ʧˈɛfɝ": {
+    "cut": "last",
+    "say": "chefer",
+    "ipa": "ʧˈɛfɝ"
+   },
+   "ipa:ɡˈɛfɝ": {
+    "cut": "last",
+    "say": "gefer",
+    "ipa": "ɡˈɛfɝ"
+   },
+   "ipa:ʧˈʌnɛt": {
+    "cut": "last",
+    "say": "chunnet",
+    "ipa": "ʧˈʌnɛt"
+   },
+   "ipa:vˈʌnɛt": {
+    "cut": "last",
+    "say": "vunet",
+    "ipa": "vˈʌnɛt"
+   },
+   "ipa:ʧˈɑnɛt": {
+    "cut": "last",
+    "say": "chonet",
+    "ipa": "ʧˈɑnɛt"
+   },
+   "ipa:vˈɑnɛt": {
+    "cut": "last",
+    "say": "vonet",
+    "ipa": "vˈɑnɛt"
+   },
+   "ipa:klˈæp": {
+    "cut": "last",
+    "say": "clap",
+    "ipa": "klˈæp"
+   },
+   "ipa:klˈæd": {
+    "cut": "last",
+    "say": "clad",
+    "ipa": "klˈæd"
+   },
+   "ipa:ɡlˈæd": {
+    "cut": "last",
+    "say": "glad",
+    "ipa": "ɡlˈæd"
+   },
+   "ipa:kˈɑm": {
+    "cut": "last",
+    "say": "comm",
+    "ipa": "kˈɑm"
+   },
+   "ipa:kˈʊd": {
+    "cut": "last",
+    "say": "could",
+    "ipa": "kˈʊd"
+   },
+   "ipa:hˈʊd": {
+    "cut": "last",
+    "say": "hood",
+    "ipa": "hˈʊd"
+   },
+   "ipa:kɹˈæʃɪz": {
+    "cut": "last",
+    "say": "crashes",
+    "ipa": "kɹˈæʃɪz"
+   },
+   "ipa:kɹˈʌʃɪz": {
+    "cut": "last",
+    "say": "crushes",
+    "ipa": "kɹˈʌʃɪz"
+   },
+   "ipa:kɹˈʌʃɪŋ": {
+    "cut": "last",
+    "say": "crushing",
+    "ipa": "kɹˈʌʃɪŋ"
+   },
+   "ipa:kɹˈɪŋs": {
+    "cut": "last",
+    "say": "crings",
+    "ipa": "kɹˈɪŋs"
+   },
+   "ipa:kwˈɪŋs": {
+    "cut": "last",
+    "say": "kwings",
+    "ipa": "kwˈɪŋs"
+   },
+   "ipa:kɹˈɑŋs": {
+    "cut": "last",
+    "say": "crongs",
+    "ipa": "kɹˈɑŋs"
+   },
+   "ipa:kwˈɑŋs": {
+    "cut": "last",
+    "say": "kwongs",
+    "ipa": "kwˈɑŋs"
+   },
+   "ipa:dˈænʃ": {
+    "cut": "last",
+    "say": "dansh",
+    "ipa": "dˈænʃ"
+   },
+   "ipa:mˈænʃ": {
+    "cut": "last",
+    "say": "mansh",
+    "ipa": "mˈænʃ"
+   },
+   "ipa:dˈɑnʃ": {
+    "cut": "last",
+    "say": "donsh",
+    "ipa": "dˈɑnʃ"
+   },
+   "ipa:mˈɑnʃ": {
+    "cut": "last",
+    "say": "monsh",
+    "ipa": "mˈɑnʃ"
+   },
+   "ipa:dˈɛsk": {
+    "cut": "last",
+    "say": "desk",
+    "ipa": "dˈɛsk"
+   },
+   "ipa:dˈɪsk": {
+    "cut": "last",
+    "say": "disc",
+    "ipa": "dˈɪsk"
+   },
+   "ipa:dˈʌsk": {
+    "cut": "last",
+    "say": "dusk",
+    "ipa": "dˈʌsk"
+   },
+   "ipa:dˈɪʃ": {
+    "cut": "last",
+    "say": "dish",
+    "ipa": "dˈɪʃ"
+   },
+   "ipa:fˈɪʃ": {
+    "cut": "last",
+    "say": "fish",
+    "ipa": "fˈɪʃ"
+   },
+   "ipa:dˈɪʧ": {
+    "cut": "last",
+    "say": "ditch",
+    "ipa": "dˈɪʧ"
+   },
+   "ipa:wˈɪʧ": {
+    "cut": "last",
+    "say": "witch",
+    "ipa": "wˈɪʧ"
+   },
+   "ipa:dˈʌz": {
+    "cut": "last",
+    "say": "does",
+    "ipa": "dˈʌz"
+   },
+   "ipa:dˈeɪz": {
+    "cut": "last",
+    "say": "days",
+    "ipa": "dˈeɪz"
+   },
+   "ipa:bˈeɪz": {
+    "cut": "last",
+    "say": "bays",
+    "ipa": "bˈeɪz"
+   },
+   "ipa:dˈɑɡz": {
+    "cut": "last",
+    "say": "dogs",
+    "ipa": "dˈɑɡz"
+   },
+   "ipa:dɹˈævɪn": {
+    "cut": "last",
+    "say": "dravin",
+    "ipa": "dɹˈævɪn"
+   },
+   "ipa:dwˈævɪn": {
+    "cut": "last",
+    "say": "dwavin",
+    "ipa": "dwˈævɪn"
+   },
+   "ipa:dɹˈɪvɪn": {
+    "cut": "last",
+    "say": "drivin",
+    "ipa": "dɹˈɪvɪn"
+   },
+   "ipa:dwˈɪvɪn": {
+    "cut": "last",
+    "say": "dwivin",
+    "ipa": "dwˈɪvɪn"
+   },
+   "ipa:dɹˈɛlɪŋ": {
+    "cut": "last",
+    "say": "drelling",
+    "ipa": "dɹˈɛlɪŋ"
+   },
+   "ipa:dɹˈɛlɪd": {
+    "cut": "last",
+    "say": "drelid",
+    "ipa": "dɹˈɛlɪd"
+   },
+   "ipa:dɹˈɛpɪd": {
+    "cut": "last",
+    "say": "drepid",
+    "ipa": "dɹˈɛpɪd"
+   },
+   "ipa:dɹˈɪn": {
+    "cut": "last",
+    "say": "drin",
+    "ipa": "dɹˈɪn"
+   },
+   "ipa:dwˈɪn": {
+    "cut": "last",
+    "say": "dwin",
+    "ipa": "dwˈɪn"
+   },
+   "ipa:dɹˈɑn": {
+    "cut": "last",
+    "say": "dron",
+    "ipa": "dɹˈɑn"
+   },
+   "ipa:dwˈɑn": {
+    "cut": "last",
+    "say": "dwon",
+    "ipa": "dwˈɑn"
+   },
+   "ipa:dɹˈʌm": {
+    "cut": "last",
+    "say": "drum",
+    "ipa": "dɹˈʌm"
+   },
+   "ipa:dɹˈʌɡ": {
+    "cut": "last",
+    "say": "drug",
+    "ipa": "dɹˈʌɡ"
+   },
+   "ipa:ʃɹˈʌɡ": {
+    "cut": "last",
+    "say": "shrug",
+    "ipa": "ʃɹˈʌɡ"
+   },
+   "ipa:fˈænd": {
+    "cut": "last",
+    "say": "fand",
+    "ipa": "fˈænd"
+   },
+   "ipa:ɡˈænd": {
+    "cut": "last",
+    "say": "gand",
+    "ipa": "ɡˈænd"
+   },
+   "ipa:fˈɔɪnd": {
+    "cut": "last",
+    "say": "foynd",
+    "ipa": "fˈɔɪnd"
+   },
+   "ipa:ɡˈɔɪnd": {
+    "cut": "last",
+    "say": "goynd",
+    "ipa": "ɡˈɔɪnd"
+   },
+   "ipa:fˈɛʃ": {
+    "cut": "last",
+    "say": "fesh",
+    "ipa": "fˈɛʃ"
+   },
+   "ipa:ʃˈɛʃ": {
+    "cut": "last",
+    "say": "shesh",
+    "ipa": "ʃˈɛʃ"
+   },
+   "ipa:fˈæʃ": {
+    "cut": "last",
+    "say": "fash",
+    "ipa": "fˈæʃ"
+   },
+   "ipa:ʃˈæʃ": {
+    "cut": "last",
+    "say": "shash",
+    "ipa": "ʃˈæʃ"
+   },
+   "ipa:fˈɛʧ": {
+    "cut": "last",
+    "say": "fetch",
+    "ipa": "fˈɛʧ"
+   },
+   "ipa:fˈɛɹ": {
+    "cut": "last",
+    "say": "fair",
+    "ipa": "fˈɛɹ"
+   },
+   "ipa:ɹˈɛɹ": {
+    "cut": "last",
+    "say": "rare",
+    "ipa": "ɹˈɛɹ"
+   },
+   "ipa:fˈoʊld": {
+    "cut": "last",
+    "say": "fold",
+    "ipa": "fˈoʊld"
+   },
+   "ipa:bˈoʊld": {
+    "cut": "last",
+    "say": "bold",
+    "ipa": "bˈoʊld"
+   },
+   "ipa:fˈɪlɪŋ": {
+    "cut": "last",
+    "say": "filling",
+    "ipa": "fˈɪlɪŋ"
+   },
+   "ipa:wˈɪlɪŋ": {
+    "cut": "last",
+    "say": "willing",
+    "ipa": "wˈɪlɪŋ"
+   },
+   "ipa:fˈeɪlɪŋ": {
+    "cut": "last",
+    "say": "failing",
+    "ipa": "fˈeɪlɪŋ"
+   },
+   "ipa:wˈeɪlɪŋ": {
+    "cut": "last",
+    "say": "wailing",
+    "ipa": "wˈeɪlɪŋ"
+   },
+   "ipa:wˈɪʃ": {
+    "cut": "last",
+    "say": "wish",
+    "ipa": "wˈɪʃ"
+   },
+   "ipa:fˈɪkst": {
+    "cut": "last",
+    "say": "fixed",
+    "ipa": "fˈɪkst"
+   },
+   "ipa:mˈɪkst": {
+    "cut": "last",
+    "say": "mixed",
+    "ipa": "mˈɪkst"
+   },
+   "ipa:mˈɪnst": {
+    "cut": "last",
+    "say": "minced",
+    "ipa": "mˈɪnst"
+   },
+   "ipa:fˈɪksɪz": {
+    "cut": "last",
+    "say": "fixes",
+    "ipa": "fˈɪksɪz"
+   },
+   "ipa:fˈɪksɪŋ": {
+    "cut": "last",
+    "say": "fixing",
+    "ipa": "fˈɪksɪŋ"
+   },
+   "ipa:mˈɪksɪŋ": {
+    "cut": "last",
+    "say": "mixing",
+    "ipa": "mˈɪksɪŋ"
+   },
+   "ipa:flˈæɡ": {
+    "cut": "last",
+    "say": "flag",
+    "ipa": "flˈæɡ"
+   },
+   "ipa:flˈæp": {
+    "cut": "last",
+    "say": "flap",
+    "ipa": "flˈæp"
+   },
+   "ipa:slˈæp": {
+    "cut": "last",
+    "say": "slap",
+    "ipa": "slˈæp"
+   },
+   "ipa:flˈɪskt": {
+    "cut": "last",
+    "say": "flisked",
+    "ipa": "flˈɪskt"
+   },
+   "ipa:fɹˈɪskt": {
+    "cut": "last",
+    "say": "friskt",
+    "ipa": "fɹˈɪskt"
+   },
+   "ipa:flˈɑskt": {
+    "cut": "last",
+    "say": "floskt",
+    "ipa": "flˈɑskt"
+   },
+   "ipa:fɹˈɑskt": {
+    "cut": "last",
+    "say": "froskt",
+    "ipa": "fɹˈɑskt"
+   },
+   "ipa:flˈɑŋkt": {
+    "cut": "last",
+    "say": "flonked",
+    "ipa": "flˈɑŋkt"
+   },
+   "ipa:fɹˈɑŋkt": {
+    "cut": "last",
+    "say": "fronkt",
+    "ipa": "fɹˈɑŋkt"
+   },
+   "ipa:flˈʌŋkt": {
+    "cut": "last",
+    "say": "flunkt",
+    "ipa": "flˈʌŋkt"
+   },
+   "ipa:fɹˈʌŋkt": {
+    "cut": "last",
+    "say": "frunkt",
+    "ipa": "fɹˈʌŋkt"
+   },
+   "ipa:flˈɑɹbɪz": {
+    "cut": "last",
+    "say": "florbes",
+    "ipa": "flˈɑɹbɪz"
+   },
+   "ipa:fɹˈɑɹbɪz": {
+    "cut": "last",
+    "say": "frorbiz",
+    "ipa": "fɹˈɑɹbɪz"
+   },
+   "ipa:flˈɛɹbɪz": {
+    "cut": "last",
+    "say": "flerbiz",
+    "ipa": "flˈɛɹbɪz"
+   },
+   "ipa:fɹˈɛɹbɪz": {
+    "cut": "last",
+    "say": "frerbiz",
+    "ipa": "fɹˈɛɹbɪz"
+   },
+   "ipa:flˈɑɹbɪŋ": {
+    "cut": "last",
+    "say": "florbing",
+    "ipa": "flˈɑɹbɪŋ"
+   },
+   "ipa:fɹˈɑɹbɪŋ": {
+    "cut": "last",
+    "say": "frorbing",
+    "ipa": "fɹˈɑɹbɪŋ"
+   },
+   "ipa:flˈʌɹbɪŋ": {
+    "cut": "last",
+    "say": "flurbing",
+    "ipa": "flˈʌɹbɪŋ"
+   },
+   "ipa:fɹˈʌɹbɪŋ": {
+    "cut": "last",
+    "say": "frurbing",
+    "ipa": "fɹˈʌɹbɪŋ"
+   },
+   "ipa:fˈɔɹ": {
+    "cut": "last",
+    "say": "four",
+    "ipa": "fˈɔɹ"
+   },
+   "ipa:kˈɔɹ": {
+    "cut": "last",
+    "say": "core",
+    "ipa": "kˈɔɹ"
+   },
+   "ipa:kˈɛɹ": {
+    "cut": "last",
+    "say": "care",
+    "ipa": "kˈɛɹ"
+   },
+   "ipa:fɹˈɛnd": {
+    "cut": "last",
+    "say": "friend",
+    "ipa": "fɹˈɛnd"
+   },
+   "ipa:fɹˈɛnʧ": {
+    "cut": "last",
+    "say": "french",
+    "ipa": "fɹˈɛnʧ"
+   },
+   "ipa:tɹˈɛnʧ": {
+    "cut": "last",
+    "say": "trench",
+    "ipa": "tɹˈɛnʧ"
+   },
+   "ipa:fɹˈʌm": {
+    "cut": "last",
+    "say": "from",
+    "ipa": "fɹˈʌm"
+   },
+   "ipa:kɹˈʌm": {
+    "cut": "last",
+    "say": "crumb",
+    "ipa": "kɹˈʌm"
+   },
+   "ipa:ɡˈɪft": {
+    "cut": "last",
+    "say": "gift",
+    "ipa": "ɡˈɪft"
+   },
+   "ipa:ɡˈɪlt": {
+    "cut": "last",
+    "say": "gilt",
+    "ipa": "ɡˈɪlt"
+   },
+   "ipa:ɡˈɪld": {
+    "cut": "last",
+    "say": "guild",
+    "ipa": "ɡˈɪld"
+   },
+   "ipa:ɡlˈɪm": {
+    "cut": "last",
+    "say": "glim",
+    "ipa": "ɡlˈɪm"
+   },
+   "ipa:ɡlˈɪf": {
+    "cut": "last",
+    "say": "glif",
+    "ipa": "ɡlˈɪf"
+   },
+   "ipa:ɡlˈɑf": {
+    "cut": "last",
+    "say": "glof",
+    "ipa": "ɡlˈɑf"
+   },
+   "ipa:ɡˈoʊz": {
+    "cut": "last",
+    "say": "goes",
+    "ipa": "ɡˈoʊz"
+   },
+   "ipa:wˈoʊz": {
+    "cut": "last",
+    "say": "woes",
+    "ipa": "wˈoʊz"
+   },
+   "ipa:ɡˈeɪz": {
+    "cut": "last",
+    "say": "gaze",
+    "ipa": "ɡˈeɪz"
+   },
+   "ipa:wˈeɪz": {
+    "cut": "last",
+    "say": "ways",
+    "ipa": "wˈeɪz"
+   },
+   "ipa:ɡˈɑʃ": {
+    "cut": "last",
+    "say": "gosh",
+    "ipa": "ɡˈɑʃ"
+   },
+   "ipa:pˈɑʃ": {
+    "cut": "last",
+    "say": "posh",
+    "ipa": "pˈɑʃ"
+   },
+   "ipa:ɡɹˈɪnd": {
+    "cut": "last",
+    "say": "grinned",
+    "ipa": "ɡɹˈɪnd"
+   },
+   "ipa:ɡɹˈænd": {
+    "cut": "last",
+    "say": "grand",
+    "ipa": "ɡɹˈænd"
+   },
+   "ipa:ɡɹˈæbd": {
+    "cut": "last",
+    "say": "grabbed",
+    "ipa": "ɡɹˈæbd"
+   },
+   "ipa:hˈænd": {
+    "cut": "last",
+    "say": "hand",
+    "ipa": "hˈænd"
+   },
+   "ipa:sˈænd": {
+    "cut": "last",
+    "say": "sand",
+    "ipa": "sˈænd"
+   },
+   "ipa:hˈaʊnd": {
+    "cut": "last",
+    "say": "hound",
+    "ipa": "hˈaʊnd"
+   },
+   "ipa:sˈaʊnd": {
+    "cut": "last",
+    "say": "sound",
+    "ipa": "sˈaʊnd"
+   },
+   "ipa:hˈændz": {
+    "cut": "last",
+    "say": "hands",
+    "ipa": "hˈændz"
+   },
+   "ipa:bˈændz": {
+    "cut": "last",
+    "say": "bands",
+    "ipa": "bˈændz"
+   },
+   "ipa:hˈaʊndz": {
+    "cut": "last",
+    "say": "hounds",
+    "ipa": "hˈaʊndz"
+   },
+   "ipa:bˈaʊndz": {
+    "cut": "last",
+    "say": "bounds",
+    "ipa": "bˈaʊndz"
+   },
+   "ipa:hˈæŋ": {
+    "cut": "last",
+    "say": "hang",
+    "ipa": "hˈæŋ"
+   },
+   "ipa:ɹˈæŋ": {
+    "cut": "last",
+    "say": "rang",
+    "ipa": "ɹˈæŋ"
+   },
+   "ipa:hˈʌŋ": {
+    "cut": "last",
+    "say": "hung",
+    "ipa": "hˈʌŋ"
+   },
+   "ipa:ɹˈʌŋ": {
+    "cut": "last",
+    "say": "rung",
+    "ipa": "ɹˈʌŋ"
+   },
+   "ipa:hˈɝ": {
+    "cut": "last",
+    "say": "her",
+    "ipa": "hˈɝ"
+   },
+   "ipa:sˈɝ": {
+    "cut": "last",
+    "say": "sir",
+    "ipa": "sˈɝ"
+   },
+   "ipa:hˈɑ": {
+    "cut": "last",
+    "say": "ha",
+    "ipa": "hˈɑ"
+   },
+   "ipa:sˈɑ": {
+    "cut": "last",
+    "say": "sa",
+    "ipa": "sˈɑ"
+   },
+   "ipa:hˈɛʃ": {
+    "cut": "last",
+    "say": "hesh",
+    "ipa": "hˈɛʃ"
+   },
+   "ipa:zˈɛʃ": {
+    "cut": "last",
+    "say": "zesh",
+    "ipa": "zˈɛʃ"
+   },
+   "ipa:hˈɑʃ": {
+    "cut": "last",
+    "say": "hosh",
+    "ipa": "hˈɑʃ"
+   },
+   "ipa:zˈɑʃ": {
+    "cut": "last",
+    "say": "zosh",
+    "ipa": "zˈɑʃ"
+   },
+   "ipa:hˈɪŋk": {
+    "cut": "last",
+    "say": "hink",
+    "ipa": "hˈɪŋk"
+   },
+   "ipa:nˈɪŋk": {
+    "cut": "last",
+    "say": "nink",
+    "ipa": "nˈɪŋk"
+   },
+   "ipa:hˈuŋk": {
+    "cut": "last",
+    "say": "hoonk",
+    "ipa": "hˈuŋk"
+   },
+   "ipa:nˈuŋk": {
+    "cut": "last",
+    "say": "noonk",
+    "ipa": "nˈuŋk"
+   },
+   "ipa:hˈɑŋk": {
+    "cut": "last",
+    "say": "honk",
+    "ipa": "hˈɑŋk"
+   },
+   "ipa:hˈʌŋk": {
+    "cut": "last",
+    "say": "hunk",
+    "ipa": "hˈʌŋk"
+   },
+   "ipa:hˈʌɡd": {
+    "cut": "last",
+    "say": "hugged",
+    "ipa": "hˈʌɡd"
+   },
+   "ipa:bˈʌɡd": {
+    "cut": "last",
+    "say": "bugged",
+    "ipa": "bˈʌɡd"
+   },
+   "ipa:hˈʌnt": {
+    "cut": "last",
+    "say": "hunt",
+    "ipa": "hˈʌnt"
+   },
+   "ipa:pˈʌnt": {
+    "cut": "last",
+    "say": "punt",
+    "ipa": "pˈʌnt"
+   },
+   "ipa:pˈænt": {
+    "cut": "last",
+    "say": "pant",
+    "ipa": "pˈænt"
+   },
+   "ipa:hˈʌʃ": {
+    "cut": "last",
+    "say": "hush",
+    "ipa": "hˈʌʃ"
+   },
+   "ipa:ɹˈʌʃ": {
+    "cut": "last",
+    "say": "rush",
+    "ipa": "ɹˈʌʃ"
+   },
+   "ipa:hˈæʃ": {
+    "cut": "last",
+    "say": "hash",
+    "ipa": "hˈæʃ"
+   },
+   "ipa:ɹˈæʃ": {
+    "cut": "last",
+    "say": "rash",
+    "ipa": "ɹˈæʃ"
+   },
+   "ipa:hˈʌʧ": {
+    "cut": "last",
+    "say": "hutch",
+    "ipa": "hˈʌʧ"
+   },
+   "ipa:mˈʌʧ": {
+    "cut": "last",
+    "say": "much",
+    "ipa": "mˈʌʧ"
+   },
+   "ipa:hˈæʧ": {
+    "cut": "last",
+    "say": "hatch",
+    "ipa": "hˈæʧ"
+   },
+   "ipa:mˈæʧ": {
+    "cut": "last",
+    "say": "match",
+    "ipa": "mˈæʧ"
+   },
+   "ipa:ˈɪnsɛkt": {
+    "cut": "last",
+    "say": "insect",
+    "ipa": "ˈɪnsɛkt"
+   },
+   "ipa:ˈɪnʤɛkt": {
+    "cut": "last",
+    "say": "inject",
+    "ipa": "ˈɪnʤɛkt"
+   },
+   "ipa:ˈɪnfɛkt": {
+    "cut": "last",
+    "say": "infect",
+    "ipa": "ˈɪnfɛkt"
+   },
+   "ipa:ʤˈɛlt": {
+    "cut": "last",
+    "say": "jelt",
+    "ipa": "ʤˈɛlt"
+   },
+   "ipa:ʧˈɛlt": {
+    "cut": "last",
+    "say": "chelt",
+    "ipa": "ʧˈɛlt"
+   },
+   "ipa:ʤˈælt": {
+    "cut": "last",
+    "say": "jalt",
+    "ipa": "ʤˈælt"
+   },
+   "ipa:ʧˈælt": {
+    "cut": "last",
+    "say": "chalt",
+    "ipa": "ʧˈælt"
+   },
+   "ipa:ʤˈʌmp": {
+    "cut": "last",
+    "say": "jump",
+    "ipa": "ʤˈʌmp"
+   },
+   "ipa:pˈʌmp": {
+    "cut": "last",
+    "say": "pump",
+    "ipa": "pˈʌmp"
+   },
+   "ipa:θˈʌmp": {
+    "cut": "last",
+    "say": "thump",
+    "ipa": "θˈʌmp"
+   },
+   "ipa:ʤˈʌmpt": {
+    "cut": "last",
+    "say": "jumped",
+    "ipa": "ʤˈʌmpt"
+   },
+   "ipa:bˈʌmpt": {
+    "cut": "last",
+    "say": "bumped",
+    "ipa": "bˈʌmpt"
+   },
+   "ipa:ʤˈʌmps": {
+    "cut": "last",
+    "say": "jumps",
+    "ipa": "ʤˈʌmps"
+   },
+   "ipa:bˈʌmps": {
+    "cut": "last",
+    "say": "bumps",
+    "ipa": "bˈʌmps"
+   },
+   "ipa:ʤˈʌmpɝ": {
+    "cut": "last",
+    "say": "jumper",
+    "ipa": "ʤˈʌmpɝ"
+   },
+   "ipa:bˈʌmpɝ": {
+    "cut": "last",
+    "say": "bumper",
+    "ipa": "bˈʌmpɝ"
+   },
+   "ipa:bˈʌmpi": {
+    "cut": "last",
+    "say": "bumpy",
+    "ipa": "bˈʌmpi"
+   },
+   "ipa:ʤˈʌmpɪŋ": {
+    "cut": "last",
+    "say": "jumping",
+    "ipa": "ʤˈʌmpɪŋ"
+   },
+   "ipa:dˈʌmpɪŋ": {
+    "cut": "last",
+    "say": "dumping",
+    "ipa": "dˈʌmpɪŋ"
+   },
+   "ipa:θˈʌmpɪŋ": {
+    "cut": "last",
+    "say": "thumping",
+    "ipa": "θˈʌmpɪŋ"
+   },
+   "ipa:ʤˈʌŋk": {
+    "cut": "last",
+    "say": "junk",
+    "ipa": "ʤˈʌŋk"
+   },
+   "ipa:kˈɪŋ": {
+    "cut": "last",
+    "say": "king",
+    "ipa": "kˈɪŋ"
+   },
+   "ipa:sˈɪŋ": {
+    "cut": "last",
+    "say": "sing",
+    "ipa": "sˈɪŋ"
+   },
+   "ipa:lˈændɪŋ": {
+    "cut": "last",
+    "say": "landing",
+    "ipa": "lˈændɪŋ"
+   },
+   "ipa:lˈɛndɪŋ": {
+    "cut": "last",
+    "say": "lending",
+    "ipa": "lˈɛndɪŋ"
+   },
+   "ipa:vˈɛndɪŋ": {
+    "cut": "last",
+    "say": "vending",
+    "ipa": "vˈɛndɪŋ"
+   },
+   "ipa:lˈɔŋ": {
+    "cut": "last",
+    "say": "long",
+    "ipa": "lˈɔŋ"
+   },
+   "ipa:ɹˈɔŋ": {
+    "cut": "last",
+    "say": "wrong",
+    "ipa": "ɹˈɔŋ"
+   },
+   "ipa:lˈʌŋ": {
+    "cut": "last",
+    "say": "lung",
+    "ipa": "lˈʌŋ"
+   },
+   "ipa:mˈɛni": {
+    "cut": "last",
+    "say": "many",
+    "ipa": "mˈɛni"
+   },
+   "ipa:pˈɛni": {
+    "cut": "last",
+    "say": "penny",
+    "ipa": "pˈɛni"
+   },
+   "ipa:pˈɛti": {
+    "cut": "last",
+    "say": "petty",
+    "ipa": "pˈɛti"
+   },
+   "ipa:mˈæsk": {
+    "cut": "last",
+    "say": "mask",
+    "ipa": "mˈæsk"
+   },
+   "ipa:tˈæsk": {
+    "cut": "last",
+    "say": "task",
+    "ipa": "tˈæsk"
+   },
+   "ipa:tˈæŋk": {
+    "cut": "last",
+    "say": "tank",
+    "ipa": "tˈæŋk"
+   },
+   "ipa:mˈæθ": {
+    "cut": "last",
+    "say": "math",
+    "ipa": "mˈæθ"
+   },
+   "ipa:mˈɛlt": {
+    "cut": "last",
+    "say": "melt",
+    "ipa": "mˈɛlt"
+   },
+   "ipa:mˈɛnt": {
+    "cut": "last",
+    "say": "meant",
+    "ipa": "mˈɛnt"
+   },
+   "ipa:mˈɛst": {
+    "cut": "last",
+    "say": "messed",
+    "ipa": "mˈɛst"
+   },
+   "ipa:mˈɪlk": {
+    "cut": "last",
+    "say": "milk",
+    "ipa": "mˈɪlk"
+   },
+   "ipa:mˈɪŋk": {
+    "cut": "last",
+    "say": "mink",
+    "ipa": "mˈɪŋk"
+   },
+   "ipa:ɹˈɪŋk": {
+    "cut": "last",
+    "say": "rink",
+    "ipa": "ɹˈɪŋk"
+   },
+   "ipa:mˈɪθ": {
+    "cut": "last",
+    "say": "myth",
+    "ipa": "mˈɪθ"
+   },
+   "ipa:tˈɪθ": {
+    "cut": "last",
+    "say": "tith",
+    "ipa": "tˈɪθ"
+   },
+   "ipa:mˈeɪθ": {
+    "cut": "last",
+    "say": "mayth",
+    "ipa": "mˈeɪθ"
+   },
+   "ipa:tˈeɪθ": {
+    "cut": "last",
+    "say": "tayth",
+    "ipa": "tˈeɪθ"
+   },
+   "ipa:mˈɔθ": {
+    "cut": "last",
+    "say": "moth",
+    "ipa": "mˈɔθ"
+   },
+   "ipa:mˈɪz": {
+    "cut": "last",
+    "say": "ms",
+    "ipa": "mˈɪz"
+   },
+   "ipa:nˈæʧ": {
+    "cut": "last",
+    "say": "nach",
+    "ipa": "nˈæʧ"
+   },
+   "ipa:sˈæʧ": {
+    "cut": "last",
+    "say": "sach",
+    "ipa": "sˈæʧ"
+   },
+   "ipa:nˈɛʧ": {
+    "cut": "last",
+    "say": "nech",
+    "ipa": "nˈɛʧ"
+   },
+   "ipa:sˈɛʧ": {
+    "cut": "last",
+    "say": "sech",
+    "ipa": "sˈɛʧ"
+   },
+   "ipa:nˈæʃ": {
+    "cut": "last",
+    "say": "nash",
+    "ipa": "nˈæʃ"
+   },
+   "ipa:nˈɛʃ": {
+    "cut": "last",
+    "say": "nesh",
+    "ipa": "nˈɛʃ"
+   },
+   "ipa:nˈɛst": {
+    "cut": "last",
+    "say": "nest",
+    "ipa": "nˈɛst"
+   },
+   "ipa:fˈɛst": {
+    "cut": "last",
+    "say": "fest",
+    "ipa": "fˈɛst"
+   },
+   "ipa:tˈɛst": {
+    "cut": "last",
+    "say": "test",
+    "ipa": "tˈɛst"
+   },
+   "ipa:nˈʌsk": {
+    "cut": "last",
+    "say": "nusk",
+    "ipa": "nˈʌsk"
+   },
+   "ipa:ʃˈʌsk": {
+    "cut": "last",
+    "say": "shusk",
+    "ipa": "ʃˈʌsk"
+   },
+   "ipa:nˈɛsk": {
+    "cut": "last",
+    "say": "nesk",
+    "ipa": "nˈɛsk"
+   },
+   "ipa:ʃˈɛsk": {
+    "cut": "last",
+    "say": "shesk",
+    "ipa": "ʃˈɛsk"
+   },
+   "ipa:pˈækt": {
+    "cut": "last",
+    "say": "packed",
+    "ipa": "pˈækt"
+   },
+   "ipa:tˈækt": {
+    "cut": "last",
+    "say": "tact",
+    "ipa": "tˈækt"
+   },
+   "ipa:pˈɪkt": {
+    "cut": "last",
+    "say": "picked",
+    "ipa": "pˈɪkt"
+   },
+   "ipa:tˈɪkt": {
+    "cut": "last",
+    "say": "ticked",
+    "ipa": "tˈɪkt"
+   },
+   "ipa:pˈækɪŋ": {
+    "cut": "last",
+    "say": "packing",
+    "ipa": "pˈækɪŋ"
+   },
+   "ipa:lˈækɪŋ": {
+    "cut": "last",
+    "say": "lacking",
+    "ipa": "lˈækɪŋ"
+   },
+   "ipa:pˈɪkɪŋ": {
+    "cut": "last",
+    "say": "picking",
+    "ipa": "pˈɪkɪŋ"
+   },
+   "ipa:lˈɪkɪŋ": {
+    "cut": "last",
+    "say": "licking",
+    "ipa": "lˈɪkɪŋ"
+   },
+   "ipa:pˈɪŋk": {
+    "cut": "last",
+    "say": "pink",
+    "ipa": "pˈɪŋk"
+   },
+   "ipa:pˈʌŋk": {
+    "cut": "last",
+    "say": "punk",
+    "ipa": "pˈʌŋk"
+   },
+   "ipa:pˈɪʧ": {
+    "cut": "last",
+    "say": "pitch",
+    "ipa": "pˈɪʧ"
+   },
+   "ipa:hˈɪʧ": {
+    "cut": "last",
+    "say": "hitch",
+    "ipa": "hˈɪʧ"
+   },
+   "ipa:plˈæn": {
+    "cut": "last",
+    "say": "plan",
+    "ipa": "plˈæn"
+   },
+   "ipa:plˈæk": {
+    "cut": "last",
+    "say": "plaque",
+    "ipa": "plˈæk"
+   },
+   "ipa:plˈɛmd": {
+    "cut": "last",
+    "say": "plemmed",
+    "ipa": "plˈɛmd"
+   },
+   "ipa:pɹˈɛmd": {
+    "cut": "last",
+    "say": "premd",
+    "ipa": "pɹˈɛmd"
+   },
+   "ipa:plˈɑmd": {
+    "cut": "last",
+    "say": "plomd",
+    "ipa": "plˈɑmd"
+   },
+   "ipa:pɹˈɑmd": {
+    "cut": "last",
+    "say": "promd",
+    "ipa": "pɹˈɑmd"
+   },
+   "ipa:plˈɛmtɝ": {
+    "cut": "last",
+    "say": "plemter",
+    "ipa": "plˈɛmtɝ"
+   },
+   "ipa:pɹˈɛmtɝ": {
+    "cut": "last",
+    "say": "premter",
+    "ipa": "pɹˈɛmtɝ"
+   },
+   "ipa:plˈɑmtɝ": {
+    "cut": "last",
+    "say": "plomter",
+    "ipa": "plˈɑmtɝ"
+   },
+   "ipa:pɹˈɑmtɝ": {
+    "cut": "last",
+    "say": "promter",
+    "ipa": "pɹˈɑmtɝ"
+   },
+   "ipa:plˈɛmzɛn": {
+    "cut": "last",
+    "say": "plemzen",
+    "ipa": "plˈɛmzɛn"
+   },
+   "ipa:pɹˈɛmzɛn": {
+    "cut": "last",
+    "say": "premzen",
+    "ipa": "pɹˈɛmzɛn"
+   },
+   "ipa:plˈɪmzɛn": {
+    "cut": "last",
+    "say": "plimzen",
+    "ipa": "plˈɪmzɛn"
+   },
+   "ipa:pɹˈɪmzɛn": {
+    "cut": "last",
+    "say": "primzen",
+    "ipa": "pɹˈɪmzɛn"
+   },
+   "ipa:pˈʊʃ": {
+    "cut": "last",
+    "say": "push",
+    "ipa": "pˈʊʃ"
+   },
+   "ipa:bˈʊʃ": {
+    "cut": "last",
+    "say": "bush",
+    "ipa": "bˈʊʃ"
+   },
+   "ipa:bˈʊl": {
+    "cut": "last",
+    "say": "bull",
+    "ipa": "bˈʊl"
+   },
+   "ipa:pˈʊt": {
+    "cut": "last",
+    "say": "put",
+    "ipa": "pˈʊt"
+   },
+   "ipa:fˈʊt": {
+    "cut": "last",
+    "say": "foot",
+    "ipa": "fˈʊt"
+   },
+   "ipa:ɹˈæbʌt": {
+    "cut": "last",
+    "say": "rabbit",
+    "ipa": "ɹˈæbʌt"
+   },
+   "ipa:hˈæbʌt": {
+    "cut": "last",
+    "say": "habit",
+    "ipa": "hˈæbʌt"
+   },
+   "ipa:hˈæʧʌt": {
+    "cut": "last",
+    "say": "hatchet",
+    "ipa": "hˈæʧʌt"
+   },
+   "ipa:sˈæŋ": {
+    "cut": "last",
+    "say": "sang",
+    "ipa": "sˈæŋ"
+   },
+   "ipa:ɹˈɪŋ": {
+    "cut": "last",
+    "say": "ring",
+    "ipa": "ɹˈɪŋ"
+   },
+   "ipa:ɹˈɛstɪŋ": {
+    "cut": "last",
+    "say": "resting",
+    "ipa": "ɹˈɛstɪŋ"
+   },
+   "ipa:nˈɛstɪŋ": {
+    "cut": "last",
+    "say": "nesting",
+    "ipa": "nˈɛstɪŋ"
+   },
+   "ipa:tˈɛstɪŋ": {
+    "cut": "last",
+    "say": "testing",
+    "ipa": "tˈɛstɪŋ"
+   },
+   "ipa:ɹˈɪʧ": {
+    "cut": "last",
+    "say": "rich",
+    "ipa": "ɹˈɪʧ"
+   },
+   "ipa:ɹˈiʧ": {
+    "cut": "last",
+    "say": "reach",
+    "ipa": "ɹˈiʧ"
+   },
+   "ipa:pˈiʧ": {
+    "cut": "last",
+    "say": "peach",
+    "ipa": "pˈiʧ"
+   },
+   "ipa:lˈænd": {
+    "cut": "last",
+    "say": "land",
+    "ipa": "lˈænd"
+   },
+   "ipa:sˈɛnd": {
+    "cut": "last",
+    "say": "send",
+    "ipa": "sˈɛnd"
+   },
+   "ipa:lˈɛnd": {
+    "cut": "last",
+    "say": "lend",
+    "ipa": "lˈɛnd"
+   },
+   "ipa:sˈɛz": {
+    "cut": "last",
+    "say": "says",
+    "ipa": "sˈɛz"
+   },
+   "ipa:skˈæn": {
+    "cut": "last",
+    "say": "scan",
+    "ipa": "skˈæn"
+   },
+   "ipa:spˈæn": {
+    "cut": "last",
+    "say": "span",
+    "ipa": "spˈæn"
+   },
+   "ipa:skˈɪn": {
+    "cut": "last",
+    "say": "skin",
+    "ipa": "skˈɪn"
+   },
+   "ipa:spˈɪn": {
+    "cut": "last",
+    "say": "spin",
+    "ipa": "spˈɪn"
+   },
+   "ipa:skɹˈæp": {
+    "cut": "last",
+    "say": "scrap",
+    "ipa": "skɹˈæp"
+   },
+   "ipa:stɹˈæp": {
+    "cut": "last",
+    "say": "strap",
+    "ipa": "stɹˈæp"
+   },
+   "ipa:stɹˈɪp": {
+    "cut": "last",
+    "say": "strip",
+    "ipa": "stɹˈɪp"
+   },
+   "ipa:skɹˈɪn": {
+    "cut": "last",
+    "say": "scrin",
+    "ipa": "skɹˈɪn"
+   },
+   "ipa:skwˈɪn": {
+    "cut": "last",
+    "say": "skwin",
+    "ipa": "skwˈɪn"
+   },
+   "ipa:skɹˈæn": {
+    "cut": "last",
+    "say": "scran",
+    "ipa": "skɹˈæn"
+   },
+   "ipa:skwˈæn": {
+    "cut": "last",
+    "say": "skwan",
+    "ipa": "skwˈæn"
+   },
+   "ipa:ʃˈæl": {
+    "cut": "last",
+    "say": "shall",
+    "ipa": "ʃˈæl"
+   },
+   "ipa:pˈæl": {
+    "cut": "last",
+    "say": "pal",
+    "ipa": "pˈæl"
+   },
+   "ipa:ʃˈeɪl": {
+    "cut": "last",
+    "say": "shale",
+    "ipa": "ʃˈeɪl"
+   },
+   "ipa:pˈeɪl": {
+    "cut": "last",
+    "say": "pale",
+    "ipa": "pˈeɪl"
+   },
+   "ipa:ʃˈælps": {
+    "cut": "last",
+    "say": "shalps",
+    "ipa": "ʃˈælps"
+   },
+   "ipa:jˈælps": {
+    "cut": "last",
+    "say": "yalps",
+    "ipa": "jˈælps"
+   },
+   "ipa:ʃˈɪlps": {
+    "cut": "last",
+    "say": "shilps",
+    "ipa": "ʃˈɪlps"
+   },
+   "ipa:jˈɪlps": {
+    "cut": "last",
+    "say": "yilps",
+    "ipa": "jˈɪlps"
+   },
+   "ipa:ʃˈæp": {
+    "cut": "last",
+    "say": "shap",
+    "ipa": "ʃˈæp"
+   },
+   "ipa:bˈæp": {
+    "cut": "last",
+    "say": "bap",
+    "ipa": "bˈæp"
+   },
+   "ipa:ʃˈʌp": {
+    "cut": "last",
+    "say": "shup",
+    "ipa": "ʃˈʌp"
+   },
+   "ipa:bˈʌp": {
+    "cut": "last",
+    "say": "bup",
+    "ipa": "bˈʌp"
+   },
+   "ipa:ʃˈɛd": {
+    "cut": "last",
+    "say": "shed",
+    "ipa": "ʃˈɛd"
+   },
+   "ipa:ʃˈoʊd": {
+    "cut": "last",
+    "say": "showed",
+    "ipa": "ʃˈoʊd"
+   },
+   "ipa:ɹˈoʊd": {
+    "cut": "last",
+    "say": "road",
+    "ipa": "ɹˈoʊd"
+   },
+   "ipa:ʃˈɛl": {
+    "cut": "last",
+    "say": "shell",
+    "ipa": "ʃˈɛl"
+   },
+   "ipa:tˈeɪl": {
+    "cut": "last",
+    "say": "tail",
+    "ipa": "tˈeɪl"
+   },
+   "ipa:ʃˈɪɡ": {
+    "cut": "last",
+    "say": "shig",
+    "ipa": "ʃˈɪɡ"
+   },
+   "ipa:kˈɪɡ": {
+    "cut": "last",
+    "say": "kig",
+    "ipa": "kˈɪɡ"
+   },
+   "ipa:ʃˈʌɡ": {
+    "cut": "last",
+    "say": "shug",
+    "ipa": "ʃˈʌɡ"
+   },
+   "ipa:ʃˈɪn": {
+    "cut": "last",
+    "say": "shin",
+    "ipa": "ʃˈɪn"
+   },
+   "ipa:ʃˈʌn": {
+    "cut": "last",
+    "say": "shun",
+    "ipa": "ʃˈʌn"
+   },
+   "ipa:ʃˈɑb": {
+    "cut": "last",
+    "say": "shob",
+    "ipa": "ʃˈɑb"
+   },
+   "ipa:ʃˈɛb": {
+    "cut": "last",
+    "say": "sheb",
+    "ipa": "ʃˈɛb"
+   },
+   "ipa:pˈɛb": {
+    "cut": "last",
+    "say": "peb",
+    "ipa": "pˈɛb"
+   },
+   "ipa:ʃˈɑm": {
+    "cut": "last",
+    "say": "shom",
+    "ipa": "ʃˈɑm"
+   },
+   "ipa:zˈɑm": {
+    "cut": "last",
+    "say": "zom",
+    "ipa": "zˈɑm"
+   },
+   "ipa:ʃˈɛm": {
+    "cut": "last",
+    "say": "shem",
+    "ipa": "ʃˈɛm"
+   },
+   "ipa:zˈɛm": {
+    "cut": "last",
+    "say": "zem",
+    "ipa": "zˈɛm"
+   },
+   "ipa:ʃˈʊd": {
+    "cut": "last",
+    "say": "should",
+    "ipa": "ʃˈʊd"
+   },
+   "ipa:ʃɹˈɛk": {
+    "cut": "last",
+    "say": "shreck",
+    "ipa": "ʃɹˈɛk"
+   },
+   "ipa:ʃɹˈɛθ": {
+    "cut": "last",
+    "say": "shreth",
+    "ipa": "ʃɹˈɛθ"
+   },
+   "ipa:ʃɹˈɛʧ": {
+    "cut": "last",
+    "say": "shrech",
+    "ipa": "ʃɹˈɛʧ"
+   },
+   "ipa:ʃɹˈʌb": {
+    "cut": "last",
+    "say": "shrub",
+    "ipa": "ʃɹˈʌb"
+   },
+   "ipa:ʃˈʌt": {
+    "cut": "last",
+    "say": "shut",
+    "ipa": "ʃˈʌt"
+   },
+   "ipa:ʃˈɑt": {
+    "cut": "last",
+    "say": "shot",
+    "ipa": "ʃˈɑt"
+   },
+   "ipa:sˈɪlk": {
+    "cut": "last",
+    "say": "silk",
+    "ipa": "sˈɪlk"
+   },
+   "ipa:sˈɪŋk": {
+    "cut": "last",
+    "say": "sink",
+    "ipa": "sˈɪŋk"
+   },
+   "ipa:wˈɪŋk": {
+    "cut": "last",
+    "say": "wink",
+    "ipa": "wˈɪŋk"
+   },
+   "ipa:θˈɪŋk": {
+    "cut": "last",
+    "say": "think",
+    "ipa": "θˈɪŋk"
+   },
+   "ipa:θˈæŋk": {
+    "cut": "last",
+    "say": "thank",
+    "ipa": "θˈæŋk"
+   },
+   "ipa:slˈɪp": {
+    "cut": "last",
+    "say": "slip",
+    "ipa": "slˈɪp"
+   },
+   "ipa:skˈɪp": {
+    "cut": "last",
+    "say": "skip",
+    "ipa": "skˈɪp"
+   },
+   "ipa:slˈoʊp": {
+    "cut": "last",
+    "say": "slope",
+    "ipa": "slˈoʊp"
+   },
+   "ipa:skˈoʊp": {
+    "cut": "last",
+    "say": "scope",
+    "ipa": "skˈoʊp"
+   },
+   "ipa:smˈɛl": {
+    "cut": "last",
+    "say": "smell",
+    "ipa": "smˈɛl"
+   },
+   "ipa:spˈɛl": {
+    "cut": "last",
+    "say": "spell",
+    "ipa": "spˈɛl"
+   },
+   "ipa:swˈɛl": {
+    "cut": "last",
+    "say": "swell",
+    "ipa": "swˈɛl"
+   },
+   "ipa:snˈæp": {
+    "cut": "last",
+    "say": "snap",
+    "ipa": "snˈæp"
+   },
+   "ipa:snˈæk": {
+    "cut": "last",
+    "say": "snack",
+    "ipa": "snˈæk"
+   },
+   "ipa:slˈæk": {
+    "cut": "last",
+    "say": "slack",
+    "ipa": "slˈæk"
+   },
+   "ipa:sˈɑft": {
+    "cut": "last",
+    "say": "soft",
+    "ipa": "sˈɑft"
+   },
+   "ipa:sˈɪft": {
+    "cut": "last",
+    "say": "sift",
+    "ipa": "sˈɪft"
+   },
+   "ipa:sˈɔŋ": {
+    "cut": "last",
+    "say": "song",
+    "ipa": "sˈɔŋ"
+   },
+   "ipa:sˈɑŋk": {
+    "cut": "last",
+    "say": "sonk",
+    "ipa": "sˈɑŋk"
+   },
+   "ipa:ðˈɑŋk": {
+    "cut": "last",
+    "say": "thonk",
+    "ipa": "ðˈɑŋk"
+   },
+   "ipa:sˈoʊŋk": {
+    "cut": "last",
+    "say": "soank",
+    "ipa": "sˈoʊŋk"
+   },
+   "ipa:ðˈoʊŋk": {
+    "cut": "last",
+    "say": "thoank",
+    "ipa": "ðˈoʊŋk"
+   },
+   "ipa:splˈɑb": {
+    "cut": "last",
+    "say": "splob",
+    "ipa": "splˈɑb"
+   },
+   "ipa:spɹˈɑb": {
+    "cut": "last",
+    "say": "sprob",
+    "ipa": "spɹˈɑb"
+   },
+   "ipa:splˈɪb": {
+    "cut": "last",
+    "say": "splib",
+    "ipa": "splˈɪb"
+   },
+   "ipa:spɹˈɪb": {
+    "cut": "last",
+    "say": "sprib",
+    "ipa": "spɹˈɪb"
+   },
+   "ipa:splˈʌnt": {
+    "cut": "last",
+    "say": "splunt",
+    "ipa": "splˈʌnt"
+   },
+   "ipa:spɹˈʌnt": {
+    "cut": "last",
+    "say": "sprunt",
+    "ipa": "spɹˈʌnt"
+   },
+   "ipa:splˈɛnt": {
+    "cut": "last",
+    "say": "splent",
+    "ipa": "splˈɛnt"
+   },
+   "ipa:spɹˈɛnt": {
+    "cut": "last",
+    "say": "sprent",
+    "ipa": "spɹˈɛnt"
+   },
+   "ipa:spˈʌf": {
+    "cut": "last",
+    "say": "spuff",
+    "ipa": "spˈʌf"
+   },
+   "ipa:swˈʌf": {
+    "cut": "last",
+    "say": "swuf",
+    "ipa": "swˈʌf"
+   },
+   "ipa:spˈɪf": {
+    "cut": "last",
+    "say": "spif",
+    "ipa": "spˈɪf"
+   },
+   "ipa:swˈɪf": {
+    "cut": "last",
+    "say": "swif",
+    "ipa": "swˈɪf"
+   },
+   "ipa:skwˈɪd": {
+    "cut": "last",
+    "say": "squid",
+    "ipa": "skwˈɪd"
+   },
+   "ipa:skwˈɑd": {
+    "cut": "last",
+    "say": "squad",
+    "ipa": "skwˈɑd"
+   },
+   "ipa:skwˈɑʃ": {
+    "cut": "last",
+    "say": "squash",
+    "ipa": "skwˈɑʃ"
+   },
+   "ipa:stˈæd": {
+    "cut": "last",
+    "say": "stad",
+    "ipa": "stˈæd"
+   },
+   "ipa:swˈæd": {
+    "cut": "last",
+    "say": "swad",
+    "ipa": "swˈæd"
+   },
+   "ipa:stˈɪd": {
+    "cut": "last",
+    "say": "stid",
+    "ipa": "stˈɪd"
+   },
+   "ipa:swˈɪd": {
+    "cut": "last",
+    "say": "swid",
+    "ipa": "swˈɪd"
+   },
+   "ipa:stˈɑp": {
+    "cut": "last",
+    "say": "stop",
+    "ipa": "stˈɑp"
+   },
+   "ipa:swˈɑp": {
+    "cut": "last",
+    "say": "swap",
+    "ipa": "swˈɑp"
+   },
+   "ipa:stˈip": {
+    "cut": "last",
+    "say": "steep",
+    "ipa": "stˈip"
+   },
+   "ipa:swˈip": {
+    "cut": "last",
+    "say": "sweep",
+    "ipa": "swˈip"
+   },
+   "ipa:stɹˈæb": {
+    "cut": "last",
+    "say": "strab",
+    "ipa": "stɹˈæb"
+   },
+   "ipa:stɹˈæʃ": {
+    "cut": "last",
+    "say": "strash",
+    "ipa": "stɹˈæʃ"
+   },
+   "ipa:stɹˈæʧ": {
+    "cut": "last",
+    "say": "strach",
+    "ipa": "stɹˈæʧ"
+   },
+   "ipa:stɹˈɪŋ": {
+    "cut": "last",
+    "say": "string",
+    "ipa": "stɹˈɪŋ"
+   },
+   "ipa:stɹˈɪkt": {
+    "cut": "last",
+    "say": "strict",
+    "ipa": "stɹˈɪkt"
+   },
+   "ipa:stɹˈɪpt": {
+    "cut": "last",
+    "say": "stripped",
+    "ipa": "stɹˈɪpt"
+   },
+   "ipa:stɹˈɪps": {
+    "cut": "last",
+    "say": "strips",
+    "ipa": "stɹˈɪps"
+   },
+   "ipa:stɹˈʌŋ": {
+    "cut": "last",
+    "say": "strung",
+    "ipa": "stɹˈʌŋ"
+   },
+   "ipa:stɹˈʌk": {
+    "cut": "last",
+    "say": "struck",
+    "ipa": "stɹˈʌk"
+   },
+   "ipa:stɹˈɪʃɪŋ": {
+    "cut": "last",
+    "say": "strishing",
+    "ipa": "stɹˈɪʃɪŋ"
+   },
+   "ipa:stɹˈɪʃɪl": {
+    "cut": "last",
+    "say": "strishil",
+    "ipa": "stɹˈɪʃɪl"
+   },
+   "ipa:stɹˈɪfɪl": {
+    "cut": "last",
+    "say": "strifil",
+    "ipa": "stɹˈɪfɪl"
+   },
+   "ipa:stɹˈɑŋkɝ": {
+    "cut": "last",
+    "say": "stronker",
+    "ipa": "stɹˈɑŋkɝ"
+   },
+   "ipa:stɹˈɑwkɝ": {
+    "cut": "last",
+    "say": "strowker",
+    "ipa": "stɹˈɑwkɝ"
+   },
+   "ipa:stɹˈɑbkɝ": {
+    "cut": "last",
+    "say": "strobker",
+    "ipa": "stɹˈɑbkɝ"
+   },
+   "ipa:sˈʌʧ": {
+    "cut": "last",
+    "say": "such",
+    "ipa": "sˈʌʧ"
+   },
+   "ipa:swˈɪm": {
+    "cut": "last",
+    "say": "swim",
+    "ipa": "swˈɪm"
+   },
+   "ipa:slˈɪm": {
+    "cut": "last",
+    "say": "slim",
+    "ipa": "slˈɪm"
+   },
+   "ipa:swˈæm": {
+    "cut": "last",
+    "say": "swam",
+    "ipa": "swˈæm"
+   },
+   "ipa:slˈæm": {
+    "cut": "last",
+    "say": "slam",
+    "ipa": "slˈæm"
+   },
+   "ipa:ɹˈæŋk": {
+    "cut": "last",
+    "say": "rank",
+    "ipa": "ɹˈæŋk"
+   },
+   "ipa:tˈɛnt": {
+    "cut": "last",
+    "say": "tent",
+    "ipa": "tˈɛnt"
+   },
+   "ipa:tˈɪnt": {
+    "cut": "last",
+    "say": "tint",
+    "ipa": "tˈɪnt"
+   },
+   "ipa:mˈɪnt": {
+    "cut": "last",
+    "say": "mint",
+    "ipa": "mˈɪnt"
+   },
+   "ipa:θˈæb": {
+    "cut": "last",
+    "say": "thab",
+    "ipa": "θˈæb"
+   },
+   "ipa:jˈæb": {
+    "cut": "last",
+    "say": "yab",
+    "ipa": "jˈæb"
+   },
+   "ipa:θˈʌb": {
+    "cut": "last",
+    "say": "thub",
+    "ipa": "θˈʌb"
+   },
+   "ipa:jˈʌb": {
+    "cut": "last",
+    "say": "yub",
+    "ipa": "jˈʌb"
+   },
+   "ipa:ðˈæn": {
+    "cut": "last",
+    "say": "than",
+    "ipa": "ðˈæn"
+   },
+   "ipa:ðˈɛn": {
+    "cut": "last",
+    "say": "then",
+    "ipa": "ðˈɛn"
+   },
+   "ipa:ðˈæt": {
+    "cut": "last",
+    "say": "that",
+    "ipa": "ðˈæt"
+   },
+   "ipa:ðˈɛm": {
+    "cut": "last",
+    "say": "them",
+    "ipa": "ðˈɛm"
+   },
+   "ipa:ʤˈɛm": {
+    "cut": "last",
+    "say": "gem",
+    "ipa": "ʤˈɛm"
+   },
+   "ipa:ʤˈɛn": {
+    "cut": "last",
+    "say": "gen",
+    "ipa": "ʤˈɛn"
+   },
+   "ipa:ðˈaɪn": {
+    "cut": "last",
+    "say": "thine",
+    "ipa": "ðˈaɪn"
+   },
+   "ipa:sˈaɪn": {
+    "cut": "last",
+    "say": "sign",
+    "ipa": "sˈaɪn"
+   },
+   "ipa:ðˈɛɹ": {
+    "cut": "last",
+    "say": "there",
+    "ipa": "ðˈɛɹ"
+   },
+   "ipa:hˈɛɹ": {
+    "cut": "last",
+    "say": "hair",
+    "ipa": "hˈɛɹ"
+   },
+   "ipa:θˈɪk": {
+    "cut": "last",
+    "say": "thick",
+    "ipa": "θˈɪk"
+   },
+   "ipa:pˈɪk": {
+    "cut": "last",
+    "say": "pick",
+    "ipa": "pˈɪk"
+   },
+   "ipa:θˈɪn": {
+    "cut": "last",
+    "say": "thin",
+    "ipa": "θˈɪn"
+   },
+   "ipa:θˈɪŋks": {
+    "cut": "last",
+    "say": "thinks",
+    "ipa": "θˈɪŋks"
+   },
+   "ipa:sˈɪŋks": {
+    "cut": "last",
+    "say": "sinks",
+    "ipa": "sˈɪŋks"
+   },
+   "ipa:lˈɪŋks": {
+    "cut": "last",
+    "say": "links",
+    "ipa": "lˈɪŋks"
+   },
+   "ipa:ðˈɪs": {
+    "cut": "last",
+    "say": "this",
+    "ipa": "ðˈɪs"
+   },
+   "ipa:hˈɪs": {
+    "cut": "last",
+    "say": "hiss",
+    "ipa": "hˈɪs"
+   },
+   "ipa:θˈɑmp": {
+    "cut": "last",
+    "say": "thomp",
+    "ipa": "θˈɑmp"
+   },
+   "ipa:dˈɑmp": {
+    "cut": "last",
+    "say": "domp",
+    "ipa": "dˈɑmp"
+   },
+   "ipa:θˈɛmp": {
+    "cut": "last",
+    "say": "themp",
+    "ipa": "θˈɛmp"
+   },
+   "ipa:dˈɛmp": {
+    "cut": "last",
+    "say": "demp",
+    "ipa": "dˈɛmp"
+   },
+   "ipa:θˈɑn": {
+    "cut": "last",
+    "say": "thon",
+    "ipa": "θˈɑn"
+   },
+   "ipa:θˈin": {
+    "cut": "last",
+    "say": "theen",
+    "ipa": "θˈin"
+   },
+   "ipa:ɡˈin": {
+    "cut": "last",
+    "say": "geen",
+    "ipa": "ɡˈin"
+   },
+   "ipa:θˈɑʃ": {
+    "cut": "last",
+    "say": "thosh",
+    "ipa": "θˈɑʃ"
+   },
+   "ipa:θˈɛʃ": {
+    "cut": "last",
+    "say": "thesh",
+    "ipa": "θˈɛʃ"
+   },
+   "ipa:θɹˈæmpɪŋ": {
+    "cut": "last",
+    "say": "thramping",
+    "ipa": "θɹˈæmpɪŋ"
+   },
+   "ipa:θɹˈæwpɪŋ": {
+    "cut": "last",
+    "say": "thrawping",
+    "ipa": "θɹˈæwpɪŋ"
+   },
+   "ipa:θɹˈæʃpɪŋ": {
+    "cut": "last",
+    "say": "thrashping",
+    "ipa": "θɹˈæʃpɪŋ"
+   },
+   "ipa:θɹˈɪl": {
+    "cut": "last",
+    "say": "thrill",
+    "ipa": "θɹˈɪl"
+   },
+   "ipa:dɹˈɪl": {
+    "cut": "last",
+    "say": "drill",
+    "ipa": "dɹˈɪl"
+   },
+   "ipa:dɹˈɪp": {
+    "cut": "last",
+    "say": "drip",
+    "ipa": "dɹˈɪp"
+   },
+   "ipa:θɹˈɑn": {
+    "cut": "last",
+    "say": "thron",
+    "ipa": "θɹˈɑn"
+   },
+   "ipa:θɹˈɑl": {
+    "cut": "last",
+    "say": "throl",
+    "ipa": "θɹˈɑl"
+   },
+   "ipa:ɡɹˈɑl": {
+    "cut": "last",
+    "say": "grol",
+    "ipa": "ɡɹˈɑl"
+   },
+   "ipa:θɹˈʌst": {
+    "cut": "last",
+    "say": "thrust",
+    "ipa": "θɹˈʌst"
+   },
+   "ipa:tɹˈʌst": {
+    "cut": "last",
+    "say": "trust",
+    "ipa": "tɹˈʌst"
+   },
+   "ipa:kɹˈʌst": {
+    "cut": "last",
+    "say": "crust",
+    "ipa": "kɹˈʌst"
+   },
+   "ipa:θɹˈʌv": {
+    "cut": "last",
+    "say": "thruv",
+    "ipa": "θɹˈʌv"
+   },
+   "ipa:θɹˈʌf": {
+    "cut": "last",
+    "say": "thruf",
+    "ipa": "θɹˈʌf"
+   },
+   "ipa:θɹˈɑf": {
+    "cut": "last",
+    "say": "throf",
+    "ipa": "θɹˈɑf"
+   },
+   "ipa:θˈʌd": {
+    "cut": "last",
+    "say": "thud",
+    "ipa": "θˈʌd"
+   },
+   "ipa:θˈɝd": {
+    "cut": "last",
+    "say": "third",
+    "ipa": "θˈɝd"
+   },
+   "ipa:bˈɝd": {
+    "cut": "last",
+    "say": "bird",
+    "ipa": "bˈɝd"
+   },
+   "ipa:bˈʌmp": {
+    "cut": "last",
+    "say": "bump",
+    "ipa": "bˈʌmp"
+   },
+   "ipa:θˈʌmz": {
+    "cut": "last",
+    "say": "thumbs",
+    "ipa": "θˈʌmz"
+   },
+   "ipa:bˈʌmz": {
+    "cut": "last",
+    "say": "bums",
+    "ipa": "bˈʌmz"
+   },
+   "ipa:tɹˈɪp": {
+    "cut": "last",
+    "say": "trip",
+    "ipa": "tɹˈɪp"
+   },
+   "ipa:twˈɛns": {
+    "cut": "last",
+    "say": "twenns",
+    "ipa": "twˈɛns"
+   },
+   "ipa:tɹˈɛns": {
+    "cut": "last",
+    "say": "trens",
+    "ipa": "tɹˈɛns"
+   },
+   "ipa:twˈʌns": {
+    "cut": "last",
+    "say": "twuns",
+    "ipa": "twˈʌns"
+   },
+   "ipa:tɹˈʌns": {
+    "cut": "last",
+    "say": "truns",
+    "ipa": "tɹˈʌns"
+   },
+   "ipa:tˈoʊ": {
+    "cut": "last",
+    "say": "toe",
+    "ipa": "tˈoʊ"
+   },
+   "ipa:dˈoʊ": {
+    "cut": "last",
+    "say": "doe",
+    "ipa": "dˈoʊ"
+   },
+   "ipa:jˈuz": {
+    "cut": "last",
+    "say": "use",
+    "ipa": "jˈuz"
+   },
+   "ipa:ɹˈuz": {
+    "cut": "last",
+    "say": "ruse",
+    "ipa": "ɹˈuz"
+   },
+   "ipa:zˈuz": {
+    "cut": "last",
+    "say": "zoos",
+    "ipa": "zˈuz"
+   },
+   "ipa:vˈændɛst": {
+    "cut": "last",
+    "say": "vandest",
+    "ipa": "vˈændɛst"
+   },
+   "ipa:zˈændɛst": {
+    "cut": "last",
+    "say": "zandest",
+    "ipa": "zˈændɛst"
+   },
+   "ipa:vˈɝndɛst": {
+    "cut": "last",
+    "say": "verndest",
+    "ipa": "vˈɝndɛst"
+   },
+   "ipa:zˈɝndɛst": {
+    "cut": "last",
+    "say": "zerndest",
+    "ipa": "zˈɝndɛst"
+   },
+   "ipa:vˈæntɪk": {
+    "cut": "last",
+    "say": "vantic",
+    "ipa": "vˈæntɪk"
+   },
+   "ipa:ɡˈæntɪk": {
+    "cut": "last",
+    "say": "gantick",
+    "ipa": "ɡˈæntɪk"
+   },
+   "ipa:vˈɝntɪk": {
+    "cut": "last",
+    "say": "verntick",
+    "ipa": "vˈɝntɪk"
+   },
+   "ipa:ɡˈɝntɪk": {
+    "cut": "last",
+    "say": "gerntick",
+    "ipa": "ɡˈɝntɪk"
+   },
+   "ipa:vˈæʃɪŋ": {
+    "cut": "last",
+    "say": "vashing",
+    "ipa": "vˈæʃɪŋ"
+   },
+   "ipa:ʃˈæʃɪŋ": {
+    "cut": "last",
+    "say": "shashing",
+    "ipa": "ʃˈæʃɪŋ"
+   },
+   "ipa:vˈɝʃɪŋ": {
+    "cut": "last",
+    "say": "vershing",
+    "ipa": "vˈɝʃɪŋ"
+   },
+   "ipa:ʃˈɝʃɪŋ": {
+    "cut": "last",
+    "say": "shershing",
+    "ipa": "ʃˈɝʃɪŋ"
+   },
+   "ipa:vˈɪlk": {
+    "cut": "last",
+    "say": "vilk",
+    "ipa": "vˈɪlk"
+   },
+   "ipa:θˈɪlk": {
+    "cut": "last",
+    "say": "thilk",
+    "ipa": "θˈɪlk"
+   },
+   "ipa:vˈɛlk": {
+    "cut": "last",
+    "say": "velk",
+    "ipa": "vˈɛlk"
+   },
+   "ipa:θˈɛlk": {
+    "cut": "last",
+    "say": "thelk",
+    "ipa": "θˈɛlk"
+   },
+   "ipa:vˈɪθ": {
+    "cut": "last",
+    "say": "vith",
+    "ipa": "vˈɪθ"
+   },
+   "ipa:zˈɪθ": {
+    "cut": "last",
+    "say": "zith",
+    "ipa": "zˈɪθ"
+   },
+   "ipa:vˈɛθ": {
+    "cut": "last",
+    "say": "veth",
+    "ipa": "vˈɛθ"
+   },
+   "ipa:zˈɛθ": {
+    "cut": "last",
+    "say": "zeth",
+    "ipa": "zˈɛθ"
+   },
+   "ipa:vˈɑʃ": {
+    "cut": "last",
+    "say": "vosh",
+    "ipa": "vˈɑʃ"
+   },
+   "ipa:vˈɪʃ": {
+    "cut": "last",
+    "say": "vish",
+    "ipa": "vˈɪʃ"
+   },
+   "ipa:zˈɪʃ": {
+    "cut": "last",
+    "say": "zish",
+    "ipa": "zˈɪʃ"
+   },
+   "ipa:vˈɑʧ": {
+    "cut": "last",
+    "say": "votch",
+    "ipa": "vˈɑʧ"
+   },
+   "ipa:ʧˈɑʧ": {
+    "cut": "last",
+    "say": "choch",
+    "ipa": "ʧˈɑʧ"
+   },
+   "ipa:vˈɪʧ": {
+    "cut": "last",
+    "say": "vich",
+    "ipa": "vˈɪʧ"
+   },
+   "ipa:ʧˈɪʧ": {
+    "cut": "last",
+    "say": "chich",
+    "ipa": "ʧˈɪʧ"
+   },
+   "ipa:vˈɑzɪz": {
+    "cut": "last",
+    "say": "vozzes",
+    "ipa": "vˈɑzɪz"
+   },
+   "ipa:ʃˈɑzɪz": {
+    "cut": "last",
+    "say": "shoziz",
+    "ipa": "ʃˈɑzɪz"
+   },
+   "ipa:vˈʌzɪz": {
+    "cut": "last",
+    "say": "vuziz",
+    "ipa": "vˈʌzɪz"
+   },
+   "ipa:ʃˈʌzɪz": {
+    "cut": "last",
+    "say": "shuziz",
+    "ipa": "ʃˈʌzɪz"
+   },
+   "ipa:wˈændɪd": {
+    "cut": "last",
+    "say": "wanded",
+    "ipa": "wˈændɪd"
+   },
+   "ipa:tˈændɪd": {
+    "cut": "last",
+    "say": "tandid",
+    "ipa": "tˈændɪd"
+   },
+   "ipa:wˈɑndɪd": {
+    "cut": "last",
+    "say": "wondid",
+    "ipa": "wˈɑndɪd"
+   },
+   "ipa:tˈɑndɪd": {
+    "cut": "last",
+    "say": "tondid",
+    "ipa": "tˈɑndɪd"
+   },
+   "ipa:wˈɑnt": {
+    "cut": "last",
+    "say": "want",
+    "ipa": "wˈɑnt"
+   },
+   "ipa:fˈɑnt": {
+    "cut": "last",
+    "say": "font",
+    "ipa": "fˈɑnt"
+   },
+   "ipa:wˈɑnd": {
+    "cut": "last",
+    "say": "wand",
+    "ipa": "wˈɑnd"
+   },
+   "ipa:fˈɑnd": {
+    "cut": "last",
+    "say": "fond",
+    "ipa": "fˈɑnd"
+   },
+   "ipa:wˈɔntɪd": {
+    "cut": "last",
+    "say": "wanted",
+    "ipa": "wˈɔntɪd"
+   },
+   "ipa:hˈɔntɪd": {
+    "cut": "last",
+    "say": "haunted",
+    "ipa": "hˈɔntɪd"
+   },
+   "ipa:hˈɔntɪŋ": {
+    "cut": "last",
+    "say": "haunting",
+    "ipa": "hˈɔntɪŋ"
+   },
+   "ipa:wˈæθɪn": {
+    "cut": "last",
+    "say": "wathin",
+    "ipa": "wˈæθɪn"
+   },
+   "ipa:ɹˈæθɪn": {
+    "cut": "last",
+    "say": "rathin",
+    "ipa": "ɹˈæθɪn"
+   },
+   "ipa:wˈʌθɪn": {
+    "cut": "last",
+    "say": "wuthin",
+    "ipa": "wˈʌθɪn"
+   },
+   "ipa:ɹˈʌθɪn": {
+    "cut": "last",
+    "say": "ruthin",
+    "ipa": "ɹˈʌθɪn"
+   },
+   "ipa:wˈɝ": {
+    "cut": "last",
+    "say": "were",
+    "ipa": "wˈɝ"
+   },
+   "ipa:fˈɝ": {
+    "cut": "last",
+    "say": "fur",
+    "ipa": "fˈɝ"
+   },
+   "ipa:wˈɛʧ": {
+    "cut": "last",
+    "say": "wetch",
+    "ipa": "wˈɛʧ"
+   },
+   "ipa:ʧˈɛʧ": {
+    "cut": "last",
+    "say": "chech",
+    "ipa": "ʧˈɛʧ"
+   },
+   "ipa:wˈʌʧ": {
+    "cut": "last",
+    "say": "wuch",
+    "ipa": "wˈʌʧ"
+   },
+   "ipa:ʧˈʌʧ": {
+    "cut": "last",
+    "say": "chuch",
+    "ipa": "ʧˈʌʧ"
+   },
+   "ipa:wˈæk": {
+    "cut": "last",
+    "say": "whack",
+    "ipa": "wˈæk"
+   },
+   "ipa:wˈɪk": {
+    "cut": "last",
+    "say": "wick",
+    "ipa": "wˈɪk"
+   },
+   "ipa:wˈæm": {
+    "cut": "last",
+    "say": "wham",
+    "ipa": "wˈæm"
+   },
+   "ipa:wˈum": {
+    "cut": "last",
+    "say": "womb",
+    "ipa": "wˈum"
+   },
+   "ipa:ɹˈum": {
+    "cut": "last",
+    "say": "room",
+    "ipa": "ɹˈum"
+   },
+   "ipa:wˈæs": {
+    "cut": "last",
+    "say": "whass",
+    "ipa": "wˈæs"
+   },
+   "ipa:wˈʌs": {
+    "cut": "last",
+    "say": "wus",
+    "ipa": "wˈʌs"
+   },
+   "ipa:zˈʌs": {
+    "cut": "last",
+    "say": "zus",
+    "ipa": "zˈʌs"
+   },
+   "ipa:wˈɛn": {
+    "cut": "last",
+    "say": "when",
+    "ipa": "wˈɛn"
+   },
+   "ipa:wˈɛɹ": {
+    "cut": "last",
+    "say": "where",
+    "ipa": "wˈɛɹ"
+   },
+   "ipa:wˈiɹ": {
+    "cut": "last",
+    "say": "weir",
+    "ipa": "wˈiɹ"
+   },
+   "ipa:hˈiɹ": {
+    "cut": "last",
+    "say": "hear",
+    "ipa": "hˈiɹ"
+   },
+   "ipa:wˈɪf": {
+    "cut": "last",
+    "say": "whiff",
+    "ipa": "wˈɪf"
+   },
+   "ipa:ɹˈɪf": {
+    "cut": "last",
+    "say": "riff",
+    "ipa": "ɹˈɪf"
+   },
+   "ipa:wˈaɪf": {
+    "cut": "last",
+    "say": "wife",
+    "ipa": "wˈaɪf"
+   },
+   "ipa:ɹˈaɪf": {
+    "cut": "last",
+    "say": "rife",
+    "ipa": "ɹˈaɪf"
+   },
+   "ipa:wˈɪp": {
+    "cut": "last",
+    "say": "whip",
+    "ipa": "wˈɪp"
+   },
+   "ipa:wˈip": {
+    "cut": "last",
+    "say": "weep",
+    "ipa": "wˈip"
+   },
+   "ipa:sˈip": {
+    "cut": "last",
+    "say": "seep",
+    "ipa": "sˈip"
+   },
+   "ipa:wˈɪθ": {
+    "cut": "last",
+    "say": "whith",
+    "ipa": "wˈɪθ"
+   },
+   "ipa:ɡˈɪθ": {
+    "cut": "last",
+    "say": "gith",
+    "ipa": "ɡˈɪθ"
+   },
+   "ipa:wˈɛθ": {
+    "cut": "last",
+    "say": "weth",
+    "ipa": "wˈɛθ"
+   },
+   "ipa:ɡˈɛθ": {
+    "cut": "last",
+    "say": "geth",
+    "ipa": "ɡˈɛθ"
+   },
+   "ipa:wˈɪz": {
+    "cut": "last",
+    "say": "whiz",
+    "ipa": "wˈɪz"
+   },
+   "ipa:hˈeɪz": {
+    "cut": "last",
+    "say": "hays",
+    "ipa": "hˈeɪz"
+   },
+   "ipa:hˈu": {
+    "cut": "last",
+    "say": "who",
+    "ipa": "hˈu"
+   },
+   "ipa:wˈu": {
+    "cut": "last",
+    "say": "woo",
+    "ipa": "wˈu"
+   },
+   "ipa:wˈɑb": {
+    "cut": "last",
+    "say": "whob",
+    "ipa": "wˈɑb"
+   },
+   "ipa:wˈʌb": {
+    "cut": "last",
+    "say": "wub",
+    "ipa": "wˈʌb"
+   },
+   "ipa:zˈʌb": {
+    "cut": "last",
+    "say": "zub",
+    "ipa": "zˈʌb"
+   },
+   "ipa:wˈɪŋ": {
+    "cut": "last",
+    "say": "wing",
+    "ipa": "wˈɪŋ"
+   },
+   "ipa:wˈɪʃt": {
+    "cut": "last",
+    "say": "wished",
+    "ipa": "wˈɪʃt"
+   },
+   "ipa:wˈɪlt": {
+    "cut": "last",
+    "say": "wilt",
+    "ipa": "wˈɪlt"
+   },
+   "ipa:wˈɪld": {
+    "cut": "last",
+    "say": "willed",
+    "ipa": "wˈɪld"
+   },
+   "ipa:wˈɪʃɪz": {
+    "cut": "last",
+    "say": "wishes",
+    "ipa": "wˈɪʃɪz"
+   },
+   "ipa:wˈɪʃɪŋ": {
+    "cut": "last",
+    "say": "wishing",
+    "ipa": "wˈɪʃɪŋ"
+   },
+   "ipa:wˈɪnɪŋ": {
+    "cut": "last",
+    "say": "winning",
+    "ipa": "wˈɪnɪŋ"
+   },
+   "ipa:fˈɪʃɪŋ": {
+    "cut": "last",
+    "say": "fishing",
+    "ipa": "fˈɪʃɪŋ"
+   },
+   "ipa:fˈɪɹɪŋ": {
+    "cut": "last",
+    "say": "fearing",
+    "ipa": "fˈɪɹɪŋ"
+   },
+   "ipa:wˈɪð": {
+    "cut": "last",
+    "say": "with",
+    "ipa": "wˈɪð"
+   },
+   "ipa:wˈɑʃ": {
+    "cut": "last",
+    "say": "wosh",
+    "ipa": "wˈɑʃ"
+   },
+   "ipa:wˈʌʃ": {
+    "cut": "last",
+    "say": "wush",
+    "ipa": "wˈʌʃ"
+   },
+   "ipa:vˈʌʃ": {
+    "cut": "last",
+    "say": "vush",
+    "ipa": "vˈʌʃ"
+   },
+   "ipa:wˈʊd": {
+    "cut": "last",
+    "say": "would",
+    "ipa": "wˈʊd"
+   },
+   "ipa:wˈɝd": {
+    "cut": "last",
+    "say": "word",
+    "ipa": "wˈɝd"
+   },
+   "ipa:hˈɝd": {
+    "cut": "last",
+    "say": "herd",
+    "ipa": "hˈɝd"
+   },
+   "ipa:jˈɑŋk": {
+    "cut": "last",
+    "say": "yonk",
+    "ipa": "jˈɑŋk"
+   },
+   "ipa:nˈɑŋk": {
+    "cut": "last",
+    "say": "nonk",
+    "ipa": "nˈɑŋk"
+   },
+   "ipa:jˈɛŋk": {
+    "cut": "last",
+    "say": "yenk",
+    "ipa": "jˈɛŋk"
+   },
+   "ipa:nˈɛŋk": {
+    "cut": "last",
+    "say": "nenk",
+    "ipa": "nˈɛŋk"
+   },
+   "ipa:jˈɔɹ": {
+    "cut": "last",
+    "say": "your",
+    "ipa": "jˈɔɹ"
+   },
+   "ipa:dˈɔɹ": {
+    "cut": "last",
+    "say": "door",
+    "ipa": "dˈɔɹ"
+   },
+   "ipa:jˈɪɹ": {
+    "cut": "last",
+    "say": "year",
+    "ipa": "jˈɪɹ"
+   },
+   "ipa:dˈɪɹ": {
+    "cut": "last",
+    "say": "dear",
+    "ipa": "dˈɪɹ"
+   },
+   "ipa:zˈæŋ": {
+    "cut": "last",
+    "say": "zang",
+    "ipa": "zˈæŋ"
+   },
+   "ipa:kˈæŋ": {
+    "cut": "last",
+    "say": "cang",
+    "ipa": "kˈæŋ"
+   },
+   "ipa:zˈʌŋ": {
+    "cut": "last",
+    "say": "zung",
+    "ipa": "zˈʌŋ"
+   },
+   "ipa:kˈʌŋ": {
+    "cut": "last",
+    "say": "cung",
+    "ipa": "kˈʌŋ"
+   },
+   "ipa:zˈɪŋk": {
+    "cut": "last",
+    "say": "zink",
+    "ipa": "zˈɪŋk"
+   },
+   "ipa:ʃˈɪŋk": {
+    "cut": "last",
+    "say": "shink",
+    "ipa": "ʃˈɪŋk"
+   },
+   "ipa:zˈɝŋk": {
+    "cut": "last",
+    "say": "zernk",
+    "ipa": "zˈɝŋk"
+   },
+   "ipa:ʃˈɝŋk": {
+    "cut": "last",
+    "say": "shernk",
+    "ipa": "ʃˈɝŋk"
+   },
+   "ipa:ʃˈʌŋ": {
+    "cut": "last",
+    "say": "shung",
+    "ipa": "ʃˈʌŋ"
+   },
+   "ipa:zˈɑŋ": {
+    "cut": "last",
+    "say": "zong",
+    "ipa": "zˈɑŋ"
+   },
+   "ipa:ʃˈɑŋ": {
+    "cut": "last",
+    "say": "shong",
+    "ipa": "ʃˈɑŋ"
+   },
+   "ui:teachIntro": {
+    "cut": "text",
+    "text": "Here is a new spelling for a sound. Tap it to hear it."
+   },
+   "ui:teachBlend": {
+    "cut": "text",
+    "text": "These letters keep both sounds. Say them quickly together."
+   },
+   "ui:teachSuffix": {
+    "cut": "text",
+    "text": "This is an ending. Read the base word, then add the ending."
+   },
+   "ui:teachExample": {
+    "cut": "text",
+    "text": "Here it is in a word."
+   },
+   "ui:ruleIntro": {
+    "cut": "text",
+    "text": "Here is a rule that helps you read."
+   },
+   "ui:attackIntro": {
+    "cut": "text",
+    "text": "A long word. Let's break it apart, step by step."
+   },
+   "ui:attackVowels": {
+    "cut": "text",
+    "text": "Tap every vowel sound."
+   },
+   "ui:attackPeel": {
+    "cut": "text",
+    "text": "Tap the parts at the start or end that you know."
+   },
+   "ui:attackChunk": {
+    "cut": "text",
+    "text": "Here are the chunks."
+   },
+   "ui:attackBlend": {
+    "cut": "text",
+    "text": "Tap each chunk to say it, then put them together."
+   },
+   "ui:attackFlex": {
+    "cut": "text",
+    "text": "Is it a real word? If not, try the vowel the other way."
+   },
+   "ui:masteryIntro": {
+    "cut": "text",
+    "text": "This is the check for the whole level. Do your best."
+   },
+   "ui:masteryPass": {
+    "cut": "text",
+    "text": "You passed! The next level is open."
+   },
+   "ui:masteryMiss": {
+    "cut": "text",
+    "text": "Not yet. Let's practise the parts that were hard, then try again."
+   },
+   "ui:attackCheckIntro": {
+    "cut": "text",
+    "text": "Show how you read a word you have never seen."
+   },
+   "read:L2.01:A:0": {
+    "cut": "text",
+    "text": "Dad and I go to the shop."
+   },
+   "read:L2.01:A:1": {
+    "cut": "text",
+    "text": "Dad gets fish for us, and a dish for Mom."
+   },
+   "read:L2.01:A:2": {
+    "cut": "text",
+    "text": "\"The shop is shut at six,\" Dad says."
+   },
+   "read:L2.01:A:3": {
+    "cut": "text",
+    "text": "I wish for a big ship in the tub!"
+   },
+   "read:L2.01:A:4": {
+    "cut": "text",
+    "text": "Mom can put cash in a box for the shop."
+   },
+   "read:L2.01:A:5": {
+    "cut": "text",
+    "text": "\"It is on the shelf,\" Mom says."
+   },
+   "read:L2.01:B:0": {
+    "cut": "text",
+    "text": "Sam has a job at the fish shop."
+   },
+   "read:L2.01:B:1": {
+    "cut": "text",
+    "text": "He gets cash for his boss, and fish for the shop."
+   },
+   "read:L2.01:B:2": {
+    "cut": "text",
+    "text": "\"The shop is shut at six,\" Sam's boss says."
+   },
+   "read:L2.01:B:3": {
+    "cut": "text",
+    "text": "Sam and his mom wish for ten fish."
+   },
+   "read:L2.01:B:4": {
+    "cut": "text",
+    "text": "\"It is on the shelf, not in his bag,\" Sam says."
+   },
+   "lt:L2.01:0": {
+    "cut": "text",
+    "text": "A fisherman named Tom worked on a small boat every morning. One day, Tom caught a fish that was absolutely **enormous** — far bigger than any fish he had ever seen before."
+   },
+   "lt:L2.01:1": {
+    "cut": "text",
+    "text": "It was so large that he could barely lift it into the boat! Tom's friends at the harbor could not believe their eyes."
+   },
+   "lt:L2.01:2": {
+    "cut": "text",
+    "text": "\"That fish is enormous!\" they shouted. Tom laughed and said an enormous fish like that would feed the whole street for a week."
+   },
+   "lt:L2.01:3": {
+    "cut": "text",
+    "text": "He shared it with every family on his road, and everyone had a wonderful dinner that night."
+   },
+   "read:L2.02:A:0": {
+    "cut": "text",
+    "text": "Min and Dad chat on the step."
+   },
+   "read:L2.02:A:1": {
+    "cut": "text",
+    "text": "\"Where did you go?\" Min asks."
+   },
+   "read:L2.02:A:2": {
+    "cut": "text",
+    "text": "\"I ran to fetch the cat,\" Dad says."
+   },
+   "read:L2.02:A:3": {
+    "cut": "text",
+    "text": "The cat sat in the hutch."
+   },
+   "read:L2.02:A:4": {
+    "cut": "text",
+    "text": "Min and Dad catch the cat and shut the hutch."
+   },
+   "read:L2.02:A:5": {
+    "cut": "text",
+    "text": "Min and Dad chat and chat."
+   },
+   "read:L2.02:A:6": {
+    "cut": "text",
+    "text": "Min is rich in fun, if not in cash!"
+   },
+   "read:L2.02:B:0": {
+    "cut": "text",
+    "text": "Sam and his boss chat at the shop."
+   },
+   "read:L2.02:B:1": {
+    "cut": "text",
+    "text": "\"Where did you go?\" the boss asks."
+   },
+   "read:L2.02:B:2": {
+    "cut": "text",
+    "text": "\"I had to fetch cash for the shop,\" Sam says."
+   },
+   "read:L2.02:B:3": {
+    "cut": "text",
+    "text": "Sam has a job at ten."
+   },
+   "read:L2.02:B:4": {
+    "cut": "text",
+    "text": "Sam's boss is not rich, but the shop is a big shop."
+   },
+   "read:L2.02:B:5": {
+    "cut": "text",
+    "text": "Sam and his boss chat, and Sam rushes to catch the bus."
+   },
+   "lt:L2.02:0": {
+    "cut": "text",
+    "text": "A little cat named Pip was very **curious**. Every single day, Pip wanted to know what was happening on the other side of the garden wall."
+   },
+   "lt:L2.02:1": {
+    "cut": "text",
+    "text": "One afternoon, Pip's curious nose led her straight into a bush, where she found a family of hedgehogs curled up asleep! Pip was so curious that she gently poked one with her paw."
+   },
+   "lt:L2.02:2": {
+    "cut": "text",
+    "text": "The hedgehog woke up, uncurled, and gave a tiny, surprised squeak. Pip jumped back, but she was still curious — she sat and watched the hedgehogs for the rest of the afternoon, learning something new about her garden."
+   },
+   "read:L2.03:A:0": {
+    "cut": "text",
+    "text": "Min and Dad were at the bath."
+   },
+   "read:L2.03:A:1": {
+    "cut": "text",
+    "text": "\"Where were you?\" Mom asks."
+   },
+   "read:L2.03:A:2": {
+    "cut": "text",
+    "text": "\"I ran from the path to fetch this,\" Dad says."
+   },
+   "read:L2.03:A:3": {
+    "cut": "text",
+    "text": "Min sits in the bath with a thin moth."
+   },
+   "read:L2.03:A:4": {
+    "cut": "text",
+    "text": "\"Can a moth swim in a bath?\" Min asks."
+   },
+   "read:L2.03:A:5": {
+    "cut": "text",
+    "text": "\"Not this moth,\" Dad says, \"but you can!\""
+   },
+   "read:L2.03:B:0": {
+    "cut": "text",
+    "text": "Sam and his boss were at the shop."
+   },
+   "read:L2.03:B:1": {
+    "cut": "text",
+    "text": "\"Where were you?\" his boss asks."
+   },
+   "read:L2.03:B:2": {
+    "cut": "text",
+    "text": "\"I ran from the bus stop to fetch this,\" Sam says."
+   },
+   "read:L2.03:B:3": {
+    "cut": "text",
+    "text": "Sam sits and acts fast."
+   },
+   "read:L2.03:B:4": {
+    "cut": "text",
+    "text": "\"I can fix this fast,\" Sam says."
+   },
+   "read:L2.03:B:5": {
+    "cut": "text",
+    "text": "His boss sits, then says, \"I will check on this and fix it fast.\""
+   },
+   "lt:L2.03:0": {
+    "cut": "text",
+    "text": "Grandpa was usually calm, but one afternoon he got absolutely **furious**. His favorite garden tools had gone missing from the shed, and he was sure someone had taken them without asking."
+   },
+   "lt:L2.03:1": {
+    "cut": "text",
+    "text": "He searched the whole yard, muttering to himself, getting more and more furious with every empty corner. Then his granddaughter walked out holding the tools."
+   },
+   "lt:L2.03:2": {
+    "cut": "text",
+    "text": "\"I borrowed them to fix my bike, Grandpa — I forgot to tell you!\" she said. Grandpa's furious face softened into a small smile."
+   },
+   "lt:L2.03:3": {
+    "cut": "text",
+    "text": "\"Next time,\" he said, \"just tell me first, and I won't have to get furious over nothing.\""
+   },
+   "read:L2.04:A:0": {
+    "cut": "text",
+    "text": "Min asks Mom, \"When will Dad come back?\" \"Dad will come back at six,\" Mom says."
+   },
+   "read:L2.04:A:1": {
+    "cut": "text",
+    "text": "\"Which mug is for some milk?\" Min asks."
+   },
+   "read:L2.04:A:2": {
+    "cut": "text",
+    "text": "\"This mug,\" Mom says, and fills it with milk."
+   },
+   "read:L2.04:A:3": {
+    "cut": "text",
+    "text": "Min sits and grins."
+   },
+   "read:L2.04:A:4": {
+    "cut": "text",
+    "text": "When Dad comes back, Min claps and grins."
+   },
+   "read:L2.04:B:0": {
+    "cut": "text",
+    "text": "Sam asks his boss, \"When will the cash come in?\" \"The cash will come in at six,\" his boss says."
+   },
+   "read:L2.04:B:1": {
+    "cut": "text",
+    "text": "\"Which bin is for some of the stock?\" Sam asks."
+   },
+   "read:L2.04:B:2": {
+    "cut": "text",
+    "text": "\"This bin,\" his boss says, and fills it with stock."
+   },
+   "read:L2.04:B:3": {
+    "cut": "text",
+    "text": "Sam sits and grins."
+   },
+   "read:L2.04:B:4": {
+    "cut": "text",
+    "text": "When the cash comes in, Sam claps and grins."
+   },
+   "lt:L2.04:0": {
+    "cut": "text",
+    "text": "Little Ana loved puzzles more than anything, but one rainy afternoon she found herself completely **puzzled**. Her grandmother had given her a box with no picture on the lid and no instructions inside — just three hundred loose pieces."
+   },
+   "lt:L2.04:1": {
+    "cut": "text",
+    "text": "Ana sat there, puzzled, turning pieces over in her hands, unsure where to even begin. She tried the edges first, but she was still puzzled about which piece connected to which."
+   },
+   "lt:L2.04:2": {
+    "cut": "text",
+    "text": "Finally, her grandmother sat beside her and said, \"When you are puzzled, start with the corners — there are only four, and they always fit first.\" Ana found a corner, then another, and slowly her puzzled frown turned into a grin."
+   },
+   "read:L2.05:A:0": {
+    "cut": "text",
+    "text": "Min sings a song."
+   },
+   "read:L2.05:A:1": {
+    "cut": "text",
+    "text": "\"I want a pink hat,\" Min says."
+   },
+   "read:L2.05:A:2": {
+    "cut": "text",
+    "text": "\"When the song is done, you can have a pink hat,\" Dad says."
+   },
+   "read:L2.05:A:3": {
+    "cut": "text",
+    "text": "Min sings and sings until the song is done."
+   },
+   "read:L2.05:A:4": {
+    "cut": "text",
+    "text": "Dad claps, and hangs a pink hat on Min."
+   },
+   "read:L2.05:B:0": {
+    "cut": "text",
+    "text": "Sam wants his job done fast."
+   },
+   "read:L2.05:B:1": {
+    "cut": "text",
+    "text": "\"When is the job done?\" his boss asks."
+   },
+   "read:L2.05:B:2": {
+    "cut": "text",
+    "text": "\"It is done at six,\" Sam says."
+   },
+   "read:L2.05:B:3": {
+    "cut": "text",
+    "text": "Sam picks up his bag and a pink tin king from a bin."
+   },
+   "read:L2.05:B:4": {
+    "cut": "text",
+    "text": "\"This king is done for,\" Sam says, and grins."
+   },
+   "read:L2.05:B:5": {
+    "cut": "text",
+    "text": "Sam wants to fix it, but the king is just junk."
+   },
+   "lt:L2.05:0": {
+    "cut": "text",
+    "text": "After a full day at the farm, feeding the animals, mending fences, and carrying heavy buckets of water, farmer Iqbal was completely **exhausted**. His arms ached, his legs felt like stone, and he could barely climb the steps to his own porch."
+   },
+   "lt:L2.05:1": {
+    "cut": "text",
+    "text": "His son offered to finish the last chore, but Iqbal was too exhausted even to explain what needed doing — he just pointed and nodded. He sat down, closed his eyes, and within minutes he was fast asleep in his chair, still wearing his muddy boots."
+   },
+   "lt:L2.05:2": {
+    "cut": "text",
+    "text": "When he woke an hour later, he felt much better, though still a little exhausted, and very glad his son had taken care of the rest."
+   },
+   "rule:L2.06": {
+    "cut": "text",
+    "text": "Blends. Two consonants side by side keep BOTH sounds. Say them quickly, one after the other. FLOSS: after a short vowel at the end of a short word, f, l, s and z are doubled: stuff, smell, glass, buzz."
+   },
+   "read:L2.06:A:0": {
+    "cut": "text",
+    "text": "Min and Dad go to the pond. / \"Can we swim?\" / Min asks. / \"Push the flip flops on fast,\" / Dad says. / A frog sits on a black rock. / Min wants to grab it, / but the frog can hop and skip fast! / \"Let's clap and stomp,\" / Min says, / \"then we can swim.\" / Dad and Min swim, / and Min wants to put the flip flops on the rock."
+   },
+   "read:L2.06:B:0": {
+    "cut": "text",
+    "text": "Sam must push to get the shop's stock done. / He picks up a black pen / and jots the stock on a pad. / A big box hits the step, / and Sam has to dash and shut it fast. / \"I still must push to get this done,\" / Sam says, / \"but a big box will not stop me.\" / Sam sits, / and gets the job done. / Sam wants to put the pen back on the desk."
+   },
+   "lt:L2.06:0": {
+    "cut": "text",
+    "text": "Before crossing the busy market road, Aunt Rukhsana was always very **cautious**. She would stop at the edge, look left, then right, then left again, even if the road looked completely empty."
+   },
+   "lt:L2.06:1": {
+    "cut": "text",
+    "text": "Her nephew used to tease her about being so cautious, saying it took forever just to cross one small street. One evening, though, a bicycle came speeding around the corner at exactly the moment they stepped off the curb — and because Aunt Rukhsana had been cautious and was watching closely, she pulled her nephew back just in time."
+   },
+   "lt:L2.06:2": {
+    "cut": "text",
+    "text": "After that, her nephew never teased her again. \"Better cautious than sorry,\" she always says, and now he says it too."
+   },
+   "rule:L2.07": {
+    "cut": "text",
+    "text": "Final blends. At the end of a word two consonants keep both sounds: nest, hand, jump. FLOSS still holds: a short vowel then f, l, s or z at the end doubles it."
+   },
+   "read:L2.07:A:0": {
+    "cut": "text",
+    "text": "Dad and Min set up a tent on the sand. / Min helps Dad pull the tent up. / \"Pull fast!\" / Dad says. / Min pulls and pulls until the tent is up. / Dad packs the milk and a gift in a bag. / Min helps hunt for the best spot to camp. / At dusk, / Min and Dad sit and rest, / full and glad."
+   },
+   "read:L2.07:B:0": {
+    "cut": "text",
+    "text": "Sam must pull the stock bin to the desk. / \"Pull it fast,\" / his boss says. / Sam pulls and pulls until the bin is at the desk. / Sam checks the list, / packs the gift, / and gets it done. / The shop is full of stock, / and Sam is glad the job is done."
+   },
+   "lt:L2.07:0": {
+    "cut": "text",
+    "text": "When the school bake sale raised more money than anyone expected, the head teacher decided to give every extra rupee to the small clinic down the road. She was **grateful** — truly grateful — for how hard the students had worked, baking and selling from early morning until the last plate was empty."
+   },
+   "lt:L2.07:1": {
+    "cut": "text",
+    "text": "One student asked why she looked close to tears. \"I am just so grateful,\" she said."
+   },
+   "lt:L2.07:2": {
+    "cut": "text",
+    "text": "\"You worked all day, and now families who could not afford medicine will get help.\" The students felt proud too, and decided that being the reason someone else got help was better than any prize. They planned an even bigger, more grateful bake sale for next year."
+   },
+   "rule:L2.08": {
+    "cut": "text",
+    "text": "Three-letter blends. s plus a blend: three sounds said quickly, s-t-r in strap. shr and thr start with one digraph sound."
+   },
+   "read:L2.08:A:0": {
+    "cut": "text",
+    "text": "\"Who has a shrimp and a squid?\" / Min asks. / \"Min has a shrimp and a squid,\" / Dad says. / \"Could we splash them in the sink?\" / Min asks. / \"You could splash them in the tub,\" / Dad says. / Min and Dad splash the shrimp and squid in the tub. / Min grabs a strap and helps scrub the tub. / \"This is a thrill!\" / Min says, / and grins."
+   },
+   "read:L2.08:B:0": {
+    "cut": "text",
+    "text": "\"Who could help scrub the shop?\" / Sam's boss asks. / \"I could,\" / Sam says, / and grabs a strap to fix the bin. / Sam splits the job with a pal. / Sam scrubs the mats, / and checks the straps on the bin. / Sam thinks the shop is strict but fun. / At the end, / Sam is glad the job is done."
+   },
+   "lt:L2.08:0": {
+    "cut": "text",
+    "text": "A young dog named Bruno was usually eager to try anything new, but the first time his owner brought out a bicycle, Bruno was strangely **reluctant**. He backed away, tail low, refusing to go anywhere near the strange spinning wheels."
+   },
+   "lt:L2.08:1": {
+    "cut": "text",
+    "text": "His owner tried treats, gentle words, even a favorite toy — but Bruno stayed reluctant, watching from a safe distance. Then one afternoon, the owner simply sat beside the bicycle and let Bruno sniff it in his own time, with no pushing at all."
+   },
+   "lt:L2.08:2": {
+    "cut": "text",
+    "text": "Slowly, Bruno's reluctant ears perked up, and he stepped closer. By the end of the week, the once-reluctant Bruno was trotting happily alongside the bicycle on every walk."
+   },
+   "rule:L2.09": {
+    "cut": "text",
+    "text": "Adding -s and -es. Add -s to most words: cat, cats. Add -es after s, x, z, sh, ch and tch: it adds a syllable you can hear, wish, wishes."
+   },
+   "read:L2.09:A:0": {
+    "cut": "text",
+    "text": "Min washes the dishes and stacks the boxes. / \"Would you help with the mugs?\" / Mom asks. / \"I would,\" / Min says, / and picks up the mugs. / \"Should I stack them fast?\" / Min asks. / \"You should stack them fast,\" / Mom says. / Min washes, / stacks, / and fixes the mugs / until the job is done."
+   },
+   "read:L2.09:B:0": {
+    "cut": "text",
+    "text": "Sam fixes the vans and checks the boxes. / \"Would you help me?\" / his boss asks. / \"I would,\" / Sam says, / and picks up the boxes. / \"Should we stack them fast?\" / Sam asks. / \"You should stack them fast,\" / his boss says. / Sam checks, / stacks, / and fixes the vans / until the job is done."
+   },
+   "lt:L2.09:0": {
+    "cut": "text",
+    "text": "When the class hamster went missing from its cage on a Friday afternoon, every student was **delighted** to hear it had been found safe behind the bookshelf on Monday morning. The teacher was delighted too, and let the whole class take turns holding it gently, one by one."
+   },
+   "lt:L2.09:1": {
+    "cut": "text",
+    "text": "One boy, who had been especially worried all weekend, was so delighted that he asked if he could bring the hamster home just for one night, to make sure it was really okay. His teacher smiled at how delighted — and relieved — he looked, and said yes, as long as his parents agreed."
+   },
+   "lt:L2.09:2": {
+    "cut": "text",
+    "text": "That evening, the whole family took turns being delighted by the tiny hamster running on its wheel."
+   },
+   "rule:L2.10": {
+    "cut": "text",
+    "text": "Adding -ed. -ed says /t/ after p k f s sh ch (jumped), /d/ after voiced sounds (grinned), and /ed/ after t or d (wanted)."
+   },
+   "read:L2.10:A:0": {
+    "cut": "text",
+    "text": "Min jumped and jogged for fun. / \"Did you want your bag?\" / Mom asked. / \"I packed four mugs in it,\" / Min said. / Min packed four mugs in a bag, / and rested on the step. / \"You packed your bag fast,\" / Mom said, / and hugged Min. / Min grinned and rested, / glad the job was done."
+   },
+   "read:L2.10:B:0": {
+    "cut": "text",
+    "text": "Sam checked and fixed the vans. / \"Did you want your list checked?\" / his boss asked. / \"I checked four vans,\" / Sam said. / Sam packed his bag, / and rested for ten. / \"You fixed your job fast,\" / his boss said, / and grinned. / Sam packed, / jogged off, / and rested, / glad the job was done."
+   },
+   "lt:L2.10:0": {
+    "cut": "text",
+    "text": "Uncle Hamid had asked his nephew, Bilal, to water the plants every single day while he was away — just that one job. When Hamid came home a week later and found every plant wilted and brown, he was **stubborn** about not letting it go."
+   },
+   "lt:L2.10:1": {
+    "cut": "text",
+    "text": "\"It's just water, once a day,\" he said, again and again, refusing to accept Bilal's excuses about being busy with exams. Bilal, just as stubborn, insisted exams mattered more than plants."
+   },
+   "lt:L2.10:2": {
+    "cut": "text",
+    "text": "Neither would budge for two whole days. Finally, Hamid's wife stepped in and pointed out that both of them were being equally stubborn over something they could fix together in ten minutes."
+   },
+   "lt:L2.10:3": {
+    "cut": "text",
+    "text": "They laughed, apologized, and replanted the garden side by side that weekend."
+   },
+   "rule:L2.11": {
+    "cut": "text",
+    "text": "Adding -ing and -er. Read the base word, then add the ending. The base word does not change: jump, jumping, jumper."
+   },
+   "read:L2.11:A:0": {
+    "cut": "text",
+    "text": "Min is packing and stacking many bags. / \"Are you helping her?\" / Mom asks Dad. / \"I am helping her fast,\" / Dad says. / Min is filling and checking any bag Dad hands her. / \"You are a fast helper,\" / Dad says. / Min is still packing, / glad to help."
+   },
+   "read:L2.11:B:0": {
+    "cut": "text",
+    "text": "Sam is checking and fixing many vans. / \"Are you helping her?\" / his boss asks. / \"I am helping her fast,\" / Sam says. / Sam is stacking and packing any bin his boss hands her. / \"You are a fast helper,\" / his boss says. / Sam is still checking, / glad to help."
+   },
+   "lt:L2.11:0": {
+    "cut": "text",
+    "text": "The night before her first big exam, Ayesha felt more **anxious** than she had ever felt before. Her stomach fluttered, her hands felt cold, and she kept checking the clock, worried she was somehow forgetting something important."
+   },
+   "lt:L2.11:1": {
+    "cut": "text",
+    "text": "Her older sister noticed how anxious she looked and sat down beside her. \"Being a little anxious means you care,\" her sister said, \"but let's make a short plan so the anxious feeling has less to hold onto.\" Together they wrote down exactly what Ayesha needed for the morning, checked it twice, and set two alarms."
+   },
+   "lt:L2.11:2": {
+    "cut": "text",
+    "text": "Ayesha still felt a bit anxious as she fell asleep, but far less than before — and in the morning, she walked into the exam room calm and ready."
+   },
+   "rule:L2.12": {
+    "cut": "text",
+    "text": "Two-syllable words. Find the two vowels. Split between the two consonants in the middle: rab·bit, nap·kin. Read each part, then the whole word."
+   },
+   "read:L2.12:A:0": {
+    "cut": "text",
+    "text": "Min packs a backpack / for a picnic. / Does Min pack a napkin? / Min packs a napkin / and a muffin. / Dad packs two bits of catfish. / Min spots a rabbit / and a magnet in the grass. / Dad and Min sit / and watch the sunset. / Min goes to get the picnic bag, / then goes back to sit with Dad. / \"Let's have a picnic,\" / Min says, / and Dad grins."
+   },
+   "read:L2.12:B:0": {
+    "cut": "text",
+    "text": "Sam packs his backpack / for his shift. / Does Sam pack a magnet? / Sam packs a magnet / for fixing the bus panel. / Sam checks for an insect problem / in the back bin. / Sam fixes a dent with the magnet trick. / This shop had a contest / for the best fix. / Sam goes to get his kit, / then goes back to fix the last dent. / At sunset, / the job is done, / and Sam packs up, / glad and full."
+   },
+   "lt:L2.12:0": {
+    "cut": "text",
+    "text": "A wealthy trader in the old bazaar was known across the whole street for being unusually **generous**. Every evening, before he closed his stall, he would give away whatever fruit and bread had not sold that day — never selling it cheap at the last minute, always simply giving it to whoever needed it most."
+   },
+   "lt:L2.12:1": {
+    "cut": "text",
+    "text": "His neighbors thought he must be losing money, but the trader just smiled and said being generous had brought him more good luck and more loyal customers than any clever deal ever had. One winter, when his own stall caught fire, every single family he had once helped showed up the next morning with tools, wood, and cash to help him rebuild — proof, he said, that generous kindness always finds its way back."
+   },
+   "read:L2.13:A:0": {
+    "cut": "text",
+    "text": "Min and Dad go to visit a friend. / They pack a backpack with a napkin / and a muffin. / \"I want to bring the pink rabbit,\" / Min says, / \"because it is fun.\" / Min and the friend run and jump in the grass. / When they get to the pond, / they sit still. / A fish splashes, / and Min spots an insect on a twig. / The friend is helping Min hunt for bugs. / \"Should we catch it?\" / the friend asks. / \"No, / let's just watch it,\" / Min says, / \"because it is not bad.\" / They pack up at sunset, / and hug the friend. / Min and Dad go back, / glad and full, / and plan to come again."
+   },
+   "read:L2.13:B:0": {
+    "cut": "text",
+    "text": "Sam has a shift with a friend from a shop, / helping fix a big backlog of dents and checks. / \"This job is a lot, / but his friend can help,\" / Sam says, / \"because two friends finish fast.\" / They pack the kit, / check the list, / and split the job up. / Sam's friend fixes the dents, / and Sam checks the vans / and prints the list. / At dusk, / the shop has a full stock of fixed vans / and a strong stack of finished checks. / \"We should do this again,\" / Sam's friend says. / \"Yes, / because it went fast and we still got it done,\" / Sam says, / and they clap hands, / glad and calm."
+   },
+   "lt:L2.13:0": {
+    "cut": "text",
+    "text": "Retrieval passage: A stubborn old goat named Bella refused to leave the muddy field even when it started to rain hard. Her owner, cautious as always, did not want to drag a furious, wet goat across a slippery yard, so he waited, patient, under the barn roof."
+   },
+   "lt:L2.13:1": {
+    "cut": "text",
+    "text": "After an hour of stubborn standing in the rain, Bella finally got cold enough to trot inside on her own — no longer stubborn, just cautious about getting even wetter. Her owner laughed, dried her off, and said a stubborn goat always changes its mind eventually, as long as you stay cautious and let it happen in its own time."
+   }
+  },
+  "iso": {
+   "ph:sh": {
+    "cut": "phone",
+    "pid": "sh",
+    "ipa": "ʃ",
+    "grapheme": "sh"
+   },
+   "ph:uh": {
+    "cut": "phone",
+    "pid": "uh",
+    "ipa": "ʊ"
+   },
+   "ph:dh": {
+    "cut": "phone",
+    "pid": "dh",
+    "ipa": "ð"
+   },
+   "ph:ch": {
+    "cut": "phone",
+    "pid": "ch",
+    "ipa": "ʧ",
+    "grapheme": "tch"
+   },
+   "ph:ah-z": {
+    "cut": "phone",
+    "pid": "ah-z",
+    "ipa": "ʌz"
+   },
+   "ph:er": {
+    "cut": "phone",
+    "pid": "er",
+    "ipa": "ɝ",
+    "grapheme": "er"
+   },
+   "ph:th": {
+    "cut": "phone",
+    "pid": "th",
+    "ipa": "θ",
+    "grapheme": "th"
+   },
+   "ph:ng": {
+    "cut": "phone",
+    "pid": "ng",
+    "ipa": "ŋ",
+    "grapheme": "ng"
+   },
+   "ph:y-uw": {
+    "cut": "phone",
+    "pid": "y-uw",
+    "ipa": "ju"
+   },
+   "ph:aw": {
+    "cut": "phone",
+    "pid": "aw",
+    "ipa": "aʊ"
+   },
+   "ph:ng-k": {
+    "cut": "phone",
+    "pid": "ng-k",
+    "ipa": "ŋk",
+    "grapheme": "nk"
+   },
+   "ph:uw": {
+    "cut": "phone",
+    "pid": "uw",
+    "ipa": "u"
+   },
+   "ph:ih-z": {
+    "cut": "phone",
+    "pid": "ih-z",
+    "ipa": "ɪz",
+    "grapheme": "es"
+   },
+   "ph:ao-r": {
+    "cut": "phone",
+    "pid": "ao-r",
+    "ipa": "ɔɹ"
+   },
+   "ph:ao": {
+    "cut": "phone",
+    "pid": "ao",
+    "ipa": "ɔ"
+   },
+   "ph:ih-d": {
+    "cut": "phone",
+    "pid": "ih-d",
+    "ipa": "ɪd"
+   },
+   "ph:ah-d": {
+    "cut": "phone",
+    "pid": "ah-d",
+    "ipa": "ʌd"
+   },
+   "ph:iy": {
+    "cut": "phone",
+    "pid": "iy",
+    "ipa": "i"
+   },
+   "ph:ih-ng": {
+    "cut": "phone",
+    "pid": "ih-ng",
+    "ipa": "ɪŋ",
+    "grapheme": "ing"
+   },
+   "ph:ow": {
+    "cut": "phone",
+    "pid": "ow",
+    "ipa": "oʊ"
+   },
+   "ph:ah-n-t": {
+    "cut": "phone",
+    "pid": "ah-n-t",
+    "ipa": "ʌnt"
+   },
+   "ph:ay": {
+    "cut": "phone",
+    "pid": "ay",
+    "ipa": "aɪ"
+   },
+   "ph:ah-l": {
+    "cut": "phone",
+    "pid": "ah-l",
+    "ipa": "ʌl"
+   }
+  },
+  "chars": 26279,
+  "requests": 950,
+  "keys": 1285,
+  "byKind": {
+   "ipa": {
+    "keys": 636,
+    "chars": 6892
+   },
+   "lt": {
+    "keys": 40,
+    "chars": 8113
+   },
+   "read": {
+    "keys": 73,
+    "chars": 7638
+   },
+   "rule": {
+    "keys": 7,
+    "chars": 997
+   },
+   "syl": {
+    "keys": 139,
+    "chars": 1074
+   },
+   "ui": {
+    "keys": 15,
+    "chars": 666
+   },
+   "w": {
+    "keys": 375,
+    "chars": 3861
+   }
+  },
+  "isoSounds": 23,
+  "render": "python3 tools/gen_audio_el.py needed L2   (merges these clips into audio_plan.json, renders, builds; isolated sounds need tools/iso_sounds.py picks first)"
+ },
+ "totalChars": 26279
+}

@@ -17,9 +17,39 @@
    "nonstop",
    "rewriting",
    "unbuttoned",
+   "disconnected",
+   "reconsider",
+   "unhappiest",
+   "restarting"
+  ],
+  "pseudo": [
+   "contramble",
+   "fenscription",
+   "unpladding",
+   "disflorted",
+   "remistion"
+  ]
+ },
+ "spell": {
+  "words": [
+   "slowly",
    "disconnected"
   ],
-  "pseudo": []
+  "sentence": "She was reconsidering the unfriendly, nonstop noise from the disconnected\n   speaker."
+ },
+ "listen": {
+  "title": null,
+  "passage": "When someone works through a problem methodically instead of guessing, checking each possible cause one at a time, we call that troubleshooting — a careful, step-by-step way of finding and fixing what's wrong.",
+  "tier2": [
+   {
+    "word": "troubleshooting",
+    "def": "solving a problem by checking possible causes one at a time, in order, instead of guessing.",
+    "full": "solving a problem by checking possible causes one at a time, in order, instead of guessing."
+   }
+  ],
+  "questions": [
+   "Why might \"guess and hope\" usually take longer than a real troubleshooting method, even though it feels faster at first?"
+  ]
  },
  "check": {
   "real": [
@@ -58,8 +88,10 @@
  "blocksFound": [
   "blendList",
   "read",
+  "listen",
   "check",
-  "trackB"
+  "trackB",
+  "tier2"
  ],
  "appSittings": null
 }

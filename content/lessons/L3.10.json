@@ -40,6 +40,29 @@
    "chay"
   ]
  },
+ "spell": {
+  "words": [
+   "rain",
+   "play",
+   "train"
+  ],
+  "sentence": "We play in the rain."
+ },
+ "listen": {
+  "title": null,
+  "passage": "When trains are delayed during heavy rain, it is often because water can seep into the electrical system that controls the tracks, forcing a temporary shutdown until it is safe again.",
+  "tier2": [
+   {
+    "word": "temporary",
+    "def": "lasting only for a short time, not permanent.",
+    "full": "lasting only for a short time, not permanent."
+   }
+  ],
+  "questions": [
+   "Why do trains sometimes stop running in heavy rain?",
+   "What's something in your life that was temporary but felt long?"
+  ]
+ },
  "check": {
   "real": [
    "rain",
@@ -65,12 +88,6 @@
   },
   "firstAttemptOnly": true
  },
- "heart": [
-  {
-   "word": "water",
-   "note": null
-  }
- ],
  "read": {
   "A": {
    "text": "It is play day at the park. / When rain starts, the class does not stay in — they play in the rain, and get wet from top to tail! / A snail comes on the wet path. / \"There is a snail!\" said Sam. / They wait for the rain to stop, then drink cold water and play again.",
@@ -83,10 +100,11 @@
  },
  "blocksFound": [
   "blendList",
-  "heart",
   "read",
+  "listen",
   "check",
-  "trackB"
+  "trackB",
+  "tier2"
  ],
  "appSittings": null
 }

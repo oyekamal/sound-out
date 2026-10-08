@@ -19,13 +19,28 @@
    "grinned",
    "hugged",
    "filled",
+   "wanted",
+   "ended",
+   "landed",
+   "planted",
+   "packed",
+   "camped",
+   "rested"
+  ],
+  "pseudo": [
    "flisked",
    "brammed",
    "wanded",
    "chosted",
    "plemmed"
+  ]
+ },
+ "spell": {
+  "words": [
+   "words",
+   "sentence"
   ],
-  "pseudo": []
+  "sentence": "Sam packed\nthe box and wanted a rest."
  },
  "heart": [
   {

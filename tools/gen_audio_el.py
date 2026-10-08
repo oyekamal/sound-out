@@ -467,4 +467,10 @@ if __name__ == "__main__":
     elif cmd == "render":
         clips = json.loads((C / "audio_plan.json").read_text()); render_all(requests(clips), get_voice())
     elif cmd == "build": build()
+    elif cmd == "needed":   # Levels 2-4: `needed L2` merges content/audio_needed.json["L2"].clips into the plan, renders, builds
+        lv = sys.argv[2]; need = json.loads((C / "audio_needed.json").read_text())[lv]
+        clips = json.loads((C / "audio_plan.json").read_text()); clips.update(need["clips"])
+        print(f"{lv}: {need['keys']} keys, {need['chars']} new characters (isolated sounds listed separately: {need['isoSounds']})")
+        (C / "audio_plan.json").write_text(json.dumps(clips, indent=1, ensure_ascii=False))
+        render_all(requests(clips), get_voice()); build()
     else: sys.exit(__doc__)

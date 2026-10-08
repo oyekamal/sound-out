@@ -1,0 +1,141 @@
+{
+ "id": "L7.06",
+ "level": 7,
+ "title": "Reading an Argumentative Essay: Claim, Reasons, Evidence, Counterargument",
+ "source": "course/level-7/lessons/L7.06-argumentative-essay-structure.md",
+ "practice": true,
+ "goal": "Map an op-ed into its working parts — the claim, the reasons given, the evidence behind each reason, and whether it engages a real counterargument or dodges one.",
+ "warm": {
+  "words": [
+   "correlation",
+   "causation",
+   "confounding variable"
+  ],
+  "heart": [],
+  "prompts": []
+ },
+ "word": {
+  "items": [],
+  "vocab": [
+   {
+    "word": "Claim",
+    "def": "the main position an argument is trying to convince you of. Everything else in the essay should serve the claim",
+    "examples": [],
+    "task": null
+   },
+   {
+    "word": "Counterargument",
+    "def": "the strongest opposing view, stated fairly, before the writer responds to it. A writer who never mentions the other side's best point is either unaware of it or hiding it from you",
+    "examples": [],
+    "task": null
+   },
+   {
+    "word": "Rebuttal",
+    "def": "the writer's specific response to the counterargument — not just repeating the original claim louder, but actually answering the opposing point",
+    "examples": [],
+    "task": null
+   }
+  ],
+  "affixes": [],
+  "review": []
+ },
+ "prime": {
+  "facts": [
+   "an op-ed's job is to persuade, not to present both sides equally — that's not dishonest by itself, but it means a reader has to do the \"both sides\" work that the writer isn't obligated to do.",
+   "the strongest persuasive essays usually name the best opposing argument themselves, because ignoring it looks worse than answering it."
+  ],
+  "question": "think of a real school or family rule you've disagreed with — what would the single strongest argument FOR that rule be, even though you don't agree with it?",
+  "intro": "Two facts before you read: (1) an op-ed's job is to persuade, not to present both sides equally — that's not dishonest by itself, but it means a reader has to do the \"both sides\" work that the writer isn't obligated to do. (2) the strongest persuasive essays usually name the best opposing argument themselves, because ignoring it looks worse than answering it. Orienting question: think of a real school or family rule you've disagreed with — what would the single strongest argument FOR that rule be, even though you don't agree with it?"
+ },
+ "write": {
+  "task": "Write a paragraph (6–8 sentences) mapping the essay: claim, reason 1 + its evidence, reason 2 + its evidence, the counterargument named, and whether the rebuttal actually answers it. End with your own one-sentence judgment: is this a well-supported argument, a partially-supported one, or weak — and why. Use claim, counterargument, and rebuttal correctly at least once each.",
+  "model": null
+ },
+ "check": {
+  "items": [
+   {
+    "q": "Could you list claim/2 reasons/evidence-for-each/counterargument/rebuttal without rereading? Did you correctly judge reason 2's evidence as weaker than reason 1's?",
+    "kind": "self",
+    "a": null
+   }
+  ],
+  "bar": null,
+  "support": null,
+  "challenge": null
+ },
+ "text": {
+  "passages": [
+   {
+    "track": null,
+    "title": "The op-ed",
+    "paragraphs": [
+     "Schools Should Ban Phones During the School Day — All Day, Not Just in Class",
+     "Last month, our district's school board considered banning phones only during class time, letting students use them freely at lunch and between periods. That policy doesn't go far enough. Schools should ban phones for the entire school day, and the case for doing so is stronger than most parents realize.",
+     "First, the evidence on attention is not close. A 2023 U.K. review of dozens of studies on phone use and student attention (cited by that country's Department for Education in its own guidance) found that even having a phone visible on a desk — turned off, screen down — measurably reduces performance on attention-demanding tasks, because part of the brain keeps tracking the phone's presence. A partial ban that allows phones at lunch means the phone is back in every student's pocket, and back on every student's mind, minutes before the next class starts.",
+     "Second, the case isn't only about attention in class — it's about what actually happens during unstructured time. Lunch and passing periods used to be when students practiced exactly the skills a phone lets them avoid: starting a conversation with someone new, sitting with discomfort instead of reaching for a screen, resolving a small disagreement face to face. Several districts that moved to all-day bans (not just in-class bans) reported, in follow-up surveys of teachers and staff, a rise in students eating lunch together in conversation rather than each alone on a phone — a change that a partial, in-class-only ban did not produce, because the phone was still available the moment class ended.",
+     "Opponents raise a real concern: parents want to be able to reach their child quickly in an emergency, and a full-day ban makes that harder. This is the strongest argument against an all-day policy, and it deserves a real answer, not dismissal. The answer most all-day-ban districts have used is a single, clearly communicated exception: the school office remains reachable by phone at all times, and in a genuine emergency, staff can reach any student in minutes — faster, in practice, than a parent could reach a distracted teenager glancing at a notification between classes. A full ban paired with a reliable office-contact system protects the one legitimate use case (real emergencies) without preserving the everyday use (texting friends at lunch) that the emergency argument was never really about.",
+     "A partial, in-class-only ban treats the problem as being about classroom instruction time alone. The stronger, better-supported case is that a phone in a student's pocket at all changes what that student does with every unscheduled minute of the day — which is exactly the time schools should be protecting, not just the fifty minutes of class."
+    ],
+    "phrased": false,
+    "script": false,
+    "questions": [
+     {
+      "q": "What counterargument does the essay name, and does it actually answer it, or just acknowledge it and move on? Quote the sentence that does the actual answering.",
+      "a": null
+     },
+     {
+      "q": "Think question: the essay's second reason relies on \"several districts... reported, in follow-up surveys\" — how strong is that evidence compared to the first reason's cited review of \"dozens of studies\"? Does the essay treat both reasons as equally certain, or is one clearly weaker — and should the writer have said so?",
+      "a": null
+     }
+    ]
+   }
+  ],
+  "moves": [
+   {
+    "title": "mapping an argument",
+    "paragraphs": [
+     "Read an argumentative text and pull out, in order: (1) Claim — one sentence, what does the writer want you to believe or do? (2) Reasons — the 2–4 separate grounds offered for the claim. (3) Evidence — for each reason, what specific facts, examples, or data back it up (or don't)? (4) Counterargument + rebuttal — does the writer name the strongest opposing view and actually respond to it, or skip it?"
+    ]
+   }
+  ]
+ },
+ "fluency": {
+  "title": "Read it smoothly",
+  "fromText": true,
+  "phrased": false
+ },
+ "discuss": {
+  "roles": [
+   {
+    "role": "Predictor",
+    "prompt": "What's the strongest counterargument the essay does NOT address (hint: think about students with medical conditions who need phone-based apps, or working teens who need to coordinate rides)?",
+    "model": null
+   },
+   {
+    "role": "Questioner",
+    "prompt": "What evidence, if it existed, would most weaken the essay's claim?",
+    "model": null
+   },
+   {
+    "role": "Clarifier",
+    "prompt": "Explain the difference between a reason and evidence using this essay.",
+    "model": null
+   },
+   {
+    "role": "Summarizer",
+    "prompt": "State the essay's argument as a simple because-therefore chain in two sentences.",
+    "model": null
+   }
+  ]
+ },
+ "screens": [
+  "warm",
+  "word",
+  "fluency",
+  "prime",
+  "text",
+  "discuss",
+  "write",
+  "check"
+ ]
+}

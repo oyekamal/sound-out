@@ -19,13 +19,27 @@
    "rabbit",
    "napkin",
    "muffin",
+   "picnic",
+   "cactus",
+   "magnet",
+   "insect",
+   "instant",
+   "contest",
+   "hotdog"
+  ],
+  "pseudo": [
    "vantic",
    "plemzen",
    "brostup",
    "chunnet",
    "dravin"
+  ]
+ },
+ "spell": {
+  "words": [
+   "writing"
   ],
-  "pseudo": []
+  "sentence": "Min packed a napkin\nfor the picnic."
  },
  "heart": [
   {
