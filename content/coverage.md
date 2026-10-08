@@ -204,3 +204,71 @@ No slicing. Each sound is its own ElevenLabs render, three prompt forms per soun
 | y | glide | `yuh.` | eleven_v4 | 130 | -19.1 | -9.81 | pass |
 | z | hum | `Zzzzz` | eleven_multilingual_v2 | 310 | -19.1 | -10.89 | pass |
 | kw | stop | `kwuh.` | eleven_v4 | 220 | -18.9 | -3.5 | pass |
+
+<!-- sessions:start -->
+## Levels 5-7 session blocks (tools/parse_sessions.py, practice only)
+
+Session template parsed per lesson: W=warm-up, WW=word work, F=fluency/close reading, P=prime, T=knowledge text, D=discussion (reciprocal roles), Wr=write to read, C=check. **Words** = distinct learner-facing words parsed (the old L5-L7 table above counts only Level 1-4 style blend/check words, hence its 0). Chars = characters to voice (none rendered yet, see content/audio_needed_l5_7.json).
+
+### Level 5: 16/16 lessons with all 8 screens · 78,698 chars to voice
+
+| Lesson | Title | W | WW | F | P | T | D | Wr | C | Words | Chars |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| L5.01 | Prefixes un-, re- · The Water Cycle (int | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 285 | 4,012 |
+| L5.02 | Prefixes in-/im-/ir-/il- (not), dis- · H | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 321 | 4,417 |
+| L5.03 | Prefixes en-/em-, non- · The Human Heart | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 333 | 4,313 |
+| L5.04 | Prefixes over-, mis- · The Indus Valley  | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 362 | 5,439 |
+| L5.05 | Prefixes sub-, pre- · Weather vs. Climat | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 294 | 4,471 |
+| L5.06 | Suffixes -ly, -er/-or · The Water Cycle, | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 280 | 4,209 |
+| L5.07 | Suffixes -tion/-sion, -able/-ible · How  | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 318 | 4,735 |
+| L5.08 | Prefixes inter-, fore- · The Human Heart | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 357 | 5,274 |
+| L5.09 | Suffixes -al, -y · The Indus Valley, Dee | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 343 | 4,735 |
+| L5.10 | Prefixes de-, trans- · Weather Systems ( | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 356 | 4,892 |
+| L5.11 | Suffixes -ness, -ment · Number Roots · T | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 324 | 4,454 |
+| L5.12 | Prefixes super-, semi- · Roots spect, po | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 420 | 5,751 |
+| L5.13 | Suffixes -ful, -less, -ive · Roots scrib | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 384 | 5,557 |
+| L5.14 | Prefixes anti-, mid-, under- · Roots aud | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 380 | 5,526 |
+| L5.15 | Suffixes -ity, -ist · Roots cred, duc/du | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 425 | 6,382 |
+| L5.16 | Review, Integration & Extensive Reading  | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 357 | 4,531 |
+
+### Level 6: 16/16 lessons with all 8 screens · 96,835 chars to voice
+
+| Lesson | Title | W | WW | F | P | T | D | Wr | C | Words | Chars |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| L6.01 | How Your Body Is Built | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 313 | 5,266 |
+| L6.02 | How Your Heart Keeps You Alive | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 337 | 5,317 |
+| L6.03 | Why We Get Sick — and How the Body Fight | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 351 | 5,291 |
+| L6.04 | Clean Water, Fewer Diseases | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 404 | 6,220 |
+| L6.05 | Salt Water and Fresh Water: Earth's Wate | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 377 | 5,526 |
+| L6.06 | The Water Cycle: A Journey With No End | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 349 | 5,275 |
+| L6.07 | Climate Change: One Cause, Many Effects | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 408 | 5,915 |
+| L6.08 | Floods and Droughts: Naming the Problem, | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 424 | 6,916 |
+| L6.09 | Who's Behind This Page? Learning to Read | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 427 | 7,012 |
+| L6.10 | How Money Moves: Banks, Loans, and Inter | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 439 | 6,711 |
+| L6.11 | How a Government Decides Where Money Goe | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 454 | 7,067 |
+| L6.12 | Taxes: Why We Pay Them and What They Buy | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 424 | 6,765 |
+| L6.13 | Inflation: One Cause, Many Effects on Yo | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 436 | 6,846 |
+| L6.14 | The Indus Valley Civilisation: A City Be | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 376 | 5,559 |
+| L6.15 | From Mughal Court to Colonial Rule | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 379 | 5,853 |
+| L6.16 | Partition: One Decision, Two Countries ( | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 375 | 5,296 |
+
+### Level 7: 13/14 lessons with all 8 screens · 81,874 chars to voice
+
+| Lesson | Title | W | WW | F | P | T | D | Wr | C | Words | Chars |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| L7.01 | Orientation & Baseline: What "Advanced R | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 464 | 6,529 |
+| L7.02 | Reading Like a Historian I: Sourcing & C | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 614 | 9,420 |
+| L7.03 | Reading Like a Historian II: Corroborati | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 433 | 6,608 |
+| L7.04 | Reading a Science Article I: Claim, Meth | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 361 | 5,045 |
+| L7.05 | Reading a Science Article II: Correlatio | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 324 | 4,307 |
+| L7.06 | Reading an Argumentative Essay: Claim, R | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 373 | 5,205 |
+| L7.07 | Argument Evaluation: Logical Fallacies & | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 429 | 5,427 |
+| L7.08 | Lateral Reading & Source Credibility | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 360 | 5,129 |
+| L7.09 | Reading a Contract, Policy, or Terms of  | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 381 | 5,068 |
+| L7.10 | Synthesis I: Two Sources, Contrasting Vi | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 367 | 4,935 |
+| L7.11 | Synthesis II: 3–4 Sources, One Research  | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | · | ✓ | 451 | 6,443 |
+| L7.12 | Literary Reading I: Figurative Language, | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 400 | 5,373 |
+| L7.13 | Literary Reading II: Unreliable Narrator | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 414 | 5,426 |
+| L7.14 | Reading Stamina & Speed; Course Capstone | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 509 | 6,959 |
+
+<!-- sessions:end -->
