@@ -5482,5 +5482,641 @@
 "model": "eleven_v4",
 "kind": "options",
 "chars": 9
+},
+{
+"text": "Hello. I am your reading teacher. I will help you.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 50
+},
+{
+"text": "Tap the shining sound to go on.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 31
+},
+{
+"text": "Tap the next lesson to go on.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 29
+},
+{
+"text": "Welcome back. Let's keep going.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 31
+},
+{
+"text": "Let's begin.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 12
+},
+{
+"text": "You are halfway through.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 24
+},
+{
+"text": "Last one.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 9
+},
+{
+"text": "Next one.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 9
+},
+{
+"text": "Here is the next part.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 22
+},
+{
+"text": "Tap the arrow to go on.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 23
+},
+{
+"text": "See you next time.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 18
+},
+{
+"text": "You practised today. Well done.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 31
+},
+{
+"text": "This one.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 9
+},
+{
+"text": "Stop and go home.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 17
+},
+{
+"text": "Hear it again.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 14
+},
+{
+"text": "Home.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 5
+},
+{
+"text": "I read it.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 10
+},
+{
+"text": "I read it right.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 16
+},
+{
+"text": "Not quite.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 10
+},
+{
+"text": "Once more. Trace it again.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 26
+},
+{
+"text": "Follow the faint letter. Go slowly.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 35
+},
+{
+"text": "Start at the first letter.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 26
+},
+{
+"text": "This is an alien word. Sound it out.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 36
+},
+{
+"text": "This is a made-up word. Sound it out.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 37
+},
+{
+"text": "This word is not tricky. Sound it out.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 38
+},
+{
+"text": "Its name.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 9
+},
+{
+"text": "Its sound.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 10
+},
+{
+"text": "Read it out loud. Then tap to hear it.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 38
+},
+{
+"text": "Did you read it right?",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 22
+},
+{
+"text": "Watch me first.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 15
+},
+{
+"text": "Let's do one together.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 22
+},
+{
+"text": "Now you try.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 12
+},
+{
+"text": "This letter is",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 14
+},
+{
+"text": "and it says",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 11
+},
+{
+"text": "This letter says",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 16
+},
+{
+"text": "This word says",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 14
+},
+{
+"text": "That's right.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 13
+},
+{
+"text": "Good listening.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 15
+},
+{
+"text": "Good reading.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 13
+},
+{
+"text": "Good sounding out.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 18
+},
+{
+"text": "Nice spelling.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 14
+},
+{
+"text": "You got it.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 11
+},
+{
+"text": "First try! Well done.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 21
+},
+{
+"text": "Three right in a row.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 21
+},
+{
+"text": "Wow! That was great.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 20
+},
+{
+"text": "Good work.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 10
+},
+{
+"text": "Not quite. Listen again.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 24
+},
+{
+"text": "Look closely.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 13
+},
+{
+"text": "That part sounds normal. Find the different part.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 49
+},
+{
+"text": "Tap the letter. I will wait.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 28
+},
+{
+"text": "Take your time. Tap the one you think.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 38
+},
+{
+"text": "Say it out loud. Then tap the button.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 37
+},
+{
+"text": "Put your finger on the letter. Trace it.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 40
+},
+{
+"text": "Tap the arrow when you are ready.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 33
+},
+{
+"text": "Need help? Tap the speaker to hear me again.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 44
+},
+{
+"text": "I will wait here. Tap when you are ready.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 41
+},
+{
+"text": "Words.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 6
+},
+{
+"text": "Read.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 5
+},
+{
+"text": "Listen.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 7
+},
+{
+"text": "Show what you know.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 19
+},
+{
+"text": "Check.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 6
+},
+{
+"text": "Level two.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 10
+},
+{
+"text": "Level three.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 12
+},
+{
+"text": "Level four.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 11
+},
+{
+"text": "Not open yet. Finish the check first.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 37
+},
+{
+"text": "When we read, we use the sound, not the name.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 45
+},
+{
+"text": "The letter q is called cue. With u, it says",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 43
+},
+{
+"text": "Make two fists with your thumbs up. Hold them side by side. The left fist is b. The right fist is d. Together they make bed.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 124
+},
+{
+"text": "b: the bat comes first, then the ball. The belly of b points right.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 67
+},
+{
+"text": "d: the drum comes first, then the stick. The belly of d points left.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 68
+},
+{
+"text": "p hangs down. Its loop is at the top, on the right.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 51
+},
+{
+"text": "q hangs down too. It always needs its u.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 40
+},
+{
+"text": "This is the check for the whole level. Do your best.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 52
+},
+{
+"text": "You passed! The next level is open.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 35
+},
+{
+"text": "Not yet. Let's practise the parts that were hard, then try again.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 65
+},
+{
+"text": "Here is a new spelling for a sound. Tap it to hear it.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 54
+},
+{
+"text": "This is an ending. Read the base word, then add the ending.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 59
+},
+{
+"text": "Here it is in a word.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 21
+},
+{
+"text": "These letters keep both sounds. Say them quickly together.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 58
+},
+{
+"text": "Here is a rule that helps you read.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 35
+},
+{
+"text": "A long word. Let's break it apart, step by step.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 48
+},
+{
+"text": "Tap every vowel sound.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 22
+},
+{
+"text": "Each vowel sound makes one chunk.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 33
+},
+{
+"text": "Tap the parts at the start or end that you know.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 48
+},
+{
+"text": "Nothing to take off here. Go on.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 32
+},
+{
+"text": "Here are the chunks.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 20
+},
+{
+"text": "Tap each chunk to say it, then put them together.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 49
+},
+{
+"text": "Is it a real word? If not, try the vowel the other way.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 55
+},
+{
+"text": "Show how you read a word you have never seen.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 45
+},
+{
+"text": "Not a vowel sound. Try another.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 31
+},
+{
+"text": "Yes, a real word.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 17
+},
+{
+"text": "I flexed a vowel.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 17
+},
+{
+"text": "Before you read, think about this.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 34
+},
+{
+"text": "Read each word out loud. Then tap it.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 37
+},
+{
+"text": "Tap the word you hear.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 22
+},
+{
+"text": "Build the word. Tap the parts in order.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 39
+},
+{
+"text": "Read one part at a time. Tap a sentence to hear it.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 51
+},
+{
+"text": "Read it out loud. Tap start when you are ready.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 47
+},
+{
+"text": "Think first. Then tap to see a good answer.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 43
+},
+{
+"text": "How did you do? Tap one.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 24
+},
+{
+"text": "Write your answer. Then compare it.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 35
+},
+{
+"text": "Take each role. Say your answer out loud.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 41
+},
+{
+"text": "Show a good answer.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 19
+},
+{
+"text": "I had it.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 9
+},
+{
+"text": "Nearly.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 7
+},
+{
+"text": "Not yet.",
+"model": "eleven_v4",
+"kind": "teacher",
+"chars": 8
 }
 ]

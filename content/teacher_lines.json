@@ -1,0 +1,426 @@
+{
+ "hello": {
+  "text": "Hello. I am your reading teacher. I will help you.",
+  "tier": 1
+ },
+ "homeGoA": {
+  "text": "Tap the shining sound to go on.",
+  "tier": 1
+ },
+ "homeGoB": {
+  "text": "Tap the next lesson to go on.",
+  "tier": 1
+ },
+ "welcomeBack": {
+  "text": "Welcome back. Let's keep going.",
+  "tier": 1
+ },
+ "begin": {
+  "text": "Let's begin.",
+  "tier": 1
+ },
+ "halfway": {
+  "text": "You are halfway through.",
+  "tier": 1
+ },
+ "lastOne": {
+  "text": "Last one.",
+  "tier": 1
+ },
+ "nextOne": {
+  "text": "Next one.",
+  "tier": 1
+ },
+ "nextPart": {
+  "text": "Here is the next part.",
+  "tier": 1
+ },
+ "tapArrow": {
+  "text": "Tap the arrow to go on.",
+  "tier": 1
+ },
+ "seeYou": {
+  "text": "See you next time.",
+  "tier": 1
+ },
+ "practisedToday": {
+  "text": "You practised today. Well done.",
+  "tier": 1
+ },
+ "thisOne": {
+  "text": "This one.",
+  "tier": 1
+ },
+ "goHome": {
+  "text": "Stop and go home.",
+  "tier": 1
+ },
+ "hearAgain": {
+  "text": "Hear it again.",
+  "tier": 1
+ },
+ "homeBtn": {
+  "text": "Home.",
+  "tier": 1
+ },
+ "iReadIt": {
+  "text": "I read it.",
+  "tier": 1
+ },
+ "readRight": {
+  "text": "I read it right.",
+  "tier": 1
+ },
+ "notQuiteBtn": {
+  "text": "Not quite.",
+  "tier": 1
+ },
+ "traceAgain": {
+  "text": "Once more. Trace it again.",
+  "tier": 1
+ },
+ "traceHelp": {
+  "text": "Follow the faint letter. Go slowly.",
+  "tier": 1
+ },
+ "wrongTile": {
+  "text": "Start at the first letter.",
+  "tier": 1
+ },
+ "alienWord": {
+  "text": "This is an alien word. Sound it out.",
+  "tier": 1
+ },
+ "madeUpWord": {
+  "text": "This is a made-up word. Sound it out.",
+  "tier": 1
+ },
+ "trickyRegular": {
+  "text": "This word is not tricky. Sound it out.",
+  "tier": 1
+ },
+ "itsName": {
+  "text": "Its name.",
+  "tier": 1
+ },
+ "itsSound": {
+  "text": "Its sound.",
+  "tier": 1
+ },
+ "selfRead": {
+  "text": "Read it out loud. Then tap to hear it.",
+  "tier": 1
+ },
+ "selfJudge": {
+  "text": "Did you read it right?",
+  "tier": 1
+ },
+ "watchMe": {
+  "text": "Watch me first.",
+  "tier": 1
+ },
+ "letsDoOne": {
+  "text": "Let's do one together.",
+  "tier": 1
+ },
+ "yourTurn": {
+  "text": "Now you try.",
+  "tier": 1
+ },
+ "thisLetterIs": {
+  "text": "This letter is",
+  "tier": 1
+ },
+ "andSays": {
+  "text": "and it says",
+  "tier": 1
+ },
+ "thisLetterSays": {
+  "text": "This letter says",
+  "tier": 1
+ },
+ "thisWordSays": {
+  "text": "This word says",
+  "tier": 1
+ },
+ "right": {
+  "text": "That's right.",
+  "tier": 1
+ },
+ "goodListening": {
+  "text": "Good listening.",
+  "tier": 1
+ },
+ "goodReading": {
+  "text": "Good reading.",
+  "tier": 1
+ },
+ "goodSounding": {
+  "text": "Good sounding out.",
+  "tier": 1
+ },
+ "niceSpelling": {
+  "text": "Nice spelling.",
+  "tier": 1
+ },
+ "youGotIt": {
+  "text": "You got it.",
+  "tier": 1
+ },
+ "firstTry": {
+  "text": "First try! Well done.",
+  "tier": 1
+ },
+ "threeInRow": {
+  "text": "Three right in a row.",
+  "tier": 1
+ },
+ "wow": {
+  "text": "Wow! That was great.",
+  "tier": 1
+ },
+ "goodWork": {
+  "text": "Good work.",
+  "tier": 1
+ },
+ "notQuite": {
+  "text": "Not quite. Listen again.",
+  "tier": 1
+ },
+ "lookCloser": {
+  "text": "Look closely.",
+  "tier": 1
+ },
+ "notThatPart": {
+  "text": "That part sounds normal. Find the different part.",
+  "tier": 1
+ },
+ "idleTap": {
+  "text": "Tap the letter. I will wait.",
+  "tier": 1
+ },
+ "idlePick": {
+  "text": "Take your time. Tap the one you think.",
+  "tier": 1
+ },
+ "idleSay": {
+  "text": "Say it out loud. Then tap the button.",
+  "tier": 1
+ },
+ "idleTrace": {
+  "text": "Put your finger on the letter. Trace it.",
+  "tier": 1
+ },
+ "idleArrow": {
+  "text": "Tap the arrow when you are ready.",
+  "tier": 1
+ },
+ "idleHelp": {
+  "text": "Need help? Tap the speaker to hear me again.",
+  "tier": 1
+ },
+ "idleWait": {
+  "text": "I will wait here. Tap when you are ready.",
+  "tier": 1
+ },
+ "lblWords": {
+  "text": "Words.",
+  "tier": 1
+ },
+ "lblRead": {
+  "text": "Read.",
+  "tier": 1
+ },
+ "lblListen": {
+  "text": "Listen.",
+  "tier": 1
+ },
+ "lblCheck": {
+  "text": "Show what you know.",
+  "tier": 1
+ },
+ "lblCheckB": {
+  "text": "Check.",
+  "tier": 1
+ },
+ "lvl2": {
+  "text": "Level two.",
+  "tier": 1
+ },
+ "lvl3": {
+  "text": "Level three.",
+  "tier": 1
+ },
+ "lvl4": {
+  "text": "Level four.",
+  "tier": 1
+ },
+ "lockedNote": {
+  "text": "Not open yet. Finish the check first.",
+  "tier": 1
+ },
+ "nameSoundNote": {
+  "text": "When we read, we use the sound, not the name.",
+  "tier": 1
+ },
+ "qNote": {
+  "text": "The letter q is called cue. With u, it says",
+  "tier": 1
+ },
+ "tipBedTrick": {
+  "text": "Make two fists with your thumbs up. Hold them side by side. The left fist is b. The right fist is d. Together they make bed.",
+  "tier": 1
+ },
+ "tipB": {
+  "text": "b: the bat comes first, then the ball. The belly of b points right.",
+  "tier": 1
+ },
+ "tipD": {
+  "text": "d: the drum comes first, then the stick. The belly of d points left.",
+  "tier": 1
+ },
+ "tipP": {
+  "text": "p hangs down. Its loop is at the top, on the right.",
+  "tier": 1
+ },
+ "tipQ": {
+  "text": "q hangs down too. It always needs its u.",
+  "tier": 1
+ },
+ "masteryIntro": {
+  "text": "This is the check for the whole level. Do your best.",
+  "tier": 2
+ },
+ "masteryPass": {
+  "text": "You passed! The next level is open.",
+  "tier": 2
+ },
+ "masteryMiss": {
+  "text": "Not yet. Let's practise the parts that were hard, then try again.",
+  "tier": 2
+ },
+ "teachIntro": {
+  "text": "Here is a new spelling for a sound. Tap it to hear it.",
+  "tier": 2
+ },
+ "teachSuffix": {
+  "text": "This is an ending. Read the base word, then add the ending.",
+  "tier": 2
+ },
+ "teachExample": {
+  "text": "Here it is in a word.",
+  "tier": 2
+ },
+ "teachBlend": {
+  "text": "These letters keep both sounds. Say them quickly together.",
+  "tier": 2
+ },
+ "ruleIntro": {
+  "text": "Here is a rule that helps you read.",
+  "tier": 2
+ },
+ "attackIntro": {
+  "text": "A long word. Let's break it apart, step by step.",
+  "tier": 2
+ },
+ "attackVowels": {
+  "text": "Tap every vowel sound.",
+  "tier": 2
+ },
+ "attackCount": {
+  "text": "Each vowel sound makes one chunk.",
+  "tier": 2
+ },
+ "attackPeel": {
+  "text": "Tap the parts at the start or end that you know.",
+  "tier": 2
+ },
+ "attackNoPeel": {
+  "text": "Nothing to take off here. Go on.",
+  "tier": 2
+ },
+ "attackChunk": {
+  "text": "Here are the chunks.",
+  "tier": 2
+ },
+ "attackBlend": {
+  "text": "Tap each chunk to say it, then put them together.",
+  "tier": 2
+ },
+ "attackFlex": {
+  "text": "Is it a real word? If not, try the vowel the other way.",
+  "tier": 2
+ },
+ "attackCheckIntro": {
+  "text": "Show how you read a word you have never seen.",
+  "tier": 2
+ },
+ "notVowel": {
+  "text": "Not a vowel sound. Try another.",
+  "tier": 2
+ },
+ "flexReal": {
+  "text": "Yes, a real word.",
+  "tier": 2
+ },
+ "flexFlexed": {
+  "text": "I flexed a vowel.",
+  "tier": 2
+ },
+ "ssPrime": {
+  "text": "Before you read, think about this.",
+  "tier": 3
+ },
+ "ssWarm": {
+  "text": "Read each word out loud. Then tap it.",
+  "tier": 3
+ },
+ "ssFind": {
+  "text": "Tap the word you hear.",
+  "tier": 3
+ },
+ "ssBuild": {
+  "text": "Build the word. Tap the parts in order.",
+  "tier": 3
+ },
+ "ssRead": {
+  "text": "Read one part at a time. Tap a sentence to hear it.",
+  "tier": 3
+ },
+ "ssFlu": {
+  "text": "Read it out loud. Tap start when you are ready.",
+  "tier": 3
+ },
+ "ssThink": {
+  "text": "Think first. Then tap to see a good answer.",
+  "tier": 3
+ },
+ "ssMark": {
+  "text": "How did you do? Tap one.",
+  "tier": 3
+ },
+ "ssWrite": {
+  "text": "Write your answer. Then compare it.",
+  "tier": 3
+ },
+ "ssTalk": {
+  "text": "Take each role. Say your answer out loud.",
+  "tier": 3
+ },
+ "showAnswer": {
+  "text": "Show a good answer.",
+  "tier": 3
+ },
+ "markHad": {
+  "text": "I had it.",
+  "tier": 3
+ },
+ "markNearly": {
+  "text": "Nearly.",
+  "tier": 3
+ },
+ "markNot": {
+  "text": "Not yet.",
+  "tier": 3
+ }
+}

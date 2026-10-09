@@ -5665,5 +5665,429 @@
  "q:L1.14:1": {
   "cut": "text",
   "text": "How does the passage describe what Level 2 will be, compared to Level 1?"
+ },
+ "ui:hello": {
+  "cut": "text",
+  "text": "Hello. I am your reading teacher. I will help you."
+ },
+ "ui:homeGoA": {
+  "cut": "text",
+  "text": "Tap the shining sound to go on."
+ },
+ "ui:homeGoB": {
+  "cut": "text",
+  "text": "Tap the next lesson to go on."
+ },
+ "ui:welcomeBack": {
+  "cut": "text",
+  "text": "Welcome back. Let's keep going."
+ },
+ "ui:begin": {
+  "cut": "text",
+  "text": "Let's begin."
+ },
+ "ui:halfway": {
+  "cut": "text",
+  "text": "You are halfway through."
+ },
+ "ui:lastOne": {
+  "cut": "text",
+  "text": "Last one."
+ },
+ "ui:nextOne": {
+  "cut": "text",
+  "text": "Next one."
+ },
+ "ui:nextPart": {
+  "cut": "text",
+  "text": "Here is the next part."
+ },
+ "ui:tapArrow": {
+  "cut": "text",
+  "text": "Tap the arrow to go on."
+ },
+ "ui:seeYou": {
+  "cut": "text",
+  "text": "See you next time."
+ },
+ "ui:practisedToday": {
+  "cut": "text",
+  "text": "You practised today. Well done."
+ },
+ "ui:thisOne": {
+  "cut": "text",
+  "text": "This one."
+ },
+ "ui:goHome": {
+  "cut": "text",
+  "text": "Stop and go home."
+ },
+ "ui:hearAgain": {
+  "cut": "text",
+  "text": "Hear it again."
+ },
+ "ui:homeBtn": {
+  "cut": "text",
+  "text": "Home."
+ },
+ "ui:iReadIt": {
+  "cut": "text",
+  "text": "I read it."
+ },
+ "ui:readRight": {
+  "cut": "text",
+  "text": "I read it right."
+ },
+ "ui:notQuiteBtn": {
+  "cut": "text",
+  "text": "Not quite."
+ },
+ "ui:traceAgain": {
+  "cut": "text",
+  "text": "Once more. Trace it again."
+ },
+ "ui:traceHelp": {
+  "cut": "text",
+  "text": "Follow the faint letter. Go slowly."
+ },
+ "ui:wrongTile": {
+  "cut": "text",
+  "text": "Start at the first letter."
+ },
+ "ui:alienWord": {
+  "cut": "text",
+  "text": "This is an alien word. Sound it out."
+ },
+ "ui:madeUpWord": {
+  "cut": "text",
+  "text": "This is a made-up word. Sound it out."
+ },
+ "ui:trickyRegular": {
+  "cut": "text",
+  "text": "This word is not tricky. Sound it out."
+ },
+ "ui:itsName": {
+  "cut": "text",
+  "text": "Its name."
+ },
+ "ui:itsSound": {
+  "cut": "text",
+  "text": "Its sound."
+ },
+ "ui:selfRead": {
+  "cut": "text",
+  "text": "Read it out loud. Then tap to hear it."
+ },
+ "ui:selfJudge": {
+  "cut": "text",
+  "text": "Did you read it right?"
+ },
+ "ui:watchMe": {
+  "cut": "text",
+  "text": "Watch me first."
+ },
+ "ui:letsDoOne": {
+  "cut": "text",
+  "text": "Let's do one together."
+ },
+ "ui:yourTurn": {
+  "cut": "text",
+  "text": "Now you try."
+ },
+ "ui:thisLetterIs": {
+  "cut": "text",
+  "text": "This letter is"
+ },
+ "ui:andSays": {
+  "cut": "text",
+  "text": "and it says"
+ },
+ "ui:thisLetterSays": {
+  "cut": "text",
+  "text": "This letter says"
+ },
+ "ui:thisWordSays": {
+  "cut": "text",
+  "text": "This word says"
+ },
+ "ui:right": {
+  "cut": "text",
+  "text": "That's right."
+ },
+ "ui:goodListening": {
+  "cut": "text",
+  "text": "Good listening."
+ },
+ "ui:goodReading": {
+  "cut": "text",
+  "text": "Good reading."
+ },
+ "ui:goodSounding": {
+  "cut": "text",
+  "text": "Good sounding out."
+ },
+ "ui:niceSpelling": {
+  "cut": "text",
+  "text": "Nice spelling."
+ },
+ "ui:youGotIt": {
+  "cut": "text",
+  "text": "You got it."
+ },
+ "ui:firstTry": {
+  "cut": "text",
+  "text": "First try! Well done."
+ },
+ "ui:threeInRow": {
+  "cut": "text",
+  "text": "Three right in a row."
+ },
+ "ui:wow": {
+  "cut": "text",
+  "text": "Wow! That was great."
+ },
+ "ui:goodWork": {
+  "cut": "text",
+  "text": "Good work."
+ },
+ "ui:notQuite": {
+  "cut": "text",
+  "text": "Not quite. Listen again."
+ },
+ "ui:lookCloser": {
+  "cut": "text",
+  "text": "Look closely."
+ },
+ "ui:notThatPart": {
+  "cut": "text",
+  "text": "That part sounds normal. Find the different part."
+ },
+ "ui:idleTap": {
+  "cut": "text",
+  "text": "Tap the letter. I will wait."
+ },
+ "ui:idlePick": {
+  "cut": "text",
+  "text": "Take your time. Tap the one you think."
+ },
+ "ui:idleSay": {
+  "cut": "text",
+  "text": "Say it out loud. Then tap the button."
+ },
+ "ui:idleTrace": {
+  "cut": "text",
+  "text": "Put your finger on the letter. Trace it."
+ },
+ "ui:idleArrow": {
+  "cut": "text",
+  "text": "Tap the arrow when you are ready."
+ },
+ "ui:idleHelp": {
+  "cut": "text",
+  "text": "Need help? Tap the speaker to hear me again."
+ },
+ "ui:idleWait": {
+  "cut": "text",
+  "text": "I will wait here. Tap when you are ready."
+ },
+ "ui:lblWords": {
+  "cut": "text",
+  "text": "Words."
+ },
+ "ui:lblRead": {
+  "cut": "text",
+  "text": "Read."
+ },
+ "ui:lblListen": {
+  "cut": "text",
+  "text": "Listen."
+ },
+ "ui:lblCheck": {
+  "cut": "text",
+  "text": "Show what you know."
+ },
+ "ui:lblCheckB": {
+  "cut": "text",
+  "text": "Check."
+ },
+ "ui:lvl2": {
+  "cut": "text",
+  "text": "Level two."
+ },
+ "ui:lvl3": {
+  "cut": "text",
+  "text": "Level three."
+ },
+ "ui:lvl4": {
+  "cut": "text",
+  "text": "Level four."
+ },
+ "ui:lockedNote": {
+  "cut": "text",
+  "text": "Not open yet. Finish the check first."
+ },
+ "ui:nameSoundNote": {
+  "cut": "text",
+  "text": "When we read, we use the sound, not the name."
+ },
+ "ui:qNote": {
+  "cut": "text",
+  "text": "The letter q is called cue. With u, it says"
+ },
+ "ui:tipBedTrick": {
+  "cut": "text",
+  "text": "Make two fists with your thumbs up. Hold them side by side. The left fist is b. The right fist is d. Together they make bed."
+ },
+ "ui:tipB": {
+  "cut": "text",
+  "text": "b: the bat comes first, then the ball. The belly of b points right."
+ },
+ "ui:tipD": {
+  "cut": "text",
+  "text": "d: the drum comes first, then the stick. The belly of d points left."
+ },
+ "ui:tipP": {
+  "cut": "text",
+  "text": "p hangs down. Its loop is at the top, on the right."
+ },
+ "ui:tipQ": {
+  "cut": "text",
+  "text": "q hangs down too. It always needs its u."
+ },
+ "ui:masteryIntro": {
+  "cut": "text",
+  "text": "This is the check for the whole level. Do your best."
+ },
+ "ui:masteryPass": {
+  "cut": "text",
+  "text": "You passed! The next level is open."
+ },
+ "ui:masteryMiss": {
+  "cut": "text",
+  "text": "Not yet. Let's practise the parts that were hard, then try again."
+ },
+ "ui:teachIntro": {
+  "cut": "text",
+  "text": "Here is a new spelling for a sound. Tap it to hear it."
+ },
+ "ui:teachSuffix": {
+  "cut": "text",
+  "text": "This is an ending. Read the base word, then add the ending."
+ },
+ "ui:teachExample": {
+  "cut": "text",
+  "text": "Here it is in a word."
+ },
+ "ui:teachBlend": {
+  "cut": "text",
+  "text": "These letters keep both sounds. Say them quickly together."
+ },
+ "ui:ruleIntro": {
+  "cut": "text",
+  "text": "Here is a rule that helps you read."
+ },
+ "ui:attackIntro": {
+  "cut": "text",
+  "text": "A long word. Let's break it apart, step by step."
+ },
+ "ui:attackVowels": {
+  "cut": "text",
+  "text": "Tap every vowel sound."
+ },
+ "ui:attackCount": {
+  "cut": "text",
+  "text": "Each vowel sound makes one chunk."
+ },
+ "ui:attackPeel": {
+  "cut": "text",
+  "text": "Tap the parts at the start or end that you know."
+ },
+ "ui:attackNoPeel": {
+  "cut": "text",
+  "text": "Nothing to take off here. Go on."
+ },
+ "ui:attackChunk": {
+  "cut": "text",
+  "text": "Here are the chunks."
+ },
+ "ui:attackBlend": {
+  "cut": "text",
+  "text": "Tap each chunk to say it, then put them together."
+ },
+ "ui:attackFlex": {
+  "cut": "text",
+  "text": "Is it a real word? If not, try the vowel the other way."
+ },
+ "ui:attackCheckIntro": {
+  "cut": "text",
+  "text": "Show how you read a word you have never seen."
+ },
+ "ui:notVowel": {
+  "cut": "text",
+  "text": "Not a vowel sound. Try another."
+ },
+ "ui:flexReal": {
+  "cut": "text",
+  "text": "Yes, a real word."
+ },
+ "ui:flexFlexed": {
+  "cut": "text",
+  "text": "I flexed a vowel."
+ },
+ "ui:ssPrime": {
+  "cut": "text",
+  "text": "Before you read, think about this."
+ },
+ "ui:ssWarm": {
+  "cut": "text",
+  "text": "Read each word out loud. Then tap it."
+ },
+ "ui:ssFind": {
+  "cut": "text",
+  "text": "Tap the word you hear."
+ },
+ "ui:ssBuild": {
+  "cut": "text",
+  "text": "Build the word. Tap the parts in order."
+ },
+ "ui:ssRead": {
+  "cut": "text",
+  "text": "Read one part at a time. Tap a sentence to hear it."
+ },
+ "ui:ssFlu": {
+  "cut": "text",
+  "text": "Read it out loud. Tap start when you are ready."
+ },
+ "ui:ssThink": {
+  "cut": "text",
+  "text": "Think first. Then tap to see a good answer."
+ },
+ "ui:ssMark": {
+  "cut": "text",
+  "text": "How did you do? Tap one."
+ },
+ "ui:ssWrite": {
+  "cut": "text",
+  "text": "Write your answer. Then compare it."
+ },
+ "ui:ssTalk": {
+  "cut": "text",
+  "text": "Take each role. Say your answer out loud."
+ },
+ "ui:showAnswer": {
+  "cut": "text",
+  "text": "Show a good answer."
+ },
+ "ui:markHad": {
+  "cut": "text",
+  "text": "I had it."
+ },
+ "ui:markNearly": {
+  "cut": "text",
+  "text": "Nearly."
+ },
+ "ui:markNot": {
+  "cut": "text",
+  "text": "Not yet."
  }
 }
