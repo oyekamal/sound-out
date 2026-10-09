@@ -17,3 +17,6 @@ app/android/app/src/main/assets/capacitor.config.json
 app/android/app/src/main/assets/capacitor.plugins.json
 app/android/capacitor-cordova-android-plugins/
 app/android/.idea/
+design/character/bar/
+design/character/bar_crops/
+design/character/blind/
