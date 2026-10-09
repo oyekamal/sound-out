@@ -22,7 +22,7 @@ export function practiceTag(text = 'Practice') { return h('span', { class: 'ss-t
 // "Think, then tap to see a good answer" self-check. Resolves when the answer is shown.
 export function reveal(answer, { label = 'Show a good answer', fallback } = {}) {
   const box = h('div', { class: 'ss-reveal' });
-  const btn = h('button', { class: 'btn ghost small ss-show' }, label);
+  const btn = h('button', { class: 'btn ghost small ss-show', 'data-say': 'ui:showAnswer' }, label);
   const ans = h('div', { class: 'ss-answer', hidden: true }, answer ? h('p', {}, answer) : h('p', { class: 'muted' }, fallback || 'Look back at the text: a good answer points to a sentence in it.'));
   box.append(btn, ans);
   box.done = new Promise(res => btn.addEventListener('click', () => { btn.hidden = true; ans.hidden = false; mark('ss-reveal', {}); res(); }));
@@ -32,8 +32,8 @@ export function reveal(answer, { label = 'Show a good answer', fallback } = {}) 
 // Self-mark after a reveal: practice only, recorded but never a gate.
 export function selfMark(onPick) {
   const row = h('div', { class: 'row ss-self' });
-  for (const [k, t] of [['yes', 'I had it'], ['close', 'Nearly'], ['no', 'Not yet']]) {
-    const b = h('button', { class: 'btn small ss-mark', 'data-mark': k }, t);
+  for (const [k, t, say] of [['yes', 'I had it', 'ui:markHad'], ['close', 'Nearly', 'ui:markNearly'], ['no', 'Not yet', 'ui:markNot']]) {
+    const b = h('button', { class: 'btn small ss-mark', 'data-mark': k, 'data-say': say }, t);
     b.addEventListener('click', () => { row.querySelectorAll('button').forEach(x => x.classList.toggle('on', x === b)); onPick(k); });
     row.append(b);
   }

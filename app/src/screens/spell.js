@@ -1,6 +1,7 @@
 // E7 Spell it: a dictated sound or word; build it from a tile tray. Single-sound sittings spell the letter only.
 import { play, mark } from '../audio.js';
 import { h, speaker } from '../ui.js';
+import { teacher } from '../teacher.js';
 import { entry, g2p } from '../content.js';
 
 const shuffle = a => [...a].sort(() => Math.random() - 0.5);
@@ -12,7 +13,7 @@ export async function spellLetter(ctx, letter, known) {
   const pool = shuffle([letter, ...shuffle([...known, ...EXTRA].filter(x => x !== letter)).slice(0, 2)]);
   s.append(h('h2', {}, 'Which letter makes this sound?'), speaker(`ph:${pid}`, { big: true, label: 'Hear the sound' }));
   const tray = h('div', { class: 'tray' });
-  let first = null, resolve; const done = new Promise(r => { resolve = r; });
+  let first = null, tries = 0, resolve; const done = new Promise(r => { resolve = r; });
   for (const l of pool) {
     const b = h('button', { class: 'tilebtn', 'data-letter': l }, l);
     b.addEventListener('click', async () => {
@@ -20,15 +21,15 @@ export async function spellLetter(ctx, letter, known) {
       if (first === null) first = ok;
       mark('spell-letter', { letter, pick: l, correct: ok });
       b.classList.add(ok ? 'right' : 'wrong');
-      if (ok) { await play('ui:good'); resolve(); } else { await play('ui:tryAgain'); await play(`ph:${pid}`); }
+      if (ok) { await teacher.right({ kind: 'spell', tries: tries ? 2 : 1 }); resolve(); }
+      else await teacher.wrong({ first: tries++ === 0, carrier: 'ui:thisLetterSays', model: [`ph:${pid}`] });
     });
     tray.append(b);
   }
   s.append(tray);
-  await ctx.instruct('ui:spellLetter');
-  await play(`ph:${pid}`);
+  await ctx.instruct('ui:spellLetter', { stim: () => play(`ph:${pid}`), nudge: 'ui:idlePick', hint: () => teacher.point(tray.querySelector(`.tilebtn[data-letter='${letter}']`)) });
   await done;
-  const r = { judged: true, correct: first };
+  const r = { judged: true, correct: first && !teacher.consumeHinted() };
   await ctx.record(`letter:${letter}`, 'letter', r);
   return r;
 }
@@ -52,13 +53,12 @@ export async function spellWord(ctx, w, known, { judgedOnly = false } = {}) {
     const ok = slots.every((x, i) => x.dataset.g === e.g[i]);
     tries++; if (first === null) first = ok;
     mark('spell-word', { word: w, correct: ok, tries });
-    if (ok) { slots.forEach(x => x.classList.add('right')); await play('ui:good'); return resolve(); }
+    if (ok) { slots.forEach(x => x.classList.add('right')); await teacher.right({ kind: 'spell', tries }); return resolve(); }
     slots.forEach((x, i) => { if (x.dataset.g !== e.g[i]) x.classList.add('wrong'); });
     if (tries >= 2) { slots.forEach((x, i) => { x.textContent = e.g[i]; x.dataset.g = e.g[i]; x.classList.remove('wrong'); x.classList.add('shown'); }); await play('ui:gateReview'); return resolve(); }
-    await play('ui:tryAgain'); await play(`w:${w}`);
+    await teacher.wrong({ first: tries === 1, carrier: 'ui:thisWordSays', model: [`w:${w}`] });
   }
-  await ctx.instruct('ui:spellIntro');
-  await play(`w:${w}`);
+  await ctx.instruct('ui:spellIntro', { stim: () => play(`w:${w}`), nudge: 'ui:idlePick', hint: () => teacher.point(tray.querySelector(`.tilebtn[data-g='${e.g[slots.findIndex(x => !x.dataset.g)]}']:not(:disabled)`)) });
   await done;
   const r = { judged: true, correct: first };
   await ctx.record(`spell:${w}`, 'spell', r);

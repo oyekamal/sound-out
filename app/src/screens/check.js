@@ -4,6 +4,7 @@ import { play, mark } from '../audio.js';
 import { h } from '../ui.js';
 import { options, entry } from '../content.js';
 import { gate } from '../gate.js';
+import { teacher } from '../teacher.js';
 import { spellWord } from './spell.js';
 
 export function checkItems(lesson) {
@@ -26,13 +27,16 @@ export async function check(ctx) {
   const { items, spare, bar } = checkItems(ctx.lesson);
   const s0 = ctx.stage();
   s0.append(h('h2', {}, 'Show what you know'), h('p', { class: 'prompt' }, 'Some are made-up words. Just sound them out.'));
-  await ctx.instruct('ui:checkIntro');
+  await ctx.instruct('ui:checkIntro', { nudge: 'ui:idleArrow' });
   await ctx.next();
-  let correct = 0, judged = 0, timeouts = 0;
+  let correct = 0, judged = 0, timeouts = 0, n = 0;
   const queue = [...items];
+  ctx.test = true;   // a check: no praise or correction between items, just "Next one."
+  teacher.setIdle({});
   mark('check-start', { lesson: ctx.lesson.id, items: items.map(i => i.w), bar });
   while (queue.length) {
     const it = queue.shift();
+    if (n++) await teacher.nextItem();
     let r;
     if (it.kind === 'dictation') r = await spellWord(ctx, it.w, ctx.known());
     else { r = await gate(ctx, it.w, it.kind); await ctx.record(it.w, it.kind, r); }
@@ -50,12 +54,13 @@ export async function check(ctx) {
 }
 
 async function finish(ctx, result, correct, judged, bar) {
+  ctx.test = false;
   const s = ctx.stage();
   const dots = h('div', { class: 'dots' }, ...Array.from({ length: judged }, (_, i) => h('i', { class: i < correct ? 'on' : '' })));
   const msg = { checked: 'You did it! The next part is open.', miss: "We'll practise these again. The next part is still open.", unfinished: "Let's finish this tomorrow." }[result];
   s.append(h('h2', {}, result === 'checked' ? 'Checked by tapping' : 'Show what you know'), dots,
     h('p', { class: 'score' }, `${correct} of ${judged} on the first try · bar ${bar.pass}/${bar.of}`), h('p', { class: 'prompt' }, msg));
-  await play({ checked: 'ui:checkPass', miss: 'ui:checkMiss', unfinished: 'ui:finishTomorrow' }[result]);
+  await ctx.instruct({ checked: 'ui:checkPass', miss: 'ui:checkMiss', unfinished: 'ui:finishTomorrow' }[result], { nudge: 'ui:idleArrow' });
   await ctx.next();
   return { result, correct, judged, bar };
 }

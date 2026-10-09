@@ -7,6 +7,7 @@ import { entry, g2p, options } from '../content.js';
 import { gate, printedWord } from '../gate.js';
 import { spellWord } from './spell.js';
 import { choose, shuffle } from './l1steps.js';
+import { teacher } from '../teacher.js';
 
 export const INSTRUMENT = [
   { id: 'letters', title: 'Letter sounds', pass: 28, items: 'a b c d e f g h i j k l m n o p qu r s t u v w x y z ck ff ll ss zz'.split(' ') },
@@ -54,11 +55,15 @@ export async function mastery(ctx) {
   const s0 = stageFor(ctx, 'm-intro');
   s0.append(h('h2', {}, 'Level 1 check'), h('p', { class: 'prompt' }, 'Everything from Level 1, no hints. Take your time.'),
     h('ul', { class: 'cue' }, ...INSTRUMENT.map(c => h('li', {}, `${c.title}: ${runnable(c).length}`))));
-  await ctx.instruct('ui:l1MasteryIntro'); await ctx.next();
+  await ctx.instruct('ui:masteryIntro', { nudge: 'ui:idleArrow' }); await ctx.next();
   const parts = [];
+  ctx.test = true;   // the check: no praise or correction, only "Next one." and "Here is the next part."
+  let started = false;
   for (const c of INSTRUMENT) {
     let correct = 0, judged = 0;
+    if (started) await teacher.say('ui:nextPart'); started = true;
     for (const it of shuffle(runnable(c))) {
+      if (judged) await teacher.nextItem();
       let r;
       if (c.id === 'letters') r = await letterSound(ctx, it);
       else if (c.id === 'real' || c.id === 'pseudo') { ctx.step = `m-${c.id}`; r = await gate(ctx, it, c.id); await ctx.record(it, c.id, r); }
@@ -76,13 +81,14 @@ export async function mastery(ctx) {
   const met = parts.every(p => p.met);
   const correct = parts.reduce((a, p) => a + p.correct, 0), judged = parts.reduce((a, p) => a + p.judged, 0);
   const result = met ? 'checked' : 'miss';
+  ctx.test = false;
   mark('check-end', { result, correct, judged, parts });
   const s = stageFor(ctx, 'm-result');
   s.append(h('h2', {}, met ? 'Level 1 passed!' : 'Level 1 check'),
     h('table', { class: 'mastery' }, h('tr', {}, h('th', {}, 'Part'), h('th', {}, 'Score'), h('th', {}, 'Bar'), h('th', {}, '')),
       ...parts.map(p => h('tr', { class: p.met ? 'met' : 'unmet' }, h('td', {}, p.title), h('td', {}, `${p.correct}/${p.judged}`), h('td', {}, `≥${p.pass}`), h('td', {}, p.met ? '✓' : 'practise')))),
-    h('p', { class: 'prompt' }, met ? 'Level 2 opens next. It is coming soon.' : 'Practise the parts marked "practise", then try the check again. The rest of Level 1 stays open.'));
-  await play(met ? 'ui:l1MasteryPass' : 'ui:l1MasteryMiss');
+    h('p', { class: 'prompt' }, met ? 'Level 2 is open.' : 'Practise the parts marked "practise", then try the check again. The rest of Level 1 stays open.'));
+  await ctx.instruct(met ? 'ui:masteryPass' : 'ui:masteryMiss', { nudge: 'ui:idleArrow' });   // masteryPass says "The next level is open" (the old line said Level 2 is coming soon)
   await ctx.next();
   return { result, correct, judged, bar: { pass: parts.reduce((a, p) => a + p.pass, 0), of: judged }, mastery: true, parts };
 }

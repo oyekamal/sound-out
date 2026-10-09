@@ -5,6 +5,7 @@ import { play, wait, mark } from '../audio.js';
 import { h, speaker } from '../ui.js';
 import { entry } from '../content.js';
 import { printedWord } from '../gate.js';
+import { teacher } from '../teacher.js';
 
 function card(u, onTap) {
   const b = h('button', { class: 'lettercard unitcard', 'aria-label': `${u.g}, tap to hear it` });
@@ -31,8 +32,7 @@ async function one(ctx, u) {
     card(u, async () => { tapped++; mark('teach-tap', { unit: u.g }); await say(); ctx.enableNext(); }),
     u.label ? h('p', { class: 'unitlabel' }, u.label) : null,
     u.pid ? h('div', { class: 'row small' }, speaker(`ph:${u.pid}`, { label: 'Hear its sound' }), h('span', { class: 'muted' }, 'one sound')) : null].filter(Boolean));
-  await ctx.instruct(u.kind === 'suffix' ? 'ui:teachSuffix' : 'ui:teachIntro');
-  await say(); await wait(300);
+  await ctx.instruct(u.kind === 'suffix' ? 'ui:teachSuffix' : 'ui:teachIntro', { stim: async () => { await say(); await wait(300); }, nudge: 'ui:idleTap', hint: () => teacher.point(s.querySelector('.unitcard')) });
   if (u.example) await example(s, u.example, u.g.replace(/^-/, ''));
   await ctx.next({ disabledUntil: () => tapped > 0 });
 }
@@ -49,7 +49,7 @@ async function grid(ctx, us, title, instr) {
     }));
   }
   s.append(h('h2', {}, title), g, h('p', { class: 'prompt' }, instr));
-  await ctx.instruct('ui:teachBlend');
+  await ctx.instruct('ui:teachBlend', { nudge: 'ui:idleTap', hint: () => teacher.point(g.querySelector('.unitcard')) });
   await ctx.next({ disabledUntil: () => seen.size > 0 });
 }
 

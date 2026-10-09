@@ -16,8 +16,12 @@ export async function hear(ctx, letter) {
     cue ? h('div', { class: 'cue' }, h('b', {}, 'Your mouth: '), cue) : null,
     h('div', { class: 'row' }, speaker(exKey, { label: 'Hear the example word' }), h('span', { class: 'muted' }, 'a word that starts with it')),
   );
-  await ctx.instruct('ui:hearIntro');
-  await play(`ph:${pid}`); await wait(400); await play(`ph:${pid}`); await wait(400);
-  await play('ui:hearExample'); await play(exKey);
+  // the sound twice, then "you can hear it at the start of this word": the ear button plays all of it again
+  const model = async () => {
+    for (let i = 0; i < 2; i++) { if ((await play(`ph:${pid}`)) === false) return false; await wait(400); }
+    if ((await play('ui:hearExample')) === false) return false;
+    return play(exKey);
+  };
+  await ctx.instruct('ui:hearIntro', { stim: model, nudge: 'ui:idleTap' });
   await ctx.next();
 }

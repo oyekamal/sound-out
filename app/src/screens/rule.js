@@ -4,6 +4,7 @@ import { play, mark } from '../audio.js';
 import { h, speaker } from '../ui.js';
 import { entry } from '../content.js';
 import { decorate } from './tiles.js';
+import { teacher } from '../teacher.js';
 
 export async function rule(ctx) {
   const r = ctx.lesson.rule; if (!r) return;
@@ -17,7 +18,6 @@ export async function rule(ctx) {
     ex.append(b);
   }
   s.append(h('h2', {}, r.title), h('div', { class: 'rulecard' }, h('p', {}, r.text)), speaker(`rule:${ctx.lesson.id}`, { label: 'Hear the rule' }), ex);
-  await ctx.instruct('ui:ruleIntro');
-  await play(`rule:${ctx.lesson.id}`);
+  await ctx.instruct('ui:ruleIntro', { stim: () => play(`rule:${ctx.lesson.id}`), nudge: 'ui:idleTap' });
   await ctx.next();
 }

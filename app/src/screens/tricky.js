@@ -2,6 +2,7 @@
 import { play, wait, mark } from '../audio.js';
 import { h, icon } from '../ui.js';
 import { entry } from '../content.js';
+import { teacher } from '../teacher.js';
 
 export async function tricky(ctx, w) {
   const e = entry(w);
@@ -17,21 +18,23 @@ export async function tricky(ctx, w) {
   const heart = new Set(e.heartIdx || []);
   if (!heart.size) {
     msg.textContent = 'Good news: this one sounds out. No tricky part.';
+    await teacher.say('ui:trickyRegular');
     for (let i = 0; i < spans.length; i++) { spans[i].classList.add('hl'); await play(`ph:${e.p[i]}`); await wait(250); spans[i].classList.remove('hl'); }
     await ctx.next();
     return;
   }
   msg.textContent = 'Tap the part that is different.';
-  await ctx.instruct('ui:trickyTap');
+  const pointHeart = () => teacher.point(...[...heart].map(i => spans[i]));
+  await ctx.instruct('ui:trickyTap', { nudge: 'ui:idleTap', hint: pointHeart });
   const found = new Set();
   await new Promise(resolve => spans.forEach((sp, i) => sp.addEventListener('click', async () => {
     if (heart.has(i)) {
       found.add(i); sp.classList.add('heart'); sp.querySelector('.heartmark').innerHTML = icon('heart').innerHTML;
       mark('tricky-tap', { word: w, i, heart: true });
-      if (found.size === heart.size) { await play('ui:good'); resolve(); }
+      if (found.size === heart.size) { await teacher.right({ kind: 'pick' }); resolve(); }
     } else {
       mark('tricky-tap', { word: w, i, heart: false });
-      sp.classList.add('regular'); await play(`ph:${e.p[i]}`);
+      sp.classList.add('regular'); teacher.miss(); await play(`ph:${e.p[i]}`); await teacher.say('ui:notThatPart');
     }
   })));
   ctx.rememberWord(w);

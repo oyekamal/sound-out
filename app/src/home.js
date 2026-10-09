@@ -1,6 +1,6 @@
 // Home: Track A = Pebble, the village, stickers and the sitting path. Track B = a plain lesson list and words to remember.
-import { h, icon, pebble, village } from './ui.js';
-import { play } from './audio.js';
+import { h, icon, btn, pebble, village } from './ui.js';
+import { teacher } from './teacher.js';
 import { LESSONS } from './content.js';
 import { states, LABEL } from './path.js';
 import * as db from './db.js';
@@ -15,7 +15,7 @@ export async function home(app, profile) {
   s.append(h('header', { class: 'homehdr' },
     h('div', { class: 'brand' }, 'Sound Out'),
     h('div', { class: 'days', title: 'Days practised (never resets)' }, h('b', {}, String(days)), ' ', days === 1 ? 'day practised' : 'days practised'),
-    h('button', { class: 'btn ghost small', onclick: () => app.onboarding() }, 'Who is reading?')));
+    btn('Who is reading?', 'child', { class: 'btn ghost small', say: 'ui:who', onclick: () => app.onboarding() })));
   if (track === 'A') {
     s.append(h('div', { class: 'hero' }, pebble('wave'), h('div', {}, h('h1', {}, 'Your sounds'), h('p', { class: 'muted' }, 'Each new sound adds to your village.'))),
       village(prog.village), h('div', { class: 'stickers', 'aria-label': 'Stickers' }, ...(prog.stickers || []).map(x => h('span', {}, x))));
@@ -29,7 +29,7 @@ export async function home(app, profile) {
       lastLevel = l.level || 1;
       const open = st.some(x => x.lessonId === l.id && x.state !== 'locked');
       s.append(h('section', { class: `level-card${open ? '' : ' locked'}`, 'data-level': String(lastLevel) },
-        h('h2', {}, `Level ${lastLevel}${LEVEL_NAME[lastLevel] ? ` · ${LEVEL_NAME[lastLevel]}` : ''}`),
+        h('h2', { 'data-say': `ui:lvl${lastLevel}${open ? '' : ',ui:lockedNote'}` }, `Level ${lastLevel}${LEVEL_NAME[lastLevel] ? ` · ${LEVEL_NAME[lastLevel]}` : ''}`),
         h('p', { class: 'muted small' }, open ? 'Open. Pick up where you stopped.' : `Opens when you pass the Level ${lastLevel - 1} check.`)));
     }
     const ls = st.filter(x => x.lessonId === l.id);
@@ -39,7 +39,8 @@ export async function home(app, profile) {
     const path = h('div', { class: track === 'A' ? 'path' : 'list' });
     for (const x of ls) {
       const label = x.label || (x.new?.length ? x.new.join(' ') : LABEL[track][x.id] || x.id);
-      const b = h('button', { class: `node ${x.state}${x.new?.length ? '' : ' wide'}`, 'data-key': x.key, disabled: x.state === 'locked' },
+      const say = x.new?.length ? `name:${x.new[0]}` : ({ D: 'ui:lblWords', R: 'ui:lblRead', L: 'ui:lblListen', X: track === 'A' ? 'ui:lblCheck' : 'ui:lblCheckB' })[x.id] || null;
+      const b = h('button', { class: `node ${x.state}${x.new?.length ? '' : ' wide'}`, 'data-key': x.key, 'data-say': x.state === 'locked' ? 'ui:lockedNote' : say, disabled: x.state === 'locked' },
         x.state === 'locked' ? icon('lock') : x.state === 'done' ? icon('check') : null, h('span', {}, label));
       b.addEventListener('click', () => app.sitting(x.key));
       path.append(b);
@@ -50,6 +51,12 @@ export async function home(app, profile) {
   if (track === 'B' && (prog.words || []).length) s.append(h('section', { class: 'lesson' }, h('h3', {}, 'Words to remember'), h('p', { class: 'wordlist' }, prog.words.join(' · '))));
   s.append(h('p', { class: 'muted small foot-note' }, 'Prototype: all voices are a computer voice for now; pictures are placeholders.'));
   app.mount(s);
+  // Home speaks: "Welcome back" on a return visit, then which node to tap; a stall points at that node
+  const so = window.__so; const back = days > 0 && !so.homeVisited; so.homeVisited = true;
+  const go = track === 'A' ? 'ui:homeGoA' : 'ui:homeGoB';
+  const openNode = () => s.querySelector('.node.open');
+  teacher.track(track);
+  teacher.prompt(back ? ['ui:welcomeBack', go] : [go], { nudge: go, hint: () => { const n = openNode(); n?.scrollIntoView?.({ block: 'center' }); teacher.point(n); }, replay: () => teacher.seq([go]) });
 }
 
 function countWords(prog) {

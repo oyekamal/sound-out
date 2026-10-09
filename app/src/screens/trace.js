@@ -1,6 +1,7 @@
 // Trace: finger-trace the letter over a faint guide. Score = share of the guide covered by the stroke.
 import { h } from '../ui.js';
 import { mark, play } from '../audio.js';
+import { teacher } from '../teacher.js';
 
 const SIZE = 300, PEN = 30;
 export async function trace(ctx, letter) {
@@ -39,19 +40,25 @@ export async function trace(ctx, letter) {
   const scores = [];
   let round = 1, done;
   const finished = new Promise(r => { done = r; });
+  let helpAt = 0, drew = 0;
+  cv.addEventListener('pointermove', () => { if (down) drew++; });
   cv.addEventListener('pointerup', async () => {
     down = false;
     const c = coverage();
-    if (c < 0.7) return;
+    if (c < 0.7) {   // a stroke that stops short: say how to do it, never "wrong" (at most once every 6 s, and only after a real stroke)
+      if (drew > 6 && Date.now() - helpAt > 6000) { helpAt = Date.now(); drew = 0; mark('trace-help', { letter, coverage: c }); teacher.miss(); await teacher.say('ui:traceHelp'); }
+      return;
+    }
     scores.push(Math.round(c * 100) / 100);
     mark('trace', { letter, coverage: c, round });
     await play('ui:traceGood');
     if (round >= 2) return done();
     round++; status.textContent = 'Trace 2 of 2';
     ig.clearRect(0, 0, SIZE, SIZE); redraw(); meter.firstChild.style.width = '0%';
+    await teacher.say('ui:traceAgain');
   });
   redraw();
-  await ctx.instruct('ui:traceIntro');
+  await ctx.instruct('ui:traceIntro', { nudge: 'ui:idleTrace', hint: () => teacher.point(cv) });
   await ctx.next({ waitFor: finished, skippable: true });
   return { scores };
 }

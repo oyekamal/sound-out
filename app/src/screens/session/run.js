@@ -1,5 +1,6 @@
 // Runs one Level 5-7 practice lesson through the session template. No mini check, no gate: practice.
-import { h, icon } from '../../ui.js';
+import { h, icon, btn } from '../../ui.js';
+import { teacher } from '../../teacher.js';
 import { stop, mark } from '../../audio.js';
 import * as db from '../../db.js';
 import { loadSession, SESSIONS } from './data.js';
@@ -12,6 +13,7 @@ import { discuss } from './discuss.js';
 import { write } from './write.js';
 import { check } from './check.js';
 
+const SS_LINE = { prime: 'ui:ssPrime', warm: 'ui:ssWarm', word: 'ui:ssBuild', fluency: 'ui:ssFlu', text: 'ui:ssRead', discuss: 'ui:ssTalk', write: 'ui:ssWrite', check: 'ui:ssThink' };
 const SCREEN = { warm, word, fluency, prime, text, discuss, write, check };
 export const NAMES = { warm: 'Warm-up', word: 'Word work', fluency: 'Fluency', prime: 'Prime the topic', text: 'Knowledge text', discuss: 'Discussion', write: 'Write to read', check: 'Check' };
 
@@ -33,15 +35,21 @@ export async function runPractice(app, id, { only } = {}) {
   app.mount(root);
   const ctx = {
     track, S,
-    stage() { body.replaceChildren(); foot.replaceChildren(); window.scrollTo(0, 0); const s = h('div', { class: 'screen ss-screen', 'data-step': `ss-${ctx.step}`, 'data-lesson': id }); body.append(s); return s; },
+    stage() {
+      teacher.newScreen(); body.replaceChildren(); foot.replaceChildren(); window.scrollTo(0, 0);
+      const s = h('div', { class: 'screen ss-screen', 'data-step': `ss-${ctx.step}`, 'data-lesson': id }); body.append(s);
+      // one spoken instruction per step (the first screen of it); a stall points at Next / the first thing to tap
+      if (SS_LINE[ctx.step] && ctx.prompted !== ctx.step) { ctx.prompted = ctx.step; setTimeout(() => teacher.prompt(SS_LINE[ctx.step], { nudge: 'ui:idleTap' }), 0); }
+      return s;
+    },
     enableNext: () => {},
     next({ disabledUntil } = {}) {
       return new Promise(res => {
-        const btn = h('button', { class: 'btn primary next' }, 'Next');
-        const update = () => { btn.disabled = disabledUntil ? !disabledUntil() : false; };
+        const nb = btn('Next', 'arrow', { class: 'btn primary next', say: 'ui:next', 'aria-label': 'Next' });
+        const update = () => { nb.disabled = disabledUntil ? !disabledUntil() : false; };
         ctx.enableNext = update; update();
-        btn.addEventListener('click', () => { stop(); res(); });
-        foot.append(btn);
+        nb.addEventListener('click', () => { stop(); res(); });
+        foot.append(nb);
       });
     },
   };
@@ -71,8 +79,9 @@ function endScreen(app, S, result) {
   if (result) s.append(h('p', { class: 'score' }, `You marked ${result.had} of ${result.items} as "I had it"` + (result.nearly ? `, ${result.nearly} nearly` : '') + '.'),
     h('p', { class: 'muted small' }, (result.bar ? `The course bar is ${result.bar}. ` : '') + 'Practice only: nothing is locked by this.'));
   const row = h('div', { class: 'row' });
-  if (nxt) row.append(h('button', { class: 'btn primary ss-nextlesson', onclick: () => runPractice(app, nxt.id) }, `Next: ${nxt.id}`));
+  if (nxt) row.append(btn(`Next: ${nxt.id}`, 'play', { class: 'btn primary ss-nextlesson', say: 'ui:keepGoing', onclick: () => runPractice(app, nxt.id) }));
   row.append(h('button', { class: 'btn ghost ss-tolib', onclick: () => window.__so.practice.library() }, 'Library'));
   s.append(row);
   app.mount(s);
+  teacher.prompt(['ui:miniPass'], { nudge: 'ui:keepGoing', hint: () => teacher.point(s.querySelector('.ss-nextlesson') || s.querySelector('.btn')) });
 }
