@@ -6,9 +6,20 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:android": "vite build --base=./ && rm -rf dist/compare dist/audition dist/compare.html dist/plan.html dist/listen.html dist/voices.html dist/compare-data.json dist/listen-data.json dist/voices-data.json",
+    "android": "npm run build:android && npx cap sync android",
+    "apk": "npm run android && cd android && JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64 ./gradlew assembleDebug",
+    "aab": "npm run android && cd android && set -a && . /home/oye/.kamil-harness/keys/sound-out.env && set +a && JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64 ./gradlew bundleRelease"
   },
   "devDependencies": {
+    "@capacitor/cli": "^7.6.9",
     "vite": "^6.4.3"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.6.9",
+    "@capacitor/app": "^7.1.2",
+    "@capacitor/core": "^7.6.9",
+    "@capacitor/status-bar": "^7.0.6"
   }
 }

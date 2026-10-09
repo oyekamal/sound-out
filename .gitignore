@@ -5,3 +5,15 @@ node_modules/
 *.apk
 tools/.audio_cache/
 __pycache__/
+*.keystore
+*.jks
+sound-out.env
+app/android/build/
+app/android/app/build/
+app/android/.gradle/
+app/android/local.properties
+app/android/app/src/main/assets/public/
+app/android/app/src/main/assets/capacitor.config.json
+app/android/app/src/main/assets/capacitor.plugins.json
+app/android/capacitor-cordova-android-plugins/
+app/android/.idea/

@@ -5,6 +5,7 @@ import { home } from './home.js';
 import { runSitting } from './session.js';
 import { nextOpen, allSittings } from './path.js';
 import { stop } from './audio.js';
+import { initNative } from './native.js';
 import './screens/session/index.js'; // Levels 5-7 practice (Library + session screens)
 
 const root = document.getElementById('app');
@@ -25,4 +26,5 @@ const app = {
 };
 window.__so = window.__so || { trace: [], missing: [] };
 window.__so.app = app;
+initNative(app);
 app.boot();

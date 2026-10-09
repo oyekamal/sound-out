@@ -1,0 +1,15 @@
+{
+  "appId": "com.oyekamal.soundout",
+  "appName": "Sound Out: Read English",
+  "webDir": "dist",
+  "server": { "androidScheme": "https" },
+  "android": {
+    "allowMixedContent": false,
+    "backgroundColor": "#f6f1e7",
+    "adjustMarginsForEdgeToEdge": "force"
+  },
+  "plugins": {
+    "SplashScreen": { "launchShowDuration": 0 },
+    "StatusBar": { "style": "LIGHT", "backgroundColor": "#f6f1e7", "overlaysWebView": false }
+  }
+}
