@@ -1,0 +1,43 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Round 3: Tilo</title><style>
+:root{--bg:#faf6ef;--fg:#2b2a33;--card:#fff;--ac:#2a7f78;--mut:#6b6872}
+@media(prefers-color-scheme:dark){:root{--bg:#17161c;--fg:#eee;--card:#23222b;--ac:#6fd3c9;--mut:#a9a6b3}}
+*{box-sizing:border-box}body{margin:0 auto;background:var(--bg);color:var(--fg);font:16px/1.45 system-ui,sans-serif;padding:16px;max-width:1000px}
+h1{font-size:24px;margin:8px 0}h2{font-size:17px;margin:0 0 10px}p{margin:6px 0}section{background:var(--card);border-radius:14px;padding:14px;margin:14px 0}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:10px}figure{margin:0;text-align:center}figure img{width:100%;height:auto;border-radius:10px;display:block;border:1px solid #0001}
+figcaption{font-weight:700;margin-top:4px}button{font:inherit;padding:6px 18px;border-radius:8px;border:2px solid var(--ac);background:none;color:var(--fg);cursor:pointer}
+.vote{margin-top:10px}.rev{margin-top:8px;font-size:15px;color:var(--mut)}#reveal{background:var(--ac);color:#fff;border:0;padding:10px 22px;font-weight:700}
+.board img{width:100%;height:auto;border-radius:10px;display:block;background:#fff}
+.icons{display:flex;gap:18px;flex-wrap:wrap;align-items:flex-end}.tile{display:flex;gap:10px;align-items:flex-end;padding:12px;border-radius:12px}
+.icons figure{font-size:12px;color:var(--mut)}.px img{border:0;border-radius:0}
+.mouths{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.mouths img{background:#fff;border-radius:10px;border:0}
+.note{color:var(--mut);font-size:14px}
+</style></head><body>
+<h1>Round 3: which is ours?</h1>
+<p>Five pairs. Each pair is one real Duolingo ABC lesson screen and one real Sound Out screen with Tilo placed into it. Both are cropped to the lesson area and shown at the same size. The A/B side is random. Pick the side where you would rather be taught to read, then press reveal. The key is derived from the files on disk and checked pixel for pixel when the pairs are built.</p>
+<div id="pairs"></div>
+<p><button id="reveal" onclick="reveal()">Reveal answers</button> <span id="rv"></span></p>
+
+<section><h2>App icon, dedicated (not a crop): 192, 96 and 48 px</h2>
+<div class="icons">
+<div class="tile" style="background:#fff"><figure class="px"><img src="tilo/icon_192.png" width="192" height="192" alt=""><figcaption>192</figcaption></figure><figure class="px"><img src="tilo/icon_96.png" width="96" height="96" alt=""><figcaption>96</figcaption></figure><figure class="px"><img src="tilo/icon_48.png" width="48" height="48" alt=""><figcaption>48</figcaption></figure></div>
+<div class="tile" style="background:#17161c"><figure class="px"><img src="tilo/icon_96.png" width="96" height="96" alt=""><figcaption>96 on dark</figcaption></figure><figure class="px"><img src="tilo/icon_48.png" width="48" height="48" alt=""><figcaption>48 on dark</figcaption></figure></div>
+<div class="tile" style="background:#f5efe2"><figure class="px"><img src="tilo/icon_48.png" width="48" height="48" alt=""><figcaption>48</figcaption></figure><figure class="px"><img src="tilo/icon_48.png" width="32" height="32" alt=""><figcaption>32</figcaption></figure></div>
+</div>
+<p class="note">Six flat shapes on a solid sun-yellow field: long boxy head, nose pad, cream muzzle, one bright eye with a highlight, tiny high ear, and the teal bead as the single accent. Drawn as vectors by tools/make_icon.py.</p></section>
+
+<section class="board"><h2>Poses: listen, think, model a sound, try again, celebrate, wait, point</h2><img src="tilo/sheet_poses.png" alt=""></section>
+<section class="board"><h2>Silhouette check: each pose filled black</h2><img src="tilo/sheet_silhouettes.png" alt="">
+<p class="note">Pairwise overlap (IoU) of the filled shapes is in tilo/silhouette_iou.json. Wait (low loaf), point (arm up), celebrate (arms up) and listen (head thrust forward) separate well. Think, model and try are still close to each other.</p></section>
+<section class="board"><h2>Faces: rest, listen, think, proud, encouraging try-again, speak, then the three mouth shapes</h2><img src="tilo/sheet_faces.png" alt=""></section>
+<section><h2>Mouth shapes for the app: mmm, aaa, ooo</h2><div class="mouths"><figure><img src="tilo/face_mouth_mmm.png" alt=""><figcaption>mmm</figcaption></figure><figure><img src="tilo/face_mouth_aaa.png" alt=""><figcaption>aaa</figcaption></figure><figure><img src="tilo/face_mouth_ooo.png" alt=""><figcaption>ooo</figcaption></figure></div></section>
+<section class="board"><h2>Reference (locked identity, new open warm eyes)</h2><img src="tilo/ref_alpha.png" alt="" style="max-width:480px;margin:auto"></section>
+<script>
+const N=5,box=document.getElementById('pairs');
+for(let i=1;i<=N;i++){box.insertAdjacentHTML('beforeend','<section><h2>Pair '+i+'</h2><div class="pair"><figure><img src="round3/p'+i+'_A.png" alt=""><figcaption>A</figcaption></figure><figure><img src="round3/p'+i+'_B.png" alt=""><figcaption>B</figcaption></figure></div><div class="vote">Which one would you want teaching you to read? <button onclick="v('+i+',\'A\')">A</button> <button onclick="v('+i+',\'B\')">B</button> <span id="v'+i+'"></span></div><div class="rev" id="r'+i+'"></div></section>')}
+const votes={};function v(s,x){votes[s]=x;document.getElementById('v'+s).textContent='you picked '+x}
+function reveal(){const sc=document.createElement('script');sc.src='round3_key.js';sc.onload=()=>{let won=0,n=0;
+for(const k in KEY){const s=k.slice(1),e=KEY[k];document.getElementById('r'+s).innerHTML='<b>Ours is '+e.ours+'</b> (Sound Out screen '+e.screen+', Tilo pose: '+e.tilo_pose+').';
+if(votes[s]){n++;if(votes[s]===e.ours)won++}}
+document.getElementById('rv').textContent=n?('You picked ours '+won+' of '+n+' times.'):'Pick sides first to get a tally.'};document.body.appendChild(sc)}
+</script></body></html>

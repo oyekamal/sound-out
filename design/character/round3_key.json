@@ -1,0 +1,42 @@
+{
+ "p1": {
+  "ours": "A",
+  "screen": "A_01_who-is-reading.png",
+  "tilo_pose": "wait",
+  "duolingo_shot": "duolingo_abc_3.jpg",
+  "file_ours": "p1_A.png",
+  "sha1_ours": "61b58f14b7"
+ },
+ "p2": {
+  "ours": "B",
+  "screen": "A_03_oral-first-What_sound_does_it_start.png",
+  "tilo_pose": "point",
+  "duolingo_shot": "duolingo_abc_4.jpg",
+  "file_ours": "p2_B.png",
+  "sha1_ours": "fa0c1d68a2"
+ },
+ "p3": {
+  "ours": "A",
+  "screen": "A_04_oral-blend-Which_word_do_the_sounds.png",
+  "tilo_pose": "listen",
+  "duolingo_shot": "duolingo_abc_5.jpg",
+  "file_ours": "p3_A.png",
+  "sha1_ours": "23ccb761f1"
+ },
+ "p4": {
+  "ours": "B",
+  "screen": "A_05_oral-count-How_many_sounds.png",
+  "tilo_pose": "try",
+  "duolingo_shot": "duolingo_abc_8.jpg",
+  "file_ours": "p4_B.png",
+  "sha1_ours": "f702804c6a"
+ },
+ "p5": {
+  "ours": "A",
+  "screen": "A_06_preview-Two_letters_for_next_tim.png",
+  "tilo_pose": "celebrate",
+  "duolingo_shot": "duolingo_abc_7.jpg",
+  "file_ours": "p5_A.png",
+  "sha1_ours": "a5e42c3e2b"
+ }
+}

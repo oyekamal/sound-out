@@ -1,0 +1,23 @@
+{
+ "listen-think": 0.86,
+ "listen-model": 0.86,
+ "listen-try": 0.87,
+ "listen-celebrate": 0.79,
+ "listen-wait": 0.73,
+ "listen-point": 0.85,
+ "think-model": 0.85,
+ "think-try": 0.88,
+ "think-celebrate": 0.81,
+ "think-wait": 0.79,
+ "think-point": 0.83,
+ "model-try": 0.88,
+ "model-celebrate": 0.78,
+ "model-wait": 0.71,
+ "model-point": 0.9,
+ "try-celebrate": 0.78,
+ "try-wait": 0.76,
+ "try-point": 0.85,
+ "celebrate-wait": 0.71,
+ "celebrate-point": 0.82,
+ "wait-point": 0.69
+}
