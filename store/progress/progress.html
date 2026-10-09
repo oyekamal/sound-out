@@ -1,0 +1,126 @@
+<title>Sound Out Build Room</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Lexend:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: a workbench. Scoreboard of gauntlet rounds up top, workstream lanes, the character wall, then a running log. */
+:root{
+  --bg:#F3F5F4; --surface:#FFFFFF; --ink:#16231F; --muted:#5B6B66; --line:#D9E1DE;
+  --teal:#0F8C82; --russet:#A4532B; --win:#1E8A4C; --lose:#B83A2E; --wait:#B7791F;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"Lexend",ui-sans-serif,system-ui,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0F1614; --surface:#17211E; --ink:#E6EEEB; --muted:#93A6A0; --line:#273532;
+  --teal:#3CC3B6; --russet:#E08A5C; --win:#52C47F; --lose:#F07466; --wait:#E3AA4E; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0F1614; --surface:#17211E; --ink:#E6EEEB; --muted:#93A6A0; --line:#273532;
+  --teal:#3CC3B6; --russet:#E08A5C; --win:#52C47F; --lose:#F07466; --wait:#E3AA4E; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.55}
+.wrap{max-width:1080px;margin:0 auto;padding-inline:20px;padding-block:28px 64px;display:grid;gap:40px}
+h1,h2{font-family:var(--display);text-wrap:balance;margin:0}
+h1{font-size:clamp(28px,5vw,44px);font-weight:800;letter-spacing:-.02em}
+h2{font-size:20px;font-weight:800;margin-bottom:14px}
+.eyebrow{font:600 12px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--teal)}
+header{display:grid;gap:10px}
+header p{margin:0;color:var(--muted);max-width:62ch}
+.stamp{font:12px var(--mono);color:var(--muted)}
+.score{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.round{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:grid;gap:4px;min-width:0}
+.round .name{font-size:13px;color:var(--muted)}
+.round .val{font:800 28px/1.1 var(--display);font-variant-numeric:tabular-nums}
+.round .note{font-size:13px}
+.round.win .val{color:var(--win)} .round.lose .val{color:var(--lose)} .round.wait .val{color:var(--wait)}
+.lanes{display:grid;gap:10px}
+.lane{display:grid;grid-template-columns:150px 1fr;gap:16px;padding:14px 0;border-top:1px solid var(--line)}
+.lane:first-child{border-top:0}
+.lane h3{margin:0 0 6px;font:600 15px var(--body)}
+.lane p{margin:0;min-width:0}
+.lane .next{color:var(--muted);font-size:14px;margin-top:6px}
+.pill{display:inline-block;font:600 11px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;padding:5px 8px;border-radius:99px;border:1px solid currentColor}
+.pill.done{color:var(--win)} .pill.running{color:var(--teal)} .pill.blocked{color:var(--lose)} .pill.waiting{color:var(--wait)}
+.wall{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px}
+figure{margin:0;background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden;display:grid}
+figure img{width:100%;aspect-ratio:4/3;object-fit:contain;background:#fff}
+figcaption{padding:10px 12px;font-size:13px;display:grid;gap:4px}
+figcaption b{font-weight:600}
+.verdict{font:12px var(--mono);color:var(--muted)}
+.need{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--wait);border-radius:8px;padding:12px 14px;display:grid;gap:6px}
+.need ul{margin:0;padding-left:18px}
+ol.log{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+ol.log li{display:grid;grid-template-columns:120px 1fr;gap:12px;font-size:14px}
+ol.log time{font:12px var(--mono);color:var(--muted);padding-top:2px}
+ol.log span{min-width:0}
+.empty{color:var(--muted);font-size:14px}
+@media (max-width:560px){.lane{grid-template-columns:1fr;gap:6px} ol.log li{grid-template-columns:1fr;gap:2px}}
+</style>
+
+<div class="wrap">
+  <header>
+    <span class="eyebrow">Gauntlet vs Duolingo ABC</span>
+    <h1>Sound Out Build Room</h1>
+    <p>The Play Store app for Sound Out: Read English, built in loops. Each piece is judged blind against Duolingo ABC by a separate critic, and loops until it wins.</p>
+    <span class="stamp" id="stamp">Loading the latest state…</span>
+  </header>
+
+  <section>
+    <h2>Blind rounds</h2>
+    <div class="score" id="rounds"><p class="empty">Round results appear here as critics report.</p></div>
+  </section>
+
+  <section>
+    <h2>Workstreams</h2>
+    <div class="lanes" id="tracks"><p class="empty">Workstreams appear here once the first update lands.</p></div>
+  </section>
+
+  <section id="needsec" hidden>
+    <h2>Waiting on Kamal</h2>
+    <div class="need" id="needs"></div>
+  </section>
+
+  <section>
+    <h2>The character</h2>
+    <div class="wall" id="gallery"><p class="empty">Concepts and pose sheets appear here round by round.</p></div>
+  </section>
+
+  <section>
+    <h2>Log</h2>
+    <ol class="log" id="log"><li class="empty">Every agent result is logged here.</li></ol>
+  </section>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt = iso => { try { return new Date(iso).toLocaleString([], {month:"short", day:"numeric", hour:"2-digit", minute:"2-digit"}); } catch { return iso; } };
+let latest = "";
+function bump(iso){ if (iso && iso > latest){ latest = iso; $("stamp").textContent = "Last update " + fmt(iso); } }
+
+function rows(snap){ return snap.docs.map(d => ({id:d.id, ...d.data()})); }
+
+const views = {
+  rounds: r => `<div class="round ${esc(r.result)}"><span class="name">${esc(r.name)}</span><span class="val">${esc(r.score)}</span><span class="note">${esc(r.note)}</span></div>`,
+  tracks: t => `<div class="lane"><div><span class="pill ${esc(t.state)}">${esc(t.state)}</span></div><div><h3>${esc(t.name)}</h3><p>${esc(t.summary)}</p>${t.next ? `<p class="next">Next: ${esc(t.next)}</p>` : ""}</div></div>`,
+  gallery: g => `<figure>${g.url ? `<img src="${esc(g.url)}" alt="${esc(g.title)}" loading="lazy">` : ""}<figcaption><b>${esc(g.title)}</b><span>${esc(g.caption)}</span>${g.verdict ? `<span class="verdict">${esc(g.verdict)}</span>` : ""}</figcaption></figure>`,
+  log: l => `<li><time>${esc(fmt(l.at))}</time><span>${esc(l.text)}</span></li>`
+};
+
+(async () => {
+  const db = await claude.use("db");
+  if (!db) { $("stamp").textContent = "Sign in to claude.ai to see live progress."; return; }
+  const watch = (name, q, el, view) => q.onSnapshot(s => {
+    const rs = rows(s);
+    rs.forEach(r => bump(r.at || r.updated));
+    if (rs.length) $(el).innerHTML = rs.map(view).join("");
+  }, () => { $("stamp").textContent = "Live updates paused. Reload the page to reconnect."; });
+  watch("rounds", db.collection("rounds").orderBy("order"), "rounds", views.rounds);
+  watch("tracks", db.collection("tracks").orderBy("order"), "tracks", views.tracks);
+  watch("gallery", db.collection("gallery").orderBy("order", "desc"), "gallery", views.gallery);
+  watch("log", db.collection("log").orderBy("at", "desc").limit(60), "log", views.log);
+  db.collection("needs").orderBy("order").onSnapshot(s => {
+    const rs = rows(s);
+    $("needsec").hidden = !rs.length;
+    $("needs").innerHTML = `<ul>${rs.map(n => `<li>${esc(n.text)}</li>`).join("")}</ul>`;
+  });
+})();
+</script>
