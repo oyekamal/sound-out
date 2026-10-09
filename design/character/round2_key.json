@@ -1,0 +1,20 @@
+{
+ "p1": {
+  "ours": "A",
+  "screen": "A_03_oral-first-What_sound_does_it_start.png",
+  "kapi_pose": "point",
+  "duolingo_shot": "duolingo_abc_5.jpg"
+ },
+ "p2": {
+  "ours": "B",
+  "screen": "A_04_oral-blend-Which_word_do_the_sounds.png",
+  "kapi_pose": "listen",
+  "duolingo_shot": "duolingo_abc_3.jpg"
+ },
+ "p3": {
+  "ours": "A",
+  "screen": "A_01_who-is-reading.png",
+  "kapi_pose": "wait",
+  "duolingo_shot": "duolingo_abc_7.jpg"
+ }
+}

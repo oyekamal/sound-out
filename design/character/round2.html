@@ -1,0 +1,40 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Round 2 blind compare</title><style>
+:root{--bg:#faf6ef;--fg:#2b2a33;--card:#fff;--ac:#2a7f78;--mut:#6b6872}
+@media(prefers-color-scheme:dark){:root{--bg:#17161c;--fg:#eee;--card:#23222b;--ac:#6fd3c9;--mut:#a9a6b3}}
+*{box-sizing:border-box}body{margin:0 auto;background:var(--bg);color:var(--fg);font:16px/1.45 system-ui,sans-serif;padding:16px;max-width:980px}
+h1{font-size:24px;margin:8px 0}h2{font-size:17px;margin:0 0 10px}p{margin:6px 0}section{background:var(--card);border-radius:14px;padding:14px;margin:14px 0}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:10px}figure{margin:0;text-align:center}figure img{width:100%;height:auto;border-radius:10px;display:block;border:1px solid #0001}
+figcaption{font-weight:700;margin-top:4px}button{font:inherit;padding:6px 18px;border-radius:8px;border:2px solid var(--ac);background:none;color:var(--fg);cursor:pointer}
+.vote{margin-top:10px}.rev{margin-top:8px;font-size:15px;color:var(--mut)}#reveal{background:var(--ac);color:#fff;border:0;padding:10px 22px;font-weight:700}
+.sheet img{width:100%;height:auto;border-radius:10px;display:block;background:#fff}
+.icons{display:flex;gap:18px;flex-wrap:wrap;align-items:flex-end}.tile{display:flex;gap:10px;align-items:flex-end;padding:12px;border-radius:12px}
+.icons figure{font-size:12px;color:var(--mut)}.nn img{image-rendering:auto}.px img{border:0;border-radius:0}
+.note{color:var(--mut);font-size:14px}
+</style></head><body>
+<h1>Round 2: which is ours?</h1>
+<p>Each pair shows one real lesson screen from a Duolingo ABC screenshot and one real Sound Out screen with Kapi placed into it. Both are cropped to the lesson area (no marketing text, no phone frame), shown at the same size, and the A/B side is random. Pick the side where you would rather be taught to read, then press reveal.</p>
+<section><h2>Pair 1</h2><div class="pair"><figure><img src="round2/p1_A.png" alt=""><figcaption>A</figcaption></figure><figure><img src="round2/p1_B.png" alt=""><figcaption>B</figcaption></figure></div><div class="vote">Which one would you want teaching you to read? <button onclick="v(1,'A')">A</button> <button onclick="v(1,'B')">B</button> <span id="v1"></span></div><div class="rev" id="r1"></div></section>
+<section><h2>Pair 2</h2><div class="pair"><figure><img src="round2/p2_A.png" alt=""><figcaption>A</figcaption></figure><figure><img src="round2/p2_B.png" alt=""><figcaption>B</figcaption></figure></div><div class="vote">Which one would you want teaching you to read? <button onclick="v(2,'A')">A</button> <button onclick="v(2,'B')">B</button> <span id="v2"></span></div><div class="rev" id="r2"></div></section>
+<section><h2>Pair 3</h2><div class="pair"><figure><img src="round2/p3_A.png" alt=""><figcaption>A</figcaption></figure><figure><img src="round2/p3_B.png" alt=""><figcaption>B</figcaption></figure></div><div class="vote">Which one would you want teaching you to read? <button onclick="v(3,'A')">A</button> <button onclick="v(3,'B')">B</button> <span id="v3"></span></div><div class="rev" id="r3"></div></section>
+<p><button id="reveal" onclick="reveal()">Reveal answers</button> <span id="rv"></span></p>
+
+<section><h2>48 px icon strip</h2>
+<div class="icons">
+<div class="tile" style="background:#f5efe2"><figure class="px"><img src="kapi/icon_48.png" width="48" height="48" alt=""><figcaption>48 px</figcaption></figure><figure class="px"><img src="kapi/icon_48.png" width="32" height="32" alt=""><figcaption>32 px</figcaption></figure><figure class="px"><img src="kapi/icon_48.png" width="24" height="24" alt=""><figcaption>24 px</figcaption></figure></div>
+<div class="tile" style="background:#2a7f78"><figure class="px"><img src="kapi/icon_48.png" width="48" height="48" alt=""><figcaption style="color:#fff">on teal</figcaption></figure></div>
+<div class="tile" style="background:#17161c"><figure class="px"><img src="kapi/icon_48.png" width="48" height="48" alt=""><figcaption>on dark</figcaption></figure></div>
+<div class="tile" style="background:#fff"><figure class="px"><img src="kapi/icon_48.png" width="48" height="48" alt=""><figcaption>on white</figcaption></figure><figure><img src="kapi/icon_192.png" width="96" height="96" alt="" style="border:0"><figcaption>192 px source at 96</figcaption></figure></div>
+</div>
+<p class="note">The icon is a head crop: long boxy snout, tiny high ear with the teal bead. Silhouette alone separates it from a bear.</p></section>
+
+<section class="sheet"><h2>Teaching poses (listen, point, model a sound, gentle correction, rest, celebrate)</h2><img src="kapi/sheet_poses.png" alt=""></section>
+<section class="sheet"><h2>Six expressions (listen, think, proud, try again, wait, speak)</h2><img src="kapi/sheet_faces.png" alt=""></section>
+<section class="sheet"><h2>Reference (locked identity)</h2><img src="kapi/ref_alpha.png" alt="" style="max-width:480px;margin:auto"></section>
+<script>
+const votes={};function v(s,x){votes[s]=x;document.getElementById('v'+s).textContent='you picked '+x}
+function reveal(){const sc=document.createElement('script');sc.src='round2_key.js';sc.onload=()=>{let won=0,n=0;
+for(const k in KEY){const s=k.slice(1),e=KEY[k];document.getElementById('r'+s).innerHTML='<b>Ours is '+e.ours+'</b> (Sound Out screen with Kapi, pose: '+e.kapi_pose+').';
+if(votes[s]){n++;if(votes[s]===e.ours)won++}}
+document.getElementById('rv').textContent=n?('You picked ours '+won+' of '+n+' times.'):'Pick sides first to get a tally.'};document.body.appendChild(sc)}
+</script></body></html>
