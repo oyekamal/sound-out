@@ -140,3 +140,32 @@ canvas.trace { width: min(300px, 80vw); aspect-ratio: 1; background: var(--card)
 .sentence { font: 600 2rem/1.4 var(--read); text-align: center; margin: 18px 0; } .sentence .target { background: var(--hl); border-radius: 8px; padding: 0 4px; }
 table.mastery { border-collapse: collapse; width: 100%; max-width: 380px; margin: 10px auto; } table.mastery td, table.mastery th { padding: 6px 8px; border-bottom: 1px solid var(--line); text-align: left; }
 table.mastery tr.unmet td { color: var(--bad); }
+
+/* ---- the teacher (teacher.js) ---- */
+[hidden] { display: none !important; }   /* an author rule like .selfrow { display: flex } must not beat the hidden attribute */
+[data-say] { -webkit-touch-callout: none; user-select: none; -webkit-user-select: none; }
+.ear { position: fixed; z-index: 40; top: calc(8px + env(safe-area-inset-top, 0px)); right: max(10px, calc((100vw - 480px) / 2 + 10px)); width: 58px; height: 58px; border-radius: 50%; border: 0;
+  background: var(--accent); color: #fff; box-shadow: var(--shadow); display: grid; place-items: center; padding: 0; }
+.ear .ear-ic svg { width: 34px; height: 34px; display: block; }
+.ear.playing { animation: pulse .8s ease-in-out infinite; }
+.ear.attn { outline: 5px solid var(--hl); outline-offset: 3px; animation: pulse 1s ease-in-out infinite; }
+header.hdr, .homehdr { padding-right: 70px; }
+.onboard { padding-top: 12vh; }
+.nudge { outline: 5px solid var(--hl); outline-offset: 3px; animation: pulse 1.1s ease-in-out 5; }
+.opt.nudge, .printed .g.nudge { border-radius: 14px; }
+.btn .bi svg, .opt-pick .bi svg, .node .bi svg { width: 22px; height: 22px; }
+.btn .bi, .opt-pick .bi { display: inline-grid; margin-right: 8px; vertical-align: middle; position: static; }
+.btn, .opt-pick { display: inline-flex; align-items: center; justify-content: center; }
+.opt-pick { display: flex; }
+.btn.primary.next .bi { margin-right: 0; margin-left: 0; } .btn.primary.next { gap: 8px; }
+.btn.primary.next .bi svg { width: 28px; height: 28px; }
+.track-A .foot .next .bl { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }   /* child track: the arrow is the button, "Next" is spoken and read by screen readers */
+.track-A .foot .next { min-width: 120px; min-height: 64px; }
+.close { display: grid; place-items: center; color: var(--accent); } .close svg { width: 28px; height: 28px; }
+#teacher-start { position: fixed; inset: 0; z-index: 100; background: rgba(246, 241, 231, .96); display: grid; place-content: center; justify-items: center; gap: 18px; text-align: center; }
+#teacher-start .startbtn { width: 190px; height: 190px; border-radius: 50%; border: 0; background: var(--accent); color: #fff; box-shadow: var(--shadow); display: grid; place-items: center; position: relative; animation: pulse 1.4s ease-in-out infinite; }
+#teacher-start .ear-ic svg { width: 96px; height: 96px; } #teacher-start .pl { position: absolute; right: 22px; bottom: 22px; background: #fff; color: var(--accent); border-radius: 50%; width: 54px; height: 54px; display: grid; place-items: center; }
+#teacher-start .pl svg { width: 28px; height: 28px; margin-left: 3px; } #teacher-start p { font-size: 1.3rem; font-weight: 700; color: var(--accent); margin: 0; }
+.opt-pick { white-space: nowrap; font-size: .95rem; padding: 9px 8px; } .opt-pick .bi { margin-right: 6px; } .opt-pick .bi svg { width: 20px; height: 20px; }
+.options.three > .opt:last-child:nth-child(odd) { grid-column: auto; }   /* three options sit in one row (the 2x2 early-check rule above is for the 3-option chain) */
+.options.three .opt-pick .bl { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); } .options.three .opt-pick .bi { margin: 0; }   /* three across: the tick is the button, "This one" is spoken */

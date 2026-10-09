@@ -23,7 +23,23 @@ export const ICON = {
   heart: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z" fill="currentColor"/></svg>',
   globe: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2" fill="none"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18" stroke="currentColor" stroke-width="1.6" fill="none"/></svg>',
 };
+Object.assign(ICON, {
+  arrow: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+  home: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 11.5 12 4l8.5 7.5" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M6 10.5V20h12v-9.5" fill="currentColor"/><rect x="10" y="14" width="4" height="6" fill="#fffdf8"/></svg>',
+  skip: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5.5 14 12l-9 6.5z" fill="currentColor"/><path d="M18 5v14" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>',
+  play: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5 20 12 7 19.5z" fill="currentColor"/></svg>',
+  mic: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3" fill="currentColor"/><path d="M5.5 11.5a6.5 6.5 0 0 0 13 0M12 18v3" stroke="currentColor" stroke-width="2.2" fill="none" stroke-linecap="round"/></svg>',
+  book: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 5.5c3-1 6-.8 8.5 1 2.5-1.800 5.500-2 8.500-1V19c-3-1-6-.8-8.500 1-2.500-1.800-5.500-2-8.500-1z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M12 6.500V20" stroke="currentColor" stroke-width="2.200"/></svg>',
+  question: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.500 9a3.500 3.500 0 1 1 5 3.100c-1 .6-1.500 1.200-1.500 2.400" stroke="currentColor" stroke-width="2.600" fill="none" stroke-linecap="round"/><circle cx="12" cy="19" r="1.600" fill="currentColor"/></svg>',
+  ear: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 9.500a4.500 4.500 0 0 1 9 0c0 2.600-2 3.400-3 4.700-.7.900-.7 1.600-.7 2.300a2.800 2.800 0 0 1-5.300 1.200" stroke="currentColor" stroke-width="2.200" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M10.800 9.800a1.800 1.800 0 0 1 3.600 0c0 1-.7 1.400-1.300 2" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/><path d="M3.300 8.500a8 8 0 0 1 2-3.200M2 12.500a11 11 0 0 1 .5-2.300" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>',
+});
 export const icon = (name, cls = 'icon') => h('span', { class: cls, html: ICON[name] });
+
+// A button that carries an icon as well as its word. `say` = the clip a press-and-hold speaks (teacher.js).
+export function btn(label, name, attrs = {}) {
+  const say = attrs.say; delete attrs.say;
+  return h('button', { ...attrs, 'data-say': say || null }, name ? icon(name, 'icon bi') : null, h('span', { class: 'bl' }, label));
+}
 
 // A speaker button: plays one clip (or a sequence via onplay) and pulses while playing.
 export function speaker(key, { label = 'Hear it again', big = false, onplay } = {}) {

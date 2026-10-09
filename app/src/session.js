@@ -1,6 +1,7 @@
 // Runs one sitting: a list of steps from the lesson JSON (appSittings), then the mini check and rewards.
 import { play, stop, mark, has } from './audio.js';
-import { h, icon, pebble, village, STICKERS } from './ui.js';
+import { h, icon, btn, pebble, village, STICKERS } from './ui.js';
+import { teacher } from './teacher.js';
 import * as db from './db.js';
 import { review, due } from './scheduler.js';
 import { lessonById, sittingsFor, blendItems, spellWords, entry, LESSONS, options } from './content.js';
@@ -18,6 +19,7 @@ import { gate } from './gate.js';
 import { L1_STEPS } from './screens/l1steps.js';
 import { LEVEL_STEPS } from './screens/levelsteps.js';
 
+const NUDGE = { hear: 'ui:idleTap', meet: 'ui:idleTap', teach: 'ui:idleTap', rule: 'ui:idleTap', trace: 'ui:idleTrace', blend: 'ui:idleSay', read: 'ui:idleSay', attack: 'ui:idleSay', tricky: 'ui:idleTap' };
 export const MINI_BAR = 0.8;   // course mini checks are 4/5 and 7/8
 
 // Every grapheme taught before this sitting starts (track-aware), and after it ends.
@@ -36,33 +38,47 @@ export async function runSitting(app, profile, key) {
   const known = knownBefore(track, key);
   const root = h('div', { class: `sitting track-${track}` });
   const bar = h('div', { class: 'progress' }, h('i'));
-  let lastInstr = null;
-  const again = h('button', { class: 'speaker hdr', 'aria-label': 'Hear it again', onclick: () => lastInstr && play(lastInstr) }, icon('speaker'));
-  const close = h('button', { class: 'close', 'aria-label': 'Stop and go home', onclick: () => { stop(); app.home(); } }, '×');
+  const close = h('button', { class: 'close', 'aria-label': 'Stop and go home', 'data-say': 'ui:goHome', onclick: () => { stop(); app.home(); } }, icon('home'));
   const body = h('main', { class: 'stage' });
   const foot = h('footer', { class: 'foot' });
-  root.append(h('header', { class: 'hdr' }, close, bar, again), body, foot);
+  root.append(h('header', { class: 'hdr' }, close, bar), body, foot);
   app.mount(root);
   let stepN = 0; const totalSteps = sitting.steps.length;
   const ctx = {
     track, lesson, sitting, profile,
-    stage() { body.replaceChildren(); foot.replaceChildren(); const s = h('div', { class: 'screen', 'data-step': ctx.step || '' }); body.append(s); return s; },
-    async instruct(k) { lastInstr = k; await play(k); },
+    stage() { teacher.newScreen(); body.replaceChildren(); foot.replaceChildren(); const s = h('div', { class: 'screen', 'data-step': ctx.step || '' }); body.append(s); return s; },
+    // say what to do (then the stimulus); the ear button and the idle ladder say it again. A pending arc line
+    // ("halfway", "last one") goes in front of the first prompt of its step.
+    async instruct(k, opts) {
+      const pre = ctx.pre; ctx.pre = null;
+      const keys = [...(pre ? [`ui:${pre}`] : []), ...(Array.isArray(k) ? k : [k])];
+      return teacher.prompt(keys, { nudge: NUDGE[String(ctx.step).split('-')[0]] || 'ui:idlePick', ...opts });
+    },
     enableNext: () => {},
-    next({ disabledUntil, waitFor, skippable } = {}) {
+    next({ disabledUntil, waitFor, skippable } = {}, narrate) {
       return new Promise(res => {
-        const btn = h('button', { class: 'btn primary next' }, 'Next');
-        const update = () => { btn.disabled = disabledUntil ? !disabledUntil() : false; };
+        const nb = btn('Next', 'arrow', { class: 'btn primary next', say: 'ui:next', 'aria-label': 'Next' });
+        let was = false;
+        const update = () => {
+          nb.disabled = disabledUntil ? !disabledUntil() : false;
+          if (!nb.disabled && !was && !nb.hidden) { was = true; arrowHelp(); }
+        };
+        // the first Next of a sitting is explained once: "Tap the arrow to go on."; later ones are pointed at when the learner stalls
+        const arrowHelp = () => {
+          teacher.setIdle({ nudge: 'ui:idleArrow', hint: () => teacher.point(nb) });
+          if (!ctx.arrowTold) { ctx.arrowTold = true; teacher.say('ui:tapArrow'); }
+        };
         ctx.enableNext = update; update();
-        btn.addEventListener('click', () => { stop(); res(); });
+        nb.addEventListener('click', () => { stop(); res(); });
         if (waitFor) {
-          btn.hidden = true;
-          const skip = h('button', { class: 'btn ghost skip' }, 'Skip');
+          nb.hidden = true;
+          const skip = btn('Skip', 'skip', { class: 'btn ghost skip', say: 'ui:skip' });
           skip.addEventListener('click', () => { stop(); mark('skip', { step: ctx.step }); res(); });
           foot.append(skip);
-          waitFor.then(() => { skip.remove(); btn.hidden = false; });
+          waitFor.then(() => { skip.remove(); nb.hidden = false; update(); });
         }
-        foot.append(btn);
+        foot.append(nb);
+        if (narrate) Promise.resolve(narrate()).catch(e => console.error(e));   // narration that runs while Next is already on screen
       });
     },
     async record(item, kind, r) {
@@ -75,10 +91,18 @@ export async function runSitting(app, profile, key) {
     rememberWord: w => { prog.words = [...new Set([...(prog.words || []), w])]; },
     hasClip: has,
   };
-  const step = n => { ctx.step = n; stepN++; bar.firstChild.style.width = Math.round(100 * stepN / (totalSteps + 1)) + '%'; mark('step', { key, step: n }); };
+  const step = n => {
+    ctx.step = n; stepN++;
+    if (totalSteps >= 4 && stepN === Math.ceil(totalSteps / 2) + 1) ctx.pre = 'halfway';        // session arc: halfway ...
+    else if (totalSteps >= 3 && stepN === totalSteps) ctx.pre = 'lastOne';                       // ... and the last step
+    bar.firstChild.style.width = Math.round(100 * stepN / (totalSteps + 1)) + '%'; mark('step', { key, step: n });
+  };
   let checkResult = null;
+  teacher.track(track);
+  let began = false;
   for (const st of sitting.steps) {
     step(st);
+    if (!began) { began = true; ctx.pre = 'begin'; }   // "Let's begin." leads the first prompt of every sitting
     if (st === 'warm') {
       const cards = (await due(profile.id, prog.sittingCount || 0, track === 'A' ? 3 : 6));
       const letters = [...new Set([...cards.filter(c => c.kind === 'letter').map(c => c.item.split(':')[1]), ...known.slice(-2)])].filter(l => known.includes(l)).slice(0, track === 'A' ? 3 : 6);
@@ -116,6 +140,7 @@ export async function runSitting(app, profile, key) {
   const judged = results.length, correct = results.filter(r => r.correct).length;
   const passed = checkResult ? (checkResult.mastery ? checkResult.result === 'checked' : checkResult.result !== 'unfinished') : (judged === 0 || correct / judged >= MINI_BAR);
   const today = new Date().toISOString().slice(0, 10);
+  const firstToday = !(prog.days || []).includes(today);
   prog.days = [...new Set([...(prog.days || []), today])];
   prog.sittingCount = (prog.sittingCount || 0) + 1;
   const prev = prog.sittings[key];
@@ -128,10 +153,10 @@ export async function runSitting(app, profile, key) {
   }
   await db.saveProgress(prog);
   mark('sitting-end', { key, judged, correct, passed });
-  return endScreen(app, profile, key, { judged, correct, passed, sticker, piece, prog, checkResult });
+  return endScreen(app, profile, key, { judged, correct, passed, sticker, piece, prog, checkResult, firstToday });
 }
 
-async function endScreen(app, profile, key, { judged, correct, passed, sticker, piece, prog, checkResult }) {
+async function endScreen(app, profile, key, { judged, correct, passed, sticker, piece, prog, checkResult, firstToday }) {
   const [, track] = key.split(':');
   const next = app.nextOpen(prog, track, key);
   const s = h('div', { class: `endscreen track-${track}` });
@@ -145,11 +170,13 @@ async function endScreen(app, profile, key, { judged, correct, passed, sticker, 
   const row = h('div', { class: 'row' });
   // Track B fast track: "Keep going?" only after a >= 90% mini check (course fast-track note); the path still opens at 80%
   const offer = next && (track === 'A' || checkResult || !judged || correct / judged >= 0.9);
-  if (offer) row.append(h('button', { class: 'btn primary keepgoing', onclick: () => app.sitting(next) }, 'Keep going?'));
-  row.append(h('button', { class: 'btn ghost', onclick: () => app.home() }, 'Home'));
+  if (offer) row.append(btn('Keep going?', 'play', { class: 'btn primary keepgoing', say: 'ui:keepGoing', onclick: () => app.sitting(next) }));
+  row.append(btn('Home', 'home', { class: 'btn ghost', say: 'ui:homeBtn', onclick: async () => { await teacher.say('ui:seeYou'); app.home(); } }));
   s.append(row);
   app.mount(s);
-  await play(passed ? 'ui:miniPass' : 'ui:miniMiss');
-  if (piece) await play('ui:village'); else if (sticker) await play('ui:sticker');
-  if (offer) await play('ui:keepGoing');
+  const lines = [passed ? 'ui:miniPass' : 'ui:miniMiss'];
+  if (piece) lines.push('ui:village'); else if (sticker) lines.push('ui:sticker');
+  if (firstToday) lines.push('ui:practisedToday');
+  if (offer) lines.push('ui:keepGoing');
+  await teacher.prompt(lines, { nudge: offer ? 'ui:keepGoing' : 'ui:homeBtn', replay: () => teacher.say(offer ? 'ui:keepGoing' : 'ui:seeYou'), hint: () => teacher.point(s.querySelector('.keepgoing') || s.querySelector('.btn')) });
 }
