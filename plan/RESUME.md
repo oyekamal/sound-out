@@ -56,3 +56,12 @@ Disk: freed 26 GB (pip/uv/npm/codacy/Cypress/trivy/go-build + SD1.5/IP-Adapter/C
 - UPDATE (after the handoff): character r3 DONE, d572399. Kapi is renamed **Tilo** (design/character/names.md; backups Moku, Tolu; still needs a USPTO/WIPO/EUIPO class 9/41 check before launch). Work is in design/character/tilo/ (7 poses, 9 faces, mouth mmm/aaa/ooo, vector icon via tools/make_icon.py), page round3.html, 5 pairs with an asserted key (tools/build_round3.py), pairs UNSCORED. Weak spots: the think/model/try-again silhouettes overlap (IoU 0.85–0.88), and the mmm mouth is weak. NEXT: haiku harsh critic r3 (same brief as critic-round2 + copy check + silhouettes) → r4 fixes.
 - Teacher-voice builder had committed "teacher voice: emulator screenshots, decision row" (5973b79) when last checked; read git log for its other commits and its final report may be missing. Verify with drive.py L1 + drive_levels 2 before trusting it.
 - 2026-10-10: Kamal APPROVED cute Tilo (design/character/tilo-cute/, 4dded99); the realistic tilo/ and kapi/ are history. Asset build running (app/public/img/tilo/, Android icon/splash, store art). NEXT: put Tilo into the lessons, driven by teacher.js events.
+
+## FINAL-APP PLAN (Kamal 2026-10-10: "full and final, anyone can use it, test and check everything, gauntlet for review/QA/critic")
+Lanes, with ONE agent at a time in app/src:
+1. app code: regression re-run (drive_teacher, drive L1 both tracks, drive_levels 2, L4 end) + APK/AAB rebuild → then Tilo integration in lessons (driven by teacher.js events: speaking=lip-flap, listening, celebrating on right, encouraging on wrong, idle=waiting; child track only, Track B no mascot) → then fixes from QA.
+2. Tilo lip-sync: mouths sized and placed from the original art (Kamal: the first bigger mouth was better, its only problems were position and breathing drift). Numeric checks + critic.
+3. Word pictures: inventory → content/pictures_needed.json; style gate with a critic; Kie generation → app/public/img/words/ + pictures.json.
+4. Play pack: store/listing_en.md, privacy page, PLAY_CONSOLE_CHECKLIST.md, Families audit → store/families_fixes.md, targetSdk 36.
+5. Final QA gauntlet (after 1–3): every level, both tracks, on the emulator; offline; the voice on every screen; a11y; perf (cold start, size); blind critic vs Duolingo ABC lesson flow; loop until it passes.
+BLOCKED: L2–L7 content audio (~360k ElevenLabs chars) = Kamal top-up decision; without it L2–7 play placeholder audio.
