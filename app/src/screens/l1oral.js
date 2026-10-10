@@ -1,9 +1,9 @@
-// L1.01 "Sounds in Words": oral phonemic awareness, NO letters on screen (pictures are placeholders),
+// L1.01 "Sounds in Words": oral phonemic awareness, NO letters on screen (real pictures, none for ambiguous words),
 // except the 60-second preview of s and a at the very end. Words come from the course lesson (§2a-c).
 import { play, wait, mark } from '../audio.js';
-import { h, picture, speaker } from '../ui.js';
+import { h, safePicture, speaker } from '../ui.js';
 import { entry, g2p } from '../content.js';
-import { choose, shuffle, sounds } from './l1steps.js';
+import { choose, choice, shuffle, sounds } from './l1steps.js';
 import { teacher } from '../teacher.js';
 
 const FIRST = ['sun', 'top', 'mat', 'pig', 'dog'];          // a) first sound
@@ -11,26 +11,28 @@ const BLEND = ['at', 'sat', 'it', 'on', 'mat'];               // b) blending
 const SEGMENT = ['up', 'at', 'sat', 'dog'];                   // c) segmenting
 const CHECK = ['sat', 'top', 'pig', 'dog', 'mat'];            // check: hear the sounds, pick the word
 const ph = w => entry(w).p.map(p => `ph:${p}`);
-const pic = (w, i) => picture(i, `picture ${i + 1}`);         // placeholder: never the printed word
+const pic = (w, i) => safePicture(w, { n: i });                // the real picture, never the printed word; null for ambiguous words (at, it, on, up, sat)
 
 function stageFor(ctx, step) { ctx.step = step; mark('step', { key: ctx.sitting.key, step }); return ctx.stage(); }
 
 async function firstSound(ctx, w, i) {
   const s = stageFor(ctx, 'oral-first');
-  s.append(h('h2', {}, 'What sound does it start with?'), h('div', { class: 'pics one' }, pic(w, i)), speaker(`w:${w}`, { big: true, label: 'Hear the word' }));
-  await ctx.instruct('ui:l1OralFirst', { stim: () => play(`w:${w}`), nudge: 'ui:idlePick' });
+  s.append(h('h2', {}, 'What sound does it start with?'), ...(pic(w, i) ? [h('div', { class: 'pics one' }, pic(w, i))] : []), speaker(`w:${w}`, { big: true, label: 'Hear the word' }));
   const t = entry(w).p[0];
   const others = shuffle(['s', 'a', 't', 'p', 'i', 'n', 'm', 'd', 'g', 'o'].filter(p => p !== t)).slice(0, 2);
-  const r = await choose(s, shuffle([t, ...others]).map(p => ({ key: `ph:${p}`, ok: p === t, id: p })), { cls: 'three', model: [`ph:${t}`] });
+  const c = choice(s, shuffle([t, ...others]).map(p => ({ key: `ph:${p}`, ok: p === t, id: p })), { cls: 'three', model: [`ph:${t}`] });   // mounted hidden: no reflow when the voice ends
+  await ctx.instruct('ui:l1OralFirst', { stim: () => play(`w:${w}`), nudge: 'ui:idlePick' });
+  const r = await c.start();
   await ctx.record(`oral:first:${w}`, 'oral', r);
 }
 
 async function blendWord(ctx, w, pool, { test = false } = {}) {
   const s = stageFor(ctx, test ? 'oral-check' : 'oral-blend');
   s.append(h('h2', {}, 'Which word do the sounds make?'), speaker(null, { big: true, label: 'Hear the sounds again', onplay: () => sounds(ph(w)) }));
-  await ctx.instruct(test ? 'ui:l1OralCheck' : 'ui:l1OralBlend', { stim: () => sounds(ph(w)), nudge: 'ui:idlePick' });
   const opts = shuffle([w, ...shuffle(pool.filter(x => x !== w)).slice(0, 2)]);
-  const r = await choose(s, opts.map((o, i) => ({ key: `w:${o}`, body: pic(o, i + 1), ok: o === w, id: o })), { cls: 'three', test, model: [...ph(w), `w:${w}`] });
+  const c = choice(s, opts.map((o, i) => ({ key: `w:${o}`, body: pic(o, i) || h('div', { class: 'picture-gap', 'aria-hidden': 'true' }), ok: o === w, id: o })), { cls: 'three', test, model: [...ph(w), `w:${w}`] });
+  await ctx.instruct(test ? 'ui:l1OralCheck' : 'ui:l1OralBlend', { stim: () => sounds(ph(w)), nudge: 'ui:idlePick' });
+  const r = await c.start();
   await ctx.record(`oral:blend:${w}`, 'oral', r);
   return r;
 }
@@ -59,9 +61,9 @@ async function worked(ctx, type) {
     mark('oral-demo', { type });
     await ctx.instruct(['ui:letsDoOne'], { stim: async () => { if ((await play(`w:${w}`)) === false) return false; await wait(300); for (let i = 0; i < n; i++) { dots.children[i].classList.add('on'); if ((await play(`ph:${entry(w).p[i]}`)) === false) return false; await wait(300); } return teacher.say('ui:yourTurn'); }, nudge: 'ui:idleTap' });
   } else if (type === 'first') {
-    s.append(h('h2', {}, 'What sound does it start with?'), h('div', { class: 'pics one' }, pic('sat', 0)), speaker('w:sat', { big: true, label: 'Hear the word' }));
+    s.append(h('h2', {}, 'What sound does it start with?'), ...(pic('sock', 0) ? [h('div', { class: 'pics one' }, pic('sock', 0))] : []), speaker('w:sock', { big: true, label: 'Hear the word' }));
     mark('oral-demo', { type });
-    await ctx.instruct(['ui:letsDoOne', 'w:sat', 'ph:s', 'ui:yourTurn'], { nudge: 'ui:idleTap' });
+    await ctx.instruct(['ui:letsDoOne', 'w:sock', 'ph:s', 'ui:yourTurn'], { nudge: 'ui:idleTap' });
   } else {
     s.append(h('h2', {}, 'Which word do the sounds make?'), speaker(null, { big: true, label: 'Hear the sounds', onplay: () => sounds(ph('dog')) }));
     mark('oral-demo', { type });

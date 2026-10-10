@@ -15,7 +15,10 @@ export const shuffle = a => { const b = [...a]; for (let i = b.length - 1; i > 0
 // One choice: cards = [{ key?: audio clip, body?: node, ok: bool, id }]. `test` = one attempt, no retry.
 // Teaching mode: a wrong pick says "try again" and the learner picks again; only the first pick is scored.
 // `model`: the clip(s) that model the right answer after a miss ("Not quite ... <model> ... Now you try"); default = the right card's own clip.
-export async function choose(stage, cards, { test = false, autoplay = true, cls = 'two', model = null, carrier = null } = {}) {
+export const choose = (stage, cards, opts) => choice(stage, cards, opts).start();
+// choice() mounts the cards at once, invisible (visibility:hidden keeps their space, so nothing jumps while the prompt
+// is spoken); start() shows them, plays the options and waits for the pick.
+export function choice(stage, cards, { test = false, autoplay = true, cls = 'two', model = null, carrier = null } = {}) {
   const row = h('div', { class: `options l1-opts ${cls}` });
   let first = null, tries = 0, resolve; const done = new Promise(r => { resolve = r; });
   const els = cards.map((c, i) => {
@@ -41,16 +44,20 @@ export async function choose(stage, cards, { test = false, autoplay = true, cls 
     });
     return el;
   });
-  row.append(...els);
+  row.append(...els); row.classList.add('pending');
   stage.append(row);
   const hearAll = async () => { for (const [i, c] of cards.entries()) if (c.key) { els[i].classList.add('hl'); const ok = await play(c.key); els[i].classList.remove('hl'); if (ok === false) return false; await wait(200); } return true; };
   const pointRight = () => teacher.point(els.find(x => x.dataset.ok)?.querySelector('.opt-pick'));
   // a stall in a TEACHING item points at the right card after the re-prompt; in a test it only nudges (no pointing)
-  teacher.setIdle({ nudge: 'ui:idlePick', hint: test ? null : pointRight });
-  if (autoplay) await hearAll();
-  els.forEach(x => x.querySelector('.opt-pick').disabled = false);
-  if (autoplay) teacher.setExtra(hearAll);   // the ear button: prompt, stimulus, then each option again
-  await done;
-  return { judged: true, correct: first && !teacher.consumeHinted() };
+  const start = async () => {
+    row.classList.remove('pending');
+    teacher.setIdle({ nudge: 'ui:idlePick', hint: test ? null : pointRight });
+    if (autoplay) await hearAll();
+    els.forEach(x => x.querySelector('.opt-pick').disabled = false);
+    if (autoplay) teacher.setExtra(hearAll);   // the ear button: prompt, stimulus, then each option again
+    await done;
+    return { judged: true, correct: first && !teacher.consumeHinted() };
+  };
+  return { start };
 }
 export const sounds = async (keys, gap = 450) => { for (const k of keys) { if ((await play(k)) === false) return false; await wait(gap); } return true; };

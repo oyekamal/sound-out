@@ -75,12 +75,21 @@ export function village(letters, { justAdded } = {}) {
 
 export const STICKERS = ['★', '♥', '☀', '☘', '♪', '✿', '☂', '⚑'];
 
-// Picture placeholder: shown ONLY in Listen & Talk, after the chunk it illustrates.
-export function picture(n, label) {
-  const hues = [28, 200, 120, 280, 340, 60];
-  return h('div', { class: 'picture', 'data-chunk': n, html:
-    `<svg viewBox="0 0 120 80"><rect width="120" height="80" rx="10" fill="hsl(${hues[n % 6]} 45% 85%)"/><circle cx="34" cy="30" r="12" fill="hsl(${hues[n % 6]} 45% 60%)"/><path d="M10 72 L46 40 L70 60 L86 46 L112 72Z" fill="hsl(${hues[n % 6]} 35% 55%)"/></svg><span>${label}</span>` });
+// Real word / scene pictures: public/img/words/pictures.json maps concept -> file ("sun", "scene:L1.01:0").
+// pictures.meta.json flags concepts a child could read two ways (ambiguous): those are never a picture-only choice.
+import PICS from '../public/img/words/pictures.json';
+import PICMETA from '../public/img/words/pictures.meta.json';
+const BASE = import.meta.env.BASE_URL;
+export const hasPicture = key => !!PICS[key];
+export const isAmbiguous = key => !!PICMETA[key]?.ambiguous;
+// null when there is no file for the concept (the caller then shows no picture, never a placeholder)
+export function picture(key, { n = 0 } = {}) {
+  const f = PICS[key]; if (!f) return null;
+  const img = new Image(); img.src = `${BASE}img/words/${f}`; img.alt = ''; img.width = 256; img.height = 256; img.decoding = 'async';
+  return h('div', { class: 'picture', 'data-key': key, 'data-chunk': n }, img);
 }
+// a picture a child may rely on alone: null for ambiguous concepts (the spoken word carries the choice instead)
+export const safePicture = (key, opts) => (isAmbiguous(key) ? null : picture(key, opts));
 
 // Big letter rendering with graphemes as separate spans (for highlight and tap).
 export function wordTiles(graphemes, cls = 'tile') {
