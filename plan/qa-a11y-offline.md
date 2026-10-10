@@ -40,3 +40,25 @@ Totals: **0 blockers, 4 major, 11 minor**. Passes are listed at the end.
 - Text contrast of body text is 14.2:1, muted 4.95:1 on paper (5.48:1 on card), white on accent 5.54:1 (track B 9.58:1). The only visible-text failures are in finding 11.
 - `prefers-reduced-motion: reduce`: with `reduce` there were 0 running animations on home and over 6 s of a sitting, and the halo becomes a still ring (`style.css:157`); with `no-preference` there were pulse, breathe, halo, cheer. Mouth flap is guarded in code (`tilo.js:82`); it was not observed at runtime because no speech frames were caught in the 4 s sample.
 - 200% font (`html{font-size:34px}`) at 360x640: no horizontal scroll, no clipped or overflowing buttons or cards on 11 screens per track (headings wrap and the page scrolls). Only the fixed ear overlap in finding 8.
+
+## Fixes (2026-10-10, commit bdaf0a1b)
+
+Re-checked on a fresh build at 360x640 (Playwright, scripts in scratchpad), plus a direct call into `gate()` for the timer.
+
+**Major**
+1. Pill names. Every pill now has its own name: "This one, option N" (the visible "This one" stays inside the name; in 3-across the text is hidden, the name still says it). Each card is `role=group` named "Option N". Cards with a real visible label use "Choose <label>" ("Choose Its name"). No word or answer is ever in a pill name. Checked: L1 sitting names "This one, option 1/2/3", groups "Option 1/2/3"; gate pills identical. Note: not the "Choose option N" wording, to keep the visible text inside the accessible name (WCAG 2.5.3).
+2. Focus. New `app/src/a11y.js`, called from `teacher.newScreen()` (runs on every mount and every sitting step). It focuses the screen heading (`tabindex=-1`, no ring), or the screen container if there is none. Checked: onboarding, every sitting screen, home and gate all end with `activeElement` = the heading. The gate screen got a visually hidden h2 "Read the word".
+3. Live region. `aria-live` is gone from `#app` (verified null). One `#live` (`role=status`, `.sr-only`) outside `#app`; the gate's short status lines ("Yes!", "Let's look again...", "More time added") go through `announce()`. Other screens' inline feedback text is no longer announced (the audio carries it).
+4. Time limit. Privacy screen (behind the grown-up gate) has "No time limit on the reading check", stored as setting `noTimeLimit`. Without it a "More time" button sits beside the bar and restarts the window. The bar is now stepped by script (no CSS animation), so it is visible under reduced motion; it has `role=progressbar`. Checked in reduced motion with a 4 s window: bar 38% then 19%, "More time" back to 91%, timeout only after the extended window; with the setting on there is no bar, no button and no timeout.
+
+**Minor, done:** tap targets 48px (`.close` 48x48, `.opt-pick` 75x48, `.btn.small` 48 high); waiting pill is now flat #6a93aa with #0a1f2c tick (5.1:1, 3.2:1 vs the card; track B #74889c / #0b1520), and the row dim no longer fades the pill; explicit `:focus-visible` ring (3px #1b4f6b + white halo, seen on the first Tab); ear button moved into the screen header as its last child so Tab order follows its top-right spot (header order: close, Tilo slot, bar, ear; onboarding has no header, so it sits before `#app`); one h1 per screen (first h2 gets `role=heading aria-level=1` when no h1) and `document.title` = "<heading> - Sound Out"; locked lessons are `aria-disabled` and focusable with an `sr-only` reason via `aria-describedby`, pressing one says the locked note and never opens it (checked); `.tag` #6a4d9a, `.gu-msg` #a8432d.
+
+**Skipped:** halo/sticker faintness and the infinite pulse (not trivial, no non-colour cue designed); collapsing locked runs into one summary button (layout change); finding 14 (no PWA planned).
+
+**Finding 15.** Commit 29a841d only stripped the pages in `npm run build:android` (an `rm` list). `app/vite.config.js` now drops them from every build (`compare.html, listen.html, voices.html, tilo-demo.html, compare/, audition/, *-data.json`); they stay in `public/` for the dev server and tools. Checked: `vite build` output holds only assets, audio, coming.ogg, img, index.html, privacy.html. `build:android` is unchanged. APK not rebuilt.
+
+**Test selectors changed (tools only)**
+- `drive.py:165`: title check is `endswith("Sound Out")` (titles are now per screen).
+- `drive.py:182,214` and `drive_levels.py:147,185`: locked nodes were found with `[disabled]`; now `.node.locked[data-key=...]` (they are `aria-disabled`, not `disabled`). The first drive_levels run of L2 reported "L3.01 open although L2.14 was missed" only because of this selector; the node never opened.
+
+**Results:** shoot_tilo "TILO SHOTS GREEN"; shoot_pictures "PICTURE SHOTS GREEN"; drive_teacher "ALL TEACHER CHECKS GREEN"; `drive.py --until L1.04` "ALL CHECKS GREEN"; `drive_levels.py 2` "ALL CHECKS GREEN"; `drive_levels.py 3` "ALL CHECKS GREEN".
