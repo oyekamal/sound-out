@@ -11,7 +11,7 @@ const BASE = import.meta.env.BASE_URL;
 const SZ = (window.devicePixelRatio || 1) >= 1.5 ? '2x' : '1x';
 const BODY_W = 225, BODY_H = 256;                       // the 1x art size of every pose (2x files are exactly double)
 const POSES = ['idle', 'listening', 'encouraging', 'celebrating', 'speaking'];
-const FLAP = ['mid', 'aaa', 'mmm', 'ooo', 'mid', 'aaa'];
+const FLAP = ['mid', 'aaa', 'mid', 'mmm', 'aaa', 'mid'];   // no 'ooo': a round 'o' with a raised arm read as shock in the critic round
 const reduced = () => !!window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
 
 const st = { homeHost: null, track: null, mood: 'idle', emote: null, emoteKey: null, pinned: null, speaking: false, mouth: 'mid', offT: 0, emoteT: 0, flapT: 0, host: null };
@@ -22,7 +22,9 @@ function img(src, cls) { const i = new Image(); i.className = cls; i.alt = ''; i
 function build() {
   el = document.createElement('div'); el.className = 'tilo corner'; el.setAttribute('aria-hidden', 'true'); el.hidden = true;
   stage = document.createElement('div'); stage.className = 'tilo-stage';
-  for (const p of POSES) { const b = img(TILO.poses[p][SZ], 'tilo-body'); b.dataset.pose = p; bodies[p] = b; stage.append(b); }
+  // 'encouraging' (a wrong answer) uses the thinking pose: hand on chin, gentle smile. The raised-hand art read as a wave, same as speaking.
+  const ART = { encouraging: 'thinking' };
+  for (const p of POSES) { const b = img(TILO.poses[ART[p] || p][SZ], 'tilo-body'); b.dataset.pose = p; bodies[p] = b; stage.append(b); }
   for (const [name, m] of Object.entries(TILO.talk.mouths)) {
     const i = img(m.files[SZ], 'tilo-mouth'); i.dataset.mouth = name; i.hidden = true;
     const f = SZ === '2x' ? 2 : 1, [ox, oy] = m.offset[SZ], [sw, sh] = m.size[SZ];   // percent of the stage, from the manifest

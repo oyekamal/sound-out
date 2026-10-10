@@ -147,7 +147,9 @@ table.mastery tr.unmet td { color: var(--bad); }
 .ear .ear-ic svg { width: 34px; height: 34px; display: block; }
 .ear.playing { animation: pulse .8s ease-in-out infinite; }
 .ear.attn { outline: 5px solid var(--hl); outline-offset: 3px; animation: pulse 1s ease-in-out infinite; }
-header.hdr, .homehdr { padding-right: 70px; }
+header.hdr, .homehdr { padding-right: 70px; }   /* keeps the row clear of the fixed ear button */
+.homehdr { flex-wrap: wrap; row-gap: 2px; } .homehdr .btn { max-width: 100%; }
+.track-A header.hdr { padding-block: 2px; }
 .onboard { padding-top: 12vh; }
 .nudge { outline: 5px solid var(--hl); outline-offset: 3px; animation: pulse 1.1s ease-in-out 5; }
 .opt.nudge, .printed .g.nudge { border-radius: 14px; }
@@ -175,7 +177,9 @@ header.hdr, .homehdr { padding-right: 70px; }
 .tilo-stage { position: relative; width: 100%; aspect-ratio: 225 / 256; transform-origin: 50% 100%; animation: tilo-breathe 3.2s ease-in-out infinite; }
 .tilo-body { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; }
 .tilo-body.on { opacity: 1; }
-.tilo-mouth { position: absolute; }
+.tilo-mouth { position: absolute; transform-origin: 50% 8%; }
+/* aaa stays full size (its bottom already touches the muzzle edge); mid is a smaller, shallower mouth, so aaa reads clearly more open */
+.tilo-mouth[data-mouth="mid"] { transform: scale(.85, .66); }
 .tilo.pop .tilo-stage { animation: tilo-breathe 3.2s ease-in-out infinite, tilo-pop .32s ease-out; }
 .tilo[data-pose="celebrating"] .tilo-stage { animation: tilo-breathe 3.2s ease-in-out infinite, tilo-hop .7s ease-in-out 2; }
 @keyframes tilo-breathe { 0%, 100% { transform: scale(1, 1); } 50% { transform: scale(1.012, 1.022); } }
@@ -184,7 +188,7 @@ header.hdr, .homehdr { padding-right: 70px; }
 @media (prefers-reduced-motion: reduce) { .tilo-stage, .tilo.pop .tilo-stage, .tilo[data-pose="celebrating"] .tilo-stage { animation: none; } }
 .hero .tilo-slot { display: grid; place-items: center; }
 .endscreen .tilo-slot { display: grid; place-items: center; margin: 6px 0; } .endscreen .tilo.inline { width: 132px; }
-.hdr-tilo { display: none; } .track-A .hdr-tilo { display: block; flex: none; } .hdr-tilo .tilo.inline { width: 62px; }
+.hdr-tilo { display: none; } .track-A .hdr-tilo { display: block; flex: none; } .hdr-tilo .tilo.inline { width: 96px; }   /* a companion, not a badge; it sits in the header row, so it can never cover an answer */
 
 /* ---- For grown-ups: the gate and the privacy screen ---- */
 .gu-wrap { position: fixed; inset: 0; z-index: 90; background: rgba(36, 33, 29, .45); display: flex; align-items: flex-end; justify-content: center; }
@@ -193,3 +197,17 @@ header.hdr, .homehdr { padding-right: 70px; }
 .gu-msg { min-height: 1.4em; color: var(--bad); margin: 6px 0; }
 .privacy { padding-bottom: 32px; } .privacy .left { text-align: left; } .privacy .url { font-weight: 700; word-break: break-all; user-select: all; }
 .nodewrap { display: inline-block; -webkit-touch-callout: none; } .nodewrap > .node:disabled { pointer-events: none; } .list .nodewrap { display: block; }
+
+/* pictures: real art, fixed size so the card never resizes between screens */
+.picture img { width: 100%; aspect-ratio: 1; height: auto; display: block; border-radius: 14px; background: #f1e7d6; }
+.pics.one { width: min(168px, 100%); max-width: none; } .pics.one .picture { width: 100%; }
+.options.pending { visibility: hidden; }   /* cards stay mounted (same space) while the voice speaks */
+/* focus rings only for keyboard use, never after a tap or on load */
+button:focus:not(:focus-visible), a:focus:not(:focus-visible) { outline: none; }
+.l1-opts .opt .picture { width: 100%; max-width: 120px; }
+@media (max-height: 700px) { .speaker.big { width: 76px; height: 76px; margin: 4px auto; } .speaker.big svg { width: 36px; height: 36px; } h2 { font-size: 1.2rem; margin: .4em 0 .35em; } .l1-opts .opt .picture { max-width: 96px; } }
+.picture { animation: none; }
+.l1-opts .opt { display: flex; flex-direction: column; align-items: center; justify-content: space-between; }   /* a card without a picture (ambiguous word) keeps its button at the bottom, same size as the others */
+.l1-opts .opt .opt-pick { flex: none; }
+.picture-gap { width: 100%; max-width: 120px; aspect-ratio: 1; }   /* an ambiguous word has no picture: an empty box keeps the three cards the same size */
+@media (max-height: 700px) { .picture-gap { max-width: 96px; } }

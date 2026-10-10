@@ -18,13 +18,13 @@ PORT = int(ARG("--port", "5393"))
 OUT = ROOT / ARG("--out", "store/android-test/tilo-in-app"); OUT.mkdir(parents=True, exist_ok=True)
 problems = []
 for f in OUT.glob("*.png"): f.unlink()
-OVERLAP = """() => { const t = document.querySelector('.tilo'); if (!t || t.hidden || t.classList.contains('inline')) return [];
-  const r = t.getBoundingClientRect(); const bad = [];
-  for (const el of document.querySelectorAll('button, a, input, textarea, .opt-pick, [role=button], canvas')) {
-    if (el.closest('.tilo') || el.offsetParent === null) continue;
-    const b = el.getBoundingClientRect(); if (!b.width || !b.height) continue;
-    if (b.left < r.right && b.right > r.left && b.top < r.bottom && b.bottom > r.top) bad.push((el.className || el.tagName) + '');
-  } return bad; }"""
+OVERLAP = """() => { const hit = (a, b) => b.left < a.right && b.right > a.left && b.top < a.bottom && b.bottom > a.top; const bad = [];
+  const live = [...document.querySelectorAll('button, a, input, textarea, .opt-pick, [role=button], canvas')].filter(el => !el.closest('.tilo') && el.offsetParent !== null && el.getBoundingClientRect().width && getComputedStyle(el).visibility !== 'hidden');
+  const t = document.querySelector('.tilo');
+  if (t && !t.hidden) { const r = t.getBoundingClientRect(); for (const el of live) if (hit(r, el.getBoundingClientRect())) bad.push('tilo~' + (el.className || el.tagName)); }
+  const ear = document.getElementById('ear');   // the fixed ear button must never sit on another control or the header pill
+  if (ear && !ear.hidden) { const r = ear.getBoundingClientRect(); for (const el of live) if (el !== ear && hit(r, el.getBoundingClientRect())) bad.push('ear~' + (el.className || el.tagName)); }
+  return bad; }"""
 
 
 def port_open(p):
@@ -63,6 +63,7 @@ def main():
                 ctx = br.new_context(viewport={"width": 360, "height": 640}, device_scale_factor=2)
                 pg = ctx.new_page(); pg.set_default_timeout(8000)
                 pg.on("console", lambda m: errors.append(m.text) if m.type == "error" else None)
+                pg.on("response", lambda r: errors.append(f"HTTP {r.status} {r.url}") if r.status >= 400 else None)
                 pg.on("pageerror", lambda e: errors.append(str(e)))
                 pg.goto(f"http://localhost:{PORT}/{q}"); return pg
             def shot(pg, name):
@@ -85,7 +86,11 @@ def main():
             if n_missing: problems.append(f"missing audio {pg.evaluate('window.__so.missing')}")
             # ---- idle ladder
             pg = newpage("?idlefast"); onboard(pg, "A")
-            if wait_state(pg, lambda s: s["tier"] >= 3 and s["pose"] == "idle", "idle pose on the idle ladder", 60): shot(pg, "A_idle")
+            # at tier 3 the idle ladder shows its own hints on purpose (a yellow nudge ring on a card, a ring on the ear): shoot that as A_idle_hint,
+            # then clear the hints and shoot the calm idle state as A_idle (that one must have no ring at all)
+            if wait_state(pg, lambda s: s["tier"] >= 3 and s["pose"] == "idle", "idle pose on the idle ladder", 60):
+                shot(pg, "A_idle_hint"); pg.evaluate("window.__so.teacher.clearHints()"); time.sleep(0.5); shot(pg, "A_idle")
+                if pg.evaluate("document.querySelector('.nudge, .ear.attn')"): problems.append("a hint ring is still on after clearHints")
             # ---- Home (Tilo in the hero) and the end-of-sitting hero
             pg.evaluate("window.__so.app.home()"); pg.wait_for_selector(".home .tilo-slot .tilo"); time.sleep(0.5)
             pg.screenshot(path=str(OUT / "A_home.png"))
