@@ -32388,6 +32388,4986 @@
    "id": "fa5502e21b1f",
    "dur": 0.807,
    "src": "local"
+  },
+  "syl:ʧɛk": {
+   "id": "a4482dc86fbd",
+   "dur": 0.27,
+   "src": "elevenlabs"
+  },
+  "syl:kloʊzd": {
+   "id": "3fa3c464077b",
+   "dur": 0.46,
+   "src": "elevenlabs"
+  },
+  "syl:spɑt": {
+   "id": "f109910665a8",
+   "dur": 0.46,
+   "src": "elevenlabs"
+  },
+  "syl:stɪk": {
+   "id": "6894d03e1250",
+   "dur": 0.42,
+   "src": "elevenlabs"
+  },
+  "syl:mu": {
+   "id": "148712408133",
+   "dur": 0.44,
+   "src": "elevenlabs"
+  },
+  "syl:flaɪ": {
+   "id": "b62ceaacc25a",
+   "dur": 0.52,
+   "src": "elevenlabs"
+  },
+  "ipa:dɹˈeɪð": {
+   "id": "eb2fcce61473",
+   "dur": 0.754,
+   "src": "elevenlabs"
+  },
+  "ipa:fˈoʊt": {
+   "id": "be093fab48cf",
+   "dur": 0.822,
+   "src": "elevenlabs"
+  },
+  "ipa:fˈɛt": {
+   "id": "68fa6a026de2",
+   "dur": 0.629,
+   "src": "elevenlabs"
+  },
+  "ipa:hˈaɪm": {
+   "id": "125a8392b609",
+   "dur": 0.67,
+   "src": "elevenlabs"
+  },
+  "ipa:hˈeɪm": {
+   "id": "e6c564c7b06a",
+   "dur": 0.692,
+   "src": "elevenlabs"
+  },
+  "ipa:hˈɛt": {
+   "id": "fb97199b5d2a",
+   "dur": 0.875,
+   "src": "elevenlabs"
+  },
+  "ipa:hˈɝteɪn": {
+   "id": "3a336437fe42",
+   "dur": 0.791,
+   "src": "elevenlabs"
+  },
+  "ipa:klˈaɪ": {
+   "id": "5db5aed09ed2",
+   "dur": 0.696,
+   "src": "elevenlabs"
+  },
+  "ipa:klˈaɪb": {
+   "id": "301cb7482e87",
+   "dur": 0.714,
+   "src": "elevenlabs"
+  },
+  "ipa:klˈi": {
+   "id": "01660f0266d6",
+   "dur": 0.634,
+   "src": "elevenlabs"
+  },
+  "ipa:klˈɪb": {
+   "id": "305152a1ce9c",
+   "dur": 0.613,
+   "src": "elevenlabs"
+  },
+  "ipa:klˈʌ": {
+   "id": "777ff40ac6c0",
+   "dur": 0.604,
+   "src": "elevenlabs"
+  },
+  "ipa:kwˈɪb": {
+   "id": "e66e7761cb92",
+   "dur": 0.582,
+   "src": "elevenlabs"
+  },
+  "ipa:lˈaɪteɪn": {
+   "id": "29a6ebcbae85",
+   "dur": 0.83,
+   "src": "elevenlabs"
+  },
+  "ipa:lˈɝteɪn": {
+   "id": "8cf2799289aa",
+   "dur": 0.84,
+   "src": "elevenlabs"
+  },
+  "ipa:mˈeɪdimɪk": {
+   "id": "17f66cbb0104",
+   "dur": 0.925,
+   "src": "elevenlabs"
+  },
+  "ipa:mˈoʊdimɪk": {
+   "id": "2bacdb23683a",
+   "dur": 1.01,
+   "src": "elevenlabs"
+  },
+  "ipa:mˈɪbɛl": {
+   "id": "cef526ebbd90",
+   "dur": 0.784,
+   "src": "elevenlabs"
+  },
+  "ipa:mˈʌv": {
+   "id": "b17272545674",
+   "dur": 0.688,
+   "src": "elevenlabs"
+  },
+  "ipa:nˈɝ": {
+   "id": "09e19fee776a",
+   "dur": 0.598,
+   "src": "elevenlabs"
+  },
+  "ipa:nˈɝm": {
+   "id": "b45c8da6771f",
+   "dur": 0.725,
+   "src": "elevenlabs"
+  },
+  "ipa:plˈeɪm": {
+   "id": "4b3fdb4a0a8e",
+   "dur": 0.685,
+   "src": "elevenlabs"
+  },
+  "ipa:plˈeɪmi": {
+   "id": "ab5d5d0755e4",
+   "dur": 0.659,
+   "src": "elevenlabs"
+  },
+  "ipa:plˈut": {
+   "id": "4d76db09ae02",
+   "dur": 0.669,
+   "src": "elevenlabs"
+  },
+  "ipa:plˈuʤ": {
+   "id": "d7cf9e0a4e9a",
+   "dur": 0.816,
+   "src": "elevenlabs"
+  },
+  "ipa:plˈɝk": {
+   "id": "c2b8477f886e",
+   "dur": 0.604,
+   "src": "elevenlabs"
+  },
+  "ipa:plˈɝnd": {
+   "id": "26e588d7312c",
+   "dur": 0.773,
+   "src": "elevenlabs"
+  },
+  "ipa:plˈɝt": {
+   "id": "a0a9f0f98985",
+   "dur": 0.669,
+   "src": "elevenlabs"
+  },
+  "ipa:plˈʌt": {
+   "id": "1d88039d6159",
+   "dur": 0.577,
+   "src": "elevenlabs"
+  },
+  "ipa:pɹˈaɪnd": {
+   "id": "35b7c79e02e2",
+   "dur": 0.763,
+   "src": "elevenlabs"
+  },
+  "ipa:pɹˈeɪk": {
+   "id": "4e1d7d13dd52",
+   "dur": 0.621,
+   "src": "elevenlabs"
+  },
+  "ipa:pɹˈeɪm": {
+   "id": "26ac01dc2cf5",
+   "dur": 0.7,
+   "src": "elevenlabs"
+  },
+  "ipa:pɹˈeɪmi": {
+   "id": "a2ad661bcb9f",
+   "dur": 0.655,
+   "src": "elevenlabs"
+  },
+  "ipa:pɹˈeɪʤ": {
+   "id": "71b985e2553e",
+   "dur": 0.771,
+   "src": "elevenlabs"
+  },
+  "ipa:pɹˈoʊm": {
+   "id": "0db22e6377a5",
+   "dur": 0.746,
+   "src": "elevenlabs"
+  },
+  "ipa:pɹˈuʤ": {
+   "id": "6d358c6e714c",
+   "dur": 0.735,
+   "src": "elevenlabs"
+  },
+  "ipa:pɹˈɛmi": {
+   "id": "7e7834c35b99",
+   "dur": 0.585,
+   "src": "elevenlabs"
+  },
+  "ipa:pɹˈɝk": {
+   "id": "532bc1269ad9",
+   "dur": 0.664,
+   "src": "elevenlabs"
+  },
+  "ipa:pɹˈɝnd": {
+   "id": "fde54a69b481",
+   "dur": 0.699,
+   "src": "elevenlabs"
+  },
+  "ipa:pɹˈɝt": {
+   "id": "96a07898c980",
+   "dur": 0.675,
+   "src": "elevenlabs"
+  },
+  "ipa:pɹˈʌt": {
+   "id": "81275a8d7e11",
+   "dur": 0.749,
+   "src": "elevenlabs"
+  },
+  "ipa:pˈaɪmɪŋ": {
+   "id": "abd1efb9dbc2",
+   "dur": 0.75,
+   "src": "elevenlabs"
+  },
+  "ipa:pˈoʊdimɪk": {
+   "id": "ce2ce10ab161",
+   "dur": 0.969,
+   "src": "elevenlabs"
+  },
+  "ipa:pˈoʊɹɪk": {
+   "id": "7e30ecd6912f",
+   "dur": 0.757,
+   "src": "elevenlabs"
+  },
+  "ipa:pˈuɹɪk": {
+   "id": "27515a719185",
+   "dur": 0.747,
+   "src": "elevenlabs"
+  },
+  "ipa:pˈɑmɪŋ": {
+   "id": "eaeae3664c54",
+   "dur": 0.62,
+   "src": "elevenlabs"
+  },
+  "ipa:skˈaɪt": {
+   "id": "1e526473fb3b",
+   "dur": 0.738,
+   "src": "elevenlabs"
+  },
+  "ipa:skˈeɪ": {
+   "id": "453edd0a167f",
+   "dur": 0.715,
+   "src": "elevenlabs"
+  },
+  "ipa:skˈoʊt": {
+   "id": "4bb1514b3ca4",
+   "dur": 0.83,
+   "src": "elevenlabs"
+  },
+  "ipa:slˈeɪld": {
+   "id": "667e08c9d35f",
+   "dur": 0.988,
+   "src": "elevenlabs"
+  },
+  "ipa:slˈoʊld": {
+   "id": "fc69d55038c1",
+   "dur": 1.079,
+   "src": "elevenlabs"
+  },
+  "ipa:slˈɛt": {
+   "id": "772c1a362198",
+   "dur": 0.762,
+   "src": "elevenlabs"
+  },
+  "ipa:slˈɝb": {
+   "id": "cf8018ad9396",
+   "dur": 0.831,
+   "src": "elevenlabs"
+  },
+  "ipa:slˈʌdi": {
+   "id": "758543789655",
+   "dur": 0.747,
+   "src": "elevenlabs"
+  },
+  "ipa:smˈaɪd": {
+   "id": "05e6dfcdb463",
+   "dur": 0.832,
+   "src": "elevenlabs"
+  },
+  "ipa:smˈaɪt": {
+   "id": "695e253ad86a",
+   "dur": 0.734,
+   "src": "elevenlabs"
+  },
+  "ipa:smˈeɪd": {
+   "id": "3adfb213727d",
+   "dur": 0.919,
+   "src": "elevenlabs"
+  },
+  "ipa:smˈid": {
+   "id": "739e9edd5cc8",
+   "dur": 0.772,
+   "src": "elevenlabs"
+  },
+  "ipa:smˈit": {
+   "id": "4483b0ca84ba",
+   "dur": 0.726,
+   "src": "elevenlabs"
+  },
+  "ipa:smˈoʊɹn": {
+   "id": "5cd4a2ec43d3",
+   "dur": 0.928,
+   "src": "elevenlabs"
+  },
+  "ipa:smˈu": {
+   "id": "1910be2bcc03",
+   "dur": 0.814,
+   "src": "elevenlabs"
+  },
+  "ipa:smˈud": {
+   "id": "0a3546f0c167",
+   "dur": 0.768,
+   "src": "elevenlabs"
+  },
+  "ipa:smˈæʤ": {
+   "id": "37393d1b06c7",
+   "dur": 0.812,
+   "src": "elevenlabs"
+  },
+  "ipa:smˈɑd": {
+   "id": "df7a4af252cf",
+   "dur": 0.749,
+   "src": "elevenlabs"
+  },
+  "ipa:smˈɔɹm": {
+   "id": "4e9e8e3f6be6",
+   "dur": 0.842,
+   "src": "elevenlabs"
+  },
+  "ipa:smˈɝd": {
+   "id": "ece1963ae9e6",
+   "dur": 0.999,
+   "src": "elevenlabs"
+  },
+  "ipa:smˈɝɹm": {
+   "id": "7a6834a3af82",
+   "dur": 0.827,
+   "src": "elevenlabs"
+  },
+  "ipa:smˈɪʤ": {
+   "id": "4a493443c1d1",
+   "dur": 0.897,
+   "src": "elevenlabs"
+  },
+  "ipa:smˈʌ": {
+   "id": "844c60c14d57",
+   "dur": 1.475,
+   "src": "elevenlabs"
+  },
+  "ipa:snˈaɪt": {
+   "id": "4bf8ea315ef9",
+   "dur": 0.726,
+   "src": "elevenlabs"
+  },
+  "ipa:snˈeɪld": {
+   "id": "69fc8c8fc351",
+   "dur": 0.843,
+   "src": "elevenlabs"
+  },
+  "ipa:snˈiɹn": {
+   "id": "17c559d94977",
+   "dur": 0.96,
+   "src": "elevenlabs"
+  },
+  "ipa:snˈud": {
+   "id": "f0090a7bad89",
+   "dur": 0.745,
+   "src": "elevenlabs"
+  },
+  "ipa:snˈæ": {
+   "id": "4e9f491f9ae1",
+   "dur": 0.657,
+   "src": "elevenlabs"
+  },
+  "ipa:snˈɔɹn": {
+   "id": "f64e0f7385e0",
+   "dur": 0.957,
+   "src": "elevenlabs"
+  },
+  "ipa:snˈɛt": {
+   "id": "758687f7f757",
+   "dur": 0.712,
+   "src": "elevenlabs"
+  },
+  "ipa:snˈɝd": {
+   "id": "f7ac6609f171",
+   "dur": 0.874,
+   "src": "elevenlabs"
+  },
+  "ipa:snˈɝɹm": {
+   "id": "c7211d89fc67",
+   "dur": 0.922,
+   "src": "elevenlabs"
+  },
+  "ipa:snˈɪb": {
+   "id": "bebc6baf1871",
+   "dur": 0.652,
+   "src": "elevenlabs"
+  },
+  "ipa:snˈʌ": {
+   "id": "30c2e887cce3",
+   "dur": 0.663,
+   "src": "elevenlabs"
+  },
+  "ipa:splˈim": {
+   "id": "fe4d7fa8d21c",
+   "dur": 0.877,
+   "src": "elevenlabs"
+  },
+  "ipa:splˈu": {
+   "id": "ab369586d007",
+   "dur": 0.747,
+   "src": "elevenlabs"
+  },
+  "ipa:splˈum": {
+   "id": "4027f44a7dc6",
+   "dur": 0.891,
+   "src": "elevenlabs"
+  },
+  "ipa:splˈæ": {
+   "id": "aad4053601b5",
+   "dur": 0.738,
+   "src": "elevenlabs"
+  },
+  "ipa:spɹˈim": {
+   "id": "a7a490239589",
+   "dur": 0.898,
+   "src": "elevenlabs"
+  },
+  "ipa:spɹˈæ": {
+   "id": "ee74d3867fdf",
+   "dur": 0.659,
+   "src": "elevenlabs"
+  },
+  "ipa:spˈoʊb": {
+   "id": "353a7428ec68",
+   "dur": 1.024,
+   "src": "elevenlabs"
+  },
+  "ipa:spˈoʊɹn": {
+   "id": "5443ce231c93",
+   "dur": 0.832,
+   "src": "elevenlabs"
+  },
+  "ipa:spˈɝb": {
+   "id": "f3ea79b93834",
+   "dur": 0.823,
+   "src": "elevenlabs"
+  },
+  "ipa:stɹˈi": {
+   "id": "2df105084d42",
+   "dur": 0.753,
+   "src": "elevenlabs"
+  },
+  "ipa:stɹˈoʊn": {
+   "id": "360e4141c4d4",
+   "dur": 0.907,
+   "src": "elevenlabs"
+  },
+  "ipa:stɹˈoʊɹ": {
+   "id": "e28e67ee1192",
+   "dur": 0.849,
+   "src": "elevenlabs"
+  },
+  "ipa:stɹˈoʊθ": {
+   "id": "78c2a1b16d39",
+   "dur": 0.809,
+   "src": "elevenlabs"
+  },
+  "ipa:stɹˈɪn": {
+   "id": "4cb07bfa4cb7",
+   "dur": 0.733,
+   "src": "elevenlabs"
+  },
+  "ipa:stɹˈʌ": {
+   "id": "406e2a3ff47d",
+   "dur": 0.662,
+   "src": "elevenlabs"
+  },
+  "ipa:stˈit": {
+   "id": "4a5e110c2885",
+   "dur": 0.675,
+   "src": "elevenlabs"
+  },
+  "ipa:stˈiɹn": {
+   "id": "802d1bca4c22",
+   "dur": 0.828,
+   "src": "elevenlabs"
+  },
+  "ipa:stˈuɹʤ": {
+   "id": "1f6ac5ba6443",
+   "dur": 0.857,
+   "src": "elevenlabs"
+  },
+  "ipa:stˈɑd": {
+   "id": "dacc44689531",
+   "dur": 0.749,
+   "src": "elevenlabs"
+  },
+  "ipa:stˈɪʤ": {
+   "id": "3ff55cb5f253",
+   "dur": 0.792,
+   "src": "elevenlabs"
+  },
+  "ipa:swˈeɪb": {
+   "id": "2a21aa2d9c92",
+   "dur": 0.809,
+   "src": "elevenlabs"
+  },
+  "ipa:swˈuɹʤ": {
+   "id": "7d01bd350681",
+   "dur": 0.859,
+   "src": "elevenlabs"
+  },
+  "ipa:swˈædi": {
+   "id": "50031d18c376",
+   "dur": 0.705,
+   "src": "elevenlabs"
+  },
+  "ipa:swˈɑɹʤ": {
+   "id": "c8112e4ae968",
+   "dur": 0.882,
+   "src": "elevenlabs"
+  },
+  "ipa:swˈɪb": {
+   "id": "51a47c9d98a7",
+   "dur": 0.665,
+   "src": "elevenlabs"
+  },
+  "ipa:swˈʌdi": {
+   "id": "049a6524bf97",
+   "dur": 0.863,
+   "src": "elevenlabs"
+  },
+  "ipa:sˈaɪm": {
+   "id": "1c5440347e25",
+   "dur": 1.013,
+   "src": "elevenlabs"
+  },
+  "ipa:sˈɝm": {
+   "id": "cf884f4ad44b",
+   "dur": 0.722,
+   "src": "elevenlabs"
+  },
+  "ipa:twˈeɪf": {
+   "id": "8b462912a04f",
+   "dur": 0.697,
+   "src": "elevenlabs"
+  },
+  "ipa:twˈist": {
+   "id": "58f45e30410c",
+   "dur": 0.716,
+   "src": "elevenlabs"
+  },
+  "ipa:twˈoʊd": {
+   "id": "2833ec019647",
+   "dur": 0.685,
+   "src": "elevenlabs"
+  },
+  "ipa:twˈoʊm": {
+   "id": "6101300b8662",
+   "dur": 0.81,
+   "src": "elevenlabs"
+  },
+  "ipa:twˈoʊst": {
+   "id": "d80cd0fe44ec",
+   "dur": 0.766,
+   "src": "elevenlabs"
+  },
+  "ipa:twˈæɹk": {
+   "id": "365bacc27cda",
+   "dur": 0.688,
+   "src": "elevenlabs"
+  },
+  "ipa:twˈɑɹf": {
+   "id": "fdf9ee97862b",
+   "dur": 0.72,
+   "src": "elevenlabs"
+  },
+  "ipa:twˈɔɹk": {
+   "id": "f464456a06c6",
+   "dur": 0.698,
+   "src": "elevenlabs"
+  },
+  "ipa:twˈɛʌ": {
+   "id": "41da458af9fb",
+   "dur": 0.59,
+   "src": "elevenlabs"
+  },
+  "ipa:twˈɪf": {
+   "id": "ae311961b57d",
+   "dur": 0.622,
+   "src": "elevenlabs"
+  },
+  "ipa:twˈɪɹf": {
+   "id": "bf6ae0c26b51",
+   "dur": 0.667,
+   "src": "elevenlabs"
+  },
+  "ipa:twˈɪʌ": {
+   "id": "19ff4f5c9ef2",
+   "dur": 0.669,
+   "src": "elevenlabs"
+  },
+  "ipa:tɹˈeɪð": {
+   "id": "a887cffb7cde",
+   "dur": 0.695,
+   "src": "elevenlabs"
+  },
+  "ipa:tɹˈist": {
+   "id": "091443db6ac4",
+   "dur": 0.762,
+   "src": "elevenlabs"
+  },
+  "ipa:tɹˈoʊd": {
+   "id": "c9b4f055c658",
+   "dur": 0.853,
+   "src": "elevenlabs"
+  },
+  "ipa:tɹˈoʊm": {
+   "id": "a62ce45a3ac8",
+   "dur": 0.636,
+   "src": "elevenlabs"
+  },
+  "ipa:tɹˈud": {
+   "id": "061c67342fe9",
+   "dur": 0.865,
+   "src": "elevenlabs"
+  },
+  "ipa:tɹˈum": {
+   "id": "34d1f1f0fdb3",
+   "dur": 0.685,
+   "src": "elevenlabs"
+  },
+  "ipa:tɹˈæɹk": {
+   "id": "f7c2e2036726",
+   "dur": 0.694,
+   "src": "elevenlabs"
+  },
+  "ipa:tɹˈɪf": {
+   "id": "844f802164ec",
+   "dur": 0.631,
+   "src": "elevenlabs"
+  },
+  "ipa:tɹˈɪɹf": {
+   "id": "29307c4e5d06",
+   "dur": 0.714,
+   "src": "elevenlabs"
+  },
+  "ipa:tɹˈɪʌ": {
+   "id": "70cab08870c8",
+   "dur": 0.606,
+   "src": "elevenlabs"
+  },
+  "ipa:vˈeɪns": {
+   "id": "ee7acb637ec3",
+   "dur": 0.791,
+   "src": "elevenlabs"
+  },
+  "ipa:vˈeɪv": {
+   "id": "1a2686dc163c",
+   "dur": 0.734,
+   "src": "elevenlabs"
+  },
+  "ipa:vˈɪns": {
+   "id": "ce7d12e2b976",
+   "dur": 0.716,
+   "src": "elevenlabs"
+  },
+  "ipa:vˈʌv": {
+   "id": "7b08ba796a03",
+   "dur": 0.705,
+   "src": "elevenlabs"
+  },
+  "ipa:wˈeɪns": {
+   "id": "0d00a278f9b6",
+   "dur": 0.776,
+   "src": "elevenlabs"
+  },
+  "ipa:zˈup": {
+   "id": "7a86891c9acc",
+   "dur": 0.603,
+   "src": "elevenlabs"
+  },
+  "ipa:zˈuɹɪk": {
+   "id": "0c08c9d9a9bd",
+   "dur": 0.751,
+   "src": "elevenlabs"
+  },
+  "ipa:zˈɑmɪŋ": {
+   "id": "debe2483c969",
+   "dur": 0.768,
+   "src": "elevenlabs"
+  },
+  "ipa:zˈɪd": {
+   "id": "4d9cff4d6701",
+   "dur": 0.644,
+   "src": "elevenlabs"
+  },
+  "ipa:ðˈeɪd": {
+   "id": "5108ba941a1d",
+   "dur": 0.834,
+   "src": "elevenlabs"
+  },
+  "ipa:ðˈoʊp": {
+   "id": "41fae285c7d2",
+   "dur": 0.647,
+   "src": "elevenlabs"
+  },
+  "ipa:ðˈup": {
+   "id": "3dc49a2188db",
+   "dur": 0.619,
+   "src": "elevenlabs"
+  },
+  "ipa:ðˈɪd": {
+   "id": "32cb460757ea",
+   "dur": 0.625,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡlˈaɪn": {
+   "id": "b77d4eb005ed",
+   "dur": 0.729,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡlˈɑn": {
+   "id": "a0d04b0c2cd3",
+   "dur": 0.725,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡlˈɛld": {
+   "id": "d4f161dc71b5",
+   "dur": 0.798,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡɹˈɑn": {
+   "id": "bb8e5dce6d99",
+   "dur": 0.724,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡˈubɛl": {
+   "id": "933bd25632d0",
+   "dur": 0.688,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡˈɪbɛl": {
+   "id": "a9d681201c60",
+   "dur": 0.701,
+   "src": "elevenlabs"
+  },
+  "ipa:ʃɹˈaɪ": {
+   "id": "30e65bc91a83",
+   "dur": 0.823,
+   "src": "elevenlabs"
+  },
+  "ipa:ʃˈeɪb": {
+   "id": "03def13fcfff",
+   "dur": 0.746,
+   "src": "elevenlabs"
+  },
+  "ipa:ʤˈaɪ": {
+   "id": "08ff72f27adf",
+   "dur": 0.745,
+   "src": "elevenlabs"
+  },
+  "syl:bɛl": {
+   "id": "d207a180809c",
+   "dur": 0.48,
+   "src": "elevenlabs"
+  },
+  "syl:bɪk": {
+   "id": "3e48c25263dc",
+   "dur": 0.35,
+   "src": "elevenlabs"
+  },
+  "syl:bɪŋ": {
+   "id": "bef88b97f93b",
+   "dur": 0.5,
+   "src": "elevenlabs"
+  },
+  "syl:floʊ": {
+   "id": "6a2d03a5e6be",
+   "dur": 0.49,
+   "src": "elevenlabs"
+  },
+  "syl:flæd": {
+   "id": "daf09118b2d3",
+   "dur": 0.53,
+   "src": "elevenlabs"
+  },
+  "syl:fɹoʊ": {
+   "id": "6e5dbeaa61e4",
+   "dur": 0.51,
+   "src": "elevenlabs"
+  },
+  "syl:lip": {
+   "id": "faf4d3e8d3bb",
+   "dur": 0.38,
+   "src": "elevenlabs"
+  },
+  "syl:mi": {
+   "id": "66fa777443b5",
+   "dur": 0.45,
+   "src": "elevenlabs"
+  },
+  "syl:mɪk": {
+   "id": "7aec280f8ebc",
+   "dur": 0.34,
+   "src": "elevenlabs"
+  },
+  "syl:mɪŋ": {
+   "id": "1d6a24e866bb",
+   "dur": 0.39,
+   "src": "elevenlabs"
+  },
+  "syl:plɛm": {
+   "id": "3f7ed9e58aad",
+   "dur": 0.46,
+   "src": "elevenlabs"
+  },
+  "syl:pɹoʊɡ": {
+   "id": "2f5c153fa3f1",
+   "dur": 0.48,
+   "src": "elevenlabs"
+  },
+  "syl:pɹɑʤ": {
+   "id": "dfc579e3829d",
+   "dur": 0.36,
+   "src": "elevenlabs"
+  },
+  "syl:saɪl": {
+   "id": "2222021cfc12",
+   "dur": 0.56,
+   "src": "elevenlabs"
+  },
+  "syl:seɪ": {
+   "id": "6386225e1ed2",
+   "dur": 0.46,
+   "src": "elevenlabs"
+  },
+  "syl:skeɪ": {
+   "id": "399a21b9db90",
+   "dur": 0.49,
+   "src": "elevenlabs"
+  },
+  "syl:sli": {
+   "id": "f3e3ac4a347e",
+   "dur": 0.57,
+   "src": "elevenlabs"
+  },
+  "syl:slæd": {
+   "id": "b8ccb6204f62",
+   "dur": 0.54,
+   "src": "elevenlabs"
+  },
+  "syl:smaɪ": {
+   "id": "b9decc29de77",
+   "dur": 0.499,
+   "src": "elevenlabs"
+  },
+  "syl:sɝk": {
+   "id": "7ccddf0929ec",
+   "dur": 0.39,
+   "src": "elevenlabs"
+  },
+  "syl:sɪl": {
+   "id": "dbac47d5ff97",
+   "dur": 0.56,
+   "src": "elevenlabs"
+  },
+  "syl:teɪn": {
+   "id": "f43be81d34da",
+   "dur": 0.59,
+   "src": "elevenlabs"
+  },
+  "syl:tɹæf": {
+   "id": "98385fd6773a",
+   "dur": 0.37,
+   "src": "elevenlabs"
+  },
+  "syl:tɹɛ": {
+   "id": "90cd389b3b04",
+   "dur": 0.4,
+   "src": "elevenlabs"
+  },
+  "syl:weɪz": {
+   "id": "2b7779395e65",
+   "dur": 0.68,
+   "src": "elevenlabs"
+  },
+  "syl:wɔt": {
+   "id": "b3995903fc9c",
+   "dur": 0.31,
+   "src": "elevenlabs"
+  },
+  "syl:zaɪ": {
+   "id": "63c607358393",
+   "dur": 0.47,
+   "src": "elevenlabs"
+  },
+  "syl:ɔz": {
+   "id": "8b0a618f9653",
+   "dur": 0.34,
+   "src": "elevenlabs"
+  },
+  "syl:ɡɝz": {
+   "id": "ed58e375425a",
+   "dur": 0.42,
+   "src": "elevenlabs"
+  },
+  "syl:ɹɪk": {
+   "id": "f3a15dde673b",
+   "dur": 0.3,
+   "src": "elevenlabs"
+  },
+  "syl:ʤaɪ": {
+   "id": "6d14c4236bb8",
+   "dur": 0.43,
+   "src": "elevenlabs"
+  },
+  "syl:ʤoʊ": {
+   "id": "c4b49af8bbcb",
+   "dur": 0.47,
+   "src": "elevenlabs"
+  },
+  "syl:ʤʌz": {
+   "id": "c7765a23789c",
+   "dur": 0.38,
+   "src": "elevenlabs"
+  },
+  "syl:ʧɪl": {
+   "id": "17b4de288d3d",
+   "dur": 0.44,
+   "src": "elevenlabs"
+  },
+  "syl:aɪ": {
+   "id": "612626b0b329",
+   "dur": 0.35,
+   "src": "elevenlabs"
+  },
+  "syl:aʊt": {
+   "id": "704da092c659",
+   "dur": 0.28,
+   "src": "elevenlabs"
+  },
+  "syl:bʌt": {
+   "id": "5e2378c4e621",
+   "dur": 0.35,
+   "src": "elevenlabs"
+  },
+  "syl:eɪ": {
+   "id": "498fc9537a79",
+   "dur": 0.36,
+   "src": "elevenlabs"
+  },
+  "syl:fɑɹ": {
+   "id": "772361073d05",
+   "dur": 0.5,
+   "src": "elevenlabs"
+  },
+  "syl:fɛɹ": {
+   "id": "c1666b622a6f",
+   "dur": 0.5,
+   "src": "elevenlabs"
+  },
+  "syl:mɑɹk": {
+   "id": "9c081df2210a",
+   "dur": 0.35,
+   "src": "elevenlabs"
+  },
+  "syl:stɑɹt": {
+   "id": "11ed3e0e0caf",
+   "dur": 0.46,
+   "src": "elevenlabs"
+  },
+  "syl:æ": {
+   "id": "4f2956dc9d7c",
+   "dur": 0.36,
+   "src": "elevenlabs"
+  },
+  "syl:ɑɹ": {
+   "id": "ec6b512489d4",
+   "dur": 0.39,
+   "src": "elevenlabs"
+  },
+  "syl:ɪ": {
+   "id": "3d5d77c73e45",
+   "dur": 0.35,
+   "src": "elevenlabs"
+  },
+  "syl:ʌ": {
+   "id": "2e9b4285e8b3",
+   "dur": 0.36,
+   "src": "elevenlabs"
+  },
+  "syl:θæn": {
+   "id": "933855b1b56c",
+   "dur": 0.47,
+   "src": "elevenlabs"
+  },
+  "syl:kæʧ": {
+   "id": "5810e77b88a0",
+   "dur": 0.27,
+   "src": "elevenlabs"
+  },
+  "syl:saɪd": {
+   "id": "5f13124c1854",
+   "dur": 0.52,
+   "src": "elevenlabs"
+  },
+  "syl:ʃɔɹt": {
+   "id": "14d7b5c114bf",
+   "dur": 0.44,
+   "src": "elevenlabs"
+  },
+  "syl:ju": {
+   "id": "5a6dcf2bae08",
+   "dur": 0.32,
+   "src": "elevenlabs"
+  },
+  "syl:jɑɹd": {
+   "id": "cfad5862a577",
+   "dur": 0.54,
+   "src": "elevenlabs"
+  },
+  "syl:mʌð": {
+   "id": "4eb8afe76bb7",
+   "dur": 0.39,
+   "src": "elevenlabs"
+  },
+  "syl:stɑp": {
+   "id": "13848d2b1b14",
+   "dur": 0.54,
+   "src": "elevenlabs"
+  },
+  "syl:swɪm": {
+   "id": "78727cd3318a",
+   "dur": 0.56,
+   "src": "elevenlabs"
+  },
+  "syl:θɛn": {
+   "id": "c1422b3765ff",
+   "dur": 0.45,
+   "src": "elevenlabs"
+  },
+  "syl:θɪn": {
+   "id": "9aac8b1e2ce0",
+   "dur": 0.54,
+   "src": "elevenlabs"
+  },
+  "syl:lɔŋɡ": {
+   "id": "155d3c1cb4a6",
+   "dur": 0.53,
+   "src": "elevenlabs"
+  },
+  "syl:lʊk": {
+   "id": "ee78d1f43005",
+   "dur": 0.3,
+   "src": "elevenlabs"
+  },
+  "syl:pleɪn": {
+   "id": "c59f46e404e9",
+   "dur": 0.46,
+   "src": "elevenlabs"
+  },
+  "syl:ɛɹ": {
+   "id": "c2dfa4f59a8e",
+   "dur": 0.38,
+   "src": "elevenlabs"
+  },
+  "syl:ʌm": {
+   "id": "bc657d584ae3",
+   "dur": 0.7,
+   "src": "elevenlabs"
+  },
+  "syl:daʊn": {
+   "id": "478d1362ad07",
+   "dur": 0.52,
+   "src": "elevenlabs"
+  },
+  "syl:fɑɹm": {
+   "id": "c5f0ca80d442",
+   "dur": 0.53,
+   "src": "elevenlabs"
+  },
+  "syl:hæŋ": {
+   "id": "8a5ec5a275af",
+   "dur": 0.48,
+   "src": "elevenlabs"
+  },
+  "syl:hɔŋk": {
+   "id": "550797f7fa85",
+   "dur": 0.37,
+   "src": "elevenlabs"
+  },
+  "syl:kɪŋ": {
+   "id": "11d5c027c369",
+   "dur": 0.57,
+   "src": "elevenlabs"
+  },
+  "syl:sɪŋ": {
+   "id": "fef20d6b97e9",
+   "dur": 0.55,
+   "src": "elevenlabs"
+  },
+  "syl:zɪŋ": {
+   "id": "7679f24499f5",
+   "dur": 0.55,
+   "src": "elevenlabs"
+  },
+  "syl:ɹɪŋ": {
+   "id": "8ca5c438e320",
+   "dur": 0.48,
+   "src": "elevenlabs"
+  },
+  "syl:dæʃ": {
+   "id": "52a6078ba36f",
+   "dur": 0.35,
+   "src": "elevenlabs"
+  },
+  "syl:plæn": {
+   "id": "be840b00468b",
+   "dur": 0.45,
+   "src": "elevenlabs"
+  },
+  "syl:plʌn": {
+   "id": "619a9f360e20",
+   "dur": 0.45,
+   "src": "elevenlabs"
+  },
+  "syl:slɪp": {
+   "id": "f8af8ad69575",
+   "dur": 0.43,
+   "src": "elevenlabs"
+  },
+  "syl:spɪn": {
+   "id": "8232a0a86246",
+   "dur": 0.56,
+   "src": "elevenlabs"
+  },
+  "syl:tɹɪp": {
+   "id": "dff9b8944e74",
+   "dur": 0.34,
+   "src": "elevenlabs"
+  },
+  "syl:u": {
+   "id": "2ec7276d716d",
+   "dur": 0.48,
+   "src": "elevenlabs"
+  },
+  "w:rukhsana": {
+   "id": "e168e449bb01",
+   "dur": 0.906,
+   "src": "elevenlabs"
+  },
+  "syl:hænd": {
+   "id": "764d1a3b323e",
+   "dur": 0.49,
+   "src": "elevenlabs"
+  },
+  "syl:hɑɹd": {
+   "id": "dde6904a9692",
+   "dur": 0.49,
+   "src": "elevenlabs"
+  },
+  "syl:tɪɹz": {
+   "id": "2fc2cf4dfbda",
+   "dur": 0.57,
+   "src": "elevenlabs"
+  },
+  "syl:tɹaɪ": {
+   "id": "1e4f3c6ecd2a",
+   "dur": 0.48,
+   "src": "elevenlabs"
+  },
+  "syl:klæs": {
+   "id": "fd90436952e7",
+   "dur": 0.36,
+   "src": "elevenlabs"
+  },
+  "syl:ɪz": {
+   "id": "d2c9b7a5649f",
+   "dur": 0.28,
+   "src": "elevenlabs"
+  },
+  "syl:ʌs": {
+   "id": "3cfa14a13a89",
+   "dur": 0.28,
+   "src": "elevenlabs"
+  },
+  "syl:ʌz": {
+   "id": "7513c51f1158",
+   "dur": 0.28,
+   "src": "elevenlabs"
+  },
+  "w:bilal": {
+   "id": "2268f9b6319c",
+   "dur": 0.706,
+   "src": "elevenlabs"
+  },
+  "syl:i": {
+   "id": "33df430d436c",
+   "dur": 0.4,
+   "src": "elevenlabs"
+  },
+  "syl:ɝ": {
+   "id": "a8f887a219cf",
+   "dur": 0.37,
+   "src": "elevenlabs"
+  },
+  "syl:ɪŋ": {
+   "id": "319a762f82e3",
+   "dur": 0.56,
+   "src": "elevenlabs"
+  },
+  "syl:θɪŋ": {
+   "id": "fa552aab4d78",
+   "dur": 0.57,
+   "src": "elevenlabs"
+  },
+  "syl:wɑʧ": {
+   "id": "43df05d074ba",
+   "dur": 0.31,
+   "src": "elevenlabs"
+  },
+  "syl:ɪʃ": {
+   "id": "b7d56350919f",
+   "dur": 0.27,
+   "src": "elevenlabs"
+  },
+  "syl:bɑɹn": {
+   "id": "7f16f1230bf7",
+   "dur": 0.53,
+   "src": "elevenlabs"
+  },
+  "syl:lʌt": {
+   "id": "f5a798fad28d",
+   "dur": 0.38,
+   "src": "elevenlabs"
+  },
+  "syl:ɹeɪn": {
+   "id": "2eeea9b9e9a5",
+   "dur": 0.53,
+   "src": "elevenlabs"
+  },
+  "syl:leɪt": {
+   "id": "d945d18d2999",
+   "dur": 0.36,
+   "src": "elevenlabs"
+  },
+  "syl:wɝk": {
+   "id": "9e466ffd0912",
+   "dur": 0.34,
+   "src": "elevenlabs"
+  },
+  "syl:bɑt": {
+   "id": "f44aad1b1308",
+   "dur": 0.38,
+   "src": "elevenlabs"
+  },
+  "syl:haɪ": {
+   "id": "0de2bef89fde",
+   "dur": 0.39,
+   "src": "elevenlabs"
+  },
+  "syl:læf": {
+   "id": "65fb2b36df95",
+   "dur": 0.52,
+   "src": "elevenlabs"
+  },
+  "syl:mju": {
+   "id": "1193201da6e0",
+   "dur": 0.44,
+   "src": "elevenlabs"
+  },
+  "syl:zɪk": {
+   "id": "5c81d606256b",
+   "dur": 0.35,
+   "src": "elevenlabs"
+  },
+  "syl:ɹoʊ": {
+   "id": "1944806ac2b9",
+   "dur": 0.48,
+   "src": "elevenlabs"
+  },
+  "syl:kɹaɪ": {
+   "id": "f9f7b2db8188",
+   "dur": 0.61,
+   "src": "elevenlabs"
+  },
+  "syl:aɪs": {
+   "id": "6a1153316df9",
+   "dur": 0.27,
+   "src": "elevenlabs"
+  },
+  "ipa:blˈɑɹ": {
+   "id": "cc3550e18943",
+   "dur": 0.75,
+   "src": "elevenlabs"
+  },
+  "syl:kæɹ": {
+   "id": "4521550f6041",
+   "dur": 0.41,
+   "src": "elevenlabs"
+  },
+  "syl:kɛɹ": {
+   "id": "4ff0e013de4d",
+   "dur": 0.41,
+   "src": "elevenlabs"
+  },
+  "syl:smɑɹt": {
+   "id": "c0b5ae5bc4f3",
+   "dur": 0.49,
+   "src": "elevenlabs"
+  },
+  "w:blar": {
+   "id": "035a2d9583ac",
+   "dur": 0.75,
+   "src": "elevenlabs"
+  },
+  "syl:kɔɹn": {
+   "id": "a36488e419e2",
+   "dur": 0.47,
+   "src": "elevenlabs"
+  },
+  "syl:laɪn": {
+   "id": "be07ecf28c16",
+   "dur": 0.56,
+   "src": "elevenlabs"
+  },
+  "syl:tɔɹ": {
+   "id": "9354e98958be",
+   "dur": 0.43,
+   "src": "elevenlabs"
+  },
+  "syl:ɔɹ": {
+   "id": "ca24f568b3fb",
+   "dur": 0.36,
+   "src": "elevenlabs"
+  },
+  "syl:pleɪ": {
+   "id": "e9533563a895",
+   "dur": 0.41,
+   "src": "elevenlabs"
+  },
+  "syl:sloʊ": {
+   "id": "cbeb969cf94b",
+   "dur": 0.7,
+   "src": "elevenlabs"
+  },
+  "syl:ʃoʊ": {
+   "id": "a280337573b1",
+   "dur": 0.49,
+   "src": "elevenlabs"
+  },
+  "syl:di": {
+   "id": "efe66f274f90",
+   "dur": 0.48,
+   "src": "elevenlabs"
+  },
+  "syl:ɹi": {
+   "id": "9c5798f2e029",
+   "dur": 0.43,
+   "src": "elevenlabs"
+  },
+  "syl:but": {
+   "id": "4f4dbe97272f",
+   "dur": 0.38,
+   "src": "elevenlabs"
+  },
+  "syl:kʊk": {
+   "id": "e47b848cbcf1",
+   "dur": 0.29,
+   "src": "elevenlabs"
+  },
+  "syl:sɛlf": {
+   "id": "1f5299827bfd",
+   "dur": 0.43,
+   "src": "elevenlabs"
+  },
+  "syl:aɪnd": {
+   "id": "620f875bad4c",
+   "dur": 0.41,
+   "src": "elevenlabs"
+  },
+  "syl:oʊst": {
+   "id": "063ca3def217",
+   "dur": 0.26,
+   "src": "elevenlabs"
+  },
+  "ipa:dˈɑɹm": {
+   "id": "27baa0383823",
+   "dur": 0.683,
+   "src": "elevenlabs"
+  },
+  "ipa:fˈɑɹl": {
+   "id": "a5e07e89dc0a",
+   "dur": 0.742,
+   "src": "elevenlabs"
+  },
+  "ipa:klˈɑɹt": {
+   "id": "73b3d4ad3f0a",
+   "dur": 0.679,
+   "src": "elevenlabs"
+  },
+  "ipa:plˈɑɹn": {
+   "id": "0ad9ba19f541",
+   "dur": 0.745,
+   "src": "elevenlabs"
+  },
+  "ipa:stˈɑɹb": {
+   "id": "96144330d406",
+   "dur": 0.703,
+   "src": "elevenlabs"
+  },
+  "ipa:sˈɑɹb": {
+   "id": "062f3b71f18f",
+   "dur": 0.758,
+   "src": "elevenlabs"
+  },
+  "ipa:sˈɑɹt": {
+   "id": "8e780e505e68",
+   "dur": 0.688,
+   "src": "elevenlabs"
+  },
+  "ipa:tˈɑɹl": {
+   "id": "74b7988ef44f",
+   "dur": 0.664,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡˈɑɹtɛl": {
+   "id": "26960b9e37aa",
+   "dur": 0.796,
+   "src": "elevenlabs"
+  },
+  "syl:tɑɹ": {
+   "id": "919626f3e089",
+   "dur": 0.48,
+   "src": "elevenlabs"
+  },
+  "syl:ɑɹm": {
+   "id": "6908d49882b0",
+   "dur": 0.35,
+   "src": "elevenlabs"
+  },
+  "syl:ɑɹt": {
+   "id": "fb270960d4ad",
+   "dur": 0.28,
+   "src": "elevenlabs"
+  },
+  "w:clart": {
+   "id": "8916c6097cc2",
+   "dur": 0.679,
+   "src": "elevenlabs"
+  },
+  "w:darm": {
+   "id": "6b89105fb9d7",
+   "dur": 0.683,
+   "src": "elevenlabs"
+  },
+  "w:farl": {
+   "id": "bcda834e2b9d",
+   "dur": 0.742,
+   "src": "elevenlabs"
+  },
+  "w:gartel": {
+   "id": "8b505195129c",
+   "dur": 0.796,
+   "src": "elevenlabs"
+  },
+  "w:plarn": {
+   "id": "e46dfa8160bf",
+   "dur": 0.745,
+   "src": "elevenlabs"
+  },
+  "w:sarb": {
+   "id": "b091538f44f7",
+   "dur": 0.758,
+   "src": "elevenlabs"
+  },
+  "w:sart": {
+   "id": "b9a1431569a6",
+   "dur": 0.688,
+   "src": "elevenlabs"
+  },
+  "w:starb": {
+   "id": "377d8a7969c8",
+   "dur": 0.703,
+   "src": "elevenlabs"
+  },
+  "w:tarl": {
+   "id": "a0822241343e",
+   "dur": 0.664,
+   "src": "elevenlabs"
+  },
+  "ipa:dˈɔɹl": {
+   "id": "5ddd63164d5c",
+   "dur": 0.635,
+   "src": "elevenlabs"
+  },
+  "ipa:fˈɔɹn": {
+   "id": "5248d34bdd76",
+   "dur": 0.719,
+   "src": "elevenlabs"
+  },
+  "ipa:mˈɔɹst": {
+   "id": "34ea526cbd6a",
+   "dur": 0.719,
+   "src": "elevenlabs"
+  },
+  "ipa:plˈɔɹ": {
+   "id": "617df7947361",
+   "dur": 0.752,
+   "src": "elevenlabs"
+  },
+  "ipa:plˈɔɹt": {
+   "id": "2b3575c57eac",
+   "dur": 0.656,
+   "src": "elevenlabs"
+  },
+  "ipa:stˈɔɹf": {
+   "id": "3427751217f3",
+   "dur": 0.855,
+   "src": "elevenlabs"
+  },
+  "ipa:stˈɔɹɡ": {
+   "id": "7f35922ec156",
+   "dur": 0.99,
+   "src": "elevenlabs"
+  },
+  "ipa:wˈɔɹz": {
+   "id": "6e481e5ecd6c",
+   "dur": 0.745,
+   "src": "elevenlabs"
+  },
+  "syl:fɝt": {
+   "id": "f20363277250",
+   "dur": 0.4,
+   "src": "elevenlabs"
+  },
+  "syl:pɔɹt": {
+   "id": "eb237f9b7d9c",
+   "dur": 0.36,
+   "src": "elevenlabs"
+  },
+  "syl:ɔɹt": {
+   "id": "24037406f5a5",
+   "dur": 0.36,
+   "src": "elevenlabs"
+  },
+  "syl:ɝt": {
+   "id": "a53833eb2b78",
+   "dur": 0.4,
+   "src": "elevenlabs"
+  },
+  "w:amina": {
+   "id": "05b1b9c44f9a",
+   "dur": 0.617,
+   "src": "elevenlabs"
+  },
+  "w:dorl": {
+   "id": "1cc3cd19c1ea",
+   "dur": 0.635,
+   "src": "elevenlabs"
+  },
+  "w:forn": {
+   "id": "901b8f310e5b",
+   "dur": 0.719,
+   "src": "elevenlabs"
+  },
+  "w:morst": {
+   "id": "f077d0b01550",
+   "dur": 0.719,
+   "src": "elevenlabs"
+  },
+  "w:plor": {
+   "id": "b1ce44aa4dde",
+   "dur": 0.752,
+   "src": "elevenlabs"
+  },
+  "w:plort": {
+   "id": "c1898c6f5ac7",
+   "dur": 0.656,
+   "src": "elevenlabs"
+  },
+  "w:storf": {
+   "id": "9cbd24bd0ce0",
+   "dur": 0.855,
+   "src": "elevenlabs"
+  },
+  "w:storg": {
+   "id": "c5c9937b87bd",
+   "dur": 0.99,
+   "src": "elevenlabs"
+  },
+  "w:worz": {
+   "id": "8c5dda80c4a7",
+   "dur": 0.745,
+   "src": "elevenlabs"
+  },
+  "ipa:dˈɝn": {
+   "id": "d0baf60e75a8",
+   "dur": 0.714,
+   "src": "elevenlabs"
+  },
+  "ipa:dˈɝst": {
+   "id": "e083e7be027c",
+   "dur": 0.763,
+   "src": "elevenlabs"
+  },
+  "ipa:fˈɝb": {
+   "id": "dc5c9c224912",
+   "dur": 0.664,
+   "src": "elevenlabs"
+  },
+  "ipa:fˈɝl": {
+   "id": "f0a911873263",
+   "dur": 0.691,
+   "src": "elevenlabs"
+  },
+  "ipa:stˈɝf": {
+   "id": "862adf6dcb03",
+   "dur": 0.825,
+   "src": "elevenlabs"
+  },
+  "ipa:stˈɝk": {
+   "id": "9b704b73e4b0",
+   "dur": 0.726,
+   "src": "elevenlabs"
+  },
+  "ipa:zˈɝt": {
+   "id": "fdcb78813336",
+   "dur": 0.731,
+   "src": "elevenlabs"
+  },
+  "ipa:θˈɝb": {
+   "id": "dc283219be91",
+   "dur": 0.702,
+   "src": "elevenlabs"
+  },
+  "syl:dɝt": {
+   "id": "e1b87385d9fd",
+   "dur": 0.41,
+   "src": "elevenlabs"
+  },
+  "w:dirn": {
+   "id": "a3c67a5cb08a",
+   "dur": 0.714,
+   "src": "elevenlabs"
+  },
+  "w:dirst": {
+   "id": "e13b3f642acb",
+   "dur": 0.763,
+   "src": "elevenlabs"
+  },
+  "w:ferb": {
+   "id": "a81ad77a0729",
+   "dur": 0.664,
+   "src": "elevenlabs"
+  },
+  "w:ferl": {
+   "id": "2bba560d9de2",
+   "dur": 0.691,
+   "src": "elevenlabs"
+  },
+  "w:sturf": {
+   "id": "0c3a814c77eb",
+   "dur": 0.825,
+   "src": "elevenlabs"
+  },
+  "w:sturk": {
+   "id": "44de160f9ce4",
+   "dur": 0.726,
+   "src": "elevenlabs"
+  },
+  "w:thurb": {
+   "id": "1ef8c0c2fc5a",
+   "dur": 0.702,
+   "src": "elevenlabs"
+  },
+  "w:zirt": {
+   "id": "fae4e3ef6cd4",
+   "dur": 0.731,
+   "src": "elevenlabs"
+  },
+  "ipa:dɹˈɛɹ": {
+   "id": "a9095153f751",
+   "dur": 0.765,
+   "src": "elevenlabs"
+  },
+  "ipa:stˈɔɹt": {
+   "id": "20218e8d1eeb",
+   "dur": 0.832,
+   "src": "elevenlabs"
+  },
+  "ipa:wˈɔɹb": {
+   "id": "9cbdf96f7341",
+   "dur": 0.655,
+   "src": "elevenlabs"
+  },
+  "ipa:wˈɔɹɡ": {
+   "id": "382775d6ea95",
+   "dur": 0.753,
+   "src": "elevenlabs"
+  },
+  "syl:ɪɹ": {
+   "id": "ed769126bdd2",
+   "dur": 0.48,
+   "src": "elevenlabs"
+  },
+  "syl:ʧɪɹ": {
+   "id": "bd20a0df0a1b",
+   "dur": 0.47,
+   "src": "elevenlabs"
+  },
+  "w:drare": {
+   "id": "8f16d1379a54",
+   "dur": 0.765,
+   "src": "elevenlabs"
+  },
+  "w:hina": {
+   "id": "9d93fe7ced38",
+   "dur": 0.56,
+   "src": "elevenlabs"
+  },
+  "w:stort": {
+   "id": "32e7d0ed61f9",
+   "dur": 0.832,
+   "src": "elevenlabs"
+  },
+  "w:worb": {
+   "id": "1137882cca93",
+   "dur": 0.655,
+   "src": "elevenlabs"
+  },
+  "w:worg": {
+   "id": "3dee9d977923",
+   "dur": 0.753,
+   "src": "elevenlabs"
+  },
+  "w:zair": {
+   "id": "636ff62930dc",
+   "dur": 0.704,
+   "src": "elevenlabs"
+  },
+  "w:zare": {
+   "id": "f19bf5327078",
+   "dur": 0.66,
+   "src": "elevenlabs"
+  },
+  "ipa:flˈɔɪp": {
+   "id": "e08e52b92f49",
+   "dur": 0.626,
+   "src": "elevenlabs"
+  },
+  "ipa:mˈɔɪn": {
+   "id": "899dbda5a286",
+   "dur": 0.614,
+   "src": "elevenlabs"
+  },
+  "ipa:mˈɔɪp": {
+   "id": "a389c9bde5c9",
+   "dur": 0.59,
+   "src": "elevenlabs"
+  },
+  "ipa:skˈɔɪ": {
+   "id": "37eb63535f20",
+   "dur": 0.737,
+   "src": "elevenlabs"
+  },
+  "ipa:zˈɔɪnt": {
+   "id": "033e55873242",
+   "dur": 0.728,
+   "src": "elevenlabs"
+  },
+  "ipa:ˈɔɪp": {
+   "id": "7d45824e3cfe",
+   "dur": 0.499,
+   "src": "elevenlabs"
+  },
+  "ipa:θɹˈɔɪ": {
+   "id": "7640812a07f3",
+   "dur": 0.719,
+   "src": "elevenlabs"
+  },
+  "ipa:θɹˈɔɪl": {
+   "id": "08c801360192",
+   "dur": 0.777,
+   "src": "elevenlabs"
+  },
+  "syl:ʤɔɪ": {
+   "id": "26881d16ffc1",
+   "dur": 0.6,
+   "src": "elevenlabs"
+  },
+  "w:floip": {
+   "id": "97a8ad7f4011",
+   "dur": 0.626,
+   "src": "elevenlabs"
+  },
+  "w:moin": {
+   "id": "e1028d08e421",
+   "dur": 0.614,
+   "src": "elevenlabs"
+  },
+  "w:moip": {
+   "id": "f4ada9d517bb",
+   "dur": 0.59,
+   "src": "elevenlabs"
+  },
+  "w:oip": {
+   "id": "feb4312f1e4d",
+   "dur": 0.499,
+   "src": "elevenlabs"
+  },
+  "w:scoy": {
+   "id": "5ce9d9266f2e",
+   "dur": 0.737,
+   "src": "elevenlabs"
+  },
+  "w:throil": {
+   "id": "8c2664d53082",
+   "dur": 0.777,
+   "src": "elevenlabs"
+  },
+  "w:throy": {
+   "id": "fff1ca0cb06a",
+   "dur": 0.719,
+   "src": "elevenlabs"
+  },
+  "w:zayn": {
+   "id": "5f934b2be79b",
+   "dur": 0.742,
+   "src": "elevenlabs"
+  },
+  "w:zoint": {
+   "id": "58f08dc30674",
+   "dur": 0.728,
+   "src": "elevenlabs"
+  },
+  "ipa:plˈaʊt": {
+   "id": "7bc31e7248f0",
+   "dur": 0.684,
+   "src": "elevenlabs"
+  },
+  "ipa:plˈoʊn": {
+   "id": "e48ad4494e18",
+   "dur": 0.736,
+   "src": "elevenlabs"
+  },
+  "ipa:skɹˈoʊ": {
+   "id": "bdd0d0106f48",
+   "dur": 0.786,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡlˈaʊt": {
+   "id": "70e4fc314a92",
+   "dur": 0.732,
+   "src": "elevenlabs"
+  },
+  "ipa:θɹˈaʊd": {
+   "id": "534fe09a7880",
+   "dur": 0.8,
+   "src": "elevenlabs"
+  },
+  "ipa:θɹˈaʊn": {
+   "id": "02a999d44bb0",
+   "dur": 0.789,
+   "src": "elevenlabs"
+  },
+  "syl:haʊs": {
+   "id": "c1970e104a7d",
+   "dur": 0.36,
+   "src": "elevenlabs"
+  },
+  "syl:taʊn": {
+   "id": "ce80a39fb5c9",
+   "dur": 0.54,
+   "src": "elevenlabs"
+  },
+  "w:dround": {
+   "id": "f37ff0159f87",
+   "dur": 0.833,
+   "src": "elevenlabs"
+  },
+  "w:glout": {
+   "id": "9f56934981d5",
+   "dur": 0.732,
+   "src": "elevenlabs"
+  },
+  "w:naveed": {
+   "id": "ad4b9bb3a819",
+   "dur": 0.798,
+   "src": "elevenlabs"
+  },
+  "w:plout": {
+   "id": "eb7fd1234160",
+   "dur": 0.684,
+   "src": "elevenlabs"
+  },
+  "w:plown": {
+   "id": "3a189b11557a",
+   "dur": 0.736,
+   "src": "elevenlabs"
+  },
+  "w:scrow": {
+   "id": "2e6dd16f2e70",
+   "dur": 0.786,
+   "src": "elevenlabs"
+  },
+  "w:throud": {
+   "id": "3e6900444064",
+   "dur": 0.8,
+   "src": "elevenlabs"
+  },
+  "w:throun": {
+   "id": "3b2f51da6b74",
+   "dur": 0.789,
+   "src": "elevenlabs"
+  },
+  "ipa:fɹˈɔ": {
+   "id": "23dccace6280",
+   "dur": 0.891,
+   "src": "elevenlabs"
+  },
+  "ipa:skˈɔl": {
+   "id": "fce7366cd848",
+   "dur": 0.716,
+   "src": "elevenlabs"
+  },
+  "ipa:stˈɔl": {
+   "id": "552d0ee0a504",
+   "dur": 0.778,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡlˈɔl": {
+   "id": "aca1cee60068",
+   "dur": 0.789,
+   "src": "elevenlabs"
+  },
+  "ipa:θɹˈɔ": {
+   "id": "81b0a6e68a88",
+   "dur": 0.733,
+   "src": "elevenlabs"
+  },
+  "syl:dɹɔ": {
+   "id": "9b9d1b09b326",
+   "dur": 0.54,
+   "src": "elevenlabs"
+  },
+  "syl:æl": {
+   "id": "7580e6863445",
+   "dur": 0.35,
+   "src": "elevenlabs"
+  },
+  "syl:ɔl": {
+   "id": "620a77666a00",
+   "dur": 0.35,
+   "src": "elevenlabs"
+  },
+  "syl:ʌl": {
+   "id": "832ea2d0cc8a",
+   "dur": 0.35,
+   "src": "elevenlabs"
+  },
+  "w:fraw": {
+   "id": "fc96d273bc59",
+   "dur": 0.891,
+   "src": "elevenlabs"
+  },
+  "w:glall": {
+   "id": "8d5b0ae860e5",
+   "dur": 0.789,
+   "src": "elevenlabs"
+  },
+  "w:scall": {
+   "id": "711f98af7af7",
+   "dur": 0.716,
+   "src": "elevenlabs"
+  },
+  "w:staul": {
+   "id": "4afa5e452638",
+   "dur": 0.778,
+   "src": "elevenlabs"
+  },
+  "w:thraw": {
+   "id": "8efbe9611e27",
+   "dur": 0.733,
+   "src": "elevenlabs"
+  },
+  "ipa:nˈɑl": {
+   "id": "51e4def84631",
+   "dur": 0.656,
+   "src": "elevenlabs"
+  },
+  "ipa:ɹˈæb": {
+   "id": "3075d363fd4f",
+   "dur": 0.634,
+   "src": "elevenlabs"
+  },
+  "ipa:θˈid": {
+   "id": "9367f44621ba",
+   "dur": 0.788,
+   "src": "elevenlabs"
+  },
+  "syl:kips": {
+   "id": "4b60546f47b7",
+   "dur": 0.29,
+   "src": "elevenlabs"
+  },
+  "syl:ɹæp": {
+   "id": "0d5aa9c0c045",
+   "dur": 0.36,
+   "src": "elevenlabs"
+  },
+  "w:gnol": {
+   "id": "b29500655792",
+   "dur": 0.656,
+   "src": "elevenlabs"
+  },
+  "w:thead": {
+   "id": "5dfd86f363c0",
+   "dur": 0.788,
+   "src": "elevenlabs"
+  },
+  "w:vomb": {
+   "id": "d79e8ca88548",
+   "dur": 0.659,
+   "src": "elevenlabs"
+  },
+  "w:wrab": {
+   "id": "f0e0844b261d",
+   "dur": 0.634,
+   "src": "elevenlabs"
+  },
+  "ipa:fˈɔɹd": {
+   "id": "1da415bb9dd7",
+   "dur": 0.729,
+   "src": "elevenlabs"
+  },
+  "ipa:snˈaʊf": {
+   "id": "b4983abfb800",
+   "dur": 0.727,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡˈæb": {
+   "id": "0aee5c9901ab",
+   "dur": 0.892,
+   "src": "elevenlabs"
+  },
+  "ipa:ʧˈæsk": {
+   "id": "766b9684910c",
+   "dur": 0.732,
+   "src": "elevenlabs"
+  },
+  "w:amna": {
+   "id": "43322c419aa2",
+   "dur": 0.641,
+   "src": "elevenlabs"
+  },
+  "w:chask": {
+   "id": "554944355dec",
+   "dur": 0.732,
+   "src": "elevenlabs"
+  },
+  "w:farid": {
+   "id": "1cc6cc0a30c2",
+   "dur": 0.739,
+   "src": "elevenlabs"
+  },
+  "w:ghab": {
+   "id": "61943330d211",
+   "dur": 0.892,
+   "src": "elevenlabs"
+  },
+  "w:hamza": {
+   "id": "7b8dc88036c0",
+   "dur": 0.662,
+   "src": "elevenlabs"
+  },
+  "w:phin": {
+   "id": "87984860fc88",
+   "dur": 0.639,
+   "src": "elevenlabs"
+  },
+  "w:phord": {
+   "id": "a27ec8886b86",
+   "dur": 0.729,
+   "src": "elevenlabs"
+  },
+  "w:snough": {
+   "id": "127069ea8348",
+   "dur": 0.727,
+   "src": "elevenlabs"
+  },
+  "ipa:fˈɑtʌl": {
+   "id": "519094d6f481",
+   "dur": 0.679,
+   "src": "elevenlabs"
+  },
+  "ipa:skˈædʌl": {
+   "id": "9054f77dbbf7",
+   "dur": 0.749,
+   "src": "elevenlabs"
+  },
+  "ipa:zˈʌdʌl": {
+   "id": "995164a816d9",
+   "dur": 0.668,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡlˈɪmpʌl": {
+   "id": "e8498233210c",
+   "dur": 0.736,
+   "src": "elevenlabs"
+  },
+  "ipa:θˈændʌl": {
+   "id": "87bf0d5fe319",
+   "dur": 0.7,
+   "src": "elevenlabs"
+  },
+  "w:fottle": {
+   "id": "cdbfce93413c",
+   "dur": 0.679,
+   "src": "elevenlabs"
+  },
+  "w:glimple": {
+   "id": "ae1b9aef8ac3",
+   "dur": 0.736,
+   "src": "elevenlabs"
+  },
+  "w:scaddle": {
+   "id": "31b67d3cee4e",
+   "dur": 0.749,
+   "src": "elevenlabs"
+  },
+  "w:thandle": {
+   "id": "b2915a45503e",
+   "dur": 0.7,
+   "src": "elevenlabs"
+  },
+  "w:wobbles": {
+   "id": "14dfe7adee95",
+   "dur": 0.82,
+   "src": "elevenlabs"
+  },
+  "w:zuddle": {
+   "id": "727bf3ac878c",
+   "dur": 0.668,
+   "src": "elevenlabs"
+  },
+  "ipa:blˈizɪʌs": {
+   "id": "cc2e7744345b",
+   "dur": 1.019,
+   "src": "elevenlabs"
+  },
+  "ipa:fɹˈɛnʧɝ": {
+   "id": "d3d1cc226418",
+   "dur": 0.79,
+   "src": "elevenlabs"
+  },
+  "ipa:plˈɛkʃʌn": {
+   "id": "60a262e4301a",
+   "dur": 0.737,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡˈɔɹʃʌn": {
+   "id": "edd45d1ade3a",
+   "dur": 0.831,
+   "src": "elevenlabs"
+  },
+  "ipa:θˈæsʃʌl": {
+   "id": "aae7bc155a77",
+   "dur": 0.852,
+   "src": "elevenlabs"
+  },
+  "syl:peɪ": {
+   "id": "9c067340eda0",
+   "dur": 0.42,
+   "src": "elevenlabs"
+  },
+  "syl:ʃʌl": {
+   "id": "ad20b62bbb61",
+   "dur": 0.49,
+   "src": "elevenlabs"
+  },
+  "syl:ʃʌn": {
+   "id": "5e78087f2443",
+   "dur": 0.51,
+   "src": "elevenlabs"
+  },
+  "syl:ʒʌn": {
+   "id": "77c90bc7dd05",
+   "dur": 0.55,
+   "src": "elevenlabs"
+  },
+  "syl:ʧɝ": {
+   "id": "09a8ddba3791",
+   "dur": 0.42,
+   "src": "elevenlabs"
+  },
+  "syl:ʧʌn": {
+   "id": "f1e33390dc31",
+   "dur": 0.51,
+   "src": "elevenlabs"
+  },
+  "w:blezious": {
+   "id": "987794851205",
+   "dur": 1.019,
+   "src": "elevenlabs"
+  },
+  "w:frenture": {
+   "id": "4f06c82199a7",
+   "dur": 0.79,
+   "src": "elevenlabs"
+  },
+  "w:gorsion": {
+   "id": "c5bd3ef9e87c",
+   "dur": 0.831,
+   "src": "elevenlabs"
+  },
+  "w:plection": {
+   "id": "7a87fad4d395",
+   "dur": 0.737,
+   "src": "elevenlabs"
+  },
+  "w:thastial": {
+   "id": "f23cf4f460f9",
+   "dur": 0.852,
+   "src": "elevenlabs"
+  },
+  "ipa:nˈæptɪn": {
+   "id": "e6a4fc75667c",
+   "dur": 0.77,
+   "src": "elevenlabs"
+  },
+  "ipa:plˈimæt": {
+   "id": "8db85500a437",
+   "dur": 0.684,
+   "src": "elevenlabs"
+  },
+  "ipa:tˈeɪzɪl": {
+   "id": "6fe3780be12c",
+   "dur": 0.669,
+   "src": "elevenlabs"
+  },
+  "ipa:zˈoʊm": {
+   "id": "46bdd8def788",
+   "dur": 0.809,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡˈɔɹlɪn": {
+   "id": "3cd4a8af7c62",
+   "dur": 0.757,
+   "src": "elevenlabs"
+  },
+  "ipa:θˈɪndstɹʌk": {
+   "id": "001af961b89f",
+   "dur": 0.999,
+   "src": "elevenlabs"
+  },
+  "w:gorlin": {
+   "id": "39e5f442ce91",
+   "dur": 0.757,
+   "src": "elevenlabs"
+  },
+  "w:handspring": {
+   "id": "a2db24a4430d",
+   "dur": 0.791,
+   "src": "elevenlabs"
+  },
+  "w:naptin": {
+   "id": "428ea18f33ad",
+   "dur": 0.77,
+   "src": "elevenlabs"
+  },
+  "w:plemat": {
+   "id": "a727419e6c93",
+   "dur": 0.684,
+   "src": "elevenlabs"
+  },
+  "w:tazil": {
+   "id": "19083cadb4f7",
+   "dur": 0.669,
+   "src": "elevenlabs"
+  },
+  "w:thindstruck": {
+   "id": "ecb466f65e1b",
+   "dur": 0.999,
+   "src": "elevenlabs"
+  },
+  "w:zoem": {
+   "id": "4a38579f1397",
+   "dur": 0.809,
+   "src": "elevenlabs"
+  },
+  "ipa:dˈæsaɪd": {
+   "id": "959c838e4e68",
+   "dur": 0.783,
+   "src": "elevenlabs"
+  },
+  "ipa:fˈɝɹ": {
+   "id": "7f9155c6abd3",
+   "dur": 0.738,
+   "src": "elevenlabs"
+  },
+  "ipa:plˈoʊpaɪɹ": {
+   "id": "afd04088e5b9",
+   "dur": 0.962,
+   "src": "elevenlabs"
+  },
+  "ipa:plˈoʊpi": {
+   "id": "dafce3709aff",
+   "dur": 0.913,
+   "src": "elevenlabs"
+  },
+  "ipa:snˈeɪpɪŋ": {
+   "id": "87ba28d8d672",
+   "dur": 0.747,
+   "src": "elevenlabs"
+  },
+  "ipa:vˈɑpɪŋ": {
+   "id": "ae3a746fd0dd",
+   "dur": 0.75,
+   "src": "elevenlabs"
+  },
+  "syl:aʊɝz": {
+   "id": "b68a338bea8a",
+   "dur": 0.38,
+   "src": "elevenlabs"
+  },
+  "syl:dɹɑpt": {
+   "id": "e4318d607eab",
+   "dur": 0.44,
+   "src": "elevenlabs"
+  },
+  "syl:flɑpt": {
+   "id": "4b232424b6c6",
+   "dur": 0.51,
+   "src": "elevenlabs"
+  },
+  "syl:fɝɹ": {
+   "id": "4286c19be3d5",
+   "dur": 0.48,
+   "src": "elevenlabs"
+  },
+  "syl:hɑpt": {
+   "id": "cfb550ec9ed0",
+   "dur": 0.32,
+   "src": "elevenlabs"
+  },
+  "syl:mʌnθs": {
+   "id": "9c98da884967",
+   "dur": 0.34,
+   "src": "elevenlabs"
+  },
+  "syl:tɹaɪz": {
+   "id": "3d4ea66965a6",
+   "dur": 0.44,
+   "src": "elevenlabs"
+  },
+  "w:dassied": {
+   "id": "c6205534d443",
+   "dur": 0.783,
+   "src": "elevenlabs"
+  },
+  "w:ferr": {
+   "id": "9284ff1e9d5a",
+   "dur": 0.738,
+   "src": "elevenlabs"
+  },
+  "w:plopier": {
+   "id": "690cca11f69a",
+   "dur": 0.962,
+   "src": "elevenlabs"
+  },
+  "w:plopy": {
+   "id": "33116564f2be",
+   "dur": 0.913,
+   "src": "elevenlabs"
+  },
+  "w:snaping": {
+   "id": "b59073715577",
+   "dur": 0.747,
+   "src": "elevenlabs"
+  },
+  "w:vopping": {
+   "id": "1b32d082f36a",
+   "dur": 0.75,
+   "src": "elevenlabs"
+  },
+  "w:wobbliest": {
+   "id": "a62051fa6379",
+   "dur": 0.986,
+   "src": "elevenlabs"
+  },
+  "ipa:dˈɪsflɔɹtɪd": {
+   "id": "df9c687332fa",
+   "dur": 0.954,
+   "src": "elevenlabs"
+  },
+  "ipa:fˈɛnskɹɪpʃʌn": {
+   "id": "13ff1c2fbe38",
+   "dur": 1.023,
+   "src": "elevenlabs"
+  },
+  "ipa:kˈɑntɹæmʌl": {
+   "id": "64157a58ba06",
+   "dur": 0.809,
+   "src": "elevenlabs"
+  },
+  "ipa:ɹˈimɪsʃʌn": {
+   "id": "618363b99302",
+   "dur": 0.818,
+   "src": "elevenlabs"
+  },
+  "ipa:ˈʌnplædɪŋ": {
+   "id": "6b6e27d113b9",
+   "dur": 0.894,
+   "src": "elevenlabs"
+  },
+  "w:contramble": {
+   "id": "10022ccb10d7",
+   "dur": 0.809,
+   "src": "elevenlabs"
+  },
+  "w:disflorted": {
+   "id": "e2c45ccc0643",
+   "dur": 0.954,
+   "src": "elevenlabs"
+  },
+  "w:fenscription": {
+   "id": "60dae7d3b564",
+   "dur": 1.023,
+   "src": "elevenlabs"
+  },
+  "w:remistion": {
+   "id": "3de45307409d",
+   "dur": 0.818,
+   "src": "elevenlabs"
+  },
+  "w:unhappiest": {
+   "id": "d789d817abbb",
+   "dur": 1.132,
+   "src": "elevenlabs"
+  },
+  "w:unpladding": {
+   "id": "efe9d2656e41",
+   "dur": 0.894,
+   "src": "elevenlabs"
+  },
+  "syl:nɑn": {
+   "id": "b4860ad88832",
+   "dur": 0.41,
+   "src": "elevenlabs"
+  },
+  "syl:pɝ": {
+   "id": "4fceda260280",
+   "dur": 0.35,
+   "src": "elevenlabs"
+  },
+  "ipa:dˈæɹl": {
+   "id": "3cf4ba0e5974",
+   "dur": 0.695,
+   "src": "elevenlabs"
+  },
+  "ipa:dˈɑɹl": {
+   "id": "fd502de90f1f",
+   "dur": 0.695,
+   "src": "elevenlabs"
+  },
+  "ipa:fˈɛnd": {
+   "id": "4ec12eb0d64a",
+   "dur": 0.718,
+   "src": "elevenlabs"
+  },
+  "ipa:stˈɔɹb": {
+   "id": "4a262a1b0f33",
+   "dur": 0.774,
+   "src": "elevenlabs"
+  },
+  "ipa:zˈæmpɝvɛnt": {
+   "id": "9163d27a740d",
+   "dur": 0.958,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡˈɔɹsɪɑnɔl": {
+   "id": "2bda472a4dc2",
+   "dur": 0.853,
+   "src": "elevenlabs"
+  },
+  "ipa:θˈɛndaɪkuleɪt": {
+   "id": "7324981f1781",
+   "dur": 1.077,
+   "src": "elevenlabs"
+  },
+  "ipa:θˈɝl": {
+   "id": "a9f3cff8d5e6",
+   "dur": 0.717,
+   "src": "elevenlabs"
+  },
+  "w:darl": {
+   "id": "14cc7c1693f1",
+   "dur": 0.695,
+   "src": "elevenlabs"
+  },
+  "w:gnop": {
+   "id": "05e91a1da518",
+   "dur": 0.585,
+   "src": "elevenlabs"
+  },
+  "w:gorsional": {
+   "id": "51db8f24ebc7",
+   "dur": 0.853,
+   "src": "elevenlabs"
+  },
+  "w:phend": {
+   "id": "dde504474913",
+   "dur": 0.718,
+   "src": "elevenlabs"
+  },
+  "w:storb": {
+   "id": "4efd605eae0f",
+   "dur": 0.774,
+   "src": "elevenlabs"
+  },
+  "w:thendiculate": {
+   "id": "5e1e3b038ee1",
+   "dur": 1.077,
+   "src": "elevenlabs"
+  },
+  "w:thurl": {
+   "id": "443088b3abbe",
+   "dur": 0.717,
+   "src": "elevenlabs"
+  },
+  "w:zampervent": {
+   "id": "91ff3fc9a8ef",
+   "dur": 0.958,
+   "src": "elevenlabs"
+  },
+  "ipa:blˈeɪɹ": {
+   "id": "3e12fb920caf",
+   "dur": 0.69,
+   "src": "elevenlabs"
+  },
+  "ipa:blˈiɹ": {
+   "id": "1bc8f2b1eaa2",
+   "dur": 0.809,
+   "src": "elevenlabs"
+  },
+  "ipa:blˈoʊzɪʌs": {
+   "id": "43c7092384c1",
+   "dur": 1.073,
+   "src": "elevenlabs"
+  },
+  "ipa:bɹˈeɪɹ": {
+   "id": "930603a65b50",
+   "dur": 0.899,
+   "src": "elevenlabs"
+  },
+  "ipa:bɹˈizɪʌs": {
+   "id": "60160eded221",
+   "dur": 0.983,
+   "src": "elevenlabs"
+  },
+  "ipa:bɹˈiɹ": {
+   "id": "62615347d27a",
+   "dur": 0.823,
+   "src": "elevenlabs"
+  },
+  "ipa:bɹˈoʊzɪʌs": {
+   "id": "a86db0a73940",
+   "dur": 1.053,
+   "src": "elevenlabs"
+  },
+  "ipa:bɹˈɑɹ": {
+   "id": "a882806c0795",
+   "dur": 0.675,
+   "src": "elevenlabs"
+  },
+  "ipa:bɹˈɛɹ": {
+   "id": "0c785d44155c",
+   "dur": 0.711,
+   "src": "elevenlabs"
+  },
+  "ipa:bˈeɪɹm": {
+   "id": "9c407cc8d63a",
+   "dur": 0.719,
+   "src": "elevenlabs"
+  },
+  "ipa:bˈidʌl": {
+   "id": "d2942cc5b020",
+   "dur": 0.652,
+   "src": "elevenlabs"
+  },
+  "ipa:bˈiɹl": {
+   "id": "006de0c5ee74",
+   "dur": 0.712,
+   "src": "elevenlabs"
+  },
+  "ipa:bˈupɪŋ": {
+   "id": "3f3fd5b57bc0",
+   "dur": 0.718,
+   "src": "elevenlabs"
+  },
+  "ipa:bˈɑpɪŋ": {
+   "id": "7d72b05bc629",
+   "dur": 0.733,
+   "src": "elevenlabs"
+  },
+  "ipa:bˈɑɹl": {
+   "id": "b6bfa3852294",
+   "dur": 0.687,
+   "src": "elevenlabs"
+  },
+  "ipa:bˈɑɹm": {
+   "id": "8ee011909fb8",
+   "dur": 0.723,
+   "src": "elevenlabs"
+  },
+  "ipa:bˈɔɹɡ": {
+   "id": "af6d3860f56f",
+   "dur": 0.777,
+   "src": "elevenlabs"
+  },
+  "ipa:bˈɔɹʃʌn": {
+   "id": "95528c57dbd3",
+   "dur": 0.846,
+   "src": "elevenlabs"
+  },
+  "ipa:bˈɪɹʃʌn": {
+   "id": "aba55a39b44a",
+   "dur": 0.752,
+   "src": "elevenlabs"
+  },
+  "ipa:bˈʊɹɡ": {
+   "id": "52b5e6e292ab",
+   "dur": 0.8,
+   "src": "elevenlabs"
+  },
+  "ipa:bˈʌdʌl": {
+   "id": "b0b6af19faf0",
+   "dur": 0.675,
+   "src": "elevenlabs"
+  },
+  "ipa:dwˈaʊnd": {
+   "id": "980e10d5251e",
+   "dur": 0.807,
+   "src": "elevenlabs"
+  },
+  "ipa:dwˈeɪɹ": {
+   "id": "1777f811b519",
+   "dur": 0.735,
+   "src": "elevenlabs"
+  },
+  "ipa:dwˈɔɪnd": {
+   "id": "657e8ffd9d35",
+   "dur": 0.8,
+   "src": "elevenlabs"
+  },
+  "ipa:dwˈɛɹ": {
+   "id": "0ab23d6bfc50",
+   "dur": 0.743,
+   "src": "elevenlabs"
+  },
+  "ipa:dɹˈeɪɹ": {
+   "id": "52ab4ddd9104",
+   "dur": 0.791,
+   "src": "elevenlabs"
+  },
+  "ipa:dɹˈɔɪ": {
+   "id": "d76cc2bbae6d",
+   "dur": 0.71,
+   "src": "elevenlabs"
+  },
+  "ipa:dɹˈɔɪnd": {
+   "id": "ac30a18a96b3",
+   "dur": 0.792,
+   "src": "elevenlabs"
+  },
+  "ipa:dɹˈɝl": {
+   "id": "47297a3bdfa6",
+   "dur": 0.814,
+   "src": "elevenlabs"
+  },
+  "ipa:dˈeɪɹm": {
+   "id": "c8788c952a7e",
+   "dur": 0.995,
+   "src": "elevenlabs"
+  },
+  "ipa:dˈoʊsaɪd": {
+   "id": "9b00184f5b51",
+   "dur": 0.845,
+   "src": "elevenlabs"
+  },
+  "ipa:dˈust": {
+   "id": "7b7c3a36d3df",
+   "dur": 0.816,
+   "src": "elevenlabs"
+  },
+  "ipa:dˈɔɪnt": {
+   "id": "91e9ba93ecff",
+   "dur": 0.672,
+   "src": "elevenlabs"
+  },
+  "ipa:dˈɔɪs": {
+   "id": "6a04270ac810",
+   "dur": 0.751,
+   "src": "elevenlabs"
+  },
+  "ipa:dˈɝl": {
+   "id": "e4f9e773d1a3",
+   "dur": 0.715,
+   "src": "elevenlabs"
+  },
+  "ipa:dˈɝɹl": {
+   "id": "4742901422b0",
+   "dur": 0.658,
+   "src": "elevenlabs"
+  },
+  "ipa:dˈʊl": {
+   "id": "c27149fb8990",
+   "dur": 0.684,
+   "src": "elevenlabs"
+  },
+  "ipa:dˈʊn": {
+   "id": "c60236c12d79",
+   "dur": 0.719,
+   "src": "elevenlabs"
+  },
+  "ipa:dˈʊnt": {
+   "id": "9d27605845d7",
+   "dur": 0.739,
+   "src": "elevenlabs"
+  },
+  "ipa:dˈʌsflɔɹtɪd": {
+   "id": "b0eca69aca9e",
+   "dur": 1.256,
+   "src": "elevenlabs"
+  },
+  "ipa:flˈunʧɝ": {
+   "id": "2ad771e81954",
+   "dur": 0.823,
+   "src": "elevenlabs"
+  },
+  "ipa:flˈup": {
+   "id": "d2d716cdf652",
+   "dur": 0.62,
+   "src": "elevenlabs"
+  },
+  "ipa:flˈɛnʧɝ": {
+   "id": "ab13227ce6eb",
+   "dur": 0.828,
+   "src": "elevenlabs"
+  },
+  "ipa:flˈɪ": {
+   "id": "eb42272986cf",
+   "dur": 0.576,
+   "src": "elevenlabs"
+  },
+  "ipa:fɹˈunʧɝ": {
+   "id": "9f469d79d17e",
+   "dur": 0.833,
+   "src": "elevenlabs"
+  },
+  "ipa:fɹˈup": {
+   "id": "ce3c1e48a5bc",
+   "dur": 0.602,
+   "src": "elevenlabs"
+  },
+  "ipa:fɹˈɔɪ": {
+   "id": "fbaa93764e27",
+   "dur": 0.7,
+   "src": "elevenlabs"
+  },
+  "ipa:fɹˈɔɪp": {
+   "id": "ea04cbb791d2",
+   "dur": 0.684,
+   "src": "elevenlabs"
+  },
+  "ipa:fɹˈɪ": {
+   "id": "88a8732058b6",
+   "dur": 0.649,
+   "src": "elevenlabs"
+  },
+  "ipa:fˈaɪɹn": {
+   "id": "6f461074b1f8",
+   "dur": 0.765,
+   "src": "elevenlabs"
+  },
+  "ipa:fˈaɪɹɝ": {
+   "id": "1ac10b4d7c07",
+   "dur": 0.793,
+   "src": "elevenlabs"
+  },
+  "ipa:fˈeɪɹ": {
+   "id": "bd70746409f5",
+   "dur": 0.722,
+   "src": "elevenlabs"
+  },
+  "ipa:fˈinskɹɪpʃʌn": {
+   "id": "6378ea46943d",
+   "dur": 1.056,
+   "src": "elevenlabs"
+  },
+  "ipa:fˈiɹl": {
+   "id": "17ce44484a9d",
+   "dur": 0.757,
+   "src": "elevenlabs"
+  },
+  "ipa:fˈoʊb": {
+   "id": "2ccf0a0384d8",
+   "dur": 0.671,
+   "src": "elevenlabs"
+  },
+  "ipa:fˈæl": {
+   "id": "dfb394ecc3a6",
+   "dur": 0.57,
+   "src": "elevenlabs"
+  },
+  "ipa:fˈætʌl": {
+   "id": "2c2b85f0dfbd",
+   "dur": 0.706,
+   "src": "elevenlabs"
+  },
+  "ipa:fˈɔɪn": {
+   "id": "01a8dd991682",
+   "dur": 0.724,
+   "src": "elevenlabs"
+  },
+  "ipa:fˈʊnd": {
+   "id": "8b9fdffcf063",
+   "dur": 0.806,
+   "src": "elevenlabs"
+  },
+  "ipa:fˈʊɹb": {
+   "id": "1181032c7f18",
+   "dur": 0.737,
+   "src": "elevenlabs"
+  },
+  "ipa:fˈʊɹd": {
+   "id": "055e9fc29b55",
+   "dur": 0.723,
+   "src": "elevenlabs"
+  },
+  "ipa:jˈaɪb": {
+   "id": "729c9aeea94c",
+   "dur": 0.643,
+   "src": "elevenlabs"
+  },
+  "ipa:jˈid": {
+   "id": "b97ca1c2dcd6",
+   "dur": 0.735,
+   "src": "elevenlabs"
+  },
+  "ipa:jˈoʊd": {
+   "id": "7ea7d5513b43",
+   "dur": 0.665,
+   "src": "elevenlabs"
+  },
+  "ipa:jˈæsʃʌl": {
+   "id": "708c07185d2a",
+   "dur": 1.262,
+   "src": "elevenlabs"
+  },
+  "ipa:jˈɝb": {
+   "id": "bdd80989843f",
+   "dur": 0.674,
+   "src": "elevenlabs"
+  },
+  "ipa:jˈʊsʃʌl": {
+   "id": "a65f7f792023",
+   "dur": 0.819,
+   "src": "elevenlabs"
+  },
+  "ipa:klˈʊɹt": {
+   "id": "61eae8f7404b",
+   "dur": 0.671,
+   "src": "elevenlabs"
+  },
+  "ipa:kwˈɑɹt": {
+   "id": "7dabd773256b",
+   "dur": 0.67,
+   "src": "elevenlabs"
+  },
+  "ipa:kwˈʊɹt": {
+   "id": "229a7e99552e",
+   "dur": 0.67,
+   "src": "elevenlabs"
+  },
+  "ipa:kˈintɹæmʌl": {
+   "id": "c848ccfcd9a8",
+   "dur": 0.907,
+   "src": "elevenlabs"
+  },
+  "ipa:kˈoʊsaɪd": {
+   "id": "6cbc2deec460",
+   "dur": 0.806,
+   "src": "elevenlabs"
+  },
+  "ipa:kˈoʊɹlɪn": {
+   "id": "6b56c30b0173",
+   "dur": 0.742,
+   "src": "elevenlabs"
+  },
+  "ipa:kˈæsaɪd": {
+   "id": "1dab3fcbca13",
+   "dur": 0.74,
+   "src": "elevenlabs"
+  },
+  "ipa:kˈɑɹb": {
+   "id": "59eb0ee7dfcd",
+   "dur": 0.623,
+   "src": "elevenlabs"
+  },
+  "ipa:kˈɔɹlɪn": {
+   "id": "6477b9929495",
+   "dur": 0.797,
+   "src": "elevenlabs"
+  },
+  "ipa:kˈʊɹb": {
+   "id": "d2f5665ae6ad",
+   "dur": 0.651,
+   "src": "elevenlabs"
+  },
+  "ipa:mˈæɹb": {
+   "id": "7c9965d8064e",
+   "dur": 0.677,
+   "src": "elevenlabs"
+  },
+  "ipa:mˈɔɹb": {
+   "id": "8e6df8501bd4",
+   "dur": 0.886,
+   "src": "elevenlabs"
+  },
+  "ipa:mˈɝn": {
+   "id": "ed007e394d89",
+   "dur": 0.663,
+   "src": "elevenlabs"
+  },
+  "ipa:mˈɪɹst": {
+   "id": "147b0c2af00d",
+   "dur": 0.712,
+   "src": "elevenlabs"
+  },
+  "ipa:mˈʊp": {
+   "id": "c02c6b4d6081",
+   "dur": 0.575,
+   "src": "elevenlabs"
+  },
+  "ipa:nˈaɪl": {
+   "id": "79da249d5aae",
+   "dur": 0.732,
+   "src": "elevenlabs"
+  },
+  "ipa:nˈɝp": {
+   "id": "9d8fe22e1d03",
+   "dur": 0.617,
+   "src": "elevenlabs"
+  },
+  "ipa:nˈʌptɪn": {
+   "id": "62868d52cbf3",
+   "dur": 0.72,
+   "src": "elevenlabs"
+  },
+  "ipa:plˈikʃʌn": {
+   "id": "4fe92f719459",
+   "dur": 0.747,
+   "src": "elevenlabs"
+  },
+  "ipa:plˈoʊt": {
+   "id": "602583ad123a",
+   "dur": 0.651,
+   "src": "elevenlabs"
+  },
+  "ipa:plˈoʊʃ": {
+   "id": "1fd9c220f004",
+   "dur": 0.988,
+   "src": "elevenlabs"
+  },
+  "ipa:plˈupaɪɹ": {
+   "id": "b8278d457ce0",
+   "dur": 1.071,
+   "src": "elevenlabs"
+  },
+  "ipa:plˈupi": {
+   "id": "317116baff95",
+   "dur": 0.587,
+   "src": "elevenlabs"
+  },
+  "ipa:plˈæɹt": {
+   "id": "7b628fc63435",
+   "dur": 0.669,
+   "src": "elevenlabs"
+  },
+  "ipa:plˈɝɹn": {
+   "id": "610653debadb",
+   "dur": 0.758,
+   "src": "elevenlabs"
+  },
+  "ipa:plˈɝʃ": {
+   "id": "81749e7e968a",
+   "dur": 0.754,
+   "src": "elevenlabs"
+  },
+  "ipa:plˈʊmæt": {
+   "id": "afaa4928c662",
+   "dur": 0.799,
+   "src": "elevenlabs"
+  },
+  "ipa:plˈʊɹ": {
+   "id": "61cd1eeae722",
+   "dur": 0.697,
+   "src": "elevenlabs"
+  },
+  "ipa:pɹˈaʊt": {
+   "id": "90dbf2c66ca1",
+   "dur": 0.679,
+   "src": "elevenlabs"
+  },
+  "ipa:pɹˈikʃʌn": {
+   "id": "c2283133bdf6",
+   "dur": 0.778,
+   "src": "elevenlabs"
+  },
+  "ipa:pɹˈimæt": {
+   "id": "512b017fd961",
+   "dur": 0.915,
+   "src": "elevenlabs"
+  },
+  "ipa:pɹˈoʊpaɪɹ": {
+   "id": "73f8181af7c6",
+   "dur": 0.875,
+   "src": "elevenlabs"
+  },
+  "ipa:pɹˈoʊpi": {
+   "id": "8eaa45c09991",
+   "dur": 0.654,
+   "src": "elevenlabs"
+  },
+  "ipa:pɹˈupaɪɹ": {
+   "id": "9cfcb0c6d9aa",
+   "dur": 0.824,
+   "src": "elevenlabs"
+  },
+  "ipa:pɹˈupi": {
+   "id": "2959dd09d0bb",
+   "dur": 0.667,
+   "src": "elevenlabs"
+  },
+  "ipa:pɹˈæɹt": {
+   "id": "3dd2b508e8eb",
+   "dur": 0.671,
+   "src": "elevenlabs"
+  },
+  "ipa:pɹˈɑɹn": {
+   "id": "06992166038e",
+   "dur": 0.74,
+   "src": "elevenlabs"
+  },
+  "ipa:pɹˈɔɪ": {
+   "id": "6ba9f0c38acf",
+   "dur": 0.59,
+   "src": "elevenlabs"
+  },
+  "ipa:pɹˈɔɹ": {
+   "id": "d74373466874",
+   "dur": 0.883,
+   "src": "elevenlabs"
+  },
+  "ipa:pɹˈɔɹt": {
+   "id": "6c096fee7baa",
+   "dur": 0.912,
+   "src": "elevenlabs"
+  },
+  "ipa:pɹˈɛkʃʌn": {
+   "id": "326dc45c6fc4",
+   "dur": 0.907,
+   "src": "elevenlabs"
+  },
+  "ipa:pɹˈɝɹn": {
+   "id": "f9b6a0324f30",
+   "dur": 0.81,
+   "src": "elevenlabs"
+  },
+  "ipa:pɹˈʊmæt": {
+   "id": "13f6393a4851",
+   "dur": 0.751,
+   "src": "elevenlabs"
+  },
+  "ipa:pɹˈʊɹ": {
+   "id": "370d00e99197",
+   "dur": 0.688,
+   "src": "elevenlabs"
+  },
+  "ipa:pˈin": {
+   "id": "2b261c01061f",
+   "dur": 0.663,
+   "src": "elevenlabs"
+  },
+  "ipa:pˈɑɹl": {
+   "id": "3dccd5a5b4b5",
+   "dur": 0.6,
+   "src": "elevenlabs"
+  },
+  "ipa:pˈɝn": {
+   "id": "9e7c34f841ab",
+   "dur": 0.604,
+   "src": "elevenlabs"
+  },
+  "ipa:pˈɝɹl": {
+   "id": "15130c3fd835",
+   "dur": 0.817,
+   "src": "elevenlabs"
+  },
+  "ipa:skwˈoʊ": {
+   "id": "a7d20eabb2fa",
+   "dur": 0.762,
+   "src": "elevenlabs"
+  },
+  "ipa:skwˈæ": {
+   "id": "ffdf30860fb8",
+   "dur": 0.712,
+   "src": "elevenlabs"
+  },
+  "ipa:skɹˈæ": {
+   "id": "23ef39bab6f8",
+   "dur": 0.83,
+   "src": "elevenlabs"
+  },
+  "ipa:skˈaɪk": {
+   "id": "44ff932e2d39",
+   "dur": 0.765,
+   "src": "elevenlabs"
+  },
+  "ipa:skˈeɪpɪŋ": {
+   "id": "74e75d2b9085",
+   "dur": 0.803,
+   "src": "elevenlabs"
+  },
+  "ipa:skˈif": {
+   "id": "eb2aedd74e04",
+   "dur": 0.79,
+   "src": "elevenlabs"
+  },
+  "ipa:skˈɔɪdʌl": {
+   "id": "75b4a3578bdd",
+   "dur": 0.811,
+   "src": "elevenlabs"
+  },
+  "ipa:skˈɔɪpɪŋ": {
+   "id": "40aad85b9174",
+   "dur": 0.829,
+   "src": "elevenlabs"
+  },
+  "ipa:skˈɔɹb": {
+   "id": "3c7b996d7df6",
+   "dur": 0.868,
+   "src": "elevenlabs"
+  },
+  "ipa:skˈɛl": {
+   "id": "52c1f999592c",
+   "dur": 0.724,
+   "src": "elevenlabs"
+  },
+  "ipa:skˈɝf": {
+   "id": "0af2792fa71e",
+   "dur": 0.781,
+   "src": "elevenlabs"
+  },
+  "ipa:skˈɝk": {
+   "id": "88d0a8ad5004",
+   "dur": 0.801,
+   "src": "elevenlabs"
+  },
+  "ipa:skˈʌ": {
+   "id": "e483cb3fb6bd",
+   "dur": 1.54,
+   "src": "elevenlabs"
+  },
+  "ipa:skˈʌɹb": {
+   "id": "a0ce9e7594cc",
+   "dur": 0.812,
+   "src": "elevenlabs"
+  },
+  "ipa:slˈɑn": {
+   "id": "fcca0a5271bb",
+   "dur": 0.771,
+   "src": "elevenlabs"
+  },
+  "ipa:slˈɔl": {
+   "id": "2e6f1b460fae",
+   "dur": 0.833,
+   "src": "elevenlabs"
+  },
+  "ipa:slˈɔɪl": {
+   "id": "4392783ce7ac",
+   "dur": 0.754,
+   "src": "elevenlabs"
+  },
+  "ipa:slˈɝn": {
+   "id": "acbdeb5193a8",
+   "dur": 0.814,
+   "src": "elevenlabs"
+  },
+  "ipa:smˈaɪɹn": {
+   "id": "155330e8681e",
+   "dur": 0.837,
+   "src": "elevenlabs"
+  },
+  "ipa:smˈeɪp": {
+   "id": "6eaa66caf52e",
+   "dur": 0.723,
+   "src": "elevenlabs"
+  },
+  "ipa:smˈip": {
+   "id": "9e150680d275",
+   "dur": 0.716,
+   "src": "elevenlabs"
+  },
+  "ipa:smˈɑɹn": {
+   "id": "bf8d8621428c",
+   "dur": 0.783,
+   "src": "elevenlabs"
+  },
+  "ipa:snˈip": {
+   "id": "34db02954103",
+   "dur": 0.674,
+   "src": "elevenlabs"
+  },
+  "ipa:snˈɔl": {
+   "id": "fd8be9f08234",
+   "dur": 1.129,
+   "src": "elevenlabs"
+  },
+  "ipa:snˈɔɪpɪŋ": {
+   "id": "a2a5e6b4f368",
+   "dur": 0.862,
+   "src": "elevenlabs"
+  },
+  "ipa:snˈɔɹɡ": {
+   "id": "6936415bfb28",
+   "dur": 0.967,
+   "src": "elevenlabs"
+  },
+  "ipa:snˈɛf": {
+   "id": "e5bc2c705763",
+   "dur": 0.786,
+   "src": "elevenlabs"
+  },
+  "ipa:snˈɛl": {
+   "id": "86075af92f65",
+   "dur": 0.655,
+   "src": "elevenlabs"
+  },
+  "ipa:snˈɪɹɡ": {
+   "id": "e1a7bd247161",
+   "dur": 0.838,
+   "src": "elevenlabs"
+  },
+  "ipa:stˈaɪk": {
+   "id": "b9b03fd24f6a",
+   "dur": 0.758,
+   "src": "elevenlabs"
+  },
+  "ipa:stˈaɪɹn": {
+   "id": "c8b13a220446",
+   "dur": 0.851,
+   "src": "elevenlabs"
+  },
+  "ipa:stˈaʊf": {
+   "id": "66fe229201ef",
+   "dur": 0.838,
+   "src": "elevenlabs"
+  },
+  "ipa:stˈif": {
+   "id": "1a63fabbd43c",
+   "dur": 0.782,
+   "src": "elevenlabs"
+  },
+  "ipa:stˈiɹf": {
+   "id": "841afa837c61",
+   "dur": 0.86,
+   "src": "elevenlabs"
+  },
+  "ipa:stˈɑn": {
+   "id": "ded38836aa58",
+   "dur": 0.695,
+   "src": "elevenlabs"
+  },
+  "ipa:stˈɔɪl": {
+   "id": "ac0b0ad4ca3d",
+   "dur": 0.748,
+   "src": "elevenlabs"
+  },
+  "ipa:stˈɛf": {
+   "id": "fb13815a6d62",
+   "dur": 0.679,
+   "src": "elevenlabs"
+  },
+  "ipa:stˈɛɹb": {
+   "id": "1554d07b2505",
+   "dur": 0.735,
+   "src": "elevenlabs"
+  },
+  "ipa:stˈɪɹt": {
+   "id": "f571aa4cc715",
+   "dur": 0.761,
+   "src": "elevenlabs"
+  },
+  "ipa:stˈɪɹɡ": {
+   "id": "bdebc1282a11",
+   "dur": 0.837,
+   "src": "elevenlabs"
+  },
+  "ipa:stˈʌɹb": {
+   "id": "cb81fc62dad2",
+   "dur": 0.768,
+   "src": "elevenlabs"
+  },
+  "ipa:swˈiɹf": {
+   "id": "7988807d8967",
+   "dur": 0.833,
+   "src": "elevenlabs"
+  },
+  "ipa:swˈædʌl": {
+   "id": "94660af3d184",
+   "dur": 0.775,
+   "src": "elevenlabs"
+  },
+  "ipa:swˈɑɹb": {
+   "id": "897533041869",
+   "dur": 0.991,
+   "src": "elevenlabs"
+  },
+  "ipa:swˈɔɪ": {
+   "id": "cf2c913d24dd",
+   "dur": 0.743,
+   "src": "elevenlabs"
+  },
+  "ipa:swˈɔɪdʌl": {
+   "id": "f550df88b995",
+   "dur": 0.768,
+   "src": "elevenlabs"
+  },
+  "ipa:swˈɔɹf": {
+   "id": "fdc00076c5e7",
+   "dur": 0.842,
+   "src": "elevenlabs"
+  },
+  "ipa:swˈɔɹt": {
+   "id": "b9f2fb4a36dc",
+   "dur": 0.803,
+   "src": "elevenlabs"
+  },
+  "ipa:swˈɛɹb": {
+   "id": "21ad666cd35e",
+   "dur": 0.767,
+   "src": "elevenlabs"
+  },
+  "ipa:swˈɪɹt": {
+   "id": "505da5f47399",
+   "dur": 0.753,
+   "src": "elevenlabs"
+  },
+  "ipa:swˈʌ": {
+   "id": "d215a5662950",
+   "dur": 0.6,
+   "src": "elevenlabs"
+  },
+  "ipa:sˈaɪɹt": {
+   "id": "f4893678c001",
+   "dur": 1.016,
+   "src": "elevenlabs"
+  },
+  "ipa:sˈæsk": {
+   "id": "c764b708af7d",
+   "dur": 0.756,
+   "src": "elevenlabs"
+  },
+  "ipa:sˈɔɪsk": {
+   "id": "c80874157974",
+   "dur": 0.775,
+   "src": "elevenlabs"
+  },
+  "ipa:sˈʊɹb": {
+   "id": "215dc5b9d6a3",
+   "dur": 0.797,
+   "src": "elevenlabs"
+  },
+  "ipa:tɹˈaʊf": {
+   "id": "07ee9e2876fe",
+   "dur": 0.727,
+   "src": "elevenlabs"
+  },
+  "ipa:tˈeɪndaɪkuleɪt": {
+   "id": "0859e6db1215",
+   "dur": 1.081,
+   "src": "elevenlabs"
+  },
+  "ipa:tˈiɹl": {
+   "id": "44c3a6b41fb8",
+   "dur": 0.65,
+   "src": "elevenlabs"
+  },
+  "ipa:tˈoʊb": {
+   "id": "e551ed3a25a9",
+   "dur": 0.57,
+   "src": "elevenlabs"
+  },
+  "ipa:tˈoʊzɪl": {
+   "id": "8e934cc48069",
+   "dur": 0.707,
+   "src": "elevenlabs"
+  },
+  "ipa:tˈuɹtɛl": {
+   "id": "2f7afe87175a",
+   "dur": 0.599,
+   "src": "elevenlabs"
+  },
+  "ipa:tˈɑɹtɛl": {
+   "id": "e481b1e0b7eb",
+   "dur": 0.71,
+   "src": "elevenlabs"
+  },
+  "ipa:tˈɛndaɪkuleɪt": {
+   "id": "1e06bad0ed0d",
+   "dur": 1.154,
+   "src": "elevenlabs"
+  },
+  "ipa:tˈɝb": {
+   "id": "1bd1e3211a48",
+   "dur": 0.646,
+   "src": "elevenlabs"
+  },
+  "ipa:tˈɝndstɹʌk": {
+   "id": "44c4097a0a95",
+   "dur": 1.011,
+   "src": "elevenlabs"
+  },
+  "ipa:tˈɪndstɹʌk": {
+   "id": "3fe16238759a",
+   "dur": 0.88,
+   "src": "elevenlabs"
+  },
+  "ipa:tˈɪsflɔɹtɪd": {
+   "id": "11ee74b673cc",
+   "dur": 0.965,
+   "src": "elevenlabs"
+  },
+  "ipa:tˈʌsflɔɹtɪd": {
+   "id": "71d559152c64",
+   "dur": 1.025,
+   "src": "elevenlabs"
+  },
+  "ipa:vˈaɪɹn": {
+   "id": "4d203e214d44",
+   "dur": 0.835,
+   "src": "elevenlabs"
+  },
+  "ipa:vˈim": {
+   "id": "ef656cf46350",
+   "dur": 0.69,
+   "src": "elevenlabs"
+  },
+  "ipa:vˈupɪŋ": {
+   "id": "f25d2ec6fe91",
+   "dur": 0.973,
+   "src": "elevenlabs"
+  },
+  "ipa:vˈɔɹn": {
+   "id": "0f78aec832bb",
+   "dur": 0.978,
+   "src": "elevenlabs"
+  },
+  "ipa:vˈʌp": {
+   "id": "b18e656b8d71",
+   "dur": 0.52,
+   "src": "elevenlabs"
+  },
+  "ipa:wˈim": {
+   "id": "23a0239fed88",
+   "dur": 0.712,
+   "src": "elevenlabs"
+  },
+  "ipa:wˈiɹl": {
+   "id": "79331764e070",
+   "dur": 0.681,
+   "src": "elevenlabs"
+  },
+  "ipa:wˈiɹz": {
+   "id": "b0a4bef3d5aa",
+   "dur": 0.791,
+   "src": "elevenlabs"
+  },
+  "ipa:wˈæɹb": {
+   "id": "87566edfdd48",
+   "dur": 0.65,
+   "src": "elevenlabs"
+  },
+  "ipa:wˈɑm": {
+   "id": "2a791281a586",
+   "dur": 0.588,
+   "src": "elevenlabs"
+  },
+  "ipa:wˈɑɹl": {
+   "id": "93aca3aac1f0",
+   "dur": 0.644,
+   "src": "elevenlabs"
+  },
+  "ipa:wˈɝn": {
+   "id": "b0c9b256bf6f",
+   "dur": 0.652,
+   "src": "elevenlabs"
+  },
+  "ipa:wˈʊn": {
+   "id": "e08cbd96d976",
+   "dur": 0.711,
+   "src": "elevenlabs"
+  },
+  "ipa:wˈʊɹɡ": {
+   "id": "f98f57a86d7e",
+   "dur": 0.748,
+   "src": "elevenlabs"
+  },
+  "ipa:zˈaɪɹ": {
+   "id": "b1b67a63ccb6",
+   "dur": 0.683,
+   "src": "elevenlabs"
+  },
+  "ipa:zˈeɪm": {
+   "id": "8b7df98f25a2",
+   "dur": 0.694,
+   "src": "elevenlabs"
+  },
+  "ipa:zˈeɪɹ": {
+   "id": "6837aa153553",
+   "dur": 0.686,
+   "src": "elevenlabs"
+  },
+  "ipa:zˈidʌl": {
+   "id": "7152d978ceb2",
+   "dur": 0.706,
+   "src": "elevenlabs"
+  },
+  "ipa:zˈimɪsʃʌn": {
+   "id": "91a64faa5d06",
+   "dur": 0.837,
+   "src": "elevenlabs"
+  },
+  "ipa:zˈin": {
+   "id": "61cb13e07595",
+   "dur": 0.738,
+   "src": "elevenlabs"
+  },
+  "ipa:zˈæmɪsʃʌn": {
+   "id": "9ce6e1fed0b9",
+   "dur": 1.107,
+   "src": "elevenlabs"
+  },
+  "ipa:zˈætʌl": {
+   "id": "6c26547452ed",
+   "dur": 0.826,
+   "src": "elevenlabs"
+  },
+  "ipa:zˈɑtʌl": {
+   "id": "75c9e4ef2efd",
+   "dur": 0.789,
+   "src": "elevenlabs"
+  },
+  "ipa:zˈɔɪb": {
+   "id": "312bba35e7fa",
+   "dur": 0.684,
+   "src": "elevenlabs"
+  },
+  "ipa:zˈɔɪmpɝvɛnt": {
+   "id": "dc9680f66b34",
+   "dur": 1.038,
+   "src": "elevenlabs"
+  },
+  "ipa:zˈɛp": {
+   "id": "ab2c19ebc45e",
+   "dur": 0.558,
+   "src": "elevenlabs"
+  },
+  "ipa:zˈʊnt": {
+   "id": "1847c150818b",
+   "dur": 0.751,
+   "src": "elevenlabs"
+  },
+  "ipa:zˈʊt": {
+   "id": "5e6e0e3f0e05",
+   "dur": 0.692,
+   "src": "elevenlabs"
+  },
+  "ipa:ðˈaɪl": {
+   "id": "1594a81f2460",
+   "dur": 0.76,
+   "src": "elevenlabs"
+  },
+  "ipa:ðˈiɹz": {
+   "id": "a6b30501e0d2",
+   "dur": 0.991,
+   "src": "elevenlabs"
+  },
+  "ipa:ðˈɑl": {
+   "id": "3aa7258c8081",
+   "dur": 0.649,
+   "src": "elevenlabs"
+  },
+  "ipa:ðˈɔɹz": {
+   "id": "e829c43fcd23",
+   "dur": 0.866,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡlˈɑmpʌl": {
+   "id": "b55565f41863",
+   "dur": 0.805,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡlˈɪt": {
+   "id": "5225c292bacf",
+   "dur": 0.648,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡlˈɪʤ": {
+   "id": "46e63450e6ef",
+   "dur": 0.711,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡlˈʌl": {
+   "id": "2671488cc2c2",
+   "dur": 0.72,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡɹˈɑmpʌl": {
+   "id": "2155f9713c5a",
+   "dur": 0.799,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡɹˈɔl": {
+   "id": "0158f665b4ab",
+   "dur": 0.881,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡɹˈɪmpʌl": {
+   "id": "4a8489bba690",
+   "dur": 0.705,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡɹˈʌl": {
+   "id": "296d9c15cb1e",
+   "dur": 0.734,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡˈaɪɹ": {
+   "id": "a9a069251ddb",
+   "dur": 0.677,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡˈeɪɹ": {
+   "id": "dc9d6a1fb105",
+   "dur": 0.692,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡˈinskɹɪpʃʌn": {
+   "id": "33a0fcc67045",
+   "dur": 1.072,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡˈoʊɹlɪn": {
+   "id": "3c52acc182ba",
+   "dur": 0.852,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡˈuɹtɛl": {
+   "id": "4ed8f44aaa15",
+   "dur": 0.776,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡˈɔɹst": {
+   "id": "2ec2bb8c3411",
+   "dur": 0.838,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡˈɛb": {
+   "id": "d01527299145",
+   "dur": 0.588,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡˈɛnskɹɪpʃʌn": {
+   "id": "9f16d7ff3d5c",
+   "dur": 1.124,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡˈɝɹsɪɑnɔl": {
+   "id": "69c33ca67775",
+   "dur": 1.137,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡˈɪɹst": {
+   "id": "922b80a6c1ab",
+   "dur": 0.76,
+   "src": "elevenlabs"
+  },
+  "ipa:ɡˈɪɹʃʌn": {
+   "id": "fc113a6fa44c",
+   "dur": 0.831,
+   "src": "elevenlabs"
+  },
+  "ipa:ɹˈæl": {
+   "id": "92924d042004",
+   "dur": 0.603,
+   "src": "elevenlabs"
+  },
+  "ipa:ɹˈæmɪsʃʌn": {
+   "id": "2439998f994c",
+   "dur": 1.068,
+   "src": "elevenlabs"
+  },
+  "ipa:ɹˈæptɪn": {
+   "id": "00f53e0f1ad0",
+   "dur": 0.798,
+   "src": "elevenlabs"
+  },
+  "ipa:ɹˈɔɪb": {
+   "id": "10d5df78f225",
+   "dur": 0.628,
+   "src": "elevenlabs"
+  },
+  "ipa:ɹˈɔɪn": {
+   "id": "ca513a2bf85d",
+   "dur": 0.86,
+   "src": "elevenlabs"
+  },
+  "ipa:ɹˈɝl": {
+   "id": "95126feff766",
+   "dur": 0.682,
+   "src": "elevenlabs"
+  },
+  "ipa:ɹˈɝn": {
+   "id": "fb9538a33da9",
+   "dur": 0.709,
+   "src": "elevenlabs"
+  },
+  "ipa:ɹˈɝp": {
+   "id": "f248ff61fbc0",
+   "dur": 0.632,
+   "src": "elevenlabs"
+  },
+  "ipa:ɹˈɪn": {
+   "id": "3560681ed682",
+   "dur": 0.606,
+   "src": "elevenlabs"
+  },
+  "ipa:ɹˈʌptɪn": {
+   "id": "8cd3b2daf88b",
+   "dur": 0.761,
+   "src": "elevenlabs"
+  },
+  "ipa:ʃɹˈeɪ": {
+   "id": "41250e638932",
+   "dur": 0.719,
+   "src": "elevenlabs"
+  },
+  "ipa:ʃɹˈɔ": {
+   "id": "7dee23d5a163",
+   "dur": 0.738,
+   "src": "elevenlabs"
+  },
+  "ipa:ʃɹˈʊ": {
+   "id": "86146b9f551f",
+   "dur": 0.849,
+   "src": "elevenlabs"
+  },
+  "ipa:ʃˈintɹæmʌl": {
+   "id": "d94b779e90a3",
+   "dur": 1.037,
+   "src": "elevenlabs"
+  },
+  "ipa:ʃˈust": {
+   "id": "9d129c177ba5",
+   "dur": 0.77,
+   "src": "elevenlabs"
+  },
+  "ipa:ʃˈændʌl": {
+   "id": "ad54dece2eb3",
+   "dur": 0.769,
+   "src": "elevenlabs"
+  },
+  "ipa:ʃˈɑntɹæmʌl": {
+   "id": "714fbc3dd8ff",
+   "dur": 0.895,
+   "src": "elevenlabs"
+  },
+  "ipa:ʃˈɔɹd": {
+   "id": "0ed6932fdc44",
+   "dur": 0.76,
+   "src": "elevenlabs"
+  },
+  "ipa:ʃˈɔɹsɪɑnɔl": {
+   "id": "f86d02857543",
+   "dur": 0.944,
+   "src": "elevenlabs"
+  },
+  "ipa:ʃˈɝst": {
+   "id": "d53de94b1ac8",
+   "dur": 0.748,
+   "src": "elevenlabs"
+  },
+  "ipa:ʃˈɝɹsɪɑnɔl": {
+   "id": "df9ef23623c7",
+   "dur": 0.966,
+   "src": "elevenlabs"
+  },
+  "ipa:ʃˈʊɹd": {
+   "id": "9d943f760459",
+   "dur": 0.759,
+   "src": "elevenlabs"
+  },
+  "ipa:ʃˈʌndʌl": {
+   "id": "9c58aaae4c5e",
+   "dur": 0.763,
+   "src": "elevenlabs"
+  },
+  "ipa:ʤˈoʊ": {
+   "id": "7e035d3c9402",
+   "dur": 0.576,
+   "src": "elevenlabs"
+  },
+  "ipa:ʤˈæɹl": {
+   "id": "22fc16ea64ea",
+   "dur": 0.912,
+   "src": "elevenlabs"
+  },
+  "ipa:ʤˈɔɹl": {
+   "id": "9c407f490e08",
+   "dur": 0.829,
+   "src": "elevenlabs"
+  },
+  "ipa:ʤˈɝ": {
+   "id": "3a7a1bbf8692",
+   "dur": 0.617,
+   "src": "elevenlabs"
+  },
+  "ipa:ʤˈɝt": {
+   "id": "16e1176a202c",
+   "dur": 0.653,
+   "src": "elevenlabs"
+  },
+  "ipa:ʤˈʊt": {
+   "id": "979c582abeb3",
+   "dur": 0.65,
+   "src": "elevenlabs"
+  },
+  "ipa:ʧˈaɪɹɝ": {
+   "id": "5b4f449aeb35",
+   "dur": 0.853,
+   "src": "elevenlabs"
+  },
+  "ipa:ʧˈeɪzɪl": {
+   "id": "42f27c7425df",
+   "dur": 0.688,
+   "src": "elevenlabs"
+  },
+  "ipa:ʧˈoʊzɪl": {
+   "id": "cb5252ccf48c",
+   "dur": 0.762,
+   "src": "elevenlabs"
+  },
+  "ipa:ʧˈɔɪsk": {
+   "id": "ff2338fd2dd6",
+   "dur": 0.706,
+   "src": "elevenlabs"
+  },
+  "ipa:ʧˈɛnd": {
+   "id": "79557658bffa",
+   "dur": 0.669,
+   "src": "elevenlabs"
+  },
+  "ipa:ʧˈɝɹɝ": {
+   "id": "31e7c9e40813",
+   "dur": 0.708,
+   "src": "elevenlabs"
+  },
+  "ipa:ʧˈʊnd": {
+   "id": "2b81ba400e4a",
+   "dur": 0.691,
+   "src": "elevenlabs"
+  },
+  "ipa:ˈinplædɪl": {
+   "id": "7b0989e0ebf2",
+   "dur": 0.888,
+   "src": "elevenlabs"
+  },
+  "ipa:ˈinplædɪŋ": {
+   "id": "0c200994c802",
+   "dur": 1.108,
+   "src": "elevenlabs"
+  },
+  "ipa:ˈoʊp": {
+   "id": "f77f146ab3df",
+   "dur": 1.073,
+   "src": "elevenlabs"
+  },
+  "ipa:ˈoʊɡ": {
+   "id": "a374b9be9a48",
+   "dur": 1.135,
+   "src": "elevenlabs"
+  },
+  "ipa:ˈɔɪɡ": {
+   "id": "a57480743ba8",
+   "dur": 0.637,
+   "src": "elevenlabs"
+  },
+  "ipa:ˈʌnplædɪl": {
+   "id": "1488a78cc0e5",
+   "dur": 0.837,
+   "src": "elevenlabs"
+  },
+  "ipa:θɹˈaʊf": {
+   "id": "0c25c0369f83",
+   "dur": 0.827,
+   "src": "elevenlabs"
+  },
+  "ipa:θɹˈud": {
+   "id": "dd3c0777f7d3",
+   "dur": 0.78,
+   "src": "elevenlabs"
+  },
+  "ipa:θɹˈɝl": {
+   "id": "fead86f508c5",
+   "dur": 0.839,
+   "src": "elevenlabs"
+  },
+  "ipa:θɹˈʊ": {
+   "id": "7b2aa60e06d9",
+   "dur": 0.714,
+   "src": "elevenlabs"
+  },
+  "ipa:θˈaɪb": {
+   "id": "c4e08f880c69",
+   "dur": 0.804,
+   "src": "elevenlabs"
+  },
+  "ipa:θˈaɪɹt": {
+   "id": "8a78cf1d8894",
+   "dur": 0.704,
+   "src": "elevenlabs"
+  },
+  "ipa:θˈeɪm": {
+   "id": "8c491ae51b72",
+   "dur": 0.735,
+   "src": "elevenlabs"
+  },
+  "ipa:θˈeɪndaɪkuleɪt": {
+   "id": "5525d72188fa",
+   "dur": 1.451,
+   "src": "elevenlabs"
+  },
+  "ipa:θˈeɪɹ": {
+   "id": "b7fae17a6b96",
+   "dur": 0.702,
+   "src": "elevenlabs"
+  },
+  "ipa:θˈoʊ": {
+   "id": "258e3762cbe3",
+   "dur": 0.653,
+   "src": "elevenlabs"
+  },
+  "ipa:θˈoʊd": {
+   "id": "578a30adb90a",
+   "dur": 0.968,
+   "src": "elevenlabs"
+  },
+  "ipa:θˈoʊm": {
+   "id": "c6828ce52d71",
+   "dur": 0.735,
+   "src": "elevenlabs"
+  },
+  "ipa:θˈæmpɝvɛnt": {
+   "id": "60d5ac04a5ae",
+   "dur": 0.988,
+   "src": "elevenlabs"
+  },
+  "ipa:θˈæs": {
+   "id": "58700657ec2d",
+   "dur": 0.751,
+   "src": "elevenlabs"
+  },
+  "ipa:θˈɑɹb": {
+   "id": "fdaa857ac4d7",
+   "dur": 0.888,
+   "src": "elevenlabs"
+  },
+  "ipa:θˈɑɹt": {
+   "id": "33f6524d7c96",
+   "dur": 0.726,
+   "src": "elevenlabs"
+  },
+  "ipa:θˈɔɪmpɝvɛnt": {
+   "id": "e5ebcaacab3c",
+   "dur": 1.024,
+   "src": "elevenlabs"
+  },
+  "ipa:θˈɔɪp": {
+   "id": "a3434e2c5e44",
+   "dur": 0.638,
+   "src": "elevenlabs"
+  },
+  "ipa:θˈɔɪs": {
+   "id": "fb0755caedc8",
+   "dur": 0.794,
+   "src": "elevenlabs"
+  },
+  "ipa:θˈɛɹ": {
+   "id": "b25d4953fd1c",
+   "dur": 0.625,
+   "src": "elevenlabs"
+  },
+  "ipa:θˈɝndstɹʌk": {
+   "id": "b2701d021d43",
+   "dur": 1.056,
+   "src": "elevenlabs"
+  },
+  "ipa:θˈʊl": {
+   "id": "949bdec86c01",
+   "dur": 0.734,
+   "src": "elevenlabs"
+  },
+  "ipa:θˈʊp": {
+   "id": "3d9f480db8a1",
+   "dur": 0.619,
+   "src": "elevenlabs"
+  },
+  "ipa:θˈʊsʃʌl": {
+   "id": "2c5956fadb8d",
+   "dur": 1.062,
+   "src": "elevenlabs"
+  },
+  "ipa:θˈʊɹb": {
+   "id": "32b559ae7d5a",
+   "dur": 0.805,
+   "src": "elevenlabs"
+  },
+  "ipa:θˈʌndʌl": {
+   "id": "89d85a8f9f4c",
+   "dur": 0.829,
+   "src": "elevenlabs"
+  },
+  "syl:aɪd": {
+   "id": "d875b7f63059",
+   "dur": 0.54,
+   "src": "elevenlabs"
+  },
+  "syl:aɪn": {
+   "id": "7213d9cacdcf",
+   "dur": 0.49,
+   "src": "elevenlabs"
+  },
+  "syl:aɪst": {
+   "id": "971843d1d4c3",
+   "dur": 0.32,
+   "src": "elevenlabs"
+  },
+  "syl:aʊd": {
+   "id": "e53107ac7f36",
+   "dur": 0.36,
+   "src": "elevenlabs"
+  },
+  "syl:aʊnd": {
+   "id": "58761d289441",
+   "dur": 0.5,
+   "src": "elevenlabs"
+  },
+  "syl:beɪ": {
+   "id": "59ea4d4c5bb5",
+   "dur": 0.41,
+   "src": "elevenlabs"
+  },
+  "syl:biz": {
+   "id": "cc9de28a798f",
+   "dur": 0.39,
+   "src": "elevenlabs"
+  },
+  "syl:bli": {
+   "id": "332939d3b9e5",
+   "dur": 0.47,
+   "src": "elevenlabs"
+  },
+  "syl:blɪŋk": {
+   "id": "48ff3740d95f",
+   "dur": 0.36,
+   "src": "elevenlabs"
+  },
+  "syl:boʊ": {
+   "id": "f7959cf0caf9",
+   "dur": 0.43,
+   "src": "elevenlabs"
+  },
+  "syl:bæn": {
+   "id": "d509b54d3e21",
+   "dur": 0.52,
+   "src": "elevenlabs"
+  },
+  "syl:bæs": {
+   "id": "ed5f6494b84f",
+   "dur": 0.4,
+   "src": "elevenlabs"
+  },
+  "syl:bɑ": {
+   "id": "1629e82a981c",
+   "dur": 0.44,
+   "src": "elevenlabs"
+  },
+  "syl:bɑts": {
+   "id": "7ce24b57aa40",
+   "dur": 0.38,
+   "src": "elevenlabs"
+  },
+  "syl:bɝ": {
+   "id": "3e66d7e77c35",
+   "dur": 0.42,
+   "src": "elevenlabs"
+  },
+  "syl:bɪf": {
+   "id": "b400843a5d3b",
+   "dur": 0.36,
+   "src": "elevenlabs"
+  },
+  "syl:bɪh": {
+   "id": "8c31f3ec87b2",
+   "dur": 0.4,
+   "src": "elevenlabs"
+  },
+  "syl:bɪl": {
+   "id": "f72d43cde1bd",
+   "dur": 0.53,
+   "src": "elevenlabs"
+  },
+  "syl:bɹoʊ": {
+   "id": "ff0af480112f",
+   "dur": 0.47,
+   "src": "elevenlabs"
+  },
+  "syl:bɹæn": {
+   "id": "5e2fa4de3cd9",
+   "dur": 0.51,
+   "src": "elevenlabs"
+  },
+  "syl:bʊk": {
+   "id": "2f2b6506b760",
+   "dur": 0.29,
+   "src": "elevenlabs"
+  },
+  "syl:bʌ": {
+   "id": "c1b1241d886a",
+   "dur": 0.42,
+   "src": "elevenlabs"
+  },
+  "syl:bʌl": {
+   "id": "c8eda6bb48b3",
+   "dur": 0.47,
+   "src": "elevenlabs"
+  },
+  "syl:bʌlz": {
+   "id": "9a8af4d1316e",
+   "dur": 0.36,
+   "src": "elevenlabs"
+  },
+  "syl:bʌlʃ": {
+   "id": "9f747b88d3c7",
+   "dur": 0.4,
+   "src": "elevenlabs"
+  },
+  "syl:bʌm": {
+   "id": "1f03d739432a",
+   "dur": 0.41,
+   "src": "elevenlabs"
+  },
+  "syl:bʌnd": {
+   "id": "39e16fd0c583",
+   "dur": 0.47,
+   "src": "elevenlabs"
+  },
+  "syl:daɪ": {
+   "id": "ae145411ce42",
+   "dur": 0.41,
+   "src": "elevenlabs"
+  },
+  "syl:deɪt": {
+   "id": "3c2685415ca2",
+   "dur": 0.38,
+   "src": "elevenlabs"
+  },
+  "syl:dli": {
+   "id": "2bee6d0091bd",
+   "dur": 0.68,
+   "src": "elevenlabs"
+  },
+  "syl:doʊ": {
+   "id": "176c6523a3de",
+   "dur": 0.5,
+   "src": "elevenlabs"
+  },
+  "syl:dspɹɪŋ": {
+   "id": "a390a65bc45f",
+   "dur": 0.45,
+   "src": "elevenlabs"
+  },
+  "syl:dstɹʌk": {
+   "id": "f673816358ce",
+   "dur": 0.49,
+   "src": "elevenlabs"
+  },
+  "syl:dæd": {
+   "id": "b1036bc8262f",
+   "dur": 0.43,
+   "src": "elevenlabs"
+  },
+  "syl:dæs": {
+   "id": "de188a5d58d5",
+   "dur": 0.34,
+   "src": "elevenlabs"
+  },
+  "syl:dɑk": {
+   "id": "b37ec44787ce",
+   "dur": 0.35,
+   "src": "elevenlabs"
+  },
+  "syl:dɑl": {
+   "id": "20fb1912d519",
+   "dur": 0.46,
+   "src": "elevenlabs"
+  },
+  "syl:dɝ": {
+   "id": "9b7360e722dd",
+   "dur": 0.47,
+   "src": "elevenlabs"
+  },
+  "syl:dɝz": {
+   "id": "55a9172698e7",
+   "dur": 0.43,
+   "src": "elevenlabs"
+  },
+  "syl:dɪl": {
+   "id": "0612ae4b6ae2",
+   "dur": 0.47,
+   "src": "elevenlabs"
+  },
+  "syl:dɪs": {
+   "id": "1b66184948c0",
+   "dur": 0.36,
+   "src": "elevenlabs"
+  },
+  "syl:dɪv": {
+   "id": "feeeba67d6ca",
+   "dur": 0.44,
+   "src": "elevenlabs"
+  },
+  "syl:dɪz": {
+   "id": "ea5ba94db338",
+   "dur": 0.44,
+   "src": "elevenlabs"
+  },
+  "syl:dɪŋ": {
+   "id": "711553f43545",
+   "dur": 0.53,
+   "src": "elevenlabs"
+  },
+  "syl:dɪŋz": {
+   "id": "d1cdee95302f",
+   "dur": 0.51,
+   "src": "elevenlabs"
+  },
+  "syl:dɪʤ": {
+   "id": "2bfe50668b34",
+   "dur": 0.5,
+   "src": "elevenlabs"
+  },
+  "syl:dɹaɪ": {
+   "id": "d5dfee687fa7",
+   "dur": 0.47,
+   "src": "elevenlabs"
+  },
+  "syl:dʌl": {
+   "id": "e13a6235e8cb",
+   "dur": 0.46,
+   "src": "elevenlabs"
+  },
+  "syl:dʌs": {
+   "id": "77e1d65cc71e",
+   "dur": 0.35,
+   "src": "elevenlabs"
+  },
+  "syl:eɪl": {
+   "id": "1cc55d3f1fd0",
+   "dur": 0.46,
+   "src": "elevenlabs"
+  },
+  "syl:eɪz": {
+   "id": "b0a411630ef1",
+   "dur": 0.44,
+   "src": "elevenlabs"
+  },
+  "syl:faɪɝw": {
+   "id": "9bf495d5e9a0",
+   "dur": 0.59,
+   "src": "elevenlabs"
+  },
+  "syl:feɪ": {
+   "id": "bd1979956585",
+   "dur": 0.4,
+   "src": "elevenlabs"
+  },
+  "syl:fju": {
+   "id": "2eea58a3f189",
+   "dur": 0.56,
+   "src": "elevenlabs"
+  },
+  "syl:flɔɹt": {
+   "id": "40a10f18dc75",
+   "dur": 0.45,
+   "src": "elevenlabs"
+  },
+  "syl:flɪk": {
+   "id": "ce8a90f34844",
+   "dur": 0.39,
+   "src": "elevenlabs"
+  },
+  "syl:flʌf": {
+   "id": "cbc4a562358e",
+   "dur": 0.41,
+   "src": "elevenlabs"
+  },
+  "syl:foʊ": {
+   "id": "dc669f5bc108",
+   "dur": 0.46,
+   "src": "elevenlabs"
+  },
+  "syl:fæk": {
+   "id": "7ef4cf7c9edd",
+   "dur": 0.37,
+   "src": "elevenlabs"
+  },
+  "syl:fɑ": {
+   "id": "99f9dbd35c73",
+   "dur": 0.46,
+   "src": "elevenlabs"
+  },
+  "syl:fɛn": {
+   "id": "b1cbe46670f4",
+   "dur": 0.46,
+   "src": "elevenlabs"
+  },
+  "syl:fɛð": {
+   "id": "9b8297dd0349",
+   "dur": 0.49,
+   "src": "elevenlabs"
+  },
+  "syl:hju": {
+   "id": "59f9c9fd61af",
+   "dur": 0.43,
+   "src": "elevenlabs"
+  },
+  "syl:sneɪ": {
+   "id": "469594a69c89",
+   "dur": 0.53,
+   "src": "elevenlabs"
+  },
+  "syl:sæ": {
+   "id": "4bb1672ac886",
+   "dur": 0.46,
+   "src": "elevenlabs"
+  },
+  "syl:zɪ": {
+   "id": "ebb585def98f",
+   "dur": 0.47,
+   "src": "elevenlabs"
+  },
+  "syl:ðɝ": {
+   "id": "b094bb249b2e",
+   "dur": 0.46,
+   "src": "elevenlabs"
+  },
+  "syl:ɛs": {
+   "id": "3da0e1fdd134",
+   "dur": 0.38,
+   "src": "elevenlabs"
+  },
+  "syl:ɡɪ": {
+   "id": "7be060e74bd7",
+   "dur": 0.43,
+   "src": "elevenlabs"
+  },
+  "syl:θæs": {
+   "id": "94a0f3bffa87",
+   "dur": 0.4,
+   "src": "elevenlabs"
+  },
+  "ipa:dˈɪʃ": {
+   "id": "b2af68fcb93b",
+   "dur": 0.689,
+   "src": "elevenlabs"
+  },
+  "ipa:fˈɪʃ": {
+   "id": "20a954832dfb",
+   "dur": 0.749,
+   "src": "elevenlabs"
+  },
+  "ipa:ðˈæn": {
+   "id": "b510551ab1b5",
+   "dur": 0.646,
+   "src": "elevenlabs"
+  },
+  "ipa:ʃˈɪp": {
+   "id": "ea7cf4803ffd",
+   "dur": 0.637,
+   "src": "elevenlabs"
+  },
+  "w:dish": {
+   "id": "366cc34d7e3e",
+   "dur": 0.689,
+   "src": "elevenlabs"
+  },
+  "w:min": {
+   "id": "675d836e8dd0",
+   "dur": 0.586,
+   "src": "elevenlabs"
+  },
+  "w:ship": {
+   "id": "e60b3d7744d9",
+   "dur": 0.637,
+   "src": "elevenlabs"
+  },
+  "w:tub": {
+   "id": "1d1d05d4cf74",
+   "dur": 0.56,
+   "src": "elevenlabs"
+  },
+  "ipa:kˈæʧ": {
+   "id": "7d6fec878823",
+   "dur": 0.6,
+   "src": "elevenlabs"
+  },
+  "w:bus": {
+   "id": "4e6101d5c4dc",
+   "dur": 0.688,
+   "src": "elevenlabs"
+  },
+  "ipa:bˈæθ": {
+   "id": "a917abbe914d",
+   "dur": 0.71,
+   "src": "elevenlabs"
+  },
+  "ipa:jˈuz": {
+   "id": "e579eadc4818",
+   "dur": 0.831,
+   "src": "elevenlabs"
+  },
+  "ipa:mˈɔθ": {
+   "id": "ec41589e824f",
+   "dur": 0.691,
+   "src": "elevenlabs"
+  },
+  "ipa:θˈɪn": {
+   "id": "01bbb9ebca66",
+   "dur": 0.673,
+   "src": "elevenlabs"
+  },
+  "w:bath": {
+   "id": "c5a579eff3cd",
+   "dur": 0.71,
+   "src": "elevenlabs"
+  },
+  "w:moth": {
+   "id": "d51b9a04ec84",
+   "dur": 0.691,
+   "src": "elevenlabs"
+  },
+  "w:sing": {
+   "id": "f19d71ff33a0",
+   "dur": 0.673,
+   "src": "elevenlabs"
+  },
+  "w:tin": {
+   "id": "6d0f51a43430",
+   "dur": 0.592,
+   "src": "elevenlabs"
+  },
+  "ipa:dˈæʃ": {
+   "id": "03ab1c60f7d2",
+   "dur": 0.73,
+   "src": "elevenlabs"
+  },
+  "ipa:slˈɪp": {
+   "id": "bb9f4dcb55d0",
+   "dur": 0.624,
+   "src": "elevenlabs"
+  },
+  "ipa:tɹˈɪp": {
+   "id": "183dfbebf2ce",
+   "dur": 0.539,
+   "src": "elevenlabs"
+  },
+  "w:dash": {
+   "id": "7643121a278c",
+   "dur": 0.73,
+   "src": "elevenlabs"
+  },
+  "w:pad": {
+   "id": "f8e10e9a93d3",
+   "dur": 0.647,
+   "src": "elevenlabs"
+  },
+  "w:slip": {
+   "id": "6c6763453e08",
+   "dur": 0.624,
+   "src": "elevenlabs"
+  },
+  "ipa:ʤˈʌmps": {
+   "id": "852d1c55e4ab",
+   "dur": 0.747,
+   "src": "elevenlabs"
+  },
+  "w:jumps": {
+   "id": "f53e5a078ad3",
+   "dur": 0.747,
+   "src": "elevenlabs"
+  },
+  "w:stack": {
+   "id": "149d69deec2f",
+   "dur": 0.735,
+   "src": "elevenlabs"
+  },
+  "w:stacks": {
+   "id": "c284d0b01285",
+   "dur": 0.855,
+   "src": "elevenlabs"
+  },
+  "ipa:fˈɪkst": {
+   "id": "a355ba150b70",
+   "dur": 0.678,
+   "src": "elevenlabs"
+  },
+  "ipa:kˈæmpt": {
+   "id": "f80412439407",
+   "dur": 0.834,
+   "src": "elevenlabs"
+  },
+  "ipa:wˈɪʃt": {
+   "id": "199414fa7334",
+   "dur": 0.712,
+   "src": "elevenlabs"
+  },
+  "ipa:ʧˈɛkt": {
+   "id": "9cc04e18d414",
+   "dur": 0.577,
+   "src": "elevenlabs"
+  },
+  "w:camped": {
+   "id": "ae2c2302bf5c",
+   "dur": 0.834,
+   "src": "elevenlabs"
+  },
+  "w:wished": {
+   "id": "1c926a449b4f",
+   "dur": 0.712,
+   "src": "elevenlabs"
+  },
+  "w:dents": {
+   "id": "76be4affe7ee",
+   "dur": 0.746,
+   "src": "elevenlabs"
+  },
+  "w:prints": {
+   "id": "40a21e8f9d77",
+   "dur": 0.684,
+   "src": "elevenlabs"
+  },
+  "ipa:pˈɪk": {
+   "id": "0ce441f890ef",
+   "dur": 0.675,
+   "src": "elevenlabs"
+  },
+  "ipa:flˈɪk": {
+   "id": "13108a55db8e",
+   "dur": 0.66,
+   "src": "elevenlabs"
+  },
+  "ipa:sˈɛkt": {
+   "id": "1c13b7aa5666",
+   "dur": 0.76,
+   "src": "elevenlabs"
+  },
+  "ipa:pˈʊt": {
+   "id": "172bdf3bc264",
+   "dur": 0.515,
+   "src": "elevenlabs"
+  },
+  "w:fit": {
+   "id": "5fb379c6dea8",
+   "dur": 0.612,
+   "src": "elevenlabs"
+  },
+  "ipa:stˈæk": {
+   "id": "999798279358",
+   "dur": 0.735,
+   "src": "elevenlabs"
+  },
+  "ipa:ˈɛd": {
+   "id": "7032db868a83",
+   "dur": 0.533,
+   "src": "elevenlabs"
+  },
+  "w:fixed": {
+   "id": "6bcbaf5a329f",
+   "dur": 0.678,
+   "src": "elevenlabs"
+  },
+  "w:jig": {
+   "id": "4bccf7a9f282",
+   "dur": 0.654,
+   "src": "elevenlabs"
+  },
+  "w:stick": {
+   "id": "2f12fb062df6",
+   "dur": 0.664,
+   "src": "elevenlabs"
+  },
+  "ipa:ʤˈɛm": {
+   "id": "3c6288081afb",
+   "dur": 0.659,
+   "src": "elevenlabs"
+  },
+  "w:gem": {
+   "id": "9480d903ae1e",
+   "dur": 0.659,
+   "src": "elevenlabs"
+  },
+  "w:ice": {
+   "id": "c0df537f5bf4",
+   "dur": 0.651,
+   "src": "elevenlabs"
+  },
+  "w:pets": {
+   "id": "030a9e1f54c4",
+   "dur": 0.647,
+   "src": "elevenlabs"
+  },
+  "w:pup": {
+   "id": "013b2a4a2e93",
+   "dur": 0.582,
+   "src": "elevenlabs"
+  },
+  "w:sets": {
+   "id": "fc0bf82a2748",
+   "dur": 0.703,
+   "src": "elevenlabs"
+  },
+  "ipa:tˈɔɹ": {
+   "id": "ec81db35c74b",
+   "dur": 0.621,
+   "src": "elevenlabs"
+  },
+  "w:tore": {
+   "id": "59f6643ff4af",
+   "dur": 0.621,
+   "src": "elevenlabs"
+  },
+  "ipa:bˈut": {
+   "id": "c61065feb70e",
+   "dur": 0.599,
+   "src": "elevenlabs"
+  },
+  "ipa:kˈʊk": {
+   "id": "1fe79575deee",
+   "dur": 0.55,
+   "src": "elevenlabs"
+  },
+  "w:boot": {
+   "id": "96eb0df9ff23",
+   "dur": 0.599,
+   "src": "elevenlabs"
+  },
+  "w:cook": {
+   "id": "3acd4c2de3f8",
+   "dur": 0.55,
+   "src": "elevenlabs"
+  },
+  "w:tea": {
+   "id": "490d1fdfdd07",
+   "dur": 0.575,
+   "src": "elevenlabs"
+  },
+  "ipa:hˈɛm": {
+   "id": "e8f7f4140af6",
+   "dur": 0.614,
+   "src": "elevenlabs"
+  },
+  "ipa:ˈɛm": {
+   "id": "8074a62dc385",
+   "dur": 0.675,
+   "src": "elevenlabs"
+  },
+  "ipa:ˈaʊt": {
+   "id": "b20cbfbfe12c",
+   "dur": 0.583,
+   "src": "elevenlabs"
+  },
+  "w:an": {
+   "id": "4e0e42545101",
+   "dur": 0.571,
+   "src": "elevenlabs"
+  },
+  "w:check": {
+   "id": "8fbf6125662a",
+   "dur": 0.494,
+   "src": "elevenlabs"
+  },
+  "w:fish": {
+   "id": "47480766c532",
+   "dur": 0.749,
+   "src": "elevenlabs"
+  },
+  "w:his": {
+   "id": "b4c40a5b4d67",
+   "dur": 0.644,
+   "src": "elevenlabs"
+  },
+  "w:out": {
+   "id": "52589346ba78",
+   "dur": 0.583,
+   "src": "elevenlabs"
+  },
+  "w:put": {
+   "id": "26c77296e61d",
+   "dur": 0.515,
+   "src": "elevenlabs"
+  },
+  "w:than": {
+   "id": "4a206cfaf099",
+   "dur": 0.646,
+   "src": "elevenlabs"
+  },
+  "w:us": {
+   "id": "85ba4cc74a68",
+   "dur": 0.59,
+   "src": "elevenlabs"
+  },
+  "ipa:ˈɪf": {
+   "id": "d4d201092d70",
+   "dur": 0.536,
+   "src": "elevenlabs"
+  },
+  "w:catch": {
+   "id": "91fa0910ed09",
+   "dur": 0.6,
+   "src": "elevenlabs"
+  },
+  "w:if": {
+   "id": "ad1c341e9ae7",
+   "dur": 0.536,
+   "src": "elevenlabs"
+  },
+  "w:thin": {
+   "id": "6dc8527fd5ca",
+   "dur": 0.673,
+   "src": "elevenlabs"
+  },
+  "w:use": {
+   "id": "0453df390a42",
+   "dur": 0.831,
+   "src": "elevenlabs"
+  },
+  "ipa:ˈɛɹ": {
+   "id": "27009e98b22e",
+   "dur": 0.617,
+   "src": "elevenlabs"
+  },
+  "w:air": {
+   "id": "25519cd0b3df",
+   "dur": 0.617,
+   "src": "elevenlabs"
+  },
+  "ipa:sˈɪŋ": {
+   "id": "38d6bbb5fcc4",
+   "dur": 0.673,
+   "src": "elevenlabs"
+  },
+  "w:hits": {
+   "id": "26c7d3aecd97",
+   "dur": 0.63,
+   "src": "elevenlabs"
+  },
+  "w:trip": {
+   "id": "3f3cb5a73d52",
+   "dur": 0.539,
+   "src": "elevenlabs"
+  },
+  "w:set": {
+   "id": "987f9d3207fd",
+   "dur": 0.612,
+   "src": "elevenlabs"
+  },
+  "ipa:ˈɛs": {
+   "id": "69b6df814f96",
+   "dur": 0.606,
+   "src": "elevenlabs"
+  },
+  "w:checked": {
+   "id": "5f5b9e3a4fc6",
+   "dur": 0.577,
+   "src": "elevenlabs"
+  },
+  "w:luck": {
+   "id": "6ce36cc2bd52",
+   "dur": 0.599,
+   "src": "elevenlabs"
+  },
+  "w:quick": {
+   "id": "f055d25687c5",
+   "dur": 0.507,
+   "src": "elevenlabs"
+  },
+  "ipa:lˈæf": {
+   "id": "9c01bf90a939",
+   "dur": 0.723,
+   "src": "elevenlabs"
+  },
+  "w:laugh": {
+   "id": "c0d8b4c4f749",
+   "dur": 0.723,
+   "src": "elevenlabs"
+  },
+  "ipa:ˈaɪs": {
+   "id": "c178b2d8457b",
+   "dur": 0.651,
+   "src": "elevenlabs"
+  },
+  "ipa:kˈɑɹ": {
+   "id": "6dc5947c8931",
+   "dur": 0.754,
+   "src": "elevenlabs"
+  },
+  "w:car": {
+   "id": "1c8057b2f71d",
+   "dur": 0.754,
+   "src": "elevenlabs"
+  },
+  "ipa:fˈɔɹt": {
+   "id": "041f8506ebb4",
+   "dur": 0.646,
+   "src": "elevenlabs"
+  },
+  "w:fort": {
+   "id": "ef5a7f3e6557",
+   "dur": 0.646,
+   "src": "elevenlabs"
+  },
+  "w:pick": {
+   "id": "5851a44c84c7",
+   "dur": 0.675,
+   "src": "elevenlabs"
+  },
+  "ipa:hˈaʊs": {
+   "id": "224a8721b2bb",
+   "dur": 0.716,
+   "src": "elevenlabs"
+  },
+  "w:house": {
+   "id": "7ad87694abb4",
+   "dur": 0.716,
+   "src": "elevenlabs"
+  },
+  "ipa:fˈɔl": {
+   "id": "4b9918bc6b50",
+   "dur": 0.615,
+   "src": "elevenlabs"
+  },
+  "w:ball": {
+   "id": "ea318eadba07",
+   "dur": 0.653,
+   "src": "elevenlabs"
+  },
+  "w:fall": {
+   "id": "884c12f2ecd8",
+   "dur": 0.615,
+   "src": "elevenlabs"
+  },
+  "w:keeps": {
+   "id": "51a1ffed1d62",
+   "dur": 0.68,
+   "src": "elevenlabs"
+  },
+  "w:knit": {
+   "id": "2b4a4966d7be",
+   "dur": 0.625,
+   "src": "elevenlabs"
+  },
+  "w:knock": {
+   "id": "508a0a8e743d",
+   "dur": 0.605,
+   "src": "elevenlabs"
+  },
+  "w:rut": {
+   "id": "ba231cf3e05c",
+   "dur": 0.608,
+   "src": "elevenlabs"
+  },
+  "w:wrap": {
+   "id": "75b03132a4b7",
+   "dur": 0.594,
+   "src": "elevenlabs"
+  },
+  "w:miss": {
+   "id": "c53254a950d9",
+   "dur": 0.674,
+   "src": "elevenlabs"
+  },
+  "ipa:pˈeɪ": {
+   "id": "f0f19faa6342",
+   "dur": 0.569,
+   "src": "elevenlabs"
+  },
+  "w:pay": {
+   "id": "c5c9cf1dbd7c",
+   "dur": 0.569,
+   "src": "elevenlabs"
+  },
+  "ipa:hˈɑpt": {
+   "id": "5aac37e321f0",
+   "dur": 0.609,
+   "src": "elevenlabs"
+  },
+  "w:flopped": {
+   "id": "022abe9f08f2",
+   "dur": 0.836,
+   "src": "elevenlabs"
+  },
+  "w:hopped": {
+   "id": "0532972178e0",
+   "dur": 0.609,
+   "src": "elevenlabs"
+  },
+  "w:months": {
+   "id": "2361d795dc0b",
+   "dur": 0.739,
+   "src": "elevenlabs"
+  },
+  "ipa:sˈɑ": {
+   "id": "629d5f2861dd",
+   "dur": 0.589,
+   "src": "elevenlabs"
   }
  },
  "missing": [],

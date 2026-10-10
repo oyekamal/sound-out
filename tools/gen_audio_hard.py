@@ -10,7 +10,7 @@ Whatever does not fit is listed with its character count in content/audio_still_
 Isolated sounds (new phonemes of L2-L4): three prompt forms each, the take whose phone-recogniser output is closest to the target
 IPA is shipped (tools/phone_rec.py; smoke test only, Kamal's ears decide). Same voice, model, settings and cache as Level 1.
 """
-import hashlib, json, sys
+import hashlib, json, re, sys
 from pathlib import Path
 import numpy as np
 
@@ -36,6 +36,78 @@ ISO_FORMS = {  # pid -> three prompt texts (each is one billed request)
     "ah-n": ["Un.", "Uhn.", "Unn."], "ah-n-t": ["Unt.", "Uhnt.", "Un-t."], "ah-d": ["Ud.", "Uhd.", "Udd."], "ih-z": ["Iz.", "Izz.", "Ihz."],
     "ih-d": ["Id.", "Idd.", "Ihd."], "ih-ng": ["Ing.", "Ihng.", "Ing—"], "iy-ah-s": ["Eeus.", "Ee-us.", "Eeuss."], "sh-ah-l": ["Shul.", "Shuhl.", "Shal."],
 }
+
+
+RESERVE = 400
+
+
+def live_remaining():
+    sub = g.api("/v1/user/subscription")
+    return sub["character_limit"] - sub["character_count"]
+
+
+def lesson_rank():
+    """first lesson (file order L2.01 .. L4.16) whose JSON mentions each word -> rank, for lesson-order priority"""
+    rank = {}
+    for i, f in enumerate(sorted((C / "lessons").glob("L[234].*.json"))):
+        for w in set(re.findall(r"[a-z]+", f.read_text().lower())): rank.setdefault(w, i)
+    return rank
+
+
+def missing_rows(voice):
+    """every clip L2-L4 still without audio, except isolated sounds (ph: keys are satisfied separately)"""
+    classes = json.loads((C / "audio_classes.json").read_text())
+    idx = json.loads((C / "audio_index.json").read_text())["clips"]
+    man = json.loads((C / "local" / "manifest.json").read_text())
+    rank, rows = lesson_rank(), []
+    for k, v in classes.items():
+        if v["kind"] == "iso" or k in idx or v.get("cut") not in ("last", "open"): continue
+        if v["class"] == "hard" or (v["class"] == "easy" and man.get(k, {}).get("gate") == "fail"):
+            sub = v["sub"] if v["class"] == "hard" else "word"
+            rows.append({"key": k, "level": v["level"], "sub": sub, "kind": v["kind"], "cut": v["cut"], "say": v["say"], "ipa": v["ipa"],
+                         "requests": [g.req_text(v)], "rank": rank.get(v["say"].lower(), 999), "group": f"{sub} L{v['level']}"})
+    return rows
+
+
+def plan2():
+    voice = g.get_voice(); left = live_remaining(); budget = min(8500, left - RESERVE); total = budget
+    print(f"live balance {left} remaining; budget {budget}")
+    rows = missing_rows(voice)
+    order = lambda r: ({("pseudo", 3): 0, ("chunk", 3): 0, ("pseudo", 4): 1, ("chunk", 4): 1}.get((r["sub"], r["level"]), 2), r["level"] if r["sub"] == "word" else 0, r["rank"], r["key"])
+    rows.sort(key=order)
+    chosen, planned, still_ = {}, [], []
+    for r in rows:
+        new = [t for t in r["requests"] if t not in chosen and not g.cached(voice, t)]
+        cost = sum(len(t) for t in new)
+        if cost <= budget:
+            budget -= cost
+            for t in new: chosen[t] = r["key"]
+            planned.append({**r, "chars": cost})
+        else: still_.append(r)
+    newchars = sum(len(t) for t in chosen)
+    PLAN.write_text(json.dumps({"voice": voice, "budget": total, "live_before": left, "new_chars": newchars, "rows": planned}, indent=1, ensure_ascii=False))
+    by = {}
+    for r in planned: by.setdefault(r["group"], [0, 0]); by[r["group"]][0] += 1; by[r["group"]][1] += r["chars"]
+    print(f"planned {len(planned)} clips, {newchars} chars; left over {len(still_)} clips")
+    for k, (a, b) in sorted(by.items()): print(f"  {k}: {a} clips {b} chars")
+
+
+def still():
+    """rewrite content/audio_still_needed.json from what the index really lacks"""
+    voice = g.get_voice(); rows = missing_rows(voice); seen = set(); out = []
+    rows.sort(key=lambda r: (r["level"], r["sub"], r["rank"], r["key"]))
+    for r in rows:
+        cost = sum(len(t) for t in r["requests"] if t not in seen and not g.cached(voice, t)); seen.update(r["requests"])
+        out.append({"key": r["key"], "group": r["group"], "level": r["level"], "sub": r["sub"], "requests": r["requests"], "chars": cost, "say": r["say"], "ipa": r["ipa"], "cut": r["cut"], "kind": r["kind"]})
+    by = {}
+    for r in out: by.setdefault(r["group"], [0, 0]); by[r["group"]][0] += 1; by[r["group"]][1] += r["chars"]
+    (C / "audio_still_needed.json").write_text(json.dumps({
+        "note": "Clips of Levels 2-4 still without audio in content/audio_index.json (rewritten by tools/gen_audio_hard.py still). pseudo = made-up words, chunk = syllable chunks, "
+                "word = real words that failed the local Whisper gate AND every free re-roll. chars = new ElevenLabs characters (River, eleven_v4, fixed settings; shared requests counted once). "
+                "To render: gen_audio_hard.py plan2 / render / build.",
+        "by_group": {k: {"clips": a, "chars": b} for k, (a, b) in sorted(by.items())}, "total_clips": len(out), "total_chars": sum(r["chars"] for r in out), "clips": out}, indent=1, ensure_ascii=False))
+    for k, (a, b) in sorted(by.items()): print(f"  STILL {k}: {a} clips {b} chars")
+    print("total", len(out), sum(r["chars"] for r in out))
 
 
 def spent():
@@ -99,7 +171,11 @@ def render():
     p = json.loads(PLAN.read_text()); voice = g.get_voice()
     reqs = {t for r in p["rows"] for t in r["requests"] if not g.cached(voice, t)}
     chars = sum(len(t) for t in reqs)
-    if spent() + chars > CAP: sys.exit(f"STOP: ledger {spent()} + {chars} > {CAP}")
+    if "budget" in p:   # plan2 (decision 31): budget set from the live balance, not the ledger sum
+        if chars > p["budget"]: sys.exit(f"STOP: {chars} > budget {p['budget']}")
+        left = live_remaining()
+        if chars > left - RESERVE: sys.exit(f"STOP: {chars} chars but live balance {left} (reserve {RESERVE})")
+    elif spent() + chars > CAP: sys.exit(f"STOP: ledger {spent()} + {chars} > {CAP}")
     print(f"{len(reqs)} requests, {chars} chars (ledger {spent()} -> {spent() + chars})")
     led = json.loads(LEDGER.read_text())
     from concurrent.futures import ThreadPoolExecutor
@@ -108,7 +184,7 @@ def render():
         try: g.tts(voice, t); return t
         except Exception as e: fails.append((t, str(e)))
     with ThreadPoolExecutor(3) as ex: done = [t for t in ex.map(one, sorted(reqs)) if t]
-    for t in done: led.append({"text": t, "model": g.MODEL, "kind": "d30-hard", "chars": len(t)})
+    for t in done: led.append({"text": t, "model": g.MODEL, "kind": "d31-hard" if "budget" in p else "d30-hard", "chars": len(t)})
     LEDGER.write_text(json.dumps(led, indent=1, ensure_ascii=False))
     for t, e in fails: print("FAIL", repr(t), e)
     print(f"rendered {len(done)}; ledger now {spent()}")
@@ -172,4 +248,4 @@ def build():
 
 
 if __name__ == "__main__":
-    {"plan": plan, "render": render, "build": build}.get(sys.argv[1] if len(sys.argv) > 1 else "", lambda: sys.exit(__doc__))()
+    {"plan": plan, "plan2": plan2, "still": still, "render": render, "build": build}.get(sys.argv[1] if len(sys.argv) > 1 else "", lambda: sys.exit(__doc__))()
