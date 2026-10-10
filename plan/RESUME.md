@@ -77,3 +77,4 @@ BLOCKED: L2–L7 content audio (~360k ElevenLabs chars) = Kamal top-up decision;
   (g) the 106 new teacher clips are UNLISTENED → an audio critic (Whisper intelligibility + carrier joins like "This letter says" + sound) before release.
 
 - 2026-10-10 15:00 — Teacher audio critic DONE (0e6c270): 106/106 pass, 0 re-renders. Ear-check later: tipQ, qNote, teachBlend. Item "re-render flagged clips" in app-code lane = nothing to do.
+- 2026-10-10 15:20 — Regression DONE (14128b2): fixed L1.10/L1.13 `.find` crash + L1.06 dead ex speaker; L1.02 lock not reproduced; L2 + L4 end + L1.09-14 mastery green; APK 13.3 MB, AAB 12.0 MB. Not yet: one clean full L1 walk on final code (fold into final QA). App-code lane agent STARTED: Tilo Track A, F1-F7, (b)(e)(f). Pictures wiring (c) after the pictures lane.
