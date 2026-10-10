@@ -188,3 +188,49 @@ B_home_no_mascot PASS. B_no_mascot PASS (bottom ~40% empty, layout note only).
 3. **Story grid is asymmetric.** `.pics` (`app/src/style.css` line 117) is a 2-column grid, and `app/src/screens/listen.js` line 12 renders the three panels into it. Centre the third panel (`grid-column: 1 / -1; justify-self: center; max-width: 50%` on the odd last child, behind a `.pics.story` class added in listen.js). Open since round 2.
 4. **Tilo has no mascot-scale moment.** The 96px header Tilo (`.hdr-tilo .tilo.inline`, `app/src/style.css` around line 192) is still a corner companion. Add a larger Tilo beat on the Listen intro, where `3_listen_story` has room (`app/src/screens/listen.js` and `app/src/tilo.js`). Round 2 fix 9, still open.
 5. **Lower third on the Listen question is blank.** `4_listen_question` leaves about 17% empty. Anchor the speaker and prompt lower, or enlarge `.pics.scene` (`app/src/style.css` line 215). Minor.
+
+---
+
+## Round 5
+
+Judged on the round-5 re-shoot (commit c7e2a4b, code from f490621). Tilo screens are the 9 `A_*` child-track shots plus the 4 `pictures-in-app` shots (13 total). `B_*` shots are controls, not counted. `emulator_lesson_tilo.png` skipped (stale). Lead rulings respected: thinking pose on encouraging, waving arm on speaking, mouth on the snout, and speaker-only blend sets are not re-failed.
+
+### Per-screen verdict (child track and pictures)
+
+| Screen | Cuteness | Clarity (360x640) | Pose / state reads | Result | Reason |
+|---|---|---|---|---|---|
+| A_speaking_closed_mmm | PASS | PASS: dimmed cards fill the lower slot, bubble clear | PASS (wave ruled) | PASS | Closed smile reads as mmm. |
+| A_speaking_mid | PASS | PASS | PASS | PASS | Small open mouth, distinct from mmm (mouth_zoom.png). |
+| A_speaking_open_aaa | PASS | PASS | PASS | PASS | Larger open mouth, flap changes between frames. |
+| A_celebrating | PASS | PASS: head and sparkles clear of y=0 | PASS, arms up | PASS | |
+| A_idle | PASS | PASS: no yellow ring at rest | PASS | PASS | Faint grey pulse ring on the ear button in this frame, not a focus colour (note only). |
+| A_idle_hint | PASS | PASS: pulse peak is a pale yellow ring on Check 1, no ring on the ear button | PASS | PASS | Round 4 fix 2 done: peak is softer than the focus ring. Still a ring on one answer at peak, so watch it (note only). |
+| A_listening | PASS | PASS | PASS, hand at head | PASS | |
+| A_encouraging | PASS | PASS | Thinking pose (ruled) | PASS | |
+| A_home | PASS | PASS: ear button clear of profile pill | PASS, wave | PASS | Pale halo on the current lesson reads as "current", not focus. |
+| pictures 1_first_sound | PASS | PASS | PASS, listening | PASS | |
+| pictures 2_blend_pictures | PASS | PASS: three speaker-only cards, same size, no dotted box | PASS, listening | PASS | Round 4 fix 1 done. Bottom ~28% blank, layout note only. |
+| pictures 3_listen_story | PASS | PASS: third panel centred | PASS, wave | PASS | Round 4 fix 3 done. Bottom ~13% blank, note only. |
+| pictures 4_listen_question | PASS | PASS: bottom ~16% blank | PASS, listening | PASS | |
+
+**Pass count: 13 of 13. Round 5 PASSES.**
+
+Fixed since round 4: blend card 2 no longer reads as a missing image (speaker-only sets), the idle hint peak is softer, and the story's third panel is centred.
+
+Control shots (not counted): B_home_no_mascot PASS. B_no_mascot PASS (bottom ~35% empty, layout note only).
+
+### A/B verdict (Duolingo ABC lesson frames 3, 4, 9 vs Sound Out child track)
+
+Not blind: the labels were not shuffled in this pass, so treat this as an unblinded read.
+
+- **Mascot:** Tilo wins on pose coverage (wave, listening, thinking, celebrating, three mouth shapes) and on a calm, cute look. Duolingo wins on scale and integration: its character sits inside the frame and reacts to the content.
+- **Lesson polish:** Duolingo ABC wins. Its frame is filled with content and a large character, and its progress band is bolder. Sound Out's lesson frame still reads as a tidy settings stack, with Tilo as a 96px corner companion.
+
+**Winner: Duolingo ABC on lesson polish. Tilo wins on the pose set.** The gap is narrower than round 4.
+
+### Remaining fixes (most important first, none block the pass)
+
+1. **Tilo is still a corner companion, not a lesson moment.** `.hdr-tilo .tilo.inline { width: 96px }` (`app/src/style.css` line 192). Open since round 2 fix 9 and round 4 fix 4. Add a larger Tilo beat on the Listen intro (`app/src/screens/listen.js`, `app/src/tilo.js`).
+2. **Lower third is blank on the blend question.** `2_blend_pictures` leaves ~28% empty below the options. `.options` (`app/src/style.css` line 92) sits at the top of the slot. Anchor the options lower, or add a larger Tilo or bubble beat in that space.
+3. **Lesson body still lacks hero content.** The picture cards are good, but the frame has no mascot-scale moment. Duolingo fills the frame with a character and content. Same root as fix 1; close it before polishing chrome.
+4. **Watch the idle-hint peak.** The pale yellow ring on Check 1 (`A_idle_hint`) still sits on an answer. Keep it, and keep the solid ring for `:focus-visible` only (`@keyframes halo`, `app/src/style.css` ~lines 156-157). Note only.
