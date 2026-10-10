@@ -146,3 +146,45 @@ Control shots (no Tilo, not counted): B_home_no_mascot PASS (pill clear of ear b
 4. **Story grid is asymmetric.** `pictures-in-app/3_listen_story` leaves the bottom-right empty (round 2 fix 10). Centre the third panel or use a 3-up strip. The story grid rule was not located in this pass; start in `app/src/screens/listen.js`.
 5. **Idle-hint pulse peaks look like focus.** At peak, `A_idle_hint` shows the same yellow ring on the ear button and Check 1 that focus uses. Keep the pulse (`app/src/style.css` line 155), but tint it softer than the focus ring so a hint never reads as a selected answer or a focused control.
 6. **Tilo is still small next to the content.** At 96px in the header, Tilo is a companion, not the lesson's moment. Add a larger Tilo beat on Listen intro screens (round 2 fix 9).
+
+---
+
+## Round 4
+
+Judged on the round-4 re-shot (builder commit 22e15b2). Tilo screens are the 9 `A_*` child-track shots plus the 4 `pictures-in-app` shots (13 total). `B_*` shots are controls, not counted. `emulator_lesson_tilo.png` skipped (stale). Lead rulings respected: thinking pose on encouraging, waving arm on speaking, mouth on the snout are not re-failed.
+
+### Per-screen verdict (child track and pictures)
+
+| Screen | Cuteness | Clarity (360x640) | Pose / state reads | Result | Reason |
+|---|---|---|---|---|---|
+| A_speaking_closed_mmm | PASS | PASS: dimmed answer cards fill the lower slot, bubble "First sound?" clear | PASS | PASS | Round 3 blank lower third closed. |
+| A_speaking_mid | PASS | PASS | PASS (ruled wave) | PASS | Mouth distinct from mmm. |
+| A_speaking_open_aaa | PASS | PASS | PASS | PASS | Larger open mouth, flap visibly changes. |
+| A_celebrating | PASS | PASS: arms up and sparkles clear of y=0 | PASS | PASS | |
+| A_idle | PASS | PASS: no rings at rest | PASS | PASS | |
+| A_idle_hint | PASS | FAIL: at pulse peak the ear button and Check 3 show a saturated yellow ring (`@keyframes halo`, peak rgba(255,214,90,.95), 7px offset) that is the same as the focus ring | PASS | FAIL | Round 3 fix 5 not made. At peak Check 3 reads as the selected answer. |
+| A_listening | PASS | PASS | PASS (hand at head) | PASS | |
+| A_encouraging | PASS | PASS | Thinking pose (ruled) | PASS | |
+| A_home | PASS | PASS: ear button clear of pill | PASS (wave) | PASS | Pale halo on "Sound games" reads as selected, not focus. |
+| pictures 1_first_sound | PASS | PASS | PASS (listening) | PASS | |
+| pictures 2_blend_pictures | PASS | FAIL: option 2 is an empty dotted box with a speaker glyph (`.picture-gap`, style.css line 213) while options 1 and 3 have pictures | PASS | FAIL | Reads as a missing image, the same defect as round 2 fix 4. Round 3 mat card has been replaced by the dotted gap. |
+| pictures 3_listen_story | PASS | FAIL: 2+1 grid leaves the bottom-right cell empty | PASS (wave) | FAIL | Round 2 fix 10 and round 3 fix 4 still open. Asymmetry is a visible layout defect. |
+| pictures 4_listen_question | PASS | PASS: bottom ~17% blank | PASS (listening) | PASS | |
+
+**Pass count: 10 of 13. Round 4 FAILS.** Fixed since round 3: the speaking frames (cards dimmed and inert, no reflow), the speech bubble, the 17px progress bar and the correct-answer cheer.
+
+### Per-screen verdict (grown-up control shots, not counted)
+
+B_home_no_mascot PASS. B_no_mascot PASS (bottom ~40% empty, layout note only).
+
+### A/B verdict (Duolingo ABC lesson frames 3, 4, 9 vs Sound Out child track)
+
+**Winner: Duolingo ABC.** Caveat: frames 3, 4 and 9 are store crops in a phone frame, but frame 3 is a fair lesson comparison. Duolingo's mascot is large and sits in the content, its progress bar is a chunky green band, and the letters fill the frame. Sound Out closed part of the gap this round: the bar is now chunky, dimmed cards keep the lower third full while Tilo talks, and the bubble gives Tilo a voice. Tilo is still a 96px corner companion, and the lesson body still reads as a settings stack. Gap is narrower than round 3.
+
+### Remaining fix list (most important first)
+
+1. **Blend card 2 looks like a missing image.** `.picture-gap` (`app/src/style.css` line 213) is used for an ambiguous word in the blend options (`app/src/screens/blend.js`, `app/src/screens/l1oral.js`, grep `picture-gap`). Give that word a real picture, or drop the picture box so all three cards are speaker-only with the same structure. Do not mix a dotted box with pictured cards.
+2. **Idle-hint peak reads as focus.** `@keyframes halo` (`app/src/style.css` lines 156-157) peaks at a saturated yellow with a 7px offset. Lower the peak alpha to about .45, reduce the offset to 3-4px, and keep the solid ring for `:focus-visible` only. Check the peak frame on both the ear button and Check 3.
+3. **Story grid is asymmetric.** `.pics` (`app/src/style.css` line 117) is a 2-column grid, and `app/src/screens/listen.js` line 12 renders the three panels into it. Centre the third panel (`grid-column: 1 / -1; justify-self: center; max-width: 50%` on the odd last child, behind a `.pics.story` class added in listen.js). Open since round 2.
+4. **Tilo has no mascot-scale moment.** The 96px header Tilo (`.hdr-tilo .tilo.inline`, `app/src/style.css` around line 192) is still a corner companion. Add a larger Tilo beat on the Listen intro, where `3_listen_story` has room (`app/src/screens/listen.js` and `app/src/tilo.js`). Round 2 fix 9, still open.
+5. **Lower third on the Listen question is blank.** `4_listen_question` leaves about 17% empty. Anchor the speaker and prompt lower, or enlarge `.pics.scene` (`app/src/style.css` line 215). Minor.
