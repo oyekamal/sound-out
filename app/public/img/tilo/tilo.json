@@ -1,0 +1,150 @@
+{
+ "version": 1,
+ "sizes": {
+  "1x": 256,
+  "2x": 512
+ },
+ "poses": {
+  "idle": {
+   "1x": "img/tilo/idle_1x.webp",
+   "2x": "img/tilo/idle_2x.webp"
+  },
+  "speaking": {
+   "1x": "img/tilo/speaking_1x.webp",
+   "2x": "img/tilo/speaking_2x.webp"
+  },
+  "listening": {
+   "1x": "img/tilo/listening_1x.webp",
+   "2x": "img/tilo/listening_2x.webp"
+  },
+  "pointing": {
+   "1x": "img/tilo/pointing_1x.webp",
+   "2x": "img/tilo/pointing_2x.webp"
+  },
+  "thinking": {
+   "1x": "img/tilo/thinking_1x.webp",
+   "2x": "img/tilo/thinking_2x.webp"
+  },
+  "encouraging": {
+   "1x": "img/tilo/encouraging_1x.webp",
+   "2x": "img/tilo/encouraging_2x.webp"
+  },
+  "celebrating": {
+   "1x": "img/tilo/celebrating_1x.webp",
+   "2x": "img/tilo/celebrating_2x.webp"
+  }
+ },
+ "faces": {
+  "happy": {
+   "1x": "img/tilo/face_happy_1x.webp",
+   "2x": "img/tilo/face_happy_2x.webp"
+  },
+  "proud": {
+   "1x": "img/tilo/face_proud_1x.webp",
+   "2x": "img/tilo/face_proud_2x.webp"
+  },
+  "listening": {
+   "1x": "img/tilo/face_listening_1x.webp",
+   "2x": "img/tilo/face_listening_2x.webp"
+  },
+  "thinking": {
+   "1x": "img/tilo/face_thinking_1x.webp",
+   "2x": "img/tilo/face_thinking_2x.webp"
+  },
+  "encouraging": {
+   "1x": "img/tilo/face_encouraging_1x.webp",
+   "2x": "img/tilo/face_encouraging_2x.webp"
+  },
+  "mmm": {
+   "1x": "img/tilo/face_mmm_1x.webp",
+   "2x": "img/tilo/face_mmm_2x.webp"
+  },
+  "aaa": {
+   "1x": "img/tilo/face_aaa_1x.webp",
+   "2x": "img/tilo/face_aaa_2x.webp"
+  },
+  "ooo": {
+   "1x": "img/tilo/face_ooo_1x.webp",
+   "2x": "img/tilo/face_ooo_2x.webp"
+  }
+ },
+ "talk": {
+  "body": {
+   "1x": "img/tilo/speaking_1x.webp",
+   "2x": "img/tilo/speaking_2x.webp"
+  },
+  "mouths": {
+   "mmm": {
+    "files": {
+     "1x": "img/tilo/mouth_mmm_1x.webp",
+     "2x": "img/tilo/mouth_mmm_2x.webp"
+    },
+    "offset": {
+     "1x": [
+      98,
+      81
+     ],
+     "2x": [
+      196,
+      163
+     ]
+    }
+   },
+   "aaa": {
+    "files": {
+     "1x": "img/tilo/mouth_aaa_1x.webp",
+     "2x": "img/tilo/mouth_aaa_2x.webp"
+    },
+    "offset": {
+     "1x": [
+      98,
+      81
+     ],
+     "2x": [
+      196,
+      163
+     ]
+    }
+   },
+   "ooo": {
+    "files": {
+     "1x": "img/tilo/mouth_ooo_1x.webp",
+     "2x": "img/tilo/mouth_ooo_2x.webp"
+    },
+    "offset": {
+     "1x": [
+      98,
+      81
+     ],
+     "2x": [
+      196,
+      163
+     ]
+    }
+   },
+   "mid": {
+    "files": {
+     "1x": "img/tilo/mouth_mid_1x.webp",
+     "2x": "img/tilo/mouth_mid_2x.webp"
+    },
+    "offset": {
+     "1x": [
+      98,
+      81
+     ],
+     "2x": [
+      196,
+      163
+     ]
+    }
+   }
+  },
+  "order": [
+   "mmm",
+   "mid",
+   "aaa",
+   "ooo"
+  ]
+ },
+ "note": "Per-state files are keyed by size; draw talk.body then overlay talk.mouths[name] at offset[size] (css px = file px / (size 1x:1, 2x:2))."
+}
