@@ -30,7 +30,9 @@ async function blendWord(ctx, w, pool, { test = false } = {}) {
   const s = stageFor(ctx, test ? 'oral-check' : 'oral-blend');
   s.append(h('h2', {}, 'Which word do the sounds make?'), speaker(null, { big: true, label: 'Hear the sounds again', onplay: () => sounds(ph(w)) }));
   const opts = shuffle([w, ...shuffle(pool.filter(x => x !== w)).slice(0, 2)]);
-  const c = choice(s, opts.map((o, i) => ({ key: `w:${o}`, body: pic(o, i) || h('div', { class: 'picture-gap', 'aria-hidden': 'true', html: ICON.speaker }), ok: o === w, id: o })), { cls: 'three', test, model: [...ph(w), `w:${w}`] });
+  // all-or-none pictures: if ANY option has no safe picture (missing or ambiguous), every card is speaker-only, so no card is a hint by being different
+  const pics = opts.map((o, i) => pic(o, i)); const allPics = pics.every(Boolean);
+  const c = choice(s, opts.map((o, i) => ({ key: `w:${o}`, body: allPics ? pics[i] : null, ok: o === w, id: o })), { cls: allPics ? 'three' : 'three speaker-only', test, model: [...ph(w), `w:${w}`] });
   await ctx.instruct(test ? 'ui:l1OralCheck' : 'ui:l1OralBlend', { stim: () => sounds(ph(w)), nudge: 'ui:idlePick' });
   const r = await c.start();
   await ctx.record(`oral:blend:${w}`, 'oral', r);
@@ -52,8 +54,8 @@ async function segment(ctx, w) {
 }
 
 // A dimmed, inert preview of the answer cards under a worked example, so the lower part of the screen is never empty while the teacher talks.
-function ghostCards(s, body) {
-  const row = h('div', { class: 'options l1-opts three pending ghost', 'aria-hidden': 'true' }, ...[0, 1, 2].map(i => h('div', { class: 'opt' }, body(i), h('span', { class: 'opt-pick ghost-pick', html: ICON.check }))));
+function ghostCards(s, body, extra = '') {
+  const row = h('div', { class: `options l1-opts three pending ghost ${extra}`, 'aria-hidden': 'true' }, ...[0, 1, 2].map(i => h('div', { class: 'opt' }, body(i), h('span', { class: 'opt-pick ghost-pick', html: ICON.check }))));
   row.inert = true; s.append(row);
 }
 
@@ -74,7 +76,7 @@ async function worked(ctx, type) {
     await ctx.instruct(['ui:letsDoOne', 'w:sock', 'ph:s', 'ui:yourTurn'], { nudge: 'ui:idleTap' });
   } else {
     s.append(h('h2', {}, 'Which word do the sounds make?'), speaker(null, { big: true, label: 'Hear the sounds', onplay: () => sounds(ph('dog')) }));
-    ghostCards(s, () => h('div', { class: 'picture-gap', html: ICON.speaker }));
+    ghostCards(s, () => null, 'speaker-only');
     mark('oral-demo', { type });
     await ctx.instruct(['ui:letsDoOne'], { stim: async () => { if ((await sounds(ph('dog'))) === false) return false; await wait(300); await play('w:dog'); return teacher.say('ui:yourTurn'); }, nudge: 'ui:idleTap' });
   }

@@ -9,7 +9,7 @@ import { tilo } from '../tilo.js';
 export async function listen(ctx) {
   const li = ctx.lesson.listen; const lid = ctx.lesson.id;
   const s = ctx.stage();
-  const pics = h('div', { class: 'pics' });
+  const pics = h('div', { class: 'pics story' });
   s.append(h('h2', {}, li.title || 'Listen'), h('p', { class: 'muted' }, 'You don\'t need to read this. Just listen.'), pics);
   await ctx.instruct('ui:listenIntro', { nudge: 'ui:idleTap' });
   if (ctx.hasClip(`lt:${lid}:title`)) await play(`lt:${lid}:title`);

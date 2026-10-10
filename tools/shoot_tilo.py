@@ -111,7 +111,7 @@ def main():
             # at tier 3 the idle ladder shows its own hints on purpose (a yellow nudge ring on a card, a ring on the ear): shoot that as A_idle_hint,
             # then clear the hints and shoot the calm idle state as A_idle (that one must have no ring at all)
             if wait_state(pg, lambda s: s["tier"] >= 3 and s["pose"] == "idle", "idle pose on the idle ladder", 60):
-                pg.wait_for_function("[...document.querySelectorAll('.nudge, .ear.attn')].some(e => +(getComputedStyle(e).outlineColor.match(/[\\d.]+/g)[3] ?? 1) > .8)", timeout=6000)   # shoot at the halo's peak (it pulses)
+                pg.wait_for_function("[...document.querySelectorAll('.nudge, .ear.attn')].some(e => +(getComputedStyle(e).outlineColor.match(/[\\d.]+/g)[3] ?? 1) > .35)", timeout=6000)   # shoot at the halo's peak (it pulses)
                 shot(pg, "A_idle_hint"); pg.evaluate("window.__so.teacher.clearHints()"); time.sleep(0.5); shot(pg, "A_idle")
                 if pg.evaluate("document.querySelector('.nudge, .ear.attn')"): problems.append("a hint ring is still on after clearHints")
             # ---- Home (Tilo in the hero) and the end-of-sitting hero

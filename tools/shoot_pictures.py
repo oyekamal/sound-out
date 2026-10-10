@@ -4,7 +4,7 @@
   python3 tools/shoot_pictures.py [--port 5394]
 
   1_first_sound.png   L1.01 "What sound does it start with?" with the real picture and the three answer cards
-  2_blend_pictures.png L1.01 "Which word do the sounds make?" with a real picture on each card (no picture on ambiguous words)
+  2_blend_pictures.png L1.01 "Which word do the sounds make?" with a real picture on each card, or speaker-only cards when ANY option has no safe picture
   3_listen_story.png   L1.01 Listen & Talk: the story scenes, real art after each chunk
   (4_listen_question.png is a bonus: the non-graded "say your answer out loud" step)
 Asserts: no console errors, no HTTP >= 400 (no missing image), every shown picture really loaded (naturalWidth > 0),
@@ -51,7 +51,10 @@ def main():
                 if visible_opts.count() >= 3:
                     if "first" not in got and pg.locator(".pics.one .picture").count() and pg.locator(".l1-opts .picture").count() == 0:
                         pg.wait_for_function(LOADED); time.sleep(0.3); pg.screenshot(path=str(OUT / "1_first_sound.png")); got.add("first")
-                    elif "blend" not in got and pg.locator(".l1-opts .picture").count() >= 2:
+                    elif "blend" not in got and (pg.locator(".l1-opts .picture").count() >= 2 or pg.locator(".l1-opts.speaker-only").count()):
+                        n_pic, n_opt = pg.locator(".l1-opts .picture").count(), pg.locator(".l1-opts .opt").count()
+                        if n_pic not in (0, n_opt): problems.append(f"blend options mix pictured and picture-less cards ({n_pic} of {n_opt})")
+                        if pg.locator(".picture-gap").count(): problems.append("blend screen still shows a .picture-gap")
                         pg.wait_for_function(LOADED); time.sleep(0.3); pg.screenshot(path=str(OUT / "2_blend_pictures.png")); got.add("blend")
                     pg.locator(".l1-opts .opt[data-ok='1'] .opt-pick").first.click(); time.sleep(0.4)
                 nb = pg.locator(".foot .next:not([hidden]):not([disabled])")
