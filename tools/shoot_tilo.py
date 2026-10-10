@@ -72,10 +72,32 @@ def main():
                 if bad: problems.append(f"Tilo overlaps {bad} on {name}")
             # ---- Track A, real speed
             pg = newpage(); onboard(pg, "A")
-            seen = set()
-            for i in range(2):
-                s = wait_state(pg, lambda s: s["pose"] == "speaking" and s["mouth"] not in seen, f"speaking with a new mouth #{i}", 12)
-                if s: seen.add(s["mouth"]); shot(pg, f"A_speaking_{i + 1}_{s['mouth']}")
+            # one CLOSED frame (mmm), one OPEN frame (aaa) and the middle one (mid): the flap must visibly alternate. Each frame is checked
+            # (the mouth state must be the same before and after the screenshot, the flap changes every ~100 ms) and cropped into mouth_zoom.png
+            from PIL import Image; import io
+            frames = {}
+            for want, name in (("mmm", "A_speaking_closed_mmm"), ("aaa", "A_speaking_open_aaa"), ("mid", "A_speaking_mid")):
+                if not wait_state(pg, lambda s: s["pose"] == "speaking", "speaking pose", 12): break
+                pg.evaluate(f"window.__so.tilo.hold('{want}')"); time.sleep(0.15)
+                box = pg.evaluate("(() => { const r = document.querySelector('.tilo-stage').getBoundingClientRect(); return [r.left, r.top, r.width, r.height]; })()")
+                png = pg.screenshot(); (OUT / f"{name}.png").write_bytes(png); frames[want] = (png, box)
+                if pg.evaluate("[...document.querySelectorAll('.tilo-mouth')].filter(m => !m.hidden).map(m => m.dataset.mouth).join()") != want: problems.append(f"frozen mouth is not {want}")
+                pg.evaluate("window.__so.tilo.hold(null)"); time.sleep(0.25)
+            if "mmm" in frames and "aaa" in frames and "mid" in frames:
+                tiles = []
+                for k in ("mmm", "mid", "aaa"):
+                    png, (x, y, w, h) = frames[k]; im = Image.open(io.BytesIO(png)); f = 2   # the shot is at device scale 2
+                    face = im.crop((int((x + w * .12) * f), int((y + h * .02) * f), int((x + w * .88) * f), int((y + h * .50) * f)))
+                    tiles.append(face.resize((face.width * 2, face.height * 2), Image.LANCZOS))   # 2 x 2 = 4x css px
+                strip = Image.new("RGB", (sum(t.width for t in tiles) + 12 * (len(tiles) - 1), tiles[0].height), (246, 241, 231)); xx = 0
+                for t in tiles: strip.paste(t, (xx, 0)); xx += t.width + 12
+                strip.save(OUT / "mouth_zoom.png")
+                a, b_ = Image.open(io.BytesIO(frames["mmm"][0])).convert("RGB"), Image.open(io.BytesIO(frames["aaa"][0])).convert("RGB")
+                from PIL import ImageChops
+                if not ImageChops.difference(a, b_).getbbox(): problems.append("closed and open speaking frames are identical")
+            else: problems.append(f"missing speaking frames, got {sorted(frames)}")
+            bad = pg.evaluate(OVERLAP)
+            if bad: problems.append(f"Tilo overlaps {bad} on speaking")
             wait_state(pg, lambda s: s["pose"] == "listening", "listening after the prompt", 40); time.sleep(0.2); shot(pg, "A_listening")
             pg.evaluate("window.__so.teacher.right({kind:'pick'})")
             if wait_state(pg, lambda s: s["pose"] == "celebrating", "celebrating", 3): time.sleep(0.3); shot(pg, "A_celebrating")
@@ -89,6 +111,7 @@ def main():
             # at tier 3 the idle ladder shows its own hints on purpose (a yellow nudge ring on a card, a ring on the ear): shoot that as A_idle_hint,
             # then clear the hints and shoot the calm idle state as A_idle (that one must have no ring at all)
             if wait_state(pg, lambda s: s["tier"] >= 3 and s["pose"] == "idle", "idle pose on the idle ladder", 60):
+                pg.wait_for_function("[...document.querySelectorAll('.nudge, .ear.attn')].some(e => +(getComputedStyle(e).outlineColor.match(/[\\d.]+/g)[3] ?? 1) > .8)", timeout=6000)   # shoot at the halo's peak (it pulses)
                 shot(pg, "A_idle_hint"); pg.evaluate("window.__so.teacher.clearHints()"); time.sleep(0.5); shot(pg, "A_idle")
                 if pg.evaluate("document.querySelector('.nudge, .ear.attn')"): problems.append("a hint ring is still on after clearHints")
             # ---- Home (Tilo in the hero) and the end-of-sitting hero

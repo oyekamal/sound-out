@@ -4,6 +4,7 @@
 import { play, wait, mark } from '../audio.js';
 import { h, speaker, picture } from '../ui.js';
 import { teacher } from '../teacher.js';
+import { tilo } from '../tilo.js';
 
 export async function listen(ctx) {
   const li = ctx.lesson.listen; const lid = ctx.lesson.id;
@@ -29,8 +30,11 @@ export async function listen(ctx) {
   for (let j = 0; j < 2 && ctx.hasClip(`q:${lid}:${j}`); j++) {
     const s3 = ctx.stage();
     const q = li.questions[j];
+    // the story's scene, smaller, fills the lower half; Tilo LISTENS here (the learner answers out loud), never the speaking pose
+    const scene = picture(`scene:${lid}:${j}`) || picture(`scene:${lid}:0`);
     s3.append(h('h2', {}, `Question ${j + 1}`), h('p', { class: 'question' }, q), speaker(`q:${lid}:${j}`, { label: 'Hear the question' }),
-      h('p', { class: 'muted talk' }, 'Say your answer out loud.'));
+      h('p', { class: 'muted talk' }, 'Say your answer out loud.'), ...(scene ? [h('div', { class: 'pics one scene' }, scene)] : []));
+    tilo.pin('listening');
     mark('listen-talk', { q: j });
     await ctx.instruct([`q:${lid}:${j}`, 'ui:idleSay'], { nudge: 'ui:idleArrow' });   // no right answer exists: talk, then the arrow. No praise.
     await ctx.next();

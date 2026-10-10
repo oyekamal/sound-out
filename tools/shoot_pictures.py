@@ -73,6 +73,9 @@ def main():
                         pg.wait_for_function(LOADED); time.sleep(0.3); pg.screenshot(path=str(OUT / "3_listen_story.png")); seen_scene = True
                     if pg.locator(".talk").count():
                         time.sleep(0.4); pg.screenshot(path=str(OUT / "4_listen_question.png")); seen_q = True
+                        pose = pg.evaluate("window.__so.tilo.state.pose")
+                        if pose != "listening": problems.append(f"listen question: Tilo pose is {pose}, want listening")
+                        if not pg.locator(".talk ~ .pics.scene .picture img").count(): problems.append("listen question: no scene picture")
                         if pg.locator(".answer").count(): problems.append("graded picture answers still on the Listen question")
                         break
                     nb = pg.locator(".foot .next:not([hidden]):not([disabled])")

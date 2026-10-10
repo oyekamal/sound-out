@@ -1,7 +1,7 @@
 // L1.01 "Sounds in Words": oral phonemic awareness, NO letters on screen (real pictures, none for ambiguous words),
 // except the 60-second preview of s and a at the very end. Words come from the course lesson (§2a-c).
 import { play, wait, mark } from '../audio.js';
-import { h, safePicture, speaker } from '../ui.js';
+import { h, safePicture, speaker, ICON } from '../ui.js';
 import { entry, g2p } from '../content.js';
 import { choose, choice, shuffle, sounds } from './l1steps.js';
 import { teacher } from '../teacher.js';
@@ -30,7 +30,7 @@ async function blendWord(ctx, w, pool, { test = false } = {}) {
   const s = stageFor(ctx, test ? 'oral-check' : 'oral-blend');
   s.append(h('h2', {}, 'Which word do the sounds make?'), speaker(null, { big: true, label: 'Hear the sounds again', onplay: () => sounds(ph(w)) }));
   const opts = shuffle([w, ...shuffle(pool.filter(x => x !== w)).slice(0, 2)]);
-  const c = choice(s, opts.map((o, i) => ({ key: `w:${o}`, body: pic(o, i) || h('div', { class: 'picture-gap', 'aria-hidden': 'true' }), ok: o === w, id: o })), { cls: 'three', test, model: [...ph(w), `w:${w}`] });
+  const c = choice(s, opts.map((o, i) => ({ key: `w:${o}`, body: pic(o, i) || h('div', { class: 'picture-gap', 'aria-hidden': 'true', html: ICON.speaker }), ok: o === w, id: o })), { cls: 'three', test, model: [...ph(w), `w:${w}`] });
   await ctx.instruct(test ? 'ui:l1OralCheck' : 'ui:l1OralBlend', { stim: () => sounds(ph(w)), nudge: 'ui:idlePick' });
   const r = await c.start();
   await ctx.record(`oral:blend:${w}`, 'oral', r);

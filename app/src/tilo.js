@@ -58,7 +58,7 @@ function render() {
 }
 
 function startFlap() {
-  if (st.flapT) return;
+  if (st.flapT || st.hold) return;
   if (reduced()) { st.mouth = 'mid'; for (const [n, m] of Object.entries(mouths)) m.hidden = n !== 'mid'; return; }
   let last = '';
   const step = () => {
@@ -104,5 +104,7 @@ export const tilo = {
   mood(m) { if (!el) build(); st.mood = m; render(); },                                  // idle | listening
   emote(name, key, hold = 3000) { if (!el) build(); st.emote = name; st.emoteKey = key || null; clearTimeout(st.emoteT); st.emoteT = setTimeout(() => { st.emote = null; st.emoteKey = null; render(); }, hold); render(); },
   pin(name) { if (!el) build(); st.pinned = name; render(); },                            // held until the next screen, even while the voice talks
+  // test hook (tools/shoot_tilo.py): freeze the flap on one mouth so a screenshot cannot race it; hold(null) resumes
+  hold(n) { st.hold = n; if (n) { stopFlap(); st.mouth = n; for (const [k, m] of Object.entries(mouths)) m.hidden = k !== n; } else render(); },
   get state() { return { pose: el?.dataset.pose || null, track: st.track, speaking: st.speaking, mouth: st.mouth }; },
 };
