@@ -9321,6 +9321,98 @@
    "id": "a87e5f660e3a",
    "dur": 0.36,
    "src": "elevenlabs"
+  },
+  "ui:mouth_L1.02_A": {
+   "id": "f49abf662ed8",
+   "dur": 3.333
+  },
+  "ui:mouth_L1.02_B": {
+   "id": "85e59f591b64",
+   "dur": 2.996
+  },
+  "ui:mouth_L1.02_C": {
+   "id": "ef30f62021c3",
+   "dur": 3.366
+  },
+  "ui:mouth_L1.03_A": {
+   "id": "557966336de5",
+   "dur": 3.012
+  },
+  "ui:mouth_L1.03_B": {
+   "id": "1a897f681cb7",
+   "dur": 2.09
+  },
+  "ui:mouth_L1.03_C": {
+   "id": "d3a9056ebcb5",
+   "dur": 2.503
+  },
+  "ui:mouth_L1.04_A": {
+   "id": "2d010e215ada",
+   "dur": 3.463
+  },
+  "ui:mouth_L1.04_B": {
+   "id": "47ee546d26a7",
+   "dur": 3.33
+  },
+  "ui:mouth_L1.05_A": {
+   "id": "1e24d70cf11f",
+   "dur": 4.005
+  },
+  "ui:mouth_L1.05_B": {
+   "id": "af12e266eaef",
+   "dur": 3.183
+  },
+  "ui:mouth_L1.06_A": {
+   "id": "65e7553fda89",
+   "dur": 3.969
+  },
+  "ui:mouth_L1.07_A": {
+   "id": "ab44d4652c12",
+   "dur": 4.971
+  },
+  "ui:mouth_L1.07_B": {
+   "id": "649cc58d0763",
+   "dur": 3.758
+  },
+  "ui:mouth_L1.08_A": {
+   "id": "631594589751",
+   "dur": 3.451
+  },
+  "ui:mouth_L1.08_B": {
+   "id": "24cfdf4d03b9",
+   "dur": 3.572
+  },
+  "ui:mouth_L1.09_A": {
+   "id": "5914148f33fd",
+   "dur": 4.339
+  },
+  "ui:mouth_L1.09_B": {
+   "id": "70cf2731515d",
+   "dur": 3.143
+  },
+  "ui:mouth_L1.09_C": {
+   "id": "08cd3749385f",
+   "dur": 3.606
+  },
+  "ui:mouth_L1.11_A": {
+   "id": "bd14ab85070c",
+   "dur": 4.185
+  },
+  "ui:mouth_L1.11_B": {
+   "id": "0b523a90c638",
+   "dur": 3.775
+  },
+  "ui:mouth_L1.11_C": {
+   "id": "ee2e8a940bca",
+   "dur": 2.952
+  },
+  "ui:mouthLead": {
+   "id": "30608f918605",
+   "dur": 2.008
+  },
+  "ui:forGrownups": {
+   "id": "4008854f1865",
+   "dur": 0.99
   }
  },
  "missing": [],

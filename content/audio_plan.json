@@ -6089,5 +6089,97 @@
  "ui:markNot": {
   "cut": "text",
   "text": "Not yet."
+ },
+ "ui:mouth_L1.02_A": {
+  "cut": "text",
+  "text": "Put your teeth together. Let the air hiss out."
+ },
+ "ui:mouth_L1.02_B": {
+  "cut": "text",
+  "text": "Open your mouth wide, like a big yawn."
+ },
+ "ui:mouth_L1.02_C": {
+  "cut": "text",
+  "text": "Tap your tongue behind your top teeth. Tap, tap."
+ },
+ "ui:mouth_L1.03_A": {
+  "cut": "text",
+  "text": "Pop your lips. Feel a little puff on your hand."
+ },
+ "ui:mouth_L1.03_B": {
+  "cut": "text",
+  "text": "Keep your mouth in a small smile."
+ },
+ "ui:mouth_L1.03_C": {
+  "cut": "text",
+  "text": "Touch your nose. Feel it buzz."
+ },
+ "ui:mouth_L1.04_A": {
+  "cut": "text",
+  "text": "Close your lips and hum. Feel the buzz."
+ },
+ "ui:mouth_L1.04_B": {
+  "cut": "text",
+  "text": "Touch your neck. Feel it buzz when you say d."
+ },
+ "ui:mouth_L1.05_A": {
+  "cut": "text",
+  "text": "Say g way back in your throat. Feel the buzz."
+ },
+ "ui:mouth_L1.05_B": {
+  "cut": "text",
+  "text": "Make your lips a little round, like a small circle."
+ },
+ "ui:mouth_L1.06_A": {
+  "cut": "text",
+  "text": "Say c way back in your mouth. No buzz this time."
+ },
+ "ui:mouth_L1.07_A": {
+  "cut": "text",
+  "text": "Say pit, then pet. Your mouth opens a bit more for e."
+ },
+ "ui:mouth_L1.07_B": {
+  "cut": "text",
+  "text": "Say cot, then cut. Hear the sound change."
+ },
+ "ui:mouth_L1.08_A": {
+  "cut": "text",
+  "text": "Curl your tongue back. It does not touch anything."
+ },
+ "ui:mouth_L1.08_B": {
+  "cut": "text",
+  "text": "Hold your hand by your mouth. Blow a little puff of air."
+ },
+ "ui:mouth_L1.09_A": {
+  "cut": "text",
+  "text": "Say pat, then bat. Feel the buzz on b."
+ },
+ "ui:mouth_L1.09_B": {
+  "cut": "text",
+  "text": "Put your top teeth on your bottom lip. Blow."
+ },
+ "ui:mouth_L1.09_C": {
+  "cut": "text",
+  "text": "Put your tongue up. Keep the sound going as long as you can."
+ },
+ "ui:mouth_L1.11_A": {
+  "cut": "text",
+  "text": "Say j. Feel a soft, buzzy pop in your mouth."
+ },
+ "ui:mouth_L1.11_B": {
+  "cut": "text",
+  "text": "Put your top teeth on your bottom lip. Feel the buzz."
+ },
+ "ui:mouth_L1.11_C": {
+  "cut": "text",
+  "text": "Make your lips round. Watch them in a mirror."
+ },
+ "ui:mouthLead": {
+  "cut": "text",
+  "text": "Here is how your mouth moves."
+ },
+ "ui:forGrownups": {
+  "cut": "text",
+  "text": "For grown-ups."
  }
 }
