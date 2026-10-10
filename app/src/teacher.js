@@ -9,6 +9,7 @@
 // Timers: ?fast (the test drivers) switches the idle ladder off; ?idlefast shortens it (1.5/3/5/9 s) for a test run.
 import { play, stop, wait, mark, has, playing, bus, isFast, setBlockedHandler } from './audio.js';
 import { tilo } from './tilo.js';
+import { screenChanged, placeEar } from './a11y.js';
 
 const q = new URLSearchParams(location.search);
 const IDLE_ON = !isFast || q.has('idle') || q.has('idlefast');
@@ -75,7 +76,8 @@ export const teacher = {
   newScreen({ keepRecord } = {}) {
     S.prompt = null; S.stim = null; S.extra = null; S.hint = null; S.nudge = null; S.tier = 0; S.paused = false; S.ready = false; S.replayFn = null; S.hinted = false;
     S.base = Date.now(); teacher.clearHints(); tilo.screen();
-    if (ear) ear.hidden = false;
+    if (ear) { ear.hidden = false; placeEar(ear); }
+    screenChanged();
   },
 
   // ---- saying things ---------------------------------------------------------------------------------------------

@@ -42,11 +42,13 @@ export async function home(app, profile) {
     for (const x of ls) {
       const label = x.label || (x.new?.length ? x.new.join(' ') : LABEL[track][x.id] || x.id);
       const say = x.new?.length ? `name:${x.new[0]}` : ({ D: 'ui:lblWords', R: 'ui:lblRead', L: 'ui:lblListen', X: track === 'A' ? 'ui:lblCheck' : 'ui:lblCheckB' })[x.id] || null;
-      const b = h('button', { class: `node ${x.state}${x.new?.length ? '' : ' wide'}`, 'data-key': x.key, 'data-say': x.state === 'locked' ? (say ? `${say},ui:lockedNote` : 'ui:lockedNote') : say, disabled: x.state === 'locked' },
-        x.state === 'locked' ? icon('lock') : x.state === 'done' ? icon('check') : null, h('span', {}, label));
-      b.addEventListener('click', () => app.sitting(x.key));
-      // a locked node is a disabled button (no events): a wrapper carries the clip so a press-and-hold still says its name
-      path.append(x.state === 'locked' ? h('span', { class: 'nodewrap', 'data-say': b.dataset.say }, b) : b);
+      // a locked node stays focusable (aria-disabled, not disabled) and carries its reason as a description; pressing it just says the reason
+      const locked = x.state === 'locked';
+      const why = locked ? h('span', { class: 'sr-only', id: `why-${x.key.replace(/[^\w]/g, '-')}` }, 'Locked. It opens after the check before it.') : null;
+      const b = h('button', { class: `node ${x.state}${x.new?.length ? '' : ' wide'}`, 'data-key': x.key, 'data-say': locked ? (say ? `${say},ui:lockedNote` : 'ui:lockedNote') : say, 'aria-disabled': locked ? 'true' : null, 'aria-describedby': why?.id || null },
+        locked ? icon('lock') : x.state === 'done' ? icon('check') : null, h('span', {}, label));
+      b.addEventListener('click', () => { if (locked) { teacher.say('ui:lockedNote'); return; } app.sitting(x.key); });
+      path.append(b); if (why) path.append(why);
     }
     sec.append(path); s.append(sec);
   }

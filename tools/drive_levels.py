@@ -144,7 +144,7 @@ def run(br, track):
     # rule 6a: mastery not passed -> next level locked
     if mastery_key and nxt_first:
         page.evaluate(SEED, [[], [mastery_key]]); page.evaluate("window.__so.app.home()"); page.wait_for_selector(".home .node"); time.sleep(0.2)
-        if not page.locator(f".node[data-key='{nxt_first}'][disabled]").count(): problems.append(f"[{track}] {nxt_first} open although {mastery_key} was missed")
+        if not page.locator(f".node.locked[data-key='{nxt_first}']").count(): problems.append(f"[{track}] {nxt_first} open although {mastery_key} was missed")
     print(f"[{track}] plan: {len(plan)} sittings {plan[0]} .. {plan[-1]}")
     page.evaluate("window.__so.trace.length = 0; window.__so.missing.length = 0; (window.__so.coming || []).length = 0")
     n = [0]; seen = set(); first_seen = set()
@@ -182,7 +182,7 @@ def run(br, track):
             page.click(".endscreen .btn.ghost"); page.wait_for_selector(".home"); time.sleep(0.3); shot(f"home-after-L{LEVEL}-mastery")
             r = page.evaluate("window.__so.trace.filter(e=>e.type==='mastery-end').slice(-1)[0]")
             if not r or r["result"] != "checked": problems.append(f"[{track}] mastery not passed with all-correct answers: {r}")
-            elif nxt_first and page.locator(f".node[data-key='{nxt_first}'][disabled]").count():
+            elif nxt_first and page.locator(f".node.locked[data-key='{nxt_first}']").count():
                 problems.append(f"[{track}] {nxt_first} still locked after passing {mastery_key}")
             elif not nxt_first: print(f"[{track}] mastery passed; Level {LEVEL + 1} is not in the app yet (unlock checked when it ships)")
             else: print(f"[{track}] mastery passed -> {nxt_first} open")

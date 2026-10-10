@@ -8,6 +8,8 @@ import { options, entry } from './content.js';
 import { play, wait, mark, stop, isFast, has } from './audio.js';
 import { h, icon, btn } from './ui.js';
 import { teacher } from './teacher.js';
+import { announce } from './a11y.js';
+import * as db from './db.js';
 import { decorate } from './screens/tiles.js';
 
 const shuffle = a => { const b = [...a]; for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [b[i], b[j]] = [b[j], b[i]]; } return b; };
@@ -57,12 +59,14 @@ export async function gate(ctx, w, kind, { windowMs = 40000 } = {}) {   // 40 s:
   const o = options[w.toLowerCase()];
   if (!o) throw new Error('no tap-gate options for ' + w);
   if (!ctx.test) await demo(ctx, w);
+  let noLimit = false; try { noLimit = !!(await db.setting('noTimeLimit')); } catch { /* no db: keep the limit */ }
   const all = [o.target, ...o.foils];
   mark('gate-show', { word: w, kind, early: !!o.early, options: all.map(x => ({ w: x.w, cell: x.cell, p: x.p, ipa: x.ipa })) });
   const stage = ctx.stage();
   const box = printedWord(w, kind, ctx.track);
   const say = h('p', { class: 'prompt' }, 'Read it to yourself. Say it.');
-  stage.append(box, say);
+  const setSay = t => { say.textContent = t; announce(t); };   // the one place status text changes; also spoken to screen readers via #live
+  stage.append(h('h2', { class: 'sr-only' }, 'Read the word'), box, say);
   // a made-up word is explained once per sitting ("This is an alien word. Sound it out.") before the usual prompt
   const note = kind === 'pseudo' && !ctx.toldMadeUp ? [ctx.track === 'A' ? 'ui:alienWord' : 'ui:madeUpWord'] : [];
   if (note.length) ctx.toldMadeUp = true;
@@ -78,12 +82,14 @@ export async function gate(ctx, w, kind, { windowMs = 40000 } = {}) {   // 40 s:
     const cards = order.map((opt, i) => {
       const card = h('div', { class: 'opt', 'data-cell': opt.cell, 'data-w': opt.w, 'data-ipa': opt.ipa },
         h('button', { class: 'opt-play', 'aria-label': `Option ${i + 1}: play`, onclick: () => play(`ipa:${opt.ipa}`) }, icon('speaker')),
-        btn('This one', 'check', { class: 'opt-pick', disabled: true, say: 'ui:thisOne', onclick: () => pick(opt) }));
+        // the options are spoken, never printed: the pill's name is its position only ("option N"), it never hints at the answer
+        btn('This one', 'check', { class: 'opt-pick', disabled: true, say: 'ui:thisOne', 'aria-label': `This one, option ${i + 1}`, onclick: () => pick(opt) }));
+      card.setAttribute('role', 'group'); card.setAttribute('aria-label', `Option ${i + 1}`);
       return card;
     });
     grid.append(...cards);
     stage.querySelector('.options')?.remove();
-    say.textContent = `Listen to all ${all.length === 3 ? 'three' : 'four'}. Tap the one that matches the word.`;
+    setSay(`Listen to all ${all.length === 3 ? 'three' : 'four'}. Tap the one that matches the word.`);
     stage.append(grid);
     const hearAll = async () => {   // "Tap the one that matches the word", then each option once, lit in turn
       for (const c of cards) { c.classList.add('hl'); const ok = await play(`ipa:${c.dataset.ipa}`); c.classList.remove('hl'); if (ok === false) return false; await wait(250); }
@@ -93,14 +99,27 @@ export async function gate(ctx, w, kind, { windowMs = 40000 } = {}) {   // 40 s:
     await ctx.instruct('ui:gatePick', { stim: hearAll, nudge: 'ui:idlePick', hint: () => soundOut(box, w) });
     cards.forEach(c => c.querySelector('.opt-pick').disabled = false);
     mark('gate-open', { word: w, n: attempt });
-    const timer = h('div', { class: 'timer' }, h('i', { style: `animation-duration:${isFast ? 1 : windowMs / 1000}s` }));
-    stage.append(timer);
-    const res = await Promise.race([picked, new Promise(r => setTimeout(() => r(null), isFast ? 4000 : windowMs))]);
-    timer.remove(); stop();
+    // The time limit (WCAG 2.2.1): a grown-up can switch it off (Privacy > "No time limit"), and "More time" restarts it.
+    // The bar is stepped by script, never a CSS animation, so reduced-motion users still see it (a still bar that shortens).
+    const limit = noLimit ? 0 : (isFast ? 4000 : windowMs);
+    let deadline = Date.now() + limit, iv = null, timer = null;
+    if (limit) {
+      const fill = h('i', { style: 'width:100%' });
+      const more = btn('More time', null, { class: 'btn ghost small more-time', type: 'button', onclick: () => { deadline = Date.now() + limit; fill.style.width = '100%'; announce('More time added'); } });
+      timer = h('div', { class: 'timerbox' }, h('div', { class: 'timer', role: 'progressbar', 'aria-label': 'Time left', 'aria-valuemin': '0', 'aria-valuemax': '100', 'aria-valuenow': '100' }, fill), more);
+      stage.append(timer);
+      const bar = timer.querySelector('.timer');
+      iv = setInterval(() => { const pct = Math.max(0, Math.round(100 * (deadline - Date.now()) / limit)); fill.style.width = pct + '%'; bar.setAttribute('aria-valuenow', String(pct)); }, 250);
+    }
+    const res = await new Promise(r => {
+      picked.then(r);
+      if (limit) { const w = setInterval(() => { if (Date.now() >= deadline) { clearInterval(w); r(null); } }, 100); picked.then(() => clearInterval(w)); }
+    });
+    clearInterval(iv); timer?.remove(); stop();
     cards.forEach(c => c.querySelector('.opt-pick').disabled = true);
     if (!res) {
       mark('gate-timeout', { word: w, n: attempt });
-      say.textContent = "That's okay. Let's try another one.";
+      setSay("That's okay. Let's try another one.");
       await teacher.say('ui:gateTimeout');
       return { judged: attempt > 1, correct: first ?? false, timeout: true };
     }
@@ -110,21 +129,21 @@ export async function gate(ctx, w, kind, { windowMs = 40000 } = {}) {   // 40 s:
     const card = cards.find(c => c.dataset.w === res.w);
     card.classList.add(ok ? 'right' : 'wrong');
     if (ok) {
-      say.textContent = 'Yes!';
+      setSay('Yes!');
       if (ctx.test) await play('ui:good'); else await teacher.right({ kind: 'read', tries: attempt });
       return { judged: true, correct: first, attempts: attempt };
     }
     teacher.miss();
     if (attempt === 1) {
       mark('repair-start', { word: w });
-      say.textContent = "Let's look again, sound by sound.";
+      setSay("Let's look again, sound by sound.");
       await play('ui:gateRepair');
       grid.classList.add('dim');
       await soundOut(box, w);
       mark('repair-end', { word: w });
     }
   }
-  say.textContent = 'We will practise this one again later.';
+  setSay('We will practise this one again later.');
   await play('ui:gateReview');
   mark('gate-review', { word: w });
   return { judged: true, correct: false, review: true, attempts: 2 };

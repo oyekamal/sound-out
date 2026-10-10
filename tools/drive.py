@@ -162,7 +162,7 @@ def run(br, track, start=None, until=None):
     page.on("console", lambda m: errors.append(m.text) if m.type == "error" else None)
     page.on("pageerror", lambda e: errors.append(str(e)))
     page.goto(URL)
-    assert page.title() == "Sound Out", f"wrong app on the port: {page.title()}"
+    assert page.title().endswith("Sound Out"), f"wrong app on the port: {page.title()}"
     # Tilo pose log (child track only): every pose the mascot took, and whether it was ever visible
     page.evaluate("""() => { window.__poses = new Set(); window.__tiloSeen = false;
       new MutationObserver(() => { const t = document.querySelector('.tilo'); if (!t) return; if (!t.hidden) window.__tiloSeen = true; if (!t.hidden && t.dataset.pose) window.__poses.add(t.dataset.pose); })
@@ -179,7 +179,7 @@ def run(br, track, start=None, until=None):
     plan = page.evaluate("[...document.querySelectorAll('.home .node[data-key]')].map(b => b.dataset.key)")
     miss = [l for l in L1_IDS if not any(k.startswith(l + ":") for k in plan)]
     if miss: problems.append(f"[{track}] Level 1 lessons not on the path: {miss}")
-    if not page.locator(".home .node[data-level='2'][disabled], .home .node.locked[data-key^='L2.']").count():
+    if not page.locator(".home .node.locked[data-key^='L2.']").count():
         problems.append(f"[{track}] Level 2 is not shown locked on the path")
     i0 = next((i for i, k in enumerate(plan) if start and k.startswith(start)), 0)
     if i0:
@@ -211,7 +211,7 @@ def run(br, track, start=None, until=None):
             else:
                 page.click(".endscreen .btn.ghost"); page.wait_for_selector(".home")
                 shot("home")
-                if page.locator(f".node[data-key='{nxt}'][disabled]").count():
+                if page.locator(f".node.locked[data-key='{nxt}']").count():
                     problems.append(f"[{track}] {nxt} locked after {key} (mini check missed)"); return True
                 page.click(f".node[data-key='{nxt}']")
             return False

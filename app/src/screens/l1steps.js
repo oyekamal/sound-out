@@ -15,6 +15,10 @@ export const shuffle = a => { const b = [...a]; for (let i = b.length - 1; i > 0
 // One choice: cards = [{ key?: audio clip, body?: node, ok: bool, id }]. `test` = one attempt, no retry.
 // Teaching mode: a wrong pick says "try again" and the learner picks again; only the first pick is scored.
 // `model`: the clip(s) that model the right answer after a miss ("Not quite ... <model> ... Now you try"); default = the right card's own clip.
+const GENERIC = /^(This one|This many)$/;
+// a pill's accessible name. A real visible label ("Its name", "Its sound") stays in the name; the generic ones get "option N".
+// Pre-reader picture/sound cards have no printed word, so they are only ever "option N" (the name never gives the answer away).
+const pillName = (c, i, cards) => (c.label && !GENERIC.test(c.label) ? `Choose ${c.label}` : `${c.label || 'This one'}, option ${i + 1}`);
 export const choose = (stage, cards, opts) => choice(stage, cards, opts).start();
 // choice() mounts the cards at once, invisible (visibility:hidden keeps their space, so nothing jumps while the prompt
 // is spoken); start() shows them, plays the options and waits for the pick.
@@ -26,7 +30,9 @@ export function choice(stage, cards, { test = false, autoplay = true, cls = 'two
       // the picture IS the tap-to-hear target (small speaker glyph in its corner); no picture = the big speaker button is the card
       c.key && c.body ? h('button', { class: 'opt-play pic-play', 'aria-label': `Option ${i + 1}: play`, onclick: () => play(c.key) }, c.body, h('span', { class: 'pic-glyph', html: ICON.speaker }))
         : c.key ? h('button', { class: 'opt-play', 'aria-label': `Option ${i + 1}: play`, onclick: () => play(c.key) }, icon('speaker')) : (c.body || null),
-      btn(c.label || 'This one', c.icon ?? (c.say ? null : 'check'), { class: 'opt-pick', disabled: true, say: c.say || 'ui:thisOne' }));
+      // unique name per pill: a visible label stays in the name ("Choose Its name"), a generic one gets its position; the picture/speaker (the answer) is never named
+      btn(c.label || 'This one', c.icon ?? (c.say ? null : 'check'), { class: 'opt-pick', disabled: true, say: c.say || 'ui:thisOne', 'aria-label': pillName(c, i, cards) }));
+    el.setAttribute('role', 'group'); el.setAttribute('aria-label', `Option ${i + 1}`);
     el.querySelector('.opt-pick').addEventListener('click', async () => {
       if (first === null) first = !!c.ok;
       stop();

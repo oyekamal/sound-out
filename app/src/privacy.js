@@ -1,5 +1,6 @@
 // "For grown-ups": the privacy policy as plain text, reached from Home behind the grown-up gate. No links: the address is text.
 import { h, btn } from './ui.js';
+import * as db from './db.js';
 
 const ROWS = [
   ['A learner profile: an automatic label such as "Child 1" or "Grown-up 1", and the track chosen (child or grown-up)', 'So progress stays separate when more than one person uses a phone'],
@@ -7,10 +8,21 @@ const ROWS = [
   ['Two small flags: whether the first-time demo was shown, and the active profile', 'So the demo is not repeated'],
 ];
 
+// grown-up setting: no countdown on the Level 1 reading check (stored with the other settings as `noTimeLimit`)
+function timeLimitToggle() {
+  const cb = h('input', { type: 'checkbox', id: 'no-time-limit', class: 'chk' });
+  db.setting('noTimeLimit').then(v => { cb.checked = !!v; }).catch(() => {});
+  cb.addEventListener('change', () => { db.setting('noTimeLimit', cb.checked).catch(() => {}); });
+  return h('label', { class: 'chkrow', for: 'no-time-limit' }, cb, h('span', {}, 'No time limit on the reading check'));
+}
+
 export function privacyScreen(app) {
   const s = h('div', { class: 'privacy track-B' },
     h('header', { class: 'hdr' }, btn('Home', 'home', { class: 'btn ghost small', onclick: () => app.home() })),
     h('h1', {}, 'Privacy'),
+    h('h2', { class: 'left' }, 'Settings for grown-ups'),
+    timeLimitToggle(),
+    h('p', { class: 'muted small left' }, 'The reading check waits 40 seconds for each answer. Tick this to take away the countdown. Without it, the learner can also tap More time.'),
     h('h2', { class: 'left' }, 'The short version'),
     h('p', {}, 'Sound Out works completely offline. It has no account, no login, no ads, no analytics and no tracking. Everything a learner does stays on this phone. The developer never sees it.'),
     h('h2', { class: 'left' }, 'What the app stores on this phone'),

@@ -19,7 +19,7 @@ h1 { font-size: 1.7rem; margin: .4em 0 .2em; } h2 { font-size: 1.3rem; margin: .
 .btn { border: 0; border-radius: 999px; padding: 14px 26px; font-weight: 650; background: var(--card); box-shadow: var(--shadow); min-height: 52px; }
 .btn.primary { background: var(--accent); color: var(--accent-ink); }
 .btn.ghost { background: transparent; box-shadow: inset 0 0 0 2px var(--line); }
-.btn.small { padding: 8px 14px; min-height: 40px; font-size: .9rem; }
+.btn.small { padding: 8px 14px; min-height: 48px; font-size: .9rem; }
 .speaker { width: 60px; height: 60px; border-radius: 50%; border: 0; background: var(--card); color: var(--accent); box-shadow: var(--shadow); display: inline-grid; place-items: center; }
 .speaker.big { width: 96px; height: 96px; margin: 8px auto; display: grid; } .speaker.big svg { width: 44px; height: 44px; }
 .speaker.playing { animation: pulse .8s ease-in-out infinite; }
@@ -67,7 +67,7 @@ h1 { font-size: 1.7rem; margin: .4em 0 .2em; } h2 { font-size: 1.3rem; margin: .
 /* sitting */
 .sitting { display: flex; flex-direction: column; min-height: 100dvh; }
 header.hdr { position: relative; display: flex; align-items: center; gap: 12px; padding: 12px 0; }
-.close { width: 44px; height: 44px; border-radius: 50%; border: 0; background: transparent; font-size: 1.8rem; color: var(--muted); }
+.close { width: 48px; height: 48px; border-radius: 50%; border: 0; background: transparent; font-size: 1.8rem; color: var(--muted); }
 .progress { flex: 1; height: 17px; background: var(--line); border-radius: 99px; overflow: hidden; box-shadow: inset 0 2px 3px rgba(0,0,0,.08); } .progress i { display: block; height: 100%; width: 0; background: var(--accent); border-radius: 99px; transition: width .4s; box-shadow: inset 0 -3px 0 rgba(0,0,0,.12), inset 0 3px 0 rgba(255,255,255,.28); }
 .speaker.hdr { width: 44px; height: 44px; } .speaker.hdr svg { width: 22px; height: 22px; }
 .stage { flex: 1; display: flex; flex-direction: column; } .screen { display: flex; flex-direction: column; align-items: center; flex: 1; width: 100%; }
@@ -83,7 +83,7 @@ canvas.trace { width: min(300px, 80vw); aspect-ratio: 1; background: var(--card)
 .printed { font: 600 4.2rem/1.1 var(--read); display: flex; gap: 2px; align-items: baseline; justify-content: center; margin: 22px 0 6px; position: relative; letter-spacing: .02em; }
 .printed .g { border-radius: 10px; padding: 0 3px; transition: background .15s; }
 .printed .g.hl { background: var(--hl); }
-.printed .tag { position: absolute; top: -16px; left: 50%; transform: translateX(-50%); font: 600 .72rem var(--ui); color: #7a5ea8; background: #efe8fa; padding: 2px 8px; border-radius: 99px; white-space: nowrap; }
+.printed .tag { position: absolute; top: -16px; left: 50%; transform: translateX(-50%); font: 600 .72rem var(--ui); color: #6a4d9a; background: #efe8fa; padding: 2px 8px; border-radius: 99px; white-space: nowrap; }
 .printed.tiles .g { min-width: 64px; text-align: center; background: var(--card); box-shadow: var(--shadow); margin: 0 4px; padding: 6px 8px 10px; border-radius: 14px; }
 .printed.tiles .g.tap { cursor: pointer; } .printed.tiles .g.next { outline: 4px solid var(--accent); animation: pulse 1.4s infinite; } .printed.tiles .g.done { background: #e3f0e5; }
 .printed.tiles .g.hl { background: var(--hl); }
@@ -95,9 +95,10 @@ canvas.trace { width: min(300px, 80vw); aspect-ratio: 1; background: var(--card)
 .opt.hl { border-color: var(--hl); background: #fff8df; } .opt.right { border-color: var(--good); background: #e9f5eb; } .opt.wrong { border-color: var(--bad); background: #fbe9e5; }
 .opt-play { width: 70px; height: 70px; border-radius: 50%; border: 0; background: var(--paper); color: var(--accent); display: grid; place-items: center; position: relative; }
 .opt-play svg { width: 34px; height: 34px; }
-.opt-pick { border: 0; border-radius: 99px; background: var(--accent); color: #fff; padding: 9px 14px; font-weight: 650; width: 100%; min-height: 44px; }
-.timer { width: 100%; height: 6px; background: var(--line); border-radius: 9px; overflow: hidden; } .timer i { display: block; height: 100%; background: var(--accent); animation: shrink linear forwards; width: 100%; }
-@keyframes shrink { to { width: 0; } }
+.opt-pick { border: 0; border-radius: 99px; background: var(--accent); color: #fff; padding: 9px 14px; font-weight: 650; width: 100%; min-height: 48px; }
+.timerbox { width: 100%; display: flex; align-items: center; gap: 12px; margin-top: 8px; }
+.timer { flex: 1; height: 8px; background: var(--line); border-radius: 9px; overflow: hidden; } .timer i { display: block; height: 100%; background: var(--accent); width: 100%; transition: width .25s linear; }   /* stepped by gate.js, not a CSS animation: it stays visible under reduced motion */
+.more-time { flex: none; }
 
 .tray { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; margin: 16px 0; }
 .tilebtn { font: 600 2.4rem/1 var(--read); width: 70px; height: 78px; border: 0; border-radius: 14px; background: var(--card); box-shadow: var(--shadow); padding-bottom: 10px; }
@@ -195,16 +196,21 @@ header.hdr, .homehdr { padding-right: 70px; }   /* keeps the row clear of the fi
 .gu-wrap { position: fixed; inset: 0; z-index: 90; background: rgba(36, 33, 29, .45); display: flex; align-items: flex-end; justify-content: center; }
 .gu-sheet { width: min(480px, 100%); background: var(--card); border-radius: 22px 22px 0 0; padding: 18px 20px calc(22px + env(safe-area-inset-bottom, 0px)); text-align: center; box-shadow: var(--shadow); }
 .gu-q { font-size: 1.7rem; font-weight: 700; margin: 8px 0; } .gu-in { font: inherit; font-size: 1.5rem; width: 9rem; text-align: center; padding: 8px; border: 2px solid var(--line); border-radius: 14px; }
-.gu-msg { min-height: 1.4em; color: var(--bad); margin: 6px 0; }
+.gu-msg { min-height: 1.4em; color: #a8432d; margin: 6px 0; }
 .privacy { padding-bottom: 32px; } .privacy .left { text-align: left; } .privacy .url { font-weight: 700; word-break: break-all; user-select: all; }
 .nodewrap { display: inline-block; -webkit-touch-callout: none; } .nodewrap > .node:disabled { pointer-events: none; } .list .nodewrap { display: block; }
 
 /* pictures: real art, fixed size so the card never resizes between screens */
 .picture img { width: 100%; aspect-ratio: 1; height: auto; display: block; border-radius: 14px; background: #f1e7d6; }
 .pics.one { width: min(168px, 100%); max-width: none; } .pics.one .picture { width: 100%; }
-.options.pending { opacity: .45; pointer-events: none; }   /* cards stay visible but dimmed and inert (same space, no reflow) while the voice speaks */
+.options.pending { pointer-events: none; } .options.pending .opt > :not(.opt-pick) { opacity: .45; }   /* the cards dim but the check pills keep their (3:1) waiting look */   /* cards stay visible but dimmed and inert (same space, no reflow) while the voice speaks */
 /* focus rings only for keyboard use, never after a tap or on load */
 button:focus:not(:focus-visible), a:focus:not(:focus-visible) { outline: none; }
+:focus-visible { outline: 3px solid #1b4f6b; outline-offset: 3px; box-shadow: 0 0 0 6px #fff; }
+.ear:focus-visible, .btn.primary:focus-visible, .opt-pick:focus-visible, .path .node.open:focus-visible { outline-color: #1b4f6b; box-shadow: 0 0 0 6px #fff, 0 0 0 9px #1b4f6b; }
+[tabindex="-1"]:focus, h1:focus, h2:focus { outline: none; box-shadow: none; }   /* a heading that took focus after a screen change needs no ring */
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; margin: -1px; padding: 0; border: 0; }
+.node[aria-disabled="true"] { opacity: .6; cursor: default; }
 .l1-opts .opt .picture { width: 100%; max-width: 120px; }
 @media (max-height: 700px) { .speaker.big { width: 76px; height: 76px; margin: 4px auto; } .speaker.big svg { width: 36px; height: 36px; } h2 { font-size: 1.2rem; margin: .4em 0 .35em; } .l1-opts .opt .picture { max-width: 96px; } }
 .picture { animation: none; }
@@ -251,7 +257,8 @@ button:focus:not(:focus-visible), a:focus:not(:focus-visible) { outline: none; }
 .screen:has(> .options) > .speaker.big { margin-block: auto; }   /* the speaker sits in the middle of the free space, the cards stay low */
 
 /* ---- answer-card check buttons: ONE waiting look (accent, dimmed, while pending / voice speaking / after the pick) and ONE enabled look (solid accent, bold) ---- */
-.opt-pick:disabled, .ghost-pick { background: var(--accent); color: #fff; opacity: .35; box-shadow: none; }
+.opt-pick:disabled, .ghost-pick { background: #6a93aa; color: #0a1f2c; opacity: 1; box-shadow: none; }   /* waiting: flat mid-blue with a dark tick (5.1:1, 3.2:1 against the card), clearly not the solid enabled pill */
+.track-B .opt-pick:disabled, .track-B .ghost-pick { background: #74889c; color: #0b1520; }
 .opt-pick:not(:disabled) { background: var(--accent); color: #fff; opacity: 1; box-shadow: 0 3px 0 rgba(0, 0, 0, .28); }
 .opt-pick svg { stroke-width: 3.5; }
 /* the picture is the tap-to-hear target: a small speaker glyph sits in its corner (no number badge, no separate speaker circle) */
@@ -277,3 +284,5 @@ button:focus:not(:focus-visible), a:focus:not(:focus-visible) { outline: none; }
 .talk-mic { flex: none; width: 84px; height: 84px; border-radius: 50%; display: grid; place-items: center; background: var(--accent); color: #fff; box-shadow: 0 0 0 8px rgba(47, 111, 143, .15); }
 .talk-mic svg { width: 46px; height: 46px; }
 .talk-say { font-size: 1.05rem; font-weight: 650; max-width: 9em; text-align: left; line-height: 1.25; }
+
+.chkrow { display: flex; align-items: center; gap: 12px; min-height: 48px; font-weight: 600; text-align: left; } .chk { width: 28px; height: 28px; flex: none; accent-color: var(--accent); }
