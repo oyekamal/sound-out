@@ -586,7 +586,7 @@
   "bug": {
    "type": "word",
    "kind": "noun",
-   "draw": "one cute red ladybird bug with black spots",
+   "draw": "a cute green-brown beetle seen from above with a plain shiny shell, six legs and two antennae, no spots, not a ladybird",
    "levels": [
     1,
     2
@@ -600,12 +600,13 @@
    "must_show_action": false,
    "ambiguous": false,
    "alias_of": null,
-   "note": ""
+   "note": "",
+   "draw_v1": "one cute red ladybird bug with black spots"
   },
   "bun": {
    "type": "word",
    "kind": "noun",
-   "draw": "a plain round golden bread roll with a smooth top, no scoring",
+   "draw": "one round bread bun with sesame seeds on top, plain, alone",
    "levels": [
     1
    ],
@@ -998,7 +999,7 @@
   "claw": {
    "type": "word",
    "kind": "noun",
-   "draw": "one big orange crab claw with an open pincer on a jointed arm",
+   "draw": "a yellow eagle foot with three long sharp curved black claws gripping a branch, no body",
    "levels": [
     4
    ],
@@ -1164,7 +1165,7 @@
   "cot": {
    "type": "word",
    "kind": "noun",
-   "draw": "a baby cot seen from the side with a solid mattress, a sleeping baby inside, wooden rails",
+   "draw": "an empty folding camp cot: green canvas stretched on a wooden frame with four crossed legs, side view, no baby, no pillow",
    "levels": [
     1
    ],
@@ -1274,7 +1275,7 @@
   "den": {
    "type": "word",
    "kind": "noun",
-   "draw": "an animal burrow: a round dark hole in a grassy bank with a small fox peeking out of it",
+   "draw": "an empty animal burrow: a big round dark hole in a grassy mound, nothing inside, no animal",
    "levels": [
     1
    ],
@@ -1316,7 +1317,7 @@
   "dish": {
    "type": "word",
    "kind": "noun",
-   "draw": "a deep serving dish of rice and curry with a spoon",
+   "draw": "an empty white oval serving dish with two handles, with a fork and a spoon beside it, no food",
    "levels": [
     2
    ],
@@ -1638,7 +1639,7 @@
   "flute": {
    "type": "word",
    "kind": "noun",
-   "draw": "a silver flute with a row of round keys, soft and cute",
+   "draw": "a wooden recorder flute with a mouthpiece and a row of dark finger holes, shown diagonally, clearly a musical instrument",
    "levels": [
     3
    ],
@@ -1813,7 +1814,7 @@
   "giant": {
    "type": "word",
    "kind": "noun",
-   "draw": "a huge giant walking beside tiny trees and a small house at his ankle",
+   "draw": "a gigantic friendly man whose head is three times higher than a tiny cottage, standing behind the cottage",
    "levels": [
     3
    ],
@@ -2025,7 +2026,7 @@
   "hawk": {
    "type": "word",
    "kind": "noun",
-   "draw": "a hawk perched on a branch with a sharp hooked beak and fierce-friendly eyes",
+   "draw": "a brown hawk perched on a branch, hooked yellow beak, sharp yellow eyes, streaked cream chest, strong talons, clearly a bird of prey and not an owl",
    "levels": [
     4
    ],
@@ -2482,7 +2483,7 @@
   "knee": {
    "type": "word",
    "kind": "noun",
-   "draw": "a child sitting with legs folded, one bent knee big in the foreground with a round bandage on it",
+   "draw": "a close-up of a child's bent knee only, with a scraped red patch and a plaster, the knee fills the frame, no face",
    "levels": [
     4
    ],
@@ -2536,7 +2537,7 @@
   "lawn": {
    "type": "word",
    "kind": "noun",
-   "draw": "a green lawn with a lawn mower",
+   "draw": "a neatly mown green striped lawn with a red push lawnmower on it",
    "levels": [
     4
    ],
@@ -2548,7 +2549,8 @@
    "must_show_action": false,
    "ambiguous": false,
    "alias_of": null,
-   "note": ""
+   "note": "",
+   "draw_v1": "a green lawn with a lawn mower"
   },
   "leaf": {
    "type": "word",
@@ -2797,7 +2799,7 @@
   "moth": {
    "type": "word",
    "kind": "noun",
-   "draw": "a fuzzy brown moth with feathery antennae resting with wings flat",
+   "draw": "a fuzzy beige-grey moth with wide feathery comb-like antennae, a furry chubby body and dull brown patterned wings folded flat",
    "levels": [
     2
    ],
@@ -2913,7 +2915,7 @@
   "napkin": {
    "type": "word",
    "kind": "noun",
-   "draw": "a folded teal cloth napkin alone",
+   "draw": "a white paper napkin folded in a triangle standing upright like a little tent beside a fork, no table, no plate",
    "levels": [
     2,
     4
@@ -3029,7 +3031,7 @@
   "nut": {
    "type": "word",
    "kind": "noun",
-   "draw": "two peanuts in their shells",
+   "draw": "one walnut shell split half open showing the wrinkly brain-shaped kernel inside",
    "levels": [
     1
    ],
@@ -3519,7 +3521,7 @@
   "room": {
    "type": "word",
    "kind": "noun",
-   "draw": "a whole room: walls, floor, a window, a door, a small rug and a lamp",
+   "draw": "a cosy room shown front-on with four walls and a floor, a sofa, a floor lamp and a window",
    "levels": [
     2,
     3,
@@ -3826,7 +3828,7 @@
   "snow": {
    "type": "word",
    "kind": "noun",
-   "draw": "a small pile of snow with big falling snowflakes drawn in light blue and grey shading",
+   "draw": "a round snowman with a carrot nose on a small mound of white snow with falling snowflakes",
    "levels": [
     3
    ],
@@ -3971,7 +3973,7 @@
   "straw": {
    "type": "word",
    "kind": "noun",
-   "draw": "a single red-and-white striped drinking straw with a bend, alone",
+   "draw": "a red-and-white striped bendy drinking straw standing in a glass of orange juice",
    "levels": [
     4
    ],
@@ -4054,7 +4056,7 @@
   "tail": {
    "type": "word",
    "kind": "noun",
-   "draw": "a fox's bushy orange tail",
+   "draw": "a whole orange fox sitting side-on with its big bushy white-tipped tail curled behind it",
    "levels": [
     1,
     2,
@@ -4073,7 +4075,8 @@
    "must_show_action": false,
    "ambiguous": false,
    "alias_of": null,
-   "note": ""
+   "note": "",
+   "draw_v1": "a fox's bushy orange tail"
   },
   "tank": {
    "type": "word",
@@ -4117,7 +4120,7 @@
   "thumb": {
    "type": "word",
    "kind": "noun",
-   "draw": "a child's hand with the thumb up",
+   "draw": "an open child's hand seen from the back with the thumb sticking out to the side and a bright yellow circle drawn around only the thumb",
    "levels": [
     4
    ],
@@ -4128,7 +4131,8 @@
    "must_show_action": false,
    "ambiguous": false,
    "alias_of": null,
-   "note": ""
+   "note": "",
+   "draw_v1": "a child's hand with the thumb up"
   },
   "tiger": {
    "type": "word",
@@ -4321,7 +4325,7 @@
   "tube": {
    "type": "word",
    "kind": "noun",
-   "draw": "a toothpaste tube with its cap off, squeezed, with a little paste at the end",
+   "draw": "a yellow squeezable cream tube with a red screw cap, flat crimped end, standing on its cap, no paste coming out",
    "levels": [
     3
    ],
@@ -4432,7 +4436,7 @@
   "wig": {
    "type": "word",
    "kind": "noun",
-   "draw": "a rainbow-coloured curly wig on a wig stand",
+   "draw": "a curly orange wig sitting on a plain faceless mannequin head",
    "levels": [
     1
    ],
@@ -4628,7 +4632,7 @@
   "hop": {
    "type": "word",
    "kind": "verb",
-   "draw": "a child mid-hop on one foot with the other foot lifted, arms out, small bounce marks",
+   "draw": "a bunny hopping through the air in a small arc with feet off the ground and a dotted arc trail",
    "levels": [
     1,
     2,
@@ -4945,7 +4949,7 @@
   "fly": {
    "type": "word",
    "kind": "verb",
-   "draw": "a bird flying with spread wings in the sky",
+   "draw": "a cute bumblebee flying with blurred round wings and a dotted curved flight path behind it",
    "levels": [
     3,
     4
@@ -4960,7 +4964,8 @@
    "must_show_action": true,
    "ambiguous": false,
    "alias_of": null,
-   "note": ""
+   "note": "",
+   "draw_v1": "a bird flying with spread wings in the sky"
   },
   "hug": {
    "type": "word",
@@ -5284,7 +5289,7 @@
   "ride": {
    "type": "word",
    "kind": "verb",
-   "draw": "a child riding a bike",
+   "draw": "a child sitting on a brown horse holding the reins, side view, riding along",
    "levels": [
     1,
     3
@@ -5303,7 +5308,8 @@
    "must_show_action": true,
    "ambiguous": false,
    "alias_of": null,
-   "note": ""
+   "note": "",
+   "draw_v1": "a child riding a bike"
   },
   "skate": {
    "type": "word",
@@ -5442,7 +5448,7 @@
   "sip": {
    "type": "word",
    "kind": "verb",
-   "draw": "a child's lips sipping through a straw from a small cup",
+   "draw": "a child tipping a small cup to the lips taking a tiny sip, eyes closed, no straw",
    "levels": [
     1
    ],
@@ -5460,7 +5466,7 @@
   "snore": {
    "type": "word",
    "kind": "verb",
-   "draw": "a sleeping child with mouth open and a small bubble from the nose",
+   "draw": "a child asleep on their back in bed with mouth wide open, a snot bubble at the nose and wavy sound lines from the mouth",
    "levels": [
     3,
     4
@@ -5479,7 +5485,7 @@
   "point": {
    "type": "word",
    "kind": "verb",
-   "draw": "a child pointing a finger at a star",
+   "draw": "a child's arm with the hand's index finger stretched out pointing at a red apple on the right",
    "levels": [
     2,
     3,
@@ -5495,7 +5501,8 @@
    "must_show_action": true,
    "ambiguous": false,
    "alias_of": null,
-   "note": ""
+   "note": "",
+   "draw_v1": "a child pointing a finger at a star"
   },
   "shake": {
    "type": "word",
@@ -5550,7 +5557,7 @@
   "brush": {
    "type": "word",
    "kind": "verb",
-   "draw": "a child brushing teeth with a toothbrush",
+   "draw": "one large flat paint brush alone, wooden handle and bristles loaded with orange paint, no child, no toothbrush",
    "levels": [
     2
    ],
@@ -5561,7 +5568,8 @@
    "must_show_action": true,
    "ambiguous": false,
    "alias_of": null,
-   "note": ""
+   "note": "",
+   "draw_v1": "a child brushing teeth with a toothbrush"
   },
   "hold": {
    "type": "word",
@@ -5593,7 +5601,7 @@
   "wait": {
    "type": "word",
    "kind": "verb",
-   "draw": "a child standing with hands clasped looking at a closed door",
+   "draw": "a child sitting on a bench looking up at a big round wall clock with only tick marks and no numbers, chin on hand, foot tapping",
    "levels": [
     1,
     2,
@@ -5760,7 +5768,7 @@
   "tie": {
    "type": "word",
    "kind": "verb",
-   "draw": "two hands pulling a shoelace into a bow, close-up",
+   "draw": "a blue necktie knotted at the collar of a white shirt, front view, shirt torso only, no head",
    "levels": [
     3
    ],
@@ -5821,7 +5829,7 @@
   "small": {
    "type": "word",
    "kind": "adjective",
-   "draw": "a tiny mouse next to one crumb, nothing else",
+   "draw": "one tiny green pea beside a huge orange pumpkin, big contrast in size",
    "levels": [
     1,
     2,
@@ -5868,7 +5876,7 @@
   "tall": {
    "type": "word",
    "kind": "adjective",
-   "draw": "a child standing on tiptoes reaching up high",
+   "draw": "a tall giraffe standing next to a small child, both fully in frame",
    "levels": [
     1,
     4
@@ -5960,7 +5968,7 @@
   "dry": {
    "type": "word",
    "kind": "adjective",
-   "draw": "dry cracked mud ground with deep cracks",
+   "draw": "a fluffy yellow dry towel hanging on a rail under a smiling bright sun",
    "levels": [
     4
    ],
@@ -6058,7 +6066,7 @@
   "full": {
    "type": "word",
    "kind": "adjective",
-   "draw": "a cup filled to the brim with water touching the rim",
+   "draw": "a tall clear glass filled to the brim with orange juice, one drop spilling over the rim",
    "levels": [
     1,
     2,
@@ -6086,7 +6094,7 @@
   "empty": {
    "type": "word",
    "kind": "adjective",
-   "draw": "a cup seen from above showing an empty inside",
+   "draw": "an empty clear drinking glass in side view, nothing inside",
    "levels": [
     2
    ],
@@ -6105,7 +6113,7 @@
   "fast": {
    "type": "word",
    "kind": "adjective",
-   "draw": "a cheetah running fast with speed lines",
+   "draw": "a red sports car speeding sideways with long horizontal speed lines streaming behind it",
    "levels": [
     1,
     2,
@@ -6133,7 +6141,8 @@
    "must_show_action": true,
    "ambiguous": false,
    "alias_of": null,
-   "note": ""
+   "note": "",
+   "draw_v1": "a cheetah running fast with speed lines"
   },
   "slow": {
    "type": "word",
@@ -6295,7 +6304,7 @@
   "long": {
    "type": "word",
    "kind": "adjective",
-   "draw": "a very long ribbon stretched across the whole frame",
+   "draw": "a very long brown rope lying in a gentle S curve from the left margin to the right margin",
    "levels": [
     1,
     2,
@@ -7844,7 +7853,7 @@
   "wind": {
    "type": "word",
    "kind": "noun",
-   "draw": "a windsock blowing stiff sideways with swirly wind lines",
+   "draw": "three autumn leaves and a red kite blowing sideways with curved wind lines streaming past",
    "levels": [
     3,
     4

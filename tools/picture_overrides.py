@@ -186,3 +186,52 @@ O["white"] = "one big flat splash of white paint on a pale grey-blue round tile,
 O["saddle"] = "a horse seen from the side wearing a brown leather saddle with stirrups and a blanket, the saddle large and clear"
 O["count"] = "a child holding up one hand with three fingers clearly raised and separate, fingers big"
 O["crumb"] = "a thick slice of bread with three small crumbs falling beside it, crumbs large"
+
+# round 5 (blind critic fails, plan/picture-qa.md)
+O.update(
+brush="one large flat paint brush alone, wooden handle and bristles loaded with orange paint, no child, no toothbrush",
+bug="a cute green-brown beetle seen from above with a plain shiny shell, six legs and two antennae, no spots, not a ladybird",
+bun="one round bread bun with sesame seeds on top, plain, alone",
+claw="one cat paw seen from the front with five sharp curved white claws sticking out of the toe pads, no face",
+cot="an empty folding camp cot: green canvas stretched on a wooden frame with four crossed legs, side view, no baby, no pillow",
+den="an empty animal burrow: a big round dark hole in a grassy mound, nothing inside, no animal",
+dish="an empty white oval serving dish with two handles, with a fork and a spoon beside it, no food",
+dry="a fluffy yellow dry towel hanging on a rail under a smiling bright sun",
+empty="an empty clear drinking glass in side view, nothing inside",
+fast="a red sports car speeding sideways with long horizontal speed lines streaming behind it",
+flute="a wooden recorder flute with a mouthpiece and a row of dark finger holes, shown diagonally, clearly a musical instrument",
+fly="a cute bumblebee flying with blurred round wings and a dotted curved flight path behind it",
+full="a tall clear glass filled to the brim with orange juice, one drop spilling over the rim",
+giant="a gigantic friendly man whose head is three times higher than a tiny cottage, standing behind the cottage",
+hawk="a brown hawk perched on a branch, hooked yellow beak, sharp yellow eyes, streaked cream chest, strong talons, clearly a bird of prey and not an owl",
+hop="a bunny hopping through the air in a small arc with feet off the ground and a dotted arc trail",
+knee="a close-up of a child's bent knee only, with a scraped red patch and a plaster, the knee fills the frame, no face",
+lawn="a neatly mown green striped lawn with a red push lawnmower on it",
+long="a very long brown rope lying in a gentle S curve from the left margin to the right margin",
+moth="a fuzzy beige-grey moth with wide feathery comb-like antennae, a furry chubby body and dull brown patterned wings folded flat",
+napkin="a white paper napkin folded in a triangle lying on a table beside a plate and a fork",
+nut="one walnut shell split half open showing the wrinkly brain-shaped kernel inside",
+point="a child's arm with the hand's index finger stretched out pointing at a red apple on the right",
+ride="a child sitting on a brown horse holding the reins, side view, riding along",
+room="a cosy room shown front-on with four walls and a floor, a sofa, a floor lamp and a window",
+sip="a child tipping a small cup to the lips taking a tiny sip, eyes closed, no straw",
+small="one tiny green pea beside a huge orange pumpkin, big contrast in size",
+snore="a child asleep on their back in bed with mouth wide open, a snot bubble at the nose and wavy sound lines from the mouth",
+snow="a round snowman with a carrot nose on a small mound of white snow with falling snowflakes",
+straw="a red-and-white striped bendy drinking straw standing in a glass of orange juice",
+tail="a whole orange fox sitting side-on with its big bushy white-tipped tail curled behind it",
+tall="a tall giraffe standing next to a small child, both fully in frame",
+thumb="a close-up of a fist with the big thumb stretched out sideways, the thumb large and the other four fingers curled, no face",
+tie="a blue necktie knotted at the collar of a white shirt, front view, shirt torso only, no head",
+tube="a yellow squeezable cream tube with a red screw cap, flat crimped end, standing on its cap, no paste coming out",
+wait="a child sitting on a bench looking up at a big round wall clock with only tick marks and no numbers, chin on hand, foot tapping",
+wig="a curly orange wig sitting on a plain faceless mannequin head",
+wind="three autumn leaves and a red kite blowing sideways with curved wind lines streaming past",
+)
+
+# round 5 second attempts (concrete nouns that still read wrong)
+O.update(
+claw="a yellow eagle foot with three long sharp curved black claws gripping a branch, no body",
+napkin="a white paper napkin folded in a triangle standing upright like a little tent beside a fork, no table, no plate",
+thumb="an open child's hand seen from the back with the thumb sticking out to the side and a bright yellow circle drawn around only the thumb",
+)

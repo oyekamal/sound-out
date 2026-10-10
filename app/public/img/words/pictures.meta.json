@@ -891,7 +891,7 @@
   "levels": [
    3
   ],
-  "ambiguous": false,
+  "ambiguous": true,
   "must_show_action": false
  },
  "gift": {
@@ -3040,7 +3040,7 @@
    3,
    4
   ],
-  "ambiguous": false,
+  "ambiguous": true,
   "must_show_action": true
  },
  "thin": {
