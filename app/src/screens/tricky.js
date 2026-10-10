@@ -25,9 +25,8 @@ export async function tricky(ctx, w) {
   }
   msg.textContent = 'Tap the part that is different.';
   const pointHeart = () => teacher.point(...[...heart].map(i => spans[i]));
-  await ctx.instruct('ui:trickyTap', { nudge: 'ui:idleTap', hint: pointHeart });
   const found = new Set();
-  await new Promise(resolve => spans.forEach((sp, i) => sp.addEventListener('click', async () => {
+  const finished = new Promise(resolve => spans.forEach((sp, i) => sp.addEventListener('click', async () => {
     if (heart.has(i)) {
       found.add(i); sp.classList.add('heart'); sp.querySelector('.heartmark').innerHTML = icon('heart').innerHTML;
       mark('tricky-tap', { word: w, i, heart: true });
@@ -37,6 +36,8 @@ export async function tricky(ctx, w) {
       sp.classList.add('regular'); teacher.miss(); await play(`ph:${e.p[i]}`); await teacher.say('ui:notThatPart');
     }
   })));
+  await ctx.instruct('ui:trickyTap', { nudge: 'ui:idleTap', hint: pointHeart });   // taps are live while the teacher speaks
+  await finished;
   ctx.rememberWord(w);
   await ctx.next();
 }

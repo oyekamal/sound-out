@@ -37,8 +37,9 @@ export async function blendOne(ctx, item, { model = false } = {}) {
   hint.textContent = 'Now slide the sounds together and say it out loud.';
   const said = btn('I said it', 'mic', { class: 'btn primary saidit', say: 'ui:saidIt' });
   s.append(said, h('p', { class: 'selfreport' }, 'self-report: the app does not hear you'));
+  const tapped = new Promise(r => said.addEventListener('click', r, { once: true }));   // listen BEFORE the prompt: a tap during "Now slide the sounds together" counts
   await ctx.instruct('ui:blendSay', { nudge: 'ui:idleSay', hint: () => teacher.point(said) });
-  await new Promise(r => said.addEventListener('click', r, { once: true }));
+  await tapped;
   mark('said-it', { word: item.w });
   await teacher.ack('sound');   // a self-report cannot be checked: acknowledge it, then the tap gate checks for real
   if (item.kind === 'syllable') return { judged: false };
