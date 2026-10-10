@@ -55,7 +55,7 @@ export function taughtGraphemes(lessonId, sittingId, track) {
 }
 
 export function blendItems(lesson, sitting) {
-  const src = lesson.sittings.find(s => s.id === sitting.id);
+  const src = (lesson.sittings || []).find(s => s.id === sitting.id);
   const b = src?.blend || {};
   if (b.syllable) return [{ w: b.syllable, kind: 'syllable' }];
   let real = b.real || [], pseudo = b.pseudo || [];
@@ -68,7 +68,7 @@ export function blendItems(lesson, sitting) {
 }
 
 export function spellWords(lesson, sitting) {
-  const src = lesson.sittings.find(s => s.id === sitting.id);
+  const src = (lesson.sittings || []).find(s => s.id === sitting.id);
   const ws = (src?.spell?.words || []).filter(w => entry(w) && entry(w).kind !== 'syllable');
   if (ws.length) return ws.slice(0, 2);
   if (sitting.new?.length) return [];

@@ -86,7 +86,7 @@ export async function runSitting(app, profile, key) {
       results.push({ item, kind, correct: !!r.correct });
       await review(profile.id, item, kind, !!r.correct, prog.sittingCount || 0);
     },
-    lessonSitting: letter => lesson.sittings.find(s => (s.new || []).includes(letter)),
+    lessonSitting: letter => (lesson.sittings || []).find(s => (s.new || []).includes(letter)),
     known: () => [...known, ...(sitting.new || [])],
     rememberWord: w => { prog.words = [...new Set([...(prog.words || []), w])]; },
     hasClip: has,

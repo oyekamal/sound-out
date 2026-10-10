@@ -189,9 +189,11 @@ def run(br, track, start=None, until=None):
     page.click(f".node[data-key='{plan[0]}']")
     gate_count = {"n": 0}
     done_sittings = []
-    deadline = time.time() + 120 + 90 * len(plan)
+    deadline = time.time() + 120 + 90 * len(plan) + (900 if any(k.startswith("L1.14:") for k in plan) else 0)   # the Level 1 mastery check alone is ~24 gates
     def step_once():
         time.sleep(0.15)
+        # teacher layer: when autoplay is blocked the app shows one big tap-to-start; a real first tap removes it
+        if page.locator("#teacher-start, .startbtn").count(): page.locator(".startbtn").first.click(); return False
         # rule 4: no picture beside a printed word / reading page
         if page.locator(".printed, .page").count() and page.locator(".picture").count():
             problems.append(f"[{track}] picture on screen with a printed word"); shot("VIOLATION-picture")
@@ -346,8 +348,9 @@ def run(br, track, start=None, until=None):
     parts = [e for e in parts if e["id"] in MASTERY] if any(k.startswith("L1.14:") for k in plan) else []   # L2-4 mastery is audited by drive_levels.py
     if any(k.startswith("L1.14:") for k in plan) and not parts: problems.append(f"[{track}] the Level 1 mastery check did not run")
     if parts:
-        res = next(e for e in reversed(tr) if e["type"] == "check-end" and "parts" in e)
-        print(f"[{track}] mastery: {res['result']} " + " ".join(f"{p['id']} {p['correct']}/{p['judged']}" for p in res["parts"]))
+        res = next((e for e in reversed(tr) if e["type"] == "check-end" and "parts" in e), None)
+        if res: print(f"[{track}] mastery: {res['result']} " + " ".join(f"{p['id']} {p['correct']}/{p['judged']}" for p in res["parts"]))
+        else: problems.append(f"[{track}] the Level 1 mastery check started but never finished")
     reviews = sum(1 for e in tr if e["type"] == "gate-review"); timeouts = sum(1 for e in tr if e["type"] == "gate-timeout")
     for e in errors: problems.append(f"[{track}] console error: {e}")
     print(f"[{track}] sittings {done_sittings}; gates {len(gates)}; repairs {repairs}; reviews {reviews}; timeouts {timeouts}; "
