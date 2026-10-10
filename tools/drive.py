@@ -24,6 +24,14 @@ PID2G = {}
 G2P = {o["g"]: o["p"] for o in GPC["order"]}
 for o in GPC["order"]:
     PID2G.setdefault(o["p"], o["g"])
+LEX1 = dict(LEX)   # Level 1 lexicon only: the static options pass below audits Level 1 (drive_levels.py audits 2-4)
+# Levels 2-4 words and graphemes live in content/levels/L*.json (same merge as app/src/levels.js and tools/drive_levels.py)
+for _f in sorted((ROOT / "content/levels").glob("L*.json")):
+    _b = json.loads(_f.read_text())
+    for _k, _e in _b["lexicon"].items():
+        if _k not in LEX or (_e["kind"] == "heart" and LEX[_k]["kind"] != "heart"): LEX[_k] = _e
+    G2P.update(_b["g2p"])
+    for _g, _p in _b["g2p"].items(): PID2G.setdefault(_p, _g)
 URL = None
 VOWELS = {"a", "i", "o", "e", "u"}
 problems = []
@@ -98,7 +106,7 @@ def check_all_options():
             if f"ipa:{x['ipa']}" not in IDX: problems.append(f"[all options] no audio clip for {k}: {x['w']} ({x['ipa']})")
         if o["kind"] == "pseudo" and any(f["cell"] != "target" and f.get("realfoil") for f in o["foils"]) and sum(1 for f in o["foils"] if f.get("realfoil")) > 1:
             problems.append(f"[all options] {k}: more than one real-word foil")
-    items = [k for k, e in LEX.items() if e["kind"] in ("real", "pseudo")]
+    items = [k for k, e in LEX1.items() if e["kind"] in ("real", "pseudo")]
     silent = [k for k in items if k.lower() not in opts and k not in unb]
     if silent: problems.append(f"[all options] items with no options and no logged reason: {silent}")
     print(f"[all options] {len(opts)} items checked; {len(unb)} unbuildable (logged); silently missing {len(silent)}")
@@ -113,7 +121,12 @@ def main():
         for f in SHOTS.glob(f"{t}{'_' + FROM if FROM else ''}_[0-9]*.png"): f.unlink()
     server = None
     if not port_open(PORT):
-        server = subprocess.Popen(["npx", "vite", "--port", str(PORT), "--strictPort"], cwd=SERVE, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        # Serve a static build, not the dev server: while other work edits app/src, vite's HMR reloads the page mid-walk,
+        # which wipes window.__so.trace and the screen (the "white screen" at sitting ~305 of the full walk).
+        import tempfile
+        dist = Path(tempfile.mkdtemp(prefix="so-drive-"))
+        subprocess.run(["npx", "vite", "build", "--base=/", "--outDir", str(dist), "--emptyOutDir", "--logLevel", "error"], cwd=SERVE, check=True)
+        server = subprocess.Popen([sys.executable, "-m", "http.server", str(PORT), "-d", str(dist)], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         for _ in range(60):
             if port_open(PORT): break
             time.sleep(0.5)
@@ -220,6 +233,9 @@ def run(br, track, start=None, until=None):
                         page.mouse.move(cv["x"] + x1 * k, cv["y"] + y * k, steps=6)
                         y += 7
                     page.mouse.up(); time.sleep(0.6)
+        # Levels 2-4 screens (same actions as tools/drive_levels.py act): attack steps and the self-check
+        for sel in (() if plan[min(len(done_sittings), len(plan) - 1)].startswith("L1.") else (".printed .g.want", ".chunk.want", ".flexbtn", ".selfhear:not([hidden])", ".selfrow:not([hidden]) .selfok")):
+            if page.locator(sel).count(): page.locator(sel).first.click(); return False
         nxt_tile = page.locator(".printed.tiles .g.next")
         if nxt_tile.count(): nxt_tile.first.click(); return False
         if page.locator(".saidit").count() and page.locator(".saidit").is_visible():
@@ -280,9 +296,19 @@ def run(br, track, start=None, until=None):
         if nb.count(): nb.click(); return False
 
         return False
+    # Watchdog: print progress per sitting, and give up on a screen that has not changed for STALL seconds (a 13 h hang
+    # once went unnoticed because nothing was printed and nothing noticed the same screen sitting there).
+    STALL = int(ARG("--stall", "90")); last_sig, last_chg, last_n = None, time.time(), 0
     while time.time() < deadline:
         try:
             if step_once(): break
+            if len(done_sittings) != last_n:
+                last_n = len(done_sittings); print(f"[{track}] {last_n}/{len(plan)} sittings done ({done_sittings[-1]})", flush=True)
+            sg = page.evaluate("(document.querySelector('.screen,.home,.endscreen,.onboard')||document.body).innerText.slice(0,200) + '|' + document.querySelectorAll('button:not([disabled])').length + '|' + window.__so.trace.length")
+            if sg != last_sig: last_sig, last_chg = sg, time.time()
+            elif time.time() - last_chg > STALL:
+                problems.append(f"[{track}] STALLED {STALL}s on one screen after {len(done_sittings)} sittings; screen: {last_sig[:160]!r}")
+                shot("STALL"); print(page.evaluate("document.body.innerHTML.slice(0,1500)"), flush=True); break
         except PWError:
             pass
     else:
@@ -293,27 +319,31 @@ def run(br, track, start=None, until=None):
     # ---- rule checks over the trace ----
     tr = page.evaluate("window.__so.trace"); missing = page.evaluate("window.__so.missing")
     for m in missing: problems.append(f"[{track}] missing audio: {m}")
-    for e in tr:
+    # The index / 2x2 / repair / mastery audits are the Level 1 instrument: a range that only walks Levels 2-4 leaves
+    # those to tools/drive_levels.py (their audio is "coming", their words follow level-specific rules).
+    audit = tr if any(k.startswith("L1.") for k in plan) else [e for e in tr if e["type"] not in ("audio", "gate-show", "repair-start", "mastery-part")]
+    gates = [e for e in tr if e["type"] == "gate-show"]
+    for e in audit:
         if e["type"] == "audio":
             c = IDX.get(e["key"])
             if not c: problems.append(f"[{track}] audio key not in index: {e['key']}")
             elif not (APP / "public/audio" / f"{c['id']}.ogg").exists(): problems.append(f"[{track}] audio file missing: {e['key']}")
-    gates = [e for e in tr if e["type"] == "gate-show"]
-    for g in gates:
+    for g in [e for e in audit if e["type"] == "gate-show"]:
         err = check_grid(g)
         if err: problems.append(f"[{track}] 2x2 rule: {err}")
     repairs = 0
     for i, e in enumerate(tr):
-        if e["type"] == "repair-start":
+        if e["type"] == "repair-start" and e in audit:
             repairs += 1
             g = next(x for x in reversed(tr[:i]) if x["type"] == "gate-show")
             t = next(o for o in g["options"] if o["cell"] == "target")
             j = next((k for k in range(i, len(tr)) if tr[k]["type"] == "attempt" and tr[k]["n"] == 2), len(tr))
             bad = [x["key"] for x in tr[i:j] if x["type"] == "audio" and x["key"] in (f"w:{g['word']}", f"ipa:{t['ipa']}")]
             if bad: problems.append(f"[{track}] whole word played inside repair of {g['word']}: {bad}")
-    parts = [e for e in tr if e["type"] == "mastery-part"]
+    parts = [e for e in audit if e["type"] == "mastery-part"]
     for e in parts:
-        if e["judged"] != MASTERY[e["id"]]: problems.append(f"[{track}] mastery part {e['id']}: {e['judged']} items run, instrument has {MASTERY[e['id']]}")
+        if e["id"] in MASTERY and e["judged"] != MASTERY[e["id"]]: problems.append(f"[{track}] mastery part {e['id']}: {e['judged']} items run, instrument has {MASTERY[e['id']]}")
+    parts = [e for e in parts if e["id"] in MASTERY] if any(k.startswith("L1.14:") for k in plan) else []   # L2-4 mastery is audited by drive_levels.py
     if any(k.startswith("L1.14:") for k in plan) and not parts: problems.append(f"[{track}] the Level 1 mastery check did not run")
     if parts:
         res = next(e for e in reversed(tr) if e["type"] == "check-end" and "parts" in e)
