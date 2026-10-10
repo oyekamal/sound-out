@@ -22748,6 +22748,9646 @@
    "id": "0512c5bfe7a1",
    "dur": 5.413,
    "src": "local"
+  },
+  "ipa:blˈaɪnd": {
+   "id": "92f44a865835",
+   "dur": 0.867,
+   "src": "local"
+  },
+  "ipa:blˈeɪm": {
+   "id": "ce9920811b28",
+   "dur": 0.797,
+   "src": "local"
+  },
+  "ipa:blˈoʊ": {
+   "id": "d7939f7efc0e",
+   "dur": 0.688,
+   "src": "local"
+  },
+  "ipa:blˈu": {
+   "id": "a3fd61d2fdd1",
+   "dur": 0.759,
+   "src": "local"
+  },
+  "ipa:blˈæk": {
+   "id": "668e593f2ba5",
+   "dur": 0.656,
+   "src": "local"
+  },
+  "ipa:blˈɛd": {
+   "id": "1185df60c0f9",
+   "dur": 0.731,
+   "src": "local"
+  },
+  "ipa:blˈɛnd": {
+   "id": "feff321af601",
+   "dur": 0.878,
+   "src": "local"
+  },
+  "ipa:blˈɛɹ": {
+   "id": "40430f96ca05",
+   "dur": 0.707,
+   "src": "local"
+  },
+  "ipa:blˈʌʃɪŋ": {
+   "id": "70a864924f93",
+   "dur": 0.878,
+   "src": "local"
+  },
+  "ipa:bɹˈaɪd": {
+   "id": "a3fd699902c8",
+   "dur": 0.777,
+   "src": "local"
+  },
+  "ipa:bɹˈaɪt": {
+   "id": "872039bf0c51",
+   "dur": 0.708,
+   "src": "local"
+  },
+  "ipa:bɹˈaʊn": {
+   "id": "c67e08f87353",
+   "dur": 0.819,
+   "src": "local"
+  },
+  "ipa:bɹˈeɪ": {
+   "id": "ae27d3d15b50",
+   "dur": 0.66,
+   "src": "local"
+  },
+  "ipa:bɹˈeɪd": {
+   "id": "a242db594d74",
+   "dur": 0.777,
+   "src": "local"
+  },
+  "ipa:bɹˈeɪn": {
+   "id": "9b9fbf9f053c",
+   "dur": 0.819,
+   "src": "local"
+  },
+  "ipa:bɹˈeɪv": {
+   "id": "2380e022c6d9",
+   "dur": 0.729,
+   "src": "local"
+  },
+  "ipa:bɹˈid": {
+   "id": "109d4897701c",
+   "dur": 0.754,
+   "src": "local"
+  },
+  "ipa:bɹˈɔl": {
+   "id": "8583f096c96c",
+   "dur": 0.721,
+   "src": "local"
+  },
+  "ipa:bɹˈɔt": {
+   "id": "ee500e9fb87b",
+   "dur": 0.682,
+   "src": "local"
+  },
+  "ipa:bɹˈɛd": {
+   "id": "d512c6e41df2",
+   "dur": 0.706,
+   "src": "local"
+  },
+  "ipa:bɹˈɛθ": {
+   "id": "a96634fe3876",
+   "dur": 0.683,
+   "src": "local"
+  },
+  "ipa:bɹˈɪŋ": {
+   "id": "ae999c8fb0ea",
+   "dur": 0.812,
+   "src": "local"
+  },
+  "ipa:bɹˈɪʤ": {
+   "id": "27c9de3b7c35",
+   "dur": 0.838,
+   "src": "local"
+  },
+  "ipa:bɹˈʌʃɪz": {
+   "id": "ca0839914949",
+   "dur": 0.84,
+   "src": "local"
+  },
+  "ipa:bɹˈʌʃɪŋ": {
+   "id": "31861e808099",
+   "dur": 0.923,
+   "src": "local"
+  },
+  "ipa:bˈaɪ": {
+   "id": "d8e87cebf9f5",
+   "dur": 0.648,
+   "src": "local"
+  },
+  "ipa:bˈaɪbʌl": {
+   "id": "61bcb98cca1c",
+   "dur": 0.802,
+   "src": "local"
+  },
+  "ipa:bˈaɪk": {
+   "id": "2d62983c592e",
+   "dur": 0.661,
+   "src": "local"
+  },
+  "ipa:bˈaɪɝ": {
+   "id": "f0a292c8e341",
+   "dur": 0.988,
+   "src": "local"
+  },
+  "ipa:bˈaʊndz": {
+   "id": "94bfab187b08",
+   "dur": 0.91,
+   "src": "local"
+  },
+  "ipa:bˈaʊnsi": {
+   "id": "895fbc16280d",
+   "dur": 0.849,
+   "src": "local"
+  },
+  "ipa:bˈaʊnti": {
+   "id": "6e32b3a73981",
+   "dur": 0.907,
+   "src": "local"
+  },
+  "ipa:bˈaʊɝ": {
+   "id": "52e86b860ee6",
+   "dur": 0.852,
+   "src": "local"
+  },
+  "ipa:bˈeɪbi": {
+   "id": "62d9fa63c64b",
+   "dur": 0.891,
+   "src": "local"
+  },
+  "ipa:bˈeɪkʌn": {
+   "id": "8ba8cd83abe3",
+   "dur": 0.963,
+   "src": "local"
+  },
+  "ipa:bˈoʊl": {
+   "id": "774bf988ea67",
+   "dur": 0.752,
+   "src": "local"
+  },
+  "ipa:bˈoʊld": {
+   "id": "e432c9d05d17",
+   "dur": 0.843,
+   "src": "local"
+  },
+  "ipa:bˈoʊn": {
+   "id": "b171bd7cc6ca",
+   "dur": 0.775,
+   "src": "local"
+  },
+  "ipa:bˈoʊni": {
+   "id": "fa3cc13c74d5",
+   "dur": 0.816,
+   "src": "local"
+  },
+  "ipa:bˈoʊt": {
+   "id": "f653582643ce",
+   "dur": 0.683,
+   "src": "local"
+  },
+  "ipa:bˈændz": {
+   "id": "efb902fe8a9f",
+   "dur": 0.91,
+   "src": "local"
+  },
+  "ipa:bˈætʌl": {
+   "id": "0aa24ed1fec1",
+   "dur": 0.908,
+   "src": "local"
+  },
+  "ipa:bˈæzʌl": {
+   "id": "6b146a8ae44b",
+   "dur": 0.927,
+   "src": "local"
+  },
+  "ipa:bˈæŋk": {
+   "id": "4f230e1bb056",
+   "dur": 0.689,
+   "src": "local"
+  },
+  "ipa:bˈɑbi": {
+   "id": "1c4b50b27c6c",
+   "dur": 0.755,
+   "src": "local"
+  },
+  "ipa:bˈɑtʌl": {
+   "id": "8cc74f2f6c9b",
+   "dur": 0.809,
+   "src": "local"
+  },
+  "ipa:bˈɑɹ": {
+   "id": "cc1aafd06fbf",
+   "dur": 0.735,
+   "src": "local"
+  },
+  "ipa:bˈɑɹd": {
+   "id": "9a9fcf54a4f1",
+   "dur": 0.748,
+   "src": "local"
+  },
+  "ipa:bˈɑɹk": {
+   "id": "0d98058c3ada",
+   "dur": 0.66,
+   "src": "local"
+  },
+  "ipa:bˈɑɹn": {
+   "id": "9264c3d7cd7c",
+   "dur": 0.657,
+   "src": "local"
+  },
+  "ipa:bˈɑɹʤ": {
+   "id": "e8bedbbb970e",
+   "dur": 0.885,
+   "src": "local"
+  },
+  "ipa:bˈɔɪ": {
+   "id": "17c662f58400",
+   "dur": 0.664,
+   "src": "local"
+  },
+  "ipa:bˈɔɪl": {
+   "id": "ece749bddda6",
+   "dur": 0.749,
+   "src": "local"
+  },
+  "ipa:bˈɔɹd": {
+   "id": "429369e5fc44",
+   "dur": 0.678,
+   "src": "local"
+  },
+  "ipa:bˈɔɹn": {
+   "id": "ade715a67627",
+   "dur": 0.742,
+   "src": "local"
+  },
+  "ipa:bˈɛnt": {
+   "id": "ea6937bee0f3",
+   "dur": 0.732,
+   "src": "local"
+  },
+  "ipa:bˈɛɹ": {
+   "id": "bea554ec3566",
+   "dur": 0.945,
+   "src": "local"
+  },
+  "ipa:bˈɛɹɪŋ": {
+   "id": "abf0661aea2d",
+   "dur": 0.824,
+   "src": "local"
+  },
+  "ipa:bˈɝd": {
+   "id": "2f95f184c308",
+   "dur": 0.745,
+   "src": "local"
+  },
+  "ipa:bˈɝn": {
+   "id": "49c1c152b917",
+   "dur": 0.766,
+   "src": "local"
+  },
+  "ipa:bˈɝɡɝ": {
+   "id": "16cb9ef17d81",
+   "dur": 0.861,
+   "src": "local"
+  },
+  "ipa:bˈɝθ": {
+   "id": "88a3061c7165",
+   "dur": 0.689,
+   "src": "local"
+  },
+  "ipa:bˈɪɡɝ": {
+   "id": "8351fa32a7a1",
+   "dur": 0.773,
+   "src": "local"
+  },
+  "ipa:bˈɪɹd": {
+   "id": "0449cb125b8e",
+   "dur": 0.659,
+   "src": "local"
+  },
+  "ipa:bˈʊk": {
+   "id": "fb671c87a98a",
+   "dur": 0.656,
+   "src": "local"
+  },
+  "ipa:bˈʌbʌl": {
+   "id": "69ed75a04052",
+   "dur": 0.798,
+   "src": "local"
+  },
+  "ipa:bˈʌdi": {
+   "id": "242853687b2c",
+   "dur": 0.69,
+   "src": "local"
+  },
+  "ipa:bˈʌkʌl": {
+   "id": "6f3585ffbf34",
+   "dur": 0.837,
+   "src": "local"
+  },
+  "ipa:bˈʌmp": {
+   "id": "eb5e00cc0700",
+   "dur": 0.73,
+   "src": "local"
+  },
+  "ipa:bˈʌmpi": {
+   "id": "e7e543f3bc25",
+   "dur": 0.804,
+   "src": "local"
+  },
+  "ipa:bˈʌmpɝ": {
+   "id": "703de8a42d63",
+   "dur": 0.827,
+   "src": "local"
+  },
+  "ipa:bˈʌmz": {
+   "id": "2e146490bb32",
+   "dur": 0.792,
+   "src": "local"
+  },
+  "ipa:bˈʌni": {
+   "id": "029c1fd2b40c",
+   "dur": 0.734,
+   "src": "local"
+  },
+  "ipa:bˈʌt": {
+   "id": "bb1d262fddab",
+   "dur": 0.684,
+   "src": "local"
+  },
+  "ipa:dɪfˈaɪn": {
+   "id": "d321a97649d4",
+   "dur": 1.006,
+   "src": "local"
+  },
+  "ipa:dɪfˈaɪz": {
+   "id": "70b52af76ca0",
+   "dur": 0.881,
+   "src": "local"
+  },
+  "ipa:dɪzˈaɪn": {
+   "id": "66f6a3bbe5d5",
+   "dur": 0.959,
+   "src": "local"
+  },
+  "ipa:dɹˈaɪ": {
+   "id": "efb2cde45707",
+   "dur": 0.726,
+   "src": "local"
+  },
+  "ipa:dɹˈaɪd": {
+   "id": "cfebc2280de1",
+   "dur": 0.813,
+   "src": "local"
+  },
+  "ipa:dɹˈaɪv": {
+   "id": "8f538f05c312",
+   "dur": 0.786,
+   "src": "local"
+  },
+  "ipa:dɹˈaɪz": {
+   "id": "e29a34b65f87",
+   "dur": 0.776,
+   "src": "local"
+  },
+  "ipa:dɹˈaɪɪŋ": {
+   "id": "f3eab0afd062",
+   "dur": 0.886,
+   "src": "local"
+  },
+  "ipa:dɹˈaʊn": {
+   "id": "a070c07db0a2",
+   "dur": 0.856,
+   "src": "local"
+  },
+  "ipa:dɹˈaʊnd": {
+   "id": "faa2b28cbc44",
+   "dur": 0.912,
+   "src": "local"
+  },
+  "ipa:dɹˈim": {
+   "id": "4dd225e04dd1",
+   "dur": 0.87,
+   "src": "local"
+  },
+  "ipa:dɹˈoʊv": {
+   "id": "af2d69778493",
+   "dur": 0.783,
+   "src": "local"
+  },
+  "ipa:dɹˈu": {
+   "id": "5e925b118772",
+   "dur": 0.773,
+   "src": "local"
+  },
+  "ipa:dɹˈɑpt": {
+   "id": "26bd0b48cc00",
+   "dur": 0.776,
+   "src": "local"
+  },
+  "ipa:dɹˈɔ": {
+   "id": "db2daf3cc6e9",
+   "dur": 0.658,
+   "src": "local"
+  },
+  "ipa:dɹˈɛd": {
+   "id": "211f892e99a1",
+   "dur": 0.86,
+   "src": "local"
+  },
+  "ipa:dɹˈɪl": {
+   "id": "58e286a83a34",
+   "dur": 0.722,
+   "src": "local"
+  },
+  "ipa:dɹˈʌm": {
+   "id": "51e9125b9d24",
+   "dur": 0.796,
+   "src": "local"
+  },
+  "ipa:dɹˈʌɡ": {
+   "id": "0eb0fc8491dd",
+   "dur": 0.786,
+   "src": "local"
+  },
+  "ipa:dˈaɪ": {
+   "id": "3333809875d4",
+   "dur": 0.671,
+   "src": "local"
+  },
+  "ipa:dˈaʊn": {
+   "id": "b4dd5d8570aa",
+   "dur": 0.804,
+   "src": "local"
+  },
+  "ipa:dˈeɪz": {
+   "id": "d80f68cc40a5",
+   "dur": 0.789,
+   "src": "local"
+  },
+  "ipa:dˈeɪzi": {
+   "id": "e67587e01042",
+   "dur": 0.942,
+   "src": "local"
+  },
+  "ipa:dˈil": {
+   "id": "69b8bb1c1690",
+   "dur": 0.806,
+   "src": "local"
+  },
+  "ipa:dˈudʌl": {
+   "id": "55a26bae75cc",
+   "dur": 0.91,
+   "src": "local"
+  },
+  "ipa:dˈæmz": {
+   "id": "54c8b4cd0896",
+   "dur": 0.859,
+   "src": "local"
+  },
+  "ipa:dˈɑɡz": {
+   "id": "576feb54ca60",
+   "dur": 0.887,
+   "src": "local"
+  },
+  "ipa:dˈɑɹk": {
+   "id": "902312a499d1",
+   "dur": 0.684,
+   "src": "local"
+  },
+  "ipa:dˈɑɹt": {
+   "id": "ec6dc30d05ee",
+   "dur": 0.727,
+   "src": "local"
+  },
+  "ipa:dˈɔtɝ": {
+   "id": "cf5e9150ce6b",
+   "dur": 0.935,
+   "src": "local"
+  },
+  "ipa:dˈɔɹ": {
+   "id": "5b360b99ce6e",
+   "dur": 0.674,
+   "src": "local"
+  },
+  "ipa:dˈɛd": {
+   "id": "adf2e6973422",
+   "dur": 0.732,
+   "src": "local"
+  },
+  "ipa:dˈɛɹ": {
+   "id": "54522f3dac5a",
+   "dur": 0.681,
+   "src": "local"
+  },
+  "ipa:dˈɝt": {
+   "id": "970e5c121464",
+   "dur": 0.78,
+   "src": "local"
+  },
+  "ipa:dˈɪnɝ": {
+   "id": "b6e34ccac0ad",
+   "dur": 0.862,
+   "src": "local"
+  },
+  "ipa:dˈɪɡɝ": {
+   "id": "9e2ed095072e",
+   "dur": 0.787,
+   "src": "local"
+  },
+  "ipa:dˈɪɹ": {
+   "id": "d144a626aef6",
+   "dur": 0.649,
+   "src": "local"
+  },
+  "ipa:dˈʌmpɪŋ": {
+   "id": "6489157ea546",
+   "dur": 0.94,
+   "src": "local"
+  },
+  "ipa:dˈʌz": {
+   "id": "dfc8876a6f3e",
+   "dur": 0.794,
+   "src": "local"
+  },
+  "ipa:flˈaɪ": {
+   "id": "e0ae7e0d0144",
+   "dur": 0.721,
+   "src": "local"
+  },
+  "ipa:flˈaɪt": {
+   "id": "7d8b056a53c2",
+   "dur": 0.749,
+   "src": "local"
+  },
+  "ipa:flˈeɪm": {
+   "id": "46e02d2c18c3",
+   "dur": 0.814,
+   "src": "local"
+  },
+  "ipa:flˈi": {
+   "id": "1973885bb7fd",
+   "dur": 0.786,
+   "src": "local"
+  },
+  "ipa:flˈoʊ": {
+   "id": "69f0d306837c",
+   "dur": 0.692,
+   "src": "local"
+  },
+  "ipa:flˈoʊt": {
+   "id": "4aae9c20da0b",
+   "dur": 0.749,
+   "src": "local"
+  },
+  "ipa:flˈu": {
+   "id": "1fe8a8ab54ca",
+   "dur": 0.753,
+   "src": "local"
+  },
+  "ipa:flˈæp": {
+   "id": "bbccccb4ae31",
+   "dur": 0.677,
+   "src": "local"
+  },
+  "ipa:flˈæɡ": {
+   "id": "c5bc372b95d9",
+   "dur": 0.753,
+   "src": "local"
+  },
+  "ipa:flˈɛd": {
+   "id": "b15dd072c135",
+   "dur": 0.812,
+   "src": "local"
+  },
+  "ipa:flˈɛɹ": {
+   "id": "ef11f35b4921",
+   "dur": 0.746,
+   "src": "local"
+  },
+  "ipa:fɹˈaɪ": {
+   "id": "208b659fb18d",
+   "dur": 0.71,
+   "src": "local"
+  },
+  "ipa:fɹˈaɪɪŋ": {
+   "id": "9a48dcb04973",
+   "dur": 0.865,
+   "src": "local"
+  },
+  "ipa:fɹˈaʊn": {
+   "id": "8f493ec6a29e",
+   "dur": 0.862,
+   "src": "local"
+  },
+  "ipa:fɹˈaʊnd": {
+   "id": "a61e56363ff1",
+   "dur": 0.847,
+   "src": "local"
+  },
+  "ipa:fɹˈeɪ": {
+   "id": "46d3a04b8d9b",
+   "dur": 0.712,
+   "src": "local"
+  },
+  "ipa:fɹˈeɪm": {
+   "id": "86e1a8b4bb97",
+   "dur": 0.791,
+   "src": "local"
+  },
+  "ipa:fɹˈeɪz": {
+   "id": "d4607d796bb4",
+   "dur": 0.768,
+   "src": "local"
+  },
+  "ipa:fɹˈoʊ": {
+   "id": "d2b51d69759f",
+   "dur": 0.717,
+   "src": "local"
+  },
+  "ipa:fɹˈut": {
+   "id": "3b032eaa0928",
+   "dur": 0.733,
+   "src": "local"
+  },
+  "ipa:fɹˈɛnd": {
+   "id": "0ac9526e6351",
+   "dur": 0.843,
+   "src": "local"
+  },
+  "ipa:fɹˈʌm": {
+   "id": "6db4c381cbe1",
+   "dur": 0.791,
+   "src": "local"
+  },
+  "ipa:fˈaɪl": {
+   "id": "37dff3e24aec",
+   "dur": 0.763,
+   "src": "local"
+  },
+  "ipa:fˈaɪld": {
+   "id": "eb3e6ac3b3ee",
+   "dur": 0.868,
+   "src": "local"
+  },
+  "ipa:fˈaɪnd": {
+   "id": "2500d7310c3a",
+   "dur": 0.849,
+   "src": "local"
+  },
+  "ipa:fˈaɪt": {
+   "id": "778b53ab0122",
+   "dur": 0.702,
+   "src": "local"
+  },
+  "ipa:fˈaɪtɪŋ": {
+   "id": "4d7cf3eb1149",
+   "dur": 0.921,
+   "src": "local"
+  },
+  "ipa:fˈaɪv": {
+   "id": "c2fae9dfdb10",
+   "dur": 0.746,
+   "src": "local"
+  },
+  "ipa:fˈaʊnd": {
+   "id": "4e66ed580a9e",
+   "dur": 0.848,
+   "src": "local"
+  },
+  "ipa:fˈeɪd": {
+   "id": "787e58a705aa",
+   "dur": 0.748,
+   "src": "local"
+  },
+  "ipa:fˈeɪld": {
+   "id": "f9551d6a137d",
+   "dur": 0.846,
+   "src": "local"
+  },
+  "ipa:fˈeɪlɪŋ": {
+   "id": "e81ffc95fe05",
+   "dur": 0.895,
+   "src": "local"
+  },
+  "ipa:fˈeɪm": {
+   "id": "c68431f87e74",
+   "dur": 0.743,
+   "src": "local"
+  },
+  "ipa:fˈoʊld": {
+   "id": "94ecef04bf3a",
+   "dur": 0.846,
+   "src": "local"
+  },
+  "ipa:fˈoʊm": {
+   "id": "c5b8aefeb2b6",
+   "dur": 0.83,
+   "src": "local"
+  },
+  "ipa:fˈoʊn": {
+   "id": "c050b676df21",
+   "dur": 0.814,
+   "src": "local"
+  },
+  "ipa:fˈoʊni": {
+   "id": "3cae2b325214",
+   "dur": 0.827,
+   "src": "local"
+  },
+  "ipa:fˈud": {
+   "id": "12e727ee49e3",
+   "dur": 0.765,
+   "src": "local"
+  },
+  "ipa:fˈæʃʌn": {
+   "id": "8b87c30c5a8a",
+   "dur": 0.938,
+   "src": "local"
+  },
+  "ipa:fˈɑnd": {
+   "id": "36cd074cf9f5",
+   "dur": 0.9,
+   "src": "local"
+  },
+  "ipa:fˈɑðɝ": {
+   "id": "c720572f7bf4",
+   "dur": 0.916,
+   "src": "local"
+  },
+  "ipa:fˈɑɹ": {
+   "id": "4d3e3f860b64",
+   "dur": 0.747,
+   "src": "local"
+  },
+  "ipa:fˈɑɹm": {
+   "id": "0ad33de88dbe",
+   "dur": 0.797,
+   "src": "local"
+  },
+  "ipa:fˈɔɹ": {
+   "id": "b9c210ffbb8a",
+   "dur": 0.769,
+   "src": "local"
+  },
+  "ipa:fˈɔɹm": {
+   "id": "53024da24ed7",
+   "dur": 0.755,
+   "src": "local"
+  },
+  "ipa:fˈɔɹθ": {
+   "id": "f06d26971eb1",
+   "dur": 0.768,
+   "src": "local"
+  },
+  "ipa:fˈɛðɝ": {
+   "id": "9aaf0ba2e6c2",
+   "dur": 0.825,
+   "src": "local"
+  },
+  "ipa:fˈɛɹ": {
+   "id": "281216acfe5e",
+   "dur": 0.763,
+   "src": "local"
+  },
+  "ipa:fˈɝm": {
+   "id": "cabf8d740d0c",
+   "dur": 0.808,
+   "src": "local"
+  },
+  "ipa:fˈɪlɪŋ": {
+   "id": "dac002ef43a1",
+   "dur": 0.833,
+   "src": "local"
+  },
+  "ipa:fˈɪtɪŋ": {
+   "id": "84d62fda1eba",
+   "dur": 0.847,
+   "src": "local"
+  },
+  "ipa:fˈɪɹ": {
+   "id": "ec37cf4fe8ba",
+   "dur": 0.73,
+   "src": "local"
+  },
+  "ipa:fˈɪɹɪŋ": {
+   "id": "f001dcc24578",
+   "dur": 0.872,
+   "src": "local"
+  },
+  "ipa:fˈɪʃɪŋ": {
+   "id": "803ab0f8e026",
+   "dur": 0.849,
+   "src": "local"
+  },
+  "ipa:fˈʌni": {
+   "id": "1643a95ae369",
+   "dur": 0.789,
+   "src": "local"
+  },
+  "ipa:fˈʌʤ": {
+   "id": "02e52d9edab8",
+   "dur": 0.814,
+   "src": "local"
+  },
+  "ipa:hjˈuʤ": {
+   "id": "b05a802ba965",
+   "dur": 0.957,
+   "src": "local"
+  },
+  "ipa:hˈaɪ": {
+   "id": "a7200c4c8582",
+   "dur": 0.666,
+   "src": "local"
+  },
+  "ipa:hˈaɪd": {
+   "id": "f852bf2e2b23",
+   "dur": 0.734,
+   "src": "local"
+  },
+  "ipa:hˈaɪdɪŋ": {
+   "id": "1f2d47037186",
+   "dur": 0.909,
+   "src": "local"
+  },
+  "ipa:hˈaɪkɪŋ": {
+   "id": "a63cc659a548",
+   "dur": 0.883,
+   "src": "local"
+  },
+  "ipa:hˈaɪpt": {
+   "id": "54779faef971",
+   "dur": 0.72,
+   "src": "local"
+  },
+  "ipa:hˈaɪv": {
+   "id": "7dc42d8f5ba7",
+   "dur": 0.756,
+   "src": "local"
+  },
+  "ipa:hˈaɪɹɪŋ": {
+   "id": "27ed6ba721a8",
+   "dur": 0.839,
+   "src": "local"
+  },
+  "ipa:hˈaʊnd": {
+   "id": "4ca1d1ffb568",
+   "dur": 0.836,
+   "src": "local"
+  },
+  "ipa:hˈaʊndz": {
+   "id": "43a8a0b00f52",
+   "dur": 0.928,
+   "src": "local"
+  },
+  "ipa:hˈiɹ": {
+   "id": "6ae24d20351e",
+   "dur": 0.74,
+   "src": "local"
+  },
+  "ipa:hˈoʊld": {
+   "id": "357b59b61415",
+   "dur": 0.837,
+   "src": "local"
+  },
+  "ipa:hˈoʊm": {
+   "id": "fe314f05e661",
+   "dur": 0.804,
+   "src": "local"
+  },
+  "ipa:hˈoʊpɪŋ": {
+   "id": "5982a93d09d2",
+   "dur": 0.909,
+   "src": "local"
+  },
+  "ipa:hˈu": {
+   "id": "7448a7b415c6",
+   "dur": 0.69,
+   "src": "local"
+  },
+  "ipa:hˈænd": {
+   "id": "4ee48c4248da",
+   "dur": 0.855,
+   "src": "local"
+  },
+  "ipa:hˈændz": {
+   "id": "9825affb629c",
+   "dur": 0.926,
+   "src": "local"
+  },
+  "ipa:hˈændʌl": {
+   "id": "3997644927bf",
+   "dur": 0.86,
+   "src": "local"
+  },
+  "ipa:hˈæpi": {
+   "id": "3a50581f1c8e",
+   "dur": 0.992,
+   "src": "local"
+  },
+  "ipa:hˈæŋ": {
+   "id": "3e9616797204",
+   "dur": 0.841,
+   "src": "local"
+  },
+  "ipa:hˈɑŋk": {
+   "id": "7b624d4f2bdc",
+   "dur": 0.752,
+   "src": "local"
+  },
+  "ipa:hˈɑɹd": {
+   "id": "44af32366fdb",
+   "dur": 0.768,
+   "src": "local"
+  },
+  "ipa:hˈɑɹm": {
+   "id": "673e144fca20",
+   "dur": 0.782,
+   "src": "local"
+  },
+  "ipa:hˈɑɹt": {
+   "id": "4ff9a728548a",
+   "dur": 0.722,
+   "src": "local"
+  },
+  "ipa:hˈɔntɪd": {
+   "id": "5c31fb50128a",
+   "dur": 0.927,
+   "src": "local"
+  },
+  "ipa:hˈɔntɪŋ": {
+   "id": "3f8aadd14c71",
+   "dur": 0.955,
+   "src": "local"
+  },
+  "ipa:hˈɔɹn": {
+   "id": "defea66fd0f2",
+   "dur": 0.785,
+   "src": "local"
+  },
+  "ipa:hˈɔɹs": {
+   "id": "8c8172691483",
+   "dur": 0.796,
+   "src": "local"
+  },
+  "ipa:hˈɛdɪŋ": {
+   "id": "b7a6d09f1197",
+   "dur": 0.841,
+   "src": "local"
+  },
+  "ipa:hˈɛld": {
+   "id": "c60e2c3b9c78",
+   "dur": 0.734,
+   "src": "local"
+  },
+  "ipa:hˈɛlθ": {
+   "id": "6be1a1f3bd9c",
+   "dur": 0.675,
+   "src": "local"
+  },
+  "ipa:hˈɛvʌn": {
+   "id": "78412c4884c9",
+   "dur": 0.847,
+   "src": "local"
+  },
+  "ipa:hˈɛɹi": {
+   "id": "8e7ac6faf5a9",
+   "dur": 0.786,
+   "src": "local"
+  },
+  "ipa:hˈɝld": {
+   "id": "38e32ef162fb",
+   "dur": 0.806,
+   "src": "local"
+  },
+  "ipa:hˈɝt": {
+   "id": "08fba912fd58",
+   "dur": 0.722,
+   "src": "local"
+  },
+  "ipa:hˈʌmbʌl": {
+   "id": "7103f2ca470a",
+   "dur": 0.783,
+   "src": "local"
+  },
+  "ipa:hˈʌŋ": {
+   "id": "33b3a17602cd",
+   "dur": 0.785,
+   "src": "local"
+  },
+  "ipa:hˈʌɡd": {
+   "id": "fdb0bbbecdee",
+   "dur": 0.791,
+   "src": "local"
+  },
+  "ipa:hˈʌʃ": {
+   "id": "30c6c7ed3c41",
+   "dur": 0.725,
+   "src": "local"
+  },
+  "ipa:jˈuzɪŋ": {
+   "id": "a0b1c6f7917e",
+   "dur": 0.916,
+   "src": "local"
+  },
+  "ipa:jˈɑɹd": {
+   "id": "99c58c5358e0",
+   "dur": 0.784,
+   "src": "local"
+  },
+  "ipa:jˈɑɹn": {
+   "id": "f08565e7662a",
+   "dur": 0.789,
+   "src": "local"
+  },
+  "ipa:jˈɔn": {
+   "id": "bdbb9757a1b5",
+   "dur": 0.806,
+   "src": "local"
+  },
+  "ipa:kjˈut": {
+   "id": "74f936e3bb0d",
+   "dur": 0.771,
+   "src": "local"
+  },
+  "ipa:klˈaɪm": {
+   "id": "aa380dd157dd",
+   "dur": 0.817,
+   "src": "local"
+  },
+  "ipa:klˈaʊd": {
+   "id": "f64471f02392",
+   "dur": 0.757,
+   "src": "local"
+  },
+  "ipa:klˈaʊn": {
+   "id": "6de732542394",
+   "dur": 0.882,
+   "src": "local"
+  },
+  "ipa:klˈeɪ": {
+   "id": "0082be4b6884",
+   "dur": 0.835,
+   "src": "local"
+  },
+  "ipa:klˈeɪm": {
+   "id": "16d7fc2b7cd1",
+   "dur": 0.815,
+   "src": "local"
+  },
+  "ipa:klˈin": {
+   "id": "763f48db1a90",
+   "dur": 0.859,
+   "src": "local"
+  },
+  "ipa:klˈoʊnɪŋ": {
+   "id": "76bece424346",
+   "dur": 0.959,
+   "src": "local"
+  },
+  "ipa:klˈoʊz": {
+   "id": "a1c811151071",
+   "dur": 0.791,
+   "src": "local"
+  },
+  "ipa:klˈoʊzɪŋ": {
+   "id": "dba23da6fe73",
+   "dur": 1.005,
+   "src": "local"
+  },
+  "ipa:klˈoʊðɪŋ": {
+   "id": "c8fb0bb1b40f",
+   "dur": 0.934,
+   "src": "local"
+  },
+  "ipa:klˈu": {
+   "id": "7fc0c303057a",
+   "dur": 0.817,
+   "src": "local"
+  },
+  "ipa:klˈuz": {
+   "id": "1bccbdda64bd",
+   "dur": 0.865,
+   "src": "local"
+  },
+  "ipa:klˈæd": {
+   "id": "eff7583928e4",
+   "dur": 0.813,
+   "src": "local"
+  },
+  "ipa:klˈæm": {
+   "id": "ae780e28ea80",
+   "dur": 0.835,
+   "src": "local"
+  },
+  "ipa:klˈæn": {
+   "id": "6e299d55d4c2",
+   "dur": 0.835,
+   "src": "local"
+  },
+  "ipa:klˈæp": {
+   "id": "bad6531268f1",
+   "dur": 0.73,
+   "src": "local"
+  },
+  "ipa:klˈæs": {
+   "id": "9ae4767ce6e1",
+   "dur": 0.705,
+   "src": "local"
+  },
+  "ipa:klˈɪp": {
+   "id": "9955d50579fe",
+   "dur": 0.726,
+   "src": "local"
+  },
+  "ipa:klˈɪɹ": {
+   "id": "7c171129417e",
+   "dur": 0.787,
+   "src": "local"
+  },
+  "ipa:kwˈin": {
+   "id": "bbdb598f6d7c",
+   "dur": 0.833,
+   "src": "local"
+  },
+  "ipa:kɹˈaɪ": {
+   "id": "974b5ecd5dbb",
+   "dur": 0.731,
+   "src": "local"
+  },
+  "ipa:kɹˈaɪm": {
+   "id": "419641c19a84",
+   "dur": 0.837,
+   "src": "local"
+  },
+  "ipa:kɹˈaɪɪŋ": {
+   "id": "677ea51e71ac",
+   "dur": 0.886,
+   "src": "local"
+  },
+  "ipa:kɹˈaʊd": {
+   "id": "4645b0e8ddae",
+   "dur": 0.81,
+   "src": "local"
+  },
+  "ipa:kɹˈaʊn": {
+   "id": "13bed8130693",
+   "dur": 0.858,
+   "src": "local"
+  },
+  "ipa:kɹˈaʊʧ": {
+   "id": "37bebd250701",
+   "dur": 0.815,
+   "src": "local"
+  },
+  "ipa:kɹˈeɪ": {
+   "id": "f73536497057",
+   "dur": 0.731,
+   "src": "local"
+  },
+  "ipa:kɹˈim": {
+   "id": "df07de932811",
+   "dur": 0.882,
+   "src": "local"
+  },
+  "ipa:kɹˈoʊz": {
+   "id": "b84c8a87b5a9",
+   "dur": 0.782,
+   "src": "local"
+  },
+  "ipa:kɹˈu": {
+   "id": "3a8c5ac11bd8",
+   "dur": 0.775,
+   "src": "local"
+  },
+  "ipa:kɹˈuz": {
+   "id": "772aa07d29da",
+   "dur": 0.837,
+   "src": "local"
+  },
+  "ipa:kɹˈæm": {
+   "id": "3c844ab227fa",
+   "dur": 0.817,
+   "src": "local"
+  },
+  "ipa:kɹˈæʃɪz": {
+   "id": "f1946dc1b281",
+   "dur": 0.873,
+   "src": "local"
+  },
+  "ipa:kɹˈɔl": {
+   "id": "9a8dbbb3f1b4",
+   "dur": 0.762,
+   "src": "local"
+  },
+  "ipa:kɹˈʌm": {
+   "id": "f56bfd8bad3a",
+   "dur": 0.785,
+   "src": "local"
+  },
+  "ipa:kɹˈʌʃɪz": {
+   "id": "a07e4756fecb",
+   "dur": 0.84,
+   "src": "local"
+  },
+  "ipa:kɹˈʌʃɪŋ": {
+   "id": "1511b9a88b21",
+   "dur": 0.915,
+   "src": "local"
+  },
+  "ipa:kˈaɪnd": {
+   "id": "4ce7e1decb11",
+   "dur": 0.986,
+   "src": "local"
+  },
+  "ipa:kˈaɪt": {
+   "id": "15a7fdd6a59d",
+   "dur": 0.751,
+   "src": "local"
+  },
+  "ipa:kˈaʊnti": {
+   "id": "4a9b8533ee9c",
+   "dur": 0.98,
+   "src": "local"
+  },
+  "ipa:kˈeɪv": {
+   "id": "990fff92d72e",
+   "dur": 0.768,
+   "src": "local"
+  },
+  "ipa:kˈeɪʤ": {
+   "id": "7df2fe21cb98",
+   "dur": 0.835,
+   "src": "local"
+  },
+  "ipa:kˈoʊd": {
+   "id": "5728deaed89f",
+   "dur": 0.77,
+   "src": "local"
+  },
+  "ipa:kˈoʊld": {
+   "id": "192fd649aa2e",
+   "dur": 0.919,
+   "src": "local"
+  },
+  "ipa:kˈoʊpɪŋ": {
+   "id": "685a1598cf30",
+   "dur": 0.894,
+   "src": "local"
+  },
+  "ipa:kˈoʊʧɪŋ": {
+   "id": "d13e6227a754",
+   "dur": 1.006,
+   "src": "local"
+  },
+  "ipa:kˈul": {
+   "id": "a9e2bd59dee2",
+   "dur": 0.883,
+   "src": "local"
+  },
+  "ipa:kˈæmps": {
+   "id": "7e8c7ebea0de",
+   "dur": 0.754,
+   "src": "local"
+  },
+  "ipa:kˈæmz": {
+   "id": "5aa2fdbd78ea",
+   "dur": 0.866,
+   "src": "local"
+  },
+  "ipa:kˈændʌl": {
+   "id": "312a270ef569",
+   "dur": 0.933,
+   "src": "local"
+  },
+  "ipa:kˈænsʌl": {
+   "id": "e913c29c07cf",
+   "dur": 0.904,
+   "src": "local"
+  },
+  "ipa:kˈænt": {
+   "id": "008422562d5a",
+   "dur": 0.776,
+   "src": "local"
+  },
+  "ipa:kˈæpsʌl": {
+   "id": "94038586acb0",
+   "dur": 0.87,
+   "src": "local"
+  },
+  "ipa:kˈæpɪŋ": {
+   "id": "4bfa2f7caccf",
+   "dur": 0.871,
+   "src": "local"
+  },
+  "ipa:kˈæpʧɝ": {
+   "id": "e794faab851c",
+   "dur": 1.013,
+   "src": "local"
+  },
+  "ipa:kˈæst": {
+   "id": "d3dd67f739b8",
+   "dur": 0.759,
+   "src": "local"
+  },
+  "ipa:kˈætʌl": {
+   "id": "a302f92b6cef",
+   "dur": 0.911,
+   "src": "local"
+  },
+  "ipa:kˈɑf": {
+   "id": "5b1d2df2875b",
+   "dur": 0.828,
+   "src": "local"
+  },
+  "ipa:kˈɑz": {
+   "id": "f8d69c3127f0",
+   "dur": 0.816,
+   "src": "local"
+  },
+  "ipa:kˈɑɹd": {
+   "id": "18730ec34e1e",
+   "dur": 0.861,
+   "src": "local"
+  },
+  "ipa:kˈɔl": {
+   "id": "5ff719a25d98",
+   "dur": 0.812,
+   "src": "local"
+  },
+  "ipa:kˈɔɪn": {
+   "id": "6ba8ba595165",
+   "dur": 0.843,
+   "src": "local"
+  },
+  "ipa:kˈɔɹ": {
+   "id": "58e2d8b63c68",
+   "dur": 0.799,
+   "src": "local"
+  },
+  "ipa:kˈɔɹd": {
+   "id": "6666bd35d3bb",
+   "dur": 0.819,
+   "src": "local"
+  },
+  "ipa:kˈɔɹn": {
+   "id": "a1fed7c4ba55",
+   "dur": 0.884,
+   "src": "local"
+  },
+  "ipa:kˈɔɹs": {
+   "id": "eaff7b3120ad",
+   "dur": 0.773,
+   "src": "local"
+  },
+  "ipa:kˈɔɹʌs": {
+   "id": "6cc76df9ff00",
+   "dur": 0.853,
+   "src": "local"
+  },
+  "ipa:kˈɛɹ": {
+   "id": "199208885d0f",
+   "dur": 0.795,
+   "src": "local"
+  },
+  "ipa:kˈɛɹd": {
+   "id": "d3c47efb7ec7",
+   "dur": 0.722,
+   "src": "local"
+  },
+  "ipa:kˈɛɹɪŋ": {
+   "id": "db47abadc52a",
+   "dur": 0.868,
+   "src": "local"
+  },
+  "ipa:kˈɝl": {
+   "id": "69f4c83b8ef4",
+   "dur": 0.741,
+   "src": "local"
+  },
+  "ipa:kˈɝld": {
+   "id": "01bed4617a7c",
+   "dur": 0.84,
+   "src": "local"
+  },
+  "ipa:kˈɝs": {
+   "id": "4de16ff2492a",
+   "dur": 0.803,
+   "src": "local"
+  },
+  "ipa:kˈɝst": {
+   "id": "5e4fb92f08fd",
+   "dur": 0.894,
+   "src": "local"
+  },
+  "ipa:kˈɝv": {
+   "id": "5892faf89aa8",
+   "dur": 0.821,
+   "src": "local"
+  },
+  "ipa:kˈɪndʌl": {
+   "id": "e9a16b548974",
+   "dur": 0.855,
+   "src": "local"
+  },
+  "ipa:kˈɪtʌn": {
+   "id": "2fc2c384c03b",
+   "dur": 0.806,
+   "src": "local"
+  },
+  "ipa:kˈɪŋ": {
+   "id": "209849982313",
+   "dur": 0.844,
+   "src": "local"
+  },
+  "ipa:kˈʊd": {
+   "id": "6cb7f0d9c5df",
+   "dur": 0.748,
+   "src": "local"
+  },
+  "ipa:lˈaɪ": {
+   "id": "b2ddab9be966",
+   "dur": 0.692,
+   "src": "local"
+  },
+  "ipa:lˈaɪbʌl": {
+   "id": "918e2ed8565a",
+   "dur": 0.86,
+   "src": "local"
+  },
+  "ipa:lˈaɪd": {
+   "id": "17929c8571d5",
+   "dur": 0.787,
+   "src": "local"
+  },
+  "ipa:lˈaɪf": {
+   "id": "39be202c975b",
+   "dur": 0.746,
+   "src": "local"
+  },
+  "ipa:lˈaɪk": {
+   "id": "a8be7eb87106",
+   "dur": 0.7,
+   "src": "local"
+  },
+  "ipa:lˈaɪt": {
+   "id": "156bdd1661b9",
+   "dur": 0.75,
+   "src": "local"
+  },
+  "ipa:lˈaʊd": {
+   "id": "75b3638d6223",
+   "dur": 0.783,
+   "src": "local"
+  },
+  "ipa:lˈeɪbɝ": {
+   "id": "57b8034c31f1",
+   "dur": 0.859,
+   "src": "local"
+  },
+  "ipa:lˈeɪbʌl": {
+   "id": "19940fab1488",
+   "dur": 0.86,
+   "src": "local"
+  },
+  "ipa:lˈeɪs": {
+   "id": "b41eb945e5e3",
+   "dur": 0.796,
+   "src": "local"
+  },
+  "ipa:lˈeɪt": {
+   "id": "32e999502910",
+   "dur": 0.747,
+   "src": "local"
+  },
+  "ipa:lˈeɪtɝ": {
+   "id": "b0390476a213",
+   "dur": 0.882,
+   "src": "local"
+  },
+  "ipa:lˈoʊ": {
+   "id": "4ea0b437d50a",
+   "dur": 0.669,
+   "src": "local"
+  },
+  "ipa:lˈoʊkʌl": {
+   "id": "20e7ff19ee26",
+   "dur": 0.896,
+   "src": "local"
+  },
+  "ipa:lˈoʊʃʌn": {
+   "id": "da03c52f6d25",
+   "dur": 0.889,
+   "src": "local"
+  },
+  "ipa:lˈuzɪŋ": {
+   "id": "2a8369c0f954",
+   "dur": 1.006,
+   "src": "local"
+  },
+  "ipa:lˈæb": {
+   "id": "35beda2e59f6",
+   "dur": 0.699,
+   "src": "local"
+  },
+  "ipa:lˈædɝ": {
+   "id": "7d1133afc0e1",
+   "dur": 0.859,
+   "src": "local"
+  },
+  "ipa:lˈækɪŋ": {
+   "id": "927801d7508a",
+   "dur": 0.918,
+   "src": "local"
+  },
+  "ipa:lˈæm": {
+   "id": "246297483138",
+   "dur": 0.831,
+   "src": "local"
+  },
+  "ipa:lˈæmps": {
+   "id": "3fa04ee5097a",
+   "dur": 0.708,
+   "src": "local"
+  },
+  "ipa:lˈænd": {
+   "id": "35576f5d6434",
+   "dur": 0.811,
+   "src": "local"
+  },
+  "ipa:lˈændɪŋ": {
+   "id": "144aa68d6639",
+   "dur": 0.908,
+   "src": "local"
+  },
+  "ipa:lˈæstli": {
+   "id": "0043bb08838c",
+   "dur": 0.907,
+   "src": "local"
+  },
+  "ipa:lˈɑbi": {
+   "id": "9a9267e9825e",
+   "dur": 0.792,
+   "src": "local"
+  },
+  "ipa:lˈɑɹk": {
+   "id": "f459e2d3ac52",
+   "dur": 0.703,
+   "src": "local"
+  },
+  "ipa:lˈɑɹʤ": {
+   "id": "d02030a84768",
+   "dur": 0.929,
+   "src": "local"
+  },
+  "ipa:lˈɔnʧ": {
+   "id": "95179f42b45d",
+   "dur": 0.861,
+   "src": "local"
+  },
+  "ipa:lˈɔst": {
+   "id": "9b9521c07053",
+   "dur": 0.77,
+   "src": "local"
+  },
+  "ipa:lˈɔŋ": {
+   "id": "a93e30d73753",
+   "dur": 0.808,
+   "src": "local"
+  },
+  "ipa:lˈɛnd": {
+   "id": "41f9feaf251a",
+   "dur": 0.864,
+   "src": "local"
+  },
+  "ipa:lˈɛndɪŋ": {
+   "id": "004a1e5cec66",
+   "dur": 0.96,
+   "src": "local"
+  },
+  "ipa:lˈɛs": {
+   "id": "a70023d042b9",
+   "dur": 0.722,
+   "src": "local"
+  },
+  "ipa:lˈɛtɝ": {
+   "id": "54d7b6e2d8f4",
+   "dur": 0.966,
+   "src": "local"
+  },
+  "ipa:lˈɛʤ": {
+   "id": "8461e8aaba3f",
+   "dur": 0.879,
+   "src": "local"
+  },
+  "ipa:lˈɝk": {
+   "id": "81f51614632b",
+   "dur": 0.696,
+   "src": "local"
+  },
+  "ipa:lˈɝkɪŋ": {
+   "id": "cc634bf20a50",
+   "dur": 0.911,
+   "src": "local"
+  },
+  "ipa:lˈɝn": {
+   "id": "2db10e06d34b",
+   "dur": 0.784,
+   "src": "local"
+  },
+  "ipa:lˈɪkɪŋ": {
+   "id": "9b401bf8b63d",
+   "dur": 0.889,
+   "src": "local"
+  },
+  "ipa:lˈɪst": {
+   "id": "29869256d243",
+   "dur": 0.794,
+   "src": "local"
+  },
+  "ipa:lˈʊk": {
+   "id": "8b6a62d666db",
+   "dur": 0.708,
+   "src": "local"
+  },
+  "ipa:mjˈut": {
+   "id": "6eb99512ee36",
+   "dur": 0.851,
+   "src": "local"
+  },
+  "ipa:mˈaɪ": {
+   "id": "233fed5989c0",
+   "dur": 0.656,
+   "src": "local"
+  },
+  "ipa:mˈaɪk": {
+   "id": "94b7f2172fea",
+   "dur": 0.68,
+   "src": "local"
+  },
+  "ipa:mˈaɪl": {
+   "id": "bc967579c6c9",
+   "dur": 0.787,
+   "src": "local"
+  },
+  "ipa:mˈaɪld": {
+   "id": "85bea8e75f45",
+   "dur": 0.865,
+   "src": "local"
+  },
+  "ipa:mˈaɪnd": {
+   "id": "4193995953e9",
+   "dur": 0.879,
+   "src": "local"
+  },
+  "ipa:mˈaɪt": {
+   "id": "17e8dbc6e6e4",
+   "dur": 0.751,
+   "src": "local"
+  },
+  "ipa:mˈaʊs": {
+   "id": "564e62aa5772",
+   "dur": 0.753,
+   "src": "local"
+  },
+  "ipa:mˈaʊθ": {
+   "id": "34f438b8508d",
+   "dur": 0.776,
+   "src": "local"
+  },
+  "ipa:mˈeɪd": {
+   "id": "90a889d61dc7",
+   "dur": 0.761,
+   "src": "local"
+  },
+  "ipa:mˈeɪk": {
+   "id": "c8059ae79a7e",
+   "dur": 0.686,
+   "src": "local"
+  },
+  "ipa:mˈeɪkɪŋ": {
+   "id": "5e4c4e3745d9",
+   "dur": 0.959,
+   "src": "local"
+  },
+  "ipa:mˈeɪpʌl": {
+   "id": "d87053912da6",
+   "dur": 0.882,
+   "src": "local"
+  },
+  "ipa:mˈeɪv": {
+   "id": "a2338d14d97c",
+   "dur": 0.762,
+   "src": "local"
+  },
+  "ipa:mˈoʊld": {
+   "id": "13c0c1f15cc0",
+   "dur": 0.861,
+   "src": "local"
+  },
+  "ipa:mˈoʊst": {
+   "id": "36fac4f6fcd1",
+   "dur": 0.74,
+   "src": "local"
+  },
+  "ipa:mˈoʊʃʌn": {
+   "id": "ae92ac99aee4",
+   "dur": 0.893,
+   "src": "local"
+  },
+  "ipa:mˈud": {
+   "id": "fc445c3642cb",
+   "dur": 0.812,
+   "src": "local"
+  },
+  "ipa:mˈun": {
+   "id": "2f8099d5b82c",
+   "dur": 0.855,
+   "src": "local"
+  },
+  "ipa:mˈæsk": {
+   "id": "6502c4d63a9c",
+   "dur": 0.769,
+   "src": "local"
+  },
+  "ipa:mˈæstɝ": {
+   "id": "81b2eb396d48",
+   "dur": 0.932,
+   "src": "local"
+  },
+  "ipa:mˈæʧ": {
+   "id": "213a1bcfc8ae",
+   "dur": 0.797,
+   "src": "local"
+  },
+  "ipa:mˈɑɹbʌl": {
+   "id": "7acc2b5e30e5",
+   "dur": 0.877,
+   "src": "local"
+  },
+  "ipa:mˈɑɹk": {
+   "id": "94c01f7d3f1d",
+   "dur": 0.727,
+   "src": "local"
+  },
+  "ipa:mˈɑɹʃʌl": {
+   "id": "3ca1b58f46bf",
+   "dur": 0.85,
+   "src": "local"
+  },
+  "ipa:mˈɔs": {
+   "id": "3b7f2f3d72ba",
+   "dur": 0.725,
+   "src": "local"
+  },
+  "ipa:mˈɔɪst": {
+   "id": "30f1ffd0a7a6",
+   "dur": 0.751,
+   "src": "local"
+  },
+  "ipa:mˈɔɹ": {
+   "id": "5d89dbaaf7eb",
+   "dur": 0.758,
+   "src": "local"
+  },
+  "ipa:mˈɔɹnɪŋ": {
+   "id": "3f667ccba535",
+   "dur": 0.892,
+   "src": "local"
+  },
+  "ipa:mˈɛlt": {
+   "id": "7833e425ebd7",
+   "dur": 0.746,
+   "src": "local"
+  },
+  "ipa:mˈɛni": {
+   "id": "1b9d0b706613",
+   "dur": 0.811,
+   "src": "local"
+  },
+  "ipa:mˈɛnt": {
+   "id": "5a9cbd947245",
+   "dur": 0.775,
+   "src": "local"
+  },
+  "ipa:mˈɛst": {
+   "id": "369c7a4ec867",
+   "dur": 0.772,
+   "src": "local"
+  },
+  "ipa:mˈɛt": {
+   "id": "e386ee81ff87",
+   "dur": 0.702,
+   "src": "local"
+  },
+  "ipa:mˈɪksɪŋ": {
+   "id": "8f55419f8ca5",
+   "dur": 0.894,
+   "src": "local"
+  },
+  "ipa:mˈɪlk": {
+   "id": "d2bdeb7cc39c",
+   "dur": 0.684,
+   "src": "local"
+  },
+  "ipa:mˈɪstɝ": {
+   "id": "f43726278ab6",
+   "dur": 0.935,
+   "src": "local"
+  },
+  "ipa:mˈɪʃʌn": {
+   "id": "a5cf7175e166",
+   "dur": 0.936,
+   "src": "local"
+  },
+  "ipa:mˈʌdi": {
+   "id": "4f4f417465f5",
+   "dur": 0.842,
+   "src": "local"
+  },
+  "ipa:mˈʌʧ": {
+   "id": "73139c272b23",
+   "dur": 0.774,
+   "src": "local"
+  },
+  "ipa:nˈaɪn": {
+   "id": "1abeaf1deb0e",
+   "dur": 0.827,
+   "src": "local"
+  },
+  "ipa:nˈaɪs": {
+   "id": "f62f1b9ca791",
+   "dur": 0.775,
+   "src": "local"
+  },
+  "ipa:nˈaɪt": {
+   "id": "780060abdb8d",
+   "dur": 0.75,
+   "src": "local"
+  },
+  "ipa:nˈaʊ": {
+   "id": "975e28fb8e3b",
+   "dur": 0.764,
+   "src": "local"
+  },
+  "ipa:nˈeɪbɝ": {
+   "id": "b2df8fb7ef40",
+   "dur": 0.838,
+   "src": "local"
+  },
+  "ipa:nˈeɪm": {
+   "id": "1e82d9b85362",
+   "dur": 0.904,
+   "src": "local"
+  },
+  "ipa:nˈeɪʃʌn": {
+   "id": "e743fcee9af1",
+   "dur": 0.914,
+   "src": "local"
+  },
+  "ipa:nˈeɪʧɝ": {
+   "id": "10f6f340410d",
+   "dur": 1.03,
+   "src": "local"
+  },
+  "ipa:nˈoʊt": {
+   "id": "a56dd83400ea",
+   "dur": 0.75,
+   "src": "local"
+  },
+  "ipa:nˈoʊz": {
+   "id": "8dd76f64bbbf",
+   "dur": 0.769,
+   "src": "local"
+  },
+  "ipa:nˈoʊʃʌn": {
+   "id": "6f050a30ac3f",
+   "dur": 0.918,
+   "src": "local"
+  },
+  "ipa:nˈudʌl": {
+   "id": "c8ab9904db7d",
+   "dur": 0.953,
+   "src": "local"
+  },
+  "ipa:nˈɑvʌl": {
+   "id": "65e1a4670fcc",
+   "dur": 0.887,
+   "src": "local"
+  },
+  "ipa:nˈɑvʌs": {
+   "id": "b2b7bef6c400",
+   "dur": 0.831,
+   "src": "local"
+  },
+  "ipa:nˈɔɪz": {
+   "id": "3adfb2157860",
+   "dur": 0.76,
+   "src": "local"
+  },
+  "ipa:nˈɔɹm": {
+   "id": "ea160b7012a8",
+   "dur": 0.709,
+   "src": "local"
+  },
+  "ipa:nˈɔɹθ": {
+   "id": "aa83a35ffe23",
+   "dur": 0.723,
+   "src": "local"
+  },
+  "ipa:nˈɛst": {
+   "id": "78b68d60faaa",
+   "dur": 0.748,
+   "src": "local"
+  },
+  "ipa:nˈɛstɪŋ": {
+   "id": "46b40ae8758e",
+   "dur": 0.938,
+   "src": "local"
+  },
+  "ipa:nˈɝs": {
+   "id": "a70ccb1ba3f4",
+   "dur": 0.821,
+   "src": "local"
+  },
+  "ipa:nˈɝvʌs": {
+   "id": "c22c72166db8",
+   "dur": 0.855,
+   "src": "local"
+  },
+  "ipa:nˈɪl": {
+   "id": "2d115193623e",
+   "dur": 0.771,
+   "src": "local"
+  },
+  "ipa:nˈɪmbʌl": {
+   "id": "cf92c5f09a53",
+   "dur": 0.91,
+   "src": "local"
+  },
+  "ipa:nˈɪɹ": {
+   "id": "11d963039f2f",
+   "dur": 0.803,
+   "src": "local"
+  },
+  "ipa:nˈʌkʌl": {
+   "id": "ac48dabcae51",
+   "dur": 0.826,
+   "src": "local"
+  },
+  "ipa:plˈeɪ": {
+   "id": "5db2b4994ac8",
+   "dur": 0.685,
+   "src": "local"
+  },
+  "ipa:plˈeɪɡ": {
+   "id": "c2f3cbfdb253",
+   "dur": 0.842,
+   "src": "local"
+  },
+  "ipa:plˈæn": {
+   "id": "e05f6e4f31bb",
+   "dur": 0.741,
+   "src": "local"
+  },
+  "ipa:pɹˈaɪm": {
+   "id": "fb6d7ca70689",
+   "dur": 0.768,
+   "src": "local"
+  },
+  "ipa:pɹˈaɪz": {
+   "id": "946dba6cf919",
+   "dur": 0.749,
+   "src": "local"
+  },
+  "ipa:pɹˈaʊd": {
+   "id": "e3f436e3595e",
+   "dur": 0.755,
+   "src": "local"
+  },
+  "ipa:pɹˈeɪ": {
+   "id": "05b609636ea9",
+   "dur": 0.734,
+   "src": "local"
+  },
+  "ipa:pɹˈeɪd": {
+   "id": "80028afe353c",
+   "dur": 0.772,
+   "src": "local"
+  },
+  "ipa:pɹˈeɪz": {
+   "id": "42d34e38cef8",
+   "dur": 0.8,
+   "src": "local"
+  },
+  "ipa:pɹˈoʊn": {
+   "id": "0d7c2e535ec7",
+   "dur": 0.779,
+   "src": "local"
+  },
+  "ipa:pɹˈun": {
+   "id": "970b9d61a7a2",
+   "dur": 0.834,
+   "src": "local"
+  },
+  "ipa:pɹˈɑpt": {
+   "id": "1d3435de347b",
+   "dur": 0.76,
+   "src": "local"
+  },
+  "ipa:pˈaɪ": {
+   "id": "ff9688dfe528",
+   "dur": 0.761,
+   "src": "local"
+  },
+  "ipa:pˈaɪlʌt": {
+   "id": "e05836cc5140",
+   "dur": 0.821,
+   "src": "local"
+  },
+  "ipa:pˈaɪpɝ": {
+   "id": "d7504609760f",
+   "dur": 0.883,
+   "src": "local"
+  },
+  "ipa:pˈaʊnd": {
+   "id": "de0f0711aad4",
+   "dur": 0.911,
+   "src": "local"
+  },
+  "ipa:pˈaʊɝ": {
+   "id": "ce9d9c7d9944",
+   "dur": 0.962,
+   "src": "local"
+  },
+  "ipa:pˈeɪl": {
+   "id": "f652e89df5ac",
+   "dur": 0.764,
+   "src": "local"
+  },
+  "ipa:pˈeɪpɝ": {
+   "id": "4b01eca23bab",
+   "dur": 0.882,
+   "src": "local"
+  },
+  "ipa:pˈeɪpʌl": {
+   "id": "f8bcc4766ea2",
+   "dur": 0.884,
+   "src": "local"
+  },
+  "ipa:pˈeɪz": {
+   "id": "a4eaf3a64ebc",
+   "dur": 0.806,
+   "src": "local"
+  },
+  "ipa:pˈeɪʤ": {
+   "id": "2dc7545a552f",
+   "dur": 0.86,
+   "src": "local"
+  },
+  "ipa:pˈipʌl": {
+   "id": "3087e3d1e7d7",
+   "dur": 0.864,
+   "src": "local"
+  },
+  "ipa:pˈis": {
+   "id": "e018af25869d",
+   "dur": 0.735,
+   "src": "local"
+  },
+  "ipa:pˈoʊʃʌn": {
+   "id": "c6c84b5a2e3e",
+   "dur": 0.914,
+   "src": "local"
+  },
+  "ipa:pˈudʌl": {
+   "id": "03c93d1b6a29",
+   "dur": 0.882,
+   "src": "local"
+  },
+  "ipa:pˈædʌl": {
+   "id": "1d93b0629c9c",
+   "dur": 0.839,
+   "src": "local"
+  },
+  "ipa:pˈækt": {
+   "id": "3274260c3630",
+   "dur": 0.776,
+   "src": "local"
+  },
+  "ipa:pˈæl": {
+   "id": "ff41d1835005",
+   "dur": 0.702,
+   "src": "local"
+  },
+  "ipa:pˈælʌt": {
+   "id": "8943657dc417",
+   "dur": 0.743,
+   "src": "local"
+  },
+  "ipa:pˈæst": {
+   "id": "171e7a39b38f",
+   "dur": 0.73,
+   "src": "local"
+  },
+  "ipa:pˈɑpi": {
+   "id": "0325da8cadf0",
+   "dur": 0.823,
+   "src": "local"
+  },
+  "ipa:pˈɑɹdʌn": {
+   "id": "47960f040255",
+   "dur": 0.859,
+   "src": "local"
+  },
+  "ipa:pˈɑɹk": {
+   "id": "bf43a76c478e",
+   "dur": 0.663,
+   "src": "local"
+  },
+  "ipa:pˈɑɹt": {
+   "id": "e11a2013d08e",
+   "dur": 0.708,
+   "src": "local"
+  },
+  "ipa:pˈɑɹʃʌl": {
+   "id": "26cc805f3f11",
+   "dur": 0.889,
+   "src": "local"
+  },
+  "ipa:pˈɔz": {
+   "id": "12a49ab011ab",
+   "dur": 0.778,
+   "src": "local"
+  },
+  "ipa:pˈɔɪnt": {
+   "id": "f2d8f98933c0",
+   "dur": 0.774,
+   "src": "local"
+  },
+  "ipa:pˈɔɹt": {
+   "id": "3f92af348a66",
+   "dur": 0.728,
+   "src": "local"
+  },
+  "ipa:pˈɔɹz": {
+   "id": "c22cf13f4b02",
+   "dur": 0.791,
+   "src": "local"
+  },
+  "ipa:pˈɔɹʌʤ": {
+   "id": "f0788c15e9fb",
+   "dur": 0.904,
+   "src": "local"
+  },
+  "ipa:pˈɛni": {
+   "id": "96fd2b5af87d",
+   "dur": 0.829,
+   "src": "local"
+  },
+  "ipa:pˈɝpʌl": {
+   "id": "e4a11416fd9b",
+   "dur": 0.881,
+   "src": "local"
+  },
+  "ipa:pˈɝpʌs": {
+   "id": "b5d45de7c2be",
+   "dur": 0.882,
+   "src": "local"
+  },
+  "ipa:pˈɝʤ": {
+   "id": "d5183588d47c",
+   "dur": 0.929,
+   "src": "local"
+  },
+  "ipa:pˈɝʧʌs": {
+   "id": "b4679885a9b6",
+   "dur": 0.905,
+   "src": "local"
+  },
+  "ipa:pˈɪkt": {
+   "id": "ad0071cdfc27",
+   "dur": 0.721,
+   "src": "local"
+  },
+  "ipa:pˈɪkɪŋ": {
+   "id": "da3c49516d03",
+   "dur": 0.841,
+   "src": "local"
+  },
+  "ipa:pˈɪɹ": {
+   "id": "f578b01212d2",
+   "dur": 0.742,
+   "src": "local"
+  },
+  "ipa:pˈʌdʌl": {
+   "id": "5f4ed322e1c5",
+   "dur": 0.784,
+   "src": "local"
+  },
+  "ipa:pˈʌmp": {
+   "id": "05c4e2928bd8",
+   "dur": 0.728,
+   "src": "local"
+  },
+  "ipa:pˈʌpi": {
+   "id": "2c10b6126b44",
+   "dur": 0.752,
+   "src": "local"
+  },
+  "ipa:pˈʌzʌl": {
+   "id": "5132c30ef10e",
+   "dur": 0.814,
+   "src": "local"
+  },
+  "ipa:pˈʌŋk": {
+   "id": "0b0adfa2f7f4",
+   "dur": 0.711,
+   "src": "local"
+  },
+  "ipa:skwˈɑd": {
+   "id": "983dc6527e14",
+   "dur": 0.783,
+   "src": "local"
+  },
+  "ipa:skwˈɑʃ": {
+   "id": "70f244e6b784",
+   "dur": 0.818,
+   "src": "local"
+  },
+  "ipa:skˈaɪ": {
+   "id": "8bcca8b791bb",
+   "dur": 0.744,
+   "src": "local"
+  },
+  "ipa:skˈeɪl": {
+   "id": "455467e432e1",
+   "dur": 0.788,
+   "src": "local"
+  },
+  "ipa:skˈeɪlɪŋ": {
+   "id": "99d58dcf99a2",
+   "dur": 0.942,
+   "src": "local"
+  },
+  "ipa:skˈeɪtɪŋ": {
+   "id": "8b37ea97b4fb",
+   "dur": 0.911,
+   "src": "local"
+  },
+  "ipa:skˈimɪŋ": {
+   "id": "2fb8ef773eba",
+   "dur": 0.917,
+   "src": "local"
+  },
+  "ipa:skˈul": {
+   "id": "2a3b69096c90",
+   "dur": 0.799,
+   "src": "local"
+  },
+  "ipa:skˈulɪŋ": {
+   "id": "dd4dddcc68c5",
+   "dur": 0.917,
+   "src": "local"
+  },
+  "ipa:skˈæn": {
+   "id": "bfa9a4f86733",
+   "dur": 0.789,
+   "src": "local"
+  },
+  "ipa:skˈɑɹ": {
+   "id": "b51c694f198e",
+   "dur": 0.803,
+   "src": "local"
+  },
+  "ipa:skˈɔɹ": {
+   "id": "53c1c77d152b",
+   "dur": 0.783,
+   "src": "local"
+  },
+  "ipa:skˈɛɹ": {
+   "id": "0d696d4ab385",
+   "dur": 0.759,
+   "src": "local"
+  },
+  "ipa:skˈɪmɪŋ": {
+   "id": "1c50c6ce0a22",
+   "dur": 0.917,
+   "src": "local"
+  },
+  "ipa:skˈɪn": {
+   "id": "a4e21f232fae",
+   "dur": 0.827,
+   "src": "local"
+  },
+  "ipa:slˈaɪ": {
+   "id": "7063b71842c0",
+   "dur": 0.712,
+   "src": "local"
+  },
+  "ipa:slˈaɪd": {
+   "id": "766dd1231960",
+   "dur": 0.778,
+   "src": "local"
+  },
+  "ipa:slˈaɪdɝ": {
+   "id": "4caa234a5338",
+   "dur": 0.882,
+   "src": "local"
+  },
+  "ipa:slˈeɪ": {
+   "id": "27ef406d86c4",
+   "dur": 0.712,
+   "src": "local"
+  },
+  "ipa:slˈoʊ": {
+   "id": "ed0566bf182a",
+   "dur": 0.709,
+   "src": "local"
+  },
+  "ipa:slˈoʊp": {
+   "id": "c988cb1fdebe",
+   "dur": 0.721,
+   "src": "local"
+  },
+  "ipa:slˈæm": {
+   "id": "7650fdc4eee5",
+   "dur": 0.787,
+   "src": "local"
+  },
+  "ipa:slˈɛd": {
+   "id": "7d9a5827c658",
+   "dur": 0.748,
+   "src": "local"
+  },
+  "ipa:slˈɝ": {
+   "id": "ff1f2c882d6c",
+   "dur": 0.765,
+   "src": "local"
+  },
+  "ipa:slˈɪm": {
+   "id": "9f305695b2ca",
+   "dur": 0.813,
+   "src": "local"
+  },
+  "ipa:smˈaɪl": {
+   "id": "242f7904e564",
+   "dur": 0.801,
+   "src": "local"
+  },
+  "ipa:smˈaɪlɪŋ": {
+   "id": "5af84642fd38",
+   "dur": 0.936,
+   "src": "local"
+  },
+  "ipa:smˈoʊk": {
+   "id": "9eca29b212d2",
+   "dur": 0.701,
+   "src": "local"
+  },
+  "ipa:smˈæk": {
+   "id": "3d68ecb325cd",
+   "dur": 0.72,
+   "src": "local"
+  },
+  "ipa:smˈɛl": {
+   "id": "bd91de81d706",
+   "dur": 0.742,
+   "src": "local"
+  },
+  "ipa:smˈɛlɪŋ": {
+   "id": "5c95586bfed4",
+   "dur": 0.911,
+   "src": "local"
+  },
+  "ipa:snˈeɪl": {
+   "id": "c9ad207509d5",
+   "dur": 0.785,
+   "src": "local"
+  },
+  "ipa:snˈoʊ": {
+   "id": "d599644fab2c",
+   "dur": 0.744,
+   "src": "local"
+  },
+  "ipa:snˈɔɹ": {
+   "id": "4fe4fcbcc2cd",
+   "dur": 0.747,
+   "src": "local"
+  },
+  "ipa:snˈɛɹ": {
+   "id": "349464053d14",
+   "dur": 0.79,
+   "src": "local"
+  },
+  "ipa:snˈɪɹ": {
+   "id": "c0021ed78fd3",
+   "dur": 0.799,
+   "src": "local"
+  },
+  "ipa:spɹˈaɪ": {
+   "id": "04df392b4723",
+   "dur": 0.754,
+   "src": "local"
+  },
+  "ipa:spɹˈeɪ": {
+   "id": "aac4f93655e2",
+   "dur": 0.752,
+   "src": "local"
+  },
+  "ipa:spɹˈeɪd": {
+   "id": "2d89f3f50539",
+   "dur": 0.8,
+   "src": "local"
+  },
+  "ipa:spɹˈeɪz": {
+   "id": "0f44fbd937d3",
+   "dur": 0.805,
+   "src": "local"
+  },
+  "ipa:spɹˈɛd": {
+   "id": "c6e49ca48b1f",
+   "dur": 0.802,
+   "src": "local"
+  },
+  "ipa:spˈaɪdɝ": {
+   "id": "1a60baffbbac",
+   "dur": 0.888,
+   "src": "local"
+  },
+  "ipa:spˈeɪʃʌl": {
+   "id": "ba39d8904ba4",
+   "dur": 0.89,
+   "src": "local"
+  },
+  "ipa:spˈeɪʃʌs": {
+   "id": "b06be5d95123",
+   "dur": 0.946,
+   "src": "local"
+  },
+  "ipa:spˈid": {
+   "id": "62b9ca3b132c",
+   "dur": 0.773,
+   "src": "local"
+  },
+  "ipa:spˈɑɹk": {
+   "id": "11c07b628150",
+   "dur": 0.721,
+   "src": "local"
+  },
+  "ipa:spˈɔɪl": {
+   "id": "f71cb7c1165d",
+   "dur": 0.783,
+   "src": "local"
+  },
+  "ipa:spˈɔɹt": {
+   "id": "77cdb29baeea",
+   "dur": 0.748,
+   "src": "local"
+  },
+  "ipa:spˈɔɹz": {
+   "id": "9c1a0646555d",
+   "dur": 0.829,
+   "src": "local"
+  },
+  "ipa:spˈɛd": {
+   "id": "19a834eeb472",
+   "dur": 0.759,
+   "src": "local"
+  },
+  "ipa:spˈɛl": {
+   "id": "9814bc973338",
+   "dur": 0.671,
+   "src": "local"
+  },
+  "ipa:spˈɛɹ": {
+   "id": "7ffe0cccd5ec",
+   "dur": 0.74,
+   "src": "local"
+  },
+  "ipa:spˈɛʃʌl": {
+   "id": "4add1d7b2375",
+   "dur": 0.855,
+   "src": "local"
+  },
+  "ipa:spˈɪl": {
+   "id": "af2034abc2c4",
+   "dur": 0.803,
+   "src": "local"
+  },
+  "ipa:spˈɪn": {
+   "id": "6f32558cc8b1",
+   "dur": 0.81,
+   "src": "local"
+  },
+  "ipa:spˈɪɹ": {
+   "id": "c719727aaa6d",
+   "dur": 0.777,
+   "src": "local"
+  },
+  "ipa:spˈɪɹz": {
+   "id": "fa766dc6ed86",
+   "dur": 0.832,
+   "src": "local"
+  },
+  "ipa:stɹˈeɪ": {
+   "id": "da2e09779049",
+   "dur": 0.774,
+   "src": "local"
+  },
+  "ipa:stɹˈik": {
+   "id": "3d43a4ef9748",
+   "dur": 0.774,
+   "src": "local"
+  },
+  "ipa:stɹˈim": {
+   "id": "d88f0caef052",
+   "dur": 0.907,
+   "src": "local"
+  },
+  "ipa:stɹˈɪps": {
+   "id": "9c2e0ab34b67",
+   "dur": 0.868,
+   "src": "local"
+  },
+  "ipa:stɹˈɪpt": {
+   "id": "36a95c501bb7",
+   "dur": 0.873,
+   "src": "local"
+  },
+  "ipa:stɹˈɪŋ": {
+   "id": "807826562030",
+   "dur": 0.868,
+   "src": "local"
+  },
+  "ipa:stˈaɪl": {
+   "id": "c81d08081327",
+   "dur": 0.758,
+   "src": "local"
+  },
+  "ipa:stˈeɪ": {
+   "id": "1ffe711a0c38",
+   "dur": 0.726,
+   "src": "local"
+  },
+  "ipa:stˈeɪʤ": {
+   "id": "a645ce15d2e0",
+   "dur": 0.837,
+   "src": "local"
+  },
+  "ipa:stˈiv": {
+   "id": "672b79b8fb9a",
+   "dur": 0.747,
+   "src": "local"
+  },
+  "ipa:stˈoʊv": {
+   "id": "0778afcdb39d",
+   "dur": 0.765,
+   "src": "local"
+  },
+  "ipa:stˈɑp": {
+   "id": "1025cf9e3e19",
+   "dur": 0.723,
+   "src": "local"
+  },
+  "ipa:stˈɑpt": {
+   "id": "040d7e1c00bf",
+   "dur": 0.782,
+   "src": "local"
+  },
+  "ipa:stˈɑɹ": {
+   "id": "0dc676728b4a",
+   "dur": 0.701,
+   "src": "local"
+  },
+  "ipa:stˈɑɹk": {
+   "id": "2715e10d1002",
+   "dur": 0.702,
+   "src": "local"
+  },
+  "ipa:stˈɑɹt": {
+   "id": "c09d27016e65",
+   "dur": 0.769,
+   "src": "local"
+  },
+  "ipa:stˈɑɹv": {
+   "id": "19207575f05c",
+   "dur": 0.771,
+   "src": "local"
+  },
+  "ipa:stˈɑɹz": {
+   "id": "72bfcda53182",
+   "dur": 0.778,
+   "src": "local"
+  },
+  "ipa:stˈɔɹ": {
+   "id": "3072cb712b9f",
+   "dur": 0.726,
+   "src": "local"
+  },
+  "ipa:stˈɔɹm": {
+   "id": "e7b57aeea413",
+   "dur": 0.825,
+   "src": "local"
+  },
+  "ipa:stˈɔɹz": {
+   "id": "3434949cab35",
+   "dur": 0.772,
+   "src": "local"
+  },
+  "ipa:stˈɛɹz": {
+   "id": "c330e9360b64",
+   "dur": 0.795,
+   "src": "local"
+  },
+  "ipa:stˈɝ": {
+   "id": "c51758a32a65",
+   "dur": 0.725,
+   "src": "local"
+  },
+  "ipa:stˈɪɹ": {
+   "id": "cc2c31319001",
+   "dur": 0.756,
+   "src": "local"
+  },
+  "ipa:swˈæm": {
+   "id": "8e8c3df3581a",
+   "dur": 0.829,
+   "src": "local"
+  },
+  "ipa:swˈɔɹm": {
+   "id": "b6cd29c45249",
+   "dur": 0.839,
+   "src": "local"
+  },
+  "ipa:swˈɔɹn": {
+   "id": "a3036da3d697",
+   "dur": 0.807,
+   "src": "local"
+  },
+  "ipa:swˈɛlɪŋ": {
+   "id": "1ff196438313",
+   "dur": 0.893,
+   "src": "local"
+  },
+  "ipa:swˈɛɹ": {
+   "id": "cd48fa656eea",
+   "dur": 0.743,
+   "src": "local"
+  },
+  "ipa:swˈɪm": {
+   "id": "875a3c5f5a05",
+   "dur": 0.843,
+   "src": "local"
+  },
+  "ipa:swˈɪmɪŋ": {
+   "id": "4ed96fa7d9ce",
+   "dur": 0.915,
+   "src": "local"
+  },
+  "ipa:sˈaɪd": {
+   "id": "fdc3be6a3047",
+   "dur": 0.757,
+   "src": "local"
+  },
+  "ipa:sˈaɪn": {
+   "id": "be7338687433",
+   "dur": 0.741,
+   "src": "local"
+  },
+  "ipa:sˈaɪnd": {
+   "id": "4215a252c080",
+   "dur": 0.881,
+   "src": "local"
+  },
+  "ipa:sˈaɪtɪŋ": {
+   "id": "93e8627520c0",
+   "dur": 0.847,
+   "src": "local"
+  },
+  "ipa:sˈaʊnd": {
+   "id": "226f6e8e5bd6",
+   "dur": 0.839,
+   "src": "local"
+  },
+  "ipa:sˈeɪl": {
+   "id": "3894d9fefed8",
+   "dur": 0.77,
+   "src": "local"
+  },
+  "ipa:sˈeɪm": {
+   "id": "2307c0dfeb3a",
+   "dur": 0.738,
+   "src": "local"
+  },
+  "ipa:sˈeɪv": {
+   "id": "23d852c7a7db",
+   "dur": 0.742,
+   "src": "local"
+  },
+  "ipa:sˈeɪvɪŋ": {
+   "id": "097d915151bb",
+   "dur": 0.909,
+   "src": "local"
+  },
+  "ipa:sˈeɪʤ": {
+   "id": "6b527afe5053",
+   "dur": 0.787,
+   "src": "local"
+  },
+  "ipa:sˈild": {
+   "id": "db910bc313b7",
+   "dur": 0.767,
+   "src": "local"
+  },
+  "ipa:sˈoʊld": {
+   "id": "8e3ad42091b7",
+   "dur": 0.831,
+   "src": "local"
+  },
+  "ipa:sˈun": {
+   "id": "81b5ba2b147d",
+   "dur": 0.799,
+   "src": "local"
+  },
+  "ipa:sˈæli": {
+   "id": "f40193eefa92",
+   "dur": 0.807,
+   "src": "local"
+  },
+  "ipa:sˈæmpʌl": {
+   "id": "d489e1a3b7e2",
+   "dur": 0.911,
+   "src": "local"
+  },
+  "ipa:sˈɔŋ": {
+   "id": "31bcdf394e35",
+   "dur": 0.733,
+   "src": "local"
+  },
+  "ipa:sˈɔɪl": {
+   "id": "15a362195adf",
+   "dur": 0.785,
+   "src": "local"
+  },
+  "ipa:sˈɛz": {
+   "id": "07c557ca9c21",
+   "dur": 0.762,
+   "src": "local"
+  },
+  "ipa:sˈɛʃʌn": {
+   "id": "7159799b23c9",
+   "dur": 0.857,
+   "src": "local"
+  },
+  "ipa:sˈɝkʌl": {
+   "id": "30d121b30d5a",
+   "dur": 0.806,
+   "src": "local"
+  },
+  "ipa:sˈɝmʌn": {
+   "id": "3a048ba6e122",
+   "dur": 0.869,
+   "src": "local"
+  },
+  "ipa:sˈɝv": {
+   "id": "2c7dd9c274d3",
+   "dur": 0.895,
+   "src": "local"
+  },
+  "ipa:sˈɪli": {
+   "id": "57dee8d15ac5",
+   "dur": 0.72,
+   "src": "local"
+  },
+  "ipa:sˈɪmbʌl": {
+   "id": "a050cee219a1",
+   "dur": 0.861,
+   "src": "local"
+  },
+  "ipa:sˈɪmpʌl": {
+   "id": "7d440aabee69",
+   "dur": 0.864,
+   "src": "local"
+  },
+  "ipa:sˈɪns": {
+   "id": "9fbc5340f522",
+   "dur": 0.744,
+   "src": "local"
+  },
+  "ipa:sˈɪstɝ": {
+   "id": "1c43fe2f8699",
+   "dur": 0.836,
+   "src": "local"
+  },
+  "ipa:sˈɪtɪŋ": {
+   "id": "1843fe902867",
+   "dur": 0.789,
+   "src": "local"
+  },
+  "ipa:sˈʌmɝ": {
+   "id": "560e239f9580",
+   "dur": 0.86,
+   "src": "local"
+  },
+  "ipa:sˈʌmʌn": {
+   "id": "97d37e53a586",
+   "dur": 0.844,
+   "src": "local"
+  },
+  "ipa:sˈʌni": {
+   "id": "d155a6831f92",
+   "dur": 0.818,
+   "src": "local"
+  },
+  "ipa:tɹˈaɪ": {
+   "id": "dd02bb4d2a46",
+   "dur": 0.713,
+   "src": "local"
+  },
+  "ipa:tɹˈaɪz": {
+   "id": "f4ee48b5635a",
+   "dur": 0.774,
+   "src": "local"
+  },
+  "ipa:tɹˈaɪɪŋ": {
+   "id": "9a0407a9ca7d",
+   "dur": 0.872,
+   "src": "local"
+  },
+  "ipa:tɹˈeɪl": {
+   "id": "c7cd20ab26cb",
+   "dur": 0.801,
+   "src": "local"
+  },
+  "ipa:tɹˈeɪn": {
+   "id": "68ebb3ee1ebf",
+   "dur": 0.87,
+   "src": "local"
+  },
+  "ipa:tɹˈeɪz": {
+   "id": "353fac9ed3ae",
+   "dur": 0.767,
+   "src": "local"
+  },
+  "ipa:tɹˈu": {
+   "id": "085ddb70b0aa",
+   "dur": 0.783,
+   "src": "local"
+  },
+  "ipa:tɹˈɛʌ": {
+   "id": "ce7affe0c946",
+   "dur": 0.803,
+   "src": "local"
+  },
+  "ipa:tɹˈʌst": {
+   "id": "ef9fce5270f7",
+   "dur": 0.783,
+   "src": "local"
+  },
+  "ipa:tˈaɪ": {
+   "id": "3d4f2bd79ebb",
+   "dur": 0.684,
+   "src": "local"
+  },
+  "ipa:tˈaɪm": {
+   "id": "e37aa73d4754",
+   "dur": 0.833,
+   "src": "local"
+  },
+  "ipa:tˈaɪmɝ": {
+   "id": "56f402138103",
+   "dur": 0.931,
+   "src": "local"
+  },
+  "ipa:tˈaɪpt": {
+   "id": "1b7e53ea5a31",
+   "dur": 0.773,
+   "src": "local"
+  },
+  "ipa:tˈaɪt": {
+   "id": "4c75934013a8",
+   "dur": 0.743,
+   "src": "local"
+  },
+  "ipa:tˈaɪɡɝ": {
+   "id": "190cdb7a8f60",
+   "dur": 0.907,
+   "src": "local"
+  },
+  "ipa:tˈaʊn": {
+   "id": "bf17b0245eb2",
+   "dur": 0.797,
+   "src": "local"
+  },
+  "ipa:tˈeɪbʌl": {
+   "id": "5793f136b422",
+   "dur": 0.865,
+   "src": "local"
+  },
+  "ipa:tˈeɪl": {
+   "id": "0b780918fa57",
+   "dur": 0.869,
+   "src": "local"
+  },
+  "ipa:tˈeɪld": {
+   "id": "6ad2f4518d30",
+   "dur": 0.885,
+   "src": "local"
+  },
+  "ipa:tˈeɪst": {
+   "id": "0a0c822d05e3",
+   "dur": 0.795,
+   "src": "local"
+  },
+  "ipa:tˈim": {
+   "id": "7cf801a35f10",
+   "dur": 0.838,
+   "src": "local"
+  },
+  "ipa:tˈiʧɝ": {
+   "id": "2f9b92d1cd8d",
+   "dur": 0.919,
+   "src": "local"
+  },
+  "ipa:tˈoʊld": {
+   "id": "7178f975961f",
+   "dur": 0.882,
+   "src": "local"
+  },
+  "ipa:tˈoʊn": {
+   "id": "4d1aa7e060c8",
+   "dur": 0.859,
+   "src": "local"
+  },
+  "ipa:tˈoʊst": {
+   "id": "fcee4b898393",
+   "dur": 0.796,
+   "src": "local"
+  },
+  "ipa:tˈoʊz": {
+   "id": "84189b80eb57",
+   "dur": 0.77,
+   "src": "local"
+  },
+  "ipa:tˈumɝ": {
+   "id": "47f598dc2051",
+   "dur": 0.936,
+   "src": "local"
+  },
+  "ipa:tˈæb": {
+   "id": "250d133880e1",
+   "dur": 0.724,
+   "src": "local"
+  },
+  "ipa:tˈɑpt": {
+   "id": "c65f54f7a5f5",
+   "dur": 0.785,
+   "src": "local"
+  },
+  "ipa:tˈɑɹ": {
+   "id": "5b6a0d4fa323",
+   "dur": 0.794,
+   "src": "local"
+  },
+  "ipa:tˈɔk": {
+   "id": "22593455f4d2",
+   "dur": 0.707,
+   "src": "local"
+  },
+  "ipa:tˈɔst": {
+   "id": "88b95d2e9733",
+   "dur": 0.783,
+   "src": "local"
+  },
+  "ipa:tˈɔɪ": {
+   "id": "dde5b4a9e464",
+   "dur": 0.695,
+   "src": "local"
+  },
+  "ipa:tˈɔɪz": {
+   "id": "59c076e0cd16",
+   "dur": 0.772,
+   "src": "local"
+  },
+  "ipa:tˈɔɹn": {
+   "id": "4add008a592b",
+   "dur": 0.82,
+   "src": "local"
+  },
+  "ipa:tˈɛst": {
+   "id": "c77e49c7bb30",
+   "dur": 0.798,
+   "src": "local"
+  },
+  "ipa:tˈɛstɪŋ": {
+   "id": "cb9edfd8ef7f",
+   "dur": 0.935,
+   "src": "local"
+  },
+  "ipa:tˈɝm": {
+   "id": "245558392875",
+   "dur": 0.835,
+   "src": "local"
+  },
+  "ipa:tˈɝn": {
+   "id": "611aa99bc4d8",
+   "dur": 0.87,
+   "src": "local"
+  },
+  "ipa:tˈʌf": {
+   "id": "6f60fc41a2a8",
+   "dur": 0.731,
+   "src": "local"
+  },
+  "ipa:tˈʌmbʌl": {
+   "id": "6e83b90880f8",
+   "dur": 0.766,
+   "src": "local"
+  },
+  "ipa:vjˈud": {
+   "id": "27364e5383f4",
+   "dur": 0.816,
+   "src": "local"
+  },
+  "ipa:vˈaɪs": {
+   "id": "8d29aa9d94e2",
+   "dur": 0.769,
+   "src": "local"
+  },
+  "ipa:vˈæstli": {
+   "id": "7972116570f7",
+   "dur": 0.912,
+   "src": "local"
+  },
+  "ipa:vˈɔɪd": {
+   "id": "3e9913662ca4",
+   "dur": 0.745,
+   "src": "local"
+  },
+  "ipa:vˈɔɪs": {
+   "id": "59c4509a2b79",
+   "dur": 0.768,
+   "src": "local"
+  },
+  "ipa:vˈɔɪst": {
+   "id": "afa217b3884c",
+   "dur": 0.73,
+   "src": "local"
+  },
+  "ipa:vˈɛndɪŋ": {
+   "id": "1ac202e73b3e",
+   "dur": 0.937,
+   "src": "local"
+  },
+  "ipa:vˈɛɹi": {
+   "id": "678852c32f2a",
+   "dur": 0.822,
+   "src": "local"
+  },
+  "ipa:vˈɝb": {
+   "id": "e31f7432138a",
+   "dur": 0.812,
+   "src": "local"
+  },
+  "ipa:vˈɝs": {
+   "id": "ff9f6e9d867b",
+   "dur": 0.732,
+   "src": "local"
+  },
+  "ipa:vˈɪlʌn": {
+   "id": "9a461ce4543d",
+   "dur": 0.859,
+   "src": "local"
+  },
+  "ipa:vˈɪlʌz": {
+   "id": "da67f3d98884",
+   "dur": 0.798,
+   "src": "local"
+  },
+  "ipa:vˈɪʒʌn": {
+   "id": "934186fe7b99",
+   "dur": 0.908,
+   "src": "local"
+  },
+  "ipa:wˈaɪ": {
+   "id": "37671843f46a",
+   "dur": 0.659,
+   "src": "local"
+  },
+  "ipa:wˈaɪd": {
+   "id": "4af723baac4a",
+   "dur": 0.785,
+   "src": "local"
+  },
+  "ipa:wˈaɪf": {
+   "id": "86f7f6188d96",
+   "dur": 0.745,
+   "src": "local"
+  },
+  "ipa:wˈaɪl": {
+   "id": "de618433737f",
+   "dur": 0.809,
+   "src": "local"
+  },
+  "ipa:wˈaɪld": {
+   "id": "b7732f642a84",
+   "dur": 0.935,
+   "src": "local"
+  },
+  "ipa:wˈaɪnd": {
+   "id": "76298bbe1327",
+   "dur": 0.911,
+   "src": "local"
+  },
+  "ipa:wˈaɪt": {
+   "id": "366f19b1ba3d",
+   "dur": 0.724,
+   "src": "local"
+  },
+  "ipa:wˈeɪ": {
+   "id": "a0aac8331ae8",
+   "dur": 0.666,
+   "src": "local"
+  },
+  "ipa:wˈeɪk": {
+   "id": "f58d3c748939",
+   "dur": 0.71,
+   "src": "local"
+  },
+  "ipa:wˈeɪlɪŋ": {
+   "id": "0556183dc5fb",
+   "dur": 0.912,
+   "src": "local"
+  },
+  "ipa:wˈeɪt": {
+   "id": "0708589833c4",
+   "dur": 0.724,
+   "src": "local"
+  },
+  "ipa:wˈeɪtɝ": {
+   "id": "fa4f34716daf",
+   "dur": 0.842,
+   "src": "local"
+  },
+  "ipa:wˈeɪv": {
+   "id": "5ab9158ddaab",
+   "dur": 0.765,
+   "src": "local"
+  },
+  "ipa:wˈeɪz": {
+   "id": "93c12da55a23",
+   "dur": 0.784,
+   "src": "local"
+  },
+  "ipa:wˈild": {
+   "id": "4858d6bb1f5b",
+   "dur": 0.839,
+   "src": "local"
+  },
+  "ipa:wˈoʊk": {
+   "id": "ea68c725e8eb",
+   "dur": 0.708,
+   "src": "local"
+  },
+  "ipa:wˈæm": {
+   "id": "ce0e2c43d1e9",
+   "dur": 0.808,
+   "src": "local"
+  },
+  "ipa:wˈɔk": {
+   "id": "43eff9a759f9",
+   "dur": 0.732,
+   "src": "local"
+  },
+  "ipa:wˈɔntɪd": {
+   "id": "90126f61472a",
+   "dur": 0.894,
+   "src": "local"
+  },
+  "ipa:wˈɔtɝ": {
+   "id": "f12cf6cf2a59",
+   "dur": 0.883,
+   "src": "local"
+  },
+  "ipa:wˈɔɹ": {
+   "id": "b85b3c7db89e",
+   "dur": 0.742,
+   "src": "local"
+  },
+  "ipa:wˈɔɹd": {
+   "id": "d86752a84fb6",
+   "dur": 0.735,
+   "src": "local"
+  },
+  "ipa:wˈɔɹm": {
+   "id": "f5d9d1bb84e6",
+   "dur": 0.793,
+   "src": "local"
+  },
+  "ipa:wˈɔɹmɪŋ": {
+   "id": "25d50e7a6aa2",
+   "dur": 0.939,
+   "src": "local"
+  },
+  "ipa:wˈɔɹn": {
+   "id": "45136fe23148",
+   "dur": 0.747,
+   "src": "local"
+  },
+  "ipa:wˈɔɹnɪŋ": {
+   "id": "31485a361a54",
+   "dur": 0.913,
+   "src": "local"
+  },
+  "ipa:wˈɔɹt": {
+   "id": "a8d0cbba7e65",
+   "dur": 0.733,
+   "src": "local"
+  },
+  "ipa:wˈɛld": {
+   "id": "e64b2a04ece0",
+   "dur": 0.837,
+   "src": "local"
+  },
+  "ipa:wˈɛn": {
+   "id": "8360ff3acf6d",
+   "dur": 0.785,
+   "src": "local"
+  },
+  "ipa:wˈɛst": {
+   "id": "df9d424ab492",
+   "dur": 0.749,
+   "src": "local"
+  },
+  "ipa:wˈɛtɝ": {
+   "id": "b1da5a72d72d",
+   "dur": 0.91,
+   "src": "local"
+  },
+  "ipa:wˈɛðɝ": {
+   "id": "2ef20c1d1be0",
+   "dur": 0.791,
+   "src": "local"
+  },
+  "ipa:wˈɛɹ": {
+   "id": "1efff2e61c98",
+   "dur": 0.772,
+   "src": "local"
+  },
+  "ipa:wˈɝ": {
+   "id": "5d3a598f7456",
+   "dur": 0.745,
+   "src": "local"
+  },
+  "ipa:wˈɝd": {
+   "id": "15c1d6b82a07",
+   "dur": 0.814,
+   "src": "local"
+  },
+  "ipa:wˈɝk": {
+   "id": "ee40ac7ac2b8",
+   "dur": 0.734,
+   "src": "local"
+  },
+  "ipa:wˈɝld": {
+   "id": "ddfe1e894349",
+   "dur": 0.838,
+   "src": "local"
+  },
+  "ipa:wˈɝst": {
+   "id": "081a0a1c2cbc",
+   "dur": 0.755,
+   "src": "local"
+  },
+  "ipa:wˈɝθ": {
+   "id": "60eaed50f864",
+   "dur": 0.753,
+   "src": "local"
+  },
+  "ipa:wˈɪlɪŋ": {
+   "id": "6cce72f8c589",
+   "dur": 0.893,
+   "src": "local"
+  },
+  "ipa:wˈɪndoʊ": {
+   "id": "b0a95955bfa6",
+   "dur": 0.866,
+   "src": "local"
+  },
+  "ipa:wˈɪnɪŋ": {
+   "id": "28f605c355fa",
+   "dur": 0.866,
+   "src": "local"
+  },
+  "ipa:wˈɪz": {
+   "id": "48a5425f56ea",
+   "dur": 0.77,
+   "src": "local"
+  },
+  "ipa:wˈɪŋ": {
+   "id": "da4074ae891e",
+   "dur": 0.89,
+   "src": "local"
+  },
+  "ipa:wˈɪɡʌl": {
+   "id": "9912f4969033",
+   "dur": 0.833,
+   "src": "local"
+  },
+  "ipa:wˈɪɹd": {
+   "id": "c1cd7f58c758",
+   "dur": 0.75,
+   "src": "local"
+  },
+  "ipa:wˈɪɹdoʊ": {
+   "id": "ce60ec393ebd",
+   "dur": 0.84,
+   "src": "local"
+  },
+  "ipa:wˈɪʃ": {
+   "id": "6e81686bc1f2",
+   "dur": 0.753,
+   "src": "local"
+  },
+  "ipa:wˈɪʃɪz": {
+   "id": "e5e674e36b2e",
+   "dur": 0.844,
+   "src": "local"
+  },
+  "ipa:wˈɪʃɪŋ": {
+   "id": "8898d42be1d2",
+   "dur": 0.843,
+   "src": "local"
+  },
+  "ipa:wˈʊd": {
+   "id": "92bd9a0e9db3",
+   "dur": 0.773,
+   "src": "local"
+  },
+  "ipa:wˈʌns": {
+   "id": "df0546847fbb",
+   "dur": 0.801,
+   "src": "local"
+  },
+  "ipa:wˈʌnz": {
+   "id": "048949e539db",
+   "dur": 0.822,
+   "src": "local"
+  },
+  "ipa:zˈæŋ": {
+   "id": "5d5f0804cf73",
+   "dur": 0.742,
+   "src": "local"
+  },
+  "ipa:ðˈaɪn": {
+   "id": "a6e89670415f",
+   "dur": 0.888,
+   "src": "local"
+  },
+  "ipa:ðˈoʊ": {
+   "id": "da05397c4836",
+   "dur": 0.677,
+   "src": "local"
+  },
+  "ipa:ðˈoʊz": {
+   "id": "cbd77943190d",
+   "dur": 0.751,
+   "src": "local"
+  },
+  "ipa:ðˈæt": {
+   "id": "a853dfdabb84",
+   "dur": 0.724,
+   "src": "local"
+  },
+  "ipa:ðˈɛm": {
+   "id": "89b70e336d23",
+   "dur": 0.832,
+   "src": "local"
+  },
+  "ipa:ðˈɛn": {
+   "id": "c400ad655675",
+   "dur": 0.865,
+   "src": "local"
+  },
+  "ipa:ðˈɪs": {
+   "id": "375d457c3088",
+   "dur": 0.707,
+   "src": "local"
+  },
+  "ipa:ɡlˈaɪdɝ": {
+   "id": "eef74cf804b5",
+   "dur": 0.884,
+   "src": "local"
+  },
+  "ipa:ɡlˈoʊ": {
+   "id": "b3bdc4d512d0",
+   "dur": 0.868,
+   "src": "local"
+  },
+  "ipa:ɡlˈu": {
+   "id": "684818c284d1",
+   "dur": 0.794,
+   "src": "local"
+  },
+  "ipa:ɡlˈæd": {
+   "id": "916cfde2c647",
+   "dur": 0.764,
+   "src": "local"
+  },
+  "ipa:ɡɹˈaʊl": {
+   "id": "46b2094589ed",
+   "dur": 0.753,
+   "src": "local"
+  },
+  "ipa:ɡɹˈaʊnd": {
+   "id": "666ef33064bf",
+   "dur": 0.913,
+   "src": "local"
+  },
+  "ipa:ɡɹˈeɪ": {
+   "id": "3434c63075cf",
+   "dur": 0.717,
+   "src": "local"
+  },
+  "ipa:ɡɹˈeɪd": {
+   "id": "c4a5f02819ad",
+   "dur": 0.814,
+   "src": "local"
+  },
+  "ipa:ɡɹˈeɪl": {
+   "id": "740d6178b2e2",
+   "dur": 0.758,
+   "src": "local"
+  },
+  "ipa:ɡɹˈeɪt": {
+   "id": "60a9430683bd",
+   "dur": 0.728,
+   "src": "local"
+  },
+  "ipa:ɡɹˈin": {
+   "id": "3e4ab0af3173",
+   "dur": 0.906,
+   "src": "local"
+  },
+  "ipa:ɡɹˈoʊ": {
+   "id": "a29af04db0ab",
+   "dur": 0.714,
+   "src": "local"
+  },
+  "ipa:ɡɹˈu": {
+   "id": "cc11efcfa221",
+   "dur": 0.801,
+   "src": "local"
+  },
+  "ipa:ɡɹˈæbd": {
+   "id": "f105a332ead5",
+   "dur": 0.788,
+   "src": "local"
+  },
+  "ipa:ɡɹˈæd": {
+   "id": "f017addd46b0",
+   "dur": 0.765,
+   "src": "local"
+  },
+  "ipa:ɡɹˈæf": {
+   "id": "03584d4229ab",
+   "dur": 0.68,
+   "src": "local"
+  },
+  "ipa:ɡɹˈænd": {
+   "id": "80de624d28f1",
+   "dur": 0.842,
+   "src": "local"
+  },
+  "ipa:ɡɹˈɪl": {
+   "id": "920da0e989c6",
+   "dur": 0.709,
+   "src": "local"
+  },
+  "ipa:ɡɹˈɪnd": {
+   "id": "67dab8a5e423",
+   "dur": 0.916,
+   "src": "local"
+  },
+  "ipa:ɡˈaɪd": {
+   "id": "25f73f8fb190",
+   "dur": 0.736,
+   "src": "local"
+  },
+  "ipa:ɡˈeɪbʌl": {
+   "id": "26d9cf4da2b0",
+   "dur": 0.833,
+   "src": "local"
+  },
+  "ipa:ɡˈeɪm": {
+   "id": "aaa7918ca8e0",
+   "dur": 0.788,
+   "src": "local"
+  },
+  "ipa:ɡˈeɪnɪŋ": {
+   "id": "5df552100a0b",
+   "dur": 0.914,
+   "src": "local"
+  },
+  "ipa:ɡˈeɪv": {
+   "id": "27bb0fe36515",
+   "dur": 0.74,
+   "src": "local"
+  },
+  "ipa:ɡˈoʊld": {
+   "id": "e43b26c6ae5d",
+   "dur": 0.891,
+   "src": "local"
+  },
+  "ipa:ɡˈoʊst": {
+   "id": "6b461670afde",
+   "dur": 0.775,
+   "src": "local"
+  },
+  "ipa:ɡˈoʊz": {
+   "id": "5674a02206c6",
+   "dur": 0.763,
+   "src": "local"
+  },
+  "ipa:ɡˈuɡʌl": {
+   "id": "1c0a6f44afd1",
+   "dur": 0.93,
+   "src": "local"
+  },
+  "ipa:ɡˈæstli": {
+   "id": "06ac3d0609e2",
+   "dur": 0.931,
+   "src": "local"
+  },
+  "ipa:ɡˈɑɹdʌn": {
+   "id": "423906af9fc2",
+   "dur": 0.888,
+   "src": "local"
+  },
+  "ipa:ɡˈɑʃ": {
+   "id": "a0db254d4ac3",
+   "dur": 0.71,
+   "src": "local"
+  },
+  "ipa:ɡˈɔn": {
+   "id": "6990e9248d66",
+   "dur": 0.831,
+   "src": "local"
+  },
+  "ipa:ɡˈɝl": {
+   "id": "ba48c28794a0",
+   "dur": 0.684,
+   "src": "local"
+  },
+  "ipa:ɡˈɪld": {
+   "id": "4d2834966dcf",
+   "dur": 0.825,
+   "src": "local"
+  },
+  "ipa:ɡˈɪlt": {
+   "id": "eded1a5dd6c8",
+   "dur": 0.778,
+   "src": "local"
+  },
+  "ipa:ɡˈɪv": {
+   "id": "1e2421b643f3",
+   "dur": 0.604,
+   "src": "local"
+  },
+  "ipa:ɡˈɪɡʌl": {
+   "id": "743b7dd06b16",
+   "dur": 0.861,
+   "src": "local"
+  },
+  "ipa:ɡˈʊd": {
+   "id": "d70ef83764d6",
+   "dur": 0.717,
+   "src": "local"
+  },
+  "ipa:ɡˈʌnɪŋ": {
+   "id": "2c5b7471ae76",
+   "dur": 0.864,
+   "src": "local"
+  },
+  "ipa:ɹˈaɪd": {
+   "id": "afb84e449c1b",
+   "dur": 0.789,
+   "src": "local"
+  },
+  "ipa:ɹˈaɪdɪŋ": {
+   "id": "ea8753f19515",
+   "dur": 0.932,
+   "src": "local"
+  },
+  "ipa:ɹˈaɪt": {
+   "id": "ab92441e65cd",
+   "dur": 0.8,
+   "src": "local"
+  },
+  "ipa:ɹˈaʊnd": {
+   "id": "de87ebfbb564",
+   "dur": 0.889,
+   "src": "local"
+  },
+  "ipa:ɹˈeɪl": {
+   "id": "ac30df3c2d63",
+   "dur": 0.784,
+   "src": "local"
+  },
+  "ipa:ɹˈeɪn": {
+   "id": "17a8f1294aa5",
+   "dur": 0.856,
+   "src": "local"
+  },
+  "ipa:ɹˈeɪnd": {
+   "id": "618a89f06c26",
+   "dur": 0.888,
+   "src": "local"
+  },
+  "ipa:ɹˈeɪnɪŋ": {
+   "id": "626e160ec2b4",
+   "dur": 0.911,
+   "src": "local"
+  },
+  "ipa:ɹˈeɪnʤ": {
+   "id": "fae48e90f086",
+   "dur": 0.886,
+   "src": "local"
+  },
+  "ipa:ɹˈeɪpɪŋ": {
+   "id": "04ce2dc09a23",
+   "dur": 0.915,
+   "src": "local"
+  },
+  "ipa:ɹˈeɪs": {
+   "id": "e2eb684e3769",
+   "dur": 0.803,
+   "src": "local"
+  },
+  "ipa:ɹˈeɪvɪŋ": {
+   "id": "bf4e0ad4e95d",
+   "dur": 0.907,
+   "src": "local"
+  },
+  "ipa:ɹˈid": {
+   "id": "4fee7d809bb5",
+   "dur": 0.864,
+   "src": "local"
+  },
+  "ipa:ɹˈil": {
+   "id": "33a616caa701",
+   "dur": 0.869,
+   "src": "local"
+  },
+  "ipa:ɹˈoʊd": {
+   "id": "ae13c5a0e823",
+   "dur": 0.764,
+   "src": "local"
+  },
+  "ipa:ɹˈoʊl": {
+   "id": "896482b6e492",
+   "dur": 0.815,
+   "src": "local"
+  },
+  "ipa:ɹˈoʊst": {
+   "id": "9d79b50a4af4",
+   "dur": 0.75,
+   "src": "local"
+  },
+  "ipa:ɹˈoʊt": {
+   "id": "b39f13ae9f67",
+   "dur": 0.772,
+   "src": "local"
+  },
+  "ipa:ɹˈuf": {
+   "id": "db556f2e4bd5",
+   "dur": 0.802,
+   "src": "local"
+  },
+  "ipa:ɹˈul": {
+   "id": "a9ff6ce44a5e",
+   "dur": 0.908,
+   "src": "local"
+  },
+  "ipa:ɹˈæbʌl": {
+   "id": "040c09399d29",
+   "dur": 0.875,
+   "src": "local"
+  },
+  "ipa:ɹˈæbʌt": {
+   "id": "9500bea75787",
+   "dur": 0.797,
+   "src": "local"
+  },
+  "ipa:ɹˈækɪŋ": {
+   "id": "ad5dde1190bb",
+   "dur": 0.933,
+   "src": "local"
+  },
+  "ipa:ɹˈæli": {
+   "id": "89376ccf6985",
+   "dur": 0.809,
+   "src": "local"
+  },
+  "ipa:ɹˈænt": {
+   "id": "21b57712557d",
+   "dur": 0.801,
+   "src": "local"
+  },
+  "ipa:ɹˈæpʧɝ": {
+   "id": "2c76526df4cd",
+   "dur": 1.031,
+   "src": "local"
+  },
+  "ipa:ɹˈæŋ": {
+   "id": "2f8c733d6bc7",
+   "dur": 0.868,
+   "src": "local"
+  },
+  "ipa:ɹˈæŋk": {
+   "id": "87af64546fd7",
+   "dur": 0.658,
+   "src": "local"
+  },
+  "ipa:ɹˈɔŋ": {
+   "id": "6a605d3f58e0",
+   "dur": 0.795,
+   "src": "local"
+  },
+  "ipa:ɹˈɛf": {
+   "id": "78a46777dbeb",
+   "dur": 0.703,
+   "src": "local"
+  },
+  "ipa:ɹˈɛkɪŋ": {
+   "id": "d99c9dc17550",
+   "dur": 0.888,
+   "src": "local"
+  },
+  "ipa:ɹˈɛst": {
+   "id": "ef41cf3b8fbb",
+   "dur": 0.744,
+   "src": "local"
+  },
+  "ipa:ɹˈɛstɪŋ": {
+   "id": "1862bf0eb6bc",
+   "dur": 0.892,
+   "src": "local"
+  },
+  "ipa:ɹˈɛɹ": {
+   "id": "97d005308c7b",
+   "dur": 0.819,
+   "src": "local"
+  },
+  "ipa:ɹˈɛɹɝ": {
+   "id": "93c40b13689f",
+   "dur": 0.955,
+   "src": "local"
+  },
+  "ipa:ɹˈɪf": {
+   "id": "06adc258e36b",
+   "dur": 0.73,
+   "src": "local"
+  },
+  "ipa:ɹˈɪtʌn": {
+   "id": "23c688ee12f3",
+   "dur": 0.887,
+   "src": "local"
+  },
+  "ipa:ɹˈɪvɝ": {
+   "id": "2c67f393b037",
+   "dur": 0.836,
+   "src": "local"
+  },
+  "ipa:ɹˈɪzʌn": {
+   "id": "313a43a7dcfe",
+   "dur": 0.916,
+   "src": "local"
+  },
+  "ipa:ɹˈɪŋ": {
+   "id": "5a3fe867e52c",
+   "dur": 0.84,
+   "src": "local"
+  },
+  "ipa:ɹˈɪŋɝ": {
+   "id": "c037840443f9",
+   "dur": 0.956,
+   "src": "local"
+  },
+  "ipa:ɹˈɪɹ": {
+   "id": "87c774a36b69",
+   "dur": 0.839,
+   "src": "local"
+  },
+  "ipa:ɹˈʌdi": {
+   "id": "561da3fbd5f3",
+   "dur": 0.74,
+   "src": "local"
+  },
+  "ipa:ɹˈʌdɝ": {
+   "id": "fbc9d220e876",
+   "dur": 0.859,
+   "src": "local"
+  },
+  "ipa:ɹˈʌf": {
+   "id": "7dc2fb52cac2",
+   "dur": 0.723,
+   "src": "local"
+  },
+  "ipa:ɹˈʌmbʌl": {
+   "id": "cecd94048015",
+   "dur": 0.837,
+   "src": "local"
+  },
+  "ipa:ɹˈʌnɪŋ": {
+   "id": "1892a2b13582",
+   "dur": 0.909,
+   "src": "local"
+  },
+  "ipa:ɹˈʌpʧɝ": {
+   "id": "1e3bae86f81d",
+   "dur": 0.889,
+   "src": "local"
+  },
+  "ipa:ɹˈʌŋ": {
+   "id": "810b5c96a5c9",
+   "dur": 0.795,
+   "src": "local"
+  },
+  "ipa:ʃɹˈaʊd": {
+   "id": "c52080200d71",
+   "dur": 0.801,
+   "src": "local"
+  },
+  "ipa:ʃɹˈud": {
+   "id": "e16a29963c87",
+   "dur": 0.835,
+   "src": "local"
+  },
+  "ipa:ʃɹˈʌb": {
+   "id": "7b942396fbe8",
+   "dur": 0.82,
+   "src": "local"
+  },
+  "ipa:ʃɹˈʌɡ": {
+   "id": "0c37da59dc45",
+   "dur": 0.807,
+   "src": "local"
+  },
+  "ipa:ʃˈaʊt": {
+   "id": "3461f6d2c547",
+   "dur": 0.673,
+   "src": "local"
+  },
+  "ipa:ʃˈeɪd": {
+   "id": "a96cd095d40d",
+   "dur": 0.75,
+   "src": "local"
+  },
+  "ipa:ʃˈeɪkɪŋ": {
+   "id": "78c14fbc6385",
+   "dur": 0.886,
+   "src": "local"
+  },
+  "ipa:ʃˈoʊ": {
+   "id": "de7671cc8937",
+   "dur": 0.758,
+   "src": "local"
+  },
+  "ipa:ʃˈoʊd": {
+   "id": "176660aeada3",
+   "dur": 0.734,
+   "src": "local"
+  },
+  "ipa:ʃˈæl": {
+   "id": "13434f86b087",
+   "dur": 0.809,
+   "src": "local"
+  },
+  "ipa:ʃˈɑkɪŋ": {
+   "id": "599994fe6aad",
+   "dur": 0.932,
+   "src": "local"
+  },
+  "ipa:ʃˈɑɹd": {
+   "id": "56c768c0d1ae",
+   "dur": 0.791,
+   "src": "local"
+  },
+  "ipa:ʃˈɔɹt": {
+   "id": "89fba8d9b820",
+   "dur": 0.724,
+   "src": "local"
+  },
+  "ipa:ʃˈɔɹz": {
+   "id": "e4355f4548e7",
+   "dur": 0.773,
+   "src": "local"
+  },
+  "ipa:ʃˈɛɹ": {
+   "id": "54c7b2508c09",
+   "dur": 0.744,
+   "src": "local"
+  },
+  "ipa:ʃˈɛɹɪŋ": {
+   "id": "72714d588d58",
+   "dur": 0.844,
+   "src": "local"
+  },
+  "ipa:ʃˈɪvɝ": {
+   "id": "9a4eac158896",
+   "dur": 0.786,
+   "src": "local"
+  },
+  "ipa:ʃˈʊd": {
+   "id": "71149daa4c97",
+   "dur": 0.685,
+   "src": "local"
+  },
+  "ipa:ʃˈʊɹ": {
+   "id": "8f0f5681e561",
+   "dur": 0.689,
+   "src": "local"
+  },
+  "ipa:ʃˈʌt": {
+   "id": "d7a14bb1e83f",
+   "dur": 0.686,
+   "src": "local"
+  },
+  "ipa:ʤˈeɪn": {
+   "id": "c7dbf35f33cc",
+   "dur": 0.796,
+   "src": "local"
+  },
+  "ipa:ʤˈoʊkɪŋ": {
+   "id": "c51e5cc4517f",
+   "dur": 0.887,
+   "src": "local"
+  },
+  "ipa:ʤˈun": {
+   "id": "3c2637098070",
+   "dur": 0.819,
+   "src": "local"
+  },
+  "ipa:ʤˈɑnz": {
+   "id": "750c514689a5",
+   "dur": 0.864,
+   "src": "local"
+  },
+  "ipa:ʤˈɔz": {
+   "id": "25300a4fce00",
+   "dur": 0.813,
+   "src": "local"
+  },
+  "ipa:ʤˈɔɪ": {
+   "id": "9601ef223f3e",
+   "dur": 0.662,
+   "src": "local"
+  },
+  "ipa:ʤˈɔɪn": {
+   "id": "1942ee14689d",
+   "dur": 0.839,
+   "src": "local"
+  },
+  "ipa:ʤˈɔɪnz": {
+   "id": "771558096573",
+   "dur": 0.896,
+   "src": "local"
+  },
+  "ipa:ʤˈɝkɪŋ": {
+   "id": "e78abd49dd5c",
+   "dur": 0.905,
+   "src": "local"
+  },
+  "ipa:ʤˈʌmp": {
+   "id": "79340228cf25",
+   "dur": 0.719,
+   "src": "local"
+  },
+  "ipa:ʤˈʌmpt": {
+   "id": "81a4eb725f32",
+   "dur": 0.812,
+   "src": "local"
+  },
+  "ipa:ʤˈʌmpɝ": {
+   "id": "58688c14a720",
+   "dur": 0.86,
+   "src": "local"
+  },
+  "ipa:ʤˈʌmpɪŋ": {
+   "id": "e0d044eb9bac",
+   "dur": 0.893,
+   "src": "local"
+  },
+  "ipa:ʤˈʌŋk": {
+   "id": "0a1da6b513b2",
+   "dur": 0.726,
+   "src": "local"
+  },
+  "ipa:ʧˈaɪld": {
+   "id": "249e057e3082",
+   "dur": 0.868,
+   "src": "local"
+  },
+  "ipa:ʧˈaʊ": {
+   "id": "4c5e1e37a088",
+   "dur": 0.673,
+   "src": "local"
+  },
+  "ipa:ʧˈeɪnʤ": {
+   "id": "9dde915c6444",
+   "dur": 0.895,
+   "src": "local"
+  },
+  "ipa:ʧˈoʊkt": {
+   "id": "052f367f27cb",
+   "dur": 0.821,
+   "src": "local"
+  },
+  "ipa:ʧˈuzɪŋ": {
+   "id": "e186d676650b",
+   "dur": 0.988,
+   "src": "local"
+  },
+  "ipa:ʧˈɑɹm": {
+   "id": "5f8357ac7273",
+   "dur": 0.811,
+   "src": "local"
+  },
+  "ipa:ʧˈɑɹt": {
+   "id": "5e6df30d4cdd",
+   "dur": 0.774,
+   "src": "local"
+  },
+  "ipa:ʧˈɔɪs": {
+   "id": "1606f06bcd79",
+   "dur": 0.803,
+   "src": "local"
+  },
+  "ipa:ʧˈɛkɪŋ": {
+   "id": "af721b8955b4",
+   "dur": 0.877,
+   "src": "local"
+  },
+  "ipa:ʧˈɪld": {
+   "id": "ebc38f5fa59f",
+   "dur": 0.872,
+   "src": "local"
+  },
+  "ipa:ʧˈɪɹ": {
+   "id": "e20a38bc70c4",
+   "dur": 0.747,
+   "src": "local"
+  },
+  "ipa:ˈaɪd": {
+   "id": "233730a78378",
+   "dur": 0.807,
+   "src": "local"
+  },
+  "ipa:ˈaɪl": {
+   "id": "75ce0f58e98e",
+   "dur": 0.8,
+   "src": "local"
+  },
+  "ipa:ˈoʊ": {
+   "id": "5e2879c009be",
+   "dur": 0.589,
+   "src": "local"
+  },
+  "ipa:ˈoʊn": {
+   "id": "c82ea21a66f0",
+   "dur": 0.765,
+   "src": "local"
+  },
+  "ipa:ˈoʊpʌl": {
+   "id": "3dce105cc545",
+   "dur": 0.79,
+   "src": "local"
+  },
+  "ipa:ˈoʊpʌn": {
+   "id": "3b0a80818fed",
+   "dur": 0.938,
+   "src": "local"
+  },
+  "ipa:ˈæpʌl": {
+   "id": "57bc9af0a003",
+   "dur": 0.79,
+   "src": "local"
+  },
+  "ipa:ˈæŋkʌl": {
+   "id": "b525d62dab3b",
+   "dur": 0.857,
+   "src": "local"
+  },
+  "ipa:ˈæŋɡʌl": {
+   "id": "9e91f234c18d",
+   "dur": 0.799,
+   "src": "local"
+  },
+  "ipa:ˈɑpt": {
+   "id": "befa415a97c2",
+   "dur": 0.681,
+   "src": "local"
+  },
+  "ipa:ˈɑɹm": {
+   "id": "d3fe5be75644",
+   "dur": 0.78,
+   "src": "local"
+  },
+  "ipa:ˈɑɹt": {
+   "id": "25efbb302c33",
+   "dur": 0.675,
+   "src": "local"
+  },
+  "ipa:ˈɔf": {
+   "id": "c232addb72cb",
+   "dur": 0.733,
+   "src": "local"
+  },
+  "ipa:ˈɔl": {
+   "id": "16712e09416d",
+   "dur": 0.756,
+   "src": "local"
+  },
+  "ipa:ˈɔɪl": {
+   "id": "f91e59929eaa",
+   "dur": 0.759,
+   "src": "local"
+  },
+  "ipa:ˈɪl": {
+   "id": "1a84a06a854c",
+   "dur": 0.721,
+   "src": "local"
+  },
+  "ipa:ˈɪnsɛkt": {
+   "id": "5e90e23a00c3",
+   "dur": 0.843,
+   "src": "local"
+  },
+  "ipa:ˈɪnʤɛkt": {
+   "id": "4711a87cf38e",
+   "dur": 0.848,
+   "src": "local"
+  },
+  "ipa:ˈʌndu": {
+   "id": "aadf513bdcd3",
+   "dur": 0.841,
+   "src": "local"
+  },
+  "ipa:ˈʌndɝ": {
+   "id": "f866e5221ff1",
+   "dur": 0.807,
+   "src": "local"
+  },
+  "ipa:ˈʌŋkʌl": {
+   "id": "e9abbe43c710",
+   "dur": 0.86,
+   "src": "local"
+  },
+  "ipa:θɹˈaɪv": {
+   "id": "0f0763f5bbe9",
+   "dur": 0.836,
+   "src": "local"
+  },
+  "ipa:θɹˈi": {
+   "id": "4b9d6c51f77f",
+   "dur": 0.801,
+   "src": "local"
+  },
+  "ipa:θɹˈoʊn": {
+   "id": "93b5a9137ce2",
+   "dur": 0.882,
+   "src": "local"
+  },
+  "ipa:θɹˈu": {
+   "id": "b2a5a1211144",
+   "dur": 0.85,
+   "src": "local"
+  },
+  "ipa:θɹˈɛd": {
+   "id": "983a7a5b9f2e",
+   "dur": 0.822,
+   "src": "local"
+  },
+  "ipa:θɹˈɪl": {
+   "id": "17e00c949680",
+   "dur": 0.643,
+   "src": "local"
+  },
+  "ipa:θɹˈʌst": {
+   "id": "890f6cb6b1bd",
+   "dur": 0.79,
+   "src": "local"
+  },
+  "ipa:θˈæŋk": {
+   "id": "f8569d42c9f5",
+   "dur": 0.704,
+   "src": "local"
+  },
+  "ipa:θˈɝd": {
+   "id": "19f568233688",
+   "dur": 0.821,
+   "src": "local"
+  },
+  "ipa:θˈɪnɝ": {
+   "id": "9b1c0130e5e9",
+   "dur": 0.844,
+   "src": "local"
+  },
+  "ipa:θˈɪŋk": {
+   "id": "d07592f49b48",
+   "dur": 0.711,
+   "src": "local"
+  },
+  "ipa:θˈʌm": {
+   "id": "af77fbcbff08",
+   "dur": 0.756,
+   "src": "local"
+  },
+  "ipa:θˈʌmpɪŋ": {
+   "id": "ba91592039c5",
+   "dur": 0.881,
+   "src": "local"
+  },
+  "ipa:θˈʌmz": {
+   "id": "d591cca4193f",
+   "dur": 0.818,
+   "src": "local"
+  },
+  "w:about": {
+   "id": "41a41627cfda",
+   "dur": 0.781,
+   "src": "local"
+  },
+  "w:accident": {
+   "id": "48bd10eb52c3",
+   "dur": 1.013,
+   "src": "local"
+  },
+  "w:across": {
+   "id": "9d7f2f8c27f0",
+   "dur": 0.816,
+   "src": "local"
+  },
+  "w:action": {
+   "id": "e65d0d63b86f",
+   "dur": 0.848,
+   "src": "local"
+  },
+  "w:adds": {
+   "id": "4837869266cd",
+   "dur": 0.807,
+   "src": "local"
+  },
+  "w:admitted": {
+   "id": "d0d72bc8b56b",
+   "dur": 1.077,
+   "src": "local"
+  },
+  "w:adventure": {
+   "id": "122995869c80",
+   "dur": 1.077,
+   "src": "local"
+  },
+  "w:after": {
+   "id": "23785e82cbfa",
+   "dur": 0.924,
+   "src": "local"
+  },
+  "w:afternoon": {
+   "id": "eb43b82d328b",
+   "dur": 1.107,
+   "src": "local"
+  },
+  "w:again": {
+   "id": "3fd519ecbfcc",
+   "dur": 0.836,
+   "src": "local"
+  },
+  "w:against": {
+   "id": "9e6db752a231",
+   "dur": 0.836,
+   "src": "local"
+  },
+  "w:ago": {
+   "id": "b88ddc316fdd",
+   "dur": 0.789,
+   "src": "local"
+  },
+  "w:alarm": {
+   "id": "d9e2ead8d920",
+   "dur": 0.898,
+   "src": "local"
+  },
+  "w:all": {
+   "id": "16712e09416d",
+   "dur": 0.756,
+   "src": "local"
+  },
+  "w:almost": {
+   "id": "dfdba80e6000",
+   "dur": 0.874,
+   "src": "local"
+  },
+  "w:alone": {
+   "id": "deb343450977",
+   "dur": 0.931,
+   "src": "local"
+  },
+  "w:aloud": {
+   "id": "080b3299b3a5",
+   "dur": 0.907,
+   "src": "local"
+  },
+  "w:already": {
+   "id": "d04cef3a3037",
+   "dur": 0.931,
+   "src": "local"
+  },
+  "w:also": {
+   "id": "8a929531c278",
+   "dur": 0.881,
+   "src": "local"
+  },
+  "w:always": {
+   "id": "f2087b1d2cae",
+   "dur": 0.848,
+   "src": "local"
+  },
+  "w:ankle": {
+   "id": "b525d62dab3b",
+   "dur": 0.857,
+   "src": "local"
+  },
+  "w:annoy": {
+   "id": "dbdb01ebd61e",
+   "dur": 0.909,
+   "src": "local"
+  },
+  "w:another": {
+   "id": "9e29300a9914",
+   "dur": 0.904,
+   "src": "local"
+  },
+  "w:answer": {
+   "id": "5585cb7ac2ed",
+   "dur": 0.828,
+   "src": "local"
+  },
+  "w:anyone": {
+   "id": "ddf393f81394",
+   "dur": 0.952,
+   "src": "local"
+  },
+  "w:anything": {
+   "id": "3b7a780b8c60",
+   "dur": 0.935,
+   "src": "local"
+  },
+  "w:apple": {
+   "id": "57bc9af0a003",
+   "dur": 0.79,
+   "src": "local"
+  },
+  "w:appointment": {
+   "id": "976b4d4acc9f",
+   "dur": 1.056,
+   "src": "local"
+  },
+  "w:arm": {
+   "id": "d3fe5be75644",
+   "dur": 0.78,
+   "src": "local"
+  },
+  "w:arms": {
+   "id": "51d5ee092848",
+   "dur": 0.836,
+   "src": "local"
+  },
+  "w:around": {
+   "id": "054bde4a5ae7",
+   "dur": 1.026,
+   "src": "local"
+  },
+  "w:art": {
+   "id": "25efbb302c33",
+   "dur": 0.675,
+   "src": "local"
+  },
+  "w:artist": {
+   "id": "59c3e7d8052e",
+   "dur": 0.841,
+   "src": "local"
+  },
+  "w:asked": {
+   "id": "0e02ee65614f",
+   "dur": 0.793,
+   "src": "local"
+  },
+  "w:attention": {
+   "id": "f9cf4ff7cbe8",
+   "dur": 1.097,
+   "src": "local"
+  },
+  "w:babies": {
+   "id": "39b7929a9bcf",
+   "dur": 0.881,
+   "src": "local"
+  },
+  "w:baby": {
+   "id": "62d9fa63c64b",
+   "dur": 0.891,
+   "src": "local"
+  },
+  "w:back": {
+   "id": "31fe15bf7ff4",
+   "dur": 0.637,
+   "src": "local"
+  },
+  "w:backlog": {
+   "id": "465b21e00e35",
+   "dur": 1.008,
+   "src": "local"
+  },
+  "w:backpack": {
+   "id": "749ae9b48b0f",
+   "dur": 0.803,
+   "src": "local"
+  },
+  "w:bacon": {
+   "id": "8ba8cd83abe3",
+   "dur": 0.963,
+   "src": "local"
+  },
+  "w:bad": {
+   "id": "af77151fd8dc",
+   "dur": 0.707,
+   "src": "local"
+  },
+  "w:bags": {
+   "id": "4dc94873f508",
+   "dur": 0.846,
+   "src": "local"
+  },
+  "w:bandage": {
+   "id": "1e8375add153",
+   "dur": 0.954,
+   "src": "local"
+  },
+  "w:bank": {
+   "id": "4f230e1bb056",
+   "dur": 0.689,
+   "src": "local"
+  },
+  "w:bar": {
+   "id": "cc1aafd06fbf",
+   "dur": 0.735,
+   "src": "local"
+  },
+  "w:bare": {
+   "id": "bea554ec3566",
+   "dur": 0.945,
+   "src": "local"
+  },
+  "w:barks": {
+   "id": "9fe1c78b6d87",
+   "dur": 0.761,
+   "src": "local"
+  },
+  "w:barn": {
+   "id": "9264c3d7cd7c",
+   "dur": 0.657,
+   "src": "local"
+  },
+  "w:barnyard": {
+   "id": "947cbe098bf9",
+   "dur": 1.01,
+   "src": "local"
+  },
+  "w:basket": {
+   "id": "51a1c7e7910d",
+   "dur": 0.877,
+   "src": "local"
+  },
+  "w:battery": {
+   "id": "e7beba03a038",
+   "dur": 0.843,
+   "src": "local"
+  },
+  "w:bear": {
+   "id": "bea554ec3566",
+   "dur": 0.945,
+   "src": "local"
+  },
+  "w:because": {
+   "id": "c7d95c15daf7",
+   "dur": 0.85,
+   "src": "local"
+  },
+  "w:been": {
+   "id": "5fdd1c7013ed",
+   "dur": 0.808,
+   "src": "local"
+  },
+  "w:before": {
+   "id": "1f9e3168ded8",
+   "dur": 0.915,
+   "src": "local"
+  },
+  "w:began": {
+   "id": "5835fb72e42f",
+   "dur": 0.811,
+   "src": "local"
+  },
+  "w:behind": {
+   "id": "3494a660ef47",
+   "dur": 0.981,
+   "src": "local"
+  },
+  "w:believe": {
+   "id": "4def959808cb",
+   "dur": 0.912,
+   "src": "local"
+  },
+  "w:belt": {
+   "id": "f7b3f57bd59b",
+   "dur": 0.73,
+   "src": "local"
+  },
+  "w:benches": {
+   "id": "d2b04c62492e",
+   "dur": 0.916,
+   "src": "local"
+  },
+  "w:best": {
+   "id": "5c73318a56e4",
+   "dur": 0.777,
+   "src": "local"
+  },
+  "w:bigger": {
+   "id": "8351fa32a7a1",
+   "dur": 0.773,
+   "src": "local"
+  },
+  "w:bike": {
+   "id": "2d62983c592e",
+   "dur": 0.661,
+   "src": "local"
+  },
+  "w:bin": {
+   "id": "5fdd1c7013ed",
+   "dur": 0.808,
+   "src": "local"
+  },
+  "w:bird": {
+   "id": "2f95f184c308",
+   "dur": 0.745,
+   "src": "local"
+  },
+  "w:birth": {
+   "id": "88a3061c7165",
+   "dur": 0.689,
+   "src": "local"
+  },
+  "w:bits": {
+   "id": "9d54c29dce1a",
+   "dur": 0.683,
+   "src": "local"
+  },
+  "w:black": {
+   "id": "668e593f2ba5",
+   "dur": 0.656,
+   "src": "local"
+  },
+  "w:blair": {
+   "id": "40430f96ca05",
+   "dur": 0.707,
+   "src": "local"
+  },
+  "w:blame": {
+   "id": "ce9920811b28",
+   "dur": 0.797,
+   "src": "local"
+  },
+  "w:blew": {
+   "id": "a3fd61d2fdd1",
+   "dur": 0.759,
+   "src": "local"
+  },
+  "w:blight": {
+   "id": "5f0a7899a2eb",
+   "dur": 0.683,
+   "src": "local"
+  },
+  "w:blind": {
+   "id": "92f44a865835",
+   "dur": 0.867,
+   "src": "local"
+  },
+  "w:blinking": {
+   "id": "e8db4631a6cd",
+   "dur": 0.965,
+   "src": "local"
+  },
+  "w:blip": {
+   "id": "352ce039910f",
+   "dur": 0.685,
+   "src": "local"
+  },
+  "w:block": {
+   "id": "9e5fdb2ae94a",
+   "dur": 0.686,
+   "src": "local"
+  },
+  "w:blow": {
+   "id": "d7939f7efc0e",
+   "dur": 0.688,
+   "src": "local"
+  },
+  "w:blue": {
+   "id": "a3fd61d2fdd1",
+   "dur": 0.759,
+   "src": "local"
+  },
+  "w:boat": {
+   "id": "f653582643ce",
+   "dur": 0.683,
+   "src": "local"
+  },
+  "w:boil": {
+   "id": "ece749bddda6",
+   "dur": 0.749,
+   "src": "local"
+  },
+  "w:bold": {
+   "id": "e432c9d05d17",
+   "dur": 0.843,
+   "src": "local"
+  },
+  "w:bone": {
+   "id": "b171bd7cc6ca",
+   "dur": 0.775,
+   "src": "local"
+  },
+  "w:book": {
+   "id": "fb671c87a98a",
+   "dur": 0.656,
+   "src": "local"
+  },
+  "w:born": {
+   "id": "ade715a67627",
+   "dur": 0.742,
+   "src": "local"
+  },
+  "w:boss": {
+   "id": "56d5d8b0ec85",
+   "dur": 0.753,
+   "src": "local"
+  },
+  "w:bottle": {
+   "id": "8cc74f2f6c9b",
+   "dur": 0.809,
+   "src": "local"
+  },
+  "w:bowl": {
+   "id": "774bf988ea67",
+   "dur": 0.752,
+   "src": "local"
+  },
+  "w:boxes": {
+   "id": "e6a93f1d50a9",
+   "dur": 0.91,
+   "src": "local"
+  },
+  "w:boy": {
+   "id": "17c662f58400",
+   "dur": 0.664,
+   "src": "local"
+  },
+  "w:brain": {
+   "id": "9b9fbf9f053c",
+   "dur": 0.819,
+   "src": "local"
+  },
+  "w:branches": {
+   "id": "b0d00b768b9c",
+   "dur": 0.9,
+   "src": "local"
+  },
+  "w:brave": {
+   "id": "2380e022c6d9",
+   "dur": 0.729,
+   "src": "local"
+  },
+  "w:bread": {
+   "id": "d512c6e41df2",
+   "dur": 0.706,
+   "src": "local"
+  },
+  "w:breaks": {
+   "id": "f0658ebca13a",
+   "dur": 0.785,
+   "src": "local"
+  },
+  "w:breath": {
+   "id": "a96634fe3876",
+   "dur": 0.683,
+   "src": "local"
+  },
+  "w:bridge": {
+   "id": "27c9de3b7c35",
+   "dur": 0.838,
+   "src": "local"
+  },
+  "w:bright": {
+   "id": "872039bf0c51",
+   "dur": 0.708,
+   "src": "local"
+  },
+  "w:bring": {
+   "id": "ae999c8fb0ea",
+   "dur": 0.812,
+   "src": "local"
+  },
+  "w:broken": {
+   "id": "8e6e6a7c8b2b",
+   "dur": 0.894,
+   "src": "local"
+  },
+  "w:brown": {
+   "id": "c67e08f87353",
+   "dur": 0.819,
+   "src": "local"
+  },
+  "w:brushes": {
+   "id": "ca0839914949",
+   "dur": 0.84,
+   "src": "local"
+  },
+  "w:bubble": {
+   "id": "69ed75a04052",
+   "dur": 0.798,
+   "src": "local"
+  },
+  "w:building": {
+   "id": "45a8b1fbf248",
+   "dur": 0.923,
+   "src": "local"
+  },
+  "w:bumpy": {
+   "id": "e7e543f3bc25",
+   "dur": 0.804,
+   "src": "local"
+  },
+  "w:burn": {
+   "id": "49c1c152b917",
+   "dur": 0.766,
+   "src": "local"
+  },
+  "w:buses": {
+   "id": "fa07086bc518",
+   "dur": 0.795,
+   "src": "local"
+  },
+  "w:business": {
+   "id": "7858663d013a",
+   "dur": 0.854,
+   "src": "local"
+  },
+  "w:but": {
+   "id": "bb1d262fddab",
+   "dur": 0.684,
+   "src": "local"
+  },
+  "w:buttons": {
+   "id": "87893f7a222c",
+   "dur": 1.009,
+   "src": "local"
+  },
+  "w:buy": {
+   "id": "d8e87cebf9f5",
+   "dur": 0.648,
+   "src": "local"
+  },
+  "w:by": {
+   "id": "d8e87cebf9f5",
+   "dur": 0.648,
+   "src": "local"
+  },
+  "w:cable": {
+   "id": "473b2e788d24",
+   "dur": 0.883,
+   "src": "local"
+  },
+  "w:cage": {
+   "id": "7df2fe21cb98",
+   "dur": 0.835,
+   "src": "local"
+  },
+  "w:call": {
+   "id": "5ff719a25d98",
+   "dur": 0.812,
+   "src": "local"
+  },
+  "w:called": {
+   "id": "1d4034d5471d",
+   "dur": 0.816,
+   "src": "local"
+  },
+  "w:calls": {
+   "id": "9014ccdf975f",
+   "dur": 0.869,
+   "src": "local"
+  },
+  "w:camping": {
+   "id": "f3037be80c56",
+   "dur": 0.891,
+   "src": "local"
+  },
+  "w:candle": {
+   "id": "312a270ef569",
+   "dur": 0.933,
+   "src": "local"
+  },
+  "w:capture": {
+   "id": "e794faab851c",
+   "dur": 1.013,
+   "src": "local"
+  },
+  "w:card": {
+   "id": "18730ec34e1e",
+   "dur": 0.861,
+   "src": "local"
+  },
+  "w:care": {
+   "id": "199208885d0f",
+   "dur": 0.795,
+   "src": "local"
+  },
+  "w:careful": {
+   "id": "15de44e3c10d",
+   "dur": 0.863,
+   "src": "local"
+  },
+  "w:cargo": {
+   "id": "5d8130cd6794",
+   "dur": 0.933,
+   "src": "local"
+  },
+  "w:caring": {
+   "id": "db47abadc52a",
+   "dur": 0.868,
+   "src": "local"
+  },
+  "w:carpet": {
+   "id": "e8dc6e7d53dc",
+   "dur": 0.812,
+   "src": "local"
+  },
+  "w:carried": {
+   "id": "69695c3389d4",
+   "dur": 0.866,
+   "src": "local"
+  },
+  "w:carry": {
+   "id": "7d203fdac15f",
+   "dur": 0.791,
+   "src": "local"
+  },
+  "w:carrying": {
+   "id": "7238eb0540c2",
+   "dur": 0.915,
+   "src": "local"
+  },
+  "w:case": {
+   "id": "2fb134bc6369",
+   "dur": 0.8,
+   "src": "local"
+  },
+  "w:catfish": {
+   "id": "fbbc6fee29f9",
+   "dur": 0.905,
+   "src": "local"
+  },
+  "w:cattle": {
+   "id": "a302f92b6cef",
+   "dur": 0.911,
+   "src": "local"
+  },
+  "w:cause": {
+   "id": "f8d69c3127f0",
+   "dur": 0.816,
+   "src": "local"
+  },
+  "w:causes": {
+   "id": "14688c923f66",
+   "dur": 0.944,
+   "src": "local"
+  },
+  "w:cave": {
+   "id": "990fff92d72e",
+   "dur": 0.768,
+   "src": "local"
+  },
+  "w:center": {
+   "id": "91ae9aef8f19",
+   "dur": 0.864,
+   "src": "local"
+  },
+  "w:change": {
+   "id": "9dde915c6444",
+   "dur": 0.895,
+   "src": "local"
+  },
+  "w:changed": {
+   "id": "8d581532503f",
+   "dur": 1.006,
+   "src": "local"
+  },
+  "w:charm": {
+   "id": "5f8357ac7273",
+   "dur": 0.811,
+   "src": "local"
+  },
+  "w:chart": {
+   "id": "5e6df30d4cdd",
+   "dur": 0.774,
+   "src": "local"
+  },
+  "w:checking": {
+   "id": "af721b8955b4",
+   "dur": 0.877,
+   "src": "local"
+  },
+  "w:cheer": {
+   "id": "e20a38bc70c4",
+   "dur": 0.747,
+   "src": "local"
+  },
+  "w:cheering": {
+   "id": "da8605c8d0e1",
+   "dur": 0.867,
+   "src": "local"
+  },
+  "w:cheers": {
+   "id": "54e044bbb8ce",
+   "dur": 0.822,
+   "src": "local"
+  },
+  "w:child": {
+   "id": "249e057e3082",
+   "dur": 0.868,
+   "src": "local"
+  },
+  "w:chilly": {
+   "id": "99cdcc51f70e",
+   "dur": 0.736,
+   "src": "local"
+  },
+  "w:choice": {
+   "id": "1606f06bcd79",
+   "dur": 0.803,
+   "src": "local"
+  },
+  "w:chorus": {
+   "id": "6cc76df9ff00",
+   "dur": 0.853,
+   "src": "local"
+  },
+  "w:circle": {
+   "id": "30d121b30d5a",
+   "dur": 0.806,
+   "src": "local"
+  },
+  "w:clap": {
+   "id": "bad6531268f1",
+   "dur": 0.73,
+   "src": "local"
+  },
+  "w:class": {
+   "id": "9ae4767ce6e1",
+   "dur": 0.705,
+   "src": "local"
+  },
+  "w:classmates": {
+   "id": "78f4f168859a",
+   "dur": 0.917,
+   "src": "local"
+  },
+  "w:clay": {
+   "id": "0082be4b6884",
+   "dur": 0.835,
+   "src": "local"
+  },
+  "w:clean": {
+   "id": "763f48db1a90",
+   "dur": 0.859,
+   "src": "local"
+  },
+  "w:clear": {
+   "id": "7c171129417e",
+   "dur": 0.787,
+   "src": "local"
+  },
+  "w:clicks": {
+   "id": "1232b6fb426d",
+   "dur": 0.8,
+   "src": "local"
+  },
+  "w:climb": {
+   "id": "aa380dd157dd",
+   "dur": 0.817,
+   "src": "local"
+  },
+  "w:clinic": {
+   "id": "50aacbec4f38",
+   "dur": 0.85,
+   "src": "local"
+  },
+  "w:close": {
+   "id": "a1c811151071",
+   "dur": 0.791,
+   "src": "local"
+  },
+  "w:closed": {
+   "id": "bf5e706a7872",
+   "dur": 0.888,
+   "src": "local"
+  },
+  "w:closet": {
+   "id": "a88b8a5638c7",
+   "dur": 0.817,
+   "src": "local"
+  },
+  "w:closing": {
+   "id": "dba23da6fe73",
+   "dur": 1.005,
+   "src": "local"
+  },
+  "w:cloud": {
+   "id": "f64471f02392",
+   "dur": 0.757,
+   "src": "local"
+  },
+  "w:clouds": {
+   "id": "521794cf1e4f",
+   "dur": 0.816,
+   "src": "local"
+  },
+  "w:clown": {
+   "id": "6de732542394",
+   "dur": 0.882,
+   "src": "local"
+  },
+  "w:clowns": {
+   "id": "0e2c24ceb251",
+   "dur": 0.962,
+   "src": "local"
+  },
+  "w:clue": {
+   "id": "7fc0c303057a",
+   "dur": 0.817,
+   "src": "local"
+  },
+  "w:code": {
+   "id": "5728deaed89f",
+   "dur": 0.77,
+   "src": "local"
+  },
+  "w:coin": {
+   "id": "6ba8ba595165",
+   "dur": 0.843,
+   "src": "local"
+  },
+  "w:cold": {
+   "id": "192fd649aa2e",
+   "dur": 0.919,
+   "src": "local"
+  },
+  "w:collect": {
+   "id": "3dcb6e1fc70c",
+   "dur": 0.818,
+   "src": "local"
+  },
+  "w:color": {
+   "id": "ace828fa24ee",
+   "dur": 0.843,
+   "src": "local"
+  },
+  "w:come": {
+   "id": "6cad318904a7",
+   "dur": 0.813,
+   "src": "local"
+  },
+  "w:comes": {
+   "id": "582fb087a517",
+   "dur": 0.864,
+   "src": "local"
+  },
+  "w:comfortable": {
+   "id": "b0b50ad1cc15",
+   "dur": 1.179,
+   "src": "local"
+  },
+  "w:coming": {
+   "id": "dde4bea15f90",
+   "dur": 0.845,
+   "src": "local"
+  },
+  "w:company": {
+   "id": "1f90eeab25db",
+   "dur": 0.887,
+   "src": "local"
+  },
+  "w:complain": {
+   "id": "cb5c069a28bd",
+   "dur": 1.101,
+   "src": "local"
+  },
+  "w:computer": {
+   "id": "6d36e55f8afd",
+   "dur": 1.158,
+   "src": "local"
+  },
+  "w:confusion": {
+   "id": "af73afe0401c",
+   "dur": 1.178,
+   "src": "local"
+  },
+  "w:contest": {
+   "id": "9b36987ce093",
+   "dur": 0.971,
+   "src": "local"
+  },
+  "w:cooking": {
+   "id": "b28f39b7bf3b",
+   "dur": 0.894,
+   "src": "local"
+  },
+  "w:cool": {
+   "id": "a9e2bd59dee2",
+   "dur": 0.883,
+   "src": "local"
+  },
+  "w:core": {
+   "id": "58e2d8b63c68",
+   "dur": 0.799,
+   "src": "local"
+  },
+  "w:corn": {
+   "id": "a1fed7c4ba55",
+   "dur": 0.884,
+   "src": "local"
+  },
+  "w:corner": {
+   "id": "fe94341ca0ee",
+   "dur": 0.867,
+   "src": "local"
+  },
+  "w:cough": {
+   "id": "5b1d2df2875b",
+   "dur": 0.828,
+   "src": "local"
+  },
+  "w:could": {
+   "id": "6cb7f0d9c5df",
+   "dur": 0.748,
+   "src": "local"
+  },
+  "w:counted": {
+   "id": "47d938da4e21",
+   "dur": 0.94,
+   "src": "local"
+  },
+  "w:counting": {
+   "id": "da822f9998b3",
+   "dur": 1.005,
+   "src": "local"
+  },
+  "w:county": {
+   "id": "4a9b8533ee9c",
+   "dur": 0.98,
+   "src": "local"
+  },
+  "w:covering": {
+   "id": "98455d2a26f1",
+   "dur": 0.916,
+   "src": "local"
+  },
+  "w:coworker": {
+   "id": "4937d2f11562",
+   "dur": 1.034,
+   "src": "local"
+  },
+  "w:cramp": {
+   "id": "15bf60d3363e",
+   "dur": 0.676,
+   "src": "local"
+  },
+  "w:crashes": {
+   "id": "f1946dc1b281",
+   "dur": 0.873,
+   "src": "local"
+  },
+  "w:crawl": {
+   "id": "9a8dbbb3f1b4",
+   "dur": 0.762,
+   "src": "local"
+  },
+  "w:creature": {
+   "id": "eadc19d56739",
+   "dur": 0.978,
+   "src": "local"
+  },
+  "w:credit": {
+   "id": "66bf89c3a8a4",
+   "dur": 0.832,
+   "src": "local"
+  },
+  "w:crew": {
+   "id": "3a8c5ac11bd8",
+   "dur": 0.775,
+   "src": "local"
+  },
+  "w:crowd": {
+   "id": "4645b0e8ddae",
+   "dur": 0.81,
+   "src": "local"
+  },
+  "w:crown": {
+   "id": "13bed8130693",
+   "dur": 0.858,
+   "src": "local"
+  },
+  "w:crumb": {
+   "id": "f56bfd8bad3a",
+   "dur": 0.785,
+   "src": "local"
+  },
+  "w:cry": {
+   "id": "974b5ecd5dbb",
+   "dur": 0.731,
+   "src": "local"
+  },
+  "w:crying": {
+   "id": "677ea51e71ac",
+   "dur": 0.886,
+   "src": "local"
+  },
+  "w:curious": {
+   "id": "37cf53306a90",
+   "dur": 0.97,
+   "src": "local"
+  },
+  "w:curl": {
+   "id": "69f4c83b8ef4",
+   "dur": 0.741,
+   "src": "local"
+  },
+  "w:customer": {
+   "id": "e5b5bdf204bb",
+   "dur": 1.13,
+   "src": "local"
+  },
+  "w:customers": {
+   "id": "fc161a2326aa",
+   "dur": 1.139,
+   "src": "local"
+  },
+  "w:cute": {
+   "id": "74f936e3bb0d",
+   "dur": 0.771,
+   "src": "local"
+  },
+  "w:danger": {
+   "id": "bb104adc06e9",
+   "dur": 0.917,
+   "src": "local"
+  },
+  "w:dangerous": {
+   "id": "15dfc9905d81",
+   "dur": 1.089,
+   "src": "local"
+  },
+  "w:dare": {
+   "id": "54522f3dac5a",
+   "dur": 0.681,
+   "src": "local"
+  },
+  "w:dark": {
+   "id": "902312a499d1",
+   "dur": 0.684,
+   "src": "local"
+  },
+  "w:dashing": {
+   "id": "8784b962f5e6",
+   "dur": 0.919,
+   "src": "local"
+  },
+  "w:dead": {
+   "id": "adf2e6973422",
+   "dur": 0.732,
+   "src": "local"
+  },
+  "w:dear": {
+   "id": "d144a626aef6",
+   "dur": 0.649,
+   "src": "local"
+  },
+  "w:decide": {
+   "id": "066a699c5a36",
+   "dur": 0.933,
+   "src": "local"
+  },
+  "w:decision": {
+   "id": "591cac75a9e0",
+   "dur": 1.019,
+   "src": "local"
+  },
+  "w:deer": {
+   "id": "d144a626aef6",
+   "dur": 0.649,
+   "src": "local"
+  },
+  "w:delivery": {
+   "id": "4cd4d3502ca3",
+   "dur": 1.008,
+   "src": "local"
+  },
+  "w:design": {
+   "id": "66f6a3bbe5d5",
+   "dur": 0.959,
+   "src": "local"
+  },
+  "w:destroy": {
+   "id": "480cc5298e1e",
+   "dur": 0.935,
+   "src": "local"
+  },
+  "w:detail": {
+   "id": "8e613c6a27f9",
+   "dur": 1.006,
+   "src": "local"
+  },
+  "w:device": {
+   "id": "1ba4d443c6d7",
+   "dur": 0.826,
+   "src": "local"
+  },
+  "w:die": {
+   "id": "3333809875d4",
+   "dur": 0.671,
+   "src": "local"
+  },
+  "w:diet": {
+   "id": "f9cde52da456",
+   "dur": 0.827,
+   "src": "local"
+  },
+  "w:digs": {
+   "id": "bd90a49bfe9e",
+   "dur": 0.804,
+   "src": "local"
+  },
+  "w:direction": {
+   "id": "80c785670a2e",
+   "dur": 1.03,
+   "src": "local"
+  },
+  "w:dirt": {
+   "id": "970e5c121464",
+   "dur": 0.78,
+   "src": "local"
+  },
+  "w:dirty": {
+   "id": "a0ebbc80ac88",
+   "dur": 0.913,
+   "src": "local"
+  },
+  "w:disconnected": {
+   "id": "036feb886ab4",
+   "dur": 1.227,
+   "src": "local"
+  },
+  "w:disconnection": {
+   "id": "356eacd0e2d7",
+   "dur": 1.143,
+   "src": "local"
+  },
+  "w:dishes": {
+   "id": "552aeade46af",
+   "dur": 0.876,
+   "src": "local"
+  },
+  "w:division": {
+   "id": "d06bb0c0e088",
+   "dur": 0.989,
+   "src": "local"
+  },
+  "w:doctor": {
+   "id": "df425eaeac87",
+   "dur": 0.915,
+   "src": "local"
+  },
+  "w:does": {
+   "id": "dfc8876a6f3e",
+   "dur": 0.794,
+   "src": "local"
+  },
+  "w:dogs": {
+   "id": "576feb54ca60",
+   "dur": 0.887,
+   "src": "local"
+  },
+  "w:dolphin": {
+   "id": "a6c4d633e6a7",
+   "dur": 0.985,
+   "src": "local"
+  },
+  "w:done": {
+   "id": "36442389993e",
+   "dur": 0.809,
+   "src": "local"
+  },
+  "w:door": {
+   "id": "5b360b99ce6e",
+   "dur": 0.674,
+   "src": "local"
+  },
+  "w:doors": {
+   "id": "637253a7a81a",
+   "dur": 0.863,
+   "src": "local"
+  },
+  "w:down": {
+   "id": "b4dd5d8570aa",
+   "dur": 0.804,
+   "src": "local"
+  },
+  "w:downtown": {
+   "id": "bc9036f5555a",
+   "dur": 1.147,
+   "src": "local"
+  },
+  "w:draw": {
+   "id": "db2daf3cc6e9",
+   "dur": 0.658,
+   "src": "local"
+  },
+  "w:drawing": {
+   "id": "aae3e74b94f8",
+   "dur": 0.84,
+   "src": "local"
+  },
+  "w:dream": {
+   "id": "4dd225e04dd1",
+   "dur": 0.87,
+   "src": "local"
+  },
+  "w:drew": {
+   "id": "5e925b118772",
+   "dur": 0.773,
+   "src": "local"
+  },
+  "w:drink": {
+   "id": "855ae177dbeb",
+   "dur": 0.757,
+   "src": "local"
+  },
+  "w:drinks": {
+   "id": "ea3c48344a6e",
+   "dur": 0.872,
+   "src": "local"
+  },
+  "w:drive": {
+   "id": "8f538f05c312",
+   "dur": 0.786,
+   "src": "local"
+  },
+  "w:drives": {
+   "id": "c29ada4b2297",
+   "dur": 0.799,
+   "src": "local"
+  },
+  "w:driving": {
+   "id": "ce8bd25becee",
+   "dur": 0.888,
+   "src": "local"
+  },
+  "w:dropped": {
+   "id": "26bd0b48cc00",
+   "dur": 0.776,
+   "src": "local"
+  },
+  "w:drove": {
+   "id": "af2d69778493",
+   "dur": 0.783,
+   "src": "local"
+  },
+  "w:drown": {
+   "id": "a070c07db0a2",
+   "dur": 0.856,
+   "src": "local"
+  },
+  "w:drum": {
+   "id": "51e9125b9d24",
+   "dur": 0.796,
+   "src": "local"
+  },
+  "w:dry": {
+   "id": "efb2cde45707",
+   "dur": 0.726,
+   "src": "local"
+  },
+  "w:due": {
+   "id": "4aa2d987e472",
+   "dur": 0.718,
+   "src": "local"
+  },
+  "w:dusty": {
+   "id": "75330dcbf44c",
+   "dur": 0.861,
+   "src": "local"
+  },
+  "w:early": {
+   "id": "48b5c6a34a75",
+   "dur": 0.86,
+   "src": "local"
+  },
+  "w:echo": {
+   "id": "3cf842039434",
+   "dur": 0.811,
+   "src": "local"
+  },
+  "w:effort": {
+   "id": "6756dba171cb",
+   "dur": 0.866,
+   "src": "local"
+  },
+  "w:either": {
+   "id": "451f077ab7c7",
+   "dur": 0.811,
+   "src": "local"
+  },
+  "w:else": {
+   "id": "1845a372df04",
+   "dur": 0.675,
+   "src": "local"
+  },
+  "w:ended": {
+   "id": "50d7e2b53080",
+   "dur": 0.808,
+   "src": "local"
+  },
+  "w:energy": {
+   "id": "8a42be9b7737",
+   "dur": 1.008,
+   "src": "local"
+  },
+  "w:engine": {
+   "id": "f66babc598dd",
+   "dur": 0.883,
+   "src": "local"
+  },
+  "w:engineer": {
+   "id": "53fba1fb3e7e",
+   "dur": 1.128,
+   "src": "local"
+  },
+  "w:engines": {
+   "id": "d6a41f1a519c",
+   "dur": 0.946,
+   "src": "local"
+  },
+  "w:enjoy": {
+   "id": "b6e881bd700a",
+   "dur": 0.878,
+   "src": "local"
+  },
+  "w:enjoying": {
+   "id": "db5cb87d29c3",
+   "dur": 0.999,
+   "src": "local"
+  },
+  "w:enormous": {
+   "id": "ef60080309e2",
+   "dur": 0.862,
+   "src": "local"
+  },
+  "w:enough": {
+   "id": "04b349056db5",
+   "dur": 0.767,
+   "src": "local"
+  },
+  "w:especially": {
+   "id": "5d237db7a9ea",
+   "dur": 1.031,
+   "src": "local"
+  },
+  "w:ever": {
+   "id": "8475f78df1ab",
+   "dur": 0.838,
+   "src": "local"
+  },
+  "w:every": {
+   "id": "c866c2d2f6b6",
+   "dur": 0.839,
+   "src": "local"
+  },
+  "w:everyone": {
+   "id": "0113d85cba8e",
+   "dur": 0.993,
+   "src": "local"
+  },
+  "w:explain": {
+   "id": "47cac9b6c8c3",
+   "dur": 1.003,
+   "src": "local"
+  },
+  "w:explained": {
+   "id": "14a6b80cb60d",
+   "dur": 1.077,
+   "src": "local"
+  },
+  "w:explains": {
+   "id": "a791851fcf98",
+   "dur": 1.124,
+   "src": "local"
+  },
+  "w:explanation": {
+   "id": "6bf78fe56a32",
+   "dur": 1.255,
+   "src": "local"
+  },
+  "w:explore": {
+   "id": "f8cdfe993652",
+   "dur": 0.965,
+   "src": "local"
+  },
+  "w:explosion": {
+   "id": "0f7a9d2ee14c",
+   "dur": 0.99,
+   "src": "local"
+  },
+  "w:extra": {
+   "id": "1b5e70492e68",
+   "dur": 0.736,
+   "src": "local"
+  },
+  "w:eye": {
+   "id": "2ece25e73e11",
+   "dur": 0.729,
+   "src": "local"
+  },
+  "w:eyes": {
+   "id": "5c6143d33451",
+   "dur": 0.76,
+   "src": "local"
+  },
+  "w:factory": {
+   "id": "e13e60c61599",
+   "dur": 0.9,
+   "src": "local"
+  },
+  "w:faded": {
+   "id": "4d6719ad0164",
+   "dur": 0.882,
+   "src": "local"
+  },
+  "w:fair": {
+   "id": "281216acfe5e",
+   "dur": 0.763,
+   "src": "local"
+  },
+  "w:families": {
+   "id": "d3e3e8540877",
+   "dur": 0.905,
+   "src": "local"
+  },
+  "w:family": {
+   "id": "f83ac3bb37e4",
+   "dur": 0.892,
+   "src": "local"
+  },
+  "w:famous": {
+   "id": "6fdc35b2ff4b",
+   "dur": 0.866,
+   "src": "local"
+  },
+  "w:far": {
+   "id": "4d3e3f860b64",
+   "dur": 0.747,
+   "src": "local"
+  },
+  "w:farah": {
+   "id": "babf6b258a2e",
+   "dur": 0.825,
+   "src": "local"
+  },
+  "w:farm": {
+   "id": "0ad33de88dbe",
+   "dur": 0.797,
+   "src": "local"
+  },
+  "w:farmhand": {
+   "id": "ff1361c1dc7e",
+   "dur": 1.085,
+   "src": "local"
+  },
+  "w:farmhouse": {
+   "id": "9ded7cc01bbf",
+   "dur": 0.975,
+   "src": "local"
+  },
+  "w:fear": {
+   "id": "ec37cf4fe8ba",
+   "dur": 0.73,
+   "src": "local"
+  },
+  "w:feather": {
+   "id": "9aaf0ba2e6c2",
+   "dur": 0.825,
+   "src": "local"
+  },
+  "w:feel": {
+   "id": "955f4e90d422",
+   "dur": 0.775,
+   "src": "local"
+  },
+  "w:feeling": {
+   "id": "02201de6cd48",
+   "dur": 0.872,
+   "src": "local"
+  },
+  "w:feels": {
+   "id": "959de08d62fe",
+   "dur": 0.872,
+   "src": "local"
+  },
+  "w:fever": {
+   "id": "c95143265b46",
+   "dur": 0.803,
+   "src": "local"
+  },
+  "w:fight": {
+   "id": "778b53ab0122",
+   "dur": 0.702,
+   "src": "local"
+  },
+  "w:file": {
+   "id": "37dff3e24aec",
+   "dur": 0.763,
+   "src": "local"
+  },
+  "w:filled": {
+   "id": "183e614988ac",
+   "dur": 0.818,
+   "src": "local"
+  },
+  "w:filling": {
+   "id": "dac002ef43a1",
+   "dur": 0.833,
+   "src": "local"
+  },
+  "w:finally": {
+   "id": "2e72f237bacb",
+   "dur": 0.916,
+   "src": "local"
+  },
+  "w:find": {
+   "id": "2500d7310c3a",
+   "dur": 0.849,
+   "src": "local"
+  },
+  "w:findings": {
+   "id": "17e0bee57dff",
+   "dur": 1.011,
+   "src": "local"
+  },
+  "w:fine": {
+   "id": "abaf30ccb029",
+   "dur": 0.777,
+   "src": "local"
+  },
+  "w:finish": {
+   "id": "9e2d6c5913e9",
+   "dur": 0.836,
+   "src": "local"
+  },
+  "w:finished": {
+   "id": "f240da334663",
+   "dur": 0.766,
+   "src": "local"
+  },
+  "w:firewood": {
+   "id": "1da107935718",
+   "dur": 1.018,
+   "src": "local"
+  },
+  "w:five": {
+   "id": "c2fae9dfdb10",
+   "dur": 0.746,
+   "src": "local"
+  },
+  "w:flag": {
+   "id": "c5bc372b95d9",
+   "dur": 0.753,
+   "src": "local"
+  },
+  "w:flair": {
+   "id": "ef11f35b4921",
+   "dur": 0.746,
+   "src": "local"
+  },
+  "w:flame": {
+   "id": "46e02d2c18c3",
+   "dur": 0.814,
+   "src": "local"
+  },
+  "w:flare": {
+   "id": "ef11f35b4921",
+   "dur": 0.746,
+   "src": "local"
+  },
+  "w:flat": {
+   "id": "830e51c5fcdb",
+   "dur": 0.674,
+   "src": "local"
+  },
+  "w:flew": {
+   "id": "1fe8a8ab54ca",
+   "dur": 0.753,
+   "src": "local"
+  },
+  "w:flicker": {
+   "id": "351b6f489346",
+   "dur": 0.82,
+   "src": "local"
+  },
+  "w:flies": {
+   "id": "835b8d673cf2",
+   "dur": 0.755,
+   "src": "local"
+  },
+  "w:float": {
+   "id": "4aae9c20da0b",
+   "dur": 0.749,
+   "src": "local"
+  },
+  "w:floor": {
+   "id": "4f2123281b85",
+   "dur": 0.754,
+   "src": "local"
+  },
+  "w:flops": {
+   "id": "f5d22f58f233",
+   "dur": 0.805,
+   "src": "local"
+  },
+  "w:flow": {
+   "id": "69f0d306837c",
+   "dur": 0.692,
+   "src": "local"
+  },
+  "w:fluffy": {
+   "id": "8e0f384d079f",
+   "dur": 0.815,
+   "src": "local"
+  },
+  "w:fly": {
+   "id": "e0ae7e0d0144",
+   "dur": 0.721,
+   "src": "local"
+  },
+  "w:flying": {
+   "id": "ef840c4d33d7",
+   "dur": 0.867,
+   "src": "local"
+  },
+  "w:foam": {
+   "id": "c5b8aefeb2b6",
+   "dur": 0.83,
+   "src": "local"
+  },
+  "w:fold": {
+   "id": "94ecef04bf3a",
+   "dur": 0.846,
+   "src": "local"
+  },
+  "w:food": {
+   "id": "12e727ee49e3",
+   "dur": 0.765,
+   "src": "local"
+  },
+  "w:for": {
+   "id": "b9c210ffbb8a",
+   "dur": 0.769,
+   "src": "local"
+  },
+  "w:forget": {
+   "id": "69f9a6dd0898",
+   "dur": 0.863,
+   "src": "local"
+  },
+  "w:form": {
+   "id": "53024da24ed7",
+   "dur": 0.755,
+   "src": "local"
+  },
+  "w:formed": {
+   "id": "b35cf210c400",
+   "dur": 0.849,
+   "src": "local"
+  },
+  "w:found": {
+   "id": "4e66ed580a9e",
+   "dur": 0.848,
+   "src": "local"
+  },
+  "w:four": {
+   "id": "b9c210ffbb8a",
+   "dur": 0.769,
+   "src": "local"
+  },
+  "w:fraim": {
+   "id": "86e1a8b4bb97",
+   "dur": 0.791,
+   "src": "local"
+  },
+  "w:fresh": {
+   "id": "9e5fdd1819a0",
+   "dur": 0.731,
+   "src": "local"
+  },
+  "w:friend": {
+   "id": "0ac9526e6351",
+   "dur": 0.843,
+   "src": "local"
+  },
+  "w:friendliest": {
+   "id": "b2e92a098f56",
+   "dur": 1.001,
+   "src": "local"
+  },
+  "w:friends": {
+   "id": "a6915a7cf8fc",
+   "dur": 0.889,
+   "src": "local"
+  },
+  "w:from": {
+   "id": "6db4c381cbe1",
+   "dur": 0.791,
+   "src": "local"
+  },
+  "w:front": {
+   "id": "f34fb7526012",
+   "dur": 0.797,
+   "src": "local"
+  },
+  "w:frown": {
+   "id": "8f493ec6a29e",
+   "dur": 0.862,
+   "src": "local"
+  },
+  "w:frozen": {
+   "id": "e52897d6be98",
+   "dur": 0.952,
+   "src": "local"
+  },
+  "w:fruit": {
+   "id": "3b032eaa0928",
+   "dur": 0.733,
+   "src": "local"
+  },
+  "w:fudge": {
+   "id": "02e52d9edab8",
+   "dur": 0.814,
+   "src": "local"
+  },
+  "w:fuel": {
+   "id": "366691526370",
+   "dur": 0.834,
+   "src": "local"
+  },
+  "w:funnier": {
+   "id": "63c916e90e3a",
+   "dur": 1.047,
+   "src": "local"
+  },
+  "w:funny": {
+   "id": "1643a95ae369",
+   "dur": 0.789,
+   "src": "local"
+  },
+  "w:future": {
+   "id": "6524efdf81fb",
+   "dur": 1.104,
+   "src": "local"
+  },
+  "w:game": {
+   "id": "aaa7918ca8e0",
+   "dur": 0.788,
+   "src": "local"
+  },
+  "w:garden": {
+   "id": "423906af9fc2",
+   "dur": 0.888,
+   "src": "local"
+  },
+  "w:garment": {
+   "id": "774b46679ec9",
+   "dur": 0.934,
+   "src": "local"
+  },
+  "w:gave": {
+   "id": "27bb0fe36515",
+   "dur": 0.74,
+   "src": "local"
+  },
+  "w:generator": {
+   "id": "b8e69b752cb9",
+   "dur": 1.135,
+   "src": "local"
+  },
+  "w:generous": {
+   "id": "e08513fe056e",
+   "dur": 1.011,
+   "src": "local"
+  },
+  "w:gentle": {
+   "id": "2bdb731b27b5",
+   "dur": 0.892,
+   "src": "local"
+  },
+  "w:gently": {
+   "id": "bed6c0d8a44d",
+   "dur": 0.887,
+   "src": "local"
+  },
+  "w:getting": {
+   "id": "c7c9e44a394b",
+   "dur": 0.884,
+   "src": "local"
+  },
+  "w:ghastly": {
+   "id": "06ac3d0609e2",
+   "dur": 0.931,
+   "src": "local"
+  },
+  "w:ghost": {
+   "id": "6b461670afde",
+   "dur": 0.775,
+   "src": "local"
+  },
+  "w:giant": {
+   "id": "25812146006b",
+   "dur": 0.922,
+   "src": "local"
+  },
+  "w:giggle": {
+   "id": "743b7dd06b16",
+   "dur": 0.861,
+   "src": "local"
+  },
+  "w:girl": {
+   "id": "ba48c28794a0",
+   "dur": 0.684,
+   "src": "local"
+  },
+  "w:give": {
+   "id": "1e2421b643f3",
+   "dur": 0.604,
+   "src": "local"
+  },
+  "w:glad": {
+   "id": "916cfde2c647",
+   "dur": 0.764,
+   "src": "local"
+  },
+  "w:glew": {
+   "id": "684818c284d1",
+   "dur": 0.794,
+   "src": "local"
+  },
+  "w:gloves": {
+   "id": "ce7482d92f2a",
+   "dur": 0.84,
+   "src": "local"
+  },
+  "w:glow": {
+   "id": "b3bdc4d512d0",
+   "dur": 0.868,
+   "src": "local"
+  },
+  "w:glows": {
+   "id": "604416880fd3",
+   "dur": 0.729,
+   "src": "local"
+  },
+  "w:glue": {
+   "id": "684818c284d1",
+   "dur": 0.794,
+   "src": "local"
+  },
+  "w:goes": {
+   "id": "5674a02206c6",
+   "dur": 0.763,
+   "src": "local"
+  },
+  "w:gold": {
+   "id": "e43b26c6ae5d",
+   "dur": 0.891,
+   "src": "local"
+  },
+  "w:gone": {
+   "id": "6990e9248d66",
+   "dur": 0.831,
+   "src": "local"
+  },
+  "w:good": {
+   "id": "d70ef83764d6",
+   "dur": 0.717,
+   "src": "local"
+  },
+  "w:gosh": {
+   "id": "a0db254d4ac3",
+   "dur": 0.71,
+   "src": "local"
+  },
+  "w:grab": {
+   "id": "bf68efc2f8be",
+   "dur": 0.728,
+   "src": "local"
+  },
+  "w:grabs": {
+   "id": "0d7d490a5105",
+   "dur": 0.801,
+   "src": "local"
+  },
+  "w:granddad": {
+   "id": "aceda6199f68",
+   "dur": 0.933,
+   "src": "local"
+  },
+  "w:grapes": {
+   "id": "3e8f16cadf66",
+   "dur": 0.806,
+   "src": "local"
+  },
+  "w:graph": {
+   "id": "03584d4229ab",
+   "dur": 0.68,
+   "src": "local"
+  },
+  "w:grass": {
+   "id": "f5c52c0c0623",
+   "dur": 0.726,
+   "src": "local"
+  },
+  "w:gray": {
+   "id": "3434c63075cf",
+   "dur": 0.717,
+   "src": "local"
+  },
+  "w:great": {
+   "id": "60a9430683bd",
+   "dur": 0.728,
+   "src": "local"
+  },
+  "w:green": {
+   "id": "3e4ab0af3173",
+   "dur": 0.906,
+   "src": "local"
+  },
+  "w:grew": {
+   "id": "cc11efcfa221",
+   "dur": 0.801,
+   "src": "local"
+  },
+  "w:grin": {
+   "id": "2d12fc3e5040",
+   "dur": 0.849,
+   "src": "local"
+  },
+  "w:grinned": {
+   "id": "67dab8a5e423",
+   "dur": 0.916,
+   "src": "local"
+  },
+  "w:grins": {
+   "id": "84217481065f",
+   "dur": 0.914,
+   "src": "local"
+  },
+  "w:gripping": {
+   "id": "725dc8aa723d",
+   "dur": 0.889,
+   "src": "local"
+  },
+  "w:ground": {
+   "id": "666ef33064bf",
+   "dur": 0.913,
+   "src": "local"
+  },
+  "w:grow": {
+   "id": "a29af04db0ab",
+   "dur": 0.714,
+   "src": "local"
+  },
+  "w:growl": {
+   "id": "46b2094589ed",
+   "dur": 0.753,
+   "src": "local"
+  },
+  "w:guide": {
+   "id": "25f73f8fb190",
+   "dur": 0.736,
+   "src": "local"
+  },
+  "w:gym": {
+   "id": "785c3dd68c8b",
+   "dur": 0.824,
+   "src": "local"
+  },
+  "w:hallway": {
+   "id": "1eb5d40e5138",
+   "dur": 0.93,
+   "src": "local"
+  },
+  "w:hand": {
+   "id": "4ee48c4248da",
+   "dur": 0.855,
+   "src": "local"
+  },
+  "w:handle": {
+   "id": "3997644927bf",
+   "dur": 0.86,
+   "src": "local"
+  },
+  "w:hands": {
+   "id": "9825affb629c",
+   "dur": 0.926,
+   "src": "local"
+  },
+  "w:hang": {
+   "id": "3e9616797204",
+   "dur": 0.841,
+   "src": "local"
+  },
+  "w:hanging": {
+   "id": "1a859757a057",
+   "dur": 0.864,
+   "src": "local"
+  },
+  "w:hangs": {
+   "id": "62077f01115c",
+   "dur": 0.883,
+   "src": "local"
+  },
+  "w:happier": {
+   "id": "ace2e0928545",
+   "dur": 0.981,
+   "src": "local"
+  },
+  "w:happiest": {
+   "id": "ef61e583441b",
+   "dur": 0.915,
+   "src": "local"
+  },
+  "w:happy": {
+   "id": "3a50581f1c8e",
+   "dur": 0.992,
+   "src": "local"
+  },
+  "w:hard": {
+   "id": "44af32366fdb",
+   "dur": 0.768,
+   "src": "local"
+  },
+  "w:harder": {
+   "id": "3b20ed97dc6e",
+   "dur": 0.859,
+   "src": "local"
+  },
+  "w:hardest": {
+   "id": "abe81990de37",
+   "dur": 0.803,
+   "src": "local"
+  },
+  "w:hardly": {
+   "id": "39c7a6eab9b6",
+   "dur": 0.903,
+   "src": "local"
+  },
+  "w:harm": {
+   "id": "673e144fca20",
+   "dur": 0.782,
+   "src": "local"
+  },
+  "w:harvest": {
+   "id": "f9b44b472563",
+   "dur": 0.83,
+   "src": "local"
+  },
+  "w:head": {
+   "id": "6c8dfac59014",
+   "dur": 0.721,
+   "src": "local"
+  },
+  "w:heads": {
+   "id": "399ed1f2752e",
+   "dur": 0.795,
+   "src": "local"
+  },
+  "w:health": {
+   "id": "6be1a1f3bd9c",
+   "dur": 0.675,
+   "src": "local"
+  },
+  "w:healthy": {
+   "id": "7c10032b9172",
+   "dur": 0.808,
+   "src": "local"
+  },
+  "w:hear": {
+   "id": "6ae24d20351e",
+   "dur": 0.74,
+   "src": "local"
+  },
+  "w:helmet": {
+   "id": "731f82847f12",
+   "dur": 0.815,
+   "src": "local"
+  },
+  "w:helped": {
+   "id": "46feeb0c8e37",
+   "dur": 0.75,
+   "src": "local"
+  },
+  "w:helper": {
+   "id": "603b626f28ae",
+   "dur": 0.854,
+   "src": "local"
+  },
+  "w:helping": {
+   "id": "0f690ef4c9c6",
+   "dur": 0.837,
+   "src": "local"
+  },
+  "w:helps": {
+   "id": "0200834782b1",
+   "dur": 0.751,
+   "src": "local"
+  },
+  "w:here": {
+   "id": "6ae24d20351e",
+   "dur": 0.74,
+   "src": "local"
+  },
+  "w:hi": {
+   "id": "a7200c4c8582",
+   "dur": 0.666,
+   "src": "local"
+  },
+  "w:hide": {
+   "id": "f852bf2e2b23",
+   "dur": 0.734,
+   "src": "local"
+  },
+  "w:hides": {
+   "id": "217bdb5d2ddd",
+   "dur": 0.766,
+   "src": "local"
+  },
+  "w:hiding": {
+   "id": "1f2d47037186",
+   "dur": 0.909,
+   "src": "local"
+  },
+  "w:high": {
+   "id": "a7200c4c8582",
+   "dur": 0.666,
+   "src": "local"
+  },
+  "w:hiking": {
+   "id": "a63cc659a548",
+   "dur": 0.883,
+   "src": "local"
+  },
+  "w:hills": {
+   "id": "606cb2598fab",
+   "dur": 0.823,
+   "src": "local"
+  },
+  "w:him": {
+   "id": "9ed9166bc6d9",
+   "dur": 0.743,
+   "src": "local"
+  },
+  "w:himself": {
+   "id": "018fe8fc2a9c",
+   "dur": 0.861,
+   "src": "local"
+  },
+  "w:history": {
+   "id": "6fd00952733a",
+   "dur": 0.884,
+   "src": "local"
+  },
+  "w:hold": {
+   "id": "357b59b61415",
+   "dur": 0.837,
+   "src": "local"
+  },
+  "w:holding": {
+   "id": "518c359b27d0",
+   "dur": 0.884,
+   "src": "local"
+  },
+  "w:holds": {
+   "id": "79a2873dbc15",
+   "dur": 0.846,
+   "src": "local"
+  },
+  "w:home": {
+   "id": "fe314f05e661",
+   "dur": 0.804,
+   "src": "local"
+  },
+  "w:honk": {
+   "id": "7b624d4f2bdc",
+   "dur": 0.752,
+   "src": "local"
+  },
+  "w:honking": {
+   "id": "c0919966601e",
+   "dur": 0.986,
+   "src": "local"
+  },
+  "w:hoping": {
+   "id": "5982a93d09d2",
+   "dur": 0.909,
+   "src": "local"
+  },
+  "w:horn": {
+   "id": "defea66fd0f2",
+   "dur": 0.785,
+   "src": "local"
+  },
+  "w:horse": {
+   "id": "8c8172691483",
+   "dur": 0.796,
+   "src": "local"
+  },
+  "w:hottest": {
+   "id": "6457f195f4b1",
+   "dur": 0.918,
+   "src": "local"
+  },
+  "w:hound": {
+   "id": "4ca1d1ffb568",
+   "dur": 0.836,
+   "src": "local"
+  },
+  "w:hours": {
+   "id": "40020c9e032e",
+   "dur": 0.857,
+   "src": "local"
+  },
+  "w:huge": {
+   "id": "b05a802ba965",
+   "dur": 0.957,
+   "src": "local"
+  },
+  "w:hugged": {
+   "id": "fdb0bbbecdee",
+   "dur": 0.791,
+   "src": "local"
+  },
+  "w:hum": {
+   "id": "f18d95892018",
+   "dur": 0.793,
+   "src": "local"
+  },
+  "w:human": {
+   "id": "f92be21f9afa",
+   "dur": 0.935,
+   "src": "local"
+  },
+  "w:hurt": {
+   "id": "08fba912fd58",
+   "dur": 0.722,
+   "src": "local"
+  },
+  "w:husband": {
+   "id": "46f713463e1c",
+   "dur": 0.985,
+   "src": "local"
+  },
+  "w:hush": {
+   "id": "30c6c7ed3c41",
+   "dur": 0.725,
+   "src": "local"
+  },
+  "w:ignore": {
+   "id": "e715842f2b13",
+   "dur": 0.884,
+   "src": "local"
+  },
+  "w:illness": {
+   "id": "8f2148e75ebc",
+   "dur": 0.913,
+   "src": "local"
+  },
+  "w:impressed": {
+   "id": "77a5b90ee51c",
+   "dur": 0.855,
+   "src": "local"
+  },
+  "w:ingredients": {
+   "id": "92ea259a164e",
+   "dur": 1.125,
+   "src": "local"
+  },
+  "w:initial": {
+   "id": "9068f3565d86",
+   "dur": 0.834,
+   "src": "local"
+  },
+  "w:insect": {
+   "id": "5e90e23a00c3",
+   "dur": 0.843,
+   "src": "local"
+  },
+  "w:inside": {
+   "id": "a24204d6f58d",
+   "dur": 0.928,
+   "src": "local"
+  },
+  "w:instant": {
+   "id": "1612010e157e",
+   "dur": 0.939,
+   "src": "local"
+  },
+  "w:instead": {
+   "id": "49c6d6581e8a",
+   "dur": 0.931,
+   "src": "local"
+  },
+  "w:instruct": {
+   "id": "6882f4d19a43",
+   "dur": 0.91,
+   "src": "local"
+  },
+  "w:internet": {
+   "id": "a509f5edce50",
+   "dur": 1.087,
+   "src": "local"
+  },
+  "w:into": {
+   "id": "225db22ad673",
+   "dur": 0.869,
+   "src": "local"
+  },
+  "w:invention": {
+   "id": "730ba4c3bce6",
+   "dur": 1.068,
+   "src": "local"
+  },
+  "w:item": {
+   "id": "e461183e6ad2",
+   "dur": 0.982,
+   "src": "local"
+  },
+  "w:itself": {
+   "id": "49b02cda3d59",
+   "dur": 0.802,
+   "src": "local"
+  },
+  "w:jane": {
+   "id": "c7dbf35f33cc",
+   "dur": 0.796,
+   "src": "local"
+  },
+  "w:jealous": {
+   "id": "aafde1de46c8",
+   "dur": 0.854,
+   "src": "local"
+  },
+  "w:jogged": {
+   "id": "6b1655cd7729",
+   "dur": 0.866,
+   "src": "local"
+  },
+  "w:join": {
+   "id": "1942ee14689d",
+   "dur": 0.839,
+   "src": "local"
+  },
+  "w:joins": {
+   "id": "771558096573",
+   "dur": 0.896,
+   "src": "local"
+  },
+  "w:joking": {
+   "id": "c51e5cc4517f",
+   "dur": 0.887,
+   "src": "local"
+  },
+  "w:joy": {
+   "id": "9601ef223f3e",
+   "dur": 0.662,
+   "src": "local"
+  },
+  "w:jump": {
+   "id": "79340228cf25",
+   "dur": 0.719,
+   "src": "local"
+  },
+  "w:jumped": {
+   "id": "81a4eb725f32",
+   "dur": 0.812,
+   "src": "local"
+  },
+  "w:jumper": {
+   "id": "58688c14a720",
+   "dur": 0.86,
+   "src": "local"
+  },
+  "w:jumping": {
+   "id": "e0d044eb9bac",
+   "dur": 0.893,
+   "src": "local"
+  },
+  "w:june": {
+   "id": "3c2637098070",
+   "dur": 0.819,
+   "src": "local"
+  },
+  "w:junk": {
+   "id": "0a1da6b513b2",
+   "dur": 0.726,
+   "src": "local"
+  },
+  "w:just": {
+   "id": "f9bc415e2d31",
+   "dur": 0.753,
+   "src": "local"
+  },
+  "w:kayak": {
+   "id": "fce9424c9c57",
+   "dur": 0.822,
+   "src": "local"
+  },
+  "w:kids": {
+   "id": "81b04792cbb3",
+   "dur": 0.795,
+   "src": "local"
+  },
+  "w:kind": {
+   "id": "4ce7e1decb11",
+   "dur": 0.986,
+   "src": "local"
+  },
+  "w:king": {
+   "id": "209849982313",
+   "dur": 0.844,
+   "src": "local"
+  },
+  "w:kite": {
+   "id": "15a7fdd6a59d",
+   "dur": 0.751,
+   "src": "local"
+  },
+  "w:kitten": {
+   "id": "2fc2c384c03b",
+   "dur": 0.806,
+   "src": "local"
+  },
+  "w:knot": {
+   "id": "4e5732fdd8f2",
+   "dur": 0.772,
+   "src": "local"
+  },
+  "w:know": {
+   "id": "9ae2cea9adbb",
+   "dur": 0.792,
+   "src": "local"
+  },
+  "w:knowing": {
+   "id": "52ce622d3900",
+   "dur": 0.863,
+   "src": "local"
+  },
+  "w:knuckle": {
+   "id": "ac48dabcae51",
+   "dur": 0.826,
+   "src": "local"
+  },
+  "w:lamb": {
+   "id": "246297483138",
+   "dur": 0.831,
+   "src": "local"
+  },
+  "w:land": {
+   "id": "35576f5d6434",
+   "dur": 0.811,
+   "src": "local"
+  },
+  "w:landed": {
+   "id": "c356ccb6d76b",
+   "dur": 0.907,
+   "src": "local"
+  },
+  "w:landing": {
+   "id": "144aa68d6639",
+   "dur": 0.908,
+   "src": "local"
+  },
+  "w:lands": {
+   "id": "916198ab9ff7",
+   "dur": 0.896,
+   "src": "local"
+  },
+  "w:large": {
+   "id": "d02030a84768",
+   "dur": 0.929,
+   "src": "local"
+  },
+  "w:largest": {
+   "id": "d42cc6fd731b",
+   "dur": 0.842,
+   "src": "local"
+  },
+  "w:last": {
+   "id": "62a35e0d04b3",
+   "dur": 0.745,
+   "src": "local"
+  },
+  "w:late": {
+   "id": "32e999502910",
+   "dur": 0.747,
+   "src": "local"
+  },
+  "w:later": {
+   "id": "b0390476a213",
+   "dur": 0.882,
+   "src": "local"
+  },
+  "w:laughed": {
+   "id": "10fc73a5bf4c",
+   "dur": 0.739,
+   "src": "local"
+  },
+  "w:laughing": {
+   "id": "96150f27fe10",
+   "dur": 0.905,
+   "src": "local"
+  },
+  "w:laughter": {
+   "id": "6e8c9d4f555b",
+   "dur": 0.825,
+   "src": "local"
+  },
+  "w:launch": {
+   "id": "95179f42b45d",
+   "dur": 0.861,
+   "src": "local"
+  },
+  "w:learned": {
+   "id": "a63d7d3920c1",
+   "dur": 0.861,
+   "src": "local"
+  },
+  "w:ledge": {
+   "id": "8461e8aaba3f",
+   "dur": 0.879,
+   "src": "local"
+  },
+  "w:left": {
+   "id": "5ea7e89e96d7",
+   "dur": 0.749,
+   "src": "local"
+  },
+  "w:legs": {
+   "id": "3cea1958f30b",
+   "dur": 0.811,
+   "src": "local"
+  },
+  "w:lie": {
+   "id": "b2ddab9be966",
+   "dur": 0.692,
+   "src": "local"
+  },
+  "w:light": {
+   "id": "156bdd1661b9",
+   "dur": 0.75,
+   "src": "local"
+  },
+  "w:lights": {
+   "id": "c87cf4ed22c1",
+   "dur": 0.766,
+   "src": "local"
+  },
+  "w:like": {
+   "id": "a8be7eb87106",
+   "dur": 0.7,
+   "src": "local"
+  },
+  "w:likes": {
+   "id": "d5e420d4c08c",
+   "dur": 0.773,
+   "src": "local"
+  },
+  "w:line": {
+   "id": "9d789b42ee2b",
+   "dur": 0.833,
+   "src": "local"
+  },
+  "w:list": {
+   "id": "29869256d243",
+   "dur": 0.794,
+   "src": "local"
+  },
+  "w:listening": {
+   "id": "429751a8dead",
+   "dur": 1.035,
+   "src": "local"
+  },
+  "w:little": {
+   "id": "ea918ee81241",
+   "dur": 0.911,
+   "src": "local"
+  },
+  "w:live": {
+   "id": "0fc889eddca4",
+   "dur": 0.702,
+   "src": "local"
+  },
+  "w:load": {
+   "id": "07f314c68ed0",
+   "dur": 0.785,
+   "src": "local"
+  },
+  "w:locking": {
+   "id": "24b613a94a17",
+   "dur": 0.906,
+   "src": "local"
+  },
+  "w:long": {
+   "id": "a93e30d73753",
+   "dur": 0.808,
+   "src": "local"
+  },
+  "w:longer": {
+   "id": "51f7fa55f99b",
+   "dur": 0.857,
+   "src": "local"
+  },
+  "w:look": {
+   "id": "8b6a62d666db",
+   "dur": 0.708,
+   "src": "local"
+  },
+  "w:looked": {
+   "id": "baf024d5eecd",
+   "dur": 0.707,
+   "src": "local"
+  },
+  "w:looking": {
+   "id": "274a5fa674d8",
+   "dur": 0.885,
+   "src": "local"
+  },
+  "w:looks": {
+   "id": "413fa5bcdc17",
+   "dur": 0.731,
+   "src": "local"
+  },
+  "w:lose": {
+   "id": "5cdce6d38a36",
+   "dur": 0.838,
+   "src": "local"
+  },
+  "w:lost": {
+   "id": "9b9521c07053",
+   "dur": 0.77,
+   "src": "local"
+  },
+  "w:lot": {
+   "id": "05178a151255",
+   "dur": 0.752,
+   "src": "local"
+  },
+  "w:lotion": {
+   "id": "da03c52f6d25",
+   "dur": 0.889,
+   "src": "local"
+  },
+  "w:loud": {
+   "id": "75b3638d6223",
+   "dur": 0.783,
+   "src": "local"
+  },
+  "w:loved": {
+   "id": "be8e21c603a7",
+   "dur": 0.793,
+   "src": "local"
+  },
+  "w:low": {
+   "id": "4ea0b437d50a",
+   "dur": 0.669,
+   "src": "local"
+  },
+  "w:lucky": {
+   "id": "4119111f403b",
+   "dur": 0.803,
+   "src": "local"
+  },
+  "w:machine": {
+   "id": "028465df3c1d",
+   "dur": 0.985,
+   "src": "local"
+  },
+  "w:made": {
+   "id": "90a889d61dc7",
+   "dur": 0.761,
+   "src": "local"
+  },
+  "w:magnet": {
+   "id": "a4124a98f6ee",
+   "dur": 0.891,
+   "src": "local"
+  },
+  "w:make": {
+   "id": "c8059ae79a7e",
+   "dur": 0.686,
+   "src": "local"
+  },
+  "w:makes": {
+   "id": "05dcf64e5261",
+   "dur": 0.803,
+   "src": "local"
+  },
+  "w:making": {
+   "id": "5e4c4e3745d9",
+   "dur": 0.959,
+   "src": "local"
+  },
+  "w:manager": {
+   "id": "c3f1d3e6dec0",
+   "dur": 1.108,
+   "src": "local"
+  },
+  "w:many": {
+   "id": "1b9d0b706613",
+   "dur": 0.811,
+   "src": "local"
+  },
+  "w:mark": {
+   "id": "94c01f7d3f1d",
+   "dur": 0.727,
+   "src": "local"
+  },
+  "w:market": {
+   "id": "6b76a65179c3",
+   "dur": 0.873,
+   "src": "local"
+  },
+  "w:mask": {
+   "id": "6502c4d63a9c",
+   "dur": 0.769,
+   "src": "local"
+  },
+  "w:match": {
+   "id": "213a1bcfc8ae",
+   "dur": 0.797,
+   "src": "local"
+  },
+  "w:mave": {
+   "id": "a2338d14d97c",
+   "dur": 0.762,
+   "src": "local"
+  },
+  "w:maya": {
+   "id": "b5145a764404",
+   "dur": 0.841,
+   "src": "local"
+  },
+  "w:maybe": {
+   "id": "006d6eab0e42",
+   "dur": 0.858,
+   "src": "local"
+  },
+  "w:meal": {
+   "id": "5f334acd0d24",
+   "dur": 0.842,
+   "src": "local"
+  },
+  "w:meals": {
+   "id": "d114d315a82c",
+   "dur": 0.86,
+   "src": "local"
+  },
+  "w:meant": {
+   "id": "5a9cbd947245",
+   "dur": 0.775,
+   "src": "local"
+  },
+  "w:melt": {
+   "id": "7833e425ebd7",
+   "dur": 0.746,
+   "src": "local"
+  },
+  "w:member": {
+   "id": "bf3ac69923ba",
+   "dur": 0.885,
+   "src": "local"
+  },
+  "w:mentions": {
+   "id": "a571c5db11ac",
+   "dur": 1.013,
+   "src": "local"
+  },
+  "w:met": {
+   "id": "e386ee81ff87",
+   "dur": 0.702,
+   "src": "local"
+  },
+  "w:middle": {
+   "id": "d43dcabb4a92",
+   "dur": 0.929,
+   "src": "local"
+  },
+  "w:might": {
+   "id": "17e8dbc6e6e4",
+   "dur": 0.751,
+   "src": "local"
+  },
+  "w:mike": {
+   "id": "94b7f2172fea",
+   "dur": 0.68,
+   "src": "local"
+  },
+  "w:mild": {
+   "id": "85bea8e75f45",
+   "dur": 0.865,
+   "src": "local"
+  },
+  "w:mile": {
+   "id": "bc967579c6c9",
+   "dur": 0.787,
+   "src": "local"
+  },
+  "w:milk": {
+   "id": "d2bdeb7cc39c",
+   "dur": 0.684,
+   "src": "local"
+  },
+  "w:mind": {
+   "id": "4193995953e9",
+   "dur": 0.879,
+   "src": "local"
+  },
+  "w:minor": {
+   "id": "7cf2b3f1a028",
+   "dur": 0.908,
+   "src": "local"
+  },
+  "w:minutes": {
+   "id": "cc84e7de0605",
+   "dur": 0.879,
+   "src": "local"
+  },
+  "w:misplaced": {
+   "id": "9158fc3bce66",
+   "dur": 0.955,
+   "src": "local"
+  },
+  "w:mission": {
+   "id": "a5cf7175e166",
+   "dur": 0.936,
+   "src": "local"
+  },
+  "w:mixture": {
+   "id": "0d6e84e8a50c",
+   "dur": 0.905,
+   "src": "local"
+  },
+  "w:moist": {
+   "id": "30f1ffd0a7a6",
+   "dur": 0.751,
+   "src": "local"
+  },
+  "w:moment": {
+   "id": "d042f89991f4",
+   "dur": 0.938,
+   "src": "local"
+  },
+  "w:money": {
+   "id": "0566449b4721",
+   "dur": 0.843,
+   "src": "local"
+  },
+  "w:mood": {
+   "id": "fc445c3642cb",
+   "dur": 0.812,
+   "src": "local"
+  },
+  "w:moon": {
+   "id": "2f8099d5b82c",
+   "dur": 0.855,
+   "src": "local"
+  },
+  "w:more": {
+   "id": "5d89dbaaf7eb",
+   "dur": 0.758,
+   "src": "local"
+  },
+  "w:morning": {
+   "id": "3f667ccba535",
+   "dur": 0.892,
+   "src": "local"
+  },
+  "w:most": {
+   "id": "36fac4f6fcd1",
+   "dur": 0.74,
+   "src": "local"
+  },
+  "w:mother": {
+   "id": "bbf79d011bdf",
+   "dur": 0.833,
+   "src": "local"
+  },
+  "w:motion": {
+   "id": "ae92ac99aee4",
+   "dur": 0.893,
+   "src": "local"
+  },
+  "w:mouse": {
+   "id": "564e62aa5772",
+   "dur": 0.753,
+   "src": "local"
+  },
+  "w:mouth": {
+   "id": "34f438b8508d",
+   "dur": 0.776,
+   "src": "local"
+  },
+  "w:move": {
+   "id": "d52109357c44",
+   "dur": 0.749,
+   "src": "local"
+  },
+  "w:moved": {
+   "id": "9d39778d6e58",
+   "dur": 0.84,
+   "src": "local"
+  },
+  "w:much": {
+   "id": "73139c272b23",
+   "dur": 0.774,
+   "src": "local"
+  },
+  "w:muddy": {
+   "id": "4f4f417465f5",
+   "dur": 0.842,
+   "src": "local"
+  },
+  "w:muffin": {
+   "id": "927fe8f2b7d8",
+   "dur": 0.894,
+   "src": "local"
+  },
+  "w:mugs": {
+   "id": "6b041ffa681e",
+   "dur": 0.822,
+   "src": "local"
+  },
+  "w:music": {
+   "id": "f12739807a1d",
+   "dur": 0.799,
+   "src": "local"
+  },
+  "w:my": {
+   "id": "233fed5989c0",
+   "dur": 0.656,
+   "src": "local"
+  },
+  "w:nadia": {
+   "id": "24d20e57870c",
+   "dur": 0.887,
+   "src": "local"
+  },
+  "w:name": {
+   "id": "1e82d9b85362",
+   "dur": 0.904,
+   "src": "local"
+  },
+  "w:named": {
+   "id": "83d79d9c3e03",
+   "dur": 0.866,
+   "src": "local"
+  },
+  "w:napkin": {
+   "id": "59622bad0e2b",
+   "dur": 0.944,
+   "src": "local"
+  },
+  "w:nation": {
+   "id": "e743fcee9af1",
+   "dur": 0.914,
+   "src": "local"
+  },
+  "w:nature": {
+   "id": "10f6f340410d",
+   "dur": 1.03,
+   "src": "local"
+  },
+  "w:near": {
+   "id": "11d963039f2f",
+   "dur": 0.803,
+   "src": "local"
+  },
+  "w:nearby": {
+   "id": "f1ee185ee47a",
+   "dur": 0.953,
+   "src": "local"
+  },
+  "w:nervous": {
+   "id": "c22c72166db8",
+   "dur": 0.855,
+   "src": "local"
+  },
+  "w:nest": {
+   "id": "78b68d60faaa",
+   "dur": 0.748,
+   "src": "local"
+  },
+  "w:network": {
+   "id": "87bbd730f6e9",
+   "dur": 0.85,
+   "src": "local"
+  },
+  "w:never": {
+   "id": "6fd7d4702d38",
+   "dur": 0.842,
+   "src": "local"
+  },
+  "w:next": {
+   "id": "83815900aa6f",
+   "dur": 0.752,
+   "src": "local"
+  },
+  "w:nice": {
+   "id": "f62f1b9ca791",
+   "dur": 0.775,
+   "src": "local"
+  },
+  "w:nicer": {
+   "id": "95ef33445733",
+   "dur": 0.956,
+   "src": "local"
+  },
+  "w:night": {
+   "id": "780060abdb8d",
+   "dur": 0.75,
+   "src": "local"
+  },
+  "w:nine": {
+   "id": "1abeaf1deb0e",
+   "dur": 0.827,
+   "src": "local"
+  },
+  "w:noise": {
+   "id": "3adfb2157860",
+   "dur": 0.76,
+   "src": "local"
+  },
+  "w:north": {
+   "id": "aa83a35ffe23",
+   "dur": 0.723,
+   "src": "local"
+  },
+  "w:nose": {
+   "id": "8dd76f64bbbf",
+   "dur": 0.769,
+   "src": "local"
+  },
+  "w:note": {
+   "id": "a56dd83400ea",
+   "dur": 0.75,
+   "src": "local"
+  },
+  "w:notebook": {
+   "id": "39599da09f9c",
+   "dur": 0.86,
+   "src": "local"
+  },
+  "w:nothing": {
+   "id": "f389bdc4c92f",
+   "dur": 0.863,
+   "src": "local"
+  },
+  "w:notice": {
+   "id": "57983c815819",
+   "dur": 0.898,
+   "src": "local"
+  },
+  "w:noticed": {
+   "id": "8c5964330a2d",
+   "dur": 0.917,
+   "src": "local"
+  },
+  "w:notices": {
+   "id": "ca28f61e4223",
+   "dur": 1.017,
+   "src": "local"
+  },
+  "w:now": {
+   "id": "975e28fb8e3b",
+   "dur": 0.764,
+   "src": "local"
+  },
+  "w:nurse": {
+   "id": "a70ccb1ba3f4",
+   "dur": 0.821,
+   "src": "local"
+  },
+  "w:nursing": {
+   "id": "07e1bdcfd158",
+   "dur": 0.981,
+   "src": "local"
+  },
+  "w:off": {
+   "id": "c232addb72cb",
+   "dur": 0.733,
+   "src": "local"
+  },
+  "w:office": {
+   "id": "5febb8ee26de",
+   "dur": 0.804,
+   "src": "local"
+  },
+  "w:official": {
+   "id": "a543085fbf57",
+   "dur": 0.891,
+   "src": "local"
+  },
+  "w:often": {
+   "id": "e6cdfc7181e1",
+   "dur": 0.91,
+   "src": "local"
+  },
+  "w:oil": {
+   "id": "f91e59929eaa",
+   "dur": 0.759,
+   "src": "local"
+  },
+  "w:old": {
+   "id": "fb321dc97132",
+   "dur": 0.857,
+   "src": "local"
+  },
+  "w:older": {
+   "id": "25a32c2e719a",
+   "dur": 0.883,
+   "src": "local"
+  },
+  "w:once": {
+   "id": "df0546847fbb",
+   "dur": 0.801,
+   "src": "local"
+  },
+  "w:online": {
+   "id": "2fd94c325683",
+   "dur": 0.909,
+   "src": "local"
+  },
+  "w:only": {
+   "id": "4e501e8a1dd9",
+   "dur": 0.857,
+   "src": "local"
+  },
+  "w:onto": {
+   "id": "7b135e8bf192",
+   "dur": 0.903,
+   "src": "local"
+  },
+  "w:open": {
+   "id": "3b0a80818fed",
+   "dur": 0.938,
+   "src": "local"
+  },
+  "w:or": {
+   "id": "9ad77529e168",
+   "dur": 0.763,
+   "src": "local"
+  },
+  "w:other": {
+   "id": "c852e002176e",
+   "dur": 0.723,
+   "src": "local"
+  },
+  "w:others": {
+   "id": "399291164c9c",
+   "dur": 0.825,
+   "src": "local"
+  },
+  "w:outside": {
+   "id": "4ed6a7e15915",
+   "dur": 0.899,
+   "src": "local"
+  },
+  "w:over": {
+   "id": "5b787c601a51",
+   "dur": 0.86,
+   "src": "local"
+  },
+  "w:own": {
+   "id": "c82ea21a66f0",
+   "dur": 0.765,
+   "src": "local"
+  },
+  "w:packed": {
+   "id": "3274260c3630",
+   "dur": 0.776,
+   "src": "local"
+  },
+  "w:page": {
+   "id": "2dc7545a552f",
+   "dur": 0.86,
+   "src": "local"
+  },
+  "w:pages": {
+   "id": "51620a70ca6e",
+   "dur": 0.861,
+   "src": "local"
+  },
+  "w:pal": {
+   "id": "ff41d1835005",
+   "dur": 0.702,
+   "src": "local"
+  },
+  "w:pale": {
+   "id": "f652e89df5ac",
+   "dur": 0.764,
+   "src": "local"
+  },
+  "w:panel": {
+   "id": "c48011b5c523",
+   "dur": 0.838,
+   "src": "local"
+  },
+  "w:paper": {
+   "id": "4b01eca23bab",
+   "dur": 0.882,
+   "src": "local"
+  },
+  "w:park": {
+   "id": "bf43a76c478e",
+   "dur": 0.663,
+   "src": "local"
+  },
+  "w:parks": {
+   "id": "bb644f70802d",
+   "dur": 0.76,
+   "src": "local"
+  },
+  "w:part": {
+   "id": "e11a2013d08e",
+   "dur": 0.708,
+   "src": "local"
+  },
+  "w:partial": {
+   "id": "26cc805f3f11",
+   "dur": 0.889,
+   "src": "local"
+  },
+  "w:parts": {
+   "id": "e01ef933326d",
+   "dur": 0.712,
+   "src": "local"
+  },
+  "w:past": {
+   "id": "171e7a39b38f",
+   "dur": 0.73,
+   "src": "local"
+  },
+  "w:patient": {
+   "id": "d1c5627e0f01",
+   "dur": 0.987,
+   "src": "local"
+  },
+  "w:pause": {
+   "id": "12a49ab011ab",
+   "dur": 0.778,
+   "src": "local"
+  },
+  "w:pays": {
+   "id": "a4eaf3a64ebc",
+   "dur": 0.806,
+   "src": "local"
+  },
+  "w:pencil": {
+   "id": "1c1bcc287541",
+   "dur": 0.877,
+   "src": "local"
+  },
+  "w:people": {
+   "id": "3087e3d1e7d7",
+   "dur": 0.864,
+   "src": "local"
+  },
+  "w:performing": {
+   "id": "b1ecef92977f",
+   "dur": 1.033,
+   "src": "local"
+  },
+  "w:person": {
+   "id": "a5fbe175e2b0",
+   "dur": 0.928,
+   "src": "local"
+  },
+  "w:phone": {
+   "id": "c050b676df21",
+   "dur": 0.814,
+   "src": "local"
+  },
+  "w:phrase": {
+   "id": "d4607d796bb4",
+   "dur": 0.768,
+   "src": "local"
+  },
+  "w:picnic": {
+   "id": "c885aa5d0a36",
+   "dur": 0.805,
+   "src": "local"
+  },
+  "w:picture": {
+   "id": "65c4c98438b3",
+   "dur": 0.909,
+   "src": "local"
+  },
+  "w:pie": {
+   "id": "ff9688dfe528",
+   "dur": 0.761,
+   "src": "local"
+  },
+  "w:piece": {
+   "id": "e018af25869d",
+   "dur": 0.735,
+   "src": "local"
+  },
+  "w:pilot": {
+   "id": "e05836cc5140",
+   "dur": 0.821,
+   "src": "local"
+  },
+  "w:plan": {
+   "id": "e05f6e4f31bb",
+   "dur": 0.741,
+   "src": "local"
+  },
+  "w:planet": {
+   "id": "c5c024863670",
+   "dur": 0.851,
+   "src": "local"
+  },
+  "w:planning": {
+   "id": "b5711f296001",
+   "dur": 0.863,
+   "src": "local"
+  },
+  "w:planted": {
+   "id": "4fe098b68a0f",
+   "dur": 0.926,
+   "src": "local"
+  },
+  "w:planting": {
+   "id": "0a6259160f55",
+   "dur": 0.932,
+   "src": "local"
+  },
+  "w:play": {
+   "id": "5db2b4994ac8",
+   "dur": 0.685,
+   "src": "local"
+  },
+  "w:playing": {
+   "id": "19df27551617",
+   "dur": 0.86,
+   "src": "local"
+  },
+  "w:plums": {
+   "id": "e5932f6de31e",
+   "dur": 0.861,
+   "src": "local"
+  },
+  "w:plus": {
+   "id": "be2a6af9c61f",
+   "dur": 0.733,
+   "src": "local"
+  },
+  "w:poem": {
+   "id": "11b1fdb8a790",
+   "dur": 0.904,
+   "src": "local"
+  },
+  "w:point": {
+   "id": "f2d8f98933c0",
+   "dur": 0.774,
+   "src": "local"
+  },
+  "w:pond": {
+   "id": "19a9eab20ab4",
+   "dur": 0.912,
+   "src": "local"
+  },
+  "w:port": {
+   "id": "3f92af348a66",
+   "dur": 0.728,
+   "src": "local"
+  },
+  "w:portion": {
+   "id": "66166fee31b9",
+   "dur": 0.952,
+   "src": "local"
+  },
+  "w:position": {
+   "id": "b252c279c8c8",
+   "dur": 0.875,
+   "src": "local"
+  },
+  "w:pound": {
+   "id": "de0f0711aad4",
+   "dur": 0.911,
+   "src": "local"
+  },
+  "w:power": {
+   "id": "ce9d9c7d9944",
+   "dur": 0.962,
+   "src": "local"
+  },
+  "w:printing": {
+   "id": "1e1c40bc9c07",
+   "dur": 0.959,
+   "src": "local"
+  },
+  "w:prize": {
+   "id": "946dba6cf919",
+   "dur": 0.749,
+   "src": "local"
+  },
+  "w:problem": {
+   "id": "ecc7359f924a",
+   "dur": 0.934,
+   "src": "local"
+  },
+  "w:program": {
+   "id": "47e6ffab1de9",
+   "dur": 0.957,
+   "src": "local"
+  },
+  "w:project": {
+   "id": "aa3015211117",
+   "dur": 0.834,
+   "src": "local"
+  },
+  "w:proud": {
+   "id": "e3f436e3595e",
+   "dur": 0.755,
+   "src": "local"
+  },
+  "w:prune": {
+   "id": "970b9d61a7a2",
+   "dur": 0.834,
+   "src": "local"
+  },
+  "w:pull": {
+   "id": "64cc4f1d3bb6",
+   "dur": 0.781,
+   "src": "local"
+  },
+  "w:pulled": {
+   "id": "e6058e1d755a",
+   "dur": 0.736,
+   "src": "local"
+  },
+  "w:punish": {
+   "id": "a36f66dd185c",
+   "dur": 0.825,
+   "src": "local"
+  },
+  "w:puppy": {
+   "id": "2c10b6126b44",
+   "dur": 0.752,
+   "src": "local"
+  },
+  "w:purple": {
+   "id": "e4a11416fd9b",
+   "dur": 0.881,
+   "src": "local"
+  },
+  "w:puzzle": {
+   "id": "5132c30ef10e",
+   "dur": 0.814,
+   "src": "local"
+  },
+  "w:queen": {
+   "id": "bbdb598f6d7c",
+   "dur": 0.833,
+   "src": "local"
+  },
+  "w:question": {
+   "id": "5a1c8c598c1f",
+   "dur": 0.941,
+   "src": "local"
+  },
+  "w:quiet": {
+   "id": "41480fc3207f",
+   "dur": 0.828,
+   "src": "local"
+  },
+  "w:quietly": {
+   "id": "3df0960e1428",
+   "dur": 0.888,
+   "src": "local"
+  },
+  "w:quite": {
+   "id": "23847471cf87",
+   "dur": 0.725,
+   "src": "local"
+  },
+  "w:rabbit": {
+   "id": "9500bea75787",
+   "dur": 0.797,
+   "src": "local"
+  },
+  "w:race": {
+   "id": "e2eb684e3769",
+   "dur": 0.803,
+   "src": "local"
+  },
+  "w:radio": {
+   "id": "9c19b108611a",
+   "dur": 0.984,
+   "src": "local"
+  },
+  "w:rain": {
+   "id": "17a8f1294aa5",
+   "dur": 0.856,
+   "src": "local"
+  },
+  "w:rainbow": {
+   "id": "6b59229e18f5",
+   "dur": 1.022,
+   "src": "local"
+  },
+  "w:rang": {
+   "id": "2f8c733d6bc7",
+   "dur": 0.868,
+   "src": "local"
+  },
+  "w:rare": {
+   "id": "97d005308c7b",
+   "dur": 0.819,
+   "src": "local"
+  },
+  "w:read": {
+   "id": "4fee7d809bb5",
+   "dur": 0.864,
+   "src": "local"
+  },
+  "w:real": {
+   "id": "33a616caa701",
+   "dur": 0.869,
+   "src": "local"
+  },
+  "w:reassured": {
+   "id": "283b919df8dd",
+   "dur": 1.131,
+   "src": "local"
+  },
+  "w:reboot": {
+   "id": "3daa0272af50",
+   "dur": 0.964,
+   "src": "local"
+  },
+  "w:recess": {
+   "id": "9d1221c61a0b",
+   "dur": 0.971,
+   "src": "local"
+  },
+  "w:recommend": {
+   "id": "28fdfd4a4b66",
+   "dur": 1.167,
+   "src": "local"
+  },
+  "w:reconnecting": {
+   "id": "2da5169da705",
+   "dur": 1.113,
+   "src": "local"
+  },
+  "w:reconsider": {
+   "id": "73414d440eb9",
+   "dur": 1.231,
+   "src": "local"
+  },
+  "w:reconsidering": {
+   "id": "9a9311798f8e",
+   "dur": 1.347,
+   "src": "local"
+  },
+  "w:red": {
+   "id": "258112cc628a",
+   "dur": 0.744,
+   "src": "local"
+  },
+  "w:regular": {
+   "id": "f80ee2bbf326",
+   "dur": 1.105,
+   "src": "local"
+  },
+  "w:rental": {
+   "id": "62f970ce6206",
+   "dur": 0.917,
+   "src": "local"
+  },
+  "w:repair": {
+   "id": "4ab5f6f3b22f",
+   "dur": 0.909,
+   "src": "local"
+  },
+  "w:replies": {
+   "id": "88d83f7ab2c0",
+   "dur": 0.928,
+   "src": "local"
+  },
+  "w:reporting": {
+   "id": "fb89a124373d",
+   "dur": 1.087,
+   "src": "local"
+  },
+  "w:rest": {
+   "id": "ef41cf3b8fbb",
+   "dur": 0.744,
+   "src": "local"
+  },
+  "w:restarting": {
+   "id": "6e7ae7390a0d",
+   "dur": 1.113,
+   "src": "local"
+  },
+  "w:rested": {
+   "id": "bbc3559e0bf6",
+   "dur": 0.897,
+   "src": "local"
+  },
+  "w:resting": {
+   "id": "1862bf0eb6bc",
+   "dur": 0.892,
+   "src": "local"
+  },
+  "w:restore": {
+   "id": "56ecdc12666f",
+   "dur": 0.865,
+   "src": "local"
+  },
+  "w:retesting": {
+   "id": "1baf2819200b",
+   "dur": 1.082,
+   "src": "local"
+  },
+  "w:rewriting": {
+   "id": "cd2262521c3c",
+   "dur": 1.039,
+   "src": "local"
+  },
+  "w:ride": {
+   "id": "afb84e449c1b",
+   "dur": 0.789,
+   "src": "local"
+  },
+  "w:rides": {
+   "id": "bdbb75d67af3",
+   "dur": 0.802,
+   "src": "local"
+  },
+  "w:riding": {
+   "id": "ea8753f19515",
+   "dur": 0.932,
+   "src": "local"
+  },
+  "w:right": {
+   "id": "ab92441e65cd",
+   "dur": 0.8,
+   "src": "local"
+  },
+  "w:ring": {
+   "id": "5a3fe867e52c",
+   "dur": 0.84,
+   "src": "local"
+  },
+  "w:ringing": {
+   "id": "5784752b2878",
+   "dur": 0.911,
+   "src": "local"
+  },
+  "w:rings": {
+   "id": "2bb6e56ba36d",
+   "dur": 0.913,
+   "src": "local"
+  },
+  "w:river": {
+   "id": "2c67f393b037",
+   "dur": 0.836,
+   "src": "local"
+  },
+  "w:road": {
+   "id": "ae13c5a0e823",
+   "dur": 0.764,
+   "src": "local"
+  },
+  "w:roast": {
+   "id": "9d79b50a4af4",
+   "dur": 0.75,
+   "src": "local"
+  },
+  "w:robin": {
+   "id": "b480d8b16024",
+   "dur": 0.888,
+   "src": "local"
+  },
+  "w:robot": {
+   "id": "5b7f882de185",
+   "dur": 0.825,
+   "src": "local"
+  },
+  "w:robots": {
+   "id": "3def2d067ad6",
+   "dur": 0.94,
+   "src": "local"
+  },
+  "w:rode": {
+   "id": "ae13c5a0e823",
+   "dur": 0.764,
+   "src": "local"
+  },
+  "w:role": {
+   "id": "896482b6e492",
+   "dur": 0.815,
+   "src": "local"
+  },
+  "w:roof": {
+   "id": "db556f2e4bd5",
+   "dur": 0.802,
+   "src": "local"
+  },
+  "w:roofs": {
+   "id": "c84dca9ad1c1",
+   "dur": 0.784,
+   "src": "local"
+  },
+  "w:rough": {
+   "id": "7dc2fb52cac2",
+   "dur": 0.723,
+   "src": "local"
+  },
+  "w:round": {
+   "id": "de87ebfbb564",
+   "dur": 0.889,
+   "src": "local"
+  },
+  "w:royal": {
+   "id": "04600312b688",
+   "dur": 0.854,
+   "src": "local"
+  },
+  "w:rule": {
+   "id": "a9ff6ce44a5e",
+   "dur": 0.908,
+   "src": "local"
+  },
+  "w:running": {
+   "id": "1892a2b13582",
+   "dur": 0.909,
+   "src": "local"
+  },
+  "w:runs": {
+   "id": "a65fc2e21cfd",
+   "dur": 0.881,
+   "src": "local"
+  },
+  "w:rushes": {
+   "id": "d56f3cf1fa12",
+   "dur": 0.87,
+   "src": "local"
+  },
+  "w:rushing": {
+   "id": "30b7f2446bb9",
+   "dur": 0.935,
+   "src": "local"
+  },
+  "w:sale": {
+   "id": "3894d9fefed8",
+   "dur": 0.77,
+   "src": "local"
+  },
+  "w:same": {
+   "id": "2307c0dfeb3a",
+   "dur": 0.738,
+   "src": "local"
+  },
+  "w:sample": {
+   "id": "d489e1a3b7e2",
+   "dur": 0.911,
+   "src": "local"
+  },
+  "w:save": {
+   "id": "23d852c7a7db",
+   "dur": 0.742,
+   "src": "local"
+  },
+  "w:saved": {
+   "id": "b48265f0429a",
+   "dur": 0.782,
+   "src": "local"
+  },
+  "w:saving": {
+   "id": "097d915151bb",
+   "dur": 0.909,
+   "src": "local"
+  },
+  "w:says": {
+   "id": "07c557ca9c21",
+   "dur": 0.762,
+   "src": "local"
+  },
+  "w:scan": {
+   "id": "bfa9a4f86733",
+   "dur": 0.789,
+   "src": "local"
+  },
+  "w:scar": {
+   "id": "b51c694f198e",
+   "dur": 0.803,
+   "src": "local"
+  },
+  "w:scare": {
+   "id": "0d696d4ab385",
+   "dur": 0.759,
+   "src": "local"
+  },
+  "w:scared": {
+   "id": "aedb25964693",
+   "dur": 0.796,
+   "src": "local"
+  },
+  "w:school": {
+   "id": "2a3b69096c90",
+   "dur": 0.799,
+   "src": "local"
+  },
+  "w:score": {
+   "id": "53c1c77d152b",
+   "dur": 0.783,
+   "src": "local"
+  },
+  "w:scrub": {
+   "id": "c09406321d95",
+   "dur": 0.768,
+   "src": "local"
+  },
+  "w:section": {
+   "id": "62ee138a8dbb",
+   "dur": 0.841,
+   "src": "local"
+  },
+  "w:sentence": {
+   "id": "88393305b41d",
+   "dur": 0.937,
+   "src": "local"
+  },
+  "w:series": {
+   "id": "59f969bc9c59",
+   "dur": 0.764,
+   "src": "local"
+  },
+  "w:seriously": {
+   "id": "a04f306e0c03",
+   "dur": 1.061,
+   "src": "local"
+  },
+  "w:session": {
+   "id": "7159799b23c9",
+   "dur": 0.857,
+   "src": "local"
+  },
+  "w:shade": {
+   "id": "a96cd095d40d",
+   "dur": 0.75,
+   "src": "local"
+  },
+  "w:shall": {
+   "id": "13434f86b087",
+   "dur": 0.809,
+   "src": "local"
+  },
+  "w:shaped": {
+   "id": "f5745b428cd6",
+   "dur": 0.721,
+   "src": "local"
+  },
+  "w:share": {
+   "id": "54c7b2508c09",
+   "dur": 0.744,
+   "src": "local"
+  },
+  "w:shine": {
+   "id": "132a60e2994b",
+   "dur": 0.741,
+   "src": "local"
+  },
+  "w:shines": {
+   "id": "3f8759246053",
+   "dur": 0.86,
+   "src": "local"
+  },
+  "w:shiver": {
+   "id": "9a4eac158896",
+   "dur": 0.786,
+   "src": "local"
+  },
+  "w:short": {
+   "id": "89fba8d9b820",
+   "dur": 0.724,
+   "src": "local"
+  },
+  "w:shorter": {
+   "id": "714f0713bc6e",
+   "dur": 0.882,
+   "src": "local"
+  },
+  "w:should": {
+   "id": "71149daa4c97",
+   "dur": 0.685,
+   "src": "local"
+  },
+  "w:shout": {
+   "id": "3461f6d2c547",
+   "dur": 0.673,
+   "src": "local"
+  },
+  "w:show": {
+   "id": "de7671cc8937",
+   "dur": 0.758,
+   "src": "local"
+  },
+  "w:showing": {
+   "id": "f6f031f2c513",
+   "dur": 0.835,
+   "src": "local"
+  },
+  "w:shows": {
+   "id": "d24c2b8298f8",
+   "dur": 0.739,
+   "src": "local"
+  },
+  "w:shrub": {
+   "id": "7b942396fbe8",
+   "dur": 0.82,
+   "src": "local"
+  },
+  "w:shut": {
+   "id": "d7a14bb1e83f",
+   "dur": 0.686,
+   "src": "local"
+  },
+  "w:side": {
+   "id": "fdc3be6a3047",
+   "dur": 0.757,
+   "src": "local"
+  },
+  "w:sign": {
+   "id": "be7338687433",
+   "dur": 0.741,
+   "src": "local"
+  },
+  "w:signal": {
+   "id": "d6b4afee0570",
+   "dur": 0.908,
+   "src": "local"
+  },
+  "w:signed": {
+   "id": "4215a252c080",
+   "dur": 0.881,
+   "src": "local"
+  },
+  "w:silent": {
+   "id": "f6fc1f3fb61a",
+   "dur": 0.927,
+   "src": "local"
+  },
+  "w:silly": {
+   "id": "57dee8d15ac5",
+   "dur": 0.72,
+   "src": "local"
+  },
+  "w:simple": {
+   "id": "7d440aabee69",
+   "dur": 0.864,
+   "src": "local"
+  },
+  "w:since": {
+   "id": "9fbc5340f522",
+   "dur": 0.744,
+   "src": "local"
+  },
+  "w:sister": {
+   "id": "1c43fe2f8699",
+   "dur": 0.836,
+   "src": "local"
+  },
+  "w:sitting": {
+   "id": "1843fe902867",
+   "dur": 0.789,
+   "src": "local"
+  },
+  "w:size": {
+   "id": "680341afad24",
+   "dur": 0.727,
+   "src": "local"
+  },
+  "w:skating": {
+   "id": "8b37ea97b4fb",
+   "dur": 0.911,
+   "src": "local"
+  },
+  "w:skin": {
+   "id": "a4e21f232fae",
+   "dur": 0.827,
+   "src": "local"
+  },
+  "w:sky": {
+   "id": "8bcca8b791bb",
+   "dur": 0.744,
+   "src": "local"
+  },
+  "w:slide": {
+   "id": "766dd1231960",
+   "dur": 0.778,
+   "src": "local"
+  },
+  "w:slipping": {
+   "id": "6934a870fee0",
+   "dur": 0.861,
+   "src": "local"
+  },
+  "w:slow": {
+   "id": "ed0566bf182a",
+   "dur": 0.709,
+   "src": "local"
+  },
+  "w:slowly": {
+   "id": "4ab19c40362f",
+   "dur": 0.909,
+   "src": "local"
+  },
+  "w:slows": {
+   "id": "9b4230ea14ae",
+   "dur": 0.822,
+   "src": "local"
+  },
+  "w:smart": {
+   "id": "1ba60402a80f",
+   "dur": 0.748,
+   "src": "local"
+  },
+  "w:smartest": {
+   "id": "b128a5aa02cf",
+   "dur": 0.951,
+   "src": "local"
+  },
+  "w:smell": {
+   "id": "bd91de81d706",
+   "dur": 0.742,
+   "src": "local"
+  },
+  "w:smile": {
+   "id": "242f7904e564",
+   "dur": 0.801,
+   "src": "local"
+  },
+  "w:smiled": {
+   "id": "2f635ef1b649",
+   "dur": 0.907,
+   "src": "local"
+  },
+  "w:smiles": {
+   "id": "eb02e128e5e6",
+   "dur": 0.849,
+   "src": "local"
+  },
+  "w:smiling": {
+   "id": "5af84642fd38",
+   "dur": 0.936,
+   "src": "local"
+  },
+  "w:smoke": {
+   "id": "9eca29b212d2",
+   "dur": 0.701,
+   "src": "local"
+  },
+  "w:smooth": {
+   "id": "69c4e302c008",
+   "dur": 0.904,
+   "src": "local"
+  },
+  "w:snail": {
+   "id": "c9ad207509d5",
+   "dur": 0.785,
+   "src": "local"
+  },
+  "w:sneer": {
+   "id": "c0021ed78fd3",
+   "dur": 0.799,
+   "src": "local"
+  },
+  "w:snore": {
+   "id": "4fe4fcbcc2cd",
+   "dur": 0.747,
+   "src": "local"
+  },
+  "w:snow": {
+   "id": "d599644fab2c",
+   "dur": 0.744,
+   "src": "local"
+  },
+  "w:social": {
+   "id": "c4abb89c40f1",
+   "dur": 0.894,
+   "src": "local"
+  },
+  "w:soil": {
+   "id": "15a362195adf",
+   "dur": 0.785,
+   "src": "local"
+  },
+  "w:sold": {
+   "id": "8e3ad42091b7",
+   "dur": 0.831,
+   "src": "local"
+  },
+  "w:some": {
+   "id": "3e6960a5dc4d",
+   "dur": 0.71,
+   "src": "local"
+  },
+  "w:someone": {
+   "id": "6774f72fbca5",
+   "dur": 0.91,
+   "src": "local"
+  },
+  "w:something": {
+   "id": "856c53a972a5",
+   "dur": 0.869,
+   "src": "local"
+  },
+  "w:sometimes": {
+   "id": "32b4daa9b0e5",
+   "dur": 1.135,
+   "src": "local"
+  },
+  "w:song": {
+   "id": "31bcdf394e35",
+   "dur": 0.733,
+   "src": "local"
+  },
+  "w:soon": {
+   "id": "81b5ba2b147d",
+   "dur": 0.799,
+   "src": "local"
+  },
+  "w:sound": {
+   "id": "226f6e8e5bd6",
+   "dur": 0.839,
+   "src": "local"
+  },
+  "w:sounds": {
+   "id": "375cbe2090ad",
+   "dur": 0.844,
+   "src": "local"
+  },
+  "w:spare": {
+   "id": "7ffe0cccd5ec",
+   "dur": 0.74,
+   "src": "local"
+  },
+  "w:spark": {
+   "id": "11c07b628150",
+   "dur": 0.721,
+   "src": "local"
+  },
+  "w:special": {
+   "id": "4add1d7b2375",
+   "dur": 0.855,
+   "src": "local"
+  },
+  "w:spider": {
+   "id": "1a60baffbbac",
+   "dur": 0.888,
+   "src": "local"
+  },
+  "w:spiders": {
+   "id": "69901ca14017",
+   "dur": 0.943,
+   "src": "local"
+  },
+  "w:spike": {
+   "id": "6f0179ca095c",
+   "dur": 0.699,
+   "src": "local"
+  },
+  "w:spin": {
+   "id": "6f32558cc8b1",
+   "dur": 0.81,
+   "src": "local"
+  },
+  "w:spinning": {
+   "id": "817bbe97260a",
+   "dur": 0.875,
+   "src": "local"
+  },
+  "w:splash": {
+   "id": "f9479069dfd0",
+   "dur": 0.818,
+   "src": "local"
+  },
+  "w:splashes": {
+   "id": "3976fcb4d776",
+   "dur": 0.995,
+   "src": "local"
+  },
+  "w:split": {
+   "id": "b8e6541bbce5",
+   "dur": 0.729,
+   "src": "local"
+  },
+  "w:spoil": {
+   "id": "f71cb7c1165d",
+   "dur": 0.783,
+   "src": "local"
+  },
+  "w:sport": {
+   "id": "77cdb29baeea",
+   "dur": 0.748,
+   "src": "local"
+  },
+  "w:spot": {
+   "id": "2cc97422c3e3",
+   "dur": 0.746,
+   "src": "local"
+  },
+  "w:spotted": {
+   "id": "9859f961005d",
+   "dur": 0.884,
+   "src": "local"
+  },
+  "w:spray": {
+   "id": "aac4f93655e2",
+   "dur": 0.752,
+   "src": "local"
+  },
+  "w:spread": {
+   "id": "c6e49ca48b1f",
+   "dur": 0.802,
+   "src": "local"
+  },
+  "w:spreads": {
+   "id": "e9e76c7ec727",
+   "dur": 0.866,
+   "src": "local"
+  },
+  "w:spry": {
+   "id": "04df392b4723",
+   "dur": 0.754,
+   "src": "local"
+  },
+  "w:square": {
+   "id": "cc5f3f678636",
+   "dur": 0.795,
+   "src": "local"
+  },
+  "w:stage": {
+   "id": "a645ce15d2e0",
+   "dur": 0.837,
+   "src": "local"
+  },
+  "w:stall": {
+   "id": "26ab5921b3d8",
+   "dur": 0.712,
+   "src": "local"
+  },
+  "w:stand": {
+   "id": "2da59fc374b5",
+   "dur": 0.844,
+   "src": "local"
+  },
+  "w:stands": {
+   "id": "9e0d9817a3d6",
+   "dur": 0.861,
+   "src": "local"
+  },
+  "w:star": {
+   "id": "0dc676728b4a",
+   "dur": 0.701,
+   "src": "local"
+  },
+  "w:stares": {
+   "id": "c330e9360b64",
+   "dur": 0.795,
+   "src": "local"
+  },
+  "w:stars": {
+   "id": "72bfcda53182",
+   "dur": 0.778,
+   "src": "local"
+  },
+  "w:start": {
+   "id": "c09d27016e65",
+   "dur": 0.769,
+   "src": "local"
+  },
+  "w:started": {
+   "id": "4cae5545f50f",
+   "dur": 0.861,
+   "src": "local"
+  },
+  "w:starting": {
+   "id": "9f2c8f4a573a",
+   "dur": 0.886,
+   "src": "local"
+  },
+  "w:starts": {
+   "id": "2bcf299caf0c",
+   "dur": 0.81,
+   "src": "local"
+  },
+  "w:station": {
+   "id": "1a6724ed469f",
+   "dur": 0.948,
+   "src": "local"
+  },
+  "w:stay": {
+   "id": "1ffe711a0c38",
+   "dur": 0.726,
+   "src": "local"
+  },
+  "w:stayed": {
+   "id": "5a55c89ff780",
+   "dur": 0.748,
+   "src": "local"
+  },
+  "w:steer": {
+   "id": "cc2c31319001",
+   "dur": 0.756,
+   "src": "local"
+  },
+  "w:steve": {
+   "id": "672b79b8fb9a",
+   "dur": 0.747,
+   "src": "local"
+  },
+  "w:still": {
+   "id": "0e207ee042b7",
+   "dur": 0.744,
+   "src": "local"
+  },
+  "w:stir": {
+   "id": "c51758a32a65",
+   "dur": 0.725,
+   "src": "local"
+  },
+  "w:stomach": {
+   "id": "5fc9ee83c518",
+   "dur": 0.795,
+   "src": "local"
+  },
+  "w:stop": {
+   "id": "1025cf9e3e19",
+   "dur": 0.723,
+   "src": "local"
+  },
+  "w:stopped": {
+   "id": "040d7e1c00bf",
+   "dur": 0.782,
+   "src": "local"
+  },
+  "w:stopping": {
+   "id": "afecd28bcf83",
+   "dur": 0.902,
+   "src": "local"
+  },
+  "w:store": {
+   "id": "3072cb712b9f",
+   "dur": 0.726,
+   "src": "local"
+  },
+  "w:storm": {
+   "id": "e7b57aeea413",
+   "dur": 0.825,
+   "src": "local"
+  },
+  "w:story": {
+   "id": "b047c9e6c9c0",
+   "dur": 0.794,
+   "src": "local"
+  },
+  "w:stove": {
+   "id": "0778afcdb39d",
+   "dur": 0.765,
+   "src": "local"
+  },
+  "w:strange": {
+   "id": "76690fff8e7a",
+   "dur": 0.959,
+   "src": "local"
+  },
+  "w:stray": {
+   "id": "da2e09779049",
+   "dur": 0.774,
+   "src": "local"
+  },
+  "w:string": {
+   "id": "807826562030",
+   "dur": 0.868,
+   "src": "local"
+  },
+  "w:strong": {
+   "id": "11723f8b138b",
+   "dur": 0.867,
+   "src": "local"
+  },
+  "w:students": {
+   "id": "f5fbeb955373",
+   "dur": 0.92,
+   "src": "local"
+  },
+  "w:studied": {
+   "id": "897ed90e09c4",
+   "dur": 0.824,
+   "src": "local"
+  },
+  "w:studying": {
+   "id": "4d24104ec231",
+   "dur": 0.939,
+   "src": "local"
+  },
+  "w:sturdy": {
+   "id": "f478b1a553ed",
+   "dur": 0.847,
+   "src": "local"
+  },
+  "w:suggestion": {
+   "id": "c02efe2c55a7",
+   "dur": 1.088,
+   "src": "local"
+  },
+  "w:summer": {
+   "id": "560e239f9580",
+   "dur": 0.86,
+   "src": "local"
+  },
+  "w:sunny": {
+   "id": "d155a6831f92",
+   "dur": 0.818,
+   "src": "local"
+  },
+  "w:sunset": {
+   "id": "1a6b1bdf179b",
+   "dur": 0.79,
+   "src": "local"
+  },
+  "w:support": {
+   "id": "a1abb1b42413",
+   "dur": 0.808,
+   "src": "local"
+  },
+  "w:sure": {
+   "id": "8f0f5681e561",
+   "dur": 0.689,
+   "src": "local"
+  },
+  "w:swim": {
+   "id": "875a3c5f5a05",
+   "dur": 0.843,
+   "src": "local"
+  },
+  "w:swimming": {
+   "id": "4ed96fa7d9ce",
+   "dur": 0.915,
+   "src": "local"
+  },
+  "w:switching": {
+   "id": "848e5ce1b5ee",
+   "dur": 0.933,
+   "src": "local"
+  },
+  "w:symptoms": {
+   "id": "b04e1a25fba5",
+   "dur": 1.036,
+   "src": "local"
+  },
+  "w:table": {
+   "id": "5793f136b422",
+   "dur": 0.865,
+   "src": "local"
+  },
+  "w:tables": {
+   "id": "4c71a3150a8b",
+   "dur": 0.943,
+   "src": "local"
+  },
+  "w:tablet": {
+   "id": "7775848b9757",
+   "dur": 0.902,
+   "src": "local"
+  },
+  "w:tail": {
+   "id": "0b780918fa57",
+   "dur": 0.869,
+   "src": "local"
+  },
+  "w:tails": {
+   "id": "e9efc759f8c1",
+   "dur": 0.866,
+   "src": "local"
+  },
+  "w:taking": {
+   "id": "56b6efe7503e",
+   "dur": 0.937,
+   "src": "local"
+  },
+  "w:tale": {
+   "id": "0b780918fa57",
+   "dur": 0.869,
+   "src": "local"
+  },
+  "w:talk": {
+   "id": "22593455f4d2",
+   "dur": 0.707,
+   "src": "local"
+  },
+  "w:talking": {
+   "id": "b4950aede708",
+   "dur": 0.936,
+   "src": "local"
+  },
+  "w:tapping": {
+   "id": "1d35ed48ac22",
+   "dur": 0.894,
+   "src": "local"
+  },
+  "w:target": {
+   "id": "966f0e8d3b13",
+   "dur": 0.792,
+   "src": "local"
+  },
+  "w:tariq": {
+   "id": "8eb38f8f9d51",
+   "dur": 0.958,
+   "src": "local"
+  },
+  "w:tasks": {
+   "id": "cc2286648655",
+   "dur": 0.847,
+   "src": "local"
+  },
+  "w:teacher": {
+   "id": "2f9b92d1cd8d",
+   "dur": 0.919,
+   "src": "local"
+  },
+  "w:team": {
+   "id": "7cf801a35f10",
+   "dur": 0.838,
+   "src": "local"
+  },
+  "w:tears": {
+   "id": "52b3cbd5da29",
+   "dur": 0.795,
+   "src": "local"
+  },
+  "w:term": {
+   "id": "245558392875",
+   "dur": 0.835,
+   "src": "local"
+  },
+  "w:tested": {
+   "id": "51f2edb047b1",
+   "dur": 0.971,
+   "src": "local"
+  },
+  "w:thank": {
+   "id": "f8569d42c9f5",
+   "dur": 0.704,
+   "src": "local"
+  },
+  "w:thanked": {
+   "id": "48d7959d0ffc",
+   "dur": 0.755,
+   "src": "local"
+  },
+  "w:thanks": {
+   "id": "ea46fe7fa0fb",
+   "dur": 0.754,
+   "src": "local"
+  },
+  "w:that": {
+   "id": "a853dfdabb84",
+   "dur": 0.724,
+   "src": "local"
+  },
+  "w:them": {
+   "id": "89b70e336d23",
+   "dur": 0.832,
+   "src": "local"
+  },
+  "w:then": {
+   "id": "c400ad655675",
+   "dur": 0.865,
+   "src": "local"
+  },
+  "w:thing": {
+   "id": "52173d7f17cc",
+   "dur": 0.794,
+   "src": "local"
+  },
+  "w:things": {
+   "id": "3bb9af5ba901",
+   "dur": 0.82,
+   "src": "local"
+  },
+  "w:think": {
+   "id": "d07592f49b48",
+   "dur": 0.711,
+   "src": "local"
+  },
+  "w:thinner": {
+   "id": "9b1c0130e5e9",
+   "dur": 0.844,
+   "src": "local"
+  },
+  "w:third": {
+   "id": "19f568233688",
+   "dur": 0.821,
+   "src": "local"
+  },
+  "w:this": {
+   "id": "375d457c3088",
+   "dur": 0.707,
+   "src": "local"
+  },
+  "w:thorough": {
+   "id": "6a081006dd70",
+   "dur": 0.831,
+   "src": "local"
+  },
+  "w:though": {
+   "id": "da05397c4836",
+   "dur": 0.677,
+   "src": "local"
+  },
+  "w:thread": {
+   "id": "983a7a5b9f2e",
+   "dur": 0.822,
+   "src": "local"
+  },
+  "w:three": {
+   "id": "4b9d6c51f77f",
+   "dur": 0.801,
+   "src": "local"
+  },
+  "w:thrill": {
+   "id": "17e00c949680",
+   "dur": 0.643,
+   "src": "local"
+  },
+  "w:throb": {
+   "id": "ddeedf3a8278",
+   "dur": 0.801,
+   "src": "local"
+  },
+  "w:through": {
+   "id": "b2a5a1211144",
+   "dur": 0.85,
+   "src": "local"
+  },
+  "w:thrust": {
+   "id": "890f6cb6b1bd",
+   "dur": 0.79,
+   "src": "local"
+  },
+  "w:thumb": {
+   "id": "af77fbcbff08",
+   "dur": 0.756,
+   "src": "local"
+  },
+  "w:tie": {
+   "id": "3d4f2bd79ebb",
+   "dur": 0.684,
+   "src": "local"
+  },
+  "w:tiger": {
+   "id": "190cdb7a8f60",
+   "dur": 0.907,
+   "src": "local"
+  },
+  "w:tigers": {
+   "id": "04d4fa23c0e6",
+   "dur": 0.941,
+   "src": "local"
+  },
+  "w:tight": {
+   "id": "4c75934013a8",
+   "dur": 0.743,
+   "src": "local"
+  },
+  "w:tightens": {
+   "id": "73aff75ece40",
+   "dur": 1.008,
+   "src": "local"
+  },
+  "w:till": {
+   "id": "a32ba13f8a9f",
+   "dur": 0.845,
+   "src": "local"
+  },
+  "w:time": {
+   "id": "e37aa73d4754",
+   "dur": 0.833,
+   "src": "local"
+  },
+  "w:times": {
+   "id": "e212619e7827",
+   "dur": 0.912,
+   "src": "local"
+  },
+  "w:tiny": {
+   "id": "61242bc77eee",
+   "dur": 0.87,
+   "src": "local"
+  },
+  "w:tired": {
+   "id": "7097e562a71c",
+   "dur": 0.988,
+   "src": "local"
+  },
+  "w:toast": {
+   "id": "fcee4b898393",
+   "dur": 0.796,
+   "src": "local"
+  },
+  "w:today": {
+   "id": "e127e1d85ead",
+   "dur": 0.914,
+   "src": "local"
+  },
+  "w:told": {
+   "id": "7178f975961f",
+   "dur": 0.882,
+   "src": "local"
+  },
+  "w:tomorrow": {
+   "id": "3f7ff240c92a",
+   "dur": 1.097,
+   "src": "local"
+  },
+  "w:topic": {
+   "id": "8fbfbe4c1952",
+   "dur": 0.824,
+   "src": "local"
+  },
+  "w:torn": {
+   "id": "4add008a592b",
+   "dur": 0.82,
+   "src": "local"
+  },
+  "w:tough": {
+   "id": "6f60fc41a2a8",
+   "dur": 0.731,
+   "src": "local"
+  },
+  "w:toward": {
+   "id": "c56ae732b144",
+   "dur": 1.01,
+   "src": "local"
+  },
+  "w:town": {
+   "id": "bf17b0245eb2",
+   "dur": 0.797,
+   "src": "local"
+  },
+  "w:toy": {
+   "id": "dde5b4a9e464",
+   "dur": 0.695,
+   "src": "local"
+  },
+  "w:traffic": {
+   "id": "c447e2b81935",
+   "dur": 0.775,
+   "src": "local"
+  },
+  "w:train": {
+   "id": "68ebb3ee1ebf",
+   "dur": 0.87,
+   "src": "local"
+  },
+  "w:training": {
+   "id": "de943e4954d5",
+   "dur": 0.937,
+   "src": "local"
+  },
+  "w:trane": {
+   "id": "68ebb3ee1ebf",
+   "dur": 0.87,
+   "src": "local"
+  },
+  "w:treu": {
+   "id": "ce7affe0c946",
+   "dur": 0.803,
+   "src": "local"
+  },
+  "w:tried": {
+   "id": "9b7ea53c5f1d",
+   "dur": 0.836,
+   "src": "local"
+  },
+  "w:tries": {
+   "id": "f4ee48b5635a",
+   "dur": 0.774,
+   "src": "local"
+  },
+  "w:tripping": {
+   "id": "86d6993c9b3d",
+   "dur": 0.826,
+   "src": "local"
+  },
+  "w:trophy": {
+   "id": "4a98bdf62d6c",
+   "dur": 0.892,
+   "src": "local"
+  },
+  "w:troubleshooting": {
+   "id": "a750b424c575",
+   "dur": 1.119,
+   "src": "local"
+  },
+  "w:true": {
+   "id": "085ddb70b0aa",
+   "dur": 0.783,
+   "src": "local"
+  },
+  "w:try": {
+   "id": "dd02bb4d2a46",
+   "dur": 0.713,
+   "src": "local"
+  },
+  "w:trying": {
+   "id": "9a0407a9ca7d",
+   "dur": 0.872,
+   "src": "local"
+  },
+  "w:tumble": {
+   "id": "6e83b90880f8",
+   "dur": 0.766,
+   "src": "local"
+  },
+  "w:turn": {
+   "id": "611aa99bc4d8",
+   "dur": 0.87,
+   "src": "local"
+  },
+  "w:turning": {
+   "id": "802d1b5ff4d9",
+   "dur": 0.866,
+   "src": "local"
+  },
+  "w:turns": {
+   "id": "def3ac1aef26",
+   "dur": 0.916,
+   "src": "local"
+  },
+  "w:twig": {
+   "id": "784a87e777cc",
+   "dur": 0.837,
+   "src": "local"
+  },
+  "w:twisted": {
+   "id": "d4ef098f3800",
+   "dur": 0.887,
+   "src": "local"
+  },
+  "w:unbuttoned": {
+   "id": "f1bcbc58854c",
+   "dur": 0.868,
+   "src": "local"
+  },
+  "w:uncle": {
+   "id": "e9abbe43c710",
+   "dur": 0.86,
+   "src": "local"
+  },
+  "w:under": {
+   "id": "f866e5221ff1",
+   "dur": 0.807,
+   "src": "local"
+  },
+  "w:unfriendly": {
+   "id": "4a3cc595d45e",
+   "dur": 1.109,
+   "src": "local"
+  },
+  "w:unpacking": {
+   "id": "3d72b1024c59",
+   "dur": 1.103,
+   "src": "local"
+  },
+  "w:unreliable": {
+   "id": "d8dbb037ffec",
+   "dur": 1.211,
+   "src": "local"
+  },
+  "w:until": {
+   "id": "4d81260acafa",
+   "dur": 0.978,
+   "src": "local"
+  },
+  "w:unusual": {
+   "id": "ef0a82715e60",
+   "dur": 1.027,
+   "src": "local"
+  },
+  "w:update": {
+   "id": "cf038ed2ea15",
+   "dur": 0.842,
+   "src": "local"
+  },
+  "w:upside": {
+   "id": "97f53b510087",
+   "dur": 0.951,
+   "src": "local"
+  },
+  "w:used": {
+   "id": "4dff97109762",
+   "dur": 0.842,
+   "src": "local"
+  },
+  "w:using": {
+   "id": "a0b1c6f7917e",
+   "dur": 0.916,
+   "src": "local"
+  },
+  "w:vans": {
+   "id": "b24bb5a380f4",
+   "dur": 0.834,
+   "src": "local"
+  },
+  "w:very": {
+   "id": "678852c32f2a",
+   "dur": 0.822,
+   "src": "local"
+  },
+  "w:vision": {
+   "id": "934186fe7b99",
+   "dur": 0.908,
+   "src": "local"
+  },
+  "w:visit": {
+   "id": "edd2ba273e38",
+   "dur": 0.742,
+   "src": "local"
+  },
+  "w:voice": {
+   "id": "59c4509a2b79",
+   "dur": 0.768,
+   "src": "local"
+  },
+  "w:void": {
+   "id": "3e9913662ca4",
+   "dur": 0.745,
+   "src": "local"
+  },
+  "w:wagon": {
+   "id": "063384f42328",
+   "dur": 0.936,
+   "src": "local"
+  },
+  "w:wait": {
+   "id": "0708589833c4",
+   "dur": 0.724,
+   "src": "local"
+  },
+  "w:waiting": {
+   "id": "221c0f602134",
+   "dur": 0.941,
+   "src": "local"
+  },
+  "w:walk": {
+   "id": "43eff9a759f9",
+   "dur": 0.732,
+   "src": "local"
+  },
+  "w:walked": {
+   "id": "cf8684d36abe",
+   "dur": 0.798,
+   "src": "local"
+  },
+  "w:walking": {
+   "id": "e79a13cc4a29",
+   "dur": 0.879,
+   "src": "local"
+  },
+  "w:wanted": {
+   "id": "90126f61472a",
+   "dur": 0.894,
+   "src": "local"
+  },
+  "w:war": {
+   "id": "b85b3c7db89e",
+   "dur": 0.742,
+   "src": "local"
+  },
+  "w:ward": {
+   "id": "d86752a84fb6",
+   "dur": 0.735,
+   "src": "local"
+  },
+  "w:warm": {
+   "id": "f5d9d1bb84e6",
+   "dur": 0.793,
+   "src": "local"
+  },
+  "w:warn": {
+   "id": "45136fe23148",
+   "dur": 0.747,
+   "src": "local"
+  },
+  "w:wart": {
+   "id": "a8d0cbba7e65",
+   "dur": 0.733,
+   "src": "local"
+  },
+  "w:washes": {
+   "id": "93af490ce024",
+   "dur": 0.89,
+   "src": "local"
+  },
+  "w:washing": {
+   "id": "65c9348be02a",
+   "dur": 0.872,
+   "src": "local"
+  },
+  "w:watch": {
+   "id": "9e69fca01050",
+   "dur": 0.84,
+   "src": "local"
+  },
+  "w:watched": {
+   "id": "3b727f56a9af",
+   "dur": 0.787,
+   "src": "local"
+  },
+  "w:watching": {
+   "id": "5b8729c091a6",
+   "dur": 0.962,
+   "src": "local"
+  },
+  "w:water": {
+   "id": "f12cf6cf2a59",
+   "dur": 0.883,
+   "src": "local"
+  },
+  "w:wave": {
+   "id": "5ab9158ddaab",
+   "dur": 0.765,
+   "src": "local"
+  },
+  "w:way": {
+   "id": "a0aac8331ae8",
+   "dur": 0.666,
+   "src": "local"
+  },
+  "w:wear": {
+   "id": "1efff2e61c98",
+   "dur": 0.772,
+   "src": "local"
+  },
+  "w:wears": {
+   "id": "9377ac01ee89",
+   "dur": 0.817,
+   "src": "local"
+  },
+  "w:weather": {
+   "id": "2ef20c1d1be0",
+   "dur": 0.791,
+   "src": "local"
+  },
+  "w:weekend": {
+   "id": "4b9f77b2136d",
+   "dur": 1.061,
+   "src": "local"
+  },
+  "w:went": {
+   "id": "ba25fe23dca4",
+   "dur": 0.791,
+   "src": "local"
+  },
+  "w:were": {
+   "id": "5d3a598f7456",
+   "dur": 0.745,
+   "src": "local"
+  },
+  "w:wetter": {
+   "id": "b1da5a72d72d",
+   "dur": 0.91,
+   "src": "local"
+  },
+  "w:wham": {
+   "id": "ce0e2c43d1e9",
+   "dur": 0.808,
+   "src": "local"
+  },
+  "w:when": {
+   "id": "8360ff3acf6d",
+   "dur": 0.785,
+   "src": "local"
+  },
+  "w:where": {
+   "id": "1efff2e61c98",
+   "dur": 0.772,
+   "src": "local"
+  },
+  "w:while": {
+   "id": "de618433737f",
+   "dur": 0.809,
+   "src": "local"
+  },
+  "w:whispered": {
+   "id": "234f60a08b1e",
+   "dur": 0.914,
+   "src": "local"
+  },
+  "w:whispers": {
+   "id": "6b1868280774",
+   "dur": 0.9,
+   "src": "local"
+  },
+  "w:white": {
+   "id": "366f19b1ba3d",
+   "dur": 0.724,
+   "src": "local"
+  },
+  "w:whiz": {
+   "id": "48a5425f56ea",
+   "dur": 0.77,
+   "src": "local"
+  },
+  "w:who": {
+   "id": "7448a7b415c6",
+   "dur": 0.69,
+   "src": "local"
+  },
+  "w:why": {
+   "id": "37671843f46a",
+   "dur": 0.659,
+   "src": "local"
+  },
+  "w:wide": {
+   "id": "4af723baac4a",
+   "dur": 0.785,
+   "src": "local"
+  },
+  "w:wife": {
+   "id": "86f7f6188d96",
+   "dur": 0.745,
+   "src": "local"
+  },
+  "w:wiggle": {
+   "id": "9912f4969033",
+   "dur": 0.833,
+   "src": "local"
+  },
+  "w:wild": {
+   "id": "b7732f642a84",
+   "dur": 0.935,
+   "src": "local"
+  },
+  "w:will": {
+   "id": "c84440b3c39c",
+   "dur": 0.781,
+   "src": "local"
+  },
+  "w:wind": {
+   "id": "76298bbe1327",
+   "dur": 0.911,
+   "src": "local"
+  },
+  "w:window": {
+   "id": "b0a95955bfa6",
+   "dur": 0.866,
+   "src": "local"
+  },
+  "w:wing": {
+   "id": "da4074ae891e",
+   "dur": 0.89,
+   "src": "local"
+  },
+  "w:wings": {
+   "id": "1de7752cf7e1",
+   "dur": 0.932,
+   "src": "local"
+  },
+  "w:winter": {
+   "id": "f4aa1d6a1510",
+   "dur": 0.955,
+   "src": "local"
+  },
+  "w:wiping": {
+   "id": "d4e5b69143bd",
+   "dur": 0.843,
+   "src": "local"
+  },
+  "w:wiring": {
+   "id": "c54bb2bd2401",
+   "dur": 0.867,
+   "src": "local"
+  },
+  "w:wish": {
+   "id": "6e81686bc1f2",
+   "dur": 0.753,
+   "src": "local"
+  },
+  "w:wishes": {
+   "id": "e5e674e36b2e",
+   "dur": 0.844,
+   "src": "local"
+  },
+  "w:wishing": {
+   "id": "8898d42be1d2",
+   "dur": 0.843,
+   "src": "local"
+  },
+  "w:wobble": {
+   "id": "554fc13839f1",
+   "dur": 0.888,
+   "src": "local"
+  },
+  "w:wobbly": {
+   "id": "2e1df34bb91a",
+   "dur": 0.932,
+   "src": "local"
+  },
+  "w:woke": {
+   "id": "ea68c725e8eb",
+   "dur": 0.708,
+   "src": "local"
+  },
+  "w:wood": {
+   "id": "92bd9a0e9db3",
+   "dur": 0.773,
+   "src": "local"
+  },
+  "w:word": {
+   "id": "15c1d6b82a07",
+   "dur": 0.814,
+   "src": "local"
+  },
+  "w:words": {
+   "id": "41729099efec",
+   "dur": 0.824,
+   "src": "local"
+  },
+  "w:wore": {
+   "id": "b85b3c7db89e",
+   "dur": 0.742,
+   "src": "local"
+  },
+  "w:work": {
+   "id": "ee40ac7ac2b8",
+   "dur": 0.734,
+   "src": "local"
+  },
+  "w:worked": {
+   "id": "da28ee3c782c",
+   "dur": 0.782,
+   "src": "local"
+  },
+  "w:worker": {
+   "id": "0a9b0b51b275",
+   "dur": 0.851,
+   "src": "local"
+  },
+  "w:working": {
+   "id": "bc5668f65430",
+   "dur": 0.888,
+   "src": "local"
+  },
+  "w:works": {
+   "id": "414f0b6414f3",
+   "dur": 0.758,
+   "src": "local"
+  },
+  "w:world": {
+   "id": "ddfe1e894349",
+   "dur": 0.838,
+   "src": "local"
+  },
+  "w:worst": {
+   "id": "081a0a1c2cbc",
+   "dur": 0.755,
+   "src": "local"
+  },
+  "w:worth": {
+   "id": "60eaed50f864",
+   "dur": 0.753,
+   "src": "local"
+  },
+  "w:would": {
+   "id": "92bd9a0e9db3",
+   "dur": 0.773,
+   "src": "local"
+  },
+  "w:wrapping": {
+   "id": "f2d444850154",
+   "dur": 0.849,
+   "src": "local"
+  },
+  "w:wrinkle": {
+   "id": "4782c623d016",
+   "dur": 0.956,
+   "src": "local"
+  },
+  "w:write": {
+   "id": "ab92441e65cd",
+   "dur": 0.8,
+   "src": "local"
+  },
+  "w:writing": {
+   "id": "a26c5511ddba",
+   "dur": 0.915,
+   "src": "local"
+  },
+  "w:wrong": {
+   "id": "6a605d3f58e0",
+   "dur": 0.795,
+   "src": "local"
+  },
+  "w:wrote": {
+   "id": "b39f13ae9f67",
+   "dur": 0.772,
+   "src": "local"
+  },
+  "w:yard": {
+   "id": "99c58c5358e0",
+   "dur": 0.784,
+   "src": "local"
+  },
+  "w:yarn": {
+   "id": "f08565e7662a",
+   "dur": 0.789,
+   "src": "local"
+  },
+  "w:yawn": {
+   "id": "bdbb9757a1b5",
+   "dur": 0.806,
+   "src": "local"
+  },
+  "w:yells": {
+   "id": "f41b5f2011fa",
+   "dur": 0.82,
+   "src": "local"
+  },
+  "w:zang": {
+   "id": "5d5f0804cf73",
+   "dur": 0.742,
+   "src": "local"
+  },
+  "w:zara": {
+   "id": "b6e3d9ef2b51",
+   "dur": 0.787,
+   "src": "local"
+  },
+  "w:zoe": {
+   "id": "fa5502e21b1f",
+   "dur": 0.807,
+   "src": "local"
   }
  },
  "missing": [],
