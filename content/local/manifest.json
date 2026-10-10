@@ -18775,7 +18775,11 @@
 "gate": "fail"
 },
 "w:shed": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "96312880fd2cbacc7df808f448c58c14a022a668",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:shut": {
 "gate": "pass-reroll",
@@ -18810,7 +18814,11 @@
 "speed": 1.0
 },
 "w:posh": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "0207de9f0f9d7eb2a102c2120607c33e841496d7",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:hush": {
 "gate": "pass-reroll",
@@ -18830,25 +18838,45 @@
 "speed": 1.0
 },
 "w:fish": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2aa8108f7b6b4f382ea0f5c79ff8544106282552",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:dish": {
 "gate": "fail"
 },
 "w:rush": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "66f3b22dc10637b662fd842641bdd30e6e7e610c",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:cash": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "a8f1b1b08aaf498d20bc46ed9bcf5ad51e2cbbce",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:shap": {
 "gate": "fail"
 },
 "w:nash": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "5dd1189de713cfe379764e4d7b5781792c2ea16d",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "w:gets": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "fe02597b567e8f1d9b7fd07634733d6ae7008a2b",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:us": {
 "gate": "fail"
@@ -18857,13 +18885,25 @@
 "gate": "fail"
 },
 "w:put": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "b1ca244f49c164c230b2254255b57756973f1d0a",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "w:shelf": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "1b0160e8c103827b0b612eb23acb8c7d804aa9d9",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:his": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "f0d3a9eeb733c34bc65e192a9833dae3f04b6989",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:boss": {
 "gate": "pass",
@@ -18874,7 +18914,11 @@
 "speed": 1.0
 },
 "w:there": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "b9c20ffbaf394564e7fe73e065fac4dfeb268145",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "w:where": {
 "gate": "pass-reroll",
@@ -18889,7 +18933,11 @@
 "gate": "fail"
 },
 "w:chat": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "7072fd173bb61fb4afbfc15854015ff9cb59adf6",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:chin": {
 "gate": "fail"
@@ -18909,19 +18957,35 @@
 "speed": 1.0
 },
 "w:such": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "cccaa3459edde4a23625f2234f7d81d5e26977f8",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:rich": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "0b8107f6c83fcb7347394dce6d5c61cd21abcd82",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:catch": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "a84212bfbddb988d62c99ef05bd4c80f41ebc8e4",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:fetch": {
 "gate": "fail"
 },
 "w:hutch": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "548c9d9aa0fc1d5664e1272f308999bbed195336",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:match": {
 "gate": "pass-reroll",
@@ -18933,13 +18997,25 @@
 "voice": "af_river"
 },
 "w:witch": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2ad61e9a59ed8801f76e963a0e39758018275a57",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:pitch": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "6534ad4b549235c90583084a7b139ff012777c3e",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:ditch": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "efb04a88c8ba7f594248d8b03b60b5a9c27ff48f",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:min": {
 "gate": "fail"
@@ -18948,7 +19024,11 @@
 "gate": "fail"
 },
 "w:asks": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "4a13e4be313788b98c124e3e868fd47d24f5ffb6",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:if": {
 "gate": "fail"
@@ -18970,7 +19050,11 @@
 "speed": 1.0
 },
 "w:bus": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "3ec12a3e1e65f829666d841b09a89d4a0a14e22c",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:were": {
 "gate": "pass",
@@ -18997,7 +19081,11 @@
 "speed": 1.0
 },
 "w:thin": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "bf2192d6d57c066901a11092a839a0014a65e80a",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:thud": {
 "gate": "fail"
@@ -19006,16 +19094,32 @@
 "gate": "fail"
 },
 "w:moth": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "eba952932e28a85bbc027cf69929a3e2a6983ef4",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:math": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "8d222b216384c33f7419149bc90d555d1ea09668",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "w:bath": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "6ed58b756ab157fc3709f06d1b87b1097cd19d31",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:path": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "fbb306eabab6365f170bfb91bfa56df6d2a4300f",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:this": {
 "gate": "pass",
@@ -19050,19 +19154,35 @@
 "speed": 1.0
 },
 "w:with": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "bb6738a10584973cc48623677a344606c378baad",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:than": {
 "gate": "fail"
 },
 "w:myth": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "9c447ed00ca74b354ad71cff675693ca0af48941",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:use": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "3dce9230cee5db82530cded7d642ee91711cc537",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "w:thump": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "1c05d62b85f5f0f10c313b0939ad0284cf65e365",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:thon": {
 "gate": "fail"
@@ -19087,7 +19207,11 @@
 "gate": "fail"
 },
 "w:fast": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "32812e9b8689c6ceca79bf835a3bc9777666562d",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:will": {
 "gate": "pass",
@@ -19098,7 +19222,11 @@
 "speed": 1.0
 },
 "w:check": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "11d52979042e060cfb3b5176d3209eb46476fbf1",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:come": {
 "gate": "pass",
@@ -19126,7 +19254,11 @@
 "speed": 1.0
 },
 "w:which": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2ad61e9a59ed8801f76e963a0e39758018275a57",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:whip": {
 "gate": "fail"
@@ -19151,7 +19283,11 @@
 "gate": "fail"
 },
 "w:whack": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "c718b42c71e8e3bdeedfd50d702771818faf603c",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:sounds": {
 "gate": "pass",
@@ -19210,7 +19346,11 @@
 "speed": 1.0
 },
 "w:claps": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "491e8b15a33652a7e25e3c1b0d9f064d978f47e8",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:bin": {
 "gate": "pass",
@@ -19221,7 +19361,11 @@
 "speed": 1.0
 },
 "w:stock": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2ba3b72148ff819f42f256ca36e88dd32cd6cf51",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:done": {
 "gate": "pass",
@@ -19232,10 +19376,18 @@
 "speed": 1.0
 },
 "w:want": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "fca5099a09df52a6fe757442fd97eba6e6aef4bf",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:sing": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "762b591068e08a64d9330044817cac3eacc7d3a5",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:king": {
 "gate": "pass-reroll",
@@ -19298,7 +19450,11 @@
 "gate": "fail"
 },
 "w:pink": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "b5f829b08b7f863979b08a17805d5cf0c294a0ac",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:bank": {
 "gate": "pass",
@@ -19309,7 +19465,11 @@
 "speed": 1.0
 },
 "w:tank": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "b0608d503320945fd4365ce674f9a05bab3a4fbe",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "w:honk": {
 "gate": "pass",
@@ -19358,10 +19518,18 @@
 "speed": 1.0
 },
 "w:wants": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "ccc8758a362874e4a25b94cd513d63c125653e3a",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:picks": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "c01ad127c6ab72d5abef1c63aca6f411b57b31b3",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:tin": {
 "gate": "fail"
@@ -19375,7 +19543,11 @@
 "speed": 1.0
 },
 "w:push": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "bb46844f4c8669659b300eb6dd2fc16461e58657",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:spin": {
 "gate": "pass-reroll",
@@ -19387,7 +19559,11 @@
 "voice": "af_river"
 },
 "w:snap": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "476988bd7fdefdf86297e506636dd7f3633582c7",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "w:smell": {
 "gate": "pass",
@@ -19458,7 +19634,11 @@
 "speed": 1.0
 },
 "w:frog": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "de6e4ecde57999fe26528550933d382577bdb592",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:trip": {
 "gate": "fail"
@@ -19472,7 +19652,11 @@
 "speed": 1.0
 },
 "w:flip": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "75f1de44f69bc4e0f47ee89e89dfe08b801fb564",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:flops": {
 "gate": "pass-reroll",
@@ -19484,7 +19668,11 @@
 "voice": "af_river"
 },
 "w:rock": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "137e14bfae06fc3d56cdcb74280d34076248f55d",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "w:grab": {
 "gate": "pass",
@@ -19498,19 +19686,35 @@
 "gate": "fail"
 },
 "w:stomp": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "a0942e696064e204dd4c0dd2ba88dbd223b19f65",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:must": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "979c8f134efea3309c18a8119d186149b7fdebf7",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "w:pad": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "ec91bce0a2a13aea4e70a7746a05f523f5078a06",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "w:hits": {
 "gate": "fail"
 },
 "w:dash": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "f171aeb92799832f0382c7a61f239216bf3c4fbc",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:still": {
 "gate": "pass",
@@ -19521,7 +19725,11 @@
 "speed": 1.0
 },
 "w:desk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "a94ede6867d835b557004339ab1af72cd6edd15d",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:pull": {
 "gate": "pass-reroll",
@@ -19549,7 +19757,11 @@
 "speed": 1.0
 },
 "w:sand": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "209c1a6e20235ae32fa1029122dbefb5936f6309",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:tent": {
 "gate": "fail"
@@ -19566,7 +19778,11 @@
 "speed": 1.0
 },
 "w:camp": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "7d5f960b3acde463a839582b5e31a2546b96e3fb",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:mask": {
 "gate": "pass",
@@ -19593,13 +19809,25 @@
 "speed": 1.0
 },
 "w:gift": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "56a9edad814bed7111f5f316b8fa2dcd82281b01",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:soft": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "947b292e9c877a8540ba7efd82ce456f4d8253eb",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:silk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "0e221ae6e726e5370a59f4655e3c66f096535ef3",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:thomp": {
 "gate": "fail"
@@ -19619,7 +19847,11 @@
 "gate": "fail"
 },
 "w:packs": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "bfaa8f5ae3fc5474f01842427b140706bff75615",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:best": {
 "gate": "pass",
@@ -19638,7 +19870,11 @@
 "speed": 1.0
 },
 "w:dusk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "4213e0f1bd0ca920e9809058e6fb47236100facd",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "w:rest": {
 "gate": "pass",
@@ -19686,7 +19922,11 @@
 "voice": "af_river"
 },
 "w:strap": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "1af06bc3d03c5e80816a618918b90939faf875fe",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:string": {
 "gate": "pass",
@@ -19700,7 +19940,11 @@
 "gate": "fail"
 },
 "w:scrap": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "8ef893b35a35ac16264b869229d442f4262d784f",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:scrub": {
 "gate": "pass",
@@ -19728,10 +19972,18 @@
 "speed": 1.0
 },
 "w:squid": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "9d40228d54d3e78936bf68a0f83d380e6adda626",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "w:squint": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "0843d38f12fa21908417fe92686889ea92935936",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:shrimp": {
 "gate": "fail"
@@ -19782,7 +20034,11 @@
 "speed": 1.0
 },
 "w:help": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "dcfd57a1fe2b3ca6768a2467cd6009a1d7d4deec",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:splits": {
 "gate": "fail"
@@ -19799,13 +20055,25 @@
 "gate": "fail"
 },
 "w:straps": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "eff3b3750bbd10ecae92d5353725a31f2515da9b",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:thinks": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "495d0cae5ba4b4969096c05f2bf0549f2f521b64",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:end": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "ae0785645133dcd33aa8a775ae307dd5670363f0",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "w:would": {
 "gate": "pass-reroll",
@@ -19866,10 +20134,18 @@
 "speed": 1.0
 },
 "w:catches": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "05ecf838f2417bc4d227a838fc0ff7daa28ef4ec",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:fixes": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "fadc859021e9d1254a961aaae8f09e5d95209bb1",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:crashes": {
 "gate": "pass",
@@ -19904,7 +20180,11 @@
 "speed": 1.0
 },
 "w:jumps": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "6c94c3bd0e9ebafb41d8e2b9fecaa86ccf6ed390",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:drinks": {
 "gate": "pass",
@@ -19945,7 +20225,11 @@
 "speed": 1.0
 },
 "w:your": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "5039b81fe5fec0e9726d43c36b3070c62017e840",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "w:four": {
 "gate": "pass",
@@ -19965,13 +20249,25 @@
 "voice": "af_river"
 },
 "w:wished": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "094491eaf87105236394cd3fef391955079b00fd",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:fixed": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "84e370773d1325dae0ba1d625a8340d83d32dbc0",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:checked": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "396ed04e910ac3271dd606ecd3bffb92d6fedead",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:jogged": {
 "gate": "pass",
@@ -20048,7 +20344,11 @@
 "voice": "af_river"
 },
 "w:camped": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "dd08101e1e5c00c84cb54046b1adc7f69d64cab1",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:rested": {
 "gate": "pass-reroll",
@@ -20086,7 +20386,11 @@
 "speed": 1.0
 },
 "w:any": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "70386b4ff54ef7730dc6015bfd16e7162e48a478",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:her": {
 "gate": "fail"
@@ -20108,7 +20412,11 @@
 "speed": 1.0
 },
 "w:fixing": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "b9954690674792416162ffd6800c854d858a5fc2",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:checking": {
 "gate": "pass-reroll",
@@ -20128,7 +20436,11 @@
 "speed": 1.0
 },
 "w:packing": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "15555034fef69fadcee2add10ae14c2a615f83df",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "w:camping": {
 "gate": "pass",
@@ -20187,7 +20499,11 @@
 "speed": 1.0
 },
 "w:fixer": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "10b9731eeea8bfea16b3494dd9fc33111c5e083e",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:helper": {
 "gate": "pass",
@@ -20198,7 +20514,11 @@
 "speed": 1.0
 },
 "w:stacking": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "0fb51267d7ac70c5a4263c69f5ae7cb80ac36c6c",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:bags": {
 "gate": "pass",
@@ -20253,7 +20573,11 @@
 "speed": 1.0
 },
 "w:bathtub": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "8aa99ed4cd28f2bbdec2e9f10ad9369c7f04aebe",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:rabbit": {
 "gate": "pass",
@@ -20289,7 +20613,11 @@
 "speed": 1.0
 },
 "w:cactus": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "9acd84b5b553738d4a418c4199b5662ba261a4d9",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:magnet": {
 "gate": "pass",
@@ -20344,7 +20672,11 @@
 "speed": 1.0
 },
 "w:spots": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "5ffd626af29392aad49cc93a5802d6bbbc69dbf2",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:grass": {
 "gate": "pass",
@@ -20385,7 +20717,11 @@
 "speed": 1.0
 },
 "w:dent": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "84e57656e03daa10c6d96d2c5c4a2baf54323446",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:trick": {
 "gate": "fail"
@@ -20509,7 +20845,11 @@
 "voice": "af_river"
 },
 "w:prints": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "bdf0b9bba89ef435514dbad3fb2f2c97b1ef0a94",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "w:strong": {
 "gate": "pass",
@@ -20536,19 +20876,39 @@
 "speed": 1.0
 },
 "w:calm": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "3bccb472d75d5a43399bb4efa80600a637583e89",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:zink": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "3db233de1a22286afa39be1ea722f48ceefed10e",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:ˈɛni": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "70386b4ff54ef7730dc6015bfd16e7162e48a478",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:ˈɛʤi": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "3a5eace87cc32ffd899447c677d7feaf48cba33e",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:ˈɛɹi": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "6e99825126183fb0376e528869522fdc3089a088",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:bˈæŋk": {
 "gate": "pass",
@@ -20565,16 +20925,32 @@
 "gate": "fail"
 },
 "ipa:bˈæθ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "6ed58b756ab157fc3709f06d1b87b1097cd19d31",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:pˈæθ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "fbb306eabab6365f170bfb91bfa56df6d2a4300f",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:dˈɛlt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "75140c074bab28fce5cbbdc7e4c4c34020afba4e",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:fˈɛlt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "fa5aa30f4841db4869c695959179ce6a63ed3eb8",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:blˈæk": {
 "gate": "pass",
@@ -20585,10 +20961,18 @@
 "speed": 1.0
 },
 "ipa:flˈæk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "9552491107506fdfbf8499a52925e5a252b5f5cc",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:flˈɪk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "70eefe9c61675af521fec0ae313745307fe82a6a",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:bɹˈʌʃɪz": {
 "gate": "pass",
@@ -20615,10 +20999,18 @@
 "speed": 1.0
 },
 "ipa:kˈæmp": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "7d5f960b3acde463a839582b5e31a2546b96e3fb",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:dˈæmp": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "c36c302fdeddd9d96d56a78af84163ae21b50597",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:kˈæmz": {
 "gate": "pass",
@@ -20637,7 +21029,11 @@
 "speed": 1.0
 },
 "ipa:kˈæmpt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "dd08101e1e5c00c84cb54046b1adc7f69d64cab1",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:kˈæmps": {
 "gate": "pass",
@@ -20656,31 +21052,63 @@
 "speed": 1.0
 },
 "ipa:kˈæʃ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "a8f1b1b08aaf498d20bc46ed9bcf5ad51e2cbbce",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:dˈæʃ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "f171aeb92799832f0382c7a61f239216bf3c4fbc",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:kˈæʧ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "a84212bfbddb988d62c99ef05bd4c80f41ebc8e4",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:pˈæʧ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "42baf8a0f44143dc4a7e988c40634e502faf6cf6",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:kˈaʊʧ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "605c892943d551ac893f616376853d0592ae3b8a",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:pˈaʊʧ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "ceaf90396a818033161ff57825f99918c6525622",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:ʧˈæt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "7072fd173bb61fb4afbfc15854015ff9cb59adf6",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:ʧˈɪt": {
 "gate": "fail"
 },
 "ipa:ʧˈɛkt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "396ed04e910ac3271dd606ecd3bffb92d6fedead",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:sˈɛkt": {
 "gate": "fail"
@@ -20734,7 +21162,11 @@
 "speed": 1.0
 },
 "ipa:ʧˈeɪs": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "db37fb46d2f396731f37d273b92d8188a0b81f99",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:lˈeɪs": {
 "gate": "pass",
@@ -20748,10 +21180,18 @@
 "gate": "fail"
 },
 "ipa:ʧˈeɪn": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "fef9f2881ebb78d5f4fa72496da2f1551b360a69",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:pˈeɪn": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "42da09d8b4661b921cf5239716b960182bb0917b",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:ʧˈɪp": {
 "gate": "fail"
@@ -20790,7 +21230,11 @@
 "speed": 1.0
 },
 "ipa:kˈɑm": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "3bccb472d75d5a43399bb4efa80600a637583e89",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:kˈʊd": {
 "gate": "pass-reroll",
@@ -20802,7 +21246,11 @@
 "voice": "af_river"
 },
 "ipa:hˈʊd": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "7c0ba32c8617bd9f4922233eab04861f48979fbc",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:kɹˈæʃɪz": {
 "gate": "pass",
@@ -20829,25 +21277,45 @@
 "speed": 1.0
 },
 "ipa:dˈɛsk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "a94ede6867d835b557004339ab1af72cd6edd15d",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:dˈɪsk": {
 "gate": "fail"
 },
 "ipa:dˈʌsk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "4213e0f1bd0ca920e9809058e6fb47236100facd",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:dˈɪʃ": {
 "gate": "fail"
 },
 "ipa:fˈɪʃ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2aa8108f7b6b4f382ea0f5c79ff8544106282552",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:dˈɪʧ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "efb04a88c8ba7f594248d8b03b60b5a9c27ff48f",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:wˈɪʧ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2ad61e9a59ed8801f76e963a0e39758018275a57",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:dˈʌz": {
 "gate": "pass",
@@ -20866,7 +21334,11 @@
 "speed": 1.0
 },
 "ipa:bˈeɪz": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "cbc8aca91550744a6a9d2d4b3ce65f87a8464ca0",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:dˈɑɡz": {
 "gate": "pass",
@@ -20977,7 +21449,11 @@
 "speed": 1.0
 },
 "ipa:fˈɪkst": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "84e370773d1325dae0ba1d625a8340d83d32dbc0",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:mˈɪkst": {
 "gate": "fail"
@@ -20986,10 +21462,18 @@
 "gate": "fail"
 },
 "ipa:fˈɪksɪz": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "fadc859021e9d1254a961aaae8f09e5d95209bb1",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:fˈɪksɪŋ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "b9954690674792416162ffd6800c854d858a5fc2",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:mˈɪksɪŋ": {
 "gate": "pass",
@@ -21016,7 +21500,11 @@
 "speed": 1.0
 },
 "ipa:slˈæp": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "b254c05815c6ff21d3719d1d5571aa779099af53",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:fˈɔɹ": {
 "gate": "pass",
@@ -21052,10 +21540,18 @@
 "speed": 1.0
 },
 "ipa:fɹˈɛnʧ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "ed06c7230e6e40044f08029fe0f1c72384d54d2d",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:tɹˈɛnʧ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "7eaef361ee749bd3b138abb76a74fbe902886892",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:fɹˈʌm": {
 "gate": "pass",
@@ -21074,7 +21570,11 @@
 "speed": 1.0
 },
 "ipa:ɡˈɪft": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "56a9edad814bed7111f5f316b8fa2dcd82281b01",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:ɡˈɪlt": {
 "gate": "pass",
@@ -21102,10 +21602,18 @@
 "speed": 1.0
 },
 "ipa:wˈoʊz": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "6ca827213b535d098885bfed1941228226c26601",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:ɡˈeɪz": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "b1700d0b4d4c95b7c0091da172df6cdda48106cf",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:wˈeɪz": {
 "gate": "pass",
@@ -21124,7 +21632,11 @@
 "speed": 1.0
 },
 "ipa:pˈɑʃ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "0207de9f0f9d7eb2a102c2120607c33e841496d7",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:ɡɹˈɪnd": {
 "gate": "pass",
@@ -21159,7 +21671,11 @@
 "speed": 1.0
 },
 "ipa:sˈænd": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "209c1a6e20235ae32fa1029122dbefb5936f6309",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:hˈaʊnd": {
 "gate": "pass",
@@ -21265,7 +21781,11 @@
 "speed": 1.0
 },
 "ipa:hˈʌŋk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d1664003beda8ad26fdd7c19a1bc5640a2fe0aef",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:hˈʌɡd": {
 "gate": "pass",
@@ -21276,7 +21796,11 @@
 "speed": 1.0
 },
 "ipa:bˈʌɡd": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "ffcff4633705e0adf8c6ef0bb2268de18a7ac738",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:hˈʌnt": {
 "gate": "fail"
@@ -21285,7 +21809,11 @@
 "gate": "fail"
 },
 "ipa:pˈænt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "85fa357949326c5edb6b5c7134cf5ebaf18ac56d",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:hˈʌʃ": {
 "gate": "pass-reroll",
@@ -21297,16 +21825,28 @@
 "voice": "af_river"
 },
 "ipa:ɹˈʌʃ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "66f3b22dc10637b662fd842641bdd30e6e7e610c",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:hˈæʃ": {
 "gate": "fail"
 },
 "ipa:ɹˈæʃ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "4c6fbae7772def1675d38a9c65616a70f4d2458d",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:hˈʌʧ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "548c9d9aa0fc1d5664e1272f308999bbed195336",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:mˈʌʧ": {
 "gate": "pass",
@@ -21364,7 +21904,11 @@
 "speed": 1.0
 },
 "ipa:θˈʌmp": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "1c05d62b85f5f0f10c313b0939ad0284cf65e365",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:ʤˈʌmpt": {
 "gate": "pass-reroll",
@@ -21376,13 +21920,25 @@
 "voice": "af_river"
 },
 "ipa:bˈʌmpt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d2d308683f56278af4265dbb0d4cffb25876b8c0",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:ʤˈʌmps": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "6c94c3bd0e9ebafb41d8e2b9fecaa86ccf6ed390",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:bˈʌmps": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "5d91da457ceb3a5aab2eeca683e10468881d7e59",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:ʤˈʌmpɝ": {
 "gate": "pass",
@@ -21450,7 +22006,11 @@
 "voice": "af_river"
 },
 "ipa:sˈɪŋ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "762b591068e08a64d9330044817cac3eacc7d3a5",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:lˈændɪŋ": {
 "gate": "pass",
@@ -21493,7 +22053,11 @@
 "speed": 1.0
 },
 "ipa:lˈʌŋ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "e26b2132b979d3f71f67660755e3134f55cdfdaf",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:mˈɛni": {
 "gate": "pass",
@@ -21523,13 +22087,25 @@
 "speed": 1.0
 },
 "ipa:tˈæsk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "06e215ac09acacbd9317917e056b2e23fd383266",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:tˈæŋk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "b0608d503320945fd4365ce674f9a05bab3a4fbe",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:mˈæθ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "8d222b216384c33f7419149bc90d555d1ea09668",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:mˈɛlt": {
 "gate": "pass",
@@ -21564,22 +22140,46 @@
 "speed": 1.0
 },
 "ipa:mˈɪŋk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "1df19187e46af3c033ed421e64ff2909610e96c3",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:ɹˈɪŋk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "338a7484d3f01b87f5786045b9e42a5981748610",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:mˈɪθ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "9c447ed00ca74b354ad71cff675693ca0af48941",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:mˈɔθ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "eba952932e28a85bbc027cf69929a3e2a6983ef4",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:mˈɪz": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "5ba5784d06987ec4a5a998112b13e5b2308d9599",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:nˈæʃ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "5dd1189de713cfe379764e4d7b5781792c2ea16d",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:nˈɛst": {
 "gate": "pass",
@@ -21590,7 +22190,11 @@
 "speed": 1.0
 },
 "ipa:fˈɛst": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "c0f94b3fb29d0c895932e9975cc1e1801fb46b80",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:tˈɛst": {
 "gate": "pass",
@@ -21610,7 +22214,11 @@
 "voice": "af_river"
 },
 "ipa:tˈækt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "05590a16c8baab918ec424ebf12f6f1cc94bf644",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:pˈɪkt": {
 "gate": "pass-reroll",
@@ -21625,7 +22233,11 @@
 "gate": "fail"
 },
 "ipa:pˈækɪŋ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "15555034fef69fadcee2add10ae14c2a615f83df",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:lˈækɪŋ": {
 "gate": "pass",
@@ -21652,7 +22264,11 @@
 "speed": 1.0
 },
 "ipa:pˈɪŋk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "b5f829b08b7f863979b08a17805d5cf0c294a0ac",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:pˈʌŋk": {
 "gate": "pass",
@@ -21663,7 +22279,11 @@
 "speed": 1.0
 },
 "ipa:pˈɪʧ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "6534ad4b549235c90583084a7b139ff012777c3e",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:hˈɪʧ": {
 "gate": "fail"
@@ -21677,19 +22297,35 @@
 "speed": 1.0
 },
 "ipa:plˈæk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "e4ea6bef12c4e0658edbd98e29f1cc27a7d96572",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:pˈʊʃ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "bb46844f4c8669659b300eb6dd2fc16461e58657",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:bˈʊʃ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "aa341001da81ff6f646eef57343b0665493e3120",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:bˈʊl": {
 "gate": "fail"
 },
 "ipa:pˈʊt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "b1ca244f49c164c230b2254255b57756973f1d0a",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:fˈʊt": {
 "gate": "fail"
@@ -21703,13 +22339,25 @@
 "speed": 1.0
 },
 "ipa:hˈæbʌt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "f2d874f56526119bda16c8299d86b0e7f89e2781",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:hˈæʧʌt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "3411abb9d7496fe54c3166678efba722ed0057f8",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:sˈæŋ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "8f90d987bbd73866468c4559c6a6a6076a25611c",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:ɹˈɪŋ": {
 "gate": "pass",
@@ -21744,13 +22392,25 @@
 "speed": 1.0
 },
 "ipa:ɹˈɪʧ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "0b8107f6c83fcb7347394dce6d5c61cd21abcd82",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:ɹˈiʧ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "9744ab623369fd23d98861627b74eabf2a4671aa",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:pˈiʧ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "19d151ef3db9170e71663d1c21a8902f70f1760d",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:lˈænd": {
 "gate": "pass",
@@ -21761,7 +22421,11 @@
 "speed": 1.0
 },
 "ipa:sˈɛnd": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "39e66b5fcbc1c82db010e27ebfed1396c6e29dcc",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:lˈɛnd": {
 "gate": "pass",
@@ -21788,7 +22452,11 @@
 "speed": 1.0
 },
 "ipa:spˈæn": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "17f8f955def81caebc1eb4c5b203025034b21a92",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:skˈɪn": {
 "gate": "pass-reroll",
@@ -21809,13 +22477,25 @@
 "voice": "af_river"
 },
 "ipa:skɹˈæp": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "8ef893b35a35ac16264b869229d442f4262d784f",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:stɹˈæp": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "1af06bc3d03c5e80816a618918b90939faf875fe",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:stɹˈɪp": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "3bfa2db6d09b7f0cb98ae0b18187b5729c92d68f",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:ʃˈæl": {
 "gate": "pass-reroll",
@@ -21835,7 +22515,11 @@
 "speed": 1.0
 },
 "ipa:ʃˈeɪl": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "b2657af0d674ea46d8bbeffddffe35a70578e262",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:pˈeɪl": {
 "gate": "pass",
@@ -21849,7 +22533,11 @@
 "gate": "fail"
 },
 "ipa:ʃˈɛd": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "96312880fd2cbacc7df808f448c58c14a022a668",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:ʃˈoʊd": {
 "gate": "pass",
@@ -21914,16 +22602,28 @@
 "voice": "af_river"
 },
 "ipa:ʃˈɑt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "4ca22c1efd63caa926ef54a22e86779b8729d17f",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:sˈɪlk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "0e221ae6e726e5370a59f4655e3c66f096535ef3",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:sˈɪŋk": {
 "gate": "fail"
 },
 "ipa:wˈɪŋk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "22c57cecc6dc0de016686b0fb6c0a9524a005a6e",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:θˈɪŋk": {
 "gate": "pass",
@@ -21975,19 +22675,39 @@
 "speed": 1.0
 },
 "ipa:swˈɛl": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "25c7b8e7ee62949920e5b2fb812fa783fab8542e",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:snˈæp": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "476988bd7fdefdf86297e506636dd7f3633582c7",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:snˈæk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "e15af4345e3e4dcb10fd75f9cd51b85d5c8de049",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:slˈæk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "796092338d0f5b3787325f274708ce037bebe49d",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:sˈɑft": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "947b292e9c877a8540ba7efd82ce456f4d8253eb",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:sˈɪft": {
 "gate": "fail"
@@ -22001,7 +22721,11 @@
 "speed": 1.0
 },
 "ipa:skwˈɪd": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "9d40228d54d3e78936bf68a0f83d380e6adda626",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:skwˈɑd": {
 "gate": "pass",
@@ -22028,13 +22752,25 @@
 "speed": 1.0
 },
 "ipa:swˈɑp": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "45728f0731372f2b7e704b16d5171aa54c31fe37",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:stˈip": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "ad94be341a89d448bbdd8b56b874c083ae504d6a",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:swˈip": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "6cf4d88ad1c78964c9662e394098c3753ad42397",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:stɹˈɪŋ": {
 "gate": "pass",
@@ -22066,13 +22802,21 @@
 "voice": "af_river"
 },
 "ipa:stɹˈʌŋ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "650d2915d90d2ee26299b0285a74c17a749e1f9d",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:stɹˈʌk": {
 "gate": "fail"
 },
 "ipa:sˈʌʧ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "cccaa3459edde4a23625f2234f7d81d5e26977f8",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:swˈɪm": {
 "gate": "pass",
@@ -22152,10 +22896,18 @@
 "speed": 1.0
 },
 "ipa:ʤˈɛm": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "38654a67603608184cfa92710365b10580cdb1af",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:ʤˈɛn": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "f581215b2e179a873cf180685759a32cee61d51c",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:ðˈaɪn": {
 "gate": "pass",
@@ -22174,10 +22926,18 @@
 "speed": 1.0
 },
 "ipa:ðˈɛɹ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "b9c20ffbaf394564e7fe73e065fac4dfeb268145",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:hˈɛɹ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d257cd48e0efb59fb1bf9ae9c6cefe9514d1ad91",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:θˈɪk": {
 "gate": "fail"
@@ -22186,16 +22946,28 @@
 "gate": "fail"
 },
 "ipa:θˈɪn": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "bf2192d6d57c066901a11092a839a0014a65e80a",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:θˈɪŋks": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "495d0cae5ba4b4969096c05f2bf0549f2f521b64",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:sˈɪŋks": {
 "gate": "fail"
 },
 "ipa:lˈɪŋks": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "74984993fa79419dc2bfbaba6ddbddb3287fca28",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:ðˈɪs": {
 "gate": "pass",
@@ -22231,7 +23003,11 @@
 "speed": 1.0
 },
 "ipa:dɹˈɪp": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "69b23d2df8ef00829bb092d27b6bc7e8aa8b49a0",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:θɹˈʌst": {
 "gate": "pass-reroll",
@@ -22252,7 +23028,11 @@
 "voice": "af_river"
 },
 "ipa:kɹˈʌst": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "61ad286dc2c702724287677b766831f95537fb72",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:θˈʌd": {
 "gate": "fail"
@@ -22303,28 +23083,52 @@
 "gate": "fail"
 },
 "ipa:tˈoʊ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "62f1028cb0c9ba44054cb503bfd6ece10b838573",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:dˈoʊ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "88373afb388179737289546ee96b27b99a004b2e",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:jˈuz": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "3dce9230cee5db82530cded7d642ee91711cc537",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:ɹˈuz": {
 "gate": "fail"
 },
 "ipa:zˈuz": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "3d18da4e3a046e78c6bbd641bf3d91833c905156",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:wˈɑnt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "fca5099a09df52a6fe757442fd97eba6e6aef4bf",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:fˈɑnt": {
 "gate": "fail"
 },
 "ipa:wˈɑnd": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "4b6e085c93968e0d79461a7197fc2a1f918abfa0",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:fˈɑnd": {
 "gate": "pass",
@@ -22370,7 +23174,11 @@
 "gate": "fail"
 },
 "ipa:wˈæk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "c718b42c71e8e3bdeedfd50d702771818faf603c",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:wˈɪk": {
 "gate": "fail"
@@ -22387,7 +23195,11 @@
 "gate": "fail"
 },
 "ipa:ɹˈum": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "95235c9bfeb349b7c2d306e55b6ac63aab0035c2",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:wˈɛn": {
 "gate": "pass",
@@ -22407,7 +23219,11 @@
 "voice": "af_river"
 },
 "ipa:wˈiɹ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "bac0ed2ffe87b95de8a83e5f9f5511f76295bbaf",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:hˈiɹ": {
 "gate": "pass-reroll",
@@ -22438,13 +23254,21 @@
 "speed": 1.0
 },
 "ipa:ɹˈaɪf": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "473c0ec25935a72995e6a796238cdc74eb64a26d",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:wˈɪp": {
 "gate": "fail"
 },
 "ipa:wˈip": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2641c82d79d99c50a40d211ef021b63b9db38227",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:sˈip": {
 "gate": "fail"
@@ -22458,7 +23282,11 @@
 "speed": 1.0
 },
 "ipa:hˈeɪz": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "9ae0a44d01f9b1b3cdc7e6f556b8163cdd9c44d5",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:hˈu": {
 "gate": "pass",
@@ -22480,13 +23308,25 @@
 "speed": 1.0
 },
 "ipa:wˈɪʃt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "094491eaf87105236394cd3fef391955079b00fd",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:wˈɪlt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2480fb382f2b83799e677aa99b91aa48069f3978",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:wˈɪld": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "625dc1c3d918048661a8219b3a4cd9539cd922b7",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:wˈɪʃɪz": {
 "gate": "pass",
@@ -22529,7 +23369,11 @@
 "speed": 1.0
 },
 "ipa:wˈɪð": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "bb6738a10584973cc48623677a344606c378baad",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:wˈʊd": {
 "gate": "pass-reroll",
@@ -22549,10 +23393,18 @@
 "speed": 1.0
 },
 "ipa:hˈɝd": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "69dd43540f2f46d1584a8d295d2e3bcf3e4d7b28",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:jˈɔɹ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "5039b81fe5fec0e9726d43c36b3070c62017e840",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:dˈɔɹ": {
 "gate": "pass",
@@ -22563,7 +23415,11 @@
 "speed": 1.0
 },
 "ipa:jˈɪɹ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "49959056246af81ab82b0e5bf97a632e6ffe6d96",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:dˈɪɹ": {
 "gate": "pass",
@@ -22582,7 +23438,11 @@
 "speed": 1.0
 },
 "ipa:zˈɪŋk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "3db233de1a22286afa39be1ea722f48ceefed10e",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:once": {
 "gate": "pass",
@@ -22601,7 +23461,11 @@
 "speed": 1.0
 },
 "w:cake": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "a7d0e4fbb2963627c9008d2f60d94c3b4b49723f",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:name": {
 "gate": "pass",
@@ -22628,7 +23492,11 @@
 "speed": 1.0
 },
 "w:gate": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "b6c42165f87e2b25da718a1c75e65aa4f5adfca9",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "w:blame": {
 "gate": "pass",
@@ -22639,7 +23507,11 @@
 "speed": 1.0
 },
 "w:plane": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "0bfdc14dc969f9b436f994563f967b0c26d98e4f",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "w:brave": {
 "gate": "pass",
@@ -22667,25 +23539,53 @@
 "speed": 1.0
 },
 "w:grape": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "dea09756a171889624c8a2138eadeb23e875195f",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:whale": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "53aa89348b606e3a6626ae317cd0692dd5e6615d",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:skate": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "045f3b8cc00635ad39c62e78ed9d2250694670ce",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:plate": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "7d223a3b4b21df0bec2d83b002de2ae874bc4556",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:snake": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "383d0c0a62452b28ed22520b091e701199996331",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:cane": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "586b3b35328f11fb195925719f5df22e7da12ec8",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:cape": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "cc66430b124390fd57bc73b044c01ac5b44dcb7a",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:wave": {
 "gate": "pass",
@@ -22720,7 +23620,11 @@
 "speed": 1.0
 },
 "w:plake": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "e4a29cbbd821287e97104a49b857ee184eb4147d",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:gave": {
 "gate": "pass",
@@ -22749,10 +23653,18 @@
 "voice": "af_river"
 },
 "w:kate": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "8d5bc37c404c7b1d5392c62ac69b01eea0d2361b",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:lake": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "6b6dd3bc5da4fe234b07109f38a4c95c71118abb",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "w:cramp": {
 "gate": "pass",
@@ -22763,7 +23675,11 @@
 "speed": 1.0
 },
 "w:came": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "13f22416ac949f3402f2bd2786dcd1db10328a31",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "w:thank": {
 "gate": "pass",
@@ -22774,7 +23690,11 @@
 "speed": 1.0
 },
 "w:jake": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "01d9bc70826c3b2dc6e491c58329d73cd9188efc",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:case": {
 "gate": "pass",
@@ -22785,10 +23705,18 @@
 "speed": 1.0
 },
 "w:take": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "5603f51d73da54ea62cb4ddb542055197a27bd16",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:snack": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "e15af4345e3e4dcb10fd75f9cd51b85d5c8de049",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:late": {
 "gate": "pass",
@@ -22935,7 +23863,11 @@
 "speed": 1.0
 },
 "w:grine": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d47b858c158c6cc09a3242843be78657af41d34c",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:mike": {
 "gate": "pass",
@@ -22970,7 +23902,11 @@
 "speed": 1.0
 },
 "w:quick": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "c8c43b2cc1cfdcc9865e7cc5f9ac300ed109635d",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:rides": {
 "gate": "pass",
@@ -22998,10 +23934,18 @@
 "voice": "af_river"
 },
 "w:locks": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "653b0e0cff00a143e451283e1e8f3969bdf440df",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:clocks": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "de3a824dc61e552a237668d49cbd1889b2b0cdbf",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:next": {
 "gate": "pass",
@@ -23045,10 +23989,18 @@
 "speed": 1.0
 },
 "w:rope": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "722270c30d4819f73259c4d8cb2c1f136cd4a912",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:hope": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "7165e5f157b67e51d92f48d8f1d3f654156aeaad",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:nose": {
 "gate": "pass",
@@ -23067,10 +24019,18 @@
 "speed": 1.0
 },
 "w:hole": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "63cf72c11eff79a62d8442101606df95aa1aadf8",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "w:joke": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "58c5f2e931db501bb2827b88393a9fb5c212ec33",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:note": {
 "gate": "pass",
@@ -23129,16 +24089,32 @@
 "speed": 1.0
 },
 "w:mule": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "47458d877e4389ba15c927d764edc48cd3cf8cb3",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:fuse": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "619a3f971ec8df6dcebedb6ec66564b74c071e7c",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "w:flute": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "a039fb36506416276c162cf97baac2369a8f3b8b",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:tube": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "9da076328d6c1241b33b09a67509924ed9493f7d",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:prune": {
 "gate": "pass",
@@ -23149,10 +24125,18 @@
 "speed": 1.0
 },
 "w:these": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "477855456d07b1ee5be93b560e483ef7eb5ebcb8",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:theme": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d92b50fc6d3ce0e47e7d4aaf1f4da680577be89d",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:rule": {
 "gate": "pass",
@@ -23196,7 +24180,11 @@
 "speed": 1.0
 },
 "w:jig": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d12cb30016a11d76c17e26cc40de2b6ec6cec904",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:named": {
 "gate": "pass",
@@ -23207,7 +24195,11 @@
 "speed": 1.0
 },
 "w:duke": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "4129d4213b8cc44fd69b811e00a2440cb175ef2b",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:kids": {
 "gate": "pass",
@@ -23242,10 +24234,18 @@
 "speed": 1.0
 },
 "w:felt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "fa5aa30f4841db4869c695959179ce6a63ed3eb8",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:busy": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "9e9765b1b3cb9dbf12b4b20ec42fbeb3989de8c3",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:people": {
 "gate": "pass",
@@ -23344,7 +24344,11 @@
 "speed": 1.0
 },
 "w:first": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "55c73a9991e2816307ba6d24f6f5d9a8458938d1",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "w:kite": {
 "gate": "pass",
@@ -23363,7 +24367,11 @@
 "speed": 1.0
 },
 "w:tape": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d6a278f38143dbdef30101e946e043f5a86bea0c",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:stick": {
 "gate": "fail"
@@ -23425,7 +24433,11 @@
 "speed": 1.0
 },
 "w:safe": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "4208d6d98ad1944ec6217f294b2e01d333f0d4d8",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "w:water": {
 "gate": "pass",
@@ -23436,7 +24448,11 @@
 "speed": 1.0
 },
 "w:laugh": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "7e2dbc141b8d7e1f62a40dc3db7abe4c8c5c6ca9",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:hi": {
 "gate": "pass",
@@ -23463,7 +24479,11 @@
 "speed": 1.0
 },
 "w:pupil": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "c0854dded1349c64cb7099f5de3c3c46ac2e4395",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:frozen": {
 "gate": "pass-reroll",
@@ -23524,7 +24544,11 @@
 "speed": 1.0
 },
 "w:moves": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "5ec106f45b3099568dbdf689dc9986736d50441c",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:project": {
 "gate": "pass",
@@ -23560,7 +24584,11 @@
 "voice": "af_river"
 },
 "w:tune": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2f9cbbdb0b7af7d9b538b5e952f6654b76f0f4df",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:tigers": {
 "gate": "pass",
@@ -23571,7 +24599,11 @@
 "speed": 1.0
 },
 "w:site": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d1590b9ea8ecbfe8842e703ad8c40fa9105e8701",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:tasks": {
 "gate": "pass-reroll",
@@ -23599,7 +24631,11 @@
 "speed": 1.0
 },
 "w:steps": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "a5f802cc7f34e0e39f0104bfd5dbdd623de1a55c",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:fuss": {
 "gate": "fail"
@@ -23613,10 +24649,18 @@
 "speed": 1.0
 },
 "w:clock": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "b302ea7863b0225da57b65fcd841876bd624b4f5",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:task": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "06e215ac09acacbd9317917e056b2e23fd383266",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:walk": {
 "gate": "pass-reroll",
@@ -23762,10 +24806,18 @@
 "voice": "af_river"
 },
 "w:windy": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "1d9ebd3cc8257d36a6049fa5a11be64f85b75f90",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:sticky": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "62517493dfaae5e8502bf355e1e05b09a07401b1",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:dusty": {
 "gate": "pass",
@@ -23795,7 +24847,11 @@
 "speed": 1.0
 },
 "w:rub": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "fa2e9857c031cf6bdb4b19bf396a77db54c4ab7e",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "w:front": {
 "gate": "pass-reroll",
@@ -23807,7 +24863,11 @@
 "voice": "af_river"
 },
 "w:lunch": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "c0d0f270a614533b66b0aaaed8595d0f62a3baef",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "w:person": {
 "gate": "pass",
@@ -23837,7 +24897,11 @@
 "gate": "fail"
 },
 "w:ice": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "cd53e8ac269a2f71ca6ad819ac1de82a1c358e26",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:nice": {
 "gate": "pass",
@@ -23848,7 +24912,11 @@
 "speed": 1.0
 },
 "w:rice": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "109be9d1435042a16d3ebab1b339792eca31a22b",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:race": {
 "gate": "pass-reroll",
@@ -23860,7 +24928,11 @@
 "voice": "af_river"
 },
 "w:place": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "7ad8df01e0d11b31bdb06564dbac1a6f9cf34702",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:since": {
 "gate": "pass",
@@ -23874,7 +24946,11 @@
 "gate": "fail"
 },
 "w:cell": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d5ad9611d628db1ab27728966e04282714417acd",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:circle": {
 "gate": "pass-reroll",
@@ -23886,7 +24962,11 @@
 "voice": "af_river"
 },
 "w:gem": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "38654a67603608184cfa92710365b10580cdb1af",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:cage": {
 "gate": "pass",
@@ -23971,10 +25051,18 @@
 "speed": 1.0
 },
 "w:edge": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "f4b6eddd838b693674d07d8d1da4c141b613437a",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:judge": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "c18b8cfc799be44038d824f8db83e1b113a0ad57",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "w:fudge": {
 "gate": "pass",
@@ -23993,10 +25081,18 @@
 "speed": 1.0
 },
 "w:wince": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "5422b86dcc64897d723bddef85550ac1151e026b",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:cross": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "9909485dd0627e133d6298c1aadf85a5dc7dadb0",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "w:often": {
 "gate": "pass",
@@ -24015,13 +25111,25 @@
 "speed": 1.0
 },
 "w:whole": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "63cf72c11eff79a62d8442101606df95aa1aadf8",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "w:earth": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "62c04b6c341e61a8bcb021a3223e5f985b0e0505",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:car": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "468e4d4eaed4de9b64015e15f69d62ffb0dcfe82",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "w:far": {
 "gate": "pass",
@@ -24080,13 +25188,21 @@
 "speed": 1.0
 },
 "w:cart": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "ae9fcf5f752d1911283843f3b277ad973c4b8828",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:shark": {
 "gate": "fail"
 },
 "w:sharp": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d7f9d46c1540449d914402c496b865cc12901445",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:dark": {
 "gate": "pass",
@@ -24187,7 +25303,11 @@
 "speed": 1.0
 },
 "w:pets": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "ed35e2bf148500eeb55fb6552e99db9c73c3d366",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:pup": {
 "gate": "fail"
@@ -24330,7 +25450,11 @@
 "speed": 1.0
 },
 "w:tore": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "8b82c94980cddb5889238532653efa2bf66519e9",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "w:core": {
 "gate": "pass-reroll",
@@ -24365,7 +25489,11 @@
 "gate": "fail"
 },
 "w:mane": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "651a58b86538de6c87fb215f7637fcc20a6d7c48",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:hold": {
 "gate": "pass",
@@ -24376,7 +25504,11 @@
 "speed": 1.0
 },
 "w:trots": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "6c695bd14bf4f658b1e43c08eca078304ac467ac",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:holds": {
 "gate": "pass-reroll",
@@ -24412,7 +25544,11 @@
 "speed": 1.0
 },
 "w:paint": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "3c5a02c9b5c8d5aee09274ca4eb7707ad72b992b",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "w:train": {
 "gate": "pass-reroll",
@@ -24424,7 +25560,11 @@
 "voice": "af_river"
 },
 "w:chain": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "fef9f2881ebb78d5f4fa72496da2f1551b360a69",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:wait": {
 "gate": "pass",
@@ -24435,7 +25575,11 @@
 "speed": 1.0
 },
 "w:main": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "651a58b86538de6c87fb215f7637fcc20a6d7c48",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:tail": {
 "gate": "pass",
@@ -24462,10 +25606,18 @@
 "speed": 1.0
 },
 "w:faint": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "e7e8795ca3c7f03360e63cef03f23c1f2cdcd84f",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:day": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "f6d7bec0e1e300f80392a33aa28f2585476c1d2b",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:play": {
 "gate": "pass",
@@ -24492,10 +25644,18 @@
 "speed": 1.0
 },
 "w:say": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "f225f2660c66f94bddfe0fbcc7084dba4811d8c4",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "w:tray": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "68367365dc4efefe64945348d73bfc0436df0e76",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "w:gray": {
 "gate": "pass",
@@ -24539,10 +25699,18 @@
 "speed": 1.0
 },
 "w:snay": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2090c4116d32cae21b87f210c504d9055163edb3",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "w:blain": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "1a3c4db10556f785c774f024dee841b6e786c62c",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:drink": {
 "gate": "pass",
@@ -24561,7 +25729,11 @@
 "speed": 1.0
 },
 "w:takes": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "a83e0f8b246c763c9da9c0166235096e6fa63126",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:today": {
 "gate": "pass",
@@ -24572,19 +25744,35 @@
 "speed": 1.0
 },
 "w:chance": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2d0b686ac03a571f060192b7b7a90800b3c66234",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "w:see": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "28b617e1e7c950e8dcf7b269dccb55a87b589e02",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:tree": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "44e5d35ab7e9f0f8493b0a4f440f0e9199a0ffe6",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:need": {
 "gate": "fail"
 },
 "w:feet": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "81b724a544350c97bffe006fd927b3ad3972e200",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:green": {
 "gate": "pass",
@@ -24595,10 +25783,18 @@
 "speed": 1.0
 },
 "w:sleep": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "0b73818708ea8821e9a67a86d82f10f3ba34db8f",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:sweet": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "5198261cf38ae04777ae1c79c4eb00e83fa0b5dd",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:three": {
 "gate": "pass",
@@ -24617,10 +25813,18 @@
 "speed": 1.0
 },
 "w:street": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "70e7e55c148462751ca2362cd1e83f553b2deb8a",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:eat": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "c8b0d08330be7525aa4c42e04b8e781d36e9a806",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:team": {
 "gate": "pass-reroll",
@@ -24640,13 +25844,25 @@
 "speed": 1.0
 },
 "w:leaf": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "5bfc2246a66498e422d81ef5af0120987b292bc4",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:seat": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "babfa243b7ddff48f485a058be1c0d9beaa5ccfe",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:meat": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "df43e9a9b2868fd5196f6068b3431d426ea02d45",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:clean": {
 "gate": "pass",
@@ -24657,7 +25873,11 @@
 "speed": 1.0
 },
 "w:speak": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "0e1c79954e82c4eb14ce8f8dd7d4f9197225fb82",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:dream": {
 "gate": "pass",
@@ -24668,10 +25888,18 @@
 "speed": 1.0
 },
 "w:beach": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "500cd96c91abb4d0a59ff1e800d1feba8ac7c0eb",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:freet": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "bb1285a646c6732d6f1e311df45e1181bb0b4eea",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:sneed": {
 "gate": "fail"
@@ -24685,10 +25913,18 @@
 "speed": 1.0
 },
 "w:sea": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "28b617e1e7c950e8dcf7b269dccb55a87b589e02",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:bee": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "254145758411d27a9b2d674cd552d0bdb2a417b5",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:feel": {
 "gate": "pass-reroll",
@@ -24708,16 +25944,32 @@
 "speed": 1.0
 },
 "w:each": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "5cf003c85fd77a960f42b1ee9bf2f36503d76403",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:week": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "4f66ad017e9fa30539ee486e08a05d52d36e6ce5",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:meet": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "df43e9a9b2868fd5196f6068b3431d426ea02d45",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:neat": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "3aefc4873d5fd1976d8e314abb85d62a0ba7e144",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:boat": {
 "gate": "pass",
@@ -24742,7 +25994,11 @@
 "gate": "fail"
 },
 "w:coach": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "fbf9a79d80e5ab0a23355af84f240403ac8c4a42",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:toast": {
 "gate": "pass",
@@ -24761,7 +26017,11 @@
 "speed": 1.0
 },
 "w:goat": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "5d66f949ded6f610727b1bf781a1a6c2bb566007",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:foam": {
 "gate": "pass-reroll",
@@ -24863,19 +26123,35 @@
 "speed": 1.0
 },
 "w:toe": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "62f1028cb0c9ba44054cb503bfd6ece10b838573",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:hoe": {
 "gate": "fail"
 },
 "w:foe": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "de05b274f9a9fc1b6bef9e6ad8a6508ce3e367f3",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:doe": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "88373afb388179737289546ee96b27b99a004b2e",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "w:sloat": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "f38134c6d10e9c91844ced6d1d8717c3ba014900",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:chilly": {
 "gate": "pass",
@@ -24889,7 +26165,11 @@
 "gate": "fail"
 },
 "w:laughs": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "007a1be27f083de1dfe8775e720eec84ea7ad458",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:traffic": {
 "gate": "pass",
@@ -24957,7 +26237,11 @@
 "speed": 1.0
 },
 "w:sight": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d1590b9ea8ecbfe8842e703ad8c40fa9105e8701",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:high": {
 "gate": "pass",
@@ -25039,7 +26323,11 @@
 "gate": "fail"
 },
 "w:gaze": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "b1700d0b4d4c95b7c0091da172df6cdda48106cf",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "w:glows": {
 "gate": "pass",
@@ -25050,7 +26338,11 @@
 "speed": 1.0
 },
 "w:slice": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "b133cdfe4b05775abec4ec83632e7f06d8703fcf",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:feels": {
 "gate": "pass-reroll",
@@ -25137,7 +26429,11 @@
 "gate": "fail"
 },
 "w:new": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "da9c7d21900187606670f06ebdc8e2e81434912e",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "w:grew": {
 "gate": "pass-reroll",
@@ -25213,7 +26509,11 @@
 "voice": "af_river"
 },
 "w:meeting": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2f55a1707906f131b9e9ad182270351c0b0e1968",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:fit": {
 "gate": "fail"
@@ -25243,7 +26543,11 @@
 "speed": 1.0
 },
 "w:room": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "95235c9bfeb349b7c2d306e55b6ac63aab0035c2",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:soon": {
 "gate": "pass-reroll",
@@ -25263,16 +26567,28 @@
 "speed": 1.0
 },
 "w:pool": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "5b27b81e18da5001cee7a3299fc48d38bb566717",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:tool": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "576f936bb4096a2de299d71b53d0dcaceb03118c",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "w:zoo": {
 "gate": "fail"
 },
 "w:boot": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "7c0dcc67dd483ac238c52ed79a511747f96412eb",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:roof": {
 "gate": "pass",
@@ -25328,10 +26644,18 @@
 "gate": "fail"
 },
 "w:stood": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "925a523d7f8911103e721a0d76a716dda1b975c7",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:hood": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "7c0ba32c8617bd9f4922233eab04861f48979fbc",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:topic": {
 "gate": "pass",
@@ -25342,7 +26666,11 @@
 "speed": 1.0
 },
 "w:gives": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "e74ae30455d14f8def27bb850e779db8577f272d",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:things": {
 "gate": "pass",
@@ -25462,10 +26790,18 @@
 "speed": 1.0
 },
 "w:post": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "7d7239c6d775446746577d99379e85ef4a34bc47",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:host": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "c1e98455b30c307808f47876d2545a0d343fc455",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "w:wind": {
 "gate": "pass",
@@ -25476,7 +26812,11 @@
 "speed": 1.0
 },
 "w:cost": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "060f07849d315b8e2cfcc108c871c02e4fd8a625",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:lost": {
 "gate": "pass",
@@ -25507,7 +26847,11 @@
 "voice": "af_river"
 },
 "w:sends": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "790792008ccd38701269fdc15bca855f6d99bc23",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:shops": {
 "gate": "fail"
@@ -25521,10 +26865,18 @@
 "speed": 1.0
 },
 "w:news": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "28de66a2a39ef4963975a1be89b022fa2d021590",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "w:strine": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "4dc685a93a58541b710db8a1e00748cfa25ed873",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:blight": {
 "gate": "pass",
@@ -25573,22 +26925,42 @@
 "speed": 1.0
 },
 "w:how": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "bbf8c135f0b53c4b6e1a681839fea8988dfd2df3",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "w:treat": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "1c4b96af7b3ed8fe32345932c6bfaaa7947dfa7e",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:too": {
 "gate": "fail"
 },
 "w:free": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "1cb07f19e854d91ffa0409988cb9ace47c610004",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "w:bite": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "196c036b94290c9355aea92ab768d0d69c126c59",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:asleep": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "f165d58020269d6d404776748a38155c3d0de32c",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:woke": {
 "gate": "pass",
@@ -25599,7 +26971,11 @@
 "speed": 1.0
 },
 "w:tea": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "9def6a520e8a1e3c5bac7f067616e053aa34c009",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:met": {
 "gate": "pass",
@@ -25610,7 +26986,11 @@
 "speed": 1.0
 },
 "w:noon": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "a4edd268c99b88698ac0f94ef7dadb8577d26396",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:walking": {
 "gate": "pass",
@@ -25621,7 +27001,11 @@
 "speed": 1.0
 },
 "w:sleepy": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d016df5c99c6930e3b9282d9c22431a77da53630",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:spent": {
 "gate": "fail"
@@ -25659,7 +27043,11 @@
 "speed": 1.0
 },
 "ipa:bˈikʌn": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "c3678afa0cd753ddbc89736053884e13bca144ac",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:bˈitʌn": {
 "gate": "fail"
@@ -25713,10 +27101,18 @@
 "speed": 1.0
 },
 "ipa:bˈiʧ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "500cd96c91abb4d0a59ff1e800d1feba8ac7c0eb",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:bˈɝʧ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "0dd38ee62b594ebe6f54accbe4603cad79a663e1",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:pˈɝʧ": {
 "gate": "fail"
@@ -25738,7 +27134,11 @@
 "speed": 1.0
 },
 "ipa:blˈeɪn": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "1a3c4db10556f785c774f024dee841b6e786c62c",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:blˈeɪm": {
 "gate": "pass",
@@ -25773,10 +27173,18 @@
 "speed": 1.0
 },
 "ipa:bɹˈu": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "58cd5e44e5f0592dbf5763384d131ed276d57208",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:blˈɑ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2e98a87658c28f3aa175bf3e0c46df6c5b3077c6",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:bɹˈɑ": {
 "gate": "fail"
@@ -25798,7 +27206,11 @@
 "speed": 1.0
 },
 "ipa:blˈɑnd": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "8736b5bb6aeaecda260e74e0959aeaa56a028235",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:blˈoʊ": {
 "gate": "pass",
@@ -25833,7 +27245,11 @@
 "speed": 1.0
 },
 "ipa:bˈaɪt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "196c036b94290c9355aea92ab768d0d69c126c59",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:ɹˈaɪt": {
 "gate": "pass",
@@ -25876,7 +27292,11 @@
 "speed": 1.0
 },
 "ipa:bˈut": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "7c0dcc67dd483ac238c52ed79a511747f96412eb",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:hˈut": {
 "gate": "fail"
@@ -25946,7 +27366,11 @@
 "speed": 1.0
 },
 "ipa:bɹˈæd": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "dd1384f1796cccb5d07397f4449bbe6c803b45ff",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:bɹˈɪʤ": {
 "gate": "pass",
@@ -25965,7 +27389,11 @@
 "speed": 1.0
 },
 "ipa:bɹˈɪk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "4c1dde13a80fb857b631dd31d85e0612e3282244",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:bɹˈaɪt": {
 "gate": "pass",
@@ -25992,10 +27420,18 @@
 "speed": 1.0
 },
 "ipa:bˈɪzi": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "9e9765b1b3cb9dbf12b4b20ec42fbeb3989de8c3",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:dˈɪzi": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "fa1e57590cb3ed002ec0e56ac2a2f2c4abe1865a",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:dˈeɪzi": {
 "gate": "pass-reroll",
@@ -26026,28 +27462,56 @@
 "speed": 1.0
 },
 "ipa:kˈeɪn": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "586b3b35328f11fb195925719f5df22e7da12ec8",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:kˈeɪk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "a7d0e4fbb2963627c9008d2f60d94c3b4b49723f",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:tˈeɪk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "5603f51d73da54ea62cb4ddb542055197a27bd16",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:kˈɪk": {
 "gate": "fail"
 },
 "ipa:mˈeɪn": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "651a58b86538de6c87fb215f7637fcc20a6d7c48",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:kˈeɪp": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "cc66430b124390fd57bc73b044c01ac5b44dcb7a",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:tˈeɪp": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d6a278f38143dbdef30101e946e043f5a86bea0c",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:kˈɑɹ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "468e4d4eaed4de9b64015e15f69d62ffb0dcfe82",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:bˈɑɹ": {
 "gate": "pass",
@@ -26091,10 +27555,18 @@
 "speed": 1.0
 },
 "ipa:hˈɛɹd": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "f4f9e0b332bf68d0bf2f40feecaeb96d5985772c",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:kˈɑɹt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "ae9fcf5f752d1911283843f3b277ad973c4b8828",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:hˈɑɹt": {
 "gate": "pass",
@@ -26144,7 +27616,11 @@
 "gate": "fail"
 },
 "ipa:tˈɛns": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "12ca40119f0800b90ac1ebba25d0eedda9a73468",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:ʧˈeɪnʤ": {
 "gate": "pass-reroll",
@@ -26165,7 +27641,11 @@
 "voice": "af_river"
 },
 "ipa:ʧˈeɪnd": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "9e66e98e5908a33975d9da743d8090099173ed2b",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:ɹˈeɪnd": {
 "gate": "pass",
@@ -26211,7 +27691,11 @@
 "speed": 1.0
 },
 "ipa:hˈaʊ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "bbf8c135f0b53c4b6e1a681839fea8988dfd2df3",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:ʧˈaɪld": {
 "gate": "pass",
@@ -26242,7 +27726,11 @@
 "gate": "fail"
 },
 "ipa:ʧˈɛɹ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "fcb07f295690fafee5ead54b516b06df8b1111ff",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:dˈɛɹ": {
 "gate": "pass",
@@ -26262,19 +27750,35 @@
 "voice": "af_river"
 },
 "ipa:sˈɝkʌt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "3b5ae4581f46d821a845e685bc341c32bf365cee",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:sˈɝkʌs": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "c356e160a86167fec46495f74484d8f4d0ebd766",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:sˈɪti": {
 "gate": "fail"
 },
 "ipa:wˈɪti": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "29a6d95199e12d256a51ed171243418af099afd8",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:wˈɪɹi": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "632d3fd71b0a480fdb11949e8893f45bb7cc3848",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:klˈeɪ": {
 "gate": "pass",
@@ -26390,10 +27894,18 @@
 "speed": 1.0
 },
 "ipa:kˈoʊʧ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "fbf9a79d80e5ab0a23355af84f240403ac8c4a42",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:ɹˈoʊʧ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "5b0eaa1aeb47286144fcc06c76d81a0372ed1db6",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:kˈoʊd": {
 "gate": "pass",
@@ -26407,13 +27919,25 @@
 "gate": "fail"
 },
 "ipa:ɡˈoʊt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "5d66f949ded6f610727b1bf781a1a6c2bb566007",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:kˈeɪt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "8d5bc37c404c7b1d5392c62ac69b01eea0d2361b",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:ɡˈeɪt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "b6c42165f87e2b25da718a1c75e65aa4f5adfca9",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:kˈoʊld": {
 "gate": "pass",
@@ -26473,7 +27997,11 @@
 "speed": 1.0
 },
 "ipa:kˈoʊl": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "217a11baa2184258970c5caa5e159ed8a4d6e993",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:ɹˈoʊl": {
 "gate": "pass-reroll",
@@ -26518,10 +28046,18 @@
 "voice": "af_river"
 },
 "ipa:kˈɑst": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "060f07849d315b8e2cfcc108c871c02e4fd8a625",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:kˈɪst": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "466b7a3a6a1e078b84336890ce3ecb4a94fb1075",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:lˈɪst": {
 "gate": "pass-reroll",
@@ -26565,7 +28101,11 @@
 "speed": 1.0
 },
 "ipa:mjˈuz": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "c97e0b9ce554822b4f68c7928813c7635018a341",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:dˈɑɹk": {
 "gate": "pass",
@@ -26600,10 +28140,18 @@
 "speed": 1.0
 },
 "ipa:dˈeɪ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "f6d7bec0e1e300f80392a33aa28f2585476c1d2b",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:sˈeɪ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "f225f2660c66f94bddfe0fbcc7084dba4811d8c4",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:dˈaɪ": {
 "gate": "pass",
@@ -26668,7 +28216,11 @@
 "speed": 1.0
 },
 "ipa:θɹˈaɪs": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "7eb77d697d58e7794035f6ecdcdd1a0449039371",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:dɹˈoʊv": {
 "gate": "pass",
@@ -26687,13 +28239,21 @@
 "speed": 1.0
 },
 "ipa:ˈɝθ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "62c04b6c341e61a8bcb021a3223e5f985b0e0505",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:ˈɝn": {
 "gate": "fail"
 },
 "ipa:ˈoʊθ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "700b8c75f8955064abb9fa77ec49fcd2eecb6581",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:ˈoʊn": {
 "gate": "pass-reroll",
@@ -26705,22 +28265,42 @@
 "voice": "af_river"
 },
 "ipa:ˈit": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "c8b0d08330be7525aa4c42e04b8e781d36e9a806",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:ˈiz": {
 "gate": "fail"
 },
 "ipa:ˈɛʤ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "f4b6eddd838b693674d07d8d1da4c141b613437a",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:ˈɛm": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2439169d8d8f9306da254cf79bdbca4b9662f6a8",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:ˈeɪʤ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "0dc41d8a34da9239d4d13fb0e16f28868f5802e3",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:ˈeɪm": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "8ac9c87ff1fce0f291d7ec99ad68e777c4bfc852",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:ˈɛ": {
 "gate": "fail"
@@ -26734,13 +28314,21 @@
 "speed": 1.0
 },
 "ipa:fˈeɪnt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "e7e8795ca3c7f03360e63cef03f23c1f2cdcd84f",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:sˈeɪnt": {
 "gate": "fail"
 },
 "ipa:pˈeɪnt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "3c5a02c9b5c8d5aee09274ca4eb7707ad72b992b",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:fˈɑɹ": {
 "gate": "pass",
@@ -26759,10 +28347,18 @@
 "speed": 1.0
 },
 "ipa:fˈit": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "81b724a544350c97bffe006fd927b3ad3972e200",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:mˈit": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "df43e9a9b2868fd5196f6068b3431d426ea02d45",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:fˈaɪt": {
 "gate": "pass",
@@ -26813,10 +28409,18 @@
 "speed": 1.0
 },
 "ipa:hˈaɪt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "e3ec2808d4ffcb0f3f7b47ff512442aa5fdf5a83",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:flˈeɪk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "ce4a2293b5d6eda036ddbdb97471abc8a4e77002",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:ɡlˈu": {
 "gate": "pass",
@@ -26838,7 +28442,11 @@
 "speed": 1.0
 },
 "ipa:flˈut": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "a039fb36506416276c162cf97baac2369a8f3b8b",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:fɹˈut": {
 "gate": "pass-reroll",
@@ -26875,7 +28483,11 @@
 "voice": "af_river"
 },
 "ipa:fɹˈi": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "1cb07f19e854d91ffa0409988cb9ace47c610004",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:flˈaɪt": {
 "gate": "pass",
@@ -26886,7 +28498,11 @@
 "speed": 1.0
 },
 "ipa:fɹˈaɪt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "80c9dde9712231f9a633a664838c33630e1499e2",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:flˈaɪ": {
 "gate": "pass",
@@ -26925,10 +28541,18 @@
 "speed": 1.0
 },
 "ipa:kˈeɪm": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "13f22416ac949f3402f2bd2786dcd1db10328a31",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:fˈoʊ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "de05b274f9a9fc1b6bef9e6ad8a6508ce3e367f3",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:fˈud": {
 "gate": "pass",
@@ -26974,10 +28598,18 @@
 "gate": "fail"
 },
 "ipa:pˈɔɹk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "572bc1e5daf0cb0d5276209b24fdacf9259c0bb1",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:fˈɔɹt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "ec3f154344df186ed204f1f3320dbaecbdf75ca1",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:pˈɔɹt": {
 "gate": "pass",
@@ -26996,7 +28628,11 @@
 "speed": 1.0
 },
 "ipa:fɹˈit": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "bb1285a646c6732d6f1e311df45e1181bb0b4eea",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:fˈʌʤ": {
 "gate": "pass",
@@ -27007,7 +28643,11 @@
 "speed": 1.0
 },
 "ipa:bˈʌʤ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "a06aad33d001b2ccb2ac7eb5fe6795acb916bf72",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:fˈʌni": {
 "gate": "pass",
@@ -27042,10 +28682,18 @@
 "speed": 1.0
 },
 "ipa:fjˈuz": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "619a3f971ec8df6dcebedb6ec66564b74c071e7c",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:fjˈud": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "bd03348a0bd5b3fbefec3f9eff4b54f716288f30",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:vjˈud": {
 "gate": "pass",
@@ -27072,7 +28720,11 @@
 "speed": 1.0
 },
 "ipa:hˈɑɹdʌn": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "fdd10ac47852311baa8c5ac0e4b8356296d53835",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:ɡˈeɪv": {
 "gate": "pass",
@@ -27094,7 +28746,11 @@
 "gate": "fail"
 },
 "ipa:hˈɛm": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "6bc0883cf8a7a7c1f7af2d319b7f5499d0f37baa",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:ɡlˈoʊ": {
 "gate": "pass",
@@ -27122,7 +28778,11 @@
 "voice": "af_river"
 },
 "ipa:ɡˈeɪ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "519f28655c936b4a07df1b6227b968ee3fc7c390",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:bˈʌt": {
 "gate": "pass",
@@ -27165,10 +28825,18 @@
 "speed": 1.0
 },
 "ipa:ɡɹˈeɪp": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "dea09756a171889624c8a2138eadeb23e875195f",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:ɡɹˈeɪz": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "8d7c94bce2cc75fc52870f2e27d4752649555458",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:pɹˈeɪz": {
 "gate": "pass",
@@ -27219,13 +28887,25 @@
 "speed": 1.0
 },
 "ipa:ɡɹˈit": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "a5413a3aa6490ca8f9e05725614670486bf47fdc",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:ɡɹˈiv": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d82ae9b878af12703291033653cfe09e6bc2ab1a",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:ɡɹˈaɪn": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d47b858c158c6cc09a3242843be78657af41d34c",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:hˈæpi": {
 "gate": "pass-reroll",
@@ -27240,7 +28920,11 @@
 "gate": "fail"
 },
 "ipa:hˈɪki": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "9999e8c5525f9e984807ae4178a2b9e8f1531f4a",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:mˈaɪ": {
 "gate": "pass",
@@ -27297,10 +28981,18 @@
 "gate": "fail"
 },
 "ipa:hˈoʊl": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "63cf72c11eff79a62d8442101606df95aa1aadf8",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:hˈil": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "92eb6066eac853fd8e03487a90077e8f06f2432b",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:ɹˈil": {
 "gate": "pass",
@@ -27322,10 +29014,18 @@
 "gate": "fail"
 },
 "ipa:hˈaɪk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "bfb3237e7380b5c083de2ebda4c446bb74e1953a",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:hˈoʊp": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "7165e5f157b67e51d92f48d8f1d3f654156aeaad",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:sˈoʊp": {
 "gate": "fail"
@@ -27357,7 +29057,11 @@
 "voice": "af_river"
 },
 "ipa:hˈoʊst": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "c1e98455b30c307808f47876d2545a0d343fc455",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:ɹˈoʊst": {
 "gate": "pass",
@@ -27368,7 +29072,11 @@
 "speed": 1.0
 },
 "ipa:hˈeɪst": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "ac19f017432096263fea2eaa6398b508673ced35",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:ɹˈeɪst": {
 "gate": "fail"
@@ -27385,7 +29093,11 @@
 "gate": "fail"
 },
 "ipa:ˈaɪs": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "cd53e8ac269a2f71ca6ad819ac1de82a1c358e26",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:ˈaɪd": {
 "gate": "pass",
@@ -27399,10 +29111,18 @@
 "gate": "fail"
 },
 "ipa:ˈɛd": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "3f7fee50d42166abb8f7c39da78a9c82513a67ec",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:ʤˈoʊk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "58c5f2e931db501bb2827b88393a9fb5c212ec33",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:wˈoʊk": {
 "gate": "pass",
@@ -27413,7 +29133,11 @@
 "speed": 1.0
 },
 "ipa:ʤˈeɪk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "01d9bc70826c3b2dc6e491c58329d73cd9188efc",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:wˈeɪk": {
 "gate": "pass",
@@ -27448,7 +29172,11 @@
 "speed": 1.0
 },
 "ipa:ʤˈʌʤ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "c18b8cfc799be44038d824f8db83e1b113a0ad57",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:ʤˈun": {
 "gate": "pass-reroll",
@@ -27485,7 +29213,11 @@
 "speed": 1.0
 },
 "ipa:kˈænd": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "cc5ebf7ab1af6908ef5eced761abea3e820f6857",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:lˈɑɹʤ": {
 "gate": "pass",
@@ -27520,16 +29252,32 @@
 "speed": 1.0
 },
 "ipa:lˈæf": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "7e2dbc141b8d7e1f62a40dc3db7abe4c8c5c6ca9",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:hˈæf": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "a8128f240172667b7bc52c9dd54a7e618d67f699",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:lˈif": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "5bfc2246a66498e422d81ef5af0120987b292bc4",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:ɹˈif": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "171e9a54e3e79132486afaa52fd64ba99094ef4e",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:lˈaɪf": {
 "gate": "pass",
@@ -27548,7 +29296,11 @@
 "speed": 1.0
 },
 "ipa:hˈɛʤ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "ced2f97266a5b8ce0dbd25cb370a502d0dcf3934",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:lˈaɪ": {
 "gate": "pass",
@@ -27591,7 +29343,11 @@
 "speed": 1.0
 },
 "ipa:lˈeɪk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "6b6dd3bc5da4fe234b07109f38a4c95c71118abb",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:lˈɔst": {
 "gate": "pass",
@@ -27611,7 +29367,11 @@
 "voice": "af_river"
 },
 "ipa:lˈɛst": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "138d5a736d888428ae8c059c2239eab55ededb7d",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:ʃˈoʊ": {
 "gate": "pass-reroll",
@@ -27640,7 +29400,11 @@
 "speed": 1.0
 },
 "ipa:bˈeɪk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "987fdad23b0cb16f5cad85534e8f77515557786d",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:mˈaɪk": {
 "gate": "pass",
@@ -27667,7 +29431,11 @@
 "speed": 1.0
 },
 "ipa:mˈɑkɪŋ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "c72d4c09753047c927f7caf49a1fd7384f3acbc3",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:ʃˈɑkɪŋ": {
 "gate": "pass",
@@ -27686,7 +29454,11 @@
 "speed": 1.0
 },
 "ipa:nˈit": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "3aefc4873d5fd1976d8e314abb85d62a0ba7e144",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:tˈaɪt": {
 "gate": "pass",
@@ -27738,10 +29510,18 @@
 "speed": 1.0
 },
 "ipa:mˈɛnd": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "1b43b94368c07c779291549a8825a096c3eea208",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:tˈun": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2f9cbbdb0b7af7d9b538b5e952f6654b76f0f4df",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:mˈɔɹ": {
 "gate": "pass",
@@ -27752,7 +29532,11 @@
 "speed": 1.0
 },
 "ipa:mˈɑɹ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "6df2109338bd016882a42054b825933a6b5c701e",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:mˈoʊst": {
 "gate": "pass",
@@ -27763,7 +29547,11 @@
 "speed": 1.0
 },
 "ipa:mˈɪst": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "bb502f519b013e78fcab72a081ce1015720ea844",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:ɹˈɪst": {
 "gate": "fail"
@@ -27794,7 +29582,11 @@
 "speed": 1.0
 },
 "ipa:mjˈul": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "47458d877e4389ba15c927d764edc48cd3cf8cb3",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:nˈeɪm": {
 "gate": "pass",
@@ -27805,7 +29597,11 @@
 "speed": 1.0
 },
 "ipa:nˈʌm": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "6a8c65c662ea5a41ff13c3f85544c70e582e7a54",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:nˈid": {
 "gate": "fail"
@@ -27814,7 +29610,11 @@
 "gate": "fail"
 },
 "ipa:nˈu": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "da9c7d21900187606670f06ebdc8e2e81434912e",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:nˈaɪs": {
 "gate": "pass",
@@ -27825,13 +29625,25 @@
 "speed": 1.0
 },
 "ipa:lˈaɪs": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "bc19b7b49aa5da203856303925a1cbba7d3a4aaa",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:nˈis": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "78c47a5b5a8bda4663e3cc12331cdb6ade577222",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:lˈis": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "8ffd0067477526f7485f8d4dc27683eb70a57f25",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:nˈaɪ": {
 "gate": "fail"
@@ -27896,7 +29708,11 @@
 "gate": "fail"
 },
 "ipa:ðˈiz": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "477855456d07b1ee5be93b560e483ef7eb5ebcb8",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:nˈoʊt": {
 "gate": "pass",
@@ -27923,10 +29739,18 @@
 "speed": 1.0
 },
 "ipa:sˈʌnz": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "dd32ba57d42af28259e739738b3c6962ae247471",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:ˈoʊz": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d1db2495548b120b168cb6b2e1f7cb559b8a2efd",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:sˈeɪʤ": {
 "gate": "pass",
@@ -27945,7 +29769,11 @@
 "speed": 1.0
 },
 "ipa:sˈɝʤ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "515c8fea1bb2dbaf15142ce30286e7b810d48be7",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:pˈipʌl": {
 "gate": "pass",
@@ -27982,7 +29810,11 @@
 "voice": "af_river"
 },
 "ipa:plˈeɪs": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "7ad8df01e0d11b31bdb06564dbac1a6f9cf34702",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:plˈeɪɡ": {
 "gate": "pass",
@@ -27993,22 +29825,46 @@
 "speed": 1.0
 },
 "ipa:plˈeɪn": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "0bfdc14dc969f9b436f994563f967b0c26d98e4f",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:plˈeɪk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "e4a29cbbd821287e97104a49b857ee184eb4147d",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:plˈeɪz": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "75dd23d07ed7a84bc0502dc77f4110785b5b7d31",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:plˈeɪt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "7d223a3b4b21df0bec2d83b002de2ae874bc4556",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:plˈɑt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "9956081af89435780cfb70f3206eb83abfcfa49d",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:blˈɑt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "a57fd1c2bc8b714bb737ccd0f66ece46de7997a3",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:plˈeɪ": {
 "gate": "pass",
@@ -28019,16 +29875,32 @@
 "speed": 1.0
 },
 "ipa:plˈaɪ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "a51efd3240f5e98c19b85f0d04e77736d7a79768",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:pˈul": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "5b27b81e18da5001cee7a3299fc48d38bb566717",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:tˈul": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "576f936bb4096a2de299d71b53d0dcaceb03118c",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:pˈoʊst": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "7d7239c6d775446746577d99379e85ef4a34bc47",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:pˈɛst": {
 "gate": "fail"
@@ -28050,7 +29922,11 @@
 "speed": 1.0
 },
 "ipa:pɹˈaɪs": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "cb047d14e2dd56bbf665a23f992bfd5bb67c68a3",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:pɹˈaɪm": {
 "gate": "pass",
@@ -28102,7 +29978,11 @@
 "speed": 1.0
 },
 "ipa:pˈɑti": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "b48aee9659c789ba9393886895d3b87882a3d493",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:kwˈin": {
 "gate": "pass",
@@ -28122,7 +30002,11 @@
 "voice": "af_river"
 },
 "ipa:ɹˈaɪs": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "109be9d1435042a16d3ebab1b339792eca31a22b",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:ɹˈeɪn": {
 "gate": "pass",
@@ -28168,7 +30052,11 @@
 "speed": 1.0
 },
 "ipa:sˈaɪt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d1590b9ea8ecbfe8842e703ad8c40fa9105e8701",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:tˈoʊst": {
 "gate": "pass",
@@ -28209,10 +30097,18 @@
 "gate": "fail"
 },
 "ipa:hˈum": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "cac8c4ff5b1272a10d5f9577b94adaf9a5234ba7",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:ɹˈoʊp": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "722270c30d4819f73259c4d8cb2c1f136cd4a912",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:ɹˈeɪl": {
 "gate": "pass",
@@ -28297,10 +30193,18 @@
 "speed": 1.0
 },
 "ipa:sˈit": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "babfa243b7ddff48f485a058be1c0d9beaa5ccfe",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:sˈi": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "28b617e1e7c950e8dcf7b269dccb55a87b589e02",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:ʃˈɑɹk": {
 "gate": "fail"
@@ -28325,10 +30229,18 @@
 "gate": "fail"
 },
 "ipa:ʃˈɑɹp": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d7f9d46c1540449d914402c496b865cc12901445",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:kˈɑɹp": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2556a7ec25af82978fd058a54e218938b0db208b",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:ʃˈɔɹ": {
 "gate": "fail"
@@ -28405,16 +30317,28 @@
 "gate": "fail"
 },
 "ipa:skˈeɪt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "045f3b8cc00635ad39c62e78ed9d2250694670ce",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:slˈeɪt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2b752780a529c445e12372deec987bbd8fea5b82",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:skˈɪt": {
 "gate": "fail"
 },
 "ipa:slˈɪt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "6e0420898e0df53f6a53110bbd05b1da4d8b3a1d",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:skˈeɪtɪŋ": {
 "gate": "pass",
@@ -28457,13 +30381,21 @@
 "speed": 1.0
 },
 "ipa:slˈip": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "0b73818708ea8821e9a67a86d82f10f3ba34db8f",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:slˈik": {
 "gate": "fail"
 },
 "ipa:snˈik": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d6f7b12cfa1267140c7acb8b524d560026825b29",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:slˈaɪd": {
 "gate": "pass",
@@ -28474,7 +30406,11 @@
 "speed": 1.0
 },
 "ipa:spˈaɪd": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "1f28becf920e2b5a921b2221a273c7c32d528592",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:slˈɛd": {
 "gate": "pass",
@@ -28494,7 +30430,11 @@
 "voice": "af_river"
 },
 "ipa:slˈoʊt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "f38134c6d10e9c91844ced6d1d8717c3ba014900",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:slˈoʊ": {
 "gate": "pass",
@@ -28505,7 +30445,11 @@
 "speed": 1.0
 },
 "ipa:stˈoʊ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "03d79bf23e9a4a46551df45a7afc6794b3514e61",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:stˈu": {
 "gate": "fail"
@@ -28573,16 +30517,32 @@
 "speed": 1.0
 },
 "ipa:stˈeɪl": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "4e349246d94578daf4b78f4cd5524cbb8859abbf",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:snˈeɪk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "383d0c0a62452b28ed22520b091e701199996331",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:stˈeɪk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "a07eda3442021ed7c4b871bfe0db783b498821f7",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:snˈeɪ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2090c4116d32cae21b87f210c504d9055163edb3",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:snˈid": {
 "gate": "fail"
@@ -28637,7 +30597,11 @@
 "speed": 1.0
 },
 "ipa:fˈild": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "a18f2b826fd6e0bed88ba6f014cdb93d8c9a289c",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:sˈun": {
 "gate": "pass-reroll",
@@ -28649,7 +30613,11 @@
 "voice": "af_river"
 },
 "ipa:spˈik": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "0e1c79954e82c4eb14ce8f8dd7d4f9197225fb82",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:spˈid": {
 "gate": "pass",
@@ -28726,7 +30694,11 @@
 "voice": "af_river"
 },
 "ipa:spɹˈi": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "4096c810a96b222ad31af30846e275b26ab279eb",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:stˈeɪʤ": {
 "gate": "pass",
@@ -28737,13 +30709,25 @@
 "speed": 1.0
 },
 "ipa:stˈeɪt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "efd4b374ee876fe24680c8a78315c0c134265fb5",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:stˈeɪv": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d840e2d582eda167fcdb94a234c7a57490a1b3a3",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:stˈɛɹ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "882a55c384f6a4a12bd3471bec5949f48f5e9b15",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:skˈɛɹ": {
 "gate": "pass",
@@ -28810,7 +30794,11 @@
 "speed": 1.0
 },
 "ipa:stˈʊd": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "925a523d7f8911103e721a0d76a716dda1b975c7",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:stˈɝd": {
 "gate": "fail"
@@ -28868,7 +30856,11 @@
 "voice": "af_river"
 },
 "ipa:stɹˈit": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "70e7e55c148462751ca2362cd1e83f553b2deb8a",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:stɹˈim": {
 "gate": "pass",
@@ -28887,7 +30879,11 @@
 "speed": 1.0
 },
 "ipa:stɹˈaɪn": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "4dc685a93a58541b710db8a1e00748cfa25ed873",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:sˈut": {
 "gate": "fail"
@@ -28901,10 +30897,18 @@
 "speed": 1.0
 },
 "ipa:swˈit": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "5198261cf38ae04777ae1c79c4eb00e83fa0b5dd",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:swˈɛt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "88757e4e44ad74502e5de3ecef46361c0b267acd",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:swˈɛɹ": {
 "gate": "pass",
@@ -28938,13 +30942,25 @@
 "voice": "af_river"
 },
 "ipa:sˈim": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "9ee63370e4f37cacf9a14c62f084fc0a70bf87ad",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:tˈɑm": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "546da317e319edf49ae866657ba67e7b4438b6d8",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:θˈim": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d92b50fc6d3ce0e47e7d4aaf1f4da680577be89d",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:θˈʌm": {
 "gate": "pass-reroll",
@@ -28964,7 +30980,11 @@
 "speed": 1.0
 },
 "ipa:tɹˈi": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "44e5d35ab7e9f0f8493b0a4f440f0e9199a0ffe6",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:tɹˈaɪ": {
 "gate": "pass",
@@ -29007,7 +31027,11 @@
 "speed": 1.0
 },
 "ipa:mˈaɪm": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "1bd6f54867fa6af36c3dff471321f4cdc64f9750",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:tˈoʊld": {
 "gate": "pass",
@@ -29034,7 +31058,11 @@
 "speed": 1.0
 },
 "ipa:tˈɔɹ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "8b82c94980cddb5889238532653efa2bf66519e9",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:tˈɑɹ": {
 "gate": "pass-reroll",
@@ -29054,7 +31082,11 @@
 "speed": 1.0
 },
 "ipa:tˈɔɹt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "7c6294d813f230eae29af6b9c85087704bcf74f4",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:tɹˈeɪn": {
 "gate": "pass-reroll",
@@ -29066,10 +31098,18 @@
 "voice": "af_river"
 },
 "ipa:bɹˈaɪn": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d9ccce02f3dffd6f7c4d2b5514f6a44205c641b7",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:tɹˈeɪ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "68367365dc4efefe64945348d73bfc0436df0e76",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:fɹˈeɪ": {
 "gate": "pass",
@@ -29100,10 +31140,18 @@
 "speed": 1.0
 },
 "ipa:tˈub": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "9da076328d6c1241b33b09a67509924ed9493f7d",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:lˈub": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "8c4ec489dd57a9989f0721915247677d3afd2af6",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:tˈæb": {
 "gate": "pass",
@@ -29130,7 +31178,11 @@
 "speed": 1.0
 },
 "ipa:wˈɛɹi": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "a16e8f33d5ca3db228eba653804cd549536e6ffa",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:fˈɛɹi": {
 "gate": "fail"
@@ -29185,7 +31237,11 @@
 "speed": 1.0
 },
 "ipa:dˈɛtɝ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "300b3fc36612e18a512de346e712a2e884495f2f",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:wˈeɪv": {
 "gate": "pass",
@@ -29204,10 +31260,18 @@
 "speed": 1.0
 },
 "ipa:pˈeɪ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "aa14414875f2107de8bd7c90f0494cd261dd6969",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:wˈeɪl": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "53aa89348b606e3a6626ae317cd0692dd5e6615d",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:sˈeɪl": {
 "gate": "pass-reroll",
@@ -29275,7 +31339,11 @@
 "speed": 1.0
 },
 "ipa:wˈɪns": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "5422b86dcc64897d723bddef85550ac1151e026b",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:wˈaɪnd": {
 "gate": "pass",
@@ -29286,7 +31354,11 @@
 "speed": 1.0
 },
 "ipa:wˈɪndi": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "1d9ebd3cc8257d36a6049fa5a11be64f85b75f90",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:wˈɪndoʊ": {
 "gate": "pass",
@@ -29311,7 +31383,11 @@
 "gate": "fail"
 },
 "w:jar": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "bce16a743deb1991cb118badf1f961ba48939805",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:bar": {
 "gate": "pass",
@@ -29427,10 +31503,18 @@
 "speed": 1.0
 },
 "w:starn": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "29a5b58a214276dd515a1e4f940279bf8e8d678b",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:farb": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "ae54b374f67c812e417a6d27affbe38e0c3e4fc9",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:live": {
 "gate": "pass",
@@ -29473,7 +31557,11 @@
 "speed": 1.0
 },
 "w:khan": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "17e468beb61d50376f49c1d8f692f78469430e8d",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:drives": {
 "gate": "pass",
@@ -29492,10 +31580,18 @@
 "speed": 1.0
 },
 "w:walks": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "140919abe11d3c02b130703c2ca1ad55c2221cf9",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:needs": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "9148c65d4a536647dd9e4cb687ae6ba0e7b2db4c",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:tiny": {
 "gate": "pass",
@@ -29538,7 +31634,11 @@
 "speed": 1.0
 },
 "w:fort": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "ec3f154344df186ed204f1f3320dbaecbdf75ca1",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:sore": {
 "gate": "fail"
@@ -29664,7 +31764,11 @@
 "speed": 1.0
 },
 "w:worm": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d536ca36facbb4b493a2210e254cf718e580fd2f",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:worth": {
 "gate": "pass",
@@ -29715,7 +31819,11 @@
 "speed": 1.0
 },
 "w:sort": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "34137b02f43ad723d7d68757e5c0d79d27307168",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:barks": {
 "gate": "pass",
@@ -29834,10 +31942,18 @@
 "speed": 1.0
 },
 "w:herd": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "69dd43540f2f46d1584a8d295d2e3bcf3e4d7b28",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "w:fern": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "4d25a0618a226f0983dd5ea0e18a9309b1f556a7",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:perch": {
 "gate": "fail"
@@ -29930,13 +32046,21 @@
 "speed": 1.0
 },
 "w:thirst": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "64d2ab6c0a929468f4bebfc23dc12a3f99bb3005",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:skirt": {
 "gate": "fail"
 },
 "w:whirl": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "5cbaa839bb2310a27ba98f05df177b0164f2dbf5",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:fur": {
 "gate": "fail"
@@ -29985,22 +32109,42 @@
 "speed": 1.0
 },
 "w:purse": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "b9fa9dac4d8dd7b26787bd7681e11fc240fa90f8",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "w:curb": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "abdfb08272f3d32e0eeae8db1950783705c06cdf",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:surf": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "c56f06d903a49516d59c79e50ce0227f480ae769",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:thur": {
 "gate": "fail"
 },
 "w:zern": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "cfebeb3ac6b901a73b960709c339e317c20e074f",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:porch": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "db5f294246dddc5a88de6398f27ac46f4647c8cd",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:nadia": {
 "gate": "pass",
@@ -30030,7 +32174,11 @@
 "gate": "fail"
 },
 "w:chest": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "6870461a759eac494cc53f0033cbf27895658b4a",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:its": {
 "gate": "fail"
@@ -30140,7 +32288,11 @@
 "speed": 1.0
 },
 "w:air": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "880468af5cc0d079360283c0a122c8144466332c",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:fair": {
 "gate": "pass-reroll",
@@ -30152,16 +32304,32 @@
 "voice": "af_river"
 },
 "w:hair": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d257cd48e0efb59fb1bf9ae9c6cefe9514d1ad91",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:pair": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2ad4adfc2cf1f08f02aed580ff76e5d7054190c9",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:chair": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "fcb07f295690fafee5ead54b516b06df8b1111ff",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:stair": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "882a55c384f6a4a12bd3471bec5949f48f5e9b15",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:flair": {
 "gate": "pass",
@@ -30205,7 +32373,11 @@
 "speed": 1.0
 },
 "w:stare": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "882a55c384f6a4a12bd3471bec5949f48f5e9b15",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:square": {
 "gate": "pass",
@@ -30267,7 +32439,11 @@
 "voice": "af_river"
 },
 "w:pear": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2ad4adfc2cf1f08f02aed580ff76e5d7054190c9",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:deer": {
 "gate": "pass",
@@ -30337,7 +32513,11 @@
 "speed": 1.0
 },
 "w:year": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "49959056246af81ab82b0e5bf97a632e6ffe6d96",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:clear": {
 "gate": "pass",
@@ -30359,7 +32539,11 @@
 "gate": "fail"
 },
 "w:hike": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "bfb3237e7380b5c083de2ebda4c446bb74e1953a",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:hills": {
 "gate": "pass",
@@ -30386,7 +32570,11 @@
 "speed": 1.0
 },
 "w:crisp": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "ddf4bc42daa5c4549dd06517d48092b6549e9a9a",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "w:showing": {
 "gate": "pass",
@@ -30413,7 +32601,11 @@
 "speed": 1.0
 },
 "w:ears": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "f8df40d34395e7035bd43f41ecc08236c8d3b998",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:turning": {
 "gate": "pass",
@@ -30448,7 +32640,11 @@
 "speed": 1.0
 },
 "w:closest": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "892a912aec36ef06b3d2afceb25eb6bee5743b9c",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:never": {
 "gate": "pass",
@@ -30476,7 +32672,11 @@
 "speed": 1.0
 },
 "w:chairs": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "9fb9a05c7738991c38aaf2a5c713700efd81be77",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:tables": {
 "gate": "pass",
@@ -30495,7 +32695,11 @@
 "speed": 1.0
 },
 "w:warns": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "50a4a7a0fda3c92aa464fd210dd93dab46a6d3db",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:arms": {
 "gate": "pass",
@@ -30506,7 +32710,11 @@
 "speed": 1.0
 },
 "w:price": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "cb047d14e2dd56bbf665a23f992bfd5bb67c68a3",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "w:carry": {
 "gate": "pass",
@@ -30574,7 +32782,11 @@
 "speed": 1.0
 },
 "w:joint": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "f769c22c1b916d7203c8eee5e1054b4717b6b66d",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:spoil": {
 "gate": "pass",
@@ -30658,7 +32870,11 @@
 "speed": 1.0
 },
 "w:soy": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "e2f7f4196363fa20ef96b9bb6adf14466c299fbf",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:enjoy": {
 "gate": "pass",
@@ -30728,7 +32944,11 @@
 "voice": "af_river"
 },
 "w:toss": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "14bc4918a5f1b26e8979d93c486af1b8bb2a7193",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:pick": {
 "gate": "fail"
@@ -30750,7 +32970,11 @@
 "speed": 1.0
 },
 "w:trucks": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "b3f4062efcef048d03a45d207dc8f88d59d51132",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:lands": {
 "gate": "pass-reroll",
@@ -30762,7 +32986,11 @@
 "voice": "af_river"
 },
 "w:roy": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "8ce7390d3e0af4b963553a1d1ebcf202cf92e508",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "w:joins": {
 "gate": "pass",
@@ -30814,7 +33042,11 @@
 "voice": "af_river"
 },
 "w:leak": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "eb8078ebdf88faf0d7f3601bca9c149927d75bdf",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:customer": {
 "gate": "pass",
@@ -30836,7 +33068,11 @@
 "gate": "fail"
 },
 "w:finds": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "899af5f65d187f267f896f65b98f92533bfb7e86",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:fits": {
 "gate": "fail"
@@ -30850,7 +33086,11 @@
 "speed": 1.0
 },
 "w:patch": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "42baf8a0f44143dc4a7e988c40634e502faf6cf6",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:engine": {
 "gate": "pass-reroll",
@@ -30862,10 +33102,18 @@
 "voice": "af_river"
 },
 "w:seal": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "e48c8052bc08cdf7506f09ec241170215a87222d",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:even": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "b18a507efbcaf0d50b2f32e68ac5f52e1e6613b1",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "w:talking": {
 "gate": "pass",
@@ -30884,10 +33132,18 @@
 "speed": 1.0
 },
 "w:out": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "73c3980ed6433669cc371a62564eb33aeff28935",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:house": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "711b1f7c6475b9cf7f32d127d8a055f2c35779d8",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:mouse": {
 "gate": "pass",
@@ -30954,7 +33210,11 @@
 "speed": 1.0
 },
 "w:count": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "c865f4c418c0f4a25183a6a4c4d83cd7b066956b",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:south": {
 "gate": "fail"
@@ -30985,7 +33245,11 @@
 "speed": 1.0
 },
 "w:ouch": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "f4d1232479259a5ae2abe68573c95f5f024d396a",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:pound": {
 "gate": "pass",
@@ -31012,7 +33276,11 @@
 "speed": 1.0
 },
 "w:cow": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "4dbc5b8dc6d4a13087143c9890f0bfc43059845a",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:now": {
 "gate": "pass",
@@ -31048,7 +33316,11 @@
 "speed": 1.0
 },
 "w:gown": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "31e69b249dd66e6e0a9da19c17faa15f46680180",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:clown": {
 "gate": "pass",
@@ -31086,7 +33358,11 @@
 "speed": 1.0
 },
 "w:howl": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "ee644c01d89b931918c598f156025531aea71327",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:crowd": {
 "gate": "pass",
@@ -31180,7 +33456,11 @@
 "speed": 1.0
 },
 "w:their": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "b9c20ffbaf394564e7fe73e065fac4dfeb268145",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "w:downtown": {
 "gate": "pass",
@@ -31306,7 +33586,11 @@
 "speed": 1.0
 },
 "w:hour": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "b6816eb799cefb15a57318d8ec001b5617ee4855",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:cheers": {
 "gate": "pass",
@@ -31333,7 +33617,11 @@
 "speed": 1.0
 },
 "w:desks": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "85d49263bf943c5bdd9d0e7cb9c0af39e079f6ee",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:saw": {
 "gate": "fail"
@@ -31351,7 +33639,11 @@
 "gate": "fail"
 },
 "w:claw": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "cfe200cfbc9a9d2547bcd137900955a5591b228f",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:draw": {
 "gate": "pass",
@@ -31362,7 +33654,11 @@
 "speed": 1.0
 },
 "w:straw": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "66d6ef7170693259d5ef48a984e84894e6030c6f",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:lawn": {
 "gate": "fail"
@@ -31396,7 +33692,11 @@
 "gate": "fail"
 },
 "w:fault": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2d07639ec7e061e9144dfb24ce885609a13429da",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:sauce": {
 "gate": "fail"
@@ -31434,7 +33734,11 @@
 "speed": 1.0
 },
 "w:ball": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "7264bd5498ff66ef9f374ed18b8512597f546092",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:call": {
 "gate": "pass",
@@ -31445,16 +33749,28 @@
 "speed": 1.0
 },
 "w:fall": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d4204a55d0fcf738b96464d85bf40d4762d6d5af",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:hall": {
 "gate": "fail"
 },
 "w:mall": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d49a762f3b9111cd6f9ebf263d7705bd46a13cfe",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:small": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "e527f29d4358634ca75b787c607fe87db26f6fe1",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:wall": {
 "gate": "fail"
@@ -31500,7 +33816,11 @@
 "speed": 1.0
 },
 "w:stone": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "971a7c4ec6c8b5eb689d9777e68eed41af219465",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "w:whispers": {
 "gate": "pass",
@@ -31587,7 +33907,11 @@
 "voice": "af_river"
 },
 "w:mariam": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "196b646785445067dec8e0b2b1c51de38807daf5",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:business": {
 "gate": "pass",
@@ -31606,7 +33930,11 @@
 "speed": 1.0
 },
 "w:system": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "f9239f9685483eefe18f6cdeaf2cfa485130e354",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:causes": {
 "gate": "pass",
@@ -31652,7 +33980,11 @@
 "speed": 1.0
 },
 "w:stops": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "52da67e587468ec3e46114d254d37e2b76a0cd1e",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:bread": {
 "gate": "pass",
@@ -31680,7 +34012,11 @@
 "speed": 1.0
 },
 "w:ready": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "ea8f5af6bd090459e3d7fd79f27ad228d37d10d0",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "w:heavy": {
 "gate": "fail"
@@ -31734,7 +34070,11 @@
 "speed": 1.0
 },
 "w:wealth": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "ed19c52f33ae984c4b5e84a6db9c3c0f8c08ca60",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:breath": {
 "gate": "pass",
@@ -31745,7 +34085,11 @@
 "speed": 1.0
 },
 "w:threat": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "fa5a9d60a073181f5375891327d84ef2962bcc32",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:healthy": {
 "gate": "pass",
@@ -31759,7 +34103,11 @@
 "gate": "fail"
 },
 "w:knock": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "973bc5cbe5f73012d88ef3fba460acd01dbb684b",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "w:knot": {
 "gate": "pass",
@@ -31773,7 +34121,11 @@
 "gate": "fail"
 },
 "w:kneel": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "b853476273ce1f76ecf3f90c049a624e86301a8b",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:knuckle": {
 "gate": "pass",
@@ -31795,7 +34147,11 @@
 "gate": "fail"
 },
 "w:wrap": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2d69f0fd940f9e94410cc2b8df1fb728accbbdf8",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:wrong": {
 "gate": "pass",
@@ -31806,10 +34162,18 @@
 "speed": 1.0
 },
 "w:wreck": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d276c4541dcd0458dfd9f80cd5a12b443b07f083",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "w:wrench": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "ac2135dbdabe2a1c106023a15ca3b832b364a850",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:wrinkle": {
 "gate": "pass",
@@ -31878,7 +34242,11 @@
 "speed": 1.0
 },
 "w:numb": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "6a8c65c662ea5a41ff13c3f85544c70e582e7a54",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:knop": {
 "gate": "fail"
@@ -31900,7 +34268,11 @@
 "speed": 1.0
 },
 "w:sana": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "44d359fda626ec5aff662084efaeedcfff20181b",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:playing": {
 "gate": "pass",
@@ -32010,7 +34382,11 @@
 "speed": 1.0
 },
 "w:rashid": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "1a511ca0fb5b277a9e0de94e4b30294755a55fdf",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "w:onto": {
 "gate": "pass",
@@ -32029,7 +34405,11 @@
 "speed": 1.0
 },
 "w:rut": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "c30a5a6a10a358c34abb530bcb7293e7e5d57d1a",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:twisted": {
 "gate": "pass",
@@ -32048,7 +34428,11 @@
 "speed": 1.0
 },
 "w:wheel": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "593386f34df51e450c34483e6f6082a44659635d",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:feeling": {
 "gate": "pass",
@@ -32059,7 +34443,11 @@
 "speed": 1.0
 },
 "w:pain": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "42da09d8b4661b921cf5239716b960182bb0917b",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "w:pulled": {
 "gate": "pass",
@@ -32078,7 +34466,11 @@
 "speed": 1.0
 },
 "w:swell": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "25c7b8e7ee62949920e5b2fb812fa783fab8542e",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:called": {
 "gate": "pass",
@@ -32105,7 +34497,11 @@
 "speed": 1.0
 },
 "w:wrapped": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "0e348fccbdad195fade1ee954bfbb2deda6b3f4f",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "w:lucky": {
 "gate": "pass",
@@ -32157,7 +34553,11 @@
 "speed": 1.0
 },
 "w:photo": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "6d67c3b7c3ef471a2847ad2d5653e47d096bd804",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:graph": {
 "gate": "pass",
@@ -32241,7 +34641,11 @@
 "speed": 1.0
 },
 "w:chute": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "1c94e7104c6df78b978c3a250f9b5887750b1b61",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:ghost": {
 "gate": "pass",
@@ -32309,7 +34713,11 @@
 "speed": 1.0
 },
 "w:miss": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "26ec481ac21a91566d551b46ff0d6e7041cc5a2a",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:used": {
 "gate": "pass-reroll",
@@ -32486,10 +34894,18 @@
 "speed": 1.0
 },
 "w:ask": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "9b517c5855b1650c7391df96e1c444964d6f19df",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:stethoscope": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "6f80d7677ab94398732bdc622f327dff6c9cc8f0",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:breaks": {
 "gate": "pass",
@@ -32508,7 +34924,11 @@
 "speed": 1.0
 },
 "w:send": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "39e66b5fcbc1c82db010e27ebfed1396c6e29dcc",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:aches": {
 "gate": "fail"
@@ -32614,7 +35034,11 @@
 "speed": 1.0
 },
 "w:needle": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "9c7ebd09b4d5e5f1e090ae531777617386ebb0d0",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:cattle": {
 "gate": "pass",
@@ -32625,7 +35049,11 @@
 "speed": 1.0
 },
 "w:saddle": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "8defb0b9438b32f2c8b9662e05f6981af4736420",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:wiggle": {
 "gate": "pass",
@@ -32749,7 +35177,11 @@
 "speed": 1.0
 },
 "w:keep": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2b0bb4c942f70ccb2951f53786fab534634618c7",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:eyes": {
 "gate": "pass",
@@ -32784,10 +35216,18 @@
 "speed": 1.0
 },
 "w:drawer": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "8eaa5375f1fa86f84953e9e7c5dd40688bbc0c34",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:loose": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "73550248da7ddb841b248d3156285133b8949ebf",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:color": {
 "gate": "pass",
@@ -33057,7 +35497,11 @@
 "speed": 1.0
 },
 "w:feature": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "c9b4ad8a2c1b7df47af31c3fd8d2da881ed1f5eb",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:mixture": {
 "gate": "pass-reroll",
@@ -33190,7 +35634,11 @@
 "speed": 1.0
 },
 "w:pay": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "aa14414875f2107de8bd7c90f0494cd261dd6969",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "w:unusual": {
 "gate": "pass",
@@ -33201,7 +35649,11 @@
 "speed": 1.0
 },
 "w:bina": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2f565454438b7c3b0bb915ba44839d7485578a93",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:leaned": {
 "gate": "fail"
@@ -33330,7 +35782,11 @@
 "speed": 1.0
 },
 "w:tests": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2df6cf8888e4fd716f5470e9f5bd671c8b62774b",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:plus": {
 "gate": "pass",
@@ -33365,10 +35821,18 @@
 "speed": 1.0
 },
 "w:leaves": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "a6b92ed7beb8cc3f3ea58614482d92832bb93ac4",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:notes": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "51a5191640421fce89e262c9e214cf94212e6e5d",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:file": {
 "gate": "pass",
@@ -33387,7 +35851,11 @@
 "speed": 1.0
 },
 "w:sudden": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "31ba1e4a66338ab5ca5644a5dd9c65e6c4f95254",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:kitten": {
 "gate": "pass-reroll",
@@ -33416,7 +35884,11 @@
 "speed": 1.0
 },
 "w:mitten": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "f52ef4dcc628b506bc1700c3a37576a0daa0f57f",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "w:paper": {
 "gate": "pass",
@@ -33443,7 +35915,11 @@
 "speed": 1.0
 },
 "w:focus": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "424769d4577eb43b117de1f1d6576b79e2a009ad",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:human": {
 "gate": "pass",
@@ -33454,7 +35930,11 @@
 "speed": 1.0
 },
 "w:cabin": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "30f05646a20a526698497337d88f800e2a540d69",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:river": {
 "gate": "pass",
@@ -33465,7 +35945,11 @@
 "speed": 1.0
 },
 "w:seven": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "dcfb5ff4f7b9c9c3d55a971169747459e1fb599a",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "w:shiver": {
 "gate": "pass",
@@ -33548,7 +36032,11 @@
 "speed": 1.0
 },
 "w:layla": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "a2e3830966f644c91d7584a624e1145061b3d12b",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:scared": {
 "gate": "pass",
@@ -33575,7 +36063,11 @@
 "speed": 1.0
 },
 "w:tipped": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "8f12780c5f9c099ab0e27d8a249779635c1f8044",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "w:into": {
 "gate": "pass-reroll",
@@ -33614,7 +36106,11 @@
 "speed": 1.0
 },
 "w:legged": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "8d53c64bf2ed2b90b1246cb1ec5ee4f010d70612",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:believe": {
 "gate": "pass",
@@ -33641,7 +36137,11 @@
 "speed": 1.0
 },
 "w:rent": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2e57517392f25f6c4b8effff4d9e07eba036adc7",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:weekend": {
 "gate": "pass",
@@ -33692,7 +36192,11 @@
 "speed": 1.0
 },
 "w:evening": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "bf5d1b1ca110b4fee9c71b44717c33c03a681ac0",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:robin": {
 "gate": "pass",
@@ -33711,16 +36215,32 @@
 "speed": 1.0
 },
 "w:means": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "27224737fcce5554d976b13fa11903e2ef68c883",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:luck": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "6a2510eb81d68dfec7b835e4813cd3ea7534ddc2",
+"rescue": "near",
+"voice": "af_river"
 },
 "w:spend": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "da0716617f2fc209e365d7c2684c3536a646aad7",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:reading": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "fc44a1bf5fad539573082601810e980fbc3380c3",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:cooking": {
 "gate": "pass",
@@ -33747,7 +36267,11 @@
 "speed": 1.0
 },
 "w:leave": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "e44d420902add7015d21424667aa2100e4be8a88",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:notices": {
 "gate": "pass-reroll",
@@ -33827,7 +36351,11 @@
 "speed": 1.0
 },
 "w:sadder": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "64b57eac0ba4db4912c57329dbd27951c38646a4",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:wetter": {
 "gate": "pass",
@@ -33977,13 +36505,21 @@
 "speed": 1.0
 },
 "w:snape": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d9ecd99f1a9b4af78231fc89d9dd3620366e79f4",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:ferrer": {
 "gate": "fail"
 },
 "w:dass": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "5189817b4278ef66e43663b2be3b6a7ab860c86a",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:buttons": {
 "gate": "pass",
@@ -34002,7 +36538,11 @@
 "speed": 1.0
 },
 "w:funniest": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "46a8700d2ee8f3b0db77f28d081bf9c034d112da",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:laughing": {
 "gate": "pass",
@@ -34021,16 +36561,28 @@
 "speed": 1.0
 },
 "w:kitchen": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "18a65006651525c2dbb1d665f8cd139f3126b4b3",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "w:iman": {
 "gate": "fail"
 },
 "w:months": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "40e3b8a3a4183a99c32386e501f1f5cc06ef1129",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:feeding": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "6e886dd0e4b6e1c0642cdc32dbb6ec16d1bfbcf3",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:training": {
 "gate": "pass",
@@ -34058,7 +36610,11 @@
 "speed": 1.0
 },
 "w:chasing": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "7cf0ccc68bd073eb7bed77d460a33195ae324de7",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:spinning": {
 "gate": "pass",
@@ -34077,10 +36633,18 @@
 "speed": 1.0
 },
 "w:flopped": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "4a079bc6032dc9f7f67ce73939c9132374251aa5",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:dizzy": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "fa1e57590cb3ed002ec0e56ac2a2f2c4abe1865a",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "w:laughter": {
 "gate": "pass-reroll",
@@ -34111,7 +36675,11 @@
 "speed": 1.0
 },
 "w:sarah": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "e0e536f1d26428d00d9ccf3f28b747bd7e0d95d7",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:role": {
 "gate": "pass-reroll",
@@ -34204,7 +36772,11 @@
 "voice": "af_river"
 },
 "w:stretch": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "e5391f8eef80bfbc4bba56818c43616d9e389ea5",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:manager": {
 "gate": "pass",
@@ -34271,10 +36843,18 @@
 "speed": 1.0
 },
 "w:paying": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "ebd19136383f9df14d4383a6f47cb5768d3ecf2a",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:keeps": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2204fac8240f56b2e6a747a51dcf8625a695ac8d",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "w:knowing": {
 "gate": "pass",
@@ -34609,7 +37189,11 @@
 "speed": 1.0
 },
 "w:bumped": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d2d308683f56278af4265dbb0d4cffb25876b8c0",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:unpacking": {
 "gate": "pass",
@@ -34647,7 +37231,11 @@
 "speed": 1.0
 },
 "w:needed": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "df296a71d0c708aa24039cf7c61f9c3a3506e400",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:troubleshooting": {
 "gate": "pass",
@@ -34666,7 +37254,11 @@
 "speed": 1.0
 },
 "w:being": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "1198ce64208953c9433275b4e0c48df460f80920",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "w:thorough": {
 "gate": "pass-reroll",
@@ -34713,16 +37305,28 @@
 "gate": "fail"
 },
 "ipa:ˈeɪd": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "3a75547b5456b6e5d4a02de5ddbcdb9c92732935",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:ˈoʊk": {
 "gate": "fail"
 },
 "ipa:ˈoʊd": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "c06944db3de6b471d783bfad057fc81c0cabaede",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:ˈɛɹ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "880468af5cc0d079360283c0a122c8144466332c",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:ˈaɪɹ": {
 "gate": "fail"
@@ -34790,10 +37394,18 @@
 "speed": 1.0
 },
 "ipa:ˈɑɹk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "567df444213eed8f2c7879067f14da9d4a558455",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:ˈɑɹʧ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "222cebd55e1468f870473b16e571bb74f24aefc9",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:ˈɑɹt": {
 "gate": "pass",
@@ -34804,7 +37416,11 @@
 "speed": 1.0
 },
 "ipa:ˈɑlt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d526b5385fcf063f95fac8d324c7e5cd98895fe5",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:ˈɑpt": {
 "gate": "pass",
@@ -34831,7 +37447,11 @@
 "speed": 1.0
 },
 "ipa:bˈɝnɝ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "547de5e290440613978b457060f07ba38b3f0e23",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:bˈɝθ": {
 "gate": "pass",
@@ -34907,7 +37527,11 @@
 "speed": 1.0
 },
 "ipa:sˈɔɪ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "e2f7f4196363fa20ef96b9bb6adf14466c299fbf",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:blˈɛd": {
 "gate": "pass",
@@ -35098,13 +37722,21 @@
 "speed": 1.0
 },
 "ipa:pˈɑz": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "a91c14e6e6f3d3fe697eb77d8995ef15569a8546",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:kˈiz": {
 "gate": "fail"
 },
 "ipa:pˈiz": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "47453d4de0c3c19369e22f4b10ee6cecd536231a",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:ʧˈɪɹ": {
 "gate": "pass",
@@ -35155,7 +37787,11 @@
 "voice": "af_river"
 },
 "ipa:pˈɔɹʌs": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "96fcf589ecc85abcc3c1effa51eae2ca8107e498",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:pˈɔɹʌʤ": {
 "gate": "pass",
@@ -35172,7 +37808,11 @@
 "gate": "fail"
 },
 "ipa:ʃˈut": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "1c94e7104c6df78b978c3a250f9b5887750b1b61",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:ʃˈɝt": {
 "gate": "fail"
@@ -35186,7 +37826,11 @@
 "speed": 1.0
 },
 "ipa:klˈɔ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "cfe200cfbc9a9d2547bcd137900955a5591b228f",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:flˈɔ": {
 "gate": "fail"
@@ -35289,10 +37933,18 @@
 "voice": "af_river"
 },
 "ipa:kˈin": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "4f6e57267ac8b64259a1c89a8d66b0d88b4c5fcf",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:kˈaʊnt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "c865f4c418c0f4a25183a6a4c4d83cd7b066956b",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:kˈænt": {
 "gate": "pass",
@@ -35335,7 +37987,11 @@
 "speed": 1.0
 },
 "ipa:kˈaʊ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "4dbc5b8dc6d4a13087143c9890f0bfc43059845a",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:kˈi": {
 "gate": "fail"
@@ -35389,7 +38045,11 @@
 "speed": 1.0
 },
 "ipa:kˈɝb": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "abdfb08272f3d32e0eeae8db1950783705c06cdf",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:vˈɝb": {
 "gate": "pass-reroll",
@@ -35425,10 +38085,18 @@
 "speed": 1.0
 },
 "ipa:pˈɝl": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "ae2c13de558e1463c921f523bc8da1589c908a20",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:dˈæs": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "5189817b4278ef66e43663b2be3b6a7ab860c86a",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:dˈɔn": {
 "gate": "fail"
@@ -35450,7 +38118,11 @@
 "speed": 1.0
 },
 "ipa:ɡˈaʊn": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "31e69b249dd66e6e0a9da19c17faa15f46680180",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:dˈɛd": {
 "gate": "pass-reroll",
@@ -35529,7 +38201,11 @@
 "voice": "af_river"
 },
 "ipa:kɹˈɑpt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "9e39cd9d2c7db369930325e95e4abddf675a4bc8",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:dɹˈaʊnd": {
 "gate": "pass",
@@ -35548,25 +38224,45 @@
 "speed": 1.0
 },
 "ipa:fˈɔl": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d4204a55d0fcf738b96464d85bf40d4762d6d5af",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:wˈɔl": {
 "gate": "fail"
 },
 "ipa:fˈɑɹb": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "ae54b374f67c812e417a6d27affbe38e0c3e4fc9",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:fˈɑɹs": {
 "gate": "fail"
 },
 "ipa:fˈɪɹs": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "5c721abbcb17bd231922f27d613964597c105bb3",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:fˈɔlt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2d07639ec7e061e9144dfb24ce885609a13429da",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:mˈɔlt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "b312a1a287e698487dc603902235874fb5331f6b",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:fˈɛðɝ": {
 "gate": "pass",
@@ -35585,10 +38281,18 @@
 "speed": 1.0
 },
 "ipa:fˈɑdɝ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "24ca96a2586f1d1776fcf54feef107da1b17896b",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:fˈiʧɝ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "c9b4ad8a2c1b7df47af31c3fd8d2da881ed1f5eb",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:tˈiʧɝ": {
 "gate": "pass-reroll",
@@ -35600,16 +38304,28 @@
 "voice": "af_river"
 },
 "ipa:tˈizɝ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "dfc983dc6cfc7c58af4770e74432461941b0a896",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:fˈɝn": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "4d25a0618a226f0983dd5ea0e18a9309b1f556a7",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:fˈɝɹɝ": {
 "gate": "fail"
 },
 "ipa:fˈɝst": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "55c73a9991e2816307ba6d24f6f5d9a8458938d1",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:kˈɝst": {
 "gate": "pass-reroll",
@@ -35621,7 +38337,11 @@
 "voice": "af_river"
 },
 "ipa:fˈæst": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "32812e9b8689c6ceca79bf835a3bc9777666562d",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:kˈæst": {
 "gate": "pass-reroll",
@@ -35641,10 +38361,18 @@
 "speed": 1.0
 },
 "ipa:flˈɛʃ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "9b71bafb39c7bbe9859ccc326c435c21b39cd474",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:flˈʌʃ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "343c6f3f2f1ee6349cc05fbd9a1b8b917b99bffa",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:flˈɛd": {
 "gate": "pass",
@@ -35658,13 +38386,25 @@
 "gate": "fail"
 },
 "ipa:fˈoʊkʌs": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "424769d4577eb43b117de1f1d6576b79e2a009ad",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:lˈoʊkʌs": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "66de866b322d590008d4b52539c7d76df0d915d1",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:fˈoʊkʌl": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "a3819c9a22ef015c260d6b87f50787e8fbe836b6",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:lˈoʊkʌl": {
 "gate": "pass",
@@ -35732,7 +38472,11 @@
 "speed": 1.0
 },
 "ipa:ɡˈæst": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "bda1bd31882dfd35fe6c0f396a86f561b85ef7af",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:pˈæst": {
 "gate": "pass",
@@ -35751,7 +38495,11 @@
 "speed": 1.0
 },
 "ipa:ɡˈoʊl": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "6754e907fc2c66d4ebd748931937e927855049b7",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:nˈɔ": {
 "gate": "fail"
@@ -35763,7 +38511,11 @@
 "gate": "fail"
 },
 "ipa:ɡˈun": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "e41c9850f211a8a0b461c01b221596c42746ccec",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:ɡɹˈæf": {
 "gate": "pass",
@@ -35782,7 +38534,11 @@
 "speed": 1.0
 },
 "ipa:ɡɹˈid": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "33e4a59ab5e2010f7be39a2538988c7061597ecc",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:ɡɹˈaʊnd": {
 "gate": "pass",
@@ -35828,7 +38584,11 @@
 "gate": "fail"
 },
 "ipa:mˈɔl": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d49a762f3b9111cd6f9ebf263d7705bd46a13cfe",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:hˈændʌl": {
 "gate": "pass",
@@ -35855,7 +38615,11 @@
 "speed": 1.0
 },
 "ipa:wˈɛlθ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "ed19c52f33ae984c4b5e84a6db9c3c0f8c08ca60",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:hˈɛld": {
 "gate": "pass",
@@ -35885,7 +38649,11 @@
 "speed": 1.0
 },
 "ipa:bˈɛɹi": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2460315fa6e92ead7e3ea6c7c40463d42e74f81a",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:kˈoʊʧɪŋ": {
 "gate": "pass",
@@ -35924,7 +38692,11 @@
 "speed": 1.0
 },
 "ipa:hˈaʊs": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "711b1f7c6475b9cf7f32d127d8a055f2c35779d8",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:mˈaʊs": {
 "gate": "pass",
@@ -35943,13 +38715,25 @@
 "speed": 1.0
 },
 "ipa:hˈaʊl": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "ee644c01d89b931918c598f156025531aea71327",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:fˈaʊl": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "a37c67b4f0517f250e6a8d1eb9efe00528a43736",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:ʤˈɑɹ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "bce16a743deb1991cb118badf1f961ba48939805",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:ʤˈɔ": {
 "gate": "fail"
@@ -35966,7 +38750,11 @@
 "speed": 1.0
 },
 "ipa:ʤˈɔɪnt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "f769c22c1b916d7203c8eee5e1054b4717b6b66d",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:ʤˈɔɪnz": {
 "gate": "pass",
@@ -35985,7 +38773,11 @@
 "speed": 1.0
 },
 "ipa:ʤˈi": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "b9175c9a9e65437ee00ce7f3bb68382b63be19e2",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:kˈɪtʌn": {
 "gate": "pass-reroll",
@@ -36014,7 +38806,11 @@
 "speed": 1.0
 },
 "ipa:nˈil": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "b853476273ce1f76ecf3f90c049a624e86301a8b",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:dˈil": {
 "gate": "pass-reroll",
@@ -36059,7 +38855,11 @@
 "speed": 1.0
 },
 "ipa:lˈum": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "bbef91abc0a9e56c12ea558b4085f27c5c24e31c",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:lˈɔnʧ": {
 "gate": "pass",
@@ -36070,10 +38870,18 @@
 "speed": 1.0
 },
 "ipa:lˈɪnʧ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "42ada90887d5794e10c339038942560450059f13",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:wˈɪnʧ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "95a33d2a4fc1a7a578f7c4b1b048765c3a2f93da",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:lˈɔ": {
 "gate": "fail"
@@ -36082,7 +38890,11 @@
 "gate": "fail"
 },
 "ipa:fˈɔn": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "7ab850135a40fffe78151b08655d6b7b6221a5e3",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:lˈɝn": {
 "gate": "pass",
@@ -36152,7 +38964,11 @@
 "speed": 1.0
 },
 "ipa:mˈɪtʌn": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "f52ef4dcc628b506bc1700c3a37576a0daa0f57f",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:mˈɔɪst": {
 "gate": "pass",
@@ -36171,7 +38987,11 @@
 "speed": 1.0
 },
 "ipa:vˈɛst": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2a526720683f84026e27dffd942c93e356be2d0b",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:mˈʊɹ": {
 "gate": "fail"
@@ -36266,7 +39086,11 @@
 "voice": "af_river"
 },
 "ipa:nˈidʌl": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "9c7ebd09b4d5e5f1e090ae531777617386ebb0d0",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:nˈudʌl": {
 "gate": "pass",
@@ -36341,7 +39165,11 @@
 "speed": 1.0
 },
 "ipa:pˈɝs": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "b9fa9dac4d8dd7b26787bd7681e11fc240fa90f8",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:pˈis": {
 "gate": "pass",
@@ -36368,13 +39196,25 @@
 "speed": 1.0
 },
 "ipa:ˈaʊʧ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "f4d1232479259a5ae2abe68573c95f5f024d396a",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:ˈaʊt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "73c3980ed6433669cc371a62564eb33aeff28935",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:ˈiʧ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "5cf003c85fd77a960f42b1ee9bf2f36503d76403",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:ˈaʊl": {
 "gate": "fail"
@@ -36386,10 +39226,18 @@
 "gate": "fail"
 },
 "ipa:pˈɛɹ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2ad4adfc2cf1f08f02aed580ff76e5d7054190c9",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:pˈɑɹ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "22e01a11ebb26cf9f6ad82ce000e137427a12c31",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:pˈeɪpɝ": {
 "gate": "pass",
@@ -36400,7 +39248,11 @@
 "speed": 1.0
 },
 "ipa:vˈeɪpɝ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "aadd959e8113f9acc4a4cffc8ca681373036636a",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:pˈaɪpɝ": {
 "gate": "pass",
@@ -36411,7 +39263,11 @@
 "speed": 1.0
 },
 "ipa:vˈaɪpɝ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "a2c7f50d4ad67d274c16eaa076a8d82cf9d55764",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:pˈɑɹʃʌl": {
 "gate": "pass",
@@ -36464,7 +39320,11 @@
 "voice": "af_river"
 },
 "ipa:ʤˈeɪz": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "a7c8fd292113f1d4f383c61cce400a12fcc7aba1",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:pˈɪɹ": {
 "gate": "pass",
@@ -36475,7 +39335,11 @@
 "speed": 1.0
 },
 "ipa:bˈæʧ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "402caf2fbb251a66af8104de6339232d43e1a17f",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:fˈoʊn": {
 "gate": "pass",
@@ -36519,7 +39383,11 @@
 "speed": 1.0
 },
 "ipa:pˈɛlʌt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "00041fbef80525b9a91bfe40186b89b35655a1e2",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:pˈælʌt": {
 "gate": "pass",
@@ -36538,7 +39406,11 @@
 "speed": 1.0
 },
 "ipa:pˈeɪnz": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2e697475c27a18e1021f85400a619c82d6882a92",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:pˈaʊnd": {
 "gate": "pass",
@@ -36663,7 +39535,11 @@
 "voice": "af_river"
 },
 "ipa:ɹˈʌbʌl": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "11e4898f5d931757c7c53e3e4eea70dbf3e134f5",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:ɹˈɪɹ": {
 "gate": "pass-reroll",
@@ -36678,10 +39554,18 @@
 "gate": "fail"
 },
 "ipa:ɹˈoʊ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "383cd842e8ef47c60d6dc60c8ad7ccb2ff6d915f",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:ɹˈɛdi": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "ea8f5af6bd090459e3d7fd79f27ad228d37d10d0",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:bˈʌdi": {
 "gate": "pass",
@@ -36700,10 +39584,18 @@
 "speed": 1.0
 },
 "ipa:ɹˈɪʧɝ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "71503da3387b0923bd9c3ded9ebadc230c8f28e0",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:ɹˈɪɡɝ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "775f23aadd891c0c775ef657f9eef362b319a6ee",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:tˈʌf": {
 "gate": "pass",
@@ -36757,7 +39649,11 @@
 "speed": 1.0
 },
 "ipa:sˈædɝ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "64b57eac0ba4db4912c57329dbd27951c38646a4",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:lˈædɝ": {
 "gate": "pass",
@@ -36768,13 +39664,25 @@
 "speed": 1.0
 },
 "ipa:sˈidɝ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "829f22342c817c9d59a09d7d9202ea459e943d76",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:lˈidɝ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "260e2d9a90535138130e633ff40e74149f9ddd36",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:sˈædʌl": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "8defb0b9438b32f2c8b9662e05f6981af4736420",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:pˈædʌl": {
 "gate": "pass",
@@ -36829,7 +39737,11 @@
 "voice": "af_river"
 },
 "ipa:stˈul": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "5751e0c92460d1a0d55ee7234f17daf95b842e3c",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:skˈeɪl": {
 "gate": "pass",
@@ -36848,7 +39760,11 @@
 "speed": 1.0
 },
 "ipa:sˈɛvʌn": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "dcfb5ff4f7b9c9c3d55a971169747459e1fb599a",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:hˈɛvʌn": {
 "gate": "pass-reroll",
@@ -36860,7 +39776,11 @@
 "voice": "af_river"
 },
 "ipa:hˈɛɹʌn": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "64d50a345f0b63f7c320133bb618abd6b087db52",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:ʃˈɪɹ": {
 "gate": "fail"
@@ -36869,7 +39789,11 @@
 "gate": "fail"
 },
 "ipa:kˈæl": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "b29e7b97901bfc474ba42bc84b99c0951c8693bc",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:ʃˈɪvɝ": {
 "gate": "pass",
@@ -36905,7 +39829,11 @@
 "voice": "af_river"
 },
 "ipa:ɹˈaʊt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "4cecf6f6539225e159cecfa9777193dda50db124",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:nˈaɪn": {
 "gate": "pass-reroll",
@@ -36917,7 +39845,11 @@
 "voice": "af_river"
 },
 "ipa:nˈun": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "a4edd268c99b88698ac0f94ef7dadb8577d26396",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:nˈɪmbʌl": {
 "gate": "pass",
@@ -36988,7 +39920,11 @@
 "gate": "fail"
 },
 "ipa:smˈɔl": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "e527f29d4358634ca75b787c607fe87db26f6fe1",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:stˈaɪl": {
 "gate": "pass",
@@ -36999,7 +39935,11 @@
 "speed": 1.0
 },
 "ipa:snˈeɪp": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d9ecd99f1a9b4af78231fc89d9dd3620366e79f4",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:snˈɛɹ": {
 "gate": "pass",
@@ -37013,7 +39953,11 @@
 "gate": "fail"
 },
 "ipa:sˈiɹ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "792fb16eb4392b3a9a93a7c95182e6d39bfa05ac",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:sˈaʊθ": {
 "gate": "fail"
@@ -37060,7 +40004,11 @@
 "speed": 1.0
 },
 "ipa:stˈɑɹd": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "f7d8c8204fcf61b24e70d3c94873f22f7364af78",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:spˈɛʃʌl": {
 "gate": "pass",
@@ -37138,7 +40086,11 @@
 "speed": 1.0
 },
 "ipa:stˈɑɹn": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "29a5b58a214276dd515a1e4f940279bf8e8d678b",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:stˈɑɹv": {
 "gate": "pass",
@@ -37158,16 +40110,32 @@
 "voice": "af_river"
 },
 "ipa:stˈɑps": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "52da67e587468ec3e46114d254d37e2b76a0cd1e",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:stˈɛps": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "a5f802cc7f34e0e39f0104bfd5dbdd623de1a55c",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:stɹˈɔ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "66d6ef7170693259d5ef48a984e84894e6030c6f",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:sˈʌdʌn": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "31ba1e4a66338ab5ca5644a5dd9c65e6c4f95254",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:sˈʌmʌn": {
 "gate": "pass-reroll",
@@ -37195,16 +40163,32 @@
 "speed": 1.0
 },
 "ipa:sˈɪmɝ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "fe213da4ed3d8fc389833900965d79e9cccc6d3a",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:sˈɪtɝ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "30dc008224745bf49bc1c047e4025821ccda9662",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:sˈɝf": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "c56f06d903a49516d59c79e50ce0227f480ae769",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:sˈɝʧ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "8b5ba7eaed5eb14518e78b5a8a5bbf15ce9ae31f",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:swˈɪmɪŋ": {
 "gate": "pass",
@@ -37299,7 +40283,11 @@
 "speed": 1.0
 },
 "ipa:θˈɝst": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "64d2ab6c0a929468f4bebfc23dc12a3f99bb3005",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:ðˈoʊ": {
 "gate": "pass",
@@ -37334,7 +40322,11 @@
 "speed": 1.0
 },
 "ipa:θɹˈɛt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "fa5a9d60a073181f5375891327d84ef2962bcc32",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:dɹˈaɪ": {
 "gate": "pass",
@@ -37348,7 +40340,11 @@
 "gate": "fail"
 },
 "ipa:ɹˈɔɪ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "8ce7390d3e0af4b963553a1d1ebcf202cf92e508",
+"rescue": "speed0.9-text",
+"voice": "af_river"
 },
 "ipa:tɹˈaɪz": {
 "gate": "pass",
@@ -37432,7 +40428,11 @@
 "speed": 1.0
 },
 "ipa:ˈʌntu": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "739e55632b666a1323e8e116d38c842f67e6ae82",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:jˈuzɪŋ": {
 "gate": "pass",
@@ -37540,7 +40540,11 @@
 "speed": 1.0
 },
 "ipa:wˈɛɹɝ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "6a50bd293020325b9d4aacd9789218749a600aa2",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:ɹˈɛɹɝ": {
 "gate": "pass",
@@ -37576,7 +40580,11 @@
 "speed": 1.0
 },
 "ipa:wˈɝl": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "5cbaa839bb2310a27ba98f05df177b0164f2dbf5",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:wˈʊl": {
 "gate": "fail"
@@ -37622,10 +40630,18 @@
 "speed": 1.0
 },
 "ipa:wˈik": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "4f66ad017e9fa30539ee486e08a05d52d36e6ce5",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:lˈik": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "eb8078ebdf88faf0d7f3601bca9c149927d75bdf",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:wˈɝld": {
 "gate": "pass",
@@ -37636,10 +40652,18 @@
 "speed": 1.0
 },
 "ipa:wˈɝm": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d536ca36facbb4b493a2210e254cf718e580fd2f",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:tˈum": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "9c2c18425c64ba949c21f9a5ab5b7c59b30654a1",
+"rescue": "near",
+"voice": "af_river"
 },
 "ipa:wˈɝst": {
 "gate": "pass",
@@ -37658,22 +40682,42 @@
 "speed": 1.0
 },
 "ipa:ɹˈɛk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "d276c4541dcd0458dfd9f80cd5a12b443b07f083",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:tˈɛk": {
 "gate": "fail"
 },
 "ipa:ɹˈɑk": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "137e14bfae06fc3d56cdcb74280d34076248f55d",
+"rescue": "speed0.9-ipa",
+"voice": "af_river"
 },
 "ipa:ɹˈɛnʧ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "ac2135dbdabe2a1c106023a15ca3b832b364a850",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:bˈɛnʧ": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "32316108c340ebf1737b1140deac6408ed1c9284",
+"rescue": "carrier",
+"voice": "af_river"
 },
 "ipa:ɹˈɛnt": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "2e57517392f25f6c4b8effff4d9e07eba036adc7",
+"rescue": "nova-ipa",
+"voice": "af_river"
 },
 "ipa:bˈɛnt": {
 "gate": "pass",
@@ -37692,9 +40736,17 @@
 "speed": 1.0
 },
 "ipa:jˈɛn": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "aa55e6ecff1ae8fc1b4b60e34b5de1408a15623a",
+"rescue": "nova-text",
+"voice": "af_river"
 },
 "ipa:zˈɝn": {
-"gate": "fail"
+"gate": "pass-reroll",
+"reroll": true,
+"cache": "cfebeb3ac6b901a73b960709c339e317c20e074f",
+"rescue": "near",
+"voice": "af_river"
 }
 }
