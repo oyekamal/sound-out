@@ -1,0 +1,62 @@
+{
+ "red": {
+  "text": [],
+  "edge": 0.0,
+  "fail": ""
+ },
+ "blue": {
+  "text": [],
+  "edge": 0.0,
+  "fail": ""
+ },
+ "green": {
+  "text": [],
+  "edge": 0.0,
+  "fail": ""
+ },
+ "pink": {
+  "text": [],
+  "edge": 0.0,
+  "fail": ""
+ },
+ "black": {
+  "text": [],
+  "edge": 0.0,
+  "fail": ""
+ },
+ "white": {
+  "text": [],
+  "edge": 0.0,
+  "fail": ""
+ },
+ "brown": {
+  "text": [],
+  "edge": 0.0,
+  "fail": ""
+ },
+ "gray": {
+  "text": [],
+  "edge": 0.0,
+  "fail": ""
+ },
+ "purple": {
+  "text": [],
+  "edge": 0.0,
+  "fail": ""
+ },
+ "saddle": {
+  "text": [],
+  "edge": 0.0,
+  "fail": ""
+ },
+ "count": {
+  "text": [],
+  "edge": 0.2515,
+  "fail": " crop"
+ },
+ "crumb": {
+  "text": [],
+  "edge": 0.0,
+  "fail": ""
+ }
+}

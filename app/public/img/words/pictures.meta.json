@@ -1,0 +1,4927 @@
+{
+ "apple": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "arm": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "baby": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "backpack": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "bacon": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "bag": {
+  "type": "word",
+  "count": 14,
+  "levels": [
+   1,
+   2,
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "ball": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "barn": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "basket": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "bat": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   1
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "bath": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "bathtub": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "beach": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "bear": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "bed": {
+  "type": "word",
+  "count": 5,
+  "levels": [
+   1,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "bell": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "belt": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "bike": {
+  "type": "word",
+  "count": 10,
+  "levels": [
+   1,
+   2,
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "bird": {
+  "type": "word",
+  "count": 6,
+  "levels": [
+   1,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "boat": {
+  "type": "word",
+  "count": 5,
+  "levels": [
+   2,
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "bone": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "book": {
+  "type": "word",
+  "count": 6,
+  "levels": [
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "boot": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   2,
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "bottle": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "box": {
+  "type": "word",
+  "count": 13,
+  "levels": [
+   1,
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "boy": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "bread": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   1,
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "bridge": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "bubble": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "bug": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   1,
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "bun": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "bus": {
+  "type": "word",
+  "count": 5,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "cabin": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "cactus": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "cage": {
+  "type": "word",
+  "count": 6,
+  "levels": [
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "cake": {
+  "type": "word",
+  "count": 5,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "candle": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "cap": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "car": {
+  "type": "word",
+  "count": 13,
+  "levels": [
+   1,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "card": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "cart": {
+  "type": "word",
+  "count": 5,
+  "levels": [
+   3,
+   4
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "cat": {
+  "type": "word",
+  "count": 6,
+  "levels": [
+   1,
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "catfish": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "cave": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "chain": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "chair": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "chef": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "chin": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "circle": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "city": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "clay": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "claw": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "cloud": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "clown": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "coat": {
+  "type": "word",
+  "count": 6,
+  "levels": [
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "coin": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "comb": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "cook": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "cop": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "corn": {
+  "type": "word",
+  "count": 5,
+  "levels": [
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "cot": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "cow": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "crown": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "crumb": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "cup": {
+  "type": "word",
+  "count": 6,
+  "levels": [
+   1,
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "deer": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "den": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "desk": {
+  "type": "word",
+  "count": 7,
+  "levels": [
+   1,
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "dish": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   2
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "dock": {
+  "type": "word",
+  "count": 7,
+  "levels": [
+   1
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "dog": {
+  "type": "word",
+  "count": 13,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "doll": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "dolphin": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "dot": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "drum": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   1,
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "ear": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   1,
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "eye": {
+  "type": "word",
+  "count": 7,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "fan": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "farm": {
+  "type": "word",
+  "count": 8,
+  "levels": [
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "feather": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "fern": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "fig": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "fish": {
+  "type": "word",
+  "count": 7,
+  "levels": [
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "flame": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "flute": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "fork": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "fox": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "frog": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "fruit": {
+  "type": "word",
+  "count": 6,
+  "levels": [
+   2,
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "garden": {
+  "type": "word",
+  "count": 7,
+  "levels": [
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "gate": {
+  "type": "word",
+  "count": 5,
+  "levels": [
+   3,
+   4
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "gem": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "ghost": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "giant": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "gift": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "girl": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   1,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "glue": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "goat": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   2,
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "grape": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "gum": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "hair": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "ham": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "hand": {
+  "type": "word",
+  "count": 10,
+  "levels": [
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "hat": {
+  "type": "word",
+  "count": 6,
+  "levels": [
+   1,
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "hawk": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "head": {
+  "type": "word",
+  "count": 7,
+  "levels": [
+   1,
+   2,
+   4
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "helmet": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "hen": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   1,
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "hill": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   1,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "hog": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "hole": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   1,
+   3
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "home": {
+  "type": "word",
+  "count": 17,
+  "levels": [
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "hood": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "hook": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "horn": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "horse": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "hotdog": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "house": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   1,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "hut": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "ice": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "insect": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "jam": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   1,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "jar": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "jet": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   1
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "kid": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   1,
+   3,
+   4
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "king": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "kite": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "kitten": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "knee": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "knot": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   1,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "lamb": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "lawn": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "leaf": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "leg": {
+  "type": "word",
+  "count": 5,
+  "levels": [
+   1,
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "lid": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   1,
+   2
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "lip": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "lock": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   1,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "log": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "map": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "mask": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "mat": {
+  "type": "word",
+  "count": 6,
+  "levels": [
+   1,
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "meat": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "milk": {
+  "type": "word",
+  "count": 5,
+  "levels": [
+   2,
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "mitten": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "moon": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "moth": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "mouse": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "mouth": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "muffin": {
+  "type": "word",
+  "count": 5,
+  "levels": [
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "mug": {
+  "type": "word",
+  "count": 6,
+  "levels": [
+   1,
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "mule": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   3
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "napkin": {
+  "type": "word",
+  "count": 7,
+  "levels": [
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "needle": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "nest": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "net": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "nose": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   2,
+   3
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "nurse": {
+  "type": "word",
+  "count": 5,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "nut": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "owl": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "pan": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "paw": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "pear": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "pen": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   1,
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "pie": {
+  "type": "word",
+  "count": 5,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "pig": {
+  "type": "word",
+  "count": 5,
+  "levels": [
+   1,
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "pin": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "plane": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "planet": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "plate": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   2,
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "pool": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "pot": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "puppy": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "purse": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "queen": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "rabbit": {
+  "type": "word",
+  "count": 6,
+  "levels": [
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "rainbow": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "rat": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "rice": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "ring": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   1,
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "river": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "road": {
+  "type": "word",
+  "count": 11,
+  "levels": [
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "robot": {
+  "type": "word",
+  "count": 8,
+  "levels": [
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "roof": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "room": {
+  "type": "word",
+  "count": 7,
+  "levels": [
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "rope": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "rug": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "sack": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "saddle": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "sand": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "shark": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "shell": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "ship": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "shirt": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "shop": {
+  "type": "word",
+  "count": 20,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "shrimp": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "skirt": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "sky": {
+  "type": "word",
+  "count": 5,
+  "levels": [
+   3,
+   4
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "snail": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "snake": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "snow": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "soap": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "sock": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "spider": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "squid": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "star": {
+  "type": "word",
+  "count": 5,
+  "levels": [
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "stair": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "stove": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "straw": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "string": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   2
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "sun": {
+  "type": "word",
+  "count": 11,
+  "levels": [
+   1,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "table": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "tail": {
+  "type": "word",
+  "count": 6,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "tank": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   2,
+   4
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "tent": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "thumb": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "tiger": {
+  "type": "word",
+  "count": 5,
+  "levels": [
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "toe": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "tool": {
+  "type": "word",
+  "count": 5,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "top": {
+  "type": "word",
+  "count": 6,
+  "levels": [
+   1,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "toy": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "train": {
+  "type": "word",
+  "count": 10,
+  "levels": [
+   1,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "tray": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "tree": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "tub": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "tube": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "van": {
+  "type": "word",
+  "count": 8,
+  "levels": [
+   1,
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "wagon": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "wall": {
+  "type": "word",
+  "count": 5,
+  "levels": [
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "web": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "whale": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "wig": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "wing": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "worm": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "wrench": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "yak": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "yard": {
+  "type": "word",
+  "count": 9,
+  "levels": [
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "yarn": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "zoo": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "run": {
+  "type": "word",
+  "count": 12,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "jump": {
+  "type": "word",
+  "count": 8,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "hop": {
+  "type": "word",
+  "count": 13,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "sit": {
+  "type": "word",
+  "count": 13,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "sat": {
+  "type": "word",
+  "count": 40,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": true,
+  "must_show_action": true
+ },
+ "sleep": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "swim": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "clap": {
+  "type": "word",
+  "count": 6,
+  "levels": [
+   2,
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "climb": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "cry": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "crying": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "draw": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "dig": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   1,
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "eat": {
+  "type": "word",
+  "count": 6,
+  "levels": [
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "drink": {
+  "type": "word",
+  "count": 5,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "fly": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "hug": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   1,
+   2,
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "kiss": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "laugh": {
+  "type": "word",
+  "count": 13,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "read": {
+  "type": "word",
+  "count": 8,
+  "levels": [
+   1,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "write": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "sing": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "wave": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   1,
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "walk": {
+  "type": "word",
+  "count": 17,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "push": {
+  "type": "word",
+  "count": 5,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "pull": {
+  "type": "word",
+  "count": 6,
+  "levels": [
+   1,
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "open": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   1,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "cooking": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "hide": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   1,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "catch": {
+  "type": "word",
+  "count": 10,
+  "levels": [
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "ride": {
+  "type": "word",
+  "count": 8,
+  "levels": [
+   1,
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "skate": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "wash": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "yawn": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "fix": {
+  "type": "word",
+  "count": 25,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "jog": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "nap": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   1,
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "sip": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "snore": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "point": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "shake": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "smile": {
+  "type": "word",
+  "count": 16,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "brush": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "hold": {
+  "type": "word",
+  "count": 8,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": true,
+  "must_show_action": true
+ },
+ "wait": {
+  "type": "word",
+  "count": 11,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "count": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   1,
+   4
+  ],
+  "ambiguous": true,
+  "must_show_action": true
+ },
+ "paint": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "cut": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   1,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "pick": {
+  "type": "word",
+  "count": 6,
+  "levels": [
+   1,
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "listen": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "look": {
+  "type": "word",
+  "count": 19,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "tie": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "big": {
+  "type": "word",
+  "count": 26,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "small": {
+  "type": "word",
+  "count": 28,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "tall": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   1,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "hot": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   1,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "cold": {
+  "type": "word",
+  "count": 11,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "wet": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   1,
+   2,
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "dry": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "happy": {
+  "type": "word",
+  "count": 6,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "sad": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   1,
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "mad": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "sick": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   1,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "full": {
+  "type": "word",
+  "count": 10,
+  "levels": [
+   1,
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "empty": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "fast": {
+  "type": "word",
+  "count": 15,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "slow": {
+  "type": "word",
+  "count": 8,
+  "levels": [
+   1,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "dirty": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "clean": {
+  "type": "word",
+  "count": 7,
+  "levels": [
+   1,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "sleepy": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scared": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "shy": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "silly": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "heavy": {
+  "type": "word",
+  "count": 6,
+  "levels": [
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "long": {
+  "type": "word",
+  "count": 16,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "thin": {
+  "type": "word",
+  "count": 5,
+  "levels": [
+   2,
+   4
+  ],
+  "ambiguous": true,
+  "must_show_action": true
+ },
+ "loud": {
+  "type": "word",
+  "count": 5,
+  "levels": [
+   1,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "soft": {
+  "type": "word",
+  "count": 5,
+  "levels": [
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "hard": {
+  "type": "word",
+  "count": 15,
+  "levels": [
+   2,
+   3,
+   4
+  ],
+  "ambiguous": true,
+  "must_show_action": true
+ },
+ "fat": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   1,
+   3
+  ],
+  "ambiguous": true,
+  "must_show_action": true
+ },
+ "thick": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "old": {
+  "type": "word",
+  "count": 14,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": true,
+  "must_show_action": true
+ },
+ "new": {
+  "type": "word",
+  "count": 19,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": true,
+  "must_show_action": true
+ },
+ "red": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "blue": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "green": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "pink": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "black": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "white": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "brown": {
+  "type": "word",
+  "count": 5,
+  "levels": [
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "gray": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "purple": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "busy": {
+  "type": "word",
+  "count": 8,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": true,
+  "must_show_action": true
+ },
+ "proud": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   2,
+   3,
+   4
+  ],
+  "ambiguous": true,
+  "must_show_action": true
+ },
+ "brave": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": true,
+  "must_show_action": true
+ },
+ "kind": {
+  "type": "word",
+  "count": 5,
+  "levels": [
+   1,
+   3,
+   4
+  ],
+  "ambiguous": true,
+  "must_show_action": true
+ },
+ "on": {
+  "type": "word",
+  "count": 59,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "at": {
+  "type": "word",
+  "count": 72,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "it": {
+  "type": "word",
+  "count": 74,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "up": {
+  "type": "word",
+  "count": 25,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "bee": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "bowl": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "branch": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "bucket": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "bush": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "button": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "camel": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "clock": {
+  "type": "word",
+  "count": 5,
+  "levels": [
+   1,
+   2,
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "computer": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "doctor": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   1,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "door": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   1,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "drawer": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "engine": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "fence": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "field": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "foot": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "glove": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "grass": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   2,
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "hamster": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "hedgehog": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "key": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "kitchen": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   1,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "lake": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "letter": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "magnet": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "mother": {
+  "type": "word",
+  "count": 19,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "notebook": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   1,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "pencil": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "phone": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "pigeon": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "puzzle": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "radio": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "school": {
+  "type": "word",
+  "count": 7,
+  "levels": [
+   1,
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "shelf": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   1,
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "stone": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "storm": {
+  "type": "word",
+  "count": 5,
+  "levels": [
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "street": {
+  "type": "word",
+  "count": 11,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "teacher": {
+  "type": "word",
+  "count": 7,
+  "levels": [
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "watch": {
+  "type": "word",
+  "count": 7,
+  "levels": [
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "wheel": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "wind": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "window": {
+  "type": "word",
+  "count": 6,
+  "levels": [
+   1,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "pond": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   2,
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "truck": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   1,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "bin": {
+  "type": "word",
+  "count": 6,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "rain": {
+  "type": "word",
+  "count": 8,
+  "levels": [
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "stick": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "shed": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "wood": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "park": {
+  "type": "word",
+  "count": 6,
+  "levels": [
+   1,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "farmer": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "friend": {
+  "type": "word",
+  "count": 7,
+  "levels": [
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "sister": {
+  "type": "word",
+  "count": 7,
+  "levels": [
+   1,
+   2,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "family": {
+  "type": "word",
+  "count": 11,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "uncle": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   2,
+   4
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "grandpa": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "grandmother": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "animal": {
+  "type": "word",
+  "count": 4,
+  "levels": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "boss": {
+  "type": "word",
+  "count": 16,
+  "levels": [
+   1,
+   2,
+   4
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "caravan": {
+  "type": "word",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": true,
+  "must_show_action": false
+ },
+ "chest": {
+  "type": "word",
+  "count": 2,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "lunch": {
+  "type": "word",
+  "count": 3,
+  "levels": [
+   3,
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": false
+ },
+ "scene:L1.01:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.01:1": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.01:2": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.01:3": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.02:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.02:1": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.02:2": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.02:3": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.03:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.03:1": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.03:2": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.04:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.04:1": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.04:2": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.04:3": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.04:4": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.05:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.05:1": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.05:2": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.05:3": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.06:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.06:1": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.07:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.07:1": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.08:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.08:1": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.09:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.09:1": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.10:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.10:1": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.10:2": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.11:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.11:1": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.12:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.12:1": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.13:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.13:1": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.14:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L1.14:1": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   1
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.01:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.01:1": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.01:2": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.01:3": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.02:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.02:1": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.02:2": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.03:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.03:1": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.03:2": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.03:3": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.04:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.04:1": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.04:2": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.05:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.05:1": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.05:2": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.06:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.06:1": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.06:2": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.07:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.07:1": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.07:2": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.08:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.08:1": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.08:2": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.09:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.09:1": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.09:2": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.10:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.10:1": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.10:2": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.10:3": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.11:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.11:1": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.11:2": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.12:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.12:1": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.13:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L2.13:1": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   2
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L3.01:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L3.01:1": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L3.02:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L3.03:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L3.04:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L3.05:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L3.06:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L3.07:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L3.08:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L3.09:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L3.10:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L3.11:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L3.12:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L3.13:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L3.14:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L3.15:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L3.16:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L3.17:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   3
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L4.01:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L4.02:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L4.03:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L4.04:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L4.05:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L4.06:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L4.07:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L4.08:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L4.09:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L4.10:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L4.11:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L4.12:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L4.13:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L4.14:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ },
+ "scene:L4.15:0": {
+  "type": "scene",
+  "count": 1,
+  "levels": [
+   4
+  ],
+  "ambiguous": false,
+  "must_show_action": true
+ }
+}

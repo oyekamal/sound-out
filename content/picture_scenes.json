@@ -1,0 +1,674 @@
+[
+ {
+  "id": "L1.01:0",
+  "scene": "Sam, a boy of seven with short black hair and a red shirt, sits up in bed with a startled face and hands near his ears; outside the window an old blue truck puffs a cartoon cloud of grey smoke.",
+  "must_show": true,
+  "why": "Sam startled; the noise is a truck"
+ },
+ {
+  "id": "L1.01:1",
+  "scene": "Sam's little sister, a girl of four with two braids and a yellow dress, covers her ears with both hands and laughs. Sam, a boy with short black hair and red shirt, grins beside her.",
+  "must_show": false,
+  "why": ""
+ },
+ {
+  "id": "L1.01:2",
+  "scene": "A mother with curly brown hair and a green cardigan peeks through a window curtain, shaking her head while smiling warmly. A hint of an old blue truck shows outside.",
+  "must_show": true,
+  "why": "mother shakes head but smiles (amused and annoyed)"
+ },
+ {
+  "id": "L1.01:3",
+  "scene": "An old blue truck roars with a little puff of cartoon smoke. A grey-bearded man in blue overalls, face smeared with oil, grins proudly. Sam, boy in red shirt, waves from the sidewalk.",
+  "must_show": true,
+  "why": "neighbor fixing truck, oily and proud"
+ },
+ {
+  "id": "L1.02:0",
+  "scene": "Sam, a child with short black hair and a red shirt, stands nervously at a classroom door, hands clasped and worried eyes. Other children chat and laugh together near a sunny window.",
+  "must_show": true,
+  "why": "Sam nervous"
+ },
+ {
+  "id": "L1.02:1",
+  "scene": "Sam, short black hair and red shirt, sits alone at a desk near the back, shoulders hunched, hand on chest. In front, Mia, a girl with curly dark hair and an orange sweater, turns and smiles.",
+  "must_show": true,
+  "why": "Sam nervous; Mia smiles"
+ },
+ {
+  "id": "L1.02:2",
+  "scene": "Mia, a girl with curly dark hair and an orange sweater, leans over her chair and talks kindly to Sam, who has short black hair and a red shirt and looks surprised.",
+  "must_show": false,
+  "why": ""
+ },
+ {
+  "id": "L1.02:3",
+  "scene": "Sam, short black hair and red shirt, smiles with relief at a desk. Mia, curly dark hair and orange sweater, smiles beside him. Other children sit happily in the sunny classroom.",
+  "must_show": true,
+  "why": "Sam's worry eased, now relieved"
+ },
+ {
+  "id": "L1.03:0",
+  "scene": "Colorful race cars zoom blurred around a curved track while one red car turns into a side lane. Spectators wave from the stands under a blue sky.",
+  "must_show": false,
+  "why": ""
+ },
+ {
+  "id": "L1.03:1",
+  "scene": "Four crew members in matching yellow suits swarm a red race car in the pit: one swaps each wheel while another wipes the windshield. The driver waits inside, helmet on.",
+  "must_show": true,
+  "why": "team changing four tires and windshield fast"
+ },
+ {
+  "id": "L1.03:2",
+  "scene": "A pit crew of four in yellow suits stands in a tidy line, each holding a different tool, ready and focused. A red race car waits in front of them in the pit lane.",
+  "must_show": true,
+  "why": "each person has one exact job"
+ },
+ {
+  "id": "L1.04:0",
+  "scene": "A delivery truck stops at a small shop at dawn while a driver unloads baskets of fresh bread. An older man with a white moustache and brown vest stands in the doorway smiling.",
+  "must_show": false,
+  "why": ""
+ },
+ {
+  "id": "L1.04:1",
+  "scene": "Mr. Iqbal, an older man with a white moustache and brown vest, stands in front of his small shop with empty shelves behind him, looking worried, with a bright morning sky and no truck in sight.",
+  "must_show": true,
+  "why": "empty shelves, no truck"
+ },
+ {
+  "id": "L1.04:2",
+  "scene": "Mr. Iqbal, white moustache and brown vest, holds a telephone to his ear in his shop with a frowning, frustrated face, one hand on his head.",
+  "must_show": true,
+  "why": "frustrated"
+ },
+ {
+  "id": "L1.04:3",
+  "scene": "A girl of ten with a ponytail and purple top shows a man in a blue shirt a phone; a white delivery van with a flat tyre stands beside them.",
+  "must_show": true,
+  "why": "flat tire is the cause"
+ },
+ {
+  "id": "L1.04:4",
+  "scene": "Mr. Iqbal, white moustache and brown vest, pedals a bicycle down the street, a bicycle pump in his basket. Ahead, a delivery van with a flat tire waits.",
+  "must_show": true,
+  "why": "grabbed bicycle pump to help"
+ },
+ {
+  "id": "L1.05:0",
+  "scene": "Old Mrs. Chaudhry, a woman with a white bun and lavender cardigan, sits tired in an armchair. Bruno, a shaggy brown dog, looks sadly at the door with his leash in his mouth.",
+  "must_show": true,
+  "why": "Mrs. Chaudhry too tired; Bruno needs walks"
+ },
+ {
+  "id": "L1.05:1",
+  "scene": "Two twin boys in matching blue caps walk Bruno, a shaggy brown dog, on a leash through a green park. Bruno trots happily with his tail up.",
+  "must_show": true,
+  "why": "twins walk Bruno Monday"
+ },
+ {
+  "id": "L1.05:2",
+  "scene": "A tall teenage boy in a green hoodie jogs along a path with Bruno, a shaggy brown dog, running happily beside him. Both look joyful and active.",
+  "must_show": true,
+  "why": "teenager enjoys walking Bruno"
+ },
+ {
+  "id": "L1.05:3",
+  "scene": "Bruno, a shaggy brown dog, sits waiting at a front door with his tail blurred from wagging. A neighbor in a green hoodie steps out smiling and holds a leash.",
+  "must_show": true,
+  "why": "Bruno happy, wags tail"
+ },
+ {
+  "id": "L1.06:0",
+  "scene": "A smiling man in a suit points at a burlap sack on a table, with a thought bubble showing a worker packing hammers and saws into it. A cartoon question mark floats above.",
+  "must_show": true,
+  "why": "sack of tools idea behind the phrase"
+ },
+ {
+  "id": "L1.06:1",
+  "scene": "An old-time craftsman in a flat cap walks away from a workshop carrying a burlap sack of hammers and saws over his shoulder, looking sad. A boss stands in the doorway.",
+  "must_show": true,
+  "why": "let go, leaves with sack of tools"
+ },
+ {
+  "id": "L1.07:0",
+  "scene": "Four construction workers in yellow hard hats sit together on a bench in the shade at mid-morning, resting. Behind them stands an unfinished brick building with a crane.",
+  "must_show": true,
+  "why": "workers take a break together"
+ },
+ {
+  "id": "L1.07:1",
+  "scene": "Construction workers in hard hats, including one in a white hat, drink water from bottles and stretch their arms together on a building site. Everyone including the boss is stopped, smiling.",
+  "must_show": true,
+  "why": "everyone stops, even boss"
+ },
+ {
+  "id": "L1.08:0",
+  "scene": "A kitchen cabinet door is open with a plain notebook taped inside. A parent in an apron points at it while two children with backpacks wait by the door.",
+  "must_show": true,
+  "why": "notebook schedule in cabinet"
+ },
+ {
+  "id": "L1.08:1",
+  "scene": "Several neighbors stand in a sunny street shaking hands, children waving from the back seat of a family car. One parent holds a smartphone and another holds a notebook.",
+  "must_show": true,
+  "why": "neighbors trust and share school run"
+ },
+ {
+  "id": "L1.09:0",
+  "scene": "A woman looks at a plain brown bag on a bench with a curious face, one hand reaching and the other hand holding it back. A small thought bubble shows a question mark.",
+  "must_show": true,
+  "why": "curious but opening not right"
+ },
+ {
+  "id": "L1.09:1",
+  "scene": "A friendly clerk in a blue vest places a brown bag onto a tidy shelf, other plain bags sit neatly on the shelves.",
+  "must_show": true,
+  "why": "log, store, wait"
+ },
+ {
+  "id": "L1.10:0",
+  "scene": "Three small panels in one picture: a deep stone well with a bucket, a smiling healthy child giving a thumbs up, and a person starting to speak with a thought bubble.",
+  "must_show": true,
+  "why": "three meanings of well"
+ },
+ {
+  "id": "L1.10:1",
+  "scene": "Three objects in a row: a smiling boy in a green shirt waving, a paper receipt held by a hand, and a bird with a big orange beak.",
+  "must_show": true,
+  "why": "three meanings of bill: name, paper, beak"
+ },
+ {
+  "id": "L1.10:2",
+  "scene": "A girl sits reading a book with a glowing light bulb above her head, with a small bird and a well drawn around her. She looks happy and clever.",
+  "must_show": false,
+  "why": ""
+ },
+ {
+  "id": "L1.11:0",
+  "scene": "Three small panels in one picture: a friendly vet checking a dog, a veteran in uniform with a medal saluting, and a manager checking a driver's papers with a magnifying glass.",
+  "must_show": true,
+  "why": "three meanings of vet"
+ },
+ {
+  "id": "L1.11:1",
+  "scene": "A girl with glasses pauses with a finger on a page, one eyebrow raised and a thoughtful face, with a small question mark above her head.",
+  "must_show": false,
+  "why": ""
+ },
+ {
+  "id": "L1.12:0",
+  "scene": "A smiling child stands on top of a short staircase of plain wooden steps, waving happily, with a row of plain colourful building blocks with no marks on them beside the stairs.",
+  "must_show": true,
+  "why": "all letters reached after twelve steps"
+ },
+ {
+  "id": "L1.12:1",
+  "scene": "A child at a table joins colorful puzzle pieces into longer chains, proud and curious. Some pieces snap together in pairs while others make a bigger pattern.",
+  "must_show": false,
+  "why": ""
+ },
+ {
+  "id": "L1.13:0",
+  "scene": "A busy warehouse worker with a frown holds a shipping box and studies it carefully, a delivery truck parked in the background pointing the wrong way.",
+  "must_show": true,
+  "why": "careful checking of labels avoids wrong destination"
+ },
+ {
+  "id": "L1.13:1",
+  "scene": "A smiling worker holds a box close to his eyes with a magnifying glass, checking one marking carefully, while shelves of tidy boxes stand behind him.",
+  "must_show": false,
+  "why": ""
+ },
+ {
+  "id": "L1.14:0",
+  "scene": "A child sits at a desk looking at a big test paper with a determined face, with a long path of fourteen stepping stones behind her leading back to a tiny starting point.",
+  "must_show": true,
+  "why": "long journey, tough check"
+ },
+ {
+  "id": "L1.14:1",
+  "scene": "A proud child stands on top of a hill of fourteen stone steps, arms raised, with a bigger hill and a path leading upward ahead. She smiles and the sun shines.",
+  "must_show": true,
+  "why": "progress done, bigger hill next"
+ },
+ {
+  "id": "L2.01:0",
+  "scene": "A fisherman named Tom, a man with a gray beard and yellow raincoat, stands in a small boat holding a huge silver fish, eyes wide. The fish is bigger than his body.",
+  "must_show": true,
+  "why": "enormous fish"
+ },
+ {
+  "id": "L2.01:1",
+  "scene": "Tom, a man with a gray beard and yellow raincoat, struggles to lift an enormous silver fish into his boat. On the harbor, friends with astonished faces point.",
+  "must_show": true,
+  "why": "fish too big, friends amazed"
+ },
+ {
+  "id": "L2.01:2",
+  "scene": "Tom, gray beard and yellow raincoat, laughs next to an enormous silver fish while three friends on the dock shout with open mouths and raised hands.",
+  "must_show": false,
+  "why": ""
+ },
+ {
+  "id": "L2.01:3",
+  "scene": "Tom, gray beard and yellow raincoat, gives pieces of an enormous fish to smiling families standing at their doors along a small street. Each family holds a plate.",
+  "must_show": true,
+  "why": "shared with every family"
+ },
+ {
+  "id": "L2.02:0",
+  "scene": "Pip, a small orange cat with white paws, sits on a garden path staring up at a tall brick wall, ears pointed forward with a curious look.",
+  "must_show": true,
+  "why": "Pip curious about the wall"
+ },
+ {
+  "id": "L2.02:1",
+  "scene": "Pip, a small orange cat with white paws, pokes a paw gently at a curled-up sleepy hedgehog under a green bush. A few more hedgehogs sleep nearby.",
+  "must_show": true,
+  "why": "Pip pokes hedgehog"
+ },
+ {
+  "id": "L2.02:2",
+  "scene": "The hedgehog stands up with a surprised face as Pip, a small orange cat with white paws, leaps back with wide eyes. Later, Pip sits and watches calmly.",
+  "must_show": true,
+  "why": "hedgehog surprised, Pip still curious"
+ },
+ {
+  "id": "L2.03:0",
+  "scene": "Grandpa, an old man with white hair and a green sweater, looks angry in front of an open empty garden shed, fists clenched and a red face. Empty hooks hang inside.",
+  "must_show": true,
+  "why": "Grandpa furious, tools missing"
+ },
+ {
+  "id": "L2.03:1",
+  "scene": "Grandpa, white hair and green sweater, searches angrily around the yard with his fists up. In the background, his granddaughter, a girl with a black ponytail and pink shirt, carries garden tools.",
+  "must_show": true,
+  "why": "granddaughter has tools"
+ },
+ {
+  "id": "L2.03:2",
+  "scene": "A girl with a black ponytail and pink shirt holds out a spade and a rake, pointing to her small bike with a broken chain. Grandpa, white hair and green sweater, looks calmer.",
+  "must_show": true,
+  "why": "she borrowed tools to fix bike"
+ },
+ {
+  "id": "L2.03:3",
+  "scene": "Grandpa, white hair and green sweater, smiles gently and kneels to talk with his granddaughter, black ponytail and pink shirt. She holds the garden tools and smiles back.",
+  "must_show": true,
+  "why": "Grandpa no longer angry"
+ },
+ {
+  "id": "L2.04:0",
+  "scene": "Ana, a girl with a short black bob and a blue dress, sits on the floor looking confused at a plain empty box and many loose plain puzzle pieces; rain falls outside the window.",
+  "must_show": true,
+  "why": "Ana puzzled, 300 pieces no picture"
+ },
+ {
+  "id": "L2.04:1",
+  "scene": "Ana, a girl with a short black bob and a blue dress, turns a puzzle piece in her hands with a confused frown and a question mark above her head. Pieces cover the rug.",
+  "must_show": true,
+  "why": "Ana puzzled"
+ },
+ {
+  "id": "L2.04:2",
+  "scene": "Ana's grandmother, a woman with gray hair and round glasses, sits beside Ana, a girl with a short black bob and blue dress, and points to a puzzle corner piece. Ana starts to grin.",
+  "must_show": true,
+  "why": "start with corners"
+ },
+ {
+  "id": "L2.05:0",
+  "scene": "Farmer Iqbal, a tired man with a mustache and straw hat, carries two heavy water buckets near a fence, with a drooping posture and half-closed eyes. A cow stands nearby.",
+  "must_show": true,
+  "why": "exhausted after long farm day"
+ },
+ {
+  "id": "L2.05:1",
+  "scene": "Farmer Iqbal, a mustached man with a straw hat, sits on a porch step too tired to speak and weakly points. His young son in a red cap stands ready beside him.",
+  "must_show": true,
+  "why": "too exhausted, son helps"
+ },
+ {
+  "id": "L2.05:2",
+  "scene": "Farmer Iqbal, a mustached man in a straw hat and muddy boots, sleeps in a chair on the porch with his hat over his eyes. His son in a red cap works in the yard.",
+  "must_show": true,
+  "why": "asleep in chair with muddy boots"
+ },
+ {
+  "id": "L2.06:0",
+  "scene": "Aunt Rukhsana, a woman with a green sun hat and a purple dress, stands at the edge of a busy market road and carefully looks left, with a boy in a yellow shirt beside her.",
+  "must_show": true,
+  "why": "cautious looking both ways"
+ },
+ {
+  "id": "L2.06:1",
+  "scene": "A bicycle zooms around a corner while Aunt Rukhsana, green sun hat and purple dress, pulls back her nephew, a boy in a yellow shirt, from the curb. Both look surprised.",
+  "must_show": true,
+  "why": "she pulled nephew back just in time"
+ },
+ {
+  "id": "L2.06:2",
+  "scene": "Aunt Rukhsana, green sun hat and purple dress, smiles kindly beside her nephew, a boy in a yellow shirt, who nods and smiles back. They stand safely at the edge of the street.",
+  "must_show": true,
+  "why": "nephew no longer teases, learns"
+ },
+ {
+  "id": "L2.07:0",
+  "scene": "A head teacher, a woman with short gray hair and a navy jacket, smiles with misty happy eyes at a school bake sale table covered in empty plates. Children in aprons cheer around her.",
+  "must_show": true,
+  "why": "grateful, kids worked hard"
+ },
+ {
+  "id": "L2.07:1",
+  "scene": "A young student in an apron looks up at the teacher, a woman with short gray hair and a navy jacket, who has teary happy eyes and a hand on her chest. Empty baking trays are behind them.",
+  "must_show": true,
+  "why": "she is grateful, near tears"
+ },
+ {
+  "id": "L2.07:2",
+  "scene": "The teacher with short gray hair and navy jacket hands a jar of coins to a smiling nurse at a small clinic door, while proud children in aprons stand behind her.",
+  "must_show": true,
+  "why": "money goes to clinic"
+ },
+ {
+  "id": "L2.08:0",
+  "scene": "Bruno, a young brown dog with floppy ears, backs away from a bicycle with a low tail and worried eyes. His owner, a girl in a red jacket, holds a leash and watches him.",
+  "must_show": true,
+  "why": "Bruno reluctant, afraid of bicycle"
+ },
+ {
+  "id": "L2.08:1",
+  "scene": "A girl in a red jacket holds out a dog treat and a toy toward Bruno, a young brown dog who sits far away, tail low, near a bicycle. He looks away shyly.",
+  "must_show": true,
+  "why": "treats do not work"
+ },
+ {
+  "id": "L2.08:2",
+  "scene": "Bruno, a young brown dog with floppy ears, trots happily beside a bicycle on a park path, tail wagging. A girl in a red jacket rides smiling beside him.",
+  "must_show": true,
+  "why": "happy next to bicycle"
+ },
+ {
+  "id": "L2.09:0",
+  "scene": "A teacher with a green scarf holds a small hamster gently while smiling, and happy children in a classroom gather around. A bookshelf stands behind them.",
+  "must_show": true,
+  "why": "hamster found, everyone delighted"
+ },
+ {
+  "id": "L2.09:1",
+  "scene": "A boy in a blue sweater, delighted, holds a small hamster in his hands and looks up at his smiling teacher in a green scarf. A cage sits on a table.",
+  "must_show": true,
+  "why": "boy delighted, takes hamster home"
+ },
+ {
+  "id": "L2.09:2",
+  "scene": "A family of four, mother, father, boy in blue sweater, and a small girl, laugh together around a small cage where a hamster runs on its wheel. Everyone looks delighted.",
+  "must_show": true,
+  "why": "family delighted by hamster"
+ },
+ {
+  "id": "L2.10:0",
+  "scene": "Uncle Hamid, a man with a gray beard and brown vest, frowns with crossed arms in front of a garden full of dry, brown wilted plants. A suitcase is at his feet.",
+  "must_show": true,
+  "why": "plants wilted, Hamid stubborn"
+ },
+ {
+  "id": "L2.10:1",
+  "scene": "Uncle Hamid, gray beard and brown vest, and his nephew Bilal, a teenage boy with curly hair and a gray hoodie, stand face to face with crossed arms, both frowning and refusing to listen.",
+  "must_show": true,
+  "why": "both stubborn arguing"
+ },
+ {
+  "id": "L2.10:2",
+  "scene": "Hamid's wife, a woman with a red cardigan, stands between Uncle Hamid with gray beard and brown vest, and Bilal with curly hair and gray hoodie, who both look away with crossed arms. She raises a calming hand.",
+  "must_show": true,
+  "why": "both equally stubborn"
+ },
+ {
+  "id": "L2.10:3",
+  "scene": "Uncle Hamid with gray beard and Bilal with curly hair and gray hoodie laugh together while planting new green seedlings in the garden. Hamid's wife in a red cardigan watches smiling.",
+  "must_show": true,
+  "why": "made up, replanting together"
+ },
+ {
+  "id": "L2.11:0",
+  "scene": "Ayesha, a girl of twelve with long black hair and a yellow pajama top, sits on her bed at night looking worried with hands on her tummy; moonlight shines through the window.",
+  "must_show": true,
+  "why": "Ayesha anxious"
+ },
+ {
+  "id": "L2.11:1",
+  "scene": "Ayesha, a girl with long black hair and yellow pajama top, sits on a bed beside her older sister, who has short curly hair and a purple shirt and holds a pencil and a drawn checklist.",
+  "must_show": true,
+  "why": "sister helps make a plan"
+ },
+ {
+  "id": "L2.11:2",
+  "scene": "Ayesha, a girl with long black hair, walks calmly and confidently into a bright exam room at dawn with a pencil in hand, smiling slightly. Rows of desks are ahead.",
+  "must_show": true,
+  "why": "calm and ready next morning"
+ },
+ {
+  "id": "L2.12:0",
+  "scene": "A wealthy trader, a bald man with a round belly and a gold vest, hands baskets of fruit and bread to smiling people at his bazaar stall in the evening.",
+  "must_show": true,
+  "why": "trader gives away unsold food"
+ },
+ {
+  "id": "L2.12:1",
+  "scene": "Neighbors of different ages arrive carrying wood planks, tools, and a coin purse to a rebuilt market stall, where the bald trader in a gold vest smiles gratefully. A blackened old stall frame stands nearby.",
+  "must_show": true,
+  "why": "neighbors help rebuild after fire"
+ },
+ {
+  "id": "L2.13:0",
+  "scene": "Bella, a stubborn brown goat with floppy ears, stands in a muddy rainy field with eyes shut and head up, refusing to move. Her owner, a man in a yellow raincoat, waits patiently under a barn roof.",
+  "must_show": true,
+  "why": "goat stubborn in rain, owner cautious"
+ },
+ {
+  "id": "L2.13:1",
+  "scene": "Bella, a shivering brown goat, trots into a barn while the owner in a yellow raincoat laughs and dries her with a big towel. Rain falls outside.",
+  "must_show": true,
+  "why": "goat comes inside, owner dries her"
+ },
+ {
+  "id": "L3.01:0",
+  "scene": "A white pigeon flies over green hills and a winding road carrying a tiny rolled message tied to its leg. A small farmhouse is in the distance.",
+  "must_show": false,
+  "why": ""
+ },
+ {
+  "id": "L3.01:1",
+  "scene": "A messenger in a red cap runs very fast along a road holding a rolled message, with a pigeon flying above. Dust clouds puff behind him as he hurries.",
+  "must_show": false,
+  "why": ""
+ },
+ {
+  "id": "L3.02:0",
+  "scene": "A man in an old-fashioned hat rides a wooden bicycle with iron wheels over a bumpy cobbled road, his body shaking and eyes squeezed shut. Little bounce lines show the rough ride.",
+  "must_show": true,
+  "why": "bumpy rough ride"
+ },
+ {
+  "id": "L3.03:0",
+  "scene": "A strong brown mule carries a big load of sacks across a stony hillside, with a farmer in a straw hat walking beside it and smiling. The mule walks steadily.",
+  "must_show": true,
+  "why": "mule strong and reliable"
+ },
+ {
+  "id": "L3.04:0",
+  "scene": "A shopkeeper, a woman in a blue apron, turns a key in her shop door at night, with a moon above and coins neatly stacked on a counter behind her. She looks careful and calm.",
+  "must_show": true,
+  "why": "careful closing routine"
+ },
+ {
+  "id": "L3.05:0",
+  "scene": "A friendly engineer with glasses and a white coat points at a small round robot holding a tool, with a thoughtful frown. The robot stands still at a tidy workbench.",
+  "must_show": true,
+  "why": "robot follows exact instructions"
+ },
+ {
+  "id": "L3.06:0",
+  "scene": "A smiling customer in a green jacket hands a folded paper note with a drawn heart to a shop worker in an apron, who looks touched and happy. A counter separates them.",
+  "must_show": true,
+  "why": "kind note shows gratitude"
+ },
+ {
+  "id": "L3.07:0",
+  "scene": "An engineer in a yellow helmet kneels on a bridge and points a flashlight at a tiny crack in the concrete, while another engineer with a clipboard watches closely.",
+  "must_show": true,
+  "why": "inspecting small crack early"
+ },
+ {
+  "id": "L3.08:0",
+  "scene": "A farmer in a straw hat hands a basket of fresh tomatoes and carrots to a smiling shopper at an outdoor market stall. Colorful vegetables fill the stall.",
+  "must_show": true,
+  "why": "buy directly from grower"
+ },
+ {
+  "id": "L3.09:0",
+  "scene": "A girl in a red jacket gently strokes the neck of a calm brown horse she is riding in a busy yard, with people and other animals around. The horse stands relaxed and trusting.",
+  "must_show": true,
+  "why": "horse trusts rider"
+ },
+ {
+  "id": "L3.10:0",
+  "scene": "A train stands still on rainy tracks under dark clouds. A worker in a yellow raincoat looks at a wet signal box with a puddle, while passengers wait under umbrellas.",
+  "must_show": true,
+  "why": "train stopped due to rain water"
+ },
+ {
+  "id": "L3.11:0",
+  "scene": "Neighbors of different ages in green gloves pick up litter on a street with bags and brooms, smiling and working together. A tidy sunny neighborhood is behind them.",
+  "must_show": true,
+  "why": "street clean-up together"
+ },
+ {
+  "id": "L3.12:0",
+  "scene": "A busy road with many cars waiting at a traffic light, then a second lane with cars flowing, and a traffic engineer in an orange vest pointing at a green traffic light.",
+  "must_show": true,
+  "why": "longer green light eases traffic"
+ },
+ {
+  "id": "L3.13:0",
+  "scene": "Two friends sit on a park bench talking: a boy with glasses and a blue sweater with a hand on his chin, and a girl with curly hair pointing at a thought bubble showing two paths.",
+  "must_show": true,
+  "why": "friend shows other perspective"
+ },
+ {
+  "id": "L3.14:0",
+  "scene": "A man in a neat blue suit stands confidently in front of a mirror adjusting his tie and smiling, a briefcase at his feet. A meeting room door is behind him.",
+  "must_show": true,
+  "why": "clothing and confidence"
+ },
+ {
+  "id": "L3.15:0",
+  "scene": "A woman in pajamas sits in bed reading a book, smiling dreamily, with a lamp glowing and a small moon outside the window. Dream clouds with castles float above her.",
+  "must_show": true,
+  "why": "reading before bed to relax"
+ },
+ {
+  "id": "L3.16:0",
+  "scene": "A worker in an orange shirt looks at a big laptop with wide eyes and a nervous smile, a friendly coworker pats his shoulder encouragingly.",
+  "must_show": true,
+  "why": "learning new skill, daunting"
+ },
+ {
+  "id": "L3.17:0",
+  "scene": "Two volunteers in green shirts pick up litter in a park, smiling and tired, with a full bag. Nearby on a couch, a cartoon TV shows a person laughing, small and distant.",
+  "must_show": true,
+  "why": "helping brings deeper satisfaction"
+ },
+ {
+  "id": "L4.01:0",
+  "scene": "A farmer with a straw hat walks along a dark country path under a sky full of bright stars, with a glowing group of stars connected in a shape above. A small house with a lit window is ahead.",
+  "must_show": true,
+  "why": "stars for finding way"
+ },
+ {
+  "id": "L4.02:0",
+  "scene": "A caravan of four camels and two horses walks together with travelers wrapped in scarves along a long sandy road at sunset. The group stays close together.",
+  "must_show": true,
+  "why": "group travels together for safety"
+ },
+ {
+  "id": "L4.03:0",
+  "scene": "A nurse in a light blue uniform gently bandages the arm of a child sitting on a bed, both smiling softly. A warm glow of light fills the clinic room.",
+  "must_show": true,
+  "why": "nurse helps people heal"
+ },
+ {
+  "id": "L4.04:0",
+  "scene": "A young deer with big ears stands alert at the edge of a green forest, looking toward a kind smiling woman who holds out her open empty hands from far away.",
+  "must_show": true,
+  "why": "deer cautious even of kind people"
+ },
+ {
+  "id": "L4.05:0",
+  "scene": "A group of friends of different ages carry a picnic and play together in a sunny park, smiling and moving in harmony, with a big shared blanket in the middle.",
+  "must_show": true,
+  "why": "harmonious day"
+ },
+ {
+  "id": "L4.06:0",
+  "scene": "Many people of different ages stand in a train station while the lights flicker off, but they sit down calmly, talk, and smile at each other. A staff member holds a lantern.",
+  "must_show": true,
+  "why": "calm group during power cut"
+ },
+ {
+  "id": "L4.07:0",
+  "scene": "A station worker in an orange vest stands calmly with open hands in the middle of a crowded hall, smiling and speaking in a steady way. People around him look relaxed.",
+  "must_show": true,
+  "why": "staff composed"
+ },
+ {
+  "id": "L4.08:0",
+  "scene": "A girl with a bandaged knee sits calmly on a curb next to her bicycle, taking a deep breath and looking at it with a thoughtful face. Her helmet is beside her.",
+  "must_show": true,
+  "why": "stays calm and makes good choices"
+ },
+ {
+  "id": "L4.09:0",
+  "scene": "A tired doctor in a white coat with dark circles under her eyes kneels warmly beside a sick child on a bed, smiling gently and holding the child's hand.",
+  "must_show": true,
+  "why": "stays warm and patient while tired"
+ },
+ {
+  "id": "L4.10:0",
+  "scene": "A repair worker in blue overalls kneels beside a fixed sink and checks the pipes carefully with a flashlight and wrench, with a satisfied look. A neat toolbox is open beside him.",
+  "must_show": true,
+  "why": "checks own work carefully"
+ },
+ {
+  "id": "L4.11:0",
+  "scene": "A kind teacher with glasses kneels beside a small child and looks closely at the child's drawing, noticing a tiny detail with a small smile. Other children draw in the background.",
+  "must_show": true,
+  "why": "noticing small details"
+ },
+ {
+  "id": "L4.12:0",
+  "scene": "A bird builds a nest in a leafy tree on a spring day, and below, an old woman with a gray shawl smiles and looks up, with first raindrops falling on her upturned hand.",
+  "must_show": true,
+  "why": "signs from nature, folklore"
+ },
+ {
+  "id": "L4.13:0",
+  "scene": "A girl in a blue shirt climbs slowly up a steep grassy hill with a heavy backpack, sweating but smiling and determined; one small tree stands at the very top.",
+  "must_show": true,
+  "why": "keeps going slowly"
+ },
+ {
+  "id": "L4.14:0",
+  "scene": "A man in a blue shirt kneels next to a broken lamp, checking the plug with a small screwdriver, with a checklist drawn as little pictures nearby. He looks calm and patient.",
+  "must_show": true,
+  "why": "step-by-step checking"
+ },
+ {
+  "id": "L4.15:0",
+  "scene": "A smiling woman holds a small plain card in one hand, a pot steams on a nearby stove, she looks pleased and curious.",
+  "must_show": true,
+  "why": "notice, recipe, news report"
+ }
+]
