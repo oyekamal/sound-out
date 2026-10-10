@@ -4,6 +4,7 @@ import { play, wait, mark, seq } from '../audio.js';
 import { h, speaker, btn } from '../ui.js';
 import { teacher } from '../teacher.js';
 import { entry } from '../content.js';
+import { splitToken, wordUnits } from '../readtext.js';
 
 export async function read(ctx) {
   const r = ctx.lesson.read || {};
@@ -13,9 +14,10 @@ export async function read(ctx) {
   const page = h('div', { class: 'page' });
   const tapped = {};
   for (const tok of text.split(/\s+/)) {
-    const bare = tok.replace(/[^A-Za-z']/g, '');
+    const { lead, core, trail, bare } = splitToken(tok);
     const e = entry(bare === 'I' ? 'I' : bare.toLowerCase());
-    const b = h('button', { class: 'word', 'data-w': bare }, ...(e ? e.g.map((g, i) => h('span', { class: 'g', 'data-i': i }, i === 0 && /^[A-Z]/.test(bare) ? g.toUpperCase() : g)) : [bare]), tok.replace(/[A-Za-z']/g, ''));
+    const units = wordUnits(bare, e);
+    const b = h('button', { class: 'word', 'data-w': bare }, lead, ...(e ? units.map((g, i) => h('span', { class: 'g', 'data-i': i }, g)) : [core]), trail);
     b.addEventListener('click', async () => {
       if (!e) return;
       tapped[bare] = (tapped[bare] || 0) + 1;
