@@ -23,3 +23,25 @@ Most important change: scale all four mouths (mmm, mid, aaa, ooo) 1.5x around th
 ## Acceptance check
 
 Re-render the four demo frames at 200 px tall. aaa should be at least about 16x17 px and mid at least about 17x9 px, and all four should be readable on a phone without zooming.
+
+## Round 2
+
+Verdict: **FAIL**. Placement and size of aaa and mid are now fixed. mmm is still unreadable and ooo is too close to aaa.
+
+Most important change: make mmm a closed lip line at least 34 px wide and 8 px thick in the 450x512 demo frame (about 14x3 px on the phone at 200 px tall). Keep it flat, with a pink lower edge and no upward curve. Today it measures about 24x12 px and reads as a small pink blob, not as closed lips.
+
+## Evidence
+
+1. **Placement: PASS for aaa, mid and ooo; mmm PARTIAL.** Each mouth sits centred on the muzzle (centre x about 217) and inside its bottom edge. The nostrils are clear and there is no halo or leftover original mouth. mmm sits in the right place but is too small to show its shape.
+2. **Visibility at about 200 px tall: FAIL for mmm.** At the 0.41 scale, aaa is about 40 px wide in the frame (about 16 px on the phone) and readable. mid and ooo are about 35 px and 20 px, so they read. mmm is about 24x12 px in the frame, about 10x5 px on the phone. A child will not see it as closed lips.
+3. **Shapes: PARTIAL.**
+   - aaa: wide dark open oval with a pink tongue. PASS.
+   - mid: tall dark oval with pink. Close to aaa. Acceptable, but mid and aaa differ mainly in height.
+   - ooo: small dark oval, roughly 20x25 px. It is now a clean round shape, but it is nearly the same as mid at phone size. Make ooo about 22x22 px so it is clearly round and smaller than aaa.
+   - mmm: flat pink blob, not a visible closed line. FAIL.
+4. **Edge quality: FAIL (minor).** The zoomed row shows a dark fuzzy halo on the lower edge of mid and aaa (anti-alias or blur residue). Clean the edge to a 1 px hard stroke. Also, a thin vertical line from the nose runs into the mouth in mid. The original art has it, but it looks like a seam on the zoom.
+5. **Style match: PASS.** Brown and pink palette and flat shapes match the original pose_speaking.png.
+
+## Acceptance check
+
+At 200 px tall, mmm must show a readable closed line of at least 14x3 px on the phone. aaa must be at least 16x16 px and wider than tall. ooo must be round and about 22x22 px in the frame. Edges must have no fuzz at 3x zoom.
