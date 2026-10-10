@@ -210,7 +210,7 @@ button:focus:not(:focus-visible), a:focus:not(:focus-visible) { outline: none; }
 .picture { animation: none; }
 .l1-opts .opt { display: flex; flex-direction: column; align-items: center; justify-content: space-between; }   /* a card without a picture (ambiguous word) keeps its button at the bottom, same size as the others */
 .l1-opts .opt .opt-pick { flex: none; }
-.picture-gap { width: 100%; max-width: 120px; aspect-ratio: 1; display: grid; place-items: center; border-radius: 14px; border: 3px dotted #d9c9ae; background: #f7efe1; color: #b8a888; }   /* an ambiguous word has no picture: a soft dotted card with the speaker glyph keeps the three cards the same size and reads as "listen", not "missing" */
+.picture-gap { width: 100%; max-width: 120px; aspect-ratio: 1; display: grid; place-items: center; border-radius: 14px; border: 0; background: #f1e7d6; color: #b8a888; }   /* an ambiguous word has no picture: a soft solid card with the speaker glyph keeps the three cards the same size and reads as "listen", not "missing" */
 .picture-gap svg { width: 44%; height: 44%; display: block; }
 .pics.scene { max-width: 190px; margin: 14px auto 0; } .pics.scene .picture { width: 100%; }
 @media (max-height: 700px) { .pics.scene { max-width: 170px; margin-top: 8px; } }
@@ -239,7 +239,7 @@ button:focus:not(:focus-visible), a:focus:not(:focus-visible) { outline: none; }
 
 /* ---- fill the height: on question screens the heading and picture stay up top and the answer cards sit low, in thumb reach ---- */
 .screen > .options { margin-top: auto; margin-bottom: 14px; }
-.screen > .pics.scene { margin-top: auto; margin-bottom: 14px; }
+.screen > .pics.scene { margin: 4px auto 8px; max-width: 200px; width: min(200px, 100%); }   /* Listen question: the scene sits up by the heading */
 
 /* ---- Tilo lesson beat (Track A intro / demo screens): big Tilo in the body, bubble beside him; the header Tilo steps aside ---- */
 .has-beat .hdr-tilo { display: none; }
@@ -249,3 +249,22 @@ button:focus:not(:focus-visible), a:focus:not(:focus-visible) { outline: none; }
 .beat .tilo-bubble { position: relative; left: auto; top: auto; flex: 1; width: auto; max-width: none; white-space: normal; overflow: visible; font-size: 1.05rem; padding: 10px 14px; border-radius: 22px; transform-origin: 0 50%; }
 .beat .tilo-bubble::before { top: calc(50% - 7px); left: -9px; }
 .screen:has(> .options) > .speaker.big { margin-block: auto; }   /* the speaker sits in the middle of the free space, the cards stay low */
+
+/* ---- answer-card check buttons: ONE disabled look (soft grey, while pending / voice speaking / after the pick) and ONE enabled look (accent) ---- */
+.opt-pick:disabled, .ghost-pick { background: #b4bfc6; color: #fff; opacity: 1; }
+.opt-pick:not(:disabled) { background: var(--accent); }
+.track-B .opt-pick:disabled, .track-B .ghost-pick { background: #b8bec4; }
+/* an ambiguous word keeps its picture; the small printed word sits under it */
+.pic-lab { width: 100%; display: flex; flex-direction: column; align-items: center; gap: 2px; }
+.pic-lab .picture { width: 100%; max-width: 104px; }
+.pic-word { font-size: 1rem; font-weight: 700; color: var(--ink); line-height: 1.2; }
+@media (max-height: 700px) { .pic-lab .picture { max-width: 84px; } .pic-word { font-size: .92rem; } }
+/* Listen intro: the story's first scene fills the room under the title */
+.intro-hero { flex: 1 1 0; min-height: 120px; width: 100%; display: flex; justify-content: center; align-items: center; padding: 4px 0 10px; }
+.intro-hero .picture { height: 100%; max-height: 100%; aspect-ratio: 1; max-width: 100%; }
+.intro-hero .picture img { width: 100%; height: 100%; object-fit: cover; border-radius: 24px; box-shadow: var(--shadow); }
+/* Listen question: the mic is the "say it out loud" cue */
+.talk { display: flex; align-items: center; justify-content: center; gap: 14px; margin: auto 0; padding: 8px 0; }
+.talk-mic { flex: none; width: 84px; height: 84px; border-radius: 50%; display: grid; place-items: center; background: var(--accent); color: #fff; box-shadow: 0 0 0 8px rgba(47, 111, 143, .15); }
+.talk-mic svg { width: 46px; height: 46px; }
+.talk-say { font-size: 1.05rem; font-weight: 650; max-width: 9em; text-align: left; line-height: 1.25; }

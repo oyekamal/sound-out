@@ -1,8 +1,9 @@
 // L1.01 "Sounds in Words": oral phonemic awareness, NO letters on screen (real pictures, none for ambiguous words),
 // except the 60-second preview of s and a at the very end. Words come from the course lesson (§2a-c).
-import { play, wait, mark } from '../audio.js';
-import { h, safePicture, speaker, ICON } from '../ui.js';
-import { entry, g2p } from '../content.js';
+import { play, wait, mark, has } from '../audio.js';
+import { h, safePicture, picture, hasPicture, isAmbiguous, speaker, ICON } from '../ui.js';
+import { entry, g2p, lexicon } from '../content.js';
+import { buildSet } from '../optionset.js';
 import { choose, choice, shuffle, sounds } from './l1steps.js';
 import { teacher } from '../teacher.js';
 
@@ -12,6 +13,17 @@ const SEGMENT = ['up', 'at', 'sat', 'dog'];                   // c) segmenting
 const CHECK = ['sat', 'top', 'pig', 'dog', 'mat'];            // check: hear the sounds, pick the word
 const ph = w => entry(w).p.map(p => `ph:${p}`);
 const pic = (w, i) => safePicture(w, { n: i });                // the real picture, never the printed word; null for ambiguous words (at, it, on, up, sat)
+
+// What the option builder may use: real pictures that are clear, whole-word clips that exist, real words from the lexicon.
+const UNIVERSE = Object.keys(lexicon).filter(w => lexicon[w].kind === 'real');
+const optionEnv = {
+  hasPic: hasPicture, isAmb: isAmbiguous, hasClip: w => has(`w:${w}`),
+  phones: w => entry(w)?.p || null, isReal: w => entry(w)?.kind === 'real',
+  level1: w => (lexicon[w].lessons || []).some(l => l.startsWith('L1.')), universe: UNIVERSE,
+};
+export const optionsFor = (target, pool, test = false) => buildSet(target, pool, optionEnv, { seed: `${test ? 't' : 'b'}:${target}` });
+// a card's picture; an ambiguous word keeps its picture and carries the small printed word underneath
+const card = (w, i, labelled) => { const p = picture(w, { n: i }); return labelled && p ? h('div', { class: 'pic-lab' }, p, h('span', { class: 'pic-word' }, w)) : p; };
 
 function stageFor(ctx, step) { ctx.step = step; mark('step', { key: ctx.sitting.key, step }); return ctx.stage(); }
 
@@ -29,10 +41,10 @@ async function firstSound(ctx, w, i) {
 async function blendWord(ctx, w, pool, { test = false } = {}) {
   const s = stageFor(ctx, test ? 'oral-check' : 'oral-blend');
   s.append(h('h2', {}, 'Which word do the sounds make?'), speaker(null, { big: true, label: 'Hear the sounds again', onplay: () => sounds(ph(w)) }));
-  const opts = shuffle([w, ...shuffle(pool.filter(x => x !== w)).slice(0, 2)]);
-  // all-or-none pictures: if ANY option has no safe picture (missing or ambiguous), every card is speaker-only, so no card is a hint by being different
-  const pics = opts.map((o, i) => pic(o, i)); const allPics = pics.every(Boolean);
-  const c = choice(s, opts.map((o, i) => ({ key: `w:${o}`, body: allPics ? pics[i] : null, ok: o === w, id: o })), { cls: allPics ? 'three' : 'three speaker-only', test, model: [...ph(w), `w:${w}`] });
+  // Pictures are the rule: bad distractors (no picture, ambiguous, no clip) are swapped in code, deterministically per item (see optionset.js).
+  // Speaker-only is the last resort. An ambiguous target keeps its picture with the small word under it, on every card of the set.
+  const set = optionsFor(w, pool, test); const opts = set.words; mark('oral-set', { target: w, words: opts, speakerOnly: set.speakerOnly, swapped: set.swapped, labelled: set.labelled });
+  const c = choice(s, opts.map((o, i) => ({ key: `w:${o}`, body: set.speakerOnly ? null : card(o, i, set.labelled), ok: o === w, id: o })), { cls: set.speakerOnly ? 'three speaker-only' : 'three', test, model: [...ph(w), `w:${w}`] });
   await ctx.instruct(test ? 'ui:l1OralCheck' : 'ui:l1OralBlend', { stim: () => sounds(ph(w)), nudge: 'ui:idlePick' });
   const r = await c.start();
   await ctx.record(`oral:blend:${w}`, 'oral', r);
@@ -76,7 +88,9 @@ async function worked(ctx, type) {
     await ctx.instruct(['ui:letsDoOne', 'w:sock', 'ph:s', 'ui:yourTurn'], { nudge: 'ui:idleTap' });
   } else {
     s.append(h('h2', {}, 'Which word do the sounds make?'), speaker(null, { big: true, label: 'Hear the sounds', onplay: () => sounds(ph('dog')) }));
-    ghostCards(s, () => null, 'speaker-only');
+    const set = optionsFor('dog', BLEND.concat(FIRST));   // the demo's real option words, dimmed
+    if (set.speakerOnly) ghostCards(s, () => h('div', { class: 'picture-gap', html: ICON.speaker }), 'speaker-only');
+    else ghostCards(s, i => card(set.words[i], i, set.labelled));
     mark('oral-demo', { type });
     await ctx.instruct(['ui:letsDoOne'], { stim: async () => { if ((await sounds(ph('dog'))) === false) return false; await wait(300); await play('w:dog'); return teacher.say('ui:yourTurn'); }, nudge: 'ui:idleTap' });
   }

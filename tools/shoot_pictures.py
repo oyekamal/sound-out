@@ -78,7 +78,13 @@ def main():
                         time.sleep(0.4); pg.screenshot(path=str(OUT / "4_listen_question.png")); seen_q = True
                         pose = pg.evaluate("window.__so.tilo.state.pose")
                         if pose != "listening": problems.append(f"listen question: Tilo pose is {pose}, want listening")
-                        if not pg.locator(".talk ~ .pics.scene .picture img").count(): problems.append("listen question: no scene picture")
+                        # the scene now sits ABOVE the say-it-out-loud cue (it used to be below it), and the cue is a big mic glyph
+                        if not pg.locator(".pics.scene .picture img").count(): problems.append("listen question: no scene picture")
+                        elif not pg.locator(".pics.scene ~ .talk .talk-mic svg").count(): problems.append("listen question: scene is not above the mic cue")
+                        else:
+                            sy, ty = pg.evaluate("[document.querySelector('.pics.scene').getBoundingClientRect().top, document.querySelector('.talk').getBoundingClientRect().top]")
+                            if not sy < ty: problems.append(f"listen question: scene (top {sy:.0f}) is not above the mic cue (top {ty:.0f})")
+                            if pg.evaluate("document.querySelector('.sitting').getBoundingClientRect().height > window.innerHeight + 1"): problems.append("listen question overflows 360x640")
                         if pg.locator(".answer").count(): problems.append("graded picture answers still on the Listen question")
                         break
                     nb = pg.locator(".foot .next:not([hidden]):not([disabled])")
