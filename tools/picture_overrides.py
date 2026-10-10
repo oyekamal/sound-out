@@ -235,3 +235,22 @@ claw="a yellow eagle foot with three long sharp curved black claws gripping a br
 napkin="a white paper napkin folded in a triangle standing upright like a little tent beside a fork, no table, no plate",
 thumb="an open child's hand seen from the back with the thumb sticking out to the side and a bright yellow circle drawn around only the thumb",
 )
+
+# round 6 (independent critic round 2)
+O.update(
+claw="one big orange crab claw with a wide open pincer, isolated, large, no body and no branch",
+cot="a baby cot with tall vertical wooden bars on all sides, a small blue blanket inside, side view, no baby",
+den="a fox den: a round dark hole in a grassy bank with a small orange fox peeking its head out of the hole",
+fly="a housefly seen from above: grey body, two big red compound eyes, two transparent wings, no stripes, six thin legs",
+hawk="a hawk seen side-on in flight with both wings spread wide, hooked beak, sharp eyes, brown streaked body, long tail",
+knee="a child's bent leg seen from the side with a bright yellow circle drawn around the knee, no plaster, no bandage",
+moth="a brown fuzzy moth with feathery antennae resting beside a glowing street lamp at night, dark navy night background tile",
+napkin="a folded white cloth napkin lying on a table beside a round plate with a fork",
+tail="a happy dog seen from behind-side with its tail raised and wagging, the tail large and emphasised with small motion lines",
+wind="a tree bending sideways in a strong wind with big swirly wind lines and leaves blowing off it",
+)
+O.update(
+knee="a close-up of a bare bent knee, the kneecap bulging at the centre of the frame, thigh above and shin below, with a bright yellow circle drawn exactly around the kneecap, no plaster, no shoes",
+napkin="a white cloth napkin folded into a neat rectangle with a blue stripe along the edge, lying flat on a pale wooden table placed on the left of a round plate, whole napkin fully inside the frame with margin",
+tail="a pink pig seen from the side with a small tightly curly corkscrew tail on its rump, the curly tail large and clear",
+)

@@ -999,7 +999,7 @@
   "claw": {
    "type": "word",
    "kind": "noun",
-   "draw": "a yellow eagle foot with three long sharp curved black claws gripping a branch, no body",
+   "draw": "one big orange crab claw with a wide open pincer, isolated, large, no body and no branch",
    "levels": [
     4
    ],
@@ -1165,7 +1165,7 @@
   "cot": {
    "type": "word",
    "kind": "noun",
-   "draw": "an empty folding camp cot: green canvas stretched on a wooden frame with four crossed legs, side view, no baby, no pillow",
+   "draw": "a baby cot with tall vertical wooden bars on all sides, a small blue blanket inside, side view, no baby",
    "levels": [
     1
    ],
@@ -1275,7 +1275,7 @@
   "den": {
    "type": "word",
    "kind": "noun",
-   "draw": "an empty animal burrow: a big round dark hole in a grassy mound, nothing inside, no animal",
+   "draw": "a fox den: a round dark hole in a grassy bank with a small orange fox peeking its head out of the hole",
    "levels": [
     1
    ],
@@ -2026,7 +2026,7 @@
   "hawk": {
    "type": "word",
    "kind": "noun",
-   "draw": "a brown hawk perched on a branch, hooked yellow beak, sharp yellow eyes, streaked cream chest, strong talons, clearly a bird of prey and not an owl",
+   "draw": "a hawk seen side-on in flight with both wings spread wide, hooked beak, sharp eyes, brown streaked body, long tail",
    "levels": [
     4
    ],
@@ -2483,7 +2483,7 @@
   "knee": {
    "type": "word",
    "kind": "noun",
-   "draw": "a close-up of a child's bent knee only, with a scraped red patch and a plaster, the knee fills the frame, no face",
+   "draw": "a close-up of a bare bent knee, the kneecap bulging at the centre of the frame, thigh above and shin below, with a bright yellow circle drawn exactly around the kneecap, no plaster, no shoes",
    "levels": [
     4
    ],
@@ -2799,7 +2799,7 @@
   "moth": {
    "type": "word",
    "kind": "noun",
-   "draw": "a fuzzy beige-grey moth with wide feathery comb-like antennae, a furry chubby body and dull brown patterned wings folded flat",
+   "draw": "a brown fuzzy moth with feathery antennae resting beside a glowing street lamp at night, dark navy night background tile",
    "levels": [
     2
    ],
@@ -2915,7 +2915,7 @@
   "napkin": {
    "type": "word",
    "kind": "noun",
-   "draw": "a white paper napkin folded in a triangle standing upright like a little tent beside a fork, no table, no plate",
+   "draw": "a white cloth napkin folded into a neat rectangle with a blue stripe along the edge, lying flat on a pale wooden table placed on the left of a round plate, whole napkin fully inside the frame with margin",
    "levels": [
     2,
     4
@@ -4056,7 +4056,7 @@
   "tail": {
    "type": "word",
    "kind": "noun",
-   "draw": "a whole orange fox sitting side-on with its big bushy white-tipped tail curled behind it",
+   "draw": "a pink pig seen from the side with a small tightly curly corkscrew tail on its rump, the curly tail large and clear",
    "levels": [
     1,
     2,
@@ -4949,7 +4949,7 @@
   "fly": {
    "type": "word",
    "kind": "verb",
-   "draw": "a cute bumblebee flying with blurred round wings and a dotted curved flight path behind it",
+   "draw": "a housefly seen from above: grey body, two big red compound eyes, two transparent wings, no stripes, six thin legs",
    "levels": [
     3,
     4
@@ -7853,7 +7853,7 @@
   "wind": {
    "type": "word",
    "kind": "noun",
-   "draw": "three autumn leaves and a red kite blowing sideways with curved wind lines streaming past",
+   "draw": "a tree bending sideways in a strong wind with big swirly wind lines and leaves blowing off it",
    "levels": [
     3,
     4

@@ -2825,7 +2825,7 @@
    3,
    4
   ],
-  "ambiguous": false,
+  "ambiguous": true,
   "must_show_action": true
  },
  "tall": {
@@ -2878,7 +2878,7 @@
   "levels": [
    4
   ],
-  "ambiguous": false,
+  "ambiguous": true,
   "must_show_action": true
  },
  "happy": {
@@ -2928,7 +2928,7 @@
    2,
    4
   ],
-  "ambiguous": false,
+  "ambiguous": true,
   "must_show_action": true
  },
  "empty": {
@@ -2937,7 +2937,7 @@
   "levels": [
    2
   ],
-  "ambiguous": false,
+  "ambiguous": true,
   "must_show_action": true
  },
  "fast": {
