@@ -62,7 +62,7 @@
     },
     "levels": {
       "title": "Level by level",
-      "note": "Each off-screen activity takes about two minutes and needs no paper. Move on when the check is passed and most of the signs below are true. If your app version does not show a level yet, it arrives in an update.",
+      "note": "Each off-screen activity takes about two minutes and needs no paper. Move on when the check is passed and most of the signs below are true.",
       "items": [
         {
           "id": "L1", "name": "First Sounds",
