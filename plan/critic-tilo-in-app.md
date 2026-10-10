@@ -101,3 +101,48 @@ Judged fresh on the re-shot `store/android-test/tilo-in-app/` (A_*, B_*) and `st
 9. **Lesson body still has no hero content.** The picture card is good, but the lesson has no mascot-sized moment. Duolingo fills the frame with a character and content. Consider a larger Tilo beat on Listen intro screens (3_listen_story already has the space).
 10. **Asymmetric story grid.** `3_listen_story` leaves the bottom-right empty. Center the third panel or use a 3-up strip.
 11. **Lesson-screen polish still behind Duolingo.** Flat grey buttons and no progress celebration. This is the gap to close after items 1-8.
+
+---
+
+## Round 3
+
+Judged on the round-3 re-shot (commits 90f80b8, 1f9bad3). Tilo screens are the 9 `A_*` child-track shots plus the 4 `pictures-in-app` shots (13 total). `B_*` shots have no Tilo and are judged as controls only. `emulator_lesson_tilo.png` skipped (stale).
+
+### Mouth check (mouth_zoom.png)
+
+Three distinct mouths at 2x: closed smile (mmm), small open D (mid), larger open D with tongue (aaa). No stalk. The flap changes between frames, so round 2 fix 1 is closed. Mouth placement on the snout is accepted per the lead ruling.
+
+### Per-screen verdict (child track, Tilo screens)
+
+| Screen | Mouth | Cuteness | Clarity (360x640) | Pose reads | Result | Reason |
+|---|---|---|---|---|---|---|
+| A_speaking_closed_mmm | PASS (closed smile reads as mmm) | PASS | FAIL | PASS (ruling: wave stays) | FAIL | Cards hidden with `visibility: hidden`, so the bottom ~35% of the frame is blank while Tilo talks. Round 2 fix 5 not addressed. |
+| A_speaking_mid | PASS (small open D, distinct from mmm) | PASS | FAIL | PASS | FAIL | Same blank lower third. |
+| A_speaking_open_aaa | PASS (aaa visibly bigger than mid) | PASS | FAIL | PASS | FAIL | Same blank lower third. |
+| A_celebrating | PASS (closed smile) | PASS | PASS, top gap fixed, no clip | PASS | PASS | Arms up and sparkles clear of y=0. |
+| A_idle | n/a | PASS | PASS, no rings at rest | PASS | PASS | Ring gone from ear button and Check 1. |
+| A_idle_hint | n/a | PASS | PASS at rest; PASS at pulse peak | PASS | PASS | Pulse accepted. Peak frame shows a yellow ring on ear button and Check 1 (see fix 5). |
+| A_listening | n/a | PASS | PASS | PASS (hand at head) | PASS | Reads as listening. |
+| A_encouraging | n/a | PASS | PASS | Thinking pose | PASS | Ruled: thinking pose fits a wrong answer. |
+| A_home | n/a | PASS | PASS, ear button clear of pill | PASS (wave) | PASS | |
+| pictures 1_first_sound | n/a | PASS | PASS | PASS (listening) | PASS | |
+| pictures 2_blend_pictures | n/a | PASS | PASS | PASS | PASS | Card 1 now has a real picture (woven mat). Round 2 fix 4 closed. Mat is a little abstract. |
+| pictures 3_listen_story | n/a | PASS | PASS | PASS (wave) | PASS (minor) | 2+1 panel grid still leaves bottom-right empty (round 2 fix 10 open). |
+| pictures 4_listen_question | n/a | PASS | PASS | PASS (listening) | PASS | Scene picture fills the slot. Bottom ~17% blank, down from ~55%. Open-mouth alarm pose gone. |
+
+Control shots (no Tilo, not counted): B_home_no_mascot PASS (pill clear of ear button). B_no_mascot PASS (bottom ~45% empty).
+
+**Screens passed: 10 of 13. Round 3 FAILS** (the three speaking frames).
+
+### A/B verdict (Duolingo ABC vs Sound Out child track)
+
+**Winner: Duolingo ABC.** Caveat: most duolingo_abc shots are store marketing crops, not lesson frames. The lesson frames (3, 4, 9) are the fair comparison, and they still win. Duolingo's mascot and content sit inside the lesson frame at scale, the progress bar is a chunky green band, and the tiles and letters are large with bold contrast. Sound Out's strengths are a calmer palette, a clean question hierarchy, and a Tilo that now has a pose per state. Sound Out's lesson frame still looks like a settings page next to Duolingo's.
+
+### Remaining fix list (most important first)
+
+1. **Speaking frames leave the bottom third blank.** `.options.pending { visibility: hidden }` in `app/src/style.css` (line 205) keeps the slot empty. Fix: while speaking, show the answer cards dimmed and non-interactive (opacity around .45, `pointer-events: none`), or put the speech bubble (fix 2) in that slot. Keep the same size. Check `A_speaking_mid` at 360x640.
+2. **No voice line.** Header Tilo (`.hdr-tilo .tilo.inline`, `app/src/style.css` line 192, 96px) is a corner companion with no speech bubble. Add a bubble tied to the speaking state, driven from the speak hook in `app/src/tilo.js` and the question header in `app/src/screens/l1oral.js`. Round 2 fix 8, still open.
+3. **Lesson chrome is behind Duolingo.** `.progress` is 10px high (`app/src/style.css` line 71). Duolingo ABC uses a chunky green band of about 18-20px. Raise the bar to 16-18px, round the fill, and add a small celebration on a correct answer (bar step plus a Tilo beat). Give the check buttons a bottom ledge so they match the bar's weight.
+4. **Story grid is asymmetric.** `pictures-in-app/3_listen_story` leaves the bottom-right empty (round 2 fix 10). Centre the third panel or use a 3-up strip. The story grid rule was not located in this pass; start in `app/src/screens/listen.js`.
+5. **Idle-hint pulse peaks look like focus.** At peak, `A_idle_hint` shows the same yellow ring on the ear button and Check 1 that focus uses. Keep the pulse (`app/src/style.css` line 155), but tint it softer than the focus ring so a hint never reads as a selected answer or a focused control.
+6. **Tilo is still small next to the content.** At 96px in the header, Tilo is a companion, not the lesson's moment. Add a larger Tilo beat on Listen intro screens (round 2 fix 9).
