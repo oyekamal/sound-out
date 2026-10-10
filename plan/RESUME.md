@@ -67,3 +67,11 @@ Lanes, with ONE agent at a time in app/src:
 BLOCKED: L2–L7 content audio (~360k ElevenLabs chars) = Kamal top-up decision; without it L2–7 play placeholder audio.
 - 2026-10-10 Play pack DONE: store/listing_en.md, store/PLAY_CONSOLE_CHECKLIST.md, store/families_fixes.md (F1 in-app privacy, F2 "Prototype"/"placeholder" strings home.js:52 onboarding.js:36 listen.js:34, F3 dead language chips, F4 CSP, F5 manifest AD_ID/INTERNET guard, F6 tilo-demo.html ships in the APK, F7 keyboard attrs write.js:9), privacy at app/public/privacy.html + docs/privacy.html, targetSdk 36 set (rebuild the AAB). The app code lane must apply F1–F7. Kamal owes: developer account, listing email (oyekamalkhan@gmail.com assumed), 12–20 testers, ElevenLabs/Kie commercial terms, trademark checks for "Sound Out"/"Tilo".
 - Lip-sync fixed (82b0a65): mouths cut from the art, sizes in tilo.json; aaa is 1.18x tall. Critic running (critic-lipsync.md).
+- Teacher-voice builder final report (2026-10-10): idle ladder 8/16/28/60 s; hold-to-hear on [data-say]; worked example before the first gate; drive_teacher.py green; drive.py --until L1.04 green both tracks. OPEN, queued for the app-code lane:
+  (a) Pebble → Tilo on Track A (decided: Tilo is the voice's character, child track only);
+  (b) 21 mouth cues need a learner-facing rewrite, then voicing (~1.9k chars);
+  (c) picture answers are placeholders, and any picture gets praise → wire app/public/img/words when the pictures lane lands;
+  (d) L5–7 buttons say "audio coming" → the audio lane;
+  (e) a demonstrated trace stroke, and the L1.01 "how many sounds" demo;
+  (f) locked Home nodes can't be held to hear;
+  (g) the 106 new teacher clips are UNLISTENED → an audio critic (Whisper intelligibility + carrier joins like "This letter says" + sound) before release.
