@@ -87,3 +87,4 @@ BLOCKED: L2–L7 content audio (~360k ElevenLabs chars) = Kamal top-up decision;
 - 2026-10-10 — Tilo r4 fixes 22e15b2 (dimmed inert cards + demo ghost row, Track-A speech bubble, 17px progress, correct cheer); shoot_tilo/shoot_pictures/drive_teacher/drive --until L1.04 all green. Critic r4 running.
 - 2026-10-10 — Critic r4 (4b9113a): 10/13, all speaking frames PASS; fails: blend card w/o picture, halo peak too strong, 2+1 story grid. Lead ruling: if any option in a set lacks a picture/ambiguous → whole set speaker-only. Round-5 builder running.
 - 2026-10-10 — Tilo r5 fixes f490621 (speaker-only blend sets, softer halo, centred story panel; shoot thresholds adjusted); all 4 suites green. Critic r5 running.
+- 2026-10-10 — Critic r5 (b89dacd): 13/13 screens PASS. A/B (unblinded) still Duolingo on polish. Round-6 builder running: big Tilo lesson beat on intro/demo screens (Track A), vertical fill on question screens. Then BLIND critic A/B.
