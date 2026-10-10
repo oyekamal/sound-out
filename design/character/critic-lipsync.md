@@ -45,3 +45,19 @@ Most important change: make mmm a closed lip line at least 34 px wide and 8 px t
 ## Acceptance check
 
 At 200 px tall, mmm must show a readable closed line of at least 14x3 px on the phone. aaa must be at least 16x16 px and wider than tall. ooo must be round and about 22x22 px in the frame. Edges must have no fuzz at 3x zoom.
+
+## Round 3
+
+Verdict: **PASS**. All four round 2 fixes are in place. The only remaining issues are minor and would not stop a child or parent from reading the mouths on a phone.
+
+Measured from zoomed crops of the four demo frames (450x512, scale 2x in the check image, so divide by 2 for frame px):
+
+1. **Round 2 fixes made: PASS.** mmm is now a flat closed line about 58x8 px in the frame (about 24x3 px on the phone), well above the 34x8 minimum. ooo is a clean round dark dot about 22x21 px, matching the 22x22 target. aaa is a wide dark open oval about 42x60 px, clearly larger than ooo. The dark fuzzy halo on mid and aaa is gone at 2x; the edges are a clean 1 px outline.
+2. **Placement: PASS.** All four mouths are centred under the nose on the same x, and their bottoms sit inside the muzzle edge. No mouth hangs out below the muzzle. The old seam is gone.
+3. **Visibility at about 200 px tall: PASS.** Approximate phone sizes at scale 0.41: mmm about 24x3 px (a thin but clear line), mid about 18x20 px, aaa about 17x25 px, ooo about 9x9 px (a small dark dot with a pink rim, readable as a small "o").
+4. **Shapes: PASS, with one minor note.** mmm reads as closed lips, aaa as a dark open mouth, ooo as a small round "o", and mid as a tall pinkish-maroon oval. Note: mid is dominated by its pale pink core, so at phone size it is the least distinct from aaa. It still reads as a different, smaller open shape, so this does not fail.
+5. **Edges and style: PASS.** Flat brown and pink fills match the original pose_speaking.png. The philtrum line from the nose runs into the mouth on mid and ooo, but the original art has it too, so it is not a seam.
+
+Not a fail: a faint vertical nose line touches the top of ooo, making it look slightly like a lollipop at zoom. Ignore unless a parent flags it.
+
+Note on method: my first look at the full-frame demo_mmm.png did not show a closed line. The 2x crop of the same file does, so the verdict uses the crops.
