@@ -116,7 +116,7 @@ def render(shard=0, n=1, limit=None, keys=None):
     print(f"shard {shard} done {time.time() - t0:.0f}s wall for {audio_s:.0f}s audio", flush=True)
 
 
-def build():
+def build(shard=0, n=1, encode_only=False):
     import gen_audio_el as g
     classes = json.loads((C / "audio_classes.json").read_text())
     todo = renderable(classes)
@@ -131,11 +131,15 @@ def build():
     word_rms = float(np.median(rr)) if rr else -24.0
     man = json.loads(MAN.read_text()) if MAN.exists() else {}
     done = enc_n = 0
-    for k, v in sorted(todo.items()):
+    for j, (k, v) in enumerate(sorted(todo.items())):
+        if j % n != shard: continue
         mode, inp = job(k, v); ci = ckey(mode, inp)
+        m0 = man.get(k, {})
+        if m0.get("reroll") and (RAW / f"{m0['cache']}.wav").exists(): ci = m0["cache"]   # passed on its one re-roll
         w = RAW / f"{ci}.wav"
         if not w.exists(): continue
-        if man.get(k, {}).get("gate") == "fail": continue          # failed the gate twice: reclassified HARD, not shipped
+        if m0.get("gate") == "fail": continue          # failed the gate twice: reclassified HARD, not shipped
+        if v["kind"] in ("w", "ipa") and m0.get("gate") not in ("pass", "pass-reroll"): continue   # single words ship only after the full word gate
         cid = hashlib.sha1(f"local|{ci}".encode()).hexdigest()[:12]
         dst = OUT / f"{cid}.ogg"
         if not dst.exists():
@@ -149,10 +153,13 @@ def build():
                     if L is None or abs(g.LUFS - L) <= 0.3: break
                     gain += g.LUFS - L; g.encode(b * 10 ** (gain / 20), dst)
             enc_n += 1
+        if encode_only: continue
         dur = round(len(g.decode(dst)) / SR, 3) if not dst.stat().st_size == 0 else 0
         clips[k] = {"id": cid, "dur": dur, "src": "local"}
-        man.setdefault(k, {}).update({"cache": ci, "mode": mode, "input": inp, "voice": VOICE, "speed": SPEED})
+        man.setdefault(k, {}).update({"cache": ci, "voice": VOICE})
+        if not m0.get("reroll"): man[k].update({"mode": mode, "input": inp, "speed": SPEED})
         done += 1
+    if encode_only: print(f"shard {shard}: encoded {enc_n}"); return
     index["note"] = (index.get("note", "").split(" | local:")[0] +
                      f" | local: Kokoro {VOICE} speed {SPEED} for EASY L2-L7 clips (decision 30, tools/gen_audio_local.py); src='local' marks them")
     idx_path.write_text(json.dumps(index, indent=1, ensure_ascii=False))
@@ -168,5 +175,7 @@ if __name__ == "__main__":
     if a[0] == "render":
         pos = [x for x in a[1:] if not x.startswith("--") and x not in (opt("--limit"), opt("--keys"))]
         render(int(pos[0]) if pos else 0, int(pos[1]) if len(pos) > 1 else 1, int(opt("--limit")) if opt("--limit") else None, opt("--keys"))
-    elif a[0] == "build": build()
+    elif a[0] == "build":
+        pos = [x for x in a[1:] if not x.startswith("--")]
+        build(int(pos[0]) if pos else 0, int(pos[1]) if len(pos) > 1 else 1, "--encode-only" in a)
     else: sys.exit(__doc__)

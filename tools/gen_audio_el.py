@@ -180,7 +180,7 @@ def lufs(a):
     b2 = [1, -2, 1]; a2 = [1, 2 * (K * K - 1) / (1 + K / Q + K * K), (1 - K / Q + K * K) / (1 + K / Q + K * K)]
     y = ss.lfilter(b2, a2, ss.lfilter(b1, a1, a))
     B, H = int(0.4 * SR), int(0.1 * SR)
-    z = np.array([np.mean(y[i:i + B] ** 2) for i in range(0, len(y) - B + 1, H)])
+    cs = np.concatenate([[0.0], np.cumsum(y ** 2)]); st = np.arange(0, len(y) - B + 1, H); z = (cs[st + B] - cs[st]) / B   # same blocks, vectorised
     L = -0.691 + 10 * np.log10(z + 1e-15)
     z = z[L > -70]
     if not len(z): return None

@@ -48,13 +48,13 @@ def phones(w, CM): return tuple(x.rstrip("012") for x in CM.get(w, [])) or None
 _W = {}
 
 
-def whisper_hear(x24):
+def whisper_hear(x24, models=("small.en", "small")):
     import whisper
-    for n in ("small.en", "small"):
+    for n in models:
         if n not in _W: _W[n] = whisper.load_model(n)
     y = resample_poly(x24, 2, 3).astype(np.float32)
     y = np.concatenate([np.zeros(8000, np.float32), y, np.zeros(8000, np.float32)])
-    return {n: _W[n].transcribe(y, language="en", fp16=False, temperature=0, condition_on_previous_text=False)["text"].strip() for n in _W}
+    return {n: _W[n].transcribe(y, language="en", fp16=False, temperature=0, condition_on_previous_text=False)["text"].strip() for n in models}
 
 
 def pick_sample(classes):
@@ -109,11 +109,21 @@ def stats_for(x24):
 CARRIER = None
 
 
-def check(k, v, x, CM, ov):
+def check(k, v, x, CM, ov, fast=False):
     """Machine checks for one clip; returns dict with pass flag. Single words are heard after a local 'Say.' carrier
     (Whisper is unreliable on a bare one-word clip; the River plan used the same carrier idea)."""
     r = {"key": k, "level": v["level"], "sub": v["sub"], "kind": v["kind"], "sec": round(len(x) / L.SR, 2)}
     xin = np.concatenate([CARRIER, np.zeros(int(.25 * L.SR)), x]) if v["kind"] in ("w", "ipa") and CARRIER is not None else x
+    if fast and v["kind"] in ("w", "ipa"):   # bulk word gate: small.en first, `small` only when small.en misses
+        tgt = v["say"].lower(); tp = phones(tgt, CM); heard = {}
+        def hit(h):
+            hw = words_of(h); return bool(hw) and (hw[-1] == tgt or tgt in hw or bool(tp and phones(hw[-1], CM) == tp))
+        for n in ("small.en",):   # one model only: the full word gate is the CPU hog; the 60-clip sample used both
+            heard.update(whisper_hear(xin, (n,)))
+            if hit(heard[n]): break
+        ok = any(hit(h) for h in heard.values())
+        return {"key": k, "level": v["level"], "sub": v["sub"], "kind": v["kind"], "sec": round(len(x) / L.SR, 2), "heard": heard, "text": tgt,
+                "wer": 0.0 if ok else 1.0, "pass": ok}
     heard = whisper_hear(xin); r["heard"] = heard
     if v["kind"] in ("w", "ipa"):
         tgt = v["say"].lower(); tp = phones(tgt, CM)
@@ -163,17 +173,36 @@ def words(shard, n):
         if ci in done: continue
         k, v = uniq[ci]; w = L.RAW / f"{ci}.wav"
         if not w.exists(): continue
-        r = check(k, v, sf.read(w)[0], CM, {}); rec = {"say": v["say"], "pass": r["pass"], "heard": r["heard"], "phone_per": r.get("phone_per")}
+        r = check(k, v, sf.read(w)[0], CM, {}, fast=True); rec = {"say": v["say"], "pass": r["pass"], "heard": r["heard"], "phone_per": r.get("phone_per")}
         if not r["pass"]:
             sp = round(L.SPEED * 1.08, 3); rci = L.ckey("text", v["say"] + ".", sp); rw = L.RAW / f"{rci}.wav"
             if not rw.exists(): sf.write(rw, L.trim(L.render_one(pipe, m, vt, "text", v["say"] + ".", sp)), L.SR, subtype="PCM_16")
-            r2 = check(k, v, sf.read(rw)[0], CM, {})
+            r2 = check(k, v, sf.read(rw)[0], CM, {}, fast=True)
             rec["reroll"] = {"cache": rci, "speed": sp, "mode": "text", "input": v["say"] + ".", "pass": r2["pass"], "heard": r2["heard"]}
         done[ci] = rec
         if j % 20 == 0:
             out_p.write_text(json.dumps(done, ensure_ascii=False)); print(f"shard {shard}: {j}/{len(ids)} pass1 {sum(d['pass'] for d in done.values())}/{len(done)}", flush=True)
     out_p.write_text(json.dumps(done, ensure_ascii=False))
     print(f"shard {shard} done: first-pass {sum(d['pass'] for d in done.values())}/{len(done)}; after re-roll {sum(d['pass'] or d.get('reroll', {}).get('pass', False) for d in done.values())}/{len(done)}")
+
+
+def apply_words():
+    """Fold content/local/gate_words_*.json into the manifest (gate = pass | pass-reroll | fail) per word key."""
+    classes = json.loads((C / "audio_classes.json").read_text()); ren = L.renderable(classes)
+    man = json.loads(L.MAN.read_text()) if L.MAN.exists() else {}
+    res = {}
+    for f in (C / "local").glob("gate_words_*.json"): res.update(json.loads(f.read_text()))
+    n = {"pass": 0, "pass-reroll": 0, "fail": 0, "ungated": 0}
+    for k, v in ren.items():
+        if v["kind"] not in ("w", "ipa"): continue
+        mode, inp = L.job(k, v); r = res.get(L.ckey(mode, inp))
+        if r is None: n["ungated"] += 1; continue
+        e = man.setdefault(k, {})
+        if r["pass"]: e["gate"] = "pass"; e.pop("reroll", None)
+        elif r.get("reroll", {}).get("pass"): e.update({"gate": "pass-reroll", "reroll": True, "cache": r["reroll"]["cache"], "mode": "text", "input": r["reroll"]["input"], "speed": r["reroll"]["speed"]})
+        else: e["gate"] = "fail"
+        n[e["gate"]] += 1
+    L.MAN.write_text(json.dumps(man, indent=0, ensure_ascii=False)); print("word gate by key:", n)
 
 
 def sample():
@@ -258,4 +287,4 @@ def reroll():
 
 
 if __name__ == "__main__":
-    (lambda c: words(int(sys.argv[2]), int(sys.argv[3])) if c == "words" else {"sample": sample, "reroll": reroll}.get(c, lambda: sys.exit(__doc__))())(sys.argv[1] if len(sys.argv) > 1 else "")
+    (lambda c: words(int(sys.argv[2]), int(sys.argv[3])) if c == "words" else apply_words() if c == "apply" else {"sample": sample, "reroll": reroll}.get(c, lambda: sys.exit(__doc__))())(sys.argv[1] if len(sys.argv) > 1 else "")
