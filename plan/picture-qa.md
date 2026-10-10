@@ -115,3 +115,30 @@ Scope: the 36 pictures redone after Round 1 failures, judged on 3 labelled grids
 | FAIL | 14 |
 
 FAIL list: claw, cot, den, dry, empty, fly, full, hawk, knee, moth, napkin, small, tail, wind.
+
+## Round 3 (10 regenerated nouns, commit 391b902)
+
+Scope: the 10 nouns regenerated after Round 2 failures, judged on 1 labelled grid (10 per grid) in the scratch folder. Verdict is what a 5-year-old would name on seeing the picture; FAIL lists that wrong name.
+
+| word | file | verdict | what a child would say instead / note |
+|---|---|---|---|
+| claw | claw.webp | FAIL | crab or lobster; reads as a crab pincer, not a claw |
+| cot | cot.webp | FAIL | crib or baby bed; wooden crib with a blue lump, not the empty folding cot the prompt asked for |
+| den | den.webp | FAIL | fox; a fox sits inside the burrow, the prompt said empty |
+| fly | fly.webp | PASS | housefly with red eyes and clear wings |
+| hawk | hawk.webp | FAIL | bird or eagle; flying bird with the raptor cues (hooked beak, talons) too small to read |
+| knee | knee.webp | FAIL | leg; a bent limb with a yellow ring, no clear knee joint or plaster |
+| moth | moth.webp | FAIL | butterfly or owl; the moth is small on a branch and its feathery antennae are the only clue |
+| napkin | napkin.webp | PASS | folded cloth napkin beside a plate on a table (blue stripe can read as a tea towel, borderline) |
+| tail | tail.webp | FAIL | pig; the curly tail is small and the animal is the subject |
+| wind | wind.webp | PASS | tree bending in swirling wind lines |
+
+### Round 3 totals
+
+| Item | Count |
+|---|---|
+| Pictures redone and judged | 10 |
+| PASS | 3 |
+| FAIL | 7 |
+
+FAIL list: claw, cot, den, hawk, knee, moth, tail.
