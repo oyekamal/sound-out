@@ -96,13 +96,15 @@ rw, rh = ROI[2] - ROI[0], ROI[3] - ROI[1]
 def art_mouth(a, t, cy, sx=1.0):
     """The artist's mouth proper (philtrum rows dropped), scaled by t about its open centre, landed on (AX, cy). Un-mixed against flat muzzle, so edges are exact."""
     rows = np.arange(a["rgb"].shape[0])[:, None]
-    al = np.clip((a["d"] - 2) / 22, 0, 1) * ndi.binary_dilation(a["mask"], iterations=5) * (rows >= a["wide"] - 3)
-    C = (np.array(MUZ, np.float32) + (a["rgb"] - np.array(MUZ, np.float32)) / np.maximum(al, 1e-3)[:, :, None]).clip(0, 255)
+    al = np.clip((a["d"] - 12) / 8, 0, 1) * ndi.binary_dilation(a["mask"], iterations=5) * (rows >= a["wide"] - 3)   # no soft drop-shadow: it showed as a dark halo
+    core = ndi.binary_erosion(al > 0.98, iterations=2); idx = ndi.distance_transform_edt(~core, return_distances=False, return_indices=True)
+    C = a["rgb"][idx[0], idx[1]]            # edge pixels take the colour of the nearest solid mouth pixel: no muzzle- or shadow-coloured fringe
     pm = np.dstack([C * al[:, :, None], al * 255]).clip(0, 255).astype(np.uint8)
     sx0 = a["ax"] + (ROI[0] - AX) / (t * sx); sy0 = a["ocy"] + (ROI[1] - cy) / t
     r = np.array(Image.fromarray(pm, "RGBA").resize((rw, rh), Image.LANCZOS, box=(sx0, sy0, sx0 + rw / (t * sx), sy0 + rh / t))).astype(np.float32)
     ra = r[:, :, 3:4] / 255; rgb = np.where(ra > 0.003, r[:, :, :3] / np.maximum(ra, 0.003), 0)
-    return Image.fromarray(np.dstack([rgb, r[:, :, 3:4]]).clip(0, 255).astype(np.uint8), "RGBA"), a["ay"]
+    ra = np.clip((ra - 0.5) * 2.4 + 0.5, 0, 1)              # steepen the resampled edge to a crisp ~1 px anti-aliased stroke
+    return Image.fromarray(np.dstack([rgb, ra * 255]).clip(0, 255).astype(np.uint8), "RGBA"), a["ay"]
 SS = 4
 def blank(): return Image.new("RGBA", (rw * SS, rh * SS), (0, 0, 0, 0))
 def P(x, y): return ((x - ROI[0]) * SS, (y - ROI[1]) * SS)
@@ -118,17 +120,18 @@ m, _ = art_mouth(ref, K, CY_MID); b = blank(); bar(ImageDraw.Draw(b), CY_MID - M
 t_aaa = AAA_H / aaa["oh"]; m, _ = art_mouth(aaa, t_aaa, AAA_CY, 1.12)   # 12% wider so it reads at phone size (>=16 px wide at 200 px tall)
 b = blank(); bar(ImageDraw.Draw(b), AAA_CY - AAA_H / 2 + 10); mouths["aaa"] = over(done(b), m)
 # ooo: filled, rounder dark oval with a pink lower lip (colours sampled from the artist's aaa mouth)
-OW, OH_, OCY = 46, 56, CY_MID - 1
+OW, OH_, OCY = 33, 33, CY_MID - 1          # round, ~22 px at 2x: clearly smaller and rounder than mid
 b = blank(); d = ImageDraw.Draw(b); bar(d, OCY - OH_ / 2 + 10); ell(d, AX, OCY, OW, OH_, DARK)
-lip = blank(); ld = ImageDraw.Draw(lip); ell(ld, AX, OCY + OH_ / 2 - 11, OW * 0.66, 15, PINK)
+lip = blank(); ld = ImageDraw.Draw(lip); ell(ld, AX, OCY + OH_ / 2 - 8, OW * 0.66, 11, PINK)
 clip = blank(); ell(ImageDraw.Draw(clip), AX, OCY, OW, OH_, (255, 255, 255)); lip.putalpha(Image.fromarray(np.minimum(np.array(lip)[:, :, 3], np.array(clip)[:, :, 3])))
 b.alpha_composite(lip); mouths["ooo"] = done(b)
 # mmm: flat closed-lips line, a slight curve at most, stroke = the scaled nose-line weight
-LW, LY, LD = 74, CY_MID - 2, 4
+LW, LY, LD, LS = 74, CY_MID - 2, 2, 14      # LS: lip stroke (a touch heavier than the nose line so it reads at phone size)
+LIP = tuple(int(c * 0.82) for c in PH)       # dark lip colour, no pink
 b = blank(); d = ImageDraw.Draw(b); bar(d, LY)
 pts = [P(AX + (i / 24 - .5) * LW, LY + LD * (1 - (2 * i / 24 - 1) ** 2)) for i in range(25)]   # ends lifted by LD: gentle smile at most
-d.line(pts, fill=tuple(int(c) for c in PH) + (255,), width=int(PH_W * SS), joint="curve")
-for q in (pts[0], pts[-1]): d.ellipse((q[0] - PH_W * SS / 2, q[1] - PH_W * SS / 2, q[0] + PH_W * SS / 2, q[1] + PH_W * SS / 2), fill=tuple(int(c) for c in PH) + (255,))
+d.line(pts, fill=LIP + (255,), width=int(LS * SS), joint="curve")
+for q in (pts[0], pts[-1]): d.ellipse((q[0] - LS * SS / 2, q[1] - LS * SS / 2, q[0] + LS * SS / 2, q[1] + LS * SS / 2), fill=LIP + (255,))
 mouths["mmm"] = done(b)
 # ---- mouth box = union of every overlay + PAD, on the 3 px grid; never above the nostrils ----
 al_u = np.max([np.array(v)[:, :, 3] for v in mouths.values()], axis=0) > 8; ys, xs = np.where(al_u)

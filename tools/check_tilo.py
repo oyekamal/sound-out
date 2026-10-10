@@ -45,5 +45,9 @@ for n, v in m["talk"]["mouths"].items():
     inside = bot <= muz_bottom - 2; ok_all &= inside and top >= (362 - CROP[1]) * SC + 1
     print(f"{n}: @2x open/line w {w} h {h} (x{w/OW:.2f} / x{h/OH:.2f} of original)  centre ({cx:.1f},{cy:.1f}) dx {cx-OX:+.1f} dy {cy-OY:+.1f}  | whole overlay w {fw} h {fh}, top {top:.0f} bottom {bot:.0f} (muzzle bottom {muz_bottom:.0f})")
     print(f"     @200px-tall: open/line {w*DISP:.1f} x {h*DISP:.1f}, whole {fw*DISP:.1f} x {fh*DISP:.1f}")
+    if n == "mmm":
+        wide = mo.sum(1) > 20; ly = np.where(wide)[0]; lx = np.where(mo[wide].any(0))[0]
+        print(f"     mmm lip line @2x: {lx.max()-lx.min()+1} wide x {ly.max()-ly.min()+1} thick; @200px-tall {(lx.max()-lx.min()+1)*DISP:.1f} x {(ly.max()-ly.min()+1)*DISP:.1f}"); ok_all &= (lx.max() - lx.min() + 1) >= 34 and (ly.max() - ly.min() + 1) >= 8
+    if n == "ooo": ok_all &= abs(w - 22) <= 3
     if n == "mid": ok_all &= abs(w / OW - 1.5) <= .15 * 1.5 and abs(h / OH - 1.5) <= .15 * 1.5 and abs(cx - OX) <= 2 and abs(cy - OY) <= 3
 print("NUMERIC OK (mid 1.5x +-15%, centre within 2/3 px, all bottoms inside muzzle, nothing above the nostrils)" if ok_all else "NUMERIC CHECK FAILED")
