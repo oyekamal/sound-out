@@ -1,0 +1,88 @@
+<title>Sound Out Review Wall</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Lexend:wght@400;500&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: a contact sheet. Status strip, sticky section nav with a track filter, then phone-shaped shots in a grid per section. */
+:root{
+  --bg:#F5F1E8; --surface:#FFFDF8; --ink:#22201B; --muted:#6B6558; --line:#E2DACA;
+  --accent:#2E7193; --tilo:#C9813F; --good:#2F8A55; --warn:#B7791F; --bad:#B4432F;
+  --display:"Fredoka",ui-rounded,system-ui,sans-serif; --body:"Lexend",ui-sans-serif,system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#17150F; --surface:#221F18; --ink:#EEE8DA; --muted:#A39B8A; --line:#38332A;
+  --accent:#6DB3D6; --tilo:#E3A468; --good:#62C08A; --warn:#E3AA4E; --bad:#EE7B64; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#17150F; --surface:#221F18; --ink:#EEE8DA; --muted:#A39B8A; --line:#38332A;
+  --accent:#6DB3D6; --tilo:#E3A468; --good:#62C08A; --warn:#E3AA4E; --bad:#EE7B64; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:15px/1.55 var(--body)}
+.wrap{max-width:1240px;margin:0 auto;padding-inline:18px;padding-block:28px 72px;display:grid;gap:32px}
+h1,h2{font-family:var(--display);font-weight:600;margin:0;text-wrap:balance}
+h1{font-size:clamp(28px,5vw,42px)}
+h2{font-size:22px;display:flex;align-items:baseline;gap:10px}
+h2 small{font:500 12px var(--mono);color:var(--muted)}
+header{display:grid;gap:10px}
+header p{margin:0;color:var(--muted);max-width:68ch}
+.status{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px}
+.status div{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;display:grid;gap:2px;min-width:0}
+.status b{font:600 13px var(--body)} .status span{font-size:13px;color:var(--muted)}
+.status .ok b{color:var(--good)} .status .part b{color:var(--warn)} .status .no b{color:var(--bad)}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding-block:10px;display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center}
+.bar nav{display:flex;flex-wrap:wrap;gap:6px 14px;min-width:0}
+.bar a{color:var(--accent);font-size:13px;text-decoration:none}
+.bar a:hover{text-decoration:underline}
+.filter{display:flex;gap:4px;margin-left:auto}
+.filter button{font:500 12px var(--mono);padding:6px 10px;border-radius:99px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.filter button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+section{display:grid;gap:14px;scroll-margin-top:70px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:18px}
+.shot{margin:0;display:grid;gap:8px;align-content:start;min-width:0}
+.zoom{all:unset;cursor:zoom-in;display:block;border-radius:18px}
+.zoom:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.shot img{display:block;width:100%;height:auto;aspect-ratio:412/915;object-fit:cover;border-radius:18px;border:1px solid var(--line);background:var(--surface)}
+.miss{border:2px dashed var(--bad);border-radius:14px;padding:12px}
+figcaption{display:grid;gap:3px;font-size:13px;color:var(--muted)}
+figcaption b{color:var(--ink);font-weight:500}
+.tag{justify-self:start;font:500 11px var(--mono);padding:2px 7px;border-radius:99px;border:1px solid currentColor}
+.tA{color:var(--tilo)} .tB{color:var(--accent)} .t{color:var(--muted)}
+dialog{border:0;padding:0;background:transparent;max-width:min(94vw,520px)}
+dialog::backdrop{background:rgb(0 0 0 / .75)}
+dialog img{display:block;max-height:92vh;width:auto;max-width:100%;border-radius:20px}
+dialog p{color:#fff;font-size:14px;margin:8px 0 0}
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Sound Out Review Wall</h1>
+    <p>Fresh screenshots of the current build, taken at a 412×915 phone screen. {{COUNT}} shots; {{MISSING}} screens could not be reached and are marked with a red dashed border. Tap any shot to enlarge it.</p>
+    <div class="status">
+      <div class="ok"><b>Levels 1–7, both tracks</b><span>Built and walk-tested</span></div>
+      <div class="ok"><b>Tilo on the child track</b><span>13/13 screens pass; won 2 of 2 blind judges vs Duolingo ABC</span></div>
+      <div class="ok"><b>Teacher voice</b><span>106 clips, all pass</span></div>
+      <div class="ok"><b>Pictures</b><span>512 drawn; unclear ones swapped or labelled</span></div>
+      <div class="part"><b>Audio, Levels 2–7</b><span>71% voiced; top-up running</span></div>
+      <div class="part"><b>Store, a11y, offline</b><span>Agents running</span></div>
+      <div class="no"><b>Placement test</b><span>Not built yet</span></div>
+    </div>
+  </header>
+  <div class="bar">
+    <nav>{{NAV}}</nav>
+    <div class="filter" role="group" aria-label="Show track">
+      <button type="button" data-f="all" aria-pressed="true">All</button>
+      <button type="button" data-f="A" aria-pressed="false">Child</button>
+      <button type="button" data-f="B" aria-pressed="false">Grown-up</button>
+    </div>
+  </div>
+  {{BODY}}
+</div>
+<dialog id="lb"><img alt=""><p></p></dialog>
+<script>
+const lb=document.getElementById("lb");
+document.addEventListener("click",e=>{
+  const z=e.target.closest(".zoom");
+  if(z){const i=z.querySelector("img");lb.querySelector("img").src=i.src;lb.querySelector("img").alt=i.alt;lb.querySelector("p").textContent=i.alt;lb.showModal();return}
+  if(e.target.closest("dialog")) lb.close();
+  const f=e.target.closest(".filter button");
+  if(f){document.querySelectorAll(".filter button").forEach(b=>b.setAttribute("aria-pressed",b===f));
+    document.querySelectorAll(".shot").forEach(s=>{s.hidden=!(f.dataset.f==="all"||s.dataset.track===f.dataset.f||!s.dataset.track)});}
+});
+</script>
