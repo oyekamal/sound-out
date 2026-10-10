@@ -2,7 +2,7 @@
 // ({ result, correct, judged, bar, gate? }) that the session treats like "Show what you know".
 // Every judged pick below is an `.l1-opts .opt` card; the right one carries data-ok (the test driver reads it).
 import { play, wait, mark, stop } from '../audio.js';
-import { h, icon, btn } from '../ui.js';
+import { h, icon, btn, ICON } from '../ui.js';
 import { teacher } from '../teacher.js';
 import { oral, oralCheck } from './l1oral.js';
 import { names, bdpq } from './l1review.js';
@@ -23,8 +23,9 @@ export function choice(stage, cards, { test = false, autoplay = true, cls = 'two
   let first = null, tries = 0, resolve; const done = new Promise(r => { resolve = r; });
   const els = cards.map((c, i) => {
     const el = h('div', { class: 'opt', 'data-ok': c.ok ? '1' : null, 'data-id': c.id || null },
-      c.key ? h('button', { class: 'opt-play', 'aria-label': `Option ${i + 1}: play`, onclick: () => play(c.key) }, icon('speaker'), h('span', { class: 'n' }, String(i + 1))) : null,
-      c.body || null,
+      // the picture IS the tap-to-hear target (small speaker glyph in its corner); no picture = the big speaker button is the card
+      c.key && c.body ? h('button', { class: 'opt-play pic-play', 'aria-label': `Option ${i + 1}: play`, onclick: () => play(c.key) }, c.body, h('span', { class: 'pic-glyph', html: ICON.speaker }))
+        : c.key ? h('button', { class: 'opt-play', 'aria-label': `Option ${i + 1}: play`, onclick: () => play(c.key) }, icon('speaker')) : (c.body || null),
       btn(c.label || 'This one', c.icon ?? (c.say ? null : 'check'), { class: 'opt-pick', disabled: true, say: c.say || 'ui:thisOne' }));
     el.querySelector('.opt-pick').addEventListener('click', async () => {
       if (first === null) first = !!c.ok;

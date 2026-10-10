@@ -71,6 +71,12 @@ def main():
             else:
                 pg.evaluate(f"() => {{ window.__so.app.sitting('{lk}'); }}")   # not awaited: a sitting runs until its end screen
                 seen_scene = seen_q = False; deadline = time.time() + 120
+                try:   # the Listen intro starts by itself: it must carry one big, labelled play button under the scene
+                    pg.wait_for_selector(".intro-hero ~ .startplay", timeout=8000); pg.wait_for_function(LOADED); pg.screenshot(path=str(OUT / "0_listen_intro.png"))
+                    bb = pg.locator(".startplay").bounding_box()
+                    if not pg.locator(".startplay").get_attribute("aria-label"): problems.append("listen intro: play button has no aria-label")
+                    if bb["width"] < 64 or bb["height"] < 64: problems.append(f"listen intro: play button too small {bb}")
+                except Exception as e: problems.append(f"listen intro: no play button under the scene ({e.__class__.__name__})")
                 while time.time() < deadline and not seen_q:
                     if not seen_scene and pg.locator(".pics .picture").count() >= 3:
                         pg.wait_for_function(LOADED); time.sleep(0.3); pg.screenshot(path=str(OUT / "3_listen_story.png")); seen_scene = True

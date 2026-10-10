@@ -41,6 +41,9 @@ export function btn(label, name, attrs = {}) {
   return h('button', { ...attrs, 'data-say': say || null }, name ? icon(name, 'icon bi') : null, h('span', { class: 'bl' }, label));
 }
 
+// A large round play/replay button for intro screens that start by themselves: a big, obvious tap target.
+export const playButton = (onclick, label = 'Play') => h('button', { class: 'startplay', type: 'button', 'aria-label': label, 'data-say': 'ui:hearAgain', onclick }, icon('play'));
+
 // A speaker button: plays one clip (or a sequence via onplay) and pulses while playing.
 export function speaker(key, { label = 'Hear it again', big = false, onplay } = {}) {
   const b = h('button', { class: 'speaker' + (big ? ' big' : ''), 'aria-label': label, 'data-key': key || '' }, icon('speaker'));

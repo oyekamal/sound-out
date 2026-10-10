@@ -2,7 +2,7 @@
 // Then one Tier-2 word with its English meaning, then 2 spoken questions. The questions have no authored answer options, so nothing is graded or praised:
 // the learner talks about it out loud and taps the arrow.
 import { play, wait, mark } from '../audio.js';
-import { h, speaker, picture, icon } from '../ui.js';
+import { h, speaker, picture, icon, playButton } from '../ui.js';
 import { teacher } from '../teacher.js';
 import { tilo } from '../tilo.js';
 
@@ -14,8 +14,9 @@ export async function listen(ctx) {
   const pics = h('div', { class: 'pics story' });
   // the first scene fills the room under the title while Tilo introduces the story (no dead space); it hands over to the story grid below
   const first = picture(`scene:${lid}:0`); const hero = first ? h('div', { class: 'intro-hero' }, first) : null;
-  s.append(h('h2', {}, li.title || 'Listen'), h('p', { class: 'muted' }, 'You don\'t need to read this. Just listen.'), ...(hero ? [hero] : []), pics);
+  s.append(h('h2', {}, li.title || 'Listen'), h('p', { class: 'muted' }, 'You don\'t need to read this. Just listen.'), ...(hero ? [hero, playButton(() => teacher.replay(), 'Play the story introduction')] : []), pics);
   await ctx.instruct('ui:listenIntro', { nudge: 'ui:idleTap' });
+  s.querySelector('.startplay')?.remove();
   ctx.endBeat();   // Tilo's intro is done; the story pictures need the room, so he goes back to the header
   if (ctx.hasClip(`lt:${lid}:title`)) await play(`lt:${lid}:title`);
   for (let i = 0; ctx.hasClip(`lt:${lid}:${i}`); i++) {

@@ -94,7 +94,7 @@ canvas.trace { width: min(300px, 80vw); aspect-ratio: 1; background: var(--card)
 .opt { background: var(--card); border-radius: 18px; box-shadow: var(--shadow); padding: 10px; display: grid; gap: 8px; justify-items: center; border: 3px solid transparent; transition: border-color .2s, background .2s; }
 .opt.hl { border-color: var(--hl); background: #fff8df; } .opt.right { border-color: var(--good); background: #e9f5eb; } .opt.wrong { border-color: var(--bad); background: #fbe9e5; }
 .opt-play { width: 70px; height: 70px; border-radius: 50%; border: 0; background: var(--paper); color: var(--accent); display: grid; place-items: center; position: relative; }
-.opt-play svg { width: 34px; height: 34px; } .opt-play .n { position: absolute; bottom: -2px; right: -2px; font-size: .75rem; background: var(--accent); color: #fff; border-radius: 99px; width: 20px; height: 20px; display: grid; place-items: center; }
+.opt-play svg { width: 34px; height: 34px; }
 .opt-pick { border: 0; border-radius: 99px; background: var(--accent); color: #fff; padding: 9px 14px; font-weight: 650; width: 100%; min-height: 44px; }
 .timer { width: 100%; height: 6px; background: var(--line); border-radius: 9px; overflow: hidden; } .timer i { display: block; height: 100%; background: var(--accent); animation: shrink linear forwards; width: 100%; }
 @keyframes shrink { to { width: 0; } }
@@ -250,10 +250,19 @@ button:focus:not(:focus-visible), a:focus:not(:focus-visible) { outline: none; }
 .beat .tilo-bubble::before { top: calc(50% - 7px); left: -9px; }
 .screen:has(> .options) > .speaker.big { margin-block: auto; }   /* the speaker sits in the middle of the free space, the cards stay low */
 
-/* ---- answer-card check buttons: ONE disabled look (soft grey, while pending / voice speaking / after the pick) and ONE enabled look (accent) ---- */
-.opt-pick:disabled, .ghost-pick { background: #b4bfc6; color: #fff; opacity: 1; }
-.opt-pick:not(:disabled) { background: var(--accent); }
-.track-B .opt-pick:disabled, .track-B .ghost-pick { background: #b8bec4; }
+/* ---- answer-card check buttons: ONE waiting look (accent, dimmed, while pending / voice speaking / after the pick) and ONE enabled look (solid accent, bold) ---- */
+.opt-pick:disabled, .ghost-pick { background: var(--accent); color: #fff; opacity: .35; box-shadow: none; }
+.opt-pick:not(:disabled) { background: var(--accent); color: #fff; opacity: 1; box-shadow: 0 3px 0 rgba(0, 0, 0, .28); }
+.opt-pick svg { stroke-width: 3.5; }
+/* the picture is the tap-to-hear target: a small speaker glyph sits in its corner (no number badge, no separate speaker circle) */
+.opt-play.pic-play { width: 100%; height: auto; border-radius: 14px; background: none; box-shadow: none; padding: 0; position: relative; display: block; color: inherit; }
+.pic-play .picture { width: 100%; max-width: 120px; margin: 0 auto; } .pic-play .pic-lab .picture { max-width: 104px; }
+.pic-glyph { position: absolute; top: 4px; right: 4px; width: 30px; height: 30px; border-radius: 50%; background: var(--accent); color: #fff; display: grid; place-items: center; box-shadow: 0 1px 4px rgba(0, 0, 0, .3); }
+.pic-glyph svg { width: 18px; height: 18px; }
+@media (max-height: 700px) { .pic-play .picture { max-width: 96px; } .pic-play .pic-lab .picture { max-width: 84px; } }
+.startplay { flex: none; width: 96px; height: 96px; margin: 6px auto; border-radius: 50%; border: 0; background: var(--accent); color: #fff; box-shadow: var(--shadow); display: grid; place-items: center; }
+.startplay svg { width: 46px; height: 46px; margin-left: 5px; }
+@media (max-height: 700px) { .startplay { width: 76px; height: 76px; } .startplay svg { width: 36px; height: 36px; } }
 /* an ambiguous word keeps its picture; the small printed word sits under it */
 .pic-lab { width: 100%; display: flex; flex-direction: column; align-items: center; gap: 2px; }
 .pic-lab .picture { width: 100%; max-width: 104px; }

@@ -1,6 +1,6 @@
 // Runs one sitting: a list of steps from the lesson JSON (appSittings), then the mini check and rewards.
 import { play, stop, mark, has } from './audio.js';
-import { h, icon, btn, village, STICKERS } from './ui.js';
+import { h, icon, btn, village, STICKERS, playButton } from './ui.js';
 import { tilo } from './tilo.js';
 import { teacher } from './teacher.js';
 import * as db from './db.js';
@@ -63,6 +63,8 @@ export async function runSitting(app, profile, key) {
     // ("halfway", "last one") goes in front of the first prompt of its step.
     async instruct(k, opts) {
       if (root.classList.contains('has-beat') && root.getBoundingClientRect().height > window.innerHeight + 1) ctx.endBeat();   // a full screen (answer cards) has no room for a big Tilo: he goes back to the header
+      // the first screen of a sitting that starts by itself and has no visible control gets one big play/replay button
+      if (!ctx.startShown) { ctx.startShown = true; const sc = body.querySelector('.screen'); if (sc && !sc.querySelector('.speaker, .options, .lettercard, canvas, .startplay, .btn')) sc.append(playButton(() => teacher.replay(), 'Play the instructions')); }
       const pre = ctx.pre; ctx.pre = null;
       const keys = [...(pre ? [`ui:${pre}`] : []), ...(Array.isArray(k) ? k : [k])];
       return teacher.prompt(keys, { nudge: NUDGE[String(ctx.step).split('-')[0]] || 'ui:idlePick', ...opts });

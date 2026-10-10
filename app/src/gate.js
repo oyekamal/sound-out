@@ -77,7 +77,7 @@ export async function gate(ctx, w, kind, { windowMs = 40000 } = {}) {   // 40 s:
     const picked = new Promise(r => { pick = r; });
     const cards = order.map((opt, i) => {
       const card = h('div', { class: 'opt', 'data-cell': opt.cell, 'data-w': opt.w, 'data-ipa': opt.ipa },
-        h('button', { class: 'opt-play', 'aria-label': `Option ${i + 1}: play`, onclick: () => play(`ipa:${opt.ipa}`) }, icon('speaker'), h('span', { class: 'n' }, String(i + 1))),
+        h('button', { class: 'opt-play', 'aria-label': `Option ${i + 1}: play`, onclick: () => play(`ipa:${opt.ipa}`) }, icon('speaker')),
         btn('This one', 'check', { class: 'opt-pick', disabled: true, say: 'ui:thisOne', onclick: () => pick(opt) }));
       return card;
     });
