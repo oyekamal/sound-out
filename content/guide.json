@@ -1,0 +1,167 @@
+{
+  "id": "grownup-guide",
+  "version": 1,
+  "title": "Grown-up guide",
+  "intro": "You do not need to know phonics. You only need to sit near, stay calm, and let the learner tap.",
+  "sections": {
+    "start_here": {
+      "title": "Start here",
+      "minute": true,
+      "tips": [
+        "Say the sound, not the letter name. Say \"sss\" for s, not \"ess\".",
+        "Keep each sound short and clean. Do not add \"uh\" at the end.",
+        "Short and daily beats long and rare. Stop while the learner still wants more.",
+        "Let the learner tap and answer. Do not answer for them.",
+        "Praise the effort: \"You sounded that out!\" A wrong tap is not a problem.",
+        "Come back tomorrow. The first thing the app does is ask about yesterday's sounds.",
+        "No picture is shown next to a word before it is read. This is on purpose, so the learner reads the letters."
+      ]
+    },
+    "how_a_sitting_works": {
+      "title": "How a sitting works",
+      "intro": "One sitting teaches one new sound. A child's sitting aims for 8 minutes or less. A grown-up learner's sitting aims for 10 to 15 minutes.",
+      "steps": [
+        "Warm-up. The app asks about yesterday's sounds.",
+        "Hear it. The learner listens to the new sound.",
+        "Meet it. The learner sees the letter that makes the sound.",
+        "Blend it. The learner slides the sounds together to read a word.",
+        "Spell it. The learner builds the word with letter tiles.",
+        "Tricky words. A few words break the rules. The app shows which part is odd.",
+        "Read it. The learner reads a short text with simple questions.",
+        "Listen & Talk. The app reads a short passage aloud, then asks questions.",
+        "Check. A short check at the end shows if the sound has stuck."
+      ],
+      "when_to_stop": [
+        "The learner is tired, silly, or says \"no\". Stop and say \"We will finish tomorrow.\"",
+        "You have done one sitting. Free play and stories are fine after it, but a second new sound on the same day is not needed.",
+        "A check was missed. Do not worry. The app brings those sounds back. Nothing is lost, and there are no streaks."
+      ]
+    },
+    "helping_without_the_answer": {
+      "title": "Helping without giving the answer",
+      "do": [
+        "Wait. Count to five in your head before you say anything.",
+        "Point under the letters and slide your finger left to right while the learner blends.",
+        "Ask them to say the sounds one by one, then say them fast.",
+        "Praise what they did: pointing, trying, sounding out."
+      ],
+      "dont": [
+        "Do not tell the answer or tap for them.",
+        "Do not say \"guess\" or \"look at the picture\". A guessing habit makes reading harder.",
+        "Do not say \"wrong\". Say \"Check it again with me.\"",
+        "Do not compare with a sibling or a classmate."
+      ],
+      "phrases": [
+        { "when": "Stuck on a word", "say": "Point to each sound. Say the sounds. Now slide them together." },
+        { "when": "A wrong tap", "say": "Check it again with me. What sound does this letter make?" },
+        { "when": "After a right answer", "say": "You sounded it out. That is real reading." },
+        { "when": "They freeze", "say": "Take your time. I am right here." },
+        { "when": "Time to stop", "say": "Great work. We will finish tomorrow." }
+      ],
+      "after_reading": "Once the word is read, it is fine to ask \"Does that make sense?\" Ask it after the word, never to find the word."
+    },
+    "levels": {
+      "title": "Level by level",
+      "note": "Each off-screen activity takes about two minutes and needs no paper. Move on when the check is passed and most of the signs below are true. If your app version does not show a level yet, it arrives in an update.",
+      "items": [
+        {
+          "id": "L1", "name": "First Sounds",
+          "learns": "The sound of each letter, one at a time, starting with s, a, t. Then blending short words such as sat, pin and mud. A few tricky words such as a, I, the and is.",
+          "offscreen": "Sound game. Say a word slowly: \"s-u-n\". The learner says it fast: \"sun\". Then swap: the learner says the sounds and you say the word.",
+          "ready": "The learner says each sound at once when they see the letter. They read short real words and made-up words, and they pass the Level 1 check."
+        },
+        {
+          "id": "L2", "name": "Sounds Together",
+          "learns": "Two letters that make one sound (sh, ch, th, ng). Letter groups at the start and end of words (stop, jump, strap). Endings -s, -ed and -ing. Two small words joined into one (sunset).",
+          "offscreen": "Sound hunt. Pick a sound, such as sh. Find things around you that start with it: shoe, shelf, shirt. Take turns.",
+          "ready": "They read words like ship, stand and jumping without stopping at each letter. They pass the Level 2 check."
+        },
+        {
+          "id": "L3", "name": "Long Vowels",
+          "learns": "A silent e that changes the vowel (hop, hope). Vowel pairs such as ai, ee, oa and igh. Soft c and g. ar and or.",
+          "offscreen": "Word swap. Say \"hop\". Add a silent e and say \"hope\". Ask: what changed? Try cap and cape, kit and kite.",
+          "ready": "They hear the difference between hop and hope, and read both. They read words like rain, feet and light. They pass the Level 3 check."
+        },
+        {
+          "id": "L4", "name": "Longer Words",
+          "learns": "More vowel patterns (er, oi, ou, aw). Silent letters (knee, write). Breaking long words into parts. A routine for any long word: mark it, peel off the ends, chunk it, blend it, then flex the sounds if it sounds odd.",
+          "offscreen": "Chunk it. Find a long word on a packet or sign. Clap its parts (gar-den). Read each part, then say the whole word.",
+          "ready": "They try a long, new word in chunks without help. They read a simple sign or label. They pass the Level 4 check."
+        },
+        {
+          "id": "L5", "name": "Word Power",
+          "learns": "Word pieces: prefixes such as un- and re-, endings such as -ly and -ful, and a few roots. Short texts on water, money and the heart.",
+          "offscreen": "Add a piece. Start with \"happy\". Add un-. What does it mean now? Try lock and unlock.",
+          "ready": "They work out a new word from its pieces. They read a short text smoothly and say what it was about."
+        },
+        {
+          "id": "L6", "name": "Reading to Learn",
+          "learns": "Longer texts about the body, water, money and history. How a text is built. Checking who wrote a page.",
+          "offscreen": "Tell it back. Read one paragraph from a label or news item. Ask the learner to tell you the main point in two sentences.",
+          "ready": "They state the main idea, and one cause and one effect, in their own words."
+        },
+        {
+          "id": "L7", "name": "Advanced and Critical",
+          "learns": "Reading like a historian, reading a science article, judging an argument, and reading a contract or policy.",
+          "offscreen": "Question a claim. Take one claim from a news item. Ask: who says this, and what is the proof?",
+          "ready": "They can state a claim, give its reasons, and say what is missing."
+        }
+      ]
+    },
+    "saying_the_sounds": {
+      "title": "Saying the sounds",
+      "intro": "Say the sound alone, short and clean. Letter names come later and are labels only. The app shows both.",
+      "rows": [
+        { "sound": "s", "say_like": "A snake hiss, \"sss\". Teeth together, air only.", "tip": "No voice." },
+        { "sound": "m", "say_like": "A hum, \"mmm\", with lips closed.", "tip": "Feel the buzz on your lips." },
+        { "sound": "f", "say_like": "Top teeth on the bottom lip, blow, \"fff\".", "tip": "No buzz." },
+        { "sound": "b", "say_like": "Lips pop apart with voice on, as in \"bat\".", "tip": "Say it quick. Say \"pat\" then \"bat\" to feel the difference." },
+        { "sound": "d", "say_like": "Tongue taps behind the top teeth, voice on, as in \"dog\".", "tip": "Hand on throat: you feel a buzz. For t you do not." },
+        { "sound": "g", "say_like": "Back of the tongue taps, voice on, as in \"got\".", "tip": "It is the voiced partner of k." },
+        { "sound": "a", "say_like": "Mouth drops open, as in \"apple\".", "tip": "Jaw relaxed." },
+        { "sound": "e", "say_like": "Mouth a little open, as in \"egg\".", "tip": "Close to i, so listen for it." },
+        { "sound": "i", "say_like": "A small smile, as in \"it\".", "tip": "Keep it short." },
+        { "sound": "o", "say_like": "Lips a little round, as in \"on\".", "tip": "Not the same as a." },
+        { "sound": "u", "say_like": "Mouth relaxed, a quick flat sound, as in \"up\".", "tip": "Close to o." },
+        { "sound": "v and w", "say_like": "v: top teeth touch the lip and you buzz, as in \"van\". w: round lips, as in \"wet\".", "tip": "Many languages mix these two. Watch the lips." },
+        { "sound": "th", "say_like": "Tongue tip between the teeth, blow gently.", "tip": "You feel air, not a stop." }
+      ]
+    },
+    "teachers": {
+      "title": "For teachers and groups",
+      "points": [
+        "One phone, small group. Three or four learners is a good size. Sit so everyone can see and hear the screen.",
+        "Take turns by sitting. One learner taps for the whole sitting. Everyone else says the sounds quietly with them.",
+        "When a learner makes a mistake, do not let others call out. Say \"Check it again with me\" to the group.",
+        "Each learner should have their own profile. Use \"Who is reading?\" on the home screen to switch. Progress stays separate.",
+        "Check progress on the home screen. A child profile shows the days practised, the village that grows with each sound, and stickers. A grown-up profile shows lessons, the words the learner can read now, and the words to remember.",
+        "A lesson marked \"checked\" means the check was passed. \"Still learning\" means the app will bring those sounds back. Neither is a grade.",
+        "The grown-up settings can remove the countdown on the Level 1 reading check. Tap \"For grown-ups\" on the home screen and answer the sum.",
+        "Learners of different levels can share one phone. Each moves on at their own speed."
+      ]
+    },
+    "grown_up_learners": {
+      "title": "Grown-up learners (Track B)",
+      "points": [
+        "Reading is a skill. Not having learned it earlier says nothing about intelligence.",
+        "Track B has no mascot or child-style art. The words come from work, money, family, health, the phone and the market.",
+        "Let the learner set the pace and decide when to stop. Offer help only when they ask or freeze for more than a few seconds.",
+        "Never say \"baby words\" or show surprise at a gap. Call made-up words \"practice words\".",
+        "If someone thinks they know a level, let them take its check first. If they pass, they move on."
+      ]
+    },
+    "faq": {
+      "title": "Questions",
+      "items": [
+        { "q": "My child guesses.", "a": "Wait, then say \"Point to each sound. Say the sounds. Slide them together.\" The app also uses made-up words, so guessing from the picture does not work." },
+        { "q": "They already know letter names.", "a": "That is useful, but reading needs the sounds. The app teaches the sound first and shows the name as a label. Let them say the sound each time." },
+        { "q": "They are stuck on a level.", "a": "Go back one sound and practise it with the off-screen game. Do the check again tomorrow. Changing the pace is fine." },
+        { "q": "How much screen time?", "a": "One sitting a day is enough. Free play is optional. Stop when attention drops. Screen time is your choice." },
+        { "q": "What about accents?", "a": "Any accent is fine. Say the sounds the way you say them. The app's voice is one way to say them, not the only way." },
+        { "q": "Can I sit with them or should I leave?", "a": "Sit nearby for the first few days. Then stay in the room and let them lead." },
+        { "q": "They ask for \"one more\".", "a": "After the new-sound sitting, review or stories are fine. If you stop, say \"We will finish tomorrow.\" That is the rule the app follows too." },
+        { "q": "Does the app need internet or an account?", "a": "No. It works offline. It has no account, ads or tracking. Progress stays on this phone." }
+      ]
+    }
+  }
+}
