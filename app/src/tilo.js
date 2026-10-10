@@ -14,7 +14,7 @@ const POSES = ['idle', 'listening', 'encouraging', 'celebrating', 'speaking'];
 const FLAP = ['mid', 'aaa', 'mid', 'mmm', 'aaa', 'mid'];   // no 'ooo': a round 'o' with a raised arm read as shock in the critic round
 const reduced = () => !!window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
 
-const st = { homeHost: null, track: null, mood: 'idle', emote: null, emoteKey: null, pinned: null, speaking: false, mouth: 'mid', offT: 0, emoteT: 0, flapT: 0, host: null };
+const st = { beat: null, homeHost: null, track: null, mood: 'idle', emote: null, emoteKey: null, pinned: null, speaking: false, mouth: 'mid', offT: 0, emoteT: 0, flapT: 0, host: null };
 let el = null, stage = null, bubble = null; const bodies = {}, mouths = {};
 
 function img(src, cls) { const i = new Image(); i.className = cls; i.alt = ''; i.decoding = 'async'; i.src = BASE + src; return i; }
@@ -69,8 +69,10 @@ function bubbleText() {
 }
 function renderBubble(on) {
   if (!bubble) return;
-  const hdr = st.host?.closest?.('header.hdr') || null;
-  const text = on && st.track === 'A' && hdr ? bubbleText() : '';
+  // a lesson beat (big Tilo in the body): the bubble sits beside him and stays up for the whole screen
+  const beat = st.beat && st.beat.box.isConnected ? st.beat : null;
+  const hdr = beat ? beat.box : (st.host?.closest?.('header.hdr') || null);
+  const text = st.track !== 'A' || !hdr ? '' : beat ? beat.text : (on ? bubbleText() : '');
   if (text) { if (bubble.parentNode !== hdr) hdr.append(bubble); bubble.textContent = text; bubble.classList.add('on'); }
   else bubble.classList.remove('on');
 }
@@ -107,9 +109,13 @@ export const tilo = {
   // a new screen: back in the corner, calm, nothing pinned
   screen() {
     if (!el) build();
-    st.uiKey = false; st.mood = 'idle'; st.emote = null; st.emoteKey = null; st.pinned = null; clearTimeout(st.emoteT);
+    st.beat = null; st.uiKey = false; st.mood = 'idle'; st.emote = null; st.emoteKey = null; st.pinned = null; clearTimeout(st.emoteT);
     tilo.dock(st.homeHost && st.homeHost.isConnected ? st.homeHost : null); render();
   },
+  // lesson beat (intro / demo screens): Tilo big in the body, `box` = the .beat wrapper that holds `slot` and the bubble. Lasts until the next screen().
+  beat(slot, box, text) { if (!el) build(); st.beat = { box, text }; tilo.dock(slot); render(); },
+  // the beat is over (the story starts, or the screen is too full to hold a big Tilo): back to the header, same screen
+  endBeat() { if (!st.beat) return; st.beat = null; tilo.dock(st.homeHost && st.homeHost.isConnected ? st.homeHost : null); render(); },
   // a persistent spot for this screen group (the sitting header); mount() clears it
   setHome(host) { st.homeHost = host; if (host) tilo.dock(host); },
   // put Tilo inside a host element (Home hero, end screen) or back in the fixed corner (null)

@@ -47,7 +47,7 @@ def run_all(br, problems, url, levels=(5, 6, 7)):
         problems.append("[S] practice levels open before the Level 4 check")
     if not page.locator(".ss-practice .ss-libbtn").count(): problems.append("[S] no Library entry on Home")
     page.click(".ss-practice .ss-libbtn"); page.wait_for_selector(".ss-library")
-    page.evaluate("window.__so.trace.length = 0; window.__so.missing.length = 0")   # audit only what the L5-7 screens ask for
+    page.evaluate("() => { window.__so.trace.length = 0; window.__so.missing.length = 0; }")   # audit only what the L5-7 screens ask for
     page.screenshot(path=str(SHOTS / "S_01_library.png"), full_page=True)
 
     def check_speakers(lid):
@@ -132,7 +132,7 @@ def act(page):
             return
         for c in page.locator(".ss-chip:not(.done)").all()[:2]: c.click()
     if step == "ss-fluency" and page.locator(".ss-start").is_visible() and page.inner_text(".ss-start") == "Start 1-minute read":
-        page.click(".ss-start"); page.wait_for_function("document.querySelector('.ss-pace').textContent.startsWith('Time')", timeout=8000)
+        page.click(".ss-start"); page.wait_for_function("() => document.querySelector('.ss-pace').textContent.startsWith('Time')", timeout=8000)
         page.screenshot(path=str(SHOTS / "S_fluency-pick.png"))
         page.locator(".ss-w").nth(min(9, page.locator(".ss-w").count() - 1)).click(); time.sleep(0.2)
         if "words" not in page.inner_text(".ss-pace"): raise AssertionError("pace not shown")

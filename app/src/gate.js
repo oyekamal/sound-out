@@ -41,7 +41,7 @@ async function demo(ctx, w) {
   const cand = Object.keys(options).find(k => k !== w.toLowerCase() && entry(k)?.kind === 'real' && entry(k).g.every(g => known.has(g)) && has(`w:${k}`));
   try { localStorage.setItem(key, '1'); } catch { /* ignore */ }
   if (!cand) return;
-  const stage = ctx.stage();
+  const stage = ctx.stage({ beat: "Let's do one together!" });
   const box = printedWord(cand, 'real', ctx.track);
   stage.append(h('p', { class: 'prompt' }, "Let's do one together."), box);
   mark('gate-demo', { word: cand });

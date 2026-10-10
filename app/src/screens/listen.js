@@ -8,10 +8,11 @@ import { tilo } from '../tilo.js';
 
 export async function listen(ctx) {
   const li = ctx.lesson.listen; const lid = ctx.lesson.id;
-  const s = ctx.stage();
+  const s = ctx.stage({ beat: "Let's listen to a story!" });
   const pics = h('div', { class: 'pics story' });
   s.append(h('h2', {}, li.title || 'Listen'), h('p', { class: 'muted' }, 'You don\'t need to read this. Just listen.'), pics);
   await ctx.instruct('ui:listenIntro', { nudge: 'ui:idleTap' });
+  ctx.endBeat();   // Tilo's intro is done; the story pictures need the room, so he goes back to the header
   if (ctx.hasClip(`lt:${lid}:title`)) await play(`lt:${lid}:title`);
   for (let i = 0; ctx.hasClip(`lt:${lid}:${i}`); i++) {
     await play(`lt:${lid}:${i}`);

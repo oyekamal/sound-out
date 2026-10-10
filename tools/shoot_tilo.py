@@ -114,6 +114,24 @@ def main():
                 pg.wait_for_function("[...document.querySelectorAll('.nudge, .ear.attn')].some(e => +(getComputedStyle(e).outlineColor.match(/[\\d.]+/g)[3] ?? 1) > .35)", timeout=6000)   # shoot at the halo's peak (it pulses)
                 shot(pg, "A_idle_hint"); pg.evaluate("window.__so.teacher.clearHints()"); time.sleep(0.5); shot(pg, "A_idle")
                 if pg.evaluate("document.querySelector('.nudge, .ear.attn')"): problems.append("a hint ring is still on after clearHints")
+            # ---- the lesson beat: big Tilo in the body with his bubble (Listen intro), the header Tilo hidden so there is never a second one
+            pg = newpage(); onboard(pg, "A")
+            pg.evaluate("() => { window.__so.app.home(); }"); pg.wait_for_selector(".home .node", timeout=8000)
+            keys = pg.evaluate("[...document.querySelectorAll('.home .node[data-key]')].map(n => [n.dataset.key, n.textContent.trim()])")
+            lk = next((k for k, t in keys if k.startswith("L1.01:") and "Listen" in t), None)
+            if not lk: problems.append(f"no Listen node for the lesson beat in {keys[:6]}")
+            else:
+                pg.evaluate(f"() => {{ window.__so.app.sitting('{lk}'); }}")
+                try: pg.wait_for_selector(".beat .tilo-bubble.on", timeout=20000)
+                except Exception: problems.append("lesson beat never appeared on the Listen intro")
+                else:
+                    time.sleep(0.5)
+                    w = pg.evaluate("document.querySelector('.beat .tilo').getBoundingClientRect().width")
+                    if not 140 <= w <= 180: problems.append(f"beat Tilo is {w:.0f}px wide, want 140-180")
+                    n = pg.evaluate("[...document.querySelectorAll('.tilo')].filter(e => !e.hidden && e.offsetParent !== null).length")
+                    if n != 1: problems.append(f"{n} Tilos visible during the beat, want exactly 1")
+                    if pg.evaluate("document.querySelector('.sitting').getBoundingClientRect().height > window.innerHeight + 1"): problems.append("lesson beat screen overflows 360x640")
+                    shot(pg, "A_lesson_beat")
             # ---- Home (Tilo in the hero) and the end-of-sitting hero
             pg.evaluate("window.__so.app.home()"); pg.wait_for_selector(".home .tilo-slot .tilo"); time.sleep(0.5)
             pg.screenshot(path=str(OUT / "A_home.png"))

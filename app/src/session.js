@@ -48,10 +48,21 @@ export async function runSitting(app, profile, key) {
   let stepN = 0; const totalSteps = sitting.steps.length;
   const ctx = {
     track, lesson, sitting, profile,
-    stage() { teacher.newScreen(); body.replaceChildren(); foot.replaceChildren(); const s = h('div', { class: 'screen', 'data-step': ctx.step || '' }); body.append(s); return s; },
+    // opts.beat = a line for Tilo's speech bubble: Track A shows him big in the body beside it (intro / demo screens); the first screen of every sitting is one too.
+    // The header Tilo hides while a beat is up (root.has-beat), so there are never two. Track B has no mascot, so no beat.
+    endBeat() { root.classList.remove('has-beat'); root.querySelector('.beat')?.remove(); tilo.endBeat(); },
+    stage(opts = {}) {
+      teacher.newScreen(); body.replaceChildren(); foot.replaceChildren();
+      const s = h('div', { class: 'screen', 'data-step': ctx.step || '' }); body.append(s);
+      const line = track === 'A' ? (opts.beat || (ctx.beaten ? null : "Let's begin!")) : null; ctx.beaten = true;
+      root.classList.toggle('has-beat', !!line);
+      if (line) { const slot = h('div', { class: 'tilo-slot' }); const box = h('div', { class: 'beat' }, slot); s.append(box); tilo.beat(slot, box, line); }
+      return s;
+    },
     // say what to do (then the stimulus); the ear button and the idle ladder say it again. A pending arc line
     // ("halfway", "last one") goes in front of the first prompt of its step.
     async instruct(k, opts) {
+      if (root.classList.contains('has-beat') && root.getBoundingClientRect().height > window.innerHeight + 1) ctx.endBeat();   // a full screen (answer cards) has no room for a big Tilo: he goes back to the header
       const pre = ctx.pre; ctx.pre = null;
       const keys = [...(pre ? [`ui:${pre}`] : []), ...(Array.isArray(k) ? k : [k])];
       return teacher.prompt(keys, { nudge: NUDGE[String(ctx.step).split('-')[0]] || 'ui:idlePick', ...opts });
