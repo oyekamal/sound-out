@@ -75,3 +75,5 @@ BLOCKED: L2–L7 content audio (~360k ElevenLabs chars) = Kamal top-up decision;
   (e) a demonstrated trace stroke, and the L1.01 "how many sounds" demo;
   (f) locked Home nodes can't be held to hear;
   (g) the 106 new teacher clips are UNLISTENED → an audio critic (Whisper intelligibility + carrier joins like "This letter says" + sound) before release.
+
+- 2026-10-10 15:00 — Teacher audio critic DONE (0e6c270): 106/106 pass, 0 re-renders. Ear-check later: tipQ, qNote, teachBlend. Item "re-render flagged clips" in app-code lane = nothing to do.
