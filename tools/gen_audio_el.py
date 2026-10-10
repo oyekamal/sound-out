@@ -386,6 +386,11 @@ def build():
         if cid not in rules: rules[cid] = enc(raw[key], cid, force_rms=key.startswith("ph:"))
         d, rule = rules[cid]
         index[key] = {"id": cid, "dur": d}
+    # decision 30: carry over L2-L7 clips from tools/gen_audio_local.py / gen_audio_hard.py (src='local'|'elevenlabs') so a rebuild never deletes them
+    prev_p = C / "audio_index.json"
+    if prev_p.exists():
+        for k, v in json.loads(prev_p.read_text()).get("clips", {}).items():
+            if v.get("src") and k not in index: index[k] = v
     keep = {f"{v['id']}.ogg" for v in index.values()}
     for n in old - keep: (OUT / n).unlink()
     # shipped isolated sounds: measure what the app actually plays

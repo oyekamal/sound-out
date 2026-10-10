@@ -1,0 +1,9747 @@
+{
+ "voice": "SAz9YHcvj6GT2YYXdXww",
+ "cap": 6000,
+ "already_spent": 0,
+ "new_chars": 5997,
+ "rows": [
+  {
+   "key": "ph:sh",
+   "group": "iso L2",
+   "requests": [
+    "Shhhh.",
+    "Shhhhhh.",
+    "Sh."
+   ],
+   "chars": 17,
+   "kind": "iso",
+   "pid": "sh",
+   "ipa": "ʃ"
+  },
+  {
+   "key": "ph:uh",
+   "group": "iso L2",
+   "requests": [
+    "ʊ.",
+    "ʊ...",
+    "/ʊ/"
+   ],
+   "chars": 9,
+   "kind": "iso",
+   "pid": "uh",
+   "ipa": "ʊ"
+  },
+  {
+   "key": "ph:dh",
+   "group": "iso L2",
+   "requests": [
+    "Dhhhh.",
+    "Thhhh, the.",
+    "Thuh."
+   ],
+   "chars": 22,
+   "kind": "iso",
+   "pid": "dh",
+   "ipa": "ð"
+  },
+  {
+   "key": "ph:ch",
+   "group": "iso L2",
+   "requests": [
+    "Ch.",
+    "Chuh.",
+    "[whispers] ch."
+   ],
+   "chars": 22,
+   "kind": "iso",
+   "pid": "ch",
+   "ipa": "ʧ"
+  },
+  {
+   "key": "ph:ah-z",
+   "group": "iso L2",
+   "requests": [
+    "Uz.",
+    "Uzz.",
+    "Uhz."
+   ],
+   "chars": 11,
+   "kind": "iso",
+   "pid": "ah-z",
+   "ipa": "ʌz"
+  },
+  {
+   "key": "ph:er",
+   "group": "iso L2",
+   "requests": [
+    "Er.",
+    "Err.",
+    "Urr."
+   ],
+   "chars": 11,
+   "kind": "iso",
+   "pid": "er",
+   "ipa": "ɝ"
+  },
+  {
+   "key": "ph:th",
+   "group": "iso L2",
+   "requests": [
+    "Thhhh.",
+    "Thhhhhh.",
+    "Th."
+   ],
+   "chars": 17,
+   "kind": "iso",
+   "pid": "th",
+   "ipa": "θ"
+  },
+  {
+   "key": "ph:ng",
+   "group": "iso L2",
+   "requests": [
+    "Ngngng.",
+    "Ng.",
+    "Nggg."
+   ],
+   "chars": 15,
+   "kind": "iso",
+   "pid": "ng",
+   "ipa": "ŋ"
+  },
+  {
+   "key": "ph:y-uw",
+   "group": "iso L2",
+   "requests": [
+    "You.",
+    "Yoo.",
+    "Yew."
+   ],
+   "chars": 12,
+   "kind": "iso",
+   "pid": "y-uw",
+   "ipa": "ju"
+  },
+  {
+   "key": "ph:aw",
+   "group": "iso L2",
+   "requests": [
+    "Ow.",
+    "Ow!",
+    "Owww."
+   ],
+   "chars": 11,
+   "kind": "iso",
+   "pid": "aw",
+   "ipa": "aʊ"
+  },
+  {
+   "key": "ph:ng-k",
+   "group": "iso L2",
+   "requests": [
+    "Ngk.",
+    "Nk.",
+    "Ank."
+   ],
+   "chars": 11,
+   "kind": "iso",
+   "pid": "ng-k",
+   "ipa": "ŋk"
+  },
+  {
+   "key": "ph:uw",
+   "group": "iso L2",
+   "requests": [
+    "Oo.",
+    "Ooo.",
+    "Oooo."
+   ],
+   "chars": 12,
+   "kind": "iso",
+   "pid": "uw",
+   "ipa": "u"
+  },
+  {
+   "key": "ph:ih-z",
+   "group": "iso L2",
+   "requests": [
+    "Iz.",
+    "Izz.",
+    "Ihz."
+   ],
+   "chars": 11,
+   "kind": "iso",
+   "pid": "ih-z",
+   "ipa": "ɪz"
+  },
+  {
+   "key": "ph:ao-r",
+   "group": "iso L2",
+   "requests": [
+    "Or.",
+    "Orr.",
+    "Oar."
+   ],
+   "chars": 11,
+   "kind": "iso",
+   "pid": "ao-r",
+   "ipa": "ɔɹ"
+  },
+  {
+   "key": "ph:ao",
+   "group": "iso L2",
+   "requests": [
+    "Aw.",
+    "Awww.",
+    "Aww—"
+   ],
+   "chars": 12,
+   "kind": "iso",
+   "pid": "ao",
+   "ipa": "ɔ"
+  },
+  {
+   "key": "ph:ih-d",
+   "group": "iso L2",
+   "requests": [
+    "Id.",
+    "Idd.",
+    "Ihd."
+   ],
+   "chars": 11,
+   "kind": "iso",
+   "pid": "ih-d",
+   "ipa": "ɪd"
+  },
+  {
+   "key": "ph:ah-d",
+   "group": "iso L2",
+   "requests": [
+    "Ud.",
+    "Uhd.",
+    "Udd."
+   ],
+   "chars": 11,
+   "kind": "iso",
+   "pid": "ah-d",
+   "ipa": "ʌd"
+  },
+  {
+   "key": "ph:iy",
+   "group": "iso L2",
+   "requests": [
+    "Ee.",
+    "Eee.",
+    "Eeee."
+   ],
+   "chars": 12,
+   "kind": "iso",
+   "pid": "iy",
+   "ipa": "i"
+  },
+  {
+   "key": "ph:ih-ng",
+   "group": "iso L2",
+   "requests": [
+    "Ing.",
+    "Ihng.",
+    "Ing—"
+   ],
+   "chars": 13,
+   "kind": "iso",
+   "pid": "ih-ng",
+   "ipa": "ɪŋ"
+  },
+  {
+   "key": "ph:ow",
+   "group": "iso L2",
+   "requests": [
+    "Oh.",
+    "Ohhh.",
+    "Oh—"
+   ],
+   "chars": 11,
+   "kind": "iso",
+   "pid": "ow",
+   "ipa": "oʊ"
+  },
+  {
+   "key": "ph:ah-n-t",
+   "group": "iso L2",
+   "requests": [
+    "Unt.",
+    "Uhnt.",
+    "Un-t."
+   ],
+   "chars": 14,
+   "kind": "iso",
+   "pid": "ah-n-t",
+   "ipa": "ʌnt"
+  },
+  {
+   "key": "ph:ay",
+   "group": "iso L2",
+   "requests": [
+    "Eye.",
+    "Eyyy.",
+    "Aye."
+   ],
+   "chars": 13,
+   "kind": "iso",
+   "pid": "ay",
+   "ipa": "aɪ"
+  },
+  {
+   "key": "ph:ah-l",
+   "group": "iso L2",
+   "requests": [
+    "Ul.",
+    "Uhl.",
+    "Ull."
+   ],
+   "chars": 11,
+   "kind": "iso",
+   "pid": "ah-l",
+   "ipa": "ʌl"
+  },
+  {
+   "key": "w:shom",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: shom."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "shom",
+   "ipa": "ʃˈɑm"
+  },
+  {
+   "key": "w:hesh",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: hesh."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "hesh",
+   "ipa": "hˈɛʃ"
+  },
+  {
+   "key": "w:vosh",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: vosh."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "vosh",
+   "ipa": "vˈɑʃ"
+  },
+  {
+   "key": "w:shob",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: shob."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "shob",
+   "ipa": "ʃˈɑb"
+  },
+  {
+   "key": "w:fesh",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: fesh."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "fesh",
+   "ipa": "fˈɛʃ"
+  },
+  {
+   "key": "w:wosh",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: wosh."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "wosh",
+   "ipa": "wˈɑʃ"
+  },
+  {
+   "key": "w:shig",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: shig."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "shig",
+   "ipa": "ʃˈɪɡ"
+  },
+  {
+   "key": "w:dansh",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: dansh."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "dansh",
+   "ipa": "dˈænʃ"
+  },
+  {
+   "key": "w:chob",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: chob."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "chob",
+   "ipa": "ʧˈɑb"
+  },
+  {
+   "key": "w:votch",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: votch."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "votch",
+   "ipa": "vˈɑʧ"
+  },
+  {
+   "key": "w:chiss",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: chiss."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "chiss",
+   "ipa": "ʧˈɪs"
+  },
+  {
+   "key": "w:nach",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: nach."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "nach",
+   "ipa": "nˈæʧ"
+  },
+  {
+   "key": "w:wetch",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: wetch."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "wetch",
+   "ipa": "wˈɛʧ"
+  },
+  {
+   "key": "w:thab",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: thab."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "thab",
+   "ipa": "θˈæb"
+  },
+  {
+   "key": "w:mith",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: mith."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "mith",
+   "ipa": "mˈɪθ"
+  },
+  {
+   "key": "w:thosh",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: thosh."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "thosh",
+   "ipa": "θˈɑʃ"
+  },
+  {
+   "key": "w:vith",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: vith."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "vith",
+   "ipa": "vˈɪθ"
+  },
+  {
+   "key": "w:whob",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: whob."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "whob",
+   "ipa": "wˈɑb"
+  },
+  {
+   "key": "w:whass",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: whass."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "whass",
+   "ipa": "wˈæs"
+  },
+  {
+   "key": "w:whith",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: whith."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "whith",
+   "ipa": "wˈɪθ"
+  },
+  {
+   "key": "w:chesh",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: chesh."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "chesh",
+   "ipa": "ʧˈɛʃ"
+  },
+  {
+   "key": "w:wathin",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: wathin."
+   ],
+   "chars": 12,
+   "kind": "w",
+   "cut": "last",
+   "say": "wathin",
+   "ipa": "wˈæθɪn"
+  },
+  {
+   "key": "w:sonk",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: sonk."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "sonk",
+   "ipa": "sˈɑŋk"
+  },
+  {
+   "key": "w:zung",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: zung."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "zung",
+   "ipa": "zˈʌŋ"
+  },
+  {
+   "key": "w:yonk",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: yonk."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "yonk",
+   "ipa": "jˈɑŋk"
+  },
+  {
+   "key": "w:stad",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: stad."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "stad",
+   "ipa": "stˈæd"
+  },
+  {
+   "key": "w:blen",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: blen."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "blen",
+   "ipa": "blˈɛn"
+  },
+  {
+   "key": "w:drin",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: drin."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "drin",
+   "ipa": "dɹˈɪn"
+  },
+  {
+   "key": "w:spuff",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: spuff."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "spuff",
+   "ipa": "spˈʌf"
+  },
+  {
+   "key": "w:glim",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: glim."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "glim",
+   "ipa": "ɡlˈɪm"
+  },
+  {
+   "key": "w:jots",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: jots."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "jots",
+   "ipa": "ʤˈɑts"
+  },
+  {
+   "key": "w:fand",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: fand."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "fand",
+   "ipa": "fˈænd"
+  },
+  {
+   "key": "w:jelt",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: jelt."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "jelt",
+   "ipa": "ʤˈɛlt"
+  },
+  {
+   "key": "w:nusk",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: nusk."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "nusk",
+   "ipa": "nˈʌsk"
+  },
+  {
+   "key": "w:vilk",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: vilk."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "vilk",
+   "ipa": "vˈɪlk"
+  },
+  {
+   "key": "w:strab",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: strab."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "strab",
+   "ipa": "stɹˈæb"
+  },
+  {
+   "key": "w:scrin",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: scrin."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "scrin",
+   "ipa": "skɹˈɪn"
+  },
+  {
+   "key": "w:splob",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: splob."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "splob",
+   "ipa": "splˈɑb"
+  },
+  {
+   "key": "w:thruv",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: thruv."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "thruv",
+   "ipa": "θɹˈʌv"
+  },
+  {
+   "key": "w:scrubs",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: scrubs."
+   ],
+   "chars": 12,
+   "kind": "w",
+   "cut": "last",
+   "say": "scrubs",
+   "ipa": "skɹˈʌbs"
+  },
+  {
+   "key": "w:florbes",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: florbes."
+   ],
+   "chars": 13,
+   "kind": "w",
+   "cut": "last",
+   "say": "florbes",
+   "ipa": "flˈɑɹbɪz"
+  },
+  {
+   "key": "w:vozzes",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: vozzes."
+   ],
+   "chars": 12,
+   "kind": "w",
+   "cut": "last",
+   "say": "vozzes",
+   "ipa": "vˈɑzɪz"
+  },
+  {
+   "key": "w:crings",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: crings."
+   ],
+   "chars": 12,
+   "kind": "w",
+   "cut": "last",
+   "say": "crings",
+   "ipa": "kɹˈɪŋs"
+  },
+  {
+   "key": "w:shalps",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: shalps."
+   ],
+   "chars": 12,
+   "kind": "w",
+   "cut": "last",
+   "say": "shalps",
+   "ipa": "ʃˈælps"
+  },
+  {
+   "key": "w:twenns",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: twenns."
+   ],
+   "chars": 12,
+   "kind": "w",
+   "cut": "last",
+   "say": "twenns",
+   "ipa": "twˈɛns"
+  },
+  {
+   "key": "w:flisked",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: flisked."
+   ],
+   "chars": 13,
+   "kind": "w",
+   "cut": "last",
+   "say": "flisked",
+   "ipa": "flˈɪskt"
+  },
+  {
+   "key": "w:brammed",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: brammed."
+   ],
+   "chars": 13,
+   "kind": "w",
+   "cut": "last",
+   "say": "brammed",
+   "ipa": "bɹˈæmd"
+  },
+  {
+   "key": "w:wanded",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: wanded."
+   ],
+   "chars": 12,
+   "kind": "w",
+   "cut": "last",
+   "say": "wanded",
+   "ipa": "wˈændɪd"
+  },
+  {
+   "key": "w:chosted",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: chosted."
+   ],
+   "chars": 13,
+   "kind": "w",
+   "cut": "last",
+   "say": "chosted",
+   "ipa": "ʧˈɑstɪd"
+  },
+  {
+   "key": "w:plemmed",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: plemmed."
+   ],
+   "chars": 13,
+   "kind": "w",
+   "cut": "last",
+   "say": "plemmed",
+   "ipa": "plˈɛmd"
+  },
+  {
+   "key": "w:florbing",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: florbing."
+   ],
+   "chars": 14,
+   "kind": "w",
+   "cut": "last",
+   "say": "florbing",
+   "ipa": "flˈɑɹbɪŋ"
+  },
+  {
+   "key": "w:vashing",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: vashing."
+   ],
+   "chars": 13,
+   "kind": "w",
+   "cut": "last",
+   "say": "vashing",
+   "ipa": "vˈæʃɪŋ"
+  },
+  {
+   "key": "w:plemter",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: plemter."
+   ],
+   "chars": 13,
+   "kind": "w",
+   "cut": "last",
+   "say": "plemter",
+   "ipa": "plˈɛmtɝ"
+  },
+  {
+   "key": "w:stronker",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: stronker."
+   ],
+   "chars": 14,
+   "kind": "w",
+   "cut": "last",
+   "say": "stronker",
+   "ipa": "stɹˈɑŋkɝ"
+  },
+  {
+   "key": "w:drelling",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: drelling."
+   ],
+   "chars": 14,
+   "kind": "w",
+   "cut": "last",
+   "say": "drelling",
+   "ipa": "dɹˈɛlɪŋ"
+  },
+  {
+   "key": "w:pigpen",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: pigpen."
+   ],
+   "chars": 12,
+   "kind": "w",
+   "cut": "last",
+   "say": "pigpen",
+   "ipa": "pˈɪɡpɛn"
+  },
+  {
+   "key": "w:vantic",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: vantic."
+   ],
+   "chars": 12,
+   "kind": "w",
+   "cut": "last",
+   "say": "vantic",
+   "ipa": "vˈæntɪk"
+  },
+  {
+   "key": "w:plemzen",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: plemzen."
+   ],
+   "chars": 13,
+   "kind": "w",
+   "cut": "last",
+   "say": "plemzen",
+   "ipa": "plˈɛmzɛn"
+  },
+  {
+   "key": "w:brostup",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: brostup."
+   ],
+   "chars": 13,
+   "kind": "w",
+   "cut": "last",
+   "say": "brostup",
+   "ipa": "bɹˈɑstʌp"
+  },
+  {
+   "key": "w:chunnet",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: chunnet."
+   ],
+   "chars": 13,
+   "kind": "w",
+   "cut": "last",
+   "say": "chunnet",
+   "ipa": "ʧˈʌnɛt"
+  },
+  {
+   "key": "w:dravin",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: dravin."
+   ],
+   "chars": 12,
+   "kind": "w",
+   "cut": "last",
+   "say": "dravin",
+   "ipa": "dɹˈævɪn"
+  },
+  {
+   "key": "w:strishing",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: strishing."
+   ],
+   "chars": 15,
+   "kind": "w",
+   "cut": "last",
+   "say": "strishing",
+   "ipa": "stɹˈɪʃɪŋ"
+  },
+  {
+   "key": "w:flonked",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: flonked."
+   ],
+   "chars": 13,
+   "kind": "w",
+   "cut": "last",
+   "say": "flonked",
+   "ipa": "flˈɑŋkt"
+  },
+  {
+   "key": "w:chuffer",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: chuffer."
+   ],
+   "chars": 13,
+   "kind": "w",
+   "cut": "last",
+   "say": "chuffer",
+   "ipa": "ʧˈʌfɝ"
+  },
+  {
+   "key": "w:vandest",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: vandest."
+   ],
+   "chars": 13,
+   "kind": "w",
+   "cut": "last",
+   "say": "vandest",
+   "ipa": "vˈændɛst"
+  },
+  {
+   "key": "w:thramping",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: thramping."
+   ],
+   "chars": 15,
+   "kind": "w",
+   "cut": "last",
+   "say": "thramping",
+   "ipa": "θɹˈæmpɪŋ"
+  },
+  {
+   "key": "w:chib",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: chib."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "chib",
+   "ipa": "ʧˈɪb"
+  },
+  {
+   "key": "w:thron",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: thron."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "thron",
+   "ipa": "θɹˈɑn"
+  },
+  {
+   "key": "w:splunt",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: splunt."
+   ],
+   "chars": 12,
+   "kind": "w",
+   "cut": "last",
+   "say": "splunt",
+   "ipa": "splˈʌnt"
+  },
+  {
+   "key": "ipa:blˈɛn",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: blen."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "blen",
+   "ipa": "blˈɛn"
+  },
+  {
+   "key": "ipa:klˈɛn",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: clen."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "clen",
+   "ipa": "klˈɛn"
+  },
+  {
+   "key": "ipa:kɹˈɛn",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: cren."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "cren",
+   "ipa": "kɹˈɛn"
+  },
+  {
+   "key": "ipa:bɹˈæmd",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: brammed."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "brammed",
+   "ipa": "bɹˈæmd"
+  },
+  {
+   "key": "ipa:blˈæmd",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: blamd."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "blamd",
+   "ipa": "blˈæmd"
+  },
+  {
+   "key": "ipa:bɹˈɑmd",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: bromd."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "bromd",
+   "ipa": "bɹˈɑmd"
+  },
+  {
+   "key": "ipa:blˈɑmd",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: blomd."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "blomd",
+   "ipa": "blˈɑmd"
+  },
+  {
+   "key": "ipa:bɹˈɑstʌp",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: brostup."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "brostup",
+   "ipa": "bɹˈɑstʌp"
+  },
+  {
+   "key": "ipa:blˈɑstʌp",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: blostup."
+   ],
+   "chars": 13,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "blostup",
+   "ipa": "blˈɑstʌp"
+  },
+  {
+   "key": "ipa:bɹˈæstʌp",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: brastup."
+   ],
+   "chars": 13,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "brastup",
+   "ipa": "bɹˈæstʌp"
+  },
+  {
+   "key": "ipa:blˈæstʌp",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: blastup."
+   ],
+   "chars": 13,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "blastup",
+   "ipa": "blˈæstʌp"
+  },
+  {
+   "key": "ipa:ʧˈɛʃ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: chesh."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "chesh",
+   "ipa": "ʧˈɛʃ"
+  },
+  {
+   "key": "ipa:jˈɛʃ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: yesh."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "yesh",
+   "ipa": "jˈɛʃ"
+  },
+  {
+   "key": "ipa:ʧˈʌʃ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: chush."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "chush",
+   "ipa": "ʧˈʌʃ"
+  },
+  {
+   "key": "ipa:jˈʌʃ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: yush."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "yush",
+   "ipa": "jˈʌʃ"
+  },
+  {
+   "key": "ipa:ʧˈɪb",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: chib."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "chib",
+   "ipa": "ʧˈɪb"
+  },
+  {
+   "key": "ipa:jˈɪb",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: yib."
+   ],
+   "chars": 9,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "yib",
+   "ipa": "jˈɪb"
+  },
+  {
+   "key": "ipa:ʧˈɛb",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: cheb."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "cheb",
+   "ipa": "ʧˈɛb"
+  },
+  {
+   "key": "ipa:jˈɛb",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: yeb."
+   ],
+   "chars": 9,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "yeb",
+   "ipa": "jˈɛb"
+  },
+  {
+   "key": "ipa:ʧˈɪs",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: chiss."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "chiss",
+   "ipa": "ʧˈɪs"
+  },
+  {
+   "key": "ipa:ʧˈɑs",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: chos."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "chos",
+   "ipa": "ʧˈɑs"
+  },
+  {
+   "key": "ipa:zˈɑs",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: zos."
+   ],
+   "chars": 9,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "zos",
+   "ipa": "zˈɑs"
+  },
+  {
+   "key": "ipa:ʧˈɑb",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: chob."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "chob",
+   "ipa": "ʧˈɑb"
+  },
+  {
+   "key": "ipa:pˈɑb",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: pob."
+   ],
+   "chars": 9,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "pob",
+   "ipa": "pˈɑb"
+  },
+  {
+   "key": "ipa:ʧˈæb",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: chab."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "chab",
+   "ipa": "ʧˈæb"
+  },
+  {
+   "key": "ipa:pˈæb",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: pab."
+   ],
+   "chars": 9,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "pab",
+   "ipa": "pˈæb"
+  },
+  {
+   "key": "ipa:ʧˈɑstɪd",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: chosted."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "chosted",
+   "ipa": "ʧˈɑstɪd"
+  },
+  {
+   "key": "ipa:zˈɑstɪd",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: zostid."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "zostid",
+   "ipa": "zˈɑstɪd"
+  },
+  {
+   "key": "ipa:ʧˈæstɪd",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: chastid."
+   ],
+   "chars": 13,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "chastid",
+   "ipa": "ʧˈæstɪd"
+  },
+  {
+   "key": "ipa:zˈæstɪd",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: zastid."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "zastid",
+   "ipa": "zˈæstɪd"
+  },
+  {
+   "key": "ipa:ʧˈʌfɝ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: chuffer."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "chuffer",
+   "ipa": "ʧˈʌfɝ"
+  },
+  {
+   "key": "ipa:ɡˈʌfɝ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: gufer."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "gufer",
+   "ipa": "ɡˈʌfɝ"
+  },
+  {
+   "key": "ipa:ʧˈɛfɝ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: chefer."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "chefer",
+   "ipa": "ʧˈɛfɝ"
+  },
+  {
+   "key": "ipa:ɡˈɛfɝ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: gefer."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "gefer",
+   "ipa": "ɡˈɛfɝ"
+  },
+  {
+   "key": "ipa:ʧˈʌnɛt",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: chunnet."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "chunnet",
+   "ipa": "ʧˈʌnɛt"
+  },
+  {
+   "key": "ipa:vˈʌnɛt",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: vunet."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "vunet",
+   "ipa": "vˈʌnɛt"
+  },
+  {
+   "key": "ipa:ʧˈɑnɛt",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: chonet."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "chonet",
+   "ipa": "ʧˈɑnɛt"
+  },
+  {
+   "key": "ipa:vˈɑnɛt",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: vonet."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "vonet",
+   "ipa": "vˈɑnɛt"
+  },
+  {
+   "key": "ipa:kɹˈɪŋs",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: crings."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "crings",
+   "ipa": "kɹˈɪŋs"
+  },
+  {
+   "key": "ipa:kwˈɪŋs",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: kwings."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "kwings",
+   "ipa": "kwˈɪŋs"
+  },
+  {
+   "key": "ipa:kɹˈɑŋs",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: crongs."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "crongs",
+   "ipa": "kɹˈɑŋs"
+  },
+  {
+   "key": "ipa:kwˈɑŋs",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: kwongs."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "kwongs",
+   "ipa": "kwˈɑŋs"
+  },
+  {
+   "key": "ipa:dˈænʃ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: dansh."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "dansh",
+   "ipa": "dˈænʃ"
+  },
+  {
+   "key": "ipa:mˈænʃ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: mansh."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "mansh",
+   "ipa": "mˈænʃ"
+  },
+  {
+   "key": "ipa:dˈɑnʃ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: donsh."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "donsh",
+   "ipa": "dˈɑnʃ"
+  },
+  {
+   "key": "ipa:mˈɑnʃ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: monsh."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "monsh",
+   "ipa": "mˈɑnʃ"
+  },
+  {
+   "key": "ipa:dɹˈævɪn",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: dravin."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "dravin",
+   "ipa": "dɹˈævɪn"
+  },
+  {
+   "key": "ipa:dwˈævɪn",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: dwavin."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "dwavin",
+   "ipa": "dwˈævɪn"
+  },
+  {
+   "key": "ipa:dɹˈɪvɪn",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: drivin."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "drivin",
+   "ipa": "dɹˈɪvɪn"
+  },
+  {
+   "key": "ipa:dwˈɪvɪn",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: dwivin."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "dwivin",
+   "ipa": "dwˈɪvɪn"
+  },
+  {
+   "key": "ipa:dɹˈɛlɪŋ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: drelling."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "drelling",
+   "ipa": "dɹˈɛlɪŋ"
+  },
+  {
+   "key": "ipa:dɹˈɛlɪd",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: drelid."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "drelid",
+   "ipa": "dɹˈɛlɪd"
+  },
+  {
+   "key": "ipa:dɹˈɛpɪd",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: drepid."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "drepid",
+   "ipa": "dɹˈɛpɪd"
+  },
+  {
+   "key": "ipa:dɹˈɪn",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: drin."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "drin",
+   "ipa": "dɹˈɪn"
+  },
+  {
+   "key": "ipa:dwˈɪn",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: dwin."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "dwin",
+   "ipa": "dwˈɪn"
+  },
+  {
+   "key": "ipa:dɹˈɑn",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: dron."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "dron",
+   "ipa": "dɹˈɑn"
+  },
+  {
+   "key": "ipa:dwˈɑn",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: dwon."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "dwon",
+   "ipa": "dwˈɑn"
+  },
+  {
+   "key": "ipa:fˈænd",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: fand."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "fand",
+   "ipa": "fˈænd"
+  },
+  {
+   "key": "ipa:ɡˈænd",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: gand."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "gand",
+   "ipa": "ɡˈænd"
+  },
+  {
+   "key": "ipa:fˈɔɪnd",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: foynd."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "foynd",
+   "ipa": "fˈɔɪnd"
+  },
+  {
+   "key": "ipa:ɡˈɔɪnd",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: goynd."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "goynd",
+   "ipa": "ɡˈɔɪnd"
+  },
+  {
+   "key": "ipa:fˈɛʃ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: fesh."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "fesh",
+   "ipa": "fˈɛʃ"
+  },
+  {
+   "key": "ipa:ʃˈɛʃ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: shesh."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "shesh",
+   "ipa": "ʃˈɛʃ"
+  },
+  {
+   "key": "ipa:fˈæʃ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: fash."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "fash",
+   "ipa": "fˈæʃ"
+  },
+  {
+   "key": "ipa:ʃˈæʃ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: shash."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "shash",
+   "ipa": "ʃˈæʃ"
+  },
+  {
+   "key": "ipa:flˈɪskt",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: flisked."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "flisked",
+   "ipa": "flˈɪskt"
+  },
+  {
+   "key": "ipa:fɹˈɪskt",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: friskt."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "friskt",
+   "ipa": "fɹˈɪskt"
+  },
+  {
+   "key": "ipa:flˈɑskt",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: floskt."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "floskt",
+   "ipa": "flˈɑskt"
+  },
+  {
+   "key": "ipa:fɹˈɑskt",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: froskt."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "froskt",
+   "ipa": "fɹˈɑskt"
+  },
+  {
+   "key": "ipa:flˈɑŋkt",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: flonked."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "flonked",
+   "ipa": "flˈɑŋkt"
+  },
+  {
+   "key": "ipa:fɹˈɑŋkt",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: fronkt."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "fronkt",
+   "ipa": "fɹˈɑŋkt"
+  },
+  {
+   "key": "ipa:flˈʌŋkt",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: flunkt."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "flunkt",
+   "ipa": "flˈʌŋkt"
+  },
+  {
+   "key": "ipa:fɹˈʌŋkt",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: frunkt."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "frunkt",
+   "ipa": "fɹˈʌŋkt"
+  },
+  {
+   "key": "ipa:flˈɑɹbɪz",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: florbes."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "florbes",
+   "ipa": "flˈɑɹbɪz"
+  },
+  {
+   "key": "ipa:fɹˈɑɹbɪz",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: frorbiz."
+   ],
+   "chars": 13,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "frorbiz",
+   "ipa": "fɹˈɑɹbɪz"
+  },
+  {
+   "key": "ipa:flˈɛɹbɪz",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: flerbiz."
+   ],
+   "chars": 13,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "flerbiz",
+   "ipa": "flˈɛɹbɪz"
+  },
+  {
+   "key": "ipa:fɹˈɛɹbɪz",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: frerbiz."
+   ],
+   "chars": 13,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "frerbiz",
+   "ipa": "fɹˈɛɹbɪz"
+  },
+  {
+   "key": "ipa:flˈɑɹbɪŋ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: florbing."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "florbing",
+   "ipa": "flˈɑɹbɪŋ"
+  },
+  {
+   "key": "ipa:fɹˈɑɹbɪŋ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: frorbing."
+   ],
+   "chars": 14,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "frorbing",
+   "ipa": "fɹˈɑɹbɪŋ"
+  },
+  {
+   "key": "ipa:flˈʌɹbɪŋ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: flurbing."
+   ],
+   "chars": 14,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "flurbing",
+   "ipa": "flˈʌɹbɪŋ"
+  },
+  {
+   "key": "ipa:fɹˈʌɹbɪŋ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: frurbing."
+   ],
+   "chars": 14,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "frurbing",
+   "ipa": "fɹˈʌɹbɪŋ"
+  },
+  {
+   "key": "ipa:ɡlˈɪm",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: glim."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "glim",
+   "ipa": "ɡlˈɪm"
+  },
+  {
+   "key": "ipa:ɡlˈɪf",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: glif."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "glif",
+   "ipa": "ɡlˈɪf"
+  },
+  {
+   "key": "ipa:ɡlˈɑf",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: glof."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "glof",
+   "ipa": "ɡlˈɑf"
+  },
+  {
+   "key": "ipa:hˈɛʃ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: hesh."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "hesh",
+   "ipa": "hˈɛʃ"
+  },
+  {
+   "key": "ipa:zˈɛʃ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: zesh."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "zesh",
+   "ipa": "zˈɛʃ"
+  },
+  {
+   "key": "ipa:hˈɑʃ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: hosh."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "hosh",
+   "ipa": "hˈɑʃ"
+  },
+  {
+   "key": "ipa:zˈɑʃ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: zosh."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "zosh",
+   "ipa": "zˈɑʃ"
+  },
+  {
+   "key": "ipa:nˈɪŋk",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: nink."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "nink",
+   "ipa": "nˈɪŋk"
+  },
+  {
+   "key": "ipa:hˈuŋk",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: hoonk."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "hoonk",
+   "ipa": "hˈuŋk"
+  },
+  {
+   "key": "ipa:nˈuŋk",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: noonk."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "noonk",
+   "ipa": "nˈuŋk"
+  },
+  {
+   "key": "ipa:ʤˈɛlt",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: jelt."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "jelt",
+   "ipa": "ʤˈɛlt"
+  },
+  {
+   "key": "ipa:ʧˈɛlt",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: chelt."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "chelt",
+   "ipa": "ʧˈɛlt"
+  },
+  {
+   "key": "ipa:ʤˈælt",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: jalt."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "jalt",
+   "ipa": "ʤˈælt"
+  },
+  {
+   "key": "ipa:ʧˈælt",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: chalt."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "chalt",
+   "ipa": "ʧˈælt"
+  },
+  {
+   "key": "ipa:tˈɪθ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: tith."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "tith",
+   "ipa": "tˈɪθ"
+  },
+  {
+   "key": "ipa:mˈeɪθ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: mayth."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "mayth",
+   "ipa": "mˈeɪθ"
+  },
+  {
+   "key": "ipa:tˈeɪθ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: tayth."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "tayth",
+   "ipa": "tˈeɪθ"
+  },
+  {
+   "key": "ipa:nˈæʧ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: nach."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "nach",
+   "ipa": "nˈæʧ"
+  },
+  {
+   "key": "ipa:sˈæʧ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: sach."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "sach",
+   "ipa": "sˈæʧ"
+  },
+  {
+   "key": "ipa:nˈɛʧ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: nech."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "nech",
+   "ipa": "nˈɛʧ"
+  },
+  {
+   "key": "ipa:sˈɛʧ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: sech."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "sech",
+   "ipa": "sˈɛʧ"
+  },
+  {
+   "key": "ipa:nˈɛʃ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: nesh."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "nesh",
+   "ipa": "nˈɛʃ"
+  },
+  {
+   "key": "ipa:nˈʌsk",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: nusk."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "nusk",
+   "ipa": "nˈʌsk"
+  },
+  {
+   "key": "ipa:ʃˈʌsk",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: shusk."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "shusk",
+   "ipa": "ʃˈʌsk"
+  },
+  {
+   "key": "ipa:nˈɛsk",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: nesk."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "nesk",
+   "ipa": "nˈɛsk"
+  },
+  {
+   "key": "ipa:ʃˈɛsk",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: shesk."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "shesk",
+   "ipa": "ʃˈɛsk"
+  },
+  {
+   "key": "ipa:plˈɛmd",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: plemmed."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "plemmed",
+   "ipa": "plˈɛmd"
+  },
+  {
+   "key": "ipa:pɹˈɛmd",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: premd."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "premd",
+   "ipa": "pɹˈɛmd"
+  },
+  {
+   "key": "ipa:plˈɑmd",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: plomd."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "plomd",
+   "ipa": "plˈɑmd"
+  },
+  {
+   "key": "ipa:pɹˈɑmd",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: promd."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "promd",
+   "ipa": "pɹˈɑmd"
+  },
+  {
+   "key": "ipa:plˈɛmtɝ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: plemter."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "plemter",
+   "ipa": "plˈɛmtɝ"
+  },
+  {
+   "key": "ipa:pɹˈɛmtɝ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: premter."
+   ],
+   "chars": 13,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "premter",
+   "ipa": "pɹˈɛmtɝ"
+  },
+  {
+   "key": "ipa:plˈɑmtɝ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: plomter."
+   ],
+   "chars": 13,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "plomter",
+   "ipa": "plˈɑmtɝ"
+  },
+  {
+   "key": "ipa:pɹˈɑmtɝ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: promter."
+   ],
+   "chars": 13,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "promter",
+   "ipa": "pɹˈɑmtɝ"
+  },
+  {
+   "key": "ipa:plˈɛmzɛn",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: plemzen."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "plemzen",
+   "ipa": "plˈɛmzɛn"
+  },
+  {
+   "key": "ipa:pɹˈɛmzɛn",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: premzen."
+   ],
+   "chars": 13,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "premzen",
+   "ipa": "pɹˈɛmzɛn"
+  },
+  {
+   "key": "ipa:plˈɪmzɛn",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: plimzen."
+   ],
+   "chars": 13,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "plimzen",
+   "ipa": "plˈɪmzɛn"
+  },
+  {
+   "key": "ipa:pɹˈɪmzɛn",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: primzen."
+   ],
+   "chars": 13,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "primzen",
+   "ipa": "pɹˈɪmzɛn"
+  },
+  {
+   "key": "ipa:skɹˈɪn",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: scrin."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "scrin",
+   "ipa": "skɹˈɪn"
+  },
+  {
+   "key": "ipa:skwˈɪn",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: skwin."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "skwin",
+   "ipa": "skwˈɪn"
+  },
+  {
+   "key": "ipa:skɹˈæn",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: scran."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "scran",
+   "ipa": "skɹˈæn"
+  },
+  {
+   "key": "ipa:skwˈæn",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: skwan."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "skwan",
+   "ipa": "skwˈæn"
+  },
+  {
+   "key": "ipa:ʃˈælps",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: shalps."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "shalps",
+   "ipa": "ʃˈælps"
+  },
+  {
+   "key": "ipa:jˈælps",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: yalps."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "yalps",
+   "ipa": "jˈælps"
+  },
+  {
+   "key": "ipa:ʃˈɪlps",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: shilps."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "shilps",
+   "ipa": "ʃˈɪlps"
+  },
+  {
+   "key": "ipa:jˈɪlps",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: yilps."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "yilps",
+   "ipa": "jˈɪlps"
+  },
+  {
+   "key": "ipa:bˈæp",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: bap."
+   ],
+   "chars": 9,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "bap",
+   "ipa": "bˈæp"
+  },
+  {
+   "key": "ipa:ʃˈʌp",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: shup."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "shup",
+   "ipa": "ʃˈʌp"
+  },
+  {
+   "key": "ipa:bˈʌp",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: bup."
+   ],
+   "chars": 9,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "bup",
+   "ipa": "bˈʌp"
+  },
+  {
+   "key": "ipa:ʃˈɪɡ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: shig."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "shig",
+   "ipa": "ʃˈɪɡ"
+  },
+  {
+   "key": "ipa:kˈɪɡ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: kig."
+   ],
+   "chars": 9,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "kig",
+   "ipa": "kˈɪɡ"
+  },
+  {
+   "key": "ipa:ʃˈʌɡ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: shug."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "shug",
+   "ipa": "ʃˈʌɡ"
+  },
+  {
+   "key": "ipa:ʃˈɑb",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: shob."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "shob",
+   "ipa": "ʃˈɑb"
+  },
+  {
+   "key": "ipa:pˈɛb",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: peb."
+   ],
+   "chars": 9,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "peb",
+   "ipa": "pˈɛb"
+  },
+  {
+   "key": "ipa:ʃˈɑm",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: shom."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "shom",
+   "ipa": "ʃˈɑm"
+  },
+  {
+   "key": "ipa:zˈɑm",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: zom."
+   ],
+   "chars": 9,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "zom",
+   "ipa": "zˈɑm"
+  },
+  {
+   "key": "ipa:ʃˈɛm",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: shem."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "shem",
+   "ipa": "ʃˈɛm"
+  },
+  {
+   "key": "ipa:zˈɛm",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: zem."
+   ],
+   "chars": 9,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "zem",
+   "ipa": "zˈɛm"
+  },
+  {
+   "key": "ipa:ʃɹˈɛθ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: shreth."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "shreth",
+   "ipa": "ʃɹˈɛθ"
+  },
+  {
+   "key": "ipa:ʃɹˈɛʧ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: shrech."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "shrech",
+   "ipa": "ʃɹˈɛʧ"
+  },
+  {
+   "key": "ipa:sˈɑŋk",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: sonk."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "sonk",
+   "ipa": "sˈɑŋk"
+  },
+  {
+   "key": "ipa:ðˈɑŋk",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: thonk."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "thonk",
+   "ipa": "ðˈɑŋk"
+  },
+  {
+   "key": "ipa:sˈoʊŋk",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: soank."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "soank",
+   "ipa": "sˈoʊŋk"
+  },
+  {
+   "key": "ipa:ðˈoʊŋk",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: thoank."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "thoank",
+   "ipa": "ðˈoʊŋk"
+  },
+  {
+   "key": "ipa:splˈɑb",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: splob."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "splob",
+   "ipa": "splˈɑb"
+  },
+  {
+   "key": "ipa:spɹˈɑb",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: sprob."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "sprob",
+   "ipa": "spɹˈɑb"
+  },
+  {
+   "key": "ipa:splˈɪb",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: splib."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "splib",
+   "ipa": "splˈɪb"
+  },
+  {
+   "key": "ipa:spɹˈɪb",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: sprib."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "sprib",
+   "ipa": "spɹˈɪb"
+  },
+  {
+   "key": "ipa:splˈʌnt",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: splunt."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "splunt",
+   "ipa": "splˈʌnt"
+  },
+  {
+   "key": "ipa:spɹˈʌnt",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: sprunt."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "sprunt",
+   "ipa": "spɹˈʌnt"
+  },
+  {
+   "key": "ipa:splˈɛnt",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: splent."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "splent",
+   "ipa": "splˈɛnt"
+  },
+  {
+   "key": "ipa:spɹˈɛnt",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: sprent."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "sprent",
+   "ipa": "spɹˈɛnt"
+  },
+  {
+   "key": "ipa:spˈʌf",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: spuff."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "spuff",
+   "ipa": "spˈʌf"
+  },
+  {
+   "key": "ipa:swˈʌf",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: swuf."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "swuf",
+   "ipa": "swˈʌf"
+  },
+  {
+   "key": "ipa:spˈɪf",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: spif."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "spif",
+   "ipa": "spˈɪf"
+  },
+  {
+   "key": "ipa:swˈɪf",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: swif."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "swif",
+   "ipa": "swˈɪf"
+  },
+  {
+   "key": "ipa:stˈæd",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: stad."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "stad",
+   "ipa": "stˈæd"
+  },
+  {
+   "key": "ipa:swˈæd",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: swad."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "swad",
+   "ipa": "swˈæd"
+  },
+  {
+   "key": "ipa:stˈɪd",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: stid."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "stid",
+   "ipa": "stˈɪd"
+  },
+  {
+   "key": "ipa:swˈɪd",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: swid."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "swid",
+   "ipa": "swˈɪd"
+  },
+  {
+   "key": "ipa:stɹˈæb",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: strab."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "strab",
+   "ipa": "stɹˈæb"
+  },
+  {
+   "key": "ipa:stɹˈæʃ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: strash."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "strash",
+   "ipa": "stɹˈæʃ"
+  },
+  {
+   "key": "ipa:stɹˈæʧ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: strach."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "strach",
+   "ipa": "stɹˈæʧ"
+  },
+  {
+   "key": "ipa:stɹˈɪʃɪŋ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: strishing."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "strishing",
+   "ipa": "stɹˈɪʃɪŋ"
+  },
+  {
+   "key": "ipa:stɹˈɪʃɪl",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: strishil."
+   ],
+   "chars": 14,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "strishil",
+   "ipa": "stɹˈɪʃɪl"
+  },
+  {
+   "key": "ipa:stɹˈɪfɪl",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: strifil."
+   ],
+   "chars": 13,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "strifil",
+   "ipa": "stɹˈɪfɪl"
+  },
+  {
+   "key": "ipa:stɹˈɑŋkɝ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: stronker."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "stronker",
+   "ipa": "stɹˈɑŋkɝ"
+  },
+  {
+   "key": "ipa:stɹˈɑwkɝ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: strowker."
+   ],
+   "chars": 14,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "strowker",
+   "ipa": "stɹˈɑwkɝ"
+  },
+  {
+   "key": "ipa:stɹˈɑbkɝ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: strobker."
+   ],
+   "chars": 14,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "strobker",
+   "ipa": "stɹˈɑbkɝ"
+  },
+  {
+   "key": "ipa:θˈæb",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: thab."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "thab",
+   "ipa": "θˈæb"
+  },
+  {
+   "key": "ipa:jˈæb",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: yab."
+   ],
+   "chars": 9,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "yab",
+   "ipa": "jˈæb"
+  },
+  {
+   "key": "ipa:θˈʌb",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: thub."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "thub",
+   "ipa": "θˈʌb"
+  },
+  {
+   "key": "ipa:jˈʌb",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: yub."
+   ],
+   "chars": 9,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "yub",
+   "ipa": "jˈʌb"
+  },
+  {
+   "key": "ipa:dˈɑmp",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: domp."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "domp",
+   "ipa": "dˈɑmp"
+  },
+  {
+   "key": "ipa:θˈɛmp",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: themp."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "themp",
+   "ipa": "θˈɛmp"
+  },
+  {
+   "key": "ipa:dˈɛmp",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: demp."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "demp",
+   "ipa": "dˈɛmp"
+  },
+  {
+   "key": "ipa:θˈin",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: theen."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "theen",
+   "ipa": "θˈin"
+  },
+  {
+   "key": "ipa:ɡˈin",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: geen."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "geen",
+   "ipa": "ɡˈin"
+  },
+  {
+   "key": "ipa:θˈɑʃ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: thosh."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "thosh",
+   "ipa": "θˈɑʃ"
+  },
+  {
+   "key": "ipa:θˈɛʃ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: thesh."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "thesh",
+   "ipa": "θˈɛʃ"
+  },
+  {
+   "key": "ipa:θɹˈæmpɪŋ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: thramping."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "thramping",
+   "ipa": "θɹˈæmpɪŋ"
+  },
+  {
+   "key": "ipa:θɹˈæwpɪŋ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: thrawping."
+   ],
+   "chars": 15,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "thrawping",
+   "ipa": "θɹˈæwpɪŋ"
+  },
+  {
+   "key": "ipa:θɹˈæʃpɪŋ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: thrashping."
+   ],
+   "chars": 16,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "thrashping",
+   "ipa": "θɹˈæʃpɪŋ"
+  },
+  {
+   "key": "ipa:θɹˈɑn",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: thron."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "thron",
+   "ipa": "θɹˈɑn"
+  },
+  {
+   "key": "ipa:θɹˈɑl",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: throl."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "throl",
+   "ipa": "θɹˈɑl"
+  },
+  {
+   "key": "ipa:ɡɹˈɑl",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: grol."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "grol",
+   "ipa": "ɡɹˈɑl"
+  },
+  {
+   "key": "ipa:θɹˈʌv",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: thruv."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "thruv",
+   "ipa": "θɹˈʌv"
+  },
+  {
+   "key": "ipa:θɹˈʌf",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: thruf."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "thruf",
+   "ipa": "θɹˈʌf"
+  },
+  {
+   "key": "ipa:θɹˈɑf",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: throf."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "throf",
+   "ipa": "θɹˈɑf"
+  },
+  {
+   "key": "ipa:twˈɛns",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: twenns."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "twenns",
+   "ipa": "twˈɛns"
+  },
+  {
+   "key": "ipa:tɹˈɛns",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: trens."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "trens",
+   "ipa": "tɹˈɛns"
+  },
+  {
+   "key": "ipa:twˈʌns",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: twuns."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "twuns",
+   "ipa": "twˈʌns"
+  },
+  {
+   "key": "ipa:tɹˈʌns",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: truns."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "truns",
+   "ipa": "tɹˈʌns"
+  },
+  {
+   "key": "ipa:vˈændɛst",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: vandest."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "vandest",
+   "ipa": "vˈændɛst"
+  },
+  {
+   "key": "ipa:zˈændɛst",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: zandest."
+   ],
+   "chars": 13,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "zandest",
+   "ipa": "zˈændɛst"
+  },
+  {
+   "key": "ipa:vˈɝndɛst",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: verndest."
+   ],
+   "chars": 14,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "verndest",
+   "ipa": "vˈɝndɛst"
+  },
+  {
+   "key": "ipa:zˈɝndɛst",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: zerndest."
+   ],
+   "chars": 14,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "zerndest",
+   "ipa": "zˈɝndɛst"
+  },
+  {
+   "key": "ipa:vˈæntɪk",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: vantic."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "vantic",
+   "ipa": "vˈæntɪk"
+  },
+  {
+   "key": "ipa:ɡˈæntɪk",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: gantick."
+   ],
+   "chars": 13,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "gantick",
+   "ipa": "ɡˈæntɪk"
+  },
+  {
+   "key": "ipa:vˈɝntɪk",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: verntick."
+   ],
+   "chars": 14,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "verntick",
+   "ipa": "vˈɝntɪk"
+  },
+  {
+   "key": "ipa:ɡˈɝntɪk",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: gerntick."
+   ],
+   "chars": 14,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "gerntick",
+   "ipa": "ɡˈɝntɪk"
+  },
+  {
+   "key": "ipa:vˈæʃɪŋ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: vashing."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "vashing",
+   "ipa": "vˈæʃɪŋ"
+  },
+  {
+   "key": "ipa:ʃˈæʃɪŋ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: shashing."
+   ],
+   "chars": 14,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "shashing",
+   "ipa": "ʃˈæʃɪŋ"
+  },
+  {
+   "key": "ipa:vˈɝʃɪŋ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: vershing."
+   ],
+   "chars": 14,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "vershing",
+   "ipa": "vˈɝʃɪŋ"
+  },
+  {
+   "key": "ipa:ʃˈɝʃɪŋ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: shershing."
+   ],
+   "chars": 15,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "shershing",
+   "ipa": "ʃˈɝʃɪŋ"
+  },
+  {
+   "key": "ipa:vˈɪlk",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: vilk."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "vilk",
+   "ipa": "vˈɪlk"
+  },
+  {
+   "key": "ipa:θˈɪlk",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: thilk."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "thilk",
+   "ipa": "θˈɪlk"
+  },
+  {
+   "key": "ipa:vˈɛlk",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: velk."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "velk",
+   "ipa": "vˈɛlk"
+  },
+  {
+   "key": "ipa:θˈɛlk",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: thelk."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "thelk",
+   "ipa": "θˈɛlk"
+  },
+  {
+   "key": "ipa:vˈɪθ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: vith."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "vith",
+   "ipa": "vˈɪθ"
+  },
+  {
+   "key": "ipa:zˈɪθ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: zith."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "zith",
+   "ipa": "zˈɪθ"
+  },
+  {
+   "key": "ipa:vˈɛθ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: veth."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "veth",
+   "ipa": "vˈɛθ"
+  },
+  {
+   "key": "ipa:zˈɛθ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: zeth."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "zeth",
+   "ipa": "zˈɛθ"
+  },
+  {
+   "key": "ipa:vˈɑʃ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: vosh."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "vosh",
+   "ipa": "vˈɑʃ"
+  },
+  {
+   "key": "ipa:vˈɪʃ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: vish."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "vish",
+   "ipa": "vˈɪʃ"
+  },
+  {
+   "key": "ipa:zˈɪʃ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: zish."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "zish",
+   "ipa": "zˈɪʃ"
+  },
+  {
+   "key": "ipa:vˈɑʧ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: votch."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "votch",
+   "ipa": "vˈɑʧ"
+  },
+  {
+   "key": "ipa:ʧˈɑʧ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: choch."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "choch",
+   "ipa": "ʧˈɑʧ"
+  },
+  {
+   "key": "ipa:vˈɪʧ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: vich."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "vich",
+   "ipa": "vˈɪʧ"
+  },
+  {
+   "key": "ipa:ʧˈɪʧ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: chich."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "chich",
+   "ipa": "ʧˈɪʧ"
+  },
+  {
+   "key": "ipa:vˈɑzɪz",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: vozzes."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "vozzes",
+   "ipa": "vˈɑzɪz"
+  },
+  {
+   "key": "ipa:ʃˈɑzɪz",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: shoziz."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "shoziz",
+   "ipa": "ʃˈɑzɪz"
+  },
+  {
+   "key": "ipa:vˈʌzɪz",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: vuziz."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "vuziz",
+   "ipa": "vˈʌzɪz"
+  },
+  {
+   "key": "ipa:ʃˈʌzɪz",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: shuziz."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "shuziz",
+   "ipa": "ʃˈʌzɪz"
+  },
+  {
+   "key": "ipa:wˈændɪd",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: wanded."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "wanded",
+   "ipa": "wˈændɪd"
+  },
+  {
+   "key": "ipa:tˈændɪd",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: tandid."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "tandid",
+   "ipa": "tˈændɪd"
+  },
+  {
+   "key": "ipa:wˈɑndɪd",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: wondid."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "wondid",
+   "ipa": "wˈɑndɪd"
+  },
+  {
+   "key": "ipa:tˈɑndɪd",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: tondid."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "tondid",
+   "ipa": "tˈɑndɪd"
+  },
+  {
+   "key": "ipa:wˈæθɪn",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: wathin."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "wathin",
+   "ipa": "wˈæθɪn"
+  },
+  {
+   "key": "ipa:ɹˈæθɪn",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: rathin."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "rathin",
+   "ipa": "ɹˈæθɪn"
+  },
+  {
+   "key": "ipa:wˈʌθɪn",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: wuthin."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "wuthin",
+   "ipa": "wˈʌθɪn"
+  },
+  {
+   "key": "ipa:ɹˈʌθɪn",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: ruthin."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "ruthin",
+   "ipa": "ɹˈʌθɪn"
+  },
+  {
+   "key": "ipa:wˈɛʧ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: wetch."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "wetch",
+   "ipa": "wˈɛʧ"
+  },
+  {
+   "key": "ipa:ʧˈɛʧ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: chech."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "chech",
+   "ipa": "ʧˈɛʧ"
+  },
+  {
+   "key": "ipa:wˈʌʧ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: wuch."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "wuch",
+   "ipa": "wˈʌʧ"
+  },
+  {
+   "key": "ipa:ʧˈʌʧ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: chuch."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "chuch",
+   "ipa": "ʧˈʌʧ"
+  },
+  {
+   "key": "ipa:wˈæs",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: whass."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "whass",
+   "ipa": "wˈæs"
+  },
+  {
+   "key": "ipa:wˈʌs",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: wus."
+   ],
+   "chars": 9,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "wus",
+   "ipa": "wˈʌs"
+  },
+  {
+   "key": "ipa:zˈʌs",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: zus."
+   ],
+   "chars": 9,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "zus",
+   "ipa": "zˈʌs"
+  },
+  {
+   "key": "ipa:wˈɪθ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: whith."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "whith",
+   "ipa": "wˈɪθ"
+  },
+  {
+   "key": "ipa:ɡˈɪθ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: gith."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "gith",
+   "ipa": "ɡˈɪθ"
+  },
+  {
+   "key": "ipa:wˈɛθ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: weth."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "weth",
+   "ipa": "wˈɛθ"
+  },
+  {
+   "key": "ipa:ɡˈɛθ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: geth."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "geth",
+   "ipa": "ɡˈɛθ"
+  },
+  {
+   "key": "ipa:wˈɑb",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: whob."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "whob",
+   "ipa": "wˈɑb"
+  },
+  {
+   "key": "ipa:wˈʌb",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: wub."
+   ],
+   "chars": 9,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "wub",
+   "ipa": "wˈʌb"
+  },
+  {
+   "key": "ipa:zˈʌb",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: zub."
+   ],
+   "chars": 9,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "zub",
+   "ipa": "zˈʌb"
+  },
+  {
+   "key": "ipa:wˈɑʃ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: wosh."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "wosh",
+   "ipa": "wˈɑʃ"
+  },
+  {
+   "key": "ipa:wˈʌʃ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: wush."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "wush",
+   "ipa": "wˈʌʃ"
+  },
+  {
+   "key": "ipa:vˈʌʃ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: vush."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "vush",
+   "ipa": "vˈʌʃ"
+  },
+  {
+   "key": "ipa:jˈɑŋk",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: yonk."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "yonk",
+   "ipa": "jˈɑŋk"
+  },
+  {
+   "key": "ipa:nˈɑŋk",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: nonk."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "nonk",
+   "ipa": "nˈɑŋk"
+  },
+  {
+   "key": "ipa:jˈɛŋk",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: yenk."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "yenk",
+   "ipa": "jˈɛŋk"
+  },
+  {
+   "key": "ipa:nˈɛŋk",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: nenk."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "nenk",
+   "ipa": "nˈɛŋk"
+  },
+  {
+   "key": "ipa:kˈæŋ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: cang."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "cang",
+   "ipa": "kˈæŋ"
+  },
+  {
+   "key": "ipa:zˈʌŋ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: zung."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "zung",
+   "ipa": "zˈʌŋ"
+  },
+  {
+   "key": "ipa:kˈʌŋ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: cung."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "cung",
+   "ipa": "kˈʌŋ"
+  },
+  {
+   "key": "ipa:ʃˈɪŋk",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: shink."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "shink",
+   "ipa": "ʃˈɪŋk"
+  },
+  {
+   "key": "ipa:zˈɝŋk",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: zernk."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "zernk",
+   "ipa": "zˈɝŋk"
+  },
+  {
+   "key": "ipa:ʃˈɝŋk",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: shernk."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "shernk",
+   "ipa": "ʃˈɝŋk"
+  },
+  {
+   "key": "ipa:ʃˈʌŋ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: shung."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "shung",
+   "ipa": "ʃˈʌŋ"
+  },
+  {
+   "key": "ipa:zˈɑŋ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: zong."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "zong",
+   "ipa": "zˈɑŋ"
+  },
+  {
+   "key": "ipa:ʃˈɑŋ",
+   "group": "pseudo L2",
+   "requests": [
+    "Say: shong."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "shong",
+   "ipa": "ʃˈɑŋ"
+  },
+  {
+   "key": "syl:wæθ",
+   "group": "chunk L2",
+   "requests": [
+    "Say: wath."
+   ],
+   "chars": 10,
+   "kind": "syl",
+   "cut": "open",
+   "say": "wath",
+   "ipa": "wæθ"
+  },
+  {
+   "key": "syl:tʌns",
+   "group": "chunk L2",
+   "requests": [
+    "Say: tence."
+   ],
+   "chars": 11,
+   "kind": "syl",
+   "cut": "open",
+   "say": "tence",
+   "ipa": "tʌns"
+  },
+  {
+   "key": "syl:wɪʃ",
+   "group": "chunk L2",
+   "requests": [
+    "Say: wish."
+   ],
+   "chars": 10,
+   "kind": "syl",
+   "cut": "open",
+   "say": "wish",
+   "ipa": "wɪʃ"
+  },
+  {
+   "key": "syl:dɪʃ",
+   "group": "chunk L2",
+   "requests": [
+    "Say: dish."
+   ],
+   "chars": 10,
+   "kind": "syl",
+   "cut": "open",
+   "say": "dish",
+   "ipa": "dɪʃ"
+  },
+  {
+   "key": "syl:bɑks",
+   "group": "chunk L2",
+   "requests": [
+    "Say: box."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "box",
+   "ipa": "bɑks"
+  },
+  {
+   "key": "syl:bʌs",
+   "group": "chunk L2",
+   "requests": [
+    "Say: bus."
+   ],
+   "chars": 9,
+   "kind": "syl",
+   "cut": "open",
+   "say": "bus",
+   "ipa": "bʌs"
+  },
+  {
+   "key": "syl:bɹʌʃ",
+   "group": "chunk L2",
+   "requests": [
+    "Say: brush."
+   ],
+   "chars": 11,
+   "kind": "syl",
+   "cut": "open",
+   "say": "brush",
+   "ipa": "bɹʌʃ"
+  },
+  {
+   "key": "syl:kɹæʃ",
+   "group": "chunk L2",
+   "requests": [
+    "Say: crash."
+   ],
+   "chars": 11,
+   "kind": "syl",
+   "cut": "open",
+   "say": "crash",
+   "ipa": "kɹæʃ"
+  },
+  {
+   "key": "syl:bɛn",
+   "group": "chunk L2",
+   "requests": [
+    "Say: ben."
+   ],
+   "chars": 9,
+   "kind": "syl",
+   "cut": "open",
+   "say": "ben",
+   "ipa": "bɛn"
+  },
+  {
+   "key": "syl:ʧɪz",
+   "group": "chunk L2",
+   "requests": [
+    "Say: ches."
+   ],
+   "chars": 10,
+   "kind": "syl",
+   "cut": "open",
+   "say": "ches",
+   "ipa": "ʧɪz"
+  },
+  {
+   "key": "syl:dɑɡz",
+   "group": "chunk L2",
+   "requests": [
+    "Say: dogs."
+   ],
+   "chars": 10,
+   "kind": "syl",
+   "cut": "open",
+   "say": "dogs",
+   "ipa": "dɑɡz"
+  },
+  {
+   "key": "syl:hændz",
+   "group": "chunk L2",
+   "requests": [
+    "Say: hands."
+   ],
+   "chars": 11,
+   "kind": "syl",
+   "cut": "open",
+   "say": "hands",
+   "ipa": "hændz"
+  },
+  {
+   "key": "syl:ʤʌmps",
+   "group": "chunk L2",
+   "requests": [
+    "Say: jumps."
+   ],
+   "chars": 11,
+   "kind": "syl",
+   "cut": "open",
+   "say": "jumps",
+   "ipa": "ʤʌmps"
+  },
+  {
+   "key": "syl:dɹɪŋks",
+   "group": "chunk L2",
+   "requests": [
+    "Say: drinks."
+   ],
+   "chars": 12,
+   "kind": "syl",
+   "cut": "open",
+   "say": "drinks",
+   "ipa": "dɹɪŋks"
+  },
+  {
+   "key": "syl:flɑɹ",
+   "group": "chunk L2",
+   "requests": [
+    "Say: flor."
+   ],
+   "chars": 10,
+   "kind": "syl",
+   "cut": "open",
+   "say": "flor",
+   "ipa": "flɑɹ"
+  },
+  {
+   "key": "syl:vɑz",
+   "group": "chunk L2",
+   "requests": [
+    "Say: voz."
+   ],
+   "chars": 9,
+   "kind": "syl",
+   "cut": "open",
+   "say": "voz",
+   "ipa": "vɑz"
+  },
+  {
+   "key": "syl:kɹɪŋs",
+   "group": "chunk L2",
+   "requests": [
+    "Say: crings."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "crings",
+   "ipa": "kɹɪŋs"
+  },
+  {
+   "key": "syl:ʃælps",
+   "group": "chunk L2",
+   "requests": [
+    "Say: shalps."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "shalps",
+   "ipa": "ʃælps"
+  },
+  {
+   "key": "syl:twɛns",
+   "group": "chunk L2",
+   "requests": [
+    "Say: twenns."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "twenns",
+   "ipa": "twɛns"
+  },
+  {
+   "key": "syl:stæks",
+   "group": "chunk L2",
+   "requests": [
+    "Say: stacks."
+   ],
+   "chars": 12,
+   "kind": "syl",
+   "cut": "open",
+   "say": "stacks",
+   "ipa": "stæks"
+  },
+  {
+   "key": "syl:mʌɡz",
+   "group": "chunk L2",
+   "requests": [
+    "Say: mugs."
+   ],
+   "chars": 10,
+   "kind": "syl",
+   "cut": "open",
+   "say": "mugs",
+   "ipa": "mʌɡz"
+  },
+  {
+   "key": "syl:vænz",
+   "group": "chunk L2",
+   "requests": [
+    "Say: vans."
+   ],
+   "chars": 10,
+   "kind": "syl",
+   "cut": "open",
+   "say": "vans",
+   "ipa": "vænz"
+  },
+  {
+   "key": "syl:ʤʌmpt",
+   "group": "chunk L2",
+   "requests": [
+    "Say: jumped."
+   ],
+   "chars": 12,
+   "kind": "syl",
+   "cut": "open",
+   "say": "jumped",
+   "ipa": "ʤʌmpt"
+  },
+  {
+   "key": "syl:wɪʃt",
+   "group": "chunk L2",
+   "requests": [
+    "Say: wished."
+   ],
+   "chars": 12,
+   "kind": "syl",
+   "cut": "open",
+   "say": "wished",
+   "ipa": "wɪʃt"
+  },
+  {
+   "key": "syl:fɪkst",
+   "group": "chunk L2",
+   "requests": [
+    "Say: fixed."
+   ],
+   "chars": 11,
+   "kind": "syl",
+   "cut": "open",
+   "say": "fixed",
+   "ipa": "fɪkst"
+  },
+  {
+   "key": "syl:ʧɛkt",
+   "group": "chunk L2",
+   "requests": [
+    "Say: checked."
+   ],
+   "chars": 13,
+   "kind": "syl",
+   "cut": "open",
+   "say": "checked",
+   "ipa": "ʧɛkt"
+  },
+  {
+   "key": "syl:ʤɑɡd",
+   "group": "chunk L2",
+   "requests": [
+    "Say: jogged."
+   ],
+   "chars": 12,
+   "kind": "syl",
+   "cut": "open",
+   "say": "jogged",
+   "ipa": "ʤɑɡd"
+  },
+  {
+   "key": "syl:ɡɹɪnd",
+   "group": "chunk L2",
+   "requests": [
+    "Say: grinned."
+   ],
+   "chars": 13,
+   "kind": "syl",
+   "cut": "open",
+   "say": "grinned",
+   "ipa": "ɡɹɪnd"
+  },
+  {
+   "key": "syl:hʌɡd",
+   "group": "chunk L2",
+   "requests": [
+    "Say: hugged."
+   ],
+   "chars": 12,
+   "kind": "syl",
+   "cut": "open",
+   "say": "hugged",
+   "ipa": "hʌɡd"
+  },
+  {
+   "key": "syl:fɪld",
+   "group": "chunk L2",
+   "requests": [
+    "Say: filled."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "filled",
+   "ipa": "fɪld"
+  },
+  {
+   "key": "syl:læn",
+   "group": "chunk L2",
+   "requests": [
+    "Say: lan."
+   ],
+   "chars": 9,
+   "kind": "syl",
+   "cut": "open",
+   "say": "lan",
+   "ipa": "læn"
+  },
+  {
+   "key": "syl:pækt",
+   "group": "chunk L2",
+   "requests": [
+    "Say: packed."
+   ],
+   "chars": 12,
+   "kind": "syl",
+   "cut": "open",
+   "say": "packed",
+   "ipa": "pækt"
+  },
+  {
+   "key": "syl:kæmpt",
+   "group": "chunk L2",
+   "requests": [
+    "Say: camped."
+   ],
+   "chars": 12,
+   "kind": "syl",
+   "cut": "open",
+   "say": "camped",
+   "ipa": "kæmpt"
+  },
+  {
+   "key": "syl:ɹɛs",
+   "group": "chunk L2",
+   "requests": [
+    "Say: res."
+   ],
+   "chars": 9,
+   "kind": "syl",
+   "cut": "open",
+   "say": "res",
+   "ipa": "ɹɛs"
+  },
+  {
+   "key": "syl:flɪskt",
+   "group": "chunk L2",
+   "requests": [
+    "Say: flisked."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "flisked",
+   "ipa": "flɪskt"
+  },
+  {
+   "key": "syl:bɹæmd",
+   "group": "chunk L2",
+   "requests": [
+    "Say: brammed."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "brammed",
+   "ipa": "bɹæmd"
+  },
+  {
+   "key": "syl:wæn",
+   "group": "chunk L2",
+   "requests": [
+    "Say: wan."
+   ],
+   "chars": 9,
+   "kind": "syl",
+   "cut": "open",
+   "say": "wan",
+   "ipa": "wæn"
+  },
+  {
+   "key": "syl:dɪd",
+   "group": "chunk L2",
+   "requests": [
+    "Say: ded."
+   ],
+   "chars": 9,
+   "kind": "syl",
+   "cut": "open",
+   "say": "ded",
+   "ipa": "dɪd"
+  },
+  {
+   "key": "syl:ʧɑs",
+   "group": "chunk L2",
+   "requests": [
+    "Say: chos."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "chos",
+   "ipa": "ʧɑs"
+  },
+  {
+   "key": "syl:plɛmd",
+   "group": "chunk L2",
+   "requests": [
+    "Say: plemmed."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "plemmed",
+   "ipa": "plɛmd"
+  },
+  {
+   "key": "syl:æskt",
+   "group": "chunk L2",
+   "requests": [
+    "Say: asked."
+   ],
+   "chars": 11,
+   "kind": "syl",
+   "cut": "open",
+   "say": "asked",
+   "ipa": "æskt"
+  },
+  {
+   "key": "syl:ʤʌm",
+   "group": "chunk L2",
+   "requests": [
+    "Say: jum."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "jum",
+   "ipa": "ʤʌm"
+  },
+  {
+   "key": "syl:kæm",
+   "group": "chunk L2",
+   "requests": [
+    "Say: cam."
+   ],
+   "chars": 9,
+   "kind": "syl",
+   "cut": "open",
+   "say": "cam",
+   "ipa": "kæm"
+  },
+  {
+   "key": "syl:fɪl",
+   "group": "chunk L2",
+   "requests": [
+    "Say: fil."
+   ],
+   "chars": 9,
+   "kind": "syl",
+   "cut": "open",
+   "say": "fil",
+   "ipa": "fɪl"
+  },
+  {
+   "key": "syl:pɹɪn",
+   "group": "chunk L2",
+   "requests": [
+    "Say: prin."
+   ],
+   "chars": 10,
+   "kind": "syl",
+   "cut": "open",
+   "say": "prin",
+   "ipa": "pɹɪn"
+  },
+  {
+   "key": "syl:væʃ",
+   "group": "chunk L2",
+   "requests": [
+    "Say: vash."
+   ],
+   "chars": 10,
+   "kind": "syl",
+   "cut": "open",
+   "say": "vash",
+   "ipa": "væʃ"
+  },
+  {
+   "key": "syl:stɹɑŋk",
+   "group": "chunk L2",
+   "requests": [
+    "Say: stronk."
+   ],
+   "chars": 12,
+   "kind": "syl",
+   "cut": "open",
+   "say": "stronk",
+   "ipa": "stɹɑŋk"
+  },
+  {
+   "key": "syl:dɹɛl",
+   "group": "chunk L2",
+   "requests": [
+    "Say: drel."
+   ],
+   "chars": 10,
+   "kind": "syl",
+   "cut": "open",
+   "say": "drel",
+   "ipa": "dɹɛl"
+  },
+  {
+   "key": "syl:stæk",
+   "group": "chunk L2",
+   "requests": [
+    "Say: stack."
+   ],
+   "chars": 11,
+   "kind": "syl",
+   "cut": "open",
+   "say": "stack",
+   "ipa": "stæk"
+  },
+  {
+   "key": "syl:bæɡz",
+   "group": "chunk L2",
+   "requests": [
+    "Say: bags."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "bags",
+   "ipa": "bæɡz"
+  },
+  {
+   "key": "syl:kæt",
+   "group": "chunk L2",
+   "requests": [
+    "Say: cat."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "cat",
+   "ipa": "kæt"
+  },
+  {
+   "key": "syl:fɪʃ",
+   "group": "chunk L2",
+   "requests": [
+    "Say: fish."
+   ],
+   "chars": 10,
+   "kind": "syl",
+   "cut": "open",
+   "say": "fish",
+   "ipa": "fɪʃ"
+  },
+  {
+   "key": "syl:bæθ",
+   "group": "chunk L2",
+   "requests": [
+    "Say: bath."
+   ],
+   "chars": 10,
+   "kind": "syl",
+   "cut": "open",
+   "say": "bath",
+   "ipa": "bæθ"
+  },
+  {
+   "key": "syl:tʌb",
+   "group": "chunk L2",
+   "requests": [
+    "Say: tub."
+   ],
+   "chars": 9,
+   "kind": "syl",
+   "cut": "open",
+   "say": "tub",
+   "ipa": "tʌb"
+  },
+  {
+   "key": "syl:pɪɡ",
+   "group": "chunk L2",
+   "requests": [
+    "Say: pig."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "pig",
+   "ipa": "pɪɡ"
+  },
+  {
+   "key": "syl:kæk",
+   "group": "chunk L2",
+   "requests": [
+    "Say: cac."
+   ],
+   "chars": 9,
+   "kind": "syl",
+   "cut": "open",
+   "say": "cac",
+   "ipa": "kæk"
+  },
+  {
+   "key": "syl:sɛkt",
+   "group": "chunk L2",
+   "requests": [
+    "Say: sect."
+   ],
+   "chars": 10,
+   "kind": "syl",
+   "cut": "open",
+   "say": "sect",
+   "ipa": "sɛkt"
+  },
+  {
+   "key": "syl:stʌnt",
+   "group": "chunk L2",
+   "requests": [
+    "Say: stant."
+   ],
+   "chars": 11,
+   "kind": "syl",
+   "cut": "open",
+   "say": "stant",
+   "ipa": "stʌnt"
+  },
+  {
+   "key": "syl:tɛst",
+   "group": "chunk L2",
+   "requests": [
+    "Say: test."
+   ],
+   "chars": 10,
+   "kind": "syl",
+   "cut": "open",
+   "say": "test",
+   "ipa": "tɛst"
+  },
+  {
+   "key": "syl:dɔɡ",
+   "group": "chunk L2",
+   "requests": [
+    "Say: dog."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "dog",
+   "ipa": "dɔɡ"
+  },
+  {
+   "key": "syl:væn",
+   "group": "chunk L2",
+   "requests": [
+    "Say: van."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "van",
+   "ipa": "væn"
+  },
+  {
+   "key": "syl:tɪk",
+   "group": "chunk L2",
+   "requests": [
+    "Say: tic."
+   ],
+   "chars": 9,
+   "kind": "syl",
+   "cut": "open",
+   "say": "tic",
+   "ipa": "tɪk"
+  },
+  {
+   "key": "syl:zɛn",
+   "group": "chunk L2",
+   "requests": [
+    "Say: zen."
+   ],
+   "chars": 9,
+   "kind": "syl",
+   "cut": "open",
+   "say": "zen",
+   "ipa": "zɛn"
+  },
+  {
+   "key": "syl:bɹɑs",
+   "group": "chunk L2",
+   "requests": [
+    "Say: bros."
+   ],
+   "chars": 10,
+   "kind": "syl",
+   "cut": "open",
+   "say": "bros",
+   "ipa": "bɹɑs"
+  },
+  {
+   "key": "syl:tʌp",
+   "group": "chunk L2",
+   "requests": [
+    "Say: tup."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "tup",
+   "ipa": "tʌp"
+  },
+  {
+   "key": "syl:dɹæv",
+   "group": "chunk L2",
+   "requests": [
+    "Say: drav."
+   ],
+   "chars": 10,
+   "kind": "syl",
+   "cut": "open",
+   "say": "drav",
+   "ipa": "dɹæv"
+  },
+  {
+   "key": "syl:pæn",
+   "group": "chunk L2",
+   "requests": [
+    "Say: pan."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "pan",
+   "ipa": "pæn"
+  },
+  {
+   "key": "syl:pɹɑb",
+   "group": "chunk L2",
+   "requests": [
+    "Say: prob."
+   ],
+   "chars": 10,
+   "kind": "syl",
+   "cut": "open",
+   "say": "prob",
+   "ipa": "pɹɑb"
+  },
+  {
+   "key": "syl:lʌm",
+   "group": "chunk L2",
+   "requests": [
+    "Say: lem."
+   ],
+   "chars": 9,
+   "kind": "syl",
+   "cut": "open",
+   "say": "lem",
+   "ipa": "lʌm"
+  },
+  {
+   "key": "syl:stɹɪʃ",
+   "group": "chunk L2",
+   "requests": [
+    "Say: strish."
+   ],
+   "chars": 12,
+   "kind": "syl",
+   "cut": "open",
+   "say": "strish",
+   "ipa": "stɹɪʃ"
+  },
+  {
+   "key": "syl:flɑŋkt",
+   "group": "chunk L2",
+   "requests": [
+    "Say: flonked."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "flonked",
+   "ipa": "flɑŋkt"
+  },
+  {
+   "key": "syl:ʧʌf",
+   "group": "chunk L2",
+   "requests": [
+    "Say: chuf."
+   ],
+   "chars": 10,
+   "kind": "syl",
+   "cut": "open",
+   "say": "chuf",
+   "ipa": "ʧʌf"
+  },
+  {
+   "key": "syl:dɛst",
+   "group": "chunk L2",
+   "requests": [
+    "Say: dest."
+   ],
+   "chars": 10,
+   "kind": "syl",
+   "cut": "open",
+   "say": "dest",
+   "ipa": "dɛst"
+  },
+  {
+   "key": "syl:θɹæm",
+   "group": "chunk L2",
+   "requests": [
+    "Say: thram."
+   ],
+   "chars": 11,
+   "kind": "syl",
+   "cut": "open",
+   "say": "thram",
+   "ipa": "θɹæm"
+  },
+  {
+   "key": "syl:hɛlpt",
+   "group": "chunk L2",
+   "requests": [
+    "Say: helped."
+   ],
+   "chars": 12,
+   "kind": "syl",
+   "cut": "open",
+   "say": "helped",
+   "ipa": "hɛlpt"
+  },
+  {
+   "key": "syl:splæʃ",
+   "group": "chunk L2",
+   "requests": [
+    "Say: splash."
+   ],
+   "chars": 12,
+   "kind": "syl",
+   "cut": "open",
+   "say": "splash",
+   "ipa": "splæʃ"
+  },
+  {
+   "key": "syl:lɑɡ",
+   "group": "chunk L2",
+   "requests": [
+    "Say: log."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "log",
+   "ipa": "lɑɡ"
+  },
+  {
+   "key": "syl:dɛnts",
+   "group": "chunk L2",
+   "requests": [
+    "Say: dents."
+   ],
+   "chars": 11,
+   "kind": "syl",
+   "cut": "open",
+   "say": "dents",
+   "ipa": "dɛnts"
+  },
+  {
+   "key": "syl:fɹɛndz",
+   "group": "chunk L2",
+   "requests": [
+    "Say: friends."
+   ],
+   "chars": 13,
+   "kind": "syl",
+   "cut": "open",
+   "say": "friends",
+   "ipa": "fɹɛndz"
+  },
+  {
+   "key": "syl:pɹɪnts",
+   "group": "chunk L2",
+   "requests": [
+    "Say: prints."
+   ],
+   "chars": 12,
+   "kind": "syl",
+   "cut": "open",
+   "say": "prints",
+   "ipa": "pɹɪnts"
+  },
+  {
+   "key": "ph:w-ah",
+   "group": "iso L3",
+   "requests": [
+    "Wuh.",
+    "Wah.",
+    "Wuhh."
+   ],
+   "chars": 13,
+   "kind": "iso",
+   "pid": "w-ah",
+   "ipa": "wʌ"
+  },
+  {
+   "key": "ph:ey",
+   "group": "iso L3",
+   "requests": [
+    "Ay.",
+    "Ayyy.",
+    "Aaay."
+   ],
+   "chars": 13,
+   "kind": "iso",
+   "pid": "ey",
+   "ipa": "eɪ"
+  },
+  {
+   "key": "ph:aa-r",
+   "group": "iso L3",
+   "requests": [
+    "Ar.",
+    "Arr.",
+    "Are."
+   ],
+   "chars": 11,
+   "kind": "iso",
+   "pid": "aa-r",
+   "ipa": "ɑɹ"
+  },
+  {
+   "key": "ph:ay-er",
+   "group": "iso L4",
+   "requests": [
+    "Ire.",
+    "Eye-er.",
+    "Iyer."
+   ],
+   "chars": 16,
+   "kind": "iso",
+   "pid": "ay-er",
+   "ipa": "aɪɝ"
+  },
+  {
+   "key": "ph:eh-r",
+   "group": "iso L4",
+   "requests": [
+    "Air.",
+    "Err.",
+    "Ehr."
+   ],
+   "chars": 8,
+   "kind": "iso",
+   "pid": "eh-r",
+   "ipa": "ɛɹ"
+  },
+  {
+   "key": "ph:ih-r",
+   "group": "iso L4",
+   "requests": [
+    "Ear.",
+    "Eer.",
+    "Ihr."
+   ],
+   "chars": 12,
+   "kind": "iso",
+   "pid": "ih-r",
+   "ipa": "ɪɹ"
+  },
+  {
+   "key": "ph:oy",
+   "group": "iso L4",
+   "requests": [
+    "Oy.",
+    "Oyyy.",
+    "Oi."
+   ],
+   "chars": 11,
+   "kind": "iso",
+   "pid": "oy",
+   "ipa": "ɔɪ"
+  },
+  {
+   "key": "ph:aw-er",
+   "group": "iso L4",
+   "requests": [
+    "Our.",
+    "Ower.",
+    "Owr."
+   ],
+   "chars": 13,
+   "kind": "iso",
+   "pid": "aw-er",
+   "ipa": "aʊɝ"
+  },
+  {
+   "key": "ph:ao-l",
+   "group": "iso L4",
+   "requests": [
+    "All.",
+    "Awl.",
+    "Ahl."
+   ],
+   "chars": 12,
+   "kind": "iso",
+   "pid": "ao-l",
+   "ipa": "ɔl"
+  },
+  {
+   "key": "ph:ng-g",
+   "group": "iso L4",
+   "requests": [
+    "Ngg.",
+    "Ng-g.",
+    "Anguh."
+   ],
+   "chars": 15,
+   "kind": "iso",
+   "pid": "ng-g",
+   "ipa": "ŋɡ"
+  },
+  {
+   "key": "ph:sh-ah-n",
+   "group": "iso L4",
+   "requests": [
+    "Shun.",
+    "Shuhn.",
+    "Shan."
+   ],
+   "chars": 16,
+   "kind": "iso",
+   "pid": "sh-ah-n",
+   "ipa": "ʃʌn"
+  },
+  {
+   "key": "ph:zh-ah-n",
+   "group": "iso L4",
+   "requests": [
+    "Zhun.",
+    "Zhuhn.",
+    "Zhn."
+   ],
+   "chars": 15,
+   "kind": "iso",
+   "pid": "zh-ah-n",
+   "ipa": "ʒʌn"
+  },
+  {
+   "key": "ph:ch-er",
+   "group": "iso L4",
+   "requests": [
+    "Cher.",
+    "Chur.",
+    "Chuhr."
+   ],
+   "chars": 16,
+   "kind": "iso",
+   "pid": "ch-er",
+   "ipa": "ʧɝ"
+  },
+  {
+   "key": "ph:ah-s",
+   "group": "iso L4",
+   "requests": [
+    "Us.",
+    "Uss.",
+    "Uhs."
+   ],
+   "chars": 11,
+   "kind": "iso",
+   "pid": "ah-s",
+   "ipa": "ʌs"
+  },
+  {
+   "key": "ph:y-uh",
+   "group": "iso L4",
+   "requests": [
+    "Yuh.",
+    "Yoo-uh.",
+    "Yuu."
+   ],
+   "chars": 15,
+   "kind": "iso",
+   "pid": "y-uh",
+   "ipa": "jʊ"
+  },
+  {
+   "key": "ph:iy-ah-s",
+   "group": "iso L4",
+   "requests": [
+    "Eeus.",
+    "Ee-us.",
+    "Eeuss."
+   ],
+   "chars": 17,
+   "kind": "iso",
+   "pid": "iy-ah-s",
+   "ipa": "iʌs"
+  },
+  {
+   "key": "ph:sh-ah-l",
+   "group": "iso L4",
+   "requests": [
+    "Shul.",
+    "Shuhl.",
+    "Shal."
+   ],
+   "chars": 16,
+   "kind": "iso",
+   "pid": "sh-ah-l",
+   "ipa": "ʃʌl"
+  },
+  {
+   "key": "ph:ah-n",
+   "group": "iso L4",
+   "requests": [
+    "Un.",
+    "Uhn.",
+    "Unn."
+   ],
+   "chars": 11,
+   "kind": "iso",
+   "pid": "ah-n",
+   "ipa": "ʌn"
+  },
+  {
+   "key": "ph:zh",
+   "group": "iso L4",
+   "requests": [
+    "Zhhhh.",
+    "Zhhhhhh.",
+    "Zh."
+   ],
+   "chars": 17,
+   "kind": "iso",
+   "pid": "zh",
+   "ipa": "ʒ"
+  },
+  {
+   "key": "ph:y-ah",
+   "group": "iso L4",
+   "requests": [
+    "Yuh.",
+    "Yah.",
+    "Yu."
+   ],
+   "chars": 7,
+   "kind": "iso",
+   "pid": "y-ah",
+   "ipa": "jʌ"
+  },
+  {
+   "key": "ipa:ʃˈɛb",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: sheb."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "sheb",
+   "ipa": "ʃˈɛb"
+  },
+  {
+   "key": "w:snabe",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: snabe."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "snabe",
+   "ipa": "snˈeɪb"
+  },
+  {
+   "key": "w:trafe",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: trafe."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "trafe",
+   "ipa": "tɹˈeɪf"
+  },
+  {
+   "key": "w:zade",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: zade."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "zade",
+   "ipa": "zˈeɪd"
+  },
+  {
+   "key": "w:fape",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: fape."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "fape",
+   "ipa": "fˈeɪp"
+  },
+  {
+   "key": "w:zabe",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: zabe."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "zabe",
+   "ipa": "zˈeɪb"
+  },
+  {
+   "key": "w:plome",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: plome."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "plome",
+   "ipa": "plˈoʊm"
+  },
+  {
+   "key": "w:snade",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: snade."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "snade",
+   "ipa": "snˈeɪd"
+  },
+  {
+   "key": "w:fripe",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: fripe."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "fripe",
+   "ipa": "fɹˈaɪp"
+  },
+  {
+   "key": "w:blite",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: blite."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "blite",
+   "ipa": "blˈaɪt"
+  },
+  {
+   "key": "w:stide",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: stide."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "stide",
+   "ipa": "stˈaɪd"
+  },
+  {
+   "key": "w:quibe",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: quibe."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "quibe",
+   "ipa": "kwˈaɪb"
+  },
+  {
+   "key": "w:slobe",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: slobe."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "slobe",
+   "ipa": "slˈoʊb"
+  },
+  {
+   "key": "w:prute",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: prute."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "prute",
+   "ipa": "pɹˈut"
+  },
+  {
+   "key": "w:glupe",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: glupe."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "glupe",
+   "ipa": "ɡlˈup"
+  },
+  {
+   "key": "w:chete",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: chete."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "chete",
+   "ipa": "ʧˈit"
+  },
+  {
+   "key": "w:zope",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: zope."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "zope",
+   "ipa": "zˈoʊp"
+  },
+  {
+   "key": "w:drine",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: drine."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "drine",
+   "ipa": "dɹˈaɪn"
+  },
+  {
+   "key": "w:zime",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: zime."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "zime",
+   "ipa": "zˈaɪm"
+  },
+  {
+   "key": "w:ziming",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: ziming."
+   ],
+   "chars": 12,
+   "kind": "w",
+   "cut": "last",
+   "say": "ziming",
+   "ipa": "zˈaɪmɪŋ"
+  },
+  {
+   "key": "w:flobe",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: flobe."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "flobe",
+   "ipa": "flˈoʊb"
+  },
+  {
+   "key": "w:flobing",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: flobing."
+   ],
+   "chars": 13,
+   "kind": "w",
+   "cut": "last",
+   "say": "flobing",
+   "ipa": "flˈoʊbɪŋ"
+  },
+  {
+   "key": "w:flobin",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: flobin."
+   ],
+   "chars": 0,
+   "kind": "w",
+   "cut": "last",
+   "say": "flobin",
+   "ipa": "flˈoʊbɪn"
+  },
+  {
+   "key": "w:pademic",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: pademic."
+   ],
+   "chars": 0,
+   "kind": "w",
+   "cut": "last",
+   "say": "pademic",
+   "ipa": "pˈeɪdimɪk"
+  },
+  {
+   "key": "w:zoric",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: zoric."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "zoric",
+   "ipa": "zˈoʊɹɪk"
+  },
+  {
+   "key": "w:mubel",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: mubel."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "mubel",
+   "ipa": "mˈubɛl"
+  },
+  {
+   "key": "w:hitane",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: hitane."
+   ],
+   "chars": 12,
+   "kind": "w",
+   "cut": "last",
+   "say": "hitane",
+   "ipa": "hˈaɪteɪn"
+  },
+  {
+   "key": "w:flimy",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: flimy."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "flimy",
+   "ipa": "flˈaɪmi"
+  },
+  {
+   "key": "w:stry",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: stry."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "stry",
+   "ipa": "stɹˈaɪ"
+  },
+  {
+   "key": "w:plemmy",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: plemmy."
+   ],
+   "chars": 12,
+   "kind": "w",
+   "cut": "last",
+   "say": "plemmy",
+   "ipa": "plˈɛmi"
+  },
+  {
+   "key": "w:fladdy",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: fladdy."
+   ],
+   "chars": 12,
+   "kind": "w",
+   "cut": "last",
+   "say": "fladdy",
+   "ipa": "flˈædi"
+  },
+  {
+   "key": "w:sladdy",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: sladdy."
+   ],
+   "chars": 12,
+   "kind": "w",
+   "cut": "last",
+   "say": "sladdy",
+   "ipa": "slˈædi"
+  },
+  {
+   "key": "w:flice",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: flice."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "flice",
+   "ipa": "flˈaɪs"
+  },
+  {
+   "key": "w:gede",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: gede."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "gede",
+   "ipa": "ʤd"
+  },
+  {
+   "key": "w:stadge",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: stadge."
+   ],
+   "chars": 12,
+   "kind": "w",
+   "cut": "last",
+   "say": "stadge",
+   "ipa": "stˈæʤ"
+  },
+  {
+   "key": "w:plage",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: plage."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "plage",
+   "ipa": "plˈeɪʤ"
+  },
+  {
+   "key": "w:starj",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: starj."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "starj",
+   "ipa": "stˈɑɹʤ"
+  },
+  {
+   "key": "w:trarf",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: trarf."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "trarf",
+   "ipa": "tɹˈɑɹf"
+  },
+  {
+   "key": "w:sparn",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: sparn."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "sparn",
+   "ipa": "spˈɑɹn"
+  },
+  {
+   "key": "w:flarn",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: flarn."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "flarn",
+   "ipa": "flˈɑɹn"
+  },
+  {
+   "key": "w:florp",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: florp."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "florp",
+   "ipa": "flˈɔɹp"
+  },
+  {
+   "key": "w:storn",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: storn."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "storn",
+   "ipa": "stˈɔɹn"
+  },
+  {
+   "key": "w:blore",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: blore."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "blore",
+   "ipa": "blˈɔɹ"
+  },
+  {
+   "key": "w:trork",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: trork."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "trork",
+   "ipa": "tɹˈɔɹk"
+  },
+  {
+   "key": "w:snorm",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: snorm."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "snorm",
+   "ipa": "snˈɔɹm"
+  },
+  {
+   "key": "w:gaint",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: gaint."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "gaint",
+   "ipa": "ɡˈeɪnt"
+  },
+  {
+   "key": "w:chay",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: chay."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "chay",
+   "ipa": "ʧˈeɪ"
+  },
+  {
+   "key": "w:blean",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: blean."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "blean",
+   "ipa": "blˈin"
+  },
+  {
+   "key": "w:chead",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: chead."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "chead",
+   "ipa": "ʧˈid"
+  },
+  {
+   "key": "w:plee",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: plee."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "plee",
+   "ipa": "plˈi"
+  },
+  {
+   "key": "w:proat",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: proat."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "proat",
+   "ipa": "pɹˈoʊt"
+  },
+  {
+   "key": "w:snoat",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: snoat."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "snoat",
+   "ipa": "snˈoʊt"
+  },
+  {
+   "key": "w:droe",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: droe."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "droe",
+   "ipa": "dɹˈoʊ"
+  },
+  {
+   "key": "w:hoat",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: hoat."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "hoat",
+   "ipa": "hˈoʊt"
+  },
+  {
+   "key": "w:stight",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: stight."
+   ],
+   "chars": 12,
+   "kind": "w",
+   "cut": "last",
+   "say": "stight",
+   "ipa": "stˈaɪt"
+  },
+  {
+   "key": "w:prigh",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: prigh."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "prigh",
+   "ipa": "pɹˈaɪ"
+  },
+  {
+   "key": "w:plie",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: plie."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "plie",
+   "ipa": "plˈaɪ"
+  },
+  {
+   "key": "w:nighm",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: nighm."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "nighm",
+   "ipa": "nˈaɪm"
+  },
+  {
+   "key": "w:drue",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: drue."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "drue",
+   "ipa": "dɹˈu"
+  },
+  {
+   "key": "w:sprew",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: sprew."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "sprew",
+   "ipa": "spɹˈu"
+  },
+  {
+   "key": "w:fluit",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: fluit."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "fluit",
+   "ipa": "flˈut"
+  },
+  {
+   "key": "w:sproom",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: sproom."
+   ],
+   "chars": 12,
+   "kind": "w",
+   "cut": "last",
+   "say": "sproom",
+   "ipa": "spɹˈum"
+  },
+  {
+   "key": "w:blook",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: blook."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "blook",
+   "ipa": "blˈuk"
+  },
+  {
+   "key": "w:twood",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: twood."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "twood",
+   "ipa": "twˈud"
+  },
+  {
+   "key": "w:froon",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: froon."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "froon",
+   "ipa": "fɹˈun"
+  },
+  {
+   "key": "w:gloot",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: gloot."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "gloot",
+   "ipa": "ɡlˈut"
+  },
+  {
+   "key": "w:grild",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: grild."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "grild",
+   "ipa": "ɡɹˈaɪld"
+  },
+  {
+   "key": "w:plind",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: plind."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "plind",
+   "ipa": "plˈaɪnd"
+  },
+  {
+   "key": "w:snold",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: snold."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "snold",
+   "ipa": "snˈoʊld"
+  },
+  {
+   "key": "w:flild",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: flild."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "flild",
+   "ipa": "flˈaɪld"
+  },
+  {
+   "key": "w:flape",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: flape."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "flape",
+   "ipa": "flˈeɪp"
+  },
+  {
+   "key": "w:glode",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: glode."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "glode",
+   "ipa": "ɡlˈoʊd"
+  },
+  {
+   "key": "w:fleeb",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: fleeb."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "fleeb",
+   "ipa": "flˈib"
+  },
+  {
+   "key": "w:stroat",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: stroat."
+   ],
+   "chars": 12,
+   "kind": "w",
+   "cut": "last",
+   "say": "stroat",
+   "ipa": "stɹˈoʊt"
+  },
+  {
+   "key": "w:snue",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: snue."
+   ],
+   "chars": 10,
+   "kind": "w",
+   "cut": "last",
+   "say": "snue",
+   "ipa": "snˈu"
+  },
+  {
+   "key": "w:twoom",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: twoom."
+   ],
+   "chars": 11,
+   "kind": "w",
+   "cut": "last",
+   "say": "twoom",
+   "ipa": "twˈum"
+  },
+  {
+   "key": "ipa:blˈeɪf",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: blayf."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "blayf",
+   "ipa": "blˈeɪf"
+  },
+  {
+   "key": "ipa:blˈeɪt",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: blayt."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "blayt",
+   "ipa": "blˈeɪt"
+  },
+  {
+   "key": "ipa:blˈɝɹ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: blerr."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "blerr",
+   "ipa": "blˈɝɹ"
+  },
+  {
+   "key": "ipa:bɹˈɝɹ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: brerr."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "brerr",
+   "ipa": "bɹˈɝɹ"
+  },
+  {
+   "key": "ipa:blˈin",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: blean."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "blean",
+   "ipa": "blˈin"
+  },
+  {
+   "key": "ipa:blˈib",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: bleeb."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "bleeb",
+   "ipa": "blˈib"
+  },
+  {
+   "key": "ipa:plˈib",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: pleeb."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "pleeb",
+   "ipa": "plˈib"
+  },
+  {
+   "key": "ipa:blˈaɪt",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: blite."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "blite",
+   "ipa": "blˈaɪt"
+  },
+  {
+   "key": "ipa:blˈaɪl",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: blighl."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "blighl",
+   "ipa": "blˈaɪl"
+  },
+  {
+   "key": "ipa:slˈaɪl",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: slighl."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "slighl",
+   "ipa": "slˈaɪl"
+  },
+  {
+   "key": "ipa:blˈaɪʧ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: blighch."
+   ],
+   "chars": 13,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "blighch",
+   "ipa": "blˈaɪʧ"
+  },
+  {
+   "key": "ipa:blˈaɪŋ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: blighng."
+   ],
+   "chars": 13,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "blighng",
+   "ipa": "blˈaɪŋ"
+  },
+  {
+   "key": "ipa:blˈuk",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: blook."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "blook",
+   "ipa": "blˈuk"
+  },
+  {
+   "key": "ipa:blˈub",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: bloob."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "bloob",
+   "ipa": "blˈub"
+  },
+  {
+   "key": "ipa:blˈɪb",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: blib."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "blib",
+   "ipa": "blˈɪb"
+  },
+  {
+   "key": "ipa:blˈɔɹ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: blore."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "blore",
+   "ipa": "blˈɔɹ"
+  },
+  {
+   "key": "ipa:bɹˈɔɹ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: brawr."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "brawr",
+   "ipa": "bɹˈɔɹ"
+  },
+  {
+   "key": "ipa:ʧˈeɪ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: chay."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "chay",
+   "ipa": "ʧˈeɪ"
+  },
+  {
+   "key": "ipa:vˈeɪ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: vay."
+   ],
+   "chars": 9,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "vay",
+   "ipa": "vˈeɪ"
+  },
+  {
+   "key": "ipa:ʧˈoʊ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: choa."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "choa",
+   "ipa": "ʧˈoʊ"
+  },
+  {
+   "key": "ipa:vˈoʊ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: voa."
+   ],
+   "chars": 9,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "voa",
+   "ipa": "vˈoʊ"
+  },
+  {
+   "key": "ipa:ʧˈid",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: chead."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "chead",
+   "ipa": "ʧˈid"
+  },
+  {
+   "key": "ipa:vˈid",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: veed."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "veed",
+   "ipa": "vˈid"
+  },
+  {
+   "key": "ipa:ʧˈeɪd",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: chayd."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "chayd",
+   "ipa": "ʧˈeɪd"
+  },
+  {
+   "key": "ipa:vˈeɪd",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: vayd."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "vayd",
+   "ipa": "vˈeɪd"
+  },
+  {
+   "key": "ipa:ʧˈit",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: chete."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "chete",
+   "ipa": "ʧˈit"
+  },
+  {
+   "key": "ipa:zˈit",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: zeet."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "zeet",
+   "ipa": "zˈit"
+  },
+  {
+   "key": "ipa:ʧˈʌt",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: chut."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "chut",
+   "ipa": "ʧˈʌt"
+  },
+  {
+   "key": "ipa:zˈʌt",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: zut."
+   ],
+   "chars": 9,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "zut",
+   "ipa": "zˈʌt"
+  },
+  {
+   "key": "ipa:pɹˈaɪ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: prigh."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "prigh",
+   "ipa": "pɹˈaɪ"
+  },
+  {
+   "key": "ipa:dɹˈaɪn",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: drine."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "drine",
+   "ipa": "dɹˈaɪn"
+  },
+  {
+   "key": "ipa:dwˈaɪn",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: dwighn."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "dwighn",
+   "ipa": "dwˈaɪn"
+  },
+  {
+   "key": "ipa:dɹˈɛn",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: dren."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "dren",
+   "ipa": "dɹˈɛn"
+  },
+  {
+   "key": "ipa:dwˈɛn",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: dwen."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "dwen",
+   "ipa": "dwˈɛn"
+  },
+  {
+   "key": "ipa:dɹˈoʊ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: droe."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "droe",
+   "ipa": "dɹˈoʊ"
+  },
+  {
+   "key": "ipa:dwˈoʊ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: dwoa."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "dwoa",
+   "ipa": "dwˈoʊ"
+  },
+  {
+   "key": "ipa:dɹˈɑ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: dro."
+   ],
+   "chars": 9,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "dro",
+   "ipa": "dɹˈɑ"
+  },
+  {
+   "key": "ipa:dwˈɑ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: dwo."
+   ],
+   "chars": 9,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "dwo",
+   "ipa": "dwˈɑ"
+  },
+  {
+   "key": "ipa:dwˈu",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: dwoo."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "dwoo",
+   "ipa": "dwˈu"
+  },
+  {
+   "key": "ipa:dɹˈæ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: dra."
+   ],
+   "chars": 9,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "dra",
+   "ipa": "dɹˈæ"
+  },
+  {
+   "key": "ipa:dwˈæ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: dwa."
+   ],
+   "chars": 9,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "dwa",
+   "ipa": "dwˈæ"
+  },
+  {
+   "key": "ipa:fˈeɪp",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: fape."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "fape",
+   "ipa": "fˈeɪp"
+  },
+  {
+   "key": "ipa:ʧˈeɪp",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: chayp."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "chayp",
+   "ipa": "ʧˈeɪp"
+  },
+  {
+   "key": "ipa:fˈeɪb",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: fayb."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "fayb",
+   "ipa": "fˈeɪb"
+  },
+  {
+   "key": "ipa:ʧˈeɪb",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: chayb."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "chayb",
+   "ipa": "ʧˈeɪb"
+  },
+  {
+   "key": "ipa:flˈædi",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: fladdy."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "fladdy",
+   "ipa": "flˈædi"
+  },
+  {
+   "key": "ipa:fɹˈædi",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: fradee."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "fradee",
+   "ipa": "fɹˈædi"
+  },
+  {
+   "key": "ipa:flˈɝdi",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: flerdee."
+   ],
+   "chars": 13,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "flerdee",
+   "ipa": "flˈɝdi"
+  },
+  {
+   "key": "ipa:fɹˈɝdi",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: frerdee."
+   ],
+   "chars": 13,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "frerdee",
+   "ipa": "fɹˈɝdi"
+  },
+  {
+   "key": "ipa:flˈeɪp",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: flayp."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "flayp",
+   "ipa": "flˈeɪp"
+  },
+  {
+   "key": "ipa:fɹˈeɪp",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: frayp."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "frayp",
+   "ipa": "fɹˈeɪp"
+  },
+  {
+   "key": "ipa:flˈip",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: fleep."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "fleep",
+   "ipa": "flˈip"
+  },
+  {
+   "key": "ipa:fɹˈip",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: freep."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "freep",
+   "ipa": "fɹˈip"
+  },
+  {
+   "key": "ipa:flˈɑɹn",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: flarn."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "flarn",
+   "ipa": "flˈɑɹn"
+  },
+  {
+   "key": "ipa:fɹˈɑɹn",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: frorn."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "frorn",
+   "ipa": "fɹˈɑɹn"
+  },
+  {
+   "key": "ipa:flˈoʊɹn",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: floarn."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "floarn",
+   "ipa": "flˈoʊɹn"
+  },
+  {
+   "key": "ipa:fɹˈoʊɹn",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: froarn."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "froarn",
+   "ipa": "fɹˈoʊɹn"
+  },
+  {
+   "key": "ipa:flˈib",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: fleeb."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "fleeb",
+   "ipa": "flˈib"
+  },
+  {
+   "key": "ipa:fɹˈib",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: freeb."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "freeb",
+   "ipa": "fɹˈib"
+  },
+  {
+   "key": "ipa:flˈɪb",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: flib."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "flib",
+   "ipa": "flˈɪb"
+  },
+  {
+   "key": "ipa:fɹˈɪb",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: frib."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "frib",
+   "ipa": "fɹˈɪb"
+  },
+  {
+   "key": "ipa:flˈaɪs",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: flice."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "flice",
+   "ipa": "flˈaɪs"
+  },
+  {
+   "key": "ipa:fɹˈaɪs",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: frighs."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "frighs",
+   "ipa": "fɹˈaɪs"
+  },
+  {
+   "key": "ipa:flˈæs",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: flas."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "flas",
+   "ipa": "flˈæs"
+  },
+  {
+   "key": "ipa:fɹˈæs",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: fras."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "fras",
+   "ipa": "fɹˈæs"
+  },
+  {
+   "key": "ipa:flˈaɪld",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: flild."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "flild",
+   "ipa": "flˈaɪld"
+  },
+  {
+   "key": "ipa:fɹˈaɪld",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: frighld."
+   ],
+   "chars": 13,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "frighld",
+   "ipa": "fɹˈaɪld"
+  },
+  {
+   "key": "ipa:flˈʊld",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: floold."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "floold",
+   "ipa": "flˈʊld"
+  },
+  {
+   "key": "ipa:fɹˈʊld",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: froold."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "froold",
+   "ipa": "fɹˈʊld"
+  },
+  {
+   "key": "ipa:flˈaɪmi",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: flimy."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "flimy",
+   "ipa": "flˈaɪmi"
+  },
+  {
+   "key": "ipa:fɹˈaɪmi",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: frighmee."
+   ],
+   "chars": 14,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "frighmee",
+   "ipa": "fɹˈaɪmi"
+  },
+  {
+   "key": "ipa:flˈʌmi",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: flumee."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "flumee",
+   "ipa": "flˈʌmi"
+  },
+  {
+   "key": "ipa:fɹˈʌmi",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: frumee."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "frumee",
+   "ipa": "fɹˈʌmi"
+  },
+  {
+   "key": "ipa:flˈoʊb",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: flobe."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "flobe",
+   "ipa": "flˈoʊb"
+  },
+  {
+   "key": "ipa:fɹˈoʊb",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: froab."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "froab",
+   "ipa": "fɹˈoʊb"
+  },
+  {
+   "key": "ipa:flˈoʊbɪn",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: flobin."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "flobin",
+   "ipa": "flˈoʊbɪn"
+  },
+  {
+   "key": "ipa:fɹˈoʊbɪn",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: froabin."
+   ],
+   "chars": 13,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "froabin",
+   "ipa": "fɹˈoʊbɪn"
+  },
+  {
+   "key": "ipa:flˈeɪbɪn",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: flaybin."
+   ],
+   "chars": 13,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "flaybin",
+   "ipa": "flˈeɪbɪn"
+  },
+  {
+   "key": "ipa:fɹˈeɪbɪn",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: fraybin."
+   ],
+   "chars": 13,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "fraybin",
+   "ipa": "fɹˈeɪbɪn"
+  },
+  {
+   "key": "ipa:flˈoʊbɪŋ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: flobing."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "flobing",
+   "ipa": "flˈoʊbɪŋ"
+  },
+  {
+   "key": "ipa:fɹˈoʊbɪŋ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: froabing."
+   ],
+   "chars": 14,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "froabing",
+   "ipa": "fɹˈoʊbɪŋ"
+  },
+  {
+   "key": "ipa:flˈʌbɪŋ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: flubing."
+   ],
+   "chars": 13,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "flubing",
+   "ipa": "flˈʌbɪŋ"
+  },
+  {
+   "key": "ipa:fɹˈʌbɪŋ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: frubing."
+   ],
+   "chars": 13,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "frubing",
+   "ipa": "fɹˈʌbɪŋ"
+  },
+  {
+   "key": "ipa:flˈɔɹp",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: florp."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "florp",
+   "ipa": "flˈɔɹp"
+  },
+  {
+   "key": "ipa:fɹˈɔɹp",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: frawrp."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "frawrp",
+   "ipa": "fɹˈɔɹp"
+  },
+  {
+   "key": "ipa:flˈiɹp",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: fleerp."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "fleerp",
+   "ipa": "flˈiɹp"
+  },
+  {
+   "key": "ipa:fɹˈiɹp",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: freerp."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "freerp",
+   "ipa": "fɹˈiɹp"
+  },
+  {
+   "key": "ipa:flˈuð",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: flooth."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "flooth",
+   "ipa": "flˈuð"
+  },
+  {
+   "key": "ipa:dɹˈeɪm",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: draym."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "draym",
+   "ipa": "dɹˈeɪm"
+  },
+  {
+   "key": "ipa:dɹˈeɪʤ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: drayj."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "drayj",
+   "ipa": "dɹˈeɪʤ"
+  },
+  {
+   "key": "ipa:fɹˈiv",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: freev."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "freev",
+   "ipa": "fɹˈiv"
+  },
+  {
+   "key": "ipa:fɹˈiʧ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: freech."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "freech",
+   "ipa": "fɹˈiʧ"
+  },
+  {
+   "key": "ipa:fɹˈaɪp",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: fripe."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "fripe",
+   "ipa": "fɹˈaɪp"
+  },
+  {
+   "key": "ipa:flˈaɪp",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: flighp."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "flighp",
+   "ipa": "flˈaɪp"
+  },
+  {
+   "key": "ipa:fɹˈun",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: froon."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "froon",
+   "ipa": "fɹˈun"
+  },
+  {
+   "key": "ipa:flˈun",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: floon."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "floon",
+   "ipa": "flˈun"
+  },
+  {
+   "key": "ipa:fɹˈɛn",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: fren."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "fren",
+   "ipa": "fɹˈɛn"
+  },
+  {
+   "key": "ipa:flˈɛn",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: flen."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "flen",
+   "ipa": "flˈɛn"
+  },
+  {
+   "key": "ipa:ɡˈeɪnt",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: gaint."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "gaint",
+   "ipa": "ɡˈeɪnt"
+  },
+  {
+   "key": "ipa:dˈeɪnt",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: daynt."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "daynt",
+   "ipa": "dˈeɪnt"
+  },
+  {
+   "key": "ipa:ɡˈʌnt",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: gunt."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "gunt",
+   "ipa": "ɡˈʌnt"
+  },
+  {
+   "key": "ipa:dˈʌnt",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: dunt."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "dunt",
+   "ipa": "dˈʌnt"
+  },
+  {
+   "key": "ipa:ɡlˈæ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: gla."
+   ],
+   "chars": 9,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "gla",
+   "ipa": "ɡlˈæ"
+  },
+  {
+   "key": "ipa:ɡlˈeɪ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: glay."
+   ],
+   "chars": 10,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "glay",
+   "ipa": "ɡlˈeɪ"
+  },
+  {
+   "key": "ipa:ɡlˈoʊd",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: glode."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "glode",
+   "ipa": "ɡlˈoʊd"
+  },
+  {
+   "key": "ipa:ɡɹˈoʊd",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: groad."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "groad",
+   "ipa": "ɡɹˈoʊd"
+  },
+  {
+   "key": "ipa:ɡlˈʊd",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: glood."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "glood",
+   "ipa": "ɡlˈʊd"
+  },
+  {
+   "key": "ipa:ɡɹˈʊd",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: grood."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "grood",
+   "ipa": "ɡɹˈʊd"
+  },
+  {
+   "key": "ipa:ɡlˈut",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: gloot."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "gloot",
+   "ipa": "ɡlˈut"
+  },
+  {
+   "key": "ipa:ɡlˈuɡ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: gloog."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "gloog",
+   "ipa": "ɡlˈuɡ"
+  },
+  {
+   "key": "ipa:ɡɹˈuɡ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: groog."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "groog",
+   "ipa": "ɡɹˈuɡ"
+  },
+  {
+   "key": "ipa:ɡlˈup",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: glupe."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "glupe",
+   "ipa": "ɡlˈup"
+  },
+  {
+   "key": "ipa:ɡlˈuʧ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: glooch."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "glooch",
+   "ipa": "ɡlˈuʧ"
+  },
+  {
+   "key": "ipa:ɡlˈɝʧ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: glerch."
+   ],
+   "chars": 12,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "glerch",
+   "ipa": "ɡlˈɝʧ"
+  },
+  {
+   "key": "ipa:ɡɹˈaɪld",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: grild."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "grild",
+   "ipa": "ɡɹˈaɪld"
+  },
+  {
+   "key": "ipa:ɡlˈaɪld",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: glighld."
+   ],
+   "chars": 13,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "glighld",
+   "ipa": "ɡlˈaɪld"
+  },
+  {
+   "key": "ipa:ɡɹˈɛld",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: greld."
+   ],
+   "chars": 11,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "greld",
+   "ipa": "ɡɹˈɛld"
+  },
+  {
+   "key": "ipa:hˈaɪteɪn",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: hitane."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "hitane",
+   "ipa": "hˈaɪteɪn"
+  },
+  {
+   "key": "ipa:hˈoʊt",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: hoat."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "hoat",
+   "ipa": "hˈoʊt"
+  },
+  {
+   "key": "ipa:mˈubɛl",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: mubel."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "mubel",
+   "ipa": "mˈubɛl"
+  },
+  {
+   "key": "ipa:nˈaɪm",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: nighm."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "nighm",
+   "ipa": "nˈaɪm"
+  },
+  {
+   "key": "ipa:pˈeɪdimɪk",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: pademic."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "pademic",
+   "ipa": "pˈeɪdimɪk"
+  },
+  {
+   "key": "ipa:plˈeɪʤ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: plage."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "plage",
+   "ipa": "plˈeɪʤ"
+  },
+  {
+   "key": "ipa:plˈi",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: plee."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "plee",
+   "ipa": "plˈi"
+  },
+  {
+   "key": "ipa:plˈɛmi",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: plemmy."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "plemmy",
+   "ipa": "plˈɛmi"
+  },
+  {
+   "key": "ipa:plˈaɪnd",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: plind."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "plind",
+   "ipa": "plˈaɪnd"
+  },
+  {
+   "key": "ipa:plˈoʊm",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: plome."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "plome",
+   "ipa": "plˈoʊm"
+  },
+  {
+   "key": "ipa:pɹˈut",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: prute."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "prute",
+   "ipa": "pɹˈut"
+  },
+  {
+   "key": "ipa:kwˈaɪb",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: quibe."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "quibe",
+   "ipa": "kwˈaɪb"
+  },
+  {
+   "key": "ipa:slˈædi",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: sladdy."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "sladdy",
+   "ipa": "slˈædi"
+  },
+  {
+   "key": "ipa:snˈoʊt",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: snoat."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "snoat",
+   "ipa": "snˈoʊt"
+  },
+  {
+   "key": "ipa:slˈoʊb",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: slobe."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "slobe",
+   "ipa": "slˈoʊb"
+  },
+  {
+   "key": "ipa:snˈeɪb",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: snabe."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "snabe",
+   "ipa": "snˈeɪb"
+  },
+  {
+   "key": "ipa:snˈeɪd",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: snade."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "snade",
+   "ipa": "snˈeɪd"
+  },
+  {
+   "key": "ipa:skˈæ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: sca."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "sca",
+   "ipa": "skˈæ"
+  },
+  {
+   "key": "ipa:snˈoʊld",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: snold."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "snold",
+   "ipa": "snˈoʊld"
+  },
+  {
+   "key": "ipa:snˈɔɹm",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: snorm."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "snorm",
+   "ipa": "snˈɔɹm"
+  },
+  {
+   "key": "ipa:snˈu",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: snue."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "snue",
+   "ipa": "snˈu"
+  },
+  {
+   "key": "ipa:spˈɑɹn",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: sparn."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "sparn",
+   "ipa": "spˈɑɹn"
+  },
+  {
+   "key": "ipa:spɹˈu",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: sprew."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "sprew",
+   "ipa": "spɹˈu"
+  },
+  {
+   "key": "ipa:spɹˈum",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: sproom."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "sproom",
+   "ipa": "spɹˈum"
+  },
+  {
+   "key": "ipa:stˈæʤ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: stadge."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "stadge",
+   "ipa": "stˈæʤ"
+  },
+  {
+   "key": "ipa:stˈɑɹʤ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: starj."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "starj",
+   "ipa": "stˈɑɹʤ"
+  },
+  {
+   "key": "ipa:stˈaɪd",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: stide."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "stide",
+   "ipa": "stˈaɪd"
+  },
+  {
+   "key": "ipa:stˈaɪt",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: stight."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "stight",
+   "ipa": "stˈaɪt"
+  },
+  {
+   "key": "ipa:stˈɔɹn",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: storn."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "storn",
+   "ipa": "stˈɔɹn"
+  },
+  {
+   "key": "ipa:stɹˈoʊt",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: stroat."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "stroat",
+   "ipa": "stɹˈoʊt"
+  },
+  {
+   "key": "ipa:stɹˈaɪ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: stry."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "stry",
+   "ipa": "stɹˈaɪ"
+  },
+  {
+   "key": "ipa:tɹˈeɪf",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: trafe."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "trafe",
+   "ipa": "tɹˈeɪf"
+  },
+  {
+   "key": "ipa:tɹˈɑɹf",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: trarf."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "trarf",
+   "ipa": "tɹˈɑɹf"
+  },
+  {
+   "key": "ipa:tɹˈɔɹk",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: trork."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "trork",
+   "ipa": "tɹˈɔɹk"
+  },
+  {
+   "key": "ipa:twˈud",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: twood."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "twood",
+   "ipa": "twˈud"
+  },
+  {
+   "key": "ipa:twˈum",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: twoom."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "twoom",
+   "ipa": "twˈum"
+  },
+  {
+   "key": "ipa:zˈeɪb",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: zabe."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "zabe",
+   "ipa": "zˈeɪb"
+  },
+  {
+   "key": "ipa:zˈeɪd",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: zade."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "zade",
+   "ipa": "zˈeɪd"
+  },
+  {
+   "key": "ipa:zˈaɪm",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: zime."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "zime",
+   "ipa": "zˈaɪm"
+  },
+  {
+   "key": "ipa:zˈaɪmɪŋ",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: ziming."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "ziming",
+   "ipa": "zˈaɪmɪŋ"
+  },
+  {
+   "key": "ipa:zˈoʊp",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: zope."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "zope",
+   "ipa": "zˈoʊp"
+  },
+  {
+   "key": "ipa:zˈoʊɹɪk",
+   "group": "pseudo L3",
+   "requests": [
+    "Say: zoric."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "zoric",
+   "ipa": "zˈoʊɹɪk"
+  },
+  {
+   "key": "syl:lɑk",
+   "group": "chunk L3",
+   "requests": [
+    "Say: lock."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "lock",
+   "ipa": "lɑk"
+  },
+  {
+   "key": "syl:pjup",
+   "group": "chunk L3",
+   "requests": [
+    "Say: pup."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "pup",
+   "ipa": "pjup"
+  },
+  {
+   "key": "syl:zʌn",
+   "group": "chunk L3",
+   "requests": [
+    "Say: zen."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "zen",
+   "ipa": "zʌn"
+  },
+  {
+   "key": "syl:ɹæm",
+   "group": "chunk L3",
+   "requests": [
+    "Say: ram."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "ram",
+   "ipa": "ɹæm"
+  },
+  {
+   "key": "syl:bɪn",
+   "group": "chunk L3",
+   "requests": [
+    "Say: bin."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "bin",
+   "ipa": "bɪn"
+  },
+  {
+   "key": "syl:mʌd",
+   "group": "chunk L3",
+   "requests": [
+    "Say: mud."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "mud",
+   "ipa": "mʌd"
+  },
+  {
+   "key": "syl:tɑp",
+   "group": "chunk L3",
+   "requests": [
+    "Say: top."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "top",
+   "ipa": "tɑp"
+  },
+  {
+   "key": "ipa:pɹˈoʊt",
+   "group": "pseudo L4",
+   "requests": [
+    "Say: proat."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "proat",
+   "ipa": "pɹˈoʊt"
+  },
+  {
+   "key": "w:vop",
+   "group": "pseudo L4",
+   "requests": [
+    "Say: vop."
+   ],
+   "chars": 0,
+   "kind": "w",
+   "cut": "last",
+   "say": "vop",
+   "ipa": "vˈɑp"
+  },
+  {
+   "key": "ipa:ɡˈɝɹ",
+   "group": "pseudo L4",
+   "requests": [
+    "Say: gerr."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "gerr",
+   "ipa": "ɡˈɝɹ"
+  },
+  {
+   "key": "ipa:zˈæb",
+   "group": "pseudo L4",
+   "requests": [
+    "Say: zab."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "zab",
+   "ipa": "zˈæb"
+  },
+  {
+   "key": "ipa:nˈɛp",
+   "group": "pseudo L4",
+   "requests": [
+    "Say: nep."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "nep",
+   "ipa": "nˈɛp"
+  },
+  {
+   "key": "ipa:ɡɹˈud",
+   "group": "pseudo L4",
+   "requests": [
+    "Say: grood."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "grood",
+   "ipa": "ɡɹˈud"
+  },
+  {
+   "key": "ipa:vˈɑp",
+   "group": "pseudo L4",
+   "requests": [
+    "Say: vop."
+   ],
+   "chars": 0,
+   "kind": "ipa",
+   "cut": "last",
+   "say": "vop",
+   "ipa": "vˈɑp"
+  },
+  {
+   "key": "syl:ɪn",
+   "group": "chunk L4",
+   "requests": [
+    "Say: in."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "in",
+   "ipa": "ɪn"
+  },
+  {
+   "key": "syl:fɪks",
+   "group": "chunk L4",
+   "requests": [
+    "Say: fix."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "fix",
+   "ipa": "fɪks"
+  },
+  {
+   "key": "syl:bɪz",
+   "group": "chunk L4",
+   "requests": [
+    "Say: bus."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "bus",
+   "ipa": "bɪz"
+  },
+  {
+   "key": "syl:wɔn",
+   "group": "chunk L4",
+   "requests": [
+    "Say: wan."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "wan",
+   "ipa": "wɔn"
+  },
+  {
+   "key": "syl:tɪd",
+   "group": "chunk L4",
+   "requests": [
+    "Say: ted."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "ted",
+   "ipa": "tɪd"
+  },
+  {
+   "key": "syl:dʌd",
+   "group": "chunk L4",
+   "requests": [
+    "Say: ded."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "ded",
+   "ipa": "dʌd"
+  },
+  {
+   "key": "syl:mɛn",
+   "group": "chunk L4",
+   "requests": [
+    "Say: men."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "men",
+   "ipa": "mɛn"
+  },
+  {
+   "key": "syl:pæk",
+   "group": "chunk L4",
+   "requests": [
+    "Say: pack."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "pack",
+   "ipa": "pæk"
+  },
+  {
+   "key": "syl:tɝ",
+   "group": "chunk L4",
+   "requests": [
+    "Say: ter."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "ter",
+   "ipa": "tɝ"
+  },
+  {
+   "key": "syl:sʌn",
+   "group": "chunk L4",
+   "requests": [
+    "Say: sun."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "sun",
+   "ipa": "sʌn"
+  },
+  {
+   "key": "syl:sɛt",
+   "group": "chunk L4",
+   "requests": [
+    "Say: set."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "set",
+   "ipa": "sɛt"
+  },
+  {
+   "key": "syl:bæk",
+   "group": "chunk L4",
+   "requests": [
+    "Say: back."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "back",
+   "ipa": "bæk"
+  },
+  {
+   "key": "syl:pɛn",
+   "group": "chunk L4",
+   "requests": [
+    "Say: pen."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "pen",
+   "ipa": "pɛn"
+  },
+  {
+   "key": "syl:ʌt",
+   "group": "chunk L4",
+   "requests": [
+    "Say: it."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "it",
+   "ipa": "ʌt"
+  },
+  {
+   "key": "syl:næp",
+   "group": "chunk L4",
+   "requests": [
+    "Say: nap."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "nap",
+   "ipa": "næp"
+  },
+  {
+   "key": "syl:kɪn",
+   "group": "chunk L4",
+   "requests": [
+    "Say: kin."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "kin",
+   "ipa": "kɪn"
+  },
+  {
+   "key": "syl:mæɡ",
+   "group": "chunk L4",
+   "requests": [
+    "Say: mag."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "mag",
+   "ipa": "mæɡ"
+  },
+  {
+   "key": "syl:nʌt",
+   "group": "chunk L4",
+   "requests": [
+    "Say: net."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "net",
+   "ipa": "nʌt"
+  },
+  {
+   "key": "syl:kɑn",
+   "group": "chunk L4",
+   "requests": [
+    "Say: con."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "con",
+   "ipa": "kɑn"
+  },
+  {
+   "key": "syl:hɑt",
+   "group": "chunk L4",
+   "requests": [
+    "Say: hot."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "hot",
+   "ipa": "hɑt"
+  },
+  {
+   "key": "syl:ɪt",
+   "group": "chunk L4",
+   "requests": [
+    "Say: it."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "it",
+   "ipa": "ɪt"
+  },
+  {
+   "key": "syl:fɪn",
+   "group": "chunk L4",
+   "requests": [
+    "Say: fin."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "fin",
+   "ipa": "fɪn"
+  },
+  {
+   "key": "syl:oʊn",
+   "group": "chunk L4",
+   "requests": [
+    "Say: on."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "on",
+   "ipa": "oʊn"
+  },
+  {
+   "key": "syl:kʌn",
+   "group": "chunk L4",
+   "requests": [
+    "Say: con."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "con",
+   "ipa": "kʌn"
+  },
+  {
+   "key": "syl:ɡɝ",
+   "group": "chunk L4",
+   "requests": [
+    "Say: ger."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "ger",
+   "ipa": "ɡɝ"
+  },
+  {
+   "key": "syl:tʌm",
+   "group": "chunk L4",
+   "requests": [
+    "Say: tem."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "tem",
+   "ipa": "tʌm"
+  },
+  {
+   "key": "syl:hæp",
+   "group": "chunk L4",
+   "requests": [
+    "Say: hap."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "hap",
+   "ipa": "hæp"
+  },
+  {
+   "key": "syl:fʌn",
+   "group": "chunk L4",
+   "requests": [
+    "Say: fun."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "fun",
+   "ipa": "fʌn"
+  },
+  {
+   "key": "syl:bi",
+   "group": "chunk L4",
+   "requests": [
+    "Say: be."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "be",
+   "ipa": "bi"
+  },
+  {
+   "key": "syl:pʌp",
+   "group": "chunk L4",
+   "requests": [
+    "Say: pup."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "pup",
+   "ipa": "pʌp"
+  },
+  {
+   "key": "syl:wɪn",
+   "group": "chunk L4",
+   "requests": [
+    "Say: win."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "win",
+   "ipa": "wɪn"
+  },
+  {
+   "key": "syl:æn",
+   "group": "chunk L4",
+   "requests": [
+    "Say: an."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "an",
+   "ipa": "æn"
+  },
+  {
+   "key": "syl:sɪt",
+   "group": "chunk L4",
+   "requests": [
+    "Say: sit."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "sit",
+   "ipa": "sɪt"
+  },
+  {
+   "key": "syl:deɪn",
+   "group": "chunk L4",
+   "requests": [
+    "Say: dan."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "dan",
+   "ipa": "deɪn"
+  },
+  {
+   "key": "syl:ʤɝ",
+   "group": "chunk L4",
+   "requests": [
+    "Say: ger."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "ger",
+   "ipa": "ʤɝ"
+  },
+  {
+   "key": "syl:ɔf",
+   "group": "chunk L4",
+   "requests": [
+    "Say: of."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "of",
+   "ipa": "ɔf"
+  },
+  {
+   "key": "syl:fæm",
+   "group": "chunk L4",
+   "requests": [
+    "Say: fam."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "fam",
+   "ipa": "fæm"
+  },
+  {
+   "key": "syl:ɪd",
+   "group": "chunk L4",
+   "requests": [
+    "Say: ed."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "ed",
+   "ipa": "ɪd"
+  },
+  {
+   "key": "syl:mɪn",
+   "group": "chunk L4",
+   "requests": [
+    "Say: min."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "min",
+   "ipa": "mɪn"
+  },
+  {
+   "key": "syl:sʌm",
+   "group": "chunk L4",
+   "requests": [
+    "Say: som."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "som",
+   "ipa": "sʌm"
+  },
+  {
+   "key": "syl:næd",
+   "group": "chunk L4",
+   "requests": [
+    "Say: nad."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "nad",
+   "ipa": "næd"
+  },
+  {
+   "key": "syl:ʌp",
+   "group": "chunk L4",
+   "requests": [
+    "Say: up."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "up",
+   "ipa": "ʌp"
+  },
+  {
+   "key": "syl:fi",
+   "group": "chunk L4",
+   "requests": [
+    "Say: fee."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "fee",
+   "ipa": "fi"
+  },
+  {
+   "key": "syl:soʊ",
+   "group": "chunk L4",
+   "requests": [
+    "Say: so."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "so",
+   "ipa": "soʊ"
+  },
+  {
+   "key": "syl:bæt",
+   "group": "chunk L4",
+   "requests": [
+    "Say: bat."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "bat",
+   "ipa": "bæt"
+  },
+  {
+   "key": "syl:vɪn",
+   "group": "chunk L4",
+   "requests": [
+    "Say: ven."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "ven",
+   "ipa": "vɪn"
+  },
+  {
+   "key": "syl:kʌv",
+   "group": "chunk L4",
+   "requests": [
+    "Say: cov."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "cov",
+   "ipa": "kʌv"
+  },
+  {
+   "key": "syl:vid",
+   "group": "chunk L4",
+   "requests": [
+    "Say: veed."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "veed",
+   "ipa": "vid"
+  },
+  {
+   "key": "syl:sɪɡ",
+   "group": "chunk L4",
+   "requests": [
+    "Say: sig."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "sig",
+   "ipa": "sɪɡ"
+  },
+  {
+   "key": "syl:wʌn",
+   "group": "chunk L4",
+   "requests": [
+    "Say: one."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "one",
+   "ipa": "wʌn"
+  },
+  {
+   "key": "syl:noʊt",
+   "group": "chunk L4",
+   "requests": [
+    "Say: not."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "not",
+   "ipa": "noʊt"
+  },
+  {
+   "key": "syl:æm",
+   "group": "chunk L4",
+   "requests": [
+    "Say: am."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "am",
+   "ipa": "æm"
+  },
+  {
+   "key": "syl:ɹɛd",
+   "group": "chunk L4",
+   "requests": [
+    "Say: read."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "read",
+   "ipa": "ɹɛd"
+  },
+  {
+   "key": "syl:sɑn",
+   "group": "chunk L4",
+   "requests": [
+    "Say: san."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "san",
+   "ipa": "sɑn"
+  },
+  {
+   "key": "syl:bɪɡ",
+   "group": "chunk L4",
+   "requests": [
+    "Say: big."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "big",
+   "ipa": "bɪɡ"
+  },
+  {
+   "key": "syl:ʧʌz",
+   "group": "chunk L4",
+   "requests": [
+    "Say: ches."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "ches",
+   "ipa": "ʧʌz"
+  },
+  {
+   "key": "syl:ɑn",
+   "group": "chunk L4",
+   "requests": [
+    "Say: on."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "on",
+   "ipa": "ɑn"
+  },
+  {
+   "key": "syl:tu",
+   "group": "chunk L4",
+   "requests": [
+    "Say: to."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "to",
+   "ipa": "tu"
+  },
+  {
+   "key": "syl:lʌk",
+   "group": "chunk L4",
+   "requests": [
+    "Say: luck."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "luck",
+   "ipa": "lʌk"
+  },
+  {
+   "key": "syl:toʊ",
+   "group": "chunk L4",
+   "requests": [
+    "Say: to."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "to",
+   "ipa": "toʊ"
+  },
+  {
+   "key": "syl:ʌf",
+   "group": "chunk L4",
+   "requests": [
+    "Say: of."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "of",
+   "ipa": "ʌf"
+  },
+  {
+   "key": "syl:hæm",
+   "group": "chunk L4",
+   "requests": [
+    "Say: ham."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "ham",
+   "ipa": "hæm"
+  },
+  {
+   "key": "syl:hɪs",
+   "group": "chunk L4",
+   "requests": [
+    "Say: his."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "his",
+   "ipa": "hɪs"
+  },
+  {
+   "key": "syl:faɪn",
+   "group": "chunk L4",
+   "requests": [
+    "Say: fin."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "fin",
+   "ipa": "faɪn"
+  },
+  {
+   "key": "syl:peɪʃ",
+   "group": "chunk L4",
+   "requests": [
+    "Say: pat."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "pat",
+   "ipa": "peɪʃ"
+  },
+  {
+   "key": "syl:kæn",
+   "group": "chunk L4",
+   "requests": [
+    "Say: can."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "can",
+   "ipa": "kæn"
+  },
+  {
+   "key": "syl:hæn",
+   "group": "chunk L4",
+   "requests": [
+    "Say: han."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "han",
+   "ipa": "hæn"
+  },
+  {
+   "key": "syl:sæm",
+   "group": "chunk L4",
+   "requests": [
+    "Say: sam."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "sam",
+   "ipa": "sæm"
+  },
+  {
+   "key": "syl:ɡlɪm",
+   "group": "chunk L4",
+   "requests": [
+    "Say: glim."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "glim",
+   "ipa": "ɡlɪm"
+  },
+  {
+   "key": "syl:skæ",
+   "group": "chunk L4",
+   "requests": [
+    "Say: sca."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "sca",
+   "ipa": "skæ"
+  },
+  {
+   "key": "syl:pʌn",
+   "group": "chunk L4",
+   "requests": [
+    "Say: pan."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "pan",
+   "ipa": "pʌn"
+  },
+  {
+   "key": "syl:vɛn",
+   "group": "chunk L4",
+   "requests": [
+    "Say: ven."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "ven",
+   "ipa": "vɛn"
+  },
+  {
+   "key": "syl:æd",
+   "group": "chunk L4",
+   "requests": [
+    "Say: ad."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "ad",
+   "ipa": "æd"
+  },
+  {
+   "key": "syl:kæp",
+   "group": "chunk L4",
+   "requests": [
+    "Say: cap."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "cap",
+   "ipa": "kæp"
+  },
+  {
+   "key": "syl:mɪks",
+   "group": "chunk L4",
+   "requests": [
+    "Say: mix."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "mix",
+   "ipa": "mɪks"
+  },
+  {
+   "key": "syl:sʌʤ",
+   "group": "chunk L4",
+   "requests": [
+    "Say: sug."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "sug",
+   "ipa": "sʌʤ"
+  },
+  {
+   "key": "syl:ɡɔɹ",
+   "group": "chunk L4",
+   "requests": [
+    "Say: gor."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "gor",
+   "ipa": "ɡɔɹ"
+  },
+  {
+   "key": "syl:mʌn",
+   "group": "chunk L4",
+   "requests": [
+    "Say: man."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "man",
+   "ipa": "mʌn"
+  },
+  {
+   "key": "syl:dɪt",
+   "group": "chunk L4",
+   "requests": [
+    "Say: det."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "det",
+   "ipa": "dɪt"
+  },
+  {
+   "key": "syl:ʌʃ",
+   "group": "chunk L4",
+   "requests": [
+    "Say: as."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "as",
+   "ipa": "ʌʃ"
+  },
+  {
+   "key": "syl:sʌd",
+   "group": "chunk L4",
+   "requests": [
+    "Say: sud."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "sud",
+   "ipa": "sʌd"
+  },
+  {
+   "key": "syl:kɪt",
+   "group": "chunk L4",
+   "requests": [
+    "Say: kit."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "kit",
+   "ipa": "kɪt"
+  },
+  {
+   "key": "syl:mʌt",
+   "group": "chunk L4",
+   "requests": [
+    "Say: met."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "met",
+   "ipa": "mʌt"
+  },
+  {
+   "key": "syl:wæɡ",
+   "group": "chunk L4",
+   "requests": [
+    "Say: wag."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "wag",
+   "ipa": "wæɡ"
+  },
+  {
+   "key": "syl:tɪn",
+   "group": "chunk L4",
+   "requests": [
+    "Say: tin."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "tin",
+   "ipa": "tɪn"
+  },
+  {
+   "key": "syl:mæt",
+   "group": "chunk L4",
+   "requests": [
+    "Say: mat."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "mat",
+   "ipa": "mæt"
+  },
+  {
+   "key": "syl:noʊ",
+   "group": "chunk L4",
+   "requests": [
+    "Say: no."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "no",
+   "ipa": "noʊ"
+  },
+  {
+   "key": "syl:ʌd",
+   "group": "chunk L4",
+   "requests": [
+    "Say: ad."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "ad",
+   "ipa": "ʌd"
+  },
+  {
+   "key": "syl:lɛɡ",
+   "group": "chunk L4",
+   "requests": [
+    "Say: leg."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "leg",
+   "ipa": "lɛɡ"
+  },
+  {
+   "key": "syl:ɹɑb",
+   "group": "chunk L4",
+   "requests": [
+    "Say: rob."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "rob",
+   "ipa": "ɹɑb"
+  },
+  {
+   "key": "syl:ɹʌn",
+   "group": "chunk L4",
+   "requests": [
+    "Say: run."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "run",
+   "ipa": "ɹʌn"
+  },
+  {
+   "key": "syl:sæd",
+   "group": "chunk L4",
+   "requests": [
+    "Say: sad."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "sad",
+   "ipa": "sæd"
+  },
+  {
+   "key": "syl:wɛt",
+   "group": "chunk L4",
+   "requests": [
+    "Say: wet."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "wet",
+   "ipa": "wɛt"
+  },
+  {
+   "key": "syl:vɑp",
+   "group": "chunk L4",
+   "requests": [
+    "Say: vop."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "vop",
+   "ipa": "vɑp"
+  },
+  {
+   "key": "syl:ɡɛt",
+   "group": "chunk L4",
+   "requests": [
+    "Say: get."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "get",
+   "ipa": "ɡɛt"
+  },
+  {
+   "key": "syl:sɛɹ",
+   "group": "chunk L4",
+   "requests": [
+    "Say: sar."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "sar",
+   "ipa": "sɛɹ"
+  },
+  {
+   "key": "syl:tæp",
+   "group": "chunk L4",
+   "requests": [
+    "Say: tap."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "tap",
+   "ipa": "tæp"
+  },
+  {
+   "key": "syl:mæn",
+   "group": "chunk L4",
+   "requests": [
+    "Say: man."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "man",
+   "ipa": "mæn"
+  },
+  {
+   "key": "syl:sɪd",
+   "group": "chunk L4",
+   "requests": [
+    "Say: sid."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "sid",
+   "ipa": "sɪd"
+  },
+  {
+   "key": "syl:ɹis",
+   "group": "chunk L4",
+   "requests": [
+    "Say: res."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "res",
+   "ipa": "ɹis"
+  },
+  {
+   "key": "syl:hɪm",
+   "group": "chunk L4",
+   "requests": [
+    "Say: him."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "him",
+   "ipa": "hɪm"
+  },
+  {
+   "key": "syl:sʌp",
+   "group": "chunk L4",
+   "requests": [
+    "Say: sup."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "sup",
+   "ipa": "sʌp"
+  },
+  {
+   "key": "syl:nɛt",
+   "group": "chunk L4",
+   "requests": [
+    "Say: net."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "net",
+   "ipa": "nɛt"
+  },
+  {
+   "key": "syl:ɔn",
+   "group": "chunk L4",
+   "requests": [
+    "Say: on."
+   ],
+   "chars": 0,
+   "kind": "syl",
+   "cut": "open",
+   "say": "on",
+   "ipa": "ɔn"
+  }
+ ]
+}

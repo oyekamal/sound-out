@@ -1,0 +1,1356 @@
+{
+ "samples": [
+  {
+   "key": "ipa:ɡˈɪlt",
+   "level": 2,
+   "sub": "word",
+   "kind": "ipa",
+   "sec": 0.66,
+   "heard": {
+    "small.en": "They guilt.",
+    "small": "So guilt."
+   },
+   "text": "gilt",
+   "wer": 0.0,
+   "pass": true,
+   "phone_per": 0.0,
+   "phone_heard": "ɡɪlt",
+   "file": "l2_sample/s_2a76e91c7c.ogg",
+   "cache": "2a76e91c7c6d590ca074bf5d71e8ae0c4724f041"
+  },
+  {
+   "key": "ipa:swˈit",
+   "level": 3,
+   "sub": "word",
+   "kind": "ipa",
+   "sec": 0.63,
+   "heard": {
+    "small.en": "So, that was weird.",
+    "small": "So, that was weird."
+   },
+   "text": "sweet",
+   "wer": 1.0,
+   "pass": false,
+   "phone_per": 0.75,
+   "phone_heard": "aswed",
+   "file": "l2_sample/s_80f3e3f0cf.ogg",
+   "cache": "80f3e3f0cf2ff6941c4b300c3c8fa47d53e69ba3"
+  },
+  {
+   "key": "w:mall",
+   "level": 4,
+   "sub": "word",
+   "kind": "w",
+   "sec": 0.62,
+   "heard": {
+    "small.en": "ZAIO! MALI!",
+    "small": "Zayu, Marley."
+   },
+   "text": "mall",
+   "wer": 1.0,
+   "pass": false,
+   "phone_per": 0.67,
+   "phone_heard": "ma",
+   "file": "l2_sample/s_d49a762f3b.ogg",
+   "cache": "d49a762f3b9111cd6f9ebf263d7705bd46a13cfe"
+  },
+  {
+   "key": "ipa:dɹˈʌɡ",
+   "level": 2,
+   "sub": "word",
+   "kind": "ipa",
+   "sec": 0.67,
+   "heard": {
+    "small.en": "They drug it.",
+    "small": "So, drug it."
+   },
+   "text": "drug",
+   "wer": 0.0,
+   "pass": true,
+   "phone_per": 1.0,
+   "phone_heard": "dɹɑɡiɛɜ",
+   "file": "l2_sample/s_10bdd36d2e.ogg",
+   "cache": "10bdd36d2eb5f0a253483c18cef704a79cb5b952"
+  },
+  {
+   "key": "w:blue",
+   "level": 3,
+   "sub": "word",
+   "kind": "w",
+   "sec": 0.64,
+   "heard": {
+    "small.en": "they blew it",
+    "small": "Zay blue."
+   },
+   "text": "blue",
+   "wer": 0.0,
+   "pass": true,
+   "phone_per": 0.33,
+   "phone_heard": "bluɛ",
+   "file": "l2_sample/s_359d2b14a1.ogg",
+   "cache": "359d2b14a1e15a880b97fa36534ec1af27e62d95"
+  },
+  {
+   "key": "w:runs",
+   "level": 4,
+   "sub": "word",
+   "kind": "w",
+   "sec": 0.76,
+   "heard": {
+    "small.en": "They... runs...",
+    "small": "So, runs."
+   },
+   "text": "runs",
+   "wer": 0.0,
+   "pass": true,
+   "phone_per": 0.0,
+   "phone_heard": "ɹʌnz",
+   "file": "l2_sample/s_c6a1e860de.ogg",
+   "cache": "c6a1e860de31e9062c0f18a9094d6889b0518fde"
+  },
+  {
+   "key": "ipa:wˈip",
+   "level": 2,
+   "sub": "word",
+   "kind": "ipa",
+   "sec": 0.65,
+   "heard": {
+    "small.en": "So, we're back.",
+    "small": "So, we're but."
+   },
+   "text": "weep",
+   "wer": 1.0,
+   "pass": false,
+   "phone_per": 1.33,
+   "phone_heard": "wei5pa5",
+   "file": "l2_sample/s_2641c82d79.ogg",
+   "cache": "2641c82d79d99c50a40d211ef021b63b9db38227"
+  },
+  {
+   "key": "w:snail",
+   "level": 3,
+   "sub": "word",
+   "kind": "w",
+   "sec": 0.66,
+   "heard": {
+    "small.en": "Say snail.",
+    "small": "Zay, Znail."
+   },
+   "text": "snail",
+   "wer": 0.0,
+   "pass": true,
+   "phone_per": 0.5,
+   "phone_heard": "sneɪʌll",
+   "file": "l2_sample/s_588b7873a0.ogg",
+   "cache": "588b7873a01523da43bde9ee78f3d1cb50d2c0be"
+  },
+  {
+   "key": "w:seven",
+   "level": 4,
+   "sub": "word",
+   "kind": "w",
+   "sec": 0.57,
+   "heard": {
+    "small.en": "So, 7.",
+    "small": "So, seven."
+   },
+   "text": "seven",
+   "wer": 0.0,
+   "pass": true,
+   "phone_per": 0.0,
+   "phone_heard": "sɛvʌn",
+   "file": "l2_sample/s_e7f0c1df52.ogg",
+   "cache": "e7f0c1df52de5c35599fba1119e427ae4c182c91"
+  },
+  {
+   "key": "ipa:mˈæsk",
+   "level": 2,
+   "sub": "word",
+   "kind": "ipa",
+   "sec": 0.65,
+   "heard": {
+    "small.en": "Say, Mask.",
+    "small": "So, mask."
+   },
+   "text": "mask",
+   "wer": 0.0,
+   "pass": true,
+   "phone_per": 0.0,
+   "phone_heard": "mæsk",
+   "file": "l2_sample/s_af9db5065e.ogg",
+   "cache": "af9db5065e2a901d2f7752a1f7625a991e5a34fd"
+  },
+  {
+   "key": "ipa:bɹˈɪŋ",
+   "level": 3,
+   "sub": "word",
+   "kind": "ipa",
+   "sec": 0.69,
+   "heard": {
+    "small.en": "they bring",
+    "small": "They bring..."
+   },
+   "text": "bring",
+   "wer": 0.0,
+   "pass": true,
+   "phone_per": 0.5,
+   "phone_heard": "bɹʌaɪ",
+   "file": "l2_sample/s_396c95e790.ogg",
+   "cache": "396c95e7905d4db9e9f84965361bf091caa44f51"
+  },
+  {
+   "key": "w:spreads",
+   "level": 4,
+   "sub": "word",
+   "kind": "w",
+   "sec": 0.75,
+   "heard": {
+    "small.en": "So spreads.",
+    "small": "So, those breads."
+   },
+   "text": "spreads",
+   "wer": 0.0,
+   "pass": true,
+   "phone_per": 0.33,
+   "phone_heard": "ʌsbɹɛdz",
+   "file": "l2_sample/s_fd4e7f7790.ogg",
+   "cache": "fd4e7f7790b0ce553af7319a9ef1e3dd0b83c57b"
+  },
+  {
+   "key": "w:chop",
+   "level": 2,
+   "sub": "word",
+   "kind": "w",
+   "sec": 0.56,
+   "heard": {
+    "small.en": "their job",
+    "small": "They job"
+   },
+   "text": "chop",
+   "wer": 1.0,
+   "pass": false,
+   "phone_per": 0.67,
+   "phone_heard": "dʒɑb",
+   "file": "l2_sample/s_1974f390ae.ogg",
+   "cache": "1974f390ae426c5f82a8cf4ac0e10edf1943c12e"
+  },
+  {
+   "key": "ipa:tˈæb",
+   "level": 3,
+   "sub": "word",
+   "kind": "ipa",
+   "sec": 0.6,
+   "heard": {
+    "small.en": "ZA-TAB",
+    "small": "So, tab."
+   },
+   "text": "tab",
+   "wer": 0.0,
+   "pass": true,
+   "phone_per": 0.33,
+   "phone_heard": "tab",
+   "file": "l2_sample/s_ac4c810f85.ogg",
+   "cache": "ac4c810f85f9b6fe3e2e5a516308e2755b020582"
+  },
+  {
+   "key": "ipa:fˈaɪtɪŋ",
+   "level": 4,
+   "sub": "word",
+   "kind": "ipa",
+   "sec": 0.8,
+   "heard": {
+    "small.en": "They fighting.",
+    "small": "So, fighting!"
+   },
+   "text": "fighting",
+   "wer": 0.0,
+   "pass": true,
+   "phone_per": 0.0,
+   "phone_heard": "faɪtɪŋ",
+   "file": "l2_sample/s_3e66f802c0.ogg",
+   "cache": "3e66f802c0233da6f28408f5fedb4c2d485c434f"
+  },
+  {
+   "key": "w:squid",
+   "level": 2,
+   "sub": "word",
+   "kind": "w",
+   "sec": 0.68,
+   "heard": {
+    "small.en": "So, squared.",
+    "small": "So, let's go!"
+   },
+   "text": "squid",
+   "wer": 1.0,
+   "pass": false,
+   "phone_per": 0.6,
+   "phone_heard": "askwɛdʌ",
+   "file": "l2_sample/s_027f9391e8.ogg",
+   "cache": "027f9391e83f1d76e4928fc4e514b1b762936f18"
+  },
+  {
+   "key": "ipa:pˈeɪl",
+   "level": 3,
+   "sub": "word",
+   "kind": "ipa",
+   "sec": 0.64,
+   "heard": {
+    "small.en": "They pale.",
+    "small": "So, pale."
+   },
+   "text": "pale",
+   "wer": 0.0,
+   "pass": true,
+   "phone_per": 0.33,
+   "phone_heard": "peɪ",
+   "file": "l2_sample/s_1d1f23d794.ogg",
+   "cache": "1d1f23d794848e42b6b999f4cba5fbfdd0c6d5a8"
+  },
+  {
+   "key": "w:chasing",
+   "level": 4,
+   "sub": "word",
+   "kind": "w",
+   "sec": 0.84,
+   "heard": {
+    "small.en": "So, choosing...",
+    "small": "So, choosing..."
+   },
+   "text": "chasing",
+   "wer": 1.0,
+   "pass": false,
+   "phone_per": 0.6,
+   "phone_heard": "tʃɑjzɪŋ",
+   "file": "l2_sample/s_88490dbe04.ogg",
+   "cache": "88490dbe04ec7d3bd5d7cb1c7c86882162dea360"
+  },
+  {
+   "key": "read:L2.07:A:0",
+   "level": 2,
+   "sub": "sentence",
+   "kind": "read",
+   "sec": 13.57,
+   "heard": {
+    "small.en": "Dad and Min set up a tent on the sand. Min helps Dad pull the tent up. Pull fast, Dad says. Min pulls and pulls until the tent is up. Dad packs the milk and a gift in a bag. Min helps hunt for the best spot to camp. At dusk, Min and Dad sit and rest, full and glad.",
+    "small": "Dad and Min set up a tent on the sand. Min helps Dad pull the tent up. Pull fast, Dad says. Min pulls and pulls until the tent is up. Dad packs the milk and a gift in a bag. Min helps Hunt for the best spot to camp. At dusk, Min and Dad sit and rest, full and glad."
+   },
+   "text": "Dad and Min set up a tent on the sand. Min helps Dad pull the tent up. \"Pull fast!\" Dad says. Min pulls and pulls until the tent is up. Dad packs the milk and a gift in a bag. Min helps hunt for the best spot to camp. At dusk, Min and Dad sit and rest, full and glad.",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/s_d203cd7341.ogg",
+   "cache": "d203cd73418d80ad4a34ee5c7c97048a1a5d7513"
+  },
+  {
+   "key": "t2:L3.04:0",
+   "level": 3,
+   "sub": "sentence",
+   "kind": "t2",
+   "sec": 3.73,
+   "heard": {
+    "small.en": "Routine. Routine means a set of steps you do the same way again and again.",
+    "small": "Routine. Routine means a set of steps you do the same way again and again."
+   },
+   "text": "routine. Routine means a set of steps you do the same way, again and again.",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/s_d86989164a.ogg",
+   "cache": "d86989164aeb35fd6b7724147193aa8cf328650f"
+  },
+  {
+   "key": "read:L4.06:B:5",
+   "level": 4,
+   "sub": "sentence",
+   "kind": "read",
+   "sec": 3.87,
+   "heard": {
+    "small.en": "Someone found a radio and is counting down the minutes until the power comes back.",
+    "small": "Someone found a radio and is counting down the minutes until the power comes back."
+   },
+   "text": "Someone found a radio and is counting down the minutes until the power comes back.",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/s_2604366e59.ogg",
+   "cache": "2604366e596f3e9a213f46f9e0e56d84be0fd722"
+  },
+  {
+   "key": "read:L2.03:A:0",
+   "level": 2,
+   "sub": "sentence",
+   "kind": "read",
+   "sec": 1.63,
+   "heard": {
+    "small.en": "Men and Dad were at the bath.",
+    "small": "Men and Dad were at the bath."
+   },
+   "text": "Min and Dad were at the bath.",
+   "wer": 0.143,
+   "pass": false,
+   "file": "l2_sample/s_9130ea89eb.ogg",
+   "cache": "9130ea89ebc6be23780eedc96051ee6bd15a7e81"
+  },
+  {
+   "key": "t2:L3.16:0",
+   "level": 3,
+   "sub": "sentence",
+   "kind": "t2",
+   "sec": 3.57,
+   "heard": {
+    "small.en": "Daunting. Daunting means something that feels big and a bit scary to start.",
+    "small": "Daunting, daunting means something that feels big and a bit scary to start."
+   },
+   "text": "daunting. Daunting means something that feels big and a bit scary to start.",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/s_06fe2a208f.ogg",
+   "cache": "06fe2a208f28c740c90fdac764f1ce142fe75d60"
+  },
+  {
+   "key": "read:L4.12:B:1",
+   "level": 4,
+   "sub": "sentence",
+   "kind": "read",
+   "sec": 5.53,
+   "heard": {
+    "small.en": "It is a simple place, one room, a basket for firewood and a helmet hanging by the door for the rental kayak.",
+    "small": "It is a simple place, one room, a basket for firewood, and a helmet hanging by the door for the rental kayak."
+   },
+   "text": "It is a simple place — one room, a basket for firewood, and a helmet hanging by the door for the rental kayak.",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/s_0ef535c66f.ogg",
+   "cache": "0ef535c66f11c8f5bc12df47740ed97e7e3d4a9b"
+  },
+  {
+   "key": "read:L2.08:B:0",
+   "level": 2,
+   "sub": "sentence",
+   "kind": "read",
+   "sec": 13.67,
+   "heard": {
+    "small.en": "Who could help scrub the shop? Sam's boss asks. I could, Sam says and grabs a strap to fix the bin. Sam splits the job with a pal. Sam scrubs the mats and checks the straps on the bin. Sam thinks the shop is strict but fun. At the end, Sam is glad the job is done.",
+    "small": "Who could help scrub the shop? Sam's boss asks. I could, Sam says and grabs a strap to fix the bin. Sam splits the job with a pal. Sam scrubs the mats and checks the straps on the bin. Sam thinks the shop is strict but fun. At the end, Sam is glad the job is done."
+   },
+   "text": "\"Who could help scrub the shop?\" Sam's boss asks. \"I could,\" Sam says, and grabs a strap to fix the bin. Sam splits the job with a pal. Sam scrubs the mats, and checks the straps on the bin. Sam thinks the shop is strict but fun. At the end, Sam is glad the job is done.",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/s_2911863b87.ogg",
+   "cache": "2911863b875f41ccb5f7f4c16b9708328437c49d"
+  },
+  {
+   "key": "read:L3.12:A:0",
+   "level": 3,
+   "sub": "sentence",
+   "kind": "read",
+   "sec": 14.36,
+   "heard": {
+    "small.en": "Sam and his dad walk to the pond with a fine boat. When snow starts the pond starts to glow white. Because it is chilly Sam puts on his coat and gets a snack of toast. Let's float the boat and see if it can go, said dad. The boat does float and Sam claps and laughs. They walk home glad they came to play.",
+    "small": "Sam and his dad walk to the pond with a fine boat. When snow starts, the pond starts to glow white. Because it is chilly, Sam puts on his coat and gets a snack of toast. Let's float the boat and see if it can go, said dad. The boat does float and Sam claps and laughs. They walk home, glad they came to play."
+   },
+   "text": "Sam and his dad walk to the pond with a fine boat. When snow starts, the pond starts to glow white. Because it is chilly, Sam puts on his coat and gets a snack of toast. \"Let's float the boat and see if it can go,\" said Dad. The boat does float, and Sam claps and laughs. They walk home, glad they ca",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/s_d07f352197.ogg",
+   "cache": "d07f352197d857a5495b740c223e69fdb0768bb6"
+  },
+  {
+   "key": "read:L4.06:A:2",
+   "level": 4,
+   "sub": "sentence",
+   "kind": "read",
+   "sec": 3.41,
+   "heard": {
+    "small.en": "Then a clown in a big gown and a bright crown came by honking a horn.",
+    "small": "Then a clown in a big down and a bright crown came by honking a horn."
+   },
+   "text": "Then a clown in a big gown and a bright crown came by, honking a horn.",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/s_98cd4ece8d.ogg",
+   "cache": "98cd4ece8ddec47454991d2587804ceded6151d2"
+  },
+  {
+   "key": "read:L2.01:B:4",
+   "level": 2,
+   "sub": "sentence",
+   "kind": "read",
+   "sec": 2.5,
+   "heard": {
+    "small.en": "It is on the shelf, not in his bag, Sam says.",
+    "small": "It is on the shelf, not in his bag,\" Sam says."
+   },
+   "text": "\"It is on the shelf, not in his bag,\" Sam says.",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/s_5b1428f6be.ogg",
+   "cache": "5b1428f6be1e69df4f52e28b2487f8ca8a5060a6"
+  },
+  {
+   "key": "read:L3.08:B:0",
+   "level": 3,
+   "sub": "sentence",
+   "kind": "read",
+   "sec": 15.86,
+   "heard": {
+    "small.en": "Kate got a job at the market. She helps at a cart that sells fresh grapes and plums. At nine she sets up the cart and starts her shift. This job is hard but I like it, said Kate. She helps many people at the market because she likes to help. Once her shift is done Kate has a snack and a cup of milk. She has a whole fine time at the market.",
+    "small": "Kate got a job at the market. She helps at a cart that sells fresh grapes and plums. At nine, she sets up the cart and starts her shift. This job is hard, but I like it, said Kate. She helps many people at the market because she likes to help. Once her shift is done, Kate has a snack and a cup of milk. She has a whole fine time at the market."
+   },
+   "text": "Kate got a job at the market. She helps at a cart that sells fresh grapes and plums. At nine, she sets up the cart and starts her shift. \"This job is hard, but I like it,\" said Kate. She helps many people at the market, because she likes to help. Once her shift is done, Kate has a snack and a cup of",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/s_62e7b77e7b.ogg",
+   "cache": "62e7b77e7b2fe94efd9d3ab1032df2330a201235"
+  },
+  {
+   "key": "read:L4.14:B:0",
+   "level": 4,
+   "sub": "sentence",
+   "kind": "read",
+   "sec": 3.57,
+   "heard": {
+    "small.en": "At the office, the internet has been nonstop unreliable all morning.",
+    "small": "At the office, the internet has been nonstop unreliable all morning."
+   },
+   "text": "At the office, the internet has been nonstop unreliable all morning.",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/s_03ad5db3d6.ogg",
+   "cache": "03ad5db3d6a0a8de4c41120dac831daaf616ea52"
+  },
+  {
+   "key": "read:L2.13:A:0",
+   "level": 2,
+   "sub": "sentence",
+   "kind": "read",
+   "sec": 23.75,
+   "heard": {
+    "small.en": "Men and dad go to visit a friend. They pack a backpack with a napkin and a muffin. I want to bring the pink rabbit, Min says, because it is fun. Men and the friend run and jump in the grass. When they get to the pond, they sit still. A fish splashes and Min spots an insect on a twig. The friend is helping Min hunt for bugs. Should we catch it? The friend asks. No, let's just watch it, Min says, because it is not bad. They pack up at sunset and hug the friend. Min and dad go back, glad and full, and plan to come again.",
+    "small": "Min and Dad go to visit a friend. They pack a backpack with a napkin and a muffin. I want to bring the pink rabbit, Min says, because it is fun. Min and the friend run and jump in the grass. When they get to the pond, they sit still. A fish splashes and Min spots an insect on a twig. The friend is helping Min hunt for bugs. Should we catch it? The friend asks. No, let's just watch it, Min says, because it is not bad. They pack up at sunset and hug the friend. Min and Dad go back, glad and full and plan to come again."
+   },
+   "text": "Min and Dad go to visit a friend. They pack a backpack with a napkin and a muffin. \"I want to bring the pink rabbit,\" Min says, \"because it is fun.\" Min and the friend run and jump in the grass. When they get to the pond, they sit still. A fish splashes, and Min spots an insect on a twig. The friend",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/s_fb2f9d38ba.ogg",
+   "cache": "fb2f9d38ba8234e3a77f7148c5421a7a4e9d87ae"
+  },
+  {
+   "key": "t2:L3.10:0",
+   "level": 3,
+   "sub": "sentence",
+   "kind": "t2",
+   "sec": 3.69,
+   "heard": {
+    "small.en": "Temporary. Temporary means lasting only for a short time, not permanent.",
+    "small": "Temporary? Temporary means lasting only for a short time, not permanent."
+   },
+   "text": "temporary. Temporary means lasting only for a short time, not permanent.",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/s_9663905dca.ogg",
+   "cache": "9663905dca8a6ff97c06940a3b8312f4106b19fe"
+  },
+  {
+   "key": "lt:L2.11:0",
+   "level": 2,
+   "sub": "passage",
+   "kind": "lt",
+   "sec": 10.84,
+   "heard": {
+    "small.en": "The night before her first big exam, Aisha felt more anxious than she had ever felt before. Her stomach fluttered, her hands felt cold and she kept checking the clock, worried she was somehow forgetting something important.",
+    "small": "The night before her first big exam, Aisha felt more anxious than she had ever felt before. Her stomach fluttered, her hands felt cold, and she kept checking the clock, worried she was somehow forgetting something important."
+   },
+   "text": "The night before her first big exam, Ayesha felt more anxious than she had ever felt before. Her stomach fluttered, her hands felt cold, and she kept checking the clock, worried she was somehow forgetting something important.",
+   "wer": 0.027,
+   "pass": true,
+   "file": "l2_sample/s_06beb38411.ogg",
+   "cache": "06beb384119629a75e4bbc532d053674866accc6"
+  },
+  {
+   "key": "lt:L3.04:0",
+   "level": 3,
+   "sub": "passage",
+   "kind": "lt",
+   "sec": 10.27,
+   "heard": {
+    "small.en": "A shopkeeper's closing routine matters because a rushed close can leave a door unlocked or cash uncounted. A careful routine, done the same way every night, reduces the chance of a costly mistake.",
+    "small": "A shopkeeper's closing routine matters because a rushed close can leave a door unlocked or cash uncounted. A careful routine, done the same way every night, reduces the chance of a costly mistake."
+   },
+   "text": "A shopkeeper's closing routine matters because a rushed close can leave a door unlocked or cash uncounted. A careful routine, done the same way every night, reduces the chance of a costly mistake.",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/s_ddf45405b5.ogg",
+   "cache": "ddf45405b5b4a811b87853b52d09476d06ccb0f5"
+  },
+  {
+   "key": "lt:L4.02:0",
+   "level": 4,
+   "sub": "passage",
+   "kind": "lt",
+   "sec": 9.55,
+   "heard": {
+    "small.en": "Long before cars, people used horses to travel. A caravan was a group of travelers, often with camels or horses, who journeyed together across long, hard roads for safety.",
+    "small": "Long before cars, people used horses to travel. A caravan was a group of travelers, often with camels or horses, who journeyed together across long, hard roads for safety."
+   },
+   "text": "Long before cars, people used horses to travel. A caravan was a group of travelers — often with camels or horses — who journeyed together across long, hard roads for safety.",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/s_66a6bc1c60.ogg",
+   "cache": "66a6bc1c60b1a643a3a307ac2fe700b5b46141a8"
+  },
+  {
+   "key": "lt:L2.03:2",
+   "level": 2,
+   "sub": "passage",
+   "kind": "lt",
+   "sec": 6.42,
+   "heard": {
+    "small.en": "I borrowed them to fix my bike, Grandpa, I forgot to tell you,\" she said. Grandpa's furious face softened into a small smile.",
+    "small": "I borrowed them to fix my bike, Grandpa, I forgot to tell you,\" she said. Grandpa's furious face softened into a small smile."
+   },
+   "text": "\"I borrowed them to fix my bike, Grandpa — I forgot to tell you!\" she said. Grandpa's furious face softened into a small smile.",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/s_b998e9f80d.ogg",
+   "cache": "b998e9f80df599ab1f458f277b9fd522baf4c336"
+  },
+  {
+   "key": "lt:L3.06:0",
+   "level": 3,
+   "sub": "passage",
+   "kind": "lt",
+   "sec": 11.7,
+   "heard": {
+    "small.en": "A customer who takes the time to leave a kind note is showing genuine gratitude, a real felt thanks, not just a quick thanks said out of habit. Genuine gratitude tends to stick with a person much longer than a routine thank you.",
+    "small": "A customer who takes the time to leave a kind note is showing genuine gratitude, a real felt thanks, not just a quick thanks said out of habit. Genuine gratitude tends to stick with a person much longer than a routine thank you."
+   },
+   "text": "A customer who takes the time to leave a kind note is showing genuine gratitude — a real, felt thanks, not just a quick 'thanks' said out of habit. Genuine gratitude tends to stick with a person much longer than a routine thank-you.",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/s_a84c238d46.ogg",
+   "cache": "a84c238d465d6a4f8bdcb8ce614b4e0e3e7edad1"
+  },
+  {
+   "key": "lt:L4.08:0",
+   "level": 4,
+   "sub": "passage",
+   "kind": "lt",
+   "sec": 8.71,
+   "heard": {
+    "small.en": "When someone stays calm and keeps making good choices even after something goes wrong, we can say they showed composure, a steady, level-headed response instead of panic.",
+    "small": "When someone stays calm and keeps making good choices even after something goes wrong, we can say they showed composure, a steady level-headed response instead of panic."
+   },
+   "text": "When someone stays calm and keeps making good choices even after something goes wrong, we can say they showed composure — a steady, level-headed response instead of panic.",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/s_7cd1431a8b.ogg",
+   "cache": "7cd1431a8bd2d64c18bd6281582b760714ec105b"
+  },
+  {
+   "key": "lt:L2.02:0",
+   "level": 2,
+   "sub": "passage",
+   "kind": "lt",
+   "sec": 6.6,
+   "heard": {
+    "small.en": "A little cat named Pip was very curious. Every single day, Pip wanted to know what was happening on the other side of the garden wall.",
+    "small": "A little cat named Pip was very curious. Every single day, Pip wanted to know what was happening on the other side of the garden wall."
+   },
+   "text": "A little cat named Pip was very curious. Every single day, Pip wanted to know what was happening on the other side of the garden wall.",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/s_2ec3e620db.ogg",
+   "cache": "2ec3e620db0fbbfcef3195f1813348a56124ba0e"
+  },
+  {
+   "key": "lt:L3.09:0",
+   "level": 3,
+   "sub": "passage",
+   "kind": "lt",
+   "sec": 11.68,
+   "heard": {
+    "small.en": "Before horses could be domesticated for riding, humans had to build a relationship of trust with an animal that is naturally alert to danger. A horse that trusts its rider will respond calmly even in a busy, noisy place.",
+    "small": "Before horses could be domesticated for riding, humans had to build a relationship of trust with an animal that is naturally alert to danger. A horse that trusts its rider will respond calmly even in a busy, noisy place."
+   },
+   "text": "Before horses could be domesticated for riding, humans had to build a relationship of trust with an animal that is naturally alert to danger. A horse that trusts its rider will respond calmly even in a busy, noisy place.",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/s_8b6a40084a.ogg",
+   "cache": "8b6a40084a720dc1b795855eb5666b5197ddd31e"
+  },
+  {
+   "key": "lt:L4.05:0",
+   "level": 4,
+   "sub": "passage",
+   "kind": "lt",
+   "sec": 7.88,
+   "heard": {
+    "small.en": "When people work well together and things go smoothly, we sometimes say the day felt harmonious, everything and everyone fitting together without friction.",
+    "small": "When people work well together and things go smoothly, we sometimes say the day felt harmonious, everything and everyone fitting together without friction."
+   },
+   "text": "When people work well together and things go smoothly, we sometimes say the day felt harmonious — everything and everyone fitting together without friction.",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/s_28d7ccc6a0.ogg",
+   "cache": "28d7ccc6a046d1a807c2717bda19c6c5d1a47630"
+  },
+  {
+   "key": "lt:L2.04:2",
+   "level": 2,
+   "sub": "passage",
+   "kind": "lt",
+   "sec": 10.63,
+   "heard": {
+    "small.en": "Finally, her grandmother sat beside her and said, When you are puzzled, start with the corners, there are only four and they always fit first. Anna found a corner then another and slowly her puzzled frown turned into a grin.",
+    "small": "Finally, her grandmother sat beside her and said, when you are puzzled, start with the corners. There are only four and they always fit first. Anna found a corner than another, and slowly her puzzled frown turned into a grin."
+   },
+   "text": "Finally, her grandmother sat beside her and said, \"When you are puzzled, start with the corners — there are only four, and they always fit first.\" Ana found a corner, then another, and slowly her puzzled frown turned into a grin.",
+   "wer": 0.025,
+   "pass": true,
+   "file": "l2_sample/s_1284993e73.ogg",
+   "cache": "1284993e73f9a9673e025aad0f8cfb6db3d2228e"
+  },
+  {
+   "key": "rule:L2.06",
+   "level": 2,
+   "sub": "instruction",
+   "kind": "rule",
+   "sec": 10.58,
+   "heard": {
+    "small.en": "Blends two consonants side by side keep both sounds. Say them quickly one after the other. Floss, after a short vowel at the end of a short word, f-l-s and z are doubled. Stuff, smell, glass, buzz.",
+    "small": "Blend two consonants side by side keep both sounds. Say them quickly one after the other. Floss after a short vowel at the end of a short word, F, L, S and Z are doubled. Stuff, smell, glass, buzz."
+   },
+   "text": "Blends. Two consonants side by side keep BOTH sounds. Say them quickly, one after the other. FLOSS: after a short vowel at the end of a short word, f, l, s and z are doubled: stuff, smell, glass, buzz.",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/s_af879da2fa.ogg",
+   "cache": "af879da2fa3ed1e05ca5a48e9f4cff333c39a404"
+  },
+  {
+   "key": "rule:L3.03",
+   "level": 3,
+   "sub": "instruction",
+   "kind": "rule",
+   "sec": 3.4,
+   "heard": {
+    "small.en": "Silent EO, you and E work the same way. Hop Hope Cub Cube.",
+    "small": "Silent EO, you and E work the same way. Hop Hope, Cub, Cube."
+   },
+   "text": "Silent e. oe, ue and ee work the same way: hop, hope; cub, cube.",
+   "wer": 0.286,
+   "pass": false,
+   "file": "l2_sample/s_afeecb1c67.ogg",
+   "cache": "afeecb1c67836e2179889b8483811bad53b0cce2"
+  },
+  {
+   "key": "ui:attackVowels",
+   "level": 4,
+   "sub": "instruction",
+   "kind": "ui",
+   "sec": 1.6,
+   "heard": {
+    "small.en": "Tap every vowel sound.",
+    "small": "Tap every vowel sound."
+   },
+   "text": "Tap every vowel sound.",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/s_d284203135.ogg",
+   "cache": "d284203135359097942a72b126a109952a15575d"
+  },
+  {
+   "key": "rule:L2.12",
+   "level": 2,
+   "sub": "instruction",
+   "kind": "rule",
+   "sec": 6.88,
+   "heard": {
+    "small.en": "Two syllable words find the two vowels. Split between the two consonants in the middle, RAB-BIT-NAP-KIN, read each part then the whole word.",
+    "small": "Two syllable words find the two vowels. Split between the two consonants in the middle, rabbit, napkin, read each part then the whole word."
+   },
+   "text": "Two-syllable words. Find the two vowels. Split between the two consonants in the middle: rab·bit, nap·kin. Read each part, then the whole word.",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/s_097ea841f2.ogg",
+   "cache": "097ea841f2a865eef39909bc58352a5b43772b63"
+  },
+  {
+   "key": "rule:L3.05",
+   "level": 3,
+   "sub": "instruction",
+   "kind": "rule",
+   "sec": 6.8,
+   "heard": {
+    "small.en": "Open syllables. A syllable that ends with a vowel is open. The vowel says its name. Try the first vowel open, Robot Musik.",
+    "small": "Open syllables, a syllable that ends with a vowel is open, the vowel says its name. Try the first vowel open, robot moussik."
+   },
+   "text": "Open syllables. A syllable that ends with a vowel is open: the vowel says its name. Try the first vowel open: ro·bot, mu·sic.",
+   "wer": 0.16,
+   "pass": false,
+   "file": "l2_sample/s_17da18d003.ogg",
+   "cache": "17da18d003f37b4887c3c4fb062e9fbdc7d11df3"
+  },
+  {
+   "key": "ui:teachSuffix",
+   "level": 4,
+   "sub": "instruction",
+   "kind": "ui",
+   "sec": 2.95,
+   "heard": {
+    "small.en": "This is an ending. Read the base word, then add the ending.",
+    "small": "This is an ending. Read the base word, then add the ending."
+   },
+   "text": "This is an ending. Read the base word, then add the ending.",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/s_34c42c68bd.ogg",
+   "cache": "34c42c68bdefdd59c7d757c4a6a0d4c14afdf017"
+  },
+  {
+   "key": "rule:L2.08",
+   "level": 2,
+   "sub": "name",
+   "kind": "rule",
+   "sec": 7.26,
+   "heard": {
+    "small.en": "3-letter blends, S plus a blend, 3 sounds said quickly SDR and strap. SHR and THR start with one digraph sound.",
+    "small": "Three-letter blends, S plus a blend, three sounds said quickly, S, D, R and strap. S, H, R and T, H, R start with one digraph sound."
+   },
+   "text": "Three-letter blends. s plus a blend: three sounds said quickly, s-t-r in strap. shr and thr start with one digraph sound.",
+   "wer": 0.25,
+   "pass": false,
+   "file": "l2_sample/s_4b7afa3428.ogg",
+   "cache": "4b7afa34284749a77707cfc74fe4a405591329df"
+  },
+  {
+   "key": "rule:L3.07",
+   "level": 3,
+   "sub": "name",
+   "kind": "rule",
+   "sec": 8.02,
+   "heard": {
+    "small.en": "Soft C and soft G before E, I or Y, C says S and G usually says J. City cage. After a short vowel, J is spelled D-G-E. Bridge.",
+    "small": "Soft C and Soft G before E, I, or Y, C says S and G usually says J. City Cage. After a short vowel, J is spelled D, G, E. Bridge."
+   },
+   "text": "Soft c and soft g. Before e, i or y, c says /s/ and g usually says /j/: city, cage. After a short vowel, /j/ is spelled -dge: bridge.",
+   "wer": 0.103,
+   "pass": true,
+   "file": "l2_sample/s_f7ade81337.ogg",
+   "cache": "f7ade81337d487e8d227aeca237d74d3351af067"
+  },
+  {
+   "key": "read:L4.10:B:4",
+   "level": 4,
+   "sub": "name",
+   "kind": "read",
+   "sec": 10.94,
+   "heard": {
+    "small.en": "It was a simple fix, Bilal tells the customer when she comes to collect it, but I wanted to be sure it was sturdy before you took it home. The customer checks the table, gives it a gentle push and smiles no wobble at all.",
+    "small": "It was a simple fix. Bilal tells the customer when she comes to collect it, but I wanted to be sure it was sturdy before you took it home. The customer checks the table, gives it a gentle push, and smiles no wobble at all."
+   },
+   "text": "\"It was a simple fix,\" Bilal tells the customer when she comes to collect it, \"but I wanted to be sure it was sturdy before you took it home.\" The customer checks the table, gives it a gentle push, and smiles — no wobble at all.",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/s_e93f029543.ogg",
+   "cache": "e93f029543ebb53bf38ba956da9d015b1ee9f45e"
+  },
+  {
+   "key": "ss:L5.13:warm:w5",
+   "level": 5,
+   "sub": "name",
+   "kind": "ss",
+   "sec": 0.61,
+   "heard": {
+    "small.en": "Next",
+    "small": "Degty."
+   },
+   "text": "dict",
+   "wer": 1.0,
+   "pass": false,
+   "oov": [
+    "dict"
+   ],
+   "file": "l2_sample/s_01c3bce471.ogg",
+   "cache": "01c3bce4710df5034ebbe0d0592f97763d152dea"
+  },
+  {
+   "key": "ss:L6.15:text:0:4",
+   "level": 6,
+   "sub": "name",
+   "kind": "ss",
+   "sec": 34.84,
+   "heard": {
+    "small.en": "In 1857, a major uprising against Company Rule broke out, involving soldiers, former rulers and civilians across northern and central India, known to history as the Indian Rebellion of 1857 or the First War of Independence, depending on which historical tradition you read. The rebellion was suppressed after roughly a year of fighting. As a direct result, the British Crown formally ended Company Rule and in 1858 took over direct administration of British-held India, a period historians call the British Raj, while the The last Mughal emperor was exiled, formally ending the dynasty that Babur had founded 332 years earlier.",
+    "small": "In 1857, a major uprising against company rule broke out, involving soldiers, former rulers and civilians across Northern and Central India, known to history as the Indian rebellion of 1857 or the First War of Independence, depending on which historical tradition you read. The rebellion was suppressed after roughly a year of fighting. As a direct result, the British crown formally ended company rule and in 1858 took over direct administration of British-held India, a period historians call the British Raj, while the The last Mughal emperor was exiled, formally ending the dynasty that Bobber had founded 332 years earlier."
+   },
+   "text": "In 1857, a major uprising against Company rule broke out, involving soldiers, former rulers, and civilians across northern and central India — known to history as the Indian Rebellion of 1857 (or the First War of Independence, depending on which historical tradition you read). The rebellion was supp",
+   "wer": 0.011,
+   "pass": true,
+   "oov": [
+    "Mughal",
+    "Babur"
+   ],
+   "file": "l2_sample/s_2cf5b254a4.ogg",
+   "cache": "2cf5b254a47616361bcc519ba417ea3c38d2b2aa"
+  },
+  {
+   "key": "ss:L7.04:text:0:3",
+   "level": 7,
+   "sub": "name",
+   "kind": "ss",
+   "sec": 43.01,
+   "heard": {
+    "small.en": "On the no-phone nights, the average participant fell asleep nine minutes faster and had 1.2 fewer awakenings than on the phone nights. The company's press release states, GLOGuRd's research proves that screen time is the single biggest cause of poor sleep in teenagers today, and recommends its $34 phone case as the scientifically proven fix. The release does not mention whether participants were told which nights mattered to the study's hypothesis, which could have changed their behavior or self-reports, whether anything Something else about their evening routine changed between the two conditions, or whether the effect held for the group's typical teenager, given that all 24 participants attended the same private school and volunteered after seeing a flyer specifically about the study. Which may itself attract families already concerned about screen time and sleep.",
+    "small": "On the no-phone nights, the average participant fell asleep nine minutes faster and had 1.2 fewer awakenings than on the phone nights. The company's press release states, GloGuard's research proves that screen time is the single biggest cause of poor sleep in teenagers today, and recommends its $34 phone case as the scientifically proven fix. The release does not mention whether participants were told which nights mattered to the study's hypothesis, which could have changed their behavior or self-reports, whether anything Anything else about their evening routine changed between the two conditions, or whether the effect held for the group's typical teenager, given that all 24 participants attended the same private school and volunteered after seeing a flyer specifically about the study. Which may itself attract families already concerned about screen time and sleep."
+   },
+   "text": "On the \"no phone\" nights, the average participant fell asleep 9 minutes faster and had 1.2 fewer awakenings than on the \"phone\" nights. The company's press release states: \"GlowGuard's research proves that screen time is the single biggest cause of poor sleep in teenagers today,\" and recommends its ",
+   "wer": 0.023,
+   "pass": true,
+   "oov": [
+    "GlowGuard's"
+   ],
+   "file": "l2_sample/s_35da2a75b9.ogg",
+   "cache": "35da2a75b94b1c5940eb36c2a6373dd4fa7bedb4"
+  },
+  {
+   "key": "ss:L5.07:word:7:m",
+   "level": 5,
+   "sub": "sentence",
+   "kind": "ss",
+   "sec": 2.11,
+   "heard": {
+    "small.en": "Celebration, the act of celebrating.",
+    "small": "Celebration, the act of celebrating."
+   },
+   "text": "celebration: the act of celebrating",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/s_1dc09e2d9b.ogg",
+   "cache": "1dc09e2d9bab584b4acab0eb1407cd22dc7cb33d"
+  },
+  {
+   "key": "ss:L6.09:flu:0",
+   "level": 6,
+   "sub": "passage",
+   "kind": "ss",
+   "sec": 14.71,
+   "heard": {
+    "small.en": "Before you believe anything you read online, ask one simple question. Who wrote this and why? A page can look calm, confident, and completely sure of itself and still be wrong or worse, deliberately misleading. The words on the page will not tell you who's behind it. You have to go looking for that answer yourself.",
+    "small": "Before you believe anything you read online, ask one simple question. Who wrote this and why? A page can look calm, confident and completely sure of itself and still be wrong or worse, deliberately misleading. The words on the page will not tell you who's behind it. You have to go looking for that answer yourself."
+   },
+   "text": "Before you believe anything you read online, ask one simple question: who wrote this, and why? A page can look calm, confident, and completely sure of itself and still be wrong — or worse, deliberately misleading. The words on the page will not tell you who's behind it. You have to go looking for th",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/s_8d4509b7bb.ogg",
+   "cache": "8d4509b7bbb2e1b401d68a658b63ff7f71a56088"
+  },
+  {
+   "key": "ss:L7.07:disc:2",
+   "level": 7,
+   "sub": "sentence",
+   "kind": "ss",
+   "sec": 6.79,
+   "heard": {
+    "small.en": "Explain the difference between this essay commits fallacies and this essay's conclusion is wrong to someone who thinks they mean the same thing.",
+    "small": "Explain the difference between this essay commits fallacies, and this essay's conclusion is wrong to someone who thinks they mean the same thing."
+   },
+   "text": "Explain the difference between \"this essay commits fallacies\" and \"this essay's conclusion is wrong\" to someone who thinks they mean the same thing.",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/s_08b4b20bb2.ogg",
+   "cache": "08b4b20bb2a8df8e63b271ce1280b7de1ed5b6a9"
+  },
+  {
+   "key": "ss:L5.12:word:2:m",
+   "level": 5,
+   "sub": "sentence",
+   "kind": "ss",
+   "sec": 2.12,
+   "heard": {
+    "small.en": "Superpower, a power beyond the normal.",
+    "small": "Super power of power beyond the normal."
+   },
+   "text": "superpower: a power beyond the normal",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/s_841919c6a0.ogg",
+   "cache": "841919c6a09a66d1776327f8a5169e2b884e75b2"
+  },
+  {
+   "key": "ss:L6.01:disc:0",
+   "level": 6,
+   "sub": "sentence",
+   "kind": "ss",
+   "sec": 3.24,
+   "heard": {
+    "small.en": "Roll to the learner for paragraph 3, the tissues paragraph.",
+    "small": "Roll to the learner for paragraph 3, the tissues paragraph."
+   },
+   "text": "Role to the learner for paragraph 3 (the tissues paragraph):.",
+   "wer": 0.111,
+   "pass": true,
+   "file": "l2_sample/s_f438b8478f.ogg",
+   "cache": "f438b8478f8477b67de82627ff368604b68d3f96"
+  },
+  {
+   "key": "ss:L7.14:prime:q",
+   "level": 7,
+   "sub": "passage",
+   "kind": "ss",
+   "sec": 8.91,
+   "heard": {
+    "small.en": "Think of the last time you had to read something long and dense. A manual, a syllabus, an assignment. Did you read the whole thing at one speed or did your pace change depending on the section?",
+    "small": "Think of the last time you had to read something long and dense. A manual, a syllabus, an assignment. Did you read the whole thing at one speed or did your pace change depending on the section?"
+   },
+   "text": "think of the last time you had to read something long and dense (a manual, a syllabus, an assignment) — did you read the whole thing at one speed, or did your pace change depending on the section?",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/s_e9343f93a7.ogg",
+   "cache": "e9343f93a75ee2828faf94865cb55b0a490bdc1e"
+  }
+ ],
+ "twins": [
+  {
+   "key": "w:hop",
+   "level": 1,
+   "sub": "word",
+   "kind": "w",
+   "sec": 0.56,
+   "heard": {
+    "small.en": "Say, hubby.",
+    "small": "Sayah, Habib."
+   },
+   "text": "hop",
+   "wer": 1.0,
+   "pass": false,
+   "phone_per": 1.0,
+   "phone_heard": "hɑu5pi",
+   "file": "l2_sample/t_ca0740813a.ogg",
+   "river": "../app/public/audio/5f50945d9d54.ogg"
+  },
+  {
+   "key": "w:sam",
+   "level": 1,
+   "sub": "word",
+   "kind": "w",
+   "sec": 0.63,
+   "heard": {
+    "small.en": "Say, Sam.",
+    "small": "ZAM!"
+   },
+   "text": "sam",
+   "wer": 0.0,
+   "pass": true,
+   "phone_per": 0.67,
+   "phone_heard": "sa5m",
+   "file": "l2_sample/t_95c8f73acd.ogg",
+   "river": "../app/public/audio/738e2a7a0453.ogg"
+  },
+  {
+   "key": "w:it",
+   "level": 1,
+   "sub": "word",
+   "kind": "w",
+   "sec": 0.51,
+   "heard": {
+    "small.en": "Say,",
+    "small": "I'm sorry. I'm sorry."
+   },
+   "text": "it",
+   "wer": 1.0,
+   "pass": false,
+   "phone_per": 4.5,
+   "phone_heard": "ʌɜiɛ5ntse̞",
+   "file": "l2_sample/t_8c49d6b315.ogg",
+   "river": "../app/public/audio/1ec618559aae.ogg"
+  },
+  {
+   "key": "w:pam",
+   "level": 1,
+   "sub": "word",
+   "kind": "w",
+   "sec": 0.67,
+   "heard": {
+    "small.en": "Say, Pamela.",
+    "small": "So, panel vote."
+   },
+   "text": "pam",
+   "wer": 1.0,
+   "pass": false,
+   "phone_per": 1.33,
+   "phone_heard": "phai5m",
+   "file": "l2_sample/t_48298266ab.ogg",
+   "river": "../app/public/audio/ba472299a480.ogg"
+  },
+  {
+   "key": "w:jet",
+   "level": 1,
+   "sub": "word",
+   "kind": "w",
+   "sec": 0.62,
+   "heard": {
+    "small.en": "Say, J",
+    "small": "Say, Jail."
+   },
+   "text": "jet",
+   "wer": 1.0,
+   "pass": false,
+   "phone_per": 0.67,
+   "phone_heard": "dʒɑ5t",
+   "file": "l2_sample/t_f2e124d325.ogg",
+   "river": "../app/public/audio/500ab85d9c20.ogg"
+  },
+  {
+   "key": "w:vin",
+   "level": 1,
+   "sub": "word",
+   "kind": "w",
+   "sec": 0.56,
+   "heard": {
+    "small.en": "Say, Vin.",
+    "small": "So, when?"
+   },
+   "text": "vin",
+   "wer": 0.0,
+   "pass": true,
+   "phone_per": 0.33,
+   "phone_heard": "vɛn",
+   "file": "l2_sample/t_af2764e3ca.ogg",
+   "river": "../app/public/audio/1df23764943d.ogg"
+  },
+  {
+   "key": "w:a",
+   "level": 1,
+   "sub": "word",
+   "kind": "w",
+   "sec": 0.42,
+   "heard": {
+    "small.en": "Say, like...",
+    "small": "So, bye."
+   },
+   "text": "uh",
+   "wer": 1.0,
+   "pass": false,
+   "phone_per": 1.0,
+   "phone_heard": "a",
+   "file": "l2_sample/t_5d6275470b.ogg",
+   "river": "../app/public/audio/3cdd3d5b7a56.ogg"
+  },
+  {
+   "key": "w:naps",
+   "level": 1,
+   "sub": "word",
+   "kind": "w",
+   "sec": 0.66,
+   "heard": {
+    "small.en": "Zay, nabs.",
+    "small": "So, nubs."
+   },
+   "text": "naps",
+   "wer": 1.0,
+   "pass": false,
+   "phone_per": 0.75,
+   "phone_heard": "nabz",
+   "file": "l2_sample/t_fedb14c857.ogg",
+   "river": "../app/public/audio/3083f6660dde.ogg"
+  },
+  {
+   "key": "w:well",
+   "level": 1,
+   "sub": "word",
+   "kind": "w",
+   "sec": 0.64,
+   "heard": {
+    "small.en": "So, well...",
+    "small": "So, well..."
+   },
+   "text": "well",
+   "wer": 0.0,
+   "pass": true,
+   "phone_per": 0.33,
+   "phone_heard": "wɛlʉ",
+   "file": "l2_sample/t_2de86e4028.ogg",
+   "river": "../app/public/audio/4baf186abce2.ogg"
+  },
+  {
+   "key": "w:tan",
+   "level": 1,
+   "sub": "word",
+   "kind": "w",
+   "sec": 0.7,
+   "heard": {
+    "small.en": "ZAIO TANNO",
+    "small": "So, channel."
+   },
+   "text": "tan",
+   "wer": 1.0,
+   "pass": false,
+   "phone_per": 2.0,
+   "phone_heard": "thai5nʌɜ",
+   "file": "l2_sample/t_5e5d7f5243.ogg",
+   "river": "../app/public/audio/71421a2bf679.ogg"
+  },
+  {
+   "key": "w:bug",
+   "level": 1,
+   "sub": "word",
+   "kind": "w",
+   "sec": 0.65,
+   "heard": {
+    "small.en": "Say bug it.",
+    "small": "Say, bug it."
+   },
+   "text": "bug",
+   "wer": 0.0,
+   "pass": true,
+   "phone_per": 0.67,
+   "phone_heard": "baɡi",
+   "file": "l2_sample/t_b38b7732ea.ogg",
+   "river": "../app/public/audio/2c3e46f047ae.ogg"
+  },
+  {
+   "key": "w:tell",
+   "level": 1,
+   "sub": "word",
+   "kind": "w",
+   "sec": 0.65,
+   "heard": {
+    "small.en": "So tell me...",
+    "small": "So, tell..."
+   },
+   "text": "tell",
+   "wer": 0.0,
+   "pass": true,
+   "phone_per": 3.0,
+   "phone_heard": "thiɑ5wuei5",
+   "file": "l2_sample/t_e775f29f76.ogg",
+   "river": "../app/public/audio/24042e65dc4a.ogg"
+  },
+  {
+   "key": "lt:L1.02:0",
+   "level": 1,
+   "sub": "sentence",
+   "kind": "r",
+   "sec": 6.59,
+   "heard": {
+    "small.en": "Sam felt nervous walking into the new classroom. Everyone else already seemed to know each other, chatting and laughing near the window.",
+    "small": "Sam felt nervous walking into the new classroom. Everyone else already seemed to know each other, chatting and laughing near the window."
+   },
+   "text": "Sam felt nervous walking into the new classroom. Everyone else already seemed to know each other, chatting and laughing near the window.",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/t_2c19735934.ogg",
+   "river": "../app/public/audio/e308a742e4a6.ogg"
+  },
+  {
+   "key": "lt:L1.04:0",
+   "level": 1,
+   "sub": "sentence",
+   "kind": "r",
+   "sec": 4.49,
+   "heard": {
+    "small.en": "Every Tuesday, a truck brings fresh bread to Mr. Iqbal's small shop before sunrise.",
+    "small": "Every Tuesday, a truck brings fresh bread to Mr. Iqbal's small shop before sunrise."
+   },
+   "text": "Every Tuesday, a truck brings fresh bread to Mr. Iqbal's small shop before sunrise.",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/t_ccfae57359.ogg",
+   "river": "../app/public/audio/298172fb783a.ogg"
+  },
+  {
+   "key": "read:L1.13:B:1",
+   "level": 1,
+   "sub": "sentence",
+   "kind": "r",
+   "sec": 1.39,
+   "heard": {
+    "small.en": "Pat has a big box.",
+    "small": "Pat has a big box."
+   },
+   "text": "Pat has a big box.",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/t_52ded1acb2.ogg",
+   "river": "../app/public/audio/5b928018d4ea.ogg"
+  },
+  {
+   "key": "read:L1.13:B:2",
+   "level": 1,
+   "sub": "sentence",
+   "kind": "r",
+   "sec": 4.08,
+   "heard": {
+    "small.en": "The tag said B. Dan said D. No, it was B. It was a big mess at the dock.",
+    "small": "The tag said B, Dan said D. No, it was B, it was a big mess at the dock."
+   },
+   "text": "The tag said \"b.\" Dan said, \"d?\" No, it was \"b.\" It was a big mess at the dock.",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/t_7e3f14e734.ogg",
+   "river": "../app/public/audio/dfb79e4d5116.ogg"
+  },
+  {
+   "key": "lt:L1.04:2",
+   "level": 1,
+   "sub": "sentence",
+   "kind": "r",
+   "sec": 4.99,
+   "heard": {
+    "small.en": "Mr. Iqbal called the bakery three times, growing more frustrated with each unanswered ring.",
+    "small": "Mr. Iqbal called the bakery three times, growing more frustrated with each unanswered ring."
+   },
+   "text": "Mr. Iqbal called the bakery three times, growing more frustrated with each unanswered ring.",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/t_b46b16d0f1.ogg",
+   "river": "../app/public/audio/0cd098f3a621.ogg"
+  },
+  {
+   "key": "lt:L1.01:1",
+   "level": 1,
+   "sub": "sentence",
+   "kind": "r",
+   "sec": 4.73,
+   "heard": {
+    "small.en": "Sam's little sister covered her ears and laughed. That truck is louder than a drum, she said.",
+    "small": "Sam's little sister covered her ears and laughed. That truck is louder than a drum, she said."
+   },
+   "text": "Sam's little sister covered her ears and laughed. \"That truck is louder than a drum,\" she said.",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/t_e8c940fb58.ogg",
+   "river": "../app/public/audio/4e9ada8683d9.ogg"
+  },
+  {
+   "key": "q:L1.08:0",
+   "level": 1,
+   "sub": "sentence",
+   "kind": "r",
+   "sec": 3.55,
+   "heard": {
+    "small.en": "How did the old-fashioned rotation keep people honest without any app?",
+    "small": "How did the old-fashioned rotation keep people honest without any app?"
+   },
+   "text": "How did the old-fashioned rotation keep people honest, without any app?",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/t_fed347802c.ogg",
+   "river": "../app/public/audio/c7e30caee6e4.ogg"
+  },
+  {
+   "key": "q:L1.05:1",
+   "level": 1,
+   "sub": "sentence",
+   "kind": "r",
+   "sec": 3.96,
+   "heard": {
+    "small.en": "How did Bruno seem to feel about the new arrangement, what in the story tells you that?",
+    "small": "How did Bruno seem to feel about the new arrangement? What in the story tells you that?"
+   },
+   "text": "How did Bruno seem to feel about the new arrangement — what in the story tells you that?",
+   "wer": 0.0,
+   "pass": true,
+   "file": "l2_sample/t_ffc5daa603.ogg",
+   "river": "../app/public/audio/9ca8115dba1d.ogg"
+  }
+ ]
+}
