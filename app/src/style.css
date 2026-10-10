@@ -66,9 +66,9 @@ h1 { font-size: 1.7rem; margin: .4em 0 .2em; } h2 { font-size: 1.3rem; margin: .
 
 /* sitting */
 .sitting { display: flex; flex-direction: column; min-height: 100dvh; }
-header.hdr { display: flex; align-items: center; gap: 12px; padding: 12px 0; }
+header.hdr { position: relative; display: flex; align-items: center; gap: 12px; padding: 12px 0; }
 .close { width: 44px; height: 44px; border-radius: 50%; border: 0; background: transparent; font-size: 1.8rem; color: var(--muted); }
-.progress { flex: 1; height: 10px; background: var(--line); border-radius: 99px; overflow: hidden; } .progress i { display: block; height: 100%; width: 0; background: var(--accent); transition: width .4s; }
+.progress { flex: 1; height: 17px; background: var(--line); border-radius: 99px; overflow: hidden; box-shadow: inset 0 2px 3px rgba(0,0,0,.08); } .progress i { display: block; height: 100%; width: 0; background: var(--accent); border-radius: 99px; transition: width .4s; box-shadow: inset 0 -3px 0 rgba(0,0,0,.12), inset 0 3px 0 rgba(255,255,255,.28); }
 .speaker.hdr { width: 44px; height: 44px; } .speaker.hdr svg { width: 22px; height: 22px; }
 .stage { flex: 1; } .screen { display: flex; flex-direction: column; align-items: center; }
 .foot { display: flex; gap: 10px; justify-content: center; padding: 14px 0 6px; }
@@ -202,7 +202,7 @@ header.hdr, .homehdr { padding-right: 70px; }   /* keeps the row clear of the fi
 /* pictures: real art, fixed size so the card never resizes between screens */
 .picture img { width: 100%; aspect-ratio: 1; height: auto; display: block; border-radius: 14px; background: #f1e7d6; }
 .pics.one { width: min(168px, 100%); max-width: none; } .pics.one .picture { width: 100%; }
-.options.pending { visibility: hidden; }   /* cards stay mounted (same space) while the voice speaks */
+.options.pending { opacity: .45; pointer-events: none; }   /* cards stay visible but dimmed and inert (same space, no reflow) while the voice speaks */
 /* focus rings only for keyboard use, never after a tap or on load */
 button:focus:not(:focus-visible), a:focus:not(:focus-visible) { outline: none; }
 .l1-opts .opt .picture { width: 100%; max-width: 120px; }
@@ -215,3 +215,17 @@ button:focus:not(:focus-visible), a:focus:not(:focus-visible) { outline: none; }
 .pics.scene { max-width: 190px; margin: 14px auto 0; } .pics.scene .picture { width: 100%; }
 @media (max-height: 700px) { .pics.scene { max-width: 170px; margin-top: 8px; } }
 @media (max-height: 700px) { .picture-gap { max-width: 96px; } }
+
+/* Tilo's speech bubble (Track A only): hangs under the progress bar, right of the header Tilo, never over the cards or the ear button */
+.tilo-bubble { position: absolute; left: 112px; top: 86px; width: max-content; max-width: calc(100% - 116px); white-space: nowrap; text-overflow: ellipsis; z-index: 5; background: #fff; color: var(--ink, #2b2620); border: 2px solid #ead9b8; border-radius: 18px; padding: 4px 11px; font-size: .84rem; font-weight: 650; line-height: 1.25; box-shadow: var(--shadow); pointer-events: none; opacity: 0; transform: translateY(-4px) scale(.96); transform-origin: 0 0; transition: opacity .18s, transform .18s;  overflow: hidden; }
+.tilo-bubble.on { opacity: 1; transform: none; }
+.tilo-bubble::before { content: ''; position: absolute; left: -9px; top: 7px; width: 14px; height: 14px; background: #fff; border-left: 2px solid #ead9b8; border-bottom: 2px solid #ead9b8; transform: rotate(45deg); border-radius: 0 0 0 4px; }
+.track-B .tilo-bubble { display: none; }
+/* a small celebration on a correct card: a bounce plus a ring of sparkles (CSS only) */
+.opt.right { animation: opt-cheer .55s ease-out; position: relative; }
+.opt.right::before, .opt.right::after { content: ''; position: absolute; left: 50%; top: 40%; width: 8px; height: 8px; border-radius: 50%; pointer-events: none; opacity: 0; background: #ffd24a; box-shadow: -34px -22px 0 #ff8fa3, 34px -26px 0 #7fd1a0, -42px 6px 0 #8ec5ff, 40px 8px 0 #ffd24a, -16px -40px 0 #7fd1a0, 18px -42px 0 #ff8fa3; animation: opt-spark .7s ease-out; }
+.opt.right::after { transform: rotate(35deg) scale(.7); animation-delay: .08s; }
+@keyframes opt-cheer { 0% { transform: scale(1); } 35% { transform: scale(1.06) translateY(-4px); } 100% { transform: scale(1); } }
+@keyframes opt-spark { 0% { opacity: 1; transform: scale(.3); } 70% { opacity: 1; } 100% { opacity: 0; transform: scale(1.5) translateY(-8px); } }
+@media (prefers-reduced-motion: reduce) { .opt.right, .opt.right::before, .opt.right::after { animation: none; } .opt.right::before, .opt.right::after { display: none; } .tilo-bubble { transition: none; } }
+.ghost-pick svg { width: 22px; height: 22px; } .ghost-pick { display: grid; place-items: center; border-radius: 99px; background: var(--accent); color: #fff; padding: 9px 14px; font-weight: 650; width: 100%; min-height: 44px; box-sizing: border-box; }

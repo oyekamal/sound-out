@@ -51,6 +51,12 @@ async function segment(ctx, w) {
   await ctx.record(`oral:count:${w}`, 'oral', r);
 }
 
+// A dimmed, inert preview of the answer cards under a worked example, so the lower part of the screen is never empty while the teacher talks.
+function ghostCards(s, body) {
+  const row = h('div', { class: 'options l1-opts three pending ghost', 'aria-hidden': 'true' }, ...[0, 1, 2].map(i => h('div', { class: 'opt' }, body(i), h('span', { class: 'opt-pick ghost-pick', html: ICON.check }))));
+  row.inert = true; s.append(row);
+}
+
 // Model before ask: one worked item (on a word that is NOT in the real items) before the first real item of a type.
 async function worked(ctx, type) {
   const s = stageFor(ctx, type === 'first' ? 'oral-first' : type === 'count' ? 'oral-count' : 'oral-blend');
@@ -58,14 +64,17 @@ async function worked(ctx, type) {
     const w = 'pig', n = entry(w).p.length;
     const dots = h('div', { class: 'dots big' }, ...Array.from({ length: n }, () => h('i')));
     s.append(h('h2', {}, 'How many sounds?'), speaker(`w:${w}`, { big: true, label: 'Hear the word' }), dots);
+    ghostCards(s, i => h('div', { class: 'dots' }, ...Array.from({ length: i + 2 }, () => h('i', { class: 'on' }))));
     mark('oral-demo', { type });
     await ctx.instruct(['ui:letsDoOne'], { stim: async () => { if ((await play(`w:${w}`)) === false) return false; await wait(300); for (let i = 0; i < n; i++) { dots.children[i].classList.add('on'); if ((await play(`ph:${entry(w).p[i]}`)) === false) return false; await wait(300); } return teacher.say('ui:yourTurn'); }, nudge: 'ui:idleTap' });
   } else if (type === 'first') {
     s.append(h('h2', {}, 'What sound does it start with?'), ...(pic('sock', 0) ? [h('div', { class: 'pics one' }, pic('sock', 0))] : []), speaker('w:sock', { big: true, label: 'Hear the word' }));
+    ghostCards(s, () => h('div', { class: 'picture-gap', html: ICON.speaker }));
     mark('oral-demo', { type });
     await ctx.instruct(['ui:letsDoOne', 'w:sock', 'ph:s', 'ui:yourTurn'], { nudge: 'ui:idleTap' });
   } else {
     s.append(h('h2', {}, 'Which word do the sounds make?'), speaker(null, { big: true, label: 'Hear the sounds', onplay: () => sounds(ph('dog')) }));
+    ghostCards(s, () => h('div', { class: 'picture-gap', html: ICON.speaker }));
     mark('oral-demo', { type });
     await ctx.instruct(['ui:letsDoOne'], { stim: async () => { if ((await sounds(ph('dog'))) === false) return false; await wait(300); await play('w:dog'); return teacher.say('ui:yourTurn'); }, nudge: 'ui:idleTap' });
   }

@@ -15,7 +15,7 @@ const FLAP = ['mid', 'aaa', 'mid', 'mmm', 'aaa', 'mid'];   // no 'ooo': a round 
 const reduced = () => !!window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
 
 const st = { homeHost: null, track: null, mood: 'idle', emote: null, emoteKey: null, pinned: null, speaking: false, mouth: 'mid', offT: 0, emoteT: 0, flapT: 0, host: null };
-let el = null, stage = null; const bodies = {}, mouths = {};
+let el = null, stage = null, bubble = null; const bodies = {}, mouths = {};
 
 function img(src, cls) { const i = new Image(); i.className = cls; i.alt = ''; i.decoding = 'async'; i.src = BASE + src; return i; }
 
@@ -33,6 +33,7 @@ function build() {
     mouths[name] = i; stage.append(i);
   }
   el.append(stage); document.body.append(el);
+  bubble = document.createElement('div'); bubble.className = 'tilo-bubble'; bubble.setAttribute('aria-hidden', 'true');
   bus.addEventListener('start', e => onStart(e.detail?.key));
   bus.addEventListener('end', e => onEnd(e.detail?.key));
 }
@@ -55,6 +56,23 @@ function render() {
   for (const [n, m] of Object.entries(mouths)) m.hidden = !(talking && n === st.mouth);
   if (was && was !== p && !reduced()) { el.classList.remove('pop'); void el.offsetWidth; el.classList.add('pop'); }
   if (talking) startFlap(); else stopFlap();
+  renderBubble(talking && st.uiKey);
+}
+
+// Speech bubble (Track A): shows the short prompt on screen while a spoken instruction plays; hidden otherwise.
+const SHORT = { 'what sound does it start with?': 'First sound?', 'which word do the sounds make?': 'Which word?', 'how many sounds?': 'How many sounds?' };
+function bubbleText() {
+  const src = document.querySelector('.stage .screen h2, .stage .screen .prompt');
+  const t = (src?.textContent || '').trim();
+  if (SHORT[t.toLowerCase()]) return SHORT[t.toLowerCase()];
+  return t.length > 26 ? t.slice(0, 24).replace(/\s+\S*$/, '') + '…' : t;
+}
+function renderBubble(on) {
+  if (!bubble) return;
+  const hdr = st.host?.closest?.('header.hdr') || null;
+  const text = on && st.track === 'A' && hdr ? bubbleText() : '';
+  if (text) { if (bubble.parentNode !== hdr) hdr.append(bubble); bubble.textContent = text; bubble.classList.add('on'); }
+  else bubble.classList.remove('on');
 }
 
 function startFlap() {
@@ -75,7 +93,7 @@ function onStart(key) {
   clearTimeout(st.offT);
   if (st.emote && key === st.emoteKey) { clearTimeout(st.emoteT); render(); return; }   // the praise / "not quite" clip itself: show the emotion, no flap
   if (st.emote) { clearTimeout(st.emoteT); st.emote = null; st.emoteKey = null; }          // a different clip follows: the voice talks again
-  st.speaking = true; render();
+  st.uiKey = typeof key === 'string' && key.startsWith('ui:'); st.speaking = true; render();
 }
 function onEnd(key) {
   if (st.emote && key === st.emoteKey) { clearTimeout(st.emoteT); st.emoteT = setTimeout(() => { st.emote = null; st.emoteKey = null; render(); }, 1100); return; }
@@ -89,7 +107,7 @@ export const tilo = {
   // a new screen: back in the corner, calm, nothing pinned
   screen() {
     if (!el) build();
-    st.mood = 'idle'; st.emote = null; st.emoteKey = null; st.pinned = null; clearTimeout(st.emoteT);
+    st.uiKey = false; st.mood = 'idle'; st.emote = null; st.emoteKey = null; st.pinned = null; clearTimeout(st.emoteT);
     tilo.dock(st.homeHost && st.homeHost.isConnected ? st.homeHost : null); render();
   },
   // a persistent spot for this screen group (the sitting header); mount() clears it

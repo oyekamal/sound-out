@@ -44,13 +44,13 @@ export function choice(stage, cards, { test = false, autoplay = true, cls = 'two
     });
     return el;
   });
-  row.append(...els); row.classList.add('pending');
+  row.append(...els); row.classList.add('pending'); row.inert = true; row.setAttribute('aria-disabled', 'true');
   stage.append(row);
   const hearAll = async () => { for (const [i, c] of cards.entries()) if (c.key) { els[i].classList.add('hl'); const ok = await play(c.key); els[i].classList.remove('hl'); if (ok === false) return false; await wait(200); } return true; };
   const pointRight = () => teacher.point(els.find(x => x.dataset.ok)?.querySelector('.opt-pick'));
   // a stall in a TEACHING item points at the right card after the re-prompt; in a test it only nudges (no pointing)
   const start = async () => {
-    row.classList.remove('pending');
+    row.classList.remove('pending'); row.inert = false; row.removeAttribute('aria-disabled');
     teacher.setIdle({ nudge: 'ui:idlePick', hint: test ? null : pointRight });
     if (autoplay) await hearAll();
     els.forEach(x => x.querySelector('.opt-pick').disabled = false);
