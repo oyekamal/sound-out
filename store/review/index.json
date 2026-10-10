@@ -1,0 +1,674 @@
+[
+ {
+  "file": "01_ab_firstrun_who-is-reading.webp",
+  "track": "A+B",
+  "section": "1 First run",
+  "title": "Who is reading? (very first screen)",
+  "note": "The first screen ever shown: two big cards, a child or a grown-up, with the choice spoken in English."
+ },
+ {
+  "file": "02_a_firstrun_child-first-sitting.webp",
+  "track": "A",
+  "section": "1 First run",
+  "title": "After picking a child: the first sitting starts by itself",
+  "note": "Straight into the first sound game with Tilo in the header, no sign-up and no language step."
+ },
+ {
+  "file": "03_ab_firstrun_who-is-reading-again.webp",
+  "track": "A+B",
+  "section": "1 First run",
+  "title": "Who is reading? once a profile exists",
+  "note": "The same picker on a later visit, now with an 'Or carry on' button for the profile that already exists."
+ },
+ {
+  "file": "04_ab_firstrun_privacy-top.webp",
+  "track": "A+B",
+  "section": "1 First run",
+  "title": "Privacy screen (top)",
+  "note": "The plain-text privacy page: works offline, no account, no ads, no analytics, all data stays on the phone."
+ },
+ {
+  "file": "05_b_firstrun_grownup-first-sitting.webp",
+  "track": "B",
+  "section": "1 First run",
+  "title": "After picking a grown-up: the first sitting",
+  "note": "The same first sitting for a grown-up: plain page, no mascot, no speech bubble."
+ },
+ {
+  "file": "06_ab_home_grownup-gate.webp",
+  "track": "A+B",
+  "section": "2 Home",
+  "title": "Grown-up gate (grownup.js)",
+  "note": "A multiplication sum in digits that a young child cannot do; it keeps the privacy page and grown-up area away from children."
+ },
+ {
+  "file": "07_ab_home_grownup-gate-wrong.webp",
+  "track": "A+B",
+  "section": "2 Home",
+  "title": "Grown-up gate after a wrong answer",
+  "note": "A wrong answer shows 'Not quite. Try this one.' and a new sum; three misses lock it for 30 seconds."
+ },
+ {
+  "file": null,
+  "track": "A+B",
+  "section": "2 Home",
+  "title": "Settings screen",
+  "note": "COULD NOT REACH: the app has no settings screen; the only grown-up areas are the 'Who is reading?' picker and the gated privacy page"
+ },
+ {
+  "file": "09_a_home_a-fresh.webp",
+  "track": "A",
+  "section": "2 Home",
+  "title": "Track A home, first visit",
+  "note": "Child home: Tilo in the hero, an empty village, and the path with the first sitting open and the rest locked."
+ },
+ {
+  "file": "10_a_home_a-locked-node.webp",
+  "track": "A",
+  "section": "2 Home",
+  "title": "Locked node on the path",
+  "note": "A node with a padlock: it opens only after the sitting before it is passed."
+ },
+ {
+  "file": "11_a_home_a-progress.webp",
+  "track": "A",
+  "section": "2 Home",
+  "title": "Track A home after some lessons",
+  "note": "Child home with village pieces, a row of stickers, days practised in the header and done ticks on the path."
+ },
+ {
+  "file": "12_a_home_a-path-open-node.webp",
+  "track": "A",
+  "section": "2 Home",
+  "title": "Level map: done, open and locked nodes",
+  "note": "The path in the middle of Level 1: ticked nodes behind, one open node, locked nodes ahead."
+ },
+ {
+  "file": "13_a_home_a-level-card-locked.webp",
+  "track": "A",
+  "section": "2 Home",
+  "title": "Level card, locked",
+  "note": "Level 2 card, greyed and locked until the Level 1 check is passed."
+ },
+ {
+  "file": "14_b_home_b-fresh.webp",
+  "track": "B",
+  "section": "2 Home",
+  "title": "Track B home, first visit",
+  "note": "Grown-up home: a plain 'Lessons' list and a count of words you can read, with no mascot and no village."
+ },
+ {
+  "file": "15_b_home_b-progress.webp",
+  "track": "B",
+  "section": "2 Home",
+  "title": "Track B home after some lessons",
+  "note": "Grown-up home with done ticks, 'checked by tapping' and 'still learning' badges and the words to remember."
+ },
+ {
+  "file": "16_a_l1_first-sound.webp",
+  "track": "A",
+  "section": "3 Level 1, Track A",
+  "title": "First sound game",
+  "note": "'What sound does it start with?': a real picture and three sound cards, no letters yet."
+ },
+ {
+  "file": "17_a_l1_blend-pictures.webp",
+  "track": "A",
+  "section": "3 Level 1, Track A",
+  "title": "Blend the sounds, with pictures",
+  "note": "'Which word do the sounds make?': a picture on each answer card."
+ },
+ {
+  "file": "18_a_l1_listen-intro-tilo.webp",
+  "track": "A",
+  "section": "3 Level 1, Track A",
+  "title": "Listen intro with big Tilo",
+  "note": "The Listen & Talk intro: big Tilo with his speech bubble and one large play button."
+ },
+ {
+  "file": "19_a_l1_listen-story.webp",
+  "track": "A",
+  "section": "3 Level 1, Track A",
+  "title": "Listen story scenes",
+  "note": "The story screen: the scene pictures appear after each chunk of the story."
+ },
+ {
+  "file": "20_a_l1_listen-question.webp",
+  "track": "A",
+  "section": "3 Level 1, Track A",
+  "title": "Listen question",
+  "note": "'Say your answer out loud': the scene above a big microphone cue, no tapping needed."
+ },
+ {
+  "file": "21_a_l1_minicheck-intro.webp",
+  "track": "A",
+  "section": "3 Level 1, Track A",
+  "title": "Mini check intro",
+  "note": "'Show what you know': the short check at the end of the oral lessons."
+ },
+ {
+  "file": "22_a_l1_minicheck-item.webp",
+  "track": "A",
+  "section": "3 Level 1, Track A",
+  "title": "Mini check item",
+  "note": "One item of the check: hear the sounds, pick the word, one try."
+ },
+ {
+  "file": "23_a_l1_meet-letter.webp",
+  "track": "A",
+  "section": "3 Level 1, Track A",
+  "title": "Meet the letter",
+  "note": "'This letter makes that sound': the letter card, tap to hear it."
+ },
+ {
+  "file": "24_a_l1_trace.webp",
+  "track": "A",
+  "section": "3 Level 1, Track A",
+  "title": "Trace the letter",
+  "note": "Finger-trace the letter on a canvas with a guide."
+ },
+ {
+  "file": "25_a_l1_wrong-answer-tilo.webp",
+  "track": "A",
+  "section": "3 Level 1, Track A",
+  "title": "Wrong answer with encouraging Tilo",
+  "note": "A wrong pick on a first-sound card: Tilo takes the thinking pose (hand on chin) and the cards stay for another try."
+ },
+ {
+  "file": "26_a_l1_blend-it.webp",
+  "track": "A",
+  "section": "3 Level 1, Track A",
+  "title": "Blend it",
+  "note": "'Blend it': the printed word split into sounds, tapped one by one."
+ },
+ {
+  "file": "27_a_l1_tap-gate.webp",
+  "track": "A",
+  "section": "3 Level 1, Track A",
+  "title": "Tap gate: pick the word you heard",
+  "note": "The 2x2 tap gate: four printed words that differ in one or two sounds."
+ },
+ {
+  "file": "28_a_l1_wrong-answer.webp",
+  "track": "A",
+  "section": "3 Level 1, Track A",
+  "title": "Wrong answer on a tap gate",
+  "note": "A wrong pick on a printed-word gate: the app repeats the right sound and the gate stays for a second try. (Tilo's pose was not caught on this frame)"
+ },
+ {
+  "file": "29_a_l1_correct-cheer.webp",
+  "track": "A",
+  "section": "3 Level 1, Track A",
+  "title": "Correct answer cheer",
+  "note": "A right pick: Tilo celebrates."
+ },
+ {
+  "file": "30_a_l1_tricky-word.webp",
+  "track": "A",
+  "section": "3 Level 1, Track A",
+  "title": "Tricky word",
+  "note": "A 'heart word': tap the part of the word that does not follow the usual sounds."
+ },
+ {
+  "file": "31_a_l1_spell-word.webp",
+  "track": "A",
+  "section": "3 Level 1, Track A",
+  "title": "Spell it",
+  "note": "Spell a whole word by dropping letters into the slots."
+ },
+ {
+  "file": "32_a_l1_end-of-sitting.webp",
+  "track": "A",
+  "section": "3 Level 1, Track A",
+  "title": "End of a sitting with the mini check score",
+  "note": "'Well done!': dots for each first-try answer, a sticker and Tilo celebrating."
+ },
+ {
+  "file": "33_a_l1_read-it.webp",
+  "track": "A",
+  "section": "3 Level 1, Track A",
+  "title": "Read it",
+  "note": "A short page to read aloud; tap a word to hear it."
+ },
+ {
+  "file": "34_a_l1_review-names.webp",
+  "track": "A",
+  "section": "3 Level 1, Track A",
+  "title": "Review sitting: name and sound",
+  "note": "A review sitting: a letter has a name and a sound."
+ },
+ {
+  "file": "35_a_l1_review-bdpq.webp",
+  "track": "A",
+  "section": "3 Level 1, Track A",
+  "title": "Review: b d p q",
+  "note": "The four look-alike letters side by side."
+ },
+ {
+  "file": "36_a_l1_mastery-intro.webp",
+  "track": "A",
+  "section": "3 Level 1, Track A",
+  "title": "Level 1 mastery check: intro",
+  "note": "The Level 1 check intro, with big Tilo."
+ },
+ {
+  "file": "37_a_l1_mastery-letters.webp",
+  "track": "A",
+  "section": "3 Level 1, Track A",
+  "title": "Mastery check: letters",
+  "note": "Part 1: what does each letter say."
+ },
+ {
+  "file": "38_a_l1_mastery-real-words.webp",
+  "track": "A",
+  "section": "3 Level 1, Track A",
+  "title": "Mastery check: real words",
+  "note": "Part 2: real words as tap gates."
+ },
+ {
+  "file": "39_a_l1_mastery-result.webp",
+  "track": "A",
+  "section": "3 Level 1, Track A",
+  "title": "Mastery check result",
+  "note": "The table of scores per part against the bar, with Level 2 opening on a pass."
+ },
+ {
+  "file": "40_b_l1_first-sound.webp",
+  "track": "B",
+  "section": "4 Level 1, Track B",
+  "title": "First sound game (no mascot)",
+  "note": "The same first-sound game for a grown-up: no Tilo, plain header."
+ },
+ {
+  "file": "41_b_l1_blend-pictures.webp",
+  "track": "B",
+  "section": "4 Level 1, Track B",
+  "title": "Blend the sounds with pictures (no mascot)",
+  "note": "Blending with pictures on the grown-up track."
+ },
+ {
+  "file": "42_b_l1_wrong-answer.webp",
+  "track": "B",
+  "section": "4 Level 1, Track B",
+  "title": "Wrong answer, no mascot",
+  "note": "A wrong pick on the grown-up track: the model is spoken, nothing else changes."
+ },
+ {
+  "file": "43_b_l1_listen-story.webp",
+  "track": "B",
+  "section": "4 Level 1, Track B",
+  "title": "Listen story (no mascot)",
+  "note": "The story scenes on the grown-up track."
+ },
+ {
+  "file": "44_b_l1_listen-question.webp",
+  "track": "B",
+  "section": "4 Level 1, Track B",
+  "title": "Listen question (no mascot)",
+  "note": "Say-it-out-loud question on the grown-up track."
+ },
+ {
+  "file": "45_b_l1_blend-it.webp",
+  "track": "B",
+  "section": "4 Level 1, Track B",
+  "title": "Blend it (no mascot)",
+  "note": "Printed word blending for a grown-up."
+ },
+ {
+  "file": "46_b_l1_tap-gate.webp",
+  "track": "B",
+  "section": "4 Level 1, Track B",
+  "title": "Tap gate (no mascot)",
+  "note": "The same 2x2 tap gate."
+ },
+ {
+  "file": "47_b_l1_spell.webp",
+  "track": "B",
+  "section": "4 Level 1, Track B",
+  "title": "Spell it (no mascot)",
+  "note": "Spelling on the grown-up track."
+ },
+ {
+  "file": "48_b_l1_end-of-sitting.webp",
+  "track": "B",
+  "section": "4 Level 1, Track B",
+  "title": "End of a sitting (no mascot)",
+  "note": "End screen for a grown-up: score dots and a Home button, no Tilo."
+ },
+ {
+  "file": "49_b_l1_check-intro.webp",
+  "track": "B",
+  "section": "4 Level 1, Track B",
+  "title": "Check intro (no mascot)",
+  "note": "'Show what you know' for a grown-up."
+ },
+ {
+  "file": "50_b_l1_review-names.webp",
+  "track": "B",
+  "section": "4 Level 1, Track B",
+  "title": "Review: name and sound (no mascot)",
+  "note": "Review sitting on the grown-up track."
+ },
+ {
+  "file": "51_b_l1_mastery-intro.webp",
+  "track": "B",
+  "section": "4 Level 1, Track B",
+  "title": "Level 1 check intro (no mascot)",
+  "note": "Level 1 check on the grown-up track."
+ },
+ {
+  "file": "52_b_l1_mastery-letters.webp",
+  "track": "B",
+  "section": "4 Level 1, Track B",
+  "title": "Level 1 check: letters (no mascot)",
+  "note": "First part of the Level 1 check."
+ },
+ {
+  "file": "53_b_l1_mastery-real.webp",
+  "track": "B",
+  "section": "4 Level 1, Track B",
+  "title": "Level 1 check: real words (no mascot)",
+  "note": "Real-word part."
+ },
+ {
+  "file": "54_a_l2_level-home.webp",
+  "track": "A",
+  "section": "5 Levels 2 to 7",
+  "title": "Level 2 home (level card and first lessons)",
+  "note": "The open Level 2 card with the first lesson's nodes underneath, as a learner sees the level."
+ },
+ {
+  "file": "55_a_l2_l2-06-teach.webp",
+  "track": "A",
+  "section": "5 Levels 2 to 7",
+  "title": "L2 teach",
+  "note": "The new idea of the lesson, with the letters on a card."
+ },
+ {
+  "file": "56_a_l2_l2-06-rule.webp",
+  "track": "A",
+  "section": "5 Levels 2 to 7",
+  "title": "L2 rule",
+  "note": "The spelling or reading rule in plain words."
+ },
+ {
+  "file": "57_a_l2_check-intro.webp",
+  "track": "A",
+  "section": "5 Levels 2 to 7",
+  "title": "Level 2 check: intro",
+  "note": "The Level 2 check explains that every part must be passed to open Level 3."
+ },
+ {
+  "file": "58_a_l2_check-item.webp",
+  "track": "A",
+  "section": "5 Levels 2 to 7",
+  "title": "Level 2 check: an item",
+  "note": "A single check item: one try, no repair."
+ },
+ {
+  "file": "59_a_l2_check-result.webp",
+  "track": "A",
+  "section": "5 Levels 2 to 7",
+  "title": "Level 2 check result",
+  "note": "The result: score per part and 'Level 2 passed', so Level 3 opens."
+ },
+ {
+  "file": "60_a_l3_level-home.webp",
+  "track": "A",
+  "section": "5 Levels 2 to 7",
+  "title": "Level 3 home (level card and first lessons)",
+  "note": "The open Level 3 card with the first lesson's nodes underneath, as a learner sees the level."
+ },
+ {
+  "file": "61_a_l3_l3-01-teach.webp",
+  "track": "A",
+  "section": "5 Levels 2 to 7",
+  "title": "L3 teach",
+  "note": "Long vowels: the new spelling shown on a card."
+ },
+ {
+  "file": "62_a_l3_check-intro.webp",
+  "track": "A",
+  "section": "5 Levels 2 to 7",
+  "title": "Level 3 check: intro",
+  "note": "The Level 3 check explains that every part must be passed to open Level 4."
+ },
+ {
+  "file": "63_a_l3_check-item.webp",
+  "track": "A",
+  "section": "5 Levels 2 to 7",
+  "title": "Level 3 check: an item",
+  "note": "A single check item: one try, no repair."
+ },
+ {
+  "file": "64_a_l4_level-home.webp",
+  "track": "A",
+  "section": "5 Levels 2 to 7",
+  "title": "Level 4 home (level card and first lessons)",
+  "note": "The open Level 4 card with the first lesson's nodes underneath, as a learner sees the level."
+ },
+ {
+  "file": "65_a_l4_l4-03-teach.webp",
+  "track": "A",
+  "section": "5 Levels 2 to 7",
+  "title": "L4 teach",
+  "note": "Longer words: the new part (prefix, suffix or syllable pattern)."
+ },
+ {
+  "file": "66_a_l4_l4-12-attack.webp",
+  "track": "A",
+  "section": "5 Levels 2 to 7",
+  "title": "L4 attack: break it apart",
+  "note": "The five-step attack on a long word, step by step."
+ },
+ {
+  "file": "67_a_l4_l4-15-attack-check-intro.webp",
+  "track": "A",
+  "section": "5 Levels 2 to 7",
+  "title": "L4 attack check intro",
+  "note": "A short check of the five-step attack on unseen words."
+ },
+ {
+  "file": "68_a_l4_check-intro.webp",
+  "track": "A",
+  "section": "5 Levels 2 to 7",
+  "title": "Level 4 check: intro",
+  "note": "The Level 4 check explains that every part must be passed to open Level 5."
+ },
+ {
+  "file": "69_a_l4_check-item.webp",
+  "track": "A",
+  "section": "5 Levels 2 to 7",
+  "title": "Level 4 check: an item",
+  "note": "A single check item: one try, no repair."
+ },
+ {
+  "file": "70_b_l2_level-home.webp",
+  "track": "B",
+  "section": "5 Levels 2 to 7",
+  "title": "Level 2 home (level card and first lessons)",
+  "note": "The open Level 2 card with the first lesson's nodes underneath, as a learner sees the level."
+ },
+ {
+  "file": "71_b_l2_l2-06-teach.webp",
+  "track": "B",
+  "section": "5 Levels 2 to 7",
+  "title": "L2 teach (Track B)",
+  "note": "The new idea of the lesson, with the letters on a card."
+ },
+ {
+  "file": "72_b_l2_check-intro.webp",
+  "track": "B",
+  "section": "5 Levels 2 to 7",
+  "title": "Level 2 check: intro",
+  "note": "The Level 2 check explains that every part must be passed to open Level 3."
+ },
+ {
+  "file": "73_b_l2_check-item.webp",
+  "track": "B",
+  "section": "5 Levels 2 to 7",
+  "title": "Level 2 check: an item",
+  "note": "A single check item: one try, no repair."
+ },
+ {
+  "file": "74_a_l5_practice-section.webp",
+  "track": "A",
+  "section": "5 Levels 2 to 7",
+  "title": "Practice section on Home (Levels 5 to 7)",
+  "note": "Home with the Practice block: three level cards and a Library button; levels 5-7 are practice only, nothing is locked by them."
+ },
+ {
+  "file": "75_a_l5_level-home.webp",
+  "track": "A",
+  "section": "5 Levels 2 to 7",
+  "title": "Level 5 in the Library",
+  "note": "The Library list for Level 5: every lesson opens, with its title."
+ },
+ {
+  "file": "76_a_l5_warm-up.webp",
+  "track": "A",
+  "section": "5 Levels 2 to 7",
+  "title": "L5 Practice warm-up",
+  "note": "Warm-up chips to tap before the lesson."
+ },
+ {
+  "file": "77_a_l5_knowledge-text.webp",
+  "track": "A",
+  "section": "5 Levels 2 to 7",
+  "title": "L5 Practice knowledge text",
+  "note": "A knowledge text to read, sentence by sentence."
+ },
+ {
+  "file": "78_a_l5_level-check.webp",
+  "track": "A",
+  "section": "5 Levels 2 to 7",
+  "title": "L5 Practice check at the end of the lesson",
+  "note": "A self-check: mark each item as 'I had it' or 'nearly'."
+ },
+ {
+  "file": "79_a_l6_level-home.webp",
+  "track": "A",
+  "section": "5 Levels 2 to 7",
+  "title": "Level 6 in the Library",
+  "note": "The Library list for Level 6: every lesson opens, with its title."
+ },
+ {
+  "file": "80_a_l6_word-work.webp",
+  "track": "A",
+  "section": "5 Levels 2 to 7",
+  "title": "L6 Practice word work",
+  "note": "Word work: build words from parts."
+ },
+ {
+  "file": "81_a_l6_knowledge-text.webp",
+  "track": "A",
+  "section": "5 Levels 2 to 7",
+  "title": "L6 Practice knowledge text",
+  "note": "A knowledge text to read, sentence by sentence."
+ },
+ {
+  "file": "82_a_l6_level-check.webp",
+  "track": "A",
+  "section": "5 Levels 2 to 7",
+  "title": "L6 Practice check at the end of the lesson",
+  "note": "A self-check: mark each item as 'I had it' or 'nearly'."
+ },
+ {
+  "file": "83_a_l7_level-home.webp",
+  "track": "A",
+  "section": "5 Levels 2 to 7",
+  "title": "Level 7 in the Library",
+  "note": "The Library list for Level 7: every lesson opens, with its title."
+ },
+ {
+  "file": "84_a_l7_knowledge-text.webp",
+  "track": "A",
+  "section": "5 Levels 2 to 7",
+  "title": "L7 Practice knowledge text",
+  "note": "A knowledge text to read, sentence by sentence."
+ },
+ {
+  "file": "85_a_l7_level-check.webp",
+  "track": "A",
+  "section": "5 Levels 2 to 7",
+  "title": "L7 Practice check at the end of the lesson",
+  "note": "A self-check: mark each item as 'I had it' or 'nearly'."
+ },
+ {
+  "file": "86_b_l5_level-home.webp",
+  "track": "B",
+  "section": "5 Levels 2 to 7",
+  "title": "Level 5 in the Library",
+  "note": "The Library list for Level 5: every lesson opens, with its title."
+ },
+ {
+  "file": "87_b_l5_knowledge-text.webp",
+  "track": "B",
+  "section": "5 Levels 2 to 7",
+  "title": "L5 Practice knowledge text (Track B)",
+  "note": "A knowledge text to read, sentence by sentence."
+ },
+ {
+  "file": "88_b_l5_level-check.webp",
+  "track": "B",
+  "section": "5 Levels 2 to 7",
+  "title": "L5 Practice check at the end of the lesson (Track B)",
+  "note": "A self-check: mark each item as 'I had it' or 'nearly'."
+ },
+ {
+  "file": "89_a_l2_check-end.webp",
+  "track": "A",
+  "section": "6 Rewards and progress",
+  "title": "End of the Level 2 check",
+  "note": "Celebration after the Level 2 check."
+ },
+ {
+  "file": "90_a_rewards_l2-passed-l3-open-a.webp",
+  "track": "A",
+  "section": "6 Rewards and progress",
+  "title": "Level 3 open after passing the Level 2 check (A)",
+  "note": "Home after the Level 2 check is passed: the Level 3 card is open and its first nodes are open."
+ },
+ {
+  "file": "91_a_rewards_practice-done-l5.webp",
+  "track": "A",
+  "section": "6 Rewards and progress",
+  "title": "End of a practice lesson (Levels 5 to 7)",
+  "note": "'Practice done': the self-check score and a link back to the Library; practice never locks anything."
+ },
+ {
+  "file": "92_a_rewards_a-stickers-village.webp",
+  "track": "A",
+  "section": "6 Rewards and progress",
+  "title": "Stickers and village",
+  "note": "The child's rewards on Home: a row of earned stickers and the village that grows with each new sound."
+ },
+ {
+  "file": "93_a_rewards_a-lesson-badges.webp",
+  "track": "A",
+  "section": "6 Rewards and progress",
+  "title": "Progress: lesson badges",
+  "note": "Lesson headings carry 'checked by tapping' or 'still learning' once a lesson check is done."
+ },
+ {
+  "file": "94_a_rewards_end-new-sound.webp",
+  "track": "A",
+  "section": "6 Rewards and progress",
+  "title": "End of a sitting that teaches a new sound",
+  "note": "A sticker, a new village piece and Tilo celebrating after a new letter."
+ },
+ {
+  "file": "95_b_rewards_b-words-to-remember.webp",
+  "track": "B",
+  "section": "6 Rewards and progress",
+  "title": "Track B progress: words to remember",
+  "note": "The grown-up track shows a word list instead of stickers and a village."
+ },
+ {
+  "file": "96_a_l1_mastery-end.webp",
+  "track": "A",
+  "section": "6 Rewards and progress",
+  "title": "End of the Level 1 check",
+  "note": "The celebration after the Level 1 check."
+ }
+]

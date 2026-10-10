@@ -1,0 +1,1 @@
+No console errors, page errors or HTTP errors >= 400 were seen while shooting.
