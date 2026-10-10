@@ -422,5 +422,97 @@
  "markNot": {
   "text": "Not yet.",
   "tier": 3
+ },
+ "mouth_L1.02_A": {
+  "text": "Put your teeth together. Let the air hiss out.",
+  "tier": 2
+ },
+ "mouth_L1.02_B": {
+  "text": "Open your mouth wide, like a big yawn.",
+  "tier": 2
+ },
+ "mouth_L1.02_C": {
+  "text": "Tap your tongue behind your top teeth. Tap, tap.",
+  "tier": 2
+ },
+ "mouth_L1.03_A": {
+  "text": "Pop your lips. Feel a little puff on your hand.",
+  "tier": 2
+ },
+ "mouth_L1.03_B": {
+  "text": "Keep your mouth in a small smile.",
+  "tier": 2
+ },
+ "mouth_L1.03_C": {
+  "text": "Touch your nose. Feel it buzz.",
+  "tier": 2
+ },
+ "mouth_L1.04_A": {
+  "text": "Close your lips and hum. Feel the buzz.",
+  "tier": 2
+ },
+ "mouth_L1.04_B": {
+  "text": "Touch your neck. Feel it buzz when you say d.",
+  "tier": 2
+ },
+ "mouth_L1.05_A": {
+  "text": "Say g way back in your throat. Feel the buzz.",
+  "tier": 2
+ },
+ "mouth_L1.05_B": {
+  "text": "Make your lips a little round, like a small circle.",
+  "tier": 2
+ },
+ "mouth_L1.06_A": {
+  "text": "Say c way back in your mouth. No buzz this time.",
+  "tier": 2
+ },
+ "mouth_L1.07_A": {
+  "text": "Say pit, then pet. Your mouth opens a bit more for e.",
+  "tier": 2
+ },
+ "mouth_L1.07_B": {
+  "text": "Say cot, then cut. Hear the sound change.",
+  "tier": 2
+ },
+ "mouth_L1.08_A": {
+  "text": "Curl your tongue back. It does not touch anything.",
+  "tier": 2
+ },
+ "mouth_L1.08_B": {
+  "text": "Hold your hand by your mouth. Blow a little puff of air.",
+  "tier": 2
+ },
+ "mouth_L1.09_A": {
+  "text": "Say pat, then bat. Feel the buzz on b.",
+  "tier": 2
+ },
+ "mouth_L1.09_B": {
+  "text": "Put your top teeth on your bottom lip. Blow.",
+  "tier": 2
+ },
+ "mouth_L1.09_C": {
+  "text": "Put your tongue up. Keep the sound going as long as you can.",
+  "tier": 2
+ },
+ "mouth_L1.11_A": {
+  "text": "Say j. Feel a soft, buzzy pop in your mouth.",
+  "tier": 2
+ },
+ "mouth_L1.11_B": {
+  "text": "Put your top teeth on your bottom lip. Feel the buzz.",
+  "tier": 2
+ },
+ "mouth_L1.11_C": {
+  "text": "Make your lips round. Watch them in a mirror.",
+  "tier": 2
+ },
+ "mouthLead": {
+  "text": "Here is how your mouth moves.",
+  "tier": 2
+ },
+ "forGrownups": {
+  "text": "For grown-ups.",
+  "tier": 2
  }
 }
