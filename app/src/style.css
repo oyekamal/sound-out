@@ -192,3 +192,4 @@ header.hdr, .homehdr { padding-right: 70px; }
 .gu-q { font-size: 1.7rem; font-weight: 700; margin: 8px 0; } .gu-in { font: inherit; font-size: 1.5rem; width: 9rem; text-align: center; padding: 8px; border: 2px solid var(--line); border-radius: 14px; }
 .gu-msg { min-height: 1.4em; color: var(--bad); margin: 6px 0; }
 .privacy { padding-bottom: 32px; } .privacy .left { text-align: left; } .privacy .url { font-weight: 700; word-break: break-all; user-select: all; }
+.nodewrap { display: inline-block; -webkit-touch-callout: none; } .nodewrap > .node:disabled { pointer-events: none; } .list .nodewrap { display: block; }

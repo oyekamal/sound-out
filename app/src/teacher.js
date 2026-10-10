@@ -55,7 +55,7 @@ export const teacher = {
       S.base = Date.now(); S.tier = 0; S.paused = false; teacher.clearHints(); if (S.ready) tilo.mood('listening');
       const t = e.target.closest('button, [role=button], canvas, .opt-pick');
       if (t && !t.closest('#ear') && !t.closest('#teacher-start') && playing()) { mark('interrupt', { by: t.className }); stop(); }
-      const say = t?.closest('[data-say]');
+      const say = (t || e.target)?.closest?.('[data-say]');
       if (say && say.dataset.say) {
         clearTimeout(S.hold);
         S.hold = setTimeout(() => { S.suppressClick = Date.now(); mark('hold-say', { key: say.dataset.say }); stop(); teacher.seq(say.dataset.say.split(','), 120); }, HOLD_MS);

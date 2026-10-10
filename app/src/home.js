@@ -42,10 +42,11 @@ export async function home(app, profile) {
     for (const x of ls) {
       const label = x.label || (x.new?.length ? x.new.join(' ') : LABEL[track][x.id] || x.id);
       const say = x.new?.length ? `name:${x.new[0]}` : ({ D: 'ui:lblWords', R: 'ui:lblRead', L: 'ui:lblListen', X: track === 'A' ? 'ui:lblCheck' : 'ui:lblCheckB' })[x.id] || null;
-      const b = h('button', { class: `node ${x.state}${x.new?.length ? '' : ' wide'}`, 'data-key': x.key, 'data-say': x.state === 'locked' ? 'ui:lockedNote' : say, disabled: x.state === 'locked' },
+      const b = h('button', { class: `node ${x.state}${x.new?.length ? '' : ' wide'}`, 'data-key': x.key, 'data-say': x.state === 'locked' ? (say ? `${say},ui:lockedNote` : 'ui:lockedNote') : say, disabled: x.state === 'locked' },
         x.state === 'locked' ? icon('lock') : x.state === 'done' ? icon('check') : null, h('span', {}, label));
       b.addEventListener('click', () => app.sitting(x.key));
-      path.append(b);
+      // a locked node is a disabled button (no events): a wrapper carries the clip so a press-and-hold still says its name
+      path.append(x.state === 'locked' ? h('span', { class: 'nodewrap', 'data-say': b.dataset.say }, b) : b);
     }
     sec.append(path); s.append(sec);
   }

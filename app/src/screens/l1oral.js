@@ -51,8 +51,14 @@ async function segment(ctx, w) {
 
 // Model before ask: one worked item (on a word that is NOT in the real items) before the first real item of a type.
 async function worked(ctx, type) {
-  const s = stageFor(ctx, type === 'first' ? 'oral-first' : 'oral-blend');
-  if (type === 'first') {
+  const s = stageFor(ctx, type === 'first' ? 'oral-first' : type === 'count' ? 'oral-count' : 'oral-blend');
+  if (type === 'count') {
+    const w = 'pig', n = entry(w).p.length;
+    const dots = h('div', { class: 'dots big' }, ...Array.from({ length: n }, () => h('i')));
+    s.append(h('h2', {}, 'How many sounds?'), speaker(`w:${w}`, { big: true, label: 'Hear the word' }), dots);
+    mark('oral-demo', { type });
+    await ctx.instruct(['ui:letsDoOne'], { stim: async () => { if ((await play(`w:${w}`)) === false) return false; await wait(300); for (let i = 0; i < n; i++) { dots.children[i].classList.add('on'); if ((await play(`ph:${entry(w).p[i]}`)) === false) return false; await wait(300); } return teacher.say('ui:yourTurn'); }, nudge: 'ui:idleTap' });
+  } else if (type === 'first') {
     s.append(h('h2', {}, 'What sound does it start with?'), h('div', { class: 'pics one' }, pic('sat', 0)), speaker('w:sat', { big: true, label: 'Hear the word' }));
     mark('oral-demo', { type });
     await ctx.instruct(['ui:letsDoOne', 'w:sat', 'ph:s', 'ui:yourTurn'], { nudge: 'ui:idleTap' });
@@ -68,6 +74,7 @@ export async function oral(ctx) {
   for (const [i, w] of FIRST.entries()) await firstSound(ctx, w, i);
   await worked(ctx, 'blend');
   for (const w of BLEND) await blendWord(ctx, w, BLEND.concat(FIRST));
+  await worked(ctx, 'count');
   for (const w of SEGMENT) await segment(ctx, w);
   // the only letters in L1.01: a preview of s and a (taught properly in L1.02)
   const s = stageFor(ctx, 'preview');

@@ -2,6 +2,7 @@
 import { play, wait } from '../audio.js';
 import { h, speaker } from '../ui.js';
 import { g2p } from '../content.js';
+import LINES from '../../../content/teacher_lines.json';   // the plain-words mouth cues live in the teacher script
 
 export async function hear(ctx, letter) {
   const pid = g2p[letter];
@@ -9,7 +10,9 @@ export async function hear(ctx, letter) {
   const s = ctx.stage();
   const exKey = `ex:${ctx.lesson.id}:${src?.id}`;
   const hasEx = ctx.hasClip(exKey);   // c, k, ck share one sound: the course gives k and ck no example word, so show no dead speaker
-  const cue = src?.meet?.mouthCue;
+  const cueKey = `mouth_${ctx.lesson.id}_${src?.id}`;
+  const cue = LINES[cueKey]?.text;   // plain words a 5-year-old can follow (the course text in lessons/*.json is for the teacher)
+  const hasCue = !!cue && ctx.hasClip(`ui:${cueKey}`);
   s.append(
     h('h2', {}, 'Listen to this sound'),
     speaker(`ph:${pid}`, { big: true, label: 'Play the sound' }),
@@ -19,9 +22,14 @@ export async function hear(ctx, letter) {
   // the sound twice, then "you can hear it at the start of this word": the ear button plays all of it again
   const model = async () => {
     for (let i = 0; i < 2; i++) { if ((await play(`ph:${pid}`)) === false) return false; await wait(400); }
-    if (!hasEx) return true;
-    if ((await play('ui:hearExample')) === false) return false;
-    return play(exKey);
+    if (hasEx) {
+      if ((await play('ui:hearExample')) === false) return false;
+      if ((await play(exKey)) === false) return false;
+    }
+    if (!hasCue) return true;
+    await wait(300);
+    if ((await play('ui:mouthLead')) === false) return false;
+    return play(`ui:${cueKey}`);
   };
   await ctx.instruct('ui:hearIntro', { stim: model, nudge: 'ui:idleTap' });
   await ctx.next();
