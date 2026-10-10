@@ -8,6 +8,7 @@
 //   start      autoplay blocked on a web first load -> one big tap-to-start, then the prompt plays
 // Timers: ?fast (the test drivers) switches the idle ladder off; ?idlefast shortens it (1.5/3/5/9 s) for a test run.
 import { play, stop, wait, mark, has, playing, bus, isFast, setBlockedHandler } from './audio.js';
+import { tilo } from './tilo.js';
 
 const q = new URLSearchParams(location.search);
 const IDLE_ON = !isFast || q.has('idle') || q.has('idlefast');
@@ -35,7 +36,7 @@ let ear = null;
 const sayKey = k => (k.startsWith('ui:') || k.includes(':') ? k : `ui:${k}`);
 
 export const teacher = {
-  track: t => { S.track = t || S.track; },
+  track: t => { S.track = t || S.track; tilo.setTrack(t === undefined ? S.track : t); },
   get playing() { return playing(); },
 
   // ---- lifecycle -------------------------------------------------------------------------------------------------
@@ -46,12 +47,12 @@ export const teacher = {
     ear.innerHTML = `<span class="ear-ic">${EAR}</span>`;
     ear.addEventListener('click', () => teacher.replay());
     document.body.append(ear);
-    window.__so = window.__so || { trace: [], missing: [] }; window.__so.teacher = teacher;   // test hook (tools/drive_teacher.py)
+    window.__so = window.__so || { trace: [], missing: [] }; window.__so.teacher = teacher; window.__so.tilo = tilo;   // test hooks (tools/drive_teacher.py, tools/shoot_tilo.py)
     bus.addEventListener('start', () => ear.classList.add('playing'));
     bus.addEventListener('end', e => { ear.classList.remove('playing'); if (!S.idleAudio) S.base = Date.now(); });
     // any tap: it is input (idle clock restarts), and it cuts the teacher off when it lands on a control
     document.addEventListener('pointerdown', e => {
-      S.base = Date.now(); S.tier = 0; S.paused = false; teacher.clearHints();
+      S.base = Date.now(); S.tier = 0; S.paused = false; teacher.clearHints(); if (S.ready) tilo.mood('listening');
       const t = e.target.closest('button, [role=button], canvas, .opt-pick');
       if (t && !t.closest('#ear') && !t.closest('#teacher-start') && playing()) { mark('interrupt', { by: t.className }); stop(); }
       const say = t?.closest('[data-say]');
@@ -73,7 +74,7 @@ export const teacher = {
   // a new screen: forget the previous prompt, hint and idle clock
   newScreen({ keepRecord } = {}) {
     S.prompt = null; S.stim = null; S.extra = null; S.hint = null; S.nudge = null; S.tier = 0; S.paused = false; S.ready = false; S.replayFn = null; S.hinted = false;
-    S.base = Date.now(); teacher.clearHints();
+    S.base = Date.now(); teacher.clearHints(); tilo.screen();
     if (ear) ear.hidden = false;
   },
 
@@ -89,6 +90,7 @@ export const teacher = {
     mark('prompt', { key });
     const ok = await runPrompt();
     S.base = Date.now(); S.ready = true;
+    if (ok !== false) tilo.mood('listening');   // the question is asked: Tilo waits for a tap
     return ok;
   },
   setIdle({ nudge, hint } = {}) { if (nudge) S.nudge = nudge; if (hint !== undefined) S.hint = hint; },
@@ -123,12 +125,14 @@ export const teacher = {
     }
     S.lastMiss = false; S.lastPraise = key;
     mark('praise', { key, kind });
+    tilo.emote('celebrating', sayKey(key));
     return teacher.say(key);
   },
   // wrong({first, carrier, model}) : "not quite", then the right sound/word modelled (with a carrier: "This letter says ..."), then "now you try".
   async wrong({ first = true, carrier = null, model = [], ask = true } = {}) {
     S.lastMiss = true; S.streak = 0;
     mark('correct', { first, model });
+    tilo.emote('encouraging', sayKey(first ? 'notQuite' : 'tryAgain'));
     if (first) return teacher.seq(['notQuite', carrier, ...model, ask && model.length ? 'yourTurn' : null]);
     return teacher.seq(['tryAgain', carrier, ...model]);
   },
@@ -160,9 +164,10 @@ async function tick() {
   if (S.tier < 1 && el >= T[0]) tier = 1; else if (S.tier < 2 && el >= T[1]) tier = 2; else if (S.tier < 3 && el >= T[2]) tier = 3; else if (S.tier < 4 && el >= T[3]) tier = 4;
   if (tier < 0) return;
   S.tier = tier; S.busy = true; S.idleAudio = true;
+  if (tier >= 2) tilo.mood('idle');   // still waiting: the idle pose
   mark('idle', { tier, key: S.prompt });
   try {
-    if (tier === 1) { await (S.replayFn ? S.replayFn() : runPrompt()); }
+    if (tier === 1) { await (S.replayFn ? S.replayFn() : runPrompt()); tilo.mood('listening'); }
     else if (tier === 2) {
       if (typeof S.hint === 'function') { S.hinted = true; await S.hint(); }
       else { pointDefault(); }

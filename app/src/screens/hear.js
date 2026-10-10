@@ -1,6 +1,6 @@
 // Hear it: the new sound, twice, then a word that starts with it. Mouth cue as text.
 import { play, wait } from '../audio.js';
-import { h, speaker, pebble } from '../ui.js';
+import { h, speaker } from '../ui.js';
 import { g2p } from '../content.js';
 
 export async function hear(ctx, letter) {
@@ -11,7 +11,6 @@ export async function hear(ctx, letter) {
   const hasEx = ctx.hasClip(exKey);   // c, k, ck share one sound: the course gives k and ck no example word, so show no dead speaker
   const cue = src?.meet?.mouthCue;
   s.append(
-    ctx.track === 'A' ? pebble('wave') : null,
     h('h2', {}, 'Listen to this sound'),
     speaker(`ph:${pid}`, { big: true, label: 'Play the sound' }),
     cue ? h('div', { class: 'cue' }, h('b', {}, 'Your mouth: '), cue) : null,

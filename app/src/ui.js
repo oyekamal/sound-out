@@ -1,4 +1,4 @@
-// Small DOM helpers, the speaker button, Pebble (Track A mascot placeholder) and the village strip.
+// Small DOM helpers, the speaker button and the village strip.
 import { play } from './audio.js';
 
 export function h(tag, attrs = {}, ...kids) {
@@ -49,17 +49,6 @@ export function speaker(key, { label = 'Hear it again', big = false, onplay } = 
     try { await (onplay ? onplay() : play(key)); } finally { b.classList.remove('playing'); }
   });
   return b;
-}
-
-export function pebble(mood = 'wave') {
-  // Placeholder mascot: a round pebble with eyes. The real app animates Pebble as a silent Lottie.
-  const arm = mood === 'cheer' ? '<path d="M18 52 L6 34" /><path d="M82 52 L94 34" />' : '<path d="M82 52 L94 40" />';
-  return h('div', { class: `pebble ${mood}`, 'aria-hidden': 'true', html:
-    `<svg viewBox="0 0 100 90"><g stroke="#5b4a3a" stroke-width="5" stroke-linecap="round" fill="none">${arm}</g>
-     <ellipse cx="50" cy="55" rx="34" ry="28" fill="#b9a993"/><ellipse cx="42" cy="44" rx="14" ry="7" fill="#cbbda9"/>
-     <circle cx="39" cy="52" r="5" fill="#2b2b2b"/><circle cx="61" cy="52" r="5" fill="#2b2b2b"/>
-     <circle cx="41" cy="50" r="1.6" fill="#fff"/><circle cx="63" cy="50" r="1.6" fill="#fff"/>
-     <path d="M42 64 Q50 71 58 64" stroke="#2b2b2b" stroke-width="3" fill="none" stroke-linecap="round"/></svg>` });
 }
 
 // One village piece per learned sound. Simple shapes; real art comes later.

@@ -1,6 +1,7 @@
 // Runs one sitting: a list of steps from the lesson JSON (appSittings), then the mini check and rewards.
 import { play, stop, mark, has } from './audio.js';
-import { h, icon, btn, pebble, village, STICKERS } from './ui.js';
+import { h, icon, btn, village, STICKERS } from './ui.js';
+import { tilo } from './tilo.js';
 import { teacher } from './teacher.js';
 import * as db from './db.js';
 import { review, due } from './scheduler.js';
@@ -41,8 +42,9 @@ export async function runSitting(app, profile, key) {
   const close = h('button', { class: 'close', 'aria-label': 'Stop and go home', 'data-say': 'ui:goHome', onclick: () => { stop(); app.home(); } }, icon('home'));
   const body = h('main', { class: 'stage' });
   const foot = h('footer', { class: 'foot' });
-  root.append(h('header', { class: 'hdr' }, close, bar), body, foot);
+  root.append(h('header', { class: 'hdr' }, close, h('div', { class: 'tilo-slot hdr-tilo' }), bar), body, foot);
   app.mount(root);
+  if (track === 'A') tilo.setHome(root.querySelector('.hdr-tilo'));
   let stepN = 0; const totalSteps = sitting.steps.length;
   const ctx = {
     track, lesson, sitting, profile,
@@ -160,7 +162,7 @@ async function endScreen(app, profile, key, { judged, correct, passed, sticker, 
   const [, track] = key.split(':');
   const next = app.nextOpen(prog, track, key);
   const s = h('div', { class: `endscreen track-${track}` });
-  if (track === 'A') s.append(pebble('cheer'));
+  if (track === 'A') s.append(h('div', { class: 'tilo-slot' }));
   s.append(h('h2', {}, passed ? 'Well done!' : 'Good practice'));
   if (judged && !checkResult) s.append(h('div', { class: 'dots' }, ...Array.from({ length: judged }, (_, i) => h('i', { class: i < correct ? 'on' : '' }))),
     h('p', { class: 'score' }, `Mini check: ${correct} of ${judged} on the first try`));
@@ -174,6 +176,7 @@ async function endScreen(app, profile, key, { judged, correct, passed, sticker, 
   row.append(btn('Home', 'home', { class: 'btn ghost', say: 'ui:homeBtn', onclick: async () => { await teacher.say('ui:seeYou'); app.home(); } }));
   s.append(row);
   app.mount(s);
+  if (track === 'A') { tilo.dock(s.querySelector('.tilo-slot')); tilo.pin(passed ? 'celebrating' : 'encouraging'); }
   const lines = [passed ? 'ui:miniPass' : 'ui:miniMiss'];
   if (piece) lines.push('ui:village'); else if (sticker) lines.push('ui:sticker');
   if (firstToday) lines.push('ui:practisedToday');

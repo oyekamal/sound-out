@@ -42,8 +42,6 @@ h1 { font-size: 1.7rem; margin: .4em 0 .2em; } h2 { font-size: 1.3rem; margin: .
 .brand { white-space: nowrap; font-weight: 800; letter-spacing: .02em; color: var(--accent); flex: 1; font-size: 1.15rem; }
 .days { font-size: .85rem; color: var(--muted); } .days b { color: var(--ink); font-size: 1.1rem; }
 .hero { display: flex; gap: 10px; align-items: center; } .hero h1 { margin: 0; }
-.pebble svg { width: 92px; height: 84px; } .pebble.wave g path { transform-origin: 82px 52px; animation: wave 1.6s ease-in-out infinite; }
-.pebble.cheer { animation: hop 1s ease-in-out 2; } .endscreen .pebble svg { width: 130px; height: 118px; }
 @keyframes wave { 50% { transform: rotate(-18deg); } } @keyframes hop { 50% { transform: translateY(-12px); } }
 .village { position: relative; display: flex; align-items: flex-end; gap: 4px; min-height: 72px; padding: 8px 10px 14px; margin: 10px 0; border-radius: var(--radius); background: linear-gradient(#cfe6f2, #e8f3f8 70%); overflow: hidden; }
 .village .ground { position: absolute; inset: auto 0 0 0; height: 16px; background: #9cc27e; }
@@ -169,3 +167,21 @@ header.hdr, .homehdr { padding-right: 70px; }
 .opt-pick { white-space: nowrap; font-size: .95rem; padding: 9px 8px; } .opt-pick .bi { margin-right: 6px; } .opt-pick .bi svg { width: 20px; height: 20px; }
 .options.three > .opt:last-child:nth-child(odd) { grid-column: auto; }   /* three options sit in one row (the 2x2 early-check rule above is for the 3-option chain) */
 .options.three .opt-pick .bl { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); } .options.three .opt-pick .bi { margin: 0; }   /* three across: the tick is the button, "This one" is spoken */
+
+/* ---- Tilo (tilo.js): Track A only. body + mouth live in one stage so they never drift apart ---- */
+.tilo { width: 76px; pointer-events: none; user-select: none; -webkit-user-select: none; }
+.tilo.corner { position: fixed; z-index: 30; bottom: calc(8px + env(safe-area-inset-bottom, 0px)); right: max(6px, calc((100vw - 480px) / 2 + 6px)); }
+.tilo.inline { position: relative; width: 104px; flex: none; }
+.tilo-stage { position: relative; width: 100%; aspect-ratio: 225 / 256; transform-origin: 50% 100%; animation: tilo-breathe 3.2s ease-in-out infinite; }
+.tilo-body { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; }
+.tilo-body.on { opacity: 1; }
+.tilo-mouth { position: absolute; }
+.tilo.pop .tilo-stage { animation: tilo-breathe 3.2s ease-in-out infinite, tilo-pop .32s ease-out; }
+.tilo[data-pose="celebrating"] .tilo-stage { animation: tilo-breathe 3.2s ease-in-out infinite, tilo-hop .7s ease-in-out 2; }
+@keyframes tilo-breathe { 0%, 100% { transform: scale(1, 1); } 50% { transform: scale(1.012, 1.022); } }
+@keyframes tilo-pop { 0% { translate: 0 6px; } 60% { translate: 0 -4px; } 100% { translate: 0 0; } }
+@keyframes tilo-hop { 50% { translate: 0 -8px; } }
+@media (prefers-reduced-motion: reduce) { .tilo-stage, .tilo.pop .tilo-stage, .tilo[data-pose="celebrating"] .tilo-stage { animation: none; } }
+.hero .tilo-slot { display: grid; place-items: center; }
+.endscreen .tilo-slot { display: grid; place-items: center; margin: 6px 0; } .endscreen .tilo.inline { width: 132px; }
+.hdr-tilo { display: none; } .track-A .hdr-tilo { display: block; flex: none; } .hdr-tilo .tilo.inline { width: 62px; }

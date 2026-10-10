@@ -1,6 +1,7 @@
-// Home: Track A = Pebble, the village, stickers and the sitting path. Track B = a plain lesson list and words to remember.
-import { h, icon, btn, pebble, village } from './ui.js';
+// Home: Track A = Tilo, the village, stickers and the sitting path. Track B = a plain lesson list and words to remember.
+import { h, icon, btn, village } from './ui.js';
 import { teacher } from './teacher.js';
+import { tilo } from './tilo.js';
 import { LESSONS } from './content.js';
 import { states, LABEL } from './path.js';
 import * as db from './db.js';
@@ -17,7 +18,7 @@ export async function home(app, profile) {
     h('div', { class: 'days', title: 'Days practised (never resets)' }, h('b', {}, String(days)), ' ', days === 1 ? 'day practised' : 'days practised'),
     btn('Who is reading?', 'child', { class: 'btn ghost small', say: 'ui:who', onclick: () => app.onboarding() })));
   if (track === 'A') {
-    s.append(h('div', { class: 'hero' }, pebble('wave'), h('div', {}, h('h1', {}, 'Your sounds'), h('p', { class: 'muted' }, 'Each new sound adds to your village.'))),
+    s.append(h('div', { class: 'hero' }, h('div', { class: 'tilo-slot' }), h('div', {}, h('h1', {}, 'Your sounds'), h('p', { class: 'muted' }, 'Each new sound adds to your village.'))),
       village(prog.village), h('div', { class: 'stickers', 'aria-label': 'Stickers' }, ...(prog.stickers || []).map(x => h('span', {}, x))));
   } else {
     s.append(h('h1', {}, 'Lessons'), h('p', { class: 'muted' }, `Words you can read now: ${countWords(prog)}`));
@@ -51,6 +52,7 @@ export async function home(app, profile) {
   if (track === 'B' && (prog.words || []).length) s.append(h('section', { class: 'lesson' }, h('h3', {}, 'Words to remember'), h('p', { class: 'wordlist' }, prog.words.join(' · '))));
   s.append(h('p', { class: 'muted small foot-note' }, 'Prototype: all voices are a computer voice for now; pictures are placeholders.'));
   app.mount(s);
+  if (track === 'A') tilo.dock(s.querySelector('.tilo-slot'));
   // Home speaks: "Welcome back" on a return visit, then which node to tap; a stall points at that node
   const so = window.__so; const back = days > 0 && !so.homeVisited; so.homeVisited = true;
   const go = track === 'A' ? 'ui:homeGoA' : 'ui:homeGoB';
