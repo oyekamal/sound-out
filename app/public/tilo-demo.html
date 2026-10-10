@@ -8,7 +8,7 @@
   #body{position:absolute;left:0;top:0;width:225px;height:256px}
   .breathe{animation:breathe 3.2s ease-in-out infinite}
   @keyframes breathe{0%,100%{transform:scale(1,1)}50%{transform:scale(1.012,1.022)}}
-  #mouth{position:absolute;height:auto}
+  #mouth{position:absolute}
   .row{display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
   button{border:0;border-radius:999px;padding:12px 20px;font-weight:650;background:#2f6f8f;color:#fff;min-height:48px}
   button.alt{background:#fffdf8;color:#24211d;box-shadow:inset 0 0 0 2px #e3dacb}
@@ -34,7 +34,7 @@ function setPose(p) { if (talking) return; mouth.hidden = true; body.src = M.pos
 function placeMouth(name) {
   const m = M.talk.mouths[name], k = size, f = 225 / (k === '2x' ? 450 : 225);   // stage is 225 css px wide
   mouth.src = m.files[k]; mouth.style.left = m.offset[k][0] * f + 'px'; mouth.style.top = m.offset[k][1] * f + 'px';
-  mouth.style.width = (k === '2x' ? 44 : 22) * f + 'px';  mouth.hidden = false;  // width = file width, not height
+  mouth.style.width = m.size[k][0] * f + 'px'; mouth.style.height = m.size[k][1] * f + 'px'; mouth.hidden = false;  // size comes from the manifest
 }
 fetch('img/tilo/tilo.json').then(r => r.json()).then(j => {
   M = j; body.src = M.poses.idle[size];

@@ -9,10 +9,6 @@
    "1x": "img/tilo/idle_1x.webp",
    "2x": "img/tilo/idle_2x.webp"
   },
-  "speaking": {
-   "1x": "img/tilo/speaking_1x.webp",
-   "2x": "img/tilo/speaking_2x.webp"
-  },
   "listening": {
    "1x": "img/tilo/listening_1x.webp",
    "2x": "img/tilo/listening_2x.webp"
@@ -32,6 +28,10 @@
   "celebrating": {
    "1x": "img/tilo/celebrating_1x.webp",
    "2x": "img/tilo/celebrating_2x.webp"
+  },
+  "speaking": {
+   "1x": "img/tilo/speaking_1x.webp",
+   "2x": "img/tilo/speaking_2x.webp"
   }
  },
  "faces": {
@@ -74,6 +74,32 @@
    "2x": "img/tilo/speaking_2x.webp"
   },
   "mouths": {
+   "mid": {
+    "files": {
+     "1x": "img/tilo/mouth_mid_1x.webp",
+     "2x": "img/tilo/mouth_mid_2x.webp"
+    },
+    "offset": {
+     "1x": [
+      87,
+      82
+     ],
+     "2x": [
+      174,
+      165
+     ]
+    },
+    "size": {
+     "1x": [
+      43,
+      37
+     ],
+     "2x": [
+      86,
+      74
+     ]
+    }
+   },
    "mmm": {
     "files": {
      "1x": "img/tilo/mouth_mmm_1x.webp",
@@ -81,12 +107,22 @@
     },
     "offset": {
      "1x": [
-      98,
-      81
+      87,
+      82
      ],
      "2x": [
-      196,
-      163
+      174,
+      165
+     ]
+    },
+    "size": {
+     "1x": [
+      43,
+      37
+     ],
+     "2x": [
+      86,
+      74
      ]
     }
    },
@@ -97,12 +133,22 @@
     },
     "offset": {
      "1x": [
-      98,
-      81
+      87,
+      82
      ],
      "2x": [
-      196,
-      163
+      174,
+      165
+     ]
+    },
+    "size": {
+     "1x": [
+      43,
+      37
+     ],
+     "2x": [
+      86,
+      74
      ]
     }
    },
@@ -113,28 +159,22 @@
     },
     "offset": {
      "1x": [
-      98,
-      81
+      87,
+      82
      ],
      "2x": [
-      196,
-      163
+      174,
+      165
      ]
-    }
-   },
-   "mid": {
-    "files": {
-     "1x": "img/tilo/mouth_mid_1x.webp",
-     "2x": "img/tilo/mouth_mid_2x.webp"
     },
-    "offset": {
+    "size": {
      "1x": [
-      98,
-      81
+      43,
+      37
      ],
      "2x": [
-      196,
-      163
+      86,
+      74
      ]
     }
    }
@@ -146,5 +186,5 @@
    "ooo"
   ]
  },
- "note": "Per-state files are keyed by size; draw talk.body then overlay talk.mouths[name] at offset[size] (css px = file px / (size 1x:1, 2x:2))."
+ "note": "Per-state files are keyed by size; draw talk.body then overlay talk.mouths[name] at offset[size] with width/height size[size] (css px = file px / (1x:1, 2x:2)); never hardcode the mouth size."
 }
