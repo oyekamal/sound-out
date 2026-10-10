@@ -490,7 +490,7 @@
   "levels": [
    4
   ],
-  "ambiguous": false,
+  "ambiguous": true,
   "must_show_action": false
  },
  "cloud": {
@@ -629,7 +629,7 @@
   "levels": [
    1
   ],
-  "ambiguous": false,
+  "ambiguous": true,
   "must_show_action": false
  },
  "desk": {
@@ -996,7 +996,7 @@
   "levels": [
    4
   ],
-  "ambiguous": false,
+  "ambiguous": true,
   "must_show_action": false
  },
  "head": {
@@ -1224,7 +1224,7 @@
   "levels": [
    4
   ],
-  "ambiguous": false,
+  "ambiguous": true,
   "must_show_action": false
  },
  "knot": {
@@ -1385,7 +1385,7 @@
   "levels": [
    2
   ],
-  "ambiguous": false,
+  "ambiguous": true,
   "must_show_action": false
  },
  "mouse": {
@@ -2011,7 +2011,7 @@
    3,
    4
   ],
-  "ambiguous": false,
+  "ambiguous": true,
   "must_show_action": false
  },
  "tank": {
