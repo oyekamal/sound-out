@@ -62,3 +62,56 @@ Scene pictures were judged visually against their intent summary in `content/pic
 ## Ambiguous (skipped, not judged)
 
 animal, at, bat, boss, brave, busy, caravan, card, cart, chin, cot, count, crumb, dish, dock, dot, engine, fat, field, gate, glue, gum, ham, hard, head, hog, hold, hole, hood, it, jet, key, kid, kind, lamb, lid, lip, mule, new, nose, old, on, proud, rat, sat, sky, string, tank, thin, tool, uncle, up
+
+## Round 2 (36 redone pictures)
+
+Scope: the 36 pictures redone after Round 1 failures, judged on 3 labelled grids (12 per grid) in the scratch folder. Verdict is what a 5-year-old would name on seeing the picture; FAIL lists that wrong name.
+
+| word | file | verdict | what a child would say instead / note |
+|---|---|---|---|
+| brush | brush.webp | PASS | paintbrush with paint |
+| bug | bug.webp | PASS | beetle |
+| bun | bun.webp | PASS | seeded bun |
+| claw | claw.webp | FAIL | bird foot or chicken leg; reads as a foot gripping a branch, not a claw |
+| cot | cot.webp | FAIL | bench or folding chair; no mattress or bed cue |
+| den | den.webp | FAIL | cave or hill with a hole; no animal home cue |
+| dish | dish.webp | PASS | plate with fork and spoon (arrow marks are a minor distraction) |
+| dry | dry.webp | FAIL | towel or sun; drying is implied, not shown |
+| empty | empty.webp | FAIL | cup or milk; interior is filled with pale colour, emptiness not shown |
+| fast | fast.webp | PASS | fast car with speed lines |
+| flute | flute.webp | PASS | recorder or flute |
+| fly | fly.webp | FAIL | bee; the insect is a bee, not a fly |
+| full | full.webp | FAIL | orange juice; glass is not filled to the brim |
+| hawk | hawk.webp | FAIL | owl or bird; big front-facing eyes read as an owl |
+| hop | hop.webp | PASS | bunny jumping with arc |
+| knee | knee.webp | FAIL | leg or bottom with a plaster; joint not clear |
+| lawn | lawn.webp | PASS | lawnmower on striped grass |
+| moth | moth.webp | FAIL | butterfly or bug; cute winged bug, moth cues too weak (previous misread still applies) |
+| napkin | napkin.webp | FAIL | paper, card or tent; no cloth cue |
+| nut | nut.webp | PASS | walnut halves |
+| point | point.webp | PASS | pointing finger at an apple |
+| ride | ride.webp | PASS | child riding a horse |
+| room | room.webp | PASS | room with sofa, lamp and window |
+| sip | sip.webp | PASS | child sipping from a cup |
+| small | small.webp | FAIL | pumpkin; the tiny green ball does not show smallness |
+| snore | snore.webp | PASS | sleeping child with ZZZ and open mouth |
+| snow | snow.webp | PASS | snowman with snowflakes |
+| straw | straw.webp | PASS | drinking straw in a glass; stripes are still candy-cane-like but the glass gives the context |
+| tail | tail.webp | FAIL | fox; the tail is not isolated from the animal |
+| tall | tall.webp | PASS | giraffe beside a small child |
+| thumb | thumb.webp | PASS | hand with thumb circled (weak highlight, borderline) |
+| tie | tie.webp | PASS | blue necktie on a shirt |
+| tube | tube.webp | PASS | toothpaste tube |
+| wait | wait.webp | PASS | child on a bench by a clock |
+| wig | wig.webp | PASS | curly wig on a head form |
+| wind | wind.webp | FAIL | kite; wind is only thin swirl lines |
+
+### Round 2 totals
+
+| Item | Count |
+|---|---|
+| Pictures redone and judged | 36 |
+| PASS | 22 |
+| FAIL | 14 |
+
+FAIL list: claw, cot, den, dry, empty, fly, full, hawk, knee, moth, napkin, small, tail, wind.
