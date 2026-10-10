@@ -13,7 +13,7 @@ export async function listen(ctx) {
   if (ctx.hasClip(`lt:${lid}:title`)) await play(`lt:${lid}:title`);
   for (let i = 0; ctx.hasClip(`lt:${lid}:${i}`); i++) {
     await play(`lt:${lid}:${i}`);
-    pics.append(picture(i, 'picture placeholder'));
+    pics.append(picture(i, 'picture'));
     mark('picture', { chunk: i });
     await wait(300);
   }
@@ -30,8 +30,7 @@ export async function listen(ctx) {
     const q = li.questions[j];
     let pick; const picked = new Promise(r => { pick = r; });
     const answers = h('div', { class: 'answers' }, ...[0, 1, 2].map(k => { const b = h('button', { class: 'answer' }, picture(k + 3 + j, `answer ${k + 1}`)); b.addEventListener('click', () => { b.classList.add('chosen'); mark('listen-answer', { q: j, k }); pick(k); }); b.setAttribute('data-hint', ''); return b; }));
-    s3.append(h('h2', {}, `Question ${j + 1}`), h('p', { class: 'question' }, q), speaker(`q:${lid}:${j}`, { label: 'Hear the question' }), answers,
-      h('p', { class: 'muted small' }, 'Picture answers are placeholders in this prototype.'));
+    s3.append(h('h2', {}, `Question ${j + 1}`), h('p', { class: 'question' }, q), speaker(`q:${lid}:${j}`, { label: 'Hear the question' }), answers);
     await ctx.instruct('ui:listenQ', { stim: () => play(`q:${lid}:${j}`), nudge: 'ui:idlePick' });
     await picked;
     await teacher.right({ kind: 'listen' });   // any picture is accepted for now (placeholders): praise the listening

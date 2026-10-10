@@ -45,7 +45,6 @@ def wait_state(page, pred, what, secs=25):
 
 def onboard(page, track):
     page.wait_for_selector(".whocard"); page.click(f".whocard[data-track={track}]")
-    if page.locator(".langs").count(): page.click(".onboard .skip")
     page.wait_for_selector(".sitting", timeout=25000)
 
 

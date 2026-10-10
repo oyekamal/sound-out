@@ -90,9 +90,7 @@ def main():
                 page.mouse.move(box["x"] + 20, box["y"] + 20); page.mouse.down(); time.sleep(0.8); page.mouse.up(); time.sleep(0.4)
                 check(any(e["type"] == "hold-say" and e["key"] == "ui:child" for e in trace(page)), f"[{track}] press-and-hold speaks 'A child'")
                 check(page.locator(".whocard").count() == 2, f"[{track}] a hold does not activate the card")
-                page.click(f".whocard[data-track={track}]", force=True); page.wait_for_selector(".langs")
-                check(page.locator(".onboard .skip svg").count() > 0, f"[{track}] Skip carries an icon")
-                page.click(".onboard .skip", force=True); page.wait_for_selector(".sitting")
+                page.click(f".whocard[data-track={track}]", force=True); page.wait_for_selector(".sitting")
                 # the first sitting: begin + prompt; then a silent wait climbs the ladder
                 page.wait_for_selector(".screen"); time.sleep(1.2)
                 keys = [e["key"] for e in trace(page, "audio")]
@@ -122,6 +120,19 @@ def main():
                 rep = [i for i in range(1, len(res)) if res[i] == res[i - 1]]
                 check(len(res) >= 60 and not rep, f"[{track}] praise pool: 60 draws, no line twice in a row ({len(set(res))} distinct)")
                 check(("goodWork" not in res) if track == "A" else ("wow" not in res), f"[{track}] track lines respected ({'no goodWork' if track == 'A' else 'no wow'})")
+                # Tilo: child track only
+                vis = page.evaluate("[...document.querySelectorAll('.tilo')].filter(e => !e.hidden && e.offsetParent !== null).length")
+                check((vis == 1) if track == "A" else (vis == 0), f"[{track}] Tilo is {'shown' if track == 'A' else 'absent'} ({vis} visible)")
+                # For grown-ups: Home -> gate -> privacy text, no outside link anywhere
+                page.evaluate("window.__so.app.home()"); page.wait_for_selector(".home .grownups")
+                page.locator(".home .grownups").scroll_into_view_if_needed(); page.click(".home .grownups"); page.wait_for_selector(".gu-wrap")
+                import re as _re
+                def sum_(): a, b = map(int, _re.findall(r"\d+", page.inner_text(".gu-q"))); return a * b
+                page.fill(".gu-in", "1"); page.press(".gu-in", "Enter")
+                check("Not quite" in page.inner_text(".gu-msg"), f"[{track}] a wrong sum is refused with a new sum")
+                page.fill(".gu-in", str(sum_())); page.press(".gu-in", "Enter"); page.wait_for_selector(".privacy")
+                check(page.locator("a[href], [href^=mailto]").count() == 0 and "oyekamal.github.io/sound-out/privacy.html" in page.inner_text(".privacy"), f"[{track}] privacy screen shows the address as text, no link")
+                check(page.locator(".tilo:not([hidden])").count() == 0 or track == "A", f"[{track}] no mascot on the privacy screen")
                 for e in errs: problems.append(f"[{track}] console error: {e}")
                 ctx.close()
             br.close()

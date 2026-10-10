@@ -41,6 +41,7 @@ ARG = lambda k, d=None: sys.argv[sys.argv.index(k) + 1] if k in sys.argv else d
 TRACKS = [ARG("--track")] if ARG("--track") else ["A", "B"]
 FROM, UNTIL = ARG("--from"), ARG("--until")
 PORT = int(ARG("--port", "5317"))                 # --port N --app DIR: serve DIR (e.g. a clean export of HEAD) on its own port
+VP = dict(zip(("width", "height"), map(int, ARG("--vp", "390x844").split("x"))))   # --vp 360x640
 SERVE = Path(ARG("--app", str(ROOT / "app")))
 L1_IDS = [f"L1.{i:02d}" for i in range(1, 15)]
 MASTERY = {"letters": 31, "real": 20, "pseudo": 10, "heart": 24, "context": 6, "dictation": 10, "bdpq": 8}   # course/level-1/mastery-check.md
@@ -155,13 +156,17 @@ SEED = """async ([keys]) => {
 
 
 def run(br, track, start=None, until=None):
-    ctx = br.new_context(viewport={"width": 390, "height": 844}, device_scale_factor=2, has_touch=False, reduced_motion="reduce")
+    ctx = br.new_context(viewport=VP, device_scale_factor=2, has_touch=False, reduced_motion="reduce")
     page = ctx.new_page()
     errors = []
     page.on("console", lambda m: errors.append(m.text) if m.type == "error" else None)
     page.on("pageerror", lambda e: errors.append(str(e)))
     page.goto(URL)
     assert page.title() == "Sound Out", f"wrong app on the port: {page.title()}"
+    # Tilo pose log (child track only): every pose the mascot took, and whether it was ever visible
+    page.evaluate("""() => { window.__poses = new Set(); window.__tiloSeen = false;
+      new MutationObserver(() => { const t = document.querySelector('.tilo'); if (!t) return; if (!t.hidden) window.__tiloSeen = true; if (!t.hidden && t.dataset.pose) window.__poses.add(t.dataset.pose); })
+        .observe(document.body, { subtree: true, childList: true, attributes: true, attributeFilter: ['data-pose', 'hidden'] }); }""")
     n = [0]; seen = set()
     def shot(name):
         n[0] += 1
@@ -169,8 +174,6 @@ def run(br, track, start=None, until=None):
     # onboarding
     page.set_default_timeout(5000); page.wait_for_selector(".whocard"); shot("who-is-reading")
     page.click(f".whocard[data-track={track}]")
-    page.wait_for_selector(".langs"); shot("help-language")
-    page.click(".onboard .skip")
     # the first sitting starts by itself; go home and read the whole path off the screen
     page.wait_for_selector(".sitting"); page.evaluate("window.__so.app.home()"); page.wait_for_selector(".home .node")
     plan = page.evaluate("[...document.querySelectorAll('.home .node[data-key]')].map(b => b.dataset.key)")
@@ -318,6 +321,12 @@ def run(br, track, start=None, until=None):
     if page.locator(".endscreen").count(): page.click(".endscreen .btn.ghost")
     else: shot("STUCK"); page.evaluate("window.__so.app.home()")
     page.wait_for_selector(".home"); time.sleep(0.4); shot("home-after")
+    poses = set(page.evaluate("[...window.__poses]")); tseen = page.evaluate("window.__tiloSeen")
+    if track == "A":
+        want = {"speaking", "listening", "celebrating", "encouraging"} if not start and not until else {"speaking", "listening", "celebrating"}
+        if want - poses: problems.append(f"[A] Tilo never took the poses {sorted(want - poses)} (saw {sorted(poses)})")
+    elif tseen: problems.append(f"[B] Tilo was visible on the grown-up track (poses {sorted(poses)})")
+    print(f"[{track}] Tilo poses seen: {sorted(poses)}")
     # ---- rule checks over the trace ----
     tr = page.evaluate("window.__so.trace"); missing = page.evaluate("window.__so.missing")
     for m in missing: problems.append(f"[{track}] missing audio: {m}")

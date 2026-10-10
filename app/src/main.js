@@ -8,6 +8,7 @@ import { stop } from './audio.js';
 import { initNative } from './native.js';
 import { teacher } from './teacher.js';
 import { tilo } from './tilo.js';
+import { privacyScreen } from './privacy.js';
 import './screens/session/index.js'; // Levels 5-7 practice (Library + session screens)
 
 const root = document.getElementById('app');
@@ -22,6 +23,7 @@ const app = {
     return home(app, profile);
   },
   home() { stop(); return home(app, profile); },
+  privacyInfo() { stop(); return privacyScreen(app); },
   onboarding() { stop(); teacher.track(null); return onboarding(app); },
   async firstSitting(p) { profile = p; teacher.track(p.track); return app.sitting(allSittings(p.track)[0].key); },
   async sitting(key) { stop(); try { await runSitting(app, profile, key); } catch (e) { console.error(e); app.home(); } },

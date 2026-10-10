@@ -6,7 +6,7 @@ import { voice, selfMark, shuffle } from './kit.js';
 export async function write(ctx, S) {
   const W = S.write; const id = S.id;
   const s = ctx.stage();
-  const ta = h('textarea', { class: 'ss-text', rows: 5, placeholder: 'Write your answer here…', 'aria-label': 'Your answer' });
+  const ta = h('textarea', { class: 'ss-text', rows: 5, autocomplete: 'off', autocorrect: 'off', autocapitalize: 'off', spellcheck: 'false', placeholder: 'Write your answer here…', 'aria-label': 'Your answer' });
   s.append(h('h2', {}, 'Write to read'), h('div', { class: 'ss-qrow' }, h('p', { class: 'ss-q' }, W.task), voice(`ss:${id}:write`, 'Hear the task')), ta);
   const first = (W.model || '').split(/(?<=[.!?])\s+/)[0] || '';
   const toks = first.split(/\s+/).filter(Boolean);

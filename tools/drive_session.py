@@ -36,7 +36,7 @@ def run_all(br, problems, url, levels=(5, 6, 7)):
     page.set_default_timeout(6000)
     page.goto(url)
     page.wait_for_selector(".whocard"); page.click(".whocard[data-track=B]")
-    page.wait_for_selector(".langs"); page.click(".onboard .skip")
+    page.wait_for_selector(".sitting")
     # onboarding drops the learner into the first sitting: go home
     page.wait_for_selector(".close, .home");
     if page.locator(".close").count(): page.click(".close")

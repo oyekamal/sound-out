@@ -10,7 +10,8 @@ export async function initNative(app) {
   App.addListener('backButton', () => {
     const el = document.getElementById('app');
     if (el.querySelector('.home')) return App.exitApp();
+    if (el.querySelector('.privacy') || document.querySelector('.gu-wrap')) return app.home();
     if (el.querySelector('.onboard')) return el.querySelector('.existing') ? app.boot() : App.exitApp();
-    app.home();
+    app.home();   // the For grown-ups screen and the grown-up gate also go Home
   });
 }

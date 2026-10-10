@@ -1,6 +1,7 @@
 // Home: Track A = Tilo, the village, stickers and the sitting path. Track B = a plain lesson list and words to remember.
 import { h, icon, btn, village } from './ui.js';
 import { teacher } from './teacher.js';
+import { askGrownup } from './grownup.js';
 import { tilo } from './tilo.js';
 import { LESSONS } from './content.js';
 import { states, LABEL } from './path.js';
@@ -50,7 +51,7 @@ export async function home(app, profile) {
   }
   s.append(level2Teaser(prog, track));
   if (track === 'B' && (prog.words || []).length) s.append(h('section', { class: 'lesson' }, h('h3', {}, 'Words to remember'), h('p', { class: 'wordlist' }, prog.words.join(' · '))));
-  s.append(h('p', { class: 'muted small foot-note' }, 'Prototype: all voices are a computer voice for now; pictures are placeholders.'));
+  s.append(h('div', { class: 'row foot-note' }, btn('For grown-ups', 'lock', { class: 'btn ghost small grownups', say: 'ui:forGrownups', onclick: async () => { if (await askGrownup()) app.privacyInfo(); } })));
   app.mount(s);
   if (track === 'A') tilo.dock(s.querySelector('.tilo-slot'));
   // Home speaks: "Welcome back" on a return visit, then which node to tap; a stall points at that node

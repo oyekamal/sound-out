@@ -126,7 +126,7 @@ def run(br, track):
     page.goto(URL)
     page.set_default_timeout(5000)
     page.wait_for_selector(".whocard"); page.click(f".whocard[data-track={track}]")
-    page.wait_for_selector(".langs"); page.click(".onboard .skip")
+    page.wait_for_selector(".sitting")
     page.wait_for_selector(".sitting"); page.evaluate("window.__so.app.home()"); page.wait_for_selector(".home .node")
     allkeys = page.evaluate("[...document.querySelectorAll('.home .node[data-key]')].map(b => b.dataset.key)")
     pre = f"L{LEVEL}."
