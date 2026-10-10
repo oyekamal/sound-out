@@ -79,47 +79,67 @@ def analyse(path):
     wide = next(yy for yy in range(int(y), mask.shape[0]) if mask[yy].sum() > 1.8 * sw)   # first row wider than the philtrum = where the mouth proper begins
     ocy = (oy.min() + oy.max() + 1) / 2 if len(oy) else 0
     return dict(nend=nend, wide=wide, ocy=ocy, oh=oh, ow=ow, sw=sw, rgb=rgb, d=d, muz=muz, mask=mask, mw=xs.max() - xs.min() + 1, ax=mx.mean(), ay=float(y), box=(xs.min(), ys.min(), xs.max(), ys.max()))
-ref = analyse(f"{SRC}/pose_speaking_raw.png")
-srcs = {"mid": ("pose_speaking", ref)}
-for n in ("mmm", "aaa", "ooo"): srcs[n] = (f"face_{n}", analyse(f"{SRC}/face_{n}_raw.png"))
-scale = {n: ref["mw"] / a["mw"] for n, (_, a) in srcs.items()}       # face px -> pose px (muzzle width = shared feature)
-# the aaa drawing opens much wider than the artist's speaking mouth; cap it so its open mouth is at most 1.15x the original
-scale["aaa"] = min(scale["aaa"], 1.15 * ref["oh"] / srcs["aaa"][1]["oh"])
-# aaa/ooo open far lower/higher than the original on the philtrum: shift each so the OPEN MOUTH is centred on the original's
-dyn = {n: (ref["ocy"] - (ref["ay"] + (a["ocy"] - a["ay"]) * scale[n])) if n in ("aaa", "ooo") else 0.0 for n, (_, a) in srcs.items()}
-def to_pose(n, x, y): a = srcs[n][1]; return ref["ax"] + (x - a["ax"]) * scale[n], ref["ay"] + dyn[n] + (y - a["ay"]) * scale[n]
-ub = [1e9, 1e9, -1e9, -1e9]
-for n, (_, a) in srcs.items():
-    ys, xs = np.where(ndi.binary_dilation(a["mask"], iterations=3))
-    for (x, y) in ((xs.min(), ys.min()), (xs.max() + 1, ys.max() + 1)):
-        px, py = to_pose(n, x, y); ub = [min(ub[0], px), min(ub[1], py), max(ub[2], px), max(ub[3], py)]
-x0 = int(np.floor((ub[0] - PAD) / 3) * 3); y0 = int(np.ceil(max(ub[1] - PAD, ref["nend"] + 1) / 3) * 3)   # never cut into the nostrils
-x1 = int(np.ceil((ub[2] + PAD) / 3) * 3); y1 = int(np.ceil((ub[3] + PAD) / 3) * 3)
-bw, bh = x1 - x0, y1 - y0
-print("muzzle", ref["box"], "box", (x0, y0, x1, y1), "open-mouth px (1024 scale): ref", ref["oh"], ref["ow"], {n: (a["oh"], a["ow"], a["sw"]) for n, (_, a) in srcs.items()})
-print("mouth box (1024):", (x0, y0, x1, y1), "scales", {k: round(v, 3) for k, v in scale.items()})
-def cut(n):
-    """RGBA overlay in pose coords: alpha = distance from the flat muzzle colour; RGB = the artist's pixels."""
-    _, a = srcs[n]; al = np.clip((a["d"] - 2) / 22, 0, 1) * ndi.binary_dilation(a["mask"], iterations=5)
-    # un-mix against the flat muzzle: alpha*C + (1-alpha)*MUZ == the artist's pixel, so edges composite back exactly (no halo, rim kept)
+ref = analyse(f"{SRC}/pose_speaking_raw.png"); aaa = analyse(f"{SRC}/face_aaa_raw.png")
+K = 1.5                                      # critic + Kamal: mouths read too small on a phone, so everything is 1.5x the artist's speaking mouth
+AX = ref["ax"]; TOP = ref["ay"]              # philtrum x centre / top, from the original art
+PH_W = ref["sw"] * K                         # nose-line stroke scales with the mouth (12 px at 1024)
+def med(a, m): return tuple(np.median(a[m], axis=0))
+PH = med(ref["rgb"], (ref["mask"] & (np.abs(np.arange(1024)[None, :] - AX) < 2) & (np.arange(1024)[:, None] > TOP + 8) & (np.arange(1024)[:, None] < TOP + 22)))
+aop = ndi.binary_opening(aaa["mask"], iterations=aaa["sw"] // 2 + 2); arg = aaa["rgb"]
+PINK = med(arg, aop & (arg[:, :, 0] > 215) & (arg[:, :, 1] > 100)); DARK = med(arg, aop & (arg[:, :, 0] < 150))
+MUZ_BOTTOM = ref["box"][3]
+# open-mouth centre: the original's, nudged up so the 1.5x bottom edge stays inside the muzzle (it is only ~13 px from the bottom edge)
+CY_MID = ref["ocy"] - 3; MID_H = ref["oh"] * K
+AAA_CY = ref["ocy"] - 5.5; AAA_BOTTOM = CY_MID + MID_H / 2; AAA_H = 2 * (AAA_BOTTOM - AAA_CY)
+ROI = (399, 351, 624, 489)                   # canvas in pose coords (multiples of 3), big enough for every mouth
+rw, rh = ROI[2] - ROI[0], ROI[3] - ROI[1]
+def art_mouth(a, t, cy, sx=1.0):
+    """The artist's mouth proper (philtrum rows dropped), scaled by t about its open centre, landed on (AX, cy). Un-mixed against flat muzzle, so edges are exact."""
+    rows = np.arange(a["rgb"].shape[0])[:, None]
+    al = np.clip((a["d"] - 2) / 22, 0, 1) * ndi.binary_dilation(a["mask"], iterations=5) * (rows >= a["wide"] - 3)
     C = (np.array(MUZ, np.float32) + (a["rgb"] - np.array(MUZ, np.float32)) / np.maximum(al, 1e-3)[:, :, None]).clip(0, 255)
     pm = np.dstack([C * al[:, :, None], al * 255]).clip(0, 255).astype(np.uint8)
-    sc = scale[n]; fx0 = a["ax"] + (x0 - ref["ax"]) / sc; fy0 = a["ay"] + (y0 - ref["ay"] - dyn[n]) / sc
-    r = np.array(Image.fromarray(pm, "RGBA").resize((bw, bh), Image.LANCZOS, box=(fx0, fy0, fx0 + bw / sc, fy0 + bh / sc))).astype(np.float32)
+    sx0 = a["ax"] + (ROI[0] - AX) / (t * sx); sy0 = a["ocy"] + (ROI[1] - cy) / t
+    r = np.array(Image.fromarray(pm, "RGBA").resize((rw, rh), Image.LANCZOS, box=(sx0, sy0, sx0 + rw / (t * sx), sy0 + rh / t))).astype(np.float32)
     ra = r[:, :, 3:4] / 255; rgb = np.where(ra > 0.003, r[:, :, :3] / np.maximum(ra, 0.003), 0)
-    return Image.fromarray(np.dstack([rgb, r[:, :, 3:4]]).clip(0, 255).astype(np.uint8), "RGBA")
-mouths = {n: cut(n) for n in srcs}
-# every overlay shares the artist's own philtrum (same stroke width) down to where its mouth proper starts, so frames never step or flicker there
-for n in ("mmm", "aaa", "ooo"):
-    yw = int(min(to_pose(n, 0, srcs[n][1]["wide"])[1], ref["wide"])) - 2 - y0
-    c0 = int(ref["ax"] - x0 - 8); r0 = int(ref["ay"] - y0) - 2
-    if yw > r0:
-        mo = np.array(mouths[n]); mo[r0:yw, c0:c0 + 16] = np.array(mouths["mid"])[r0:yw, c0:c0 + 16]; mouths[n] = Image.fromarray(mo, "RGBA")
+    return Image.fromarray(np.dstack([rgb, r[:, :, 3:4]]).clip(0, 255).astype(np.uint8), "RGBA"), a["ay"]
+SS = 4
+def blank(): return Image.new("RGBA", (rw * SS, rh * SS), (0, 0, 0, 0))
+def P(x, y): return ((x - ROI[0]) * SS, (y - ROI[1]) * SS)
+def ell(d, cx, cy, w, h, col): d.ellipse((*P(cx - w / 2, cy - h / 2), *P(cx + w / 2, cy + h / 2)), fill=tuple(int(c) for c in col) + (255,))
+def bar(d, y_end):                           # philtrum: same colour as the art, stroke scaled with the mouth, round top
+    d.rounded_rectangle((*P(AX - PH_W / 2, TOP), *P(AX + PH_W / 2, y_end)), radius=PH_W / 2 * SS, fill=tuple(int(c) for c in PH) + (255,))
+def done(im): return im.resize((rw, rh), Image.LANCZOS)
+def over(under, top): u = under.copy(); u.alpha_composite(top); return u
+mouths = {}
+# mid: the artist's own half-open mouth, 1.5x
+m, _ = art_mouth(ref, K, CY_MID); b = blank(); bar(ImageDraw.Draw(b), CY_MID - MID_H / 2 + 10); mouths["mid"] = over(done(b), m)
+# aaa: the artist's wide-open drawing, scaled so it is as tall as the muzzle allows
+t_aaa = AAA_H / aaa["oh"]; m, _ = art_mouth(aaa, t_aaa, AAA_CY, 1.12)   # 12% wider so it reads at phone size (>=16 px wide at 200 px tall)
+b = blank(); bar(ImageDraw.Draw(b), AAA_CY - AAA_H / 2 + 10); mouths["aaa"] = over(done(b), m)
+# ooo: filled, rounder dark oval with a pink lower lip (colours sampled from the artist's aaa mouth)
+OW, OH_, OCY = 46, 56, CY_MID - 1
+b = blank(); d = ImageDraw.Draw(b); bar(d, OCY - OH_ / 2 + 10); ell(d, AX, OCY, OW, OH_, DARK)
+lip = blank(); ld = ImageDraw.Draw(lip); ell(ld, AX, OCY + OH_ / 2 - 11, OW * 0.66, 15, PINK)
+clip = blank(); ell(ImageDraw.Draw(clip), AX, OCY, OW, OH_, (255, 255, 255)); lip.putalpha(Image.fromarray(np.minimum(np.array(lip)[:, :, 3], np.array(clip)[:, :, 3])))
+b.alpha_composite(lip); mouths["ooo"] = done(b)
+# mmm: flat closed-lips line, a slight curve at most, stroke = the scaled nose-line weight
+LW, LY, LD = 74, CY_MID - 2, 4
+b = blank(); d = ImageDraw.Draw(b); bar(d, LY)
+pts = [P(AX + (i / 24 - .5) * LW, LY + LD * (1 - (2 * i / 24 - 1) ** 2)) for i in range(25)]   # ends lifted by LD: gentle smile at most
+d.line(pts, fill=tuple(int(c) for c in PH) + (255,), width=int(PH_W * SS), joint="curve")
+for q in (pts[0], pts[-1]): d.ellipse((q[0] - PH_W * SS / 2, q[1] - PH_W * SS / 2, q[0] + PH_W * SS / 2, q[1] + PH_W * SS / 2), fill=tuple(int(c) for c in PH) + (255,))
+mouths["mmm"] = done(b)
+# ---- mouth box = union of every overlay + PAD, on the 3 px grid; never above the nostrils ----
+al_u = np.max([np.array(v)[:, :, 3] for v in mouths.values()], axis=0) > 8; ys, xs = np.where(al_u)
+x0 = int(np.floor((ROI[0] + xs.min() - PAD) / 3) * 3); x1 = int(np.ceil((ROI[0] + xs.max() + 1 + PAD) / 3) * 3)
+y0 = int(np.ceil(max(ROI[1] + ys.min() - PAD, ref["nend"] + 1) / 3) * 3); y1 = int(np.ceil((ROI[1] + ys.max() + 1 + PAD) / 3) * 3)
+bw, bh = x1 - x0, y1 - y0
+mouths = {n: v.crop((x0 - ROI[0], y0 - ROI[1], x1 - ROI[0], y1 - ROI[1])) for n, v in mouths.items()}
+print("muzzle", ref["box"], "mouth box", (x0, y0, x1, y1))
+for n, v in mouths.items(): print(n, "visible bbox (1024):", (lambda yy, xx: (x0 + xx.min(), y0 + yy.min(), x0 + xx.max() + 1, y0 + yy.max() + 1))(*np.where(np.array(v)[:, :, 3] > 128)))
 # ---- speaking body WITHOUT a mouth: the muzzle is one flat colour, so repaint the whole mouth box with it (no trace) ----
-# keep the artist's philtrum down to just above where the highest mouth proper begins (each overlay redraws its own philtrum on top)
-yp = int(min(to_pose(n, 0, a["wide"])[1] for n, (_, a) in srcs.items())) - 3
-keep = np.zeros((y1 - y0, x1 - x0), bool); keep[:max(0, yp - y0), int(ref["ax"] - x0 - 8):int(ref["ax"] - x0 + 8)] = True
-base = speaking_cut.copy(); fill = ref["muz"][y0:y1, x0:x1] & ~keep; base[y0:y1, x0:x1, :3][fill] = MUZ   # muzzle pixels only; corners of the box outside the muzzle are left alone
+base = speaking_cut.copy(); fill = ref["muz"][y0:y1, x0:x1]; base[y0:y1, x0:x1, :3][fill] = MUZ   # muzzle pixels only
 files = {}
 for k, im in sized(base).items(): files[k] = save(im, f"speaking_{k}")
 manifest["poses"]["speaking"] = files
